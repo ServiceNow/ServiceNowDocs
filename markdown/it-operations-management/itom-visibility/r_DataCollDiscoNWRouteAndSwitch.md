@@ -2,6 +2,7 @@
 title: Network switch and router discovery
 description: Discovery identifies and classifies information about network switches and routers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/r\_DataCollDiscoNWRouteAndSwitch.html
 release: zurich
 product: ITOM Visibility
 classification: itom-visibility
@@ -15,7 +16,7 @@ breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM V
 
 Discovery identifies and classifies information about network switches and routers.
 
-Network switches and routers often have very similar capabilities. It is very common for some switches known as Layer 3 switches to have IP routing. Larger routers with optional modules might accept switching modules. Because of these overlaps and the resulting ambiguity of a particular device's classification, Discovery collects the same data for both routers and switches, if it is available in any given device. For details on how Discovery collects data about connections between network devices and other components, see [Layer 2 discovery](../concept/c_Layer2Discovery.md#).
+Network switches and routers often have very similar capabilities. It is very common for some switches known as Layer 3 switches to have IP routing. Larger routers with optional modules might accept switching modules. Because of these overlaps and the resulting ambiguity of a particular device's classification, Discovery collects the same data for both routers and switches, if it is available in any given device. For details on how Discovery collects data about connections between network devices and other components, see [Layer 2 discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_Layer2Discovery.md).
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -61,13 +62,13 @@ Sets a maximum number of scheduled invocations of the same Discovery schedule. I
 **Note:** This property does not apply to schedules that have a 'Run after' configuration set to 'Even if canceled'.
 
 </td></tr></tbody>
-</table>For a list of properties used in discovery in general, see [Discovery properties](r_DiscoveryProperties.md).
+</table>For a list of properties used in discovery in general, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryProperties.md).
 
 ## Credentials
 
-Discovery explores many kinds of devices, such as switches, routers, and printers, using the SNMP protocol. SNMP Community Credentials do not include a user name, just a password, which is the community string. The default read-only community string for many SNMP devices is public, and Discovery will try that automatically. SNMPv3 credentials require a user name and a key, depending on the protocol selected. Enter the appropriate [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) if they differ from the public community string.
+Discovery explores many kinds of devices, such as switches, routers, and printers, using the SNMP protocol. SNMP Community Credentials do not include a user name, just a password, which is the community string. The default read-only community string for many SNMP devices is public, and Discovery will try that automatically. SNMPv3 credentials require a user name and a key, depending on the protocol selected. Enter the appropriate SNMP credentials if they differ from the public community string.
 
-**Note:** SSH is not supported for routers and switches, but is supported for [load balancers](../concept/c_LoadBalancers.md).
+**Note:** SSH is not supported for routers and switches, but is supported for [load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancers.md).
 
 ## Classifier, pattern, and probes
 
@@ -99,14 +100,14 @@ Standard Network RouterStandard Network Switch
 
 </td><td>
 
-[Network Router](../../service-mapping/reference/network-router-patterns.md)[Network Switch](../../service-mapping/reference/network-switch-patterns.md)
+[Network Router](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)[Network Switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/network-switch-patterns.md)
 
 </td></tr></tbody>
 </table>\*For new instances, these probes are inactive on the classifier. Discovery uses patterns for discovery.
 
 ^This probe remains active by default for the Standard Network Router classifier, even when Discovery uses pattern discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Discovering stacked switches
 
@@ -1221,8 +1222,8 @@ Interface Number
 SNMP, dot1dBridge MIB
 
 </td></tr></tbody>
-</table>-   **[Turn off collection of port data for SNMP network devices](../task/t_TurnOffCollectionOfPortData.md)**  
+</table>-   **[Turn off collection of port data for SNMP network devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/t_TurnOffCollectionOfPortData.md)**  
 In some environments you may not want to collect the port data for SNMP network devices.
 
-**Parent Topic:**[Network device discovery](../concept/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

@@ -2,6 +2,7 @@
 title: Modify an information object within a processing activity
 description: Add details such as justification for storing data to an information object after you add it to the processing activity. Adding details enables you to define how the personal data is being processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/edit-an-io-on-a-pa.html
 release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
@@ -132,5 +133,5 @@ Reasons for storing and using the personal data.
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Create or manage an information object within a processing activity](create-manage-io-on-pa.md)
+**Parent Topic:**[Create or manage an information object within a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/create-manage-io-on-pa.md)
 

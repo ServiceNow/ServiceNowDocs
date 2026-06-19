@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 description: Frequently asking question about using Access Simulator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/faq-access-simulator.html
 release: zurich
 product: Access Control
 classification: access-control

@@ -2,6 +2,7 @@
 title: Activate Granular Delegation
 description: You can activate the Granular Delegation plugin \(com.glide.granular\_service\_delegation\) for the ServiceNow AI Platform if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/granular-delegation/activate-granular-delegation.html
 release: zurich
 product: Granular Delegation
 classification: granular-delegation
@@ -33,6 +34,6 @@ If the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is activated
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

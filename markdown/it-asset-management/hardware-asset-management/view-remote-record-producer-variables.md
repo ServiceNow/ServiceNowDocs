@@ -2,13 +2,14 @@
 title: View the variables of a remote record producer
 description: View the variables associated with your provider's remote record producer. Variables help you identify the necessary details to include in catalog requests for fulfillment by your provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/view-remote-record-producer-variables.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage Service Catalog items for the Zero Touch request flow, Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage Service Catalog items, Manage Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # View the variables of a remote record producer

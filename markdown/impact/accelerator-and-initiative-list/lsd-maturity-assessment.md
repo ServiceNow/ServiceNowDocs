@@ -2,6 +2,7 @@
 title: LSD Maturity Assessment
 description: This accelerator assesses your current Legal Service Delivery \(LSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/accelerator-and-initiative-list/lsd-maturity-assessment.html
 release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

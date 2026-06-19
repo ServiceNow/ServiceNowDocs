@@ -2,6 +2,7 @@
 title: Employee Center \(EC\) homepage journey tabs widget
 description: The Service Portal Designer contains a library of widgets to add to a service portal. The EC homepage journey tabs widget displays key details related to users' journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-designer/jny-dsgnr-ec-hp-widget.html
 release: zurich
 product: Journey Designer
 classification: journey-designer
@@ -30,8 +31,8 @@ Administrators can add the **EC homepage journey tabs** to their organizations E
     Journey owners with active journeys for their team see the **Team journeys** tab.
 
 
--   **[Add Journey designer widget](../task/jny-dsgnr-ec-jrny-tab-widget.md)**  
+-   **[Add Journey designer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-ec-jrny-tab-widget.md)**  
 The Journey designer widget is not on the Employee Center home page by default. An administrator must add it.
 
-**Parent Topic:**[Configure Journey designer features](jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

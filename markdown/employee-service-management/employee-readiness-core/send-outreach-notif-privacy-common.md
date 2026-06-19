@@ -2,6 +2,7 @@
 title: Send an Emergency Outreach notification for employee privacy consents
 description: Send an Emergency Outreach notification, on demand, to employees to provide a privacy policy and seek consent to use of their data in accordance with the privacy policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-readiness-core/send-outreach-notif-privacy-common.html
 release: zurich
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -17,9 +18,9 @@ Send an Emergency Outreach notification, on demand, to employees to provide a pr
 
 ## Before you begin
 
-Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](../../business-continuity/task/install-emergency-outreach.md#).
+Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/emergency-outreach/install-emergency-outreach.md).
 
-Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin
 
@@ -35,7 +36,7 @@ Role required: sn\_imt\_checkin.checkin\_admin
 
 3.  On the **Safe Workplace Audience** tab, select the audience from the list and click **Save**.
 
-    If you don't have an audience defined, click **New** and define an audience from user lists, groups, departments, locations, and so on. After you save the Safe Workplace audience, you can use it to send any outreach message.For more information, see [Add a Safe Workplace audience](add-safe-workplace-audience.md).
+    If you don't have an audience defined, click **New** and define an audience from user lists, groups, departments, locations, and so on. After you save the Safe Workplace audience, you can use it to send any outreach message.For more information, see [Add a Safe Workplace audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/add-safe-workplace-audience.md).
 
 4.  On the **Content configuration** tab, select **Privacy Consent \(common\)** in the **Response mode** field.
 
@@ -45,7 +46,7 @@ Role required: sn\_imt\_checkin.checkin\_admin
 
     When enabled, the privacy statement text in Location Privacy Configuration takes precedence over text in the privacy consent templates. This text is used for the outreach, system notification email, and push notification. If you need to update the text that users receive, you must change the location's privacy statement.
 
-    For more information on updating a location's privacy statement, see [Generate location-based privacy configurations](generate-location-common-privacy-configuration.md).
+    For more information on updating a location's privacy statement, see [Generate location-based privacy configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md).
 
 7.  Select a notification in the **Notification** field and choose how to send the notification.
 
@@ -73,9 +74,9 @@ Role required: sn\_imt\_checkin.checkin\_admin
 
 The notification is sent to the target audience.
 
-**Note:** The outreach notification is not sent to any users in the selected audience who do not have a location set in their user profile or whose privacy consent is disabled in the [location privacy configuration](generate-location-common-privacy-configuration.md).
+**Note:** The outreach notification is not sent to any users in the selected audience who do not have a location set in their user profile or whose privacy consent is disabled in the [location privacy configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md).
 
 If you need to resend the notification, navigate to **Emergency Outreach** &gt; **View Outreaches**, select the outreach, and click **Resend Notification**.
 
-**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](../concept/employee-readiness-core-privacy-consent.md)
+**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
 

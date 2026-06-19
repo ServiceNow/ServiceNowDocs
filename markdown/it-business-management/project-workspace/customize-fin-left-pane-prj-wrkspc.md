@@ -2,6 +2,7 @@
 title: Customize the left pane view for financials
 description: Customize the left pane for financials to view custom field information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/customize-fin-left-pane-prj-wrkspc.html
 release: zurich
 product: Project Workspace
 classification: project-workspace
@@ -29,13 +30,9 @@ Role required: admin
 
 4.  Select the financials view by navigating to **List controls** &gt; **View** &gt; **Financials View**.
 
-    ![Select financial view.](../../spw-financials/images/fin-cost-plan-fin-view-selection-gif.gif)
-
-    The selected view \(![Cost plan financials view.](../../spw-financials/images/financials-view-cost-plan-table.png)\) is displayed on the header.
+    The selected view is displayed on the header.
 
 5.  Select the header options to configure list layout.
-
-    ![Configure list layout option selection.](../../spw-financials/images/financials-config-list-layout-gif.gif)
 
 6.  Add or remove the fields in the Selected column to customize the left pane view in financials view.
 
@@ -46,5 +43,5 @@ Role required: admin
 
 Cost plans table with customized fields for Financials View is displayed.
 
-**Parent Topic:**[Configure financials for Project Workspace](../concept/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/config-fin-pws.md)
 

@@ -2,6 +2,7 @@
 title: Employee portal
 description: All employees in an organization can access the Employee portal using the Critical Event Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/critical-event-management/employee-center-portal-overview.html
 release: zurich
 product: Critical Event Management
 classification: critical-event-management
@@ -17,7 +18,7 @@ All employees in an organization can access the Employee portal using the Critic
 
 To access the employee portal, log in to the employee center and navigate to **Health and Safety** &gt; **Workplace Emergency**. All employees are assigned the sn\_critical.user role automatically. This role enables the employee to report an emergency and view emergency procedures.
 
-To learn about reporting an emergency as an employee, see [Report a critical event as an employee](../task/report-a-critical-event-as-an-employee.md).
+To learn about reporting an emergency as an employee, see [Report a critical event as an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/critical-event-management/report-a-critical-event-as-an-employee.md).
 
 ## Emergency procedures
 

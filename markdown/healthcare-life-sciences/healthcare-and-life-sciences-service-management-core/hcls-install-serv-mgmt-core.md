@@ -2,6 +2,7 @@
 title: Install Healthcare and Life Sciences Service Management Core
 description: You can install the Healthcare and Life Sciences Service Management Core application \(sn\_hcls\) if you have the admin role. The application includes demo data Healthcare and Life Sciences Service Management Core and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-install-serv-mgmt-core.html
 release: zurich
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -33,7 +34,7 @@ The following items are installed with Healthcare and Life Sciences Service Mana
 
 The Healthcare and Life Sciences Service Management Core application is dependent on the Product Catalog Management Core, CIWF UI Components, and Industry Core applications.
 
-For more information, see [Components installed with Healthcare and Life Sciences Service Management Core](../reference/hcls-components-installed-serv-mgmt.md).
+For more information, see [Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ For more information, see [Components installed with Healthcare and Life Science
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 

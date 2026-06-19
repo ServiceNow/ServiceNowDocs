@@ -2,6 +2,7 @@
 title: Investment Funding
 description: ServiceNow Investment Funding enables you to plan and manage investments by allocating funds to investment entities such as Business Units, Products, Teams, and the like. Prioritize your investments based on business needs and strategic objectives of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/investment-funding/investment-funding-overview.html
 release: zurich
 product: Investment Funding
 classification: investment-funding
@@ -51,36 +52,36 @@ Investment Funding enables you to manage funds for both funding approaches.
 
 ## Domain separation in Investment Funding
 
-[Domain separation](domain-separation-investment-funding.md) provides complete data isolation for domain-specific users. Investment Funding is compliant with domain separation at the **Data only** level.
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/domain-separation-investment-funding.md) provides complete data isolation for domain-specific users. Investment Funding is compliant with domain separation at the **Data only** level.
 
--   **[Install Investment Funding](../task/activate-investment-funding.md)**  
+-   **[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/activate-investment-funding.md)**  
 You can install the Investment Funding application \(sn\_invst\_pln\_v2\) from ServiceNow Store if you have the admin role.
--   **[Upgrading legacy Investment Funding to Store application](upgrading-legacy-investment-funding-to-store.md)**  
+-   **[Upgrading legacy Investment Funding to Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/upgrading-legacy-investment-funding-to-store.md)**  
 If you are upgrading from the legacy Investment Funding, post installation of the Investment Funding application, you can migrate your existing data to the ServiceNow Store application tables. Also, you must update the reference tables for the **Investment** and **Funding Entity** fields to the ServiceNow Store application tables.
--   **[Investment Funding administration](investment-funding-administration.md)**  
+-   **[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/investment-funding-administration.md)**  
 The Investment Funding application requires you to do some initial administrative tasks for it to be fully functional.
--   **[Create a top-level investment](../task/create-top-level-investment.md)**  
+-   **[Create a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-top-level-investment.md)**  
 Create a top-level investment for the investment entity record for which you want to receive and allocate funds.
--   **[Create an investment](../task/create-investment.md)**  
+-   **[Create an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/create-investment.md)**  
 Create an investment to fund a target.
--   **[Co-owners for an investment](co-owner-for-investments.md)**  
+-   **[Co-owners for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/co-owner-for-investments.md)**  
 Investment co-owners manage, request, and allocate funds on your behalf to the investments that you own. The co-owner has the same rights and permissions as the owner.
--   **[Request funds for an investment](../task/request-funds-for-investment.md)**  
+-   **[Request funds for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/request-funds-for-investment.md)**  
 Request funds from a funding source for your investment.
--   **[Plan fund allocations for investments](../task/plan-fund-allocations-for-investments.md)**  
+-   **[Plan fund allocations for investments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/plan-fund-allocations-for-investments.md)**  
 Plan your fund allocations if you are not yet ready to finalize the allocation of your funds.
--   **[Allocate funds to an investment](../task/allocate-funds-to-investment.md)**  
+-   **[Allocate funds to an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/allocate-funds-to-investment.md)**  
 Allocate funds to investments based on your business goals and available funds.
--   **[Enter actual spends for an investment](../task/enter-actuals-for-investment.md)**  
+-   **[Enter actual spends for an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/enter-actuals-for-investment.md)**  
 Enter actual spends for your investments to track fund utilization.
--   **[Reject a fund request](../task/reject-fund-requests.md)**  
+-   **[Reject a fund request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/reject-fund-requests.md)**  
 You can reject an incoming fund request based on your business priorities or if you do not have sufficient funds.
--   **[Review the use of your funds](../task/track-funds.md)**  
+-   **[Review the use of your funds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/track-funds.md)**  
 Review the flow of your funds from your investment to other investments to make an informed decision when you allocate or request funds.
--   **[View past funding details](../task/view-past-funding-details.md)**  
+-   **[View past funding details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/view-past-funding-details.md)**  
 View the past funding details of your investments.
--   **[Domain separation and Investment Funding](domain-separation-investment-funding.md)**  
+-   **[Domain separation and Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/investment-funding/domain-separation-investment-funding.md)**  
 Domain separation is supported in Investment Funding. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Strategic Portfolio Management](../../it-business-management/reference/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
 

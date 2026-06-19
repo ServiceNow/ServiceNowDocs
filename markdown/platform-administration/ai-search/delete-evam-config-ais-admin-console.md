@@ -2,6 +2,7 @@
 title: Delete an EVAM view configuration
 description: Delete unnecessary Entity View Action Mapper \(EVAM\) view configuration from your AI Search application at any time to keep the application clean and organized
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/delete-evam-config-ais-admin-console.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -31,12 +32,12 @@ Role required: admin or ais\_admin
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Select the **More Actions icon \(![More actions.](../../localization-framework/image/more-actions-icon.png)\)** &gt; **Delete** at the end of the view configuration row that you want to delete.
+5.  Select the **More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions.\)** &gt; **Delete** at the end of the view configuration row that you want to delete.
 
 
 ## Result
 
 The selected view configuration is permanently deleted.
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

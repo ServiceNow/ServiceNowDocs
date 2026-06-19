@@ -2,6 +2,7 @@
 title: Playbook for Typo Squatted Domain
 description: This playbook provides systematic procedures for investigating misspelled domains and collaborating with the organization’s legal department for take-downs. Typo Squatted domains are intentionally misspelled domain names that closely resemble legitimate ones. Attackers take advantage of spelling errors to lead them to an ill-intended website for financial exploitation or other malicious activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/playbook-typo-squatted-domain.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
@@ -19,10 +20,10 @@ The Typo Squatted Domains are reported to the Security Operations Team from diff
 
 The workflow is created based on an existing playbook, which provides a consistent and efficient approach for incident investigation. Each decision point in the playbook has been converted into an outcome-driven task and the flow changes direction based on the outcome of such tasks.
 
--   **[Set up the Typo Squatted Domain playbook](../task/playbook-setup-typo-squatted-domain.md)**  
+-   **[Set up the Typo Squatted Domain playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-setup-typo-squatted-domain.md)**  
 Use the following steps to set up the Typo Squatted Domain playbook.
--   **[Use the Typo Squatted Domain playbook](../task/playbook-using-typo-squatted-domain.md)**  
+-   **[Use the Typo Squatted Domain playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-using-typo-squatted-domain.md)**  
 Use this playbook to investigate misspelled domains and collaborating with the organization’s legal department for take-downs. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Typo Squatted Domain playbook.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/playbook-flow-based.md)
 

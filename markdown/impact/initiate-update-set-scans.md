@@ -2,7 +2,10 @@
 title: Initiate update set scans
 description: You can scan open update sets for findings to get insights into what you are importing and exporting across your environments. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/initiate-update-set-scans.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1

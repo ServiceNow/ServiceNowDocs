@@ -2,6 +2,7 @@
 title: Reassign a work order task to an agent on a mobile device
 description: As a manager, you can reassign a work order task to an agent through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/reassign-work-order-task.html
 release: zurich
 product: Work Order Management
 classification: work-order-management
@@ -30,7 +31,7 @@ Role required: wm\_ext\_manager
     -   Tap the **Today's tasks** screen.
 3.  Review the work order task.
 
-4.  On the work order task, tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  On the work order task, tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap the **Reassign task** function.
 

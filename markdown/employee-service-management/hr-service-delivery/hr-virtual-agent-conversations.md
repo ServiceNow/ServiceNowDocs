@@ -2,6 +2,7 @@
 title: Virtual Agent for HR Service Delivery
 description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,13 +20,13 @@ Virtual Agent enhances the employee experience by addressing queries immediately
 
 At any time during a virtual chat, the employee can request to interact with a live HR agent.
 
-For more information, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information, see Virtual Agent.
 
 ## Predefined Virtual Agent topics for HR Service Delivery
 
-The base system provides the predefined Virtual Agent topics \(chatbot conversations\) designed to help your customers complete common self-service HR tasks. These topics are not published and found under the Virtual Agent Designer. For more information, see [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+The base system provides the predefined Virtual Agent topics \(chatbot conversations\) designed to help your customers complete common self-service HR tasks. These topics are not published and found under the Virtual Agent Designer. For more information, see Virtual Agent Designer.
 
-For more information on predefined virtual agent topics, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://www.servicenow.com/docs/access?context=prebuilt-topics-ITSM&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information on predefined virtual agent topics, see .
 
 The following predefined, HR Service Delivery Virtual Agent topics are available:
 
@@ -54,13 +55,11 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 -   Check Case status \(Template\)
 -   Employee Info Update \(Template\)
 
-**Note:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately.
-
-**Warning:** General HR Inquiry is no longer available as one of the predefined topics.
+**Warning:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately. General HR Inquiry is no longer available as one of the predefined topics.
 
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
-For more information, see [Designing a Virtual Agent topic](https://www.servicenow.com/docs/access?context=design-va-topic&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information, see Designing a Virtual Agent topic.
 
 ## Custom portals and ticket page
 
@@ -72,17 +71,15 @@ If your company has created a custom portal and/or ticket page, and you want the
 -   Value: /escServiceNow?id= new\_ticket\_page&amp;sys\_id=\{\{data.sys\_id\}\}
 -   Application: Global
 
-**Note:** See [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** See Add a system property.
 
 ## Natural Language Understanding \(NLU\) support
 
 You can set up HR Service Delivery Virtual Agent to use Natural Language Understanding \(NLU\) to understand word meanings and word contexts to infer user or system actions.
 
-For more information about NLU and the NLU Workbench, see [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US) and [Activate the NLU Workbench](https://www.servicenow.com/docs/access?context=activate-nlu-workbench&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information about NLU and the NLU Workbench, see Natural Language Understanding and Activate the NLU Workbench.
 
-Also, see [Natural Language Understanding in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
-
-**Note:** This feature is only available with the HR Professional and HR Enterprise packages.
+Also, see Natural Language Understanding in Virtual Agent.
 
 ## Reusable HR Service Delivery Virtual Agent topic blocks
 
@@ -105,23 +102,23 @@ The following predefined, reusable topic blocks are:
 -   Search Catalog Item
 -   Pause
 
-The Topics page in Virtual Agent Designer features a sort tab called **Topic Blocks** for viewing just the reusable topic functions. For detailed information about HR Service Delivery Virtual Agent, refer to [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://www.servicenow.com/docs/access?context=prebuilt-topics-ITSM&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+The Topics page in Virtual Agent Designer features a sort tab called **Topic Blocks** for viewing just the reusable topic functions. For detailed information about HR Service Delivery Virtual Agent, refer to .
 
 ## Integration with messaging applications
 
 Your employees can hold Virtual Agent conversations using Slack, a third-party messaging application.
 
-For more information, see [Virtual Agent integration with messaging apps](https://www.servicenow.com/docs/access?context=va-integration-messaging-apps&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For more information, see Virtual Agent integration with messaging apps.
 
-For information on configuring Virtual Agent notifications for certain channels such as Slack, see [Setting up Virtual Agent notifications](https://www.servicenow.com/docs/access?context=configuring-va-notifications&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For information on configuring Virtual Agent notifications for certain channels such as Slack, see Setting up Virtual Agent notifications.
 
 ## Topic Recommendations for HR Service Delivery Virtual Agent
 
-Get pre-built topics or create new topics from the recommended topics for HR Service Delivery Virtual Agent using the default configuration sn\_hr\_core\_case in the Topic Recommendations settings. For more information, see [Topic Recommendations settings](https://www.servicenow.com/docs/access?context=tr-settings-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+Get pre-built topics or create new topics from the recommended topics for HR Service Delivery Virtual Agent using the default configuration sn\_hr\_core\_case in the Topic Recommendations settings. For more information, see .
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://www.servicenow.com/docs/access?context=va-topic-recommendations&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see .
 
-In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [Topic Recommendations page](https://www.servicenow.com/docs/access?context=topic-recommendations-page&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see .
 
 **Note:** The system takes around 15 minutes to provide the new topic recommendations.
 
@@ -131,7 +128,7 @@ In the Topic Recommendations page, under Get new recommendations, select **HR Ca
 -   To add a recommended topic to the Virtual Agent, you must be present in the HR Service Delivery Virtual Agent scope.
 -   To get Topic Recommendations, make sure there are a minimum of 10,000 records and a maximum of 300,000 records in the HR Cases table.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 
 ## Activate Virtual Agent for HR Service Delivery
 
@@ -139,7 +136,7 @@ Activate Virtual Agent for HR Service Delivery to provide user assistance throug
 
 ### Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ### About this task
 
@@ -160,7 +157,7 @@ If you want to activate Virtual Agent also with NLU, then activate the following
 
 **Note:** The HR Service Delivery NLU Models in the Dutch, Chinese and Brazilian Portuguese languages do not support entity extraction \(intent matching and entity recognition\).
 
-When an employee opens an HR case using Virtual Agent for HR Service Delivery, the **Source** field on the HR case is **Virtual Agent**. For more information, see [Work an HR case](../task/t_CreateAnHRCase.md).
+When an employee opens an HR case using Virtual Agent for HR Service Delivery, the **Source** field on the HR case is **Virtual Agent**. For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
 ### Procedure
 
@@ -174,7 +171,7 @@ When an employee opens an HR case using Virtual Agent for HR Service Delivery, t
 
     **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Set up Virtual Agent for HR
@@ -183,11 +180,11 @@ Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requi
 
 ### Before you begin
 
-Role required: admin, virtual\_agent\_admin
+Role required: virtual\_agent\_admin
 
 The base system provides predefined Virtual Agent and Virtual Agent NLU topics \(chatbot conversations\).
 
-**Note:** You cannot edit the provided topics. You can duplicate a provided topic and then edit it. You can also create additional topics. See [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+**Note:** You cannot edit the provided topics. You can duplicate a provided topic and then edit it. You can also create additional topics. See Virtual Agent Designer.
 
 After performing the activation steps, the **Chat** link replaces the **Chat with HR** link on the Employee Center or service portal.
 
@@ -199,7 +196,7 @@ Before existing Virtual Agent topics can use NLU, you must republish them.
 
 **Note:** By default, the base system provides topics as inactive and unpublished.
 
-If your company uses a custom service portal and ticket page, see [Virtual Agent for HR Service Delivery](hr-virtual-agent-conversations.md#).
+If your company uses a custom service portal and ticket page, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 To view, duplicate, preview, or publish HR topics in the Virtual Agent Designer:
 
@@ -238,7 +235,7 @@ You can only customize the greeting experience for Virtual Agent setup topics. C
 |Fallback|Fallback Topic|
 |Explore Help|Virtual Agent Capabilities|
 
-Role required: virtual\_agent\_admin or admin
+Role required: virtual\_agent\_admin
 
 ### Procedure
 
@@ -252,7 +249,7 @@ Role required: virtual\_agent\_admin or admin
 
 5.  On the Custom Greetings and Setup form, fill in the fields.
 
-    For field descriptions and more details, see [Configure a Virtual Agent chat experience](https://www.servicenow.com/docs/access?context=configure-default-chat-experience&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For field descriptions and more details, see .
 
     **Note:** Define the custom experience in the **Provide the context** section of the Custom Greetings and Setup record. Configure the **Condition Mode** field to **Advanced** and customize the condition logic in the **Script** field with JavaScript that specifies the context.
 

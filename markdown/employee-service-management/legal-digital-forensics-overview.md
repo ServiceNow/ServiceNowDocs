@@ -2,6 +2,7 @@
 title: Exploring Legal Digital Forensics
 description: Legal Digital Forensics enables different departments in your organization to submit legal requests for discovery and processing of digital data of employees suspected of malicious activity or litigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/legal-digital-forensics-overview.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"

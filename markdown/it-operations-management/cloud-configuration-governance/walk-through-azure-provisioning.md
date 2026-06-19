@@ -2,6 +2,7 @@
 title: Azure VM provisioning walkthrough
 description: This example walks you through the components of Cloud Provisioning and Governance that function during the provisioning of a virtual machine in an Azure datacenter. Topics covered include blueprints, resource blocks, the Cloud API \(CAPI\), and MID Server script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/walk-through-azure-provisioning.html
 release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ This walkthrough starts with a Linux VM that a user already provisioned in Azure
 
 This example uses default resource blocks and script includes that are available in your instance. Therefore, although you might not have a provisioned VM on your instance, you can still follow these steps and view the components used in this example to understand how the components work.
 
-For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-through-provisioning.md).
+For an example of a VM in AWS, see [AWS VM provisioning walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/walk-through-provisioning.md).
 
 **Note:** The terms virtual machine, VM, and virtual server are used interchangeably in this example.
 
@@ -41,11 +42,11 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     3.  Under **Resources**, click the VM in the stack.
 
-        ![Virtual Server example](../image/myazurevm-vm.png)
+        \[Omitted image "myazurevm-vm.png"\] Alt text: Virtual Server example
 
     4.  View the properties of the VM, and notice that it is in an **Azure Datacenter** in region **eastus**.
 
-        ![VM details](../image/myazurevm-vm-details.png)
+        \[Omitted image "myazurevm-vm-details.png"\] Alt text: VM details
 
 2.  Look at the blueprint on which the VM is based:
 
@@ -53,23 +54,23 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
         This example blueprint has three components: the container, the virtual server, which is the actual VM that is provisioned, and the Azure datacenter.
 
-        ![My Azure VM](../image/myazurevm-blueprint.png)
+        \[Omitted image "myazurevm-blueprint.png"\] Alt text: My Azure VM
 
     2.  Click the **Operations** tab on the bottom, and then click **Provision**.
 
-        ![Provision operation](../image/mystack-provision-block.png)
+        \[Omitted image "mystack-provision-block.png"\] Alt text: Provision operation
 
         The Provision operation is the operation that the system triggered when it created the VM. Other default operations are available, but this example focuses on the Provision operation.
 
     3.  Click the **Provision** block for Blueprint Container Resource.
 
-        ![My Azure VM blueprint container](../image/myazurevm-provision-container.png)
+        \[Omitted image "myazurevm-provision-container.png"\] Alt text: My Azure VM blueprint container
 
     4.  On the right, notice that one of the parameters in the Inputs list is Location.
 
         This parameter holds the value eastus, which is where the VM lives in the datacenter.
 
-        ![The Location parameter](../image/mystack-location-param.png)
+        \[Omitted image "mystack-location-param.png"\] Alt text: The Location parameter
 
         Inputs can be specified on the container, as it is in this example, or on any other resource block. By default, the **Location** parameter is already specified for you in the Blueprint Container resource block, so that you can use it in every blueprint like this one. If you switch the blueprint to **Draft**, you can add more parameters to the Blueprint Container resource block. You cannot add parameters to the Virtual Server resource block. For this walkthrough, no additional parameters are necessary.
 
@@ -79,29 +80,29 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     2.  Search for and open the **Virtual Server** resource block, which is provided by default with Cloud Provisioning and Governance.
 
-        ![The default virtual server resource block](../image/rb-virtual-server-tile.png)
+        \[Omitted image "rb-virtual-server-tile.png"\] Alt text: The default virtual server resource block
 
     3.  On the Resource Block form, click the **Host Resource** related list to view the list of supported host resource blocks.
 
     4.  Notice the host interface and host resource that are already specified:
 
-        ![Azure resource block](../image/myazurevm-virtualserver-rb-interfaces.png)
+        \[Omitted image "myazurevm-virtualserver-rb-interfaces.png"\] Alt text: Azure resource block
 
         -   The **Host Interface** field specifies the interface that must match the guest interface in the resource block that hosts this virtual machine. In this case, the host interface is the Compute Interface, which is also the guest interface on the Azure Datacenter resource block. By default, the datacenter resource blocks provide several guest interfaces that other resource blocks like virtual storage can use to connect to the datacenter.
         -   The **HostResource** column in the **Host Resource** related list already specifies **Azure Datacenter**, which means that the Azure datacenter resource block is a valid host for this VM.
     5.  Click the **Operations** tab, and then click the **Steps** subtab.
 
-        ![Selecting the Steps subtab](../image/mystack-operations-steps.png)
+        \[Omitted image "mystack-operations-steps.png"\] Alt text: Selecting the Steps subtab
 
     6.  Select **Provision** from the **Operation** list.
 
-        ![The Provision operation](../image/mystack-operations-provision.png)
+        \[Omitted image "mystack-operations-provision.png"\] Alt text: The Provision operation
 
         Remember that the Provision operation is the operation that the system used to create the VM. Other default operations are available, but this example focuses on the Provision operation.
 
     7.  Notice the step that appears in the list and the full step description that appears above the input parameters:
 
-        ![Step for Provision](../image/mystack-provision-step.png)
+        \[Omitted image "mystack-provision-step.png"\] Alt text: Step for Provision
 
         -   **Host Resource Operation:** indicates that this step calls an operation on the host resource \(the Azure datacenter in this example\).
         -   **Compute Interface** is the guest interface on the Azure datacenter that this step is using.
@@ -114,40 +115,40 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     10. Notice the supported guest interfaces in the **Guest Interface** related list:
 
-        ![Azure datacenter with Compute API](../image/myazurevm-rb-guest-interface.png)
+        \[Omitted image "myazurevm-rb-guest-interface.png"\] Alt text: Azure datacenter with Compute API
 
         These guest interfaces are the interfaces that the Azure datacenter makes available to other resource blocks. The **Compute Interface** is provided so that the Virtual Server resource block, which specifies the Compute Interface as its host interface, can connect to the datacenter.
 
     11. Click the **Operations** tab, and then click the **Steps** subtab.
 
-        ![Selecting the Steps subtab](../image/mystack-operations-steps.png)
+        \[Omitted image "mystack-operations-steps.png"\] Alt text: Selecting the Steps subtab
 
     12. In the **Interface** list, select **Compute Interface** if it is not already selected.
 
-        ![Compute interface](../image/mystack-awsdatacenter-compute.png)
+        \[Omitted image "mystack-awsdatacenter-compute.png"\] Alt text: Compute interface
 
         Remember that this interface is specified in the Virtual Server resource block.
 
     13. In the **Operation** list, search for and select **ConnectAndCreateVirtualMachine**.
 
-        ![The ConnectAndCreateVM operation](../image/mystack-connectandcreate-operation.png)
+        \[Omitted image "mystack-connectandcreate-operation.png"\] Alt text: The ConnectAndCreateVM operation
 
         Remember that this operation is specified in the Virtual Server resource block.
 
     14. Notice the CAPI call that is used in the only step for the ConnectAndCreateVirtualMachine operation:
 
-        ![The CreateNode API call](../image/mystack-awsdatacenter-createnode.png)
+        \[Omitted image "mystack-awsdatacenter-createnode.png"\] Alt text: The CreateNode API call
 
         -   **Cloud API:** indicates that this step calls CAPI, so that CAPI can execute a REST call to the cloud provider, which in this case is Azure.
         -   **Compute Interface** specifies the CAPI interface that this step calls.
         -   **CreateNode** indicates the method that is executed. As the name suggests, this method tells the cloud provider to create the virtual machine.
     15. To open the step configuration: With the resource block in the **Draft** state, point to the highlighted \(blue\) step, and then click the **Edit Step** icon that appears.
 
-        ![Edit step](../image/mystack-edit-step.png)
+        \[Omitted image "mystack-edit-step.png"\] Alt text: Edit step
 
     16. Look at the step configuration and notice the settings that integrate with CAPI:
 
-        ![Edit steps](../image/myazurevm-edit-steps.png)
+        \[Omitted image "myazurevm-edit-steps.png"\] Alt text: Edit steps
 
         |Field|Description|
         |-----|-----------|
@@ -162,11 +163,11 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     18. With the **Compute Interface.CreateNode** step selected, click the **Response Processor** tab, and notice the **Create\_Virtual\_Server\_Response\_Processor** script.
 
-        ![Response Processor tab](../image/mystack-response-processor.png)
+        \[Omitted image "mystack-response-processor.png"\] Alt text: Response Processor tab
 
         This script is the response processor that updates the CMDB in your instance after the virtual machine is created.
 
-    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](../reference/response-processor-example.md).
+    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/response-processor-example.md).
 
         When you finish reviewing that topic, return to this topic.
 
@@ -178,7 +179,7 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     3.  Look at how this CAPI API ties together an interface and a product:
 
-        ![Azure Compute API](../image/myazurevm-azure-compute.png)
+        \[Omitted image "myazurevm-azure-compute.png"\] Alt text: Azure Compute API
 
         |Field|Description|
         |-----|-----------|
@@ -189,19 +190,19 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     4.  In the CAPI Method Mappers related list, click the record preview icon for the **CreateNode** record, and then click **Open Record**.
 
-        ![The CreateNode method mapper](../image/myazurevm-createnode-mapper.png)
+        \[Omitted image "myazurevm-createnode-mapper.png"\] Alt text: The CreateNode method mapper
 
     5.  Look at the **CreateNode** method mapper:
 
-        ![CreateNode mapper form](../image/myazurevm-createnode-mapper-form.png)
+        \[Omitted image "myazurevm-createnode-mapper-form.png"\] Alt text: CreateNode mapper form
 
         Notice that the **Endpoint operation** is **Execute Script**, which indicates that a customizable script include is used to call functions in CAPI, which eventually makes the REST calls to Azure. The **azure-compute-1.0-CreateNode** MID Server script include is specified in the **Request script** field.
 
         This graphic illustrates how the components — from the resource block to the script include — are connected:
 
-        ![Azure datacenter script include](../image/myazurevm-rb-to-scriptinclude.png)
+        \[Omitted image "myazurevm-rb-to-scriptinclude.png"\] Alt text: Azure datacenter script include
 
-    6.  Click the record icon \(![Record icon](../image/icon-record.png)\) for the **Request script**.
+    6.  Click the record icon \(\[Omitted image "icon-record.png"\] Alt text: Record icon\) for the **Request script**.
 
         The **azure-compute-1.0-CreateNode** MID Server script include opens.
 
@@ -225,7 +226,7 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
     9.  Search for and open **AzureComputeVirtualMachine**.
 
-        ![Search for an open a script include](../image/myazurevm-search-scriptinclude.png)
+        \[Omitted image "myazurevm-search-scriptinclude.png"\] Alt text: Search for an open a script include
 
     10. Review the `createVirtualMachine` function:
 
@@ -279,7 +280,7 @@ For an example of a VM in AWS, see [AWS VM provisioning walkthrough](walk-throug
 
         This graphic illustrates the classes involved:
 
-        ![Azure calls](../image/myazurevm-class-calls.png)
+        \[Omitted image "myazurevm-class-calls.png"\] Alt text: Azure calls
 
     11. Navigate back to the Azure Compute API form.
 
@@ -348,7 +349,7 @@ EnrollmentNumber
 Azure enrollment number and the token to access the enrollment account.
 
 </td></tr></tbody>
-</table>        See [Store the Azure service principal credentials in the instance](../../cloud-management-v2-setup/task/azure-create-creds-cloud-mgt.md) for more information on the Azure information that is used in these overrides.
+</table>        See [Store the Azure service principal credentials in the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/azure-create-creds-cloud-mgt.md) for more information on the Azure information that is used in these overrides.
 
     13. Navigate back to **Design** &gt; **Cloud API**, and then click the **Interface** tab.
 
@@ -358,7 +359,7 @@ Azure enrollment number and the token to access the enrollment account.
 
         Notice that the interface provides REST response structures for methods like **CreateNode**. You typically do not need to modify existing interfaces.
 
-        ![CreateNode response structure highlight](../image/mystack-compute-interface.png)
+        \[Omitted image "mystack-compute-interface.png"\] Alt text: CreateNode response structure highlight
 
         Note the service category and the operations:
 
@@ -398,7 +399,7 @@ Interface Operation Parameters
 These parameters are also the parameters that the CAPI interface needs from the system so it can pass it in the REST call to the cloud provider.
 
 </td></tr></tbody>
-</table>        ![The CreateNode operation](../image/capi-interface-createnode.png)
+</table>        \[Omitted image "capi-interface-createnode.png"\] Alt text: The CreateNode operation
 
     18. Navigate back to **Design** &gt; **Cloud API** and then click the **Provider** tab.
 
@@ -410,13 +411,13 @@ These parameters are also the parameters that the CAPI interface needs from the 
 
         Notice that several Azure products are available by default. One of the most commonly used Azure products created from templates is **Microsoft.Compute**.
 
-        ![Microsoft.Compute](../image/myazurevm-microsoftcompute.png)
+        \[Omitted image "myazurevm-microsoftcompute.png"\] Alt text: Microsoft.Compute
 
     21. Click **Microsoft.Compute** in the **Name** column.
 
         Notice that the product specifies many resource types, each of which is mapped to a CI class.
 
-        ![Resource types](../image/myazurevm-microsoftcompute-resourcetypes.png)
+        \[Omitted image "myazurevm-microsoftcompute-resourcetypes.png"\] Alt text: Resource types
 
         These resource types indicates some of the CIs, but not all, that are related to the virtual machine. The response processor in the resource block populates CIs with data when the cloud provider provisions the VM.
 
@@ -426,19 +427,19 @@ These parameters are also the parameters that the CAPI interface needs from the 
 
     2.  Click the **View Dependency** icon.
 
-        ![Viewing the dependency](../image/mystack-view-dependency.png)
+        \[Omitted image "mystack-view-dependency.png"\] Alt text: Viewing the dependency
 
         The dependency map displays the stack CI at the top, the VM in the middle, and the various related CIs, such as the image, at the bottom.
 
-        ![Dependency Map](../image/myazurevm-dependencymap.png)
+        \[Omitted image "myazurevm-dependencymap.png"\] Alt text: Dependency Map
 
     3.  To view the form for the VM in the CMDB, right-click the arrow next to any CI.
 
-        ![View a VM Ci](../image/mystack-vm-ci-arrow.png)
+        \[Omitted image "mystack-vm-ci-arrow.png"\] Alt text: View a VM Ci
 
     4.  From the menu, select **View Form**.
 
-        ![View the CI form](../image/mystack-vm-ci-viewform.png)
+        \[Omitted image "mystack-vm-ci-viewform.png"\] Alt text: View the CI form
 
         The CI form opens, showing you much of the information is already available on the Cloud User Portal when you view the properties of the VM.
 
@@ -452,13 +453,13 @@ VM properties in the Cloud User Portal
 
 </th></tr></thead><tbody><tr><td>
 
-![Azure VM form](../image/myazurevm-vm-ci-form-view.png)
+\[Omitted image "myazurevm-vm-ci-form-view.png"\] Alt text: Azure VM form
 
 </td><td>
 
-![VM properties](../image/myazurevm-vm-properties.png)
+\[Omitted image "myazurevm-vm-properties.png"\] Alt text: VM properties
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Cloud Provisioning and Governance](../concept/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

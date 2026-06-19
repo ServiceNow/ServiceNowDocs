@@ -2,6 +2,7 @@
 title: Configuring Agile Development 2.0
 description: Activate Agile Development 2.0, migrate from Agile Development 1.0, and perform other related tasks to set up Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/agile-development/setting-up-agile-development-2.html
 release: zurich
 product: Agile Development
 classification: agile-development
@@ -21,16 +22,16 @@ Agile Development 2.0 guided setup provides a sequence of tasks that help you co
 
 To open Agile Development 2.0 guided setup, navigate to **All** &gt; **Agile Development** &gt; **Agile Development Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 
--   **[Activate Agile Development 2.0](../task/activate-agile-development.md)**  
+-   **[Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-agile-development.md)**  
 Activate the Agile Development 2.0 plugin \(com.snc.sdlc.agile.2.0\) if you have the admin role.
--   **[Migration from Agile Development 1.0 to Agile Development 2.0](migrate-agile.md)**  
+-   **[Migration from Agile Development 1.0 to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/migrate-agile.md)**  
 Migrate from Agile Development 1.0 to Agile Development 2.0 for enhanced agile capabilities and features.
--   **[Activate Agile Development — Unified Backlog](../task/activate-triage-board.md)**  
+-   **[Activate Agile Development — Unified Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/activate-triage-board.md)**  
 You can activate the Agile Development — Unified Backlog plugin \(com.snc.sdlc.agile.multi\_task\) if you have the admin role.
--   **[Quick start tests for Agile Development 2.0](../../../administer/atf-quick-start-tests/reference/quick-start-tests-agiledevelopment2.0.md)**  
+-   **[Quick start tests for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/quick-start-tests-agiledevelopment2.0.md)**  
 Validate that Agile Development 2.0 still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-**Parent Topic:**[Agile Development 2.0](../reference/agile-landing-page.md)
+**Parent Topic:**[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/agile-development/agile-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Configure a provider in Notify
 description: Configure a conference provider or a phone number to be used as choices for initiating a conference call. For sending SMS, configure preferences for phone numbers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/notify/configure-providers-for-provider-selectors.html
 release: zurich
 product: Notify
 classification: notify
@@ -50,5 +51,5 @@ Role required: notify\_admin
 7.  Click **Submit.**
 
 
-**Parent Topic:**[Configuring Notify](../concept/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/notify/configuring-notify.md)
 

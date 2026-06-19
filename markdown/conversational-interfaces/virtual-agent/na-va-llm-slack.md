@@ -2,11 +2,12 @@
 title: Using Now Assist in Virtual Agent conversations with Slack
 description: The Now Assist provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/na-va-llm-slack.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 3
 breadcrumb: [Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -21,9 +22,9 @@ To enable a bot with LLM-based capabilities and experience the LLM-based convers
 
 You can integrate Virtual Agent with Slack either with the Now Virtual Agent bot or a Self-configured bot.
 
--   To integrate Slack with the Now Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](va-integ-slack.md).
+-   To integrate Slack with the Now Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-slack.md).
 
--   To integrate Slack with a Self-configured bot, see [Integrating a self-configured bot with Slack workspace](va-integ-single-slack.md).
+-   To integrate Slack with a Self-configured bot, see [Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-integ-single-slack.md).
 
 
 ## Conversational experience with Now Assist in Slack
@@ -58,14 +59,14 @@ The Now Assist provides a new AI Search experience in channels with the followin
     Use this feature to ask questions and get answers from Now Assist through LLM in a card format. The response is displayed with a sparkle image, the legal disclaimer, and the citation about the question asked.
 
 
-**Note:** When using Now Assist in Slack, users can provide quick feedback on the LLM generated virtual agent responses by selecting the Thumbs up \( ![](../images/llm-thumbs-up-like.png)\)or Thumbs down \( ![](../images/llm-thumbs-down-dislike.png)\) icons.
+**Note:** When using Now Assist in Slack, users can provide quick feedback on the LLM generated virtual agent responses by selecting the Thumbs up \( \[Omitted image "llm-thumbs-up-like.png"\] Alt text:\)or Thumbs down \( \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text:\) icons.
 
-For more information about enabling LLM for your bots that are integrated with Slack, see [Enable Now Assist in Virtual Agent for Slack](../task/enable-na-llm-slack.md).
+For more information about enabling LLM for your bots that are integrated with Slack, see [Enable Now Assist in Virtual Agent for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-slack.md).
 
--   **[Enable Now Assist in Virtual Agent for Slack](../task/enable-na-llm-slack.md)**  
+-   **[Enable Now Assist in Virtual Agent for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/enable-na-llm-slack.md)**  
 Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Slack.
--   **[Chat responses in Slack conversations](slack-synthesized-response.md)**  
+-   **[Chat responses in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/slack-synthesized-response.md)**  
 Enhance your users experience in Slack conversations with smarter chat responses powered by the Large Language Models \(LLM\) based capabilities, such as synthesized response, streaming synthesized response, agentic response, and people cards.
 
-**Parent Topic:**[Conversational Integration with Slack](../task/mssg-slack.md)
+**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/mssg-slack.md)
 

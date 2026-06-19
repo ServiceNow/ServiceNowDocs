@@ -2,6 +2,7 @@
 title: Reporting properties
 description: Use properties to fine-tune report behavior and appearance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/reporting-properties.html
 release: zurich
 product: Reporting
 classification: reporting
@@ -61,7 +62,7 @@ glide.ui.chart.bar.horiz.max\_col\_slant\_labels
 
 Sets the maximum number of columns in a horizontal bar chart before slanting \(angling\) the labels.-   Type: integer
 -   Default value: 5
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add the property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -199,7 +200,7 @@ glide.ui.chart.color
 
 Specify the chart color. -   Type: string
 -   Default value: \#006DDA
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -251,7 +252,7 @@ glide.report.calendar.max\_days\_back
 
 Enables you to specify the number of days with events that are returned when you browse backward and forward in a calendar report. Evaluated on the **Calendar by** field in the report creator. -   Type: integer
 -   Default value: 30
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
  This property applies to calendar reports.
 
@@ -280,7 +281,7 @@ Defines the maximum number of calendar events that can appear in the **+ &lt;num
 
  -   Type: integer
 -   Default value: 30
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add the property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -295,7 +296,7 @@ Defines the maximum number of events that can appear in calendar report for: -  
 
  -   Type: integer
 -   Default value: 3
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add the property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -315,7 +316,7 @@ glide.ui.filter.first\_day\_of\_week
 
 Identifies the first day of the calendar week for the company. By default, the start of the week is Monday, meaning that the calendar week begins with Monday and ends with Sunday. To change this behavior, add the property **glide.ui.filter.first\_day\_of\_week** to the instance as an integer property. Enter the integer corresponding with the day of the week that the calendar begins on. 1 is Sunday, 2 is Monday, and so on. The function impacts all charts and calculations where the day of the week is used as a parameter.-   Type: integer
 -   Default value: 2
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -325,7 +326,7 @@ glide.ui.chart.bar.horiz.max\_col\_slant\_labels
 
 Sets the maximum number of columns in a horizontal bar chart before slanting \(angling\) the labels.-   Type: integer
 -   Default value: 5
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
  This property applies to horizontal bar reports.
 
@@ -337,7 +338,7 @@ glide.ui.chart.pie.labels
 
 Enables \(true\) or disables \(false\) labels on pie chart slices.-   Type: true \| false
 -   Default value: true
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add the property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -347,7 +348,7 @@ glide.ui.chart.pie.labels.max\_items
 
 Sets the maximum number of pie chart slice values that can be returned to display their labels.-   Type: integer
 -   Default value: 8
--   Location: [Add the property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add the property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -371,7 +372,7 @@ When disabled, the header row of a multiple level pivot table is unfrozen and sc
 
  -   Type: true \| false
 -   Default value: true
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
  This property applies to multilevel pivot tables.
 
@@ -383,7 +384,7 @@ glide.report.metric\_max\_data\_points
 
 Configure the maximum number of data points per MetricBase report. Typically only MetricBase time series reports display enough data to require this limitation.-   Type: integer
 -   Default value: 2000
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -394,7 +395,7 @@ glide.report.metric\_max\_series
 Configure the number of series per data set in a MetricBase report.-   Type: integer
 -   Default value: 20
 -   Maximum value: 100
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -417,7 +418,7 @@ Evaluation is conducted against the read ACL. Users can only view the report if 
 
 The read ACL check is not enforced, but the administrator can see which users would have been blocked if the security check was enforced.
 
--   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=zurich&pubname=zurich-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+-   Location: Add a system property to the System Property \[sys\_properties\] table.
 
 </td></tr></tbody>
 </table>## Interactive Filters properties
@@ -443,5 +444,5 @@ Maximum number of choices for radio button and check box interactive filters.-  
  Category: Choice list, Reference field, Date, Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reporting reference](../concept/reporting-reference.md)
+</table>**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-reference.md)
 

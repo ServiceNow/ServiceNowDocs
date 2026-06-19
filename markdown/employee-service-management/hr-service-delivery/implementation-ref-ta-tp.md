@@ -2,6 +2,7 @@
 title: Create implementation form
 description: The following fields are available in the new implementation record for an extension point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/implementation-ref-ta-tp.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

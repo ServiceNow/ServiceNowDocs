@@ -2,6 +2,7 @@
 title: Create a static WSDL script include
 description: Create a script include to define the majority of the code used to process static WSDL requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/t\_CreateAStatickWSDLScriptInclude.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -36,8 +37,8 @@ By implementing the majority of the custom functionality in a script include, yo
 5.  Click **Submit**.
 
 
--   **[Static WSDL script include example](../reference/r_StaticWSDLScriptInclude.md)**  
+-   **[Static WSDL script include example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_StaticWSDLScriptInclude.md)**  
 This example demonstrates the FakeStockValue script include that implements much of the static WSDL behavior.
 
-**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](../reference/createSOAPwebserviceStaticWSDL.md)
+**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
 

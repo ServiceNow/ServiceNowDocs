@@ -2,6 +2,7 @@
 title: Topic Properties tab
 description: Use the Topic Properties tab to identify a topic and how it's used. You can control who uses the topic and what channels it can run in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/vad-topic-properties-tab.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -21,15 +22,15 @@ Two methods are available in Assistant Designer: large language model \(LLM\) or
 
 For example, if you enable NLU/Keyword in Virtual Agent settings, the topic **Properties** tab includes fields for identifying the NLU model and intent for the topic.
 
-For more information, see [Create a Virtual Agent topic](../task/create-virtual-agent-topic.md).
+For more information, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 ## Topic Properties tab with LLM topic discovery
 
-![The topic Properties tab is simplified when LLM is the model type.](../images/topic-properties-llm-2.png)
+\[Omitted image "topic-properties-llm-2.png"\] Alt text: The topic Properties tab is simplified when LLM is the model type.
 
 ## Topic Properties tab with NLU topic discovery
 
-![The Natural Language Understanding section appears on the topic Properties tab when NLU is the model type.](../images/topic-properties-nlu-2.png)
+\[Omitted image "topic-properties-nlu-2.png"\] Alt text: The Natural Language Understanding section appears on the topic Properties tab when NLU is the model type.
 
 <table id="table_ulb_cfg_5cc"><thead><tr><th>
 
@@ -89,7 +90,7 @@ Topic description used for discovery
 
 </td><td>
 
-Description used by the LLM to accurately match the user's question or request to the right topic. Thorough descriptions improve topic discovery. For more information, see [LLM topic discovery in Virtual Agent](../concept/va-llm.md).
+Description used by the LLM to accurately match the user's question or request to the right topic. Thorough descriptions improve topic discovery. For more information, see [LLM topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-llm.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +145,5 @@ Confirm modified values with users
 Toggle to allow Virtual Agent to send confirmation messages to users when a value change is detected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer interface reference](../concept/vad-reference.md)
+</table>**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-reference.md)
 

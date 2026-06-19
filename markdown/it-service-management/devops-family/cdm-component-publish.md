@@ -2,13 +2,14 @@
 title: Publish or unpublish a shared component version
 description: Publish a version of a shared component in a library so that it can be used in an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-family/cdm-component-publish.html
 release: zurich
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sharing components among applications — Component libraries, Use, DevOps Config, IT Service Management]
+breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Publish or unpublish a shared component version
@@ -31,7 +32,7 @@ When a version is unpublished, it means that the component and its version can n
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation pane to open the **Component libraries** list tab.
+2.  Click the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation pane to open the **Component libraries** list tab.
 
 3.  Select a component library from the **Component libraries** list tab.
 
@@ -41,15 +42,15 @@ When a version is unpublished, it means that the component and its version can n
 
 6.  Publish or unpublish a version of the component.
 
-<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d406583e127">
+<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d394303e127">
 
 Option
 
-</th><th align="left" id="d406583e130">
+</th><th align="left" id="d394303e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d406583e136">
+</th></tr></thead><tbody><tr><td id="d394303e136">
 
 **Publish a version of a shared component**
 
@@ -57,13 +58,13 @@ Description
 
 Select an unpublished version from the list and select **Publish**.If there’s any existing published version of the component, then it’s unpublished before publishing the selected version. The **Published** value updates to **true**.
 
-</td></tr><tr><td id="d406583e156">
+</td></tr><tr><td id="d394303e156">
 
 **Unpublish a version of a shared component**
 
 </td><td>
 
-Select a published version from the list, select the ![Down arrow button.](../image/icon-down-arrow-button.png), and then select **Unpublish**.The selected version of the component is unpublished and the **Published** value updates to **false**.
+Select a published version from the list, select the \[Omitted image "icon-down-arrow-button.png"\] Alt text: Down arrow button., and then select **Unpublish**.The selected version of the component is unpublished and the **Published** value updates to **false**.
 
 </td></tr></tbody>
 </table>

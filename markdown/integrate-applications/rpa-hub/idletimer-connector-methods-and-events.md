@@ -2,6 +2,7 @@
 title: IdleTimer connector methods and events
 description: Learn about the IdleTimer connector methods and events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/idletimer-connector-methods-and-events.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -35,5 +36,5 @@ Triggers the automation when the Start method is executed.
 
 Stops the automation when the Start method is executed.
 
-**Parent Topic:**[IdleTimer connector](../concept/idletimer-connector.md)
+**Parent Topic:**[IdleTimer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/idletimer-connector.md)
 

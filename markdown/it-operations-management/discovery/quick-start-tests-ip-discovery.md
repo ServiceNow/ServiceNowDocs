@@ -2,6 +2,7 @@
 title: Quick start test for IP Discovery
 description: Quick start test for IP discovery validate configuration items \(CI\) and their relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/quick-start-tests-ip-discovery.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -19,12 +20,12 @@ Quick start test for IP discovery validate configuration items \(CI\) and their 
 |----|-----------|
 |TestIPDiscovery|IP discovery is performed on an IP input by the user. After discovery, the CI and relationships are created in the cmdb\_ci and rel\_ci tables. This test validates the CIs and relationships created and output and discovery errors during the discovery run.|
 
-To learn more about IP Discovery, see [Schedule a horizontal discovery](../../../product/discovery/task/t_CreateADiscoverySchedule.md#).
+To learn more about IP Discovery, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
-**Parent Topic:**[Discovery reference](../../../product/discovery/reference/discovery-references.md)
+**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-references.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=zurich&pubname=zurich-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

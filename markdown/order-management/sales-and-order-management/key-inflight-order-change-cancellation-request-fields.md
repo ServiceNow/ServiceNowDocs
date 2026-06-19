@@ -2,6 +2,7 @@
 title: Key inflight order change and cancellation request fields
 description: Learn how the ServiceNow AI Platform uses key fields in the Customer Order and Order Line Item forms to track your order changes and cancellation requests. You can see how these fields operate and what information they show you when you revise or request a cancellation of an order, or order line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/key-inflight-order-change-cancellation-request-fields.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -91,7 +92,7 @@ Price
 
 </td></tr><tr><td>
 
-Changes made to the order line item quantity for a product or service order.To learn more, see [Order quantity support in Order Management](order-quantity-support.md).
+Changes made to the order line item quantity for a product or service order.To learn more, see [Order quantity support in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-quantity-support.md).
 
 </td><td>
 
@@ -99,7 +100,7 @@ Quantity
 
 </td></tr><tr><td>
 
-Changes made to the order line item quantity for a product or service order due to the change in characteristic value.To learn more, see [Order quantity support in Order Management](order-quantity-support.md).
+Changes made to the order line item quantity for a product or service order due to the change in characteristic value.To learn more, see [Order quantity support in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/order-quantity-support.md).
 
 </td><td>
 
@@ -245,5 +246,5 @@ To approve an inflight revision or cancellation request, an order fulfillment or
 4.  The associated domain product, service, and resource domain orders move from their current state to an On Hold state.
 5.  The associated order tasks move to an On Hold state.
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/inflight-order-change-mgt-overview.md)
 

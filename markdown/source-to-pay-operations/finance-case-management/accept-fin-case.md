@@ -2,6 +2,7 @@
 title: Accept a finance case
 description: As a finance specialist, if a finance case is assigned to you, accept the case to start resolving it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/finance-case-management/accept-fin-case.html
 release: zurich
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations workspace, select the List icon ![](../image/fin-ops-list-icon.png) to open the List page.
+2.  In the Finance Operations workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text: to open the List page.
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -37,12 +38,12 @@ Role required: sn\_fin\_ops.specialist
 
     **Note:** The **Accept** option is available only if the cases assigned to you are in the draft state.
 
-    ![Accept finance case.](../image/fin-ops-accept.png "Accept draft finance cases assigned to you")
+    \[Omitted image "fin-ops-accept.png"\] Alt text: Accept finance case.
 
     The state of the accepted case changes to Work in Progress.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Use the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Use the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

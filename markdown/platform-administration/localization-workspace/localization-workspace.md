@@ -2,6 +2,7 @@
 title: Localization Workspace
 description: Localization Workspace is a targeted translation management experience for content owners and translation requesters. With Localization Workspace you can manage and deliver multilingual content at scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-workspace/localization-workspace.html
 release: zurich
 product: Localization Workspace
 classification: localization-workspace
@@ -19,26 +20,26 @@ Localization Workspace is a targeted translation management experience for conte
 
 <table id="table_dhl_fxf_r2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Localization Workspace](exploring-localization-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/exploring-localization-workspace.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Localization Workspace](configuring-localization-workspace.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/configuring-localization-workspace.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-global.svg) Learn how to use Localization Workspace to request translations.](requesting-translations-localization-workspace.md)
+[Use\[Omitted image "bus-global.svg"\] Alt text: Learn how to use Localization Workspace to request translations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/requesting-translations-localization-workspace.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Localization Workspace such as Domain Separation support and what types of content can be localized.](localization-workspace-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about Localization Workspace such as Domain Separation support and what types of content can be localized.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 </td></tr></tbody>
 </table>## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [Localization Workspace](https://www.servicenow.com/community/international-localization-blog/localization-workspace/ba-p/3389408)
 
@@ -46,7 +47,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [Language Support Guide](https://www.servicenow.com/community/international-localization-blog/in-platform-language-support-guide/ba-p/2289237)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 

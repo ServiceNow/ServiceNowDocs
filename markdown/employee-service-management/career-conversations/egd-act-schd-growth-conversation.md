@@ -2,6 +2,7 @@
 title: Schedule a growth conversation in Career Conversations
 description: Use the Career Conversations app to simultaneously create and schedule a one-time or recurring conversation with your employee or manager. For each conversation you schedule, discuss the employee's growth and development as a professional within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/career-conversations/egd-act-schd-growth-conversation.html
 release: zurich
 product: Career Conversations
 classification: career-conversations
@@ -19,11 +20,11 @@ Use the Career Conversations app to simultaneously create and schedule a one-tim
 
 You must install the Career Conversations application to access it from the Employee Center.
 
-You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](egd-employee-profile-licensing.md).
+You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
-You must configure integration between the Career Conversations application and Microsoft® Outlook®. This integration enables you to view your employee or manager's calendar as it appears in Microsoft Outlook so you can schedule a meeting for your conversation during the conversation creation process. For more information about the integration process with Microsoft Outlook, refer to [Integrating with Microsoft Outlook](https://www.servicenow.com/docs/access?context=integrating-with-microsoft-outlook&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+You must configure integration between the Career Conversations application and Microsoft® Outlook®. This integration enables you to view your employee or manager's calendar as it appears in Microsoft Outlook so you can schedule a meeting for your conversation during the conversation creation process. For more information about the integration process with Microsoft Outlook, refer to .
 
-You must update system properties to enable integration between the Career Conversations application and Microsoft Outlook. For more information about updating the required system properties, refer to [Set system properties for Microsoft Outlook integration](egd-admin-sys-properties-outlook.md).
+You must update system properties to enable integration between the Career Conversations application and Microsoft Outlook. For more information about updating the required system properties, refer to [Set system properties for Microsoft Outlook integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-admin-sys-properties-outlook.md).
 
 Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.manager\]
 
@@ -126,5 +127,5 @@ Update the agenda for your upcoming conversation by using an option that corresp
     Use the link in the meeting invitation email.
 
 
-**Parent Topic:**[Using the Career Conversations application](../concept/egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/career-conversations/egd-activities-use.md)
 

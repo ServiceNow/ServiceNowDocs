@@ -2,6 +2,7 @@
 title: Configure Data columns
 description: Configure data columns to choose which fields from the selected table appear in your report. This helps ensure that only relevant information is displayed, making reports clear and actionable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/configure-data-columns.html
 release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
@@ -40,5 +41,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 ## What to do next
 
-[Configure Intermediate filters](configure-intermediate-filters.md)
+[Configure Intermediate filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.md)
 

@@ -2,6 +2,7 @@
 title: Create popovers in UI Builder
 description: Use popovers on a UI Builder page to overlay contextual information or functionality to help users complete tasks.Learn how to add a popover in UI Builder. A popover is a container that appears above a page when you click a component. For example, a popover might display contact information when selecting a persons name in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ui-builder/uib-popover.html
 release: zurich
 product: UI Builder
 classification: ui-builder
@@ -19,11 +20,11 @@ A popover is a small window or dialog box that appears above a UI Builder page a
 
 You can place popovers anywhere on a UI Builder page where you think additional information helps the users. Popovers are intended to provide small pieces of information or links to related content, so you should limit the amount of information or functionality within a popover because the popover only displays when a user is interacting with it.
 
-You can make popovers visible or hidden with event mapping, such as triggering a popover to appear when selecting a button or pointing to a part of the page. For more information, see [Define map events](event-mapping.md).
+You can make popovers visible or hidden with event mapping, such as triggering a popover to appear when selecting a button or pointing to a part of the page. For more information, see [Define map events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/event-mapping.md).
 
-![Page with tool tip text link that has been selected to show an additional information popover.](../image/popover-demo.png "Informational popover")
+\[Omitted image "popover-demo.png"\] Alt text: Page with tool tip text link that has been selected to show an additional information popover.
 
-**Parent Topic:**[Customize UI Builder pages using components](work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-components.md)
 
 ## Add popover to a UI Builder page
 
@@ -39,27 +40,27 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](../task/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/create-page.md).
 
 4.  Add a component to your page that you want to trigger a popover, such as a button component.
 
-    See [Add and configure components](../task/add-components.md#) for more information.
+    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/add-components.md) for more information.
 
 5.  Select the **Events** tab in the configuration panel.
 
 6.  Select **+ Add event handler**.
 
-    ![Arrow pointing to the add event handler link for the button component.](../image/popover-add-event-handler.png)
+    \[Omitted image "popover-add-event-handler.png"\] Alt text: Arrow pointing to the add event handler link for the button component.
 
 7.  Select **Open Popover**.
 
 8.  Select **Create a new popover**.
 
-    ![Arrow pointing to the Create a new popover option.](../image/popover-open-event.png)
+    \[Omitted image "popover-open-event.png"\] Alt text: Arrow pointing to the Create a new popover option.
 
 9.  Select **Add**.
 
@@ -67,13 +68,13 @@ Role required: admin
 
 10. Add components to the popover by selecting the **+** icon.
 
-    ![Arrow pointing to the + to add content.](../image/popover-add-content.png)
+    \[Omitted image "popover-add-content.png"\] Alt text: Arrow pointing to the + to add content.
 
 11. When you finish configuring the popover, close it.
 
     Notice in the content tree that the popovers you create sit above the body of your page structure.
 
-    ![Arrow pointing to the custom popover in the content tree.](../image/popover-content-tree.png)
+    \[Omitted image "popover-content-tree.png"\] Alt text: Arrow pointing to the custom popover in the content tree.
 
 12. Click **Save**.
 

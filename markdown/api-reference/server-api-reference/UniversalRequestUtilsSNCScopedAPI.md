@@ -2,6 +2,7 @@
 title: UniversalRequestUtilsSNC - Scoped
 description: The UniversalRequestUtilsSNC API enables handling universal request life cycles. Provided as a script include record.Creates a universal request and returns the sys\_id of the newly created universal request record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/UniversalRequestUtilsSNCScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The UniversalRequestUtilsSNC API enables handling universal request life cycles.
 
 This API requires the Universal Request \(com.snc.universal\_request\) plugin and is provided within the `sn_uni_req` namespace.
 
-For information, refer to [Universal Request](https://www.servicenow.com/docs/access?context=ur-landing-limitedaccess&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+For information, refer to Universal Request.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## UniversalRequestUtilsSNC - createUniversalRequest\(Object copyFields\)
 
@@ -66,7 +67,7 @@ JSON object containing field names and values to set on a new record in the Univ
 };
 ```
 
-Other fields not listed might be eligible for your use case. For a list of table fields and related fields in the system, view the [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+Other fields not listed might be eligible for your use case. For a list of table fields and related fields in the system, view the .
 
 **Note:** Do not include the primary\_ticket or sys\_id fields in the copyFields JSON object.
 
@@ -169,7 +170,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates if the universal request has restricted access. Refer to [Universal Request roles and groups](https://www.servicenow.com/docs/access?context=ur-roles&version=zurich&pubname=zurich-employee-service-management&ft:locale=en-US).
+Optional. Flag that indicates if the universal request has restricted access. Refer to Universal Request roles and groups.
 
  Valid values:
 

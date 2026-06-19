@@ -2,6 +2,7 @@
 title: Universal Task template form
 description: Use the Universal Task template form to create a Universal Task template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/universal-task/ut-task-template-form.html
 release: zurich
 product: Universal Task
 classification: universal-task
@@ -72,5 +73,5 @@ Active
 Option for making the template available for use. A template must be active to be used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task reference](../concept/universal-task-reference.md)
+</table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/universal-task/universal-task-reference.md)
 

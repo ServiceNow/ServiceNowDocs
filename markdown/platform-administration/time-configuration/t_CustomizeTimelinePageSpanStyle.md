@@ -2,6 +2,7 @@
 title: Customize the timeline page span style
 description: The Timeline Page Span Styles related list allows you to define conditional span styles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/time-configuration/t\_CustomizeTimelinePageSpanStyle.html
 release: zurich
 product: Time Configuration
 classification: time-configuration
@@ -27,7 +28,7 @@ The Timeline Page Span Styles related list allows you to define conditional span
 
     |Field|Description|
     |-----|-----------|
-    |Condition|[Condition Builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) that filters the results that appear in the timeline.|
+    |Condition|Condition Builder that filters the results that appear in the timeline.|
     |Label color|Color for the text under each span.|
     |Label decoration|Character style for the text under each span: **Bold**, **Italic**, **Underline**, or **Line-through**.|
     |Order|Number to determine the sequence in which the style conditions are evaluated. Style conditions with a lower order are evaluated first.|
@@ -35,5 +36,5 @@ The Timeline Page Span Styles related list allows you to define conditional span
     |Timeline page|Timeline page to which the span style applies. By default, the span applies to the current timeline.|
 
 
-**Parent Topic:**[Timeline pages](../concept/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/time-configuration/c_TimelinePages.md)
 

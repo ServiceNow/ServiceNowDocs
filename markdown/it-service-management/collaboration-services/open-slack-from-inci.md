@@ -2,6 +2,7 @@
 title: Open slack from an incident
 description: Open slack from an incident and send message to a user or an assignment group to exchange incident information. You do not need to manually search for a user in slack to send a message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/open-slack-from-inci.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -36,5 +37,5 @@ The slack icon appears for the fields that you include in the fix script. For ex
     A direct message with the user on slack or a slack channel opens for the group.
 
 
-**Parent Topic:**[Configuring Collaboration services](../concept/configuring-collab-services.md)
+**Parent Topic:**[Configuring Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/configuring-collab-services.md)
 

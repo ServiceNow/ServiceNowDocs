@@ -2,6 +2,7 @@
 title: Manage non-monetary benefit plans for your planning items in Strategic Planning
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/scenario-planning-in-spw/fin-manage-non-monetary-benefit-plans-spw.html
 release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,8 +18,8 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](enable-benefitplans-spw-fin.md)
--   [Add monetary and non-monetary benefit plans related lists](enable-benefit-plans-planning-items.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
+-   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -29,11 +30,11 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 3.  Select the **Non-monetary Benefit Plans** related list.
 
-    ![GIF showing selection of Non-monetary Benefit Plans related link.](../images/fin-slct-non-monetary-benefit-plan-gif.gif)
+    \[Omitted image "fin-slct-non-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Non-monetary Benefit Plans related link.
 
 4.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Non-monetary benefit plans form](../../project-management/reference/non-monetary-benefit-plans-form.md).
+    For a description of the field names, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
 5.  Select **Save**.
 

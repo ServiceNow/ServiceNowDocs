@@ -2,7 +2,10 @@
 title: Update ServiceNow ITOM/OT SU Licensing
 description: Update the ServiceNow ITOM/OT SU Licensing \[com.snc.itom.license\] application to ensure you use the latest licensing functionality. Updating the application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/install-itom-su-licensing.html
 release: zurich
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -30,7 +33,7 @@ The following items are installed with ITOM/OT SU Licensing:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with ITOM/OT SU Licensing](../reference/components-installed-with-itom-su-licensing.md).
+For more information, see [Components installed with ITOM/OT SU Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/components-installed-with-itom-su-licensing.md).
 
 ## Procedure
 
@@ -51,5 +54,5 @@ For more information, see [Components installed with ITOM/OT SU Licensing](../re
 6.  Select the version you want to upgrade to and select **Install**.
 
 
-**Parent Topic:**[Configuring ITOM/OT SU Licensing](../concept/configure-itom-licensing.md)
+**Parent Topic:**[Configuring ITOM/OT SU Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/configure-itom-licensing.md)
 

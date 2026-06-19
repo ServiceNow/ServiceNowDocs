@@ -2,6 +2,7 @@
 title: Webhooks
 description: Webhooks are endpoints that can receive a POST request whenever a configuration is saved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/cpq-webhooks.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Webhooks can be used to integrate data from ServiceNow CPQ to other downstream s
 
 -   Displaying the ServiceNow CPQ native UI via direct URL and sending the config result, via webhook, to a third-party destination. See:
 
-    [Use case: Displaying the ServiceNow CPQ native UI via direct URL](use_case_display_logik_io_native_ui_via_direct_url.md)
+    [Use case: Displaying the ServiceNow CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
 
 -   Sending config data directly to a quoting or order management system
 -   Pushing the configuration result to middleware that can manipulate the data and pass it along to downstream systems
@@ -34,7 +35,7 @@ Webhooks can be used to integrate data from ServiceNow CPQ to other downstream s
 
 ## Webhook setup
 
-![Webhook setup](../images/cpq-webhooks-setup-1.png)
+\[Omitted image "cpq-webhooks-setup-1.png"\] Alt text: Webhook setup
 
 -   When webhooks are enabled, they can be found in the Utilities menu in the ServiceNow CPQ Admin screen.
 -   Summary: Webhook configuration is similar to external connections. The Name, Description and Integration type can all be defined.
@@ -43,7 +44,7 @@ Webhooks can be used to integrate data from ServiceNow CPQ to other downstream s
 
 ## Webhook details
 
-![Webhook setup](../images/cpq-webhooks-details.png)
+\[Omitted image "cpq-webhooks-details.png"\] Alt text: Webhook setup
 
 1.  URL: The endpoint to receive the data from Logik on save of a configuration. Must be able to receive an HTTP POST request.
 2.  Async: When enabled, ensures that the end user is redirected immediately when a configuration is completed and does not wait for a response from the server before exiting. The save process is asynchronous.

@@ -2,6 +2,7 @@
 title: Assign the Major incident manager role
 description: Assign the Major incident manager \(major\_incident\_manager\) role to existing users to manage, analyze, and resolve major incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/assign-mim-role-sow.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ As a Major incident manager \(major\_incident\_manager\), you can do the followi
 
 ## Before you begin
 
-You must activate the Major Incident Management plugin in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+You must activate the Major Incident Management plugin in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: sn\_mim\_sow\_admin or admin
 

@@ -2,6 +2,7 @@
 title: Update dashboard overview
 description: When you activate the problem state model, you need to update the overview dashboard to use the new states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/problem-management/cleanup-update-dashboard-overview.html
 release: zurich
 product: Problem Management
 classification: problem-management
@@ -29,7 +30,7 @@ In the problem overview dashboard, refer to the closed problems by setting Activ
 
 1.  If you are prompted with the message `To edit this record click here`, then click **here**.
 
-2.  Click the configuration icon \(![Configuration icon](../image/configuration-icon.png)\).
+2.  Click the configuration icon \(\[Omitted image "configuration-icon.png"\] Alt text: Configuration icon\).
 
 3.  Hover your mouse on **Problems Closed per Week** chart to view and select the Edit Content menu.
 

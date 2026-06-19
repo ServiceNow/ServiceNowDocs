@@ -2,6 +2,7 @@
 title: Add or modify an action plan to-do
 description: Create, modify, and save to-do tasks as part of an action plan. To-dos are assigned to employees, mentors, or managers to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/journey-accelerator/add-todo-task.html
 release: zurich
 product: Journey Accelerator
 classification: journey-accelerator
@@ -37,9 +38,9 @@ Role required: All employees with direct reports
     **Note:**
 
     -   For to-dos that are appropriate for more than one employee or mentor, select **Save as Template**. Save the to-do as a template so that it is available to use for other employees or mentors in future action plans.
-    -   The [Action plan to-do task fields](../reference/ja-todo-fields.md) topic has descriptions of the To-do form fields.
+    -   The [Action plan to-do task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/ja-todo-fields.md) topic has descriptions of the To-do form fields.
 5.  Click **Save**.
 
 
-**Parent Topic:**[Manage action plan to-do tasks and create templates](../concept/manage-todo-tasks-as-manager.md)
+**Parent Topic:**[Manage action plan to-do tasks and create templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/journey-accelerator/manage-todo-tasks-as-manager.md)
 

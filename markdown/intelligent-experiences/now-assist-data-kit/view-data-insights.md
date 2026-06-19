@@ -2,6 +2,7 @@
 title: View data insights
 description: You can view data insights to see metrics for your generated data and data collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-data-kit/view-data-insights.html
 release: zurich
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -35,7 +36,7 @@ Role required: sn\_data\_kit.admin
     |Missing/Empty values|This metric identifies fields that are null, empty, or contain placeholder values without valid justification.|
     |Temporal consistency|This metric is LLM-based and ensures that data remains logically correct over time.|
 
-    ![Now Assist Data Kit data insights page](../image/nadk-data-insights.png)
+    \[Omitted image "nadk-data-insights.png"\] Alt text: Now Assist Data Kit data insights page
 
     |Metric|Description|
     |------|-----------|

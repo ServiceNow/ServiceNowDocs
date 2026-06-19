@@ -2,6 +2,7 @@
 title: Access controls in Service Operations Workspace for ITSM
 description: You can determine which users can access Service Operations Workspace for ITSM after logging in to the ServiceNow instance or access the Service Operations Workspace for ITSM landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/access-controls-sow-itsm.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,5 +27,5 @@ For a user, access to Service Operations Workspace for ITSM is based on the foll
     -   Custom roles require updates to ACLs \(access control lists\) that restrict access to certain functionality.
 -   First audience that the user belongs to.
 
-![Flow chart for SOW access](../image/sow-access.png)
+\[Omitted image "sow-access.png"\] Alt text: Flow chart for SOW access
 

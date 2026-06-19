@@ -2,6 +2,7 @@
 title: Components installed with Card Data Security
 description: Several types of components are installed with the activation of Card Data Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/components-installed-with-card-data-security.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
@@ -63,5 +64,5 @@ This role allows the execution of all subflows associated with the Card Data Sec
 |-----|-----------|
 |Tokenizer Resource Configuration \[sn\_data\_sec\_resource\_config\]|Stores information for each endpoint that sends and receives tokenized data.|
 
-**Parent Topic:**[Card Data Security Reference](../concept/card-data-security-reference.md)
+**Parent Topic:**[Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/card-data-security-reference.md)
 

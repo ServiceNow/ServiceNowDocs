@@ -2,6 +2,7 @@
 title: Perform condition evaluation from the Mobile Agent application
 description: Perform condition evaluation to calculate the score and result of the condition attributes from the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,7 +26,7 @@ Role required: sn\_eam.asset\_technician
 
 **Note:** Starting with Enterprise Asset Management version 10.0, work order task can be associated with multiple assets, either through an asset group or by assets added to the Affected assets list. When a work order task has multiple assets, the technician must assess the condition of each asset within the same work order task. After completing all condition evaluations, the condition results are recorded for each asset and are available for the enterprise asset manager to review.
 
-These steps detail the process of performing the condition evaluation from a mobile application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](perform-condition-assessment-webui.md).
+These steps detail the process of performing the condition evaluation from a mobile application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
 
 ## Procedure
 

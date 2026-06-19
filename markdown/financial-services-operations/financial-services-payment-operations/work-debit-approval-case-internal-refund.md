@@ -2,6 +2,7 @@
 title: Work on a debit approval case to complete a refund
 description: Work with your internal customer or bank to get the debit amount approved so that you can complete the claim refund.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/financial-services-payment-operations/work-debit-approval-case-internal-refund.html
 release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -25,8 +26,8 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 If there's a Customer or Consumer Service Portal available for customers, they get notification for the debit approval case on the portal from where they can choose to accept or reject the requested debit amount. If the debit customer accepts the debit amount, the debit approval case state automatically changes to Closed. For more information, see:
 
--   [View a case from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=view-cases-consumer-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
--   [Accept or reject a case solution from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=resolve-cases-consumer-portal&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US)
+-   View a case from the Consumer Service Portal
+-   Accept or reject a case solution from the Consumer Service Portal
 
 **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -34,19 +35,19 @@ If there's a Customer or Consumer Service Portal available for customers, they g
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the debit approval payment service case from a claim case or from the Debit Approvals list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d119951e110">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d48202e110">
 
 Option
 
-</th><th align="left" id="d119951e113">
+</th><th align="left" id="d48202e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d119951e119">
+</th></tr></thead><tbody><tr><td id="d48202e119">
 
 **From a claim case**
 
@@ -54,10 +55,10 @@ Steps
 
 1.  In the **Lists** tab, under **Claims**, click **Assigned to me**.
 2.  In the list, click the claim case that you want to open.
-3.  In the **Debit approval** field on the claim form, click the information icon \(![Information icon](../image/information-icon.png)\) next to the debit approval case number.
+3.  In the **Debit approval** field on the claim form, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon\) next to the debit approval case number.
 
 
-</td></tr><tr><td id="d119951e158">
+</td></tr><tr><td id="d48202e158">
 
 **From the Debit Approvals list**
 
@@ -88,7 +89,7 @@ Steps
 
 ## What to do next
 
-Update the claim case fields as required and [close the claim](close-claim-case.md).
+Update the claim case fields as required and [close the claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/close-claim-case.md).
 
-**Parent Topic:**[Work on a claim with an internal refund](work-claim-with-internal-refund.md)
+**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
 

@@ -2,6 +2,7 @@
 title: Create knowledge from incident or problem
 description: Create a knowledge article, so the next time the issue comes up the resolution is easy to find.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/t\_ApproveKnowledgeSubmission.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -21,9 +22,9 @@ Role required: knowledge
 
 ## About this task
 
-To create a knowledge article from an incident, see [Create a knowledge article from an incident](https://www.servicenow.com/docs/access?context=create-knowledge-incident&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+To create a knowledge article from an incident, see Create a knowledge article from an incident.
 
-To create a knowledge article from problem, see [Create a known error article](https://www.servicenow.com/docs/access?context=create-known-error-from-problem&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US).
+To create a knowledge article from problem, see Create a known error article.
 
 Depending on the value of the **glide.knowman.submission.workflow** property, knowledge created from an incident or problem may require additional approval. When this property is true, a submission record is created instead of a knowledge article. A user with the knowledge role must approve the submission to create a knowledge article.
 
@@ -33,7 +34,7 @@ Depending on the value of the **glide.knowman.submission.workflow** property, kn
 
 2.  Select the **Knowledge** check box on the form.
 
-    You may need to configure the form to include the **Languages** field. Click the form context menu icon \(![context menu icon](../image/ContextMenu.png)\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
+    You may need to configure the form to include the **Languages** field. Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: context menu icon\) and navigate to **Configure** &gt; **Form layout**. Use slushbucket to add the Languages field.
 
 3.  Close the incident or problem.
 
@@ -50,5 +51,5 @@ Depending on the value of the **glide.knowman.submission.workflow** property, kn
     A new draft knowledge article is created. Articles created this way are added to the knowledge base specified in the property **glide.knowman.task\_kb**.
 
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

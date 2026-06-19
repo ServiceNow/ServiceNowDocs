@@ -2,6 +2,7 @@
 title: Configure the Export to PowerPoint add-in for Microsoft PowerPoint
 description: Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to interact with your instance and fetch the data required to generate and download your project status reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-ppt-addin.html
 release: zurich
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -19,10 +20,10 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
 
 -   Role required: sn\_ppt\_export.ppt\_admin or sn\_ppt\_export.ppt\_user.
 -   The Export to PowerPoint add-in must be deployed to your Microsoft PowerPoint. If the add-in icon does not appear on the Home tab, verify the following.
-    1.  [Download the add-in manifest file](download-manifest-export-to-ppt.md) from your ServiceNow instance.
+    1.  [Download the add-in manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/download-manifest-export-to-ppt.md) from your ServiceNow instance.
     2.  Contact your Microsoft Office 365 administrator to deploy the manifest using the Microsoft 365 admin center \(**Settings** &gt; **Integrated apps** &gt; **Upload custom apps**\).
     3.  After deployment, restart Microsoft PowerPoint and verify the ServiceNow add-in icon appears on the Home tab.
--   For the Export to PowerPoint plugin configuration on your instance, see Configure the Export to PPT plugin.
+-   For the Export to PowerPoint plugin configuration on your instance, see [Configure the Export to PowerPoint add-in for Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-ppt-addin.md).
 
 **Tip:**
 
@@ -30,7 +31,7 @@ If you do not see the add-in icon after deployment, check **Insert** &gt; **My A
 
 ## Procedure
 
-1.  Open your Microsoft PowerPoint application and select the ServiceNow add-in icon \(![ServiceNow Export to PowerPoint add-in.](../image/icon-servicenow-addin.png)\) on the **Home** tab.
+1.  Open your Microsoft PowerPoint application and select the ServiceNow add-in icon \(\[Omitted image "icon-servicenow-addin.png"\] Alt text: ServiceNow Export to PowerPoint add-in.\) on the **Home** tab.
 
     A panel appears with a login option to access your ServiceNow instance.
 
@@ -47,13 +48,13 @@ If you do not see the add-in icon after deployment, check **Insert** &gt; **My A
 
 The landing page of the add-in appears as the right panel.
 
-![Export to PowerPoint add-in landing page.](../image/icon-ppt-addin-landing-page.png)
+\[Omitted image "icon-ppt-addin-landing-page.png"\] Alt text: Export to PowerPoint add-in landing page.
 
 **Note:** For more information about the additional configuration steps required to enable the Export to PowerPoint add-in for the browser version of Microsoft PowerPoint, see the [KB1171422](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1171422) article in the Now Support Knowledge Base.
 
 ## What to do next
 
-[Create a Microsoft PowerPoint template](create-ppt-template.md).
+[Create a Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.md).
 
-**Parent Topic:**[Configuring Export to PowerPoint](../concept/configure-export-to-ppt.md)
+**Parent Topic:**[Configuring Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 

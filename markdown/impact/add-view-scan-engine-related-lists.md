@@ -2,7 +2,10 @@
 title: Configure Scan Engine instance integration settings
 description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to implement its various scanning types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/impact/add-view-scan-engine-related-lists.html
 release: zurich
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 2
@@ -135,5 +138,5 @@ The OAuth user profile used for cross-instance integrations.
 
 </td></tr></tbody>
 </table>
-**Note:** See [Scan Engine integrations](../concept/instance-integration-scan-engine.md) for details on integration setup.
+**Note:** See [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/instance-integration-scan-engine.md) for details on integration setup.
 

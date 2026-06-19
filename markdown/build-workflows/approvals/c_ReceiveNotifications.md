@@ -2,6 +2,7 @@
 title: Receive notifications
 description: Individuals who are designated approvers automatically receive approval notifications, including approval status updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/approvals/c\_ReceiveNotifications.html
 release: zurich
 product: Approvals
 classification: approvals

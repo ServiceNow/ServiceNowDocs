@@ -2,6 +2,7 @@
 title: Audit Workspace for the Auditor
 description: The auditor workspace is a centralized workspace for managing audit activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/auditor-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -21,7 +22,7 @@ An auditor analyses the operational and financial processes of a company to ensu
 
 Using the auditor workspace, auditors can perform fieldwork such as control tests, activities, interviews, and walkthroughs. They can document their work and findings, and resolve or follow up the audit findings.
 
-![Workspace for auditor.](../image/AuditorWS.jpg "Workspace for auditor")
+
 
 ## Tasks of an Auditor
 
@@ -29,9 +30,9 @@ The following table lists the key tasks that you can perform in your role as an 
 
 |Activity|Task|
 |--------|----|
-|Examine records, reports, operating practices, and documentation to ensure compliance with internal controls.|[Update an assigned control test](../task/update-assigned-control-test-audit-ws.md).|
-|Create test plans to document control testing procedure.|[Create a test plan](../task/create-test-plan-audit-ws.md).|
-|Coordinate walkthroughs and interviews for assessing internal control processes.|[Update other assigned audit tasks](../task/update-assigned-audit-tasks-ws.md).|
-|Request and review evidence for control implementation.|[Request evidence for audit tasks](../../grc-audit/task/request-evidence.md).|
-|Comply with federal, state, and local security legal requirements.|[Create an observation for an audit task assigned to an auditor](../task/create-observation-audit-task-auditor-ws.md).|
+|Examine records, reports, operating practices, and documentation to ensure compliance with internal controls.|[Update an assigned control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/update-assigned-control-test-audit-ws.md).|
+|Create test plans to document control testing procedure.|[Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-test-plan-audit-ws.md).|
+|Coordinate walkthroughs and interviews for assessing internal control processes.|[Update other assigned audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/update-assigned-audit-tasks-ws.md).|
+|Request and review evidence for control implementation.|[Request evidence for audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/request-evidence.md).|
+|Comply with federal, state, and local security legal requirements.|[Create an observation for an audit task assigned to an auditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-observation-audit-task-auditor-ws.md).|
 

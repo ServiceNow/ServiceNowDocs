@@ -2,6 +2,7 @@
 title: Lead and opportunity management reference
 description: Reference for lead and opportunity management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/reference-lead-opportunity-mgt.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,14 +16,16 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for lead and opportunity management applications.
 
--   **[Customer Engagement Sequences reference](customer-engagement-sequences-reference.md)**  
+-   **[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/customer-engagement-sequences-reference.md)**  
 Reference topics provide additional information about the Customer Engagement Sequences application.
--   **[Components installed with Lead Management](../reference/components-installed-lead-management.md)**  
+-   **[Lead details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/lead-details-form.md)**  
+Field descriptions for editing or reviewing details on the Lead form for Lead Management.
+-   **[Components installed with Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-lead-management.md)**  
 Several types of components are installed with activation of the Lead Management plugin, including tables and user roles.
--   **[Components installed with Opportunity Management](../reference/components-installed-opportunity-management.md)**  
+-   **[Components installed with Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-opportunity-management.md)**  
 Several types of components are installed with activation of the Opportunity Management plugin, including user roles.
--   **[Components installed with Sales Territory Management​](../reference/components-installed-sales-territory-management.md)**  
+-   **[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/components-installed-sales-territory-management.md)**  
 Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-reference.md)
 

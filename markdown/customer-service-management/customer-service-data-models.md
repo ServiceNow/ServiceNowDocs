@@ -2,7 +2,10 @@
 title: Customer service business models
 description: Customer Service Management provides different business models that you can use to support your business needs. Select a business model based on the type of services and support that you provide to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-service-data-models.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

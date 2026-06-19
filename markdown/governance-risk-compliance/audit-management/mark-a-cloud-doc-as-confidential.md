@@ -2,6 +2,7 @@
 title: Mark a cloud file as a non-shareable file
 description: Select one of the already linked files and mark it as a non-sharable file. Once a cloud file is marked as non-sharable, it cannot be linked to another record, or it cannot be referenced by any other record​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/mark-a-cloud-doc-as-confidential.html
 release: zurich
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.admin or sn\_audit.manager, sn\_grc\_workspace.user
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon\).
 
 3.  Select an engagement in the Engagements list.
 

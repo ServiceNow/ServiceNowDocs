@@ -2,6 +2,7 @@
 title: View tasks of a third-party system
 description: View tasks that are pulled from the third-party system into Enterprise Service Management Integrations Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/display-todos.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery

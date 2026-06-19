@@ -2,11 +2,12 @@
 title: DevOps test tool integration
 description: Test tool integration lets you view test results in DevOps for Jenkins, Azure DevOps, GitHub, GitHub Enterprise, and GitLab unit, functional, and performance tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Test tool integration lets you view test results in DevOps for Jenkins, Azure De
 
 For GitLab and Jenkins, only JUnit test type integration is supported.
 
-**Note:** For other test types, use the [DevOps - POST /devops/tool/\{capability\}](https://www.servicenow.com/docs/access?context=devops-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) endpoint of the [DevOps API](https://www.servicenow.com/docs/access?context=devops-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+**Note:** For other test types, use the DevOps - POST /devops/tool/\{capability\} endpoint of the DevOps API.
 
 -   Selenium tests run and published using TestNG are reported by the Jenkins plugin for ServiceNow DevOps.
 -   Test type categorization is supported.
@@ -50,7 +51,7 @@ JUnit \(default\)
 -   For GitLab and Jenkins, only the JUnit test type integration is supported.
 -   For ADO, GitHub, and GitHub Enterprise, the JUnit, NUnit, XUnit, and Unit test type integrations are supported.
 
- You can change the default test type by modifying the **\[sn\_devops.default\_test\_type\]** [DevOps property](dev-ops-administration.md).
+ You can change the default test type by modifying the **\[sn\_devops.default\_test\_type\]** [DevOps property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Load
 
 The test type mapping connects the test type and entity being tested with the DevOps tool \(**DevOps** &gt; **Integrations** &gt; **Test Type Mappings** module.\)
 
-![Test type mappings](../image/test-type-mappings.png)
+\[Omitted image "test-type-mappings.png"\] Alt text: Test type mappings
 
 An accurate test type mapping ensures that the test type always appears as intended in the test summary results.
 
@@ -171,11 +172,11 @@ DevOps Table
 DevOps table that corresponds to the table name in the **DevOps Entity Id** setting.
 
 </td></tr></tbody>
-</table>![DevOps test type mapping](../image/dev-ops-test-type-mapping.png "DevOps test type mapping")
+</table>\[Omitted image "dev-ops-test-type-mapping.png"\] Alt text: DevOps test type mapping
 
-![Example yaml file of ADO unit test](../image/ado-unit-test.png "Example yaml file of ADO unit test")
+\[Omitted image "ado-unit-test.png"\] Alt text: Example yaml file of ADO unit test
 
-![Example yaml file of GitHub unit test](../image/github-unit-test.png "Example yaml file of GitHub unit test")
+\[Omitted image "github-unit-test.png"\] Alt text: Example yaml file of GitHub unit test
 
 ## Transforming a raw test payload
 
@@ -185,7 +186,7 @@ You can transform a raw test report \(a report containing attributes that do not
 
 If there is more than one test type in a performance stage, you can use the **DevOps Test Type Policy** decision table to configure the test type for each test so the test result payloads are transformed correctly.
 
-![DevOps decision tables](../image/dev-ops-test-decision-policies.png "DevOps decision tables")
+\[Omitted image "dev-ops-test-decision-policies.png"\] Alt text: DevOps decision tables
 
 <table id="table_c54_kcw_pnb"><thead><tr><th>
 
@@ -273,21 +274,21 @@ Create a decision for each type of test in the performance test stage to set the
 
 
 </td></tr></tbody>
-</table>![DevOps multiple performance test types](../image/dev-ops-multiple-test-types.png "DevOps multiple performance test types")
+</table>\[Omitted image "dev-ops-multiple-test-types.png"\] Alt text: DevOps multiple performance test types
 
-![DevOps test type mappings](../image/dev-ops-mult-test-types-map.png "DevOps multiple test type mappings")
+\[Omitted image "dev-ops-mult-test-types-map.png"\] Alt text: DevOps test type mappings
 
-![DevOps decision table decision](../image/dev-ops-decision-table.png "DevOps decision table decision")
+\[Omitted image "dev-ops-decision-table.png"\] Alt text: DevOps decision table decision
 
 ## Test summary results
 
 You can view test summary results these ways.
 
 -   **DevOps** &gt; **Test Results** module \(Test Summaries and Performance Test Summaries\).
--   [DevOps change request](dev-ops-change-acceleration.md) - Test Results related list.
--   [DevOps Pipeline UI](dev-ops-pipeline-ui.md) - Quality tile.
+-   [DevOps change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) - Test Results related list.
+-   [DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md) - Quality tile.
 
-![DevOps performance test summary](../image/dev-ops-perf-test-summary.png "DevOps performance test summary example")
+\[Omitted image "dev-ops-perf-test-summary.png"\] Alt text: DevOps performance test summary
 
 ## Expected standard JSON Notification capability payload - Test tool
 
@@ -368,12 +369,12 @@ Notes:
 - The stageName attribute value must be same as the value in the **Orchestration stage** field of the Step [sn_devops_step] table.
 ```
 
--   **[Configure a test tool in DevOps](../task/create-test-tool-dev-ops.md)**  
+-   **[Configure a test tool in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/create-test-tool-dev-ops.md)**  
 Configure a test tool in DevOps to view unit, functional, and performance test results.
--   **[Add test results to change requests using test API](../reference/test-api-tools.md)**  
+-   **[Add test results to change requests using test API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/test-api-tools.md)**  
 Add test results to DevOps change requests using the test capability of the DevOps - POST /devops/tool/\{capability\} API. The API is available for all test types for various tools connected to DevOps Change Velocity.
--   **[Add attachments to change requests using attachment API](../reference/attachment-api-chg.md)**  
+-   **[Add attachments to change requests using attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/attachment-api-chg.md)**  
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

@@ -2,7 +2,10 @@
 title: Analytics and insights
 description: Use the Performance Analytics applications for Customer Service Management to report your customer service performance and effectiveness. You can use the predefined key performance indicators \(KPIs\) and preconfigured role-based dashboards for monitoring your customer service processes. These analytics enable you to align your organizational goals across all roles, from executive to manager to agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/analytics-and-insights.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -19,9 +22,9 @@ By using the preconfigured Performance Analytics dashboards, you can provide you
 
 The following example shows a Performance Analytics dashboard with profitability and support trends for the month.
 
-![Performance analytics dashboard that shows profitability and costs.](../image/performance-analytics.png "Customer Service Executive dashboard")
+\[Omitted image "performance-analytics.png"\] Alt text: Performance analytics dashboard that shows profitability and costs.
 
-To learn more about the Performance Analytics solutions, see [Customer Service Platform Analytics Solutions](../../../use/dashboards/application-content-packs/customer-service-content-pack.md).
+To learn more about the Performance Analytics solutions, see [Customer Service Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-content-pack.md).
 
-To learn more about the different Performance Analytics plugins and what they provide, see [Additional plugins for Customer Service Management](../reference/r_CustServMgmtAddtlPluginsTable.md).
+To learn more about the different Performance Analytics plugins and what they provide, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 

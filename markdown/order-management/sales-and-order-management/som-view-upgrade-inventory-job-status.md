@@ -2,6 +2,7 @@
 title: View upgrade inventory job status
 description: View the status of a specification upgrade job using the upgrade inventory Job status list form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/som-view-upgrade-inventory-job-status.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -35,5 +36,5 @@ Role required: sn\_ind\_tmt\_orm.order\_agent
 3.  Select **Update** to save any changes.
 
 
-**Parent Topic:**[Updating specification versions](../concept/som-specification-version-update.md)
+**Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/som-specification-version-update.md)
 

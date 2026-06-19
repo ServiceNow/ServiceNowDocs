@@ -2,6 +2,7 @@
 title: Scanning with Granular Configuration
 description: Granular scan can be used to scan specific table columns for discovery. Traditional Data Discovery jobs scan the entire table to discover data, whereas granular scan targets specific columns of the table thereby offers more control over the discovery process
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/data-discovery/granular-configuration.html
 release: zurich
 product: Data Discovery
 classification: data-discovery
@@ -85,5 +86,5 @@ Check to activate the granular configuration.
 
 ## Result
 
-The specific column of the target table will be scanned for discovery. Granular Scan makes use of [Data patterns](configure-data-discovery-patterns.md) from **Active Data Patterns**. You can review the findings and take action at **All** &gt; **System Security** &gt; **Data Discovery\(Classic\)** &gt; **Granular findings**. See [Granular Findings](../concept/granular-findings.md) for more information.
+The specific column of the target table will be scanned for discovery. Granular Scan makes use of [Data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/configure-data-discovery-patterns.md) from **Active Data Patterns**. You can review the findings and take action at **All** &gt; **System Security** &gt; **Data Discovery\(Classic\)** &gt; **Granular findings**. See [Granular Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/data-discovery/granular-findings.md) for more information.
 

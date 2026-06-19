@@ -2,6 +2,7 @@
 title: Create GRC workflow states
 description: Add Governance, Risk, and Compliance workflow states to a state model to define the individual steps in your workflow. Each workflow state represents a phase in the authorization package life cycle and determines what you can do at that stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/add-workflow-states.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -27,7 +28,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 3.  In the **GRC workflow states** section, select **New** to create a workflow state.
 
-    ![Adding workflow states.](../image/WF-state1.png)
+    \[Omitted image "WF-state1.png"\] Alt text: Adding workflow states.
 
 4.  On the **GRC workflow state New record** form, fill in the fields.
 
@@ -64,7 +65,7 @@ Stepper Label
 Enter the display name of the state that appears in the authorization package.
 
 </td></tr></tbody>
-</table>    ![Workflow states fields.](../image/WF-state2.png)
+</table>    \[Omitted image "WF-state2.png"\] Alt text: Workflow states fields.
 
 5.  Select **Submit** to add the workflow state to the state model.
 
@@ -75,5 +76,5 @@ The workflow states appear in the workflow states related list on the state mode
 
 ## What to do next
 
-[Configure transition between state models](create-state-transitions.md)
+[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/create-state-transitions.md)
 

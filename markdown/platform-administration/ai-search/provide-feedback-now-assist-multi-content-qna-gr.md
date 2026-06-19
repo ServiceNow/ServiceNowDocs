@@ -2,6 +2,7 @@
 title: Provide feedback on Now Assist Multi-Content Response Genius Result answers
 description: Provide positive or negative feedback on Now Assist Multi-Content Response Genius Result answers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/provide-feedback-now-assist-multi-content-qna-gr.html
 release: zurich
 product: AI Search
 classification: ai-search
@@ -34,8 +35,8 @@ Feedback for Now Assist Multi-Content Response Genius Result answers is stored i
 
 1.  In the Now Assist Multi-Content Response Genius Result answer, select the thumb icon that matches your desired feedback type.
 
-    -   If the answer provided the information you wanted, provide positive feedback by selecting the thumb-up icon ![](../image/now-assist-mc-qna-gr-thumb-up.png).
-    -   If the answer did not address your question, provide negative feedback by selecting the thumb-down icon ![](../image/now-assist-mc-qna-gr-thumb-down.png).
+    -   If the answer provided the information you wanted, provide positive feedback by selecting the thumb-up icon \[Omitted image "now-assist-mc-qna-gr-thumb-up.png"\] Alt text:.
+    -   If the answer did not address your question, provide negative feedback by selecting the thumb-down icon \[Omitted image "now-assist-mc-qna-gr-thumb-down.png"\] Alt text:.
 2.  If you chose negative feedback, select the option that best explains why the answer didn't help you.
 
     If none of the predefined options explains why the answer didn't help you, select **Other**, then enter your own explanation into the text field.

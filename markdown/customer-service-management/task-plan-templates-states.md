@@ -2,7 +2,10 @@
 title: Task plan templates states and actions
 description: A task plan template can be in one of the following states: Draft or Published. It can also be active or inactive. Each state includes an available set of user actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task-plan-templates-states.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2

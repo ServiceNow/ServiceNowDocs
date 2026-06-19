@@ -2,6 +2,7 @@
 title: Integrate with a translation management system
 description: Integrate with any translation management system of your choice to localize the artifacts requested for translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/localization-framework/integrate-with-tms.html
 release: zurich
 product: Localization Framework
 classification: localization-framework
@@ -257,10 +258,10 @@ String
 </td></tr></tbody>
 </table>2.  Create and configure a custom translation management system and activate it.
 
-    See [Create a custom translation management system](create-custom-tms.md).
+    See [Create a custom translation management system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/create-custom-tms.md).
 
     **Note:** Localization Framework depends on Integration Hub to build integrations with third-party systems.
 
 
-**Parent Topic:**[Translation Management System configurations](../concept/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/localization-framework/tms-configuration.md)
 

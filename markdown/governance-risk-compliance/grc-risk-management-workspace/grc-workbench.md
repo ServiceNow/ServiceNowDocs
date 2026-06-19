@@ -2,6 +2,7 @@
 title: Use entity and risk dependencies using the GRC: Workbench
 description: The GRC: Workbench utilizes CMDB information to show the upstream and downstream relationships across all applications. CMDB information is one of the sources. These relationships enable consistent risk mapping and modeling across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -49,26 +50,26 @@ The Risk Dependencies tab contains links to perform the following tasks.
 |Risk Statements|Create and edit risk statements|
 |Relationships|Create and visualize risk relationships|
 
--   **[Activate GRC: Workbench](../task/activate-grc-workbench.md)**  
+-   **[Activate GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/activate-grc-workbench.md)**  
 The GRC: Workbench plugin is not activated by default, it is available as a separate subscription within the GRC Suite.
--   **[Create entity class using the GRC: Workbench](../task/create-profile-class-using-grc-workbench.md)**  
+-   **[Create entity class using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-profile-class-using-grc-workbench.md)**  
 GRC managers create entity classes representing the types of things that are part of the dependency model. Reports can be filtered to define relationships between the different enity classes. An entity class defines what a entity actually is.
--   **[Create relationships between entity classes using the GRC: Workbench](../task/create-relationships-between-profile-classes.md)**  
+-   **[Create relationships between entity classes using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-relationships-between-profile-classes.md)**  
 Managers create relationships between entity classes using the GRC: Workbench to build out the dependency map and better understand how entities relate to one another.
--   **[Associate a risk framework or risk statement with an entity type to generate risks](../../grc-risk/task/t_GenerateRiskFromFramework.md)**  
+-   **[Associate a risk framework or risk statement with an entity type to generate risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_GenerateRiskFromFramework.md)**  
 Risks are automatically generated when you make associations between risk frameworks or risk statements and entity types.
--   **[Visualize and edit entity dependencies using the GRC: Workbench](../task/visualize-edit-profile-dependencies.md)**  
+-   **[Visualize and edit entity dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/visualize-edit-profile-dependencies.md)**  
 The GRC: Workbench gives GRC administrators a graphical interface to create entity dependencies. These relationships enable consistent entity and risk mapping and modeling across the enterprise.
--   **[Delete entity dependencies using the GRC: Workbench](../task/delete-profile-dependencies.md)**  
+-   **[Delete entity dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/delete-profile-dependencies.md)**  
 When deleting entity dependencies, only the relationship between the entities is deleted. The entities themselves remain unmodified.
--   **[Delete an entity class using the GRC: Workbench](../task/delete-profile-class-workbench.md)**  
+-   **[Delete an entity class using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/delete-profile-class-workbench.md)**  
 Deleting an entioty class, deletes all relationships below it.
--   **[Create a risk using the GRC: Workbench](../task/create-risk-using-grc-workbench.md)**  
+-   **[Create a risk using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-risk-using-grc-workbench.md)**  
 Risk managers can create risks directly from the GRC: Workbench.
--   **[Visualize and edit risk dependencies using the GRC: Workbench](../task/visualize-edit-risk-dependencies.md)**  
+-   **[Visualize and edit risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/visualize-edit-risk-dependencies.md)**  
 The GRC: Workbench gives GRC administrators a graphical interface to create risk dependencies. These relationships enable consistent entity and risk mapping and modeling across the enterprise.
--   **[Delete risk dependencies using the GRC: Workbench](../task/delete-risk-dependencies.md)**  
+-   **[Delete risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/delete-risk-dependencies.md)**  
 When deleting risk dependencies, only the relationship between the risks is deleted. The risks themselves remain unmodified.
 
-**Parent Topic:**[Using Risk Management](../../grc-risk/concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

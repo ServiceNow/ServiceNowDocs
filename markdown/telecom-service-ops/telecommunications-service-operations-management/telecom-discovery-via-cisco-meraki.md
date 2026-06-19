@@ -2,11 +2,12 @@
 title: Telecom Discovery via Cisco Meraki
 description: The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that provides a visual representation of network traffic flow between services and applications, enabling centralized configuration, monitoring, and management. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.html
 release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -23,7 +24,7 @@ The Cisco Meraki SGC provides visibility, control, and synchronization of physic
 -   Real-time synchronization: Ensures the Configuration Management Database \(CMDB\) is up to date with the latest CI information.
 -   Visualization: Provides a graphical representation of Cisco Meraki networks, device relationships, and dependencies through the Integration Hub ETL.
 
-**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-intro&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+**Note:** For a general overview of Service Graph Connector technology, see .
 
 ## Cisco Meraki SGC Architecture
 
@@ -39,5 +40,5 @@ The Cisco Meraki architecture consists of the following key components:
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 

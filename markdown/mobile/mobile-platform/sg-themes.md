@@ -1,0 +1,39 @@
+---
+title: Legacy mobile theming
+description: Use themes on your mobile applications so that your customers and employees can recognize your unique company identity.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-platform/sg-themes.html
+release: zurich
+product: Mobile Platform
+classification: mobile-platform
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
+---
+
+# Legacy mobile theming
+
+Use themes on your mobile applications so that your customers and employees can recognize your unique company identity.
+
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/explore-ne-theming.md).
+
+<table id="table_q5r_rks_jlb"><tbody><tr><td>
+
+\[Omitted image "themed-applet-example.pmg.png"\] Alt text: Examples of customized mobile app themes.
+
+</td><td>
+
+Use mobile themes to change the color scheme of your mobile apps. The colors for elements such as headers, links, buttons, and icons can be controlled using themes. You can configure each of your mobile apps with a unique theme.
+
+ For details on creating a theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/sg-configure-theme.md).
+
+ To see how your selected theme colors affect the appearance of your mobile apps, see the [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-platform/sg-theme-colors.md).
+
+ **Note:** You can configure themes on your apps without custom branding.
+
+</td></tr></tbody>
+</table>## Virtual Agent theming
+
+Theming for virtual agent is handled separately from mobile theming. For details on configuring the appearance of Virtual Agent, see Branding your chat client.
+

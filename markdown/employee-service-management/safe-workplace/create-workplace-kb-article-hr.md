@@ -2,6 +2,7 @@
 title: Create a workplace knowledge base article
 description: Provide information to employees through knowledge base articles. Create knowledge base articles with information about workplace updates, self-help, troubleshoot steps, and others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/safe-workplace/create-workplace-kb-article-hr.html
 release: zurich
 product: Safe Workplace
 classification: safe-workplace
@@ -69,7 +70,7 @@ Category
 
 </td><td>
 
-Relevant category for the knowledge base article. Select an existing category, or select the add category icon \(![Add category icon.](../../../reuse/workplace-safety-mgmt/images/add-checklist-icon.png)\) to add a new category.You can also select or add a subcategory.
+Relevant category for the knowledge base article. Select an existing category, or select the add category icon \(\[Omitted image "add-checklist-icon.png"\] Alt text: Add category icon.\) to add a new category.You can also select or add a subcategory.
 
 </td></tr><tr><td>
 
@@ -153,5 +154,5 @@ The knowledge base article is created.
 
 ## What to do next
 
-Publish the knowledge base article. For more information, see [Publish a workplace knowledge base article](../../workplace-service-delivery/task/publish-workplace-kb-article-wsd.md).
+Publish the knowledge base article. For more information, see [Publish a workplace knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/publish-workplace-kb-article-wsd.md).
 

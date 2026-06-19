@@ -2,6 +2,7 @@
 title: Use an SLA map
 description: View open work order tasks and their SLA status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/work-order-management/c\_UseTheSLAMap.html
 release: zurich
 product: Work Order Management
 classification: work-order-management

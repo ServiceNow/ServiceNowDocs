@@ -2,6 +2,7 @@
 title: Create entitlements for Citrix
 description: Software entitlements enable you to define license details that are matched to software models. You can add an entitlement individually or import a list from a spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/create-entitlement-citrix.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -19,9 +20,9 @@ Software entitlements enable you to define license details that are matched to s
 
 Role required: sam\_user or sam\_admin. The sam\_admin role is required to import entitlements.
 
-**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to create entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](create-entitlements-workspace.md). For details on how to import entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](import-entitlements-workspace.md).
+**Important:** You can create and import entitlements in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on how to create entitlements in the Software Asset Management classic application. For details on how to create entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/create-entitlements-workspace.md). For details on how to import entitlements in the Software Asset Workspace, see [Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/import-entitlements-workspace.md).
 
-Before you can create a software entitlement, [create a software model](add-software-model-sap.md).
+Before you can create a software entitlement, [create a software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-software-model-sap.md).
 
 ## About this task
 
@@ -33,15 +34,15 @@ Manage available software and tie software installations \(software being used\)
 
 1.  Navigate to **All** &gt; **Asset** &gt; **Portfolios** &gt; **Software Entitlement** and select **New**.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
 
     |Field|Description|
     |-----|-----------|
-    |License Metric|License metric for the license group that the software license is counted against when reconciliation is run. For detailed of the license metrics, see [Software license metrics](../concept/c_SAMLicenseMetrics.md).|
+    |License Metric|License metric for the license group that the software license is counted against when reconciliation is run. For detailed of the license metrics, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).|
 
 2.  To set upgrade or downgrade entitlements, select the new software entitlement record from the Software Entitlements list.
 
-    For a detailed description on how to complete additional configurations for software entitlements, see [Create entitlements in Software Asset Management classic](track-software-rights.md).
+    For a detailed description on how to complete additional configurations for software entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md).
 
 3.  Select **Submit**.
 
@@ -50,7 +51,7 @@ Manage available software and tie software installations \(software being used\)
 
 ## What to do next
 
-[Run software reconciliation](t_RunReconciliation.md) on your licenses.
+[Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_RunReconciliation.md) on your licenses.
 
-**Parent Topic:**[Software Asset Management publisher pack for Citrix](../concept/citrix-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/citrix-publisher-pack.md)
 

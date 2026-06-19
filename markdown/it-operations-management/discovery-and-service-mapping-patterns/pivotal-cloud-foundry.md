@@ -2,6 +2,7 @@
 title: Pivotal Cloud Foundry discovery
 description: The ServiceNow Discovery application finds Pivotal Cloud Foundry \(PCF\) version 3 components using the Pivotal Cloud Foundry pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/pivotal-cloud-foundry.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ The discovery of PCF V3 components is supported when the Discovery and Service M
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -150,7 +151,7 @@ Alternate name for these credentials. As an example, `cf` If this field is close
 
     4.  Right-click the header of the Discovery Schedule form and select **Save**.
 
-        ![Serverless execution pattern](../image/serverless-execution-pattern.png)
+        \[Omitted image "serverless-execution-pattern.png"\] Alt text: Serverless execution pattern
 
     5.  Select the Serverless Execution Patterns tab.
     6.  Select **New**.
@@ -234,7 +235,7 @@ Alternate name for these credentials. As an example, `cf` If this field is close
 
     CloudFoundry Get Call parses the input JSON to populate the tables and variables.
 
-    ![Cloud Foundry custom operation](../image/cloud-foundry-custom-operation.png)
+    \[Omitted image "cloud-foundry-custom-operation.png"\] Alt text: Cloud Foundry custom operation
 
 
 ## Pivotal Cloud Foundry BOSH extension section
@@ -1030,5 +1031,5 @@ Contains::Contained by
 BOSH Deployment \[cmdb\_ci\_bosh\_deployment\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

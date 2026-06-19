@@ -2,6 +2,7 @@
 title: Managing HTML content in knowledge articles
 description: You can manage HTML content in knowledge articles by using the HTML editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/knowledge-management/including-html-content.html
 release: zurich
 product: Knowledge Management
 classification: knowledge-management
@@ -17,13 +18,13 @@ You can manage HTML content in knowledge articles by using the HTML editor.
 
 You can perform the following functions for HTML content in knowledge articles:
 
--   Insert a hyperlink by using the insert/edit link icon \(![Insert/edit link icon](../../../use/using-forms/image/TinyMCEV4Link.png)\) available on the HTML toolbar. For more information, see [Link to a website in HTML fields](https://www.servicenow.com/docs/access?context=t_LinkingToAWebsiteInHTMLFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Insert an image by using the insert/edit image icon \(![Insert/edit image icon](../../../use/using-forms/image/TinyMCEV4Image.png)\) available on the HTML toolbar. For more information, see [Embed images in HTML fields](https://www.servicenow.com/docs/access?context=t_EmbeddingImagesInHTMLFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Embed a video from the video library, an attachment, or URL by using the insert/edit video icon \(![Insert/edit video icon](../../../use/using-forms/image/TinyMCEV4Video.png)\) available on the HTML toolbar. You can also add videos to the video library. For more information, see [Embed videos in HTML fields](https://www.servicenow.com/docs/access?context=t_EmbeddingVideoInHTMLFields&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   Copy content from external sources and paste them as simple text into the editor. For more information, see [Paste content into the HTML editor](https://www.servicenow.com/docs/access?context=paste-html-editor&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
--   View and edit the HTML source code by using the source code icon \(![Source code icon](../../../use/using-forms/image/TinyMCEV4Code.png)\) available on the HTML toolbar. For more information, see [Extended functions](https://www.servicenow.com/docs/access?context=r_ExtendedFunctions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Insert a hyperlink by using the insert/edit link icon \(\[Omitted image "TinyMCEV4Link.png"\] Alt text: Insert/edit link icon\) available on the HTML toolbar. For more information, see Link to a website in HTML fields.
+-   Insert an image by using the insert/edit image icon \(\[Omitted image "TinyMCEV4Image.png"\] Alt text: Insert/edit image icon\) available on the HTML toolbar. For more information, see Embed images in HTML fields.
+-   Embed a video from the video library, an attachment, or URL by using the insert/edit video icon \(\[Omitted image "TinyMCEV4Video.png"\] Alt text: Insert/edit video icon\) available on the HTML toolbar. You can also add videos to the video library. For more information, see Embed videos in HTML fields.
+-   Copy content from external sources and paste them as simple text into the editor. For more information, see Paste content into the HTML editor.
+-   View and edit the HTML source code by using the source code icon \(\[Omitted image "TinyMCEV4Code.png"\] Alt text: Source code icon\) available on the HTML toolbar. For more information, see Extended functions.
 
-    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](../task/insert-code-html-editor.md).
+    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/insert-code-html-editor.md).
 
--   Expand the HTML field to use the full form view for easier editing by using the fullscreen icon \(![Fullscreen icon](../../../use/using-forms/image/TinyMCEV4FullScreen.png)\). For more information, see [Extended functions](https://www.servicenow.com/docs/access?context=r_ExtendedFunctions&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+-   Expand the HTML field to use the full form view for easier editing by using the fullscreen icon \(\[Omitted image "TinyMCEV4FullScreen.png"\] Alt text: Fullscreen icon\). For more information, see Extended functions.
 

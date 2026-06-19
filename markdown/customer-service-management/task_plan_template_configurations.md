@@ -2,9 +2,12 @@
 title: Create a task plan template configuration
 description: Admins can create configurations for task plan templates that pre-fill information in task plan template fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/task\_plan\_template\_configurations.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

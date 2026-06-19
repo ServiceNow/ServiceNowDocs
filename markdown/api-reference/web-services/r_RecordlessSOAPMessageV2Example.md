@@ -2,6 +2,7 @@
 title: Recordless SOAPMessageV2 example
 description: You can use the SOAPMessageV2\(\) constructor with no parameters to define a SOAP message entirely in the script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/r\_RecordlessSOAPMessageV2Example.html
 release: zurich
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ var xmldoc = new XMLDocument(response.getBody());
 var incident_sysid = xmldoc.getNodeText('//sys_id');
 ```
 
-**Parent Topic:**[Scripting outbound SOAP](../../../../../integrate/outbound-soap/reference/r_ScriptingOutboundSOAP.md)
+**Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/r_ScriptingOutboundSOAP.md)
 

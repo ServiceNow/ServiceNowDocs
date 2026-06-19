@@ -2,6 +2,7 @@
 title: Application Fingerprints dashboard
 description: ITOM Visibility uses Predictive Intelligence to perform initial analysis of discovered processes and suggest applications that you might want to discover. When using this method, ITOM Visibility automatically creates a Configuration Management Database \(CMDB\) configuration item \(CI\) class, a classifier, or a pattern for the new application CI class. Use the Application Fingerprints dashboard to review suggested applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/discovery-application-fingerprint-dashboard.html
 release: zurich
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [Discover applications based on fingerprints, Running discoveries in
 
 ITOM Visibility uses Predictive Intelligence to perform initial analysis of discovered processes and suggest applications that you might want to discover. When using this method, ITOM Visibility automatically creates a Configuration Management Database \(CMDB\) configuration item \(CI\) class, a classifier, or a pattern for the new application CI class. Use the Application Fingerprints dashboard to review suggested applications.
 
-![Application Fingerprints dashboards](../image/discovery-app-fingerprints-dashboard.png)
+\[Omitted image "discovery-app-fingerprints-dashboard.png"\] Alt text: Application Fingerprints dashboards
 
 ## Required ServiceNow AI Platform roles
 
@@ -68,7 +69,7 @@ Top Suggestions
 
 </td><td>
 
-Pie Chart![Pie Chart icon](../../../reuse/reporting/image/pie-sm.svg)
+Pie Chart\[Omitted image "pie-sm.svg"\] Alt text: Pie Chart icon
 
 </td><td>
 

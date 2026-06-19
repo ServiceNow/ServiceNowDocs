@@ -2,6 +2,7 @@
 title: Recommendation rules for an incident in Service Operations Workspace
 description: Recommendations for an incident are based on rules defined in Recommendation Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/recommendation-rules.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Recommendations for an incident are based on rules defined in Recommendation Fra
 
 Recommendation Framework is now deprecated and no longer supported or available for new activation. Recommended Actions for ITSM feature provides the latest experience for this functionality. To get the advanced version, you must install the Advanced Recommended actions for ITSM \(com.snc.uib.sow\_itsm\_ra\_advanced\) plugin and you must procure ITSM Pro package subscription.
 
-**Note:** The best practice to get the advanced version is to install the Task Intelligence for ITSM \(com.snc.itsm\_ml\_task\) plugin and procure the ITSM Pro package subscription. For more information, see [Exploring Recommended Actions for ITSM in Service Operations Workspace](../concept/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md).
+**Note:** The best practice to get the advanced version is to install the Task Intelligence for ITSM \(com.snc.itsm\_ml\_task\) plugin and procure the ITSM Pro package subscription. For more information, see [Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md).
 
 For each recommendation rule to work, install the relevant plugin that installs the corresponding solution definition. Based on this solution definition, the recommendation rule predicts values or records for an incident.
 
@@ -231,5 +232,5 @@ Link incident: Links the recommended incident to the current incident. On the cu
 Discard: Discards the recommendation and moves it to the **History** tab in the **Recommendations** panel.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommendation Framework in Service Operations Workspace](../concept/recommendation-framework-sow.md)
+</table>**Parent Topic:**[Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/recommendation-framework-sow.md)
 

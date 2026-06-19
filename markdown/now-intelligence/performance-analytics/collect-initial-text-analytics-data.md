@@ -2,6 +2,7 @@
 title: Collect initial text analytics data
 description: When you configure text analytics for an indicator source, no data is available until a relevant data collector job is run. If you have newly created a text analytics configuration, run a special collection job. If you have added indicators to an existing text analytics configuration, run a historical data collection job to collect only text analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/collect-initial-text-analytics-data.html
 release: zurich
 product: Performance Analytics
 classification: performance-analytics
@@ -31,7 +32,7 @@ Role required: pa\_power\_user or admin
 
     1.  Navigate to **Data collection** &gt; **Jobs**.
 
-    2.  Create or edit a historical data collection job as described in [Create or schedule a data collection job](t_CreatASchedDataCollJob.md), with the following characteristics:
+    2.  Create or edit a historical data collection job as described in [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md), with the following characteristics:
 
         -   Set the **Collect** job parameter to **Text indexes only**.
         -   Set the **Run** job parameter to **On demand**.

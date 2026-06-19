@@ -2,13 +2,14 @@
 title: Track the current location of agents from email or SMS notifications
 description: Track the current location of agents and their estimated time of arrival through email or SMS notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/customer-experience-for-field-service-management/track-agents-sms.html
 release: zurich
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-06-18"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # Track the current location of agents from email or SMS notifications

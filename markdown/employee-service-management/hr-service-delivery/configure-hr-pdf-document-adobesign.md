@@ -2,6 +2,7 @@
 title: Configure an HR PDF document template for an ad hoc document
 description: If you are using the Adobe Sign integration, configure an HR PDF document template for each ad hoc document that you want to make available for signing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/hr-service-delivery/configure-hr-pdf-document-adobesign.html
 release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ If you are using the Adobe Sign integration, configure an HR PDF document templa
 
 ## Before you begin
 
-Create the managed document that you want to make available for signing through the Adobe Sign system. See [Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) for more information.
+Create the managed document that you want to make available for signing through the Adobe Sign system. See Managed Documents for more information.
 
 Role required: sn\_hr\_core.admin
 
@@ -33,7 +34,7 @@ You can use an existing or create an HR PDF document template. You can add signe
 
 3.  On the PDF Document Template form, set the **Template type** field to `HR PDF Templates`.
 
-    ![Set the Template type field to HR PDF Templates.](../image/hr-pdf-document-template-for-adhoc.png)
+    \[Omitted image "hr-pdf-document-template-for-adhoc.png"\] Alt text: Set the Template type field to HR PDF Templates.
 
 4.  Fill in the fields on the form, as appropriate.
 
@@ -99,14 +100,14 @@ HR criteria
 
 </td><td>
 
-Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=zurich&pubname=zurich-api-reference&ft:locale=en-US).
+Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>5.  Right-click on the form header and click **Save**.
 
     The PDF Template Mappings section is displayed.
 
-6.  [Configure an HR PDF document template](PDFTemplate.md), as appropriate.
+6.  [Configure an HR PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/PDFTemplate.md), as appropriate.
 
     You can add signers to the document with **Mark Signatures**, and then map each signature field to an appropriate user field in a table. You can also parse the PDF to map document fields to corresponding table fields to auto-populate the document when it is generated for signing.
 
@@ -124,5 +125,5 @@ Defines the conditions that the subject person of an HR case must meet for an HR
 8.  Click **Update**.
 
 
-**Parent Topic:**[Integrating with the Adobe Sign service](../concept/integrating-with-adobe-sign-service.md)
+**Parent Topic:**[Integrating with the Adobe Sign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/integrating-with-adobe-sign-service.md)
 

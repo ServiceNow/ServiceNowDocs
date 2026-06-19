@@ -2,6 +2,7 @@
 title: Markdown options for read-only text
 description: Enable markdown formatting for ReadOnlyText components in ServiceNow CPQ layouts to enhance text presentation. Use syntax for bold, italics, lists, links, images, and dynamic field values to create clear, engaging, and context-aware display text in configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/layout\_readonlytext\_markdown\_options.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Enable Markdown in text fields, Configure fields, ServiceNow CPQ ap
 
 Enable markdown formatting for ReadOnlyText components in ServiceNow CPQ layouts to enhance text presentation. Use syntax for bold, italics, lists, links, images, and dynamic field values to create clear, engaging, and context-aware display text in configurations.
 
-This article describes the markdown syntax and behaviors available to administrators when a text field is defined on a native ServiceNow CPQ UI layout with component display type ReadOnlyText. For a broader discussion of layout options, see [CSV layout upload](csv_layout_upload.md).
+This article describes the markdown syntax and behaviors available to administrators when a text field is defined on a native ServiceNow CPQ UI layout with component display type ReadOnlyText. For a broader discussion of layout options, see [CSV layout upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/csv_layout_upload.md).
 
 To apply markdown formatting to a ReadOnlyText component:
 

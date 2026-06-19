@@ -2,6 +2,7 @@
 title: Add a collaborative communication task
 description: In major incident workbench, you can add a collaborative communication task to collaborate and understand the progress of communication plan and its related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/collaboration-services/add-collaborate-task.html
 release: zurich
 product: Collaboration Services
 classification: collaboration-services
@@ -48,8 +49,8 @@ In major incident workbench, you can add a collaborative communication task to c
 7.  In the **Manage Recipients** tab, add the users required to be involved in the major incident collaborative communication task, and click **Add**.
 
 
--   **[Create a Slack channel for a collaborative communication task](create-slack-for-collab-comm-task.md)**  
+-   **[Create a Slack channel for a collaborative communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/create-slack-for-collab-comm-task.md)**  
 Create a Slack channel for a collaborative communication task to collaborate and discuss the communication task details.
 
-**Parent Topic:**[Process flow for Slack communication](../concept/process-flow-slack.md)
+**Parent Topic:**[Process flow for Slack communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/collaboration-services/process-flow-slack.md)
 

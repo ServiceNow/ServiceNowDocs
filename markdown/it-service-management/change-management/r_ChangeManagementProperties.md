@@ -2,6 +2,7 @@
 title: Change Management properties
 description: Administrators can use change properties to configure Change Management behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/r\_ChangeManagementProperties.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -43,7 +44,7 @@ glide.ui.risk\_calculate\_rule
 Change risk calculation method. Business rule calculates on insert/update, UI action calculates only on demand. **None** disables this capability.-   Type: choice list
 -   Default value: ui\_action
 
- For more information, see [Risk Calculator property](../../../script/server-scripting/reference/r_ChangeRiskCalculator.md).
+ For more information, see [Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/r_ChangeRiskCalculator.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ change.refresh\_impacted.include\_affected\_cis
 
 </td><td>
 
-Lists the impacted CIs or Services with any service supported by a configuration item identified in the Affected CI related list. **Note:** This requires any business services identified to be converted to an application service. For instructions, see [Convert business services to application services](https://www.servicenow.com/docs/access?context=convert-bus-to-app-svc-intro&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US). For information about application services, see [Application services](https://www.servicenow.com/docs/access?context=application-services&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+Lists the impacted CIs or Services with any service supported by a configuration item identified in the Affected CI related list. **Note:** This requires any business services identified to be converted to an application service. For instructions, see Convert business services to application services. For information about application services, see Application services.
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ com.snc.change\_management.enforce\_data\_requirements
 
 </td><td>
 
-Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see [Change Management API](https://www.servicenow.com/docs/access?context=change-management-api&version=zurich&pubname=zurich-api-reference&ft:locale=en-US)
+Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see Change Management API
 
  In the User Interface, when this property is true, it enables additional server sided restrictions to the UI Policy and Client Script controls that already exist.
 
@@ -162,7 +163,7 @@ com.snc.change\_request.event.state\_updated.states
 
 </td><td>
 
-Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [State model and transitions](../concept/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
+Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
 
 </td></tr></tbody>
 </table>## Change Management properties for Discovery integration
@@ -259,5 +260,5 @@ Controls opening of a CAB meeting from the CAB Meeting calendar in the CAB Workb
 -   **false**: CAB meetings open in the Core UI.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Change Management](../concept/reference-change-management.md)
+</table>**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/reference-change-management.md)
 

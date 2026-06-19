@@ -1,0 +1,44 @@
+---
+title: Secure apps with low-code tools
+description: Secure your ServiceNow apps.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/building-applications/test-dev-low-manage-secure.html
+release: zurich
+product: Building Applications
+classification: building-applications
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Manage apps with low-code tools, Low-code and no-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+---
+
+# Secure apps with low-code tools
+
+Secure your ServiceNow apps.
+
+<table id="table_fck_nq2_2vb" class="nav-card"><tbody><tr><td>
+
+[App Engine Studio roles and permissions \[Omitted image "icon-roles.png"\] Alt text: App Engine Studio roles and permissions. Control who is permitted to use or edit your apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-security.md)
+
+</td><td>
+
+Edge Encryption \[Omitted image "BUS\_64px\_Security\_YG.png"\] Alt text: Edge Encryption. Encrypt sensitive data on your company premises before sending it over the Internet.
+
+</td><td>
+
+UI Policies \[Omitted image "icon-log.png"\] Alt text: UI Policies. Dynamically change the behavior of information on a form and control custom process flows for tasks.
+
+</td></tr><tr><td>
+
+Roles \[Omitted image "icon-roles-screen.png"\] Alt text: Roles. Control access to features and capabilities in applications and modules.
+
+</td><td>
+
+Access Control \[Omitted image "icon-access-control.png"\] Alt text: Access Control. Control which Customer Service and Support employees can access your instance, and when.
+
+</td><td>
+
+Users and Groups \[Omitted image "icon-users-groups.png"\] Alt text: Users and Groups. Manage the individuals who can access your instance by defining them as users in the system.
+
+</td></tr></tbody>
+</table>

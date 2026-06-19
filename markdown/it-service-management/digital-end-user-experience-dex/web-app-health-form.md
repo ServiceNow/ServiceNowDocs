@@ -2,6 +2,7 @@
 title: Web application — Performance page
 description: Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-end-user-experience-dex/web-app-health-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -107,5 +108,5 @@ Measure of the system's operational performance and its ability to be accessible
 </td></tr></tbody>
 </table>**Note:** If you set up a page-level monitoring for specific application pages, you can see the collected metrics in the Metrics analyzer. Select one or more pages under **Pages** and narrow down your data by location, OS, or date range.
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/application-form.md)
 

@@ -2,6 +2,7 @@
 title: Create a calculated metric definition
 description: Create a calculated metric definition by aggregating the automatic metric definition and the manual metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/t\_create-composite-metric-definition.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ Add the automatic metric definition and the manual metric definition as children
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![](../../grc-workspace-risk/image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
 3.  Navigate to **Metrics** &gt; **Calculated metric definitions**.
 
@@ -35,7 +36,7 @@ Add the automatic metric definition and the manual metric definition as children
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values on the Calculated metric definition form, see [Calculated metric definition form](../reference/calculated-metric-definition-reuse-irm.md).
+    For a description of the field values on the Calculated metric definition form, see [Calculated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/calculated-metric-definition-reuse-irm.md).
 
 6.  Select **Save**.
 
@@ -46,10 +47,10 @@ The metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](t_update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/t_update-automated-metric-definition.md) for more information.
 
--   **[Calculated metric definition form](../reference/calculated-metric-definition-reuse-irm.md)**  
+-   **[Calculated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/calculated-metric-definition-reuse-irm.md)**  
 The fields of the calculated metric definition form are explained in this topic.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Secure records in an embedded list
 description: To apply security to the records in embedded lists, limit editing and deleting records in embedded lists to specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/t\_SecuringRecordsInAnEmbeddedList.html
 release: zurich
 product: Access Control
 classification: access-control

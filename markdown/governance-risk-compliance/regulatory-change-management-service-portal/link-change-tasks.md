@@ -2,6 +2,7 @@
 title: Link Change tasks
 description: Link Change tasks directly from the Impacted areas tab of a regulatory alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/regulatory-change-management-service-portal/link-change-tasks.html
 release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -37,7 +38,7 @@ Role required: sn\_grc\_reg\_change.user
 
 8.  Select **Confirm**.
 
-    ![Link change tasks](../../grc-rcm/image/link-change-tasks.png)
+    \[Omitted image "link-change-tasks.png"\] Alt text: Link change tasks
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Suite inference rules for Adobe license metrics
 description: Based on the system property Use component licenses to optimize compliance when suite licenses run out, the Software Asset Management application uses suite or component licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/suite-inference-adobe.html
 release: zurich
 product: Software Asset Management
 classification: software-asset-management
@@ -15,5 +16,5 @@ breadcrumb: [Software Asset Management software suites, Explore, Software Asset 
 
 Based on the system property Use component licenses to optimize compliance when suite licenses run out, the Software Asset Management application uses suite or component licenses.
 
-**Parent Topic:**[Software Asset Management software suites](software-suites.md)
+**Parent Topic:**[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-suites.md)
 

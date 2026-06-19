@@ -2,6 +2,7 @@
 title: Configuring Knowledge Graph
 description: Plan and configure Knowledge Graph implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.html
 release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
@@ -26,7 +27,7 @@ On activation, the following Knowledge Graph plugins are installed by default:
 
 To implement the Knowledge Graph adoption, you must configure Knowledge Graph for Virtual Agent.
 
-For pre-built integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US) for admin guided setup.
+For pre-built integration with Now Assist Virtual Agent for Slot filling, configure Knowledge Graph in Virtual Agent. Refer  for admin guided setup.
 
-Knowledge Graph now supports Workflow Data Fabric that enables users to retrieve data from different systems without moving them. This ensures efficiency and security when working with sensitive information.To configure and integrate the Workflow Data Fabric tables for Knowledge Graph, see [Managing data fabric tables in Workflow Data Fabric Hub](https://www.servicenow.com/docs/access?context=managing-data-fabric-tables-wdf&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US)
+Knowledge Graph now supports Workflow Data Fabric that enables users to retrieve data from different systems without moving them. This ensures efficiency and security when working with sensitive information.To configure and integrate the Workflow Data Fabric tables for Knowledge Graph, see 
 

@@ -2,6 +2,7 @@
 title: Request scheduling preferences form
 description: The request scheduling preferences form provides the field descriptions required to request an applicant or interviewer to share their scheduling preferences for upcoming interviews.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/interview-management/request-availability-form.html
 release: zurich
 product: Interview Management
 classification: interview-management
@@ -72,5 +73,5 @@ Message
 Body text of the email notification.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+</table>**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/interview-management/interview-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: EventQueueProcessorOOB - Scoped
 description: The EventQueueProcessorOOB script include provides methods to manage event requests on the inbound event queue \(located in the Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table\).Adds attributes to the passed event snapshot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ If you want to change the default functionality of this script include, you need
 
 This script include runs in the `sn_api_notif_mgmt` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## EventQueueProcessorOOB - transformEventObject\(Object eventSnapshot, Object eventJson, String queueType\)
 

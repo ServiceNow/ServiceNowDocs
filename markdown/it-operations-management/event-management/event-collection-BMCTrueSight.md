@@ -2,6 +2,7 @@
 title: Event collection from BMC TrueSight and BMC TrueSight\_v2
 description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\), utilizing event stream notification capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/event-collection-BMCTrueSight.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -21,9 +22,9 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that you:
 
--   Deploy and start the MID Server. See [MID Server configuration](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US) .
--   Configure and start the MID Web Server. See [Configure the MID Web Server extension](configure-mid-web-server-extension.md).
--   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](configure-em-context-extension.md).
+-   Deploy and start the MID Server. See MID Server configuration .
+-   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
+-   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-em-context-extension.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -76,7 +77,7 @@ MID\_Web\_Server\_Password
 Password of the user of the MID Web Server Extension. However, encode the password in BASE64. For example, if the MID Web Server Extension password is `admin`, in this case use `YWRtaW4=` as the password for MID\_Web\_Server\_Password. To determine the BASE64 value, you can use the utility at this website: [https://www.base64encode.org/](https://www.base64encode.org/)
 
 </td></tr></tbody>
-</table>The following procedure describes the collection of JSON formatted event messages using basic authentication. For more information about supported authentication methods, see [Configure the MID Web Server extension](configure-mid-web-server-extension.md).
+</table>The following procedure describes the collection of JSON formatted event messages using basic authentication. For more information about supported authentication methods, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 ## Procedure
 
@@ -220,5 +221,5 @@ Example, showing the message body.
 }
 ```
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-listener-transform-script.md)
 

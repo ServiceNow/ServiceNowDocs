@@ -2,6 +2,7 @@
 title: Wrap up segments
 description: Define the wrap up segments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/advanced-work-assignment/wrap-up-segments.html
 release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -53,5 +54,5 @@ Role required: admin
 4.  Select **Update** if you are updating an existing segment or **Submit** if you are creating a new segment.
 
 
-**Parent Topic:**[Configuring Advanced Work Assignment](installing-awa.md)
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/installing-awa.md)
 

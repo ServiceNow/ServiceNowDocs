@@ -2,6 +2,7 @@
 title: Use the DrawRectangle component
 description: Draw a rectangle on an image and specify its dimensions as part of an automation Workflow by using the DrawRectangle component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/use-imageutil-drawrectangle.html
 release: zurich
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the DrawRectangle component. For more information about these properties, see [Properties of the Image Utilities components](../reference/util-imageutil-prop.md).
+You can configure the properties for the DrawRectangle component. For more information about these properties, see [Properties of the Image Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/util-imageutil-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the DrawRectangle component. For more infor
 
 2.  Drag the DrawRectangle component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the DrawRectangle component to the corresponding ports of the other components as described in the following table.
 
@@ -169,5 +170,5 @@ No. Connecting the port is optional.
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Image Utilities](../concept/image-utilities.md)
+**Parent Topic:**[Image Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/image-utilities.md)
 

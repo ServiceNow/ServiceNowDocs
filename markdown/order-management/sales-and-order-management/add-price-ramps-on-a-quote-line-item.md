@@ -2,6 +2,7 @@
 title: Add price ramps on a quote line item
 description: Add price ramps to quote line items to define incremental price changes for recurring product offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/add-price-ramps-on-a-quote-line-item.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -72,5 +73,5 @@ Use price ramps to specify how the price of a configurable product offering in a
     -   Select the check box for the segment to be adjusted.
     -   Select the type of adjustment to be made.
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/sales-and-order-management/quote-mgmt-using.md)
 

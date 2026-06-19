@@ -2,13 +2,14 @@
 title: Prioritize Shopping Hub email notifications
 description: To ensure that your customers receive the focused Shopping Hub email notifications, over the global notifications that are sent by default from the platform team, you can manually add a condition to suppress them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/prioritize-email-notifications.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Shopping Hub, Use Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Prioritize Shopping Hub email notifications
@@ -29,10 +30,10 @@ Role required: admin
 
 4.  On the **When to send** tab, add the condition: "Table does not contain sn\_shop\_"
 
-    ![Adding a condition manually to suppress default global notifications](../image/spo-prioritize-sh-email-notifications.png)
+    \[Omitted image "spo-prioritize-sh-email-notifications.png"\] Alt text: Adding a condition manually to suppress default global notifications
 
 5.  Save the record.
 
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

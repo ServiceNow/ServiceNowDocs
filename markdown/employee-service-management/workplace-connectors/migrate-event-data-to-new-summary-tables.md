@@ -2,6 +2,7 @@
 title: Migrate event data to new summary tables
 description: Migrate old sensor event data from the existing tables to the new summary data tables using the OnDemandDataMigration scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-connectors/migrate-event-data-to-new-summary-tables.html
 release: zurich
 product: Workplace Connectors
 classification: workplace-connectors
@@ -34,5 +35,5 @@ This job summarizes daily aggregated data based on specified criteria such as da
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Data summarization](../reference/data-summarization-workplace-connectors.md)
+**Parent Topic:**[Data summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-connectors/data-summarization-workplace-connectors.md)
 

@@ -2,7 +2,10 @@
 title: Configure event body fields
 description: Administrators can add fields to event bodies so dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/add-event-fields.html
 release: zurich
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Administrators can add fields to event bodies so dispatchers have more informati
 
 ## About this task
 
-Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Before you begin
 
@@ -82,6 +85,6 @@ The order that the field shows on an event body in relation to the other fields.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    ![event body fields form](../image/event-body-fields.png)
+    \[Omitted image "event-body-fields.png"\] Alt text: event body fields form
 
 

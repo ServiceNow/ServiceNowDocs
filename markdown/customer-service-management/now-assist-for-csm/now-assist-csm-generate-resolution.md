@@ -2,6 +2,7 @@
 title: Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)
 description: Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.Use the Now Assist context menu in the resolution notes field of the case form in both Core UI \(UI16\) and Workspace to create resolution note.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -51,7 +52,7 @@ You can also generate resolution information on demand from the Now Assist panel
     -   **Resolution notes**
     If the **Resolution notes** field on the case record is empty, the resolution notes generation skill adds the information to this field in the modal.
 
-    ![AI-generated resolution information for a case record.](../image/now-assist-csm-propose-solution-modal.png "Propose Solution modal")
+    \[Omitted image "now-assist-csm-propose-solution-modal.png"\] Alt text: AI-generated resolution information for a case record.
 
 3.  Select a **Resolution code** for the case.
 
@@ -78,7 +79,7 @@ You can also generate resolution information on demand from the Now Assist panel
     -   The case moves to the Resolved state.
     -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 ## Generate resolution notes in case form
 
@@ -92,7 +93,7 @@ Role required: admin
 
 In both the CSM Configurable Workspace and Core UI, you can generate resolution notes for a case by using the Now Assist context menu within the resolution notes field in the case form.
 
-An agent can do these actions by using the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png):
+An agent can do these actions by using the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\]:
 
 -   Generate resolution notes based on the case context.
 -   Refine the recommendation by elaborating or shortening the content.
@@ -105,11 +106,11 @@ An agent can do these actions by using the Now Assist icon ![](../../../common
 
 2.  Navigate to the Resolution notes field in the case form.
 
-3.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
 
-    Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) generates a recommended text that is based on the context of the case.
+    Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
 
-    ![Resolution notes is generated](../image/now-assist-csm-resolutionnotes-caseform-generate.png "Generate resolution notes using the Now Assist icon")
+    \[Omitted image "now-assist-csm-resolutionnotes-caseform-generate.png"\] Alt text: Resolution notes is generated
 
 4.  Select **Insert** to add the generated content into the resolution notes field.
 
@@ -117,6 +118,6 @@ An agent can do these actions by using the Now Assist icon ![](../../../common
 
     You get the option to either elaborate or shorten the content as needed.
 
-    ![Shorten or elaborate the resolution note](../image/now-assist-csm-resolutionnotes-caseform-refine.png "Refine resolution notes using the Now Assist icon")
+    \[Omitted image "now-assist-csm-resolutionnotes-caseform-refine.png"\] Alt text: Shorten or elaborate the resolution note
 
 

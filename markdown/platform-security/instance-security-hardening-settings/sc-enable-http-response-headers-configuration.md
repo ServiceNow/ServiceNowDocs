@@ -2,6 +2,7 @@
 title: Enable HTTP response headers configuration
 description: Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enable-http-response-headers-configuration.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Configuration, Hardening settings, Platform Security]
 
 Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 
-If **glide.http.headers\_config.enabled** isn’t set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren’t used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [HTTP Response Headers](https://www.servicenow.com/docs/access?context=http-response-header&version=zurich&pubname=zurich-servicenow-platform&ft:locale=en-US).
+If **glide.http.headers\_config.enabled** isn’t set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren’t used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see .
 
 Verify that the property **glide.http.headers\_config.enabled** is set to **true**.
 
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

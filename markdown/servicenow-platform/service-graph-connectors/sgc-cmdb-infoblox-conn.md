@@ -2,6 +2,7 @@
 title: Accessing the connection details of Service Graph Connector for Infoblox
 description: You can access the connection details of the Service Graph Connector for Infoblox in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of an Infoblox connection configured for the Service Graph Connector for Infoblox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-conn.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -16,7 +17,7 @@ breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data in
 
 You can access the connection details of the Service Graph Connector for Infoblox in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 
-With the CCF, you can access all the connections used by the Service Graph Connector for Infoblox. The connection details include the connection alias, connection properties, data sources, and scheduled data imports associated with a connection. You can also test the connection. For more information, see [Accessing the connection details of Service Graph Connectors](integration-commons-conn-fw.md).
+With the CCF, you can access all the connections used by the Service Graph Connector for Infoblox. The connection details include the connection alias, connection properties, data sources, and scheduled data imports associated with a connection. You can also test the connection. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Access the details of an Infoblox connection
 

@@ -2,6 +2,7 @@
 title: Solarwinds connector instance form
 description: The Solarwinds connector instance form displays the fields you must fill in when creating a Solarwinds connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/event-management/solarwinds-connector-instance-form.html
 release: zurich
 product: Event Management
 classification: event-management
@@ -88,5 +89,5 @@ Active
 Option to activate the connector instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-management-reference.md)
 

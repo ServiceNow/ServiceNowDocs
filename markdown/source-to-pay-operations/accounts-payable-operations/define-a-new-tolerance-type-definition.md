@@ -2,6 +2,7 @@
 title: Define an invoice tolerance type
 description: Define an invoice tolerance type that you can use in an exception definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -41,5 +42,5 @@ Role required: sn\_ap\_apm.invoice\_tolerance\_admin
 
 The invoice tolerance type is defined for use in an exception definition.
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

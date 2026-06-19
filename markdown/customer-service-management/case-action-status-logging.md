@@ -2,7 +2,10 @@
 title: Case action status logging
 description: Logging for the case action status feature uses a metric definition to view information about blocking tasks associated with customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/case-action-status-logging.html
 release: zurich
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-09-22"
 reading_time_minutes: 1
@@ -32,8 +35,8 @@ The metrics include:
 
 To access the **Case Actor Duration** metric definition, navigate to **All** &gt; **Metrics** &gt; **Definitions** and select the definition from the list. For more information about metric definitions, see the following topics:
 
--   [Metrics](https://www.servicenow.com/docs/access?context=c_MetricDefinitionSupport&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
--   [Define a metric](https://www.servicenow.com/docs/access?context=create-metric&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US)
+-   Metrics
+-   Define a metric
 
-**Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
+**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-service-case-action-status.md)
 

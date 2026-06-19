@@ -2,6 +2,7 @@
 title: Configuring SPM Benchmarks
 description: Learn about the process required to set up SPM Benchmarks to view the comparative understandings on your key performance indicators \(KPIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.html
 release: zurich
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -17,13 +18,13 @@ Learn about the process required to set up SPM Benchmarks to view the comparativ
 
 Use the following steps as guidelines for your SPM Benchmarks setup process.
 
-1.  Install SPM Benchmarks. For more information, see [Install SPM Benchmarks](install-spm-benchmarking.md).
-2.  Enable SPM Benchmarks. For more information, see [Enable SPM Benchmarks](enable-spm-benchmarking.md).
+1.  Install SPM Benchmarks. For more information, see [Install SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.md).
+2.  Enable SPM Benchmarks. For more information, see [Enable SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/enable-spm-benchmarking.md).
 
--   **[Install SPM Benchmarks](install-spm-benchmarking.md)**  
+-   **[Install SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.md)**  
 As an admin, you can install the SPM Benchmarks application \(sn\_spm\_bm\) from the ServiceNow® Store. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Enable SPM Benchmarks](enable-spm-benchmarking.md)**  
+-   **[Enable SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/enable-spm-benchmarking.md)**  
 Opt in to SPM Benchmarks to participate in SPM Benchmarks data collection for Strategic Portfolio Management KPIs.
 
-**Parent Topic:**[SPM Benchmarks](benchmarks-for-spm.md)
+**Parent Topic:**[SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-for-spm.md)
 

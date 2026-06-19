@@ -2,6 +2,7 @@
 title: Perform post-migration tasks for new records
 description: Verify that the new record menus in Service Operations Workspace \(SOW\) are consistent with the new record menus in ITSM Agent Workspace \(ITSM AW\) and they are ready for use in SOW. You can update the migrated new record menu settings in SOW based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/service-operations-workspace/verify-migration-status-new-records.html
 release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Verify that the new record menus in Service Operations Workspace \(SOW\) are con
 
 ## Before you begin
 
-When performing the migration, you must have selected the **New Records** option for ITSM Agent Workspace features. For example, the **New Records** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **New Records** option for ITSM Agent Workspace features. For example, the **New Records** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -58,5 +59,5 @@ At the end of the migration process, a confirmation message specifies if the mig
     5.  Select **Update**.
 
 
-**Parent Topic:**[New record menu items migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/new-record-menu-items-migration-itsm-aw-sow.md)
+**Parent Topic:**[New record menu items migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/new-record-menu-items-migration-itsm-aw-sow.md)
 

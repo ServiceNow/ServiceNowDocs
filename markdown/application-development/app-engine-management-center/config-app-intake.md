@@ -2,6 +2,7 @@
 title: Configure Application Intake
 description: Use the App Engine Studio \(AES\) Application Intake guided setup to step through the initial configuration of the Application Intake application. Detailed instructions for each step are provided in subsequent sections of the product documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/app-engine-management-center/config-app-intake.html
 release: zurich
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -17,15 +18,15 @@ Use the App Engine Studio \(AES\) Application Intake guided setup to step throug
 
 ## Before you begin
 
-Before you can use Application Intake to submit application ideas, you must ensure that the [App Engine Studio application is installed](install-aes.md).
+Before you can use Application Intake to submit application ideas, you must ensure that the [App Engine Studio application is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/install-aes.md).
 
 Role required: admin
 
 ## About this task
 
-Application Intake guided setup provides a sequence of tasks that help you configure the Application Intake app on the ServiceNow AI Platform. For more information on each task, see [Application Intake configuration tasks](../reference/app-intake-config-tasks.md).
+Application Intake guided setup provides a sequence of tasks that help you configure the Application Intake app on the ServiceNow AI Platform. For more information on each task, see [Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-intake-config-tasks.md).
 
-For general information about guided setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+For general information about guided setup, see .
 
 ## Procedure
 
@@ -33,27 +34,27 @@ For general information about guided setup, see [Guided Setup](https://www.servi
 
     The landing page provides information on the different categories, tools, and user access.
 
-    ![App Intake guided setup landing page](../image/app-intake-gs-landing-pg.png "Application Intake guided setup landing page")
+    \[Omitted image "app-intake-gs-landing-pg.png"\] Alt text: App Intake guided setup landing page
 
 2.  To initiate guided setup, select **Get Started**.
 
     The Application Intake Guided Setup page provides a list of different tasks you must complete before you can use Application Intake to submit requests.
 
-    ![App Intake guided setup tasks](../image/app-intake-gs-tasks.png "Application Intake guided setup category page")
+    \[Omitted image "app-intake-gs-tasks.png"\] Alt text: App Intake guided setup tasks
 
     **Note:** If you have previously started any of the guided setup tasks, and then exited without completed them, the **Get Started** button is labeled **Continue**.
 
 3.  Select the first **Get Started** button to initiate the Application Intake Guided Setup.
 
-    There are several [Application Intake configuration tasks](../reference/app-intake-config-tasks.md) you must complete.
+    There are several [Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/app-intake-config-tasks.md) you must complete.
 
-    1.  [Activate the Apply for Citizen Development catalog item](activate-catalog-item-for-app-intake.md).
-    2.  [Add users to the App Engine Admin group](add-users-to-admin-grp.md).
+    1.  [Activate the Apply for Citizen Development catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md).
+    2.  [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/add-users-to-admin-grp.md).
     When you've completed all of the tasks in this category, the Category screen reopens.
 
 4.  Select the next **Get Started** button to begin performing tasks for configuring development environments for your users.
 
-    On your production instance, [Create development environment records](../../pipelines-and-deployments/task/config-pipeline-environments.md) for each development instance that you want to provision users to. This process allows your production instance to connect to your development instances.
+    On your production instance, [Create development environment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/config-pipeline-environments.md) for each development instance that you want to provision users to. This process allows your production instance to connect to your development instances.
 
     **Note:** If these records have already been set up in the Pipelines and Deployments Guided Setup, you can skip this step. When you have completed the tasks in the second category, the Category screen reappears.
 

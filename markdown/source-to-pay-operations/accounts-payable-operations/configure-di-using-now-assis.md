@@ -2,6 +2,7 @@
 title: Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)
 description: Configure Document Intelligence using Now Assist skill in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html
 release: zurich
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -38,7 +39,7 @@ Plugins required:
 
     The **Invoice processing - Gen AI** use case is provided as out of the box within the skill.
 
-4.  Select **Invoice processing - Gen AI** use case.![Invoice data extraction](../image/doc-intel-na.png)
+4.  Select **Invoice processing - Gen AI** use case.\[Omitted image "doc-intel-na.png"\] Alt text: Invoice data extraction
 
 5.  Select **Save and Continue**.
 

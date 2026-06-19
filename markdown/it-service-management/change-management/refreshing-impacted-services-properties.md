@@ -2,6 +2,7 @@
 title: Refresh impacted services properties
 description: Use the refresh impacted services properties to enable or disable the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/refreshing-impacted-services-properties.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -89,5 +90,5 @@ com.snc.change\_request.refresh\_impacted\_services.message.show
 -   When false, the `Refresh impacted services is initiated` message doesn't appear.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Refresh impacted services and CIs for Change](../task/refresh-impacted-services-cis.md)
+</table>**Parent Topic:**[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/refresh-impacted-services-cis.md)
 

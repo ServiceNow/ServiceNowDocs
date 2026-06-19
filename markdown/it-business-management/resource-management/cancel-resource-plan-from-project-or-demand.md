@@ -2,6 +2,7 @@
 title: Cancel a resource plan from a project, planning console, or demand record
 description: If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.html
 release: zurich
 product: Resource Management
 classification: resource-management
@@ -34,7 +35,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d324949e107">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d95108e107">
 
 **Open a Closed project record**
 
@@ -45,7 +46,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d324949e146">
+</td></tr><tr><td id="d95108e146">
 
 **Open a Closed project task record**
 
@@ -56,7 +57,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d324949e185">
+</td></tr><tr><td id="d95108e185">
 
 **Open a Closed project in Planning Console**
 
@@ -67,7 +68,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 3.  Click the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d324949e224">
+</td></tr><tr><td id="d95108e224">
 
 **Open a Closed or Deferred demand record**
 
@@ -80,7 +81,7 @@ A similar message for canceling the resource plans appears on the demand form wh
 </td></tr></tbody>
 </table>    The message for canceling the associated resource plans appears at the top of the record.
 
-    ![Screenshot for canceling a resource plan message](../image/ResourcePlanCancelMessage.png "Message for canceling a resource plan")
+    \[Omitted image "ResourcePlanCancelMessage.png"\] Alt text: Screenshot for canceling a resource plan message
 
     **Note:** In the Planning Console, irrespective of the Closed state of the project tasks, the message appears only when the project is in Closed state.
 
@@ -99,5 +100,5 @@ A similar message for canceling the resource plans appears on the demand form wh
 -   The selected resource plan moves to the Canceled state.
 -   All past and future allocations for the resource plan are canceled. If there are any actual hours logged against an allocation, that allocation is deleted. In this case, Allocated hours become zero and the actual hours are retained as is.
 
-**Parent Topic:**[Cancel a resource plan](t_CancelAResourcePlan.md)
+**Parent Topic:**[Cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/t_CancelAResourcePlan.md)
 

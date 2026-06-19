@@ -2,6 +2,7 @@
 title: Managing equipment models
 description: The Equipment Model Manager in the Industrial Workspace enables you to review and manage ISA-95 equipment model data. You use it to review imported equipment model data or to manually create an equipment model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.html
 release: zurich
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -26,12 +27,12 @@ An equipment model maps the operational elements of a particular facility. For e
 -   Adding child equipment model entities to your favorites and updating your view to show only your favorites.
 -   Keeping record context available when viewing or creating multiple records by opening the records in a single row of tabs.
 
-**Note:** Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](create-user-criteria-for-equipment-model-entity-site-users.md).
+**Note:** Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
--   **[Review and update the equipment model details](equipment-model-workspace.md)**  
+-   **[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/equipment-model-workspace.md)**  
 Review and update the details for an equipment model that you imported into the ServiceNow AI Platform so that you can make sure that the information is correct. You can also manually create a new equipment model entity and then add details to it.
--   **[Automated Mapping Across Zone-based IP Network Groups](../../operational-technology-management/task/automate-mappings-between-ot-assets-and-equipment-model-entity.md)**  
+-   **[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)**  
 Automate mapping of Operational Technology \(OT\) devices to the production process using the Automated Mapping Across Zone-based IP Network Groups \(AMAZING\) feature.​
 
-**Parent Topic:**[Using Industrial Process Manager with the Operational Technology Manager](../concept/using-manufacturing-process-manager.md)
+**Parent Topic:**[Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)
 

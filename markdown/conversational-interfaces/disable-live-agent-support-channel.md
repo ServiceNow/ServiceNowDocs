@@ -2,6 +2,7 @@
 title: Disable live agent support for a channel
 description: Add the disable\_live\_agent property to the Channel Properties related list to exclude it from live agent support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/disable-live-agent-support-channel.html
 release: zurich
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -47,7 +48,7 @@ The **disable\_live\_agent** property is replacing the **com.glide.cs.exclude.li
 
 The **disable\_live\_agent** parameter displays in the Channel Properties related list.
 
-![Alexa messaging channel record page, with disable_live_agent parameter highlighted.](../image/disable-live-agent-channel-param.png)
+\[Omitted image "disable-live-agent-channel-param.png"\] Alt text: Alexa messaging channel record page, with disable\_live\_agent parameter highlighted.
 
-**Parent Topic:**[Channels in Conversational Interfaces](../concept/ci-channels-overview.md)
+**Parent Topic:**[Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/ci-channels-overview.md)
 

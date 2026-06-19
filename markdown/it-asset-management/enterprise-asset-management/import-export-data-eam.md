@@ -2,6 +2,7 @@
 title: Import and export content data for Enterprise Asset Management
 description: Import and export content data to the ServiceNow Enterprise Asset Management Content Service to improve the normalization process. On-premise users can use the Manage Enterprise Library module to import or export data via a zip file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/import-export-data-eam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,7 +46,7 @@ Role required: sn\_eam.enterprise\_admin
 
     2.  If you already haven't opted in to share the data with ServiceNow content service, select **opt-in** and refresh the Manage Enterprise Library page.
 
-        For details on opting-in, see [Opt-in to Enterprise Asset Management Content Service](optin-cs-eam.md).
+        For details on opting-in, see [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
 
     3.  Select **Run Export**.
 

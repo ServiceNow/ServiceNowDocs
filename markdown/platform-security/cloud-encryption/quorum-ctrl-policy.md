@@ -2,6 +2,7 @@
 title: Quorum Control Policy
 description: The Quorum Control Policy specifies the minimum number of approvals required among the total number of selected approvers to reach quorum for customer managed key withdrawal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/cloud-encryption/quorum-ctrl-policy.html
 release: zurich
 product: Cloud Encryption
 classification: cloud-encryption
@@ -27,12 +28,12 @@ The users can grant approvals from the Instance, the email, or the Key Managemen
 
 Once the minimum number of approvers is reached, quorum is reached and the key withdrawal will trigger. The withdrawal is performed and is logged, including the names of users who approved the request.
 
-See [Configure Quorum Control Policy Settings](../task/configure-quorum.md) for setup details.
+See [Configure Quorum Control Policy Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/configure-quorum.md) for setup details.
 
--   **[Configure Quorum Control Policy Settings](../task/configure-quorum.md)**  
+-   **[Configure Quorum Control Policy Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/configure-quorum.md)**  
 Follow these steps to configure Quorum Control Policy Settings.
--   **[Manage Quorum Control](../task/quorum-ctrl-mgmt.md)**  
+-   **[Manage Quorum Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/quorum-ctrl-mgmt.md)**  
 After a withdrawal operation workflow is triggered, quorum actions can be managed from the Key Management Operations page. The key withdrawal operation is blocked until the quorum is met.
 
-**Parent Topic:**[Cloud Encryption with Key Management](dare-overview.md)
+**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/cloud-encryption/dare-overview.md)
 

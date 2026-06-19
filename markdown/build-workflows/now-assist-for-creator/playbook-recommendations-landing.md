@@ -2,6 +2,7 @@
 title: Playbook recommendations
 description: Get AI-generated placeholder activities based on an activity's name and description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/build-workflows/now-assist-for-creator/playbook-recommendations-landing.html
 release: zurich
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,15 +20,15 @@ Get AI-generated placeholder activities based on an activity's name and descript
 
 <table id="table_il5_f3g_hhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Playbook recommendations](playbook-recommendations.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/playbook-recommendations.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable the Playbook recommendations skill](../task/turn-on-playbook-recommendations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the Playbook recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/turn-on-playbook-recommendations.md)
 
 </td><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate Playbook recommendations](../task/generate-playbook-recommendations.md)
+[Generate\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/generate-playbook-recommendations.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -40,7 +41,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

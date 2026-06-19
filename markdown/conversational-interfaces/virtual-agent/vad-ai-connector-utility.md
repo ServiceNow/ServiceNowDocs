@@ -2,6 +2,7 @@
 title: AI Connector utility
 description: Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/vad-ai-connector-utility.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
@@ -58,7 +59,7 @@ Input and Output mappings
 
 </td><td>
 
-All input and output mappings are based on the custom skill you select. For more information on custom skills, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=zurich&pubname=zurich-intelligent-experiences&ft:locale=en-US), [Managing custom skills in Assistant Designer Asset library](../concept/managing-custom-skills.md), and [Using AI agents in Virtual Agent topics](../../now-assist-skill-kit/reference/ai-agent-custom-skill.md).
+All input and output mappings are based on the custom skill you select. For more information on custom skills, see , [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-custom-skills.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -79,9 +80,9 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example AI Connector utility
 
-![AI Connector utility with no skill selected. The utility functions only after you select a custom skill that includes a query.](../images/vad-ai-connector-utility-properties.png)
+\[Omitted image "vad-ai-connector-utility-properties.png"\] Alt text: AI Connector utility with no skill selected. The utility functions only after you select a custom skill that includes a query.
 
-![AI Connector utility with Web Search skill selected. All input and output mappings derive from the custom skill.](../images/vad-ai-connector-utility-properties-with-skill.png)
+\[Omitted image "vad-ai-connector-utility-properties-with-skill.png"\] Alt text: AI Connector utility with Web Search skill selected. All input and output mappings derive from the custom skill.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

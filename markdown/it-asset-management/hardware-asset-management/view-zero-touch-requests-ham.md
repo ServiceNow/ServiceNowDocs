@@ -2,13 +2,14 @@
 title: View hardware asset requests submitted through the Zero Touch request flow
 description: View the list of hardware asset requests of your employees submitted through the Zero Touch request flow in the Asset operations view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/view-zero-touch-requests-ham.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # View hardware asset requests submitted through the Zero Touch request flow

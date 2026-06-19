@@ -2,6 +2,7 @@
 title: Tables installed with Advanced Risk
 description: Tables are added with activation of GRC: Advanced Risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-risk-management-workspace/tables-installed-advanced-risk.html
 release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -106,5 +107,5 @@ A risk manager can relate risk events to regulatory obligations and citations. T
 </td></tr></tbody>
 </table>**Note:** All additional tables installed by the dependent plugins are also needed for GRC: Advanced Risk.
 
-**Parent Topic:**[Components installed with Advanced Risk](components-risk-advanced.md)
+**Parent Topic:**[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)
 

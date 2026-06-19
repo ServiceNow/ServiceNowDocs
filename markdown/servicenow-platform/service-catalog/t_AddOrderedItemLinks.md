@@ -2,6 +2,7 @@
 title: Add an ordered item link to an item
 description: Use ordered item links to provide a link on the ordered item screen that provides more information about an item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-catalog/t\_AddOrderedItemLinks.html
 release: zurich
 product: Service Catalog
 classification: service-catalog
@@ -60,5 +61,5 @@ Links are rendered with an added parameter providing the sys\_id of the requeste
 12. Click **Update**.
 
 
-**Parent Topic:**[Service Catalog items](../concept/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

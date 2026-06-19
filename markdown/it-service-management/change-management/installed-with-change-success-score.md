@@ -2,6 +2,7 @@
 title: Components installed with Change Management - Change Success Score
 description: Several types of components are installed with activation of the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/installed-with-change-success-score.html
 release: zurich
 product: Change Management
 classification: change-management
@@ -47,5 +48,5 @@ Change Success Score Rating \[chg\_success\_score\_rating\]
 Defines the record that associates a rating choice and color with a Change Success Score range, such as, 0 to 499.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Change Management - Change Success Score](../task/activate-change-success-score.md)
+</table>**Parent Topic:**[Activate Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/activate-change-success-score.md)
 

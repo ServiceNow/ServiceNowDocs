@@ -2,6 +2,7 @@
 title: Compliance Case Management reference
 description: Reference topics provide additional information such as the tables and roles that are installed with the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/compliance-case-management/reference-data-compliance-case-management.html
 release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
@@ -15,10 +16,10 @@ breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 
 Reference topics provide additional information such as the tables and roles that are installed with the GRC: Compliance Case Management application.
 
--   **[Tables installed with Compliance Case Management](tables-compliance-case-management.md)**  
+-   **[Tables installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/tables-compliance-case-management.md)**  
 Tables are added with the activation of the GRC: Compliance Case Management application.
--   **[Roles installed with Compliance Case Management](roles-compliance-case-management.md)**  
+-   **[Roles installed with Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/roles-compliance-case-management.md)**  
 The GRC: Compliance Case Management installs the essential role to perform respective day-to-day operational tasks towards managing compliance cases for the enterprise to perform their respective tasks.
 
-**Parent Topic:**[Compliance Case Management](../concept/compliance-case-management.md)
+**Parent Topic:**[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 

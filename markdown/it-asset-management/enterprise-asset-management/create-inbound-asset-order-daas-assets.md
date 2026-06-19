@@ -2,6 +2,7 @@
 title: Create an inbound asset order for requested Device as a Service \(DaaS\) assets
 description: Create an inbound asset order to track and manage the process of providing your customers with the DaaS assets that are requested through your Return Merchandise Authorization \(RMA\) response orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/create-inbound-asset-order-daas-assets.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -42,7 +43,7 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 ## What to do next
 
-Create corresponding inbound asset order lines for the DaaS assets that you want to provide to your customers through the inbound asset order. For detailed instructions, see [Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset](create-inbound-asset-order-line-daas-asset.md).
+Create corresponding inbound asset order lines for the DaaS assets that you want to provide to your customers through the inbound asset order. For detailed instructions, see [Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/create-inbound-asset-order-line-daas-asset.md).
 
-**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](../concept/managing-inbound-asset-orders-daas-assets.md)
+**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-inbound-asset-orders-daas-assets.md)
 

@@ -2,6 +2,7 @@
 title: CatalogItemVariableSetM2M - Scoped
 description: The CatalogItemVariableSetM2M API provides methods that enable you to create and modify service catalog item variable set many-to-many \(M2Ms\) using scripts.Inserts the defined catalog item variable set M2M.Deletes the defined catalog item variable set M2M.Returns a mapping of catalog item variable set M2M attribute values.Defines attribute values for this catalog item variable set M2M.Updates current catalog item variable set M2M with set values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/server-api-reference/c\_CatalogItemVariableSetM2M.html
 release: zurich
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatalogItemVariableSetM2M API provides methods that enable you to create and
 
 This API runs in the `sn_sc` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/server-api-reference/api-server.md)
 
 ## CatalogItemVariableSetM2M - create\(Boolean standardUpdate\)
 

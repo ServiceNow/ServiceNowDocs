@@ -2,11 +2,12 @@
 title: Exploring DevOps Change Velocity
 description: Learn how ServiceNow DevOps Change Velocity helps your Development and Change Management teams accelerate change and connect their DevOps tool chain with ServiceNow so that the DevOps tool data can be used to automate change processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/dev-ops-landing-page.html
 release: zurich
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [DevOps Change Velocity, IT Service Management]
 ---
@@ -34,11 +35,11 @@ The DevOps Change Velocity application provides the following major benefits:
     View flow metrics, change acceleration metrics and other KPIs across the end-to-end software delivery value chain and connected tools.
 
 
-To learn about the tools that the DevOps Change Velocity application supports, see [DevOps Change Velocity integrations](dev-ops-overview.md).
+To learn about the tools that the DevOps Change Velocity application supports, see [DevOps Change Velocity integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-overview.md).
 
-To understand how you can incrementally progress to get value faster using DevOps Change Velocity, see [User journey for DevOps Change Velocity](user-journey-in-devops-change-velocity.md).
+To understand how you can incrementally progress to get value faster using DevOps Change Velocity, see [User journey for DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/user-journey-in-devops-change-velocity.md).
 
-![With DevOps Change Velocity, get visibility of DevOps changes from across the toolchain, automate change process, and measure performance.](../image/devops-capabilities.png)
+\[Omitted image "devops-capabilities.png"\] Alt text: With DevOps Change Velocity, get visibility of DevOps changes from across the toolchain, automate change process, and measure performance.
 
 ## Benefits of DevOps Change Velocity according to persona
 
@@ -156,12 +157,12 @@ IT compliance officer
 </td></tr></tbody>
 </table>Explore more details such as the user adoption journey, supported integrations, and Insights in the following sections.
 
--   **[User journey for DevOps Change Velocity](user-journey-in-devops-change-velocity.md)**  
+-   **[User journey for DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/user-journey-in-devops-change-velocity.md)**  
 Review the adoption journey of the DevOps Change Velocity application to enable a phased \(crawl, walk, run, fly\) approach toward complete automation of change approvals.
--   **[DevOps Change Velocity integrations](dev-ops-overview.md)**  
+-   **[DevOps Change Velocity integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/dev-ops-overview.md)**  
 Get an overview of how DevOps Change Velocity integrates with your external DevOps toolchain and the tools supported for this integration.
--   **[DevOps dashboards](insights-dashboard-dev-ops.md)**  
+-   **[DevOps dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/insights-dashboard-dev-ops.md)**  
 Use the DevOps Insights dashboard to evaluate the results of your overall DevOps process. Use the DevOps Pipeline UI view to visually analyze your pipeline executions.
 
-**Parent Topic:**[DevOps Change Velocity](devops-landing-page-new.md)
+**Parent Topic:**[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/devops-landing-page-new.md)
 

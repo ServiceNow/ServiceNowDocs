@@ -2,6 +2,7 @@
 title: Procurement view
 description: Use the Procurement view in the Hardware Asset Workspace to view and manage procurement-related details such as procurement requests, purchase orders, sourcing tasks, and receiving slips.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/procurement-view.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,7 +18,7 @@ Use the Procurement view in the Hardware Asset Workspace to view and manage proc
 
 The Procurement view provides access to actions for managing your open requests, pending purchase orders and transfer orders, and requests that need manager approval.
 
-![Procurement view in the Hardware Asset Workspace](../image/procurement-view.png "Procurement view")
+\[Omitted image "procurement-view.png"\] Alt text: Procurement view in the Hardware Asset Workspace
 
 Select any widget or chart to view the details. You can also use **Location**, **Stockroom**, and **Domain** filters to narrow down your results.
 
@@ -36,5 +37,5 @@ Select any widget or chart to view the details. You can also use **Location**, *
 **Related topics**  
 
 
-[Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_Procurement]
 

@@ -2,6 +2,7 @@
 title: Receive the shipped asset
 description: Once the shipment of the asset is complete, confirm the receipt of the asset by using the Receive task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/hardware-asset-management/receive-daas-asset.html
 release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -80,7 +81,7 @@ Asset
 
 </td><td>
 
-The asset that is selected in the Asset selection task. For more information, see [Select an asset](select-daas-asset.md).
+The asset that is selected in the Asset selection task. For more information, see [Select an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/select-daas-asset.md).
 
 </td></tr><tr><td>
 

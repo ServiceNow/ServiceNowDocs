@@ -2,6 +2,7 @@
 title: Configure Properties
 description: To put a sales territory model into use at the CRM entities, enter the sys\_id of an active sales territory model. By default, this model and its territories will be utilized for sales territory assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/sales-and-order-management/configure-properties.html
 release: zurich
 product: Sales and Order Management
 classification: sales-and-order-management

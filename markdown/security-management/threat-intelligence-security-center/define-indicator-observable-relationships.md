@@ -2,6 +2,7 @@
 title: Define indicator-observable relationships
 description: Define relationships between the indicator object and other SDOs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-indicator-observable-relationships.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -39,5 +40,5 @@ Role required: sn\_sec\_tisc.analyst
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/relationship-objects.md)
 
