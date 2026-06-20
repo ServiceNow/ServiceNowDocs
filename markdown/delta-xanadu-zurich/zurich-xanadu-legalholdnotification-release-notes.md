@@ -1,0 +1,508 @@
+---
+title: Combined Legal Hold Notification release notes for upgrades from Xanadu to Zurich
+description: Consolidated page of all release notes for Legal Hold Notification from Xanadu to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-legalholdnotification-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 5
+breadcrumb: [Products combined by family]
+---
+
+# Combined Legal Hold Notification release notes for upgrades from Xanadu to Zurich
+
+Consolidated page of all release notes for Legal Hold Notification from Xanadu to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Legal Hold Notification release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Legal Hold Notification to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for Legal Hold Notification.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Legal hold matter management](https://servicenow-staging.fluidtopics.net/access?context=lg-hold-notif-landing-page&family=yokohama&ft:locale=en-US)**
+
+Manage legal hold matters by submitting, updating, tracking, and closing them through a streamlined process that reduces effort and ensures organizational compliance.
+
+
+-   **[Submitting legal hold matter](https://servicenow-staging.fluidtopics.net/access?context=submit-lg-hold-notif-matter&family=yokohama&ft:locale=en-US)**
+
+Submit a legal hold matter to initiate the data preservation process when a legal hold is issued.
+
+
+-   **[Issuing legal hold notice](https://servicenow-staging.fluidtopics.net/access?context=issue-lg-hold-notif-matter&family=yokohama&ft:locale=en-US)**
+
+Issue a legal hold notice to custodians to initiate timely data preservation, ensure accountability, and reduce the risk of data loss.
+
+
+-   **[Legal hold notice acknowledgement](https://servicenow-staging.fluidtopics.net/access?context=acknow-lg-hold-notif&family=yokohama&ft:locale=en-US)**
+
+Record custodian acknowledgments of legal hold notices to confirm their responsibility to preserve data and ensure accountability.
+
+
+-   **[Assign new custodians](https://servicenow-staging.fluidtopics.net/access?context=add-new-custodian-lg-hold-notif&family=yokohama&ft:locale=en-US)**
+
+Assign newly identified custodians to existing legal hold matters to ensure comprehensive and up-to-date data preservation.
+
+
+-   **[Acknowledge reminders](https://servicenow-staging.fluidtopics.net/access?context=send-reminder-for-acknowledgment&family=yokohama&ft:locale=en-US)**
+
+Send reminders to custodians who haven’t acknowledged legal hold notices to ensure accountability in data preservation.
+
+
+-   **[Closing legal hold matter](https://servicenow-staging.fluidtopics.net/access?context=close-lg-hold-notif-matter&family=yokohama&ft:locale=en-US)**
+
+Close a legal hold matter once the hold is lifted to complete the data preservation life cycle.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Legal hold matter management](https://servicenow-staging.fluidtopics.net/access?context=lg-hold-notif-landing-page&family=zurich&ft:locale=en-US)**
+
+Manage legal hold matters by submitting, updating, tracking, and closing them through a streamlined process that reduces effort and ensures organizational compliance.
+
+
+-   **[Submitting legal hold matter](https://servicenow-staging.fluidtopics.net/access?context=submit-lg-hold-notif-matter&family=zurich&ft:locale=en-US)**
+
+Submit a legal hold matter to initiate the data preservation process when a legal hold is issued.
+
+
+-   **[Issuing legal hold notice](https://servicenow-staging.fluidtopics.net/access?context=issue-lg-hold-notif-matter&family=zurich&ft:locale=en-US)**
+
+Issue a legal hold notice to custodians to initiate timely data preservation, ensure accountability, and reduce the risk of data loss.
+
+
+-   **[Legal hold notice acknowledgement](https://servicenow-staging.fluidtopics.net/access?context=acknow-lg-hold-notif&family=zurich&ft:locale=en-US)**
+
+Record custodian acknowledgments of legal hold notices to confirm their responsibility to preserve data and ensure accountability.
+
+
+-   **[Assign new custodians](https://servicenow-staging.fluidtopics.net/access?context=add-new-custodian-lg-hold-notif&family=zurich&ft:locale=en-US)**
+
+Assign newly identified custodians to existing legal hold matters to ensure comprehensive and up-to-date data preservation.
+
+
+-   **[Acknowledge reminders](https://servicenow-staging.fluidtopics.net/access?context=send-reminder-for-acknowledgment&family=zurich&ft:locale=en-US)**
+
+Send reminders to custodians who haven’t acknowledged legal hold notices to ensure accountability in data preservation.
+
+
+-   **[Closing legal hold matter](https://servicenow-staging.fluidtopics.net/access?context=close-lg-hold-notif-matter&family=zurich&ft:locale=en-US)**
+
+Close a legal hold matter once the hold is lifted to complete the data preservation life cycle.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing Legal Hold Notification features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some Legal Hold Notification features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some Legal Hold Notification features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Legal Hold Notification.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Legal Hold Notification by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Install Legal Hold Notification by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Legal Hold Notification we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Legal Hold Notification we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+The Legal Hold Notification application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+The Legal Hold Notification application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://servicenow-staging.fluidtopics.net/access?context=browser-support&family=zurich&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Legal Hold Notification, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Legal Hold Notification we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Legal Hold Notification we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Streamlined legal hold life cycle: Streamline the legal hold workflow by enabling you to create legal hold matters, assign custodians, issue notices, track acknowledgments, and ensure compliance throughout the process.
+-   Enhance custodian engagement by sending them legal hold notifications and reminders to ensure timely acknowledgment and accountability throughout the legal hold process.
+-   Reduce legal risk compliance with a controlled closure process. When the legal hold is officially closed, the Legal Hold Notification application stores detailed information about the preserved data.
+
+ See [Legal Hold Notification](https://servicenow-staging.fluidtopics.net/access?context=lg-hold-notif-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Streamlined legal hold life cycle: Streamline the legal hold workflow by enabling you to create legal hold matters, assign custodians, issue notices, track acknowledgments, and ensure compliance throughout the process.
+-   Enhance custodian engagement by sending them legal hold notifications and reminders to ensure timely acknowledgment and accountability throughout the legal hold process.
+-   Reduce legal risk compliance with a controlled closure process. When the legal hold is officially closed, the Legal Hold Notification application stores detailed information about the preserved data.
+
+ See [Legal Hold Notification](https://servicenow-staging.fluidtopics.net/access?context=lg-hold-notif-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/rn-combined-intro.md)
+

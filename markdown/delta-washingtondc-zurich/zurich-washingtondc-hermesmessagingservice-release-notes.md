@@ -1,0 +1,577 @@
+---
+title: Combined Hermes Messaging Service release notes for upgrades from Washington DC to Zurich
+description: Consolidated page of all release notes for Hermes Messaging Service from Washington DC to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-washingtondc-zurich/zurich-washingtondc-hermesmessagingservice-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 5
+breadcrumb: [Products combined by family]
+---
+
+# Combined Hermes Messaging Service release notes for upgrades from Washington DC to Zurich
+
+Consolidated page of all release notes for Hermes Messaging Service from Washington DC to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Hermes Messaging Service release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Washington DC to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Hermes Messaging Service to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for Hermes Messaging Service.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   **[Improved security setup](https://servicenow-staging.fluidtopics.net/access?context=set-up-secure-connection-to-hermes&family=washingtondc&ft:locale=en-US)**
+
+Generate certificates for secure connections to Hermes Messaging Service, revoke certificates, and apply ACLs to certificates using the Hermes Messaging Service certificate generator.
+
+-   **[Manage topic namespaces](https://servicenow-staging.fluidtopics.net/access?context=managing-namespaces-hermes&family=washingtondc&ft:locale=en-US)**
+
+Create, update, and delete topic namespaces in the Hermes Kafka cluster using Hermes Messaging Service.
+
+-   **[Manage topics](https://servicenow-staging.fluidtopics.net/access?context=managing-topics-hermes&family=washingtondc&ft:locale=en-US)**
+
+Create, update, and delete topics in the Hermes Kafka cluster using Hermes Messaging Service.
+
+-   **[Rescan topics](https://servicenow-staging.fluidtopics.net/access?context=rescan-topics-hermes&family=washingtondc&ft:locale=en-US)**
+
+Synchronize topic records in your instance with the topics that belong to you in the Hermes Kafka cluster.
+
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Monitor Hermes data usage](https://servicenow-staging.fluidtopics.net/access?context=monitoring-data-usage-hermes&family=xanadu&ft:locale=en-US)**
+
+Monitor data usage by application and track data usage by topic using the Hermes Usage Dashboard.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Topic audit history](https://servicenow-staging.fluidtopics.net/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
+
+Track changes made to a Hermes topic by viewing the topic's audit information.
+
+-   **[Search for messages in a topic](https://servicenow-staging.fluidtopics.net/access?context=view-messages-hermes-topic&family=yokohama&ft:locale=en-US)**
+
+Filter messages in a topic using keywords or regular expressions in the Hermes Messaging Service topic inspector.
+
+-   **[Improved diagnostics](https://servicenow-staging.fluidtopics.net/access?context=run-hermes-messaging-service-diagnostics&family=yokohama&ft:locale=en-US)**
+
+Monitor the health of Hermes components over time.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Monitor Hermes data usage](https://servicenow-staging.fluidtopics.net/access?context=monitoring-data-usage-hermes&family=zurich&ft:locale=en-US)**
+
+Monitor data usage by application and track data usage by topic using the Hermes Usage Dashboard.
+
+-   **[Synchronize topic partition count](https://servicenow-staging.fluidtopics.net/access?context=update-topic-hermes&family=zurich&ft:locale=en-US)**
+
+Verify that the partition count is synchronized between topics in Hermes clusters.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing Hermes Messaging Service features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Monitor topics in multiple cluster sets](https://servicenow-staging.fluidtopics.net/access?context=view-messages-hermes-topic&family=xanadu&ft:locale=en-US)**
+
+View messages from multiple cluster sets by selecting a service group in the Hermes Topic Inspector module.
+
+-   **[Test connectivity to multiple cluster sets](https://servicenow-staging.fluidtopics.net/access?context=run-hermes-messaging-service-diagnostics&family=xanadu&ft:locale=en-US)**
+
+Verify that your instance can send messages to and receive messages from multiple cluster sets by selecting a service group in the Hermes Diagnostics module.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some Hermes Messaging Service features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some Hermes Messaging Service features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Hermes Messaging Service.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect plugins \(com.glide.hub.flow\_trigger.kafka or com.glide.hub.action\_step.kafka\) or installation of the Log Export Service application. For details, see[Hermes Messaging Service activation](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=washingtondc&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Hermes Messaging Service activation](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or installation of the Log Export Service application. For details, see [Activating Hermes](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service-activation&family=zurich&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Hermes Messaging Service we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Hermes Messaging Service we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Hermes Messaging Service, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Hermes Messaging Service we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Hermes Messaging Service we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+-   Publish events from your ServiceNow instance to your Apache Kafka environment and consume high volumes of Apache Kafka events from your external systems with low latency.
+-   Effectively process spikes and bursts in message volume from external systems to minimize performance impacts on your instance.
+-   Manage the health and performance of message delivery using Hermes diagnostic tools.
+
+ See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=washingtondc&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Publish events from your ServiceNow instance to your Apache Kafka environment and consume high volumes of Apache Kafka events from your external systems with low latency.
+-   Effectively process spikes and bursts in message volume from external systems to minimize performance impacts on your instance.
+-   Manage the health and performance of message delivery using Hermes diagnostic tools.
+
+ See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   View the audit history for all topic operations.
+-   Scan and inspect topic messages using keywords or regular expressions.
+-   Monitor the health of Hermes components over time.
+
+ See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Monitor Hermes data usage over time.
+-   Verify that topics are synchronized between Hermes clusters.
+
+ See [Hermes Messaging Service](https://servicenow-staging.fluidtopics.net/access?context=hermes-messaging-service&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-washingtondc-zurich/rn-combined-intro.md)
+

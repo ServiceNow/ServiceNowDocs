@@ -1,0 +1,353 @@
+---
+title: Combined Dispute Rules Content Pack for Visa release notes for upgrades from Yokohama to Zurich
+description: Consolidated page of all release notes for Dispute Rules Content Pack for Visa from Yokohama to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-disputerulescontentpackforvisa-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 3
+breadcrumb: [Products combined by family]
+---
+
+# Combined Dispute Rules Content Pack for Visa release notes for upgrades from Yokohama to Zurich
+
+Consolidated page of all release notes for Dispute Rules Content Pack for Visa from Yokohama to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Dispute Rules Content Pack for Visa release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Dispute Rules Content Pack for Visa to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for Dispute Rules Content Pack for Visa.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing Dispute Rules Content Pack for Visa features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
+
+Updated the dispute questionnaire provided through Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 25.2 revision changes.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://servicenow-staging.fluidtopics.net/access?context=visa-spoke&family=zurich&ft:locale=en-US)**
+
+Updated the dispute questionnaire provided through the Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 25.2 revision changes.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some Dispute Rules Content Pack for Visa features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some Dispute Rules Content Pack for Visa features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Dispute Rules Content Pack for Visa.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Dispute Rules Content Pack for Visa by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Install Dispute Rules Content Pack for Visa by requesting it from ServiceNow Store. 
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Dispute Rules Content Pack for Visa we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Dispute Rules Content Pack for Visa we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Dispute Rules Content Pack for Visa, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Dispute Rules Content Pack for Visa we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Dispute Rules Content Pack for Visa we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Apply Visa Resolve Online \(VROL\) release 25.2 revision changes to Dispute Rules Content Pack for Visa questionnaire.
+
+ See [Dispute Rules Content Pack for Visa](https://servicenow-staging.fluidtopics.net/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Applied Visa Resolve Online \(VROL\) release 25.2 revision changes to Dispute Rules Content Pack for Visa questionnaire.
+
+ See [Dispute Rules Content Pack for Visa](https://servicenow-staging.fluidtopics.net/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)
+

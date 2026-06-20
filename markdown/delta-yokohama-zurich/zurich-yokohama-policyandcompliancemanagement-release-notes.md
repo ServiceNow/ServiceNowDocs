@@ -1,0 +1,454 @@
+---
+title: Combined Policy and Compliance Management release notes for upgrades from Yokohama to Zurich
+description: Consolidated page of all release notes for Policy and Compliance Management from Yokohama to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-policyandcompliancemanagement-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 9
+breadcrumb: [Products combined by family]
+---
+
+# Combined Policy and Compliance Management release notes for upgrades from Yokohama to Zurich
+
+Consolidated page of all release notes for Policy and Compliance Management from Yokohama to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Policy and Compliance Management release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Policy and Compliance Management to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for Policy and Compliance Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Calculate compliance score and roll up to entity](https://servicenow-staging.fluidtopics.net/access?context=compliance-score-calculation-pc-ws&family=yokohama&ft:locale=en-US)**
+
+View a comprehensive compliance score at the entity level that includes all the child entities rolled up to the parent entity along with the compliance score of the parent entity's direct controls.
+
+-   **[Elimination of duplicate citations from UCF Shared list download](https://servicenow-staging.fluidtopics.net/access?context=ucf-deduplication-pc&family=yokohama&ft:locale=en-US)**
+
+Eliminate duplicate citations associated with the authority documents when you download UCF content. You can retain one citation as active and mark the duplicate citations as inactive. Move the control objectives of the duplicate citations to the active citation, and update the duplicate citation records with the Source ID of the active citation.
+
+-   **[Improve compliance workspace performance](https://servicenow-staging.fluidtopics.net/access?context=compliance-manager-compliance-ws&family=yokohama&ft:locale=en-US)**
+
+Improved the performance of the compliance workspace by removing the issue widget to ensure a faster and smoother user experience. You can still access issue details from the "Issues Overview" section.
+
+-   **[Entity based access](https://servicenow-staging.fluidtopics.net/access?context=c_GRCControls&family=yokohama&ft:locale=en-US)**
+
+Entity based access aims to provide a more granular approach to data access, ensuring that users can only access data through entity-based access. The entity-based access has been enabled for controls, attestations and policy exception to control mappings. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration.
+
+-   **[Deduplication of control objectives](https://servicenow-staging.fluidtopics.net/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)**
+
+Using Generative AI, identify and recommend similar control objectives. You can choose to accept a control objective as duplicate, dismiss those that are not similar, or retain a control objective as primary in which details from all other similar control objectives are merged. Additionally, the system automatically copies related records, including policies and risk statements, to ensure comprehensive information is maintained in one location after retiring the accepted control objectives.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Association of citations to controls](https://servicenow-staging.fluidtopics.net/access?context=citation-to-control-mapping&family=zurich&ft:locale=en-US)**
+
+In many compliance frameworks, a single control objective may be referenced by multiple citations across different standards, regulations, or policy requirements. Without proper association management, organizations risk duplicating controls, misinterpreting coverage, or inaccurately reporting compliance. The association of citations to controls feature addresses this challenge by enabling users to associate controls with citations directly. When this feature is enabled, compliance scores update dynamically based on the status of directly associated active controls.
+
+
+-   **[Enhancements to control objectives rationalization process](https://servicenow-staging.fluidtopics.net/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced to the rationalization process of control objectives:
+
+    -   Rationalization process is now automatically created when selecting the Rationalize button in the control objective page. 
+    -   The recommendation workflow has been simplified into a two-step process: Step 1 identifies duplicates by accepting or dismissing recommendations; Step 2 finalizes by retaining one recommendation or creating a new common control objective.
+    -   Approvals for the rationalization process are skipped for owners who are reviewers, and levels where all reviewers are owners are automatically approved. 
+    -   Owners and approvers can add comments and justifications directly on recommendation cards and reply to existing comments. 
+    -   The user interface has been updated with better navigation, quick summaries, visual improvements, and clear error messages.
+
+-   **[Citation impact analysis and updates with Now Assist for IRM](https://servicenow-staging.fluidtopics.net/access?context=control-objective-change-agent&family=zurich&ft:locale=en-US)**
+
+When a citation’s description or supplemental guidance is updated, Now Assist identifies related control objectives that might be affected. It reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
+
+
+-   **[Enhancements to control objectives and controls](https://servicenow-staging.fluidtopics.net/access?context=co-overview-pc-ws&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced to control objectives and controls:
+
+    -   The Control objective requirements option provides a granular layer under a control objective. When each control objective has multiple statements, each statement becomes a control objective requirement.
+    -   The Create control requirements option generates control requirements automatically for every control generated under an entity type.
+    -   The Attestation at control requirement level enables attestation at a granular level for individual control requirements within a control.
+
+-   **[Enhancements to policy exception and extension requests](https://servicenow-staging.fluidtopics.net/access?context=review-policy-ext-and-extension-req-ws&family=zurich&ft:locale=en-US)**
+
+The following enhancements have been introduced:
+
+    -   For policy exception and extension requests, approvers can now view key details, such as justification, reason, and validity period, within a pop-up before approving or rejecting a policy exception or policy exception extension.
+    -   For manual indicators, if the associated control is marked as exempt, no indicator task is generated.
+    -   When a policy exception is in the Analyze state and the Awaiting Requested Information sub-state, the interface now includes a Send Information button that allows the requester to provide additional details or clarifications requested by the approver.
+    -   Previously, an issue-based exception required a linked policy or control objective for additional approvals. Now, it requires any one of the following: a linked policy, control objective, or control. The control must be linked to the policy exception itself, not just to the issue.
+
+-   **[GRC Approval Configurator](https://servicenow-staging.fluidtopics.net/access?context=grc-approval-configurator-for-policy-extension-and-exception&family=zurich&ft:locale=en-US)**
+
+The GRC Approval Configurator can now be used to manage both policy exception and extension approvals. It allows verification, approval, and extension rules to be defined based on state, sub-state, and other filter conditions, with support for multiple user groups and multi-level approvals. This enhancement provides greater flexibility in assigning appropriate approvers at each level based on defined conditions, facilitating structured and collaborative reviews. For extension approvals, users can now configure multiple approvers, overcoming the previous limitation of a single default approver \(Compliance Manager\).
+
+
+-   **[Common Control Objective Creation](https://servicenow-staging.fluidtopics.net/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+
+Use Generative AI to merge similar control objectives into a single, consolidated common control objective. The system automatically populates the name, description, and guidance fields from the accepted duplicates, eliminating the need to manually select a primary control objective.
+
+
+-   **[Entity based record access rules to secure new records](https://servicenow-staging.fluidtopics.net/access?context=c_GRCControls&family=zurich&ft:locale=en-US)**
+
+When entity based record access rules are enabled on the Entity Based Access Configuration Properties page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
+
+Additionally, when a standard control is converted to a common control, the **Entity based access restriction** option is inactive by default. Users can manually enable the EBA option for common controls directly from the Access Settings section in the Details tab of the respective control.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing Policy and Compliance Management features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Some Now Assist skills are turned on by default](https://servicenow-staging.fluidtopics.net/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Changes to Now Assist usage measurement](https://servicenow-staging.fluidtopics.net/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Improvements to the rationalization process of control objectives](https://servicenow-staging.fluidtopics.net/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+
+Several enhancements have been made to the rationalization process:
+
+    -   Redesigned the rationalization UI with a reordered layout and highlighted primary actions.
+    -   Validations added for deactivated and deleted control objectives. Introduced the “Restart Analyze” option to support reevaluation of recommendations.
+    -   Introduced support for Azure OpenAI, Amazon Bedrock, and Google Gemini for recommendations of control objectives.
+    -   Updated the Consolidate state UI to show the recommendation panel with retained and accepted control objectives and their associated items.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some Policy and Compliance Management features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some Policy and Compliance Management features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+GRC DevOps Accelerator is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Policy and Compliance Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Policy and Compliance Management by requesting it from the ServiceNow Store. 
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Install Policy and Compliance Management by requesting it from the ServiceNow Store. 
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Policy and Compliance Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Policy and Compliance Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+GRC: Policy and Compliance Management requires the latest public release and two previous release versions of the following browsers:
+
+-   Google Chrome
+-   Firefox and Firefox Extended Support Release \(ESR\)
+-   Microsoft Edge Chromium
+-   Safari 12.0 and later versions
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Policy and Compliance Management supports the latest public release and the two preceding versions of the following web browsers:
+
+-   Google Chrome
+-   Firefox and Firefox Extended Support Release \(ESR\)
+-   Microsoft Edge Chromium
+-   Safari 12.0 and later versions
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Policy and Compliance Management, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Policy and Compliance Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Policy and Compliance Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   View the compliance score at the entity level based on the hierarchy of entities.
+-   Eliminate duplicate citations associated with the authority documents when you download UCF content.
+-   Revise your policies and update the policy text periodically by integrating with Microsoft SharePoint.
+-   Enable policy owners and reviewers to collaborate, review, and redline policies by using policy authoring and the redlining feature.
+-   The Issues widget has been removed from the Compliance Workspace landing page to enhance the performance.
+-   Enable data access by implementing Entity-Based Access controls.
+-   Recommend similar control objectives using generative AI. You can then retain, dismiss, or merge duplicate control objectives.
+
+ See [Policy and Compliance Management](https://servicenow-staging.fluidtopics.net/access?context=r_PolicyComplianceMgmt&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Association of citations to controls feature enables users to associate controls with citations directly to avoid duplicated controls and ensure accurate compliance reporting.
+-   Multiple enhancements to control objectives rationalization process, including improvements including automatic rationalization process creation, simplified two-step workflow for recommendations, skipped approvals for owner-reviewers, comment capabilities, and improved UI.
+-   Now Assist for IRM includes skills and AI agent to identify affected control objectives when citation descriptions change and to provide suggested updates for review and approval.
+-   Enhancements to control objectives and controls, including control objective requirements for granular statements, automatic control requirement generation, and attestation at control requirement level.
+-   Enhancements to policy exception and extension requests, including approver pop-ups with key details, no indicator tasks for exempt controls, Send Information button for requesters, and expanded linking requirements for issue-based policy exceptions.
+
+ See [Privacy Management](https://servicenow-staging.fluidtopics.net/access?context=privacy-management&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)
+

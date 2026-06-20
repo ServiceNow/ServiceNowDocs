@@ -1,0 +1,637 @@
+---
+title: Combined Service Operations Workspace for ITSM release notes for upgrades from Yokohama to Zurich
+description: Consolidated page of all release notes for Service Operations Workspace for ITSM from Yokohama to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-serviceoperationsworkspaceforitsm-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 19
+breadcrumb: [Products combined by family]
+---
+
+# Combined Service Operations Workspace for ITSM release notes for upgrades from Yokohama to Zurich
+
+Consolidated page of all release notes for Service Operations Workspace for ITSM from Yokohama to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Service Operations Workspace for ITSM release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Yokohama to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Service Operations Workspace for ITSM to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Ensure that the following applications have compatible upgraded versions:
+
+-   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
+-   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
+
+ For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://servicenow-staging.fluidtopics.net/access?context=sow-itsm-itom-version&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Ensure that the following applications have compatible upgraded versions:
+
+-   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
+-   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
+
+ For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://servicenow-staging.fluidtopics.net/access?context=sow-itsm-itom-version&family=zurich&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for Service Operations Workspace for ITSM.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[User role for service desk agents](https://servicenow-staging.fluidtopics.net/access?context=roles-in-sow&family=yokohama&ft:locale=en-US)**
+
+Enable tier 1 service desk agents to quickly gather and verify information by granting the sn\_service\_desk\_agent role, which is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
+
+The sn\_service\_desk\_agent role can be used starting with Service Operations Workspace version 6.1 with the Yokohama release.
+
+-   **[Incident management configuration changes in the Service Operations Workspace Admin Center](https://servicenow-staging.fluidtopics.net/access?context=manage-admin-console-sow-itsm&family=yokohama&ft:locale=en-US)**
+
+The Incident record of the Incident Management section in the Service Operations Workspace Admin Center has the following enhancements:
+
+    -   Configure and use response templates to quickly respond to incidents.
+    -   Configure additional properties to control incident features such as auto-closing incidents and copying or creating child incidents.
+-   **[Reopen an incident in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=reopen-incident-sow&family=yokohama&ft:locale=en-US)**
+
+Enable agents with incident write access, callers, or end user who opened the incident to reopen a resolved incident.
+
+-   **[List page enhancements](https://servicenow-staging.fluidtopics.net/access?context=work-incident-list-page-sow&family=yokohama&ft:locale=en-US)**
+
+The Service Operations Workspace list page has the following enhancements:
+
+    -   Ability to assign the incident record to yourself if you’re the logged-in user or to reassign it to another user or assignment group.
+    -   An animated dot symbol that indicates whether a list has been customized.
+-   **[Major incident management record page enhancements](https://servicenow-staging.fluidtopics.net/access?context=communicating-with-stakeholders-sow&family=yokohama&ft:locale=en-US)**
+
+Enhance incident and major incident-related communications including ad hoc communications and major incident playbooks in SOW by adding DEX Desktop Assistant as a channel.
+
+-   **[Direct approvals in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=view-approvals-sow&family=yokohama&ft:locale=en-US)**
+
+Service desk agent can approve records directly within the SOW without having to navigate to the Core UI. By approving records from the SOW, you can reduce response times, and ensure quick resolution of the tasks.
+
+-   **[Automatically close an interaction in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=automatically-close-interaction-sow&family=yokohama&ft:locale=en-US)**
+
+Interactions are now automatically closed when the associated incident is resolved, streamlining the workflow and ensuring consistent status updates.
+
+-   **[Enhanced side panel features](https://servicenow-staging.fluidtopics.net/access?context=get-field-recommendations&family=yokohama&ft:locale=en-US)**
+
+    -   Access the Recommended Actions and AI Search features from the contextual side panel for request items and catalog tasks.
+    -   Determine the order of the items in the contextual side panel.
+The Recommended Actions and AI Search features are now available in the contextual side panel for both request Items and catalog tasks.
+
+-   **[Enable email redirection to SOW from SOW Admin Center](https://servicenow-staging.fluidtopics.net/access?context=manage-admin-console-sow-itsm&family=yokohama&ft:locale=en-US)**
+
+Stay within the SOW and work on your tasks more efficiently by enabling email redirection. By enabling email redirection within the SOW Admin Center, you can simplify communication management, enabling the users to stay within the SOW and focus on their tasks without interruption.
+
+-   **[Initiate a chat from Sidebar in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=initate-sidebar-chat-sow&family=yokohama&ft:locale=en-US)**
+
+Use Slack as a primary mode of communication from the Sidebar so you can send direct messages to users without having to leave the SOW.
+
+-   **[View the device health of user assets](https://servicenow-staging.fluidtopics.net/access?context=work-on-interaction-sow&family=yokohama&ft:locale=en-US)**
+
+DEX is integrated with SOW to monitor CIs or assets associated with SOW records such as incidents and interactions to determine the health of devices. You can view the device health information of the user's assets on the Record information side panel of the incident and interactions record page. This feature is available only if the DEX plugin \[sn\_dex\] is installed and DEX monitoring is enabled for the asset.
+
+-   **[Using MRA Async for adding child incident, affected CIs, impacted services and assets](https://servicenow-staging.fluidtopics.net/access?context=view-update-inc-overview-tab&family=yokohama&ft:locale=en-US)**
+
+When adding a list containing more than 50 child incidents, affected CIs, impacted services or assets from the **Overview** tab or **Related records** tab of an incident or problem record, the Multiple Record Associator \(MRA\) component batch processes in async and helps adding them in background thereby increasing the overall performance of the system. This feature works only if the number of items to be added is more than 50 as the **async Threshold** configuration property is set to 50.
+
+-   **[Viewing the device health of the user assets](https://servicenow-staging.fluidtopics.net/access?context=work-on-interaction-sow&family=yokohama&ft:locale=en-US)**
+
+View the device health information of the user's assets from the Assigned assets section on the Record information side panel of the incident and interactions record page. This helps in providing a quick resolution to the user. This feature is available only if the DEX plugin \[sn\_dex\] is installed and DEX monitoring is enabled for the asset.
+
+-   **[Guided tours for SOW](https://servicenow-staging.fluidtopics.net/access?context=play-guided-tour-sow&family=yokohama&ft:locale=en-US)**
+
+Learn about Service Operations Workspace for ITSM through a sequence of interactive steps that guide you through a specific concept or process.
+
+The following guided tours are available:
+
+    -   Create an incident task
+    -   Overview of the Interaction record in SOW
+-   **[Enhanced security model adoption in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=components-installed-investigate&family=yokohama&ft:locale=en-US)**
+
+Help prevent unauthorized access to the tables of the following applications with Deny-Unless ACLs:
+
+    -   Metrics and CI actions framework
+    -   Remedial actions framework
+    -   Agent client collector for investigation
+    -   Microsoft Endpoint Configuration Manager for Investigation
+A Deny-Unless authentication ACL restricts access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the above mentioned applications, including reading, writing, deleting, creating, or accessing the report view. This feature is available to both new \(zboot\) and upgrade instances.
+
+-   **[Known error article for a problem](https://servicenow-staging.fluidtopics.net/access?context=work-on-problem-sow&family=yokohama&ft:locale=en-US)**
+
+Starting in version 7.1, share the workaround for a problem and deflect additional incidents by creating a known error article for the problem.
+
+-   **[On-Call Scheduling configurations in Admin Center](https://servicenow-staging.fluidtopics.net/access?context=manage-admin-console-sow-itsm&family=yokohama&ft:locale=en-US)**
+
+Starting in version 7.1, use the simplified navigation from Admin Center to manage configurations for On-Call Scheduling in Service Operations Workspace for ITSM. It improves the administrator's experience.
+
+-   **[Configure Notify in SOW](https://servicenow-staging.fluidtopics.net/access?context=configure-notify-sow&family=yokohama&ft:locale=en-US)**
+
+Configure the provider preferences for Notify to manage the conference calls in Service Operations Workspace.
+
+-   **[Create CAB meetings in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=cm-create-cab-meeting-sow&family=yokohama&ft:locale=en-US)**
+
+Define and create Change Advisory Board \(CAB\) meetings, invite attendees and dynamically populate agenda items for each meeting in Service Operations Workspace.
+
+Run CAB meetings through CAB Workbench, available within Service Operations Workspace to review and authorize change requests. For more information, see [Conduct a CAB meeting in the CAB workbench](https://servicenow-staging.fluidtopics.net/access?context=cm-manage-cab-meeting-workbench-sow&family=yokohama&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Configuring Notify in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=configure-notify-sow&family=zurich&ft:locale=en-US)**
+
+Configure Notify with Microsoft Teams SOW in Admin Center using the guided setup.
+
+-   **[Visual indicators for unread messages](https://servicenow-staging.fluidtopics.net/access?context=sow-itsm-workspace-chat-session-tabs-configure&family=zurich&ft:locale=en-US)**
+
+To help agents maintain the Service Level Agreement \(SLA\) for chats, visual indicators are available on chat session tabs in the SOW. These indicators include color codes, where tabs with unread messages are highlighted in different colors. Inactive tabs display a purple background color to indicate that a message has been received. Tab colors shift to yellow and then to red to highlight critical wait times. These enhancements aim to improve customer service by ensuring quick response time, increase productivity by helping agents manage multiple chats more effectively, and reduce stress by providing clear visual cues, ultimately leading to better SLA compliance and higher service quality.
+
+-   **[Resize modal in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=view-update-inc-overview-tab&family=zurich&ft:locale=en-US)**
+
+Optimize your viewing experience by resizing the following modals in SOW:
+
+    -   Copy incident
+    -   Report knowledge gap
+    -   Reopen incident
+-   **[Add similar incidents to major incident record](https://servicenow-staging.fluidtopics.net/access?context=managing-major-incident-sow&family=zurich&ft:locale=en-US)**
+
+Find multiple similar incidents and add them as child incidents to a major incident or major incident candidate record from the child incident related list in the **Related records** tab of the major incident record. Similar incidents are retrieved based on the similarity solution definition that can be configured to train on various fields such as **Short description** and **Description**. Adding the similar incidents as child incidents to the major incident record ensures avoiding the creation of multiple major incident records for the same issue.
+
+-   **[On-Call Scheduling enhancements in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=work-on-escalation-trigger-rules-and-policies-in-sow&family=zurich&ft:locale=en-US)**
+
+On-call scheduling in SOW has the following enhancements:
+
+    -   The On-call trigger rule page is enhanced to support and select subflows.
+    -   The On-call trigger rule page is enhanced for supporting re-triggering escalations on configured fields such as Priority. Re-triggering is enabled whenever the value in the configured field changes.
+    -   Configure custom providers as channels for on-call escalation notifications.
+    -   Send the on-call escalations notifications to all stakeholders when any of the record fields configured using the on-call trigger rules are modified.
+-   **[Auto-dismiss the alerts and notification in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=configure-alerts-auto-dismiss-sow&family=zurich&ft:locale=en-US)**
+
+Configure the alerts and notifications in SOW to automatically dismiss within the specified time. Auto-dismissal of the alert notification reduces the user effort in manually dismissing the notification. By default, the base system has the following settings:
+
+    -   Auto-dismiss is turned on for alert notification of type info, positive \(success\) and low and has the timeout value of three seconds.
+    -   Auto-dismiss is turned off for alert notification of type critical, high, moderate, and warning.
+    -   The time label is turned off and only a visual time indicator is displayed.
+    -   The alert notification content is expanded.
+-   **[DEX and SO view in the investigate tab](https://servicenow-staging.fluidtopics.net/access?context=dex-so-metric-views-investigate-tab&family=zurich&ft:locale=en-US)**
+
+Based on the Configuration Item \(CI\) selected in the **Investigate** tab and the rules defined in the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table, the Investigate tab displays the CI metrics in the UI experience dashboard view for the different CI classes:
+
+    -   DEX view - Displayed for the cmdb\_ci\_computer CI class.
+    -   SO view - Displayed for the cmdb\_ci\_service class.
+You can select both the affected CIs including service and service offering and caller CIs.
+
+-   **[SOW record page enhancements](https://servicenow-staging.fluidtopics.net/access?context=view-update-inc-overview-tab&family=zurich&ft:locale=en-US)**
+
+The SOW record page has the following enhancements:
+
+    -   Add a clickable URL to the Summary section on the **Overview** tab of an incident record, enhancing navigation and reference capabilities. The Overview page supports URL type of field in read-only mode.
+    -   Perform various DEX actions on a CI using actions from the Action library in the contextual side panel of the SOW record page.
+    -   Manage user actions on the reference fields of a SOW record page with the following glide list actions:
+        -   Add me - Add the logged in user to the field.
+        -   Remove me - Remove the logged in user from the field.
+        -   Add multiple users - Add multiple users to the field.
+        -   Add multiple records - Add multiple records to the field.
+-   **[View recent tasks in a knowledge article record](https://servicenow-staging.fluidtopics.net/access?context=work-knowledge-article&family=zurich&ft:locale=en-US)**
+
+Configure the **Display recent task for knowledge article** \(**glide.knowman.recent\_task.display**\) system property to view the recent task records to which the knowledge article is recently attached. You can select the task record link to open the task record in a new tab with the workspace view.
+
+-   **[Introduction of Granular Admin roles in SOW](https://servicenow-staging.fluidtopics.net/access?context=roles-in-sow&family=zurich&ft:locale=en-US)**
+
+The following granular admin roles are introduced in SOW:
+
+    -   sn\_sow\_admin.sn\_sow\_admin: Provides access to SOW Admin Center page for SOW configurations. Admins can use the role to configure SOW features and maintain organizational policies.
+    -   sn\_sow\_inc\_sn\_incident\_sow\_admin: Provides access to SOW Admin Center pages for configurations related to Incident Management features.
+    -   sn\_sow\_mim.sn\_mim\_sow\_admin: Provides access to the SOW Admin Center pages for configurations related to Major Incident Management \(MIM\) features.
+    -   sn\_sow\_on\_call.sn\_on\_call\_sow\_admin: Provides access to the SOW Admin Center pages for On-Call Scheduling configurations.
+    -   sn\_sow\_problem.sn\_problem\_sow\_admin: Provides access to the SOW Admin Center pages for Problem Management configurations.
+-   **[View conflicts in the change request form](https://servicenow-staging.fluidtopics.net/access?context=create-change-sow&family=zurich&ft:locale=en-US)**
+
+The improved schedule and conflicts section added in the change request form displays the scheduling conflicts for a change request. If a scheduling conflict exists, conflict detection also provides details of any related blackout or maintenance schedules and other active change requests to determine the scheduling conflict. You can use the resulting information to review and modify the change request details to eliminate conflicts. You can also manually check and manage conflicts.
+
+For more information on conflict detection, see [Conflict detection](https://servicenow-staging.fluidtopics.net/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US).
+
+-   **[Monthly roster rotation for an on-call schedule](https://servicenow-staging.fluidtopics.net/access?context=create-a-schedule-in-sow&family=zurich&ft:locale=en-US)**
+
+Specify how the roster rotation should happen monthly for an on-call schedule. This option is available only for the 2024 schedule engine.
+
+-   **[Interaction wrap up with modeless dialog](https://servicenow-staging.fluidtopics.net/access?context=interaction-wrap-up-sow&family=zurich&ft:locale=en-US)**
+
+Provide agents with dedicated time after each call or chat to finalize the interaction details and wrap up their work before starting a new conversation.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing Service Operations Workspace for ITSM features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Incident record page changes](https://servicenow-staging.fluidtopics.net/access?context=view-inc-record-info-contextual-sidepanel&family=yokohama&ft:locale=en-US)**
+
+The Incident record page has the following changes:
+
+    -   The caller card is placed first on the Record information side panel for tier 1 agents.
+    -   The origin card itself is no longer clickable to reduce usability issues with the card and its clickable elements.
+-   **[Reference field behavior changes in SOW](https://servicenow-staging.fluidtopics.net/access?context=view-update-inc-overview-tab&family=yokohama&ft:locale=en-US)**
+
+Selecting any reference field in SOW now displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to set to `true`.
+
+-   **[Viewing Assign to me option](https://servicenow-staging.fluidtopics.net/access?context=users-sow-itsm&family=yokohama&ft:locale=en-US)**
+
+Users with the incident\_read role can no longer view the **Assign to me** option for an incident record.
+
+-   **Email component issues on SOW Incident**
+
+Email components are now accurately displayed for SOW Incident when the email is selected from the activity stream, stacked view, or email template is applied.
+
+-   **Resetting filter conditions**
+
+Filter conditions are now reset when switched from one related list to another related list.
+
+-   **Saving interaction record loads recent tasks**
+
+When a new interaction record is created and saved, the sidebar now loads record Information instead of recent Tasks.
+
+-   **[Problem Management state transitions](https://servicenow-staging.fluidtopics.net/access?context=understanding-state-mgmt-transitions&family=yokohama&ft:locale=en-US)**
+
+Sections that are configured to be expanded now automatically expand when you transition to a new state, without requiring a page reload.
+
+-   **[GenAI email templates for communication](https://servicenow-staging.fluidtopics.net/access?context=compose-communication-mim-sow&family=yokohama&ft:locale=en-US)**
+
+Use the GenAI capabilities for composing email with GenAI email templates in all major incident communications. The GenAI email templates are visible in a separate section when the email templates field is selected and the following conditions are met:
+
+    -   Any GenAI variable is available in the email templates.
+    -   Now Assist for ITSM is installed and activated.
+    -   GenAI skills are enabled.
+    -   User have the required roles to execute the GenAI skills.
+-   **[Close resolved incident](https://servicenow-staging.fluidtopics.net/access?context=close-resolved-incident-sow&family=yokohama&ft:locale=en-US)**
+
+Close an incident in **Resolved** state using the itil\_admin user role.
+
+-   **[Resize modals on the SRP and list pages](https://servicenow-staging.fluidtopics.net/access?context=srp-service-operations-workspace&family=yokohama&ft:locale=en-US)**
+
+Ensure flexibility and efficiency by enabling users to resize the modals on the SOW SRP and list pages. This helps in adjusting screen space allocation, enabling multi-tasking, and optimizing content visibility for different tasks and screen sizes. 
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Configure help and order of the remedial action parameters](https://servicenow-staging.fluidtopics.net/access?context=components-installed-with-remediation-fw&family=zurich&ft:locale=en-US)**
+
+Configure the **Help** and **Order** fields for the remedial action parameters on the Remedial action parameter \[sn\_reacf\_remedial\_action\_parameter\] table if you have the Remedial action admin\[sn\_reacf.sn\_remedial\_action\_admin\] user role.
+
+-   **[List page enhancements in Service Operations Workspace](https://servicenow-staging.fluidtopics.net/access?context=work-incident-list-page-sow&family=zurich&ft:locale=en-US)**
+
+The list page in SOW has the following enhancements:
+
+    -   The related lists in the **Related records** tab of the SOW record pages, including those within the record pages as well such as Recent Incidents or Assigned Assets, are updated with the record list bundle. This update provides them with the same appearance, functionality, and user experience as the SOW list page.
+    -   The related lists in the **Related records** tab of the SOW record pages, including the Multi Record Associator \(MRA\) list, as well as the related lists within the record pages such as Recent Incidents or Assigned Assets, now support the fuzzy count UX page property. You can configure a default value that is applicable to the list for all tables or a value for a specific table such as incident thereby improving the list page performance.
+-   **[Dependency view changes for reference fields](https://servicenow-staging.fluidtopics.net/access?context=view-update-inc-overview-tab&family=zurich&ft:locale=en-US)**
+
+Selecting the dependency view for the following fields in the incident, problem, change, and request records, opens a unified CMDB map in a new tab within the workspace view instead of a new browser tab:
+
+    -   Configuration item
+    -   Service
+    -   Service offering
+-   **[Propose a standard change template](https://servicenow-staging.fluidtopics.net/access?context=propose-standard-change-sow&family=zurich&ft:locale=en-US)**
+
+As a user with the itil role, you can create a standard change template proposal from any change record in SOW.
+
+-   **[Service Operations Workspace access for an on-call shift administrator](https://servicenow-staging.fluidtopics.net/access?context=roles-in-sow&family=zurich&ft:locale=en-US)**
+
+Starting in version 8.2, a user with the rota\_admin role can access Teams, Schedules, and Home pages in SOW.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some Service Operations Workspace for ITSM features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some Service Operations Workspace for ITSM features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Service Operations Workspace for ITSM.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+Service Operations Workspace for ITSM is active by default and its default version is 7.0 in Yokohama. When you upgrade from any previous release to Yokohama from the ServiceNow Store, Service Operations Workspace for ITSM 7.0 is automatically installed.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Service Operations Workspace for ITSM is active by default and its default version is 8.0 in Zurich. When you upgrade from any previous release to Zurich from the ServiceNow Store, Service Operations Workspace for ITSM 8.0 is automatically installed.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Service Operations Workspace for ITSM we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Service Operations Workspace for ITSM we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Service Operations Workspace for ITSM, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Reflow**
+
+The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
+
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [\[Placeholder link text to key bundle-platux.auto-reflow\]](https://servicenow-staging.fluidtopics.net/access?context=auto-reflow&family=zurich&ft:locale=en-US) for details.
+
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Service Operations Workspace for ITSM we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Service Operations Workspace for ITSM we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Streamline task management and reduce response times by approving the request, request item, catalog task, change request, and standard change proposal records directly from Service Operations Workspace \(SOW\).
+-   Quickly find details helpful in resolving issues by using Recommended Actions and AI Search for request items and catalog items.
+-   Enable agents with incident write access, callers, and end users who opened the incident to reopen a resolved incident from the incident record page in Service Operations Workspace.
+-   Configure response templates and incident management properties from the Service Operations Workspace Admin Center.
+-   Configure and use DEX Desktop Assistant as a channel in all incident and major incident-related communications.
+-   Starting in version 7.1, you can do the following:
+    -   Restrict unauthorized access to Incident Management in Service Operations Workspace using deny ACLs.
+    -   Compose email using GenAI email templates for all major incident communications.
+    -   Close a resolved incident with itil\_admin user role.
+    -   Share the workaround for a problem and deflect additional incidents.
+    -   Configure the On-Call Scheduling features from Service Operations Workspace Admin Center.
+    -   Use visual indicators like colors and icons on chat session tabs to notify agents about unread messages to maintain the SLA for the chats in Service Operations Workspace.
+    -   Configure the provider for Notify in SOW.
+    -   Agents can see a transcript of voice calls while interacting with customers in Service Operations Workspace.
+    -   Create Change Advisory Board \(CAB\) meetings and run them through CAB Workbench in Service Operations Workspace.
+
+ See [Service Operations Workspace for ITSM](https://servicenow-staging.fluidtopics.net/access?context=sow-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Propose a standard change template from a change record in Service Operations Workspace \(SOW\).
+-   Experience enhanced meeting and pagination controls in the Change Advisory board \(CAB\) workbench.
+-   Configure the Microsoft Teams integration with Notify in SOW Admin Center.
+-   Use visual indicators like colors and icons on chat session tabs to notify agents about unread messages to maintain the Service Level Agreement \(SLA\) for the chats in SOW.
+-   Optimize your viewing experience by resizing the modals in SOW.
+-   Find similar incidents and add them as child incidents to a major incident record.
+-   Support subflows in the On-Call trigger rule configurations.
+-   Configure the alerts and notifications in SOW to automatically dismiss within the specified time.
+-   View the dependency map for reference fields in a separate tab within the workspace.
+-   Starting in version 8.2, you can do the following:
+    -   Analyze the metrics for configuration items \(CIs\) in the Digital End-User Experience \(DEX\) and Service Observability \(SO\) UI dashboard view on the Investigate tab of an incident record.
+    -   Access and configure SOW from the Admin Center using granular feature admin roles.
+    -   View the recent task records to which the knowledge article is attached.
+    -   Manage user actions on the reference fields with the glide list action.
+    -   Perform DEX actions on a Configuration Item \(CI\) using the Action library from the contextual panel of the record page.
+    -   View the details of conflicts detected, and manually run conflict detection in the change request form.
+    -   Configure monthly roster rotation for an on-call schedule.
+    -   As an on-call shift administrator with the rota\_admin role, access Teams, Schedules, and Home pages in SOW.
+
+ See [Service Operations Workspace for ITSM](https://servicenow-staging.fluidtopics.net/access?context=sow-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)
+

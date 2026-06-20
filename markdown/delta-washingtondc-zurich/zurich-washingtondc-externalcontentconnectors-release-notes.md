@@ -1,0 +1,932 @@
+---
+title: Combined External Content Connectors release notes for upgrades from Washington DC to Zurich
+description: Consolidated page of all release notes for External Content Connectors from Washington DC to Zurich.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/delta-washingtondc-zurich/zurich-washingtondc-externalcontentconnectors-release-notes.html
+release: zurich
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 17
+breadcrumb: [Products combined by family]
+---
+
+# Combined External Content Connectors release notes for upgrades from Washington DC to Zurich
+
+Consolidated page of all release notes for External Content Connectors from Washington DC to Zurich.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family External Content Connectors release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Washington DC to Zurich.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading External Content Connectors to Zurich
+
+Before you upgrade to Zurich, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+
+ When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
+
+ When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Zurich, new features were introduced for External Content Connectors.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Atlassian Jira Cloud external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-jira&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from projects in your Atlassian Jira Cloud source system.
+
+-   **[Google Drive external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-gdrive&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from shared drives in your Google Drive source system.
+
+-   **[Microsoft Teams external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-msteams&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from teams in your Microsoft Teams source system.
+
+-   **[Predefined web sources external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-websources&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content from pages and subdomains in predefined public web sites.
+
+-   **[ServiceNow product documentation external content connectors](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-snowdoc&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content from the ServiceNow product documentation site.
+
+-   **[Slack external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-slack&family=xanadu&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from public channels in your Slack source system.
+
+-   **[Warning messages for indexed document counts](https://servicenow-staging.fluidtopics.net/access?context=exploring-ext-cont-connectors&family=xanadu&ft:locale=en-US)**
+
+When an external content connector's indexed document count exceeds 800,000, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit of 1,000,000 documents.
+
+-   **[Add external content search results to Now Assist in Virtual Agent conversations](https://servicenow-staging.fluidtopics.net/access?context=add-ext-cont-srch-src-na-va&family=xanadu&ft:locale=en-US)**
+
+Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
+
+
+-   **[Semantic vector indexing for crawled content](https://servicenow-staging.fluidtopics.net/access?context=semantic-search-ais&family=xanadu&ft:locale=en-US)**
+
+Improve recall for external content searches with support for semantic vector indexing of crawled content. Semantic vector indexing is supported for all external content connectors.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Connector admin role](https://servicenow-staging.fluidtopics.net/access?context=installed-with-ext-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Users with the sn\_ext\_conn.xcc\_admin role can create, configure, and review details for external content connectors and crawls.
+
+-   **[Adobe Experience Manager as a Cloud Service external content connector](https://servicenow-staging.fluidtopics.net/access?context=adobe-expmgr-cs-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Adobe Experience Manager as a Cloud Service source system.
+
+-   **[Asana external content connector](https://servicenow-staging.fluidtopics.net/access?context=asana-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Asana source system.
+
+-   **[Docusign external content connector](https://servicenow-staging.fluidtopics.net/access?context=docusign-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Docusign source system.
+
+-   **[Dropbox external content connector](https://servicenow-staging.fluidtopics.net/access?context=dropbox-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Dropbox source system.
+
+-   **[GitHub Enterprise Cloud external content connector](https://servicenow-staging.fluidtopics.net/access?context=github-enterprise-cloud-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your GitHub Enterprise Cloud source system.
+
+-   **[HubSpot external content connector](https://servicenow-staging.fluidtopics.net/access?context=hubspot-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your HubSpot source system.
+
+-   **[Lucidchart external content connector](https://servicenow-staging.fluidtopics.net/access?context=lucidchart-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Lucidchart source system.
+
+-   **[Miro external content connector](https://servicenow-staging.fluidtopics.net/access?context=miro-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Miro source system.
+
+-   **[monday.com external content connector](https://servicenow-staging.fluidtopics.net/access?context=monday-com-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your monday.com source system.
+
+-   **[Notion external content connector](https://servicenow-staging.fluidtopics.net/access?context=notion-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Notion source system.
+
+-   **[SAP DMS external content connector](https://servicenow-staging.fluidtopics.net/access?context=sap-dms-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your SAP DMS source system.
+
+-   **[Smartsheet external content connector](https://servicenow-staging.fluidtopics.net/access?context=smartsheet-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Smartsheet source system.
+
+-   **[Trello external content connector](https://servicenow-staging.fluidtopics.net/access?context=trello-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Trello source system.
+
+-   **[WordPress external content connector](https://servicenow-staging.fluidtopics.net/access?context=wordpress-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your WordPress source system.
+
+-   **[Workday external content connector](https://servicenow-staging.fluidtopics.net/access?context=workday-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Workday source system.
+
+-   **[Zoom external content connector](https://servicenow-staging.fluidtopics.net/access?context=zoom-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Zoom source system.
+
+-   **[Configure user mapping permission settings](https://servicenow-staging.fluidtopics.net/access?context=configure-user-mapping-settings-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
+
+-   **[Statistics for content crawls](https://servicenow-staging.fluidtopics.net/access?context=document-statistics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Review statistics about the documents \(items or files with searchable content and metadata\) retrieved by a content crawl.
+
+-   **[Statistics for user permission crawls](https://servicenow-staging.fluidtopics.net/access?context=permission-statistics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Review statistics about the permissions \(user and group-membership security principals\) retrieved by a user permission crawl.
+
+-   **[Analytics](https://servicenow-staging.fluidtopics.net/access?context=analytics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Review metrics that show how your external content connector has run over time.
+
+
+-   **[Amazon S3 external content connector](https://servicenow-staging.fluidtopics.net/access?context=amazon-s3-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from buckets in your Amazon S3 source system.
+
+-   **[Box external content connector](https://servicenow-staging.fluidtopics.net/access?context=box-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from user boxes in your Box source system.
+
+-   **[GitLab external content connector](https://servicenow-staging.fluidtopics.net/access?context=gitlab-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from issues, wikis, merge requests, tags, branches, and commits in your GitLab source system's groups, projects, and repositories.
+
+-   **[Microsoft OneDrive external content connector](https://servicenow-staging.fluidtopics.net/access?context=microsoft-onedrive-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from individual drives in your Microsoft OneDrive source system.
+
+-   **[Microsoft Viva Engage external content connector](https://servicenow-staging.fluidtopics.net/access?context=microsoft-viva-engage-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from conversations in your Microsoft Viva Engage source system's communities.
+
+-   **[ServiceNow instance external content connector](https://servicenow-staging.fluidtopics.net/access?context=servicenow-instance-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from KB articles in your ServiceNow AI Platform instance.
+
+-   **[Webcrawler external content connector](https://servicenow-staging.fluidtopics.net/access?context=webcrawler-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from pages and subdomains in public web sources. Select a predefined web source or specify a custom web source.
+
+-   **[Zendesk Guide external content connector](https://servicenow-staging.fluidtopics.net/access?context=zendesk-guide-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from articles in your Zendesk Guide source system's knowledge bases.
+
+-   **[Statistics for content crawls](https://servicenow-staging.fluidtopics.net/access?context=document-statistics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Review statistics for searchable items retrieved by a content crawl.
+
+-   **[Statistics for user permission crawls](https://servicenow-staging.fluidtopics.net/access?context=permission-statistics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Review statistics for user and group permissions retrieved by a user permission crawl.
+
+
+-   **[Atlassian Jira Cloud external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-jira&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from projects in your Atlassian Jira Cloud source system.
+
+-   **[Google Drive external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-gdrive&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from shared drives in your Google Drive source system.
+
+-   **[Microsoft Teams external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-msteams&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from teams in your Microsoft Teams source system.
+
+-   **[ServiceNow product documentation external content connectors](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-snowdoc&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content from the ServiceNow product documentation site.
+
+-   **[Slack external content connector](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-slack&family=yokohama&ft:locale=en-US)**
+
+Retrieve searchable content and user permissions from public channels in your Slack source system.
+
+-   **[Warning messages for indexed document counts](https://servicenow-staging.fluidtopics.net/access?context=exploring-ext-cont-connectors&family=yokohama&ft:locale=en-US)**
+
+When an external content connector's indexed document count exceeds 800,000, a warning message appears in the connector's UI to indicate that it's approaching the indexing limit of 1,000,000 documents.
+
+-   **[Add external content search results to Now Assist in Virtual Agent conversations](https://servicenow-staging.fluidtopics.net/access?context=add-ext-cont-srch-src-na-va&family=yokohama&ft:locale=en-US)**
+
+Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
+
+
+-   **[Semantic vector indexing for crawled content](https://servicenow-staging.fluidtopics.net/access?context=semantic-search-ais&family=yokohama&ft:locale=en-US)**
+
+Improve recall for external content searches with support for semantic vector indexing of crawled content. Semantic vector indexing is supported for all external content connectors.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Connector admin role](https://servicenow-staging.fluidtopics.net/access?context=installed-with-ext-content-connectors&family=zurich&ft:locale=en-US)**
+
+Users with the sn\_ext\_conn.xcc\_admin role can create, configure, and review details for external content connectors and crawls.
+
+-   **[Adobe Experience Manager as a Cloud Service external content connector](https://servicenow-staging.fluidtopics.net/access?context=adobe-expmgr-cs-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Adobe Experience Manager as a Cloud Service source system.
+
+-   **[Asana external content connector](https://servicenow-staging.fluidtopics.net/access?context=asana-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Asana source system.
+
+-   **[Docusign external content connector](https://servicenow-staging.fluidtopics.net/access?context=docusign-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Docusign source system.
+
+-   **[Dropbox external content connector](https://servicenow-staging.fluidtopics.net/access?context=dropbox-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Dropbox source system.
+
+-   **[GitHub Enterprise Cloud external content connector](https://servicenow-staging.fluidtopics.net/access?context=github-enterprise-cloud-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your GitHub Enterprise Cloud source system.
+
+-   **[HubSpot external content connector](https://servicenow-staging.fluidtopics.net/access?context=hubspot-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your HubSpot source system.
+
+-   **[Lucidchart external content connector](https://servicenow-staging.fluidtopics.net/access?context=lucidchart-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Lucidchart source system.
+
+-   **[Miro external content connector](https://servicenow-staging.fluidtopics.net/access?context=miro-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Miro source system.
+
+-   **[monday.com external content connector](https://servicenow-staging.fluidtopics.net/access?context=monday-com-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your monday.com source system.
+
+-   **[Notion external content connector](https://servicenow-staging.fluidtopics.net/access?context=notion-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Notion source system.
+
+-   **[SAP DMS external content connector](https://servicenow-staging.fluidtopics.net/access?context=sap-dms-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your SAP DMS source system.
+
+-   **[Smartsheet external content connector](https://servicenow-staging.fluidtopics.net/access?context=smartsheet-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Smartsheet source system.
+
+-   **[Trello external content connector](https://servicenow-staging.fluidtopics.net/access?context=trello-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Trello source system.
+
+-   **[WordPress external content connector](https://servicenow-staging.fluidtopics.net/access?context=wordpress-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your WordPress source system.
+
+-   **[Workday external content connector](https://servicenow-staging.fluidtopics.net/access?context=workday-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Workday source system.
+
+-   **[Zoom external content connector](https://servicenow-staging.fluidtopics.net/access?context=zoom-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from your Zoom source system.
+
+-   **[Configure user mapping permission settings](https://servicenow-staging.fluidtopics.net/access?context=configure-user-mapping-settings-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
+
+-   **[Statistics for content crawls](https://servicenow-staging.fluidtopics.net/access?context=document-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Review statistics about the documents \(items or files with searchable content and metadata\) retrieved by a content crawl.
+
+-   **[Statistics for user permission crawls](https://servicenow-staging.fluidtopics.net/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Review statistics about the permissions \(user and group-membership security principals\) retrieved by a user permission crawl.
+
+-   **[Analytics](https://servicenow-staging.fluidtopics.net/access?context=analytics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Review metrics that show how your external content connector has run over time.
+
+
+-   **[Amazon S3 external content connector](https://servicenow-staging.fluidtopics.net/access?context=amazon-s3-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from buckets in your Amazon S3 source system.
+
+-   **[Box external content connector](https://servicenow-staging.fluidtopics.net/access?context=box-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from user boxes in your Box source system.
+
+-   **[GitLab external content connector](https://servicenow-staging.fluidtopics.net/access?context=gitlab-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from issues, wikis, merge requests, tags, branches, and commits in your GitLab source system's groups, projects, and repositories.
+
+-   **[Microsoft OneDrive external content connector](https://servicenow-staging.fluidtopics.net/access?context=microsoft-onedrive-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from individual drives in your Microsoft OneDrive source system.
+
+-   **[Microsoft Viva Engage external content connector](https://servicenow-staging.fluidtopics.net/access?context=microsoft-viva-engage-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from conversations in your Microsoft Viva Engage source system's communities.
+
+-   **[ServiceNow instance external content connector](https://servicenow-staging.fluidtopics.net/access?context=servicenow-instance-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from KB articles in your ServiceNow AI Platform instance.
+
+-   **[Webcrawler external content connector](https://servicenow-staging.fluidtopics.net/access?context=webcrawler-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from pages and subdomains in public web sources. Select a predefined web source or specify a custom web source.
+
+-   **[Zendesk Guide external content connector](https://servicenow-staging.fluidtopics.net/access?context=zendesk-guide-external-content-connector&family=zurich&ft:locale=en-US)**
+
+Retrieve searchable content and metadata from articles in your Zendesk Guide source system's knowledge bases.
+
+-   **[Statistics for content crawls](https://servicenow-staging.fluidtopics.net/access?context=document-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Review statistics for searchable items retrieved by a content crawl.
+
+-   **[Statistics for user permission crawls](https://servicenow-staging.fluidtopics.net/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Review statistics for user and group permissions retrieved by a user permission crawl.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Zurich, some changes were made to existing External Content Connectors features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Analytics](https://servicenow-staging.fluidtopics.net/access?context=analytics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+
+Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
+
+-   **[Atlassian Jira Cloud connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-jira&family=yokohama&ft:locale=en-US)**
+
+The Atlassian Jira Cloud external content connector no longer requires your Atlassian Jira Cloud instance ID as a connection setting.
+
+-   **[Microsoft OneDrive connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-microsoft-onedrive&family=yokohama&ft:locale=en-US)**
+
+The Microsoft OneDrive external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+-   **[Microsoft SharePoint Online connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-mspo&family=yokohama&ft:locale=en-US)**
+
+The Microsoft SharePoint Online external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+-   **[Microsoft Teams connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-msteams&family=yokohama&ft:locale=en-US)**
+
+The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+
+-   **[Webcrawler external content connector](https://servicenow-staging.fluidtopics.net/access?context=webcrawler-external-content-connector&family=yokohama&ft:locale=en-US)**
+
+The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which allows you to specify a custom web source or select a predefined one.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Analytics](https://servicenow-staging.fluidtopics.net/access?context=analytics-external-content-connectors&family=zurich&ft:locale=en-US)**
+
+Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
+
+-   **[Atlassian Jira Cloud connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-jira&family=zurich&ft:locale=en-US)**
+
+The Atlassian Jira Cloud external content connector no longer requires your Atlassian Jira Cloud instance ID as a connection setting.
+
+-   **[Microsoft OneDrive connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-microsoft-onedrive&family=zurich&ft:locale=en-US)**
+
+The Microsoft OneDrive external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+-   **[Microsoft SharePoint Online connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-mspo&family=zurich&ft:locale=en-US)**
+
+The Microsoft SharePoint Online external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+-   **[Microsoft Teams connection settings](https://servicenow-staging.fluidtopics.net/access?context=create-ext-cont-connector-msteams&family=zurich&ft:locale=en-US)**
+
+The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
+
+
+-   **[Webcrawler external content connector](https://servicenow-staging.fluidtopics.net/access?context=webcrawler-external-content-connector&family=zurich&ft:locale=en-US)**
+
+The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which enables you to specify a custom web source or select a predefined one.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Zurich, some External Content Connectors features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Zurich, some External Content Connectors features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate External Content Connectors.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Install External Content Connectors by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow-staging.fluidtopics.net/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. 
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for External Content Connectors we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for External Content Connectors we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for External Content Connectors, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for External Content Connectors we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for External Content Connectors we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Expand your search by indexing searchable content and user permissions from your Atlassian Jira Cloud, Google Drive, Microsoft Teams, and Slack source systems.
+-   Make web content locally searchable by indexing pages from predefined public web sites or from the ServiceNow product documentation site.
+-   Know when your external content connectors are approaching their crawl limits with new warning messages.
+-   Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
+-   Improve recall for external content searches with support for semantic vector indexing of crawled content.
+
+ See [External Content Connectors](https://servicenow-staging.fluidtopics.net/access?context=ext-cont-connectors-landing-page&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+[Yokohama Patch 11](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+
+-   Expand your search experience with external content connectors for Adobe Experience Manager as a Cloud Service, Asana, Docusign, Dropbox, GitHub Enterprise Cloud, HubSpot, Lucidchart, Miro, monday.com, Notion, SAP DMS, Smartsheet, Trello, WordPress, Workday, and Zoom source systems.
+-   Customize user permission settings, choosing the fields you want to compare when mapping source system users to ServiceNow AI Platform® users.
+-   Make external content connector crawl results searchable by linking connector search sources to search profiles from the connector editor.
+-   Monitor connector behavior on individual crawl runs and over time with improved crawl statistics and analytics.
+
+ [Yokohama Patch 6](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
+
+-   Expand your search experience by indexing searchable content from your Amazon S3, Box, GitLab, Microsoft OneDrive, Microsoft Viva Engage, and Zendesk Guide source systems.
+-   Search KB articles from your ServiceNow instance.
+-   Make web content locally searchable by indexing pages from predefined or custom public web sites with the Webcrawler external content connector.
+-   Configure connector settings and schedule crawls as part of connector creation using the revamped UI.
+
+ [Yokohama Patch 3](https://servicenow-staging.fluidtopics.net/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
+
+-   Expand your search by indexing searchable content from your Atlassian Jira Cloud, Google Drive, Microsoft Teams, and Slack source systems.
+-   Make web content locally searchable by indexing pages from predefined public web sites.
+-   Find answers about your ServiceNow deployment by indexing searchable content from the ServiceNow product documentation.
+-   Know when your external content connectors are approaching their crawl limits with new warning messages.
+-   Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
+-   Improve recall for external content searches with support for semantic vector indexing of crawled content.
+
+ See [External Content Connectors](https://servicenow-staging.fluidtopics.net/access?context=ext-cont-connectors-landing-page&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+[Zurich Patch 4](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+-   Expand your search experience with external content connectors for Adobe Experience Manager as a Cloud Service, Asana, Docusign, Dropbox, GitHub Enterprise Cloud, HubSpot, Lucidchart, Miro, monday.com, Notion, SAP DMS, Smartsheet, Trello, WordPress, Workday, and Zoom source systems.
+-   Customize user permission settings, choosing the fields you want to compare when mapping source system users to ServiceNow AI Platform® users.
+-   Make external content connector crawl results searchable by linking connector search sources to search profiles from the connector editor.
+-   Monitor connector behavior on individual crawl runs and over time with improved crawl statistics and analytics.
+
+ [Zurich Patch 1](https://servicenow-staging.fluidtopics.net/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+-   Expand your search experience by indexing searchable content from your Amazon S3, Box, GitLab, Microsoft OneDrive, Microsoft Viva Engage, and Zendesk Guide source systems.
+-   Search KB articles from your ServiceNow instance.
+-   Make web content locally searchable by indexing pages from predefined or custom public web sites with the Webcrawler external content connector.
+-   Configure connector settings and schedule crawls as part of connector creation using the revamped UI.
+
+ See [External Content Connectors](https://servicenow-staging.fluidtopics.net/access?context=ext-cont-connectors-landing-page&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-washingtondc-zurich/rn-combined-intro.md)
+
