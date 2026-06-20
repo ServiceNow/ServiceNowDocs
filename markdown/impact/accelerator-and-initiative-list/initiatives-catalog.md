@@ -2,6 +2,7 @@
 title: Initiatives catalog
 description: Initiatives are the actionable engagements and workstreams that support your digital transformation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/initiatives-catalog.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -20,15 +21,15 @@ Initiatives are the actionable engagements and workstreams that support your dig
 
 <table id="table_dcj_bbv_bdc" class="nav-card presentation"><tbody><tr><td>
 
-[Access to Expertise ![](../../../reuse/icons/brand-icons/bus-start-discussion.svg)Seek feature guidance and the most effective path forward provided by subject matter experts.](../concept/access-expertise-initiative.md)
+[Access to Expertise \[Omitted image "bus-start-discussion.svg"\] Alt text:Seek feature guidance and the most effective path forward provided by subject matter experts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/access-expertise-initiative.md)
 
 </td><td>
 
-[Getting started with Developer Support![](../../../reuse/icons/brand-icons/bus-it-leader.svg)Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.](getting-started-developer-support.md)
+[Getting started with Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Gain an understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/getting-started-developer-support.md)
 
 </td><td>
 
-[Preventive Care![](../../../reuse/icons/brand-icons/bus-compliance.svg)A premium, engineer-led diagnostic of instance performance executed quarterly.](../concept/preventive-care.md)
+[Preventive Care\[Omitted image "bus-compliance.svg"\] Alt text:A premium, engineer-led diagnostic of instance performance executed quarterly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/preventive-care.md)
 
 </td></tr></tbody>
 </table>

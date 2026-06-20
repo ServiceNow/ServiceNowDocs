@@ -2,6 +2,7 @@
 title: Setting a GlideRecord variable to 'NULL'
 description: GlideRecord variables \(including current\) are initially null in the database. Setting these back to an empty string, a space, or the JavaScript null value will not result in a return to this initial state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/r\_SettingAGlideRecordVariableToNull.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -43,5 +44,5 @@ current.u_affected_value = 'NULL';
 current.update();
 ```
 
-**Parent Topic:**[Server-side scripting](../concept/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_ServerScripting.md)
 

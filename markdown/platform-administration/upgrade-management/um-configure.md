@@ -2,6 +2,7 @@
 title: Configuring Upgrade Console
 description: Upgrade your instance effortlessly by following our guided steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-configure.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -30,8 +31,8 @@ Upgrade your instance effortlessly by following our guided steps.
 
 Implement the following to experience the guided setup for a seamless upgrade on your instance.
 
--   **[Access guided setup for Upgrade Console](../task/um-guided-tour-implement.md)**  
+-   **[Access guided setup for Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)**  
 Follow the guided setup steps to experience the seamless upgrade on your instance.
 
-**Parent Topic:**[Upgrade Console](um-landing-page.md)
+**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md)
 

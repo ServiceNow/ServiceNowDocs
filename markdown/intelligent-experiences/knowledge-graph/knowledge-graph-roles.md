@@ -2,6 +2,7 @@
 title: Knowledge Graph roles
 description: Certain roles are required to use Knowledge Graph functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/knowledge-graph/knowledge-graph-roles.html
 release: yokohama
 product: Knowledge Graph
 classification: knowledge-graph

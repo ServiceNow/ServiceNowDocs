@@ -2,6 +2,7 @@
 title: Access controls in Service Operations Workspace for ITSM
 description: You can determine which users can access Service Operations Workspace for ITSM after logging in to the ServiceNow instance or access the Service Operations Workspace for ITSM landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/access-controls-sow-itsm.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,14 +27,14 @@ For a user, access to Service Operations Workspace for ITSM is based on the foll
     -   Custom roles require updates to ACLs \(access control lists\) that restrict access to certain functionality.
 -   First audience that the user belongs to.
 
-![Flow chart for SOW access](../image/sow-access.png)
+\[Omitted image "sow-access.png"\] Alt text: Flow chart for SOW access
 
--   **[Types of landing pages in Service Operations Workspace for ITSM](landing-page-types-sow.md)**  
+-   **[Types of landing pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/landing-page-types-sow.md)**  
 Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
--   **[Configure the audience for the SOW landing page](../task/configure-audience-sow-landing-page.md)**  
+-   **[Configure the audience for the SOW landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.md)**  
 Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
--   **[Configure service desk groups to access the Service Operations Workspace landing page](../task/configure-service-desk-groups-sow.md)**  
+-   **[Configure service desk groups to access the Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.md)**  
 Ensure that the right users have access to the Service Operations Workspace landing page.
 
-**Parent Topic:**[Getting started with Service Operations Workspace for ITSM](getting-started-sow.md)
+**Parent Topic:**[Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/getting-started-sow.md)
 

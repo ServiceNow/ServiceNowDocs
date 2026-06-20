@@ -2,6 +2,7 @@
 title: View and filter ITOM Visibility apps using the Discovery Admin Workspace
 description: Access all ITOM Visibility apps from a single location in the Discovery Admin Workspace. View and filter both the applications already installed on your instance and those applications available for installation. Use this feature to integrate applications and enhance the Discovery experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/view-filter-itom-apps-with-disc-admin-workspace.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -23,7 +24,7 @@ This page enables you to install new applications and update existing ones. Upda
 
 ## About this task
 
-While you can access details about the apps installed on your instance, information regarding pricing and packages isn’t provided, as it varies based on each contract. For a general overview of licensing and subscription details, see [ITOM/OT SU Licensing and subscriptions](../../it-operations-management/reference/itom-su-licensing-landing-page.md).
+While you can access details about the apps installed on your instance, information regarding pricing and packages isn’t provided, as it varies based on each contract. For a general overview of licensing and subscription details, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Procedure
 
@@ -36,9 +37,9 @@ While you can access details about the apps installed on your instance, informat
 3.  Use the filter drop-down list to select the desired subscription for viewing.
 
 
-**Parent Topic:**[Discovery Admin Workspace](../concept/discovery-admin-workspace.md)
+**Parent Topic:**[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
 
-**Previous topic:**[Discovery Admin Workspace Settings](../concept/discovery-admin-workspace-setup.md)
+**Previous topic:**[Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md)
 
-**Next topic:**[Request Discovery](t_ActivateTheDiscoveryPlugin.md)
+**Next topic:**[Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md)
 

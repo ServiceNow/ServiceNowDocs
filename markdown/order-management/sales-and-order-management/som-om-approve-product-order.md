@@ -2,6 +2,7 @@
 title: Approve a product or service order in Order Management
 description: When an order is submitted, the next step is to review the order and approve it. Approved orders are ready to begin the fulfillment process in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-om-approve-product-order.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_ind\_tmt\_orm.order\_approver
 
 ## Procedure
 
-1.  In the **Configurable Workspace**, select the **List** ![](../image/Lists.png) view.
+1.  In the **Configurable Workspace**, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_ind\_tmt\_orm.order\_approver
 
 4.  Review the order line items and select an option.
 
-    ![Image shows the order approval form used to review, update, and approve orders.](../image/som-om-order-approval.png)
+    \[Omitted image "som-om-order-approval.png"\] Alt text: Image shows the order approval form used to review, update, and approve orders.
 
 5.  |Options|Description|
 |-------|-----------|
@@ -47,5 +48,5 @@ Role required: sn\_ind\_tmt\_orm.order\_approver
     The order is approved and the order state changes to **In progress**.
 
 
-**Parent Topic:**[Create an order in Order Management](som-create-product-order.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-order.md)
 

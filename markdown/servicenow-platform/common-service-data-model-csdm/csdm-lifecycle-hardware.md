@@ -2,6 +2,7 @@
 title: Hardware life cycle
 description: The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The hardware life-cycle states represent the overall life cycle of hardware assets and CIs as related to their products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -26,13 +27,13 @@ The standard CSDM life-cycle value pair covers all phases of a product instance 
 
 For example, a hardware CI in the **Operational** stage might change stage status over time from **In Use** to **In Maintenance** to **End of Support**. A different hardware CI might go from **In Use** to **End of Support** without ever having been in **In Maintenance** status.
 
-![Allowed life-cycle values during the Operational stage of a hardware CI's life cycle](../image/csdm-op-stage-of-hw-ci.png)
+\[Omitted image "csdm-op-stage-of-hw-ci.png"\] Alt text: Allowed life-cycle values during the Operational stage of a hardware CI's life cycle
 
 **Note:** The \[life\_cycle\_control\] table uses the type of CI \(hardware, document, logical and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
-![Hardware life-cycle process: pipeline, purchase, inventory, deploy, operational, defective, missing, and end of life.](../image/csdm-lifecycle-physical.png)
+\[Omitted image "csdm-lifecycle-physical.png"\] Alt text: Hardware life-cycle process: pipeline, purchase, inventory, deploy, operational, defective, missing, and end of life.
 
-For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](foundation-domain.md).
+For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
 ## Holistic life cycle: CMDB hardware tables \(from cmdb\_ci\)​
 
@@ -55,7 +56,7 @@ For additional information on how you can benefit from implementing life-cycle v
 
 ## Example hardware classes
 
-View attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class. See [Hardware \[cmdb\_ci\_hardware\] class](../../configuration-management/concept/class-hardware.md).
+View attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class. See [Hardware \[cmdb\_ci\_hardware\] class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/class-hardware.md).
 
 ## How retiring a service instance might affect a hardware CI
 
@@ -74,11 +75,11 @@ Hardware and software CIs are managed using the physical life-cycle value pairs.
     When one of the service instances is retired, the database service and host cannot be retired. All other service instances still depend on the database service that is running on the host.
 
 
-See [Monitor the health of application services on the Application Services dashboard](../../configuration-management/task/app-service-dashboard.md).
+See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 ## CSDM videos in the ServiceNow Community
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM reference](csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

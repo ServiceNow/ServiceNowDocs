@@ -2,6 +2,7 @@
 title: Connection Manager
 description: Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/automation-center/conn-manager.html
 release: yokohama
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Connection Manager enables you to add data from a third-party tool into Automati
 
 Connection Manager helps you to add data from a third-party tool into Automation Center tables efficiently and in a few clicks.
 
-For detailed information, see [Working with Connection Manager](connection-manager.md).
+For detailed information, see [Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/connection-manager.md).
 
-**Parent Topic:**[Exploring Automation Center](automation-center-explore.md)
+**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-explore.md)
 

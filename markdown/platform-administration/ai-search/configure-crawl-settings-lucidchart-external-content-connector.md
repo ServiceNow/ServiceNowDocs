@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Lucidchart external content connector
 description: Specify the folders you want your Lucidchart external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-lucidchart-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the folders you want your Lucidchart external content connector to crawl
 
 ## Before you begin
 
-A connector admin must have already created the Lucidchart external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Lucidchart external content connector](create-ext-cont-connector-lucidchart.md).
+A connector administrator must have already created the Lucidchart external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-lucidchart.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Lucidchart external content connector crawls all folders from its specified source system and sends documents with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Lucidchart external content connector crawls all folders from its specified source system and sends documents with all supported file extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the folders to crawl when running content crawls
 -   Inclusion or exclusion filters for the file extensions to retrieve when running content crawls
@@ -84,7 +85,7 @@ The Lucidchart external content connector is updated with your modified crawl se
 
 ## What to do next
 
-To retrieve content from your Lucidchart source system using your modified crawl settings, create and run a one-time content crawl for your Lucidchart external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Lucidchart source system using your modified crawl settings, create and run a one-time content crawl for your Lucidchart external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Lucidchart external content connector](../concept/lucidchart-external-content-connector.md)
+**Parent Topic:**[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/lucidchart-external-content-connector.md)
 

@@ -2,6 +2,7 @@
 title: Service Order Open API
 description: The Service Order Open API provides endpoint that enable a standardized mechanism for placing service orders.Retrieves all service orders.Retrieves a specified service order.Updates the specified service order.Cancels the specified service order.Creates, updates, or deletes a service order or line item.Updates the fulfillment state for the specified domain order records in the Outbound Request \[sn\_tmt\_core\_outbound\_request\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/service-order-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
@@ -17,17 +18,17 @@ The Service Order Open API provides endpoint that enable a standardized mechanis
 
 This API is a ServiceNow® implementation of the Open API TMForum TMF641 Service Ordering Management API specification.
 
-![TMF conformance logo](../image/tmf-conformance.png)
+\[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
-To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see [Install Order Management](https://www.servicenow.com/docs/access?context=order-mgt-install-providers&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). For information about Order Management tables, entities, and relationships, see [Order Management data model](https://www.servicenow.com/docs/access?context=order-mgt-order-data-model&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see . For information about Order Management tables, entities, and relationships, see .
 
 This API is provided within the `sn_tmf_api` namespace.
 
 The calling user must have the sn\_ind\_tmt\_orm.order\_integrator role.
 
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Service Order Open API Developer Guide](../../guides/telecom/concept/service-order_dev-guide.md#).
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Service Order Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/service-order_dev-guide.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
 ## Service Order Open API – GET /sn\_tmf\_api/order/serviceOrder
 
@@ -108,7 +109,7 @@ Default: All states returned.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -160,7 +161,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_abf_sn5_4sb"><thead><tr><th>
 
@@ -429,7 +430,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see .
 
 Data type: String
 
@@ -706,7 +707,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -872,7 +873,7 @@ state
 
 </td><td>
 
-State of the service order. For more information, see[Service order states](https://www.servicenow.com/docs/access?context=service-order-mgt-state-values&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).Data type: String
+State of the service order. For more information, see.Data type: String
 
 </td></tr><tr><td>
 
@@ -1028,7 +1029,7 @@ Table: Order \[sn\_ind\_tmt\_orm\_order\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1040,7 +1041,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_n5s_hjm_gqb"><thead><tr><th>
 
@@ -1332,7 +1333,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US)
+Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see 
 
 Data type: String
 
@@ -1605,7 +1606,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -1771,7 +1772,7 @@ state
 
 </td><td>
 
-State of the service order. For more information, see[Service order states](https://www.servicenow.com/docs/access?context=service-order-mgt-state-values&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).Data type: String
+State of the service order. For more information, see.Data type: String
 
 </td></tr><tr><td>
 
@@ -2131,7 +2132,7 @@ Required. Action to perform on the service order item. Possible actions are defi
 -   resume
 -   suspend
 
-For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+For details, see .
 
 Data type: String
 
@@ -2420,7 +2421,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
 
 </td></tr><tr><td>
 
@@ -2428,7 +2429,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -2496,7 +2497,7 @@ Part of the TMF Open API standard. This value is always `ServiceOrder`. This inf
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2509,7 +2510,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xfv_2vk_5rb"><thead><tr><th>
 
@@ -2772,7 +2773,7 @@ Action to perform on the service order item. Possible actions are defined on the
 -   change
 -   delete
 
-For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+For details, see .
 
 Data type: String
 
@@ -3039,7 +3040,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
 
 </td></tr><tr><td>
 
@@ -3047,7 +3048,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -3103,7 +3104,7 @@ state
 
 </td><td>
 
-State of the service order. For more information, see[Service order states](https://www.servicenow.com/docs/access?context=service-order-mgt-state-values&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).Data type: String
+State of the service order. For more information, see.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -3424,7 +3425,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3437,7 +3438,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3836,7 +3837,7 @@ Required. Action to perform on the service order item. Possible actions are defi
 -   resume
 -   suspend
 
-For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+For details, see .
 
 Data type: String
 
@@ -4127,7 +4128,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
 
 </td></tr><tr><td>
 
@@ -4135,7 +4136,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -4262,7 +4263,7 @@ Part of the TMF Open API standard. This value is always `ServiceOrder`. This inf
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4274,7 +4275,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_kmf_3jm_gqb"><thead><tr><th>
 
@@ -4557,7 +4558,7 @@ Action to perform on the service order item. Possible actions are defined on the
 -   resume
 -   suspend
 
-For details, see [Action types for customer and service orders](https://www.servicenow.com/docs/access?context=order-mgt-customer-order-types&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+For details, see .
 
 Data type: String
 
@@ -4822,7 +4823,7 @@ serviceOrderItem.service.serviceCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see[Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see. Data type: String
 
 </td></tr><tr><td>
 
@@ -4830,7 +4831,7 @@ serviceOrderItem.service.serviceCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the service. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US). Data type: String
+Characteristic option values associated with the service. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -4964,7 +4965,7 @@ state
 
 </td><td>
 
-State of the service order. For more information, see[Service order states](https://www.servicenow.com/docs/access?context=service-order-mgt-state-values&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).Data type: String
+State of the service order. For more information, see.Data type: String
 
 </td></tr><tr><td>
 
@@ -5603,7 +5604,7 @@ To use this method, the Outbound Request table must contain the specified domain
 
 **Note:** You can't create new records in this table using this endpoint.
 
-For additional information on domain orders, see [Order Management data model](https://www.servicenow.com/docs/access?context=order-mgt-order-data-model&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+For additional information on domain orders, see .
 
 ### URL format
 
@@ -5681,7 +5682,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -5694,7 +5695,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

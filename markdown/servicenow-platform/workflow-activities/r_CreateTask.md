@@ -2,6 +2,7 @@
 title: Create Task workflow activity
 description: The Create Task activity generates a record on any of the tables that extend Task \[task\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/workflow-activities/r\_CreateTask.html
 release: yokohama
 product: Workflow Activities
 classification: workflow-activities
@@ -271,5 +272,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 |Error|A JavaScript error occurred. Review the logs for error details.|
 
-**Parent Topic:**[Task workflow activities](r_TaskActivities.md)
+**Parent Topic:**[Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/workflow-activities/r_TaskActivities.md)
 

@@ -2,6 +2,7 @@
 title: Field Query Roles and Restrictions
 description: The Field Query Roles and Field Query Restrictionsattribute enable you to better control what information is available to users in tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/access-control/field-query-roles-restrictions.html
 release: yokohama
 product: Access Control
 classification: access-control

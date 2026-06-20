@@ -2,6 +2,7 @@
 title: Configure purchase order line mapping
 description: The purchase order line-mapping skill generates the invoice line mapping, changes the invoice line status to review mapping state and provokes the fulfiller to manually review the mapping results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/configure-purchase-order-line-mapping.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

@@ -2,6 +2,7 @@
 title: Book an appointment for existing work orders and work order tasks
 description: Book an appointment for an existing work order or work order task from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/appt-booking-book-appt-UI-wo.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -19,7 +20,7 @@ Book an appointment for an existing work order or work order task from either th
 
 Role required: appointment\_booking\_user
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 
@@ -40,5 +41,5 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
 
 When work order task is accepted by the assigned technician, customer receives SMS and email notification that their appointment is confirmed.
 
-**Parent Topic:**[Manage appointments as a customer](../concept/manage-appts-as-a-customer.md)
+**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

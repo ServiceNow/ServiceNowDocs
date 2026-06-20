@@ -2,6 +2,7 @@
 title: Viewing producer statistics
 description: View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/producer-statistics.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -112,7 +113,7 @@ The Kafka Producer Statistics \[sys\_kafka\_producer\_statistics\] table capture
 
 You can also view the statistics for a specific producer by selecting the producer's record from the table.
 
-![A producer record showing producer statistics at the bottom.](../images/kafka-producer-statistics.png "Sample producer record with statistics")
+\[Omitted image "kafka-producer-statistics.png"\] Alt text: A producer record showing producer statistics at the bottom.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

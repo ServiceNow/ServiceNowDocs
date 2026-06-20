@@ -2,13 +2,14 @@
 title: Add characteristic and characteristic options to a product offering
 description: Add characteristic and characteristic options to an existing product offering using the Product Offering Characteristic tab in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/add-characteristics-to-product-offering.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create product characteristics and characteristic options, Create product offerings, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create product characteristics and characteristic options, Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Add characteristic and characteristic options to a product offering
@@ -25,7 +26,7 @@ There are a number of ways to create characteristic and characteristic options. 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you're working with.
 

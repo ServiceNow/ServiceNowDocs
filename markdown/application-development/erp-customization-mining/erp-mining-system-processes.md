@@ -2,6 +2,7 @@
 title: ERP-CM system connection tasks
 description: ERP Semantic Mining \(ERP-CM\) runs a number of tasks when connecting to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erp-mining-system-processes.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -25,5 +26,5 @@ ERP Semantic Mining \(ERP-CM\) runs a number of tasks when connecting to the ERP
 -   Extraction of Namespace Data
 -   Running ML similarity analysis
 
-**Parent Topic:**[ERP Semantic Mining reference](erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

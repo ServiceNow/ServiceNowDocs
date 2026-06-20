@@ -2,6 +2,7 @@
 title: Review a utility customization for Agile Development 2.0
 description: Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizations on the platform artifacts \(such as form layout, list layout, business rules, and client scripts\) that are modified as part of the Agile Development 2.0 enhancements. Delete the customizations prior to upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/utility-review-customizations.html
 release: yokohama
 product: Agile Development
 classification: agile-development
@@ -22,7 +23,7 @@ Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizatio
 
 ## About this task
 
-**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](../reference/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
+**Important:** Agile Development 1.0 and its features such as Sprint burndown chart and release burndown chart are deprecated and no longer available. [Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-landing-page.md) provides the latest experience for supporting your Agile work methodology.
 
 ## Procedure
 
@@ -42,8 +43,8 @@ Use the Agile\_2.0\_Upgrade\_Diagnostics update set to analyze your customizatio
 
     For example, in the following screenshot, a system script has been customized. Hence, further analysis is required to delete the customization, restore, or reapply the customization after an upgrade.
 
-    ![Customized system script](../image/agile2-upgrade-diagnostics.png "Example of a customized system script")
+    \[Omitted image "agile2-upgrade-diagnostics.png"\] Alt text: Customized system script
 
 
-**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](../concept/appendix.md)
+**Parent Topic:**[Agile Development 2.0 enhancements over Agile Development 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/appendix.md)
 

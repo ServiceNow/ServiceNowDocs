@@ -2,13 +2,14 @@
 title: View AI asset details
 description: View the AI asset governance details to track the lifecycle's status, phase, and the install status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/view-ai-asset-details.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2025-09-03"
 reading_time_minutes: 1
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # View AI asset details
@@ -31,15 +32,15 @@ Role required: AI steward
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d40789e87">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d36137e87">
 
 Field
 
-</th><th align="left" id="d40789e90">
+</th><th align="left" id="d36137e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40789e96">
+</th></tr></thead><tbody><tr><td id="d36137e96">
 
 **Version**
 
@@ -47,7 +48,7 @@ Description
 
 Version number of the asset
 
-</td></tr><tr><td id="d40789e105">
+</td></tr><tr><td id="d36137e105">
 
 **Asset type**
 
@@ -62,7 +63,7 @@ Type of assets:-   Generative AI
 -   AI datasets
 
 
-</td></tr><tr><td id="d40789e138">
+</td></tr><tr><td id="d36137e138">
 
 **Provider**
 
@@ -70,7 +71,7 @@ Type of assets:-   Generative AI
 
 who has built the asset
 
-</td></tr><tr><td id="d40789e147">
+</td></tr><tr><td id="d36137e147">
 
 **Vendor**
 
@@ -78,7 +79,7 @@ who has built the asset
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d40789e157">
+</td></tr><tr><td id="d36137e157">
 
 **Department**
 
@@ -86,7 +87,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d40789e166">
+</td></tr><tr><td id="d36137e166">
 
 **Managed by**
 
@@ -94,7 +95,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d40789e175">
+</td></tr><tr><td id="d36137e175">
 
 **License details**
 
@@ -102,7 +103,7 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d40789e184">
+</td></tr><tr><td id="d36137e184">
 
 **Supported locations**
 
@@ -110,7 +111,7 @@ License details of the asset
 
 Shows the locations supported for the AI asset.
 
-</td></tr><tr><td id="d40789e196">
+</td></tr><tr><td id="d36137e196">
 
 **Lifecycle phase**
 
@@ -125,7 +126,7 @@ Shows the asset's lifecycle phase.
 -   Offboarding
 
 
-</td></tr><tr><td id="d40789e225">
+</td></tr><tr><td id="d36137e225">
 
 **State**
 
@@ -138,7 +139,7 @@ The state of the asset.-   Deployed
 -   N/A
 
 
-</td></tr><tr><td id="d40789e252">
+</td></tr><tr><td id="d36137e252">
 
 **Lifecycle status**
 
@@ -155,7 +156,7 @@ The lifecycle status of the asset.-   In review
 -   Canceled
 
 
-</td></tr><tr><td id="d40789e291">
+</td></tr><tr><td id="d36137e291">
 
 **Risk classification**
 
@@ -163,7 +164,7 @@ The lifecycle status of the asset.-   In review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d40789e300">
+</td></tr><tr><td id="d36137e300">
 
 **Created**
 
@@ -171,7 +172,7 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d40789e309">
+</td></tr><tr><td id="d36137e309">
 
 **Updated**
 

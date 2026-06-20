@@ -2,6 +2,7 @@
 title: Create supplier-level KPIs from KPI management
 description: You can add supplier-level for a supplier from the KPI management tab of the supplier page. You can also define contract-level KPIs under their respective supplier-level KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contract-level-kpis.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,7 +34,7 @@ Role required: admin
 
 6.  Select the collection level as **Supplier level**.
 
-    ![Select collection level dialog box](../image/collection-level.png)
+    \[Omitted image "collection-level.png"\] Alt text: Select collection level dialog box
 
 7.  Select a KPI template from the list of available KPI templates.
 
@@ -42,5 +43,5 @@ Role required: admin
     The corresponding KPI records and KPI collection tasks are created.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

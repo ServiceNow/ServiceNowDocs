@@ -1,7 +1,8 @@
 ---
-title: Multi-factor authentication system properties
+title: Multi-factor Authentication system properties
 description: Use system properties to enable and customize MFA to meet your security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/mfa-properties.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure Multi-factor authentication, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Multi-factor authentication system properties
+# Multi-factor Authentication system properties
 
 Use system properties to enable and customize MFA to meet your security requirements.
 
@@ -25,6 +26,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+**glide.authenticate.multifactor**
+
+</td><td>
+
+Enable Multi-factor Authentication.**Note:** To enforce MFA for API authentication, set the `glide.authenticate.multifactor.for_integrations` system property to `true`. MFA is enforced only for users who have already enrolled in MFA. Users who have not enrolled are not affected.
+
+</td></tr><tr><td>
+
 **glide.authenticate.multifactor.setup.bypass.count**
 
 </td><td>
@@ -37,7 +46,7 @@ Number of times that a user can choose to skip the setup of MFA. The default is 
 
 </td><td>
 
-Number of minutes that the reset code is valid. See [Log in with multi-factor authentication](../task/t_LogOnWithMultifactorAuth.md). The default is 5.**Note:** This property is for email OTP validation time.
+Number of minutes that the reset code is valid. See [Log in with multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LogOnWithMultifactorAuth.md). The default is 5.**Note:** This property is for email OTP validation time.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: View the Playbook activities
 description: Playbooks in Accounts Payable Operations displays step by step process involved in processing an invoice processing case through activity views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/how-playbook-works.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,9 +18,9 @@ Playbooks in Accounts Payable Operations displays step by step process involved 
 
 The playbook life cycle provides the context as to where an Accounts Payable specialist is within the playbook, including information for each stage and activity and any dependencies between stages. For stages with multiple activities, the playbook life cycle provides step-by-step guidance for completing the stage.
 
-The figure below displays the playbook workflow.![Playbook workflow](../image/playbook.png)
+The figure below displays the playbook workflow.\[Omitted image "playbook.png"\] Alt text: Playbook workflow
 
-The stages and activities in a playbook life cycle are configured using [Process Automation Designer](https://www.servicenow.com/docs/bundle/washingtondc-build-workflows/page/administer/process-automation-designer/concept/process-automation-designer.html) \(PAD\). Refer to the table below for the Playbook activity cards.
+The stages and activities in a playbook life cycle are configured using Process Automation Designer \(PAD\). Refer to the table below for the Playbook activity cards.
 
 <table id="table_uts_4h1_51c"><thead><tr><th>
 
@@ -45,7 +46,7 @@ Validate invoice
 
 </td><td>
 
-Verify the invoice details. For more information on details of playbook stages, see [Using Playbook in Accounts Payable Operations](../task/how-to-use-playbook.md)
+Verify the invoice details. For more information on details of playbook stages, see [Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Allows you to review the integration errors and the payment details
 </td></tr></tbody>
 </table>The playbook work area appears in the center part of the playbook section. It displays the action taken for the current activity, depending on the configured activity view.
 
-**Parent Topic:**[Playbook for updating the invoice primary data](playbooks.md)
+**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

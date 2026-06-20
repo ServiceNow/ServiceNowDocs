@@ -2,13 +2,14 @@
 title: Multiple configurations
 description: As a product catalog admin or manager, when you define a configurable product offering, you can enable agents to add multiple configurations of a child product offering. When agents add multiple configurations, they can change the quantity for each configuration of the offering, define each configuration as a separate line item, and select the appropriate options and characteristics for each configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/multiple-child-offering-configurations.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-06-03"
 reading_time_minutes: 5
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Multiple configurations
@@ -17,7 +18,7 @@ As a product catalog admin or manager, when you define a configurable product of
 
 ## How multiple configurations work
 
-When you use the Create New Product Offering form to define configurable product offerings and child product offerings, select the **Allow multiple configurations** option to enable the creation of multiple child offering configurations. For information on defining products, see [Create product offerings](../task/som-create-product-offering.md).
+When you use the Create New Product Offering form to define configurable product offerings and child product offerings, select the **Allow multiple configurations** option to enable the creation of multiple child offering configurations. For information on defining products, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-offering.md).
 
 **Note:** If the configurable product has an associated product specification, the **Allow multiple configurations** option is enabled automatically and can't be unselected.
 
@@ -31,7 +32,7 @@ Each offering configuration becomes a new line item that can be configured separ
 
 In the following example, the Home Automation Bundle is a child offering that has a default quantity of 2 in the Quadplay Home Tech Bundle. An information icon displays next to each child offering that can have multiple configurations. The information icon, when selected, displays a message indicating that multiple configurations can be created for the child offering.
 
-![Details tab that shows Home Automation Hub product offering with Allow multiple configurations option enabled and the Quadplay Home Tech Hub Bundle configurable product offering displayed in the product configurator](../image/om-multiple-config-instances.png "Example of a configurable product offering for an order")
+\[Omitted image "om-multiple-config-instances.png"\] Alt text: Details tab that shows Home Automation Hub product offering with Allow multiple configurations option enabled and the Quadplay Home Tech Hub Bundle configurable product offering displayed in the product configurator
 
 ## How multiple configurations are created
 
@@ -39,9 +40,9 @@ When agents review a bundle offering in the product configurator, they identify 
 
 In the offering summary page, a message indicates that the offering supports multiple configurations and the aggregated quantity of configurations that can be created. Agents can change the quantity of the child offering on this page.
 
-The More options icon ![](../image/icon-three-dots.png) displays next to the **Quantity**. Selecting the icon lists the options available for creating and managing multiple configurations.
+The More options icon \[Omitted image "icon-three-dots.png"\] Alt text: displays next to the **Quantity**. Selecting the icon lists the options available for creating and managing multiple configurations.
 
-![Summary page for child offering, which shows the More options menu with the Clone and Split options for managing multiple configurations of a child product offering](../image/more-options-menu-multiconfig.png "Offering summary page with More options menu")
+\[Omitted image "more-options-menu-multiconfig.png"\] Alt text: Summary page for child offering, which shows the More options menu with the Clone and Split options for managing multiple configurations of a child product offering
 
 The following options are available to manage child offering configurations:
 
@@ -74,6 +75,6 @@ Multiple configurations are not supported for quotes of type sales agreements. A
 
 For details on enabling and creating multiple configurations for child offerings, see the following sections:
 
--   [Create product offerings](../task/som-create-product-offering.md)
--   [Create multiple configurations](../task/create-multiple-child-configs.md)
+-   [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-offering.md)
+-   [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-multiple-child-configs.md)
 

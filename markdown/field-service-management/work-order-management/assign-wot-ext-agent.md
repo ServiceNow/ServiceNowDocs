@@ -2,6 +2,7 @@
 title: Assign outsourced work order tasks
 description: Managers of contractor companies can assign outsourced work order tasks to be performed at the customer location to their agents or to themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/assign-wot-ext-agent.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -46,5 +47,5 @@ Outsourced work order tasks are always automatically assigned to the managers of
 
 If you have assigned the task to an agent, the agent receives an email notification about the assignment.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

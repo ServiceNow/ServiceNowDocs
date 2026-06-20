@@ -2,13 +2,14 @@
 title: Create a product offering recommendation
 description: Create product offering recommendations that can be used by your sales agents to upsell or cross-sell additional products in quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-offer-recommendation.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering recommendation
@@ -23,7 +24,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -90,6 +91,6 @@ Brief description of the offering recommendation.
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](quote-get-product-offer.md).
+    The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-get-product-offer.md).
 
 

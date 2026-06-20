@@ -2,6 +2,7 @@
 title: Using Sales Agreement Management
 description: Learn how managers, agents, and administrators use the Sales Agreement Management application to generate sales agreements from quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/sales-agreement-mgmt-using.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management

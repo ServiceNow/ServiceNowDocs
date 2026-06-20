@@ -2,13 +2,14 @@
 title: Components installed with Sales Agreement Management
 description: Several types of components are installed with activation of the Sales Agreement Management plugins, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/components-installed-sales-agreement.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Agreement Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configure Sales Agreement Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Components installed with Sales Agreement Management

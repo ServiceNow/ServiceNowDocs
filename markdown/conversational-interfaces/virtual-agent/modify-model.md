@@ -2,6 +2,7 @@
 title: Legacy - Modify models
 description: Test and modify the Virtual Agent models so they more accurately predict user intents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/modify-model.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Test and modify the Virtual Agent models so they more accurately predict user in
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](../concept/VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -29,7 +30,7 @@ Role required: Chat Analytics Admin
 
 ## About this task
 
-Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Virtual Agent \(VA\) topics. The NLU plugin contains entities that are common across all products. You can modify those models. To learn how to train and test the models used for VA conversations, see .
 
 ## Procedure
 
@@ -39,17 +40,17 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
     The Models page opens that displays the models that predict intents in your setup.
 
-    ![NLU Workbench dashboard list of NLU models.](../images/dashboard-list-of-models-2.png)
+    \[Omitted image "dashboard-list-of-models-2.png"\] Alt text: NLU Workbench dashboard list of NLU models.
 
-3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in [Create an NLU model](https://www.servicenow.com/docs/access?context=create-nlu-modelx&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+3.  If none of the models contain intents and utterances you'd like in your setup, select **Create Model** and follow the instructions in Create an NLU model.
 
 4.  Click a model to display the intents the model predicts.
 
-    ![NLU Workbench Model Intents tab.](../images/dashboard-model-intents.png)
+    \[Omitted image "dashboard-model-intents.png"\] Alt text: NLU Workbench Model Intents tab.
 
 5.  Click an intent to display the utterances associated with it.
 
-    ![NLU Workbench Intent utterances tab.](../images/dashboard-intents-utterances.png)
+    \[Omitted image "dashboard-intents-utterances.png"\] Alt text: NLU Workbench Intent utterances tab.
 
 6.  To create a new intent and add it to the model:
 
@@ -61,7 +62,7 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
         A page for your new intent opens.
 
-        ![NLU Workbench intent utterances tab showing utterance added.](../images/dashboard-intent-added.png)
+        \[Omitted image "dashboard-intent-added.png"\] Alt text: NLU Workbench intent utterances tab showing utterance added.
 
     3.  Enter an utterance for your new intent and select **Add**.
 
@@ -69,7 +70,7 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
 7.  Import one or more intents by selecting **Import Intents**.
 
-    The **Import Intents** dialog box opens, which displays the intents you can import.![Import intents dialog box with SubmitRequest intent selected.](../images/dashboard-import-intents.png)
+    The **Import Intents** dialog box opens, which displays the intents you can import.\[Omitted image "dashboard-import-intents.png"\] Alt text: Import intents dialog box with SubmitRequest intent selected.
 
     1.  Find the intent\(s\) to import by entering a search term, or by clicking an arrowhead to display the intents in a folder, and then selecting one or more check boxes.
     2.  Select **Import**.
@@ -83,10 +84,10 @@ Many ServiceNow products, such as ITSM, HRSD, and CSM include NLU models for Vir
 
 9.  To test all the utterances, select **Test** and enter a sentence a user might enter in a chat to see if NLU understands the intent of your sentence.
 
-    ![NLU Workbench Intents tab and Test model tab displaying test utterance.](../images/dashboard-test-utterance.png)
+    \[Omitted image "dashboard-test-utterance.png"\] Alt text: NLU Workbench Intents tab and Test model tab displaying test utterance.
 
 10. If the models fail to predict the intent, add additional intents to the model, or utterances to the intents, as described in step 6.
 
 
-**Parent Topic:**[Legacy - Natural Language Understanding of Virtual Agent responses](../concept/nlu-tab.md)
+**Parent Topic:**[Legacy - Natural Language Understanding of Virtual Agent responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/nlu-tab.md)
 

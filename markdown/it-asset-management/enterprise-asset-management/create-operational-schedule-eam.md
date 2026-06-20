@@ -2,6 +2,7 @@
 title: Create an operational schedule for enterprise assets
 description: Define the scheduled operational time, which is the duration during which the asset will be in use, by creating an operational schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-operational-schedule-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -59,7 +60,7 @@ Parent
 
 </td><td>
 
-Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://www.servicenow.com/docs/access?context=c_ParentAndChildSchedules&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Parent schedule that constraints the new schedule.For more details, see .
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Description of the operational schedule.
 
     3.  On the Schedule Entry New record, fill in the fields.
 
-        For details on Schedule Entry New record fields, see [Schedule entry fields](https://www.servicenow.com/docs/access?context=r_ScheduleEntryFields&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+        For details on Schedule Entry New record fields, see .
 
     4.  Select **Submit**.
 
@@ -105,5 +106,5 @@ Description of the operational schedule.
 
 ## What to do next
 
-[Map enterprise assets to an operational schedule](create-asset-schedule-eam.md).
+[Map enterprise assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.md).
 

@@ -2,6 +2,7 @@
 title: Sensitive Data Handler
 description: During an Agent Chat or Virtual Agent conversation, the agent or requester may accidentally enter sensitive data. The Sensitive Data Handler detects and masks the sensitive data so it is not viewed by the agent or requester. The Sensitive Data Handler can also collect sensitive data as part of a business process, such as user authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/agent-chat/ac-sensitive-data-overview.html
 release: yokohama
 product: Agent Chat
 classification: agent-chat
@@ -24,7 +25,7 @@ Possible situations when the Sensitive Data Handler might detect and mask sensit
 
 The Sensitive Data Handler detects and masks sensitive data when the requester is conversing through the chat widget, mobile \(iOS/Android\), or any of the supported adapter channels \(SMS/Slack/Teams/Workplace\).
 
-![Agent Chat conversation window showing sensitive data being masked.](../image/ci-sensitive-example-1.png)
+\[Omitted image "ci-sensitive-example-1.png"\] Alt text: Agent Chat conversation window showing sensitive data being masked.
 
 You can configure the following:
 
@@ -42,7 +43,7 @@ The Sensitive Data Handler plugin \[com.glide.sensitive\_data\_handling\] can be
 
 ## Regular Expressions
 
-The base system of the Sensitive Data Handler comes with pre-defined regular expressions for credit/debit card numbers, social security numbers, and email addresses. When the Sensitive Data Handler detects a regular expression, it uses the defined masking pattern to mask sensitive data. To define your own regular expressions and patterns to mask other sensitive data, see [Configuring Sensitive Data Handler](../task/ac-configure-sensitive-data-handling.md). If a regular expression is not properly configured, the system may get stuck while attempting to match the regular expression with the message. To prevent the system from getting stuck, the system times out after one second.
+The base system of the Sensitive Data Handler comes with pre-defined regular expressions for credit/debit card numbers, social security numbers, and email addresses. When the Sensitive Data Handler detects a regular expression, it uses the defined masking pattern to mask sensitive data. To define your own regular expressions and patterns to mask other sensitive data, see [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md). If a regular expression is not properly configured, the system may get stuck while attempting to match the regular expression with the message. To prevent the system from getting stuck, the system times out after one second.
 
 <table id="table_r1n_gdm_gsb"><thead><tr><th>
 

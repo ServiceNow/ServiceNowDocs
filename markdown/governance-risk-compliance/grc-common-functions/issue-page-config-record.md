@@ -2,6 +2,7 @@
 title: Issue Page Configuration module
 description: The Issue Page Configuration module displays the configurations related to the Issues overview landing pages in various workspaces. The data displayed in the Issues overview landing page is configured using the Issue Page Configurations module in the classic user interface. The Issues overview landing page includes the Issues, Issue triages, Tracking status of the issues, and Audit observations pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/issue-page-config-record.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -37,5 +38,5 @@ The homepage in each workspace displays the issues section that provides the fol
 -   The My group's issues section displays the Issues and Triage issues sections in a number format. Issues subsection displays the details such as Assigned to, Managing, Unassigned manager, To review, Overdue. Triage issues subsection displays the details such as Assigned to, Unassigned owner, To review, and Unassigned reviewer.
 -   The Watching section displays the details such as Triage issues and Remediation tasks in a number format.
 
-**Parent Topic:**[Landing Page Configurations module](../../grc-common/reference/admin-config-using-grc-common.md)
+**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
 

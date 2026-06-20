@@ -2,6 +2,7 @@
 title: Create a group feed
 description: Group feeds are created by users so that members with similar interests can find that information in one place. Individual users or teams can join group feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_CreateAGroupFeed.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  Click **Create Group Feed**.
 
-    ![Create group feed](../image/CreateGroupFeed.png "Create group feed")
+    \[Omitted image "CreateGroupFeed.png"\] Alt text: Create group feed
 
 4.  Enter the feed name and description.
 
@@ -43,5 +44,5 @@ Role required: admin
 6.  Click **Create**.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

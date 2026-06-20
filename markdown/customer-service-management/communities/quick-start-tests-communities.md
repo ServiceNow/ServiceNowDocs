@@ -2,6 +2,7 @@
 title: Quick start tests for Communities
 description: Validate that Communities still work after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/quick-start-tests-communities.html
 release: yokohama
 product: Communities
 classification: communities
@@ -39,5 +40,5 @@ Communities quick start tests require activating the Customer Communities plugin
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

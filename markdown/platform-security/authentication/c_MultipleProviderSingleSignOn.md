@@ -2,6 +2,7 @@
 title: Multi-Provider Single sign-on \(SSO\)
 description: External SSO allows organizations to use several SSO identity providers \(IdPs\) to manage authentication as well as retain local database \(basic\) authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_MultipleProviderSingleSignOn.html
 release: yokohama
 product: Authentication
 classification: authentication

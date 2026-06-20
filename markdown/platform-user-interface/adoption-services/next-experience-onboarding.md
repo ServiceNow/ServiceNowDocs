@@ -2,6 +2,7 @@
 title: Onboarding modals
 description: Onboarding modals provide a wizard-like experience to introduce users to new experiences and applications in their ServiceNow Next Experience instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/next-experience-onboarding.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
@@ -17,5 +18,5 @@ Onboarding modals provide a wizard-like experience to introduce users to new exp
 
 Some onboarding modals are included by default in your instance, such as the onboarding modal displayed the first time you log in to an instance with Next Experience enabled. You can also create your own custom onboarding modals to introduce new experiences and applications to users.
 
-![An onboarding modal introduction slide in an ITIL dashboard.](../../../build/adoption-services/image/onboarding-experience.png "Onboarding modal slide example")
+\[Omitted image "onboarding-experience.png"\] Alt text: An onboarding modal introduction slide in an ITIL dashboard.
 

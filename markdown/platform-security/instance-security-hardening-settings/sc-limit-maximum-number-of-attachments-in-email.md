@@ -2,6 +2,7 @@
 title: Limit maximum number of attachments in email
 description: Configure the number of inbound email attachments allowed per Email \[sys\_email\] record on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-limit-maximum-number-of-attachments-in-email.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -109,8 +110,8 @@ References
 
 </td><td>
 
-[Email properties](https://www.servicenow.com/docs/access?context=c_EmailProperties&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

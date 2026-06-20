@@ -2,6 +2,7 @@
 title: Set up the SumTotal spoke
 description: Integrate your ServiceNow instance with the SumTotal application host so the SumTotal spoke can perform actions on the SumTotal server.Integrate your ServiceNow instance with the SumTotal host by setting up the connection and credential record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-sumtotal.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -38,7 +39,7 @@ Integrate your ServiceNow instance with the SumTotal host by setting up the conn
 
 The image provides the flow of creating a connection and credential record.
 
-![Flow to set up SumTotal connection and credential record.](../image/sumtotal-flow.png)
+\[Omitted image "sumtotal-flow.png"\] Alt text: Flow to set up SumTotal connection and credential record.
 
 ### Procedure
 
@@ -46,9 +47,9 @@ The image provides the flow of creating a connection and credential record.
 
 2.  Navigate to **ADMINISTRATION** &gt; **System** &gt; **Configuration** &gt; **Technical Configuration** &gt; **OAuth Configuration** &gt; **.**
 
-3.  On the OAUTH CLIENTS page, click **+Add**.![Add button to add OAuth client in SumTotal.](../image/sumtotal-add.png)
+3.  On the OAUTH CLIENTS page, click **+Add**.\[Omitted image "sumtotal-add.png"\] Alt text: Add button to add OAuth client in SumTotal.
 
-4.  In the EDIT page, enter the details.![SumTotal OAuth client setup page.](../image/sumtotal-edit.png)
+4.  In the EDIT page, enter the details.\[Omitted image "sumtotal-edit.png"\] Alt text: SumTotal OAuth client setup page.
 
 <table id="table_qj1_cxj_qwb"><thead><tr><th>
 
@@ -133,11 +134,11 @@ URL of the location after the app is successfully authorized and granted an acce
 
 8.  Click Connections.
 
-9.  To search for the SumTotal connections record, enter `SumTotal`.![Search SumTotal connection record in Flow Designer.](../image/search-sumtotal-conn.png)
+9.  To search for the SumTotal connections record, enter `SumTotal`.\[Omitted image "search-sumtotal-conn.png"\] Alt text: Search SumTotal connection record in Flow Designer.
 
 10. In the SumTotal connection card, click **View Details**.
 
-11. On the Connections page, click **Configure**.![Configure button to configure connection and credential.](../image/sumtotal-click-configure.png)
+11. On the Connections page, click **Configure**.\[Omitted image "sumtotal-click-configure.png"\] Alt text: Configure button to configure connection and credential.
 
 12. In the Configure Connection form, fill the details.
 
@@ -198,7 +199,7 @@ OAuth Token URL
 URL to the token to access the SumTotal host. URL should be entered in the format https://\{site-url\}/apisecurity/connect/token.
 
 </td></tr></tbody>
-</table>    ![Configure the SumTotal connection record.](../image/sumtotal-config-temp.png)
+</table>    \[Omitted image "sumtotal-config-temp.png"\] Alt text: Configure the SumTotal connection record.
 
 13. Click **Configure and Get OAuth Token**.
 

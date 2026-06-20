@@ -2,13 +2,14 @@
 title: Create a matrix version
 description: Create a version of a published price or product eligibility matrix when you need to update the matrix, for example to add or delete a context variable used in the price matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-matrix-versions.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a matrix version
@@ -25,7 +26,7 @@ You can create a version of a published pricing matrix \(Standard Price Adjustme
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
@@ -45,7 +46,7 @@ You can create a version of a published pricing matrix \(Standard Price Adjustme
 
 7.  Update the decision table for the matrix by selecting **Create rule**.
 
-    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see [Manage decision tables in Excel.](https://www.servicenow.com/docs/access?context=manage-decision-tables-ms-excel&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see Manage decision tables in Excel.
 
 8.  Select **Save** and then **Publish**.
 

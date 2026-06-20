@@ -2,6 +2,7 @@
 title: Remove a group from a product subscription in Subscription Management
 description: Fix an over-allocated subscription and free up entitlements by removing a group from a product subscription in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/remove-group-from-subscription-v2.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -44,5 +45,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](../concept/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md)
 

@@ -2,6 +2,7 @@
 title: Configuring additional questions for dispute Intake
 description: Configure the questionnaire that appears for dispute agents or cardholders when they intiate a dispute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -25,7 +26,7 @@ Role required: `admin` and `sn_bom_credit_card.admin`.
 
 2.  Search for the **Event Inquiry** application.
 
-    The Event Inquiry application stores all questions and automates the intake process, which helps gather detailed information for specific requests. For more information, see [Processing dispute intake](../concept/dispute-questionnaire.md). Within this application, you will find two tables:
+    The Event Inquiry application stores all questions and automates the intake process, which helps gather detailed information for specific requests. For more information, see [Processing dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-questionnaire.md). Within this application, you will find two tables:
 
     -   Intake Form \[sn\_evnt\_inq\_qtn\]
     -   Intake Form Label \[sn\_evnt\_inq\_question\]
@@ -46,5 +47,5 @@ Role required: `admin` and `sn_bom_credit_card.admin`.
 7.  Complete the required fields for the new label and select **Submit**.
 
 
-**Parent Topic:**[Processing dispute intake](../concept/dispute-questionnaire.md)
+**Parent Topic:**[Processing dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-questionnaire.md)
 

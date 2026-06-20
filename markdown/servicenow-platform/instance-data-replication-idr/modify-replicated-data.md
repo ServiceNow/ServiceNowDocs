@@ -2,6 +2,7 @@
 title: Transform replication data
 description: Transform producer instance data for tables or table columns that are named differently on consumer instances in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/instance-data-replication-idr/modify-replicated-data.html
 release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -45,7 +46,7 @@ Transformations have the following limitations:
 
 1.  Choose a producer or consumer instance and navigate to the replication set.
 
-<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d504512e107">
+<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d276473e107">
 
 **Consumer Instance**
 
@@ -53,7 +54,7 @@ Transformations have the following limitations:
 
 Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** and click a consumer replication set.
 
-</td></tr><tr><td id="d504512e125">
+</td></tr><tr><td id="d276473e125">
 
 **Producer instance**
 
@@ -64,7 +65,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 </td></tr></tbody>
 </table>2.  Choose an inbound or outbound entry.
 
-<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d504512e152">
+<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d276473e152">
 
 **Consumer Instance**
 
@@ -72,7 +73,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 
 On the **Inbound Entries** tab, click an inbound entry.
 
-</td></tr><tr><td id="d504512e164">
+</td></tr><tr><td id="d276473e164">
 
 **Producer instance**
 
@@ -83,7 +84,7 @@ On the **Outbound Entries** tab, click an outbound entry.
 </td></tr></tbody>
 </table>    An entry appears.
 
-    ![Enable transforms](../image/enable-transform.png)
+    \[Omitted image "enable-transform.png"\] Alt text: Enable transforms
 
 3.  Select the **Enable Transform** option.
 
@@ -95,7 +96,7 @@ On the **Outbound Entries** tab, click an outbound entry.
 
     The image shows a Transform Map, with the field names from the source table appearing in the left column. The middle column shows matching field names in the target table. All fields that do not have the same names in both tables appear in the – choose source field – or – choose target field – lists.
 
-    ![Transform different fields](../image/transform-diff-fields.png)
+    \[Omitted image "transform-diff-fields.png"\] Alt text: Transform different fields
 
     **Note:** If a table in a producer replication set is not on a consumer instance, the consumer instance will fill the first column with the producer schema definition sent during synchronization.
 
@@ -111,17 +112,17 @@ On the **Outbound Entries** tab, click an outbound entry.
 
     The image shows the type of Adapter rules that you can create.
 
-    ![Adapters](../image/adapter-choices.png)
+    \[Omitted image "adapter-choices.png"\] Alt text: Adapters
 
 9.  Click the adapter that you want to use and then configure it.
 
-    For more information about configuring adapters, see [Adapter descriptions](../reference/adapter-descriptions.md).
+    For more information about configuring adapters, see [Adapter descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/adapter-descriptions.md).
 
     **Note:** Adapters do not modify the data on the producer instance.
 
 
--   **[Warning and error messagesInstance Data Replication](../reference/schema-warnings-error.md)**  
+-   **[Warning and error messagesInstance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/schema-warnings-error.md)**  
 Understand error and warning messages related to schema definitions. You can then troubleshoot or fix Instance Data Replication \(IDR\) replication issues.
 
-**Parent Topic:**[Replicating data with Instance Data Replication](../concept/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

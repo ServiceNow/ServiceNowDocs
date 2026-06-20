@@ -2,6 +2,7 @@
 title: IBM Db2 on Linux database discovery
 description: ServiceNow Discovery uses the Db2 on Linux discovery pattern to find IBM Db2 instances on Linux servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/ibm-db2-linux-discovery.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,7 +16,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 ServiceNow Discovery uses the Db2 on Linux discovery pattern to find IBM Db2 instances on Linux servers.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Discovery uses this pattern to run horizontal discovery. The pattern is triggered automatically by classification using these Db2 identifiers: tcp\_port, name, installed\_dir.
 
@@ -69,11 +70,11 @@ The Identification for Db2 on Z/OS section collects the following tables and fie
 
 The Dependency Views map shows all discovered IBM Db2 instances in your organization and the relationships between them.
 
-![IBM db2 dependency view](../image/IBM-Db2-dependency.png)
+\[Omitted image "IBM-Db2-dependency.png"\] Alt text: IBM db2 dependency view
 
 ## CI relationships
 
 The IBM Db2 on Linux pattern does not create any CI relationships.
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -2,6 +2,7 @@
 title: Analyze skills for your teams in Workforce Optimization for Customer Service
 description: Add skills to groups and view skill assignments for your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/analyze-skill-usage-teams-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -23,7 +24,7 @@ Role required: skill\_admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Teams icon \(![Teams icon.](../image/teams-new.png)\).
+2.  Click the Teams icon \(\[Omitted image "teams-new.png"\] Alt text: Teams icon.\).
 
 3.  Select a team for which you want to analyze skills.
 
@@ -37,5 +38,5 @@ Role required: skill\_admin
     You can click on a skill to analyze skill data such as the number of users or tasks with that skill, the overall skill coverage, and how many experts you currently have with that skill.
 
 
-**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](../concept/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-channels-wfo-cs.md)
 

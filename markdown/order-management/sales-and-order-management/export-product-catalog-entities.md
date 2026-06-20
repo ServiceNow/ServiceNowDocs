@@ -2,13 +2,14 @@
 title: Export product catalog entities
 description: Export product catalog entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/export-product-catalog-entities.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Export product catalog entities
@@ -17,7 +18,7 @@ Export product catalog entities as a JSON file and save the file to your local d
 
 ## Before you begin
 
-After upgrading to the Yokohama release, check with your administrator that the **Code** field values are available for the main product catalog entities in your source and target instances. For more information, see [Add Code field values to catalog entities after upgrading](run-fix-script-sched-job-export.md).
+After upgrading to the Yokohama release, check with your administrator that the **Code** field values are available for the main product catalog entities in your source and target instances. For more information, see [Add Code field values to catalog entities after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/run-fix-script-sched-job-export.md).
 
 Role required: product\_catalog\_admin
 
@@ -27,7 +28,7 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -51,7 +52,7 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
     The exported file appears in the **Attachments** pane.
 
-    ![The Catalog Export Request page with an exported JSON file in the Attachments pane.](../image/e-i-attachment-screen.png)
+    \[Omitted image "e-i-attachment-screen.png"\] Alt text: The Catalog Export Request page with an exported JSON file in the Attachments pane.
 
 8.  Select the attachment to download the exported file.
 
@@ -60,6 +61,6 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 ## What to do next
 
--   [Import product catalog entities](import-product-catalog-entities.md)
--   [View export job status](view-export-job-status.md)
+-   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/import-product-catalog-entities.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/view-export-job-status.md)
 

@@ -2,7 +2,10 @@
 title: Mobile Executive Experience
 description: The mobile Impact Executive Experience allows customer executives to access Impact from anywhere on their mobile browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-mobile.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

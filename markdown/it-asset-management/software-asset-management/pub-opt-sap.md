@@ -2,6 +2,7 @@
 title: Publisher optimizations for SAP
 description: View licensing optimizations for SAP by selecting SAP from the Publisher drop-down list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/pub-opt-sap.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -124,5 +125,5 @@ Software Subscriptions\[samp\_sw\_subscription\]
 Number of users by their SAP cloud use type in SAP S/4HANA Public Cloud.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)
 

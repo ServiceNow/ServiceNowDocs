@@ -2,6 +2,7 @@
 title: MITRE ATT&amp;CK Technique Extraction method
 description: MITRE ATT&amp;CK Technique Extraction method describes how the extraction methods are performed and associated techniques are verified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/mitre-extraction-method.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

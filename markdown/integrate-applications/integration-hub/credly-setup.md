@@ -2,6 +2,7 @@
 title: Set up the Credly spoke
 description: Integrate the ServiceNow instance and Credly by creating a custom OAuth application in Credly to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/credly-setup.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

@@ -2,6 +2,7 @@
 title: Configure system property to send registration emails to external users
 description: Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users for accessing the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Configure the sn\_supplier.external\_registration\_profile\_id system property t
 
 ## Before you begin
 
-[Configure self-registration for external users](config-reg-for-external-users-slm.md).
+[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md).
 
 Role required: admin
 
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Open the record for the user registration configuration.
 
-3.  Select the context menu icon \(![Context menu icon](../image/context-menu.png)\), and then select **Copy sys\_id**.
+3.  Select the context menu icon \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\), and then select **Copy sys\_id**.
 
 4.  In the navigation filter, enter `sys_properties.list`.
 
@@ -44,5 +45,5 @@ Role required: admin
     On the Supplier Lifecycle Operations Properties page, the **Sys Id of the External User Registration Configuration for Onboarding a contact for a supplier** field is auto-populated with the sys ID of the user registration configuration you specified in the **Value** field of the **sn\_supplier.external\_registration\_profile\_id** system property.
 
 
-**Parent Topic:**[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+**Parent Topic:**[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 

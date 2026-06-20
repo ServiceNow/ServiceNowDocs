@@ -2,6 +2,7 @@
 title: Modify adapter card styles for Virtual Agent
 description: Adapter cards are defined in the Adapter Cards \[sys\_cs\_adapter\_card\] table. Each card has a template for each supported channel to ensure it displays correctly. You can modify the channel templates to accommodate your organization's style requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/modify-adapter-card-styles.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

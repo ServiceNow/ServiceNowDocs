@@ -2,6 +2,7 @@
 title: Legacy - Formula override example
 description: Use the following formula override example to craft your own formula overrides.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/formula-override-examples.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the following formula override example to craft your own formula overrides.
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](../concept/VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -25,7 +26,7 @@ If you are an existing user of this dashboard and want to migrate analytics data
 
 ## Group End State definitions
 
-The end state of a conversation specifies how a conversation ended. For example, it could end with the user not responding, or the user closed the chat window. There are 12 default definitions of end state. For more information on conversation end states, see [Virtual Agent interaction records](../concept/va-interactions.md). The following script groups them as follows:
+The end state of a conversation specifies how a conversation ended. For example, it could end with the user not responding, or the user closed the chat window. There are 12 default definitions of end state. For more information on conversation end states, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-interactions.md). The following script groups them as follows:
 
 -   VA closed the chat session
     -   System Closed VA – User No Response
@@ -43,7 +44,7 @@ The end state of a conversation specifies how a conversation ended. For example,
     -   User Closed VA – Clicked End/X
     -   User Closed LA - Before Agent Engagement
 
-To create these groupings of the 12 end states, follow the instructions for [creating a formula override](../task/set-up-custom-definitions.md) and use the following script.
+To create these groupings of the 12 end states, follow the instructions for [creating a formula override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-custom-definitions.md) and use the following script.
 
 ```
 (function calc(convGr) {
@@ -95,5 +96,5 @@ To create these groupings of the 12 end states, follow the instructions for [cre
 
 ```
 
-**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](../concept/setting-up-va-dashboard-overview1.md)
+**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1.md)
 

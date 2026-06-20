@@ -2,6 +2,7 @@
 title: ITSM Mobile Agent features and plugins
 description: Learn about the plugins used in ITSM Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-mobile-agent/features-and-plugins.html
 release: yokohama
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

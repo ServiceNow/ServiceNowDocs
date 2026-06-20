@@ -2,11 +2,12 @@
 title: Get help with Creator Studio
 description: To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-get-help-now.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -25,22 +26,22 @@ How to get help from your admin
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/brand-icons/bus-video-play.svg) Video**
+-   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
     Watch [Build apps fast with Creator Studio](https://www.youtube.com/watch?v=f_Mc1YN2KFQ).
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [Creator Studio Community](https://www.servicenow.com/community/creator-studio/ct-p/creator-studio)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) FAQs**
+-   **\[Omitted image "dcx-icon-impact.svg"\] FAQs**
 
     [Creator Studio FAQs](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 
 
-**Parent Topic:**[Exploring Creator Studio](exploring-creator-studio.md)
+**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

@@ -2,7 +2,10 @@
 title: Account hierarchy
 description: Use the account hierarchy feature to create a parent-child relationship between accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_AccountHierarchy.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -40,13 +43,13 @@ Customer service agents can:
 
 ## Account hierarchy in CSM Agent Workspace
 
-From the Account form, customer service agents can click the open hierarchy icon \(![Open hierarchy icon](../image/workspace-account-hierarchy-icon.jpg)\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
+From the Account form, customer service agents can click the open hierarchy icon \(\[Omitted image "workspace-account-hierarchy-icon.jpg"\] Alt text: Open hierarchy icon\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
 
-![Window displaying the parent-child relationship for an account. For the text description, refer to the text that follows in the Account Hierarchy section.](../image/csm-config-workspace-account-hierarchy.png "CSM Workspace Account Hierarchy pop-up window")
+\[Omitted image "csm-config-workspace-account-hierarchy.png"\] Alt text: Window displaying the parent-child relationship for an account. For the text description, refer to the text that follows in the Account Hierarchy section.
 
 ## Account hierarchy in the platform interface
 
 Customer service agents can view account information in the Account Hierarchy section on the Account form.
 
-![Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.](../image/csm-account-hierarchy-platform.jpg "Account hierarchy (platform interface)")
+\[Omitted image "csm-account-hierarchy-platform.jpg"\] Alt text: Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.
 

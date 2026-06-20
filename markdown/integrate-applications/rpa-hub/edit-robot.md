@@ -2,6 +2,7 @@
 title: Edit an unattended robot in RPA Hub
 description: Edit an existing unattended robot in RPA Hub to modify a few details of the robot, convert the robot to a high density robot, and view the robot state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/edit-robot.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Edit an existing unattended robot in RPA Hub to modify a few details of the robo
 
 ## Before you begin
 
-Create an unattended robot. Ensure to select the **Robot Type** field as **Unattended**. For more information, see [Creating a robot in RPA Hub](../concept/create-robot.md).
+Create an unattended robot. Ensure to select the **Robot Type** field as **Unattended**. For more information, see [Creating a robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-robot.md).
 
 You cannot edit an attended robot.
 
@@ -31,7 +32,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Administration**, select **Robots**.
 
@@ -154,7 +155,7 @@ Robot has executed executing the automation.
 
 </td><td>
 
-Attended user started the automation by selecting the run icon \(![Run icon.](../../rda-runtime/image/rda-runtime-icon-run.png)\) or desktop in desktop icon \(![Desktop In Desktop icon.](../../rda-runtime/image/rda-runtime-icon-run-desktop.png)\).
+Attended user started the automation by selecting the run icon \(\[Omitted image "rda-runtime-icon-run.png"\] Alt text: Run icon.\) or desktop in desktop icon \(\[Omitted image "rda-runtime-icon-run-desktop.png"\] Alt text: Desktop In Desktop icon.\).
 
 </td></tr><tr><td>
 
@@ -182,5 +183,5 @@ Robot runtime isn’t responding. This state occurs when the difference between 
 8.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Managing RPA Hub](../concept/managing-rpa-hub.md)
+**Parent Topic:**[Managing RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/managing-rpa-hub.md)
 

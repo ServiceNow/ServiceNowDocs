@@ -2,6 +2,7 @@
 title: Create a provider channel identity record for Alexa
 description: Create a provider channel identity record to connect to your Alexa account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/create-provider-channel-id-record-alexa.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

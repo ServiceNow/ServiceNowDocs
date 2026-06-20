@@ -2,6 +2,7 @@
 title: RISKIQ SSL certificate lookups that return multiple certificates or no certificates
 description: A security incident analyst can use multiple SSL certificate results to determine whether a site is part of a common, recognizable entity. No SSL certificate results may indicate sites with obscure or suspicious names have no trusted certificates. Lookup results for observables that do not return SSL certificates, or that return multiple SSL certificates, are displayed on the Observable Enrichment Results tab on the security incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/riskiq\_ssl\_no\_match.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Follow the steps to view the results for observables that do not return SSL cert
 
 1.  In the security incident record, click the **Observable Enrichment Results** tab.
 
-    ![Observable Enrichment Results tab.](../image/riskiq-obs-enrichment-results.png "Observable Enrichment Results tab")
+    \[Omitted image "riskiq-obs-enrichment-results.png"\] Alt text: Observable Enrichment Results tab.
 
     The observable enrichment results for the RISKIQ and WHOISIQ lookup are displayed.
 
@@ -29,7 +30,7 @@ Follow the steps to view the results for observables that do not return SSL cert
 
 2.  In the **Observable** column, click **servicenow.com**.
 
-    ![Multiple results for SSL certificates lookup.](../image/riskiq-sn-rcd.png "Multiple SSL certificates")
+    \[Omitted image "riskiq-sn-rcd.png"\] Alt text: Multiple results for SSL certificates lookup.
 
     The summary message that is displayed on the record indicates that multiple results for SSL Certificates were returned for `servicenow.com`, and a primary SSL Certificate could not be matched. This message is often returned on lookups that include common domain names, such as `servicenow.com`.
 
@@ -37,12 +38,12 @@ Follow the steps to view the results for observables that do not return SSL cert
 
 3.  Navigate back to the **Observable Enrichment Results** tab, and in the **Observable** column, click **invalidsubdomain.servicenow.com**.
 
-    ![No results for SSL Certificates lookup.](../image/riskiq-invalidsubdomain.png "No SSL Certificates")
+    \[Omitted image "riskiq-invalidsubdomain.png"\] Alt text: No results for SSL Certificates lookup.
 
     **Note:**
 
     -   If no SSL certificates are found for the current observable, then the Summary field displays the message, `No certificates were found`.
     -   If no active SSL certificates are found for the current observable, then the Summary field displays the message, `No active certificates were found`.
 
-**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](../task/verify-expected-rslts-for-riskiq.md)
+**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/verify-expected-rslts-for-riskiq.md)
 

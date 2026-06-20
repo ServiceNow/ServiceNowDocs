@@ -2,6 +2,7 @@
 title: Define user actions for task logging
 description: Group workstation user actions as a task that can be logged to provide data for a Task activity analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/mine-data.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -58,5 +59,5 @@ To configure a task to track the status of P1 incidents from creation to closing
 
 ## What to do next
 
-Select an analysis from available templates to tailor how the Task Mining project aggregates your workstation data. For more information, see [Define how your data is analyzed and visualized](create-and-edit-categorization-rules.md).
+Select an analysis from available templates to tailor how the Task Mining project aggregates your workstation data. For more information, see [Define how your data is analyzed and visualized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/create-and-edit-categorization-rules.md).
 

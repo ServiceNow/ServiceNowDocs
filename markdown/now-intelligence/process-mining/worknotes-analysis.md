@@ -2,6 +2,7 @@
 title: Work notes analysis
 description: Work notes analysis helps you understand the operational reasons behind activity transitions, as recorded in work notes and comments. Typical examples include transitions from resolved to work in progress or changes in assignment groups, such as from service desk to specialist group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/worknotes-analysis.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -17,16 +18,16 @@ Work notes analysis helps you understand the operational reasons behind activity
 
 Analyzing work notes helps clarify the reasons behind a transition. This process involves extracting work notes made by agents and requesters immediately before and after the transition occurs. Subsequently, clustering techniques are employed to categorize records with similar work notes.
 
-There are two types of work notes analysis. You can do a clustering without GenAI capability or with the GenAI capability. For information on using work notes analysis with GenAI capability, see [Using Now Assist for Process Mining](use-na-process-mining.md).
+There are two types of work notes analysis. You can do a clustering without GenAI capability or with the GenAI capability. For information on using work notes analysis with GenAI capability, see [Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-na-process-mining.md).
 
 **Note:** Work notes analysis is available for a record count between 100 and 300,000.
 
--   **[Configure worknotes analysis](../task/configure-worknotes-analysis.md)**  
+-   **[Configure worknotes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes-analysis.md)**  
 Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
--   **[Perform work notes analysis](../task/perform-worknotes-analysis.md)**  
+-   **[Perform work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/perform-worknotes-analysis.md)**  
 Generate a work notes analysis on a transition.
--   **[Resubmit work notes analysis](../task/resubmit-worknotes-analysis.md)**  
+-   **[Resubmit work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/resubmit-worknotes-analysis.md)**  
 If a work notes analysis fails for some reason, you can resubmit it.
 
-**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyze-get-process-insights.md)
 

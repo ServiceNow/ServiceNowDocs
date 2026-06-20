@@ -2,13 +2,14 @@
 title: Delete a pricing plan step
 description: Remove a pricing step from a configurable pricing plan when the plan is in the Draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/delete-pricing-plan-step.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configurable pricing plans, Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configurable pricing plans, Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Delete a pricing plan step
@@ -21,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Plans**.
 

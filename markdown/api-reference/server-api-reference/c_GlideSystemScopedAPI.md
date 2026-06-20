@@ -1,13 +1,14 @@
 ---
 title: GlideSystem - Scoped
-description: The scoped GlideSystem API provides a number of convenient methods to obtain information about the system, the current logged in user, and other system level information.Adds an error message for the current session.Adds an info message for the current session. This method is not supported for asynchronous business rules.Creates a base64 string from the specified string.Returns an ASCII string from the specified base64 string.Returns the date and time for the beginning of last month in GMT.Returns the date and time for the beginning of last week in GMT.Returns the date and time for the beginning of next month in GMT.Returns the date and time for the beginning of next week in GMT.Returns the date and time for the beginning of next year in GMT.Returns the date and time for the beginning of this month in GMT.Returns the date and time for the beginning of this quarter in GMT.Returns the date and time for the beginning of this week in GMT.Returns the date and time for the beginning of this year in GMT.Generates a date and time for the specified date in GMT.Returns the date and time for a specified number of days ago.Returns the date and time for the end of the day a specified number of days ago.Returns the date and time for the beginning of the day a specified number of days ago.Writes a debug message to the system log.Returns the date and time for the end of last month in GMT.Returns the date and time for the end of last week in GMT.Returns the date and time for the end of last year in GMT.Returns the date and time for the end of next month in GMT.Returns the date and time for the end of next week in GMT.Returns the date and time for the end of next year in GMT.Returns the date and time for the end of this month in GMT.Returns the date and time for the end of this quarter in GMT.Returns the date and time for the end of this week in GMT.Returns the date and time for the end of this year in GMT.Writes an error message to the system log.Queues an event for the event manager.Queues an event in the event manager.Executes a job for a scoped application.Generates a GUID that can be used when a unique identifier is required.Gets the caller scope name; returns null if there is no caller.Gets a string representing the cache version for a CSS file.Gets the ID of the current application as set using the Application Picker.Gets the name of the current scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Returns the error messages that were added by addErrorMessage\(\) for the session.Retrieves the specified message from the Message \[sys\_ui\_message\] table. If the message has HTML special characters, replaces them with the corresponding HTML name codes. For example, &amp; becomes &amp;amp;.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Gets the value of a Glide property. If the property is not found, returns an alternate value.Gets a reference to the current Glide session.Retrieves the GlideSession session ID.This method is no longer available. Instead, use gs.getSession\(\).getSessionToken\(\).Returns the time format associated with the current user.Returns the name of the time zone associated with the current user.Gets the current URI for the session.Returns a reference to the scoped GlideUser object for the current user.Gets the display name of the current user.Gets the sys\_id of the current user.Returns the user name of the current user.Determines if the current user has the specified role.Returns the date and time for a specified number of hours ago.Returns the date and time for the end of the hour a specified number of hours ago.Returns the date and time for the start of the hour a specified number of hours ago.Provides a safe way to call a script include from the sandbox, allowing only the inclusion of trusted scripts.Writes an info message to the system log.Determines if debugging is active for a specific scope.Checks if the current session is interactive. An example of an interactive session is when a user logs in normally. An example of a non-interactive session is using a SOAP request to retrieve data.Determines if the current user is currently logged in.You can determine if a request comes from a mobile device.Returns the date and time for the end of the minute a specified number of minutes ago.Returns the date and time for the start of the minute a specified number of minutes ago.Returns the date and time for a specified number of months ago.Returns the date and time for the last day of the month a specified number of months ago.Returns the date and time for the start of the month a specified number of months ago.Queries an object and returns true if the object is null, undefined, or contains an empty string.Returns the date and time for the last day of the quarter for a specified number of quarters ago.Returns the date and time for the first day of the quarter for a specified number of quarters ago.Sets the specified key to the specified value if the property is within the script's scope.Sets the redirect URI for this transaction, which then determines the next page the user will see.Determines if a database table exists.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so the returned string can be used on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.Replaces UTF-8 encoded characters with ASCII characters.Writes a warning message to the system log.Takes an XML string and returns a JSON object.Returns a date and time for a certain number of years ago.Returns yesterday's time \(24 hours ago\).
+description: The scoped GlideSystem API provides a number of convenient methods to obtain information about the system, the current logged in user, and other system level information.Adds an error message for the current session.Adds an info message for the current session. This method is not supported for asynchronous business rules.Creates a base64 string from the specified string.Returns an ASCII string from the specified base64 string.Returns the date and time for the beginning of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this year in the user's session time zone as a UTC timestamp.Generates a date and time for the specified date in the current user's timezone as a UTC timestamp.Returns the date and time for a specified number of days ago the user's session time zone as a UTC timestamp.Returns the date and time for the end of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Writes a debug message to the system log.Returns the date and time for the end of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this year in the user's session time zone as a UTC timestamp.Writes an error message to the system log.Queues an event for the event manager.Queues an event in the event manager.Executes a job for a scoped application.Generates a GUID that can be used when a unique identifier is required.Gets the caller scope name; returns null if there is no caller.Gets a string representing the cache version for a CSS file.Gets the ID of the current application as set using the Application Picker.Gets the name of the current scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Returns the error messages that were added by addErrorMessage\(\) for the session.Retrieves the specified message from the Message \[sys\_ui\_message\] table. If the message has HTML special characters, replaces them with the corresponding HTML name codes. For example, &amp; becomes &amp;amp;.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Gets the value of a Glide property. If the property is not found, returns an alternate value.Gets a reference to the current Glide session.Retrieves the GlideSession session ID.This method is no longer available. Instead, use gs.getSession\(\).getSessionToken\(\).Returns the time format associated with the current user.Returns the name of the time zone associated with the current user.Gets the current URI for the session.Returns a reference to the scoped GlideUser object for the current user.Gets the display name of the current user.Gets the sys\_id of the current user.Returns the user name of the current user.Determines if the current user has the specified role.Returns the date and time for a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the end of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Provides a safe way to call a script include from the sandbox, allowing only the inclusion of trusted scripts.Writes an info message to the system log.Determines if debugging is active for a specific scope.Checks if the current session is interactive. An example of an interactive session is when a user logs in normally. An example of a non-interactive session is using a SOAP request to retrieve data.Determines if the current user is currently logged in.You can determine if a request comes from a mobile device.Returns the date and time for the end of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of months ago in the user's session time zone as a UTC timestamp.Returns the date and time for the last day of the month a specified number of months ago.Returns the date and time for the start of the month a specified number of months ago. Returned in the user's session time zone as a UTC timestamp.Queries an object and returns true if the object is null, undefined, or contains an empty string.Returns the date and time for the last day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the first day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Sets the specified key to the specified value if the property is within the script's scope.Sets the redirect URI for this transaction, which then determines the next page the user will see.Determines if a database table exists.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so the returned string can be used on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.Replaces UTF-8 encoded characters with ASCII characters.Writes a warning message to the system log.Takes an XML string and returns a JSON object.Returns a date and time for a certain number of years ago in the user's session time zone as a UTC timestamp.Returns yesterday's time \(24 hours ago\). Returned in the user's session time zone as a UTC timestamp.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideSystemScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 31
+reading_time_minutes: 32
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -17,7 +18,7 @@ The scoped GlideSystem API provides a number of convenient methods to obtain inf
 
 Many of the GlideSystem methods facilitate the easy inclusion of dates in query ranges, and are most often used in filters and reporting.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideSystem - addErrorMessage\(String message\)
 
@@ -123,7 +124,7 @@ Returns an ASCII string from the specified base64 string.
 
 ## Scoped GlideSystem - beginningOfLastMonth\(\)
 
-Returns the date and time for the beginning of last month in GMT.
+Returns the date and time for the beginning of last month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -131,11 +132,11 @@ Returns the date and time for the beginning of last month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of last month, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of last month, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfLastWeek\(\)
 
-Returns the date and time for the beginning of last week in GMT.
+Returns the date and time for the beginning of last week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -143,11 +144,11 @@ Returns the date and time for the beginning of last week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of last week, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of last week, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfNextMonth\(\)
 
-Returns the date and time for the beginning of next month in GMT.
+Returns the date and time for the beginning of next month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -155,11 +156,11 @@ Returns the date and time for the beginning of next month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of next month, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of next month, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfNextWeek\(\)
 
-Returns the date and time for the beginning of next week in GMT.
+Returns the date and time for the beginning of next week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -167,11 +168,11 @@ Returns the date and time for the beginning of next week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|The GMT beginning of next week, in the format yyyy-mm-dd hh:mm:ss.|
+|String|The UTC beginning of next week, in the format yyyy-mm-dd hh:mm:ss.|
 
 ## Scoped GlideSystem - beginningOfNextYear\(\)
 
-Returns the date and time for the beginning of next year in GMT.
+Returns the date and time for the beginning of next year in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -179,11 +180,11 @@ Returns the date and time for the beginning of next year in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of next year, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of next year, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfThisMonth\(\)
 
-Returns the date and time for the beginning of this month in GMT.
+Returns the date and time for the beginning of this month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -191,11 +192,11 @@ Returns the date and time for the beginning of this month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of this month, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of this month, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfThisQuarter\(\)
 
-Returns the date and time for the beginning of this quarter in GMT.
+Returns the date and time for the beginning of this quarter in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -203,11 +204,11 @@ Returns the date and time for the beginning of this quarter in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of this quarter, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of this quarter, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfThisWeek\(\)
 
-Returns the date and time for the beginning of this week in GMT.
+Returns the date and time for the beginning of this week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -215,11 +216,11 @@ Returns the date and time for the beginning of this week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of this week, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of this week, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - beginningOfThisYear\(\)
 
-Returns the date and time for the beginning of this year in GMT.
+Returns the date and time for the beginning of this year in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -227,11 +228,11 @@ Returns the date and time for the beginning of this year in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of this year, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC beginning of this year, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - dateGenerate\(String date, String range\)
 
-Generates a date and time for the specified date in GMT.
+Generates a date and time for the specified date in the current user's timezone as a UTC timestamp.
 
 <table id="table_mhc_ljn_zv" class="parameters"><thead><tr><th>
 
@@ -255,7 +256,7 @@ String
 
 </td><td>
 
-Date to generate the GMT for.Format: yyyy-mm-dd
+Date to generate the UTC for.Format: yyyy-mm-dd
 
 </td></tr><tr><td>
 
@@ -300,7 +301,7 @@ tableData.query();
 gs.info("Count: " + tableData.getRowCount());
 ```
 
-Output
+Output:
 
 ```
 Count: 7
@@ -308,7 +309,7 @@ Count: 7
 
 ## Scoped GlideSystem - daysAgo\(Number days\)
 
-Returns the date and time for a specified number of days ago.
+Returns the date and time for a specified number of days ago the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -316,7 +317,7 @@ Returns the date and time for a specified number of days ago.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ```
 function contractNoticeDue() {
@@ -340,7 +341,7 @@ function contractNoticeDue() {
 
 ## Scoped GlideSystem - daysAgoEnd\(Number days\)
 
-Returns the date and time for the end of the day a specified number of days ago.
+Returns the date and time for the end of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -348,11 +349,11 @@ Returns the date and time for the end of the day a specified number of days ago.
 
 |Type|Description|
 |----|-----------|
-|String|GMT end of the day in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC end of the day in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - daysAgoStart\(Number days\)
 
-Returns the date and time for the beginning of the day a specified number of days ago.
+Returns the date and time for the beginning of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -360,7 +361,7 @@ Returns the date and time for the beginning of the day a specified number of day
 
 |Type|Description|
 |----|-----------|
-|String|GMT start of the day in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC start of the day in the format yyyy-mm-dd hh:mm:ss|
 
 ```
 var now_GR = new GlideRecord('sysapproval_approver');
@@ -402,7 +403,7 @@ This is a debug message from Abel.Tuter (sys.scripts extended logging)
 
 ## Scoped GlideSystem - endOfLastMonth\(\)
 
-Returns the date and time for the end of last month in GMT.
+Returns the date and time for the end of last month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -410,11 +411,11 @@ Returns the date and time for the end of last month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT end of last month, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC end of last month, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfLastWeek\(\)
 
-Returns the date and time for the end of last week in GMT.
+Returns the date and time for the end of last week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -422,11 +423,11 @@ Returns the date and time for the end of last week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT end of last week, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC end of last week, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfLastYear\(\)
 
-Returns the date and time for the end of last year in GMT.
+Returns the date and time for the end of last year in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -434,11 +435,11 @@ Returns the date and time for the end of last year in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in format yyyy-mm-dd hh:mm:ss|
+|String|UTC in format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfNextMonth\(\)
 
-Returns the date and time for the end of next month in GMT.
+Returns the date and time for the end of next month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -446,11 +447,11 @@ Returns the date and time for the end of next month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfNextWeek\(\)
 
-Returns the date and time for the end of next week in GMT.
+Returns the date and time for the end of next week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -458,11 +459,11 @@ Returns the date and time for the end of next week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfNextYear\(\)
 
-Returns the date and time for the end of next year in GMT.
+Returns the date and time for the end of next year in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -470,11 +471,11 @@ Returns the date and time for the end of next year in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfThisMonth\(\)
 
-Returns the date and time for the end of this month in GMT.
+Returns the date and time for the end of this month in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -482,11 +483,11 @@ Returns the date and time for the end of this month in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfThisQuarter\(\)
 
-Returns the date and time for the end of this quarter in GMT.
+Returns the date and time for the end of this quarter in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -494,11 +495,11 @@ Returns the date and time for the end of this quarter in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfThisWeek\(\)
 
-Returns the date and time for the end of this week in GMT.
+Returns the date and time for the end of this week in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -506,11 +507,11 @@ Returns the date and time for the end of this week in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - endOfThisYear\(\)
 
-Returns the date and time for the end of this year in GMT.
+Returns the date and time for the end of this year in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -518,7 +519,7 @@ Returns the date and time for the end of this year in GMT.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - error\(String message, Object parm1, Object parm2, Object parm3, Object parm4, Object parm5\)
 
@@ -581,7 +582,7 @@ if (current.operation() != 'insert' && current.comments.changes()) {
 
 Queues an event in the event manager.
 
-The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see [Events](https://www.servicenow.com/docs/access?context=events&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see Events.
 
 <table id="table_nxv_r3k_bx" class="parameters"><thead><tr><th>
 
@@ -930,7 +931,7 @@ Retrieves the specified message from the Message \[sys\_ui\_message\] table. If 
 
 If the specified message identifier \(Key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message with all special characters returned as escape sequences. If the specified message identifier does not exist for the current language, then the method returns the English version of the message with all special characters returned as escape sequences. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For additional information about the Message table, see Message table.
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1012,7 +1013,7 @@ Retrieves translated messages from the Message \[sys\_ui\_message\] table to dis
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, then the method returns the translated message. If the specified message identifier does not exist for the current language, then the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+For additional information about the Message table, see Message table
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1212,7 +1213,7 @@ HH:mm:ss
 
 Returns the name of the time zone associated with the current user.
 
-This method has been deprecated. Instead, use the [getTimeZoneName\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#) method in the GlideSession API.
+This method has been deprecated. Instead, use the [getTimeZoneName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSessionScopedAPI.md) method in the GlideSession API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1248,7 +1249,7 @@ gs.info(gs.getUrlOnStack());
 
 Returns a reference to the scoped GlideUser object for the current user.
 
-See [GlideUser - Scoped](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#)for a list of available methods.
+See [GlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideUserScopedAPI.md)for a list of available methods.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1410,7 +1411,7 @@ else {
 
 ## Scoped GlideSystem - hoursAgo\(Number hours\)
 
-Returns the date and time for a specified number of hours ago.
+Returns the date and time for a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1418,7 +1419,7 @@ Returns the date and time for a specified number of hours ago.
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ```
 if (current.operation() == 'insert') {
@@ -1445,7 +1446,7 @@ if (current.operation() == 'insert') {
 
 ## Scoped GlideSystem - hoursAgoEnd\(Number hours\)
 
-Returns the date and time for the end of the hour a specified number of hours ago.
+Returns the date and time for the end of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1453,11 +1454,11 @@ Returns the date and time for the end of the hour a specified number of hours ag
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - hoursAgoStart\(Number hours\)
 
-Returns the date and time for the start of the hour a specified number of hours ago.
+Returns the date and time for the start of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1465,7 +1466,7 @@ Returns the date and time for the start of the hour a specified number of hours 
 
 |Type|Description|
 |----|-----------|
-|String|GMT in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - include\(String name\)
 
@@ -1636,7 +1637,7 @@ NOT submitted from mobile UI
 
 ## Scoped GlideSystem - minutesAgoEnd\(Number minutes\)
 
-Returns the date and time for the end of the minute a specified number of minutes ago.
+Returns the date and time for the end of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1656,10 +1657,10 @@ String
 
 </td><td>
 
-GMT the specified number of minutes ago, at the end of the minute \(59 seconds\). Format: yyyy-mm-dd hh:mm:ss
+UTC the specified number of minutes ago, at the end of the minute \(59 seconds\). Format: yyyy-mm-dd hh:mm:ss
 
 </td></tr></tbody>
-</table>The following example displays the current date and time and the date and time 30 minutes ago at the end of the minute in GMT.
+</table>The following example displays the current date and time and the date and time 30 minutes ago at the end of the minute in UTC.
 
 ```
 var nowDateTime = new GlideDateTime();
@@ -1677,7 +1678,7 @@ Thirty minutes ago end time: 2021-10-20 14:52:59
 
 ## Scoped GlideSystem - minutesAgoStart\(Number minutes\)
 
-Returns the date and time for the start of the minute a specified number of minutes ago.
+Returns the date and time for the start of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1697,10 +1698,10 @@ String
 
 </td><td>
 
-GMT the specified number of minutes ago, at the start of the minute. Format: yyyy-mm-dd hh:mm:ss
+UTC the specified number of minutes ago, at the start of the minute. Format: yyyy-mm-dd hh:mm:ss
 
 </td></tr></tbody>
-</table>The following example displays the current date and time and the date and time 30 minutes ago at the start of the minute in GMT.
+</table>The following example displays the current date and time and the date and time 30 minutes ago at the start of the minute in UTC.
 
 ```
 var nowDateTime = new GlideDateTime();
@@ -1718,7 +1719,7 @@ Thirty minutes ago: 2021-10-20 14:26:00
 
 ## Scoped GlideSystem - monthsAgo\(Number months\)
 
-Returns the date and time for a specified number of months ago.
+Returns the date and time for a specified number of months ago in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1738,10 +1739,10 @@ String
 
 </td><td>
 
-GMT of the specified number of months ago at the exact same time.Format: yyyy-mm-dd hh:mm:ss
+UTC of the specified number of months ago at the exact same time.Format: yyyy-mm-dd hh:mm:ss
 
 </td></tr></tbody>
-</table>The following example displays the current date and time and the date and time one month ago at the same time in GMT.
+</table>The following example displays the current date and time and the date and time one month ago at the same time in UTC.
 
 ```
 var nowDateTime = new GlideDateTime();
@@ -1800,7 +1801,7 @@ End of the month: 2021-08-01 06:59:59
 
 ## Scoped GlideSystem - monthsAgoStart\(Number months\)
 
-Returns the date and time for the start of the month a specified number of months ago.
+Returns the date and time for the start of the month a specified number of months ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1820,10 +1821,10 @@ String
 
 </td><td>
 
-GMT start of the month the specified number of months ago. Format: yyyy-mm-dd hh:mm:ss
+UTC start of the month the specified number of months ago. Format: yyyy-mm-dd hh:mm:ss
 
 </td></tr></tbody>
-</table>The following example displays the current date and time and the date and time three months ago in GMT.
+</table>The following example displays the current date and time and the date and time three months ago in UTC.
 
 ```
 var nowDateTime = new GlideDateTime();
@@ -1832,7 +1833,7 @@ var threeMonthsAgoDateTime = gs.monthsAgoStart(3);
 gs.info("Three months ago start date and time: " + threeMonthsAgoDateTime);
 ```
 
-Output
+Output:
 
 ```
 Now: 2021-10-20 15:05:27
@@ -1864,7 +1865,7 @@ true
 
 ## Scoped GlideSystem - quartersAgoEnd\(Number quarters\)
 
-Returns the date and time for the last day of the quarter for a specified number of quarters ago.
+Returns the date and time for the last day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1872,11 +1873,11 @@ Returns the date and time for the last day of the quarter for a specified number
 
 |Type|Description|
 |----|-----------|
-|String|GMT end of the quarter that was the specified number of quarters ago, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC end of the quarter that was the specified number of quarters ago, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - quartersAgoStart\(Number quarters\)
 
-Returns the date and time for the first day of the quarter for a specified number of quarters ago.
+Returns the date and time for the first day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1884,7 +1885,7 @@ Returns the date and time for the first day of the quarter for a specified numbe
 
 |Type|Description|
 |----|-----------|
-|String|GMT end of the month that was the specified number of quarters ago, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC end of the month that was the specified number of quarters ago, in the format yyyy-mm-dd hh:mm:ss|
 
 ## Scoped GlideSystem - setProperty\(String key, String value, String description\)
 
@@ -2034,7 +2035,7 @@ var jsonObject = gs.xmlToJSON(xmlString);
 
 ## Scoped GlideSystem - yearsAgo\(Number years\)
 
-Returns a date and time for a certain number of years ago.
+Returns a date and time for a certain number of years ago in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2042,11 +2043,11 @@ Returns a date and time for a certain number of years ago.
 
 |Type|Description|
 |----|-----------|
-|String|GMT beginning of the year that is the specified number of years ago, in the format yyyy-mm-dd hh:mm:ss.|
+|String|UTC beginning of the year that is the specified number of years ago, in the format yyyy-mm-dd hh:mm:ss.|
 
 ## Scoped GlideSystem - yesterday\(\)
 
-Returns yesterday's time \(24 hours ago\).
+Returns yesterday's time \(24 hours ago\). Returned in the user's session time zone as a UTC timestamp.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2054,5 +2055,5 @@ Returns yesterday's time \(24 hours ago\).
 
 |Type|Description|
 |----|-----------|
-|String|GMT for 24 hours ago, in the format yyyy-mm-dd hh:mm:ss|
+|String|UTC for 24 hours ago, in the format yyyy-mm-dd hh:mm:ss|
 

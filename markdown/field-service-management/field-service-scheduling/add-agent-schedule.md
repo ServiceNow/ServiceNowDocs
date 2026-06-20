@@ -2,6 +2,7 @@
 title: Add a default agent work schedule
 description: Add a default agent schedule so that agents have a schedule assigned to them if their work schedule expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/add-agent-schedule.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ Add a default agent schedule so that agents have a schedule assigned to them if 
 
 Role required: wm\_dispatcher
 
-The `Allow Dynamic Scheduling to only use work schedule/WFO` system property must be set to `false` before adding a default agent work schedule. Contact your administrator to update this system property. For more information, see [Dynamic scheduling system properties](../reference/dynamic-sched-system-properties.md).
+The `Allow Dynamic Scheduling to only use work schedule/WFO` system property must be set to `false` before adding a default agent work schedule. Contact your administrator to update this system property. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/dynamic-sched-system-properties.md).
 
 ## Procedure
 
@@ -27,12 +28,12 @@ The `Allow Dynamic Scheduling to only use work schedule/WFO` system property mus
 
 2.  The **Work Order Task Dynamic Scheduling Config** form opens.
 
-3.  Select the Lookup using list icon \(![lookup icon](../image/lookup-seizmic.png)\).
+3.  Select the Lookup using list icon \(\[Omitted image "lookup-seizmic.png"\] Alt text: lookup icon\).
 
 4.  Select a schedule.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

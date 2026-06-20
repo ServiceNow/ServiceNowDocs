@@ -2,6 +2,7 @@
 title: View metrics of an installed application
 description: View and monitor the CPU and memory usage of your applications to optimize performance and promoting efficient resource allocation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-installed-app-metrics.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,14 +26,14 @@ Role required: sn\_dex.user
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select an installed application name.
 
 4.  Select **Performance** under **Application metrics**.
 
-    You can view information on the number of crashes, CPU usage, memory and I/O performance, and memory usage trends. For more information on the metrics, see [Installed application Performance page](../reference/installed-app-health-form.md).
+    You can view information on the number of crashes, CPU usage, memory and I/O performance, and memory usage trends. For more information on the metrics, see [Installed application Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/installed-app-health-form.md).
 
 
-**Parent Topic:**[DEX application and device health](../concept/dex-appl-and-device-health.md)
+**Parent Topic:**[DEX application and device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-appl-and-device-health.md)
 

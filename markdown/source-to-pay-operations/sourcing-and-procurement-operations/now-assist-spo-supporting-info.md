@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -108,5 +109,5 @@ Activate the applications in the following order:
 3.  Now Assist for FSC Common \(sn\_fsc\_genai\)
 4.  Now Assist for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](../task/configure-now-assist-for-spo.md).
+For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 

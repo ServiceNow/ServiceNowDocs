@@ -2,6 +2,7 @@
 title: Working with Application Insights graphs
 description: View key performance metrics for your instance using Application Insights graphs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/working-with-application-insights-graphs.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -27,7 +28,7 @@ Use the overview graphs to do the following:
 -   View trends or patterns between different data sets by overlaying metrics and diagnostic events.
 -   Closely and proactively monitor the instance when performing any impactful activity such as a system update or during periods of heavy user traffic.
 
-![Users and Transactions graph on the Overview tab](../image/app-insights-overview-graph.png "Consolidated view of Users and Transactions graph")
+\[Omitted image "app-insights-overview-graph.png"\] Alt text: Users and Transactions graph on the Overview tab
 
 -   Overlay diagnostic events to help you determine causation and correlation.
 -   Compare metrics or focus on a specific metric by selecting which graph lines to display from the legend above the graph.
@@ -51,7 +52,7 @@ Use the detail graphs to do the following:
 
 Detail graphs include the same controls as overview graphs but provide additional functionality.
 
-![Logged in Users Time detail graph](../image/app-insights-detail.png "Detailed view of Logged in Users")
+\[Omitted image "app-insights-detail.png"\] Alt text: Logged in Users Time detail graph
 
 -   See trends, issues, and system health for nodes and agents with similar performance values by selecting **Group By Performance**. If there are seven or more lines on the graph, this option is selected by default.
 -   Overlay diagnostic events to help you determine causation and correlation.
@@ -78,10 +79,10 @@ The median, average, and 95th percentile values for each node are displayed in t
 -   To group records in the list by label, select the column options menu and then select **Group by**.
 -   To filter records in the list, select the column options menu and then select **Filter**. Enter a condition and value.
 
--   **[Application Insights overview graphs and metrics](overview-graphs-and-metrics.md)**  
+-   **[Application Insights overview graphs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/overview-graphs-and-metrics.md)**  
 The Application Insights overview graphs provide consolidated views of key metrics.
--   **[Application Insights detail graphs and metrics](detail-graphs-and-metrics.md)**  
+-   **[Application Insights detail graphs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/detail-graphs-and-metrics.md)**  
 The Application Insights detail graphs provide views of individual metrics at the node level.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/application-insights.md)
 

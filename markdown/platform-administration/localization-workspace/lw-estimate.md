@@ -2,6 +2,7 @@
 title: Request translations in Localization Workspace: Estimate
 description: Generate an informational cost estimate before you submit a translation request to your translation provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-estimate.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -44,7 +45,7 @@ Consult your provider's documentation. For details about the pricing of Google C
 
 1.  Complete the first three steps \(Languages, Types, and Scope\) in the Translation request wizard, then select **Next** to proceed to **Estimate**.
 
-    Larger translation requests take longer to generate informational cost estimates. ![The Estimate step in the Translation Request wizard in Localization Workspace, with an example estimated total highlighted.](../image/lw-estimate1.png)
+    Larger translation requests take longer to generate informational cost estimates. \[Omitted image "lw-estimate1.png"\] Alt text: The Estimate step in the Translation Request wizard in Localization Workspace, with an example estimated total highlighted.
 
 2.  Review the generated informational cost estimate.
 
@@ -65,5 +66,5 @@ Consult your provider's documentation. For details about the pricing of Google C
 
 You can view a translation request record in the list on Localization Workspace's Home page.
 
-**Note:** On the Home page, the **Rate** is displayed rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation in Localization Workspace ignores the currency's display value. The calculation uses the actual rate that you have configured in Localization Workspace. For more information, see [Identify the FX Currency field and its display parameters](../../currency/task/fx-currency-display-parameters.md).
+**Note:** On the Home page, the **Rate** is displayed rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation in Localization Workspace ignores the currency's display value. The calculation uses the actual rate that you have configured in Localization Workspace. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/fx-currency-display-parameters.md).
 

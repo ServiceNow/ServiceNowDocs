@@ -2,6 +2,7 @@
 title: Restricted caller access approvals for Supplier Collaboration Portal
 description: After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request. You can approve the RCA privileges either manually or by running the fix script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,10 +16,10 @@ breadcrumb: [Install Supplier Collaboration Portal, Configuring Supplier Lifecyc
 
 After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request. You can approve the RCA privileges either manually or by running the fix script.
 
--   **[Approve restricted caller access privileges manually](../task/approve-rca-for-supp-central.md)**  
+-   **[Approve restricted caller access privileges manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/approve-rca-for-supp-central.md)**  
 Approve restricted caller access \(RCA\) privileges to allow cross-scope access to the Supplier Collaboration Portal.
--   **[Run the fix script for RCA approvals](../task/run-rca-fix-script.md)**  
+-   **[Run the fix script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/run-rca-fix-script.md)**  
 After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 
-**Parent Topic:**[Install Supplier Collaboration Portal](../task/install-supp-central.md)
+**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 

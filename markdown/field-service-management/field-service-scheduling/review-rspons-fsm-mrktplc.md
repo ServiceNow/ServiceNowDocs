@@ -2,6 +2,7 @@
 title: Assign a task to a contractor on Field Service Marketplace
 description: Review contractor responses then assign the task to a contractor on Field Service Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,9 +20,9 @@ Review contractor responses then assign the task to a contractor on Field Servic
 
 Role required: sn\_mktplace\_core.mktplace\_requestor
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
-The task must be pushed to marketplace first. For more information, see [Push a request to Field Service Marketplace](push-task-fsm-mktplc.md#).
+The task must be pushed to marketplace first. For more information, see [Push a request to Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/push-task-fsm-mktplc.md).
 
 .
 
@@ -40,8 +41,8 @@ The task must be pushed to marketplace first. For more information, see [Push a 
 5.  Select **Assign task**.
 
 
--   **[Use the Response Evaluation Flow](../concept/fsm-marketplace-response-evaluation-flow.md)**  
+-   **[Use the Response Evaluation Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/fsm-marketplace-response-evaluation-flow.md)**  
 Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 
-**Parent Topic:**[Allowing contractors to bid on work orders and tasks](../concept/using-fsm-marketplace.md)
+**Parent Topic:**[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 

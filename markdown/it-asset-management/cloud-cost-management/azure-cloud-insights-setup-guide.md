@@ -2,6 +2,7 @@
 title: Configure Cloud Cost Management for Microsoft Azure
 description: The Cloud Cost Management application is available on the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/azure-cloud-insights-setup-guide.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -42,7 +43,7 @@ Do this
 
 </th></tr></thead><tbody><tr><td>
 
-![Little download icon.](../image/icon-cloud-download.png) Get the app.
+\[Omitted image "icon-cloud-download.png"\] Alt text: Little download icon. Get the app.
 
 </td><td>
 
@@ -54,7 +55,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-![Little activation image](../image/icon-activate.png) Activate all supporting plugins and applications.
+\[Omitted image "icon-activate.png"\] Alt text: Little activation image Activate all supporting plugins and applications.
 
 </td><td>
 
@@ -62,25 +63,25 @@ Activate the plugins listed on the ServiceNow Store page for Cloud Cost Manageme
 
 </td><td>
 
-For instructions, see:-   [Request as plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
--   [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+For instructions, see:-   Request as plugin
+-   Activate a plugin
 
 </td></tr></tbody>
 </table>## Overview: Setting up Cloud Cost Management
 
 Here's an overview of your set up process. Detailed instructions appear in the table that follows.
 
-![Setup process for the Cloud Cost Management app](../image/setup-procedure-cloudin.png)
+\[Omitted image "setup-procedure-cloudin.png"\] Alt text: Setup process for the Cloud Cost Management app
 
 When you first open the app, the home page enables you set up a provider and to assign the insights\_owner role.
 
-![Initial home page of the Cloud Cost Management app](../image/cloud_insights_home.png)
+\[Omitted image "cloud\_insights\_home.png"\] Alt text: Initial home page of the Cloud Cost Management app
 
 After you set up a provider and assign the insights\_owner role, the page displays additional setup activities.
 
 **Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
 
-![Home page after you set up a provider and assign insights_owner](../image/homepage-second-config.png)
+\[Omitted image "homepage-second-config.png"\] Alt text: Home page after you set up a provider and assign insights\_owner
 
 -   When you select the **Set up and Run Discovery** button in the Configure and Run Discovery section, the Discover Schedules form opens.
 -   When you select the **Set up Billing Download** button in the Download Billing and Usage Data section, the Billing Download Jobs form opens.
@@ -104,7 +105,7 @@ Do this
 
 </th></tr></thead><tbody><tr><td>
 
-![Little persons image](../image/icon-3-persons.png) Assign roles to Cloud Cost Management users and groups.
+\[Omitted image "icon-3-persons.png"\] Alt text: Little persons image Assign roles to Cloud Cost Management users and groups.
 
 </td><td>
 
@@ -112,11 +113,11 @@ You assign Cloud Cost Management roles to user groups and to individual users ba
 
 </td><td>
 
-[Cloud Cost Management roles](../reference/cloud-insights-roles.md)
+[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
 
 </td></tr><tr><td>
 
-![Little servers image](../image/icon-mid-server.png) Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
+\[Omitted image "icon-mid-server.png"\] Alt text: Little servers image Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
 
 </td><td>
 
@@ -124,11 +125,11 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 </td><td>
 
-[Configuring access to CI data on your Microsoft Azure account](../reference/azure-midserver-config-cloudin.md)
+[Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
 
 </td></tr><tr><td>
 
-![Little discovery image](../image/icon-discover.png) Discover your cloud resources.
+\[Omitted image "icon-discover.png"\] Alt text: Little discovery image Discover your cloud resources.
 
 </td><td>
 
@@ -138,11 +139,11 @@ When you select the **Set up and Run Discovery** button on the Configure and Run
 
 </td><td>
 
-[Discovering your cloud resources for use](aws-discovery-cloudin.md)
+[Discovering your cloud resources for use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
 
 </td></tr><tr><td>
 
-![Little checklist image](../image/icon-checklist-clear.png) Schedule and manage the jobs that download billing data for Cloud Cost Management
+\[Omitted image "icon-checklist-clear.png"\] Alt text: Little checklist image Schedule and manage the jobs that download billing data for Cloud Cost Management
 
 .
 
@@ -152,11 +153,11 @@ When you select the **Set up Billing Download** button in the Download Billing a
 
 </td><td>
 
-[Set up access to Microsoft Azure billing and usage data](azure-billing-usage-data.md)
+[Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
 
 </td></tr><tr><td>
 
-![Little checklist image](../image/icon-checklist-clear.png) Schedule and manage the Cloud Cost Management jobs that download price sheets
+\[Omitted image "icon-checklist-clear.png"\] Alt text: Little checklist image Schedule and manage the Cloud Cost Management jobs that download price sheets
 
 .
 
@@ -166,11 +167,11 @@ When you select the **Set up Price Sheets Download** button in the Download Pric
 
 </td><td>
 
-[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](../task/azure-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
 
 </td></tr><tr><td>
 
-![Little wrench image](../image/icon-configure-clear.png) Configure the insights features:
+\[Omitted image "icon-configure-clear.png"\] Alt text: Little wrench image Configure the insights features:
 
  -   Rightsizing
 -   Unused Machines
@@ -186,10 +187,10 @@ When you select the **Set up Price Sheets Download** button in the Download Pric
 
 </td><td>
 
--   [Rightsizing resources](rs-cloudin.md)
--   [Unused resources](um-cloudin.md)
--   [Business hours](bh-cloudin.md)
--   [Unassigned resources](ur-cloudin.md#)
+-   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/rs-cloudin.md)
+-   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/um-cloudin.md)
+-   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bh-cloudin.md)
+-   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ur-cloudin.md)
 
 </td></tr></tbody>
 </table>

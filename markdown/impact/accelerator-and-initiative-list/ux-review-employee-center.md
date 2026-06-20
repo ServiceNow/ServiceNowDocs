@@ -2,6 +2,7 @@
 title: UX: Portal Experience Review
 description: The UX \(User Experience\) Portal Experience Review Accelerator provides a comprehensive evaluation of your Employee Center, focusing on usability, design, and ServiceNow leading practices to enhance overall user experience engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/ux-review-employee-center.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ The UX \(User Experience\) Portal Experience Review Accelerator provides a compr
 
 UX: Portal Experience Review can enhance Employee Center adoption by evaluating the portal against ServiceNow leading practices, identifying UX issues, and providing actionable recommendations to improve design, enhance user satisfaction, and increase portal efficiency.
 
-See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US) on Employee Center.
+See  on Employee Center.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

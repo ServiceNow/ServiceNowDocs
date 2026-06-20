@@ -2,6 +2,7 @@
 title: Install Zero Copy Connector for ERP
 description: Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(sn\_erp\_integration\) if you have the admin role from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/install-erp-integration.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) applica
 
 ## Before you begin
 
-For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](../reference/erpc-prereqs-for-installation.md).
+For a complete list of prerequisites for installing Zero Copy Connector for ERP, including licensing information, see [Requirements for installing Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-prereqs-for-installation.md).
 
 Role required: admin
 
@@ -46,5 +47,5 @@ Role required: admin
 
 After installing Zero Copy Connector for ERP, an admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property so users can customize ERP models. After enabling the **sn\_erp\_integration.enableModelModification** property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or by directly typing `sys_properties.list` in the Navigator Filter.
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

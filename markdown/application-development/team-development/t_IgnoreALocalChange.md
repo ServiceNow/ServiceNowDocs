@@ -2,6 +2,7 @@
 title: Ignore a local change
 description: Ignoring a local change prevents updates to a record from generating new versions in the Local Changes list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_IgnoreALocalChange.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -35,7 +36,7 @@ An ignored local change always points to the current version for the record. You
 
     For example, filter the list to show all changes in the Default Update Set.
 
-    ![Ignore changes default](../image/IgnoreChangesDefault.png)
+    \[Omitted image "IgnoreChangesDefault.png"\] Alt text: Ignore changes default
 
 3.  Click **Ignore All**.
 
@@ -43,7 +44,7 @@ An ignored local change always points to the current version for the record. You
 
     This step is a recommended best practice.
 
-<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d232833e195">
+<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d210392e195">
 
 **To stop ignoring changes**
 
@@ -51,7 +52,7 @@ An ignored local change always points to the current version for the record. You
 
 Select the check boxes beside the rows and select **Do Not Ignore** from the Actions choice list.
 
-</td></tr><tr><td id="d232833e210">
+</td></tr><tr><td id="d210392e210">
 
 **To stop ignoring changes and add them to the queue instead**
 
@@ -60,8 +61,8 @@ Select the check boxes beside the rows and select **Do Not Ignore** from the Act
 Select the check boxes beside the rows and select **Queue for Push** from the Actions choice list.
 
 </td></tr></tbody>
-</table>    ![The Ignored tab](../image/Ignored.png)
+</table>    \[Omitted image "Ignored.png"\] Alt text: The Ignored tab
 
 
-**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

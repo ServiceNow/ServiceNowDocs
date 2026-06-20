@@ -2,6 +2,7 @@
 title: Components installed with DevOps Change Velocity
 description: Several types of components are installed with DevOps Change Velocity, including tables, users, roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/installed-with-dev-ops.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,7 +18,7 @@ Several types of components are installed with DevOps Change Velocity, including
 
 Demo data is available for this application.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Users installed
 
@@ -676,5 +677,5 @@ Work Item
  Extends table Base Planning Item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Help remediate bill issues agentic workflow
 description: Use the Help remediate bill issues agentic workflow to handle the billing inquiry case requests and recommend better plans based on the customer usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/billissue-remediation-usecase.html
 release: yokohama
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -19,7 +20,7 @@ Use the Help remediate bill issues agentic workflow to handle the billing inquir
 
 The Help remediate bill issue agentic workflow uses a team of AI agents that support the resolution of customer issues. It can handle task requests to retrieve the account details, current invoices, and past invoices. It analyzes the data to identify reasons for high bill usage and recommends better plans based on customer usage patterns.
 
-To modify the Help remediate bill issues agentic workflow, [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Help remediate bill issues agentic workflow, , and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 
@@ -27,7 +28,7 @@ To modify the Help remediate bill issues agentic workflow, [Duplicate an agentic
 
 Required role: sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
 
-[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Role masking enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Help remediate bill issues agentic workflow
 
@@ -36,7 +37,7 @@ To access the use case:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Help remediate bill issues**.
 
-To create a new use case, see [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+To create a new use case, see .
 
 ## Application dependency
 
@@ -45,7 +46,7 @@ The Help remediate bill issues agentic workflow has the following dependencies:
 -   Case Management for Invoice operations \(com.sn\_csm\_invoice\)
 -   Product offering recommendations
 
-To configure the spoke selector, see [Configure the spoke selector for external systems](../task/configure-spoke-selector-for-external-systems.md).
+To configure the spoke selector, see [Configure the spoke selector for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/configure-spoke-selector-for-external-systems.md).
 
 ## Testing the agentic workflow
 
@@ -54,13 +55,13 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Test use cases**.
 
-To test the agentic workflow, see [Manually test the execution of an agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+To test the agentic workflow, see .
 
 ## AI agents used in the Help remediate bill issues agentic workflow
 
 The following AI agents are used to execute the instructions for the agentic workflow.
 
-To create an AI agent, see [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+To create an AI agent, see .
 
 <table id="table_kw1_skx_r2c"><thead><tr><th>
 

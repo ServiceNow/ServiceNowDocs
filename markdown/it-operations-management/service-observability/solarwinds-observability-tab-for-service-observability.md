@@ -2,6 +2,7 @@
 title: SolarWinds Observability tab for Service Observability
 description: Dashboard and charts on the SolarWinds Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/solarwinds-observability-tab-for-service-observability.html
 release: yokohama
 product: Service Observability
 classification: service-observability
@@ -47,5 +48,5 @@ This dashboard displays metrics for hosts related to the service.
 
 Database metrics are currently not supported for SolarWinds.
 
-**Parent Topic:**[SolarWinds templates for Service Observability](solarwinds-templates.md)
+**Parent Topic:**[SolarWinds templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/solarwinds-templates.md)
 

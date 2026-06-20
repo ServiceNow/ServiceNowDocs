@@ -2,6 +2,7 @@
 title: Access guided setup for Upgrade Console
 description: Follow the guided setup steps to experience the seamless upgrade on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -34,15 +35,15 @@ Role required: admin
 
 2.  Access the guided setup in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d218583e128">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d58632e128">
 
 Option
 
-</th><th align="left" id="d218583e131">
+</th><th align="left" id="d58632e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d218583e137">
+</th></tr></thead><tbody><tr><td id="d58632e137">
 
 **Using Get started button**
 
@@ -52,7 +53,7 @@ Steps
 2.  Select the Guided Setup version you want to implement on your instance.
 
 
-</td></tr><tr><td id="d218583e158">
+</td></tr><tr><td id="d58632e158">
 
 **Using Guided tab option**
 
@@ -66,10 +67,10 @@ Steps
 </table>3.  Complete the Pre-upgrade and Post-upgrade tasks to complete the upgrade process on your instance.
 
 
--   **[Implement pre-upgrade activities](um-pre-upgrade-activities.md)**  
+-   **[Implement pre-upgrade activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-pre-upgrade-activities.md)**  
 Complete the pre-upgrade tasks for a successful upgrade experience on your instance.
--   **[Implement post-upgrade activities](um-post-upgrade-activities.md)**  
+-   **[Implement post-upgrade activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-post-upgrade-activities.md)**  
 Implement the post-upgrade tasks for a successful upgrade completion on your instance.
 
-**Parent Topic:**[Configuring Upgrade Console](../concept/um-configure.md)
+**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-configure.md)
 

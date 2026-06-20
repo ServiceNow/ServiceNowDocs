@@ -2,6 +2,7 @@
 title: Update an established connection
 description: Keep connection details current by updating service account information, authentication, or security settings.Monitor and troubleshoot a connection by viewing the connection log.Temporarily disable the connection between data fabric tables and their data source by deactivating a connection.Manage data assets and access control in a deactivated connection by reactivating it.Remove an established connection and its data fabric tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/configure-connection-details-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -56,11 +57,11 @@ The system tests the connection. If connection succeeds, the changes are saved.
 
 ## What to do next
 
-If the connection fails, [View the connection log](configure-connection-details-wdf.md#). Review the connection details with the data source admin and try again.
+If the connection fails, [View the connection log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configure-connection-details-wdf.md). Review the connection details with the data source admin and try again.
 
 If your changes impact data fabric tables, ensure the proper access is configured on the **Access Controls** tab.
 
-**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](../concept/managing-connections-wdf.md)
+**Parent Topic:**[Managing zero copy connections in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-connections-wdf.md)
 
 ## View the connection log
 
@@ -78,7 +79,7 @@ Role required: df\_connection\_admin
     -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Established connections**.
 2.  Select the connection that you want to monitor.
 
-3.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **View Connection Logs**.
+3.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **View Connection Logs**.
 
 
 ### Result
@@ -87,7 +88,7 @@ The Data Fabric Logs \[df\_log\] table appears, displaying log entries for the c
 
 ### What to do next
 
-Review the log entries and consult your data source administrator if necessary. Update the connection details if any connection attributes are incorrect. See [Update an established connection](configure-connection-details-wdf.md#).
+Review the log entries and consult your data source administrator if necessary. Update the connection details if any connection attributes are incorrect. See [Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configure-connection-details-wdf.md).
 
 ## Deactivate a connection
 
@@ -109,7 +110,7 @@ A connection admin can stop queries to an external data source or prevent change
     -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Established connections**.
 2.  Select the connection that you want to deactivate.
 
-3.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Deactivate**.
+3.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Deactivate**.
 
 4.  Confirm that you want to deactivate the connection by selecting **Deactivate**.
 
@@ -123,7 +124,7 @@ The connection is deactivated.
 
 ### What to do next
 
-To update the connection information or access the **Data Assets** or **Access Control** tabs again, you must reactivate the connection. See [Reactivate a connection](configure-connection-details-wdf.md#).
+To update the connection information or access the **Data Assets** or **Access Control** tabs again, you must reactivate the connection. See [Reactivate a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/configure-connection-details-wdf.md).
 
 ## Reactivate a connection
 
@@ -185,28 +186,28 @@ A connection admin can remove an established connection from the Workflow Data F
 
 3.  Delete the connection immediately if it doesn't have any associated tables or delete the associated tables and then delete the connection.
 
-<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d544133e780">
+<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d366784e780">
 
 **Delete a connection without any associated tables**
 
 </td><td>
 
-1.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Delete**.
+1.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
 2.  In the confirmation dialog box, select **Delete**.
 
 
-</td></tr><tr><td id="d544133e810">
+</td></tr><tr><td id="d366784e810">
 
 **Delete a connection with associated tables**
 
 </td><td>
 
-1.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Delete**.
+1.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
 2.  In the message that appears about deleting associated tables, select **View tables**.
-3.  In the **Data fabric tables** tab, delete each associated table by selecting the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and selecting **Delete**.
+3.  In the **Data fabric tables** tab, delete each associated table by selecting the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and selecting **Delete**.
 4.  Navigate back to **Established connections**.
 5.  Select the connection that you want to delete again.
-6.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Delete**.
+6.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
 7.  In the confirmation dialog box, select **Delete**.
 
 

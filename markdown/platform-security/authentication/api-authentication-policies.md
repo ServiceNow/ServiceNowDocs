@@ -2,6 +2,7 @@
 title: API Authentication Policies
 description: Authentication policies evaluate authentication requests based on the specified policy conditions and either allows or denies access depending on the matching criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/api-authentication-policies.html
 release: yokohama
 product: Authentication
 classification: authentication

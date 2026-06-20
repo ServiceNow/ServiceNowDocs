@@ -2,6 +2,7 @@
 title: Run a threat lookup by using the Zscaler global threat library
 description: Run a threat lookup on an observable by using the Zscaler Internet Access product’s global threat library. Zscaler supports lookups against observables type IPs, URLs, and domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/run-threat-lookup-using-zscaler-global-threat-library.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ By default, the configuration with the least order is picked to perform the thre
 
 4.  Select the observable and then from the Actions menu, click **Run Threat Lookup**.
 
-    In this example, you see how to select a security incident and an observable, how to run a threat lookup, and how to view the results in the Work notes.![Threat lookup that is triggered on an observable.](../image/zscaler-threat-lookup.gif)
+    In this example, you see how to select a security incident and an observable, how to run a threat lookup, and how to view the results in the Work notes.\[Omitted image "zscaler-threat-lookup.gif"\] Alt text: Threat lookup that is triggered on an observable.
 
 
 ## Result

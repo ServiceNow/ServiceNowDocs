@@ -2,6 +2,7 @@
 title: Request an AI use case
 description: Request the development or procurement of an AI use case to initiate and document the need for an AI-driven solution within an organization. This process ensures that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -35,7 +36,7 @@ For example, a financial institution wants to improve its loan approval process 
 
     1.  Select the **Request an AI use case** card.
 
-3.  On the AI Control Tower dashboard, select the list ![List icon.](../image/list-icon-airc-ws.png) icon, and navigate to the AI asset inventory.
+3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
 
     1.  Select **Add AI Asset**.
 
@@ -43,7 +44,7 @@ For example, a financial institution wants to improve its loan approval process 
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Request an AI system form, see [Request an AI use case form](../reference/request-ai-system-form.md).
+    For a description of the field values on the Request an AI system form, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -54,8 +55,8 @@ For example, a financial institution wants to improve its loan approval process 
     After you submit this form, the AI Center of Excellence team reviews it and guides you through the process.
 
 
--   **[Request an AI use case form](../reference/request-ai-system-form.md)**  
+-   **[Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.md)**  
 The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

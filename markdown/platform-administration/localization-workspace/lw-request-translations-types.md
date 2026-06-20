@@ -2,6 +2,7 @@
 title: Request translations in Localization Workspace: Types
 description: Add content types to a translation request in Localization Workspace. Your translation request can include multiple types of documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-request-translations-types.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -19,9 +20,9 @@ Add content types to a translation request in Localization Workspace. Your trans
 
 Ensure that Restricted Caller Access privileges are set to allow Localization Workspace to access the tables where your content is stored. See .
 
-Ensure that artifacts in Localization Framework are fully configured. See [Artifact configurations](../../localization-framework/concept/framework-configuration.md).
+Ensure that artifacts in Localization Framework are fully configured. See [Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/framework-configuration.md).
 
-Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](lw-request-translations-langs.md).
+Complete the first step in the Translation Request wizard, then proceed to this step. See [Request translations in Localization Workspace: Languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-request-translations-langs.md).
 
 Role required: localization\_requestor
 
@@ -33,7 +34,7 @@ The following procedure covers step two of four steps in the Translation Request
 
 ## Procedure
 
-1.  Complete the first step in the Translation request wizard \(Languages\), then proceed to **Types**.![The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted.](../image/lw-request-translations-types1.png)
+1.  Complete the first step in the Translation request wizard \(Languages\), then proceed to **Types**.\[Omitted image "lw-request-translations-types1.png"\] Alt text: The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted.
 
 2.  Choose the content types you want to translate by selecting the appropriate check boxes.
 

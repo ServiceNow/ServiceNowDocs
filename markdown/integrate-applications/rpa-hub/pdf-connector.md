@@ -2,6 +2,7 @@
 title: PDF connector
 description: Use the PDF connector to perform all your PDF operations from a single, unified space in RPA Desktop Design Studio. Use this connector to accelerate PDF processing for your document automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/pdf-connector.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -19,11 +20,11 @@ The PDF connector is available as a plugin by default in RPA Desktop Design Stud
 
 **Note:** RPA Desktop Design Studio still supports automation projects that are designed by using the older PDF methods in **Utilities** from Toolbox.
 
--   To use a connector in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](../task/use-connector.md).
--   To understand the various methods in the PDF connector, see [PDF connector methods](pdf-connector-methods.md).
+-   To use a connector in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-connector.md).
+-   To understand the various methods in the PDF connector, see [PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/pdf-connector-methods.md).
 
--   **[PDF connector methods](pdf-connector-methods.md)**  
+-   **[PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/pdf-connector-methods.md)**  
 Accelerate PDF processing for your document automation by using the various methods of PDF connector in RPA Desktop Design Studio.
 
-**Parent Topic:**[Connectors](connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connectors.md)
 

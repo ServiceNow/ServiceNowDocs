@@ -2,6 +2,7 @@
 title: Quick start tests for Test Management 2.0
 description: Validate that Test Management 2.0 still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/test-management/quick-start-tests-test-management.html
 release: yokohama
 product: Test Management
 classification: test-management
@@ -33,5 +34,5 @@ Test Management 2.0 quick start tests require activating the Test Management 2.0
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

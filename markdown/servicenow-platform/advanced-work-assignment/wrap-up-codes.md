@@ -2,6 +2,7 @@
 title: Wrap up codes
 description: Define the wrap up codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/wrap-up-codes.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -41,5 +42,5 @@ Role required: admin
 4.  Select **Update** if you are updating an existing code or **Submit** if you are creating a new code.
 
 
-**Parent Topic:**[Wrap up overview](../concept/wrap-up-overview.md)
+**Parent Topic:**[Wrap up overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/wrap-up-overview.md)
 

@@ -2,6 +2,7 @@
 title: Unbundle a work order task bundle
 description: Unbundle work order bundles if you want to group the subtasks differently or divide the work in another way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/unbundle-work-order-task.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -31,15 +32,15 @@ When you unbundle a work order task bundle, the work order task bundle enters a 
 
 3.  Select the bundle.
 
-<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d75398e88">
+<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d74253e88">
 
 Bundle
 
-</th><th align="left" id="d75398e91">
+</th><th align="left" id="d74253e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d75398e97">
+</th></tr></thead><tbody><tr><td id="d74253e97">
 
 **Single bundle**
 
@@ -47,7 +48,7 @@ Action
 
 Select the bundle.
 
-</td></tr><tr><td id="d75398e106">
+</td></tr><tr><td id="d74253e106">
 
 **Multiple bundles**
 

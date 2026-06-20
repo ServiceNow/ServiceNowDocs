@@ -2,6 +2,7 @@
 title: Create a reusable test
 description: Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/automated-test-framework-atf/atf-create-reusable-tests.html
 release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,7 +28,7 @@ Role required: admin, atf\_test\_admin, atf\_test\_designer or atf\_ws\_designer
 
 2.  Select **New** to create a new reusable test.
 
-    ![Screenshots showing the reusable test form](../image/atf-reusable-test-form.png)
+    \[Omitted image "atf-reusable-test-form.png"\] Alt text: Screenshots showing the reusable test form
 
     The Reusable Test form shows up.
 
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-The test step category in which the test shows up. ![Screenshot showing the reusable test step category](../image/atf-reusable-test-step-category.png)
+The test step category in which the test shows up. \[Omitted image "atf-reusable-test-step-category.png"\] Alt text: Screenshot showing the reusable test step category
 
 **Note:** If you leave this field empty, the test shows up under the Reusable Tests test category by default.
 
@@ -85,17 +86,17 @@ Description
 
 Description of the reusable test.**Note:** The description of the reusable test is displayed in the step creator modal.
 
-![Screenshot showing the reusable test description](../image/atf-reusable-test-description.png)
+\[Omitted image "atf-reusable-test-description.png"\] Alt text: Screenshot showing the reusable test description
 
-See [Reusable Tests category](../reference/test-steps-reusable-tests-category.md) for more information.
+See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
 
 </td></tr></tbody>
 </table>4.  Select **Save** to create the reusable test.
 
     The reusable test shows up.
 
-    **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite. See [Invoke a reusable test](atf-invoke-reusable-tests.md) for more information.
+    **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite. See [Invoke a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-invoke-reusable-tests.md) for more information.
 
 
-**Parent Topic:**[Reusable tests](../concept/atf-reuse-tests.md)
+**Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-reuse-tests.md)
 

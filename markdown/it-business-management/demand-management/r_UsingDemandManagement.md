@@ -2,6 +2,7 @@
 title: Use Demand Management
 description: Users with the demand manager role can create, view, and modify demands using the Demand Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/r\_UsingDemandManagement.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -34,10 +35,10 @@ The type of artifact created from a demand depends on the selections in the **Ca
 
 The demand management life cycle can be simplified as follows:
 
--   [Creating a demand](../task/t_CreatingDemands.md): The user submits an idea and the demand manager approves the idea, automatically creating a demand from that idea.
--   [Viewing a list of demands](../task/t_ViewDemands.md): The demand manager views demands on the [demand workbench](../concept/c_DemandWorkbench.md) or from a list view.
--   [Enhancing a demand](../concept/c_EnhancingDemands.md): The demand manager can send the demand to screening, which sends assessments to stakeholders.
--   [Assessing a demand](../concept/c_AssessingDemands.md):
+-   [Creating a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md): The user submits an idea and the demand manager approves the idea, automatically creating a demand from that idea.
+-   [Viewing a list of demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_ViewDemands.md): The demand manager views demands on the [demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandWorkbench.md) or from a list view.
+-   [Enhancing a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_EnhancingDemands.md): The demand manager can send the demand to screening, which sends assessments to stakeholders.
+-   [Assessing a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_AssessingDemands.md):
     -   The demand manager can screen the demand and send surveys to stakeholders to complete assessments.
     -   The demand manager can set the state of the demand to qualify, defer, or incomplete.
     -   Demands can be analyzed and approved using the demand workbench.
@@ -154,30 +155,30 @@ The demand is moved to the completed state.After reviewing the record, select on
 
 In this example, the demand is in the **Approved** state. It passed through the **Draft**, **Submitted**, and **Qualified** states but skipped the **Screening** state.
 
-![Demand process flow indicator](../image/DemandProcessFlowIndicator.png)
+\[Omitted image "DemandProcessFlowIndicator.png"\] Alt text: Demand process flow indicator
 
--   **[Assess demands](../concept/c_AssessingDemands.md)**  
+-   **[Assess demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_AssessingDemands.md)**  
 The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
--   **[Create a demand](../task/t_CreatingDemands.md)**  
+-   **[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)**  
 Create demands to capture your strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
--   **[View demands](../task/t_ViewDemands.md)**  
+-   **[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_ViewDemands.md)**  
 You can view existing demands at any time.
--   **[Add details to demands](../concept/c_EnhancingDemands.md)**  
+-   **[Add details to demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_EnhancingDemands.md)**  
 The demand manager typically works with a business relationship manager to identify stakeholders and elicit requirements, risks, and other important information.
--   **[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)**  
+-   **[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)**  
 RIDAC is an acronym for Risk, Issue, Decision, Action, and Request Changes records. Create a risk for your demand that you can convert to other records during the demand life cycle. Track issues and avoid manual copying of relevant details in related records.
--   **[Reset a demand to Draft state](../task/reset-demand-to-draft-state.md)**  
+-   **[Reset a demand to Draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reset-demand-to-draft-state.md)**  
 A demand can be moved back to Draft state, if required.
--   **[Delete demands](../task/t_DeletingDemands.md)**  
+-   **[Delete demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_DeletingDemands.md)**  
 Demands can be deleted only while in the Pending state.
--   **[Move and resize a demand](../task/t_MoveAndResizeADemand.md)**  
+-   **[Move and resize a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_MoveAndResizeADemand.md)**  
 As the demand manager, you can move and resize bubbles in the bubble chart.
--   **[Train the similarity solution for Demand Management to find similar demands](../task/train-similarity-solution-dm.md)**  
+-   **[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/train-similarity-solution-dm.md)**  
 Train the Similar Demands solution definition included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
--   **[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)**  
+-   **[PPM PIWB template - Find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ppm-piwb-demand.md)**  
 Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
--   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](../task/identify-similar-demands.md)**  
+-   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/identify-similar-demands.md)**  
 Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 
-**Parent Topic:**[Demand Management](../concept/c_DemandManagement.md)
+**Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)
 

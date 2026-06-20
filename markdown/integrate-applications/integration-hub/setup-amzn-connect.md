@@ -2,6 +2,7 @@
 title: Set up the Amazon Connect spoke
 description: Integrate the ServiceNow instance and Amazon Connect account using AWS credential to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-amzn-connect.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

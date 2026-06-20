@@ -2,6 +2,7 @@
 title: Request ITSM Roles - Request Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Request Management plugin \(com.snc.itsm.roles.request\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Request Management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-management/request-itsm-roles-rm.html
 release: yokohama
 product: Request Management
 classification: request-management
@@ -91,7 +92,7 @@ If you don't have an account manager, decide to delay activation after purchase,
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -132,15 +133,15 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Request Management](req-mgmnt-roles-instld-itsm.md)**  
+-   **[Components installed with ITSM Roles — Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/req-mgmnt-roles-instld-itsm.md)**  
 Several user roles are installed with the activation of the ITSM Roles - Request Management plugin \(com.snc.itsm.roles.request\_management\).
 
-**Parent Topic:**[Request Management reference](../../request-management/concept/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/request-management-reference.md)
 

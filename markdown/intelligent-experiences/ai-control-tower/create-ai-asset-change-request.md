@@ -2,6 +2,7 @@
 title: Create change request for AI assets
 description: Create change request to modify a relationship between a deployed AI asset and one of its related assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-ai-asset-change-request.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -68,5 +69,5 @@ Change requests can be created for AI systems and AI models and need to be appro
     Once all the change tasks have been completed by the AI asset owner, the state of the request changes to **Completed**.
 
 
-**Parent Topic:**[Creating requests for AI assets](../concept/creating-ai-asset-requests.md)
+**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

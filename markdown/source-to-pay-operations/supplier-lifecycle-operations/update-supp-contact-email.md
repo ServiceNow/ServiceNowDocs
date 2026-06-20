@@ -2,6 +2,7 @@
 title: Update the supplier contact email from the Supplier Collaboration Portal
 description: Update the email address of the contacts to ensure that they don't miss any email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,5 +41,5 @@ The **Update email** option is available only to the primary supplier contact an
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 

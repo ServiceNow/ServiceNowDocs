@@ -2,11 +2,12 @@
 title: Example apps you can build in Creator Studio
 description: Creator Studio enables you to build apps where people can make requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-sample-apps.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Creator Studio enables you to build apps where people can make requests.
 
 ## Service desk apps
 
-You can use Creator Studio to build service desk apps, which support departmental processes that occur on a routine basis. For more information on service desks, see [Service desks and Creator Studio](creator-studio-service-desk-about.md).
+You can use Creator Studio to build service desk apps, which support departmental processes that occur on a routine basis. For more information on service desks, see [Service desks and Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-service-desk-about.md).
 
 ## List of example apps
 
@@ -35,5 +36,5 @@ The following are some examples of service desk apps that you can build in Creat
 -   Birthday party planning
 -   Internal skill sharing, where a department creates an app of skills they need for a project where people can sign up
 
-**Parent Topic:**[Exploring Creator Studio](exploring-creator-studio.md)
+**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

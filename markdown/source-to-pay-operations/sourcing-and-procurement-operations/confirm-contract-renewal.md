@@ -2,6 +2,7 @@
 title: Confirm contract renewal in Employee Center
 description: As a business owner or shopper, confirm whether the expiring contract needs to be renewed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/confirm-contract-renewal.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -35,7 +36,7 @@ After a pipeline project is created from an expiring contract, a sourcing task i
 
 3.  On the **Open** tab, select the contract renewal task.
 
-    ![Contract renewal task in Employee Center.](../image/confirm-contract-renewal.png)
+    \[Omitted image "confirm-contract-renewal.png"\] Alt text: Contract renewal task in Employee Center.
 
 4.  In the Do you want to renew this contract section, select one of the following options:
 
@@ -51,5 +52,5 @@ After a pipeline project is created from an expiring contract, a sourcing task i
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a pipeline project from an expiring contract](create-pipeline-expire-contract.md)
+**Parent Topic:**[Create a pipeline project from an expiring contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-expire-contract.md)
 

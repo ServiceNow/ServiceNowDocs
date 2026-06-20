@@ -2,6 +2,7 @@
 title: Setup AIOps LEAP properties
 description: Configure AIOps LEAP properties to estimate cost and time savings calculations for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/setup-aiops-leap-properties.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -41,7 +42,7 @@ If you are a first-time user of AIOps LEAP, then use the default values to get a
         2.  Review the default values for each property.
         3.  Modify values as needed.
         4.  Select **Save**.
-3.  You are redirected to the AIOps LEAP landing page. For details on each field, see [AIOps LEAP settings fields](../reference/aiops-leap-settings-fields.md)
-4.  [Activate AIOps LEAP](activate-aiops-leap.md).
+3.  You are redirected to the AIOps LEAP landing page. For details on each field, see [AIOps LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md)
+4.  [Activate AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
 
 

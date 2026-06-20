@@ -2,6 +2,7 @@
 title: Update planning item details from Prioritization page of Strategic Planning Workspace
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Update the details of your planning items or delete them so that your Strategic Planning Prioritization page reflects the latest work pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -34,15 +35,15 @@ Update the details of a planning item using the List, Kanban, and Hierarchy view
 
 4.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d184377e131">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d143473e131">
 
 Choice
 
-</th><th align="left" id="d184377e134">
+</th><th align="left" id="d143473e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d184377e140">
+</th></tr></thead><tbody><tr><td id="d143473e140">
 
 **Update planning item details**
 
@@ -55,9 +56,9 @@ Edit using one of the following ways. These actions are applicable for both high
 -   Hierarchy: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
  The full details page shows the item's related lists such as Goal Relationships, Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d184377e183">
+</td></tr><tr><td id="d143473e183">
 
 **Attach files to planning item**
 
@@ -65,7 +66,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d184377e198">
+</td></tr><tr><td id="d143473e198">
 
 **Delete planning item**
 
@@ -73,7 +74,7 @@ In the Attachments section of the full details page, select **Browse** and uploa
 
 From the full details page:
 
-1.  Select the More Actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions-icon.png)\) and select **Delete**.
+1.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
 2.  Click **OK** to confirm.
 
 

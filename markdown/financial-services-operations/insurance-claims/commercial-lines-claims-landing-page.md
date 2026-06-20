@@ -2,6 +2,7 @@
 title: Commercial Lines Claims
 description: The Commercial Lines Claims application enables your organization to quickly set up the various stages of the claim process. This process, which starts from the first notice of loss to the claim closure, enables your processors, adjusters, and special investigation agents to manage commercial insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/commercial-lines-claims-landing-page.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -17,27 +18,27 @@ The Commercial Lines Claims application enables your organization to quickly set
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about how processors and adjusters use Commercial Lines Claims.](exploring-commercial-lines-claims.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how processors and adjusters use Commercial Lines Claims.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/exploring-commercial-lines-claims.md)
 
 </td><td>
 
-[Set up ![](../../../common/image/icon-set-up.png) Set up Commercial Lines Claims](setting-up-commercial-lines-claims.md)
+[Set up \[Omitted image "icon-set-up.png"\] Alt text: Set up Commercial Lines Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/setting-up-commercial-lines-claims.md)
 
 </td><td>
 
-[Manage ![](../../../common/image/icon-workspace.png) Manage cases for insurance claims from the first notice of loss to the claim closure.](using-commercial-lines-claims.md)
+[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage cases for insurance claims from the first notice of loss to the claim closure.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/using-commercial-lines-claims.md)
 
 </td></tr><tr><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and store applications that are installed.](../reference/components_installed_with_commercial_lines_claims.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/components_installed_with_commercial_lines_claims.md)
 
 </td><td>
 
-[Analytics and Reporting ![](../../fso-deposit-operations/image/icon-report.png) Monitor key statistics and track performance with a preconfigured dashboard.](../../../use/dashboards/application-content-packs/commercial-lines-claims.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Monitor key statistics and track performance with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/commercial-lines-claims.md)
 
 </td><td>
 
-[Process Mining ![](../../fso-deposit-operations/image/icon-process-opt.png) Visualize processes and identify improvement opportunities.](../../fso-common/concept/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize processes and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-process-optz-content-pack.md)
 
 </td></tr></tbody>
 </table>

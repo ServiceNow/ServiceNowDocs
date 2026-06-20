@@ -2,6 +2,7 @@
 title: Platform Analytics tables
 description: The following tables relate to Platform Analytics data visualizations and dashboards and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/platform-analytics-tables.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-06-16"
@@ -232,5 +233,5 @@ par\_recommendation\_user\_action
 Stores whether users accepted or dismissed a Process Mining insight recommendation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics experience reference](../concept/platform-analytics-exp-reference.md)
+</table>**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-exp-reference.md)
 

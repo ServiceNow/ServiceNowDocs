@@ -2,6 +2,7 @@
 title: Create verification settings
 description: Create a verification type in the base system to authenticate the user credentials while resetting the password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/create-verification-settings-pr-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -98,5 +99,5 @@ Parameters used by a verification to configure specific behaviors, like number o
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Configure the verification methods for service desk process in Service Operations Workspace](../concept/configuring-verification-methods-pr-sow.md)
+**Parent Topic:**[Configure the verification methods for service desk process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-verification-methods-pr-sow.md)
 

@@ -2,13 +2,14 @@
 title: Set up forecast schedule
 description: Forecast schedule automatically fetches all the opportunities in the system and generates forecast data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/setup-forecast-schedule.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-04-02"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Forecasting, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configure Sales Forecasting, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up forecast schedule
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  From the Run list, select the option to customize the timing of the scheduler according to your requirements.
 
-    ![Forecast scheduler](../image/forecast-scheduler.png)
+    \[Omitted image "forecast-scheduler.png"\] Alt text: Forecast scheduler
 
 5.  Select **Update** to save the settings of your scheduler.
 

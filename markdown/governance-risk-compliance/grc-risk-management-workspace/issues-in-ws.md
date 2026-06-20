@@ -2,6 +2,7 @@
 title: Issue management in the Risk Workspace
 description: The issues landing page in the Risk Workspace provides logged-in managers and users with all the information they need to manage issues on a single page. The landing page features actionable insights, quick action buttons, filters, and access to open issue triages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-risk-management-workspace/issues-in-ws.html
 release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -24,11 +25,11 @@ The issues landing page is available in the following workspaces:
 
 ## Open the Issues overview landing page
 
-On each of the listed workspaces, you can access the issues by clicking the Issue overview icon \(![Issue landing page.](../image/issue-landing-page.jpg)\).
+On each of the listed workspaces, you can access the issues by clicking the Issue overview icon \(\[Omitted image "issue-landing-page.jpg"\] Alt text: Issue landing page.\).
 
 Click this icon to open the Issues overview landing page.
 
-![Issues overview page.](../image/issues-ov.png "Issues overview landing page")
+\[Omitted image "issues-ov.png"\] Alt text: Issues overview page.
 
 ## Sections of the Issues overview landing page
 
@@ -161,5 +162,5 @@ Remediation tasks
 This section shows the number of remediation tasks for which the logged-in user is on the watch list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the Risk Workspace](using-risk-workspace.md)
+</table>**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

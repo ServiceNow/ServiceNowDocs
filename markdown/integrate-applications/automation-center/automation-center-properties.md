@@ -2,6 +2,7 @@
 title: Automation Center properties
 description: You can access system properties for Automation Center by navigating to All Automation Center Administration Automation Properties .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/automation-center/automation-center-properties.html
 release: yokohama
 product: Automation Center
 classification: automation-center
@@ -105,5 +106,5 @@ When turned on \(by setting the value to **True**\), Recommended Actions applica
 -   Default value: **False**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-reference.md)
 

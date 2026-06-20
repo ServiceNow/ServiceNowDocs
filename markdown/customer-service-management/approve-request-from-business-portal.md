@@ -2,11 +2,14 @@
 title: Approve a request, change request, or registration request from Business Portal
 description: Users with the snc\_external role can view and approve requests and change requests from the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/approve-request-from-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Approve a request, change request, or registration request from Business Portal

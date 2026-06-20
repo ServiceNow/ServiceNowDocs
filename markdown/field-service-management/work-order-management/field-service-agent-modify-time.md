@@ -2,6 +2,7 @@
 title: Modify or delete time worked entries
 description: Agents can modify and delete time worked entries before a time sheet is approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/field-service-agent-modify-time.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ Modifying or deleting entries updates existing time cards and generates an updat
     -   To modify the entry, make changes to the desired fields and select **Update**.
     -   To delete the entry, select **Delete**.
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

@@ -2,6 +2,7 @@
 title: Configure a record page tab in Service Operations Workspace
 description: Configure the display order of a record page tab in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-record-page-tab.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,10 +36,10 @@ When you modify the order of a common tab in multiple record pages and workspace
     -   To modify the order of a record page-specific tab. For example, the **Overview** tab of the incident record page in Service Operations Workspace, select **Overview** whose **App Configuration** is **Service Operations Workspace** and **Parent macroponent** is **Record Page Tabs**. Any changes made are applicable only to the **Overview** tab of the incident record page in Service Operations Workspace.
 3.  On the UX App Route form, modify the **Order** field.
 
-    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=yokohama&pubname=yokohama-platform-administration&section=t_ConfigureAForm&ft:locale=en-US).
+    If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see .
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](../concept/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

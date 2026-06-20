@@ -2,6 +2,7 @@
 title: Unsupported Virtual Agent features in Conversational IVR
 description: A few user input controls used in Virtual Agent Designer are unsupported in Conversational IVR - enabled topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/limited-ivr-features.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -39,7 +40,7 @@ Conversational IVR is designed to silently skip the execution of unsupported con
 
 The system is designed to provide warnings when you pick an unsupported control for your topic flow while crating the topic. For example, you can trigger a warning message by adding File picker to your topic flow for a topic that has IVR enabled.
 
-![Warning messages for unsupported controls used in creating topic flows for IVR enabled topics.](../images/ivr-unsupported-topic-control-wrng.png)
+\[Omitted image "ivr-unsupported-topic-control-wrng.png"\] Alt text: Warning messages for unsupported controls used in creating topic flows for IVR enabled topics.
 
-For information about the supported controls to be used for Conversational IVR, see [Input Collector user input control](va-ai-data-collector.md).
+For information about the supported controls to be used for Conversational IVR, see [Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-ai-data-collector.md).
 

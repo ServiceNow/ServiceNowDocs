@@ -2,6 +2,7 @@
 title: Coaching roles
 description: Assign Coaching roles to specify what different users can see and do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/coaching-roles.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -90,5 +91,5 @@ Grants administrative rights to create, read, or update learning libraries based
 -   sn\_lc.content\_writer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching](../concept/coaching-landing.md)
+</table>**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 

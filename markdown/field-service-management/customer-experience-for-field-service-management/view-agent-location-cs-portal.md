@@ -2,13 +2,14 @@
 title: Track the current location of field service agents
 description: View the current location of agents to track their estimated time of arrival.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/customer-experience-for-field-service-management/view-agent-location-cs-portal.html
 release: yokohama
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Using Field Service Management, Field Service Management]
+breadcrumb: [Customer self service, Using Field Service Management, Field Service Management]
 ---
 
 # Track the current location of field service agents
@@ -38,5 +39,5 @@ Role required: sn\_customerservice.customer and sn\_customerservice.consumer
     The map refreshes automatically to display the latest location of an agent.
 
 
-**Parent Topic:**[Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Customer self service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customer-experience-for-field-service-management/customer-self-service.md)
 

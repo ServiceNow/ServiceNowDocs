@@ -2,6 +2,7 @@
 title: Managing dispute service requests
 description: Dispute management enables agents to create dispute cases for both personal and business debit and credit card accounts, and automate the process of dispute routing and fraud-related activities. Learn how agents initiate, investigate, and resolve dispute cases for personal and commercial customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/managing-card-disputes.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -35,24 +36,24 @@ The tasks assigned to a dispute case are determined by the information or decisi
 
 To resolve cases, agents perform various activities such as performing investigations, and initiating chargebacks for the tasks assigned to them. Both the case and its tasks are assigned to the assignment groups or agents by using assignment rules.
 
-For more information, see [Managing dispute workflows](dispute-management-workflows.md).
+For more information, see [Managing dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md).
 
 ## Dashboards
 
 ServiceNow® Performance Analytics give service owners insight into how the team and business are performing. A dashboard with customizable views is available for Card Operations Dispute Management.
 
--   **[Creating a card dispute case](../task/create-dispute-service-case.md)**  
+-   **[Creating a card dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-dispute-service-case.md)**  
 An agent can begin the card dispute or report a dispute by creating a dispute case on behalf of a customer.
--   **[Working on a dispute case integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)**  
+-   **[Working on a dispute case integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)**  
 To improve the card dispute process, the playbook integrates with subflows that communicate with Visa. This integration supports an end-to-end dispute life cycle, from raising an initial dispute to the final resolution.
--   **[Configuring preconfigured email templates in a card dispute flow](pre-cofigured-email-template.md)**  
+-   **[Configuring preconfigured email templates in a card dispute flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/pre-cofigured-email-template.md)**  
 Email templates are pre-formatted files that you can use to start creating email notifications.
--   **[Implementing the 4-eyes policy for approval tasks](implementing-4-eyes-principle.md)**  
+-   **[Implementing the 4-eyes policy for approval tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/implementing-4-eyes-principle.md)**  
 The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
--   **[Managing dispute manager workspace](workspace-for-dispute-manager.md)**  
+-   **[Managing dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)**  
 As a dispute manager, you can work on your assigned cases and coordinate real-time updates on your team's cases from the dispute manager workspace.
--   **[Managing dispute agent workspace](workspace-for-agent.md)**  
+-   **[Managing dispute agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/workspace-for-agent.md)**  
 The dispute agent workspace provides a single location for a dispute agent to process cases and tasks. An agent can use this workspace to respond to all task types, view the full context of an issue, and get relevant recommendations to help resolve issues.
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
 

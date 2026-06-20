@@ -2,6 +2,7 @@
 title: Managing dispute manager workspace
 description: As a dispute manager, you can work on your assigned cases and coordinate real-time updates on your team's cases from the dispute manager workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/workspace-for-dispute-manager.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -28,9 +29,9 @@ The workspace has a simple interface that provides you with a list of high-level
 
 The following example shows the new landing page and approval process of a manual investigation task for a dispute manager.
 
-![View of dispute manager landing page.](../image/dispute_mgr_landing_page.jpg)
+\[Omitted image "dispute\_mgr\_landing\_page.jpg"\] Alt text: View of dispute manager landing page.
 
-![View of the review representment approval process.](../image/Dispute_mgr_reject.jpg)
+\[Omitted image "Dispute\_mgr\_reject.jpg"\] Alt text: View of the review representment approval process.
 
-**Parent Topic:**[Managing dispute service requests](managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

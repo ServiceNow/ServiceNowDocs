@@ -2,6 +2,7 @@
 title: Split a pre-allocated asset
 description: You can split a pre-allocated asset to create a group that can be moved to a different stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/t\_SplittingAPreAllocatedAsset.html
 release: yokohama
 product: Asset Management
 classification: asset-management
@@ -38,5 +39,5 @@ For example, a group of 100 pre-allocated computers is in Stockroom A. Split the
     The pre-allocated asset is split into two groups and the **Quantity** field on each record indicates the number in each group.
 
 
-**Parent Topic:**[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+**Parent Topic:**[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/manage-preallocated-asset.md)
 

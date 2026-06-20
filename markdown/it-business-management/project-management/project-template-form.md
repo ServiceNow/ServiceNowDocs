@@ -2,6 +2,7 @@
 title: Project Template Form
 description: Learn about the fields of project template form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/project-template-form.html
 release: yokohama
 product: Project Management
 classification: project-management

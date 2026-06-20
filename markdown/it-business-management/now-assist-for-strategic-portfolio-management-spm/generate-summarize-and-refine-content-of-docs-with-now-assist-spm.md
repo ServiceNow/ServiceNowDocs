@@ -2,6 +2,7 @@
 title: Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)
 description: Generate content with Now Assist for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.html
 release: yokohama
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -33,15 +34,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use Now Assist for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d104499e109">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d79416e109">
 
 Choice
 
-</th><th align="left" id="d104499e112">
+</th><th align="left" id="d79416e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104499e118">
+</th></tr></thead><tbody><tr><td id="d79416e118">
 
 **Work with content of the whole page**
 
@@ -57,23 +58,23 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d104499e166">
+</td></tr><tr><td id="d79416e166">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
 </td><td>
 
 1.  Select the content blocks that you'd like to work on.
-2.  Select the Now Assist icon \(![](../../now-assist-cwm/images/cwm-icon-na-docs.png)\).
+2.  Select the Now Assist icon \(\[Omitted image "cwm-icon-na-docs.png"\] Alt text:\).
 3.  In the box, enter your prompt.
 
 Some examples are:
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-![Example of a Now Assist inline prompt for selected content on the page.](../../now-assist-cwm/images/na-inline-open-text.png)
+\[Omitted image "na-inline-open-text.png"\] Alt text: Example of a Now Assist inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d104499e211">
+</td></tr><tr><td id="d79416e211">
 
 **Take assistance on a blank page.**
 
@@ -88,17 +89,17 @@ Some examples are:
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-![Example of creating first draft for a page using Now Assist.](../../now-assist-cwm/images/na-blank-page-nacm.png)
+\[Omitted image "na-blank-page-nacm.png"\] Alt text: Example of creating first draft for a page using Now Assist.
 
 </td></tr></tbody>
 </table>    Now Assist analyzes the text and generates an output in a separate pop-up.
 
 3.  Based on the output generated, you can further refine the result.
 
-4.  Copy the generated output by selecting the copy to clipboard icon \(![](../images/icon-copy-spm.png)\) to use it for purposes such as sending an email, saving to notes, and others.
+4.  Copy the generated output by selecting the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text:\) to use it for purposes such as sending an email, saving to notes, and others.
 
     **Important:** Because the output is AI-generated, review it to ensure accuracy.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

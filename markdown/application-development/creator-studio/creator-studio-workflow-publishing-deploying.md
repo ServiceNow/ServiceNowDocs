@@ -2,11 +2,12 @@
 title: Publishing, activation, and deployment workflow for forms, automation, and apps
 description: When you build an app in Creator Studio, you must create forms and automation. You can also customize the workspace list configurations and records that fulfillers use before everything is deployed to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-workflow-publishing-deploying.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -36,5 +37,5 @@ As you develop apps in Creator Studio, you should move sequentially through the 
     -   Users can access the workspace to review the app's submitted requests
 7.  To update a published app, make the changes on your non-production instance and then request that your admin redeploys the updated app to production.
 
-**Parent Topic:**[Exploring Creator Studio](exploring-creator-studio.md)
+**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

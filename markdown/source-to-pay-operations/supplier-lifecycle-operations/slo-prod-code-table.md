@@ -2,6 +2,7 @@
 title: Product Code table
 description: The Product Code \[sn\_slm\_product\_code\] table stores important information about a product's Universal Product Code \(UPC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/slo-prod-code-table.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -71,7 +72,7 @@ String
 The code of the product.
 
 </td></tr></tbody>
-</table>For more information, see [Supplier Lifecycle Operations data model](slo-data-model.md).
+</table>For more information, see [Supplier Lifecycle Operations data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/slo-data-model.md).
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

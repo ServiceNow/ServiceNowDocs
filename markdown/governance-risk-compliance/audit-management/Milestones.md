@@ -2,6 +2,7 @@
 title: Manage milestones
 description: Milestones can be used to track the progress of an engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/Milestones.html
 release: yokohama
 product: Audit Management
 classification: audit-management

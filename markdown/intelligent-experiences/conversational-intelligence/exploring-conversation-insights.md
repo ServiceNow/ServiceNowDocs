@@ -2,6 +2,7 @@
 title: Exploring Conversation Insights
 description: Learn how Conversation Insights can help you to augment conversation insights with AI-based Inferred customer satisfaction \(CSAT\) scores and factors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.html
 release: yokohama
 product: Conversational Intelligence
 classification: conversational-intelligence
@@ -29,15 +30,15 @@ Inferred CSAT is a numerical score from 1 \(least satisfied\) to 5 \(most satisf
 -   Frustration: Flags signs of user dissatisfaction or repeated failed attempts during the interaction.
 -   Transfers and Escalations: Tracks how often the Virtual Agent or AI agent handed off the conversation to a human agent or another system.
 
-Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](../../now-assist-ai-agents/concept/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
+Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-ai-experiences/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
 
-The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) and [Select a table data source for a data visualization](https://www.servicenow.com/docs/access?context=select-table-data-source&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see  and .
 
 ## Conversation Insights workflow
 
 The Conversation Insights workflow illustrates how each interaction, whether handled by Virtual Agent or an AI agent, is transformed into actionable insights. You can feed the insights directly into the dashboards for analysis and decision making. The Conversation Insights workflow shows the journey from conversations to insights on dashboards.
 
-![Infographic shows how the Conversation Insights application derives insights from conversations. For the text description, refer to the description that follows.](../image/conversation-insights-workflow-landing.svg "Conversation Insights workflow")
+\[Omitted image "conversation-insights-workflow-landing.svg"\] Alt text: Infographic shows how the Conversation Insights application derives insights from conversations. For the text description, refer to the description that follows.
 
 1.  Conversation sources
     -   Agentic AI chats
@@ -67,6 +68,6 @@ The Conversation Insights workflow illustrates how each interaction, whether han
 
 To learn more about configuring and using Conversation Insights, see:
 
--   [Install Conversation Insights](install-conversation-insights.md)
--   [Conversation Insights reference](conversation-insights-reference.md)
+-   [Install Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/conversational-intelligence/install-conversation-insights.md)
+-   [Conversation Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/conversational-intelligence/conversation-insights-reference.md)
 

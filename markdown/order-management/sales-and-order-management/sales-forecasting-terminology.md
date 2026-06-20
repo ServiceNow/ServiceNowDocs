@@ -2,13 +2,14 @@
 title: Sales Forecasting terminology
 description: Use the following list of terms to gain an understanding of Sales Forecasting concepts, components, and configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/sales-forecasting-terminology.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-03-29"
 reading_time_minutes: 2
-breadcrumb: [Sales Forecasting, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Forecasting terminology

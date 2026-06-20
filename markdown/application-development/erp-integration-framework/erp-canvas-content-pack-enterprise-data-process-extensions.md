@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation content pack process extensions
 description: The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains process extensions you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-enterprise-data-process-extensions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,5 +25,5 @@ The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains
 |Search for a material|Search for a material.|
 |Update material details|Update the description of an existing material and, optionally, update attributes such as sales data.|
 
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](../concept/erp-canvas-enterprise-data-foundation-content-pack.md)
+**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

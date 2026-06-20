@@ -2,6 +2,7 @@
 title: Create SLOs, SLIs, and error budget policies
 description: Define service level objectives \(SLOs\), service level indicators \(SLIs\), and error budget policies to monitor service health. These tools help you and your teams track performance and take action when needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.html
 release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -19,7 +20,7 @@ Define service level objectives \(SLOs\), service level indicators \(SLIs\), and
 
 If you plan to notify teams when an error budget policy is breached, make sure a notification destination is available for your team. To check, navigate to **Teams** &gt; **\[Your team\]** &gt; **SLO Notification destinations** in Service Operations Workspace.
 
-To create a notification destination, see [Create a notification destination in SRM](create-notification-destination.md).
+To create a notification destination, see [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/create-notification-destination.md).
 
 Role required: srm\_admin, srm\_manager, or srm\_responder
 
@@ -33,7 +34,7 @@ Create SLOs, SLIs, and error budget policies to monitor service health and help 
 
 In Service Reliability Management \(SRM\), an SLO must have at least one SLI. SLIs can be filtered to a service or configuration item \(CI\) within the parent service's hierarchy. Filtering an SLI to a CI can help you more accurately track service health and identify root causes faster.
 
-For more high-level information about SLOs, SLIs, and error budget policies in SRM, see [Working with reliability metrics](../concept/sr-work-SLI-SLO.md).
+For more high-level information about SLOs, SLIs, and error budget policies in SRM, see [Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md).
 
 **Note:** In SRM, each SLI can only be associated with one SLO. Using the same SLI in multiple SLOs creates multiple objectives for the same metric, which can lead to confusion or conflicting performance expectations.
 
@@ -45,7 +46,7 @@ For more high-level information about SLOs, SLIs, and error budget policies in S
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Services** icon \(![Services icon](../../service-reliability/image/icon-sr-services.png)\).
+2.  From the primary navigation, select the **Services** icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
 3.  On the **Services** page, select the service for which you want to create SLOs and SLIs.
 
@@ -53,24 +54,24 @@ For more high-level information about SLOs, SLIs, and error budget policies in S
 
 5.  In the Service Level Objective \(SLO\) form, fill in the fields for your SLO.
 
-    For information about the SLO fields, see [Create SLO form](../../service-reliability/reference/sr-create-slo-sli-form.md).
+    For information about the SLO fields, see [Create SLO form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.md).
 
 6.  In the Service Level Indicators \(SLI\) form, select **Add SLI**, and fill in the fields for your SLI.
 
-    For more information about the SLI fields, see [Create SLI form](../../service-reliability/reference/sr-create-sli-form.md).
+    For more information about the SLI fields, see [Create SLI form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-sli-form.md).
 
     **Note:** If your service includes one or more CIs in its hierarchy, a banner appears below the Service Level Indicators \(SLI\) header. The banner lists the number of available CIs and links to the service map, letting you visualize their connections. You can use this information to filter your SLIs to specific CIs in the Add SLI form, giving you a more granular measure of service health.
 
 7.  In the Error budget policies form, select **Add threshold**, and fill in the fields for your error budget policy.
 
-    For more information, see [Add an error budget policy form](../reference/sr-create-error-budget-form.md).
+    For more information, see [Add an error budget policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-error-budget-form.md).
 
     **Note:** If you don't add an error budget policy, the SLO's objective percentage is only informational. Adding a policy helps you take corrective actions based on the performance data. If you're not ready to add a policy now, you can add one later.
 
 8.  Review your SLO, SLI, and error budget policy, and then select **Activate**.
 
-    Your SLO, SLI, and, if added, error budget policy are active, helping you monitor service health and take action when necessary. For information about viewing and updating reliability metrics, see [Edit a reliability metric](sr-edit-sli-slo.md).
+    Your SLO, SLI, and, if added, error budget policy are active, helping you monitor service health and take action when necessary. For information about viewing and updating reliability metrics, see [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).
 
 
-**Parent Topic:**[Using SLO Management](using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

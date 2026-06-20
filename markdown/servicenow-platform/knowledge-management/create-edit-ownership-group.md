@@ -2,6 +2,7 @@
 title: Manage ownership groups
 description: Create ownership groups and associate them to knowledge articles. Knowledge group managers or knowledge administrators can edit ownership groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/create-edit-ownership-group.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

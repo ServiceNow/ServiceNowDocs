@@ -2,13 +2,14 @@
 title: Map a custom context variable to a transaction entity
 description: Associate a custom pricing context variable to a particular transaction entity type in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-map-variable.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Map a custom context variable to a transaction entity
@@ -17,13 +18,13 @@ Associate a custom pricing context variable to a particular transaction entity t
 
 ## Before you begin
 
-Verify that you're in the appropriate application scope for the transaction type. For example, if you're mapping a context variable for orders, the application scope is Order Management. Use the Globe ![globe icon](../../../reuse/icons/product-icons/globe-outline-24.svg) icon in the navigation bar to change the application scope.
+Verify that you're in the appropriate application scope for the transaction type. For example, if you're mapping a context variable for orders, the application scope is Order Management. Use the Globe \[Omitted image "globe-outline-24.svg"\] Alt text: globe icon icon in the navigation bar to change the application scope.
 
 Role required: admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Context Rule Management** &gt; **Variable Mappings**.
 

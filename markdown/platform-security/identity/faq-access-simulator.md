@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 description: Frequently asking question about using Access Simulator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/faq-access-simulator.html
 release: yokohama
 product: Identity
 classification: identity

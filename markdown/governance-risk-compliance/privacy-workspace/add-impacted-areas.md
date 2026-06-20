@@ -2,6 +2,7 @@
 title: Add an impacted area to a privacy case
 description: Add the impacted areas or objects that are affected by the privacy case or event in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/add-impacted-areas.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List icon](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
 
 3.  Select **All Cases**.
 
@@ -91,5 +92,5 @@ Brief description of the impacted areas or objects.
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

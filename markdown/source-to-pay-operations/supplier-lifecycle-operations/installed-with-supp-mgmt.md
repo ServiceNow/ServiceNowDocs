@@ -2,6 +2,7 @@
 title: Components installed with Supplier Lifecycle Operations
 description: Several types of components are installed with activation of Supplier Lifecycle Operations, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/installed-with-supp-mgmt.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Several types of components are installed with activation of Supplier Lifecycle 
 
 **Important:** The Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management in the Yokohama December 2025 \(v 5.2.0\) release.
 
-The user roles and tables, even though installed along with Supplier Lifecycle Operations, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](../concept/supplier-common.md).
+The user roles and tables, even though installed along with Supplier Lifecycle Operations, reside in the Supplier Common Architecture application. For more information, see [Supplier Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.md).
 
 **Note:** The following roles are installed with Finance Common Architecture \(com.sn\_fin\), which is installed as a dependent plugin:
 
@@ -295,5 +296,5 @@ Organization Tax Details
 Stores the tax registration details of the supplier.**Note:** This table has been added in the Finance Common Architecture \(com.sn\_fin\) plugin.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Supplier Lifecycle Operations](../task/install-supp-mgmt.md)
+</table>**Parent Topic:**[Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

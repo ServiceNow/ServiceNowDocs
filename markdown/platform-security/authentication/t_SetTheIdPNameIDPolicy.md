@@ -2,6 +2,7 @@
 title: Set the IdP NameID policy
 description: Specify what format the IdP uses for the NameID token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_SetTheIdPNameIDPolicy.html
 release: yokohama
 product: Authentication
 classification: authentication

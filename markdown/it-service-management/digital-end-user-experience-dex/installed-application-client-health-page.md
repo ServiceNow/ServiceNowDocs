@@ -2,6 +2,7 @@
 title: Installed application — Client health page
 description: The installed application Client health section presents details on the devices on which the Microsoft Configuration Manager \(MCM\) policy has run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/installed-application-client-health-page.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -118,5 +119,5 @@ Device count
 Number of devices where a specific metric ran.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Applications list](application-form.md)
+</table>**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/application-form.md)
 

@@ -2,6 +2,7 @@
 title: Configure AES personas and roles
 description: The responsibilities of your staff are controlled by roles assigned to each member. Personas aren’t explicitly part of App Engine Studio \(AES\) but administrators assign roles to give team members permission to configure or use AES.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/aes-personas-roles.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -187,5 +188,5 @@ Professional ServiceNow developer
 -   Collaborate with a system administrator to create instance scan definitions for the platform.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure App Engine Studio](configure-aes.md)
+</table>**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aes.md)
 

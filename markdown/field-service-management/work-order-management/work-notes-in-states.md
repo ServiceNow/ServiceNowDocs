@@ -2,6 +2,7 @@
 title: Work notes in state flows
 description: Work notes are used to communicate information about state transitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/work-notes-in-states.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management

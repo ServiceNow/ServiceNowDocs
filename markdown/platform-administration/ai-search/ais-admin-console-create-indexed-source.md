@@ -2,6 +2,7 @@
 title: Create an indexed source from the AI Search Admin console
 description: Create an indexed source to make the content and metadata from the ServiceNow AI Platform table records that are searchable by using AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-create-indexed-source.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -29,7 +30,7 @@ Role required: admin or ais\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Indexed Source form](../reference/indexed-source-form-ais.md).
+    For a description of the field values, see [Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexed-source-form-ais.md).
 
     **Note:**
 
@@ -44,9 +45,9 @@ The indexed source is created with the initial status set to never indexed. Afte
 
 ## What to do next
 
-To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](ais-admin-console-setup-field-config-indexed-source.md).
+To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-setup-field-config-indexed-source.md).
 
-To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](ais-admin-console-start-content-indexing.md).
+To make content from internal indexed sources and source records searchable, perform a full table index for your new indexed source. For more information, see [Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-start-content-indexing.md).
 
-**Parent Topic:**[Managing the indexed sources from the AI Search Admin console](../concept/ais-managing-indexed-source.md)
+**Parent Topic:**[Managing the indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-managing-indexed-source.md)
 

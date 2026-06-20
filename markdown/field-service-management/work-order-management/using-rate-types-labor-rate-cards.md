@@ -2,6 +2,7 @@
 title: Using rate types and labor rate cards
 description: Use rate types and labor rate cards to define different cost rates for different activities recorded by field service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/using-rate-types-labor-rate-cards.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -55,5 +56,5 @@ To enable multiple rate types for Field Service Management:
 6.  Enable the **Auto fill time card with time worked entries** field.
 7.  Click **Update**.
 
-**Parent Topic:**[Manage work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

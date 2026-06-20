@@ -2,6 +2,7 @@
 title: Security Incident Response AI agent collection close security incident agentic workflow
 description: The Close security incident agentic workflow enables security analysts to close a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-close-incident-usecase.html
 release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -20,7 +21,7 @@ The Close security incident agentic workflow enables security analysts to close 
 
 Using the Close security incident agentic workflow, cancel the associated response tasks, generate resolution notes, close notes, close code and post incident analysis \(PIA\) during a security incident closure, and provide feedback and adjust content in natural language​ from the Now Assist panel.
 
-If you want to modify this agentic workflow, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to modify this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Agent used in Close security incident agentic workflow
 

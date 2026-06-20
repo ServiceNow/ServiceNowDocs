@@ -2,6 +2,7 @@
 title: Configure Telecommunications Discovery \(TSOM\) Patterns
 description: This document outlines the dependencies, requirements, and installation steps necessary for setting up Telecommunications Discovery Patterns \(also known as TSOM Patterns\) in TSOM Visibility in ServiceNow.The process of obtaining and installing the Telecommunications Discovery Patterns in TSOM.In order to support the TSOM Visibility solution, we have modified the CMBD CI Class Models store application, introducing updates to the IRE Identification Rules for the following telecom CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/configuring-telecommunications-discovery-patterns.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -23,20 +24,20 @@ Role required: admin
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Dependencies and Requirements
 
 -   Telecom Service Operation Core \(sn\_tsom\_core\)
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see .
 
 ## TSOM Visibility Installation Disclaimer
 
-See [TSOM Visibility Installation Disclaimer](tsom-visibility.md#section_wn4_2fk_b2c) for important information and requirements related to the installation process.
+See [TSOM Visibility Installation Disclaimer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/tsom-visibility.md) for important information and requirements related to the installation process.
 
-**Parent Topic:**[Telecom Discovery using Telecommunications Discovery Patterns](telecom-discovery-using-telecommunication-discovery-pattern.md)
+**Parent Topic:**[Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md)
 
 ## Install Horizontal Discovery and Telecommunication Discovery Patterns
 
@@ -50,7 +51,7 @@ Role required: admin
 
 1.  Install the Horizontal Discovery application.
 
-    See [Discovery setup](https://www.servicenow.com/docs/access?context=discovery-setup&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US), as it is foundational for running Telecommunications Discovery Patterns.
+    See , as it is foundational for running Telecommunications Discovery Patterns.
 
 2.  Obtain and install Telecommunications Discovery Patterns:
 
@@ -64,7 +65,7 @@ Role required: admin
         2.  Select **Pattern Sync to Mid**.
         **Note:** This action synchronizes both TSOM and ITOM patterns.
 
-        For more information on how to configure a MID Server, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+        For more information on how to configure a MID Server, see .
 
 4.  Configure TSOM System Properties:
 
@@ -94,7 +95,7 @@ Role required: admin
 
 In order to support the TSOM Visibility solution, we have modified the CMBD CI Class Models store application, introducing updates to the IRE Identification Rules for the following telecom CIs.
 
-For more information about CMBD CI Class Models store application, see [CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html).
+For more information about CMBD CI Class Models store application, see CMDB CI Class Models.
 
 -   **Interface Cards**
 -   **Slots**

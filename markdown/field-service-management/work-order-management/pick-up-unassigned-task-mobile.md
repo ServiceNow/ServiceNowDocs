@@ -2,6 +2,7 @@
 title: Pick up an unassigned task
 description: If you are available, you can assign a task to yourself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/pick-up-unassigned-task-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,12 +32,12 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Select the desired work order task.
 
-5.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Assign To Me**.
+5.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Assign To Me**.
 
 
 ## Result
 
 You receive a notification that the task has been assigned to you.
 
-**Parent Topic:**[Prioritizing on Mobile Agent](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

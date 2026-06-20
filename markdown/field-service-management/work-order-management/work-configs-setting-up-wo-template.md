@@ -2,6 +2,7 @@
 title: Setting up a work order template with work configurations
 description: The Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) allows you to add work configurations to work order templates. When you create a work order using the template, the work order tasks will be recorded in the task table specified in the work configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/work-configs-setting-up-wo-template.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Field Service Work Configurations, Setting up work orde
 
 The Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) allows you to add work configurations to work order templates. When you create a work order using the template, the work order tasks will be recorded in the task table specified in the work configuration.
 
-For more information on how to set up work configurations, see [Set up work configurations](../task/work-config-guided-setup.md).
+For more information on how to set up work configurations, see [Set up work configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-config-guided-setup.md).
 
-For more information on how to create a work order template, see [Create a work order template](../../it-services/task/t_CreateAWorkOrderTemplate.md).
+For more information on how to create a work order template, see [Create a work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CreateAWorkOrderTemplate.md).
 

@@ -2,11 +2,12 @@
 title: Create New Contract form
 description: On the Create New Contract form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a contract and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

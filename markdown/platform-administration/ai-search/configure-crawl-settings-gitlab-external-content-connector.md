@@ -2,6 +2,7 @@
 title: Configure crawl settings for a GitLab external content connector
 description: Specify the groups, projects, and repositories you want your GitLab external content connector to crawl. Select the issues, wikis, merge requests, tags, branches, and commits you want the crawl to retrieve and feed to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-gitlab-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the groups, projects, and repositories you want your GitLab external con
 
 ## Before you begin
 
-A connector admin must have already created the GitLab external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitLab external content connector](create-ext-cont-connector-gitlab.md).
+A connector administrator must have already created the GitLab external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-gitlab.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the GitLab external content connector crawls content from all subgroups, projects, and repositories found in top-level groups owned by the GitLab.com user that it's configured to impersonate, and sends all supported content types \(issues, wikis, merge requests, tags, branches, and commits\) to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the GitLab external content connector crawls content from all subgroups, projects, and repositories found in top-level groups owned by the GitLab.com user that it's configured to impersonate, and sends all supported content types \(issues, wikis, merge requests, tags, branches, and commits\) to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the subgroups to crawl when running content crawls
 -   Inclusion or exclusion filters for the projects/repositories to crawl when running content crawls
@@ -101,7 +102,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
     -   Content of wiki attachments in formats other than plain text \(.txt\)
     -   Internal or confidential notes in merge request discussions
     -   Repository files
-7.  If you included the Branches content type in step [6](configure-crawl-settings-gitlab-external-content-connector.md#select-content-types-step), use the **Add branches to include in regex format** field and the **Add** button to specify Java regular expression patterns matching the names of branches you want to include in content crawls.
+7.  If you included the Branches content type in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-gitlab-external-content-connector.md), use the **Add branches to include in regex format** field and the **Add** button to specify Java regular expression patterns matching the names of branches you want to include in content crawls.
 
     As an example, you might specify `^2025.*$` to include branches with names that start with `2025`, or specify `^.*$` to crawl all branches. To learn about Java regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/regex/Pattern.html).
 
@@ -116,7 +117,7 @@ The GitLab external content connector is updated with your modified crawl settin
 
 ## What to do next
 
-To retrieve content from your GitLab source system using your modified crawl settings, create and run a one-time content crawl for your GitLab external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your GitLab source system using your modified crawl settings, create and run a one-time content crawl for your GitLab external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[GitLab external content connector](../concept/gitlab-external-content-connector.md)
+**Parent Topic:**[GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/gitlab-external-content-connector.md)
 

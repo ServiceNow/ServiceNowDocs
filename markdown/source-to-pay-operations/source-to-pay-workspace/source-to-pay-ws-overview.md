@@ -2,6 +2,7 @@
 title: Source-to-Pay Workspace
 description: The Source-to-Pay Workspace provides experiences and tools that you can use to work on various activities, such as procuring goods, onboarding high-performing suppliers, and processing invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.html
 release: yokohama
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -19,15 +20,15 @@ The Source-to-Pay Operations \(S2P\) product suite includes the following produc
 
 <table id="table_vcl_vhr_tcc" class="nav-card"><tbody><tr><td>
 
-[Procurement Service Management Workspace![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Learn about the Procurement Service Management Workspace](../../sourcing-procurement-operations/concept/procurement-workspace-landing-page.md)
+[Procurement Service Management Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Procurement Service Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-landing-page.md)
 
 </td><td>
 
-[Supplier Lifecycle Management Workspace![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Learn about the Supplier Lifecycle Management Workspace](../../supplier-lifecycle-operations/concept/supp-manager-ws-home.md)
+[Supplier Lifecycle Management Workspace\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn about the Supplier Lifecycle Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/supp-manager-ws-home.md)
 
 </td><td>
 
-[Accounts Payable Operations Workspace![](../../../reuse/icons/brand-icons/bus-work-order.svg)Learn about the Accounts Payable Operations Workspace](../../accounts-payable-operations/concept/acc-pay-workspace-landing-page.md)
+[Accounts Payable Operations Workspace\[Omitted image "bus-work-order.svg"\] Alt text:Learn about the Accounts Payable Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.md)
 
 </td></tr></tbody>
 </table>Regardless of whether you have installed the entire Source-to-Pay \(S2P\) product suite or any of the individual products that are part of the S2P suite, you use the Source-to-Pay Workspace to manage and work on all aspects and activities of Source-to-Pay Operations. Access to the landing pages and list views within the Source-to-Pay Workspace is role-based.
@@ -116,14 +117,14 @@ Supplier Administrator: Create, view, update, and delete all the suppliers, case
 sn\_slm.admin
 
 </td></tr></tbody>
-</table>-   **[Exploring Source-to-Pay Operations Workspace](../../accounts-payable-operations/concept/exploring-source-to-pay-operations.md)**  
+</table>-   **[Exploring Source-to-Pay Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)**  
 Learn about the key features and capabilities of Source-to-Pay Operations.
--   **[Configuring Source-to-Pay Workspace](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)**  
+-   **[Configuring Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)**  
 Plan and configure your implementation for Source-to-Pay Workspace.
--   **[Using Source-to-Pay Workspace](../../accounts-payable-operations/concept/using-source-to-pay-ws.md)**  
+-   **[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)**  
 Procurement specialists, sourcing managers, supplier managers, supplier contacts, accounts payable specialists use the Source-to-Pay Workspace to work on various requests, cases, negotiations, accelerate supplier onboarding, minimize supplier risk, validate invoice processing cases, and maximize productivity.
--   **[Source-to-Pay Workspace reference](../../accounts-payable-operations/reference/source-to-pay-ws-reference.md)**  
+-   **[Source-to-Pay Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)**  
 Reference topics provide additional information about articles, lists and forms that you use in Source-to-Pay Workspace.
 
-**Parent Topic:**[Source-to-Pay Operations](source-to-pay-operations-overview.md)
+**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/finance-and-supply-chain/source-to-pay-operations-overview.md)
 

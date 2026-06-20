@@ -2,6 +2,7 @@
 title: Update data mapping in a data fabric table
 description: Update the data mapping between a source table and a data fabric table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/update-data-fabric-table-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -54,10 +55,10 @@ A data steward might need to update the field mapping for a data fabric table in
         -   Type: record
         -   Operation: data\_fabric
         -   Name: User \[sys\_user\]
-        For details on creating a record ACL rule, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+        For details on creating a record ACL rule, see .
 
-    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://www.servicenow.com/docs/access?context=t_SelectTheDisplayValue&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
-<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d371932e192">
+    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See .
+<table id="choicetable_mqw_2tf_w2c"><tbody><tr><td id="d372148e190">
 
 **Add a reference**
 
@@ -70,7 +71,7 @@ A data steward might need to update the field mapping for a data fabric table in
 5.  Select **Set reference**.
 
 
-</td></tr><tr><td id="d371932e228">
+</td></tr><tr><td id="d372148e226">
 
 **Remove a reference**
 
@@ -86,5 +87,5 @@ In the Type column, change the column type from **Reference** back to the data t
 7.  Select **Finish**.
 
 
-**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](../concept/managing-data-fabric-tables-wdf.md)
+**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
 

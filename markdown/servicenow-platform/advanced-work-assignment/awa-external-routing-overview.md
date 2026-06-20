@@ -2,6 +2,7 @@
 title: External routing overview
 description: External Routing involves routing to external queue based on the service channel and queue conditions, and then the assignment is completed by the third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -33,9 +34,9 @@ When Advanced Work Assignment is configured to use external routing:
 
 These APIs are required for external routing:
 
--   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see [AWA Assignment API](https://www.servicenow.com/docs/access?context=awa_manual_assign-api&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US) .
--   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
--   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see [AWA Agent API](https://www.servicenow.com/docs/access?context=agent-api&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+-   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see AWA Assignment API .
+-   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see Table API.
+-   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see AWA Agent API.
 
 ## Functionality of AWA components
 
@@ -108,24 +109,24 @@ When Advanced Work Assignment is configured for external routing:
 -   The work item is immediately assigned to Accept, when the Auto-assign value is true.
 -   The auto-assigned work item is either displayed as an Inbox card, or both Inbox card and workspace tab. If the auto-assign value is false, this field is ignored.
 
--   **[Create a connection Alias for third-party provider](../task/create-cnctn-alias.md)**  
+-   **[Create a connection Alias for third-party provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/create-cnctn-alias.md)**  
 Create a connection Alias for your third-party provider to enable external routing on your instance.
--   **[Create a custom flow action](../task/create-custom-action.md)**  
+-   **[Create a custom flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/create-custom-action.md)**  
 Create a custom flow action in Workflow Studio for enabling external routing.
--   **[Create a subflow](../task/create-subflow-extrnl-route.md)**  
+-   **[Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/create-subflow-extrnl-route.md)**  
 Create a subflow for the Workflow Studio for enabling external routing.
--   **[Create a payload for external third-party providers](../task/create-payload-extrnl-provider.md)**  
+-   **[Create a payload for external third-party providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/create-payload-extrnl-provider.md)**  
 Create a payload for external third-party providers to send your work items to the external queue.
--   **[Link Subflow and Payload to External Queues](../task/link-subflow-payload-extrnl.md)**  
+-   **[Link Subflow and Payload to External Queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/link-subflow-payload-extrnl.md)**  
 Link the subflow and the payload to your external queue to complete external routing.
--   **[Enable external routing for queues](../task/enable-awa-external-routing.md)**  
+-   **[Enable external routing for queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/enable-awa-external-routing.md)**  
 Configure Advanced Work Assignment to route work items in the queue using external routing.
--   **[Configure External Routing events and payload](../task/config-extrnlroute-event-payload.md)**  
+-   **[Configure External Routing events and payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/config-extrnlroute-event-payload.md)**  
 Configure Advanced Work Assignment with external routing using AWA External Service API for CCaaS and third-party providers to enable them to submit events.
--   **[Define external routing test implementation](define-extrnl-routng-plugin.md)**  
+-   **[Define external routing test implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/define-extrnl-routng-plugin.md)**  
 Define the External Routing Test Tools plugin \[com.glide.awa.external.test\_tools\] with a simplified external-routing-provider sample Automated Test Framework \(ATF\) by using the demo data that is available with the plugin installation.
--   **[Tutorial: Route interactions by context](../task/context-routing-tutorial.md#)**  
+-   **[Tutorial: Route interactions by context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/context-routing-tutorial.md)**  
 Learn how you can configure Advanced Work Assignment to route conversations to agents according to the context of the conversation.
 
-**Parent Topic:**[Work item queues](../reference/awa-queues.md)
+**Parent Topic:**[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-queues.md)
 

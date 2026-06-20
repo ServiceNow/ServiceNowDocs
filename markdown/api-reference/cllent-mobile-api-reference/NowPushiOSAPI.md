@@ -2,6 +2,7 @@
 title: NowPush API - iOS
 description: The NowPush API is a top-level global API that enables users to instantiate a NowPush service instance.Creates an instance of NowChatService with the specified configuration.Creates an instance of NowPushService with the specified configuration, and once complete, calls the specified completion handler.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowPushiOSAPI.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API refer
 
 The NowPush API is a top-level global API that enables users to instantiate a NowPush service instance.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowPush - makePushService\(instanceUrl: URL\)
 
@@ -27,7 +28,7 @@ Creates an instance of `NowChatService` with the specified configuration.
 
 |Type|Description|
 |----|-----------|
-|AnyPublisher&lt;[Now​Push​Service](../../NowPushService/concept/NowPushServiceiOSAPI.md#), NowServiceError&gt;|If successful, returns an initialized [Now​Push​Service](../../NowPushService/concept/NowPushServiceiOSAPI.md#) object. If it fails, returns a NowServiceError object.|
+|AnyPublisher&lt;[Now​Push​Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md), NowServiceError&gt;|If successful, returns an initialized [Now​Push​Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md) object. If it fails, returns a NowServiceError object.|
 
 This example shows how to create an instance of `NowChatService`.
 
@@ -47,7 +48,7 @@ Creates an instance of `NowPushService` with the specified configuration, and on
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing push notification services.|
-|completion|@escaping \(\(Result&lt;[Now​Push​Service](../../NowPushService/concept/NowPushServiceiOSAPI.md#), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called containing either an initialized `NowPushService` instance or a `NowServiceError` indicating why the initialization failed.|
+|completion|@escaping \(\(Result&lt;[Now​Push​Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.md), Now​Service​Error&gt;\) -&gt; Void\)|Completion handler that is called containing either an initialized `NowPushService` instance or a `NowServiceError` indicating why the initialization failed.|
 
 |Type|Description|
 |----|-----------|

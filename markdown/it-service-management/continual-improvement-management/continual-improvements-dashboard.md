@@ -2,6 +2,7 @@
 title: Deprecated Continual Improvements dashboard
 description: The Continual Improvements dashboard enables an Improvement Process Coordinator or Manager to determine which process to start next, how many initiatives they have underway at a given time, and what the employee participation is.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/continual-improvements-dashboard.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -17,9 +18,9 @@ The Continual Improvements dashboard enables an Improvement Process Coordinator 
 
 This dashboard is included in the Continual Improvements Management plugin.
 
-![The Overview tab of the Continual Improvements dahsboard, showing employee engagement, total initiatives, the open backlog, and a prioritized list of CIM record according to Spotlight](../../../product/continual-improvement-management/image/cimdash.png "Continual Improvements dashboard, Overview tab")
+\[Omitted image "cimdash.png"\] Alt text: The Overview tab of the Continual Improvements dahsboard, showing employee engagement, total initiatives, the open backlog, and a prioritized list of CIM record according to Spotlight
 
-![The Outcome Analysis tab shows how many outcomes were achieved and KPIs completed in the preceding 6 months](../../../product/continual-improvement-management/image/cmdash-outcome-analysis.png "Continual Improvements dashboard - Outcome Analysis tab")
+\[Omitted image "cmdash-outcome-analysis.png"\] Alt text: The Outcome Analysis tab shows how many outcomes were achieved and KPIs completed in the preceding 6 months
 
 ## End users and roles
 
@@ -34,11 +35,11 @@ The Continual Improvements dashboard includes the following visualizations:
 
 |Report Title|Type|Description|
 |------------|----|-----------|
-|Employee Engagement|Column![Single-score icon](../../performance-analytics/image/column-icon.png)|State is not Closed or Cancelled Trended by Created|
-|Total Initiatives|Horizontal Bar![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|State is not Closed or Cancelled Grouped by State|
-|Open Backlog|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|State is not Closed or Cancelled|
-|Unassigned|Single Score![SIngle-score icon](../../performance-analytics/image/single-score.png)|CIM Coordinator is empty and State is n ot Closed or Cancelled|
-|Prioritized List Using Spotlight|List ![List icon](../../performance-analytics/image/scorecard-icon.png)|Name: Benefit High Query: benefit=high Weight: 50|
+|Employee Engagement|Column\[Omitted image "column-icon.png"\] Alt text: Single-score icon|State is not Closed or Cancelled Trended by Created|
+|Total Initiatives|Horizontal Bar\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|State is not Closed or Cancelled Grouped by State|
+|Open Backlog|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|State is not Closed or Cancelled|
+|Unassigned|Single Score\[Omitted image "single-score.png"\] Alt text: SIngle-score icon|CIM Coordinator is empty and State is n ot Closed or Cancelled|
+|Prioritized List Using Spotlight|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon|Name: Benefit High Query: benefit=high Weight: 50|
 |Name: Benefit Low Query: benefit=low Weight: 30|
 |Name: Benefit Medium Query: benefit=medium Weight: 40|
 |Name: Effort Estimate Extra Large Query: cim\_estimate=4 Weight: 50|

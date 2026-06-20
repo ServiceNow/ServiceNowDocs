@@ -2,7 +2,10 @@
 title: Review resource usage against allocated subscription units
 description: Review statistics for the resources that can be managed by ITOM products. Compare this data to the average number of allocated subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/view-resource-usage-licenses.html
 release: yokohama
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -27,12 +30,12 @@ See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. Vi
 
     For example, select **Visibility**.
 
-    ![ITOM Licensing Dashboard](../../../use/dashboards/image/itom-licensing-dashboard-021126.png "ITOM Visibility dashboard")
+    \[Omitted image "itom-licensing-dashboard-021126.png"\] Alt text: ITOM Licensing Dashboard
 
 3.  Point to a bar to view the number of CIs in each category.
 
 4.  Select the bar to view a list of the counted CIs.
 
-5.  Review the dashboard described in [ITOM/OT SU Licensing dashboard](../../../use/dashboards/application-content-packs/itom-licensing-dashboard.md).
+5.  Review the dashboard described in [ITOM/OT SU Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-licensing-dashboard.md).
 
 

@@ -2,6 +2,7 @@
 title: Catalog item generation reference
 description: Reference topics provide additional information about configuration properties, roles, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/catalog-item-generation-reference.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -16,8 +17,8 @@ breadcrumb: [Now Assist in Catalog Builder, Service Catalog, Manage service capa
 
 Reference topics provide additional information about configuration properties, roles, and more.
 
--   **[How to describe a catalog item](how-to-describe-catalog-item.md)**  
+-   **[How to describe a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)**  
 Now Assist uses the description that you write to generate a catalog item for you. If you're using Now Assist for creating a catalog item, use these points to describe your catalog item.
 
-**Parent Topic:**[Now Assist in Catalog Builder](../concept/now-assist-for-catalog-generation.md)
+**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

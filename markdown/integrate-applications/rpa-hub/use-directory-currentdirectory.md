@@ -2,6 +2,7 @@
 title: Use the CurrentDirectory component
 description: Get the current working directory path and name by using the CurrentDirectory component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-directory-currentdirectory.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the CurrentDirectory component. For more information about these properties, see [Properties of the Directory components](../reference/util-directory-prop.md).
+You can configure the properties for the CurrentDirectory component. For more information about these properties, see [Properties of the Directory components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/util-directory-prop.md).
 
 ## Procedure
 
@@ -83,5 +84,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Directory](../concept/directory.md)
+**Parent Topic:**[Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/directory.md)
 

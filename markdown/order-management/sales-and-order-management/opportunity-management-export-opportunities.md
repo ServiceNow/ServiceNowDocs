@@ -2,6 +2,7 @@
 title: Export opportunities
 description: You can export an opportunity as a JSON file in Opportunity Management and provide it to a customer. The export opportunity feature in Opportunity Management exports a list of all opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/opportunity-management-export-opportunities.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![List view icon.](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: List view icon. and select **Opportunity - All**.
 
 2.  Select the **Export** button.
 

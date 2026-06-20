@@ -2,6 +2,7 @@
 title: Components installed with Digital Product Release
 description: Several types of components are installed with activation of the Digital Product Release app, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/installed-with-dpr.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
@@ -424,7 +425,7 @@ Relationships of releases that are grouped into various release bundles.
 
 Release Calendar
 
- \[sn\_dpr\_model.release\_calendar\]
+ \[sn\_dpr\_model\_release\_calendar\]
 
 </td><td>
 
@@ -531,5 +532,5 @@ Work Item
 Mapping between product enhancements and work items\(records in the Work Item table \(sn\_devops\_work\_item\)\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-reference.md)
 

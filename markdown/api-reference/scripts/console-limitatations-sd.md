@@ -2,6 +2,7 @@
 title: Limitations with using Console
 description: You need to be aware of a few limitations when you use Console to evaluate expressions while debugging a script in runtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/console-limitatations-sd.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -21,5 +22,5 @@ You need to be aware of a few limitations when you use Console to evaluate expre
 -   A script debugger timeout occurs when you evaluate expressions in Console.
 -   While executing long scripts, if you see the response `Awaiting response from server`, you can't resume debugging or stop debugging using the resume or stop controls.
 
-**Parent Topic:**[Evaluate expressions in runtime using Console](../task/evaluate-expressions.md)
+**Parent Topic:**[Evaluate expressions in runtime using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/evaluate-expressions.md)
 

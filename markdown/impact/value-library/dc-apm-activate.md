@@ -2,6 +2,7 @@
 title: Activate Data Collection for APM
 description: Activate the Data Collection Pack for APM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-apm-activate.html
 release: yokohama
 product: Value Library
 classification: value-library

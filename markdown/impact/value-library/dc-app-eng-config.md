@@ -2,6 +2,7 @@
 title: Configure Data Collection for App Engine
 description: Configure Data Collection for App Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-app-eng-config.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -27,6 +28,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Jul 2024 cell selected with an Indicator score of 5,000.](../image/dct_config_appeng.png)
+    \[Omitted image "dct\_config\_appeng.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score of 5,000.
 
 

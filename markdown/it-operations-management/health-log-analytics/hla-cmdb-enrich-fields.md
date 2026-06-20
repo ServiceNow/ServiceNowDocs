@@ -2,6 +2,7 @@
 title: Field descriptions for log-based CI candidates
 description: Field descriptions for the Log-based CI candidates table, the Log-based CI candidate form, and the Add CI candidate to CMDB form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -342,5 +343,5 @@ IsVirtual
 Option for indicating whether the device is running on a virtual machine instance.​
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enhancing the CMDB with host data found in logs](../concept/hla-cmdb-enrich-concept.md)
+</table>**Parent Topic:**[Enhancing the CMDB with host data found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

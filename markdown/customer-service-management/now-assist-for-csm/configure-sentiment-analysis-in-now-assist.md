@@ -2,6 +2,7 @@
 title: Configure sentiment analysis case
 description: Configure Sentiment Analysis to evaluate case sentiment, trends, and reasoning from case inputs, helping agents resolve cases more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-sentiment-analysis-in-now-assist.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm

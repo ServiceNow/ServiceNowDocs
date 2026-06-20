@@ -2,6 +2,7 @@
 title: Configuring access to CI data on your Google Cloud account
 description: To ensure secure and reliable communications, the Discovery process communicates with your cloud provider accounts and cloud resources through one or more MID Servers. You can set up the MID Servers on your network or in one of your cloud networks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/cloud-in-midserver-config-gcp.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -23,7 +24,7 @@ To ensure secure and reliable communications, the Discovery process communicates
 
 ## Detailed instructions
 
-[Google Cloud Platform Discovery](https://www.servicenow.com/docs/access?context=google-gcp-discovery-pattern&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US)
+Google Cloud Platform Discovery
 
 ## MID Server settings for Cloud Cost Management
 
@@ -70,14 +71,14 @@ The **ALL** setting includes all required applications and capabilities. Alterna
 </td></tr></tbody>
 </table>## Using a proxy server
 
-You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for Cloud Cost Management MID Server](gcp-mid-proxy-cloudin.md).
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/gcp-mid-proxy-cloudin.md).
 
 **Related topics**  
 
 
-[MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

@@ -2,6 +2,7 @@
 title: Legacy - Users tab
 description: Get detailed information on Virtual Agent users such as the time of the last chat, length of the chat, and other metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/users-tab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Get detailed information on Virtual Agent users such as the time of the last cha
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -27,16 +28,16 @@ The **Users** tab provides summary information about all users and detailed info
 
 To access the **Users** tab, you must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role.
 
-![Virtual Agent Analytics Users page, with users filter set to All, highlighted.](../images/users-tab-va.png "Users page")
+\[Omitted image "users-tab-va.png"\] Alt text: Virtual Agent Analytics Users page, with users filter set to All, highlighted.
 
 ## Users tab benefits
 
 The **Users** tab enables you to do the following:
 
--   Filter the list of users by using pre-built filtering options. For more information, see [Filtering the list of users](users-tab-filtering.md#section_chp_ddh_5pb).
--   Filter the list of users based on a specific condition and save conditions for filtering. For more information, see [Filter using the condition builder](users-tab-filtering.md#section_ons_xck_vpb).
--   View summarized information about users. For more information, see [User information](users-tab.md#section_vn2_kyj_b4b).
--   Export the list of users to a file. For more information, see [Export the list of users](users-tab.md#section_b4c_m3h_5pb).
+-   Filter the list of users by using pre-built filtering options. For more information, see [Filtering the list of users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/users-tab-filtering.md).
+-   Filter the list of users based on a specific condition and save conditions for filtering. For more information, see [Filter using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/users-tab-filtering.md).
+-   View summarized information about users. For more information, see [User information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/users-tab.md).
+-   Export the list of users to a file. For more information, see [Export the list of users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/users-tab.md).
 
 ## Export the list of users
 
@@ -131,16 +132,16 @@ Indicates whether the user is tagged as favorite.
 |Channel Count|Number of channels a user used. A channel is the client app the user used, such as Slack. For example, if all users have used only one channel to chat with Virtual Agent, then setting the filter value to 2 eliminates all the users in the list.|
 |Channels|Only displays users that used the specified channel to chat.|
 |Conversation Count|Only displays users that have the number of conversations specified in the filter.|
-|Favorite|Only displays users that you marked as favorite, or conversely, not marked as favorite in the User Details page. For more information, see [Legacy - User Details page](user-page.md).|
+|Favorite|Only displays users that you marked as favorite, or conversely, not marked as favorite in the User Details page. For more information, see [Legacy - User Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/user-page.md).|
 |First Conversation Time|Only displays users where the first conversation is within the time period specified.|
 |Language|Only displays users that chat using the specified language.|
 |Last Conversation Time|Only displays users where the last conversation is within the time period specified.|
 |Time in Chat|Only displays users whose chat durations are within the time period specified, for example, more than 30 seconds.|
 
--   **[Legacy - User Details page](user-page.md)**  
+-   **[Legacy - User Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/user-page.md)**  
 Use the User Details page to see the history of a user's conversations.
--   **[Legacy - Use filters in the Users tab](users-tab-filtering.md)**  
+-   **[Legacy - Use filters in the Users tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/users-tab-filtering.md)**  
 You can use filters to get a deeper understanding of User data.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

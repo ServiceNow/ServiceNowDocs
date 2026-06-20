@@ -2,6 +2,7 @@
 title: Activate Data Collection for CSM
 description: Activate the Data Collection Pack for CSM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-csm-activate.html
 release: yokohama
 product: Value Library
 classification: value-library

@@ -2,6 +2,7 @@
 title: Tutorial: Set up a custom service channel for change requests
 description: Learn how to configure Advanced Work Assignment to automatically assign change requests to agents. Use this tutorial as a guideline to help you understand how service channel records, queues, and assignment rules work together to create a custom service channel.Create a service channel in Advanced Work Assignment so that you can route change requests to agents.Create an assignment rule in Advanced Work Assignment that assigns change requests to agents who are available to do the tasks.Create a work item queue in Advanced Work Assignment that routes new change requests through the service channel that handles change requests.Create an eligible assignment pool in Advanced Work Assignment that receives overflow work items, just in case you need more help from other agents to handle change requests.Make your service channel available in Agent Workspace so that agents can receive change requests in their inbox.Customize how change requests appear in an agent inbox so that agents receive enough information to decide whether to accept or reject the work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/custom-channel-tutorial.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -22,14 +23,14 @@ In this tutorial, you learn how to set up a custom channel that:
 -   Displays the change request number, short description, and type on the inbox card
 -   Enables the agent to accept or reject change requests
 
-For information on setting up custom service channels, see [Set up a custom service channel](../task/setup-custom-channel.md).
+For information on setting up custom service channels, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/setup-custom-channel.md).
 
 Before you begin:
 
 -   Ensure that the form layout for the Change Request table is configured for the workspace view; otherwise, work items from the Change Request service channel appear as read-only in Agent Workspace. For more information, see Set up forms in legacy workspace.
 -   Assign the awa\_agent and workspace\_agent roles to the Change Management group so that members can open work items in Agent Workspace.
 
-**Parent Topic:**[Set up a custom service channel](../task/setup-custom-channel.md)
+**Parent Topic:**[Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/setup-custom-channel.md)
 
 ## Create a service channel to route requests
 
@@ -202,5 +203,5 @@ Role required: awa\_admin or admin
 
 When you create a change request, the item is routed through the Change Request service channel and assigned to the agent in the Change Management assignment group who is available to receive the change request. When the assignee checks their agent inbox, the change request appears with the option for the agent to either reject or accept the work item.
 
-![Change work item in agent inbox](../image/ChangeWorkItem.png "Change request in an agent inbox")
+\[Omitted image "ChangeWorkItem.png"\] Alt text: Change work item in agent inbox
 

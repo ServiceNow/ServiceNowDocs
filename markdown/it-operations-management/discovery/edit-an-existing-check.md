@@ -2,6 +2,7 @@
 title: Edit an existing check
 description: By editing the definition check, you can change description and script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/edit-an-existing-check.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -37,5 +38,5 @@ Role required: admin
     -   MID suite runs once a week on Sunday at 10 AM.
     -   Self monitoring suite runs every 15 mins.
 
-**Parent Topic:**[Discovery Admin Workspace Tuning](../concept/discovery-admin-workspace-tuning.md)
+**Parent Topic:**[Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-tuning.md)
 

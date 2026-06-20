@@ -2,6 +2,7 @@
 title: Learn about the Yokohama release
 description: The Yokohama release includes new features and improvements built on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-learn-landing-page.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-03-12"
@@ -24,15 +25,15 @@ Before you upgrade, review release notes from your current version to the Yokoha
 
 <table id="table_qvn_nkz_smb" class="nav-card"><tbody><tr><td>
 
-[Upgrade from Xanadu ![icon for the tile upgrade from n-1 to n](../image/n-1-upgrades.png) Release notes for upgrading from Xanadu to the Yokohama release](rn-n-1-landing-page.md)
+[Upgrade from Xanadu \[Omitted image "n-1-upgrades.png"\] Alt text: icon for the tile upgrade from n-1 to n Release notes for upgrading from Xanadu to the Yokohama release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
 
 </td><td>
 
-[Upgrade from Washington DC ![icon for the tile upgrade from n-2 to n](../image/n-2-upgrades.png) Release notes for upgrading from Washington DC to the Yokohama release](rn-n-2-landing-page.md)
+[Upgrade from Washington DC \[Omitted image "n-2-upgrades.png"\] Alt text: icon for the tile upgrade from n-2 to n Release notes for upgrading from Washington DC to the Yokohama release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
 
 </td><td>
 
-[Upgrade from Vancouver ![icon for the tile upgrade from n-3 to n](../image/n-3-upgrades.png) Release notes for upgrading from Vancouver to the Yokohama release](rn-n-3-landing-page.md)
+[Upgrade from Vancouver \[Omitted image "n-3-upgrades.png"\] Alt text: icon for the tile upgrade from n-3 to n Release notes for upgrading from Vancouver to the Yokohama release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
 
 </td></tr></tbody>
 </table>

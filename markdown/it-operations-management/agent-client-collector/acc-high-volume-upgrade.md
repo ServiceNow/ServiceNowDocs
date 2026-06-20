@@ -2,6 +2,7 @@
 title: Perform high-volume Agent Client Collector upgrade
 description: Perform high-volume upgrade of your Agent Client Collector agents when you want to upgrade all of your agents at one time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-high-volume-upgrade.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Perform high-volume upgrade of your Agent Client Collector agents when you want 
 
 ## Before you begin
 
-Configure the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+Configure the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 
 Ensure that the MID Server, MID Web Server, and the MID Server websocket server are running.
 

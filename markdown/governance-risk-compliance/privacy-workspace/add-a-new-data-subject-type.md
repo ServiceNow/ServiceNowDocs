@@ -2,11 +2,12 @@
 title: Add data subject type to a processing activity
 description: Add data subject types to a processing activity in the Privacy Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/add-a-new-data-subject-type.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(![List icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Processing activities** &gt; **All processing activities**.
 
@@ -48,5 +49,5 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 
 The data subject type that you added appears in the **Data subject types** table.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

@@ -2,11 +2,12 @@
 title: Generate and modify resolution steps in AIOps LEAP
 description: Learn how to generate, edit, and track AI-generated resolution steps for automation opportunities in AIOps LEAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generating-and-modifying-resolution-steps.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
@@ -42,7 +43,7 @@ Role required: System admin
 
 3.  If resolution steps are unavailable in the Overview section, select **Generate resolution steps**.
 
-4.  If resolution steps are available, and you want to get alternate resolution steps, then use the **Regenerate** button.![Regenerate resolution steps](../images/regenerate-resolution-steps.png)
+4.  If resolution steps are available, and you want to get alternate resolution steps, then use the **Regenerate** button.\[Omitted image "regenerate-resolution-steps.png"\] Alt text: Regenerate resolution steps
 
     **Note:**
 

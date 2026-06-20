@@ -2,6 +2,7 @@
 title: Proofpoint integration settings
 description: The Proofpoint integration settings enable you to modify the system properties for your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/review-proofpoint-integration-settings-sir.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

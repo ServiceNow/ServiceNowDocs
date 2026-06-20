@@ -2,6 +2,7 @@
 title: Exploring Access Analyzer
 description: Analyze identities on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/explore-access-analyzer.html
 release: yokohama
 product: Identity
 classification: identity

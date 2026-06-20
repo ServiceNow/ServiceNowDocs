@@ -2,6 +2,7 @@
 title: Modify the data retention policy for knowledge usage metrics
 description: Remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table through the data retention policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -33,7 +34,7 @@ Activating the data retention policy for the kb\_usage\_metrics table deletes re
 
 4.  Adjust the duration the system waits before deleting the records by modifying the value in the **Age in seconds** field.
 
-    By default, the **Age in seconds** field value is set to 2,592,000 seconds \(equivalent to 30 days\). For more information, see [Autoflush form](https://www.servicenow.com/docs/access?context=atf-auto-flush&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+    By default, the **Age in seconds** field value is set to 2,592,000 seconds \(equivalent to 30 days\). For more information, see Autoflush form.
 
 5.  Click **Update**.
 

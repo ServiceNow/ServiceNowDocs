@@ -2,6 +2,7 @@
 title: Resolve the loading failure of your DEX Desktop Assistant screen
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/resolve-loading-da-screen.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -38,5 +39,5 @@ The DEX Desktop Assistant is not loading because the user is not a valid DEX use
 5.  Verify that the DEX Desktop Assistant application is installed on the instance to which you're connecting.
 
 
-**Parent Topic:**[DEX Desktop Assistant reference](dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

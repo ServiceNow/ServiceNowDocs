@@ -2,6 +2,7 @@
 title: Using Quote Management
 description: Use the Quote Management application to build your quote. Quotes can be used for quote generation or sales agreement generation. The interface includes the following tabs to help you create and manage product quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-mgmt-using.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,12 +31,12 @@ Use these basic steps to create, build, and manage your quotes.
 
 |Step|Description|
 |----|-----------|
-|[Create a quote](../task/create-new-quote.md)|Start a quote, then [add and view quote details.](../task/quote-management-details-tab.md)|
-|[Add products to a quote](../task/quote-management-catalog-tab.md)|Build your quote by adding products from the product catalogs.|
-|[Create a quote PDF document](../task/quote-create-pdf-document.md)|Sales agents can create a PDF document from a quote to send to customers.|
-|[View and update products in your quote](../task/quote-management-line-items-tab.md)-|Use the Line items tab to see and update products in your quote.|
-|[View and update manual pricing adjustments in quotes](../task/quote-management-pricing-adjustments-tab.md)|Add pricing adjustments to quotes.|
-|[Get additional product offering recommendations for quotes](../task/quote-get-product-offer.md)|Use product offering recommendations to find other products that you can upsell or cross-sell to your customers based on the line items in your quote.|
-|[Create quote versions](../task/quote-management-revisions-tab.md)|Use the Revisions tab to create and view versions of a quote.|
-|[Convert quotes into orders](../task/quote-management-customer-orders-tab.md)|Use the Customer Orders tab to convert quotes to orders.|
+|[Create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-new-quote.md)|Start a quote, then [add and view quote details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-details-tab.md)|
+|[Add products to a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-catalog-tab.md)|Build your quote by adding products from the product catalogs.|
+|[Create a quote PDF document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-create-pdf-document.md)|Sales agents can create a PDF document from a quote to send to customers.|
+|[View and update products in your quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-line-items-tab.md)-|Use the Line items tab to see and update products in your quote.|
+|[View and update manual pricing adjustments in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-pricing-adjustments-tab.md)|Add pricing adjustments to quotes.|
+|[Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-get-product-offer.md)|Use product offering recommendations to find other products that you can upsell or cross-sell to your customers based on the line items in your quote.|
+|[Create quote versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-revisions-tab.md)|Use the Revisions tab to create and view versions of a quote.|
+|[Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-customer-orders-tab.md)|Use the Customer Orders tab to convert quotes to orders.|
 

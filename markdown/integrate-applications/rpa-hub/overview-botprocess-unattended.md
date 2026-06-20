@@ -2,6 +2,7 @@
 title: Using the Overview tab to view the bot processes in RPA Hub
 description: By using the Overview tab in RPA Hub, you can quickly view the bot process details in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/overview-botprocess-unattended.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -46,15 +47,15 @@ To access the **Overview** tab, you must have one of the following roles:
 
 The **Overview** tab for an unattended bot process is shown in the following example.
 
-![Overview tab for a published unattended bot process.](../image/overview-unattended-trigger-mode-removed.jpg "Overview tab for an unattended bot process")
+\[Omitted image "overview-unattended-trigger-mode-removed.jpg"\] Alt text: Overview tab for a published unattended bot process.
 
 The **Overview** tab for an attended bot process is shown in the following example.
 
-![Overview tab for a published attended bot process.](../image/overview-attended.jpg "Overview tab for an attended bot process")
+\[Omitted image "overview-attended.jpg"\] Alt text: Overview tab for a published attended bot process.
 
 ## Details of the sections in the Overview tab
 
-For more information about the **Overview** tab, see [Get a snapshot of a bot process](../task/open-overview-page-rpa.md).
+For more information about the **Overview** tab, see [Get a snapshot of a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/open-overview-page-rpa.md).
 
 **Note:** If you don't have access to a particular table, you can't see that table in the **Overview** tab.
 
@@ -120,7 +121,7 @@ Associated business applications.For example, Ariba, Microsoft Excel, or Google 
 
  To view more business applications, select **View all**.
 
- To add a business application, select **Add business application**. For more information about adding a business application, see [Assign a business application with a bot process](../task/associate-business-apps.md).
+ To add a business application, select **Add business application**. For more information about adding a business application, see [Assign a business application with a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/associate-business-apps.md).
 
  You can't add a business application when the bot process is published.
 
@@ -132,7 +133,7 @@ Shared parameters
 
 Associated shared parameters.To view more shared parameters, select **View all**.
 
- To add a shared parameter, select **Add parameters**. For more information about adding a shared parameter, see [Create a shared parameter in RPA Hub](../task/create-shared-parameter.md).
+ To add a shared parameter, select **Add parameters**. For more information about adding a shared parameter, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-shared-parameter.md).
 
  You can't add a shared parameter when the bot process is published.
 
@@ -238,7 +239,7 @@ Activity
 
 </td><td>
 
-Activity of the form, work notes, and additional comments that you can view.Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](../task/display-activity-stream-sys-property-rpahub.md).
+Activity of the form, work notes, and additional comments that you can view.Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/display-activity-stream-sys-property-rpahub.md).
 
 </td></tr></tbody>
 </table>

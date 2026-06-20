@@ -2,6 +2,7 @@
 title: Create a customized template task
 description: Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Asset Management application. You can’t modify or delete a default template task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/create-customized-template-task.html
 release: yokohama
 product: Asset Management
 classification: asset-management
@@ -48,5 +49,5 @@ Template tasks help you progress through the various stages of the transfer orde
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create a transfer order line](t_CreateATransferOrderLine.md)
+**Parent Topic:**[Create a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreateATransferOrderLine.md)
 

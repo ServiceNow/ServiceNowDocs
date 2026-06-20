@@ -2,9 +2,12 @@
 title: View CIs consuming ITOM subscription units
 description: Generate a list of currently countable CIs for each of the ITOM applications: ITOM Visibility, Discovery, ITOM AIOps, Health Log Analytics, ITOM Cloud Accelerate, and ITOM Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-licensing-count.html
 release: yokohama
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -22,6 +25,8 @@ Role required: sn\_itom\_license.reader
 ## About this task
 
 The generated CI list is closely correlated to the latest daily CI count. At the same time, the number of CIs on the generated CI list may be slightly different from the latest daily CI count, if changes occurred since the last daily count.
+
+**Note:** To estimate the predicted usage under 2026 Packaging SKUs, see [Generate CI consumption predictions for 2026 Packaging SKU migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/generate-ci-consumption-predictions.md)
 
 ## Procedure
 

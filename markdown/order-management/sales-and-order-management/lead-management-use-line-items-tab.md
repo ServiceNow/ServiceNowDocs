@@ -2,6 +2,7 @@
 title: Add line items to a lead
 description: Create a new product line item for your lead by entering the details, such as product offering and quantity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/lead-management-use-line-items-tab.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Leads****All**.
 
@@ -46,5 +47,5 @@ Role required: sales\_agent
 
 ## What to do next
 
-[.Add lead tasks](lead-management-use-tasks-tab.md).
+[.Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/lead-management-use-tasks-tab.md).
 

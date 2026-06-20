@@ -2,6 +2,7 @@
 title: Create a time sheet
 description: Create a time sheet to group all your time cards for the given week from the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-timesheet-fsm-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ Role required: wm\_agent
 
 Add time cards to the time sheet.
 
-**Parent Topic:**[Time Sheets in Mobile Agent](../concept/timesheet-fsm-mobile.md)
+**Parent Topic:**[Time Sheets in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/timesheet-fsm-mobile.md)
 

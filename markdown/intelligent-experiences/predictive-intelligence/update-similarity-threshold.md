@@ -2,6 +2,7 @@
 title: Update your similarity score threshold
 description: After you review the similarity examples provided by the system, update your solution similarity score threshold if you want the results returned by the solution to be more or less similar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/update-similarity-threshold.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence

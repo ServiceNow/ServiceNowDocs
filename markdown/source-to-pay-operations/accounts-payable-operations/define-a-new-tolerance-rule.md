@@ -2,6 +2,7 @@
 title: Define an invoice tolerance rule
 description: Configure invoice tolerance rule definition for a tolerance type to be applied to invoices matching the invoice filter's conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,21 +26,21 @@ Enable sn\_ap\_apm.reader role to access invoice filters for tolerance rules.
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **All** &gt; **Tolerance rules**.
 
-    ![Navigate to Tolerance rules](../image/apo-tolerance-rules-nav.png)
+    \[Omitted image "apo-tolerance-rules-nav.png"\] Alt text: Navigate to Tolerance rules
 
 2.  On the **Invoice Tolerance rule** list, select **New**.
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_zfx_wfs_xyb"><thead><tr><th align="left" id="d185084e106">
+<table id="choicetable_zfx_wfs_xyb"><thead><tr><th align="left" id="d106006e106">
 
 Field
 
-</th><th align="left" id="d185084e109">
+</th><th align="left" id="d106006e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185084e115">
+</th></tr></thead><tbody><tr><td id="d106006e115">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the tolerance rule.
 
-</td></tr><tr><td id="d185084e124">
+</td></tr><tr><td id="d106006e124">
 
 **Active**
 
@@ -55,7 +56,7 @@ Name of the tolerance rule.
 
 Option to make the tolerance rule available for invoice processing.
 
-</td></tr><tr><td id="d185084e133">
+</td></tr><tr><td id="d106006e133">
 
 **Type**
 
@@ -63,7 +64,7 @@ Option to make the tolerance rule available for invoice processing.
 
 The tolerance type that you would like to associate with the tolerance rule.
 
-</td></tr><tr><td id="d185084e148">
+</td></tr><tr><td id="d106006e148">
 
 **Order**
 
@@ -71,7 +72,7 @@ The tolerance type that you would like to associate with the tolerance rule.
 
 Defines the priority in which you would like to process the tolerance rule. The lowest order is applied on the invoice. Example: If there are two rules applicable with the orders set as 10 and 20. Rule with order 10 is applied on the invoice.
 
-</td></tr><tr><td id="d185084e158">
+</td></tr><tr><td id="d106006e158">
 
 **Tolerance value**
 
@@ -79,7 +80,7 @@ Defines the priority in which you would like to process the tolerance rule. The 
 
 Set the permissible variance limit of type numeric and positive numbers only. Example: 200
 
-</td></tr><tr><td id="d185084e170">
+</td></tr><tr><td id="d106006e170">
 
 **Tolerance percentage**
 
@@ -87,7 +88,7 @@ Set the permissible variance limit of type numeric and positive numbers only. Ex
 
 The permissible variance percentage.
 
-</td></tr><tr><td id="d185084e179">
+</td></tr><tr><td id="d106006e179">
 
 **Condition type**
 
@@ -97,7 +98,7 @@ Determine whether the value and percentage both need to be met or whether one of
 -   **OR**-Iif either the **Tolerance value** or **Tolerance percentage** values should be met.
 
 
-</td></tr><tr><td id="d185084e229">
+</td></tr><tr><td id="d106006e229">
 
 **Invoice filters**
 
@@ -113,5 +114,5 @@ Filter condition to determine the invoices for which the tolerance rule is appli
 
 The tolerance rule is configured for the selected tolerance type.
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

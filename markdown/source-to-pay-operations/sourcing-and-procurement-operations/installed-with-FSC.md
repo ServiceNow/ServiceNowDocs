@@ -2,6 +2,7 @@
 title: Components installed with Sourcing and Procurement Operations
 description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -225,7 +226,7 @@ Can view and access the Pipeline management tab.
 None
 
 </td></tr></tbody>
-</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see [Application administration](https://www.servicenow.com/docs/access?context=application-administration&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see .
 
 ## Roles installed with Procurement Case Management \(sn\_spend\_psd\)
 
@@ -1232,5 +1233,5 @@ This property is enabled by default. However, if this property is disabled, do t
 4.  If the **Value** field shows **OFF**, change it to **ON** to enable this property.
 5.  Select **Update**.
 
-**Parent Topic:**[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 

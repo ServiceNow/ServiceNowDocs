@@ -2,6 +2,7 @@
 title: Get help with Zero Copy Connector for ERP
 description: To get help with Zero Copy Connector for ERP, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-get-help-now.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,14 +26,14 @@ How to get help from your admin
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [Zero Copy Connector for ERP Community](https://www.servicenow.com/community/app-engine-for-erp/ct-p/app-engine-erp)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/exploring-erp-integration.md)
 

@@ -2,6 +2,7 @@
 title: View the Secureworks tickets and the corresponding security incidents
 description: The imported Secureworks CTP tickets are initially stored in the Ticket Import table. View all the Secureworks CTP tickets that have been imported before any filter conditions are applied.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/secureworks-ctp-view-tickets.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

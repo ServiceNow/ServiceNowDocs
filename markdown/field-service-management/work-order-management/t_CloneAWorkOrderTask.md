@@ -2,6 +2,7 @@
 title: Clone a work order task
 description: Clone existing tasks to quickly create new tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_CloneAWorkOrderTask.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ Clone existing tasks to quickly create new tasks.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -36,12 +37,12 @@ In the cloning process, the following information is copied from the source task
 
 1.  Open the task from the related list in a work order.
 
-2.  Select the **Clone Task** related link.![Work order task page with the clone task link highlighted.](../../field-service-management/image/clone-work-order-task.png)
+2.  Select the **Clone Task** related link.\[Omitted image "clone-work-order-task.png"\] Alt text: Work order task page with the clone task link highlighted.
 
     This creates a new task in **Draft** state.
 
     An entry in the **Work Notes** field contains the original task number and text stating that the task is a clone.
 
 
-**Parent Topic:**[Manage work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

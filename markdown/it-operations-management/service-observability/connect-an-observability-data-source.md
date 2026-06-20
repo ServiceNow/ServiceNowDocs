@@ -2,6 +2,7 @@
 title: Connect a Service Observability data source
 description: Connect Service Observability to an external application performance management \(APM\) instance. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that APM instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/connect-an-observability-data-source.html
 release: yokohama
 product: Service Observability
 classification: service-observability
@@ -253,7 +254,7 @@ A new connection appears in the list of observability data sources. You use this
 
 ## What to do next
 
-Map your connection to the services that you want to monitor in Service Observability. See [Create and manage data mappings](create-and-manage-observability-data-mappings.md).
+Map your connection to the services that you want to monitor in Service Observability. See [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/configuring-service-observability.md)
 

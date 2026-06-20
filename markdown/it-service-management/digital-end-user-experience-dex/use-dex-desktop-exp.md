@@ -2,6 +2,7 @@
 title: Use DEX Desktop Assistant
 description: Use DEX Desktop Assistant to get quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -35,9 +36,9 @@ Header
 
 The header includes the application name, the notification icon, and, the user icon.
 
- The notification bell icon \(![Notification bell icon](../image/icon-notification-bell.png)\) displays a red dot with a number to indicate the number of new notifications.
+ The notification bell icon \(\[Omitted image "icon-notification-bell.png"\] Alt text: Notification bell icon\) displays a red dot with a number to indicate the number of new notifications.
 
- Use the user profile icon \(![User's profile icon that can be used to login and logout from Desktop Assistant.](../image/icon-user-login.png)\) to log out of Desktop Assistant.
+ Use the user profile icon \(\[Omitted image "icon-user-login.png"\] Alt text: User's profile icon that can be used to login and logout from Desktop Assistant.\) to log out of Desktop Assistant.
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Sections
 
 Sections help you search for items by arranging them sequentially and in logical groups. By default, ServiceNow provides the My resources and Quick links sections.
 
- Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section in the Desktop Assistant home page](../task/add-home-page-section.md).
+ Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section in the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/add-home-page-section.md).
 
 </td></tr><tr><td>
 
@@ -55,12 +56,12 @@ Cards
 
 </td><td>
 
-Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check your device's health using Desktop Assistant](../task/check-your-device-s-health-using-desktop-assistant.md).
--   Network test: Run network diagnostic tests. For more information, see [Test the internet connection of your system](../task/test-internet-connection.md).
--   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center](../task/open-employee-center.md).
--   Outages: View outages on Employee Center. For more information, see [Open outages](../task/open-outages.md).
+Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check your device's health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
+-   Network test: Run network diagnostic tests. For more information, see [Test the internet connection of your system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/test-internet-connection.md).
+-   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/open-employee-center.md).
+-   Outages: View outages on Employee Center. For more information, see [Open outages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/open-outages.md).
 
-By default, the Device health check and Network test cards are mapped to the My resources section and the Employee Center and Outages cards are mapped to the Quick links section. Desktop Assistant administrators can map or remove cards from any section on the home page. For more information, see [Map a card to a section](../task/map-card-section.md) and [Delete a card from the Home page](../task/delete-card.md).
+By default, the Device health check and Network test cards are mapped to the My resources section and the Employee Center and Outages cards are mapped to the Quick links section. Desktop Assistant administrators can map or remove cards from any section on the home page. For more information, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/map-card-section.md) and [Delete a card from the Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/delete-card.md).
 
 </td></tr></tbody>
 </table>**Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:

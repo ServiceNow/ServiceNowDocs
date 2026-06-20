@@ -2,7 +2,10 @@
 title: Agent assist
 description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-agent-assist.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 1
@@ -19,6 +22,6 @@ Agent assist provides agents with automatic search results that show possible so
 
 For more information about using contextual search for Agent Assist, see the following topics:
 
--   [Contextual search](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+-   
 -   
 

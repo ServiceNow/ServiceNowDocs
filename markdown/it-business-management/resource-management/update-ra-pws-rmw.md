@@ -2,6 +2,7 @@
 title: Update resource assignment from Project Workspace
 description: Update a resource assignment that is associated with a project or project task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/update-ra-pws-rmw.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -48,5 +49,5 @@ Before updating a resource assignment, verify the following to ensure accurate a
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 
 
-**Parent Topic:**[Manage resource assignments from Project Workspace](../concept/use-ra-rmw.md)
+**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/use-ra-rmw.md)
 

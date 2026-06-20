@@ -2,7 +2,10 @@
 title: Change your password directly from the Customer Service Portal
 description: Change your password directly from the Customer Service Portal. Users with the required roles can change their passwords from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ChangePasswordFromUserForm.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

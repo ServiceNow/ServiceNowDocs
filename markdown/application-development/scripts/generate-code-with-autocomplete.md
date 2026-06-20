@@ -2,11 +2,12 @@
 title: Generate code with autocomplete
 description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/generate-code-with-autocomplete.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for code generation, Scripting, Building pro-code applications, Developing your application, Building applications]
 ---

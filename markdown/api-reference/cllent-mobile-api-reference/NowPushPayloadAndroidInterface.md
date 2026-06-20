@@ -2,6 +2,7 @@
 title: NowPushPayload interface
 description: The NowPushPayload interface defines the push notification payload that the NowSDK implements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowPushPayloadAndroidInterface.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -72,5 +73,5 @@ title
 Title of the push notification.Data type: String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

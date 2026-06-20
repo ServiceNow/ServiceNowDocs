@@ -2,6 +2,7 @@
 title: Funnels tab
 description: Funnels provide cumulative filtering of conversation flows. Using funnels, you can identify whether your conversation flows are performing effectively when users chat with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/funnels-tab.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -17,15 +18,15 @@ Funnels provide cumulative filtering of conversation flows. Using funnels, you c
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 If you are an existing user of this dashboard and want to migrate analytics data to the new dashboard, see [Migrate data to Conversational Analytics dashboard in Platform Analytics experience \[KB1651556\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1651556).
 
-![Select the Funnels option on the menu to view the Funnels page.](../images/funnels-page.png "Funnels page")
+\[Omitted image "funnels-page.png"\] Alt text: Select the Funnels option on the menu to view the Funnels page.
 
-![Video link to Funnels demo.](../../conversational-interfaces/image/icon-video-link.png) [Funnels demo](https://www.youtube.com/watch?v=YMAaTSzPhwM&t=714s) Watch this video for an overview of Funnels.
+\[Omitted image "icon-video-link.png"\] Alt text: Video link to Funnels demo. [Funnels demo](https://www.youtube.com/watch?v=YMAaTSzPhwM&t=714s) Watch this video for an overview of Funnels.
 
 ## Overview of funnels
 
@@ -47,7 +48,7 @@ Each step in a funnel consists of the following:
 -   Operator: A list of operators that is contextually generated based on the selected field.
 -   Value: A text entry field or a list that is contextually generated based on the selected field.
 
-For more information about filtering options in steps, see [Legacy - Filter options in funnels](../reference/filter-options-funnels.md).
+For more information about filtering options in steps, see [Legacy - Filter options in funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/filter-options-funnels.md).
 
 ## Use case for funnels
 
@@ -59,7 +60,7 @@ Consider an example scenario where an admin has to get insights about how Virtua
 
 For example, see the following funnel for fetching metrics on a conversational flow that provides software access.
 
-![The filter specifies the Software Access standard topic in which the Drive Flow Executed topic node has run and the user requested a transfer to a live agent.](../images/drive.png "Funnel")
+\[Omitted image "drive.png"\] Alt text: The filter specifies the Software Access standard topic in which the Drive Flow Executed topic node has run and the user requested a transfer to a live agent.
 
 Here, the funnel has three filtering steps:
 
@@ -75,7 +76,7 @@ You can improve the conversation flows based on the performance metrics derived 
 
 Using the previous example, that funnel displays the following metrics:
 
-![The metrics show the percentage and number of users who made it through the steps and the step that experienced the biggest drop-off point for users.](../images/metrics.png "Metrics for funnels")
+\[Omitted image "metrics.png"\] Alt text: The metrics show the percentage and number of users who made it through the steps and the step that experienced the biggest drop-off point for users.
 
 Here, the metrics indicate the following for the selected date range:
 
@@ -87,16 +88,16 @@ These example metrics indicate an opportunity for improvement because 23 users r
 
 ## Other benefits of using funnels
 
-Users can create funnels to get insights on their conversation flows. Additionally, they can edit and delete existing funnels created by other users. For more information, see [Legacy - Create and manage funnels](../task/create-manage-funnels.md).
+Users can create funnels to get insights on their conversation flows. Additionally, they can edit and delete existing funnels created by other users. For more information, see [Legacy - Create and manage funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-manage-funnels.md).
 
 You can compare the performance of previous and current conversation flows. Funnels show metrics for the specified date range. Additionally, it shows the comparison for the same number of days in the date range prior to the specified start date. You can know the increase or decrease in users who have made through all the steps.
 
-![The change from previous metrics displays at the bottom of the card. For example, the percentage of users may display as a 25% increase from the previous 8 days.](../images/prev-metrics.png "Previous metrics")
+\[Omitted image "prev-metrics.png"\] Alt text: The change from previous metrics displays at the bottom of the card. For example, the percentage of users may display as a 25% increase from the previous 8 days.
 
--   **[Legacy - Create and manage funnels](../task/create-manage-funnels.md)**  
+-   **[Legacy - Create and manage funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-manage-funnels.md)**  
 Use funnels to review the performance of your conversation flows.
--   **[Legacy - Filter options in funnels](../reference/filter-options-funnels.md)**  
+-   **[Legacy - Filter options in funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/filter-options-funnels.md)**  
 Use filter options for creating steps in funnels. You can create steps in funnels for cumulative filtering of a conversation flow.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

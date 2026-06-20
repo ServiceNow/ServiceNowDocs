@@ -2,6 +2,7 @@
 title: Set up the SurveyMonkey spoke
 description: Integrate the ServiceNow instance and SurveyMonkey account by creating a custom OAuth application in SurveyMonkey API Developer Portal to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-surmonkey-dec.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub

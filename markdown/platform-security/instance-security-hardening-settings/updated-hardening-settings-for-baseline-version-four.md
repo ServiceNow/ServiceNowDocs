@@ -2,11 +2,12 @@
 title: Updated hardening settings for baseline version 4.0
 description: Some hardening settings have been updated with the release of Security Center baseline version 4.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-four.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 26
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -27,7 +28,7 @@ Updates
 
 </th></tr></thead><tbody><tr><td>
 
-[Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-soap-request-authorization.md)
+[Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-escape-jelly.md)
+[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td><td>
 
@@ -50,7 +51,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-csrf-strict-validation.md)
+[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
 
 </td><td>
 
@@ -63,7 +64,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Require Authentication on Event Management HTTP Processor \[New in Security Center 1.3, Updated in 1.5, and removed in 2.0\]](../reference/sc-require-authentication-on-event-management-http-processor.md)
+[Require Authentication on Event Management HTTP Processor \[New in Security Center 1.3, Updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authentication-on-event-management-http-processor.md)
 
 </td><td>
 
@@ -72,7 +73,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](../reference/sc-anti-csrf-token.md)
+[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
 
 </td><td>
 
@@ -81,7 +82,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable HTML Sanitizer within Virtual Agent \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-enable-html-sanitizer.md)
+[Enable HTML Sanitizer within Virtual Agent \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
 
 </td><td>
 
@@ -92,7 +93,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Deny internal access to explicit external roles \[Updated in Security Center 1.3 and 1.5\]](../../security/reference/sc-enable-explicit-roles-internal-denylist.md)
+[Deny internal access to explicit external roles \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-explicit-roles-internal-denylist.md)
 
 </td><td>
 
@@ -109,7 +110,7 @@ Misconfiguration of these properties increases the risk that an external user ac
 
 </td></tr><tr><td>
 
-[Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-wsdl-request-authorization.md)
+[Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
 
 </td><td>
 
@@ -120,7 +121,7 @@ Misconfiguration of these properties increases the risk that an external user ac
 
 </td></tr><tr><td>
 
-[Enforce URL allowlist check \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-enforce-url-allowlist-check.md)
+[Enforce URL allowlist check \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.md)
 
 </td><td>
 
@@ -128,7 +129,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-downloadable-mime-types.md)
+[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
 
 </td><td>
 
@@ -139,7 +140,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-escape-html.md)
+[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-html.md)
 
 </td><td>
 
@@ -148,7 +149,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -160,7 +161,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable Captcha for External User Registration \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-enable-captcha-external-user-registration.md)
+[Enable Captcha for External User Registration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
 
 </td><td>
 
@@ -170,7 +171,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-external-user-registration-link-expiration.md)
+[Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-link-expiration.md)
 
 </td><td>
 
@@ -180,7 +181,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]](../reference/sc-disallow-infected-files-download.md)
+[Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
 
 </td><td>
 
@@ -192,7 +193,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-validate-file-mime-type-in-attachmentcreator.md)
+[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
 
 </td><td>
 
@@ -203,7 +204,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable MultiSSO Debugging \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-disable-multisso-debugging.md)
+[Disable MultiSSO Debugging \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
 
 </td><td>
 
@@ -212,7 +213,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-ip-addresses-access-allowlist.md)
+[Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -226,7 +227,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](../reference/sc-disable-entity-expansion.md)
+[Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
 
 </td><td>
 
@@ -236,7 +237,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Apply domain separation on dot walked fields \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-apply-domain-separation.md)
+[Apply domain separation on dot walked fields \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-apply-domain-separation.md)
 
 </td><td>
 
@@ -246,7 +247,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict permissions for CMDB model \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-restrict-permissions-cmdb-model.md)
+[Restrict permissions for CMDB model \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-permissions-cmdb-model.md)
 
 </td><td>
 
@@ -254,7 +255,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require clearing pasteboard when backgrounding mobile application \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
+[Require clearing pasteboard when backgrounding mobile application \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
 
 </td><td>
 
@@ -263,7 +264,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable account recovery \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-account-recovery.md)
+[Enable account recovery \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-account-recovery.md)
 
 </td><td>
 
@@ -272,7 +273,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable SQL Error Messages \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-disabling-sql-error-messages.md)
+[Disable SQL Error Messages \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md)
 
 </td><td>
 
@@ -281,7 +282,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce relative links \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-enforce-relative-links.md)
+[Enforce relative links \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
 
 </td><td>
 
@@ -290,7 +291,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-setting-entity-expansion-threshold.md)
+[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
 
 </td><td>
 
@@ -302,7 +303,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable GlideRecord Scope Fencing Legacy Behavior \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](../reference/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
+[Disable GlideRecord Scope Fencing Legacy Behavior \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
 
 </td><td>
 
@@ -311,7 +312,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-updated-version-of-multi-sso-plugin-is-enabled.md)
+[Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-updated-version-of-multi-sso-plugin-is-enabled.md)
 
 </td><td>
 
@@ -320,7 +321,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]](../reference/sc-enable-ssl-in-ldap-authentication.md)
+[Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-ssl-in-ldap-authentication.md)
 
 </td><td>
 
@@ -328,7 +329,7 @@ Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce password reset on api requests \[Updated in Security Center 1.5\]](../reference/sc-enforce-password-reset-on-api-requests.md)
+[Enforce password reset on api requests \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
 
 </td><td>
 
@@ -336,7 +337,7 @@ Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](../reference/sc-do-not-apply-password-policy-at-login.md)
+[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-do-not-apply-password-policy-at-login.md)
 
 </td><td>
 
@@ -365,7 +366,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Do not use demo certificates for active saml configurations \[Updated in Security Center 1.5\]](../reference/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
+[Do not use demo certificates for active saml configurations \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
 
 </td><td>
 
@@ -374,7 +375,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Minimize SAML notBefore or notOnOrAfter constraint duration \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-saml-notbefore-or-notonorafter-constraint.md)
+[Minimize SAML notBefore or notOnOrAfter constraint duration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-saml-notbefore-or-notonorafter-constraint.md)
 
 </td><td>
 
@@ -383,7 +384,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Block Expired Anti-CSRF Tokens \[Updated in Security Center 1.5\]](../reference/sc-block-expired-csrf-tokens.md)
+[Block Expired Anti-CSRF Tokens \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-block-expired-csrf-tokens.md)
 
 </td><td>
 
@@ -392,7 +393,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)
+[Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)
 
 </td><td>
 
@@ -401,7 +402,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)
+[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)
 
 </td><td>
 
@@ -410,7 +411,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Restrict HR case updates from personal emails \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.md)
+[Restrict HR case updates from personal emails \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.md)
 
 </td><td>
 
@@ -420,7 +421,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Enable MID audit log \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
+[Enable MID audit log \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
 
 </td><td>
 
@@ -438,7 +439,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Required jms connection factories \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](../reference/sc-required-jms-connection-factories-plugin-applicability-mid-server.md)
+[Required jms connection factories \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-required-jms-connection-factories-plugin-applicability-mid-server.md)
 
 </td><td>
 
@@ -448,7 +449,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Limit attachment size in training and prediction flows \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-limit-attachment-size-in-training-and-prediction-flows-plugin-applicability-platform-document-intelligence.md)
+[Limit attachment size in training and prediction flows \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-attachment-size-in-training-and-prediction-flows-plugin-applicability-platform-document-intelligence.md)
 
 </td><td>
 
@@ -457,7 +458,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-ensure-archive-table-acls-are-checked.md)
+[Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.md)
 
 </td><td>
 
@@ -465,7 +466,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Log session audit events \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-log-session-audit-events.md)
+[Log session audit events \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-log-session-audit-events.md)
 
 </td><td>
 
@@ -474,7 +475,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)
+[Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)
 
 </td><td>
 
@@ -484,7 +485,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Proactively invalidate inactive sessions \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](../reference/sc-proactively-invalidate-inactive-sessions.md)
+[Proactively invalidate inactive sessions \[New in Security Center 1.3 and updated in 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
 
 </td><td>
 
@@ -493,7 +494,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Limit HTTP response body size \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-limit-http-response-body-size.md)
+[Limit HTTP response body size \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-http-response-body-size.md)
 
 </td><td>
 
@@ -501,5 +502,5 @@ Rule Script: Script has been updated to improve detection accuracy.
 -   Old short description: Ensure HTTP Responses Do Not Trigger a OutofMemory Exception Due to Response Body Size
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Updated hardening settings](hardening-settings-updated.md)
+</table>**Parent Topic:**[Updated hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/hardening-settings-updated.md)
 

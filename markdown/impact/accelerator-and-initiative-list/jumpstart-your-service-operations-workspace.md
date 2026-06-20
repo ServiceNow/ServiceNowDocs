@@ -2,6 +2,7 @@
 title: Jumpstart your Service Operations Workspace
 description: This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,7 +2,10 @@
 title: Product data
 description: Configure product data for Customer Service Management including product models, sold products, install base items, and installed products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/product-data.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -23,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure product data](../task/configure-csm-products.md)
+[Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-products.md)
 
 </td><td>
 
@@ -34,7 +37,7 @@ Configure the product data for your company, including:-   Product models: Goods
 
 </td></tr><tr><td>
 
-[Configure assets](../task/configure-csm-assets.md)
+[Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-assets.md)
 
 </td><td>
 
@@ -42,7 +45,7 @@ An asset is a specific product or instance that is supported for an account or c
 
 </td></tr><tr><td>
 
-[Create asset contact relationships](c_AssetContactRelationships.md#)
+[Create asset contact relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_AssetContactRelationships.md)
 
 </td><td>
 
@@ -50,7 +53,7 @@ Assign an asset to a customer contact who is responsible for managing that asset
 
 </td></tr><tr><td>
 
-[Create service contracts](../task/create-csm-service-contracts.md)
+[Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-csm-service-contracts.md)
 
 </td><td>
 
@@ -58,7 +61,7 @@ Service contracts define the type of support that accounts and consumers receive
 
 </td></tr><tr><td>
 
-[Configure entitlements](../task/configure-csm-entitlements.md)
+[Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-entitlements.md)
 
 </td><td>
 
@@ -66,7 +69,7 @@ Entitlements define the type of support that an account or consumer receives as 
 
 </td></tr><tr><td>
 
-[Configure Customer Contracts and Entitlements](../../post-sales-support/concept/configuring-post-sales-support.md)
+[Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-post-sales-support.md)
 
 </td><td>
 
@@ -74,7 +77,7 @@ Use the Post-Sales Support application to configure and display customer service
 
 </td></tr><tr><td>
 
-Use [Customer Life Cycle Management Workflows](customer-life-cycle-management-workflows.md) to manage the life cycle of your sold products
+Use [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-life-cycle-management-workflows.md) to manage the life cycle of your sold products
 
 </td><td>
 
@@ -82,7 +85,7 @@ This application enables you to update the existing configurations and to modify
 
 </td></tr><tr><td>
 
-Create [Lead to Cash](lead-to-cash-workflows.md) for products and services
+Create [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lead-to-cash-workflows.md) for products and services
 
 </td><td>
 

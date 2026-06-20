@@ -2,6 +2,7 @@
 title: Map a risk statement to a question response
 description: Map the risk statements to the responses of the assessment questions to automatically create and apply the respective risks on the processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/map-risk-statements-to-pa.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -42,15 +43,15 @@ You can relate risk statements to an assessment question only if the questions a
 
 3.  Open the question for which you want to add risk statement
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d191770e113">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d99541e113">
 
 Type of questions
 
-</th><th align="left" id="d191770e116">
+</th><th align="left" id="d99541e116">
 
 Steps to map risk statements
 
-</th></tr></thead><tbody><tr><td id="d191770e122">
+</th></tr></thead><tbody><tr><td id="d99541e122">
 
 **Boolean, Template**
 
@@ -65,7 +66,7 @@ To create and apply risk statements for a response, perform the following steps.
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d191770e157">
+</td></tr><tr><td id="d99541e157">
 
 **Choice, Image scale, Numeric, Ranking**
 
@@ -86,5 +87,5 @@ To create and apply risk statements for a response, perform the following steps.
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Create a privacy assessment](create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

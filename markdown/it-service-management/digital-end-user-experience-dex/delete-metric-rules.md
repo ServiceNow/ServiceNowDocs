@@ -2,6 +2,7 @@
 title: Delete metric rules
 description: Remove metric rules to adjust monitoring criteria and thresholds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/delete-metric-rules.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,7 +28,7 @@ Deleting any rules results in their permanent removal, and they can’t be retri
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Metric rules card.
 
@@ -35,7 +36,7 @@ Deleting any rules results in their permanent removal, and they can’t be retri
 
 4.  Select the check box preceding the name of the metric rule to select it for deletion.
 
-    ![Metric rules selected for deletion.](../image/metric-rules-delete.png)
+    \[Omitted image "metric-rules-delete.png"\] Alt text: Metric rules selected for deletion.
 
 5.  Select **Delete**.
 

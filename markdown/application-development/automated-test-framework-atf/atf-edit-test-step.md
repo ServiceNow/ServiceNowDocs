@@ -2,6 +2,7 @@
 title: Change automated test step
 description: If necessary, edit a test step after you create it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/automated-test-framework-atf/atf-edit-test-step.html
 release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -34,5 +35,5 @@ Role required: atf\_test\_admin or atf\_test\_designer
 5.  Click **Update**.
 
 
-**Parent Topic:**[Create a new automated test](atf-create-test.md)
+**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-create-test.md)
 

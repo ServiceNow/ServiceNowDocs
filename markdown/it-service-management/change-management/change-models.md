@@ -2,6 +2,7 @@
 title: Change models
 description: Change managers can use the Change models feature to conveniently tailor change activities and flows for specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/change-models.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -37,12 +38,12 @@ By default, the following models are provided as examples for ITIL mode 1 and mo
 |Cloud Infrastructure|Change model used for change requests that commission and decommission Cloud infrastructure services.|
 |Site Reliability Ops|Change model used for site reliability operations.|
 |Unauthorized Change|Change model used for change requests that are created from the unauthorized change events.|
-|DevOps|Change model used for DevOps change requests. For more information, see [DevOps change models](../../enterprise-dev-ops/concept/devops-change-multimodel.md).|
+|DevOps|Change model used for DevOps change requests. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/devops-change-multimodel.md).|
 
--   **[Change Models properties](../reference/change-models-properties.md)**  
+-   **[Change Models properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models-properties.md)**  
 Configure the Change Models properties to access the Change models capabilities when creating a Change request.
--   **[Create a user criteria record for Change Management](../task/create-user-criteria.md)**  
+-   **[Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-user-criteria.md)**  
 Create a user criteria record to control user access to widgets.
 
-**Parent Topic:**[Exploring Change Management](exploring-change-management.md)
+**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/exploring-change-management.md)
 

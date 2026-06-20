@@ -2,6 +2,7 @@
 title: Software Asset Management Maturity Assessment
 description: The ServiceNow Software Asset Management \(SAM\) Maturity Assessment Accelerator provides guidance on maximizing the resources available with SAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ The Software Asset Management application systematically tracks, evaluates, and 
 
 Software Asset Management Maturity Assessment provides Impact customers with prescriptive guidance, leading practices content, and a maturity analysis of their ServiceNow instance SAM. The assessment aims to help you streamline the undertaking of organizing the complex tasks of multiple programs, processes, operations, and projects. Additionally, it helps to create a big-picture view of the projects as a single entity to help prioritize and sequence them for optimal business returns.
 
-See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US) for additional information about SAM.
+See  for additional information about SAM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

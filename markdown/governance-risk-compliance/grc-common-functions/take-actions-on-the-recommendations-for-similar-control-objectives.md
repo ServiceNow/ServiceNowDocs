@@ -2,6 +2,7 @@
 title: Act on the recommendations for similar control objectives
 description: Act on the recommendations like accept as duplicate, retain as primary or dismiss to enable compliance managers and analysts to streamline their processes by identifying, deduplicating, and rationalizing similar control objectives within the compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,11 +18,11 @@ Act on the recommendations like accept as duplicate, retain as primary or dismis
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](../reference/r_InstallWPolAndCompl.md#).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 

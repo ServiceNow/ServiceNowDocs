@@ -2,6 +2,7 @@
 title: Use agentic AI in Now Assist for IT Service Management \(ITSM\)
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -28,7 +29,7 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[IT Service Management application](now-assist-using-agentic-workflows-in-itsm.md)
+[IT Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-using-agentic-workflows-in-itsm.md)
 
 </td><td>
 
@@ -46,7 +47,7 @@ Triage and categorize ITSM incidents
 
 </td></tr><tr><td>
 
-[Change management application](using-agentic-workflows.md)
+[Change management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-workflows.md)
 
 </td><td>
 
@@ -68,7 +69,7 @@ Assess conflicts for a change request
 
 </td></tr><tr><td>
 
-[Digital End-User Experience \(DEX\) application](itsm-dex-ai-agents.md)
+[Digital End-User Experience \(DEX\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/itsm-dex-ai-agents.md)
 
 </td><td>
 
@@ -76,7 +77,7 @@ DEX issue diagnosis and resolution agentic workflow
 
 </td></tr><tr><td>
 
-[Incident Management application](using-agentic-ai-workflow-im.md)
+[Incident Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-ai-workflow-im.md)
 
 </td><td>
 

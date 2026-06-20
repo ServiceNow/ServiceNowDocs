@@ -2,11 +2,12 @@
 title: Respond using a Microsoft Excel template
 description: Use a Microsoft Excel template to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. The Microsoft Excel questionnaire template contains instructions for filling out the template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using a Microsoft Excel spreadsheet template for external questionnaires, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -21,7 +22,7 @@ Role required: vendor\_contact
 
 ## About this task
 
-The Microsoft Excel questionnaire template enables third-party and engagement contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](../concept/tprm-excel-template-support.md).
+The Microsoft Excel questionnaire template enables third-party and engagement contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md).
 
 ## Procedure
 
@@ -41,7 +42,7 @@ The Microsoft Excel questionnaire template enables third-party and engagement co
 
 5.  Upload a completed questionnaire by selecting **Import** and then select the file from your file browser.
 
-    ![Import questionnaire template widget.](../../grc-vendor-risk/image/import-q-template.png)
+    \[Omitted image "import-q-template.png"\] Alt text: Import questionnaire template widget.
 
     A dialog box shows the progress status for your questionnaire template upload. After the upload is complete, you can review the results.
 

@@ -2,6 +2,7 @@
 title: Replace a user in a resource plan
 description: Replace a user with another user for a group, role, or user resource plan to accommodate situations like a user taking leave during a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/replace-user.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ Replace a user with another user for a group, role, or user resource plan to acc
 
 **Important:** Allocation workbench is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](../../resource-management-workspace/concept/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 This option is available only for a confirmed or allocated resource plan.
 
@@ -37,7 +38,7 @@ Role required: resource\_manager
 
 3.  Select a group, role, or user resource plan in the resource grid.
 
-4.  Select the **Actions** icon \(![Actions icon](../../planning-and-policy/image/ellipsis-vertical-icon.png)\) on the user that you want to replace, and select **Replace User**.
+4.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\) on the user that you want to replace, and select **Replace User**.
 
 5.  In the **User** field of the Replace Users window in the **To** section, select the new user to whom allocations must be transferred.
 
@@ -60,5 +61,5 @@ When a user is replaced in a user resource plan, a new resource plan is created 
 
 When the new user isn’t available for complete allocation, the maximum available allocations are transferred to the new user, and the remaining allocations remain with the existing user.
 
-**Parent Topic:**[Manage resources by using the allocation workbench](manage-resources-allocation-workbench.md)
+**Parent Topic:**[Manage resources by using the allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md)
 

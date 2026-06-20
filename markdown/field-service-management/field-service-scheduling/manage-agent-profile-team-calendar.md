@@ -2,6 +2,7 @@
 title: Update an agent's profile
 description: Update shifts, skills, schedules, work parameters, and work order tasks for agents in your assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/manage-agent-profile-team-calendar.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -145,5 +146,5 @@ Radius in selected distance unit \(miles or kilometers\). The default value is 5
 7.  Click **Submit**.
 
 
-**Parent Topic:**[View an agent profile](view-agent-profile.md)
+**Parent Topic:**[View an agent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/view-agent-profile.md)
 

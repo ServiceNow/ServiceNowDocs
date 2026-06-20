@@ -2,6 +2,7 @@
 title: Local changes
 description: The Local Changes table tracks which customized records have current versions that exist on the development instance but not on the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/c\_LocalChanges.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -21,5 +22,5 @@ You queue local changes that are ready to push. Each development instance mainta
 
 Changing the parent instance or reconciling recreates the list of local changes that have not been queued or ignored. If you had previously queued or ignored a local change, that designation is maintained.
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

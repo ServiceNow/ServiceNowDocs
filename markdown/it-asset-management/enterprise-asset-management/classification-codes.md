@@ -2,6 +2,7 @@
 title: Classification codes
 description: Use classification codes to organize and categorize your enterprise models and use them effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/classification-codes.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management

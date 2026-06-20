@@ -2,6 +2,7 @@
 title: Export set supported file types
 description: Export sets support multiple file types for exporting and pushing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-export-sets/r\_ExportSetsSupportedFileTypes.html
 release: yokohama
 product: System Export Sets
 classification: system-export-sets

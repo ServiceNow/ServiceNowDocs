@@ -2,6 +2,7 @@
 title: Create a connection Alias for third-party provider
 description: Create a connection Alias for your third-party provider to enable external routing on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/create-cnctn-alias.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,5 +43,5 @@ Role required: admin
         -   For the Connection URL, give an active URL \(of any third-party provider\) for local set up.
     -   Select **Save**.
 
-**Parent Topic:**[External routing overview](../concept/awa-external-routing-overview.md)
+**Parent Topic:**[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.md)
 

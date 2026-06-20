@@ -2,6 +2,7 @@
 title: Integrating APO with other applications
 description: Extend the capabilities of Accounts Payable Operations by integrating with other applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/integrate-apo.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

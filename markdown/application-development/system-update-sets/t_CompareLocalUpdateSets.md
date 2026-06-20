@@ -2,6 +2,7 @@
 title: Compare local update sets
 description: Administrators can preview local and remote \(retrieved\) update sets and compare the sets with one another to resolve conflicting changes.A collision is an update that has a newer local update.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/system-update-sets/t\_CompareLocalUpdateSets.html
 release: yokohama
 product: System Update Sets
 classification: system-update-sets
@@ -29,7 +30,7 @@ Compare local update sets to identify collisions and ensure that the proper chan
 
     The progress screen appears as ServiceNow generates the collision report.
 
-    ![Collision report](../image/UpdateSetsCollisionReport1.png "Collision report")
+    \[Omitted image "UpdateSetsCollisionReport1.png"\] Alt text: Collision report
 
 4.  Click **Go to the Collision Report** when the report is complete.
 
@@ -37,7 +38,7 @@ Compare local update sets to identify collisions and ensure that the proper chan
 
 5.  Inspect the list for collisions by locating duplicate Collision Numbers that show the same change in separate update sets.
 
-    ![Update set collisions](../image/UpdateSetCollisions.png "Update set collisions")
+    \[Omitted image "UpdateSetCollisions.png"\] Alt text: Update set collisions
 
 6.  Resolve the collision by deleting the unwanted update record from one of the update sets.
 
@@ -46,12 +47,12 @@ Compare local update sets to identify collisions and ensure that the proper chan
 
         **Note:** You must open the update record to delete the record. You cannot delete the update by selecting the check box for the entry in the Update Set Collisions list and using the Delete action. When you delete the update record, the customization is not backed out of the instance. Only the record of the customization is deleted.
 
-        ![Customer updates](../image/UpdateRecord.png "Customer updates")
+        \[Omitted image "UpdateRecord.png"\] Alt text: Customer updates
 
 7.  Run the comparison again to make sure all collisions have been resolved.
 
 
-**Parent Topic:**[Update set use](../concept/update-set-procedures.md)
+**Parent Topic:**[Update set use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/update-set-procedures.md)
 
 ## Update set collision resolution
 
@@ -130,8 +131,8 @@ When a customer update is moved from one instance to another, it may be re-writt
 ### Preventing duplicate records
 
 -   Transfer data with update sets rather than recreating it on separate instances to ensure the records have the same sys\_id.
--   Export and import records as XML files to ensure the records have the same sys\_id. See [Export and import XML files](https://www.servicenow.com/docs/access?context=c_ExportAndImportXMLFiles&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
--   Enable a unique index for the table from the system dictionary. See [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   Export and import records as XML files to ensure the records have the same sys\_id. See Export and import XML files.
+-   Enable a unique index for the table from the system dictionary. See Table administration.
 
 **Note:** The default records included in the baseline system will always have the same Sys ID because the instance imports the records as XML files during instance provisioning.
 

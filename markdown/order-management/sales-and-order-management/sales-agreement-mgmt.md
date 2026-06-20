@@ -2,13 +2,14 @@
 title: Sales Agreement Management
 description: Sales Agreement Management is an application that captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/sales-agreement-mgmt.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Agreement Management

@@ -2,6 +2,7 @@
 title: Exporting in OSCAL format
 description: CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by the National Institute of Standards and Technology \(NIST\) that provides control-related information in standardized machine-readable formats. CAM supports Catalog, Profile, and SSP models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -37,10 +38,10 @@ CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by th
 |Authorization boundary|by-components|
 |Information type|Information-types|
 
--   **[Export OSCAL SSP](../task/generate-oscal-models.md)**  
+-   **[Export OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md)**  
 From the Authorization package overview record page in the CAM Workspace, generate ZIP files and export the mapped content details for the record in OSCAL format. To generate OSCAL System Security Plan Model \(SSP\), the selected authorization package must be in the implemented state or further.
--   **[Export OSCAL catalog](../task/export-catalog-cam-ws.md)**  
+-   **[Export OSCAL catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-catalog-cam-ws.md)**  
 From the Control objective list view page in the CAM Workspace, export the catalog in the OSCAL JSON format for the selected control objectives. This action enables you to export your control objectives from CAM.
 
-**Parent Topic:**[CAM OSCAL](oscal-cam-ws.md)
+**Parent Topic:**[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)
 

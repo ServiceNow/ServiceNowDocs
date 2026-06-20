@@ -2,6 +2,7 @@
 title: Team Development
 description: Team Development supports parallel development on multiple, non-production ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/team-development-landing.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -25,15 +26,15 @@ Team Development provides the following features:
 
 <table id="table_jxv_thb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Exploring Team Development](../concept/exploring-team-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/exploring-team-development.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configuring Team Development](../task/configuring-team-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/configuring-team-development.md)
 
 </td><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-person.svg)Use Team Development to support parallel development in your instances.](../task/using-team-development.md)
+[Using\[Omitted image "bus-person.svg"\] Alt text:Use Team Development to support parallel development in your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/using-team-development.md)
 
 </td></tr></tbody>
 </table>

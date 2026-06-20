@@ -2,7 +2,10 @@
 title: Lead to Cash
 description: Create the Lead to Cash workflows for a product and service through entity configurations and mappings. By creating this workflow, your organization can analyze lucrative business opportunities, customer leads, and the billing, support, and maintenance requirements after a sale is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/lead-to-cash-workflows.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -25,9 +28,9 @@ If you're an administrator, you create the workflows for your organization and c
 
 You can configure the definition of a lead-to-cash entity by defining a name and configuration ID on the Lead to Cash Entity form. The definition creates a back and forth flow of the information between the various entities.
 
-To learn how to create entity configurations, see [Create an entity configuration](../task/create-entity-configuration.md). To learn how to create entity mappings, see [Create an entity mapping](../task/create-entity-mapping.md).
+To learn how to create entity configurations, see [Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-entity-configuration.md). To learn how to create entity mappings, see [Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-entity-mapping.md).
 
 ## Reconfiguration
 
-You can reconfigure an order or a quote that is in the **Draft** state to make customizations in the Configurator UI. After the configuration is complete, all the order line items associated with the order are also updated. To learn more about reconfiguration, see [LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+You can reconfigure an order or a quote that is in the **Draft** state to make customizations in the Configurator UI. After the configuration is complete, all the order line items associated with the order are also updated. To learn more about reconfiguration, see .
 

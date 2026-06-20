@@ -2,7 +2,10 @@
 title: Client scripts installed with Field Service Management
 description: Client scripts are added with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/r\_ClientScrInstallWFldSrvMgmnt.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -47,7 +50,7 @@ Expense Line\[fm\_expense\_line\]
 
 </td><td>
 
-Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=yokohama&pubname=yokohama-it-business-management&ft:locale=en-US) must be activated.
+Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. Cost Management must be activated.
 
 </td></tr><tr><td>
 
@@ -110,5 +113,5 @@ Asset Usage \[sm\_asset\_usage\]
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_InstalledWithFSM.md)
 

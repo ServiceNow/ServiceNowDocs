@@ -2,6 +2,7 @@
 title: Follow data request progress
 description: Monitor data requests to confirm approvals are completed before Task Mining projects begin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/manage-data-log-requests.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -23,7 +24,7 @@ Role required: sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.
 
-2.  Select the Data icon \(![Task Mining Data icon](../image/task-mining-data-icon.png)\).
+2.  Select the Data icon \(\[Omitted image "task-mining-data-icon.png"\] Alt text: Task Mining Data icon\).
 
 3.  Under **Data Request**, select **All**.
 

@@ -2,6 +2,7 @@
 title: Trying out the dashboard
 description: Use this tutorial to get familiar with the Conversational Analytics Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/dashboard-scenario-1.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -29,7 +30,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
 2.  In the **Topics** visualization, click **Incomplete**.
 
-    ![Incomplete topics displayed in Virtual Agent dashboard.](../images/dashboard-topics-incomplete.png)
+    \[Omitted image "dashboard-topics-incomplete.png"\] Alt text: Incomplete topics displayed in Virtual Agent dashboard.
 
     I see that users did not complete the **Testing Topic** the most times, 14. So, I want to find out where the user got lost.
 
@@ -37,7 +38,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
     The Topic details page opens. In the **Total completion** scorecard, the example shows that Virtual Agent \(VA\) resolved 15 conversations but couldn't resolve 5 conversations. The **Live Agent Transfer** scorecard shows that no one transferred to a live agent. The **Last visited node** scorecard shows the three nodes in the topic where the user abandoned the conversation: **Start**, **Testing**, and **link to requested screen**. Review those nodes to clarify the communication or add a different intent.
 
-    ![The Topics > Topic details subtab shows topic usage, topic completion, live agent transfers, and the last visited node.](../images/testing-topic-details.png)
+    \[Omitted image "testing-topic-details.png"\] Alt text: The Topics &gt; Topic details subtab shows topic usage, topic completion, live agent transfers, and the last visited node.
 
     No conversations in this topic transferred from VA to a live agent. But I wonder if there are topics where users did transfer.
 
@@ -49,7 +50,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
     I notice that the condition builder automatically entered the filter parameters, setting **Type** to **VA to LA**.
 
-    ![Conversation filter editor showing "Type is any of VA to LA".](../images/dashboard-conversation-filter-2.png).
+    \[Omitted image "dashboard-conversation-filter-2.png"\] Alt text: Conversation filter editor showing "Type is any of VA to LA"..
 
     I'd like to know which topic node the user last visited before transferring to a live agent.
 
@@ -61,7 +62,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
     I see that the last node the user visited was **Send Topic Picker**. Now, I know I should revise that node in that topic.
 
-    ![Conversation details Timeline tab with greetings topic details open.](../images/dashboard-conversation-failed-2.png)
+    \[Omitted image "dashboard-conversation-failed-2.png"\] Alt text: Conversation details Timeline tab with greetings topic details open.
 
     I decide to see which topics are working better.
 
@@ -81,8 +82,8 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
     The Topics page shows the best and worst performing topics.
 
-    ![Virtual Agent conversation Topics tab displaying best and worst performing topics.](../images/dashboard-topics-tab-2.png)
+    \[Omitted image "dashboard-topics-tab-2.png"\] Alt text: Virtual Agent conversation Topics tab displaying best and worst performing topics.
 
 
-**Parent Topic:**[Legacy - Exploring the Conversational Analytics Dashboard](../concept/dashboard-explore-dashboard.md)
+**Parent Topic:**[Legacy - Exploring the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/dashboard-explore-dashboard.md)
 

@@ -2,6 +2,7 @@
 title: Automatic creation of software models
 description: Software models are automatically created for software installations if one doesn't already exist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/duplicate-sw-models.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -32,5 +33,5 @@ Discovery maps are associated to software models only if a discovery map exists 
 
 You can identify if a software model is automatically created by the **Automatically create software models for all 'licensable' products** or **Automatically create software models for all 'not licensable' products** property. In the Software Model list view, click the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties.
 
-**Parent Topic:**[Software models and Software entitlements](software-models-and-entitlements.md)
+**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 

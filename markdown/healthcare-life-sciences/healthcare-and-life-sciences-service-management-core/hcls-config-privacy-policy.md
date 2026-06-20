@@ -2,6 +2,7 @@
 title: Configure the privacy policy settings for the Patient Portal
 description: Configure the privacy policy settings to enable users to provide their privacy consent at the time of registration on the Patient Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-privacy-policy.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -27,7 +28,7 @@ Role required: sn\_hcls.admin or admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Policy table](../reference/hcls-policy.md).
+    For more information, see [Policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-policy.md).
 
 4.  Save the privacy policy settings.
 

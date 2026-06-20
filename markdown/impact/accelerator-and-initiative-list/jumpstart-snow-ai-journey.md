@@ -2,6 +2,7 @@
 title: Jumpstart Your ServiceNow AI Journey
 description: The Jumpstart Your AI \(Artificial Intelligence\) Journey Accelerator provides guidance to kickstart your hyper-automation journey with ServiceNow platform AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -28,7 +29,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run [Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+    -   Activate and run .
     -   Assess current AI maturity
     ​
 

@@ -2,6 +2,7 @@
 title: Create targets for a goal using Goal Framework or Goal Framework for SPM
 description: Create SMART targets for goals to track and measure the progress of the goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/goal-framework/set-targets-for-goal.html
 release: yokohama
 product: Goal Framework
 classification: goal-framework
@@ -30,15 +31,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d89036e85">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d86169e85">
 
 Option
 
-</th><th align="left" id="d89036e88">
+</th><th align="left" id="d86169e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d89036e94">
+</th></tr></thead><tbody><tr><td id="d86169e94">
 
 **From the Targets related list**
 
@@ -49,7 +50,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d89036e127">
+</td></tr><tr><td id="d86169e127">
 
 **From the Targets module**
 
@@ -62,7 +63,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Target form](../reference/target-form.md).
+    For field information, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/target-form.md).
 
 3.  Click **Submit**.
 

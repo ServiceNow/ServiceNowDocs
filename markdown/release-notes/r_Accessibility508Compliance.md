@@ -2,6 +2,7 @@
 title: Accessibility and conformance
 description: View a summary of accessibility updates and improvements completed for the Yokohama family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow products and where to access them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/r\_Accessibility508Compliance.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-03-06"

@@ -2,6 +2,7 @@
 title: Request translations in Localization Workspace: Languages
 description: Add target languages to a translation request in Localization Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-request-translations-langs.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -19,7 +20,7 @@ Add target languages to a translation request in Localization Workspace.
 
 Ensure that you have installed the languages that you intend to add to your translation request.
 
-Ensure that Localization Workspace is configured with the translation providers that you intend to use. See [Configure a translation provider](lw-configure-translation-provider.md).
+Ensure that Localization Workspace is configured with the translation providers that you intend to use. See [Configure a translation provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-configure-translation-provider.md).
 
 Role required: localization\_requestor
 
@@ -35,7 +36,7 @@ The following procedure covers step one of four steps in the Translation Request
 
 1.  Navigate to **All** &gt; **Localization Workspace** &gt; **Home**.
 
-2.  Select the **Request Translation** button to open the wizard.![The Translation Request modal, open to step one for languages.](../image/lw-request-translations-langs1.png)
+2.  Select the **Request Translation** button to open the wizard.\[Omitted image "lw-request-translations-langs1.png"\] Alt text: The Translation Request modal, open to step one for languages.
 
     The **Translation Request** modal opens at the first step, **Languages**.
 

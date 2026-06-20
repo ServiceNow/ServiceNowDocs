@@ -2,6 +2,7 @@
 title: Splunk integration setup
 description: Setup procedures for the ServiceNow Security Operations add-on for Splunk include downloading the add-on file in Splunk, installing the add-on, and setting up the ServiceNow instance where security incidents and events are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/setup-splunk-integration.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Create dependencies between work order tasks
 description: If a work order contains multiple tasks, you can create dependencies between the tasks that determine the order in which tasks are performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_SetAnUpstreamTask.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ If a work order contains multiple tasks, you can create dependencies between the
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 Activate the Field Service Task Dependency \(com.snc.fsm\_task\_dependency\) plugin to optionally define advanced task dependencies among work order tasks from different or same work order.
 
@@ -162,5 +163,5 @@ To set up dependencies:
 
 With this work order tasks dependency, the system requires the "Install Server" task to be completed before the "Configure Server" task can begin and start the "Administer Server" task after the configuration is complete.
 
-**Parent Topic:**[Manage work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

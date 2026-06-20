@@ -2,6 +2,7 @@
 title: Elevate a contact to the primary contact role from the Supplier Collaboration Portal
 description: Elevate a contact to the primary contact role to enable them to access and manage all the contacts and tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -42,5 +43,5 @@ The **Elevate access** option is available only to the primary supplier contact 
     The Primary contact column is set to **true** for this contact on the Vendor Contacts page, and the contact is elevated to the primary contact role.
 
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 

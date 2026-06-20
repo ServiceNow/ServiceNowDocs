@@ -2,6 +2,7 @@
 title: Healthcare case workflow scenario
 description: Use the EMR Help application to integrate a ServiceNow instance with an EMR system and manage healthcare cases reported by clinicians.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/emr-help/emr-help-healthcare-case-workflow.html
 release: yokohama
 product: EMR Help
 classification: emr-help
@@ -15,7 +16,7 @@ breadcrumb: [Exploring EMR Help, EMR Help, Healthcare and Life Sciences Service 
 
 Use the EMR Help application to integrate a ServiceNow instance with an EMR system and manage healthcare cases reported by clinicians.
 
-![Workflow scenario for using the EMR Help application. For the text description, refer to the workflow steps.](../image/hcls-emr-healthcare-case-info.png "Using the EMR Help application to resolve a clinician issue")
+\[Omitted image "hcls-emr-healthcare-case-info.png"\] Alt text: Workflow scenario for using the EMR Help application. For the text description, refer to the workflow steps.
 
 The following workflow steps elaborate how an agent resolves a typical clinician issue:
 

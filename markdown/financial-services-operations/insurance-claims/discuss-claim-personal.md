@@ -2,6 +2,7 @@
 title: Discuss a claim
 description: Discuss details of a claim with additional users that have access to the claim record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/discuss-claim-personal.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims

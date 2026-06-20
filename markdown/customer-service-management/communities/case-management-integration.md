@@ -2,6 +2,7 @@
 title: Create a case from a discussion
 description: In order to engage your internal experts to reply to discussion threads, you can create cases directly from community questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/case-management-integration.html
 release: yokohama
 product: Communities
 classification: communities
@@ -26,8 +27,8 @@ Two sets of users can create cases from questions:
 -   Customer service agents, consumer service agents, and customer service managers.
 -   Users with the sn\_customerservice.proxy\_case\_creator role. Community administrators and community moderators inherit this role.
 
--   **[Administer create case from discussion](case-mgmt-integration-administer.md)**  
+-   **[Administer create case from discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/case-mgmt-integration-administer.md)**  
 Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
 
-**Parent Topic:**[Configure a community](../task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
 

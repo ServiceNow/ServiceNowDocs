@@ -2,6 +2,7 @@
 title: Add a ground truth to each dataset record
 description: Add a ground truth, which is the real-world data that is used to train and test AI models to each dataset record. You can do this task by using the Now Assist Data Kit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/add-ground-truth.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -25,7 +26,7 @@ Role required: sn\_data\_kit.admin, sn\_data\_kit.analyst
 
 2.  On the form, fill in the fields.
 
-    ![Add ground truth form](../image/image/nadk-ground-truth-yokohama.png)
+    \[Omitted image "nadk-ground-truth-yokohama.png"\] Alt text: Add ground truth form
 
 <table id="table_irk_ttk_ddc"><thead><tr><th>
 

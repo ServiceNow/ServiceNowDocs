@@ -2,6 +2,7 @@
 title: Catalog item form slot-fill
 description: With the catalog item form slot-fill skill, Now Assist can automatically complete catalog item forms based on what users search for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skills/catalog-item-form-slot-fill.html
 release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
@@ -32,5 +33,5 @@ Pre-filled fields show AI icons to help users validate values populated by Now A
 -   UI page
 -   HTML
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](now-assist-on-now-platform.md)
+**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

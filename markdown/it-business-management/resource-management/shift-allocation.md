@@ -2,6 +2,7 @@
 title: Shift allocations of a user
 description: Shift allocation of a user to a future date for a group or role resource plan to accommodate situations where planned work for a specific user of a group or role resource plan must be shifted to a future time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/shift-allocation.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ Shift allocation of a user to a future date for a group or role resource plan to
 
 **Important:** Allocation workbench is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](../../resource-management-workspace/concept/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 ## Before you begin
 
@@ -33,7 +34,7 @@ Role required: resource\_manager
 
 3.  Select a group or role resource plan in the resource grid.
 
-4.  Select the **Actions** icon \(![Actions icon](../../planning-and-policy/image/ellipsis-vertical-icon.png)\) on the user that you want to shift allocations for, and select **Shift Allocations**.
+4.  Select the **Actions** icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\) on the user that you want to shift allocations for, and select **Shift Allocations**.
 
 5.  In the **From** field in the Shift allocations window, select the time period from which you want to shift the allocations.
 
@@ -52,5 +53,5 @@ Role required: resource\_manager
     **Note:** If actuals are posted for all the periods of resource allocation, then the **Shift Allocations** option is disabled in the **Actions** menu.
 
 
-**Parent Topic:**[Manage resources by using the allocation workbench](manage-resources-allocation-workbench.md)
+**Parent Topic:**[Manage resources by using the allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md)
 

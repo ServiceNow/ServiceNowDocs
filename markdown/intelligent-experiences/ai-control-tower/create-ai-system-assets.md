@@ -2,6 +2,7 @@
 title: Create AI system assets
 description: Create AI assets to track and manage the lifecycle of your AI systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-ai-system-assets.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -141,7 +142,7 @@ Locations in which the AI system is supported.
     -   To specify a dataset that is associated with the AI system, search for and select the dataset from the **Evaluation datasets** field. You can specify more than one dataset.
     -   To specify a prompt that is associated with the AI system, search for and select the prompt from the **AI prompts** field. You can specify more than one prompt.
 
-        **Note:** If an associated AI model, dataset, or prompt isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create AI model assets](create-ai-model-assets.md), [Create dataset assets](create-dataset-assets.md), or [Create prompt assets](create-prompt-assets.md).
+        **Note:** If an associated AI model, dataset, or prompt isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-ai-model-assets.md), [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-dataset-assets.md), or [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-prompt-assets.md).
 
 8.  Select **Submit for review**.
 
@@ -154,7 +155,7 @@ The AI system is added to your AI asset inventory. It automatically enters the o
 
 ## What to do next
 
-Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI system. For detailed instructions, see [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
+Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI system. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 
-**Parent Topic:**[Creating AI assets](../concept/creating-ai-assets.md)
+**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 

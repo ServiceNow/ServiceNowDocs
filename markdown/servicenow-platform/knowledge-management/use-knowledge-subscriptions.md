@@ -2,6 +2,7 @@
 title: Use knowledge subscriptions
 description: Use knowledge subscriptions to receive email notifications about new articles and article revisions or comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/use-knowledge-subscriptions.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

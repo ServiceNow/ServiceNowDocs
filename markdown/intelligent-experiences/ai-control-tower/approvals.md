@@ -2,13 +2,15 @@
 title: Approvals
 description: The approvals are requests created to either approve or reject an asset. The Approvals menu displays a list of Now Assist approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/approvals.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI assets, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+keywords: [generative AI]
+breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Approvals
@@ -39,7 +41,7 @@ The Approval Playbook feature is available for all Now Assist customers.
 
 **Note:** If the onboarding playbook is present, then this feature isn’t available.
 
-For information about creating AI Control Tower Approval Playbook to enable Now Assist governance, see [Create an AI Control Tower Playbook Workflow](../task/create-a-playbook-workflow-for-now-assist-approvals.md).
+For information about creating AI Control Tower Approval Playbook to enable Now Assist governance, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
 For information about creating Now Assist approvals task, see .
 

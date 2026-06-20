@@ -2,6 +2,7 @@
 title: ACC data input configuration fields
 description: Description of the fields on the ACC data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/accl-data-input-conf-ref.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector

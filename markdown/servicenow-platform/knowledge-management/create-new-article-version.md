@@ -2,6 +2,7 @@
 title: Check out a published article and create a new version
 description: Create a new version of a knowledge article by checking out the latest published version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/create-new-article-version.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +24,7 @@ Roles required: knowledge owner, knowledge manager, or knowledge administrator
 
 You cannot check out a published article unless there is already a checked out version. If a version has been checked out, the **Checkout** button does not appear on the Knowledge form header and you cannot edit the knowledge article. To make changes, you must first publish the knowledge article.
 
-When you check out an article, the default value of **Valid to** field of the article is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](create-a-knowledgebase.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to January 1, 2100. An article author or editor can select whether to keep or change the default **Valid to** date.
+When you check out an article, the default value of **Valid to** field of the article is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to January 1, 2100. An article author or editor can select whether to keep or change the default **Valid to** date.
 
 When you check out an article, attachments from the article's base version are copied into the new article version and relative paths to these attachments are also updated.
 

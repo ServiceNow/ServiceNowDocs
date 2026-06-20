@@ -2,6 +2,7 @@
 title: AI portfolio tab in AI Control Tower
 description: The AI portfolio tab in the AI Control Tower home page displays all AI assets, which includes \(active, inactive, and completed\) to the workspace users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-portfolio-tab.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2025-07-07"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Product Owner portal, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Product Owner portal, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI portfolio tab in AI Control Tower
@@ -46,5 +47,5 @@ The AI assets list includes the following columns:
 
 The following image displays the AI portfolio tab as it appears to a workspace user.
 
-![AI portfolio tab in AI Control Tower for workspace users.](../image/aict-ai-portfolio.png "AI portfolio tab in the AI Control Tower home page")
+\[Omitted image "aict-ai-portfolio.png"\] Alt text: AI portfolio tab in AI Control Tower for workspace users.
 

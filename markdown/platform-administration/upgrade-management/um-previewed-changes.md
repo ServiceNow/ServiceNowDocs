@@ -2,6 +2,7 @@
 title: Preview predicted changes
 description: Use the previewed changes table to view the list of total records that are predicted to change when the upgrade occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-previewed-changes.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
@@ -93,5 +94,5 @@ Related record
 Record that the changelist entry applies to
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Console](../concept/um-upgrade-preview-tool.md)
+</table>**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
 

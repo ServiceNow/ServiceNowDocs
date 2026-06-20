@@ -2,6 +2,7 @@
 title: Use the SecureStringEncode component
 description: Encode a string to secure it by using the Secure String Encode component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-security-encryption-securestringencode.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Secure String Encode component. For more information about these properties, see [Properties of the Encryption components](../reference/properties-security-encryption-components.md).
+You can configure the properties for the Secure String Encode component. For more information about these properties, see [Properties of the Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-security-encryption-components.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the Secure String Encode component. For mor
 
 2.  Drag the Secure String Encode component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  In the Secure String Encode component, enter the string that you want to encode in the **Text** field or pass the string through the Data In port.
 
@@ -45,5 +46,5 @@ You can configure the properties for the Secure String Encode component. For mor
 6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Encryption components](../concept/encryption-components.md)
+**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/encryption-components.md)
 

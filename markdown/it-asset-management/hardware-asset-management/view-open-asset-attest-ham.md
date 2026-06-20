@@ -2,6 +2,7 @@
 title: View open asset attestations in the Hardware Asset Workspace
 description: Get the details of all asset attestations that are awaiting action from your employees in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/view-open-asset-attest-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -34,5 +35,5 @@ Role required: asset or inventory\_admin
 
 The list of asset attestations with **Status** as **Open** is displayed.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

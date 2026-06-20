@@ -2,6 +2,7 @@
 title: Request a cloud account
 description: Request a cloud account as a requester. A notification email is sent when the requester creates an account request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/request-account.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -31,7 +32,7 @@ Role required: sn\_itom\_cam.cw\_requester
 
 4.  On the Request form, fill in the fields.
 
-    For a description of the field values, see [New cloud account request fields](../reference/account-creation-details.md).
+    For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/account-creation-details.md).
 
 5.  Select **Next**.
 

@@ -2,7 +2,10 @@
 title: Activate the quick action for Zoom meetings
 description: Activate the Zoom quick action to initiate Zoom meetings using the quick action from a chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-chat-zoom-quick-action.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Activate the Zoom quick action to initiate Zoom meetings using the quick action 
 
 ## Before you begin
 
-Install the Chat Zoom Connector application. For more information, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Install the Chat Zoom Connector application. For more information, see Install a ServiceNow Store application.
 
 Role required: admin
 
@@ -36,5 +39,5 @@ By default, the Zoom quick action is inactive. Activate this quick action to ena
 
 ## Result
 
-By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see [Conversational SMS service channel](https://www.servicenow.com/docs/access?context=conversation-sms-service-channel-store-app&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) and[Quick actions](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&version=yokohama&pubname=yokohama-conversational-interfaces&section=ci-quick-actions&ft:locale=en-US) .
+By default, the Zoom quick action is associated with chats when the Chat Zoom Connector application is installed. In addition, if the Conversational SMS service channel application is installed, the quick action is also associated with SMS conversations. For more information, see Conversational SMS service channel andQuick actions .
 

@@ -2,6 +2,7 @@
 title: Create an Apache Hudi connection
 description: Establish a zero copy connection to Apache Hudi in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/create-apache-hudi-connection.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -116,15 +117,15 @@ AWS region where your S3 bucket is located.
 </td></tr></tbody>
 </table>4.  Configure the metastore that you want to use with Apache Hudi.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d601020e248">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d596572e248">
 
 Option
 
-</th><th align="left" id="d601020e251">
+</th><th align="left" id="d596572e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d601020e257">
+</th></tr></thead><tbody><tr><td id="d596572e257">
 
 **Hive Thrift**
 
@@ -140,7 +141,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d601020e292">
+</td></tr><tr><td id="d596572e292">
 
 **AWS Glue**
 
@@ -161,7 +162,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

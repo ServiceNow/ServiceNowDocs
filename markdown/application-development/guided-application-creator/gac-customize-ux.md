@@ -2,6 +2,7 @@
 title: Customize user experiences in Guided Application Creator
 description: Customize how the application appears in each user experience that you select.If you selected the Mobile Agent mobile app as a user experience for your application, you can customize how the application appears in the mobile app.If you selected the classic ServiceNow AI Platform experience for your application, you can customize how the application appears in the application navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/guided-application-creator/gac-customize-ux.html
 release: yokohama
 product: Guided Application Creator
 classification: guided-application-creator
@@ -17,14 +18,14 @@ Customize how the application appears in each user experience that you select.
 
 Before you begin:
 
-1.  [Create an application record in Guided Application Creator](gac-create-app-record.md)
-2.  [Define roles in Guided Application Creator](gac-create-roles.md)
-3.  [Select user experiences in Guided Application Creator](gac-select-ux.md)
-4.  [Designate data tables in Guided Application Creator](gac-designate-data-table.md)
+1.  [Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-app-record.md)
+2.  [Define roles in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-roles.md)
+3.  [Select user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-select-ux.md)
+4.  [Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-designate-data-table.md)
 
-![Customize a user experience](../image/GAC-workspace-experience.png)
+\[Omitted image "GAC-workspace-experience.png"\] Alt text: Customize a user experience
 
-**Parent Topic:**[Setting up an application in Guided Application Creator](set-up-app.md)
+**Parent Topic:**[Setting up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/set-up-app.md)
 
 ## Customize your application for the Mobile Agent mobile app
 
@@ -71,7 +72,7 @@ Available offline
 
 Option to enable users to update application records while in offline mode. This option is available only if the SG Offline Support \(com.glide.sg.offline\) plugin is activated.
 
- For information on offline mode, see [Updating records without an internet connection](https://www.servicenow.com/docs/access?context=offline-end-user&version=yokohama&pubname=yokohama-mobile&ft:locale=en-US).
+ For information on offline mode, see Updating records without an internet connection.
 
 </td></tr><tr><td>
 

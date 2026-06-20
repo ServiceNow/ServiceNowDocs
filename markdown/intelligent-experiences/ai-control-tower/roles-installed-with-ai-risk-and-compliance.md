@@ -2,13 +2,14 @@
 title: AI Risk and Compliance roles
 description: The AI Risk and Compliance application installs the essential role to perform respective day-to-day operational tasks for managing AI systems across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/roles-installed-with-ai-risk-and-compliance.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [AI Control Tower Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Risk and Compliance roles
@@ -233,5 +234,5 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 
 For more information, see [https://www.servicenow.com/products/employee-center.html](https://www.servicenow.com/products/employee-center.html).
 
-**Parent Topic:**[AI Control Tower Reference](aict-references.md)
+**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
 

@@ -2,6 +2,7 @@
 title: Knowledge Management Service Portal article view page features
 description: The knowledge article view page in Knowledge Management Service Portal displays the knowledge article details, including the article number, short description, and article content. You can also give feedback or comment on an article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-view.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -49,7 +50,7 @@ Click **Subscribe** to subscribe to the knowledge article. Unsubscribe by clicki
 
 </td></tr><tr><td>
 
-Actions ![More icon](../image/KnowledgeServicePortalOverflowIcon.png)
+Actions \[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More icon
 
 </td><td>
 

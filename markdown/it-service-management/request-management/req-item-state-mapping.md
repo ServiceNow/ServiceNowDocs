@@ -2,6 +2,7 @@
 title: Requested item state mapping
 description: Map your requested items states to the universal request \(UR\) states to provide a better user experience during the requested item state transition and to track the progress of the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-management/req-item-state-mapping.html
 release: yokohama
 product: Request Management
 classification: request-management
@@ -25,7 +26,7 @@ Mapping the states of the requested item to the universal request state ensures 
 
 For example, consider a universal request has a requested item as a primary ticket. When the state of the request changes from **Open** to **Work in Progress**, the universal request state changes from **New** to **In Progress**.
 
-![Requested item state mapping.](../images/req-mgmt-state-maping.jpg)
+\[Omitted image "req-mgmt-state-maping.jpg"\] Alt text: Requested item state mapping.
 
 The following table lists the default state mapping of requested item state with UR states.
 
@@ -53,8 +54,8 @@ If you change the state of the request to Close Incomplete, Closed Skipped, or C
 
 3.  On the form, fill in the fields.
 
-    For more information, see [State mapping form](https://www.servicenow.com/docs/access?context=ur-state-mapping-form&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+    For more information, see State mapping form.
 
 
-**Parent Topic:**[Request Management integration with Universal Request](../concept/request-mgmt-integration-ur.md)
+**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/request-mgmt-integration-ur.md)
 

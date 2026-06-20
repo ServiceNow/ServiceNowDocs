@@ -2,6 +2,7 @@
 title: Create flow Service Catalog variables
 description: Create Service Catalog variables that are only available to a specific Service Catalog flow. Flow-specific variables are available to catalog tasks and actions in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-flow-catalog-variables.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -23,13 +24,13 @@ Role required: flow\_designer or admin
 
 Flow Service Catalog variables display in the **Catalog Variables** field of the Create Catalog Task and Get Catalog Variables actions. They display in the **Flow:variablename** format and are only available to the flow in which they are defined.
 
-For more information about Service Catalog actions, see [Create Catalog Task action](../reference/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](../reference/get-cat-variables-flow-designer.md).
+For more information about Service Catalog actions, see [Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-catalog-task-flow-designer.md) and [Get Catalog Variables action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/get-cat-variables-flow-designer.md).
 
 ## Procedure
 
 1.  Open or create a flow with a Service Catalog trigger.
 
-2.  Click ![The More Actions icon](../images/more-actions-menu-icon.png) and select **Manage flow catalog variables**.
+2.  Click \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon and select **Manage flow catalog variables**.
 
     The Flow catalog variables table opens.
 
@@ -67,7 +68,7 @@ Type
 
 </td><td>
 
-The variable type that you want to create. For more information, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+The variable type that you want to create. For more information, see Types of service catalog variables.
 
 </td></tr><tr><td>
 
@@ -225,7 +226,7 @@ Show help
 
 </td><td>
 
-If selected, displays the [help text](https://www.servicenow.com/docs/access?context=t_DefineHelpInformation&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) and instructions for the variable.**Note:**
+If selected, displays the help text and instructions for the variable.**Note:**
 
 -   It is not available for break and check box variables.
 -   Help text and instructions are not available for a variable set.
@@ -291,7 +292,7 @@ Variable Width
 
 </td><td>
 
-Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see [Configure a default width for service catalog variables](https://www.servicenow.com/docs/access?context=configure-variable-width&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
+Width for the variable on the catalog item page, to specify what percentage of the screen size that it can span. For details, see Configure a default width for service catalog variables.This field appears for all variable types except for break, container end, container start, container split, container layout, and label variables.
 
 </td></tr><tr><td>
 
@@ -301,7 +302,7 @@ Enable also request for
 
 Option to allow a catalog item request to be submitted for multiple users. After you select this option, the **Also request for** field is displayed along with Requested For variable in a catalog item. -   This functionality is only applicable in Service Portal.
 -   This field is applicable only for the Requested For variable.
-For information about delegated request experience, see [Delegated request experience](https://www.servicenow.com/docs/access?context=delegated-request-exp&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For information about delegated request experience, see .
 
 </td></tr><tr><td>
 
@@ -314,7 +315,7 @@ Option to specify the roles that can submit a catalog item request for multiple 
 -   This field appears only when the **Enable also request for** check box is selected.
  **Note:** If no role is specified, anyone who has access to the catalog item can submit the request.
 
-For information about delegated request experience, see [Delegated request experience](https://www.servicenow.com/docs/access?context=delegated-request-exp&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For information about delegated request experience, see .
 
 </td></tr><tr><td>
 
@@ -432,7 +433,7 @@ Macro
 
 </td><td>
 
-[UI macro](https://www.servicenow.com/docs/access?context=c_UIMacros&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US) to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
+UI macro to insert into the catalog item.This field appears for macro, macro with label, and UI page variables.
 
 </td></tr><tr><td>
 
@@ -464,7 +465,7 @@ Recurring price if checked
 
 </td><td>
 
-Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see [Using variables for price setup](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariablePricing&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Price that increments for the item, when the user requests more than one order of the item.This field appears for check box variables. For more information about prices and recurring prices, see Using variables for price setup.
 
 </td></tr><tr><td>
 
@@ -480,7 +481,7 @@ Reference qual
 
 </td><td>
 
-Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Qualifiers to restrict data that is available in the field.Supports reference qualifiers and advance qualifiers. For more information, see Reference qualifiers.
 
  Returns all matching results \(no maximum\).
 
@@ -552,7 +553,7 @@ Validation Regex
 
 </td><td>
 
-Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see [Define a regular expression for a variable](https://www.servicenow.com/docs/access?context=define-regex-vrble&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Regular expression that validates the variable value. This field is displayed only for Single Line Text and Wide Single Line Text variable types.To define regular expressions, see .
 
  **Note:**
 
@@ -567,7 +568,7 @@ Variable attributes
 
 </td><td>
 
-Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see [Service catalog variable attribute](https://www.servicenow.com/docs/access?context=variable-attributes&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+Attributes that define the behavior and restrictions for a variable. For information on variable attributes, see Service catalog variable attribute.
 
 </td></tr><tr><td>
 
@@ -677,5 +678,5 @@ If the catalog item has a variable that's making the item non-conversational, fo
 
 Access the variable in the flow by adding a Create Catalog Task or Get Catalog Variables action.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
 

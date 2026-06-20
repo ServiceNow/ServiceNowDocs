@@ -2,6 +2,7 @@
 title: Configure container components for Work scheduler
 description: Present information in an intuitive format using the Card Base Container component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/work-sched-card-based-container-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -28,7 +29,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 3.  In the **Config** tab, set the interaction and aria properties.
 
     -   From the **Interaction** menu, select **Click**.
-    -   In the Accessibility section, select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png)
+    -   In the Accessibility section, select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon
     -   From the **ARIA Properties** list, select **@state.cardProps.aria**.
 4.  Select the **Events** tab.
 
@@ -42,12 +43,12 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 8.  Select **Save**.
 
-    Here's a demo on how to configure container components in Work scheduler.Configure container components for Work Scheduler
+    Here's a demo on how to configure container components in Work scheduler.
 
 
 ## What to do next
 
-[Configure a Work scheduler card heading component](https://www.servicenow.com/docs/access?context=work-sched-card-based-header&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US)
+Configure a Work scheduler card heading component
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 

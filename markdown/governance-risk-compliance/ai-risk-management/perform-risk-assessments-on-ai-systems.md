@@ -2,6 +2,7 @@
 title: Perform risk assessments on AI systems
 description: Perform risk assessments on AI systems to evaluate the likelihood and impact of potential risks using the AI Risk and Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -25,7 +26,7 @@ The Advanced Risk application must be installed to perform risk assessment on th
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the list ![List icon.](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
 
 3.  From the Lists, open the AI systems for which you want to perform risk assessments.
 
@@ -64,7 +65,7 @@ The Advanced Risk application must be installed to perform risk assessment on th
 
 ## What to do next
 
-[Create control attestations for AI asset](attest-controls-for-ai-systems.md)
+[Create control attestations for AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

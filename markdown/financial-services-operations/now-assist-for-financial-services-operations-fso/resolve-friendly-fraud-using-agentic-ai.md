@@ -2,6 +2,7 @@
 title: Resolve friendly fraud by using agentic AI
 description: Resolve friendly fraud by using the friendly fraud AI agent to determine the actions to take for the disputed amount, the customer relationship, and assessing the outcome of the detection logic to evaluate the results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-friendly-fraud-using-agentic-ai.html
 release: yokohama
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -35,7 +36,7 @@ When a friendly fraud task is identified, the Friendly fraud AI agent is display
 
     If friendly fraud is detected based on the defined rules, the **Detect friendly fraud** activity appears in the **Investigate** stage. The transaction details along with the evidence are displayed. When the AI agent is displayed, a notification appears in the Now Assist panel and an active chat is initiated.
 
-2.  Select the Now Assist panel icon \(![now assist panel icon](../../../common/image/icon-ai-sparkle.png)\) and open the active chat for the disputed transaction.
+2.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
 
     In the chat, the AI agent generates a recommendation for the dispute with a valid reason.
 
@@ -47,9 +48,9 @@ When a friendly fraud task is identified, the Friendly fraud AI agent is display
 
     You can continue working in the playbook activities as you interact with the AI agent.
 
-    For information about how to resolve friendly fraud, see [Detect friendly fraud](../../fso-card-operations/task/resolve-friendly-fraud.md) and [Customer communication](../../fso-card-operations/task/resolve-fraud-customer-communication.md).
+    For information about how to resolve friendly fraud, see [Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/resolve-friendly-fraud.md) and [Customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
-    ![Detect friendly fraud activity showing AI-driven recommendation to decline transaction for Anu Raj's $24.00 dispute, with final action and resolution reason fields displayed.](../image/friendly-fraud-ai.png)
+    \[Omitted image "friendly-fraud-ai.png"\] Alt text: Detect friendly fraud activity showing AI-driven recommendation to decline transaction for Anu Raj's $24.00 dispute, with final action and resolution reason fields displayed.
 
 
 ## Result

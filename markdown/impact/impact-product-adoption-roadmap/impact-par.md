@@ -2,6 +2,7 @@
 title: Product Adoption Roadmaps
 description: Access the Product adoption roadmaps \(PARs\) feature to view an admitted implementation sequence for your capabilities. The implementation sequence is organized into specific phases for an optimal implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-product-adoption-roadmap/impact-par.html
 release: yokohama
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -21,7 +22,7 @@ The product adoption roadmap was initially only available to Impact Advanced, an
 
 You can create a product adoption roadmap using pre-defined templates aligned to your business needs and products.
 
-As an Advanced or Total customer, your Impact squad collaborates with you to determine the optimal implementation sequence tailored to your unique business needs. Before creating a PAR, a capability map should be published for that instance. See [Capabilities maps](capabilities-map.md) for information on the capabilities maps. As soon as your Impact squad creates your PAR, you receive a notification.
+As an Advanced or Total customer, your Impact squad collaborates with you to determine the optimal implementation sequence tailored to your unique business needs. Before creating a PAR, a capability map should be published for that instance. See [Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-product-adoption-roadmap/capabilities-map.md) for information on the capabilities maps. As soon as your Impact squad creates your PAR, you receive a notification.
 
 You can access your created roadmaps by selecting **Product Adoption Roadmaps** from the **Product Adoption** menu on the Impact home page.
 

@@ -2,6 +2,7 @@
 title: Sign on closed work order on the Contractor Portal
 description: Customers can digitally sign and confirm work orders that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/sign-closed-wot.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -54,5 +55,5 @@ When a work order is closed, you are notified with a link to the work order. Ope
 
 The signed PDF summary is generated and attached to the Work Order form.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

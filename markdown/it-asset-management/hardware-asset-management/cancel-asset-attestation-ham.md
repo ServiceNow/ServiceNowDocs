@@ -2,6 +2,7 @@
 title: Cancel an asset attestation
 description: Cancel an asset attestation when you no longer have to validate the ownership of the serialized assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/cancel-asset-attestation-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -43,5 +44,5 @@ An asset attestation that's in the In progress state can only be canceled.
 -   The state of the asset attestation changes to Canceled.
 -   The status of the assets in the asset attestation that aren't confirmed by the employees' changes from Open to Canceled.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

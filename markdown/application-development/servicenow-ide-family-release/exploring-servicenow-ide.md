@@ -2,6 +2,7 @@
 title: Exploring the ServiceNow IDE
 description: Learn about developing scoped applications in source code in the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-ide-family-release/exploring-servicenow-ide.html
 release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -19,7 +20,7 @@ Learn about developing scoped applications in source code in the ServiceNow IDE.
 
 The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. With the ServiceNow IDE, you can get started building scoped applications quickly using familiar tools and industry-standard development practices. The ServiceNow IDE has many of the same features as Visual Studio Code, including type safety, IntelliSense, dependency enforcement, code search, and source control integration.
 
-![The ServiceNow IDE homepage with the user's workspaces listed.](../image/servicenow-ide-welcome.png "ServiceNow IDE home page")
+\[Omitted image "servicenow-ide-welcome.png"\] Alt text: The ServiceNow IDE homepage with the user's workspaces listed.
 
 In the ServiceNow IDE, you can create scoped applications in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. To see a side-by-side visual representation of your changes in real time, you can open the application metadata in other ServiceNow AI Platform user interfaces embedded within the ServiceNow IDE.
 
@@ -31,7 +32,7 @@ In the background, this functionality is enabled by the ServiceNow SDK applicati
 
 The following infographic shows the workflow for developers to get started developing applications with the ServiceNow IDE.
 
-![Process for using the ServiceNow IDE to develop applications in source code. For details, refer to the following description.](../image/servicenow-ide-workflow.png "Developing applications with the ServiceNow IDE")
+\[Omitted image "servicenow-ide-workflow.png"\] Alt text: Process for using the ServiceNow IDE to develop applications in source code. For details, refer to the following description.
 
 1.  Depending on the authentication method, an administrator or developer configures the credentials needed to connect to their Git provider.
     -   To use OAuth 2.0 authentication, an administrator configures an OAuth 2.0 application registry in their Git provider and on the instance.
@@ -70,7 +71,7 @@ Develop applications in an IDE based on Visual Studio Code on the ServiceNow AI 
 
 </td><td>
 
-[ServiceNow IDE user interface](servicenow-ide-user-interface.md#)
+[ServiceNow IDE user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md)
 
 </td><td>
 
@@ -82,7 +83,7 @@ Write source code to define the metadata that makes up ServiceNow applications
 
 </td><td>
 
-[ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)[Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](../task/define-metadata-code-fluent-ide.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/servicenow-fluent.md)[Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.md)
 
 </td><td>
 
@@ -94,9 +95,9 @@ Organize and reuse code within scoped applications with custom JavaScript module
 
 </td><td>
 
-[JavaScript modules and third-party libraries](../../servicenow-sdk/concept/javascript-modules-third-party-libraries.md)[Create and use JavaScript modules in applications in the ServiceNow IDE](../task/create-use-javascript-modules-ide.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/javascript-modules-third-party-libraries.md)[Create and use JavaScript modules in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.md)
 
-[Use third-party libraries in applications in the ServiceNow IDE](../task/use-third-party-libraries-ide.md)
+[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
 
 </td><td>
 
@@ -108,7 +109,7 @@ Collaborate on applications with users of different skill sets
 
 </td><td>
 
-[Build and install an application in the ServiceNow IDE](../task/build-applications-servicenow-ide.md)
+[Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md)
 
 </td><td>
 
@@ -120,7 +121,7 @@ Integrate source control with your Git provider of choice
 
 </td><td>
 
-[Integrating source control with the ServiceNow IDE](integrating-source-control-servicenow-ide.md)
+[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 </td><td>
 

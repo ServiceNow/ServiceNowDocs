@@ -2,6 +2,7 @@
 title: System properties for configuring Walk-up Experience for guest users
 description: System properties enable you to configure the Walk-up Experience for guest users to access the Walk-up Check-in widget from the Service Portal home page and schedule appointments online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-configure.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

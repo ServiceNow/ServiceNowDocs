@@ -2,11 +2,12 @@
 title: Change a Creator Studio app's table
 description: Change an app's table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-change-app-table.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Administering an app's underlying table, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -42,24 +43,24 @@ To ensure that forms and automations work, a general guideline is to change the 
 
 3.  Select the app from the list.
 
-    ![Request app configs list filtered by app name](../image/crs-change-app-table1.png "Filtered list of apps")
+    \[Omitted image "crs-change-app-table1.png"\] Alt text: Request app configs list filtered by app name
 
 4.  Change the scope to the app's scope or a global scope if you're not in the correct scope.
 
     You can change the scope in one of the following ways:
 
     -   Selecting the **here** in the message "To edit the record click here."
-    -   Selecting the application scope icon \(![](../../applications/image/icon-scope-changed.png)\) and choosing the appropriate scope.
-    For more information on scopes, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+    -   Selecting the application scope icon \(\[Omitted image "icon-scope-changed.png"\]\) and choosing the appropriate scope.
+    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.
 
-    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](../concept/creator-studio-admin-app-table-about.md#crs-requirements-change-table).
+    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table-about.md).
 
-    ![Search for and select a new table for the app](../image/crs-change-app-table2.png "Change the app table")
+    \[Omitted image "crs-change-app-table2.png"\] Alt text: Search for and select a new table for the app
 
 6.  Select **Update** to save your changes.
 
 
-**Parent Topic:**[Administering an app's underlying table](../concept/creator-studio-admin-app-table.md)
+**Parent Topic:**[Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md)
 

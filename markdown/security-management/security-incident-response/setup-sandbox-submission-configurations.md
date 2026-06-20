@@ -2,6 +2,7 @@
 title: Set up Sandbox submission configurations
 description: Set up the Sandbox configuration to define the analysis environment and runtime options for your security incident record submissions for the malware analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/setup-sandbox-submission-configurations.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -121,7 +122,7 @@ Option that allows you to select the type of network settings used while submitt
 
 After you configure sandbox
 
-submissions, the next step is to [manually submit files or ULRs to Sandbox](submit-files-or-urls-to-sandbox.md)
+submissions, the next step is to [manually submit files or ULRs to Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/submit-files-or-urls-to-sandbox.md)
 
 .
 

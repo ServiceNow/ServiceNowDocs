@@ -2,6 +2,7 @@
 title: Establish a connection using certificates
 description: Establish a connection between newly created Microsoft Teams graph application using certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/establish-a-connection-using-certificates.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -31,15 +32,15 @@ Role required: admin
 
 4.  From the Related Links section, click Create **New Connection &amp; Credential**.
 
-<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d266798e96">
+<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d197762e92">
 
  
 
-</th><th align="left" id="d266798e98">
+</th><th align="left" id="d197762e94">
 
  
 
-</th></tr></thead><tbody><tr><td id="d266798e103">
+</th></tr></thead><tbody><tr><td id="d197762e99">
 
 **Name**
 
@@ -47,7 +48,7 @@ Role required: admin
 
 Any unique Name.
 
-</td></tr><tr><td id="d266798e112">
+</td></tr><tr><td id="d197762e108">
 
 **Connection URL**
 
@@ -55,7 +56,7 @@ Any unique Name.
 
 Connection URL. For example, https://graph.microsoft.com
 
-</td></tr><tr><td id="d266798e121">
+</td></tr><tr><td id="d197762e117">
 
 **API Version**
 
@@ -63,7 +64,7 @@ Connection URL. For example, https://graph.microsoft.com
 
 Version of the API. For example, v1.0
 
-</td></tr><tr><td id="d266798e130">
+</td></tr><tr><td id="d197762e126">
 
 **Authorization URL**
 
@@ -71,7 +72,7 @@ Version of the API. For example, v1.0
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
-</td></tr><tr><td id="d266798e140">
+</td></tr><tr><td id="d197762e136">
 
 **Token URL**
 
@@ -79,7 +80,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
-</td></tr><tr><td id="d266798e149">
+</td></tr><tr><td id="d197762e145">
 
 **Token Revocation URL**
 
@@ -87,7 +88,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
-</td></tr><tr><td id="d266798e158">
+</td></tr><tr><td id="d197762e154">
 
 **OAuth Client ID**
 
@@ -95,7 +96,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
 Client ID.
 
-</td></tr><tr><td id="d266798e167">
+</td></tr><tr><td id="d197762e163">
 
 **OAuth Client Secret**
 
@@ -128,8 +129,8 @@ You can enter any value. **Note:** This is not important as you will be using th
 
     On success, the following API permissions are added to the Azure application.
 
-    ![API Permissions - MS Teams](../image/api-permissions-msteams.png)
+    \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Certificates for authentication](using-certificates-for-authentication.md)
+**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-certificates-for-authentication.md)
 

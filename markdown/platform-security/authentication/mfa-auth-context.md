@@ -2,6 +2,7 @@
 title: MFA \(Multi-Factor Authentication\) context
 description: The MFA \(Multi-Factor Authentication\) policy context uses a policy to define how and when MFA is enforced during the login process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/mfa-auth-context.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -88,11 +89,11 @@ The policy used for this context uses. This field appears only when the **Defaul
 </td></tr></tbody>
 </table>## Policy inputs and conditions
 
-The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Step-Up MFA Policy** or **Step-Down MFA Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(![Reference icon](../images/reference-icon.png)\) next to the **Step-Up MFA Policy** or **Step-Down MFA Policy** field.
+The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Step-Up MFA Policy** or **Step-Down MFA Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) next to the **Step-Up MFA Policy** or **Step-Down MFA Policy** field.
 
 **Note:** Policy conditions can be created from here, but as a good practise it is recommended to add new policy conditions from policy page.
 
 This example shows an MFA context record configured using a step-up MFA policy. This default policy means that MFA is enforced only when the conditions defined in the policy evaluate to true. The context uses a policy called **Step-Up MFA policy**. That policy has a set of inputs and conditions that are displayed in the **Policy Input** and **Policy Condition** tabs.
 
-![MFA policy context record](../images/mfa-auth-context.png "MFA policy context form")
+\[Omitted image "mfa-auth-context.png"\] Alt text: MFA policy context record
 

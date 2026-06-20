@@ -2,6 +2,7 @@
 title: Similar record identification with Now Assist for Strategic Portfolio Management \(SPM\)
 description: Identify similar records is a Now Assist skill that enables you to find the demand records that are contextually similar to your demand. This feature helps to reduce duplicate demands and improves planning efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/similar-demand-identification-using-now-assist.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -20,7 +21,7 @@ The identify similar records skill uses the name, description, and business case
 
 The similar demand records are displayed in a top banner and in the Similar Demands related list. This skill improves visibility into related initiatives, and enhance decision-making for demand users.
 
-For more information on Now Assist for Strategic Portfolio Management \(SPM\), see [Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/concept/now-assist-spm.md).
+For more information on Now Assist for Strategic Portfolio Management \(SPM\), see [Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md).
 
-**Parent Topic:**[Exploring Demand Management](exploring-demand-management.md)
+**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/exploring-demand-management.md)
 

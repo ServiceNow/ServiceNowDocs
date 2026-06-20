@@ -2,6 +2,7 @@
 title: Install the Agent Client Collector on a Windows machine using silent installation
 description: Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-windows-install-silent.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,15 +22,19 @@ Silent installation automatically creates a local user called **servicenow** \(u
 
 ## Before you begin
 
+ACC installs need to access this URL: `https://install.service-now.com/`.
+
+Enable golden image mode for cloning additional agents by setting the msi property **GOLDEN\_IMAGE=true**.
+
 Role required: agent\_client\_collector\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
 
-2.  From the Windows Download section, download the MSI installer by selecting the Download icon \(![Select the download icon to download the application.](../image/icon-download-blue.png)\).
+2.  From the Windows Download section, download the MSI installer by selecting the Download icon \(\[Omitted image "icon-download-blue.png"\] Alt text: Select the download icon to download the application.\).
 
-    ![Page where you can download Agent Client Collector.](../image/console-download-acc-win-installer2.png)
+    \[Omitted image "console-download-acc-win-installer2.png"\] Alt text: Page where you can download Agent Client Collector.
 
 3.  To run Silent installation to disable installation reports, run the command line appearing in the **Silent installation** section of the procedure, as follows:
 
@@ -122,7 +127,7 @@ Default = `servicenow`
 When using the SYSTEM, LOCALSERVICE, or DOMAIN\\gMSA$ accounts:
 
 -   You do not have to configure a password.
--   You must run the relevant .msi command, as described in [Account commands for LocalService, LocalSystem, and gMSA during Windows installation](../reference/gmsa-and-local-account-commands.md).
+-   You must run the relevant .msi command, as described in [Account commands for LocalService, LocalSystem, and gMSA during Windows installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/gmsa-and-local-account-commands.md).
 
 
 </td></tr><tr><td>
@@ -183,8 +188,8 @@ Indicates whether the user password expires \(false\) or never expires \(true\).
     For the `<MID IP>` value, you can assign either the MID FQDN or CNAME. To enable high availability, use either the Auto MID Selection algorithm, or manage a virtual IP with a load balancer. For more information, see the [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613) article in the HI Knowledge Base.
 
 
--   **[Uninstall Agent Client Collector from a Windows system using a single-line command](acc-uninstall-windows-single-line.md)**  
+-   **[Uninstall Agent Client Collector from a Windows system using a single-line command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-uninstall-windows-single-line.md)**  
 Uninstall the Agent Client Collector from a Windows machine by running an efficient single-line command. If the script is not connected to the instance, you might have to uninstall Agent Client Collector manually.
 
-**Parent Topic:**[Agent Client Collector installation on a Windows machine](../concept/acc-windows-install-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
 

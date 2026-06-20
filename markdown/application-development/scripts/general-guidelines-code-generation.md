@@ -2,6 +2,7 @@
 title: General guidelines for code generation
 description: Use these general guidelines for code generation to get better code suggestions and create useful and accurate scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/general-guidelines-code-generation.html
 release: yokohama
 product: Scripts
 classification: scripts

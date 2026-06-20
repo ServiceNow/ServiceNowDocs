@@ -2,6 +2,7 @@
 title: Check candidate recommendations in ERP-CM
 description: Check the actions that ERP Semantic Mining \(ERP-CM\) suggests to improve the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-work-with-recommendations.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -29,22 +30,22 @@ For example, you may need to create a workflow in Workflow Studio for one candid
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  In the side panel, select the candidates icon \(![Candidates icon](../image/erpcm-candidates-icon.png)\).
+2.  In the side panel, select the candidates icon \(\[Omitted image "erpcm-candidates-icon.png"\] Alt text: Candidates icon\).
 
-    Alternatively, you can select a candidate directly on the ERP-CM home page. For more information, see [Browse an overview of candidates in ERP-CM](erpcm-view-home-page-overview.md).
+    Alternatively, you can select a candidate directly on the ERP-CM home page. For more information, see [Browse an overview of candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-home-page-overview.md).
 
 3.  Select the candidate that you want to view the recommended next actions for.
 
 4.  Select the **Recommendations** tab, which summarizes each suggested action.
 
-    For a description of the field values, see [ERP-CM candidate recommendations field descriptions](../reference/erpcm-candidate-recommendations-field-descriptions.md).
+    For a description of the field values, see [ERP-CM candidate recommendations field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-candidate-recommendations-field-descriptions.md).
 
-    ![Candidate recommendations](../image/erpcm-recommended-actions.png "Recommendations in ERP-CM")
+    \[Omitted image "erpcm-recommended-actions.png"\] Alt text: Candidate recommendations
 
 5.  Select a **Recommended action URL** to open the relevant destination on the ServiceNow AI Platform in a new browser tab.
 
     For example, if the recommendation is to read an extraction table, select the **Recommended action** link to open the ERP model in Zero Copy Connector for ERP, where you can add the suggested table.
 
 
-**Parent Topic:**[Finding and working with candidates to replatform](../concept/work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/work-with-candidates.md)
 

@@ -2,6 +2,7 @@
 title: Methods and events of the Button element
 description: The Button element in RPA Desktop Design Studio enables you to add one or more buttons on the form so that your user can click a button to perform an action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/form-control-button.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -79,5 +80,5 @@ The methods and events of the Button element are displayed in the Object Explore
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/form-control-methods-events.md)
 

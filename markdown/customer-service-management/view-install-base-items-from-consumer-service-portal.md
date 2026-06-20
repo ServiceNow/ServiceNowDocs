@@ -2,7 +2,10 @@
 title: Access your list of install base items from the Consumer Service Portal
 description: Access your list of install base items from the Consumer Service Portal so that you can get the detailed information about an install base item. For example, with this list, you can see how many items are registered to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-items-from-consumer-service-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

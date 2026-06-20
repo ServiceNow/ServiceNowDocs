@@ -2,6 +2,7 @@
 title: Review time recorded for a task
 description: Agents can review the time recorded for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/field-service-agent-review-time.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ The **Time Worked** related list on the Work Order Task form displays the Time W
 3.  To view a record, click the **Category**.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

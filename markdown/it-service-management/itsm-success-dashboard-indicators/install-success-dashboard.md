@@ -2,6 +2,7 @@
 title: Install ITSM Success Dashboard indicators
 description: You can install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.html
 release: yokohama
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -44,5 +45,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](../concept/configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

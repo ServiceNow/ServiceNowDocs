@@ -2,6 +2,7 @@
 title: SMS One-time passcode \(OTP\) authentication
 description: SMS one-time password \(OTP\) authentication is a method used to verify user identity by sending a temporary, numeric code to the user's registered mobile number. The user enters this code to complete authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/sms-otp-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -37,5 +38,5 @@ While SMS method is a convenient authentication method, there are several consid
 -   Reliant on mobile network availability.
 -   Not recommended as the sole authentication factor for high-risk or sensitive operations.
 
-SMS OTP can enhance overall security when used appropriately. For detailed configuration instructions, see [Multi-factor authentication Providers](multi-factor-authentication-providers.md).
+SMS OTP can enhance overall security when used appropriately. For detailed configuration instructions, see [Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/multi-factor-authentication-providers.md).
 

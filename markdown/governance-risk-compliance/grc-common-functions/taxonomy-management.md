@@ -2,6 +2,7 @@
 title: Taxonomy management in GRC
 description: Taxonomy is used to organize, classify, and label the elements of the unstructured content. The content is organized into granular elements that provide more information about the context of the content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/taxonomy-management.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -35,5 +36,5 @@ The new GRC: taxonomy management application provides the following benefits:
 
 **Note:** If you have downloaded the Regulatory Change Management application previously and you are upgrading to the Yokohama GA release, copy the data from the old taxonomy tables to the new taxonomy tables.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

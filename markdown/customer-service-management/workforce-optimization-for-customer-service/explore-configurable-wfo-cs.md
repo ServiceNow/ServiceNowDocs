@@ -2,6 +2,7 @@
 title: Exploring Workforce Optimization for Customer Service
 description: Use Workforce Optimization for Customer Service to optimize your workforce and manage your teams efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -17,7 +18,7 @@ Use Workforce Optimization for Customer Service to optimize your workforce and m
 
 Manage and monitor the real-time work being done by your agents across different channels and queues. Provide timely help to your team members to solve cases faster and help with complex customer issues. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams to provide better coverage with integrated channel management.
 
-![Infographic displaying manager workflow for Workforce Optimization for Customer Service using modules like Channels, Coaching, Teams, and Scheduling.](../image/manager-wfo-workflow.png)
+\[Omitted image "manager-wfo-workflow.png"\] Alt text: Infographic displaying manager workflow for Workforce Optimization for Customer Service using modules like Channels, Coaching, Teams, and Scheduling.
 
 As a manager, you can monitor the demand for agents and skills in your organization to resolve issues. Assess agent skills, identify areas where they need improvement, and provide training to enhance their skills set. Track your teams performance, and manage the schedule of all agents in your assignment group—all from a unified location.
 
@@ -33,11 +34,11 @@ The landing page provides a real-time overview of the current workload and the t
 -   Open Cases: Open case by backlog \(graph of open and unassigned cases\), Open case by age \(graph of 10-15 days, 15-30 days, more than 30 days\)
 -   Critical open cases: You can see the list of open critical cases that are refreshed every 60 seconds.
 
-For more information, see [Manager Workspace Landing Page](csm-configurable-manager-workspace-dashboards.md).
+For more information, see [Manager Workspace Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/csm-configurable-manager-workspace-dashboards.md).
 
 ## Manager workspace landing page
 
-The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauge, line charts, and bars having multiple data sets. For more information, see [Manager Workspace landing page](csm-configurable-manager-workspace-dashboards-new.md).
+The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauge, line charts, and bars having multiple data sets. For more information, see [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/csm-configurable-manager-workspace-dashboards-new.md).
 
 ## Channel management
 
@@ -51,7 +52,7 @@ Using Channels, you can also:
 -   Monitor the status of the queues.
 -   Track and change real-time presence and capacity utilization of your team members.
 
-For more information, see [Channel Management in Workforce Optimization for Customer Service](explore-channels-configurable-wfo-cs.md).
+For more information, see [Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-channels-configurable-wfo-cs.md).
 
 ## Scheduling
 
@@ -65,7 +66,7 @@ Using Scheduling, you can also:
 -   Approve agent time-off or shift-swap requests.
 -   Create on-call shifts and assign primary, secondary rotation groups to handle escalation scenarios.
 
-For more information, see [Scheduling in Workforce Optimization for Customer Service](explore-scheduling-configurable-wfo-cs.md).
+For more information, see [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-scheduling-configurable-wfo-cs.md).
 
 ## Schedule Adherence
 
@@ -78,7 +79,7 @@ Using Schedule Adherence, you can also:
 -   Analyze the historical time attendance of your team members.
 -   View planned versus actual historical data for your team and individual agents.
 
-For more information, see [Schedule Adherence in Workforce Optimization for Customer Service](schedule-adherence-configurable-wfo-cs.md).
+For more information, see [Schedule Adherence in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/schedule-adherence-configurable-wfo-cs.md).
 
 ## Demand Forecasting
 
@@ -90,7 +91,7 @@ Using Demand Forecasting, you can also:
 -   Adjust and prioritize schedules, tasks, breaks, and meetings for the agents without impacting service objectives.
 -   Use historical data and forecast the contact volumes \(cases and interactions\) at 15-minute intervals.
 
-For more information, see [Demand Forecast in Workforce Optimization for Customer Service](explore-demand-forecast-configurable-wfo-cs.md).
+For more information, see [Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-demand-forecast-configurable-wfo-cs.md).
 
 ## Teams
 
@@ -104,7 +105,7 @@ Using Teams, you can also:
 -   Access each agent's profile to view details such as their manager, peers, and assignment groups.
 -   Drill down into each agent's skills or suggest them for coaching.
 
-For more information, see [Teams in Workforce Optimization for Customer Service](explore-teams-configurable-wfo-cs.md).
+For more information, see [Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-teams-configurable-wfo-cs.md).
 
 ## Coaching and Skills Assessment
 
@@ -118,5 +119,5 @@ Using Coaching, you can also:
 -   Analyze the skill gap and recommend training.
 -   Assign courses to agents from third-party learning management systems \(LMS\), such as Udemy, Pluralsight, and Cornerstone OnDemand.
 
-For more information, see [Coaching in Workforce Optimization for Customer Service](explore-coaching-configurable-wfo-cs.md).
+For more information, see [Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/explore-coaching-configurable-wfo-cs.md).
 

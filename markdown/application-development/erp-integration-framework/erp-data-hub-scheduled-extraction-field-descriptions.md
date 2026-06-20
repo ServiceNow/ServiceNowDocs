@@ -2,12 +2,13 @@
 title: Zero Copy Connector for ERP scheduled extraction field descriptions
 description: The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-data-hub-scheduled-extraction-field-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector for ERP reference, Zero Copy Connector for ERP, Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
 
-For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](../task/erpc-create-a-scheduled-extraction.md).
+For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-create-a-scheduled-extraction.md).
 
 <table id="table_rgs_xr5_bdc"><thead><tr><th>
 
@@ -85,7 +86,7 @@ Maximum no of retries on error
 
 </td><td>
 
-If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see [Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+If the job fails, set the maximum number of retries \(from 0 through 10\) the scheduled job should attempt before stopping.**Note:** Each retry uses the same query and retries the entire job. For example, if the total job contains 5000 records and the job fails after 2000 records are successfully processed, the entire job is rerun again on the next retry. For more information, see .
 
 </td></tr><tr><td>
 
@@ -101,9 +102,9 @@ Encoded query
 
 </td><td>
 
-Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:![Sample encoded query.](../image/erpc-schedule-extraction-encoded-query.png)
+Create an encoded query string using a filter on the extraction table list and paste the string into this field. For example:\[Omitted image "erpc-schedule-extraction-encoded-query.png"\] Alt text: Sample encoded query.
 
-For more information, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -111,10 +112,10 @@ Generate encoded query script
 
 </td><td>
 
-Generate an encoded query script to use on the extraction table to fetch the data. For example:![Sample generated encoded query script.](../image/erpc-schedule-extraction-generate-query.png)
+Generate an encoded query script to use on the extraction table to fetch the data. For example:\[Omitted image "erpc-schedule-extraction-generate-query.png"\] Alt text: Sample generated encoded query script.
 
 The script entered in **Generate encoded query script** takes precedence over information entered into the **Encoded query** field. You can append the encoded query to the script \(as in the example\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

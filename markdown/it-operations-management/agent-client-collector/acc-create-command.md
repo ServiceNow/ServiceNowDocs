@@ -2,6 +2,7 @@
 title: Create an Agent Client Collector Security Incident Response command
 description: Define a command or command string to be executed on a machine referenced by a security incident. Commands are listed by operating system. For example, a ps command on a Windows OS retrieves the status of active Windows OS processes in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-create-command.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -45,11 +46,11 @@ Role required: sn\_si.admin
 
 5.  Enter the specific end-point Agent where the result of the test is displayed.
 
-    -   ![successful](../image/acc-create-command-ok.png) If it was successful
-    -   ![large](../image/acc-create-command-large.png) too large of an output
-    -   ![error](../image/acc-create-command-error.png) or an Error occurred with the error message displayed to the sn\_si.admin.
+    -   \[Omitted image "acc-create-command-ok.png"\] Alt text: successful If it was successful
+    -   \[Omitted image "acc-create-command-large.png"\] Alt text: large too large of an output
+    -   \[Omitted image "acc-create-command-error.png"\] Alt text: error or an Error occurred with the error message displayed to the sn\_si.admin.
 6.  Select **Submit**
 
 
-**Parent Topic:**[Agent Client Collector Security Incident Response](../concept/acc-security-incident-response.md)
+**Parent Topic:**[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 

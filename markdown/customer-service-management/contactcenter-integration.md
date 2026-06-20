@@ -2,7 +2,10 @@
 title: Integrating with contact centers
 description: Integrate your contact center platform with the ServiceNow Customer Service Management \(CSM\) application to unify customer service teams through a single user interface. This integration centralizes routing across departments and channels, and optimizes workforce engagement for more personalized customer experiences and simplified employee experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/contactcenter-integration.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -21,14 +24,14 @@ Additionally, the agent presence state must match between the ServiceNow workspa
 
 ## External routing with Contact Centers
 
-Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US), and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
+Contact center spokes allow communication between ServiceNow and contact centers via the contact center API. Using a spoke requires the use of Integration Hub, and each contact center provider creates a spoke with actions to initiate the routing instructions. In general, the actions should correspond to these external routing events:
 
 -   New interaction
 -   End interaction
 -   Transfer to agent
 -   Transfer to queue
 
-The spoke should also have the ability to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://www.servicenow.com/docs/access?context=spoke-builder&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+The spoke should also have the ability to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to .
 
 The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See .
 

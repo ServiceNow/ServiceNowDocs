@@ -2,6 +2,7 @@
 title: Create an SSH workflow
 description: Create the SSH workflow needed to power off the VM. Use the SSH custom activity that you already created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-ssh-workflow.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -60,7 +61,7 @@ When you create a workflow, you associate it with a table and with an activity.
 
 4.  Right-click the canvas and select **Add Custom Activity**.
 
-5.  In the Versions window, search for and select the activity you created earlier in [Create the SSH custom activity](create-ssh-custom-activity.md).
+5.  In the Versions window, search for and select the activity you created earlier in [Create the SSH custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-ssh-custom-activity.md).
 
 6.  In the New Activity window for that activity \(Workflow Activity New record \[Diagrammer view\]\), perform these steps:
 

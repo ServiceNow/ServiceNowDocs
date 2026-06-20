@@ -2,6 +2,7 @@
 title: Create a profile
 description: You can set up a profile for manual forwarded events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/splunk-event-create-profile-manual-security.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ Role required: sn\_si.ingestion\_profile\_admin
 
         Refer to the following figures and tables for more information about the available mapping options in the Mapping Options choice list.
 
-        ![Splunk: manual event forwarding](../image/splunk-manualevent1-security.png)
+        \[Omitted image "splunk-manualevent1-security.png"\] Alt text: Splunk: manual event forwarding
 
 <table id="table_psp_nxq_chb"><thead><tr><th>
 
@@ -112,7 +113,7 @@ Text to help you distinguish this profile from other profiles.
 
         For a profile with an existing field mapping, refer to the following figure and table for more information.
 
-        ![Manual: existing profile](../image/copy_mapping_security.png)
+        \[Omitted image "copy\_mapping\_security.png"\] Alt text: Manual: existing profile
 
 <table id="table_epm_wqf_dhb"><thead><tr><th>
 

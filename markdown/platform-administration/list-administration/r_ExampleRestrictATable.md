@@ -2,6 +2,7 @@
 title: Example - Restrict a table
 description: This access control prevents everyone from editing all fields in the Incident table in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/list-administration/r\_ExampleRestrictATable.html
 release: yokohama
 product: List Administration
 classification: list-administration
@@ -15,7 +16,7 @@ breadcrumb: [Configuring contextual security for the list editor, List editor ad
 
 This access control prevents everyone from editing all fields in the Incident table in a list.
 
-![](../image/RestrictTheIncidentTable.png "Restrict the Incident Table")
+\[Omitted image "RestrictTheIncidentTable.png"\] Alt text:
 
 -   **Type:** record
 -   **Operation:** list\_edit

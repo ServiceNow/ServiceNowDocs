@@ -2,7 +2,10 @@
 title: Activate Proactive Customer Service Operations with Event Management
 description: Activate the Proactive Customer Service Operations with Event Management plugin to use Proactive Customer Service Operations with Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-proactive-EM.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

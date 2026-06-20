@@ -2,6 +2,7 @@
 title: Submit a loan service request as a requester
 description: Help your customers by submitting a loan service request for them. As a requester in the front office, you can do this service for your customer \(consumer or business contact\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-loan-operations/submit-loan-service-request.html
 release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -32,19 +33,19 @@ Business customers and consumers can also submit loan service requests from the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d84030e97">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d88419e97">
 
 Option
 
-</th><th align="left" id="d84030e100">
+</th><th align="left" id="d88419e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84030e106">
+</th></tr></thead><tbody><tr><td id="d88419e106">
 
 **Personal loan service request for a consumer**
 
@@ -54,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d84030e133">
+</td></tr><tr><td id="d88419e133">
 
 **Business loan service request for a business customer**
 
@@ -64,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d84030e163">
+</td></tr><tr><td id="d88419e163">
 
 **Loan service request from an interaction record**
 
@@ -72,7 +73,7 @@ Steps
 
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Click the interaction record for the customer that you want to open.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  Click **Create Loan Request**.

@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with other channels
 description: Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now Mobile apps, and collaboration tools such as Slack, Microsoft Teams, Facebook Messenger consumer app, Workplace enterprise messaging app, and any other popular chat or messaging app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/integrate-virtual-agent.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

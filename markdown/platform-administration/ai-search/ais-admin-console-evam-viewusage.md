@@ -2,6 +2,7 @@
 title: Track how your EVAM view configurations are used
 description: Track where Entity View Action Mapper \(EVAM\) view configurations are being used in the AI Search application. Tracking helps you to understand the search result layouts, identify the shared settings, and make the adjustments for better search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/ais-admin-console-evam-viewusage.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -38,7 +39,7 @@ By tracking the usage of your EVAM view configurations, you can do the following
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration and select the More Actions icon \(![](../../localization-framework/image/more-actions-icon.png)\), and then select **View usage**.
+5.  Hover over the view configuration and select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\), and then select **View usage**.
 
 6.  In the View usage dialog box, review the values.
 
@@ -49,11 +50,11 @@ By tracking the usage of your EVAM view configurations, you can do the following
 
 The EVAM view configuration usage is reviewed to assess its alignment with the search application requirements.
 
-![View usage dialog box in the AI Search Admin console, where you can review the view configuration details.](../image/evam-view-usage-ais.png)
+\[Omitted image "evam-view-usage-ais.png"\] Alt text: View usage dialog box in the AI Search Admin console, where you can review the view configuration details.
 
 ## What to do next
 
-After reviewing the view configuration details and its usage, you can optimize or remove the configurations. For more information, see [Create or edit an EVAM view definition](ais-admin-console-evam-configurations.md), [Activate or deactivate an EVAM view configuration](enable-evam-config-ais-admin-console.md), [Delete an EVAM view configuration](delete-evam-config-ais-admin-console.md).
+After reviewing the view configuration details and its usage, you can optimize or remove the configurations. For more information, see [Create or edit an EVAM view definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-evam-configurations.md), [Activate or deactivate an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/enable-evam-config-ais-admin-console.md), [Delete an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/delete-evam-config-ais-admin-console.md).
 
-**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface in AI Search by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

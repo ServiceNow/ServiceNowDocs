@@ -2,7 +2,10 @@
 title: Modify the anonymous chat record producer
 description: Modify the default anonymous chat record producer to gather the desired information from guest users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/modify-anonymous-chat-rec-producer.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ This record producer requests information from a guest user on the Consumer Serv
 
 3.  Modify the record producer as necessary, including the variables in the **Variables** related list.
 
-    For more information, see [Create a record producer to log incidents](https://www.servicenow.com/docs/access?context=t_CreateARecordProducer&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+    For more information, see Create a record producer to log incidents.
 
 4.  Click **Update**.
 

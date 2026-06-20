@@ -2,6 +2,7 @@
 title: Receive notifications
 description: Individuals who are designated approvers automatically receive approval notifications, including approval status updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/approvals/c\_ReceiveNotifications.html
 release: yokohama
 product: Approvals
 classification: approvals

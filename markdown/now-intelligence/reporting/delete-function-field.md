@@ -2,6 +2,7 @@
 title: Deactivate a function field
 description: The user who created a function field or a user with the admin role can deactivate it. If there are more than 20 function fields on a table, you can’t create a new function field without deactivating one or more existing ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/delete-function-field.html
 release: yokohama
 product: Reporting
 classification: reporting
@@ -44,5 +45,5 @@ The deactivated function field is no longer available for use in the reports on 
 
 **Note:** When you deactivate a field, the user list preference is deleted.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/function-fields-reporting.md)
 

@@ -2,9 +2,12 @@
 title: Components installed with ITOM SU Licensing for OTM
 description: Several types of components are installed with activation of the OTM SU Licensing plugin, including scheduled jobs and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/components-installed-otm-su-licensing.html
 release: yokohama
+product: Operational Technology
+classification: operational-technology
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -100,5 +103,5 @@ ITOM Licensing Discovery Sources\[itom\_lu\_discovery\_sources\]
 Contains the categories for all discovery sources.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[OTM SU Licensing References](../../operational-technology-management/reference/otm-su-licensing-references.md)
+</table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/otm-su-licensing-references.md)
 

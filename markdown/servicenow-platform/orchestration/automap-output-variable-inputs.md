@@ -2,11 +2,12 @@
 title: Auto-map activity output variables
 description: You can map parameter values in a test payload to variables in the Outputs tab automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/orchestration/automap-output-variable-inputs.html
 release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,11 +32,11 @@ Role required: admin
 
     The entire payload appears in the **Raw Output** tab of the Response form.
 
-    ![Auto-mapping controls](../image/AutoMappingButtons.png)
+    \[Omitted image "AutoMappingButtons.png"\] Alt text: Auto-mapping controls
 
 4.  Select an auto-mapping option.
 
-<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d406597e110">
+<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d155084e110">
 
 **Auto-Map to Local**
 
@@ -47,7 +48,7 @@ Translates the entire payload into a JSON object and places it in the data bus. 
 -   eccSysId
 
 
-</td></tr><tr><td id="d406597e134">
+</td></tr><tr><td id="d155084e134">
 
 **Auto-Map to Output**
 
@@ -59,5 +60,5 @@ Automatically populates the output variables in the activity with the same defau
 </table>    **Note:** No parsing rules are available with auto-mapping selections.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/create-custom-activities.md)
 

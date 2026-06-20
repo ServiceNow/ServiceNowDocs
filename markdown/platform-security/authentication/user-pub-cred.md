@@ -2,6 +2,7 @@
 title: Configure MFA with Biometrics
 description: Administrators can use the User Public Credentials list to view and manager user created credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/user-pub-cred.html
 release: yokohama
 product: Authentication
 classification: authentication

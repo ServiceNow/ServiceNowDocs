@@ -2,6 +2,7 @@
 title: Suggested steps generation in Now Assist for Customer Service Management \(CSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -30,7 +31,7 @@ If suggested steps are enabled for an open case, you can generate and display t
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Using the List icon ![icon for seeing the list of cases](../../../common/image/icon-list.png), open a case that is not in **Closed** or **Complete** state.
+2.  Using the List icon \[Omitted image "icon-list.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
 
 3.  Select the Recommendations icon in the contextual side panel to display the Recommended Actions tab.The system displays the **Suggested steps by Now Assist** card at the top of the tab.
 
@@ -38,8 +39,8 @@ If suggested steps are enabled for an open case, you can generate and display t
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
 
-    ![Suggested steps by Now Assist to resolve the issue](../image/suggested-steps.png "Suggested steps by Now Assist")
+    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by Now Assist to resolve the issue
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

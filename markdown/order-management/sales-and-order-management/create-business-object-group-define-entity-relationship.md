@@ -2,13 +2,14 @@
 title: Set up business objects for sales process records
 description: Create the business objects necessary for sales process managers to create sales process records using these entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-business-object-group-define-entity-relationship.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configuring Lead-to-Cash Process Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up business objects for sales process records
@@ -83,7 +84,7 @@ Video showing the steps to set up business objects
 
     2.  Under the Business Object Group Members related list, select **New**.
 
-    3.  Select the business object type you want to add using the Lookup list icon \(![](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg)\).
+    3.  Select the business object type you want to add using the Lookup list icon \(\[Omitted image "magnifying-glass-outline-24.svg"\]\).
 
     4.  Select **Submit**.
 

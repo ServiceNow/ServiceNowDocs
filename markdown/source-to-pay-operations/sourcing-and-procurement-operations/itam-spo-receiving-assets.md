@@ -2,6 +2,7 @@
 title: Receiving assets in IT Asset Management
 description: As part of the Better Together integration, all asset receiving is handled within IT Asset Management \(ITAM\). When an item is initially received in ITAM, a receipt is automatically generated in SPO in the Pending Submission state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,7 +16,7 @@ breadcrumb: [Sourcing and Procurement Operations integration with IT Asset Manag
 
 As part of the Better Together integration, all asset receiving is handled within IT Asset Management \(ITAM\). When an item is initially received in ITAM, a receipt is automatically generated in SPO in the Pending Submission state.
 
-After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see [Receive an asset](https://www.servicenow.com/docs/access?context=t_ReceiveAnAsset&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+After the buyer confirms receipt against the purchase order in ITAM, a corresponding receipt is automatically created for the associated purchase order in Sourcing and Procurement Operations. For more information about receiving assets in ITAM, see .
 
 After the receipt is posted to the ERP system, the status of the SPO receipt changes to Posted.
 
@@ -29,18 +30,18 @@ As part of the shipment process, the ITAM shipment record passes shipment detail
 
 After receiving the requested items, the asset manager or an employee can acknowledge receipt using the following ITAM receiving experiences:
 
--   Mobile barcode scanning. For more information, see [Acknowledge receipt of an asset on a mobile device](https://www.servicenow.com/docs/access?context=receive-assets-from-ztr&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+-   Mobile barcode scanning. For more information, see .
 
-    ![Asset receiving via mobile barcode scanning.](../image/itam-spo-barcode.png)
+    \[Omitted image "itam-spo-barcode.png"\] Alt text: Asset receiving via mobile barcode scanning.
 
--   From the Employee Center portal. For more information, see [Acknowledge receipt of assets on the Employee Center portal](https://www.servicenow.com/docs/access?context=receive-assets-employee-center&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+-   From the Employee Center portal. For more information, see .
 
-    ![Asset receiving from Employee Center.](../image/itam-spo-receive-ec.png)
+    \[Omitted image "itam-spo-receive-ec.png"\] Alt text: Asset receiving from Employee Center.
 
--   From the ITAM purchase order. For more information, see [Receive an asset](https://www.servicenow.com/docs/access?context=t_ReceiveAnAsset&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+-   From the ITAM purchase order. For more information, see .
 
-    .![Asset receiving via ITAM purchase orders.](../image/itam-spo-receive-po.png)
+    .\[Omitted image "itam-spo-receive-po.png"\] Alt text: Asset receiving via ITAM purchase orders.
 
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](spo-itam-better-together.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

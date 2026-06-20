@@ -2,6 +2,7 @@
 title: Edit code with Quick Actions
 description: Edit code in the Now Assist for Code enabled script editor using quick actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/edit-code-with-quick-actions.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -27,7 +28,7 @@ Role required: now.assist.creator
 
 3.  Select **Edit code**.
 
-4.  In the Edit code with Now Assist dialog box, describe the code you want to generate, and then select the submit \(![Submit icon](../image/now-assist-code-arrow.png)\) icon.
+4.  In the Edit code with Now Assist dialog box, describe the code you want to generate, and then select the submit \(\[Omitted image "now-assist-code-arrow.png"\] Alt text: Submit icon\) icon.
 
     The code suggestion appears highlighted in the script editor.
 

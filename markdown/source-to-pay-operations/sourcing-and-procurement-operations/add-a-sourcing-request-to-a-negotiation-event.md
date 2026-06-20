@@ -2,6 +2,7 @@
 title: Add a sourcing request to a sourcing event
 description: You can manage multi-supplier and multi-product negotiations by mapping similar sourcing requests and related negotiations to a sourcing event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/add-a-sourcing-request-to-a-negotiation-event.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -52,9 +53,9 @@ A new sourcing event is created, which is attached to the selected sourcing requ
 
 View an overview of the sourcing event in the **Overview** tab, and other associated information in relevant tabs such as **Details**, **Negotiations**, **Sourcing Requests**, **Purchase Lines**, **Cases**, **Purchasing Tasks**, and **Contracts**.
 
-You can add more sourcing requests to this sourcing event by selecting **Add sourcing request**. Negotiation records are automatically created for each supplier in the sourcing request. You can add more suppliers to this sourcing event as well. For more information, see [Work on a sourcing event](work-on-a-negotiation-event.md).
+You can add more sourcing requests to this sourcing event by selecting **Add sourcing request**. Negotiation records are automatically created for each supplier in the sourcing request. You can add more suppliers to this sourcing event as well. For more information, see [Work on a sourcing event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/work-on-a-negotiation-event.md).
 
-In compliance with fair competition laws, qualify all your suppliers in that sourcing event before you start negotiating with any of them. For more information, see [Supplier qualification](../reference/supplier-qualification.md).
+In compliance with fair competition laws, qualify all your suppliers in that sourcing event before you start negotiating with any of them. For more information, see [Supplier qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/supplier-qualification.md).
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

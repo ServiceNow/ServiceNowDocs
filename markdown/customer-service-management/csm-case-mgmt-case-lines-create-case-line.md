@@ -2,7 +2,10 @@
 title: Creating case line items and case line tasks
 description: Agents can create case line items for cases and create tasks for case line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-case-lines-create-case-line.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-03-24"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ To create a case line record:
 
 1.  Select **New**.
 
-    -   CSM Configurable Workspace: Open a case and select **New** on the [Case Line list action bar](csm-case-mgmt-case-lines-create-case-line.md#section_h41_s1h_5cc) to open a new case line record in the Draft state.
+    -   CSM Configurable Workspace: Open a case and select **New** on the [Case Line list action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-create-case-line.md) to open a new case line record in the Draft state.
     -   Core UI: Open a case and select **New** on the Case Lines related list on the case record to open a new case line record in the Draft state.
     The information in the following fields is copied from the parent case to the Case Line Item form:
 
@@ -31,7 +34,7 @@ To create a case line record:
     -   Assigned to
 2.  Fill in the fields on the Case Line Item form.
 
-    For field descriptions, see [Case line item form](../reference/case-line-form.md).
+    For field descriptions, see [Case line item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-form.md).
 
 3.  Select **Submit**.
 
@@ -48,7 +51,7 @@ The case line item record includes a **Create case line task** action that agent
 
 3.  Enter additional information as needed.
 
-    For field descriptions, see [Case line task form](../reference/case-line-task-form.md).
+    For field descriptions, see [Case line task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-task-form.md).
 
 4.  Select **Save** to create the case line task record.
 

@@ -2,6 +2,7 @@
 title: Assign additional manager assignments to an agent
 description: As a manager of a contractor company, you can assign additional manager role to the agents in your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/assign-additional-manager-assignments.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ Role required: wm\_ext\_manager
 7.  Click **Save**.
 
 
-**Parent Topic:**[Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

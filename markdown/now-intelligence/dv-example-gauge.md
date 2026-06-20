@@ -2,6 +2,7 @@
 title: Gauge visualization example
 description: Like dials, gauges show where a single value lies across a range from minimum to maximum expected values. In addition to dial functionality, you can set colored data ranges to help users understand what the value represents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-gauge.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -23,13 +24,13 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 ## Procedure
 
-1.  Follow the first steps to [Create a gauge visualization in the Visualization Designer](../../reporting/task/create-dv-gauge-ac.md):
+1.  Follow the first steps to [Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the gauge \(![Gauge visualization icon](../../reporting/image/icon-dial-gauge-ac.png)\) visualization type.![Animation showing workspace and visualization designer selection, and choosing to create a gauge visualization](../../reporting/image/dv-ex-gauge-select.gif)
+    3.  Select the gauge \(\[Omitted image "icon-dial-gauge-ac.png"\] Alt text: Gauge visualization icon\) visualization type.\[Omitted image "dv-ex-gauge-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a gauge visualization
 
 2.  For the moment, skip the header and border section and move on to the data source.
 
@@ -47,7 +48,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     A gauge data visualization with the current value of the selected data appears in the Visualization Designer.
 
-    ![Animation showing selection of data source, application of filter, and result](../../reporting/image/dv-ex-gauge-data-source.gif)
+    \[Omitted image "dv-ex-gauge-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter, and result
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -87,7 +88,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
         |180 degree gauge|240 degree gauge|
         |----------------|----------------|
-        |![180 degree gauge example](../../reporting/image/dv-ex-gauge-180.png)|![240 degree gauge example](../../reporting/image/dv-ex-gauge-240.png)|
+        |\[Omitted image "dv-ex-gauge-180.png"\] Alt text: 180 degree gauge example|\[Omitted image "dv-ex-gauge-240.png"\] Alt text: 240 degree gauge example|
 
     2.  Change the score size from the default M \(medium\) to L \(large\) to emphasize it.
 
@@ -117,7 +118,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     5.  Select **Apply**.
 
-        ![Range configuration with labels and values](../../reporting/image/dv-ex-gauge-config-ranges.png)
+        \[Omitted image "dv-ex-gauge-config-ranges.png"\] Alt text: Range configuration with labels and values
 
 9.  Configure the **Labels** for the gauge.
 
@@ -135,12 +136,12 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
-    ![Animation showing configuration of label options, including limits,and ranges](../../reporting/image/dv-ex-gauge-label-config.gif)
+    \[Omitted image "dv-ex-gauge-label-config.gif"\] Alt text: Animation showing configuration of label options, including limits,and ranges
 
 
 ## Result
 
 You've created a gauge visualization based on a single metric, open incidents. You've also configured user options regarding filters and drill downs, and configured the visualization's size, labeling, and ranges.
 
-**Parent Topic:**[Create a gauge visualization in the Visualization Designer](../../reporting/task/create-dv-gauge-ac.md)
+**Parent Topic:**[Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
 

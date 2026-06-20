@@ -2,6 +2,7 @@
 title: KeyValuePair connector methods
 description: The Keyvalue pair connector methods perform various actions on key value pairs. In an automation flow, the methods are connected with other methods and components. To use the methods, you must first expose them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/keyvaluepair-connector-methods.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -19,7 +20,7 @@ The Keyvalue pair connector methods perform various actions on key value pairs. 
 
 Adds a keyvalue pair.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -35,7 +36,7 @@ Clears all keyvalue pairs.
 
 Returns True if the specified key exists, else, returns False.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -46,7 +47,7 @@ To provide inputs to the parameters, see [Configure port properties](../task/con
 
 Returns True if the specified key value exists, else, returns False.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -65,7 +66,7 @@ Returns the total count of keyvalue pairs.
 
 Removes the specified key.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -75,7 +76,7 @@ To provide inputs to the parameters, see [Configure port properties](../task/con
 
 Returns the value of the specified key.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -88,8 +89,8 @@ Returns the values of multiple keys. You must first configure the keys in the me
 
 To configure, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add keys icon \(![Add keys icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add keys icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 3.  Enter the key name.
 4.  Update the key data type from the list.
 5.  Repeat the steps to set multiple key names.
@@ -108,8 +109,8 @@ Returns the key values based on their index. You must first configure the indexe
 
 To configure, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add indexes icon \(![Add keys icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add indexes icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 3.  Enter the key index.
 4.  Update the key data type from the list.
 5.  Repeat the steps to set multiple key indexes.
@@ -126,7 +127,7 @@ To configure, do the following steps.
 
 Parses the specified text into key value pairs. It can create multiple keyvalue pairs.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -149,7 +150,7 @@ Need information.
 
 Updates the value of a key.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -164,8 +165,8 @@ Updates the values of the specified keys. You must first configure the keys in t
 
 To configure the keys, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add keys icon \(![Add keys icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add keys icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 3.  Enter the key name.
 4.  Update the key data type from the list.
 5.  Repeat the steps to set multiple key names.
@@ -174,7 +175,7 @@ To configure the keys, do the following steps.
     A Data in port is created with each key name you set.
 
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -188,8 +189,8 @@ Updates the values of the keys based on the specified indexes. You must first co
 
 To configure the indexes, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add indexes icon \(![Add keys icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add indexes icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 3.  Enter the key index.
 4.  Update the key data type from the list.
 5.  Repeat the steps to set multiple key indexes.
@@ -212,12 +213,12 @@ Renders the keyvalue pairs to the JSON format.
 
 Renders the keyvalue pairs to the text format.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
 |ValuesOnly|If True, the method renders only the values of the keys, else, renders the keyvalue pair.|Data in|Boolean|None|No|
 |Return|Returns the keyvalue pair to the text format.|Data out|String|Not applicable|Not applicable|
 
-**Parent Topic:**[Keyvalue pair](../concept/keyvaluepair.md)
+**Parent Topic:**[Keyvalue pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/keyvaluepair.md)
 

@@ -2,6 +2,7 @@
 title: Customer Service Portal user roles
 description: Several different roles allow customers to create and edit cases and manage users from the customer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/r\_CustomerServicePortalUserRoles.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: ATF Test Generator and Cloud Runner roles
 description: ATF Test Generator and Cloud Runner is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles.html
 release: yokohama
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -15,10 +16,10 @@ breadcrumb: [ATF Test Generator and Cloud Runner reference, ATF Test Generator a
 
 ATF Test Generator and Cloud Runner is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
--   **[System Administrator \[admin\]](atf-tg-cr-roles-1.md)**  
+-   **[System Administrator \[admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-roles-1.md)**  
 The admin role is required to access and use the ATF Test Generator and Cloud Runner store application.
 
-**Parent Topic:**[ATF Test Generator and Cloud Runner reference](../concept/atf-tg-cr-ref.md)
+**Parent Topic:**[ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
 

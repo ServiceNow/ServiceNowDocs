@@ -2,6 +2,7 @@
 title: Request an AI model
 description: Request the development or procurement of an AI model to customize or deploy an AI system tailored to specific business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -33,7 +34,7 @@ An AI model is a program or system that uses machine learning or artificial inte
 
     1.  Select the **Request an AI model** card.
 
-3.  On the AI Control Tower dashboard, select the list ![List icon.](../image/list-icon-airc-ws.png) icon, and navigate to the AI asset inventory.
+3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
 
     1.  Select **Add AI Asset**.
 
@@ -41,7 +42,7 @@ An AI model is a program or system that uses machine learning or artificial inte
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Request an AI model form, see [Request an AI model form](../reference/request-ai-model-form.md).
+    For a description of the field values on the Request an AI model form, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -52,8 +53,8 @@ An AI model is a program or system that uses machine learning or artificial inte
     After you submit this form, the AI Center of Excellence team reviews your request and provides the necessary approval and guidance.
 
 
--   **[Request an AI model form](../reference/request-ai-model-form.md)**  
+-   **[Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model-form.md)**  
 The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

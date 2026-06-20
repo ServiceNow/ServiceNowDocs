@@ -2,6 +2,7 @@
 title: Set objectives
 description: Define the kind of data or process that you want to view and analyse in your graph. You must select a specific table \(parent table\) that has the data that you want to analyse.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/set-objectives.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -25,15 +26,15 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  Provide the following details.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d82312e66">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d80893e66">
 
 Field
 
-</th><th align="left" id="d82312e69">
+</th><th align="left" id="d80893e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82312e75">
+</th></tr></thead><tbody><tr><td id="d80893e75">
 
 **Select type**
 
@@ -41,7 +42,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d82312e84">
+</td></tr><tr><td id="d80893e84">
 
 **Template type**
 
@@ -55,7 +56,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d82312e123">
+</td></tr><tr><td id="d80893e123">
 
 **Name**
 
@@ -63,7 +64,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d82312e132">
+</td></tr><tr><td id="d80893e132">
 
 **Short description**
 
@@ -71,7 +72,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d82312e142">
+</td></tr><tr><td id="d80893e142">
 
 **Source Type**
 
@@ -83,7 +84,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Archived data: Select an archived table.
 
 
-</td></tr><tr><td id="d82312e165">
+</td></tr><tr><td id="d80893e165">
 
 **Table**
 
@@ -91,7 +92,7 @@ The source for the project or template you’re creating.-   Table: Any database
 
 Select a table that you want to base your project on. This list varies depending on the type of source that you’ve selected.
 
-</td></tr><tr><td id="d82312e177">
+</td></tr><tr><td id="d80893e177">
 
 **Do you want to add a KPI dashboard?**
 
@@ -99,7 +100,7 @@ Select a table that you want to base your project on. This list varies depending
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d82312e192">
+</td></tr><tr><td id="d80893e192">
 
 **Do you want to Auto retire?**
 
@@ -113,7 +114,7 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr></tbody>
 </table>3.  Select **Create project**.
@@ -125,5 +126,5 @@ This field is available only if you choose the type as **Project**.
     If you select an existing template, then after you select the template, you’re taken to the **Review and Mine** page.
 
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/define-workflow-model.md)
 

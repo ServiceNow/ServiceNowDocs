@@ -2,6 +2,7 @@
 title: View Desktop Assistant usage metrics
 description: Access the end user's Desktop Assistant usage metrics with your DEX admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-da-usage-metrics.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,14 +26,14 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 3.  Under Desktop Assistant, select **Usage metrics**.
 
     You can view the Desktop Assistant users who are logged in, their connection status, and the Desktop Assistant versions.
 
-    ![The Desktop Assistant Usage Metrics tab, showing the Connection Status card, the Logged in card, and the Desktop Assistant version in use card.](../image/desktop-exp-dashboard.png)
+    \[Omitted image "desktop-exp-dashboard.png"\] Alt text: The Desktop Assistant Usage Metrics tab, showing the Connection Status card, the Logged in card, and the Desktop Assistant version in use card.
 
-    For more details on the usage metrics, see [Desktop Assistant usage metrics](../reference/dex-desktop-exp-dashboard.md).
+    For more details on the usage metrics, see [Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md).
 
 

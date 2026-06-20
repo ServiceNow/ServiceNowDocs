@@ -2,7 +2,10 @@
 title: Impact Store Application product adoption
 description: View the capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance with the Impact store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-platform-product-adoption.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -39,5 +42,5 @@ You can modify a published product adoption roadmap as follows:
 -   Manage capabilities for each phase.
 -   Connect capabilities to objectives.
 
-For more information, see: [Create and publish a product adoption roadmap](../task/create-product-adoption-roadmap.md).
+For more information, see: [Create and publish a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/create-product-adoption-roadmap.md).
 

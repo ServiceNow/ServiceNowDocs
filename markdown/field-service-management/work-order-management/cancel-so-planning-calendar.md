@@ -2,6 +2,7 @@
 title: Cancel events using the planning calendar
 description: Cancel a schedule occurrence and the work order events of its associated work plans through the planning calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/cancel-so-planning-calendar.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -23,9 +24,9 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Planned Work Management** &gt; **Workspace**
 
-2.  Select the **Planning calendar** icon \(![Planning calendar icon](../image/show-schedule-new.png)\).
+2.  Select the **Planning calendar** icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Planning calendar icon\).
 
-3.  On the calendar, select the Show settings icon \(![gear icon](../image/IconPersonalizeList.png)\).
+3.  On the calendar, select the Show settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: gear icon\).
 
 4.  In the **Settings** pane, fill in the fields.
 
@@ -39,15 +40,15 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 7.  Cancel the event.
 
-<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d115299e177">
+<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d41321e177">
 
 Action
 
-</th><th align="left" id="d115299e180">
+</th><th align="left" id="d41321e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115299e186">
+</th></tr></thead><tbody><tr><td id="d41321e186">
 
 **Cancel the schedule occurrence**
 
@@ -55,7 +56,7 @@ Steps
 
 On the calendar, right-click the schedule occurrence event that you want to cancel, and then select **Cancel schedule occurrence**.
 
-</td></tr><tr><td id="d115299e198">
+</td></tr><tr><td id="d41321e198">
 
 **Cancel work order for the schedule occurrence**
 
@@ -63,7 +64,7 @@ On the calendar, right-click the schedule occurrence event that you want to canc
 
 On the calendar, right-click the schedule occurrence event, and then select **Cancel work orders**.
 
-</td></tr><tr><td id="d115299e210">
+</td></tr><tr><td id="d41321e210">
 
 **Cancel work order**
 
@@ -75,5 +76,5 @@ On the calendar, right-click the work order event, and then select **Cancel work
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Plan calendar](../concept/planning_calendar_pwm.md)
+**Parent Topic:**[Plan calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/planning_calendar_pwm.md)
 

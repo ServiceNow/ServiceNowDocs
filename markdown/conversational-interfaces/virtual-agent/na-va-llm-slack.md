@@ -2,11 +2,12 @@
 title: Using Now Assist in Virtual Agent conversations with Slack
 description: The Now Assist provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/na-va-llm-slack.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Integrating Virtual Agent with Slack, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -21,9 +22,9 @@ To enable a bot with LLM-based capabilities and experience the LLM-based convers
 
 You can integrate Virtual Agent with Slack either with the Now Virtual Agent bot or a Self-configured bot.
 
-To integrate Slack with the Now Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](va-integ-slack.md).
+To integrate Slack with the Now Virtual Agent, see [Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-slack.md).
 
-To integrate Slack with a Self-configured bot, see [Integrating a Self-configured bot with Slack workspace](va-integ-single-slack.md).
+To integrate Slack with a Self-configured bot, see [Integrating a Self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-single-slack.md).
 
 ## Conversational experience with Now Assist in Slack
 
@@ -33,7 +34,7 @@ The Now Assist provides a new AI Search experience in channels with the followin
 
     The first message in a conversation with Now Assist displays a legal disclaimer indicating that it is an AI-generated message followed by the Now Assist greeting message and LLM-enabled topics.
 
-    ![LLM-based conversation with Now Assist displaying the legal disclaimer and greeting.](../images/legal-disclaimer-msg-slack.png "Legal Disclaimer")
+    \[Omitted image "legal-disclaimer-msg-slack.png"\] Alt text: LLM-based conversation with Now Assist displaying the legal disclaimer and greeting.
 
     The Legal disclaimer message is managed by the **support-system-action** provider property defined in the \[sys\_cs\_custom\_adapter\_property\] table. By default, the value of the provider property is set to **true**.
 
@@ -43,7 +44,7 @@ The Now Assist provides a new AI Search experience in channels with the followin
 
     When you select an LLM-enabled topic, the Search bar is displayed along with the available choices related to the selected topic and the **More options** button. You can either search for an item or user using the Search bar or pick an item or user from the choices available. If you want to look for more available options, you can navigate to the next page using the **More Options** button. If you would like to go back to the previously listed choices, you can use the **Previous Options** button.
 
-    ![LLM based conversation with Now Assist displaying the Search and Pagination features.](../images/search-and-pagination-slck.png "Pagination and Search")
+    \[Omitted image "search-and-pagination-slck.png"\] Alt text: LLM based conversation with Now Assist displaying the Search and Pagination features.
 
     If you have searched for a user or an item, the choices related to your search term are displayed. You can either select from the choices available or reset the search and pagination.
 
@@ -60,15 +61,15 @@ The Now Assist provides a new AI Search experience in channels with the followin
 
     Use this feature to ask questions and get answers from Now Assist through LLM in a card format. The response is displayed with a sparkle image, the legal disclaimer, and the citation about the question asked.
 
-    ![Now Assist displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.](../images/slack-QnA-card-llm.png "Generative AI QnA card")
+    \[Omitted image "slack-QnA-card-llm.png"\] Alt text: Now Assist displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.
 
 
-For more information about enabling LLM for your bots that are integrated with Slack, see [Enable Now Assist in Virtual Agent for Slack](../task/enable-na-llm-slack.md).
+For more information about enabling LLM for your bots that are integrated with Slack, see [Enable Now Assist in Virtual Agent for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/enable-na-llm-slack.md).
 
--   **[Enable Now Assist in Virtual Agent for Slack](../task/enable-na-llm-slack.md)**  
+-   **[Enable Now Assist in Virtual Agent for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/enable-na-llm-slack.md)**  
 Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Slack.
--   **[Synthesized response in Slack conversations](slack-synthesized-response.md)**  
+-   **[Synthesized response in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/slack-synthesized-response.md)**  
 Synthesized responses in Slack conversations provide a smarter experience with Large Language Models \(LLM\) based results summarized in a single response for users to see information in a conversational way, and avoid browsing through carousels.
 
-**Parent Topic:**[Integrating Virtual Agent with Slack](../task/mssg-slack.md)
+**Parent Topic:**[Integrating Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/mssg-slack.md)
 

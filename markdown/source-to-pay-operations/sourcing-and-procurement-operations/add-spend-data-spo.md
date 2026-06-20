@@ -2,6 +2,7 @@
 title: Add spend category data in an Excel file
 description: You can download and add spend category data in an Excel file template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/add-spend-data-spo.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -36,5 +37,5 @@ An Excel template is created with the required columns for adding the spend cate
 
 ## What to do next
 
-Load the spend category data from the excel template into the Spend Category Stage \(sn\_spend\_mgmt\_category\_stage\) staging table. For more information, see [Load and map spend categories to existing product categories](load-spend-categories.md).
+Load the spend category data from the excel template into the Spend Category Stage \(sn\_spend\_mgmt\_category\_stage\) staging table. For more information, see [Load and map spend categories to existing product categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/load-spend-categories.md).
 

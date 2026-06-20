@@ -2,6 +2,7 @@
 title: Agent Client Collector Security Incident Response capabilities
 description: Agent Client Collector Security Incident Response capabilities that come with the base system are listed on the ACC Capabilities page \( Agent Client Collector SIR Integration ACC Integration Capabilities \). These capabilities run on security incidents to gather information about the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-sir-capabilities.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -27,5 +28,5 @@ You select a capability from the **Agent Client Collector Capabilities** option 
 |Run Command on Agent|Runs a custom command on the Agent Client Collector and sends results to the security incident.|ACC SIR - Run Command from Security Incident|
 |Run OSQuery on Agent|Runs a custom OSQuery on the Agent Client Collector and sends results to the security incident.|ACC SIR - Run OSQuery from Security Incident|
 
-**Parent Topic:**[Agent Client Collector Security Incident Response](../concept/acc-security-incident-response.md)
+**Parent Topic:**[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 

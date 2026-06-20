@@ -2,6 +2,7 @@
 title: Withdraw from a request on Field Service Marketplace
 description: Withdraw from a request you responded to on Field Service Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -36,5 +37,5 @@ If there aren't enough agents available, or there are other obstacles, you can w
 
 You're response is withdrawn from the request. The request is removed from your responses.
 
-**Parent Topic:**[Allowing contractors to bid on work orders and tasks](../concept/using-fsm-marketplace.md)
+**Parent Topic:**[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 

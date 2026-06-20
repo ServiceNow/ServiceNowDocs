@@ -2,6 +2,7 @@
 title: Upload a spreadsheet in Guided Application Creator
 description: Turn your spreadsheet into a custom table in Guided Application Creator to store data for your custom application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/guided-application-creator/gac-upload-spreadsheet.html
 release: yokohama
 product: Guided Application Creator
 classification: guided-application-creator
@@ -19,12 +20,12 @@ Turn your spreadsheet into a custom table in Guided Application Creator to store
 
 Complete:
 
-1.  [Create an application record in Guided Application Creator](gac-create-app-record.md)
-2.  [Define roles in Guided Application Creator](gac-create-roles.md)
-3.  [Select user experiences in Guided Application Creator](gac-select-ux.md)
-4.  [Designate data tables in Guided Application Creator](gac-designate-data-table.md)
+1.  [Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-app-record.md)
+2.  [Define roles in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-roles.md)
+3.  [Select user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-select-ux.md)
+4.  [Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-designate-data-table.md)
 
-Review the [spreadsheet guidelines](../concept/gac-tables.md#) to ensure that your data uploads as expected.
+Review the [spreadsheet guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-tables.md) to ensure that your data uploads as expected.
 
 Role required: sn\_g\_app\_creator.app\_creator or admin
 
@@ -32,7 +33,7 @@ Role required: sn\_g\_app\_creator.app\_creator or admin
 
 1.  To select a table creation method, on the screen, select **Upload spreadsheet** and then select **Continue**.
 
-    ![Table creation options](../image/GAC-data-tables.png)
+    \[Omitted image "GAC-data-tables.png"\] Alt text: Table creation options
 
 2.  Upload your spreadsheet.
 
@@ -42,7 +43,7 @@ Role required: sn\_g\_app\_creator.app\_creator or admin
 
     For example, if your spreadsheet has two columns in which the headers are in the second row \(such as in the following image\), you would enter `2`.
 
-    ![Spreadsheet with horizontal columns and a header label for each](../image/gac-good-spreadsheet.png)
+    \[Omitted image "gac-good-spreadsheet.png"\] Alt text: Spreadsheet with horizontal columns and a header label for each
 
 4.  Select the **Import spreadsheet data** option.
 
@@ -82,9 +83,9 @@ Field Type
 
 </td><td>
 
-Type of field. For more information on the different field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Type of field. For more information on the different field types, see Field types.
 
- By default, there are only 18 field types to choose from. You can add a property to include more field types in Guided Application Creator. For more information, see [Add field types in Guided Application Creator](gac-add-field-types.md).
+ By default, there are only 18 field types to choose from. You can add a property to include more field types in Guided Application Creator. For more information, see [Add field types in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-add-field-types.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Table label
 
 </td><td>
 
-Unique label for the table \(such as **Laptops** or **Thin clients**\). The label appears on list and form views for the table. See Field Labels in [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Unique label for the table \(such as **Laptops** or **Thin clients**\). The label appears on list and form views for the table. See Field Labels in Data dictionary tables.
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Make extensible
 
 Option to enable other tables to extend this table.
 
- For more information on table extension, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+ For more information on table extension, see Table extension and classes.
 
 </td></tr><tr><td>
 
@@ -176,14 +177,14 @@ Enables users to remove records from a table or drop a table.
 
 10. On the confirmation screen, select **Continue**.
 
-11. To add more tables to your application, follow the steps in [Designate data tables in Guided Application Creator](gac-designate-data-table.md).
+11. To add more tables to your application, follow the steps in [Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-designate-data-table.md).
 
 12. To finish designating tables, select **Done with tables**.
 
 
 ## What to do next
 
-Continue building your application by following the steps in [Customize user experiences in Guided Application Creator](gac-customize-ux.md#). If you exit Guided Application Creator, the tables that you configured are not saved to the system.
+Continue building your application by following the steps in [Customize user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-customize-ux.md). If you exit Guided Application Creator, the tables that you configured are not saved to the system.
 
-**Parent Topic:**[Designate data tables in Guided Application Creator](gac-designate-data-table.md)
+**Parent Topic:**[Designate data tables in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-designate-data-table.md)
 

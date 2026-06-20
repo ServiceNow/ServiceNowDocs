@@ -2,6 +2,7 @@
 title: Start a workflow execution from a selected component in RPA Desktop Design Studio
 description: Start a workflow execution from a component instead of at the beginning of the workflow by using the Run From Here option in RPA Desktop Design Studio. This functionality allows you to rapidly develop and test the automation workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/run-from-here-rpa-studio.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Start a workflow execution from a component instead of at the beginning of the w
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-components.md).
 
 Role required: none
 
@@ -28,5 +29,5 @@ Role required: none
 2.  Select **Run From Here**.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-use.md)
 

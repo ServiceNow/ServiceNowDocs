@@ -2,6 +2,7 @@
 title: Onboard a contractor company
 description: Onboard a contractor company to outsource field service tasks. The contractor company then sends its employees to the customer location to perform required tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/onboard-contractor-company.html
 release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -25,7 +26,7 @@ The work order tasks of the contractor company are automatically assigned to the
 
 **Note:** The users will not be able to edit or assign the work order tasks of this contractor company if a manger is not assigned to the company.
 
-You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

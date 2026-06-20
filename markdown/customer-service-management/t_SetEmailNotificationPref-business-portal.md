@@ -2,11 +2,14 @@
 title: Set email notification preferences
 description: Customize email notifications to stay informed about specific actions taken by customer service agents on cases, based on your preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SetEmailNotificationPref-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer notification preferences, Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Customer notification preferences, Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Set email notification preferences

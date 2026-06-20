@@ -2,13 +2,14 @@
 title: Create and publish a product attribute-based pricing adjustment
 description: Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-pricing-adjustment.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a product attribute-based pricing adjustment
@@ -21,11 +22,11 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see .
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -73,7 +74,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 7.  Test your decision table.
 
-    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://www.servicenow.com/docs/access?context=test-decision-table-in-decision-builder&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+    For more information on testing your decision table before publishing it, see .
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 

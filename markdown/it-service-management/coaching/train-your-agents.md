@@ -2,6 +2,7 @@
 title: Training your agents using Coaching With Learning
 description: Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in learning libraries. Assign learning tasks and track completion.Create a learning library to organize related content into categories.Add internal courses so that agents can learn new content and enhance their skills set.Add a learning task to an internal content and track the task completion.Add courses from third-party applications such as Udemy, Pluralsight, Cornerstone, or ServiceNow University to enable your users to gain skills from external learning content.Enhance your skills set by completing learning tasks from internal or external learning content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/train-your-agents.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -15,7 +16,7 @@ breadcrumb: [Coaching, IT Service Management]
 
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in learning libraries. Assign learning tasks and track completion.
 
-**Important:** Coaching With Learning is available when you enable the Coaching With Learning application from the ServiceNow® Store. To enable this application, see [Request Coaching](../task/request-coaching.md).
+**Important:** Coaching With Learning is available when you enable the Coaching With Learning application from the ServiceNow® Store. To enable this application, see [Request Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/request-coaching.md).
 
 ## Organize related learning content
 
@@ -191,8 +192,8 @@ Add courses from third-party applications such as Udemy, Pluralsight, Cornerston
 
 To add external learning content:
 
--   You must have the [Workforce Optimization for ITSM](../../configurable-workforce-optimization-itsm/task/activate-configurable-workforce-optimization-itsm.md) application installed.
--   You must integrate Coaching With Learning with third-party learning management systems. For information on how to perform this integration, see [Integrating Learning Core with third-party learning management systems](https://www.servicenow.com/docs/access?context=setup-learning-third-party-1&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+-   You must have the [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) application installed.
+-   You must integrate Coaching With Learning with third-party learning management systems. For information on how to perform this integration, see .
 
 Role required: sn\_coaching.coach
 

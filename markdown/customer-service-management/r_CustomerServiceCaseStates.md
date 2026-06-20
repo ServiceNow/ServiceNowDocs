@@ -2,7 +2,10 @@
 title: Case states
 description: A customer service case can be in one of several states as the agent gathers information and works toward a resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_CustomerServiceCaseStates.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-02-04"
 reading_time_minutes: 2
@@ -113,5 +116,5 @@ After proposing a solution, an agent waits for the customer to respond. -   If t
 </table>**Related topics**  
 
 
-[State flows](https://www.servicenow.com/docs/access?context=c_StateFlows&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_StateFlows]
 

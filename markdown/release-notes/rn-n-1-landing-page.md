@@ -2,6 +2,7 @@
 title: Release notes for upgrading from Xanadu
 description: When you upgrade from the Xanadu release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-n-1-landing-page.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
@@ -13,43 +14,43 @@ breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 
 When you upgrade from the Xanadu release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
 
-![From Xanadu, land safely in Yokohama](../image/upgrade-from-x-to-y.png "Upgrading from Xanadu to Yokohama")
+\[Omitted image "upgrade-from-x-to-y.png"\] Alt text: From Xanadu, land safely in Yokohama
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Features and changes by product ![](../image/product-release-notes-for-upgrades.png) Detailed information on new products and features from Xanadu to Yokohama](../new-features-changes.md)
+[Features and changes by product \[Omitted image "product-release-notes-for-upgrades.png"\] Alt text: Detailed information on new products and features from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 
 </td><td>
 
-[Release notes summaries ![](../image/release-notes-summaries.png) Consolidated release notes information for all products from Xanadu to Yokohama](../release-notes-summaries.md)
+[Release notes summaries \[Omitted image "release-notes-summaries.png"\] Alt text: Consolidated release notes information for all products from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 
 </td><td>
 
-[Combined product release notes ![](../image/product-release-notes-for-upgrades.png) Combined information on new products and features from Xanadu to Yokohama](../rn-combined/yokohama-xanadu-combined-release-notes.md)
+[Combined product release notes \[Omitted image "product-release-notes-for-upgrades.png"\] Alt text: Combined information on new products and features from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-xanadu-combined-release-notes.md)
 
 </td></tr><tr><td>
 
-[Personalized PRB release notes ![](../image/personalized-prb.png)Generate a list of issues that were fixed between your current version and available target versions](../quality-summary/yokohama-summary-fixes.md)
+[Personalized PRB release notes \[Omitted image "personalized-prb.png"\] Alt text:Generate a list of issues that were fixed between your current version and available target versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-summary-fixes.md)
 
 </td><td>
 
-[Changes to plugins in the Yokohama release ![](../image/icon-plugin-changes.png) List of new, changed, renamed, and deprecated plugins](../../administer/plugins/reference/plugin-changes.md#)
+[Changes to plugins in the Yokohama release \[Omitted image "icon-plugin-changes.png"\] Alt text: List of new, changed, renamed, and deprecated plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/plugin-changes.md)
 
 </td><td>
 
-[Available patches and hotfixes ![](../image/available-versions.png) Release notes for fixed issues](../available-versions.md)
+[Available patches and hotfixes \[Omitted image "available-versions.png"\] Alt text: Release notes for fixed issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 
 </td></tr><tr><td>
 
-[Browser support ![](../image/browser.png) Supported browser versions and additional requirements for specific products](../../administer/navigation-and-ui/reference/browser-support.md)
+[Browser support \[Omitted image "browser.png"\] Alt text: Supported browser versions and additional requirements for specific products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md)
 
 </td><td>
 
-[Accessibility and conformance ![](../image/accessibility.png) Accessibility conformance reports based on the voluntary product accessibility template \(VPAT\)](../../administer/accessibility-508-compliance/reference/r_Accessibility508Compliance.md)
+[Accessibility and conformance \[Omitted image "accessibility.png"\] Alt text: Accessibility conformance reports based on the voluntary product accessibility template \(VPAT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/r_Accessibility508Compliance.md)
 
 </td><td>
 
-[Yokohama highlights ![icon for the tile Yokohama highlights](../image/highlights.png) High-level overview of products and features in Yokohama](../reference/release-highlights.md)
+[Yokohama highlights \[Omitted image "highlights.png"\] Alt text: icon for the tile Yokohama highlights High-level overview of products and features in Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-highlights.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Specify the configuration item for metric rules
 description: Choose an application or device and define filter conditions for the metric rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Metric rules card.
 
@@ -71,5 +72,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert metric criteria](define-alert-metric-criteria.md).
+[Define alert metric criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

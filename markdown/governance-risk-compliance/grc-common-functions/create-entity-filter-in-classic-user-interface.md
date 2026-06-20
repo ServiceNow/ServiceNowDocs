@@ -2,6 +2,7 @@
 title: Create an entity filter in the Core UI
 description: Create an entity filter under an entity type in the classic user interface. The entity filter defines the table from which data is pulled into each entity type for display. If the entities belong to an application, the users who have access to the entity class that is associated with the entity can only view those entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/create-entity-filter-in-classic-user-interface.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -95,5 +96,5 @@ Option to use **Owner** field information in the query. The owner is the identif
 </table>4.  To save the entity filter, click **Submit**.
 
 
-**Parent Topic:**[Exploring the entities](../concept/exploring-the-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

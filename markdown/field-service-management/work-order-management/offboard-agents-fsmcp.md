@@ -2,6 +2,7 @@
 title: Offboard agents on the Field Service Contractor Portal
 description: Offboard agents of the contractor company to terminate their services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/offboard-agents-fsmcp.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -47,5 +48,5 @@ After receiving the offboarding request:
 -   Email or SMS notifications are no longer sent to the agent.
 -   The agent is automatically removed from the additional manager role and responsibilities.
 
-**Parent Topic:**[Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

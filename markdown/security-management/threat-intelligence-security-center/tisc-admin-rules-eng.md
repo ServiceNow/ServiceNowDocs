@@ -2,6 +2,7 @@
 title: About Rules Engine in TISC
 description: The Rules Engine in TISC offers various functionalities to streamline data management and enhance threat intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-admin-rules-eng.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

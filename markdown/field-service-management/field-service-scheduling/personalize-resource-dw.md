@@ -2,6 +2,7 @@
 title: Personalize your resource view in Dispatcher Workspace
 description: Dispatchers can personalize the resources they see in Dispatcher Workspace by creating an advanced resource filter that applies every time they open Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/personalize-resource-dw.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling

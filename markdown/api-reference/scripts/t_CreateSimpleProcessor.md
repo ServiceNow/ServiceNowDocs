@@ -2,6 +2,7 @@
 title: Create a simple processor
 description: Create a simple processor to execute a script from a URL query. This feature is deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/t\_CreateSimpleProcessor.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -23,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](../../../../integrate/custom-web-services/concept/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d512998e106">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d184199e106">
 
 Field
 
-</th><th align="left" id="d512998e109">
+</th><th align="left" id="d184199e109">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d512998e115">
+</th></tr></thead><tbody><tr><td id="d184199e115">
 
 **Name**
 
@@ -49,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d512998e124">
+</td></tr><tr><td id="d184199e124">
 
 **Type**
 
@@ -57,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d512998e133">
+</td></tr><tr><td id="d184199e133">
 
 **Path**
 
@@ -65,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d512998e142">
+</td></tr><tr><td id="d184199e142">
 
 **Script**
 
@@ -84,5 +85,5 @@ g_processor.writeOutput("text/plain","Hello "+name);
     For example: `https://<instancename>.service-now.com/Hello.do?name=world`.
 
 
-**Parent Topic:**[Processors](../../../../script/processors/concept/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_Processors.md)
 

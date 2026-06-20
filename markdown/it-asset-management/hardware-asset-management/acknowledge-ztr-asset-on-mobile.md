@@ -2,6 +2,7 @@
 title: Acknowledge receipt of an asset received through the Zero Touch request flow
 description: As an employee, acknowledge receipt of the new asset that you received through the Zero Touch request flow on a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/acknowledge-ztr-asset-on-mobile.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management

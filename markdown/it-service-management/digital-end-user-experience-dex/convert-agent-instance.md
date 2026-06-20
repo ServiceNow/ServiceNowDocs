@@ -2,11 +2,12 @@
 title: Switch ACC from one instance to another
 description: Switch to a different Agent Client Collector \(ACC\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/convert-agent-instance.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -19,12 +20,12 @@ Switch to a different Agent Client Collector \(ACC\) instance.
 
 Confirm you have installed the Agent Client Collector \(ACC\) and set up the ACC registration key. For information on how to set up and install, see:
 
--   [Create an ACC registration key](setup-acc.md).
--   [Install the Agent Client Collector on a Windows machine manually](https://www.servicenow.com/docs/access?context=acc-install-windows&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US) or [Manually install Agent Client Collector on macOS](https://www.servicenow.com/docs/access?context=acc-install-macOS-manual&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+-   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/setup-acc.md).
+-    or .
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information on roles, see [Agent Client Collector user roles](https://www.servicenow.com/docs/access?context=acc-users&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+For more information on roles, see .
 
 ## About this task
 
@@ -47,7 +48,7 @@ If ACC is already connected to one instance, you can switch the agent to another
     -   `AMER: itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
     -   `EMEA: itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
     -   `APAC: itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
-    For more information on how the Agent uses the ITOM Cloud Services Gateway, see [DEX Architecture](../concept/dex-architecture.md).
+    For more information on how the Agent uses the ITOM Cloud Services Gateway, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
 
 4.  Update the following parameters:
 
@@ -55,7 +56,7 @@ If ACC is already connected to one instance, you can switch the agent to another
     -   instance-url: &lt;full\_instance\_url&gt;, example: https://dex.servicenow.com
     -   registration-key: &lt;registration key value&gt;
 
-        For more information on how to create a registration key, see [Create an ACC registration key](setup-acc.md).
+        For more information on how to create a registration key, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/setup-acc.md).
 
 5.  Save the file.
 

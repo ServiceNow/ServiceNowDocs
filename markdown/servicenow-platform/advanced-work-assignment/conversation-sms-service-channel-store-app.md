@@ -2,6 +2,7 @@
 title: Conversational SMS service channel
 description: Using the Conversational SMS service channel app on the ServiceNow Store, workspace agents can provide support for long-running SMS conversations and conversations that use multiple service channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/conversation-sms-service-channel-store-app.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -17,7 +18,7 @@ Using the Conversational SMS service channel app on the ServiceNow Store, worksp
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview
 
@@ -125,7 +126,7 @@ Possible actions include:-   Prompt agent – Sent Workspace notification to age
 
 The Agent Inbox displays new SMS messages and agents can locate currently assigned SMS conversations in the **Ongoing** tab. The tab indicator and record highlight indicate when an SMS conversation has a new message​. Unlike chat conversations, SMS conversations can be long-running. Completed SMS conversations do not display in the **Ongoing** tab.
 
-![Active conversation in the Ongoing tab.](../image/ongoing-conversations-example.png)
+\[Omitted image "ongoing-conversations-example.png"\] Alt text: Active conversation in the Ongoing tab.
 
 ## Requester initiated SMS conversations
 
@@ -224,8 +225,8 @@ There is an active interaction involving a different contact/consumer/user​
 </td></tr></tbody>
 </table>An active SMS interaction represents an ongoing conversation between a requester’s phone number and a company’s phone number​.
 
--   **[Set up the Conversational SMS service channel](../task/configure-conversational-sms.md)**  
+-   **[Set up the Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/configure-conversational-sms.md)**  
 Configure the Conversational SMS service channel store app.
 
-**Parent Topic:**[Service channels](awa-service-channels.md)
+**Parent Topic:**[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-service-channels.md)
 

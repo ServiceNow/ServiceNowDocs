@@ -2,6 +2,7 @@
 title: Import and receive assets in bulk at your stockroom in the Hardware Asset Workspace
 description: Receive multiple hardware and consumable assets at your stockroom by importing the asset records using an Excel template in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/import-assets-for-receive-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -115,5 +116,5 @@ The asset data validation takes care of the following points:
     -   The **Stockroom** field on the asset form is automatically updated with the stockroom at which you received the assets.
     -   The receive task in the source workflow is automatically closed only if you provided the Source type and Source ticket details.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](../concept/manage-stockroom-receive-hws.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)
 

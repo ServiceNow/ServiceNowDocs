@@ -2,6 +2,7 @@
 title: Submit an assessment
 description: You must have the assessment actor role to complete and submit the assessment. The submit button becomes enabled once all required questions are answered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/submit-an-assessment.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,7 +31,7 @@ A lock icon next to the submit button indicates the number of required questions
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/icon-tprm-ws-list.png)\).
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
     3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments that you want to submit.
 

@@ -2,6 +2,7 @@
 title: Run Guided Setup for ERP Semantic Mining
 description: Run the Guided Setup to configure ERP Semantic Mining \(ERP-CM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/set-up-erp-customization-mining-guided.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,9 +24,9 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 ## About this task
 
-For more information on using Guided Setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more information on using Guided Setup, see .
 
-Alternatively, you can configure ERP-CM without Guided Setup. For more information, see [Configure a new ERP Semantic Mining connection](set-up-erp-customization-mining.md).
+Alternatively, you can configure ERP-CM without Guided Setup. For more information, see [Configure a new ERP Semantic Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/set-up-erp-customization-mining.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ Alternatively, you can configure ERP-CM without Guided Setup. For more informati
 
     Zero Copy Connector for ERP is required by ERP-CM to connect to systems.
 
-    Follow the steps to configure Zero Copy Connector for ERP, and select **Continue**. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](../../erp-integration/task/erp-canvas-guided-setup.md).
+    Follow the steps to configure Zero Copy Connector for ERP, and select **Continue**. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
 
 4.  Connect ERP Semantic Mining to the ERP system.
 
@@ -46,5 +47,5 @@ Alternatively, you can configure ERP-CM without Guided Setup. For more informati
     2.  Select **Validate the connection status**, follow the steps, and select **Continue**.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

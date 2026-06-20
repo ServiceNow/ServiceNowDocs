@@ -2,6 +2,7 @@
 title: Import a self-signed certificate
 description: Import a self-signed certificate in a Windows system by using the Certificate Import Wizard. The Certificate Import Wizard is required to complete the self-signed certificate import process on a Windows Operating System \(OS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/import-self-signed-certificate.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Import a self-signed certificate in a Windows system by using the Certificate Im
 
 ## Before you begin
 
-Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to your operating system's truststore](add-certificate-trust-store.md).
+Ensure that you have followed the procedure for importing a self-signed certificate in a Windows system, as described in [Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
 
 Role required: agent\_client\_collector\_admin
 

@@ -2,7 +2,10 @@
 title: Instance Observer Notifications
 description: Notifications for alerts and other system activity are displayed on the Instance Observer banner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/i-o-notifications.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -20,5 +23,5 @@ A notification indicator is available allowing direct access to the in app notif
 -   Clear the alerts from the notification panel.
 -   Access notification settings for Intelligent alerts and Monitoring alerts from the panel.
 
-![Shows the notification panel with alerts populated and the View notification history link.](../image/io-notifications.png)
+\[Omitted image "io-notifications.png"\] Alt text: Shows the notification panel with alerts populated and the View notification history link.
 

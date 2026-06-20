@@ -2,6 +2,7 @@
 title: Cloud Cost Management roles
 description: You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/cloud-insights-roles.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -19,7 +20,7 @@ You assign Cloud Cost Management roles to user groups and to individual users ba
 
 ## Role relationships in Cloud Cost Management
 
-![Role relationships in Cloud Cost Management](../image/role-permissions-cloud-in.png)
+\[Omitted image "role-permissions-cloud-in.png"\] Alt text: Role relationships in Cloud Cost Management
 
 ## Primary Roles
 
@@ -69,7 +70,7 @@ The role is in the Cloud Cost Management Core plugin. The role spans only the Cl
  -   Define jobs and policies.
 -   View data for owned service accounts.
 
- For more information, see [Assign service accounts to an insights\_owner](../task/insights-owner-new-cloudin-1.md).
+ For more information, see [Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 </td><td>
 
@@ -167,7 +168,7 @@ PA Admin\[pa\_admin\]
 
 </td><td>
 
-See [Performance Analytics roles](https://www.servicenow.com/docs/access?context=r_PARoles&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+See Performance Analytics roles.
 
 </td><td>
 
@@ -186,12 +187,12 @@ Role that is used by the MID Server to send the billing data to the instance and
 — none —
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 **Related topics**  
 
 
-[Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignRoleToGroup]
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignARoleToAUser]
 

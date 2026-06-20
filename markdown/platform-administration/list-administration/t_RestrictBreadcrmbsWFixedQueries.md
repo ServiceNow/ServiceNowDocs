@@ -2,6 +2,7 @@
 title: Restrict filters and breadcrumbs with fixed queries
 description: The record list view allows users to navigate to different subsets of a table using breadcrumbs and filters. You can limit access to parts of the table by restricting active links in breadcrumbs or by suppressing breadcrumbs and filters for specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/list-administration/t\_RestrictBreadcrmbsWFixedQueries.html
 release: yokohama
 product: List Administration
 classification: list-administration
@@ -41,12 +42,12 @@ A breadcrumb option enables an administrator to control the base view of a recor
 
 5.  Add **&amp;sysparm\_fixed\_query=active=true** to the **Arguments** field and update the record.
 
-    ![Add fixed query argument](../image/FixedQuery1.png)
+    \[Omitted image "FixedQuery1.png"\] Alt text: Add fixed query argument
 
 6.  Navigate to **Incidents** &gt; **Open** and examine the breadcrumbs.
 
     The **Active=true** link is the widest view permitted in the list of Open incidents shown. The breadcrumb for **All** is not a link because of the fixed query.
 
-    ![Breadcrumb for All is not linked](../image/FixedQuery2.png)
+    \[Omitted image "FixedQuery2.png"\] Alt text: Breadcrumb for All is not linked
 
 

@@ -2,6 +2,7 @@
 title: Coaching
 description: Use ServiceNow Coaching to monitor your teams' performance and coach your employees to improve their skill set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/coaching-landing.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -21,9 +22,9 @@ Review and assess the quality of your teams' completed interactions and tasks. B
 
 The image shows a high-level workflow on how coaching admins set up Coaching, and how managers and agents use Coaching.
 
-**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](../../configurable-workforce-optimization-itsm/reference/workforce-optimization-itsm-landing-page.md).
+**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md).
 
-![Coaching workflow](../image/coaching-workflow.png)
+\[Omitted image "coaching-workflow.png"\] Alt text: Coaching workflow
 
 ## Coaching terminology
 
@@ -57,7 +58,7 @@ After you create coaching assessments manually or automatically, you can do any 
 
 ## Coaching opportunity
 
-A coaching opportunity is a critical moment in a process where coaching assessments get triggered based on conditions set in the coaching opportunity record. A coaching opportunity can be generated at any time during the life cycle of any task record such as incident, problem, change request, or request items. For example, you can set conditions to trigger a coaching opportunity when an incident reassigned or escalated. For examples on identifying coaching opportunities, see [Identifying coaching opportunities](coaching-overview.md).
+A coaching opportunity is a critical moment in a process where coaching assessments get triggered based on conditions set in the coaching opportunity record. A coaching opportunity can be generated at any time during the life cycle of any task record such as incident, problem, change request, or request items. For example, you can set conditions to trigger a coaching opportunity when an incident reassigned or escalated. For examples on identifying coaching opportunities, see [Identifying coaching opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-overview.md).
 
 You can do the following in a coaching opportunity record:
 
@@ -69,7 +70,7 @@ You can do the following in a coaching opportunity record:
 
     -   All virtual coach records will have a coaching opportunity associated with it but not all coaching opportunities will have an associated virtual coach record.
     -   A virtual coach cannot be associated a manually generated assessment.
-    For information on virtual coach, see [Identify and add course items for a virtual coach](../task/identify-learning-content.md).
+    For information on virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md).
 
 
 ## Example of assessment triggers
@@ -129,7 +130,7 @@ You can create a manual assessment and complete the following tasks manually:-  
 -   Associate coaching surveys to the assessment
 
 </td></tr></tbody>
-</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](../reference/coaching-reference.md).
+</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-reference.md).
 
-To gain a general understanding of the application and how it is used, see [Coaching overview](coaching-overview.md).
+To gain a general understanding of the application and how it is used, see [Coaching overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-overview.md).
 

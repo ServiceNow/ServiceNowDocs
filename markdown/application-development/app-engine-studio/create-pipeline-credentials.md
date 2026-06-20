@@ -2,6 +2,7 @@
 title: Configure environment credentials
 description: Configure credentials in your production instance so that the flows used by the App Engine Management Center \(AEMC\) can access different instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/create-pipeline-credentials.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -24,7 +25,7 @@ You must use a functional user account with admin permissions to create the cred
 -   It should be controlled by your administrator.
 -   It should have admin privileges on all instances in the pipeline.
 
-You can create a new functional user account specifically for pipeline credentials, or use one that you have previously created with these characteristics. Either way, this user account must be created before you can create the pipeline credentials. For more information about creating this user, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+You can create a new functional user account specifically for pipeline credentials, or use one that you have previously created with these characteristics. Either way, this user account must be created before you can create the pipeline credentials. For more information about creating this user, see .
 
 Role required: admin
 
@@ -60,7 +61,7 @@ Create the pipeline credentials with a functional user account that you created 
 
 8.  In the **What kind of Credentials would you like to create?** list, select **Basic Auth Credentials**.
 
-    **Note:** If you want to use OAuth credentials in your pipelines instead, see [Configure OAuth credentials for use in Pipelines and Deployments](configure-oauth-credentials-pipelines-deployments.md).
+    **Note:** If you want to use OAuth credentials in your pipelines instead, see [Configure OAuth credentials for use in Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-oauth-credentials-pipelines-deployments.md).
 
 9.  On the form, fill in the fields.
 
@@ -80,8 +81,8 @@ Create the pipeline credentials with a functional user account that you created 
     For the credential record, use the user name and password that the pipeline should use to access the production instance.
 
 
--   **[Configure OAuth credentials for use in Pipelines and Deployments](configure-oauth-credentials-pipelines-deployments.md)**  
+-   **[Configure OAuth credentials for use in Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-oauth-credentials-pipelines-deployments.md)**  
 Use OAuth credentials in your pipelines to add another level of security to your pipeline. This task helps you create and configure OAuth credentials for use in your pipelines.
 
-**Parent Topic:**[Pipelines and Deployments configuration tasks](../reference/p-and-d-config-tasks.md)
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/p-and-d-config-tasks.md)
 

@@ -2,6 +2,7 @@
 title: Add a dataset
 description: Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -50,12 +51,12 @@ Role required: sn\_data\_kit.admin
 
 10. Navigate to the Data governance section and select each check box.
 
-    ![Data governance options for Now Assist Data Kit](../image/image/nadk-data-governance.png)
+    \[Omitted image "nadk-data-governance.png"\] Alt text: Data governance options for Now Assist Data Kit
 
     -   I'm assuring to use data responsibly for AI Evaluation
     -   Scan for personally identifiable or information sensitive data before creating datasets. You can turn this off if you prefer.
 
-        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using [vault service](https://www.servicenow.com/docs/bundle/yokohama-platform-security/page/administer/general/concept/privacy-landing-page.html). After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
+        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using vault service. After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
 
 11. Select **Generate dataset**.
 
@@ -64,5 +65,5 @@ Role required: sn\_data\_kit.admin
 
 ## What to do next
 
-After your dataset is added to the data catalog, you can choose to create a smaller dataset by creating a derived dataset or adding a ground truth to your existing data set. For more information, see [Create a derived dataset](create-derived-dataset.md) or [Add a ground truth to each dataset record](add-ground-truth.md).
+After your dataset is added to the data catalog, you can choose to create a smaller dataset by creating a derived dataset or adding a ground truth to your existing data set. For more information, see [Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md) or [Add a ground truth to each dataset record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/add-ground-truth.md).
 

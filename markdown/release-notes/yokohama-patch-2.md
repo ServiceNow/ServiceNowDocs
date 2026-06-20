@@ -2,10 +2,11 @@
 title: Yokohama Patch 2
 description: The Yokohama Patch 2 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-2.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-04-04"
-reading_time_minutes: 43
+reading_time_minutes: 42
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -17,7 +18,7 @@ The Yokohama Patch 2 release contains important problem fixes.
     -   Build date: 04-02-2025\_0516
     -   Build tag: glide-yokohama-12-18-2024\_\_patch2-03-20-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Yokohama Patch 2 includes 159 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-yp2.png "Top 10 problem categories")
+\[Omitted image "prb-chart-yp2.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,11 +38,11 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
 ## Changes in Yokohama Patch 2
 
--   **[Create a decision tree for troubleshooting a failed transaction](https://www.servicenow.com/docs/access?context=create-decision-tree-credit-card-transaction-failure&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+-   ****
 
     Question font sizeEnter the desired font size for the questions in the guided decision tree. Example: `14`
 
--   **[Create a guidance in the Core UI](https://www.servicenow.com/docs/access?context=create-guidances&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+-   ****
 
     Hide completed guidance
 
@@ -51,7 +52,7 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
     **Note:** This field is visible only when the Guided Decision Experience plugin is installed. You may need to configure the form to add this field.
 
--   **[Create a decision tree in Core UI](https://www.servicenow.com/docs/access?context=configure-decision-trees-gdb&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+-   ****
 
     Question font size
 
@@ -61,15 +62,15 @@ Yokohama Patch 2 includes fixes for security-related problems that affected cert
 
     You may need to configure the form to add this field.
 
--   **[Create a guidance in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-guidances-create&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US)**
+-   ****
 
     Select **Hide completed guidance** to hide the guidance recommended for a case resolution.
 
--   **[Exploring Instance Data Replication](https://www.servicenow.com/docs/access?context=exploring-instance-data-replication&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)**
+-   ****
 
     You can only create one scheduled replication set in IDR, with only one outbound entry in that set.
 
--   **[Set up scheduled replication](https://www.servicenow.com/docs/access?context=set-up-scheduled-replication-idr&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)**
+-   ****
 
     You can only create one scheduled replication set, with only one outbound entry in that set.
 
@@ -2880,9 +2881,9 @@ The functionality for the SCREEN\_STATUS\_CHANGED event to close a page in bread
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   -   [Yokohama Patch 1](yokohama-patch-1.md)
--   [Yokohama security and notable fixes](yokohama-security-notables.md)
--   [All other Yokohama fixes](yokohama-all-other-fixes.md)
+-   -   [Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+-   [Yokohama security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+-   [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

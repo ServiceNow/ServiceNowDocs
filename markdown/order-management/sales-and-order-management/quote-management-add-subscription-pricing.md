@@ -2,6 +2,7 @@
 title: Set contract dates and term
 description: You can set contract pricing to a quote or quote line items including start and end dates in Quote Management. After the dates are set on the quote header, the new line items will be defaulted to those dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-add-subscription-pricing.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,11 +28,11 @@ In a quote, you can set the contract pricing start date and end date, or you can
 
 Contract pricing can be added at the quote header level or at the quote line item level.
 
-See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for more information about how subscription pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-subscription-pricing.md) for more information about how subscription pricing works.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 

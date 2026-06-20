@@ -2,6 +2,7 @@
 title: Initiating a dispute case
 description: Begin a dispute case in the card dispute playbook of the Financial Services Workspace. Enter dispute details, complete the dispute questionnaire, upload documents, and submit the case for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/initiating-a-dispute-case.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -42,5 +43,5 @@ When a dispute agent initiates a dispute case, the **Initiate** stage of the car
 |Document upload|\(Optional\) Supporting documents for the case.|
 |Submit dispute|Dispute case submission for further investigation.|
 
-**Parent Topic:**[Working on a dispute case integrated with Visa](work-on-a-dispute-case-integrated-with-visa.md)
+**Parent Topic:**[Working on a dispute case integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
 

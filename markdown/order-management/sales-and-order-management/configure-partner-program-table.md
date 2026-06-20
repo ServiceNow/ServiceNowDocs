@@ -2,13 +2,14 @@
 title: Configure Partner Program table
 description: With the Partner Relationship Management application, enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by using the Partner Program \[sn\_prm\_partner\_program\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/configure-partner-program-table.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Data model for Partner Relationship Management, Configure Partner Relationship Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Data model for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Partner Program table
@@ -31,7 +32,7 @@ Partner programs define the roles, responsibilities, and benefits for different 
 
 3.  On the form, fill in the fields.
 
-    To learn more about the fields on the Partner program table and their descriptions, see [Partner program table fields](../reference/partner-program-table-fields.md).
+    To learn more about the fields on the Partner program table and their descriptions, see [Partner program table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/partner-program-table-fields.md).
 
 4.  Select **Submit**.
 

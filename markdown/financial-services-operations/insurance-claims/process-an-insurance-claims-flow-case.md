@@ -2,6 +2,7 @@
 title: Process an Insurance claims case
 description: Process claims cases in the Insurance claims application. As a claims processor, you can review and verify insurance claims, complete the fulfillment tasks after an adjuster's evaluation, and close a claim.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -29,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim case and task in one of the following ways.
 
-<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d27244e86">
+<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d30452e86">
 
 Option
 
-</th><th align="left" id="d27244e89">
+</th><th align="left" id="d30452e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d27244e95">
+</th></tr></thead><tbody><tr><td id="d30452e95">
 
 **From the landing page**
 
@@ -45,13 +46,13 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d27244e104">
+</td></tr><tr><td id="d30452e104">
 
 **From the case playbook**
 
 </td><td>
 
--   Select the lists icon \(![Data visualization list type - icon](../../../use/reporting/image/inline-data-vis-list.png)\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
 -   On the **Lists** tab, under **Insurance claim cases** \(or the list category that is specific to your custom workflow\), open the case list.
 -   In the list, select the case that contains the task.
 -   If the claim case is in the New status or not assigned to you, select **Accept** to be able to work on it.
@@ -59,26 +60,26 @@ Select an active case from the My pending tasks or My open claims list.
 -   Under one of the following stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d27244e151">
+</td></tr><tr><td id="d30452e151">
 
 **From an insurance claim case**
 
 </td><td>
 
--   Select the lists icon \(![Data visualization list type - icon](../../../use/reporting/image/inline-data-vis-list.png)\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
 -   On the **Lists** tab, under **Insurance claim cases** \(or the list category that is specific to your custom workflow\), select **Assigned to me**.
 -   In the list, select the case that you want to open.
 -   If the claim case is in the New status, select **Accept** to be able to work on it.
 -   In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d27244e197">
+</td></tr><tr><td id="d30452e197">
 
 **From the Insurance claim case tasks list**
 
 </td><td>
 
--   Select the lists icon \(![Data visualization list type - icon](../../../use/reporting/image/inline-data-vis-list.png)\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - icon\).
 -   On the **Lists** tab, under **Insurance claim tasks** \(or the list category that is specific to your custom workflow\), select **All**.
 -   In the list, select the task that you want to open.
 

@@ -2,6 +2,7 @@
 title: Create a configuration template
 description: Create a template that defines the inputs required to set up a spoke. Set static key-value pairs to create records and set values that apply to every integration. Set dynamic key-value pairs to gather user input and set field values that may vary. Using this template, admins and flow designers can set up the spoke from a single form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/connections-and-credentials/create-template.html
 release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -27,15 +28,15 @@ Role required: admin
 
 3.  Select the type of configuration template that you want to create.
 
-<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d64702e77">
+<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d52134e77">
 
 Configuration type
 
-</th><th align="left" id="d64702e80">
+</th><th align="left" id="d52134e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64702e86">
+</th></tr></thead><tbody><tr><td id="d52134e86">
 
 **HTTP Connection with OAuth Authorization Code grant type**
 
@@ -43,7 +44,7 @@ Description
 
 Creates a template to register the third-party system as an OAuth provider using an authorization code.
 
-</td></tr><tr><td id="d64702e95">
+</td></tr><tr><td id="d52134e95">
 
 **HTTP Connection with OAuth JWT Bearer grant type**
 
@@ -59,7 +60,7 @@ Creates a template to register the third-party system as an OAuth provider using
 
 Creates a template to integrate with a third-party application via the OAuth 2.0 authentication that uses the client credentials grant type.
 
-</td></tr><tr><td id="d64702e116">
+</td></tr><tr><td id="d52134e116">
 
 **HTTP Connection with OAuth Client Credentials grant type \(External Storage\)**
 
@@ -67,7 +68,7 @@ Creates a template to integrate with a third-party application via the OAuth 2.0
 
 Creates a template that enables the sending of OAuth token request that comprises client credentials stored by an external storage to an OAuth server via the MID Server.
 
-</td></tr><tr><td id="d64702e129">
+</td></tr><tr><td id="d52134e129">
 
 **HTTP Connection with Basic Auth Credential**
 
@@ -75,7 +76,7 @@ Creates a template that enables the sending of OAuth token request that comprise
 
 Creates a template to integrate with the third-party system using basic authentication.
 
-</td></tr><tr><td id="d64702e138">
+</td></tr><tr><td id="d52134e138">
 
 **HTTP Connection with API Key Credential**
 
@@ -83,7 +84,7 @@ Creates a template to integrate with the third-party system using basic authenti
 
 Creates a template to integrate with the third-party system using an API key.
 
-</td></tr><tr><td id="d64702e147">
+</td></tr><tr><td id="d52134e147">
 
 **Other Configuration**
 
@@ -317,7 +318,7 @@ Groups that contains a different set of fields. These groups are available as a 
             }
 ```
 
- For more information on how to use dot-walking, see [Dot-walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+ For more information on how to use dot-walking, see Dot-walking.
 
 </td></tr></tbody>
 </table>    **Tip:** If the pre-populated values are not appearing in the fields while editing a connection, navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Log** to diagnose the issue.
@@ -343,5 +344,5 @@ When the user navigates to the associated Connection &amp; Credential alias and 
 
 Test the template by navigating to the associated Connection &amp; Credential alias and selecting **Create New Connection &amp; Credential**. Verify that the dialog collects the expected data and creates the required records in the system.
 
-**Parent Topic:**[Connection &amp; Credential configuration templates](../concept/spoke-configuration-template.md)
+**Parent Topic:**[Connection &amp; Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/spoke-configuration-template.md)
 

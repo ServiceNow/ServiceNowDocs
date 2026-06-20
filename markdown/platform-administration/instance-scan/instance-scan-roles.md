@@ -2,6 +2,7 @@
 title: Instance Scan roles
 description: Instance Scan is installed with these roles.The scan\_user role can run different types of scans and view the findings and results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/instance-scan/instance-scan-roles.html
 release: yokohama
 product: Instance Scan
 classification: instance-scan
@@ -15,9 +16,9 @@ breadcrumb: [Instance Scan references, Instance Scan, Maintain and monitor, Admi
 
 Instance Scan is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Instance Scan references](hs-references.md)
+**Parent Topic:**[Instance Scan references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-scan/hs-references.md)
 
 ## Instance Scan user \[scan\_user\]
 

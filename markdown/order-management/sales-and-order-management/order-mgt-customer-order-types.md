@@ -2,13 +2,14 @@
 title: Action types for customer and service orders
 description: Learn how you can take various types of actions for your customer orders. Action types include move, add, change, disconnect, suspension, resume, or no-change of services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-customer-order-types.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Action types for customer and service orders
@@ -57,7 +58,7 @@ Suspend
 
 </td><td>
 
-Product or service order to temporarily inactivate the product inventory of its order line items.**Note:** To learn more, see [Using suspend and resume actions](order-mgt-suspend-resume-action.md).
+Product or service order to temporarily inactivate the product inventory of its order line items.**Note:** To learn more, see [Using suspend and resume actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-mgt-suspend-resume-action.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Resume
 
 </td><td>
 
-Product or service order to activate the product inventory of its order line items that were previously suspended.**Note:** To learn more, see [Using suspend and resume actions](order-mgt-suspend-resume-action.md).
+Product or service order to activate the product inventory of its order line items that were previously suspended.**Note:** To learn more, see [Using suspend and resume actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/order-mgt-suspend-resume-action.md).
 
 </td></tr><tr><td>
 

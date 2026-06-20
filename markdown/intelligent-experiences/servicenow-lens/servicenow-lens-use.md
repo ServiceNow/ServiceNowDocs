@@ -2,6 +2,7 @@
 title: Using ServiceNow AI Lens
 description: If you have a lens\_user role, you can use the ServiceNow AI Lens application to capture screens, extract and comprehend data, auto-fill the form fields, or preview the extracted data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-use.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -19,10 +20,10 @@ If you have a lens\_user role, you can use the ServiceNow AI Lens application to
 
 Use ServiceNow AI Lens to do the following tasks:
 
--   Create a record in the ServiceNow instance and auto-fill data that is scanned from captured images. For more information, see [Create a record in an instance by using ServiceNow AI Lens](create-record-sn-lens.md).
--   Update an existing record in the ServiceNow instance and auto-fill the data that is scanned from captured images. For more information, see [Update a record in an instance by using ServiceNow AI Lens](update-record-sn-lens.md).
--   Trigger ServiceNow AI Lens in the context of Lens actions to auto-fill a form on the ServiceNow instance or view preview of extracted data. For more information, see [Trigger ServiceNow AI Lens from the desktop app](preview-desktop-others-lens.md).
--   Autofill the fields in a catalog item request form in the Service Portal. Launch ServiceNow AI Lens from the catalog item request form, then scan and extract data from artifacts such as Excel files, emails, or images of handwritten notes. For more information, see [Autofill catalog item form in the Service Portal](create-record-in-the-service-portal.md).
--   Scan visual data, such as handwritten texts and notes, images, applications, and websites. You can use ServiceNow AI Lens as a standalone application to preview the generated outcome according to the instructions that you provide. For more information, see [Extract and analyze your data by using ServiceNow AI Lens in the standalone mode](sn-lens-standalone-app.md).
--   Trigger ServiceNow AI Lens in the context of Lens actions from a Virtual Agent conversation. For more information, see [Extract and analyze data using ServiceNow AI Lens from Virtual Agent](trigger-lens-from-va.md).
+-   Create a record in the ServiceNow instance and auto-fill data that is scanned from captured images. For more information, see [Create a record in an instance by using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
+-   Update an existing record in the ServiceNow instance and auto-fill the data that is scanned from captured images. For more information, see [Update a record in an instance by using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/update-record-sn-lens.md).
+-   Trigger ServiceNow AI Lens in the context of Lens actions to auto-fill a form on the ServiceNow instance or view preview of extracted data. For more information, see [Trigger ServiceNow AI Lens from the desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/preview-desktop-others-lens.md).
+-   Autofill the fields in a catalog item request form in the Service Portal. Launch ServiceNow AI Lens from the catalog item request form, then scan and extract data from artifacts such as Excel files, emails, or images of handwritten notes. For more information, see [Autofill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
+-   Scan visual data, such as handwritten texts and notes, images, applications, and websites. You can use ServiceNow AI Lens as a standalone application to preview the generated outcome according to the instructions that you provide. For more information, see [Extract and analyze your data by using ServiceNow AI Lens in the standalone mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md).
+-   Trigger ServiceNow AI Lens in the context of Lens actions from a Virtual Agent conversation. For more information, see [Extract and analyze data using ServiceNow AI Lens from Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/trigger-lens-from-va.md).
 

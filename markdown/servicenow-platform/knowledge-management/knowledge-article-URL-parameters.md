@@ -2,6 +2,7 @@
 title: Knowledge article URL parameters
 description: You can add parameters to an article URL to view the latest version and an existing translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-article-URL-parameters.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

@@ -2,7 +2,10 @@
 title: Portal Data List widget JSON parameters
 description: JSON parameters define aspects of the Portal Data list widget on the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/portal-datalist-widget-data-json.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -61,7 +64,7 @@ list\_view
 
 </td><td>
 
-The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see [Create and delete views](https://www.servicenow.com/docs/access?context=create-delete-view&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see .
 
 If no value is provided, all columns are shown.
 

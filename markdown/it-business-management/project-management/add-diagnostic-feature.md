@@ -2,6 +2,7 @@
 title: Create and add diagnostic features
 description: Create and add diagnostic features, which consist of single or multiple diagnostic scans that execute mapped scripts to detect data corruption or invalid data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/add-diagnostic-feature.html
 release: yokohama
 product: Project Management
 classification: project-management
@@ -29,11 +30,11 @@ Role required: adt\_admin
 
     |Field|Description|
     |-----|-----------|
-    |Name|Name of the diagnostic feature. This name appears in the application to which the diagnostic feature belongs.![Diagnostic feature name in application](../image/diagnostic_feature_name.png)|
+    |Name|Name of the diagnostic feature. This name appears in the application to which the diagnostic feature belongs.\[Omitted image "diagnostic\_feature\_name.png"\] Alt text: Diagnostic feature name in application|
     |Active|Option for activating the diagnostic feature.|
     |Application|Search for and select the application with which you want to associate this diagnostic feature.|
     |Roles|User roles that allow access to the diagnostic feature.|
-    |Description|Details of the scans in the diagnostic feature. The description is displayed in the application to which the diagnostic feature belongs.![Diagnostics feature description on the application page](../image/app_diagnostic_description.png)|
+    |Description|Details of the scans in the diagnostic feature. The description is displayed in the application to which the diagnostic feature belongs.\[Omitted image "app\_diagnostic\_description.png"\] Alt text: Diagnostics feature description on the application page|
 
 4.  Define the fields available to users for specifying filter conditions in the **Diagnostics Inputs** section.
 
@@ -80,12 +81,12 @@ An identifier for the user input condition. If a user specifies multiple conditi
 </td></tr></tbody>
 </table>    The fields that you configure in the **Diagnostics Inputs** section appear in the **Feature Inputs** section of the Application Diagnostics Tool page, as shown in the following example.
 
-    ![User input fields in application](../image/app_diagnostics_feature_inputs.png)
+    \[Omitted image "app\_diagnostics\_feature\_inputs.png"\] Alt text: User input fields in application
 
 5.  Click **Submit**.
 
 
 ## What to do next
 
-Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostic and fix scripts](add-diagnostic-and-fix-script.md).
+Create diagnostic scripts and add fix scripts to use with the diagnostic feature. For more information, see [Add diagnostic and fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/add-diagnostic-and-fix-script.md).
 

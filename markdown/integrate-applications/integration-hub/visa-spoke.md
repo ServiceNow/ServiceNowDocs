@@ -2,6 +2,7 @@
 title: Visa Spoke
 description: Integrate the ServiceNow instance with the Visa spoke to invoke Visa Resolve Online \(VROL\) APIs for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/visa-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ This spoke requires a subscription. Contact your account manager or sales repres
 
 ## Spoke version
 
-Visa spoke v2.0.1 is the latest version.
+Visa spoke v2.2.2 is the latest version.
 
 ## Key features
 
@@ -85,20 +86,20 @@ The Visa spoke provides actions to invoke Visa APIs under VROL and VSPS to manag
     |Card Holder Purchase Inquiry Response Parser|Parses response of CardholderPurchaseInquiry. This API provides Real-Time Systems Interface \(RTSI\) users with the capability to request additional merchant information regarding a transaction. It can also be used to retrieve purchase information for non-VisaNet transactions.|
     |Transaction Inquiry Management|Look up All Transaction Details Request Builder|Enables you to retrieve details of all the scheduled reports for the organization or for a particular report that you want to know.|
     |Look up All Transaction Details Response Parser|Parses response of getAllTransDetails. Issuers can use this API an alternative method to retrieve complete Transaction Details for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
-    |Look up Transaction Details from Case Request Builder|Produces request payload for the getTransactionsFromCase. Issuers can use this API to get the TI details for the selected transaction in the case. That is, the original transaction being is disputed. Also, it returns summaries for the selected and non-selected transactions returned from the TI search that are also stored with the case.|
-    |Look up Transaction Details from Case Response Parser|Parses response of getTransactionsFromCase. Issuers can use this API to get the TI details for the selected transaction in the case. That is, the original transaction is disputed. Also, it returns summaries for the selected and non-selected transactions returned from the TI search that are also stored with the case.|
+    |Look up Transaction Details from Case Request Builder|Produces request payload for the getTransactionsFromCase. Issuers can use this API to get the TI details for the selected transaction in the case; that is, the original transaction being disputed. Also, it returns summaries for the selected and non-selected transactions returned from the TI search that are also stored with the case.|
+    |Look up Transaction Details from Case Response Parser|Parses response of getTransactionsFromCase. Issuers can use this API to get the TI details for the selected transaction in the case; that is, the original transaction being disputed. Also, it returns summaries for the selected and non-selected transactions returned from the TI search that are also stored with the case.|
     |Look up Transaction Details Request Builder|Produces request payload for the getTransDetails. Issuers can use this API to get detail-level data for the returned transaction.|
     |Look up Transaction Details Response Parser|Parses response of getTransDetails. Issuers can use this API to get detail-level data for the returned transaction.|
     |Look up Transaction Inquiry Results Request Builder|Produces request payload for the getTransInquiryResults. This will accepts a Transaction Inquiry \(TI\) Event ID and returns transaction summary information.|
     |Look up Transaction Inquiry Results Response Parser|Parses response of the getTransInquiryResults. This will accepts a Transaction Inquiry \(TI\) Event ID and returns transaction summary information.|
     |Submit Multiple Transaction Inquiry Request Builder|Produces request payload for the submitMultiTranInquiry. This will provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
     |Submit Multiple Transaction Inquiry Response Parser|Parses response of the submitMultiTranInquiry. This will provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
-    |Submit Transaction Inquiry Request Builder|Produces request payload for the submitTranInquiry. This action i used to search for transactions using a set of search criteria.|
+    |Submit Transaction Inquiry Request Builder|Produces request payload for the submitTranInquiry. This action is used to search for transactions using a set of search criteria.|
     |Submit Transaction Inquiry Response Parser|Produces request payload for the submitTranInquiry. This action is used to search for transactions using a set of search criteria.|
     |Fraud Report Management|Submit Fraud Report Request Builder|Produces request payload for SubmitFraudReport. This API enables you to submit a fraud report to Visa Resolve Online \(VROL\), including all the required fraud data as listed in the Interface Element Spreadsheet \(IES\).|
     |Submit Fraud Report Response Parser|Parses response for SubmitFraudReport. This API enables you to submit a fraud report to Visa Resolve Online \(VROL\), including all the required fraud data as listed in the Interface Element Spreadsheet \(IES\).|
     |Look up Dispute Filing Details Request Builder|This action builds the input payload for the API getDisputeFiling Details.|
-    |Look up Dispute Filing Details Response Parser|Parses response of the getDisputeFilingDetails. The getDisputeFilingDetails are used to retrieve message with dispute case filing and the image details along with dispute filing item type.|
+    |Look up Dispute Filing Details Response Parser|Parses response of the getDisputeFilingDetails. getDisputeFilingDetails is used to retrieve message with dispute case filing and the image details along with dispute filing item type.|
     |Look up Fraud Report Details Request Builder|Enables you to request additional information regarding a previously submitted fraud report in a real time.|
     |Look up Fraud Report Details Response Parser|This action parses the response body returned by VROL system after calling the API get fraud report details.|
     |Dispute Financials Management|Look up Dispute Financial Advice Details Request Builder|Produces request payload for the GetDisputeFinancialAdviceDetails API. It enables Real-Time Systems Interface \(RTSI\) users to request the dispute financial advice data.|
@@ -180,5 +181,5 @@ The Visa spoke provides actions to invoke Visa APIs under VROL and VSPS to manag
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the spoke, see [Set up Visa Spoke](../task/set-up-visa-spoke.md#).
+For more information about setting up the spoke, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-visa-spoke.md).
 

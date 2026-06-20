@@ -2,6 +2,7 @@
 title: Request many to many task relations
 description: The Many to Many Task Relations plugin \(com.snc.task\_relations\) is included with several plugins. You can request activation of the plugin by itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/table-administration-and-data-management/t\_RequestManyToManyTaskRelations.html
 release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -32,7 +33,7 @@ Role required: admin
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -73,12 +74,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

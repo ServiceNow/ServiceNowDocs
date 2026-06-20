@@ -2,6 +2,7 @@
 title: Knowledge articles for Enterprise Asset Management
 description: Create and attach knowledge articles about enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/knowledge-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Enterprise Asset Management, Enterprise Asset Management,
 
 Create and attach knowledge articles about enterprise models.
 
-Use the Enterprise Asset Workspace or the Knowledge Management application to create articles about Enterprise Asset Management application. You can create articles on subjects such as troubleshooting, configuration. For information on creating knowledge articles, see [Create a knowledge article for Enterprise Asset Management](../task/create-eam-knowledge-article.md).
+Use the Enterprise Asset Workspace or the Knowledge Management application to create articles about Enterprise Asset Management application. You can create articles on subjects such as troubleshooting, configuration. For information on creating knowledge articles, see [Create a knowledge article for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-eam-knowledge-article.md).
 
 The enterprise asset manager \[sn\_eam.enterprise\_asset\_manager\] role can create articles and the Enterprise technician \[enterprise\_asset\_technician\] role can view articles.
 

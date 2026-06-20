@@ -2,7 +2,10 @@
 title: Grant temporary instance access to your Impact Squad
 description: View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/hop-access-impact-squad.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-04-24"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Impact squad members can easily log in and access customer instances to facilita
 
 2.  In the Your Impact Squad widget, select **View Squad access to your instance**.
 
-    ![Squad access tile on the Impact homepage](../image/squad-access.png)
+    \[Omitted image "squad-access.png"\] Alt text: Squad access tile on the Impact homepage
 
     Squad access to your instance displays Impact Squad member information and access fields.
 
@@ -88,6 +91,6 @@ Date access to the instance expires for the squad member.
 
 4.  Select to **Approve**, **Reject**, or **Remove** access.
 
-    ![Dialog box with the Approve or Reject buttons.](../image/grant-squad-access.png)
+    \[Omitted image "grant-squad-access.png"\] Alt text: Dialog box with the Approve or Reject buttons.
 
 

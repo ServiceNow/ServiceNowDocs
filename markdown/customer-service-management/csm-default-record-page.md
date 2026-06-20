@@ -2,7 +2,10 @@
 title: CSM default record page
 description: The CSM default record page provides CSM case management features and functionality and enables agents to create, monitor, and resolve cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-default-record-page.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 5
@@ -15,7 +18,7 @@ The CSM default record page provides CSM case management features and functional
 
 The CSM default record page includes the basic structure for a record page, including record information, a communication interface, and suggestions for issue resolution. This page is also known as the standard record page.
 
-![The CSM default record page provides agents with an overview of case record details and the activity stream. It also provides access to multiple features in the contextual side panel.](../image/csm-default-record-template.png "CSM default record page")
+\[Omitted image "csm-default-record-template.png"\] Alt text: The CSM default record page provides agents with an overview of case record details and the activity stream. It also provides access to multiple features in the contextual side panel.
 
 The CSM default record page is included with the CSM/FSM Configurable Workspace experience.
 
@@ -28,7 +31,7 @@ The user presence component displays an icon in the form header that shows the u
 -   Hover over an icon to see more information about a user.
 -   Click the number icon to see more information about the additional users.
 
-For more information about this feature, see [User presence](https://www.servicenow.com/docs/access?context=c_UserPresence&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more information about this feature, see .
 
 ## Email templates feature
 
@@ -36,7 +39,7 @@ The CSM default record page includes the Email Templates feature. CSM Configurab
 
 These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
 
-Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see [Create an email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Users with the system administrator role can configure email templates by navigating to **All** &gt; **Email Client** &gt; **Email Client Templates** and selecting **New**. For more information, see .
 
 Agents can use this feature to do the following:
 
@@ -44,18 +47,18 @@ Agents can use this feature to do the following:
 -   Select an email template to display the template details.
 -   Apply the selected template to an email in the Compose panel.
 
-For more information, see [Compose an email from an email template](../task/compose-email-from-email-template.md).
+For more information, see [Compose an email from an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/compose-email-from-email-template.md).
 
 ## Creating emails and applying email templates
 
 Customer service agents can create emails from case records in the following ways:
 
 -   By selecting **Email** at the top of the activity stream to open the Compose Email component.
--   By selecting the More actions \(![agent workspace more actions menu](../image/agent-workspace-more-ui-actions-icon.jpg)\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
+-   By selecting the More actions \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: agent workspace more actions menu\) menu in the case activity bar and then selecting **Compose email** to open a draft email in a new tab.
 
 When creating emails, agents can apply templates to add content to the draft emails, such as the subject line and message body. To apply a template:
 
-1.  Select the Apply email templates icon \(![Compose email apply templates icon](../image/csm-email-modeless-dialog-apply-template.png)\) in the Compose email footer.
+1.  Select the Apply email templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\) in the Compose email footer.
 
     The system displays a list of available templates. It does not display quick messages or response templates.
 
@@ -68,9 +71,9 @@ When creating emails, agents can apply templates to add content to the draft ema
 
 ## Recommended Actions feature
 
-The Recommended Actions tab includes [AI search](ra-csm-ai-search.md) functionality and Suggested Actions.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions.
 
--   [AI search](ra-csm-ai-search.md) tab: Agents can use AI search to find relevant resources or resolutions for customer issues. The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search. From the list of search results, agents can select a source to see search results of that type.
+-   [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-ai-search.md) tab: Agents can use AI search to find relevant resources or resolutions for customer issues. The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search. From the list of search results, agents can select a source to see search results of that type.
 
     The following table shows the actions that an agent can perform on search results:
 
@@ -137,13 +140,13 @@ Requests
 
 
 </td></tr></tbody>
-</table>    For all the other source types, default guidance is supported. The Default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](ra-csm-guidances-default-guidance-search.md).
+</table>    For all the other source types, default guidance is supported. The Default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-guidances-default-guidance-search.md).
 
-    For more information on how to avail the AI search feature in Recommended Actions, see [Enable AI search in Recommended Actions](../task/migrate-ra-agent-assist.md).
+    For more information on how to avail the AI search feature in Recommended Actions, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migrate-ra-agent-assist.md).
 
-    For more information, see [Use AI search in Recommended Actions to resolve cases](../task/nba-use-ai-search.md).
+    For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba-use-ai-search.md).
 
-    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+    **Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
--   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](configure-nba.md).
+-   Suggested Actions tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-nba.md).
 

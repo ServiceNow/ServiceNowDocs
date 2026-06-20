@@ -2,13 +2,14 @@
 title: Order quantity support
 description: Learn how you can support and fulfill your customer orders for multiple instances of a product or service.. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-quantity-support.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Order quantity support

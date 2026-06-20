@@ -2,6 +2,7 @@
 title: Build custom queries
 description: Build and run custom queries to uncover insights across your digital workspace. Use custom query builder to generate reports on any of the performance metrics on your device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/build-custom-queries.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Insights icon \(![](../image/icon-insights.png)\).
+2.  In the primary navigation pane, select the DEX Insights icon \(\[Omitted image "icon-insights.png"\] Alt text:\).
 
 3.  Select **Query builder** on the **Insights** page.
 

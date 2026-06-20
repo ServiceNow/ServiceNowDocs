@@ -2,6 +2,7 @@
 title: Submit an application
 description: Collect all required applicant information and submit an application for a new account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/submit-application.html
 release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -26,7 +27,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **Financial services operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  On the **Details** tab, click **Playbook** and select **Account information**.
 
@@ -34,7 +35,7 @@ Role required:
 
 5.  Select **Add Contacts** and complete the associated child cases.
 
-    For more information on creating a contact, see [Create a contact for a case](create-contact.md).
+    For more information on creating a contact, see [Create a contact for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
 
 6.  Select **Collect Account Documents**.
 
@@ -55,5 +56,5 @@ The account application is submitted, and the case automatically advances to the
 
 ## What to do next
 
-Continue to the [Document Verification](verify-client-docs.md) stage.
+Continue to the [Document Verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/verify-client-docs.md) stage.
 

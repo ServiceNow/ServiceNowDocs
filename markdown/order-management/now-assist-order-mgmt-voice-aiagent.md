@@ -2,6 +2,7 @@
 title: Using the Voice AI agents for Now Assist for Order Management
 description: Use the Voice AI agents to create and manage cases for any order-related issues such as expediting orders with voice calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/now-assist-order-mgmt-voice-aiagent.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-11-21"
@@ -22,5 +23,5 @@ Using the manage order operations Voice AI agent, you can do the following:
 
 The AI agent then creates an order case based on agreement of proposed delivery dates with the customer, and shares the order case number with the customer over the phone call.
 
-**Parent Topic:**[Standalone agents in Order Management](now-assist-om-ai-agents.md)
+**Parent Topic:**[Standalone agents in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-om-ai-agents.md)
 

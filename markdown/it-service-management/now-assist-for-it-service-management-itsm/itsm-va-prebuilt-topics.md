@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent pre-built LLM topics
 description: ITSM Virtual Agent includes pre-built Large Language Model \(LLM\) topic conversations designed to help your users complete the common IT-related tasks such as checking and resetting a password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -19,7 +20,7 @@ LLMs are used to identify and trigger the action that a user wants to perform.
 
 ITSM Virtual Agent pre-built LLM topics are read only and have **\(Template\)** as the suffix in their name. To use them, duplicate the topic in the ITSM Virtual Agent conversation scope and rename it according to your company naming conventions.
 
-For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](../../itsm-virtual-agent/concept/using-itsm-va.md).
+For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-virtual-agent/using-itsm-va.md).
 
 <table id="table_an3_5t2_4bc"><tbody><tr><td>
 
@@ -39,7 +40,7 @@ Check the status of your IT tickets and support cases.
 -   status = Allowed
 -   source = Script Include: ITSMTopicsHelper
 
-See [Requested restricted caller access \(RCA\)](https://www.servicenow.com/docs/access?context=requested-rca&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Check your device's health using Digital End-User Experience \(DEX\)
 
 </td><td>
 
-Use the Now Assist for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. See [Check your device’s health using Now Assist for ITSM](../../digital-end-user-experience/task/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](../../digital-end-user-experience/task/install-app-device-health.md) for more information.
+Use the Now Assist for ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. See [Check your device’s health using Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
 
 </td></tr></tbody>
 </table>## Core ITSM topics
@@ -120,7 +121,7 @@ Requirements:
 
 **Note:** For the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see [Password Reset for Virtual Agent](https://www.servicenow.com/docs/access?context=password-reset-for-virtual-agent&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information about the password reset process, see Password Reset for Virtual Agent.
 
 <table id="table_zc2_s23_nbc"><tbody><tr><td>
 
@@ -157,13 +158,13 @@ Request to verify your locked user account.
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information, see Configure your Password Reset process.
 
 ## Actionable notification topics
 
 ITSM Virtual Agent includes pre-built actionable notifications used to send interactive messages to a user based on pending tasks or alerts, such as RITM and request notifications, task approval notifications, and incident notifications.
 
-**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](../../itsm-virtual-agent/task/setup-actionable-notifications.md).
+**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 <table id="table_x5c_n1w_bdc"><thead><tr><th>
 

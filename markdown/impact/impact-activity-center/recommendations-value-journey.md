@@ -2,6 +2,7 @@
 title: Activity Center All Recommendations
 description: View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-activity-center/recommendations-value-journey.html
 release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center
@@ -15,7 +16,7 @@ breadcrumb: [Activity Center, Impact Delivery Instance \(formerly Impact Digital
 
 View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
 
-![Shows Your Personalized Recommendations.](../image/recommendations.png)
+\[Omitted image "recommendations.png"\] Alt text: Shows Your Personalized Recommendations.
 
 -   Rule-based recommendations:
     -   A framework that gives Business users a control over configuring and enriching recommendations, including the ability to define their scope.

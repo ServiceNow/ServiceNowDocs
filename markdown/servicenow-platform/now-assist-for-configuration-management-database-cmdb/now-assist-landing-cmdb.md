@@ -2,6 +2,7 @@
 title: Now Assist for Configuration Management Database \(CMDB\)
 description: Use ServiceNow Now Assist for Configuration Management Database \(CMDB\) to improve the quality of CMDB data, search the CMDB quickly, find and remedy issues with Service Graph Connector import sets, view comprehensive summaries for CIs, manually create CIs, and accelerate the process of remediating duplicate CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.html
 release: yokohama
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,23 +20,23 @@ Use ServiceNow® Now Assist for Configuration Management Database \(CMDB\) to im
 
 <table id="table_mzj_vxd_rcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for CMDB](now-assist-cmdb-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Now Assist for CMDB](now-assist-cmdb-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 </td></tr><tr><td>
 
-[Using skills in Now Assist for CMDB![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)](now-assist-cmdb-using-skills.md)[Use Now Assist for CMDB skills to view a concise summary of key CI data, to help you to resolve de-duplication tasks, or to reduce debugging and resolution time for failed Service Graph Connector import sets.](../../csdm-implementation/concept/csdm-content-frame-reference.md)
+[Using skills in Now Assist for CMDB\[Omitted image "bus-ai-sparkle.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md)[Use Now Assist for CMDB skills to view a concise summary of key CI data, to help you to resolve de-duplication tasks, or to reduce debugging and resolution time for failed Service Graph Connector import sets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 
-[Using agentic workflows in Now Assist for CMDB![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Apply AI agentic workflows to accelerate results.](now-assist-cmdb-using.md)
+[Using agentic workflows in Now Assist for CMDB\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Apply AI agentic workflows to accelerate results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)/&gt; Reference topics provide additional information about the property settings that you use to configure and administer Now Assist for CMDB.](../../csdm-implementation/concept/csdm-content-frame-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:/&gt; Reference topics provide additional information about the property settings that you use to configure and administer Now Assist for CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 </td><td>
 
@@ -65,13 +66,13 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
 ## Available LLMs
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## AI limitations
 
@@ -83,7 +84,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

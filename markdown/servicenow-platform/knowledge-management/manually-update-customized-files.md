@@ -2,6 +2,7 @@
 title: Manually update customized files
 description: If you have customized any of the files that are updated as part of the Knowledge Management Advanced Installer plugin, these files are skipped during plugin activation and must be updated manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/manually-update-customized-files.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

@@ -2,6 +2,7 @@
 title: Event forwarding
 description: Accelerate the event processing testing life cycle by forwarding a stream of events from your ServiceNow production environment to your non-production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/event-forwarding-em.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -19,12 +20,12 @@ Use event forwarding to forward events from one instance to another, for example
 
 Not all monitoring sources can send events to multiple target instances. In such cases, you can configure a scheduled job to periodically forward the event stream from your ServiceNow instance that is connected to the monitored source to other instances.
 
--   **[Set up event forwarding](../task/configure-event-forwarding-em.md)**  
+-   **[Set up event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-event-forwarding-em.md)**  
 Create an event forwarding configuration record to enable events to flow from one ServiceNow instance to another instance. Forwarding events to multiple target instances requires creating separate configuration records for each target instance.
--   **[Periodically run an event forwarding job](../task/configuration-management-job-em.md)**  
+-   **[Periodically run an event forwarding job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configuration-management-job-em.md)**  
 Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
--   **[Create basic auth server credentials](../task/create-credentials-basic-auth.md)**  
+-   **[Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-credentials-basic-auth.md)**  
 Create credentials to access a ServiceNow instance.
 
-**Parent Topic:**[Configuring Event Management](using-event-management.md)
+**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
 

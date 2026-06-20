@@ -2,6 +2,7 @@
 title: View asset usage
 description: The Field Service Management application tracks the consumable and non-consumable parts that are used or changed during the execution of work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_RecordAssetUsage.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -69,12 +70,12 @@ When an agent records the removal of an asset, the asset is added to the Asset U
 
 </td></tr></tbody>
 </table>
--   **[Track the removal of an asset from a task location](t_RecordAssetUsageRemoveAsset.md)**  
+-   **[Track the removal of an asset from a task location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsageRemoveAsset.md)**  
 Track the status of an asset that you removed in a work order. You can track the status as you're doing the task from the task location.
--   **[Record the assets used during a work task](t_RecordAssetUsageUseAsset.md)**  
+-   **[Record the assets used during a work task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsageUseAsset.md)**  
 Record any assets that you use during the execution of a task.
--   **[Track the replacement of an asset from a task location](record-treplacement-asset-task-location.md)**  
+-   **[Track the replacement of an asset from a task location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-treplacement-asset-task-location.md)**  
 Track the status of an asset that you replaced with another asset in a work order. You can track the status as you're doing the task from a task location.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

@@ -2,6 +2,7 @@
 title: Get product recommendations for leads using needs analysis
 description: Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales leads.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/lead-management-use-needs-analysis.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Leads** &gt; **All** and select the lead that you want to work on.
 
@@ -43,7 +44,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** ![](../../../reuse/itom/image/workspace-icon-edit.png) icon. You can change your responses if needed.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] icon. You can change your responses if needed.
     -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
 7.  Choose a recommendation by selecting **Add** in the tile for the product that best matches your customer needs.
 

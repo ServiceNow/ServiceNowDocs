@@ -2,7 +2,10 @@
 title: Create an event configuration for an agent calendar
 description: Create configurations for each type of entry displayed on the agent calendar. Entries could include case tasks, work order tasks, appointments, or schedule entries such as event types that you could track and manage on the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-agent-calendar-event-config.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -34,15 +37,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d269865e123">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d44577e123">
 
 Option
 
-</th><th align="left" id="d269865e126">
+</th><th align="left" id="d44577e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269865e132">
+</th></tr></thead><tbody><tr><td id="d44577e132">
 
 **Create a configuration from an existing event configuration**
 
@@ -53,7 +56,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d269865e155">
+</td></tr><tr><td id="d44577e155">
 
 **Create a new event configuration**
 

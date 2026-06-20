@@ -2,11 +2,12 @@
 title: Create records in bulk
 description: Create records in bulk from the Digital resilience third-party registers using Third-party Risk Management rather than creating one record at a time for single or multiple entities. You can save time and effort by working on multiple records at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-bulk-create.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +28,7 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel upload request by selecting **New**.
 
@@ -35,7 +36,7 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 3.  On the form, select **Upload** as the request type and fill in the remaining fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
     **Note:** You can only upload one type of record for each upload request. For example, if you made an upload request for Assessment records, you can only include Assessment record information in the template.
 

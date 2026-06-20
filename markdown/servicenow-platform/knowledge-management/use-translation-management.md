@@ -2,6 +2,7 @@
 title: Use translation management
 description: Use translation management to create and manage translation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/use-translation-management.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

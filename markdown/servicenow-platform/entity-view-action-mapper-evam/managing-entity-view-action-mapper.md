@@ -2,6 +2,7 @@
 title: Managing Entity View Action Mapper
 description: Optimize data presentation and interaction by defining data sources, creating Entity View Action Mapper \(EVAM\) configuration bundles, and setting up EVAM view templates to structure and display entity data effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.html
 release: yokohama
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -17,20 +18,20 @@ Optimize data presentation and interaction by defining data sources, creating En
 
 ## Overview of managing EVAM
 
--   [Create a multi-data source list display in Entity View Action Mapper](../task/tutorial-create-evam.md)
+-   [Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.md)
 
     Use the Entity View Action Mapper \(EVAM\) to take in different data sources, configure views, and show them in a card display view.
 
--   [Create an EVAM definition](../task/define-composite-dataset.md)
+-   [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
 
     Define the list of data sources to render. The Entity View Action Mapper \(EVAM\) definition is the main record for an EVAM configuration.
 
--   [Create an EVAM action definition](../task/define-evam-action.md)
+-   [Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md)
 
     Associate a declarative action with a view template. The Entity View Action Mapper \(EVAM\) also enables user interactions to trigger a server script or UXF client action.
 
 
 ## EVAM reference
 
-For more information, see [Entity View Action Mapper reference](entity-view-action-mapper-reference.md).
+For more information, see [Entity View Action Mapper reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper-reference.md).
 

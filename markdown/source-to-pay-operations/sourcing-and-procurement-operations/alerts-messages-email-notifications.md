@@ -2,6 +2,7 @@
 title: Alerts and email notifications from ShoppingHub
 description: Several alerts and email notifications are triggered from ShoppingHub. This may be a result of your action, an assignment for you, or to keep you updated on the status of your purchases, including blanket contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/alerts-messages-email-notifications.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,7 +38,7 @@ ShoppingHub sends out emails in a predefined template and uses flow designer to 
 -   You submit a purchase request, irrespective of approval requirement that is automatically merged with an existing purchase request \(for one or multiple purchase lines\)
 -   A purchase request that triggers an approval rule, is submitted, and you’re assigned as an approver for that purchase.
 
-    **Note:** As an approver, you can approve the purchase from the email itself. For details, see [Approval email notification templates](approval-email-notifications-template.md).
+    **Note:** As an approver, you can approve the purchase from the email itself. For details, see [Approval email notification templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/approval-email-notifications-template.md).
 
 -   An approver requests clarifications on your purchase request
 -   An approver requests clarifications on your sourcing request
@@ -78,7 +79,7 @@ ShoppingHub sends out emails in a predefined template and uses flow designer to 
 -   A purchase approval to-do is updated or canceled
 -   An approval to-do is assigned to you as a result of a revision or merge reassessment
 
-You can adjust the email trigger conditions and content in flow designer or email scripts, if necessary. You can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US). You can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see [Email layouts](https://www.servicenow.com/docs/access?context=email-layouts&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+You can adjust the email trigger conditions and content in flow designer or email scripts, if necessary. You can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see . You can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see .
 
-**Parent Topic:**[Using Shopping Hub](use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

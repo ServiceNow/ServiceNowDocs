@@ -2,6 +2,7 @@
 title: Jumpstart Your Upgrade
 description: Guidance on upgrade planning and preparation
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

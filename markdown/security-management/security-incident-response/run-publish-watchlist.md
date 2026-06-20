@@ -2,6 +2,7 @@
 title: Publish observables to a third-party watchlist
 description: You can publish one or more observables or associated indicators to a third-party watchlist. Currently, the only implementation that supports this functionality is CrowdStrike Falcon Host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/run-publish-watchlist.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -31,15 +32,15 @@ Role required: sn\_si.analyst
 
 3.  Click **Publish to Watchlist** in the **Actions on selected rows...** drop-down menu.
 
-    ![Run Publish to Watchlist](../image/RunPublish2Watchlist.png)
+    \[Omitted image "RunPublish2Watchlist.png"\] Alt text: Run Publish to Watchlist
 
     The dialog box appears.
 
-    ![Publish to Watchlist dialog box](../image/Publish2WatchlistDiaglogBox.png)
+    \[Omitted image "Publish2WatchlistDiaglogBox.png"\] Alt text: Publish to Watchlist dialog box
 
 4.  Enter or choose the implementation.
 
-    **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](../concept/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
+    **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-operations/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
 
 5.  Click **Submit**.
 

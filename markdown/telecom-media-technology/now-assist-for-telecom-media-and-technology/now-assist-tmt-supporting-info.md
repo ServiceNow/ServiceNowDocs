@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Get a quick overview of the important information that is related to the Now Assist for Now Assist for Telecommunications, Media and Technology \(TMT\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.html
 release: yokohama
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -80,5 +81,5 @@ Activate the applications in the following order:
 1.  Customer Service Problem Management
 2.  Now Assist for TMT
 
-For more information, see [Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)](../task/now-assist-tmt-configuring.md).
+For more information, see [Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md).
 

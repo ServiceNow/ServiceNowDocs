@@ -2,6 +2,7 @@
 title: Coaching your trainee
 description: A manager, or coach, is a subject matter expert of a process and is responsible for providing coaching to an employee, or trainee. Use the Coach Dashboard to manage and measure the effectiveness of your coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/coaching-your-trainee.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -20,7 +21,7 @@ You can access the Coaching Dashboard from the Coaching navigation menu, or dire
 **Note:**
 
 -   You must have the Coaching coach role to view the Coach Dashboard.
--   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+-   The Coach Dashboard page uses the Next Experience user interface. For more information on Next Experience, see .
 
 Coaching begins once a trainee assessment has been assigned to you. Coaching assessments are triggered from a coaching opportunity that is set up by the coaching admin. Use coaching assessments to facilitate a dialog with your trainee, assign training content, and set a due date and other details.
 
@@ -34,7 +35,7 @@ The Coach Dashboard lets you manage the details and effect your coaching has on 
 -   View the list of KPIs affected by your coaching.
 -   Verify the types of coaching opportunities that are being assigned to you \(last 6 months\).
 
-![CoachingDashboard](../image/coaching-dashboard.png "Coach Dashboard")
+\[Omitted image "coaching-dashboard.png"\] Alt text: CoachingDashboard
 
 <table id="table_jjb_gmd_gfb"><thead><tr><th>
 
@@ -106,10 +107,10 @@ My Coaching Opportunities - Last 6 months
 Coaching opportunities assigned to you in the past 6 months.
 
 </td></tr></tbody>
-</table>-   **[Assess a trainee](../task/assess-trainee.md)**  
+</table>-   **[Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/assess-trainee.md)**  
 Use a coaching assessment to review the work of a trainee and to provide training and feedback.
--   **[Assign skills after completing an assessment](../task/assign-skills-assessment.md)**  
+-   **[Assign skills after completing an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/assign-skills-assessment.md)**  
 Automatically assign skills to trainees for specific skill levels based on the course items they have completed. For example, if a trainee completes the course items for learning Japanese at an expert level, then the skill level 'expert' can be assigned to the trainee.
 
-**Parent Topic:**[Coaching](coaching-landing.md)
+**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 

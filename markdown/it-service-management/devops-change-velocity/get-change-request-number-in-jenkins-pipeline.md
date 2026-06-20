@@ -2,6 +2,7 @@
 title: Get change request number in Jenkins pipeline
 description: Retrieve the change request number in a Jenkins pipeline based on specific change details by running the snDevOpsGetChangeNumber script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/get-change-request-number-in-jenkins-pipeline.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity

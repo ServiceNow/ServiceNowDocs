@@ -2,11 +2,12 @@
 title: Create a Microsoft Excel download request
 description: Create a Microsoft Excel download request to download the records from the Digital resilience third-party registers using Third-party Risk Management for auditing purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-request.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,13 +28,13 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel download/upload request by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
 4.  Select **Save**.
 
@@ -41,15 +42,15 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 5.  Select the records that you want from the list and perform one of the following steps.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d111601e159">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d114375e159">
 
 Step
 
-</th><th align="left" id="d111601e162">
+</th><th align="left" id="d114375e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111601e168">
+</th></tr></thead><tbody><tr><td id="d114375e168">
 
 **Export to excel**
 
@@ -57,7 +58,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, simply select the **Export to Info Excel** to export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d111601e186">
+</td></tr><tr><td id="d114375e186">
 
 **Export to info register**
 
@@ -66,7 +67,7 @@ When making a download request for records related to Assessments, Branches, Con
 When making a download request for a Excel master template record, select **Export to Info Register** to export contract records you want as an Microsoft Excel file.
 
 </td></tr></tbody>
-</table>    For information on Register of information regulatory packages, see [Register of information regulatory packages](../concept/tprm-dora-roi.md), [Generate a register of information package](tprm-drtp-roi-packages.md), [Validation framework for Register of Information](../concept/tprm-validation-roi.md), and [Validate Register of Information packages](tprm-valid-dora.md).
+</table>    For information on Register of information regulatory packages, see [Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md), [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md), [Validation framework for Register of Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-validation-roi.md), and [Validate Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.md).
 
 6.  Add the name that you want for the Microsoft Excel file and select **Save**.
 
@@ -82,15 +83,15 @@ When making a download request for a Excel master template record, select **Expo
 
 7.  To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d111601e318">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d114375e318">
 
 Step
 
-</th><th align="left" id="d111601e321">
+</th><th align="left" id="d114375e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111601e327">
+</th></tr></thead><tbody><tr><td id="d114375e327">
 
 **Select __File Type__.**
 
@@ -102,7 +103,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d111601e357">
+</td></tr><tr><td id="d114375e357">
 
 **Select __Delivery Type__.**
 
@@ -112,7 +113,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d111601e379">
+</td></tr><tr><td id="d114375e379">
 
 **Select __Export.__**
 

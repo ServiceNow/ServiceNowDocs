@@ -2,6 +2,7 @@
 title: Configure video sources for a community
 description: Configure additional sources that can be used for uploading a video to the community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/create-video-configuration.html
 release: yokohama
 product: Communities
 classification: communities
@@ -71,5 +72,5 @@ A widget to render the videos from the source. Enter `Communities render video`.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure a community](../../customer-communities/task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
 

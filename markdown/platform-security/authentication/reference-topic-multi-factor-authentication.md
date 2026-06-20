@@ -2,6 +2,7 @@
 title: Reference topic - Multi-factor authentication
 description: Reference topic related to the configuration of Multi-factor authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/reference-topic-multi-factor-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -26,7 +27,7 @@ To access the details about the user's multi-factor authentication, navigate to 
 |Multi-factor secret|The details of the multi-factor secret.|
 |Validated|Is the multi-factor validated. Changing the value to **false** invalidates the existing authenticator app setup.|
 
-**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](reference-topic-multi-factor-authentication.md#section_owm_bs2_4bc).
+**Note:** The recently used MFA factors by the users is available in the User Recent Used Factors module. Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**. For more information, see [User Recent Used Factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/reference-topic-multi-factor-authentication.md).
 
 ## Multi-factor Browser Fingerprints
 

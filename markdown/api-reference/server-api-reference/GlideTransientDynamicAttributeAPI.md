@@ -2,6 +2,7 @@
 title: GlideTransientDynamicAttribute - Global
 description: The GlideTransientDynamicAttribute API provides access to transient dynamic attribute metadata.Gets the value of the group name property of a transient dynamic attribute object.Gets the value of the name property of a transient dynamic attribute object.Gets the value of the path property of a transient dynamic attribute object.Gets the sys\_id value \(undefined\) of a transient dynamic attribute object.Gets the value of the type property of a transient dynamic attribute object.Returns whether an object is a transient dynamic attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
@@ -15,16 +16,16 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTransientDynamicAttribute API provides access to transient dynamic attribute metadata.
 
-This API provides methods that enable you to get transient dynamic attributes values that are added to a DynamicAttributeStore field and not defined in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are all handled as String data types and have no sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US). The same methods are also available for dynamic attributes in the [GlideDynamicAttribute - Global](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) API.
+This API provides methods that enable you to get transient dynamic attributes values that are added to a DynamicAttributeStore field and not defined in the Dynamic Attribute \[dynamic\_attribute\] table. Transient dynamic attributes are all handled as String data types and have no sys\_id. For more details on dynamic attributes, see Dynamic schema. The same methods are also available for dynamic attributes in the [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) API.
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
 See also:
 
--   [GlideDynamicAttributeStore - Global](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
--   [GlideElementDynamicAttributeStore - Global](../../GlideElementDynamicAttributeStore/concept/GlideElementDynamicAttStoreAPI.md#)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 ## GlideTransientDynamicAttribute - getGroupName\(\)
 
@@ -48,7 +49,7 @@ String
 
 </td><td>
 
-Value of the transient dynamic attribute's group name property.See also [Create a dynamic attribute group](https://www.servicenow.com/docs/access?context=create-dynamic-attribute-group&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+Value of the transient dynamic attribute's group name property.See also .
 
 </td></tr></tbody>
 </table>In the following example, the value of the transient dynamic attribute object group name is displayed as `a`.

@@ -2,6 +2,7 @@
 title: Default update set
 description: Only one update set can be the default set for any application scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/system-update-sets/default-update-sets.html
 release: yokohama
 product: System Update Sets
 classification: system-update-sets

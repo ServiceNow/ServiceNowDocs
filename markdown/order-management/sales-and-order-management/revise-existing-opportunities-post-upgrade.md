@@ -2,13 +2,14 @@
 title: Revise existing opportunities after an upgrade
 description: Run a scheduled job to modify older opportunities so they can support parent-child opportunity line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/revise-existing-opportunities-post-upgrade.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-03-28"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Opportunity Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Revise existing opportunities after an upgrade

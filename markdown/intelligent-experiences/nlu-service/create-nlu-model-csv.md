@@ -2,6 +2,7 @@
 title: Create an NLU model from a CSV file
 description: Upload a CSV or XLSX \(Excel Workbook\) file containing utterances and their intents to create a Natural Language Understanding \(NLU\) model. Use this method to quickly create models from your data or other exported models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-nlu-model-csv.html
 release: yokohama
 product: NLU Service
 classification: nlu-service
@@ -27,7 +28,7 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 
 In a CSV file, you've listed the intents and utterances in two columns.
 
-![Intent and utterance formatting in a CSV file.](../images/create-nlu-model-csv3.png "Sample CSV setup")
+\[Omitted image "create-nlu-model-csv3.png"\] Alt text: Intent and utterance formatting in a CSV file.
 
 Note the following for creating NLU models by CSV import:
 
@@ -51,7 +52,7 @@ Note the following for creating NLU models by CSV import:
 
 6.  In the **Add some details** window, add the **Name** and **Short description** for the model.
 
-    ![Define details screen for importing data from CSV.](../images/create-nlu-model-csv1.png)
+    \[Omitted image "create-nlu-model-csv1.png"\] Alt text: Define details screen for importing data from CSV.
 
     In this example scenario, you enter `Calendar Model` for the name and `Model for answering and performing calendar requests` for the short description.
 
@@ -63,7 +64,7 @@ Note the following for creating NLU models by CSV import:
 
 9.  On the **Import CSV screen**, click **Select file**.
 
-    ![Import CSV screen for importing data from CSV.](../images/create-nlu-model-csv2.png)
+    \[Omitted image "create-nlu-model-csv2.png"\] Alt text: Import CSV screen for importing data from CSV.
 
 10. Choose the CSV or XLSX \(Excel Workbook\) file from the pop-up.
 
@@ -74,9 +75,9 @@ Note the following for creating NLU models by CSV import:
 
 ## What to do next
 
-Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](../concept/managing-model-content.md).
+Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
+Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 
-**Parent Topic:**[Creating models](../concept/creating-models.md)
+**Parent Topic:**[Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/creating-models.md)
 

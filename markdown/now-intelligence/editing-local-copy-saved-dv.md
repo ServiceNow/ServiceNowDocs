@@ -2,6 +2,7 @@
 title: Unlink a dashboard copy of a data visualization from the library
 description: To edit a saved data visualization from the library on a dashboard, so the changes apply only on the dashboard, unlink your local copy of the visualization from the library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/editing-local-copy-saved-dv.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -29,11 +30,11 @@ You may find yourself needing to modify a data visualization on a dashboard to w
 
 3.  Add the saved data visualization from the library if it is not already there.
 
-    For more information, see [Edit Platform Analytics dashboard elements](edit-db-elements-in-ac.md).
+    For more information, see [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-elements-in-ac.md).
 
 4.  On the data visualization, expand the **Actions** menu.
 
-    ![Actions menu on data visualization, showing Unlink from library action.](../../par-for-workspace/image/dv-on-db-unlink.png)
+    \[Omitted image "dv-on-db-unlink.png"\] Alt text: Actions menu on data visualization, showing Unlink from library action.
 
 5.  Select **Unlink from library**.
 
@@ -44,5 +45,5 @@ You may find yourself needing to modify a data visualization on a dashboard to w
 
 The data visualization now exists as a local copy on your dashboard, which you can edit as you please.
 
-**Parent Topic:**[Edit a data visualization in an inline dashboard](editing-dv-in-line-db.md)
+**Parent Topic:**[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/editing-dv-in-line-db.md)
 

@@ -2,6 +2,7 @@
 title: Add an operation to a resource block to use with a workflow
 description: You can select from the existing operations in a resource block to work with your workflow or you can create a custom operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/add-op-to-resource-for-wrkflw.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -65,7 +66,7 @@ For the user to see the operation at the Resources level during provisioning, se
 
 ## What to do next
 
-[Add a resource operation step to invoke a workflow](add-resource-op-step-invoke-wrkflw.md)
+[Add a resource operation step to invoke a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-resource-op-step-invoke-wrkflw.md)
 
-**Parent Topic:**[Add operation steps to a resource block](add-operation-steps.md)
+**Parent Topic:**[Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-operation-steps.md)
 

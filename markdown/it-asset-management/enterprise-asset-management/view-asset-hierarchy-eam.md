@@ -2,6 +2,7 @@
 title: View the asset hierarchy in the Enterprise Asset Workspace
 description: View the hierarchy details of a multi-component asset in a tree-like format in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/view-asset-hierarchy-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,7 +34,7 @@ The asset hierarchy shows consumable assets associated with a parent asset.
 
 2.  Select the asset record.
 
-3.  Select the Asset hierarchy icon \(![Asset hierarchy icon](../image/asset-hierarchy-icon-eam.png)\) on the contextual sidebar.
+3.  Select the Asset hierarchy icon \(\[Omitted image "asset-hierarchy-icon-eam.png"\] Alt text: Asset hierarchy icon\) on the contextual sidebar.
 
     -   The asset hierarchy is shown in a tree-like format.
 
@@ -41,5 +42,5 @@ The asset hierarchy shows consumable assets associated with a parent asset.
 
     -   The asset for which the hierarchy is shown is highlighted in the asset hierarchy tree.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

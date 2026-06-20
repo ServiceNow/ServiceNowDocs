@@ -2,6 +2,7 @@
 title: Strategic Planning
 description: Strategic Planning Workspace \(SPW\) enables you to manage product feedback, portfolio planning, and enterprise agile planning for your organization. Evaluate product performance, align work with strategy, and scale your Agile framework from a single workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.html
 release: yokohama
 product: Strategic Planning
 classification: strategic-planning
@@ -19,29 +20,29 @@ Strategic Planning is available for users with a Strategic Portfolio Management 
 
 Explore the Gen AI features in strategic planning application. Use Multi feedback summarization skill to generate summaries of one or multiple feedback and save time on manual feedback analysis. Use Planning item Gen AI Docs skill to generate a summary of selected text in Docs and quickly understand the details.
 
-[Installing Strategic Planning](../task/install-alignment-planner-workspace.md) also installs Product Feedback, Portfolio Planning, and Enterprise Agile Planning features. Access to these features is based on the user roles assigned. Learn more about these features in the following sections.
+[Installing Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md) also installs Product Feedback, Portfolio Planning, and Enterprise Agile Planning features. Access to these features is based on the user roles assigned. Learn more about these features in the following sections.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[![](../../../reuse/icons/brand-icons/bus-innovation.svg) Feedback](../../spw-product-feedback/concept/product-feedback-landing.md)
+[\[Omitted image "bus-innovation.svg"\] Alt text: Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/product-feedback-landing.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-alignment.svg) Portfolio Planning](planning-in-spw.md)
+[\[Omitted image "bus-alignment.svg"\] Alt text: Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg) Enterprise Agile Planning](../../spw-eap/concept/eap-landing.md)
+[\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-landing.md)
 
 </td></tr><tr><td>
 
-[![](../../../reuse/icons/brand-icons/bus-management-console.svg) Dashboards](../../spw-dashboards/concept/dashboards-in-spw.md)
+[\[Omitted image "bus-management-console.svg"\] Alt text: Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/dashboards-in-spw.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) SPW Integrations](../../spw-jira-integration/reference/spw-jira-landing.md)
+[\[Omitted image "bus-integration-and-apis.svg"\] Alt text: SPW Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/spw-jira-landing.md)
 
 </td><td>
 

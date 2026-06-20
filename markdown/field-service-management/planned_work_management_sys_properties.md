@@ -2,9 +2,12 @@
 title: Planned Work Management system properties
 description: Planned Work Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/planned\_work\_management\_sys\_properties.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management Components, Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
 ---
@@ -82,5 +85,5 @@ Enables the effective date of a work plan to be set in the past. Support for pas
 -   Default value: Advanced
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Planned Work Management Components](planned-work-components.md)
+</table>**Parent Topic:**[Planned Work Management Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/planned-work-components.md)
 

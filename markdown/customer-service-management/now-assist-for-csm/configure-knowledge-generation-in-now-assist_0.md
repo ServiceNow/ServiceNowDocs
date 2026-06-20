@@ -2,6 +2,7 @@
 title: Configure knowledge generation
 description: Configure the Knowledge Generation skill to draft knowledge articles on resolving case tasks for agents to review and edit before publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-knowledge-generation-in-now-assist\_0.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm

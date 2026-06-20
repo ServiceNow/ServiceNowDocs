@@ -2,7 +2,10 @@
 title: Creating incident, problem, change, and request records from Agent Workspace
 description: As customer service agents, create incident, problem, change, and request records from open cases in Agent Workspace.As a customer service agent, create an incident record from a case or associate an existing incident to a case in Agent Workspace.As a customer service agent, create a problem record from a case or associate an existing problem to a case in Agent Workspace.As a customer service agent, create a normal change record from a case or associate an existing normal change to a case in Agent Workspace.As a customer service agent, create a standard change record from a case or associate an existing standard change to a case in Agent Workspace.As a customer service agent, create a request record from a case or associate an existing request to a case in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-item-agent-tasks.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
@@ -25,7 +28,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 1.  Open a customer service case.
 
-2.  Select the More UI Actions icon \(![More UI Actions icon](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Incident**.
+2.  Select the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon\) and select **Create Incident**.
 
     The following information is copied from the case to the incident record:
 
@@ -62,7 +65,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Problem**.
+2.  Select the More Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More Actions icon.\) and select **Create Problem**.
 
     The following information is copied from the case to the Problem record:
 
@@ -100,7 +103,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Normal Change**.
+2.  Select the More Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Normal Change**.
 
     The following information is copied from the case to the change record:
 
@@ -208,7 +211,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Standard Change**.
+2.  Select the More Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Standard Change**.
 
     The standard change record is created using the Standard Change template, which is defined in the Standard Change catalog. The data mapping is created from the template; no data is copied from the case to the change record.
 
@@ -225,7 +228,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Request**.
+2.  Select the More Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Request**.
 
     The following information is copied from the case to the request record:
 

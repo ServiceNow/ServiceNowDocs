@@ -2,6 +2,7 @@
 title: Validation script use case - Date and time
 description: To validate the input of all date/time fields, you can use the following in a validation script \( System Definition Validation Scripts \).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/c\_ValidateDateAndTime.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -29,7 +30,7 @@ function validate (value){
 }
 ```
 
-For a comprehensive use case, see [Restricting record access](https://www.servicenow.com/docs/access?context=c_ExScptDftBfrQryBsnRu&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For a comprehensive use case, see .
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/usefulScripts.md)
 

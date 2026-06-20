@@ -2,11 +2,12 @@
 title: Claim Task form fields
 description: This section describes the claim task form, which displays the information about the claims tasks, which are created and assigned to users to complete the work to resolve the insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/claim-task-form-fields.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Managing Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---

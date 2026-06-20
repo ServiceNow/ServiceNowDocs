@@ -2,6 +2,7 @@
 title: Enable notifications about self-registration errors
 description: Add the sn\_slm.admin role to the groups to enable supplier admins to receive an email if a supplier contact encounters an error during self-registration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -32,5 +33,5 @@ Role required: sn\_slm.admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+**Parent Topic:**[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 

@@ -2,6 +2,7 @@
 title: Configure when to send alert notifications for ITOM Mobile
 description: Keep your teams informed by configuring when ITOM Mobile Agent sends a notification about an alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/configure-itom-alert-notfications.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,7 +32,7 @@ You can update those conditions as needed. For example, the ITOM Mobile Agent ap
 
 **Note:** To get push notifications, you must log in to ITOM Mobile Agent. If you log out, you only get email notifications.
 
-This procedure is for admins configuring alert push notifications and emails. To manage other notification features, see [Customizing other mobile settings for ITOM Mobile Agent](../reference/itom-mobile-other-customizations.md).
+This procedure is for admins configuring alert push notifications and emails. To manage other notification features, see [Customizing other mobile settings for ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/itom-mobile-other-customizations.md).
 
 ## Procedure
 
@@ -45,7 +46,7 @@ This procedure is for admins configuring alert push notifications and emails. To
 
     For example, adding the condition **OR \[Severity\]\[is\]\[Major\]** under the condition **\[Severity\]\[is\]\[Critical\]** sends a push notification and email when the **Severity** field of an alert is Critical or Major.
 
-    ![Box highlights the new condition in the condition builder.](../image/itom-mobile-severity.png)
+    \[Omitted image "itom-mobile-severity.png"\] Alt text: Box highlights the new condition in the condition builder.
 
 5.  Implement your changes by selecting **Save**.
 
@@ -54,5 +55,5 @@ This procedure is for admins configuring alert push notifications and emails. To
 
 ## What to do next
 
-To customize who receives emails about alerts, see [Customize ITOM Mobile Agent email recipients](customize-itom-email-recipients.md). You can also customize other notification features, such as setting custom notification tones and overriding the Do Not Disturb setting for critical issues. See [Customizing other mobile settings for ITOM Mobile Agent](../reference/itom-mobile-other-customizations.md) for more information.
+To customize who receives emails about alerts, see [Customize ITOM Mobile Agent email recipients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/customize-itom-email-recipients.md). You can also customize other notification features, such as setting custom notification tones and overriding the Do Not Disturb setting for critical issues. See [Customizing other mobile settings for ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/itom-mobile-other-customizations.md) for more information.
 

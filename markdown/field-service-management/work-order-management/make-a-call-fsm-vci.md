@@ -2,6 +2,7 @@
 title: Make a call from the Now Mobile Agent application
 description: Select a conference bridge option to initiate a conference call from the Now Mobile Agent application to connect virtually with your customer and peer agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/make-a-call-fsm-vci.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -33,15 +34,15 @@ The option Make a Call appears only if you have set up both Zoom and Microsoft T
 
 4.  Select and open the work order task.
 
-5.  Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Make a Call**.
+5.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Make a Call**.
 
 6.  Tap **Conference Bridge** and then select a bridge.
 
     -   To make a Zoom call, tap Zoom.
     -   To make a Microsoft Teams call, tap Microsoft Teams.
 
-        For more information about making a call, see [Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application](initiate-zoom-MSTeam-meeting-fsm.md).
+        For more information about making a call, see [Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.md).
 
 
-**Parent Topic:**[Virtual Conferencing on Mobile Agent](../concept/using-vci-fsm.md)
+**Parent Topic:**[Virtual Conferencing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/using-vci-fsm.md)
 

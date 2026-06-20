@@ -2,6 +2,7 @@
 title: Reassign tasks to a different contact from the Supplier Collaboration Portal
 description: Reassign a task to a different contact in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -38,15 +39,15 @@ The **Reassign** option is displayed only for the following task types:
 
 2.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d144351e99">
+<table><thead><tr><th align="left" id="d88795e99">
 
 To
 
-</th><th align="left" id="d144351e102">
+</th><th align="left" id="d88795e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d144351e108">
+</th></tr></thead><tbody><tr><td id="d88795e108">
 
 **Open a task from the portal header**
 
@@ -64,7 +65,7 @@ The Supplier Task List is displayed.
 2.  Select the task that you want to reassign to a different contact.
 
 
-</td></tr><tr><td id="d144351e142">
+</td></tr><tr><td id="d88795e142">
 
 **Open a task from the My active items widget**
 
@@ -72,7 +73,7 @@ The Supplier Task List is displayed.
 
 Select the Tasks tile, which opens the The My To-dos page.
 
-</td></tr><tr><td id="d144351e151">
+</td></tr><tr><td id="d88795e151">
 
 **Open a task from the My tasks widget**
 
@@ -90,5 +91,5 @@ Select the task that you want to reassign to a different contact.
     The task is reassigned to the selected contact.
 
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 

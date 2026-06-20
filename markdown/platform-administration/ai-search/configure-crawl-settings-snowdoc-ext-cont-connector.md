@@ -2,6 +2,7 @@
 title: Configure crawl settings for a ServiceNow product documentation external content connector
 description: Choose the products that you want your ServiceNow product documentation external content connector to crawl documentation for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-snowdoc-ext-cont-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Choose the products that you want your ServiceNow product documentation external
 
 ## Before you begin
 
-A connector admin must have already created the ServiceNow® product documentation external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow product documentation external content connector](create-ext-cont-connector-snowdoc.md).
+A connector administrator must have already created the ServiceNow® product documentation external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-snowdoc.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the ServiceNow product documentation external content connector crawls documentation for all ServiceNow products. You only need to perform this task if you want to exclude the documentation for some products from the connector's crawls.
+This task is optional. By default, the ServiceNow product documentation external content connector crawls documentation for all ServiceNow products. Only perform this task if you want to exclude the documentation for some products from the connector's crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -55,5 +56,5 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 The ServiceNow product documentation external content connector is updated with your chosen crawl scope.
 
-**Parent Topic:**[ServiceNow product documentation external content connector](../concept/servicenow-product-documentation-external-content-connector.md)
+**Parent Topic:**[ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/servicenow-product-documentation-external-content-connector.md)
 

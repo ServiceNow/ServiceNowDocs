@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Webcrawler external content connector
 description: Specify the pages and subdomains you want your Webcrawler external content connector to retrieve from your specified web source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-webcrawler-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the pages and subdomains you want your Webcrawler external content conne
 
 ## Before you begin
 
-A connector admin must have already created the Webcrawler external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Webcrawler external content connector](create-ext-cont-connector-webcrawler.md).
+A connector administrator must have already created the Webcrawler external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-webcrawler.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Webcrawler external content connector crawls all pages and subdomains from its specified source system. You only need to perform this task if you want to specify inclusion or exclusion filters for the subdomains to crawl or pages to retrieve when running content crawls.
+This task is optional. By default, the Webcrawler external content connector crawls all pages and subdomains from its specified source system. Only perform this task if you want to specify inclusion or exclusion filters for the subdomains to crawl or pages to retrieve when running content crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -62,7 +63,7 @@ The Webcrawler external content connector is updated with your modified crawl se
 
 ## What to do next
 
-To retrieve content from the public web source using your modified crawl settings, create and run a one-time content crawl for your Webcrawler external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from the public web source using your modified crawl settings, create and run a one-time content crawl for your Webcrawler external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Webcrawler external content connector](../concept/webcrawler-external-content-connector.md)
+**Parent Topic:**[Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/webcrawler-external-content-connector.md)
 

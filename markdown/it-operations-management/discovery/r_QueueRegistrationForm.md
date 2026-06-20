@@ -2,11 +2,12 @@
 title: Queue Registration form reference
 description: The Queue Registration form displays the fields available when creating or modifying a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/r\_QueueRegistrationForm.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -94,5 +95,5 @@ Description
 Description of the queue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-references.md)
 

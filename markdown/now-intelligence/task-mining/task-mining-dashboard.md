@@ -2,6 +2,7 @@
 title: Task Mining analysis
 description: Project analyses enable you to gain insights from your categorized data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/task-mining-dashboard.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -18,7 +19,7 @@ Project analyses enable you to gain insights from your categorized data.
 You can access two types of analyses for Task Mining projects: Overall activity and Task activity.
 
 -   The Overall activity analysis provides a complete, layered overview of all categorized applications used by workstation users.
--   The Task activity analysis shows time spent and frequency of activities and applications used during scoped task, such as resolving incidents. Workstation user actions must be grouped as a task that can be logged to provide data for a Task activity analysis. For more information about defining tasks, see [Define user actions for task logging](../task/mine-data.md).
+-   The Task activity analysis shows time spent and frequency of activities and applications used during scoped task, such as resolving incidents. Workstation user actions must be grouped as a task that can be logged to provide data for a Task activity analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/mine-data.md).
 
 For both analysis types, view when and from whom data is collected in the top section of the analysis. Use the drop-down selectors to adjust the time, categories, activities, and users that are shown in the charts.
 
@@ -35,7 +36,7 @@ The overall activity analysis includes the Average daily usage and Average daily
     -   See workstation user data according to application categories, applications, or activities by changing the view.
     -   View detailed information on the categories, applications, or activities by changing the view and hovering over a column bar.
 
-![Screenshot showing an overall activity analysis in Task Mining.](../image/task-mining-overall-activity-dashboard.png)
+\[Omitted image "task-mining-overall-activity-dashboard.png"\] Alt text: Screenshot showing an overall activity analysis in Task Mining.
 
 ## Task activity analysis
 
@@ -52,11 +53,11 @@ The task activity analysis includes the Average usage per task and Average usage
     -   See workstation user data according to application categories, applications, or activities by changing the view.
     -   View detailed information on the categories, applications, or activities by changing the view and hovering over a column bar.
 
-![Screenshot showing a task activity analysis in Task Mining.](../image/task-mining-task-activity.png)
+\[Omitted image "task-mining-task-activity.png"\] Alt text: Screenshot showing a task activity analysis in Task Mining.
 
 Selecting the **View across task timeline** link displays the Applications categories across task timeline chart, which shows how applications are being used by the selected workstation users. This chart is accessible only from the Task activity analysis.
 
 The stacked column bar chart divides the task length into percentages. For example, if the task takes 200 minutes, the first section shows 20 minutes of activity.
 
-![Screenshot showing the Applications categories across task timeline chart in the Task Mining task activities analysis.](../image/task-mining-task-timeline.png)
+\[Omitted image "task-mining-task-timeline.png"\] Alt text: Screenshot showing the Applications categories across task timeline chart in the Task Mining task activities analysis.
 

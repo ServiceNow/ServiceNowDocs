@@ -2,6 +2,7 @@
 title: Internationalize a widget
 description: Use the $\{\} or gs.getMessage\(\) syntax in the HTML Template, Client Script, or Server Script fields of a widget to tag strings for translation so you can localize your Service Portal content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/c\_WidgetLocalization.html
 release: yokohama
 product: Service Portal
 classification: service-portal
@@ -70,5 +71,5 @@ HTML template
 </div>
 ```
 
-**Parent Topic:**[Developing custom widgets](widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/widget-dev-guide.md)
 

@@ -2,11 +2,12 @@
 title: TPRM and the Explicit Roles plugin
 description: Activating the Third-party Risk Management plugin also installs the Explicit Roles plugin. Administrators assign the snc\_internal and snc\_external roles to provide internal and external users access to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

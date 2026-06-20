@@ -2,11 +2,12 @@
 title: Rename a list in Service Operations Workspace for ITOM
 description: Rename a list to better reflect its content or purpose. This customization allows operators to align list names with their workflow terminology, improving clarity and usability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/rename-list-sow-itom.html
 release: yokohama
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -23,15 +24,15 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select the **My Lists** tab.
 
 4.  Select the list you wish to rename.
 
-5.  Select the settings icon \(![Settings icon](../image/settings-display-icon-itom.png)\) and then select **Rename**.
+5.  Select the settings icon \(\[Omitted image "settings-display-icon-itom.png"\] Alt text: Settings icon\) and then select **Rename**.
 
-    ![Rename a list](../image/sow-rename-list.png)
+    \[Omitted image "sow-rename-list.png"\] Alt text: Rename a list
 
 6.  In the **Rename** pop-up window, in the **Title** field, rename the name of the list and select **Save**.
 

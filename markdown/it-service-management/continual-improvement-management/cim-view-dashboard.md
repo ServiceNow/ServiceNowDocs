@@ -2,6 +2,7 @@
 title: View improvement reports \(deprecated\)
 description: Evaluate improvement results using the Continual Improvements dashboard overview and outcome analysis reports to determine how well the improvements are helping your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/cim-view-dashboard.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -21,9 +22,9 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 ## About this task
 
-Reports and [Spotlight](https://www.servicenow.com/docs/access?context=spotlight&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US) list can be filtered by improvement priority, state, business process, business service, benefits, and CIM coordinator.
+Reports and Spotlight list can be filtered by improvement priority, state, business process, business service, benefits, and CIM coordinator.
 
-![CIM dashboard](../image/continual-improvement-dashboard.png "Continual Improvement Management Dashboard")
+\[Omitted image "continual-improvement-dashboard.png"\] Alt text: CIM dashboard
 
 Overview:
 
@@ -34,7 +35,7 @@ Overview:
 |Open Backlog|Number of open improvements.|
 |Unassigned|Number of improvements without a CIM Coordinator assigned.|
 
--   Prioritized List Using [Spotlight](https://www.servicenow.com/docs/access?context=spotlight&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+-   Prioritized List Using Spotlight.
 
     To use Spotlight to help prioritize the improvement backlog, navigate to **Continual Improvement** &gt; **Administration** &gt; **Spotlight Config**.
 

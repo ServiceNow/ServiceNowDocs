@@ -2,6 +2,7 @@
 title: Create a template from the incident form
 description: Create a template that define default values for forms so that users can easily create incident. You need to have appropriate permissions before creating templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/create-template-inci-form.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -23,13 +24,13 @@ Role required: itil, sn\_incident\_write, or admin
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Create**.
 
-2.  Click the more options icon ![More options icon](../../change-management/image/more-options.png) and then click **Toggle Template Bar** to see the template bar.
+2.  Select the more options icon \[Omitted image "more-options.png"\] Alt text: More options icon and then select **Toggle Template Bar** to see the template bar.
 
-    ![Toggle template bar](../image/toggle-template-bar.png)
+    \[Omitted image "toggle-template-bar.png"\] Alt text: Toggle template bar
 
-3.  On the template bar, click the add icon \(![Add icon](../image/add_icon.png)\).
+3.  On the template bar, select the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon\).
 
-    ![Click add to create template.](../image/create-template-inci-form.png)
+    \[Omitted image "create-template-inci-form.png"\] Alt text: Select add to create template.
 
 4.  On the form, fill in the fields.
 
@@ -95,7 +96,7 @@ Global
 
 </td><td>
 
-Option for allowing any user who can access the templates to view and apply this template.
+Option for allowing any user with the **itil**,**sn\_incident\_write**, or **admin** role to view and apply this template. When you clear this option, only users or groups specified in the **User** and **Groups** fields can access the template.
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Template
 Content that automatically populates records that are based on this template. Select a field from the specified table in the left column and then enter the data to automatically populate in the right column.**Note:** Even though you can select dot-walked fields in the template, they do not apply to fields that are on the form.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
     The template is created and you can find it on the template bar.
 

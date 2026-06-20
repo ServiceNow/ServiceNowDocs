@@ -2,6 +2,7 @@
 title: RSS title override
 description: You may optionally override the automatically generated title of the RSS feed by added the sysparm\_title parameter to the request URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/c\_OverridingTheRSSTitle.html
 release: yokohama
 product: Web Services
 classification: web-services
@@ -24,7 +25,7 @@ For example, you can specify the title `Priority One Incidents` using the follow
 
 This will produce results as follows:
 
-![](../image/RssOut.jpg "RSS Out")
+\[Omitted image "RssOut.jpg"\] Alt text:
 
-**Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
+**Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_RSSFeedGenerator.md)
 

@@ -2,7 +2,10 @@
 title: Benefits &amp; Usage
 description: Impact Benefits &amp; Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-features.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Impact Benefits &amp; Usage allows you to quickly access and review the powerful
 
 ## Impact benefits
 
-![Shows the Benefits & Usage page.](../image/benefits-usage2.png)
+\[Omitted image "benefits-usage2.png"\] Alt text: Shows the Benefits &amp; Usage page.
 
 The Impact program has many benefits that are included with the subscription.
 
@@ -33,9 +36,9 @@ Impact Core
 
 </td><td>
 
--   [Impact Delivery Instance \(formerly Impact Digital Experience\)](impact-digital-experience.md)
--   [Impact Squad](impact-squad.md)
--   [Impact operating model](impact-operating-model.md)
+-   [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md)
+-   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md)
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +46,7 @@ Experts on Demand
 
 </td><td>
 
--   [Initiatives &amp; Accelerators](impact-initiatives.md)
+-   [Initiatives &amp; Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -54,7 +57,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Impact Instance Observer](io-overview.md)
+-   [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +78,7 @@ Premium Technical Support
 </td><td>
 
 -   24/7 Inbound Phone Support
--   [Impact Developer Support](developer-support.md)
+-   [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/developer-support.md)
 -   Enhanced case response time
 
 </td></tr></tbody>

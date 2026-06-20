@@ -2,6 +2,7 @@
 title: Create a Task Mining project
 description: Create a Task Mining project to analyze data for a specific purpose, and define how long project data is collected for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/create-task-mining-projects.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -84,5 +85,5 @@ Optional description of the project.
 
 ## What to do next
 
-Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](add-users-to-task-mining-project.md).
+Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 

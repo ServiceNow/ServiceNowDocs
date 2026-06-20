@@ -2,13 +2,14 @@
 title: Define product eligibility rules in a product eligibility matrix
 description: Define product eligibility rules by using the Product Offering Catalog Eligibility, Product Offering Category Eligibility, or Product Offering Eligibility Matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-define-eligibility-rules.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product offer eligibility, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offer eligibility, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Define product eligibility rules in a product eligibility matrix
@@ -17,7 +18,7 @@ Define product eligibility rules by using the Product Offering Catalog Eligibili
 
 ## Before you begin
 
-[Create the rule entity filters](som-create-rule-entity-filter.md) and define any new [custom context variables](som-create-context-variable.md) needed to define the eligibility rules.
+[Create the rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-rule-entity-filter.md) and define any new [custom context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-context-variable.md) needed to define the eligibility rules.
 
 Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
 
@@ -34,7 +35,7 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

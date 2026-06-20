@@ -2,6 +2,7 @@
 title: Configure AI Search for the Customer and Consumer Service Portals
 description: You must configure the Customer and Consumer Service Portals to use AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config\_AI\_search\_csm\_csp.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -39,13 +40,13 @@ AI Search is inactive by default and you must enable it by updating the portal r
 
         A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-        **Note:** You might have to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+        **Note:** You might have to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see .
 
     4.  In the **Search Results Configuration** field, search and select **CSM Portal Search** for customer service portal or **CSP Portal Search** for consumer service portal.
 
         A search result configuration defines how search results are displayed. A search result configuration is selected by default, but you can select a different configuration if needed.
 
-        **Note:** You might have to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+        **Note:** You might have to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see .
 
     5.  Select **Update**.
 

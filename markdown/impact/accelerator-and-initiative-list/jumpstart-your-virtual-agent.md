@@ -2,6 +2,7 @@
 title: Jumpstart Your Virtual Agent
 description: This accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-your-virtual-agent.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

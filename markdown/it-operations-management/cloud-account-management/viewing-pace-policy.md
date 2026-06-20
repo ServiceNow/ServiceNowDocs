@@ -2,6 +2,7 @@
 title: Review request policies
 description: Review and update request policies to confirm they align with your cloud account request process. These policies enforce data checks and conditions, promoting consistency in creating cloud subscription accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/viewing-pace-policy.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -41,16 +42,16 @@ For each step, an entry is created in the **sn\_itom\_cam\_automation\_activity*
 
 5.  To add a condition, select **New condition set**.
 
-6.  To remove a condition, select the delete ![Delete](../../event-management/image/delete-input-icon.png) icon.
+6.  To remove a condition, select the delete \[Omitted image "delete-input-icon.png"\] Alt text: Delete icon.
 
-    **Note:** For more information on managing policies, see [Manage PaCE policies](https://www.servicenow.com/docs/access?context=pace-admin-manage-policies&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    **Note:** For more information on managing policies, see .
 
 
 ## What to do next
 
 These sections explain how to modify, test, and publish the automation policy.
 
--   [Automate General Approval policy process](../task/automate-account-creation-approval.md)
--   [Automate Budget Approval policy process](../task/automate-account-budget-approval.md)
--   [Automate Configuration Assignment policy process](../task/automate-account-creation-config-assign.md)
+-   [Automate General Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/automate-account-creation-approval.md)
+-   [Automate Budget Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/automate-account-budget-approval.md)
+-   [Automate Configuration Assignment policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/automate-account-creation-config-assign.md)
 

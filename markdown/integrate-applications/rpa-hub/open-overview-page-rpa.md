@@ -2,6 +2,7 @@
 title: Get a snapshot of a bot process
 description: Get a snapshot of both your unattended and attended processes in one view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/open-overview-page-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,21 +18,21 @@ Get a snapshot of both your unattended and attended processes in one view.
 
 ## Before you begin
 
-Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](display-activity-stream-sys-property-rpahub.md).
+Configure the related system property to view the activity stream. For more information, see [Display an activity stream for bot processes and robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/display-activity-stream-sys-property-rpahub.md).
 
-Verify that the life-cycle stage of the bot process is either **Published**, **In Maintenance**, or **Retired**. For more information, see [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+Verify that the life-cycle stage of the bot process is either **Published**, **In Maintenance**, or **Retired**. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/bot-process-form.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_business\_user, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
 
 ## About this task
 
-For more information about the overview tab, see [Using the Overview tab to view the bot processes in RPA Hub](../concept/overview-botprocess-unattended.md).
+For more information about the overview tab, see [Using the Overview tab to view the bot processes in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/overview-botprocess-unattended.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Bot Process**.
 

@@ -2,6 +2,7 @@
 title: ITSM Predictive Intelligence Workbench
 description: The ServiceNow ITSM Predictive Intelligence Workbench application provides prebuilt use case templates and guides you through your machine learning implementation to create intelligent ITSM business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-landing-page.html
 release: yokohama
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,7 +18,7 @@ The ServiceNow® ITSM Predictive Intelligence Workbench application provides pre
 
 **Note:**
 
-Starting with the yokohama release, the ITSM Predictive Intelligence Workbench application is completely deprecated and no longer deployed, enhanced, or supported. To get the latest experience for this functionality, you can install the Task Intelligence for ITSM plugin \(com.snc.itsm\_ml\_task\) or the Predictive Intelligence plugin \(com.glide.platform\_ml\). For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md) and [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Starting with the yokohama release, the ITSM Predictive Intelligence Workbench application is completely deprecated and no longer deployed, enhanced, or supported. To get the latest experience for this functionality, you can install the Task Intelligence for ITSM plugin \(com.snc.itsm\_ml\_task\) or the Predictive Intelligence plugin \(com.glide.platform\_ml\). For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md) and .
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 

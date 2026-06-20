@@ -2,7 +2,10 @@
 title: Intelligent Task Recommendations components
 description: Several types of components are installed with the Intelligent Task Recommendations components feature, including tables and business rules.Intelligent Task Recommendations uses the following properties.There are two types of recommendation criteria, filter constraints and ranking criteria. The system provides a set of predefined criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fsm-task-recommendation-components.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -118,7 +121,7 @@ Task Recommendation Policy \[task\_rec\_recommendation\_policy\]
 Prevents the deletion of a policy if the policy is specified in the **Default task recommendation policy** field of the Task Recommendation Applicability form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
 
 ## Intelligent Task Recommendations system properties
 

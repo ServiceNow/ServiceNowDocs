@@ -2,6 +2,7 @@
 title: Yokohama security and notable fixes
 description: The Yokohama release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-security-notables.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -17,7 +18,7 @@ The Yokohama release contains important problem fixes.
     -   Build date: 01-22-2025\_0439
     -   Build tag: glide-yokohama-12-18-2024\_\_patch0-01-14-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -4514,7 +4515,7 @@ Refer to the listed KB article for details.
 </td></tr></tbody>
 </table>## All Other Fixes
 
-To view a list of all other PRBs fixed in Yokohama, refer to [All other Yokohama fixes](yokohama-all-other-fixes.md).
+To view a list of all other PRBs fixed in Yokohama, refer to [All other Yokohama fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-all-other-fixes.md).
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

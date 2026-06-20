@@ -2,6 +2,7 @@
 title: Automatic creation of AI cases and inquiries from an inbound email
 description: The system automatically creates AI cases and inquiries from emails, using keywords in the subject line and body.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -32,14 +33,14 @@ This feature offers the following advantages:
 
 You must follow the following steps to enable the email reporting feature:
 
-1.  Admin must enable the Inbound Email Configuration from the Email Properties page. For more information, refer to [Inbound mail configuration](https://www.servicenow.com/docs/access?context=r_InboundMailConfiguration&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).![Inbound email configurations to enable.](../image/inbound-email-properties-airc.png)
+1.  Admin must enable the Inbound Email Configuration from the Email Properties page. For more information, refer to .\[Omitted image "inbound-email-properties-airc.png"\] Alt text: Inbound email configurations to enable.
 2.  AI Case Admin \[sn\_ai\_case\_mgmt.ai\_case\_admin\] must update the group email field on the Case type record. Navigate to **AI Case Management** &gt; **Case type**.
 
-    ![AI Case record type.](../image/ai-case-group-email.png)
+    \[Omitted image "ai-case-group-email.png"\] Alt text: AI Case record type.
 
 3.  AI Case Admin \[sn\_ai\_case\_mgmt.ai\_case\_admin\] must update the group email field on the Inquiry type record. Navigate to **AI Case Management** &gt; **Inquiry Type**.
 
-    ![AI inquiry record type.](../image/ai-inquiry-group-email.png)
+    \[Omitted image "ai-inquiry-group-email.png"\] Alt text: AI inquiry record type.
 
 
 **Note:** After you configure, if any email is sent to the defined group email address and the instance address, an AI Case or AI Inquiry record is created.
@@ -52,7 +53,7 @@ When an email is received:
 
 -   The sender of the email is mapped to the **Requester** field for both AI Cases and AI Inquiries.
 
-    **Note:** This feature is only available when the **Automatically create users for incoming emails from trusted domains** property is enabled on the Inbound Email Configuration form. For more information, refer to [Configure the Email Reporting Feature](automatic-creation-cases-inquiries-from-email.md#section_pdz_gbm_mhc). When the property is disabled, the **Requester** field will display **Guest**.
+    **Note:** This feature is only available when the **Automatically create users for incoming emails from trusted domains** property is enabled on the Inbound Email Configuration form. For more information, refer to [Configure the Email Reporting Feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md). When the property is disabled, the **Requester** field will display **Guest**.
 
 -   The date the email is sent populates the **Date of Discovery** field for AI Cases and the **Created on** field for AI Inquiries.
 -   The TO recipient of the email is used to determine the **Assignment group** for both record types.

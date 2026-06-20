@@ -2,6 +2,7 @@
 title: Working on a dispute case integrated with Visa
 description: To improve the card dispute process, the playbook integrates with subflows that communicate with Visa. This integration supports an end-to-end dispute life cycle, from raising an initial dispute to the final resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -25,16 +26,16 @@ This integration enables you to:
 -   Initiate chargebacks
 -   Submit dispute questionnaires
 
--   **[Pre-arbitration and arbitration](pre-arbitration-and-arbitration-overview.md)**  
+-   **[Pre-arbitration and arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/pre-arbitration-and-arbitration-overview.md)**  
 The dispute transactions for Visa support pre-arbitration and arbitration workflows. If an issuer and acquirer can't resolve a dispute, either party can initiate pre-arbitration, which may escalate to arbitration. In arbitration, Visa provides the final ruling.
--   **[Initiating a dispute case](initiating-a-dispute-case.md)**  
+-   **[Initiating a dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-a-dispute-case.md)**  
 Begin a dispute case in the card dispute playbook of the Financial Services Workspace. Enter dispute details, complete the dispute questionnaire, upload documents, and submit the case for investigation.
--   **[Reviewing a dispute case](reviewing-a-dispute-case.md)**  
+-   **[Reviewing a dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/reviewing-a-dispute-case.md)**  
 In Financial Services Card Operations, review the dispute cases submitted by a cardholder from the customer portal. You can verify disputed and associated transactions, update the dispute reason, fill out a transaction-level questionnaire in cases with multiple transactions, and submit the case for investigation.
--   **[Processing a dispute case with the Card Dispute Transaction playbook](processing-a-dispute-case.md)**  
+-   **[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/processing-a-dispute-case.md)**  
 On the **Processing** tab of the card disputes playbook, all disputed transactions in a card dispute case are displayed on a dashboard. The tab also provides transaction information such as dispute amount, transaction date and time, merchant, transaction state, current activity, and activity SLA.
--   **[Closing a dispute case](closing-a-dispute-case.md)**  
+-   **[Closing a dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/closing-a-dispute-case.md)**  
 After you close a transaction in the playbook, the case is set to the **Closure** state.
 
-**Parent Topic:**[Managing dispute service requests](managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

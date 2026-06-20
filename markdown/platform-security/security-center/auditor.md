@@ -2,6 +2,7 @@
 title: Auditor checks
 description: Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/security-center/auditor.html
 release: yokohama
 product: Security Center
 classification: security-center
@@ -15,13 +16,13 @@ breadcrumb: [Scan suites, Security scanner, Security configuration console, Secu
 
 Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
 
-The Auditor suite is provided as an update set. You can use this suite within [Security Center](../concept/sec-center-v2.md). Confirm that Security Center is activated on your instance if you’re using Utah or earlier.
+The Auditor suite is provided as an update set. You can use this suite within [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sec-center-v2.md). Confirm that Security Center is activated on your instance if you’re using Utah or earlier.
 
 ## Import the update set
 
 Administrators can download the update set from support.servicenow.com using this link: [https://support.servicenow.com/sys\_attachment.do?sys\_id=821e1e724732969077748d01426d4393](https://support.servicenow.com/sys_attachment.do?sys_id=821e1e724732969077748d01426d4393).
 
-Commit the update set using the steps detailed in [Commit an update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Commit the update set using the steps detailed in .
 
 Once the update set has been committed, you can access the Auditor suite at **All** &gt; **Security Center** &gt; **Scanner** &gt; **Suites**.
 
@@ -131,7 +132,7 @@ Review fields with HTML Sanitization disabled
 
 </td><td>
 
-Identifies HTML fields where [HTML Sanitization](../../security/concept/c_HTMLSanitizer.md) is inactive.
+Identifies HTML fields where [HTML Sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-ai-platform-security/c_HTMLSanitizer.md) is inactive.
 
  HTML sanitization removes or replaces potentially harmful elements and attributes within HTML code. Review HTML fields where sanitization is inactive to confirm whether this configuration is necessary.
 
@@ -330,5 +331,5 @@ Identifies UI actions that can be accessed by a user with no roles who doesn’t
 Resolution Recommended
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scan suites](../concept/sec-center-suites.md)
+</table>**Parent Topic:**[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sec-center-suites.md)
 

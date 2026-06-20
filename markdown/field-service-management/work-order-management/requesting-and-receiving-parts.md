@@ -2,6 +2,7 @@
 title: Requesting and receiving required parts
 description: Get the parts you need to complete the assigned work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -22,14 +23,14 @@ The process to get the required parts to complete work order tasks is as follows
 -   **Access parts that are available in your stockroom**: Assets or parts are kept in stockrooms until they are needed. Stockrooms are categorized based on the user’s personal stockroom and assignment group type. Managers and agents of the contractor companies are assigned to personal stockrooms and group stockrooms, and can check the availability of required assets.
 -   **Pick up parts**: Pick up parts from the stockroom and then record them as delivered.
 
--   **[Create and source a part requirement request on the Field Service Contractor Portal](../task/create-part.md)**  
+-   **[Create and source a part requirement request on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-part.md)**  
 Create a part requirement request for a work order task that is assigned to you.
--   **[Transfer part orders through the Field Service Contractor Portal](../task/transfer_order.md)**  
+-   **[Transfer part orders through the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/transfer_order.md)**  
 Use a transfer order to move required parts between company stockrooms or to a location where a requesting agent can receive the parts.
--   **[Track part pickups on the Field Service Contractor Portal](../task/pickup-parts.md)**  
+-   **[Track part pickups on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/pickup-parts.md)**  
 You can see which parts are ready to be picked up by viewing a consolidated list of assets grouped by stockroom and waiting to be picked up. After picking up the part, you can close the transfer order line task.
--   **[Access stockroom information on the Field Service Contractor Portal](../task/access-stockroom.md)**  
+-   **[Access stockroom information on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/access-stockroom.md)**  
 As a manager or agent of contractor companies, you can access and view the availability of assets in your stockrooms using the Field Service Contractor Portal.
 
-**Parent Topic:**[Contractor Portal](field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

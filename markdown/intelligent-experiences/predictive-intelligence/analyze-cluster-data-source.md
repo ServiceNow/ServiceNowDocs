@@ -2,6 +2,7 @@
 title: Analyze a cluster with a data source
 description: Analyze a cluster by any of the dimensions available on the source table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/analyze-cluster-data-source.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -22,7 +23,7 @@ Analyze a cluster by any of the dimensions available on the source table.
 
 ## About this task
 
-Analyze a cluster with a data source by accessing the cluster insight table. You can add a cluster insight table when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).![Create ClusterInsight table check box in the Clustering Definition page.](../images/clusterinsight_table_check.png)
+Analyze a cluster with a data source by accessing the cluster insight table. You can add a cluster insight table when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).\[Omitted image "clusterinsight\_table\_check.png"\] Alt text: Create ClusterInsight table check box in the Clustering Definition page.
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Analyze a cluster with a data source by accessing the cluster insight table. You
 
 3.  Under **Cluster Visualization**, select a cluster.
 
-4.  On the **Cluster Insight** table, select the list menu icon \(![List menu icon.](../../../common/image/List_MenuIcon.png)\) next to a column header, and select **Bar Chart**.
+4.  On the **Cluster Insight** table, select the list menu icon \(\[Omitted image "List\_MenuIcon.png"\] Alt text: List menu icon.\) next to a column header, and select **Bar Chart**.
 
 
 ## Result

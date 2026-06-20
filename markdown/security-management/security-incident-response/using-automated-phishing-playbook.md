@@ -2,6 +2,7 @@
 title: Using the Automated Phishing playbook
 description: Use these steps to learn how you can use the Automated Phishing playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/using-automated-phishing-playbook.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +38,7 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 
 5.  Click **Analysis** to see the list of activities performed in the Analysis phase.
 
-    You have the option to change it as per your requirements.![Automated Phishing workspace](../image/automated-phish-workspace.gif)
+    You have the option to change it as per your requirements.\[Omitted image "automated-phish-workspace.gif"\] Alt text: Automated Phishing workspace
 
 6.  Similarly, you can click Contain, Eradicate, and Review to view the list of activities that have been performed in the respective phase.
 
@@ -46,5 +47,5 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 7.  If there’s any remaining activity or user action required in any of the phases, click the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Automated Phishing](../concept/playbook-automated-phishing.md)
+**Parent Topic:**[Playbook for Automated Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-automated-phishing.md)
 

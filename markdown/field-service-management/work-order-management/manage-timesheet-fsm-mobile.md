@@ -2,6 +2,7 @@
 title: Manage time cards in the time sheet
 description: Manage your time cards in the Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/manage-timesheet-fsm-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -29,15 +30,15 @@ Role required: wm\_agent
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d106317e81">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d45690e81">
 
 Action
 
-</th><th align="left" id="d106317e84">
+</th><th align="left" id="d45690e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106317e90">
+</th></tr></thead><tbody><tr><td id="d45690e90">
 
 **Submit time card**
 
@@ -45,7 +46,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d106317e105">
+</td></tr><tr><td id="d45690e105">
 
 **View a time card**
 
@@ -53,7 +54,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d106317e117">
+</td></tr><tr><td id="d45690e117">
 
 **View time card notes**
 
@@ -61,7 +62,7 @@ Tap **View time card** to view time card details such as task, hours, resource p
 
 Tap **Time card notes** to view the notes related to the time card.
 
-</td></tr><tr><td id="d106317e129">
+</td></tr><tr><td id="d45690e129">
 
 **Add time card notes**
 
@@ -69,7 +70,7 @@ Tap **Time card notes** to view the notes related to the time card.
 
 Tap **Add new note** to add a new note.
 
-</td></tr><tr><td id="d106317e142">
+</td></tr><tr><td id="d45690e142">
 
 **Delete a time card**
 
@@ -81,5 +82,5 @@ Tap **Add new note** to add a new note.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Time Sheets in Mobile Agent](../concept/timesheet-fsm-mobile.md)
+**Parent Topic:**[Time Sheets in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/timesheet-fsm-mobile.md)
 

@@ -2,6 +2,7 @@
 title: View a quote PDF document
 description: Agents can view quote documents in the PDF viewer window. The PDF viewer window has controls that enable agents to manage the PDF.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-view-a-quote-document.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,13 +22,13 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
 3.  Select the quote that you’re working with.
 
-4.  In the **Attachments** window, select the PDF document to open it.![](../image/quote-attachment-window-pdf.png)
+4.  In the **Attachments** window, select the PDF document to open it.\[Omitted image "quote-attachment-window-pdf.png"\]
 
     The PDF document opens in the PDF viewer.
 

@@ -2,6 +2,7 @@
 title: Restructured Invoice table
 description: The invoice and invoice line tables are restructured in the Xanadu release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/restructured-apo-invoice-table.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -20,7 +21,7 @@ Before Washington DC release, invoice and invoice line tables were standalone ta
 -   The invoice table \[sn\_shop\_invoice\] extends the base invoice table \[sn\_fin\_base\_invoice\].
 -   The invoice line table \[sn\_shop\_invoice\_line\] extends the base invoice line table \[sn\_fin\_base\_invoice\_line\].
 
-![Invoice table structure](../image/invoice-reparenting.png "Invoice Table structure")
+\[Omitted image "invoice-reparenting.png"\] Alt text: Invoice table structure
 
 After you upgrade from Washington DC to Yokohama release, verify that your existing invoice and invoice line data has been migrated correctly. If you notice that your invoice and invoice line tables didn’t migrate properly, use the [Now Support Portal](https://support.servicenow.com/now) to raise a case with the Technical Support team.
 

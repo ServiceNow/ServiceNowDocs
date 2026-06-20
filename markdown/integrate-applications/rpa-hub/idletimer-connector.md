@@ -2,6 +2,7 @@
 title: IdleTimer connector
 description: The IdleTimer connector sets, starts and ends an idle time within an attended automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/idletimer-connector.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,12 +18,12 @@ The IdleTimer connector sets, starts and ends an idle time within an attended au
 
 You must first use and then expose the methods in the IdleTimer connector to use its methods.
 
--   To use the connector, see [Use a connector in RPA Desktop Design Studio](../task/use-connector.md).
--   To expose the methods, see [Use connector method](../task/use-connector-method.md).
--   To use the methods, see [Use a component in RPA Desktop Design Studio](../task/configure-components.md).
+-   To use the connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-connector.md).
+-   To expose the methods, see [Use connector method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-connector-method.md).
+-   To use the methods, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-components.md).
 
--   **[IdleTimer connector methods and events](../reference/idletimer-connector-methods-and-events.md)**  
+-   **[IdleTimer connector methods and events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/idletimer-connector-methods-and-events.md)**  
 Learn about the IdleTimer connector methods and events.
 
-**Parent Topic:**[Connectors](connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connectors.md)
 

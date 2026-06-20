@@ -2,6 +2,7 @@
 title: Find denied IP addresses
 description: Find Denied IP addresses in the instance's node log files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_FindDeniedIPAddresses.html
 release: yokohama
 product: Authentication
 classification: authentication

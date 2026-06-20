@@ -2,6 +2,7 @@
 title: Action script for list context menus
 description: The Action script field, on the Context Menu form, defines a script. The script runs when someone selects the context menu option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/list-administration/r\_ActionScript.html
 release: yokohama
 product: List Administration
 classification: list-administration

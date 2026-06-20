@@ -2,6 +2,7 @@
 title: Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery
 description: Discovering java installation data using Agent Client Collector for Visibility - Content file-based discovery enables you to discover file information in your system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-file-based-discovery.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
@@ -48,7 +49,7 @@ Role required: discovery\_admin
 
 ## Result
 
-When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected by Oracle Global License Advisory Services \(GLAS\) using Agent Client Collector for Visibility - Content](../reference/data-collected-file-based-discovery.md).
+When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected by Oracle Global License Advisory Services \(GLAS\) using Agent Client Collector for Visibility - Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 
-**Parent Topic:**[Application patterns for the Agent Client Collector](../concept/application-patterns-acc.md)
+**Parent Topic:**[Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/application-patterns-acc.md)
 

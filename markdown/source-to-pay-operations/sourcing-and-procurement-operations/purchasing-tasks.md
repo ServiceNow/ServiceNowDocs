@@ -2,6 +2,7 @@
 title: Purchasing tasks and procurement cases
 description: All automated purchasing tasks and procurement cases are created using flow designer from the Service Delivery Common \(SDC\) application. Flow designer uses the underlying task and case generation decision tables, and purchasing tasks and procurement cases are created based on the conditions defined in the decision tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ All automated purchasing tasks and procurement cases are created using flow desi
 
 ## Conditions and triggers for task and case creation
 
-While the **Sourcing decision dependent on case** and **Order dependent on case** fields in the Finance Case table determine the need for a [procurement case](../concept/spo-glossary.md#) to be created, the **Sourcing decision dependent on task** and **Order dependent on task** fields in the Finance Task table determine the need for a [procurement task](../concept/spo-glossary.md#) to be created.
+While the **Sourcing decision dependent on case** and **Order dependent on case** fields in the Finance Case table determine the need for a [procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) to be created, the **Sourcing decision dependent on task** and **Order dependent on task** fields in the Finance Task table determine the need for a [procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spo-glossary.md) to be created.
 
 Tasks and cases are generated when the following rules are triggered, with the decision tables supporting this generation via decision inputs.
 
@@ -266,8 +267,8 @@ Question &amp; Answer
 This section contains the information of the questions posed to the shopper and the responses that the shopper provides.
 
 </td></tr></tbody>
-</table>-   **[Purchasing task and procurement case creation](../concept/automated-purchasing-task-creation-from-flow-designer.md)**  
+</table>-   **[Purchasing task and procurement case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/automated-purchasing-task-creation-from-flow-designer.md)**  
 Create purchasing tasks and procurement cases in sourcing requests and purchase requisitions.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

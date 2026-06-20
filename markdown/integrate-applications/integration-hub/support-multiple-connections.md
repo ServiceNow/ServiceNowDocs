@@ -2,6 +2,7 @@
 title: Supporting multiple connections
 description: Support several connections to a single integration provider. Select connections for flows, subflows, and actions directly from a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/support-multiple-connections.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -23,17 +24,17 @@ Multiple connections support offers these benefits.
 -   Select which connection you want to use in a flow. Override preset connections for flows, subflows, and actions directly through Workflow Studio.
 -   When a flow is promoted to production, reestablish a connection to each account without needing to modify the flow.
 
-To learn more about connections, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+To learn more about connections, see Connections and Credentials.
 
 ## Connection and credential aliases
 
 Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime.
 
-With connection and credential aliases, you can also create additional aliases or connections called child aliases. Child aliases enable you to create multiple connections within the same application integration. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+With connection and credential aliases, you can also create additional aliases or connections called child aliases. Child aliases enable you to create multiple connections within the same application integration. For more information, see Create a Connection and Credential alias.
 
 ## Flow-level connection selection
 
-You can choose a connection for a flow or subflow directly from the flow's main page. When you select a new connection, it overrides any preconfigured connection for that flow. To choose a connection, select the More Actions menu icon \(![More Actions icon](../images/more-actions-menu-icon.png)\), and select the **Configure connections** option. This option opens the Configure Connections window, where you can select the connections for your flow. The Configure Connections window displays:
+You can choose a connection for a flow or subflow directly from the flow's main page. When you select a new connection, it overrides any preconfigured connection for that flow. To choose a connection, select the More Actions menu icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More Actions icon\), and select the **Configure connections** option. This option opens the Configure Connections window, where you can select the connections for your flow. The Configure Connections window displays:
 
 -   All the aliases used in the flow.
 -   The icon and name for each alias.
@@ -52,7 +53,7 @@ You can choose whether to display the **Configure connections** option with the 
 
 View which connection your flow ran with by examining the Step Configuration section of the flow's execution details. The connection alias listed in the CONFIGURATION column is the alias that the flow was originally designed to run with. The alias listed in the RUNTIME VALUE column is the one that the flow actually ran with.
 
-![Execution details page that displays the connection alias for the flow's default configuration and the flow's runtime value.](../images/mc-execution-details.png "Execution details page")
+\[Omitted image "mc-execution-details.png"\] Alt text: Execution details page that displays the connection alias for the flow's default configuration and the flow's runtime value.
 
 ## Action-level connection selection
 
@@ -60,14 +61,14 @@ You can select connections for individual integration actions within a flow. Thi
 
 Integration actions have one or more connection fields in the Action Properties section where you can edit or configure a connection. In the following example, the Create Remote Incident action has a connection field called **ServiceNow Connection**. The default connection hasn’t been configured yet, so a `Connection not configured` message appears below the connection field. This message appears whenever the connection for the selected alias is not configured
 
-![Integration action showing the connection field in the Action Properties section.](../images/integration-action-connection.png "Example of a connection field in an integration action")
+\[Omitted image "integration-action-connection.png"\] Alt text: Integration action showing the connection field in the Action Properties section.
 
-Use the gear icon \(![gear icon](../../../build/app-engine-studio/image/gear-icon.png)\) to create or configure an alias.
+Use the gear icon \(\[Omitted image "gear-icon.png"\] Alt text: gear icon\) to create or configure an alias.
 
--   For connections using a [configuration template](https://www.servicenow.com/docs/access?context=spoke-configuration-template&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US), the gear icon opens a window where you can create or configure a connection.
--   For connections without a configuration template, the gear icon opens the platform form for [creating a connection and credential alias.](https://www.servicenow.com/docs/access?context=connection-alias&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+-   For connections using a configuration template, the gear icon opens a window where you can create or configure a connection.
+-   For connections without a configuration template, the gear icon opens the platform form for creating a connection and credential alias.
 
-Use the plus icon \(![plus icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\) to add a new child connection alias. Use the pencil icon \(![pencil icon](../../../reuse/icons/product-icons/pencil-outline-24.svg), not shown in the image\) to edit the selected connection.
+Use the plus icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: plus icon\) to add a new child connection alias. Use the pencil icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: pencil icon, not shown in the image\) to edit the selected connection.
 
 ## Dynamic inputs
 
@@ -87,6 +88,6 @@ When you move a flow to a production instance, the alias information is transfer
 
 You can configure connections without having to modify the flow because you already have the base alias set up. To configure a connection:
 
--   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](../tasks/dashboard-configure-connection.md) for instructions.
--   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+-   If the alias has a configuration template, configure the connection through the Connections dashboard. See [Configure a connection in the Connections dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/dashboard-configure-connection.md) for instructions.
+-   If an alias doesn't have a configuration template, configure it through the platform user interface. For more information about configuring a connection without a template, see Getting started with connections.
 

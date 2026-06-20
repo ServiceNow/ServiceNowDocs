@@ -2,6 +2,7 @@
 title: Verify version record
 description: After the fix script is created and run to enable M2M mapping between supplier contact and suppliers, a version record must be created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/verify-version-record.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -36,5 +37,5 @@ Role required: admin
 
 Remove the unique constraint from Email Domain.
 
-**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
 

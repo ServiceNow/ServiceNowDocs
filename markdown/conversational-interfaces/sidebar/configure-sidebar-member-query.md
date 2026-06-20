@@ -2,6 +2,7 @@
 title: Configuring Sidebar member query
 description: Configuring the Sidebar member query pre-populates the participants list on the Start a Sidebar discussion screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/sidebar/configure-sidebar-member-query.html
 release: yokohama
 product: Sidebar
 classification: sidebar

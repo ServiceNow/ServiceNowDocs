@@ -2,6 +2,7 @@
 title: ERP-CM task list field descriptions
 description: The task list in ERP Semantic Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-task-list-details.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 The task list in ERP Semantic Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](../task/erpcm-check-data-connection.md).
+For process details, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-check-data-connection.md).
 
 <table id="table_z5t_tcd_bwb"><thead><tr><th>
 
@@ -106,5 +107,5 @@ Finished
 Date and time when the connection task finished running.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

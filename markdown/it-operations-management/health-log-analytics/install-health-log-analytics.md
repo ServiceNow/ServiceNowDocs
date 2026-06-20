@@ -2,6 +2,7 @@
 title: Install Health Log Analytics \(HLA\)
 description: Install Health Log Analytics by requesting ServiceNow HLA installation from ServiceNow Customer Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/install-health-log-analytics.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -34,19 +35,19 @@ Role required: admin
 
     1.  Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website and search for the Health Log Analytics app.
 
-        ![The Health Log Analytics app in the ServiceNow Store.](../image/hla-store.png "Health Log Analytics app in the ServiceNow Store")
+        \[Omitted image "hla-store.png"\] Alt text: The Health Log Analytics app in the ServiceNow Store.
 
     2.  Select Health Log Analytics.
 
         The Health Log Analytics product page displays.
 
-        ![The Health Log Analytics app product page in the ServiceNow Store.](../image/hla-store-hla-page.png "Health Log Analytics product page in the ServiceNow Store")
+        \[Omitted image "hla-store-hla-page.png"\] Alt text: The Health Log Analytics app product page in the ServiceNow Store.
 
     3.  Select **View Products**.
 
     4.  Select **Opt-in**.
 
-        ![The ITOM Health product.](../image/hla-install-itom-health.png "ITOM Health product")
+        \[Omitted image "hla-install-itom-health.png"\] Alt text: The ITOM Health product.
 
 3.  Install the Health Log Analytics application on your instance.
 
@@ -62,7 +63,7 @@ Role required: admin
 
     4.  Ensure that the application and its dependencies were installed successfully, as illustrated in the figure.
 
-        ![Health Log Analytics is installed on the instance.](../image/hla-verify-installation.png "Health Log Analytics is installed on the instance")
+        \[Omitted image "hla-verify-installation.png"\] Alt text: Health Log Analytics is installed on the instance.
 
 4.  Observe the status of the provisioning process by reviewing the CHG.
 
@@ -74,7 +75,7 @@ Role required: admin
 
         The Health Log Analytics Package Dependencies and Versions table displays.
 
-        ![Health Log Analytics Package Dependencies and Versions table.](../image/hla-sn-occ-stats.png "Health Log Analytics Package Dependencies and Versions table")
+        \[Omitted image "hla-sn-occ-stats.png"\] Alt text: Health Log Analytics Package Dependencies and Versions table.
 
         The provisioned endpoints are listed along with their version number:
 
@@ -88,11 +89,11 @@ The Health Log Analytics application is installed and provisioned on your instan
 
 ## What to do next
 
--   [Set up the data input process for Health Log Analytics](../concept/hla-implement.md)
+-   [Set up the data input process for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 -   \(Optional\) Install the ServiceNow® Agent Client Collector Log Analytics \(ACC-L\) plugin.
 
-    Agent Client Collector Log Analytics enables you to stream log data from Linux and Windows hosts to a ServiceNow instance using the Agent Client Collector. For more information, see the [Agent Client Collector Log Analytics](../../agent-client-collector/concept/acc-log-analytics.md) documentation.
+    Agent Client Collector Log Analytics enables you to stream log data from Linux and Windows hosts to a ServiceNow instance using the Agent Client Collector. For more information, see the [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-log-analytics.md) documentation.
 
 
-**Parent Topic:**[Configuring Health Log Analytics](../concept/hla-configuring.md)
+**Parent Topic:**[Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-configuring.md)
 

@@ -2,6 +2,7 @@
 title: Create a new OT subnet mapping record
 description: Create a new OT subnet mapping to associate with an equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.html
 release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -137,7 +138,7 @@ Location
 
 </td><td>
 
-Add a location to the subnet record to automatically add or update the location in the mapped OT devices.**Note:** The location is mapped based on the sn\_otsm.subnet\_mapping.location\_auto\_update system property. For more information about system properties used for OT subnet mapping, see [System properties used by the OT subnet mapping feature](../reference/system-properties-used-by-automated-mapping-feature.md).
+Add a location to the subnet record to automatically add or update the location in the mapped OT devices.**Note:** The location is mapped based on the sn\_otsm.subnet\_mapping.location\_auto\_update system property. For more information about system properties used for OT subnet mapping, see [System properties used by the OT subnet mapping feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/system-properties-used-by-automated-mapping-feature.md).
 
 </td></tr><tr><td>
 
@@ -159,5 +160,5 @@ Specify the VLAN ID if applicable.
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

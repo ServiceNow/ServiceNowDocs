@@ -2,6 +2,7 @@
 title: Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule
 description: Use the Create software reclamation rule agentic workflow to automatically create reclamation rules to aggregate usage records and to identify unused software products that lack reclamation rules but are viable candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -93,5 +94,5 @@ The agentic workflow is initiated.
 |--------|-------------|
 |Software reclamation rule creation AI agent|Retrieves reclamation rule suggestions, analyzes the license utilization, and generates a reclamation rule for a software product.|
 
-**Parent Topic:**[Using agentic workflows in Now Assist for SAM](using-now-assist-sam-ai-agents-usecases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

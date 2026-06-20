@@ -2,6 +2,7 @@
 title: State progression for normal, standard, and emergency changes
 description: Each change request model progresses through a number of state values in a specific order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/normal-standard-emergency-states.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Change Management, Change Management, IT Service Manageme
 
 Each change request model progresses through a number of state values in a specific order.
 
-To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](attach-process-change-model.md).
+To enable state transitions, you can attach a process with defined conditions to the change model states. For more information, see [Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/attach-process-change-model.md).
 
 <table id="table_bls_cnj_11b"><thead><tr><th>
 
@@ -47,7 +48,7 @@ Yes
 
 </td><td rowspan="7" align="center">
 
-![Normal change state model](../image/NormalChangeStateModel2.png "Normal change state model")
+\[Omitted image "NormalChangeStateModel2.png"\] Alt text: Normal change state model
 
 </td></tr><tr><td>
 
@@ -152,7 +153,7 @@ Yes
 
 </td><td rowspan="5" align="center">
 
-![Standard change state model](../image/StandardChangeStateModel2.png "Standard change state model")
+\[Omitted image "StandardChangeStateModel2.png"\] Alt text: Standard change state model
 
 </td></tr><tr><td>
 
@@ -233,7 +234,7 @@ Yes
 
 </td><td rowspan="6" align="center">
 
-![Emergency change state model](../image/EmergencyChangeStateModel2.png "Emergency change state model")
+\[Omitted image "EmergencyChangeStateModel2.png"\] Alt text: Emergency change state model
 
 </td></tr><tr><td>
 
@@ -296,5 +297,5 @@ No
 No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Change Management](exploring-change-management.md)
+</table>**Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/exploring-change-management.md)
 

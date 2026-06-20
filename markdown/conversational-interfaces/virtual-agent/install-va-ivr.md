@@ -2,6 +2,7 @@
 title: Install Conversational IVR with Amazon Connect
 description: Install Conversational IVR with Amazon Connect application, to use interactive voice response \(IVR\) with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/install-va-ivr.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -34,5 +35,5 @@ Role required: admin
 
 ## What to do next
 
-To learn how to configure your AWS account for enabling Conversational IVR, see [Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md).
+To learn how to configure your AWS account for enabling Conversational IVR, see [Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-aws-account.md).
 

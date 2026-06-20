@@ -2,6 +2,7 @@
 title: Create a work plan
 description: Create a work plan to specify how and when the work should be performed for any activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-work-plan.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -27,7 +28,7 @@ Each work plan must have at least one or more records associated with it for whi
 
 **Note:** The filtered assets or activities that require work are called matching records in the work plan.
 
-You can also create a work plan through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(![List icon](../image/ListIcon.png)\).
+You can also create a work plan through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon\).
 
 ## Procedure
 
@@ -180,5 +181,5 @@ Specify what to do when a work plan runs based on a schedule occurrence that is 
 
 ## What to do next
 
-After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](configure-work-plan.md)
+After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/configure-work-plan.md)
 

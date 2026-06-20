@@ -2,6 +2,7 @@
 title: Find and cleanse sensitive data
 description: You can scan your datasets for sensitive data, like personally identifiable information \(PII\). If you find sensitive data, then you can cleanse it from your datasets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/sensitive-data.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -33,6 +34,6 @@ Plugins required: sn\_data\_discovery, sn\_dp\_store\_app, com.glide.data\_priva
 
 5.  If there is sensitive data in your dataset, select **Cleanse Data** to remove it.
 
-    You can also see the records that contain sensitive data by viewing the Data Insights tab. To learn more, see [View data insights](../task/view-data-insights.md).
+    You can also see the records that contain sensitive data by viewing the Data Insights tab. To learn more, see [View data insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/view-data-insights.md).
 
 

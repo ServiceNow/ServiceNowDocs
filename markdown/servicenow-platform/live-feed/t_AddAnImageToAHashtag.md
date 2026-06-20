@@ -2,6 +2,7 @@
 title: Add an image to a hashtag
 description: You can add an image at the domain level of already defined hashtags if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_AddAnImageToAHashtag.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -25,19 +26,19 @@ Role required: admin
 
 2.  Select the appropriate hashtag.
 
-    ![Tag with image icon](../image/TagWithImageIcon.png "Tag with image icon")
+    \[Omitted image "TagWithImageIcon.png"\] Alt text: Tag with image icon
 
 3.  Do one of the following:
 
-    -   Locate the image in your file system, and then drag-and-drop the image onto the add an image icon \(![Add an image](../image/AddAnImage.png)\).
+    -   Locate the image in your file system, and then drag-and-drop the image onto the add an image icon \(\[Omitted image "AddAnImage.png"\] Alt text: Add an image\).
 
-    -   Click the add an image icon \(![Add an image](../image/AddAnImage.png)\), select the image file, and click **Open**.
+    -   Click the add an image icon \(\[Omitted image "AddAnImage.png"\] Alt text: Add an image\), select the image file, and click **Open**.
 4.  To change the image, simply drag-and-drop a new image onto the old one, or click on the existing one and select a new image.
 
     When you view a message that contains a hashtag with an image, that image appears in the hashtag heading bar.
 
-    ![Message with tag icon](../image/MsgWithTagIcon.png "Message with tag icon")
+    \[Omitted image "MsgWithTagIcon.png"\] Alt text: Message with tag icon
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

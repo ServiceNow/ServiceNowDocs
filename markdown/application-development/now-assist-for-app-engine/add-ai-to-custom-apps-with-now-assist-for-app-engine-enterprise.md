@@ -2,6 +2,7 @@
 title: Now Assist for App Engine
 description: Use Now Assist for App Engine to apply AI enhancements, such as developing custom skills and agents for custom applications,
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
 release: yokohama
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -20,15 +21,15 @@ Use Now Assist for App Engine to apply AI enhancements, such as developing custo
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for App Engine concepts and features.](exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-cloud-download.svg)Install Now Assist for App Engine.](../task/install-now-assist-for-app-engine.md)
+[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Now Assist for App Engine.](use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -58,5 +59,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 

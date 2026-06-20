@@ -2,6 +2,7 @@
 title: Recommend invoice owner AI agent
 description: For Non-purchase order \(PO\) invoices and Non-PO credit memos, the Recommend invoice owner AI agent is triggered when a Missing or invalid business owner exception occurs. The AI agent identifies the missing business owner through semantic matching or by creating tasks. The AI agent supports Amazon Claude, Google Gemini, Now LLM, and GPT models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/recommend-invoice-owner-ai-agent.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations

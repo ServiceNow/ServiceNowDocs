@@ -2,7 +2,10 @@
 title: Assign a customer service case
 description: Agents can assign cases to themselves or to other customer service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssignACase.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 2.  Assign the case.
 
-<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d257868e73">
+<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d70997e73">
 
 **Assign the case to yourself**
 
@@ -35,7 +38,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 Click **Assign to me**.
 
-</td></tr><tr><td id="d257868e85">
+</td></tr><tr><td id="d70997e85">
 
 **Assign the case to another agent**
 

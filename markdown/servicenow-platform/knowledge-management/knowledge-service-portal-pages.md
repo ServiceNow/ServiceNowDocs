@@ -2,6 +2,7 @@
 title: Knowledge Management Service Portal homepage features
 description: The Knowledge Management Service Portal homepage displays knowledge articles organized by knowledge base and category, as well as featured content and popular articles. Learn how to navigate the homepage to search for and find useful and relevant information quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-pages.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -65,7 +66,7 @@ This action is available to logged-in users with the knowledge role. Click **Ask
 
 </td></tr><tr><td>
 
-Overflow icon \(![Overflow icon](../image/KnowledgeServicePortalOverflowIcon.png)\)
+Overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\)
 
 </td><td>
 
@@ -95,7 +96,7 @@ Featured
 
 </td><td>
 
-Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](../task/t_PinAnArticle.md).
+Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/t_PinAnArticle.md).
 
 </td></tr><tr><td>
 

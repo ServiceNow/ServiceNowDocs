@@ -2,6 +2,7 @@
 title: New web or installed application form
 description: Using a custom form, you can add an application to be monitored for compliance or performance metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/admin-new-app-form.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -29,7 +30,7 @@ Application service
 
 </td><td>
 
-Drop-down list that references the Service \(cmdb\_ci\_service\) table to select an application service added for monitoring.You can open the list of available services by selecting the magnifying glass icon \(![The magnifying glass icon to search for existing sections.](../image/icon-magnifying-glass-blue.png)\).
+Drop-down list that references the Service \(cmdb\_ci\_service\) table to select an application service added for monitoring.You can open the list of available services by selecting the magnifying glass icon \(\[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: The magnifying glass icon to search for existing sections.\).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Toggle switch to enable or disable monitoring for the application performance an
 -   **Compliance**: Enables reporting on whether this application is running on your organization's devices.
 -   **Metrics**: Enables performance reporting for this application.
 
-Move the monitoring toggle switch \(![Use the toggle switch to activate monitoring for the application.](../image/icon-toggle-button-enabled.png)\) to turn the reporting on or off.
+Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate monitoring for the application.\) to turn the reporting on or off.
 
 **Note:** You can also enable monitoring for multiple applications simultaneously. From the Application management page, use the bulk check box to select multiple applications, and adjust your selection as needed with the individual check boxes for each app.
 
@@ -100,5 +101,5 @@ Option to add a Software Asset Management \(SAM\) product to enable tracking of 
 This field appears only when you're editing a web application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

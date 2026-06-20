@@ -2,6 +2,7 @@
 title: Identity Metrics for administrators
 description: View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/identity-center-for-admin.html
 release: yokohama
 product: Identity
 classification: identity

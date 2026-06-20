@@ -1,0 +1,25 @@
+---
+title: Now Assist for app summary generation reference
+description: The following roles are required for use with the Now Assist for Creator app summary generation skill.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.html
+release: yokohama
+product: ServiceNow Studio Classic
+classification: servicenow-studio-classic
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+keywords: [Now Assist, generative AI]
+breadcrumb: [Now Assist for app summary generation in ServiceNow Studio, Using ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+---
+
+# Now Assist for app summary generation reference
+
+The following roles are required for use with the Now Assist for Creator app summary generation skill.
+
+## Roles
+
+Grant the admin and now.assist.creator roles, or the sn\_g\_app\_creator.app\_creator and now.assist.creator roles, to each user that you want to summarize apps.
+
+**Parent Topic:**[Now Assist for app summary generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+

@@ -2,6 +2,7 @@
 title: ITSM Predictive Intelligence Workbench notifications
 description: Email notifications are added with Predictive Intelligence Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-notifications.html
 release: yokohama
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,7 +18,7 @@ Email notifications are added with Predictive Intelligence Workbench.
 
 **Important:**
 
-Starting with the yokohama release, the ITSM Predictive Intelligence Workbench will reach its end of life \(EOL\) as part of its deprecation process. It will be completely deprecated and no longer deployed, enhanced, or supported from the yokohama release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the yokohama release, the ITSM Predictive Intelligence Workbench will reach its end of life \(EOL\) as part of its deprecation process. It will be completely deprecated and no longer deployed, enhanced, or supported from the yokohama release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -60,7 +61,7 @@ Use case Model training failedTable: PI Solution Model \[piwb\_model\]
 Sends an email to a specified user group when a use case model training has failed.
 
 </td></tr></tbody>
-</table>Create an ITSM Predictive Intelligence Workbench user group and add users or roles to ensure Predictive Intelligence process architects are notified during the use case model implementation process. Refer to [Create an ITSM Predictive Intelligence Workbench user group](../task/itsm-piwb-user-groups.md).
+</table>Create an ITSM Predictive Intelligence Workbench user group and add users or roles to ensure Predictive Intelligence process architects are notified during the use case model implementation process. Refer to [Create an ITSM Predictive Intelligence Workbench user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-user-groups.md).
 
-For more details about email notifications for Predictive Intelligence Workbench, refer to [Preview email notification](https://www.servicenow.com/docs/access?context=t_PreviewingNotifications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more details about email notifications for Predictive Intelligence Workbench, refer to Preview email notification.
 

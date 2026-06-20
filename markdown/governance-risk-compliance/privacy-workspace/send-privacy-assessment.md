@@ -2,6 +2,7 @@
 title: Send a privacy assessment to multiple entities
 description: Send the privacy screening assessment or the Privacy impact assessment \(PIA\) assessments to multiple entities to understand why and how personal data is being processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/send-privacy-assessment.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,7 +28,7 @@ Role required: sn\_privacy.manager
 
 3.  Select the entities related list.
 
-4.  To select the required entities, select the selection icon \(![Selection icon.](../image/select-icon.jpg)\).
+4.  To select the required entities, select the selection icon \(\[Omitted image "select-icon.jpg"\] Alt text: Selection icon.\).
 
 5.  Click **Send privacy assessments**.
 
@@ -44,5 +45,5 @@ Role required: sn\_privacy.manager
 
 The assessment is sent to the entity owners.
 
-**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](../concept/trigger-privacy-assessmt-on-entities.md)
+**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/trigger-privacy-assessmt-on-entities.md)
 

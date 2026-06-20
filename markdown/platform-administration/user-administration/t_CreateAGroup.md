@@ -2,6 +2,7 @@
 title: Create a user group
 description: Create groups and assign roles to them. Users assigned to the group inherit the roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/user-administration/t\_CreateAGroup.html
 release: yokohama
 product: User Administration
 classification: user-administration
@@ -27,7 +28,7 @@ Role required: user\_admin
 
 3.  On the form, fill in the fields.
 
-    Some fields appear after personalizing the form. [Personalize a form](https://www.servicenow.com/docs/access?context=t_PersonalizeAForm&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    Some fields appear after personalizing the form. Personalize a form.
 
 <table id="table_flh_qwv_sbb"><thead><tr><th>
 
@@ -59,7 +60,7 @@ Type
 
 </td><td>
 
-Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](../concept/c_ConfigGroupTypesForAssignGroups.md#) for more information.You may need to [Personalize a form](https://www.servicenow.com/docs/access?context=t_PersonalizeAForm&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US) to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
+Category for this group. For example, a group designated as type **catalog** is a service catalog group and can also be accessed under the **Service Catalog** &gt; **Catalog Policy** &gt; **Fulfillment Groups** module. See [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md) for more information.You may need to Personalize a form to add the **Type** field. Activating the Work Management plugin adds the **Type** field automatically.
 
 **Note:** ITIL is added for groups with an empty group type. Also, the default reference qualifier for tasks enables these groups to assign tasks and other task types to the group.
 
@@ -104,7 +105,7 @@ Include members
 
 </td><td>
 
-Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See [Receive notifications](https://www.servicenow.com/docs/access?context=c_ReceiveNotifications&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US) for more information.
+Check box that controls whether the group members receive individual emails when someone sends an email to the **Group Email** address. The only exception to this functionality is for approval notifications, whereby all members of a group receive an approval notification, regardless of the **Include members** selection. See Receive notifications for more information.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Helpful information about the group.
 
         Create a true/false field labeled `Hidden` on the Group form.
 
-        For more information on creating fields, see [Add and customize a field in a table](../../field-administration/task/t_CreatingNewFields.md)
+        For more information on creating fields, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/t_CreatingNewFields.md)
 
         The system creates a field called **u\_hidden** on the **Users \[sys\_user\_group\]** table and enables use of the **Hidden** check box to designate a hidden group.
 
@@ -134,8 +135,8 @@ Helpful information about the group.
         }
         ```
 
-        **Note:** For more information, see [Before Query business rules](https://www.servicenow.com/docs/access?context=bp-before-query-business-rules&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+        **Note:** For more information, see .
 
 
-**Parent Topic:**[Creating groups](../../roles/concept/ua-creating-groups.md)
+**Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/ua-creating-groups.md)
 

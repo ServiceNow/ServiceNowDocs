@@ -2,6 +2,7 @@
 title: Create an application service for unmapped servers
 description: Maximize the use of your organization's resources by mapping application service candidates that include unmapped servers. Use the Service Mapping workspace's unmapped servers widget to create an application service and ensure that your servers are used efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/unmapped-servers.html
 release: yokohama
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +23,7 @@ Maximize the use of your organization's resources by mapping application service
 -   Verify Machine Learning readiness.
 -   Confirm that the data is trained.
 
-For more information, see [Application service readiness dashboard in configurable workspace](../reference/readiness-dashboard-ml.md)
+For more information, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/readiness-dashboard-ml.md)
 
 **Important:**
 
@@ -53,5 +54,5 @@ Role required: service\_mapping\_admin
 
 The selected application service candidate is converted to an application service, and the selected unmapped servers are mapped.
 
-**Parent Topic:**[Using Service Mapping](../concept/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/using-service-mapping.md)
 

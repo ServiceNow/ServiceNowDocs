@@ -2,6 +2,7 @@
 title: Methods and events of the RadioButton element
 description: The RadioButton element in RPA Desktop Design Studio enables you to select a choice from a group of choices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/form-control-radiobutton.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -83,5 +84,5 @@ The methods and events of the RadioButton element are displayed in the Object Ex
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/form-control-methods-events.md)
 

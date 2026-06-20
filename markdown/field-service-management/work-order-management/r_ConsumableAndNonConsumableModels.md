@@ -2,6 +2,7 @@
 title: Consumable and non-consumable models
 description: The transfer process is slightly different for consumables than it is for non-consumables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/r\_ConsumableAndNonConsumableModels.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -26,5 +27,5 @@ Consumable assets, such as computer keyboards, are not tracked individually in t
     If the model being transferred is a non-consumable asset, create one transfer order line per asset. The system creates as many transfer order lines as the required quantity. This approach is used so that each configuration item can change its status and stockroom location independently. For example, if the part requirement specifies two Canon i960 Photo printers, and printers are managed as configuration items, then the system generates two transfer orders lines - one per configuration item. After the agent receives the part \(item state changes to **In Stock** and substate changes to **Reserved**\) and uses it, the asset is listed as **In Use** by the caller who originated the work order.
 
 
-**Parent Topic:**[Manage transfer orders](../concept/c_TransferOrders.md)
+**Parent Topic:**[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_TransferOrders.md)
 

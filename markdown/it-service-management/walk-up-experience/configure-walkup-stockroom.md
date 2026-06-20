@@ -2,6 +2,7 @@
 title: Create or modify a Walk-up Experience stockroom
 description: Create stockrooms and assign assets and groups specifically for your walk-up location. Walk-up stockrooms contain common assets that visitors to the walk-up location will typically request, such as a computer mouse, monitors, and cables. The walk-up location stockroom should be easily accessible to your walk-up location for fast request fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/walk-up-experience/configure-walkup-stockroom.html
 release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -40,8 +41,8 @@ Stockrooms are separate, standalone entities in the Asset Management application
     |Type|Type of stockroom. Chose **Walk-up** to create a walk-up stockroom.|
     |Manager|Person in charge of the stockroom. Receives restocking notifications and requests for the stockroom stock rules.|
 
-    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to [Stockrooms](https://www.servicenow.com/docs/access?context=c_Stockrooms&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to .
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

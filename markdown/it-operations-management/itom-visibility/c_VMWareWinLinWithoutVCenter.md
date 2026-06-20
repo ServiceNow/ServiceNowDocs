@@ -2,6 +2,7 @@
 title: VMware Workstation - Legacy
 description: In the basic VMware system, the VMware Workstation runs on a Windows or Linux host machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/c\_VMWareWinLinWithoutVCenter.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,7 +19,7 @@ In the basic VMware system, the VMware Workstation runs on a Windows or Linux ho
 
 This system can clone instances from templates, but cannot be automated. The relationships between VMware components for this type of installation are shown in the following diagram:
 
-![VMware Workstation relationships](../image/VMWareNoVCenterDiagram.png "VMware Workstation relationships")
+\[Omitted image "VMWareNoVCenterDiagram.png"\] Alt text: VMware Workstation relationships
 
 <table id="table_VMwareComponentRelationshipsOnWindowsOrLinuxWithoutVCenter"><thead><tr><th>
 
@@ -65,5 +66,5 @@ Virtual machines
 -   Virtualized by VMware application
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery for VMware virtual machines](c_VMwareVirtualMachines.md)
+</table>**Parent Topic:**[Discovery for VMware virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_VMwareVirtualMachines.md)
 

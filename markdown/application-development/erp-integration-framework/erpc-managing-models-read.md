@@ -2,6 +2,7 @@
 title: Managing how models read and update the ERP system
 description: After you create an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP, you can specify how it reads and updates the ERP system using parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -41,7 +42,7 @@ When you add an entity to an operation, you must specify the following informati
     -   For update operations, you must use a BAPI.
 -   The name of the table to read or BAPI to use.
 
-For instructions on adding entities, see [Add an operation to a model in Zero Copy Connector for ERP](../task/erpc-manage-models-read-op.md).
+For instructions on adding entities, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 ## Managing operation input parameters
 
@@ -74,26 +75,26 @@ Another example would be adding a parameter for **Order billing dates** in the T
 
 **Note:** It doesn't matter what order you define parameters in. Zero Copy Connector for ERP displays optional parameters in alphabetical order when you save.
 
-For instructions on managing inputs, see [Manage input parameters for an Zero Copy Connector for ERP model operation](../task/erpc-manage-model-inputs.md).
+For instructions on managing inputs, see [Manage input parameters for an Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
 ## Selecting outputs for a read operation
 
 You must create output parameters to define how the data is mapped to the ERP system and stored on the ServiceNow AI Platform.
 
-For instructions on managing outputs, see [Choose output parameters for an ERP model](../task/erp-canvas-manage-outputs.md).
+For instructions on managing outputs, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 ## Adding retrieved ERP fields to tables
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field that you can then add to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](../task/erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in Zero Copy Connector for ERP](../task/erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
 ## Building flows to call the ERP system
 
 After all parameters are defined and you have built and run the read or update operation, build a flow in Workflow Studio that uses the defined parameters.
 
-Enter any filter criteria by specifying a value when you select the parameter in the **Mandatory Field** of the flow's action. For more information, see [Building flows to read or update the ERP system](erp-canvas-build-flow-operation.md).
+Enter any filter criteria by specifying a value when you select the parameter in the **Mandatory Field** of the flow's action. For more information, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-build-flow-operation.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

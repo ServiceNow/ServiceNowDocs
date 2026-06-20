@@ -2,6 +2,7 @@
 title: Set knowledge notification preferences
 description: Set notification preferences for knowledge bases and knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/set-subscription-notifications.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

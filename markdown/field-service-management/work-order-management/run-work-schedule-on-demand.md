@@ -2,6 +2,7 @@
 title: Run a planned work schedule on demand
 description: Planned work schedules mainly run using the Planned Maintenance Nightly Run scheduled job. However, you can make the schedule to run immediately or change the date when a schedule should run, if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/run-work-schedule-on-demand.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ When you run a planned work schedule on demand, all of the next run dates for th
 4.  In the Related Link section, select **Run on demand**.
 
 
-**Parent Topic:**[Create a work order for the planned work](../concept/creating-work-orders-from-planned-work.md)
+**Parent Topic:**[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 

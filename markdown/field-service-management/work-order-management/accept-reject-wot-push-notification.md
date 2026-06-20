@@ -2,6 +2,7 @@
 title: Accept or reject requests from push notifications
 description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/accept-reject-wot-push-notification.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -27,15 +28,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d24813e70">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d27363e70">
 
 To
 
-</th><th align="left" id="d24813e73">
+</th><th align="left" id="d27363e73">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d24813e79">
+</th></tr></thead><tbody><tr><td id="d27363e79">
 
 **Accept working on the work order task notification**
 
@@ -43,7 +44,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d24813e91">
+</td></tr><tr><td id="d27363e91">
 
 **Reject the task notification**
 
@@ -53,5 +54,5 @@ Click **Reject** **Note:** If you reject the task notification, the task assignm
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Push notifications on Mobile Agent](../concept/actionable-push-notifications.md)
+**Parent Topic:**[Push notifications on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/actionable-push-notifications.md)
 

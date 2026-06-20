@@ -2,6 +2,7 @@
 title: Exploring Time limited authentication
 description: Support time limited authentication for your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/explore-tla.html
 release: yokohama
 product: Authentication
 classification: authentication

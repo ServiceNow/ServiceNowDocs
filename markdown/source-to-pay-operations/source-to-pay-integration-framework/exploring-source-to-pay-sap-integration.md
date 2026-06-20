@@ -2,6 +2,7 @@
 title: Explore Source-to-Pay integration with SAP
 description: Learn more about the Source-to-Pay integration with SAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/exploring-source-to-pay-sap-integration.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

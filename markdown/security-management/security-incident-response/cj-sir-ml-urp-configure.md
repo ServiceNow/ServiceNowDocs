@@ -2,6 +2,7 @@
 title: Configure Predictive Intelligence for User Reported Phishing
 description: Configure and prepare the model to identify user reported phishing emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/cj-sir-ml-urp-configure.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: ml\_admin
 
     -   Default close code: Select this option to specify the default security incident close codes that must be used by the training model to identify malicious emails and legitimate ones. Click the lock icon and select one or more False positive codes or Confirmed phishing codes.
     -   Custom close code: Select the Custom close code option if you want to define close codes from custom fields that may be used as part of your existing incident response procedures. To define a close code, select a field from the security incident table and specify one or more filter conditions.
-    ![User Reported Phishing: ML Config: Close codes](../image/cj-sir-ml-urp-config5.png)
+    \[Omitted image "cj-sir-ml-urp-config5.png"\] Alt text: User Reported Phishing: ML Config: Close codes
 
 3.  In Step 2, import historical data that can be used to train the model.
 
@@ -56,7 +57,7 @@ Role required: ml\_admin
 
     You can update the inputs for training in the screen below.
 
-    ![User Reported Phishing: ML Config: Inputs](../image/cj-sir-ml-urp-config4.png)
+    \[Omitted image "cj-sir-ml-urp-config4.png"\] Alt text: User Reported Phishing: ML Config: Inputs
 
 7.  Prediction inputs that you can modify include:
 

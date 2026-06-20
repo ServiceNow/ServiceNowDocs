@@ -2,12 +2,13 @@
 title: MFA enforcement scope
 description: FAQ related to MFA enforcement scope and why it’s important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/mfa-enforcement-scope.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Frequently asked questions - MFA enforcement, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
 
@@ -28,7 +29,7 @@ FAQ related to MFA enforcement scope and why it’s important.
 
     No. With the default secure MFA policy, MFA isn’t required for SSO \(SAML, OIDC, Certificate Based Authentication\) login.
 
-    Customers can collaborate with their Single Sign-On \(SSO\) provider \(Identity Provider, or IdP\) to enforce multi-factor Authentication \(MFA\) on the IdP side. If enforcing MFA on the IdP side isn’t feasible, customers also have the option to enable the ServiceNow platform's MFA for SSO logins by following the instructions provided in [Configure Multi-factor authentication with Single Sign-On](mfa-sso.md).
+    Customers can collaborate with their Single Sign-On \(SSO\) provider \(Identity Provider, or IdP\) to enforce multi-factor Authentication \(MFA\) on the IdP side. If enforcing MFA on the IdP side isn’t feasible, customers also have the option to enable the ServiceNow platform's MFA for SSO logins by following the instructions provided in [Configure Multi-factor authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-sso.md).
 
 3.  Is MFA required for external users?
 
@@ -51,11 +52,13 @@ FAQ related to MFA enforcement scope and why it’s important.
 
 7.  Is MFA required for API authentication?
 
-    No. From Yokohama or a later release, MFA is only required for the user name and password-based interactive user logins. This means API authentication with basic auth with work without requiring MFA. It’s recommended to customers use alternative secure API authentication methods such as OAuth or mTLS. More details here.
+    No. From Yokohama or a later release, MFA is only required for the user name and password-based interactive user logins. This means API authentication with basic auth works without requiring MFA. It’s recommended to customers use alternative secure API authentication methods such as OAuth or mTLS. More details here.
 
     1.  Clone
     2.  Update set retrieval
     3.  RPA
+    **Note:** To enforce MFA for API authentication, set the `glide.authenticate.multifactor.for_integrations` system property to `true`. MFA is enforced only for users who have already enrolled in MFA. Users who have not enrolled are not affected.
+
 8.  Is there any impact on the clone setup process due to MFA?
 
     No, the clone setup process continues to work with user name and password and doesn't require MFA.

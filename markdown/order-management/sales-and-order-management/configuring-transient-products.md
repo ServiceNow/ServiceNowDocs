@@ -2,13 +2,14 @@
 title: Defining transient products
 description: When you create product offerings and technical specifications, you can identify single-use products and services as transient, to differentiate them from persistent products. Examples of one-time use products include installation or consulting services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/configuring-transient-products.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-04-09"
 reading_time_minutes: 1
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Defining transient products
@@ -30,7 +31,7 @@ When defining transient products, note the following restrictions:
 
 For details on setting the **Transient** option for product offerings and specifications, see the following sections:
 
--   [Create product offerings](../task/som-create-product-offering.md)
+-   [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-offering.md)
 -   
 -   Create and publish service specifications
 -   

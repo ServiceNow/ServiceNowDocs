@@ -2,6 +2,7 @@
 title: Remove a member from a feed
 description: The feed administrator can remove any member from the feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_RemoveAMemberFromAFeed.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,10 +30,10 @@ Role required: none
 
 4.  Locate the member you want to remove and click **Remove**.
 
-    ![Remove member](../image/RemoveMember.png "Remove member")
+    \[Omitted image "RemoveMember.png"\] Alt text: Remove member
 
     **Note:** You can remove members regardless of their current state. That is, you can remove members who have already joined the feed or whose membership is pending.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

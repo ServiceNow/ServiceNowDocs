@@ -2,6 +2,7 @@
 title: Execute response processor for workflow
 description: Execute a response processor for a workflow to get the workflow data back into a configuration item \(CI\). The response processor picks up the data, sends the data to the CMDB which in turn puts the data in a CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-response-processor.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_designer.
 
 ## About this task
 
-Before you execute a response processor for a workflow, you need to create a workflow, attach the workflow to a resource block operation step, and then generate the catalog. To return the response from the workflow to the Cloud Provisioning and Governance application, the workflow designer needs to add the **Cloud Return Response** activity to the workflow. A variable needs to be mentioned inside the **Cloud Return Response** activity for the response. See [Worflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+Before you execute a response processor for a workflow, you need to create a workflow, attach the workflow to a resource block operation step, and then generate the catalog. To return the response from the workflow to the Cloud Provisioning and Governance application, the workflow designer needs to add the **Cloud Return Response** activity to the workflow. A variable needs to be mentioned inside the **Cloud Return Response** activity for the response. See Worflow.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Before you execute a response processor for a workflow, you need to create a wor
 
 4.  Add a workflow operation step.
 
-    See [Add operation steps to a resource block](add-operation-steps.md).
+    See [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-operation-steps.md).
 
     The workflow operation step gets attached to the resource block and appears on the page. Any input parameters associated with the workflow appear on the **Input** tab.
 
@@ -47,7 +48,7 @@ Before you execute a response processor for a workflow, you need to create a wor
 
     The Add Response Processor dialog box appears.
 
-    ![Adding a response processor with a workflow.](../image/add-response-processor.png)
+    \[Omitted image "add-response-processor.png"\] Alt text: Adding a response processor with a workflow.
 
 7.  In the **Script Name** list, select a script for the response processor.
 
@@ -58,5 +59,5 @@ Before you execute a response processor for a workflow, you need to create a wor
     The script appears in the **Response Processor** tab. You can open the script and make modifications to the script.
 
 
-**Parent Topic:**[Configure a response processor](configure-response-processor.md)
+**Parent Topic:**[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
 

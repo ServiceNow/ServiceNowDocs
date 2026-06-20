@@ -2,6 +2,7 @@
 title: Enable and configure AI Search for Knowledge Management Service Portal
 description: Enable and define the AI Search experience in Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/enable-and-configure-ai-search-for-km-service-portal.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

@@ -2,11 +2,12 @@
 title: Delete a TPRM dashboard
 description: You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-delete-db.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Monitor data using dashboards, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,9 +26,9 @@ Role required: You can delete any dashboard that you created. If you have the ad
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**
 
-2.  Select the dashboard page icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dashboard.png) and then select the dashboard that you want to delete.
+2.  Select the dashboard page icon \[Omitted image "icon-tprm-ws-dashboard.png"\] Alt text: and then select the dashboard that you want to delete.
 
-3.  From the more actions menu ![](../image/context-menu-db-element-ac.png) select, **Delete**.
+3.  From the more actions menu \[Omitted image "context-menu-db-element-ac.png"\] Alt text: select, **Delete**.
 
 4.  Confirm the deletion.
 
@@ -35,6 +36,6 @@ Role required: You can delete any dashboard that you created. If you have the ad
 
     1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
     2.  Find the plugin using the filter criteria and search bar.
-    3.  Select the more actions menu button ![](../image/context-menu-db-element-ac.png) and choose **Repair**.
+    3.  Select the more actions menu button \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and choose **Repair**.
     4.  Select **Repair** in the Activate Plugin window.
 

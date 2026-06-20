@@ -2,6 +2,7 @@
 title: Set recovery option
 description: Determine whether to initiate a chargeback for a transaction, where the cardholder has not yet received the final credit, ensuring that the recovery process aligns with established guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/recovery-option-for-final-credit.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ A chargeback is initiated by a bank. The chargeback is pursued when a card provi
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![List icon.](../../../common/image/icon-list.png)\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -49,7 +50,7 @@ A chargeback is initiated by a bank. The chargeback is pursued when a card provi
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fc"><tbody><tr><td id="d41772e172">
+<table id="choicetable_gwh_bjs_3fc"><tbody><tr><td id="d28159e172">
 
 **Yes**
 
@@ -57,7 +58,7 @@ A chargeback is initiated by a bank. The chargeback is pursued when a card provi
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d41772e184">
+</td></tr><tr><td id="d28159e184">
 
 **No**
 
@@ -85,5 +86,5 @@ The relevant tasks for the transaction trigger for the **Chargeback** stage.
 -   If the decision is to deny the dispute, the transaction task state updates to **Closed complete**.
 -   If the decision is to pursue chargeback, the relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

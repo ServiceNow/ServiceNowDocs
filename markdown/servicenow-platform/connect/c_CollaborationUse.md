@@ -2,6 +2,7 @@
 title: Connect Chat use
 description: All users have access to Connect Chat, a convenient way to stay updated on all the people and documents you work with in a familiar chat interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/connect/c\_CollaborationUse.html
 release: yokohama
 product: Connect
 classification: connect

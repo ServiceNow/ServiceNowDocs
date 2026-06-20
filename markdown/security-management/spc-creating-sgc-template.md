@@ -2,10 +2,11 @@
 title: Creating your own API connectors in Security Posture Control
 description: Create your own Security Posture Control \(SPC\) API connectors using the connector framework that is included with the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-creating-sgc-template.html
 release: yokohama
 topic_type: concept
 last_updated: "2026-01-14"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use the workspace, Security Posture Control, Security Operations]
 ---
 
@@ -21,7 +22,7 @@ Create your own SPC API connectors quickly to help you integrate with security t
 
 The connector framework includes the following features.
 
--   Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](../../now-assist-vulnerability-response/concept/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using Now Assist for Vulnerability Response in Security Posture Control](../../now-assist-vulnerability-response/concept/using-now-assist-api-connector.md) about using the skill in connector framework.
+-   Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using Now Assist for Vulnerability Response in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-api-connector.md) about using the skill in connector framework.
 -   A step-by-step process to guide you through the connector builder.
 -   A single place to build and maintain all your SPC integrations to import custom data into your CMDB.
 -   After you publish them, monitor your API connectors on the SPC API Integrations tab in the **Security Posture Control** workspace.
@@ -32,13 +33,13 @@ You use the Connector builder in the Security Posture Control workspace to creat
 
 ## Prerequisites
 
-Before you start creating your API connector, you might prefer to set up any credentials for the service \(vendor\) that you want to implement with and have their API documentation and credentials handy as you work through the Connector builder. See [Enter metadata](../task/spc-sgc-template-stepper1.md) for more information.
+Before you start creating your API connector, you might prefer to set up any credentials for the service \(vendor\) that you want to implement with and have their API documentation and credentials handy as you work through the Connector builder. See [Enter metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-sgc-template-stepper1.md) for more information.
 
 ## Required applications and plugins
 
 The following applications and plugins are required.
 
-For more information about applications in the ServiceNow® Store, see [Exploring the ServiceNow Store](https://www.servicenow.com/docs/access?context=exploring-servicenow-store&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and downloading and activating applications [Download an application from the ServiceNow Store for the first time](../../security-incident-response/reference/download-app-first-time.md).
+For more information about applications in the ServiceNow® Store, see  and downloading and activating applications [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-operations/download-app-first-time.md).
 
 **Note:** If you're downloading applications to non-production or development instances, it's not necessary to get entitlements.
 
@@ -64,5 +65,5 @@ Assign the sn\_sec\_spc\_core.developer role to the users who you want to view a
 
 Assign the sn\_spc\_cxf.admin role if you want users to configure SPC API connectors with advance scripting with the Connector builder.
 
-See [Install the supported applications for Security Posture Control](https://www.servicenow.com/docs/bundle/zurich-security-management/page/product/security-posture-control/task/spc-install.html) for information about assigning roles to Security Posture Control groups.
+See [Install the supported applications for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-install.md) for information about assigning roles to Security Posture Control groups.
 

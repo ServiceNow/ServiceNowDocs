@@ -2,6 +2,7 @@
 title: Activate the knowledge management internationalization plugin
 description: To enable translation of knowledge articles, you must activate multiple plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/c\_ActKMIntPlugin.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -15,9 +16,9 @@ breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage cont
 
 To enable translation of knowledge articles, you must activate multiple plugins.
 
--   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md)
--   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
--   Internationalization plugins for each appropriate language. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   Knowledge Management Advanced \(com.snc.knowledge\_advanced\) plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
+-   I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.knowledge.i18n2\) plugin. For more information, see Activate a plugin.
+-   Internationalization plugins for each appropriate language. For more information, see Activate a language.
 
     **Note:**
 

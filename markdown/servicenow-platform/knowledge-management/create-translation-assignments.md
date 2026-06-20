@@ -2,6 +2,7 @@
 title: Create translation assignments for knowledge articles
 description: Assign knowledge articles to language experts to ensure accurate translations. Identify the language experts and create assignment rules so that translation tasks are automatically assigned to language experts and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/create-translation-assignments.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

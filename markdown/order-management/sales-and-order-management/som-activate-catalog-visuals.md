@@ -2,13 +2,14 @@
 title: Activate the display of product catalog visuals
 description: Turn on the display of product images shown in the product tiles of product catalogs by using the sn\_prd\_pm.show\_product\_visuals\_on\_catalog\_ui system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-activate-catalog-visuals.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Activate the display of product catalog visuals

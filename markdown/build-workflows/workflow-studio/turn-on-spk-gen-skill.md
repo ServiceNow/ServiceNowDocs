@@ -2,6 +2,7 @@
 title: Turn on the spoke generation skill
 description: Turn on the flow generation skill to use generative AI to create spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -36,5 +37,5 @@ Role required: admin
 
 You can now create spoke and actions using Now Assist in Spoke Generator.
 
-**Parent Topic:**[Use Now Assist to create spokes and build actions](../concept/now-assist-in-spk-gen.md)
+**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

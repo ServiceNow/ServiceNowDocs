@@ -2,6 +2,7 @@
 title: Move excess assets through the transfer process from a mobile device
 description: Move your excess consumable parts from your stockroom to the drop-off list by using the Now Mobile Agent application on your mobile device. You can generate transfer orders to move these items to the stockroom where it must be dropped off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/move-excess-assets-transfer-process.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -33,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Move the part to be returned to the stockroom by doing one of the following actions.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d98568e100">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d72104e100">
 
 Option
 
-</th><th align="left" id="d98568e103">
+</th><th align="left" id="d72104e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d98568e109">
+</th></tr></thead><tbody><tr><td id="d72104e109">
 
 **Drop off**
 
@@ -52,7 +53,7 @@ Description
 3.  Select the quantity that you want to return.
 
 
-</td></tr><tr><td id="d98568e133">
+</td></tr><tr><td id="d72104e133">
 
 **View part details and then drop off**
 
@@ -66,7 +67,7 @@ Description
 </td></tr></tbody>
 </table>6.  Select the part and open the form.
 
-7.  Select the Overflow ![Overflow icon.](../image/OverflowIcon.png) icon and then select **Add to drop-off list**.
+7.  Select the Overflow \[Omitted image "OverflowIcon.png"\] Alt text: Overflow icon. icon and then select **Add to drop-off list**.
 
 8.  Verify the model number.
 
@@ -89,11 +90,11 @@ A new transfer order line is created.
 
 -   If a transfer order for the drop-off location doesn’t exist, a new transfer order is created and the transfer order line is added to that transfer order.
 
-For more information on asset transfers, see [Move an asset through the transfer process](../../planning-and-policy/task/create-transfer-order-line-task.md).
+For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-transfer-order-line-task.md).
 
 ## What to do next
 
 Check the status of the part in the Parts to drop-off list.
 
-**Parent Topic:**[Inventory on Mobile Agent](../concept/easily-track-parts.md)
+**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

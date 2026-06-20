@@ -2,6 +2,7 @@
 title: Get help with App Engine Studio
 description: To get help with App Engine Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/aes-get-help-now.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -25,15 +26,15 @@ How to get help from your admin
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/brand-icons/bus-video-play.svg) Video**
+-   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
     Watch [Build apps fast with App Engine Studio](https://youtu.be/ZRctXWpuB08?si=o-rZnZA2CAdVg8WT).
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [App Engine Studio Community](https://www.servicenow.com/community/app-engine/ct-p/app-engine)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 

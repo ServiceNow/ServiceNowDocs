@@ -2,6 +2,7 @@
 title: Components installed with Continuous Authorization and Monitoring
 description: Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.Default properties are set with activation of CAM plug-in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.html
 release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -15,7 +16,7 @@ breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance,
 
 Activating the GRC: CAM plugin adds or modifies several tables, user roles, and other components.
 
-**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 
 ## Continuous Authorization and Monitoring system properties
 
@@ -23,7 +24,7 @@ Default properties are set with activation of CAM plug-in.
 
 To configure the CAM report properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **Report Properties**.
 
-Enter the days in the **Auto generate engagement** field to automatically create the next engagement in the authorization package. The days entered in the **Auto Generate Engagement** field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package. For more information, see [View package details in CAM Workspace](../../grc-cam-workspace/task/auth-package-overview-ws.md). ![ATO Artifacts System Properties.](../../grc-cam-workspace/image/cam-ato-artifacts-system-properties.png)
+Enter the days in the **Auto generate engagement** field to automatically create the next engagement in the authorization package. The days entered in the **Auto Generate Engagement** field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package. For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md). \[Omitted image "cam-ato-artifacts-system-properties.png"\] Alt text: ATO Artifacts System Properties.
 
 <table id="table_wxn_rh3_ydc"><thead><tr><th>
 

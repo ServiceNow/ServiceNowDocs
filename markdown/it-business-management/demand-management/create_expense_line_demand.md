@@ -2,6 +2,7 @@
 title: Create an expense line for a demand
 description: A demand expense line is the cost associated with a specific source, such as a user or a fixed asset. Expense lines are part of demand cost plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/create\_expense\_line\_demand.html
 release: yokohama
 product: Demand Management
 classification: demand-management
@@ -37,10 +38,10 @@ When a demand is converted to a project, the expense lines remain with the deman
 
 3.  On the expense line form, fill in the fields.
 
-    For a description of the field names, see [Expense line form](../../project-management/reference/expense-line-form.md).
+    For a description of the field names, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/expense-line-form.md).
 
 4.  Select **Submit**
 
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)
 

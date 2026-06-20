@@ -2,13 +2,14 @@
 title: Target tables for LangGraph
 description: Target tables for storing Service Graph Connector for LangGraph data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/target-tables-for-langgraph.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-05"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Target tables for LangGraph

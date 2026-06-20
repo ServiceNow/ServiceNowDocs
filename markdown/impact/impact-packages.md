@@ -2,7 +2,10 @@
 title: Impact packages
 description: ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-packages.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -35,7 +38,7 @@ If you have purchased an Impact offering, the applicable Impact Package descript
 
 ## Accelerator consumption per Impact package
 
-Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](../concept/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
+Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
 <table id="table_qld_2xg_sxb"><thead><tr><th>
 
@@ -133,7 +136,7 @@ Managed Support
 
 -   Upgraded P1/P2 level issue initial target response times
 -   Additional SAM coverage
--   Five [Impact Developer Support](../concept/developer-support.md) Developer Support
+-   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/developer-support.md) Developer Support
 
 </td></tr><tr><td>
 
@@ -153,7 +156,7 @@ Ten Instance Observer seats, in addition to the procured Impact package
 
 </td></tr><tr><td>
 
-[Preventive Care](../concept/preventive-care.md)
+[Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/preventive-care.md)
 
 </td><td align="left">
 

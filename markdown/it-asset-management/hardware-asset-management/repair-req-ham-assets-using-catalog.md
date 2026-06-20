@@ -2,6 +2,7 @@
 title: Request repair of hardware assets using Service Catalog
 description: Submit a Service Catalog request to repair hardware assets that are defective or pending repair in your stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/repair-req-ham-assets-using-catalog.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -56,13 +57,13 @@ Stockroom that has assets to be repaired.
 </td></tr></tbody>
 </table>3.  Select assets to be repaired.
 
-    1.  Select the Edit Asset\(s\) icon \(![Edit asset icon](../../../common/image/icon-lock.png)\).
+    1.  Select the Edit Asset\(s\) icon \(\[Omitted image "icon-lock.png"\] Alt text: Edit asset icon\).
 
     2.  Select the assets from the list.
 
         You can add one or more assets to the request.
 
-    3.  Select the Lock icon \(![Unlock capabilities icon.](../../software-asset-management2/image/unlock-icon.png)\).
+    3.  Select the Lock icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock capabilities icon.\).
 
 4.  Select **Submit**.
 
@@ -73,5 +74,5 @@ Stockroom that has assets to be repaired.
 -   A repair order is created in the **Draft** stage.
 -   Each asset in the repair order is associated with a repair order line that is in the **Troubleshoot** stage.
 
-**Parent Topic:**[Request repair of defective hardware assets in your stockroom](../concept/request-repair-defective-ham-assets.md)
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
 

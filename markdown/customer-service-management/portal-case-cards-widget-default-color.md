@@ -2,7 +2,10 @@
 title: Default highlight color for different case states
 description: Default values for the background and text color for all case states on the Portal Case Cards widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/portal-case-cards-widget-default-color.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

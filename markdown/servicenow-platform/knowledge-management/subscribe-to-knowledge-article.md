@@ -2,6 +2,7 @@
 title: Subscribe to a knowledge article
 description: Subscribe to a knowledge article within a knowledge base to receive email notifications about new articles and article revisions or comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/subscribe-to-knowledge-article.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
@@ -26,9 +27,9 @@ Users can subscribe to a knowledge article from either the Knowledge Management 
 **Note:**
 
 -   Users who are already subscribed to a knowledge base are also subscribed to the articles within that knowledge base.
--   To subscribe to articles from the base service portal \(`https://<instance name>` `/sp?`\), you must navigate to the [Knowledge Management Service Portal](../concept/knowledge-service-portal-pages.md) pages \(for example, `https://<instance name>` `/sp?id=kb_home)` from the base service portal.
--   To manage the knowledge subscription for knowledge base and knowledge article, see [Manage knowledge subscriptions](manage-knowledge-subscriptions.md).
--   Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+-   To subscribe to articles from the base service portal \(`https://<instance name>` `/sp?`\), you must navigate to the [Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md) pages \(for example, `https://<instance name>` `/sp?id=kb_home)` from the base service portal.
+-   To manage the knowledge subscription for knowledge base and knowledge article, see [Manage knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/manage-knowledge-subscriptions.md).
+-   Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 
 ## Procedure

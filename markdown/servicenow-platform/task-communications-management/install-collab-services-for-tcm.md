@@ -2,6 +2,7 @@
 title: Install Collaboration Services for Task Communications Management
 description: Install the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\) from ServiceNow Store to get the Slack functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/task-communications-management/install-collab-services-for-tcm.html
 release: yokohama
 product: Task Communications Management
 classification: task-communications-management
@@ -33,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 
-[Configure Slack workspace](https://www.servicenow.com/docs/access?context=configure-slack-workspace&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)
+[bundle-crint.configure-slack-workspace]
 

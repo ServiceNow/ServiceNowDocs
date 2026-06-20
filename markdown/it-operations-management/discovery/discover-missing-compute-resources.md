@@ -2,6 +2,7 @@
 title: Discover missing compute resources
 description: Use the Discovery Admin Workspace to identify compute resources that weren't discovered recently. Run a quick discovery to update the resource's data. If a resource isn't discoverable, ignore the resource and exclude it from the report. This procedure helps you maximize the use of your resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/discover-missing-compute-resources.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -44,7 +45,7 @@ By default, the report provides the following information:
 
     4.  In the **MID Selection Method** and **MID Server** fields, select the preferred options.
 
-        For more information, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+        For more information, see .
 
     5.  Select **Run discovery**.
 
@@ -71,5 +72,5 @@ By default, the report provides the following information:
 
 If the quick discovery was successful, the instance redirects to the **Discovery status** dashboard. When the resource is discovered, it's removed from the **Missing compute resources** report and is listed in the Server \[cmdb\_ci\_server\] table.
 
-**Parent Topic:**[Discovery Admin Workspace Insights](../concept/discovery-admin-workspace-insights.md)
+**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
 

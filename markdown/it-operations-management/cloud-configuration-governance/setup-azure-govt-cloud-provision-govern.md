@@ -2,6 +2,7 @@
 title: Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance
 description: Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance for the first time. You can discover, provision, and manage Microsoft Azure Government Cloud resources using Cloud Provisioning and Governance, thereafter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/setup-azure-govt-cloud-provision-govern.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -33,13 +34,13 @@ To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance,
 
 ## Procedure
 
-1.  [Create a Microsoft Azure service principal](azure-create-serv-princ-cloud-mgt.md) on the Microsoft Azure Government portal.
+1.  [Create a Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/azure-create-serv-princ-cloud-mgt.md) on the Microsoft Azure Government portal.
 
     **Note:** Navigate to **App registrations** &gt; **Register an application** &gt; **Supported account types** section. Then, select the **Accounts in this organizational directory only \(Single tenant\)** option to ensure that the Active Directory that is configured for the Microsoft Azure Government cloud is used for authentication.
 
     For more information, see [Create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
-2.  [Configure MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
+2.  Configure MID Servers to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
 
     1.  Navigate to **MID server** &gt; **Capabilities**.
 
@@ -62,8 +63,8 @@ To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance,
 
         **Note:** For more information, see:
 
-        -   [MID server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
-        -   [MID server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+        -   MID server selection
+        -   MID server capabilities
 3.  Navigate to **MID server** &gt; **Properties**.
 
     1.  Click **New** and add new records for each of the following name-value pairs:
@@ -80,7 +81,7 @@ To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance,
 
     2.  Click **Submit**.
 
-4.  [Store the Azure service principal credentials in the instance](azure-create-creds-cloud-mgt.md).
+4.  [Store the Azure service principal credentials in the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/azure-create-creds-cloud-mgt.md).
 
 5.  In the **Cloud Admin Portal**, navigate to **Manage** &gt; **Credentials**, and select the Azure Service principal record.
 
@@ -93,5 +94,5 @@ The **Azure Subscriptions** related list displays all subscriptions that are ass
 
 ## What to do next
 
-[Define the schedule for downloading Microsoft Azure billing data](azure-bill-dwnld-sched-cloud-mgt.md).
+[Define the schedule for downloading Microsoft Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/azure-bill-dwnld-sched-cloud-mgt.md).
 

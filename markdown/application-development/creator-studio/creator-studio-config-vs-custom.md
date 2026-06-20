@@ -2,11 +2,12 @@
 title: Use App Engine instead of customization
 description: App Engine development tools, such as Creator Studio, offer an excellent alternative to customizing existing applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-config-vs-custom.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 4
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -80,5 +81,5 @@ Customization and configuration are hallmarks of the ServiceNow AI Platform that
 2.  Customize an application only when it extends the intent of the application.
 3.  Use App Engine developer products, such as App Engine Studio, Creator Studio, and ServiceNow Studio, to create new applications rather than customizing an application to create functionality that doesn’t align with its original purpose.
 
-**Parent Topic:**[Exploring Creator Studio](exploring-creator-studio.md)
+**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

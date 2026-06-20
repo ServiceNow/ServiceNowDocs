@@ -2,6 +2,7 @@
 title: Setting up Coaching and surveys
 description: To take full advantage of Coaching, configure the Coaching application and set up surveys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/setting-up-coaching.html
 release: yokohama
 product: Coaching
 classification: coaching
@@ -19,7 +20,7 @@ To take full advantage of Coaching, configure the Coaching application and set u
 
 Configure Coaching to start assessing and coaching trainees.
 
-1.  Set up Coaching [roles](../reference/coaching-roles.md) and groups to identify Coaching users, coaches, and admins.
+1.  Set up Coaching [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-roles.md) and groups to identify Coaching users, coaches, and admins.
 2.  Define an assessment trigger on the Coaching Opportunity form.
 3.  Identify training content that is provided as part of a training or virtual coaching.
 4.  Configure virtual coaches to add to a coaching opportunity.
@@ -32,9 +33,9 @@ You can obtain feedback for both the coach and the trainee by creating surveys t
 -   Survey taken by trainee to provide feedback on the coach
 -   Survey taken by coach to provide feedback on the trainee
 
-Access the [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) for Coaching by navigating to **Survey** &gt; **Survey Designer**.
+Access the Survey designer for Coaching by navigating to **Survey** &gt; **Survey Designer**.
 
-Access the Coaching [Survey definitions](https://www.servicenow.com/docs/access?context=c_SurveyDefinitions&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) by navigating to **Coaching** &gt; **Coaching Surveys**.
+Access the Coaching Survey definitions by navigating to **Coaching** &gt; **Coaching Surveys**.
 
 ## Coaching Properties
 
@@ -65,12 +66,12 @@ Excludes weekends when the due date is set for trainees to complete training.-  
 -   **Default value:**true
 
 </td></tr></tbody>
-</table>-   **[Define trigger conditions for a coaching opportunity](../task/create-coaching-opportunity.md)**  
+</table>-   **[Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md)**  
 Use the Coaching Opportunity form to define a critical moment in a process on which a user can be coached. A coaching opportunity consists of the relationship between a process that can be improved, and coaches and trainees.
--   **[Identify and add course items for a virtual coach](../task/identify-learning-content.md)**  
+-   **[Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md)**  
 Define filters and add course items for automated virtual coaching. When a coaching assessment is triggered, the course items are automatically attached to the assessment.
--   **[Create a survey and associate with a Coaching opportunity](../task/create-survey-coaching-opportunity.md)**  
+-   **[Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-survey-coaching-opportunity.md)**  
 Create a survey for coaches or trainees to assess the training quality. Add a question bank to the survey. Associate the survey with a coaching opportunity to provide feedback when the coach completes the coaching assessment.
 
-**Parent Topic:**[Coaching](coaching-landing.md)
+**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-landing.md)
 

@@ -2,6 +2,7 @@
 title: Approve or reject requests for onboarding agents
 description: Review external agent requests that are assigned to you for approval and determine whether to accept or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/Approve-reject-request-onboard-agent.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -42,5 +43,5 @@ Whenever a manager of the contractor company onboards a field service agent, the
         The newly onboarded agent is rejected by the parent company. External managers cannot assign the work order tasks to the agent.
 
 
-**Parent Topic:**[Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

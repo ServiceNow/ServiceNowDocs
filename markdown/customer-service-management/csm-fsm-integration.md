@@ -2,7 +2,10 @@
 title: Integrating with Field Service Management
 description: The Customer Service with Field Service Management plugin \(com.snc.csm\_fsm\_integration\) provides an integration between the Customer Service Management and Field Service Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-fsm-integration.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Reference information for Document designer
 description: There are several properties that get installed with the Document designer plugin. These properties help to control the various aspects of how the plugin works.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/properties-for-document-designer.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions

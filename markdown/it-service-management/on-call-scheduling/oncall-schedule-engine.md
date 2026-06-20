@@ -2,11 +2,12 @@
 title: On-Call Scheduling new schedule engine
 description: Introducing the new On-call schedule engine with enhanced capabilities and user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/on-call-scheduling/oncall-schedule-engine.html
 release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Explore, On-Call Scheduling, IT Service Management]
 ---
@@ -30,5 +31,5 @@ The new On-call schedule engine is more efficient with the following enhanced fe
 
 **Important:** The shift rotation may change after switching to the new schedule engine. In that case, you can always create a new shift rotation from the current or future date with the new schedule engine which works as expected
 
-**Parent Topic:**[Exploring On-Call Scheduling](exploring-on-call-scheduling.md)
+**Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 

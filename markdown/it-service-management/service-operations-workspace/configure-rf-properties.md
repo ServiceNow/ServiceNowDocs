@@ -2,6 +2,7 @@
 title: Configure Recommendation Framework for an incident in Service Operations Workspace
 description: Enable recommendations at field level or from the contextual sidebar for an incident in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-rf-properties.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -42,10 +43,10 @@ Role required: admin
     |Configuration item recommendation for Configuration item|Threshold value for auto-populating a recommendation in the **Configuration item** field. When the prediction value is greater than or equal to the specified threshold value, the recommendation is auto-populated as the field value.|
     |Service recommendation for Service|Threshold value for auto-populating a recommendation in the **Service** field. When the prediction value is greater than or equal to the specified threshold value, the recommendation is auto-populated as the field value.|
 
-    For information on recommendation rules, see [Recommendation rules for an incident in Service Operations Workspace](../reference/recommendation-rules.md).
+    For information on recommendation rules, see [Recommendation rules for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/recommendation-rules.md).
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Recommendation Framework in Service Operations Workspace](../concept/set-up-recommendation-framework-sow.md)
+**Parent Topic:**[Setting up Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/set-up-recommendation-framework-sow.md)
 

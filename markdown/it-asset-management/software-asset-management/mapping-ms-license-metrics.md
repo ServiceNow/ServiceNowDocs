@@ -2,6 +2,7 @@
 title: License metrics for Microsoft products
 description: A detailed description of the license metrics that can be utilized with Microsoft products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/mapping-ms-license-metrics.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -618,5 +619,5 @@ Per Core
 Same as above.**Note:** If you are already using SQL Server Enterprise edition with \(Server/CAL\) server licenses with software assurance, continue to use the Server+CAL licensing model. Use license metric as Server \(per Server\) for Server Licensing and User/Device CAL for CAL licensing. The new purchases for SQL Server Enterprise will be based only on the Per Core licensing model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)
 

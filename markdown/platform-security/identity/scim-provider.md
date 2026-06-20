@@ -2,6 +2,7 @@
 title: SCIM Provider
 description: The Service Provider provisions users and groups using the SCIM API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/scim-provider.html
 release: yokohama
 product: Identity
 classification: identity
@@ -17,27 +18,27 @@ The Service Provider provisions users and groups using the SCIM API.
 
 <table id="table_en2_q4d_2yb" class="nav-card"><tbody><tr><td>
 
-[Explore![Exploring](../../../common/image/icon-explore.png)](explore-scim-provider.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Exploring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/explore-scim-provider.md)
 
- [Learn about SCIM Provider.](explore-scim-provider.md)
+ [Learn about SCIM Provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/explore-scim-provider.md)
 
 </td><td>
 
-[Activate![Configuring](../../../common/image/icon-set-up.png)](../task/activate-scim-plugin.md)
+[Activate\[Omitted image "icon-set-up.png"\] Alt text: Configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/activate-scim-plugin.md)
 
- [Activate SCIM.](../task/activate-scim-plugin.md)
+ [Activate SCIM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/activate-scim-plugin.md)
 
 </td></tr><tr><td>
 
-[SCIM customization![Reference](../../../common/image/icon-reference.png)](scim-customisation.md)
+[SCIM customization\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/scim-customisation.md)
 
- [Get details about how to customize SCIM.](scim-customisation.md)
+ [Get details about how to customize SCIM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/scim-customisation.md)
 
 </td><td>
 
-[Source definition![Advanced](../../../common/image/icon-workspace.png)](../task/create-source-definition.md)
+[Source definition\[Omitted image "icon-workspace.png"\] Alt text: Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/create-source-definition.md)
 
- [Learn more about source definition for SCIM.](../task/create-source-definition.md)
+ [Learn more about source definition for SCIM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/create-source-definition.md)
 
 </td></tr></tbody>
 </table>

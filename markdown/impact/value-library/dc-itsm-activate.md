@@ -2,6 +2,7 @@
 title: Activate Data Collection for ITSM
 description: Activate the Data Collection Pack for ITSM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-itsm-activate.html
 release: yokohama
 product: Value Library
 classification: value-library

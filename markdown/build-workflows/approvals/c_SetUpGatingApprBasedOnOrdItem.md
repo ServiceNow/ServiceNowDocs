@@ -2,6 +2,7 @@
 title: Set up a gating approval based on the item being ordered
 description: In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/approvals/c\_SetUpGatingApprBasedOnOrdItem.html
 release: yokohama
 product: Approvals
 classification: approvals
@@ -22,7 +23,7 @@ To do so, navigate to the item in question and scroll to the related list of req
 -   **Approved By Group**: A list of groups that have to approve requests for this item
 -   **Approved By**: A list of users who have to approve requests for this item
 
-![Approve list](../image/ApproveList.png "Approve list")
+\[Omitted image "ApproveList.png"\] Alt text: Approve list
 
 In the example above, this request must be approved by all members of the Hardware group and by David Loo.
 

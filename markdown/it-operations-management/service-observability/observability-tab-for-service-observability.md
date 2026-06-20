@@ -2,6 +2,7 @@
 title: Dynatrace Observability tab for Service Observability
 description: Dashboard and charts on the Dynatrace Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/observability-tab-for-service-observability.html
 release: yokohama
 product: Service Observability
 classification: service-observability
@@ -90,5 +91,5 @@ These dashboards display metrics for databases related to the service.
 |Checkpoint Write Time|Time in milliseconds spent writing files to disk.|Dynatrace|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Dynatrace templates for Service Observability](dynatrace-templates.md)
+**Parent Topic:**[Dynatrace templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/dynatrace-templates.md)
 

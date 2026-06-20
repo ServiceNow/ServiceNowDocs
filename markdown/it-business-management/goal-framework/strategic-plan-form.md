@@ -2,6 +2,7 @@
 title: Strategic Plan form
 description: Use the Strategic Plan form to define the purpose of your organization, its strategic priorities, and the associated goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/goal-framework/strategic-plan-form.html
 release: yokohama
 product: Goal Framework
 classification: goal-framework
@@ -25,5 +26,5 @@ Use the Strategic Plan form to define the purpose of your organization, its stra
 |Vision|A brief description about where your organization’s business will be at some point in the future, based on its strategies and associated goals.|
 |Mission|A brief description about what your organization’s objectives are and its approach to reach those objectives.|
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/goal-framework-reference.md)
 

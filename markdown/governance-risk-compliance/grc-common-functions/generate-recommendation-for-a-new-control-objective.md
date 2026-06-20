@@ -2,6 +2,7 @@
 title: Use Recommendation of similar control objectives skill to generate suggestions
 description: Generate recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library. This enables identification of redundant control objectives, making it easier to maintain a clean and efficient compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/generate-recommendation-for-a-new-control-objective.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ Generate recommendations by identifying, deduplicating, and rationalizing simila
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](../reference/r_InstallWPolAndCompl.md#).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -108,7 +109,7 @@ Additional information about the rationalization process.
 
 ## What to do next
 
-Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](take-actions-on-the-recommendations-for-similar-control-objectives.md).
+Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.md).
 
 **Note:**
 

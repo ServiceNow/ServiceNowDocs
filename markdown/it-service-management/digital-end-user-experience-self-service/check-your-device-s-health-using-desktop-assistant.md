@@ -2,6 +2,7 @@
 title: Check your device's health using Desktop Assistant
 description: Use DEX Self-service capability to check your device health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.html
 release: yokohama
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -31,23 +32,23 @@ The Device health check widget on Desktop Assistant is visible only if you have 
 
 1.  Open Desktop Assistant.
 
-    For information, see [Open Desktop Assistant](open-desktop-exp.md).
+    For information, see [Open Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
 2.  On the  **Desktop Assistant** home page, select **Device health check **.
 
-    ![Device health check home page](../image/DA_Home.png)
+    \[Omitted image "DA\_Home.png"\] Alt text: Device health check home page
 
 3.  On the Device health check page, select the device from the drop-down list.
 
 4.  In the **Diagnose** tab, review the performance category and required actions for the device, applications, and network.
 
-    ![Diagnose tab on Device health check home page](../image/DA_categories.png)
+    \[Omitted image "DA\_categories.png"\] Alt text: Diagnose tab on Device health check home page
 
 5.  Select a Poor or Average performance category to view the issues and recommended resolutions.
 
-    The resolutions can be remedial action buttons, self-help instructions, or links to resources that provide resolutions. For more information, see [Resolution for Proactive Engagement](../../proactive-engagement/reference/resolutions.md).
+    The resolutions can be remedial action buttons, self-help instructions, or links to resources that provide resolutions. For more information, see [Resolution for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/proactive-engagement/resolutions.md).
 
-    ![Issues and resolutions to improve device performance](../image/DA_issues.png)
+    \[Omitted image "DA\_issues.png"\] Alt text: Issues and resolutions to improve device performance
 
 6.  Use the recommended resolutions to improve device, application, or network performance.
 
@@ -74,7 +75,7 @@ The Device health check widget on Desktop Assistant is visible only if you have 
 
         A status message shows the progress of the action. You can trigger an action for another application while it is still in progress for one application.
 
-    ![Device actions tab in Device health check home page](../image/DA_Device_actions.png)
+    \[Omitted image "DA\_Device\_actions.png"\] Alt text: Device actions tab in Device health check home page
 
     |Status of Action|Displayed status|
     |----------------|----------------|

@@ -2,6 +2,7 @@
 title: Create an Individual Life Claims case
 description: Begin the claim process by initiating an individual life claim case on behalf of the claimant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/create-an-individual-life-claim-case.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\) icon.
+2.  Select the lists \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\) icon.
 
 3.  Create a case from the individual life claim cases list.
 
-<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d83681e87">
+<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d88071e87">
 
 Option
 
-</th><th align="left" id="d83681e90">
+</th><th align="left" id="d88071e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d83681e96">
+</th></tr></thead><tbody><tr><td id="d88071e96">
 
 **Individual life claim**
 
@@ -60,15 +61,15 @@ Steps
 
 9.  In the Reporter details activity, enter the details of the entity reporting the incident.
 
-<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d83681e175">
+<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d88071e175">
 
 Reporter status
 
-</th><th align="left" id="d83681e178">
+</th><th align="left" id="d88071e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d83681e184">
+</th></tr></thead><tbody><tr><td id="d88071e184">
 
 **Is a policy participant**
 
@@ -79,7 +80,7 @@ Steps
 3.  In the **Consumer** \(person\) or **Account** \(company\) field, use the search function to search for policy participants. The contact details populate after selecting the participant.
 
 
-</td></tr><tr><td id="d83681e217">
+</td></tr><tr><td id="d88071e217">
 
 **Is not a policy participant**
 
@@ -107,5 +108,5 @@ A claim case is created in the New state and the workflow is triggered. If appli
 
 ## What to do next
 
-Assign cases to yourself and start working on them. For more information, see [Adjuster activities](../concept/adjuster-tasks-workspace-persona.md).
+Assign cases to yourself and start working on them. For more information, see [Adjuster activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.md).
 

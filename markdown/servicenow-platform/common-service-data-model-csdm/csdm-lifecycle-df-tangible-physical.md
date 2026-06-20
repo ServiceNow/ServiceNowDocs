@@ -2,6 +2,7 @@
 title: Life cycle value definitions for tangible/physical entities
 description: The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physical life-cycle process are visible only in Asset and CMDB tables for tangible/physical models and assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
 
 ## Definitions of tangible/physical life cycle stage and life cycle stage status values
 
-![Relationships between CSDM stages and life cycle values.](../image/csdm-lifecycle-vp-tangible-physical.png)
+\[Omitted image "csdm-lifecycle-vp-tangible-physical.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
 -   **Ideation life cycle stage**
 
@@ -100,5 +101,5 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
     -   **Buyout**: The asset was leased and has been purchased instead of returned. 
     -   **Lease Return**: The leased asset has been returned to the vendor at the end of its lease period.
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

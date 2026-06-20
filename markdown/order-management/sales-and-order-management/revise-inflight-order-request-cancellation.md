@@ -2,6 +2,7 @@
 title: Revise an inflight order or request a cancellation
 description: Revise an inflight order, or order line item, or request a cancellation of a customer order or a service order when a user requests it or your internal personnel determine an order revision or cancellation is necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/revise-inflight-order-request-cancellation.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -30,5 +31,5 @@ Order revision or cancellation is a two-step process. First, an operator makes t
 2.  Select, revise, or request a cancellation of the customer order, customer order line item, service order, or service order line item.
 
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/inflight-order-change-mgt-overview.md)
 

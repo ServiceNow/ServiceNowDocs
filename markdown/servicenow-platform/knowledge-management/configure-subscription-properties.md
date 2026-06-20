@@ -2,6 +2,7 @@
 title: Configure knowledge subscriptions
 description: Configure knowledge subscriptions by activating the Knowledge Management Advanced plugin and setting the subscription properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/configure-subscription-properties.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

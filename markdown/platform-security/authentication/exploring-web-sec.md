@@ -2,6 +2,7 @@
 title: Exploring Web service security
 description: Enforce security using basic authentication, mutual authentication, or WS-Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/exploring-web-sec.html
 release: yokohama
 product: Authentication
 classification: authentication

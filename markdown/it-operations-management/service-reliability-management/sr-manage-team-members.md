@@ -2,6 +2,7 @@
 title: Add team members to SRM
 description: Add new team members to your team as required to plan, manage, resolve issues, and increase the efficiency of your business operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-manage-team-members.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Teams** icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the primary navigation, select the **Teams** icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the team card to open.
 
@@ -42,5 +43,5 @@ Role required: Manager, or Administrator
 7.  Select **Add**.
 
 
-**Parent Topic:**[Add an SRM team](sr-create-team.md)
+**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-team.md)
 

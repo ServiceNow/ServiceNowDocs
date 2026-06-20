@@ -2,6 +2,7 @@
 title: Install AI Risk and Compliance Content
 description: You can install the AI Risk and Compliance Content application \(sn\_grc\_ai\_gov\_cont\) if you have the admin role. This application is a centralized repository of frameworks, citations, control objectives, risk statements, and assessment templates. Using this application accelerates customers an operational head-start when adopting various regulations and frameworks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -79,5 +80,5 @@ The AI Risk and Compliance content pack is installed.
 
 ## What to do next
 
-[Verify AI Risk and Compliance Content](verify-content.md)
+[Verify AI Risk and Compliance Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/verify-content.md)
 

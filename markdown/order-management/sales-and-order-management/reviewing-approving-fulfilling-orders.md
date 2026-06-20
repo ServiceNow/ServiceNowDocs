@@ -2,6 +2,7 @@
 title: Using Order Management
 description: You can manage and fulfill customer orders and service orders in the Order Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/reviewing-approving-fulfilling-orders.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -34,18 +35,18 @@ You can capture customer \(product\) and service orders from the following sourc
     -   Third-party order management systems through the Product Ordering Open \(TMF622\) or Service Order Open \(TMF641\) APIs.
     -   Through the Service Exchange in the San Diego and later releases.
 
--   **[Create an order in Order Management](../task/som-create-product-order.md)**  
+-   **[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-create-product-order.md)**  
 Create a product or service order in Order Management.
--   **[Managing inflight order changes and cancellation requests](inflight-order-change-mgt-overview.md)**  
+-   **[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/inflight-order-change-mgt-overview.md)**  
 Manage how your organization receives changes for customer orders, service orders or individual line items that are still being orchestrated and fulfilled. By using inflight change order management, you can designate when you permit such changes. You can also assess the impact of the requested changes for an order or order line item, and automatically generate a plan to compensate for them when you approve the revision or cancellation request.
--   **[Managing order fallout](fallout-management-overview.md)**  
+-   **[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/fallout-management-overview.md)**  
 Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
--   **[Reviewing customer or partner accounts](reviewing-customer-accounts.md)**  
+-   **[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/reviewing-customer-accounts.md)**  
 Learn how your order entry and fulfillment agents, managers, and fulfillers can use the 360 View in the Order Management application to get a better perspective about the activity that is associated with a customer's or partner's account.
--   **[View an order timeline](../task/view-order-timelines.md)**  
+-   **[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/view-order-timelines.md)**  
 View Gantt chart timelines that display the status of a domain order and order tasks, show dependencies between order tasks, and identify tasks that are in jeopardy.
--   **[Monitoring Jeopardy Management](../task/monitoring-jeopardy-management.md)**  
+-   **[Monitoring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/monitoring-jeopardy-management.md)**  
 Order managers and agents can monitor jeopardy-enabled fulfillment tasks. When a task enters jeopardy, managers can take action to ensure the fulfillment workflow isn’t delayed.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/som-using.md)
 

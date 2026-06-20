@@ -2,11 +2,12 @@
 title: Set up and maintain a question bank
 description: After you add a question to a question bank, you can reuse it in any assessment by dropping it into the assessment. You can create custom questions, add existing questions, or add and customize the sample questions that are included with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,23 +30,23 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 4.  Add an assessment metric \(a question\) to the category using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d72817e102">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d75375e102">
 
 Option
 
-</th><th align="left" id="d72817e105">
+</th><th align="left" id="d75375e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72817e111">
+</th></tr></thead><tbody><tr><td id="d75375e111">
 
 **Create a question**
 
 </td><td>
 
-Select **New** and fill out the form. For more information, see [Define a question](tprm-questions-create.md).
+Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
-</td></tr><tr><td id="d72817e134">
+</td></tr><tr><td id="d75375e134">
 
 **Add a question**
 

@@ -2,6 +2,7 @@
 title: Migrate skills to the Task Skill table
 description: Migrate data from the Skills field to the Task Skills table to utilize mandatory skills support for executing tasks in a case or work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/migrate-skills-m2m-table.html
 release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -29,17 +30,17 @@ In the Field Service Management application, the work order task assignments don
 
 ## Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings.
+1.  Add a system property with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d54578e85">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d55891e85">
 
 Option
 
-</th><th align="left" id="d54578e88">
+</th><th align="left" id="d55891e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54578e94">
+</th></tr></thead><tbody><tr><td id="d55891e94">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -51,7 +52,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d54578e119">
+</td></tr><tr><td id="d55891e119">
 
 **Create a system property for a table in the Field Service Management application.**
 

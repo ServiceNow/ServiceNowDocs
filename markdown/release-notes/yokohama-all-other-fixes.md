@@ -2,6 +2,7 @@
 title: All other Yokohama fixes
 description: The Yokohama release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-all-other-fixes.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -17,7 +18,7 @@ The Yokohama release contains important problem fixes.
     -   Build date: 01-22-2025\_0439
     -   Build tag: glide-yokohama-12-18-2024\_\_patch0-01-14-2025
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -14488,5 +14489,5 @@ PRB1655206
 After selecting 'View all knowledge matches' from the global search results, the search group conditions aren't honored in the knowledge.do results
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+</table>**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

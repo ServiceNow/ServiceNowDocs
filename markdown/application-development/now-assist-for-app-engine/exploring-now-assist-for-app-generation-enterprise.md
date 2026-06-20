@@ -2,6 +2,7 @@
 title: Exploring Now Assist for App Engine
 description: Now Assist for App Engine enables you to create and deploy AI agents within custom applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.html
 release: yokohama
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -37,5 +38,5 @@ Use the tools and components in Now Assist for App Engine to build AI agents and
 
 ## What to explore next
 
-To learn more about Now Assist for App Engine, see [Installing Now Assist for App Engine](../task/install-now-assist-for-app-engine.md) and [Use Now Assist for App Engine](use-now-assist-for-app-engine-enterprise.md).
+To learn more about Now Assist for App Engine, see [Installing Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md) and [Use Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

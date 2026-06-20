@@ -2,6 +2,7 @@
 title: Accept or reject a work order task on a mobile device
 description: Accept or reject a work order task assigned to you through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/self-assign.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -45,5 +46,5 @@ The task is either accepted or rejected. If the task is rejected, it is reassign
 
 -   If an agent rejects the task, it is reassigned to the agent's manager.
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

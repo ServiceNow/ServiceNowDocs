@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Docusign external content connector
 description: Define inclusion or exclusion filters to control which agreements you want your Docusign external content connector to make searchable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-docusign-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Define inclusion or exclusion filters to control which agreements you want your 
 
 ## Before you begin
 
-A connector admin must have already created the Docusign external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Docusign external content connector](create-ext-cont-connector-docusign.md).
+A connector administrator must have already created the Docusign external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-docusign.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Docusign external content connector retrieves agreements from all envelopes in its specified source system and sends them to AI Search for indexing. You only need to perform this task if you want to apply any of the following filters to limit which envelopes the connector retrieves agreements from when running content crawls:
+This task is optional. By default, the Docusign external content connector retrieves agreements from all envelopes in its specified source system and sends them to AI Search for indexing. Only perform this task if you want to apply any of the following filters to limit which envelopes the connector retrieves agreements from when running content crawls:
 
 -   Inclusion or exclusion filter based on the sent date of the envelope
 -   Inclusion or exclusion filter based on the name of the envelope
@@ -85,7 +86,7 @@ The Docusign external content connector is updated with your modified crawl sett
 
 ## What to do next
 
-To retrieve content from your Docusign source system using your modified crawl settings, create and run a one-time content crawl for your Docusign external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Docusign source system using your modified crawl settings, create and run a one-time content crawl for your Docusign external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Docusign external content connector](../concept/docusign-external-content-connector.md)
+**Parent Topic:**[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/docusign-external-content-connector.md)
 

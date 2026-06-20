@@ -2,12 +2,13 @@
 title: Use the T1003 - Credential Dumping - Mimikatz DCsync playbook
 description: Use this playbook to investigate incidents suspected to be caused by Mimikatz DCSync. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1003 - Credential Dumping - Mimikatz DCsync playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-credential-dumping-mimikatz-dcsync.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Playbook for T1003 - Credential Dumping - Mimikatz DCSync, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -36,7 +37,7 @@ Role required:
 
 5.  In Action 5, if the server/endpoint/VM wasn’t used for credential dumping, perform the following actions:
 
-    ![Response task to check whether the server/endpoint/VM was used for credential dumping.](../image/playbook-mimikatz-dcsync-overview.png "T1003 - Credential Dumping - Mimikatz DCsync playbook")
+    \[Omitted image "playbook-mimikatz-dcsync-overview.png"\] Alt text: Response task to check whether the server/endpoint/VM was used for credential dumping.
 
     1.  In Action 6, update the alert query if necessary.
 
@@ -50,7 +51,7 @@ Role required:
 
 6.  If the server/endpoint/VM was used for credential dumping, then in Action 11, reach out the user.
 
-    ![Response tasks when the server/endpoint/VM was used for credential dumping](../image/playbook-mimikatz-dcsync-investigate.png "Using the T1003 - Credential Dumping - Mimikatz DCsync playbook")
+    \[Omitted image "playbook-mimikatz-dcsync-investigate.png"\] Alt text: Response tasks when the server/endpoint/VM was used for credential dumping
 
 7.  In Action 12, reach out to the user to validate the business justification.
 
@@ -71,5 +72,5 @@ Role required:
 12. In Action 20, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](../concept/playbook-credential-dumping-mimikatz-dcsync.md)
+**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-credential-dumping-mimikatz-dcsync.md)
 

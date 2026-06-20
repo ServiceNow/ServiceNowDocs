@@ -2,6 +2,7 @@
 title: Create an attestation for a hardware asset
 description: Validate a particular serialized hardware asset by creating an attestation for that asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/attest-single-asset-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,7 +28,7 @@ Role required: asset or inventory\_admin
 
 3.  Select the asset that you want to attest.
 
-4.  Select the More Options icon \(![More options icon](../image/more-actions-icon.png)\) on the asset form.
+4.  Select the More Options icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More options icon\) on the asset form.
 
 5.  Select **Create attestation**.
 
@@ -42,5 +43,5 @@ Role required: asset or inventory\_admin
     3.  Select the attestation record.
 
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Telecom Discovery
 description: ServiceNow Telecom Discovery solution builds on proven technologies within the ServiceNow platform, leveraging powerful capabilities such as ITOM Visibility and Horizontal Discovery, and the Service Graph Connectors. Each of these components plays a key role in supporting telecom-specific use cases while also maintaining flexibility for general IT/Cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/exploring-telecom-discovery.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -15,7 +16,7 @@ breadcrumb: [Telecom Discovery, TSOM Visibility, Telecommunications Service Oper
 
 ServiceNow® Telecom Discovery solution builds on proven technologies within the ServiceNow® platform, leveraging powerful capabilities such as ITOM Visibility and Horizontal Discovery, and the Service Graph Connectors. Each of these components plays a key role in supporting telecom-specific use cases while also maintaining flexibility for general IT/Cloud discovery.
 
-![telecom network.](../images/exploring-telecom-discovery.png)
+\[Omitted image "exploring-telecom-discovery.png"\] Alt text: telecom network.
 
 The TSOM Visibility Plugins can be seamlessly used alongside the ITOM Visibility to enhance infrastructure discovery and visibility. By integrating these plugins, organizations can leverage TSOMs advanced Telecommunications Discovery Patterns and Service Graph Connectors \(SGC\) with ITOM's capabilities, enabling comprehensive identification and mapping of network components, services, and configurations. This combined approach confirms an accurate and enriched data population within the CMDB, providing a unified and detailed view of IT and telecom network resources.
 
@@ -29,7 +30,7 @@ Plugin name: sn\_sgc\_altiplano\_connector.
 
 Plugin description: Service Graph Connector for Nokia Altiplano.
 
-For more information, see [Telecom Discovery using Service Graph Connectors \(SGC\)](telecom-discovery-using-service-graph-connector.md).
+For more information, see [Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md).
 
 ## Telecommunications Discovery Patterns \(TSOM Patterns\)
 
@@ -39,7 +40,7 @@ Plugin name: sn\_tsom\_patterns.
 
 Plugin description: Telecommunication Discovery Patterns.
 
-For more information, see [Telecom Discovery using Telecommunications Discovery Patterns](telecom-discovery-using-telecommunication-discovery-pattern.md).
+For more information, see [Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
 ## TSOM Visibility plugin
 
@@ -49,14 +50,14 @@ Plugin name: sn\_tsom\_core.
 
 Plugin description: Telecom Service Operations Core.
 
-For more information, see [Telecom Discrepancy Identification and Reconciliation](telecom-reconciliation.md).
+For more information, see [Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md).
 
 ServiceNow provides customers and partners with the capability to create and modify Service Graph Connectors and Telecommunications Discovery Patterns. To simplify this process, ServiceNow has developed a set of **no-code/low-code UI-based design tools**. These tools enable users to customize and extend Service Graph Connectors and Patterns without needing deep coding expertise, confirming flexibility, and faster deployment of tailored solutions for specific network environments.
 
--   **[Telecom Discovery using Telecommunications Discovery Patterns](telecom-discovery-using-telecommunication-discovery-pattern.md)**  
+-   **[Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md)**  
 The new Telecommunication Discovery Patterns \(also known as TSOM Patterns\) include patterns for discovering standalone xNFs, enabling the discovery of standalone network elements without a management system, using SNMP, CLI, and NETCONF \(roadmap\) protocols.
--   **[Telecom Discovery using Service Graph Connectors \(SGC\)](telecom-discovery-using-service-graph-connector.md)**  
+-   **[Telecom Discovery using Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-service-graph-connector.md)**  
 Service Graph Connectors are predefined integrations that ingest data into the Configuration Management Database \(CMDB\) from third-party sources \(for example, northbound APIs of EMS/NMS/Controllers, which manage various xNFs\) across different network domains, while enabling a structured, telecom-model-aligned view of network resources and services.
 
-**Parent Topic:**[Telecom Discovery](telecom-discovery-tsom-visibility.md)
+**Parent Topic:**[Telecom Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-tsom-visibility.md)
 

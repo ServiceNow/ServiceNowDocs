@@ -2,7 +2,10 @@
 title: Using Activity stream in an email interaction
 description: View an email conversation between an agent and a customer in the Activity stream of the email interaction. The Activity stream enables agents to communicate with customers and make internal notes about the work done on an interaction. The Activity stream updates when an email is sent or received, or when a work note is posted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/using-activity-stream-in-an-email-interaction.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -71,18 +74,18 @@ Filter posts
 
 </td><td>
 
-Select the filter icon \(![Filter icon](../image/Filter_icon.jpg)\) at the top of the Activity section to display the filter options: -   Post types: Select the types of posts to view, such as emails, work notes, or field changes.
+Select the filter icon \(\[Omitted image "Filter\_icon.jpg"\] Alt text: Filter icon\) at the top of the Activity section to display the filter options: -   Post types: Select the types of posts to view, such as emails, work notes, or field changes.
 
-![Post types](../image/Post_types_EaaI.jpg)
+\[Omitted image "Post\_types\_EaaI.jpg"\] Alt text: Post types
 
 -   Field changes:  Select specific fields to view information in posts for only those fields.
 
-![Field Changes](../image/Field_types_EaaI.jpg)
+\[Omitted image "Field\_types\_EaaI.jpg"\] Alt text: Field Changes
 
 -   Flagged: View posts that have been flagged as important.
 -   Filter sets: Select a filter set to filter the items based on the defined criteria or select **Create Filter** to create a filter.
 
-![Filter sets](../image/Filter_sets_EaaI.jpg)
+\[Omitted image "Filter\_sets\_EaaI.jpg"\] Alt text: Filter sets
 
 
 </td></tr><tr><td>
@@ -91,7 +94,7 @@ Search
 
 </td><td>
 
-Select the search icon \(![Search icon](../image/search_icon.png)\) to search for a message.
+Select the search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon\) to search for a message.
 
 </td></tr><tr><td>
 
@@ -99,7 +102,7 @@ Sort posts
 
 </td><td>
 
-Select the Sort icon \(![Sort icon](../image/Sort_icon_eaaI.jpg)\) to sort posts from newest to oldest or oldest to newest.
+Select the Sort icon \(\[Omitted image "Sort\_icon\_eaaI.jpg"\] Alt text: Sort icon\) to sort posts from newest to oldest or oldest to newest.
 
 </td></tr><tr><td>
 
@@ -107,7 +110,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select the Expand all activity post icon \(![Exapnd all activity post icon](../image/Expand_icon.jpg)\) to view additional details in posts or select the Collapse all activity post icon \(![Collapse all activity post icon](../image/Collapse_icon.jpg)\) to go back to the previous state.
+Select the Expand all activity post icon \(\[Omitted image "Expand\_icon.jpg"\] Alt text: Exapnd all activity post icon\) to view additional details in posts or select the Collapse all activity post icon \(\[Omitted image "Collapse\_icon.jpg"\] Alt text: Collapse all activity post icon\) to go back to the previous state.
 
 </td></tr></tbody>
 </table>

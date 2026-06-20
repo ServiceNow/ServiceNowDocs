@@ -2,6 +2,7 @@
 title: Submit Invoice Inquiry
 description: Supplier uses the Supplier Collaboration Portal to create an inquiry related to an invoice and submits it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,15 +26,15 @@ Role required: Supplier
 
 2.  On the **Submit an invoice inquiry** form, enter the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d115218e77">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d62490e77">
 
 Question
 
-</th><th align="left" id="d115218e80">
+</th><th align="left" id="d62490e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115218e86">
+</th></tr></thead><tbody><tr><td id="d62490e86">
 
 **Which supplier?**
 
@@ -41,7 +42,7 @@ Description
 
 Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company** tab.
 
-</td></tr><tr><td id="d115218e98">
+</td></tr><tr><td id="d62490e98">
 
 **What invoice would you like to inquire about?**
 
@@ -49,7 +50,7 @@ Supplier- Displays the name of the supplier associated with the supplier contact
 
 Invoice number- Choose the invoice number on which you need to inquire from the drop-down list. The drop-down lists the invoice numbers of the supplier displayed in **Which supplier?** field.
 
-</td></tr><tr><td id="d115218e110">
+</td></tr><tr><td id="d62490e110">
 
 **What kind of invoice inquiry would you like to make?**
 
@@ -60,9 +61,9 @@ Inquiry type- Choose the type of inquiry that you would like to ask an Account P
 -   Expedite payment request
 -   Payment term issue
 -   Invoice entry assistance
-For more information on invoice inquiry, see [Invoice inquiry cases](../concept/work-with-inquiry-cases.md).
+For more information on invoice inquiry, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
-</td></tr><tr><td id="d115218e144">
+</td></tr><tr><td id="d62490e144">
 
 **Please describe your inquiry below in detail:**
 
@@ -82,5 +83,5 @@ Description- Detailed description about the invoice inquiry.
 
 Invoice inquiry case is created.
 
-**Parent Topic:**[Working with Supplier Catalog](../concept/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

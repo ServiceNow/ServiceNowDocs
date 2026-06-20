@@ -2,11 +2,12 @@
 title: Create a VRM tiering assessment
 description: The TPR assessor creates a tiering assessment from the vendor record, initiating the third-party risk tiering assessment life cycle. Also, third-party risk managers can select multiple third parties at a time and trigger multiple third-party risk tiering assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-tiering-assessment-create.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [VRM third-party risk tiering assessments, Work in the VRM classic UI, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

@@ -2,6 +2,7 @@
 title: Set display limit for goals and targets in Strategic Planning
 description: Update system property value to set the display limit for goals on the Goals page in Strategic Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/set-display-limits-for-goals-and-targets-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -38,5 +39,5 @@ The default display limit for goals on the Goals page is 500.
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

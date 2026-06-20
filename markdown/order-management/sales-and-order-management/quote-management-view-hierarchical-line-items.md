@@ -2,6 +2,7 @@
 title: Use hierarchical list view for quote line items
 description: Sales agents can view quote line items as a hierarchical list, which helps to view the parent and child relationship between line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-view-hierarchical-line-items.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -31,10 +32,10 @@ Role required: sales\_agent
 
     |Control|Description|
     |-------|-----------|
-    |Caret ![](../image/icon-caret.png)|Opens the hierarchical list view showing the child line items.|
-    |Pencil ![](../image/icon-pencil.png)|Make additional configuration changes to the products in the line item.|
-    |Number ![](../image/icon-list-item-number.png)|Shows the number of child line items contained in the parent line item.|
-    |Filter ![](../image/icon-filter.png)|Filters line items.|
-    |Toggle ![](../image/icon-list-toggle.png)|Toggles between hierarchical view and standard view.|
+    |Caret \[Omitted image "icon-caret.png"\]|Opens the hierarchical list view showing the child line items.|
+    |Pencil \[Omitted image "icon-pencil.png"\]|Make additional configuration changes to the products in the line item.|
+    |Number \[Omitted image "icon-list-item-number.png"\]|Shows the number of child line items contained in the parent line item.|
+    |Filter \[Omitted image "icon-filter.png"\]|Filters line items.|
+    |Toggle \[Omitted image "icon-list-toggle.png"\]|Toggles between hierarchical view and standard view.|
 
 

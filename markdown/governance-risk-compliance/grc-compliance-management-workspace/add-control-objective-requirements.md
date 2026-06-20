@@ -2,6 +2,7 @@
 title: Add control objective requirements
 description: Control objective requirements can be manually added or selected from existing requirements when configuring a control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-compliance-management-workspace/add-control-objective-requirements.html
 release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

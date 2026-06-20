@@ -2,6 +2,7 @@
 title: View SRM reliability metrics
 description: View a service level objective \(SLO\) and service level indicator \(SLI\) that your or your team owns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-level-objective-management/sr-view-slo.html
 release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -29,7 +30,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Services** icon \(![Services icon](../image/icon-sr-services.png)\).
+2.  From the primary navigation, select the **Services** icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
 3.  Select the **Reliability metrics** tab.
 
@@ -87,7 +88,7 @@ Role required: Responder, Manager, or Administrator
 
     If you retire an SLO, it changes the state. You can **Re-activate** it from the SLO page or later from the **Reliability metrics** tab.
 
-    **Note:** If you edit an SLO, it changes the state, retires the SLO record, and opens a new copy for editing. See [Create SLOs, SLIs, and error budget policies](../../slo-management/task/sr-create-slo-sli.md) for more information. You can reactivate the original SLO by returning to the **Reliability metrics** tab.
+    **Note:** If you edit an SLO, it changes the state, retires the SLO record, and opens a new copy for editing. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more information. You can reactivate the original SLO by returning to the **Reliability metrics** tab.
 
 6.  View the **Overview** tab and select a Historic period from the list menu.
 
@@ -95,7 +96,7 @@ Role required: Responder, Manager, or Administrator
 
 7.  View **Summary** metric cards for the SLO.
 
-    The metrics show aggregate or average values depending on the type of SLIs chosen and error policy thresholds chosen. See [Create SLOs, SLIs, and error budget policies](../../slo-management/task/sr-create-slo-sli.md) for more detailed information.
+    The metrics show aggregate or average values depending on the type of SLIs chosen and error policy thresholds chosen. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more detailed information.
 
 8.  View the **Service level indicators** section.
 
@@ -119,7 +120,7 @@ Role required: Responder, Manager, or Administrator
 
 10. View the **Details** tab.
 
-    The fields in this tab are auto-populated and uneditable. See [Create SLOs, SLIs, and error budget policies](../../slo-management/task/sr-create-slo-sli.md) for detailed information on the fields.
+    The fields in this tab are auto-populated and uneditable. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for detailed information on the fields.
 
 11. View the **Service level indicators** tab.
 
@@ -129,8 +130,8 @@ Role required: Responder, Manager, or Administrator
 
     In this tab, you can add more thresholds and edit or delete existing ones.
 
-    ![Error budget policy page.](../image/sr-slo-error-budget-policy.png)
+    \[Omitted image "sr-slo-error-budget-policy.png"\] Alt text: Error budget policy page.
 
 
-**Parent Topic:**[Using SLO Management](../../slo-management/task/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

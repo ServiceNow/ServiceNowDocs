@@ -2,6 +2,7 @@
 title: Troubleshooting MFA enforcement
 description: Troubleshooting information due to the MFA enforcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/troubleshoot-mfa-enforcement.html
 release: yokohama
 product: Authentication
 classification: authentication

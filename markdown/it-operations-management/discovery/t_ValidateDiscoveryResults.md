@@ -2,6 +2,7 @@
 title: Validate discovery results
 description: Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/t\_ValidateDiscoveryResults.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -27,7 +28,7 @@ Initial discoveries often reveal unexpected results, such as previously unknown 
 
 1.  To view the actual payload of a probe, click the **XML** icon in a record in the ECC Queue.
 
-    ![ECC Queue](../image/DiscoveryECCQueueView.png "ECC Queue")
+    \[Omitted image "DiscoveryECCQueueView.png"\] Alt text: ECC Queue
 
 2.  To view the actual payload of a probe, click the **XML** icon in a record in the ECC Queue.
 
@@ -35,7 +36,7 @@ Initial discoveries often reveal unexpected results, such as previously unknown 
 
     To display the Discovery Log, navigate to **Discovery** &gt; **Discovery Log**.
 
-    ![The Discovery log](../image/DiscoveryLog.png "Discovery Log")
+    \[Omitted image "DiscoveryLog.png"\] Alt text: The Discovery log
 
     The Discovery Log provides this information:
 
@@ -112,8 +113,8 @@ Displays the IP address explored by the probe. Click this link to examine all th
 
     -   Existing sensor jobs that have started processing are immediately terminated.
     -   The existing sensor jobs that are in a **Ready** state, but have not started processing, are deleted from the system.
-4.  View the [Discovery Home page](../concept/discovery-home-page.md#) for details about all schedules, cloud resources \(virtual machines\), discovered devices, and related errors that might have occurred.
+4.  View the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-home-page.md) for details about all schedules, cloud resources \(virtual machines\), discovered devices, and related errors that might have occurred.
 
-    [Error details](../concept/discovery-home-page.md#) include possible remediation steps.
+    [Error details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-home-page.md) include possible remediation steps.
 
 

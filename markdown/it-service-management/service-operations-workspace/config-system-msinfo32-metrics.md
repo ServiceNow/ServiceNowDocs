@@ -2,6 +2,7 @@
 title: Configure system overview - msinfo32 metrics
 description: Configure the system overview - msinfo32 metrics for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/config-system-msinfo32-metrics.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 2.  Create a MECM script with the name `createMSInfo32File`.
 
-    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](create-mecm-script.md).
+    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-mecm-script.md).
 
 3.  Provide the following code in the script block.
 
@@ -44,7 +45,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 4.  Create a MECM script with the name `checkMsInfo32FileExist`.
 
-    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](create-mecm-script.md).
+    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-mecm-script.md).
 
 5.  Provide the following code in the script block.
 
@@ -70,7 +71,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 6.  Create a MECM script with the name `fetchMsInfo32File`.
 
-    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](create-mecm-script.md).
+    For more information, see [Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-mecm-script.md).
 
 7.  Provide the following code in the script block.
 
@@ -105,10 +106,10 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 11. In the **Action input** field, add the script GUID.
 
-    ![System overview - msinfo32](../image/mecm-msinfo32-edit.png)
+    \[Omitted image "mecm-msinfo32-edit.png"\] Alt text: System overview - msinfo32
 
 12. Click **Update**.
 
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](../concept/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

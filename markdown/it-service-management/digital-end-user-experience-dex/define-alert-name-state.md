@@ -2,6 +2,7 @@
 title: Define metric rule name and status
 description: Define metric rule attributes, including the name and state, such as active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/define-alert-name-state.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.admin
 
     The metric rule is active by default.
 
-2.  For setting the status of the metric rule, use the **Active** slider \(![Use the toggle switch to activate the metric rule.](../image/icon-toggle-button-enabled.png)\) to enable or disable the rule.
+2.  For setting the status of the metric rule, use the **Active** slider \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate the metric rule.\) to enable or disable the rule.
 
 3.  Select **Finish**.
 

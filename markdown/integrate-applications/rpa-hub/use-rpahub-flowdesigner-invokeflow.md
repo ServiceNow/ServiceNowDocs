@@ -2,6 +2,7 @@
 title: Use the InvokeFlow component
 description: Invoke or call a flow that is available in Workflow Studio by using the InvokeFlow component of RPA Desktop Design Studio. Generate the context ID of the flow and use the ID in other flow designer components to get the execution status and output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-rpahub-flowdesigner-invokeflow.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,13 +18,13 @@ Invoke or call a flow that is available in Workflow Studio by using the InvokeFl
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+To understand more about flows in Workflow Studio, see .
 
-Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
+Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connect-studio-instance-rpa.md).
 
-Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on an RPA Hub flow or subflow](enable-client-flow-rpa.md).
+Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on an RPA Hub flow or subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/enable-client-flow-rpa.md).
 
-Role required: fd\_read role. For more information on this role, see [User access to Workflow Studio flows](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+Role required: fd\_read role. For more information on this role, see .
 
 ## About this task
 
@@ -37,7 +38,7 @@ Add the InvokeFlow component to get the context ID of a flow so other Flow Desig
 
 2.  Drag the InvokeFlow component to the Design surface.
 
-3.  On the Design surface, select the Configure button ![Configure icon.](../image/component-settings-icon.png) of the InvokeFlow component to show the InvokeFlow dialog box.
+3.  On the Design surface, select the Configure button \[Omitted image "component-settings-icon.png"\] Alt text: Configure icon. of the InvokeFlow component to show the InvokeFlow dialog box.
 
 4.  In the **Flow name** field, enter a minimum of three characters to search and select Enter.
 
@@ -51,12 +52,12 @@ Add the InvokeFlow component to get the context ID of a flow so other Flow Desig
 
 7.  Configure the properties of the InvokeFlow component.
 
-    For more information, see [Properties of the Flow Designer components](../reference/properties-flow-designer-components.md).
+    For more information, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/properties-flow-designer-components.md).
 
     You can now connect the **Context ID** port to another Flow Designer component such as GetExecutionStatus or GetOutputs.
 
 8.  To test the component, in the **Design** tab, click **Run**.
 
 
-**Parent Topic:**[Flow Designer components](../concept/flow-designer-components.md)
+**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/flow-designer-components.md)
 

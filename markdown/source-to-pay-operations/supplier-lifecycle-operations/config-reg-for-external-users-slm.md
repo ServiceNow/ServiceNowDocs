@@ -2,6 +2,7 @@
 title: Configure self-registration for external users
 description: Configure self-registration for external users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see [Activate External User Self-Registration](https://www.servicenow.com/docs/access?context=external-user-registration-plugin&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+Ensure that you have activated the com.snc.external\_user\_self\_registration plugin. For more information, see Activate External User Self-Registration.
 
 ## Procedure
 
@@ -31,14 +32,14 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
 2.  On the User Registration Configuration form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Create a user registration configuration for external users](https://www.servicenow.com/docs/access?context=external-user-configuration&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+    For more information about the form fields and descriptions, see Create a user registration configuration for external users.
 
 3.  From the form context menu, select **Save**.
 
 4.  Select the **Registration** tab, and do the following:
 
     1.  In the Mandatory column for the **First name** and **Last name** fields, double-click and select **true** to make these fields mandatory.
-    2.  Select the green check mark icon \(![Green check mark icon.](../image/green-check-mark.png)\) to save your changes.
+    2.  Select the green check mark icon \(\[Omitted image "green-check-mark.png"\] Alt text: Green check mark icon.\) to save your changes.
 5.  Configure the **Verification** tab to verify the identity of the registered users.
 
     When the user verification flow triggers, an activation link is sent to the user's registered email address.
@@ -80,8 +81,8 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
     **Note:**
 
-    -   The **Supplier name** field has been added in the Xanadu December 2024 upgrade. To enable and register this field, customize the registration form by adding the new supplier field with field label: Supplier name and column name: u\_supplier\_name. For more information, see [Configuring a user registration configuration for external users](https://www.servicenow.com/docs/access?context=external-user-configuration&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
-    -   If you need to add a supplier contact whose email domain differs from the supplier's domain, you must also [Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md).
+    -   The **Supplier name** field has been added in the Xanadu December 2024 upgrade. To enable and register this field, customize the registration form by adding the new supplier field with field label: Supplier name and column name: u\_supplier\_name. For more information, see .
+    -   If you need to add a supplier contact whose email domain differs from the supplier's domain, you must also [Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md).
 17. In the Variables related list, select and open the **First name**, **Last name**, **Email**, and **Supplier name** \(if configured in the previous step\) records individually.
 
 18. In the First name variable record, select the **Mandatory** check box and select **Save**.
@@ -145,20 +146,20 @@ Ensure that you have activated the com.snc.external\_user\_self\_registration pl
 
 Do the following:
 
--   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](sys-prop-reg-email.md).
--   Configure the Vendor Contact table to send emails to contacts during self-registration. For more information, see [Configure the Vendor Contact table to send invitation emails during self-registration](config-vendor-contact-table.md).
--   If you do this task after installing the Supplier Collaboration Portal, map the external user registration configuration that you just created to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](map-ext-user-to-supp-central.md).
+-   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
+-   Configure the Vendor Contact table to send emails to contacts during self-registration. For more information, see [Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md).
+-   If you do this task after installing the Supplier Collaboration Portal, map the external user registration configuration that you just created to the Supplier Collaboration Portal. For more information, see [Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md).
 
--   **[Configure the flow to create approval records for all supplier contact invite requests](invite-contact-approval.md)**  
+-   **[Configure the flow to create approval records for all supplier contact invite requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.md)**  
 Typically, an approval record is created only when a supplier contact self-registers to get access to the Supplier Collaboration Portal. However, a supplier admin can configure the Supplier Contact Onboarding flow to create approval records even when a supplier manager adds or invites a new supplier contact.
--   **[Map the self-registration configuration to Supplier Collaboration Portal](map-ext-user-to-supp-central.md)**  
+-   **[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)**  
 Map the external user self-registration configuration to the Supplier Collaboration Portal.
--   **[Configure system property to send registration emails to external users](sys-prop-reg-email.md)**  
+-   **[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)**  
 Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users for accessing the Supplier Collaboration Portal.
--   **[Configure the Vendor Contact table to send invitation emails during self-registration](config-vendor-contact-table.md)**  
+-   **[Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md)**  
 Configure the Vendor Contact \[vm\_vdr\_contact\] table to send invitation emails to supplier contacts during the self-registration process.
--   **[Enable notifications about self-registration errors](enable-supp-admin-emails.md)**  
+-   **[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)**  
 Add the sn\_slm.admin role to the groups to enable supplier admins to receive an email if a supplier contact encounters an error during self-registration.
 
-**Parent Topic:**[Install Supplier Collaboration Portal](install-supp-central.md)
+**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 

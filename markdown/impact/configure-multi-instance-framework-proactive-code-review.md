@@ -2,7 +2,10 @@
 title: Configure the Multi-Instance Framework for Proactive Code Check
 description: Configuring the Multi-Instance Framework explains how to connect data movement from non-production instances to production instances. The mTLS must be installed and configured to connect non-production instances to production instances to allow data movement and synchronization. Before creating trust profiles, managing instances must also be configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/configure-multi-instance-framework-proactive-code-review.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-04-24"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ The following tasks summarize the steps required to install and configure the Mu
 
 ## Before you begin
 
-ADCv2 mTLS is required alongside the Multi-instance Framework mTLS \(com.glide.mif.mtls\) plugin for data sync to function correctly. See [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) for additional information on multi-instance management.
+ADCv2 mTLS is required alongside the Multi-instance Framework mTLS \(com.glide.mif.mtls\) plugin for data sync to function correctly. See  for additional information on multi-instance management.
 
 **Important:** Identify the primary production instance and all secondary instances where Impact Proactive Code Check will be used. The primary instance displays a consolidated view of non-production instance scan results.
 
@@ -35,7 +38,7 @@ Role required: admin
 
 1.  Verify if the instance has ADCv2 mTLS enabled by accessing the URL:`<instance>.service-now.com/adcv2/supports_tls`
 
-    ![URL example to verify mTLS installation](../image/verify-mTLS-url.png)
+    \[Omitted image "verify-mTLS-url.png"\] Alt text: URL example to verify mTLS installation
 
     |Value|Action|
     |-----|------|
@@ -54,7 +57,7 @@ Role required: admin
 
 6.  Navigate to **All** &gt; **Multi-Instance Management** &gt; **Manager Instances**.
 
-    ![Navigation path to MIF management for manager instances.](../image/multi-instance-manager.png)
+    \[Omitted image "multi-instance-manager.png"\] Alt text: Navigation path to MIF management for manager instances.
 
 7.  Create a record with the following values:
 
@@ -63,7 +66,7 @@ Role required: admin
     |Application|Impact Health|
     |Manager Instance|&lt;primary production instance&gt;|
 
-    ![Manager instances form.](../image/pcc-select-mgr-instance.png)
+    \[Omitted image "pcc-select-mgr-instance.png"\] Alt text: Manager instances form.
 
 8.  Log in to the primary production instance as admin.
 
@@ -75,7 +78,7 @@ Role required: admin
 
 12. Open the record **Trust Profile for Impact Health**.
 
-    ![Impact Health Trust Profile in Application Trust Profiles.](../image/pcc-trust-profile.png)
+    \[Omitted image "pcc-trust-profile.png"\] Alt text: Impact Health Trust Profile in Application Trust Profiles.
 
 13. Under the Active MIF Trust Profile Items related list, select **New**.
 
@@ -91,7 +94,7 @@ Role required: admin
     |Trusted Instance|&lt;primary production instance&gt;|
     |Description|Optional|
 
-    ![PCC New Trust Profile record.](../image/pcc-new-trust-profile.png)
+    \[Omitted image "pcc-new-trust-profile.png"\] Alt text: PCC New Trust Profile record.
 
     **Note:** A trust profile must be completed for each non-production instance to be registered as a Trusting Instance.
 
@@ -99,12 +102,12 @@ Role required: admin
 
 16. Select **Sync Trust Profiles**.
 
-    ![Sync Trust Profiles in Application Trust Profiles.](../image/pcc-sync-trust-profiles.png)
+    \[Omitted image "pcc-sync-trust-profiles.png"\] Alt text: Sync Trust Profiles in Application Trust Profiles.
 
 17. Navigate to **All** &gt; **Multi-Instance Management** &gt; **Trusting Instances**.
 
 18. Verify that you see a record for each non-production instance that you added to your trust profile.
 
-    See [Basic trust configuration for data sync applications](https://www.servicenow.com/docs/access?context=grant-access-other-instances&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) for additional information.
+    See  for additional information.
 
 

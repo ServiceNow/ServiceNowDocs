@@ -2,6 +2,7 @@
 title: Generate the resolution notes for a case by using Now Assist for Customer Service Management \(CSM\)
 description: Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -45,7 +46,7 @@ You can also generate resolution information on demand from the Now Assist panel
     -   **Resolution notes**
     If the **Resolution notes** field on the case record is empty, the resolution notes generation skill adds the information to this field in the modal.
 
-    ![AI-generated resolution information for a case record.](../image/now-assist-csm-propose-solution-modal.png "Propose Solution modal")
+    \[Omitted image "now-assist-csm-propose-solution-modal.png"\] Alt text: AI-generated resolution information for a case record.
 
 3.  Select a **Resolution code** for the case.
 
@@ -72,5 +73,5 @@ You can also generate resolution information on demand from the Now Assist panel
     -   The case moves to the Resolved state.
     -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Generate resolution notes in case form](gen-resolution-notes-in-case-form.md)
+**Parent Topic:**[Generate resolution notes in case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/gen-resolution-notes-in-case-form.md)
 

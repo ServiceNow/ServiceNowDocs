@@ -2,13 +2,14 @@
 title: Create and publish a cost book
 description: Create a cost book that defines the unit costs for products and services in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-cost-books.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a cost book
@@ -27,7 +28,7 @@ You can create multiple cost books for a given currency, but the first cost book
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Prices** &gt; **Cost Books**.
 
@@ -109,7 +110,7 @@ Start date
 
 </td><td>
 
-Starting date and time that the cost book is effective. Select the Calendar icon \(![Calendar icon.](../image/field-calendar.png)\) to choose the start date and time, then select **OK**. **Note:** If this date is for a default cost book, the start date must be either the current date or a date that is earlier than the current date.
+Starting date and time that the cost book is effective. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the start date and time, then select **OK**. **Note:** If this date is for a default cost book, the start date must be either the current date or a date that is earlier than the current date.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ End date
 
 </td><td>
 
-Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar \( ![Calendar icon.](../image/field-calendar.png)\) icon to choose the end date and time, then select **OK**.**Note:** If this date is for a default cost book, the end date is ignored.
+Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar \( \[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) icon to choose the end date and time, then select **OK**.**Note:** If this date is for a default cost book, the end date is ignored.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -133,5 +134,5 @@ Ending date and time of the cost book. After the ending time, the cost book is n
 
 ## What to do next
 
-[Create a cost book line](create-cost-book-lines.md).
+[Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-cost-book-lines.md).
 

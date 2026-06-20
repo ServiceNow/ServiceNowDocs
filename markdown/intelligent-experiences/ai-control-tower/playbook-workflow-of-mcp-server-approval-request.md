@@ -1,19 +1,20 @@
 ---
-title: MCP server approval request
-description: Explore the MCP server approval request.
+title: MCP server approval workflow
+description: Explore the Model Context Protocol \(MCP\) server approval workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-23"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers Via AI Gateway, Explore AI Gateway, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Process flow of MCP servers Via AI Gateway, Explore AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# MCP server approval request
+# MCP server approval workflow
 
-Explore the MCP server approval request.
+Explore the Model Context Protocol \(MCP\) server approval workflow.
 
 ## Before you begin
 
@@ -23,30 +24,34 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 1.  Navigate to **Al Control Tower** &gt; **AI assets** &gt; **Approvals**.
 
-2.  Open the MCP server approval request \(created in the previous step\).
+2.  Select the MCP server from the asset type filter or navigate to Lifecycle and filter by the current state of **New**.
 
-3.  In the **Playbook** tab, you can see the approvals workflow.
+3.  Select the MCP Server record with the status of **New**.
 
-    The approval request can be approved or rejected only by an AI steward.
+4.  Select **Start Review**.
 
-4.  Select **Save**.
+    **Note:** Within AI Agent Studio, the MCP Server shows a status of AI Steward review during this phase. Product Owners can select **View approval record** in AI Agent Studio to go directly to the MCP Server record in the AI Control Tower.
 
-5.  In the **Review asset**, you can view all the details of an asset in review.
+    A playbook is triggered to guide the approval process through these phases: Assess, Build and Test, and Deploy.
 
-6.  Select **Next**.
+5.  Select **Mark as Complete** for the Assess phase.
 
-    The approval status changes when the Review asset step is marked as complete.
+    **Note:** The Asses phase includes the Architecture review, Risk Assessment, and Stakeholder review.
 
-7.  In the **Evaluate asset**, you can create and assign the approval tasks to other individual AI stewards to evaluate the assets.
+6.  Complete the Build and Test phase activities.
 
-8.  Select **Next**.
+    **Note:** The Build and Test phase involves out-of-application testing and validation activities such as running a test AI agent using the MCP Server as a tool and validating the output received.
 
-9.  In the **Approval/Reject**, you can select the Risk classification from the drop-down menu and enter the Closing notes.
+7.  Select **Mark as Complete** for the Build and test phase.
 
-10. Select **Approve asset** to complete the workflow.
+8.  Select **Mark as Complete** for the Deploy phase.
 
-11. Select **Approve**.
+    **Note:** The Deploy phase is the final step to deploy and enable the MCP Server for usage.
 
-    The approval request is approved and then AI Gateway setup tab appears in the MCP server record. For information on the tabs appearing in the MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
+9.  Select **Save**.
+
+    **Note:**
+
+    The AI Gateway setup tab appears only after an MCP server request is approved. The AI steward can pause transactions whenever needed through this tab. For information on the tabs appearing in the MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md).
 
 

@@ -2,11 +2,12 @@
 title: Register a fourth-nth party
 description: Register fourth-nth parties after collecting responses from a third party by using the fourth-party registration questionnaire in the Third-party Risk Management application. With the fourth-party registration questionnaire, you can create multiple fourth-nth party records at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-fourth-party-register.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Monitoring your fourth-nth parties, Monitor third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,7 +32,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_assessor
 
     The third party must answer the first two questions in each Fourth-party information section. Don’t alter the first eight questions of each section because they’re used for mapping the responses to the new fourth-party record.
 
-    For more information on assessments, see [Assessing your third-party risk](../concept/tprm-assessing-tpr.md).
+    For more information on assessments, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md).
 
 3.  When you receive responses from the third-party contact, navigate to the **Downstream Suppliers** tab of the assessment and review the fourth-nth party information that was collected.
 
@@ -67,7 +68,7 @@ Downstream supplier
 
 </td><td>
 
-Fourth party record that is used after the fourth-nth party is approved and becomes active. You can enter an existing fourth-nth party by double-clicking \(or using the keyboard shortcut\) the downstream supplier field and selecting the magnifying glass icon ![](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg).
+Fourth party record that is used after the fourth-nth party is approved and becomes active. You can enter an existing fourth-nth party by double-clicking \(or using the keyboard shortcut\) the downstream supplier field and selecting the magnifying glass icon \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text:.
 
  This action helps you view existing records to avoid creating duplicate records.
 
@@ -92,6 +93,6 @@ Current state in the registration process: **In review**, **Active**, or **Ignor
 
     Once a fourth-nth party record is active, it’s fully registered and available for use in your risk management program.
 
-    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](../concept/tprm-monitor-fourth-parties.md).
+    For more information on fourth-nth parties, see [Monitoring your fourth-nth parties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-monitor-fourth-parties.md).
 
 

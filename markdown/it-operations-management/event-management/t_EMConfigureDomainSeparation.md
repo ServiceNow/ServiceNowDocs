@@ -2,6 +2,7 @@
 title: Configure Event Management domain separation
 description: You can configure Event Management for domain separation to create logically defined domains that limit unauthorized access to data. When domains are separated in Event Management, users can only see and manage alerts and events in their own \(tenant\) domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/t\_EMConfigureDomainSeparation.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -43,7 +44,7 @@ Supported. Separation is based on the domain user that sent events. User access 
 
 In a multi-domain environment, each MID Server can serve only one domain according to the integration user that it uses. In the configuration of the connector instance, make sure that the MID Server uses the same domain as the Connector instance..
 
-To configure pull connectors to support custom domain separation, see [Personalize domains for pull connector events to use in event creation](personalize-domain-separation-pull-connectors.md).
+To configure pull connectors to support custom domain separation, see [Personalize domains for pull connector events to use in event creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://www.servicenow.com/docs/access?context=flow-designer-domain-separation&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+For more information on domain separation in the Flow Designer, see Domain separation and Flow Designer.
 
 </td></tr><tr><td>
 
@@ -97,5 +98,5 @@ Supported. In domain-separated environments, alert groups are created only for a
 2.  Configure the connector instance to be in the same domain as the MID Server.
 
 
-**Parent Topic:**[Domain separation and Event Management](../concept/domain-separation-event-management.md)
+**Parent Topic:**[Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/domain-separation-event-management.md)
 

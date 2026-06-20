@@ -2,11 +2,12 @@
 title: Managing free-form roadmap views in Portfolio Planning
 description: Portfolio managers can create customized views for their free-form roadmap by applying personalization settings such as grouping, milestones selection, dependencies selection, and tracking mode. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the free-form roadmaps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create a free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -24,12 +25,12 @@ Portfolio managers can create personalized views as needed by applying settings 
 -   Free-form roadmap views can be shared with stakeholders to enable collaboration on the free-form roadmap.
 -   Switch between shared and private views as needed.
 
--   **[Create a free-form roadmap view in Portfolio Planning](../task/create-free-form-roadmap-view-ppw.md)**  
+-   **[Create a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md)**  
 Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Edit a free-form roadmap view in Portfolio Planning](../task/edit-free-form-roadmap-view-ppw.md)**  
+-   **[Edit a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.md)**  
 Edit a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Delete a free-form roadmap view in Portfolio Planning](../task/delete-free-form-roadmap-view-ppw.md)**  
+-   **[Delete a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/delete-free-form-roadmap-view-ppw.md)**  
 Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
-**Parent Topic:**[Create a free-form roadmap in Portfolio Planning Workspace](../task/create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

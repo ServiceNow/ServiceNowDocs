@@ -2,6 +2,7 @@
 title: Installed application Performance page
 description: The installed application overview section presents details on the total number of active incidents and alerts and also displays patterns in the type of reported issues. This information is crucial for effective incident management, resource allocation, and proactive identification of potential application vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/installed-app-health-form.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -73,5 +74,5 @@ Number of application freezes over the last 2 hours by version.
 
 **Note:** You can filter the performance metrics by either searching by location of the device or by app version running on the device in a selected time period.
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/application-form.md)
 

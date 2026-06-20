@@ -2,7 +2,10 @@
 title: Activate a new onboarding playbook with self-service
 description: Activate a new onboarding playbook with self-service in Playbooks \(PAD\) to ensure that the new playbook is visible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-a-new-onboarding-playbook-with-self-service-in-pad.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Schedule the project summary email
 description: Schedule the project summary email to prioritize and track the most important changes in the project in Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.html
 release: yokohama
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -32,7 +33,7 @@ By using the Project summary generation skill, you can generate a concise projec
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open any project.
 
-2.  From the planning page, select the more actions icon \(![More actions icon.](../../innovation-management/image/more-options-icon.png)\) and then select **Configure project insights**.
+2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Configure project insights**.
 
     You can view the configure project insights option only when the project summary generation skill is turned on.
 
@@ -72,5 +73,5 @@ Let's assume that you have selected a weekly cadence and chosen Monday \(which f
 -   If you select **Schedule**, the project summary is emailed to you and the recipients weekly on Mondays, starting from 2025-07-07 and continues until the project becomes inactive.
 -   If you select **Send preview**, you will receive an initial summary email immediately and will also receive summary according to the selected cadence and day.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

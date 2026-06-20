@@ -2,6 +2,7 @@
 title: Activate the CSDM plugin
 description: Activate the CSDM plugin so you can begin implementing the framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,16 +18,16 @@ Activate the CSDM plugin so you can begin implementing the framework.
 
 ## Before you begin
 
-**Important:** Before you activate the CSDM plugin, you must map your existing life-cycle data to standard CSDM attributes. The mapping enables you to track assets effectively through their life cycle transitions with the [CMDB Data Manager](../../configuration-management/concept/cmdb-data-management.md). For instructions, see [Migrate to CSDM life cycle standards](../../configuration-management/concept/csdm-life-cycle-standard-values.md#).
+**Important:** Before you activate the CSDM plugin, you must map your existing life-cycle data to standard CSDM attributes. The mapping enables you to track assets effectively through their life cycle transitions with the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md). For instructions, see [Migrate to CSDM life cycle standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 -   Role required: itil and itil\_admin
 
 ## Procedure
 
-1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in Activate a plugin.
 
-    For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+    For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Implementing the CSDM framework in stages](../concept/csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

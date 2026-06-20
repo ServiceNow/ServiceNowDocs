@@ -2,6 +2,7 @@
 title: Agent Workspace for Request Management
 description: Agent Workspace for Request Management integrates the platform functionality specific to tier 1 agents into an easy-to-navigate interface. This multi-tab interface helps the agents to efficiently manage multiple incidents, catalog requests, and catalog tasks. The ITSM Workspace plugin \(com.snc.agent\_workspace.itsm\) that automatically activates the Service Catalog - Workspace \(com.glideapp.servicecatalog.workspace\) plugin should be activated for the Request Management flows in workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/request-management/agent-workspace-request-mgmnt.html
 release: yokohama
 product: Request Management
 classification: request-management
@@ -32,8 +33,8 @@ The form layouts, UI actions, UI policies, and client scripts that are available
 
 If you want to change the view of any workspace form, customize the workspace view from the corresponding request management form in the platform UI.
 
--   **[Create a catalog request in Agent Workspace](../task/create-request-workspace.md)**  
+-   **[Create a catalog request in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/create-request-workspace.md)**  
 You can create a catalog request in Agent Workspace to join the Service Catalog flow from a different flow. For example, from an incident flow, you can create a request, and associate the request with the incident. It helps you in tracking the requests associated with an incident and vice versa.
 
-**Parent Topic:**[Request Management](../../planning-and-policy/concept/c_RequestManagement.md)
+**Parent Topic:**[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/c_RequestManagement.md)
 

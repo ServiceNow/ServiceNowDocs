@@ -2,6 +2,7 @@
 title: Process job states in RPA Hub
 description: A process job represents the execution of a bot process on a robot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/process-job-states-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub

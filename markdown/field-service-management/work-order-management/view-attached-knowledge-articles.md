@@ -2,6 +2,7 @@
 title: View attached knowledge articles
 description: View relevant knowledge articles for reference that are attached to the work order tasks in the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-attached-knowledge-articles.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -42,5 +43,5 @@ The knowledge article view page in the Field Service Contractor Portal provides 
 
 The selected version of the article opens in a Knowledge Details page displayed in another tab within the Field Service Contractor Portal. The tab name includes the knowledge article number and its version number.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

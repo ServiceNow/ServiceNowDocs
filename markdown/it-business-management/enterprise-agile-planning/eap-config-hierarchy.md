@@ -2,6 +2,7 @@
 title: Enable hierarchy view in EAP
 description: Draft: enable hierarchy vew in EAP
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/enterprise-agile-planning/eap-config-hierarchy.html
 release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

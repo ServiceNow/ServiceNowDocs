@@ -2,6 +2,7 @@
 title: Modifying and adding calendar report system properties
 description: Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.Highlighting for calendar report events is configured with field styles, which are defined for a particular table. You can configure whether calendar reports use field styles from the tables or report sources that they are based on.In calendar reports, you can configure the maximum number of events that appear in some calendar views.By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.Configure a system property to specify how calendar week numbers are determined.By default, calendar reports save up to 10,000 records. Change this limit by setting the glide.ui.max\_calendar\_records system property. If the number of records fetched exceeds this limit, you are prompted to filter the data and run the report again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/modify-add-calendar-sys-props.html
 release: yokohama
 product: Reporting
 classification: reporting
@@ -40,6 +41,11 @@ By default, field styles in the Task \[task\] table are applied to calendar repo
 3.  Click **Update**.
 
 
+**Related topics**  
+
+
+[bundle-platadm.r_AvailableSystemProperties]
+
 ## Limit the number of events displayed on calendar days
 
 In calendar reports, you can configure the maximum number of events that appear in some calendar views.
@@ -66,6 +72,11 @@ You can configure these settings for the following calendar views:
 3.  Click **Update**.
 
 
+**Related topics**  
+
+
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
+
 ## Change the day that calendar weeks start on
 
 By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.
@@ -80,7 +91,7 @@ The **glide.ui.date\_format.first\_day\_of\_week** system property modifies the 
 
 **glide.ui.filter.first\_day\_of\_week** must also be set to the same value as **glide.ui.date\_format.first\_day\_of\_week** for the set day to display properly.
 
-If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](../../performance-analytics/concept/c_ClctData.md) again.
+If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ClctData.md) again.
 
 ### Procedure
 
@@ -88,7 +99,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 2.  Set one of the following integer values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d190680e334">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d135928e359">
 
 **Start weeks on Sunday**
 
@@ -96,7 +107,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 Set **Value** to `1`
 
-</td></tr><tr><td id="d190680e349">
+</td></tr><tr><td id="d135928e374">
 
 **Start weeks on Monday**
 
@@ -104,7 +115,7 @@ Set **Value** to `1`
 
 Set **Value** to `2`
 
-</td></tr><tr><td id="d190680e364">
+</td></tr><tr><td id="d135928e389">
 
 **Start weeks on Tuesday**
 
@@ -112,7 +123,7 @@ Set **Value** to `2`
 
 Set **Value** to `3`
 
-</td></tr><tr><td id="d190680e379">
+</td></tr><tr><td id="d135928e404">
 
 **Start weeks on Wednesday**
 
@@ -120,7 +131,7 @@ Set **Value** to `3`
 
 Set **Value** to `4`
 
-</td></tr><tr><td id="d190680e394">
+</td></tr><tr><td id="d135928e419">
 
 **Start weeks on Thursday**
 
@@ -128,7 +139,7 @@ Set **Value** to `4`
 
 Set **Value** to `5`
 
-</td></tr><tr><td id="d190680e410">
+</td></tr><tr><td id="d135928e435">
 
 **Start weeks on Friday**
 
@@ -136,7 +147,7 @@ Set **Value** to `5`
 
 Set **Value** to `6`
 
-</td></tr><tr><td id="d190680e425">
+</td></tr><tr><td id="d135928e450">
 
 **Start weeks on Saturday**
 
@@ -152,7 +163,14 @@ Set **Value** to `7`
 
 ### What to do next
 
-Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](modify-add-calendar-sys-props.md#).
+Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/modify-add-calendar-sys-props.md).
+
+**Related topics**  
+
+
+[bundle-platadm.r_AvailableSystemProperties]
+
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
 ## Customize calendar weeks
 
@@ -168,11 +186,11 @@ Role required: admin
 
 2.  Add the **glide.db.week\_numbering** system property.
 
-    For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information, see .
 
 3.  Set one of the following string values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d190680e553">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d135928e604">
 
 **iso\_week**
 
@@ -180,7 +198,7 @@ Role required: admin
 
 Week 1 is the week with January 4, the first business day, or the first Thursday in it. \(These are mutually equivalent.\) There is no Week 00.
 
-</td></tr><tr><td id="d190680e562">
+</td></tr><tr><td id="d135928e613">
 
 **sunday\_week**
 
@@ -188,7 +206,7 @@ Week 1 is the week with January 4, the first business day, or the first Thursday
 
 Week 1 is the week with the first Sunday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d190680e571">
+</td></tr><tr><td id="d135928e622">
 
 **monday\_week**
 
@@ -196,7 +214,7 @@ Week 1 is the week with the first Sunday of the year. Days before it are in Week
 
 Week 1 is the week with the first Monday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d190680e580">
+</td></tr><tr><td id="d135928e631">
 
 **jan1\_week**
 
@@ -222,7 +240,7 @@ Role required: admin.
 
 2.  Complete the form with the following values.
 
-<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d190680e679">
+<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d135928e730">
 
 **Name**
 
@@ -230,7 +248,7 @@ Role required: admin.
 
 **glide.ui.max\_calendar\_records**
 
-</td></tr><tr><td id="d190680e691">
+</td></tr><tr><td id="d135928e742">
 
 **Description**
 
@@ -238,7 +256,7 @@ Role required: admin.
 
 Enter a phrase that describes the function of the property, such as `Maximum number of calendar records saved`.
 
-</td></tr><tr><td id="d190680e703">
+</td></tr><tr><td id="d135928e754">
 
 **Type**
 
@@ -246,7 +264,7 @@ Enter a phrase that describes the function of the property, such as `Maximum num
 
 Integer
 
-</td></tr><tr><td id="d190680e712">
+</td></tr><tr><td id="d135928e763">
 
 **Value**
 
@@ -261,5 +279,5 @@ Enter the desired value for the number of records retained by the platform. The 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

@@ -2,6 +2,7 @@
 title: Accessing Federated ID Criteria
 description: Access Federated ID Criteria to know about the ID fields used to generated Federated ID.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/configure-federated-id-criteria.html
 release: yokohama
 product: Identity
 classification: identity
@@ -33,8 +34,8 @@ Role required: iamsync\_admin
 
     -   User name is required for generating Federated IDs.
     -   User name and email are used to generate Federated IDs by default.
-    ![Federated ID Criterias page](../images/federated-id.png)
+    \[Omitted image "federated-id.png"\] Alt text: Federated ID Criterias page
 
-    **Note:** Only the ID fields can be updated to generate a new Federated ID for the existing records. To know more, see [Updating ID fields](updating-id-fields.md).
+    **Note:** Only the ID fields can be updated to generate a new Federated ID for the existing records. To know more, see [Updating ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/updating-id-fields.md).
 
 

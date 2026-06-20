@@ -2,6 +2,7 @@
 title: Create a sales opportunity
 description: Create sales opportunities for services, products, or assets identified during field service visits using the Now Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-opportunity.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,15 +32,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d78993e88">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d60972e88">
 
 From
 
-</th><th align="left" id="d78993e91">
+</th><th align="left" id="d60972e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d78993e97">
+</th></tr></thead><tbody><tr><td id="d60972e97">
 
 **My Work**
 
@@ -47,11 +48,11 @@ Do this
 
 1.  Tap **My Work**.
 2.  In the **My Tasks** section, select the relevant work order task.
-3.  Tap Overflow action ![overflow action icon](../image/more_actions1.png) icon.
+3.  Tap Overflow action \[Omitted image "more\_actions1.png"\] Alt text: overflow action icon icon.
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d78993e136">
+</td></tr><tr><td id="d60972e136">
 
 **My Work**
 
@@ -62,7 +63,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d78993e169">
+</td></tr><tr><td id="d60972e169">
 
 **Sales**
 
@@ -113,5 +114,5 @@ Do this
 
 Tap the opportunity in the **Related** tab to view the details and **Activity** stream of the line items.
 
-**Parent Topic:**[Prioritizing on Mobile Agent](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

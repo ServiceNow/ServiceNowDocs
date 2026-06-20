@@ -2,6 +2,7 @@
 title: Create a software removal candidate in workspace
 description: Removal candidates reclaim software resources in your environment. They are created automatically from reclamation rules or can be created manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/add-sw-removal-workspace.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
@@ -281,5 +282,5 @@ Used to track the actions that have been performed on this task.
     |Delete|Delete removal candidate.|
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
 

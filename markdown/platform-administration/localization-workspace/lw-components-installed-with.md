@@ -2,6 +2,7 @@
 title: Components installed with Localization Workspace
 description: Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-components-installed-with.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -138,5 +139,5 @@ Translation Target
 \[sn\_lw\_trans\_target\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localization Workspace reference](../concept/localization-workspace-reference.md)
+</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace-reference.md)
 

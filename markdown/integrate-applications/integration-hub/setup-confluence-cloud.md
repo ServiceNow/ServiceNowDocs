@@ -1,13 +1,14 @@
 ---
 title: Set up the Confluence Cloud spoke
-description: Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAuth 2.0 application in Confluence Cloud to authenticate ServiceNow requests.Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.Create a connection between your Confluence Cloud applications and your ServiceNow instance.Specify the groups that have access to Confluence products so that you can manage the users within only these groups using the Confluence Cloud spoke.
+description: Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAuth 2.0 application in Confluence Cloud to authenticate ServiceNow requests.Add and configure a Confluence Cloud connection to authenticate ServiceNow requests in Confluence Cloud spoke.Integrate the ServiceNow instance with your Confluence Cloud account using OAuth to authenticate ServiceNow requests.Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.Specify the groups that have access to Confluence products so that you can manage the users within only these groups using the Confluence Cloud spoke.Create a connection record for the Confluence Cloud account. The connection and credential alias uses this connection to perform actions in Confluence Cloud.Create a credential record for the Confluence Cloud account. The Confluence Cloud spoke connection and credential alias uses this credential to authorize actions.Create an application registry record to configure OAuth 2.0 authentication for the Confluence Cloud spoke. The record stores the client credentials and scopes required to authorize Confluence Cloud spoke actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-confluence-cloud.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 7
 breadcrumb: [Confluence Cloud Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
@@ -22,15 +23,60 @@ Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAut
 -   Atlassian role required: site admin
 -   Role required: admin.
 
-## Create a Confluence Cloud OAuth 2.0 \(3LO\) application
+## Option 1: Using OAuth authentication \(Authorization Code grant type\) connection
 
-Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.
+Add and configure a Confluence Cloud connection to authenticate ServiceNow requests in Confluence Cloud spoke.
 
 ### Before you begin
 
-Role required: Atlassian site admin.
+Role required: admin
 
 ### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, the **Outbound** connections are displayed by default.
+
+4.  Locate the **Confluence Cloud** connection alias and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Confluence Cloud spoke, click **View Details**.
+    -   To manage more than one Confluence Cloud spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+5.  On the **Connection** form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection Name|Name to uniquely identify the connection. For example, `Confluence Cloud Spoke Connection`.|
+    |Connection URL|URL of the Atlassian API endpoint: `https://api.atlassian.com/`.|
+    |Scopes|By default, these scopes are provided: `ace:confluence, read:page:confluence, search:confluence, read:confluence-groups, write:confluence-groups, read:confluence-user, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.|
+
+    \[Omitted image "confluence-cloud-spoke-conn-config.png"\] Alt text: Create a connection for Confluence Cloud spoke using connection template
+
+6.  Click **Save and Get OAuth Token**.
+
+
+## Option 2: Using OAuth authentication \(Client Credentials grant type\)
+
+Integrate the ServiceNow instance with your Confluence Cloud account using OAuth to authenticate ServiceNow requests.
+
+### Before you begin
+
+**Important:** Apps that collect API tokens to create individual 3LO apps don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
+
+Role required: admin
+
+### Create a Confluence Cloud OAuth 2.0 \(3LO\) application
+
+Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.
+
+#### Before you begin
+
+Role required: Atlassian site admin.
+
+#### Procedure
 
 1.  From a web browser, open the [Atlassian Developer portal](https://developer.atlassian.com/).
 
@@ -93,123 +139,17 @@ Role required: Atlassian site admin.
         Save them in a secure location for later use.
 
 
-## Create a Confluence Cloud connection
-
-Create a connection between your Confluence Cloud applications and your ServiceNow instance.
-
-### Before you begin
-
-Role required: admin
-
-### Procedure
-
-1.  From your ServiceNow instance, navigate to **Process Automation** &gt; **Flow Designer**.
-
-    The Flow Designer launches in a new tab.
-
-2.  Select the **Connections** tab.
-
-3.  Click **View Details** for your Confluence Cloud connection.
-
-4.  From the list of available connections, locate Confluence Cloud and then click **Configure**.
-
-    The Configure Connection dialog box opens.
-
-5.  In the dialog box, fill in the fields.
-
-<table id="table_skk_54h_wnb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td colspan="2">
-
-Connection Information
-
-</td></tr><tr><td>
-
-Connection Name
-
-</td><td>
-
-Name of the Confluence Cloud connection. This field populates automatically.
-
-</td></tr><tr><td colspan="2">
-
-Credential Information
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-Name of your Confluence Cloud credentials. This field populates automatically.
-
-</td></tr><tr><td>
-
-Site URL**Note:** This field appears only if you have requested and installed version 1.0.2 or earlier of the Confluence Cloud spoke.
-
-</td><td>
-
-URL of your Confluence Cloud site.
-
-</td></tr><tr><td>
-
-Connection URL**Note:** This field appears only if you have requested and installed version 1.0.3 or later of the Confluence Cloud spoke.
-
-</td><td>
-
-API URL for Confluence Cloud. This field is automatically set to **https://api.atlassian.com**.
-
-</td></tr><tr><td>
-
-OAuth Client ID
-
-</td><td>
-
-Client ID that is assigned to your Confluence Cloud OAuth 2.0 \(3LO\) application.
-
-</td></tr><tr><td>
-
-OAuth Client Secret
-
-</td><td>
-
-Client secret that is assigned to your Confluence Cloud OAuth 2.0 \(3LO\) application.
-
-</td></tr><tr><td>
-
-OAuth Redirect URL
-
-</td><td>
-
-URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the callback URL that you specified in [Create a Confluence Cloud OAuth 2.0 \(3LO\) application](setup-confluence-cloud.md#).
-
-</td></tr></tbody>
-</table>6.  Click **Configure and Get OAuth Token**.
-
-    The Authorize App dialog box opens.
-
-7.  In the dialog box, click **Allow**.
-
-    The OAuth token becomes available for authorizing your Confluence Cloud connection.
-
-
-## Add Confluence groups
+### Add Confluence groups
 
 Specify the groups that have access to Confluence products so that you can manage the users within only these groups using the Confluence Cloud spoke.
 
-### Before you begin
+#### Before you begin
 
 ServiceNow role required: admin
 
 Role required: Atlassian site admin
 
-### Procedure
+#### Procedure
 
 1.  From a web browser, open the [Atlassian Administration portal](https://admin.atlassian.com/).
 
@@ -234,5 +174,115 @@ Role required: Atlassian site admin
 8.  Click the right arrow button to move the groups from the Available list to the Selected list.
 
 9.  Click **OK**.
+
+
+### Create a connection record for the Confluence Cloud spoke
+
+Create a connection record for the Confluence Cloud account. The connection and credential alias uses this connection to perform actions in Confluence Cloud.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for **Confluence Cloud** that shipped with the spoke.
+
+3.  On the **Connections** tab, click **New**.
+
+    The system displays a blank HTTP\(s\) Connection form.
+
+4.  Enter these values and click **Submit**.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Confluence Cloud OAuth Connection`.|
+    |Credential|Select the credential record created for Confluence Cloud. For example, select **Confluence Cloud client credential cred**.|
+    |Connection URL|Enter the URL of the Atlassian API endpoint: `https://api.atlassian.com/`.|
+
+5.  Click **Submit**.
+
+    The Confluence Cloud spoke is configured to use OAuth 2.0 Client Credentials via the service account.
+
+
+### Create credential record for the Confluence Cloud spoke
+
+Create a credential record for the Confluence Cloud account. The Confluence Cloud spoke connection and credential alias uses this credential to authorize actions.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+
+2.  Click **New**.
+
+    The system displays the message `What type of Credentials would you like to create?`
+
+3.  Select **OAuth 2.0 Credentials**.
+
+4.  On the form, fill these values.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the credential record for the Confluence Cloud spoke. For example, `Confluence Cloud client credential cred`.|
+    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see[Create an application registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-confluence-cloud.md).|
+
+5.  Right-click the form header and click **Save**.
+
+6.  Click the **Get OAuth Token** related link.
+
+
+### Create an application registry record
+
+Create an application registry record to configure OAuth 2.0 authentication for the Confluence Cloud spoke. The record stores the client credentials and scopes required to authorize Confluence Cloud spoke actions.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
+
+2.  Click **New**.
+
+    The system displays the message `What kind of OAuth application?`.
+
+3.  Select **Connect to a third party OAuth Provider**.
+
+4.  On the form, fill these values.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the application registry record. For example, `Confluence Cloud Client Credentials OAuth`.|
+    |Client ID|Client ID generated when the OAuth 2.0 integration was created in Atlassian Developer console.|
+    |Client Secret|Client secret generated when the OAuth 2.0 integration was created in Atlassian Developer console.|
+    |Default Grant type|Grant type used to establish the token. Select **Client Credentials**.|
+    |Token URL|OAuth server token endpoint. Enter: `https://auth.atlassian.com/oauth/token`.|
+    |Token Revocation URL|OAuth server token revocation endpoint. Enter: `https://auth.atlassian.com/oauth/token`.|
+    |Active|Select the check box.|
+
+5.  In the **OAuth Entity Scopes** tab, create this entity scope record.
+
+    |Name|OAuth scope|
+    |----|-----------|
+    |Confluence Cloud scopes|`ace:confluence read:page:confluence search:confluence read:confluence-groups write:confluence-groups read:confluence-user read:me read:account offline_access`|
+
+6.  Right-click the form header and click **Save**.
+
+    The record is saved and a OAuth Entity Profile record is created under the **OAuth Entity Profiles** tab.
+
+7.  Click the **OAuth Entity Profiles** tab and open the default profile record.
+
+8.  Verify these values.
+
+    -   **Grant type** is set to **Client Credentials**.
+    -   Scope records previously created are listed under the **OAuth Entity Profile Scopes** related list.
+9.  Click **Update**.
 
 

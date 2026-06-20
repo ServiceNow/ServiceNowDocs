@@ -2,6 +2,7 @@
 title: Customize overlay time series on the floor map
 description: Update the decision table to configure the time duration option on the floor map. You can view the operational data of the datacenters for a selected time range as overlay on the floor map in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.html
 release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -35,15 +36,15 @@ For the time duration configuration, if the time value is set to one second, the
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d45752e101">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d40289e101">
 
 Action
 
-</th><th align="left" id="d45752e104">
+</th><th align="left" id="d40289e104">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d45752e110">
+</th></tr></thead><tbody><tr><td id="d40289e110">
 
 **Add time duration for a new overlay**
 
@@ -57,7 +58,7 @@ Details
 6.  In the Condition section, add the time duration values for the new overlay.
 
 
-</td></tr><tr><td id="d45752e159">
+</td></tr><tr><td id="d40289e159">
 
 **Edit time duration for an existing overlay**
 
@@ -65,14 +66,14 @@ Details
 
 In the Time Duration Value section, edit the time duration for the overlay that you want to customize.
 
-</td></tr><tr><td id="d45752e168">
+</td></tr><tr><td id="d40289e168">
 
 **Delete time duration for an overlay**
 
 </td><td>
 
 1.  Select the Menu Type field.
-2.  Select the delete icon \(![Delete Icon.](../../../common/image/icon-delete-trashcan.png)\) to delete an overlay.
+2.  Select the delete icon \(\[Omitted image "icon-delete-trashcan.png"\] Alt text: Delete Icon.\) to delete an overlay.
 3.  In the Condition section, delete the corresponding time duration rows.
 
 
@@ -84,5 +85,5 @@ In the Time Duration Value section, edit the time duration for the overlay that 
 
 Customized time duration options are available on the floor map.
 
-**Parent Topic:**[Configuring overlays on floor map](../concept/configure-overlays-floor-map.md)
+**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 

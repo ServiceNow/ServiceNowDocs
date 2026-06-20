@@ -2,6 +2,7 @@
 title: Tagging records with functional domain
 description: Functional domain tagging is a mechanism that allows you to classify risk records based on the specific business function, process, or use case they support. A functional domain represents a logical grouping, such as Cybersecurity and risk, IT risk and compliance, Compliance, Third-Party Risk, or Operational Risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
@@ -36,7 +37,7 @@ The scheduled job is configured to run every Monday at 1:00 AM. Upon successful 
 
 The `Functional domain metrics` table includes the following columns: Count, Functional Domain, Domain, and Type.
 
-![Functional domain metrics table with data populated after the Populate Functional domain metrics table weekly job has been executed successfully.](../image/functional-domain-metrics-table.png "Functional domain metrics table")
+\[Omitted image "functional-domain-metrics-table.png"\] Alt text: Functional domain metrics table with data populated after the Populate Functional domain metrics table weekly job has been executed successfully.
 
 ## Supported record types
 
@@ -56,5 +57,5 @@ The following is a list of supported record types:
 -   Entity Type
 -   Risk Statement
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

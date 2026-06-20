@@ -2,6 +2,7 @@
 title: Digital Experience Score​ properties
 description: Configure the system properties to enable DEX Score application and set the company level target for the digital experience score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-experience-score/dexscr-dex-score-properties.html
 release: yokohama
 product: Digital Experience Score
 classification: digital-experience-score
@@ -52,5 +53,5 @@ Organization's target for DEX score that you can see on the DEX Score dashboard.
 -   Other possible values: Any whole number from 0 to 100.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

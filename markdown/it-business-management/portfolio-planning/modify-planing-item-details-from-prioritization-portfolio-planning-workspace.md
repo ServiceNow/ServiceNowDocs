@@ -2,6 +2,7 @@
 title: Update planning item details from Prioritization view
 description: Update the details of your planning items or delete them so that the Prioritization page in Portfolio Planning Workspace reflects the latest work pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
@@ -34,15 +35,15 @@ Update the details of a planning item using the List and Hierarchy views in the 
 
 4.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d187442e125">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d75296e125">
 
 Choice
 
-</th><th align="left" id="d187442e128">
+</th><th align="left" id="d75296e128">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187442e134">
+</th></tr></thead><tbody><tr><td id="d75296e134">
 
 **Update planning item details**
 
@@ -54,9 +55,9 @@ Edit using one of the following ways:
 -   Select the item name to open the full details page.
  The full details page shows the item's related lists such as Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d187442e171">
+</td></tr><tr><td id="d75296e171">
 
 **Attach files to planning item**
 
@@ -64,7 +65,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d187442e186">
+</td></tr><tr><td id="d75296e186">
 
 **Delete planning item**
 
@@ -72,7 +73,7 @@ In the Attachments section of the full details page, select **Browse** and uploa
 
 From the full details page:
 
-1.  Select the More Actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions-icon.png)\) and select **Delete**.
+1.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
 2.  Click **OK** to confirm.
 
 

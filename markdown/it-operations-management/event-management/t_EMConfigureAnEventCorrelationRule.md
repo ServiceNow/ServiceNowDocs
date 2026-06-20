@@ -2,6 +2,7 @@
 title: Create an alert correlation rule
 description: Create an alert correlation rule to designate primary and secondary alerts. The primary alert is identified as the root cause of the alert group and the secondary alerts are grouped under the primary alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/t\_EMConfigureAnEventCorrelationRule.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields, see [Alert correlation rule form](../reference/alert-correlation-rule-form.md).
+    For information on the fields, see [Alert correlation rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-correlation-rule-form.md).
 
 4.  Select **Submit**.
 
@@ -36,5 +37,5 @@ Role required: evt\_mgmt\_admin
 
 A rule-based alert group is created when a new alert is generated or when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
 
-**Parent Topic:**[Rule-based alert grouping](../concept/c_EMEventCorrelationRules.md)
+**Parent Topic:**[Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMEventCorrelationRules.md)
 

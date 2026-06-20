@@ -2,6 +2,7 @@
 title: Set up Windows Server machine for high density robots
 description: Set up the environment for high density robots on a Windows Server machine by installing a Remote Desktop Session Host. Then, add robot user names who can connect to the machine. It enables them to establish Remote Desktop Protocol \(RDP\) connection to the Windows Server machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/setup-windows-server-hdr.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,11 +18,11 @@ Set up the environment for high density robots on a Windows Server machine by in
 
 ## Before you begin
 
-Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](../concept/high-density-robots-uat.md) and [High density robots in RPA Hub](../../rpa-hub/concept/high-density-robots-rpa-hub.md).
+Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/high-density-robots-uat.md) and [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/high-density-robots-rpa-hub.md).
 
 The Remote Desktop Session Host service requires a valid license.
 
-Ensure that you follow the hardware and software requirements. For more information, see [Requirements for Unattended Robot](../reference/requirements-unattended-robot.md).
+Ensure that you follow the hardware and software requirements. For more information, see [Requirements for Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/requirements-unattended-robot.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ Role required: admin
 
     2.  In the Dashboard panel, select **Manage** and then select **Add Roles and Features**.
 
-        ![Server Manager Dashboard panel shows Manage option as selected and Add Roles and Features as selected.](../image/server-mgr-windows-setup-hdr.png "Server Manager Dashboard panel")
+        \[Omitted image "server-mgr-windows-setup-hdr.png"\] Alt text: Server Manager Dashboard panel shows Manage option as selected and Add Roles and Features as selected.
 
         The **Add Roles and Features Wizard** opens.
 
@@ -41,11 +42,11 @@ Role required: admin
 
     4.  In the Roles section, from the Remote Desktop Services list, select the **Remote Desktop Session Host** option.
 
-        ![Remote Desktop Session Host option is selected in the Select server roles window.](../image/select-server-roles-hdr.png "Select server roles")
+        \[Omitted image "select-server-roles-hdr.png"\] Alt text: Remote Desktop Session Host option is selected in the Select server roles window.
 
     5.  In the Add Roles and Features Wizard dialog box, select **Add Features**.
 
-        ![Add features in the Add Roles and Features Wizard dialog box.](../image/add-roles-features-hdr.png "Add Roles and Features Wizard dialog box")
+        \[Omitted image "add-roles-features-hdr.png"\] Alt text: Add features in the Add Roles and Features Wizard dialog box.
 
         It returns to the wizard.
 
@@ -61,7 +62,7 @@ Role required: admin
 
     3.  Enable the **Require user authentication for remote connections by using Network Level Authentication** policy for enhanced security and always authenticate prior establishing session to RDP.
 
-        ![Local Group Policy Editor window shows selected settings that must be configured.](../image/policy-hdr-setup-windows-server.png "Configure policies in the Local Group Policy Editor")
+        \[Omitted image "policy-hdr-setup-windows-server.png"\] Alt text: Local Group Policy Editor window shows selected settings that must be configured.
 
     4.  Ensure that the Windows user mapped to the robots in the Process Robot Credentials tab of the bot process must be in the **Remote Desktop Users** group.
 
@@ -70,9 +71,9 @@ Role required: admin
 
 Restart the Windows Server machine after the installation is complete.
 
-Enable the high density robot option in RPA Hub. For more information, see [Create an unattended robot in RPA Hub](../../rpa-hub/task/create-unattended-robot.md).
+Enable the high density robot option in RPA Hub. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/create-unattended-robot.md).
 
-[Install Unattended Robot](install-rpa-runtime.md).
+[Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-rpa-runtime.md).
 
-Add user profiles in the Unattended Robot application, so that multiple robots can execute jobs concurrently. For more information, see [Set up Unattended Robot](set-up-rpa-runtime.md)
+Add user profiles in the Unattended Robot application, so that multiple robots can execute jobs concurrently. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rpa-runtime.md)
 

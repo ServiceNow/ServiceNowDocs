@@ -2,6 +2,7 @@
 title: Enable access to Supplier Collaboration Portal
 description: Enable users to access the Supplier Collaboration Portal either by configuring the user criteria or by running the fix script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -37,8 +38,8 @@ Configure the user criteria for the Service Portal.
 
 </td><td>
 
-Complete these steps:1.  [Activate the user criteria for Service Portal plugin](https://www.servicenow.com/docs/access?context=activate-user-criteria&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
-2.  [Set the user criteria for Service Portal system property](https://www.servicenow.com/docs/access?context=activate-user-crit&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Complete these steps:1.  Activate the user criteria for Service Portal plugin.
+2.  Set the user criteria for Service Portal system property.
 
 
 </td></tr><tr><td>
@@ -47,12 +48,12 @@ Run the fix script.
 
 </td><td>
 
-Complete the steps listed in [Run the fix script to enable access to Supplier Collaboration Portal](run-fix-script-supp-central.md).
+Complete the steps listed in [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
 
 </td></tr></tbody>
 </table>
--   **[Run the fix script to enable access to Supplier Collaboration Portal](run-fix-script-supp-central.md)**  
+-   **[Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md)**  
 After you install the Supplier Collaboration Portal, you must run the fix script to enable access to the portal.
 
-**Parent Topic:**[Post installation mandatory step for Supplier Collaboration Portal](../concept/post-install-steps.md)
+**Parent Topic:**[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
 

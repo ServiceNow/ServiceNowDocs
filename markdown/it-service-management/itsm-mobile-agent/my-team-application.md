@@ -2,6 +2,7 @@
 title: Managing teams and incidents using My Team applet
 description: Easily access and get insights into the work of the groups you are managing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-mobile-agent/my-team-application.html
 release: yokohama
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

@@ -2,6 +2,7 @@
 title: Get Log Data Flow
 description: If Security Incident Response, Threat Intelligence, and Palo Alto Networks - Firewall are activated, the Security Operations Palo Alto Networks - Get Log Data flow automatically executes when the Source IP for observables in a security incident is changed.This action retrieves the API key from the firewall.The Palo Alto Firewall: Get Firewall Config flow action gets all the related firewall configuration information from the database, and makes it available for use by the subsequent action.The Palo Alto Firewall: Get Log flow action schedules a query on the firewall to retrieve logs and returns a JobID used to retrieve the log data.After the Palo Alto Firewall: Get Log action queues the search query to the firewall and the job runs, the Palo Alto Firewall: Job Data Action action retrieves the threat log data from the firewall.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/get-threat-log-data.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst
 
 During flow execution, firewall configuration information is retrieved from the database and the API Key is retrieved from the firewall. The Get Log action queues up a search query on the firewall. When the query runs, it returns a Job ID that is used to retrieve threat logs data from the firewall. It attaches the log data as an XML file to the security incident.
 
-![Get Log Data flow](../image/get-log-data.png "Security Operations Palo Alto Networks - Get Log Data flow")
+\[Omitted image "get-log-data.png"\] Alt text: Get Log Data flow
 
 ## Procedure
 

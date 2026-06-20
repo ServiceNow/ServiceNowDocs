@@ -2,6 +2,7 @@
 title: Additional options for application screens and elements in Universal App Connector
 description: Validate and perform additional operations for the added application screens and their captured elements. The additional options for the application screens are categorized based on the application type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/contextmenu-application-screens.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -104,7 +105,7 @@ Capture element
 
 </td><td>
 
-Captures elements from the application screen. For more information, see [Use the Universal App Connector](../task/configure-uac.md).
+Captures elements from the application screen. For more information, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-uac.md).
 
 </td></tr><tr><td>
 
@@ -124,9 +125,9 @@ Displays the Windows Elements dialog that displays all the existing elements in 
 
 For example, when you capture a notepad windows screen and right-click and select **Show Elements**, the following modes are displayed.
 
-![Displays elements in the UI Automation mode for a Notepad.](../image/uac-show-elements-ui-mode.png "Elements displayed in UI Automation mode for a Notepad")
+\[Omitted image "uac-show-elements-ui-mode.png"\] Alt text: Displays elements in the UI Automation mode for a Notepad.
 
-![Displays elements in the Active Accessibility mode for a Notepad.](../image/uac-show-elements-aa-mode.png "Elements displayed in Active Accessibility mode for a Notepad")
+\[Omitted image "uac-show-elements-aa-mode.png"\] Alt text: Displays elements in the Active Accessibility mode for a Notepad.
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Deletes the application screen.
 
 In the Screens and elements pane, right-click the application element to perform the following additional operations. For example, for a Windows screen.
 
-![Additional options for elements, for example, for a Windows screen.](../image/uac-addi-options-elements.png "Additional options for elements, for example, for a Windows screen")
+\[Omitted image "uac-addi-options-elements.png"\] Alt text: Additional options for elements, for example, for a Windows screen.
 
 <table id="table_sdh_zjx_gwb"><thead><tr><th>
 
@@ -157,9 +158,9 @@ Refresh
 
 </td><td>
 
-Rematches the selected element based on the element match attributes or locators that you defined.When you capture an element in both UIA and AA modes of a Windows application screen, you view both elements in the Screens and elements pane. For example, Text Editor\_UIA and Text Editor\_AA.![Elements in the Screens and elements pane with Text Editor types in 2 modes.](../image/uac-refresh-element-mode.png)
+Rematches the selected element based on the element match attributes or locators that you defined.When you capture an element in both UIA and AA modes of a Windows application screen, you view both elements in the Screens and elements pane. For example, Text Editor\_UIA and Text Editor\_AA.\[Omitted image "uac-refresh-element-mode.png"\] Alt text: Elements in the Screens and elements pane with Text Editor types in 2 modes.
 
-When you capture a Text Editor element in Active Accessibility mode and perform the **Refresh** action on that element, the Target objects preview pane displays two text editors with different types, such as window and editable text.![Types of Text Editor of active accessibility mode.](../image/uac-text-types-options.png)
+When you capture a Text Editor element in Active Accessibility mode and perform the **Refresh** action on that element, the Target objects preview pane displays two text editors with different types, such as window and editable text.\[Omitted image "uac-text-types-options.png"\] Alt text: Types of Text Editor of active accessibility mode.
 
 </td></tr><tr><td>
 
@@ -241,5 +242,5 @@ Click
 Clicks the elements if applicable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+</table>**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/universal-app-connector.md)
 

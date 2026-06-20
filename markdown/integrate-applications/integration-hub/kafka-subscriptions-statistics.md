@@ -2,6 +2,7 @@
 title: Viewing Kafka subscriptions and statistics
 description: View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -25,9 +26,9 @@ Each subscription page includes the following sections.
 -   Consumer logs
 -   Kafka consumer statistics
 
-To view a subscription record, navigate to **IntegrationHub** &gt; **Stream Connect** &gt; **Subscriptions**. Select the info icon \(![info icon](../images/info-icon.png)\) for the subscription you want to view, then select **Open Record**.
+To view a subscription record, navigate to **IntegrationHub** &gt; **Stream Connect** &gt; **Subscriptions**. Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: info icon\) for the subscription you want to view, then select **Open Record**.
 
-![The Kafka subscription page with subscription details, metrics, and information on partition groups, consumer logs, and consumer statistics.](../images/kafka-subscription-statistics.png "Sample subscription page for a Kafka consumer")
+\[Omitted image "kafka-subscription-statistics.png"\] Alt text: The Kafka subscription page with subscription details, metrics, and information on partition groups, consumer logs, and consumer statistics.
 
 ## Kafka subscription
 
@@ -322,5 +323,5 @@ Partition group
 Record for the partition group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+</table>**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

@@ -2,6 +2,7 @@
 title: Script includes installed with Procurement
 description: Procurement plugin adds the following script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/procurement/r\_ScriptIncludesProcurement.html
 release: yokohama
 product: Procurement
 classification: procurement
@@ -19,5 +20,5 @@ Procurement plugin adds the following script include.
 |--------------|-----------|
 |ProcurementUtils|Provides utilities for Procurement.|
 
-**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/procurement/r_InstalledWithProcurement.md)
 

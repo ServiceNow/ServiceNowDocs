@@ -2,6 +2,7 @@
 title: Configure financial widgets in compare scenario
 description: Add or manage existing widgets to view financial insights while comparing scenarios. Define your own attribute from the cost types to view it's details in the Compare scenario page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/config-compare-scenario-fin-widgets-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,19 +28,19 @@ Role required: admin
 
     By default, there are five financial widgets enabled to compare the financial performance of scenarios.
 
-    ![List of default financial widgets shipped for scenario planning.](../image/financial-widgets-compare-scenario-ootb.png)
+    \[Omitted image "financial-widgets-compare-scenario-ootb.png"\] Alt text: List of default financial widgets shipped for scenario planning.
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d227512e107">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d109301e107">
 
 Choice
 
-</th><th align="left" id="d227512e110">
+</th><th align="left" id="d109301e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d227512e116">
+</th></tr></thead><tbody><tr><td id="d109301e116">
 
 **Edit an existing widget**
 
@@ -49,7 +50,7 @@ Description
 2.  Edit the **Script** field to customize and fetch the required financial information into the widget.
 
 
-</td></tr><tr><td id="d227512e144">
+</td></tr><tr><td id="d109301e144">
 
 **Create a widget**
 

@@ -2,6 +2,7 @@
 title: Accessing real-time data in applications
 description: Fetch real-time data using a data fabric table instead of using the physical table included with an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/mapping-application-tables.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -30,7 +31,7 @@ The instance admin can choose to keep the predefined data fabric table connected
 
 Connecting to an external data source using requires coordination between the instance admin, connection admin, and data steward. To configure this type of data fabric table, follow the process shown in this infographic.
 
-![Different users in an organization work together to connect an application table to an external data source. View the steps after the infographic for details.](../image/mmasset0021028-connecting-a-data-fabric-table-in-an-application-to-external-source-horizontal.png "Connecting a predefined data fabric table to an external data source")
+\[Omitted image "mmasset0021028-connecting-a-data-fabric-table-in-an-application-to-external-source-horizontal.png"\] Alt text: Different users in an organization work together to connect an application table to an external data source. View the steps after the infographic for details.
 
 In this workflow:
 
@@ -40,10 +41,10 @@ In this workflow:
 4.  The data steward selects a source table and maps source columns to the existing columns in the data fabric table.
 5.  Users access the application, and interact with flows retrieving data from the external source in real-time.
 
--   **[Connect a predefined data fabric table to an external data source](../task/map-application-table-external.md)**  
+-   **[Connect a predefined data fabric table to an external data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/map-application-table-external.md)**  
 Connect a data fabric table included with an application to an external data source.
--   **[Connect a predefined data fabric table to a local table](../task/map-application-table-internal.md)**  
+-   **[Connect a predefined data fabric table to a local table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/map-application-table-internal.md)**  
 Connect a data fabric table included with an application to a local table on your instance.
 
-**Parent Topic:**[Workflow Data Fabric Hub](workflow-data-fabric.md)
+**Parent Topic:**[Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md)
 

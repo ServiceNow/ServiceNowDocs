@@ -2,6 +2,7 @@
 title: Review a dispute from cardholder intake
 description: Review dispute cases in Financial Services Operations submitted by customers from a dispute intake portal. You can verify the disputed transactions, update the dispute reason, and submit for investigation after review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-a-dispute-from-cardholder-intake.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![List icon.](../../../reuse/icons/product-icons/list-outline-24.svg)\).
+2.  Select the lists icon \(\[Omitted image "list-outline-24.svg"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -37,15 +38,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  Under the **Review** playbook stage, review the submitted information and make any necessary adjustments.
 
-<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d92722e137">
+<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d97817e137">
 
 Activity
 
-</th><th align="left" id="d92722e140">
+</th><th align="left" id="d97817e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92722e146">
+</th></tr></thead><tbody><tr><td id="d97817e146">
 
 **Review intake**
 
@@ -57,7 +58,7 @@ Review the disputed transactions and the reason for dispute.
 
  To modify the dispute category, select **Modify reason for dispute**. Answer the questions presented, then select **Update dispute reason**.
 
-</td></tr><tr><td id="d92722e173">
+</td></tr><tr><td id="d97817e173">
 
 **Additional questions**
 
@@ -65,7 +66,7 @@ Review the disputed transactions and the reason for dispute.
 
 Provide answers to any additional questions not answered by the cardholder and address any additional questions as required. If the dispute category changes, the system will produce a questionnaire for the newly selected category, which you must fill out. Select **Continue** when you have finished the questionnaire.
 
-</td></tr><tr><td id="d92722e185">
+</td></tr><tr><td id="d97817e185">
 
 **Submit for investigation**
 
@@ -75,5 +76,5 @@ Review the dispute amount and reason code for the dispute. Add any comments or d
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

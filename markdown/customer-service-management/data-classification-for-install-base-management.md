@@ -2,9 +2,12 @@
 title: Data classification for Install Base Management
 description: Enable customers to automatically classify sensitive data for their workflows. After data is classified, users can view the type of classification associated to different fields, whether internal, restricted, confidential, or public.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-classification-for-install-base-management.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Management reference, Customer Service Management]
 ---

@@ -2,7 +2,10 @@
 title: Create an account staff relationship
 description: Create a relationship between a staff member at a business location and an account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-staff-account-relationship.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Configure Telecom Discrepancy Identification and Reconciliation
 description: This guide outlines the steps to configure Telecom Discrepancy Identification &amp; Reconciliation \(part of TSOM Visibility\) to confirm accurate discovery and resolution of discrepancies in telecom network resources within your ServiceNow CMDB/TNI instance.Audit Results are created for each audit executed on records that matched the selection \(see matching conditions in Initial Certification Audit Run\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/configure-telecom-reconciliation.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -23,7 +24,7 @@ Role required: admin
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Dependencies and Requirements
 
@@ -41,23 +42,23 @@ ITOM Discovery License plugin \(**com.snc.itom.discovery.license**\). You must a
 
 ITOM Licensing plugin \(**com.snc.itom.license**\).
 
-For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
+For more information, see .
 
 ## Installation
 
 The TSOM Visibility plugin \(sn\_tsom\_core\) is automatically installed with Telecommunications Discovery Patterns \(sn\_tsom\_patterns\) or with the Nokia Altiplano Service Graph Connector \(sn\_sgc\_altiplano\_connector\). All logic and system properties are installed on your ServiceNow instance.
 
-To install TSOM Visibility plugin, see [Configure Telecommunications Discovery \(TSOM\) Patterns](../concept/configuring-telecommunications-discovery-patterns.md#) or [Configure Service Graph Connector for Nokia Altiplano](../concept/configuring-service-graph-connector-nokia-altiplano.md#).
+To install TSOM Visibility plugin, see [Configure Telecommunications Discovery \(TSOM\) Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-telecommunications-discovery-patterns.md) or [Configure Service Graph Connector for Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-service-graph-connector-nokia-altiplano.md).
 
 ## TSOM Visibility Installation Disclaimer
 
-See [TSOM Visibility Installation Disclaimer](../concept/tsom-visibility.md#section_wn4_2fk_b2c) for important information and requirements related to the installation process.
+See [TSOM Visibility Installation Disclaimer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/tsom-visibility.md) for important information and requirements related to the installation process.
 
 ## Execution
 
 The Telecom Discrepancy Identification &amp; Reconciliation solution relies on CMDB Health/Compliance, which runs Certification Audits on selected tables and records in the CMDB. It operates independently of Discovery and can be run on-demand or scheduled.
 
-For more information about CMDB Compliance, see [CMDB Compliance](https://www.servicenow.com/docs/access?context=c_Compliance&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) and [Certification audits](https://www.servicenow.com/docs/access?context=c_CertificationAudits&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For more information about CMDB Compliance, see  and .
 
 ## Procedure
 
@@ -65,12 +66,12 @@ For more information about CMDB Compliance, see [CMDB Compliance](https://www.se
 
 2.  Select **Run Audit**.
 
-    ![run audit.](../images/telecom-run-audit.png)
+    \[Omitted image "telecom-run-audit.png"\] Alt text: run audit.
 
     It executes various scripts and operations.
 
 
-**Parent Topic:**[Telecom Discrepancy Identification and Reconciliation](../concept/telecom-reconciliation.md)
+**Parent Topic:**[Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-reconciliation.md)
 
 ## Certification Audit Logics
 

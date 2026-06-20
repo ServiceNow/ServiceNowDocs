@@ -2,6 +2,7 @@
 title: Configure Application Insights threshold triggers
 description: Detect that a threshold has been exceeded and create a trigger to perform a sequence of actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/conf-app-insights-thresh-triggers.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -37,7 +38,7 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
 
     Modify the base template to fit your needs.
 
-    For more information about using the Workflow Studio, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+    For more information about using the Workflow Studio, see Flow Designer.
 
 5.  Select **Send Email**.
 
@@ -64,5 +65,5 @@ Application Insights uses the ServiceNow® Workflow Studio to create the trigger
     5.  Select **Save**.
 
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/application-insights.md)
 

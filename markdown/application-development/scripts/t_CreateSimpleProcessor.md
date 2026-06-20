@@ -2,6 +2,7 @@
 title: Create a simple processor
 description: Create a simple processor to execute a script from a URL query. This feature is deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/t\_CreateSimpleProcessor.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -23,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://www.servicenow.com/docs/access?context=c_CustomWebServices&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d270287e103">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d196546e102">
 
 Field
 
-</th><th align="left" id="d270287e106">
+</th><th align="left" id="d196546e105">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d270287e112">
+</th></tr></thead><tbody><tr><td id="d196546e111">
 
 **Name**
 
@@ -49,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d270287e121">
+</td></tr><tr><td id="d196546e120">
 
 **Type**
 
@@ -57,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d270287e130">
+</td></tr><tr><td id="d196546e129">
 
 **Path**
 
@@ -65,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d270287e139">
+</td></tr><tr><td id="d196546e138">
 
 **Script**
 
@@ -84,5 +85,5 @@ g_processor.writeOutput("text/plain","Hello "+name);
     For example: `https://<instancename>.service-now.com/Hello.do?name=world`.
 
 
-**Parent Topic:**[Processors](../../../../script/processors/concept/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_Processors.md)
 

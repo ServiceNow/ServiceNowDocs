@@ -2,6 +2,7 @@
 title: Import OSCAL catalog
 description: From the OSCAL Import landing page, import catalog OSCAL data into the CAM Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -30,7 +31,7 @@ The OSCAL catalog import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the OSCAL import landing page icon \(![OSCAL import](../image/cam-oscal-import-icon.png)\).
+2.  In the primary navigation, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
 
 3.  Select **Catalog** from the **OSCAL Model** drop-down list.
 
@@ -61,5 +62,5 @@ The OSCAL catalog import is a synchronous process.
     For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
 
 
-**Parent Topic:**[Importing in OSCAL format](../concept/import-oscal.md)
+**Parent Topic:**[Importing in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

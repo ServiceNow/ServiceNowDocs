@@ -2,6 +2,7 @@
 title: Yokohama General Availability release highlights
 description: High-level overview of products and features in the ServiceNow AI Platform Yokohama release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/release-highlights.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"

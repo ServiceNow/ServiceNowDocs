@@ -2,6 +2,7 @@
 title: View AI assets by lifecycle stage
 description: View AI assets based on the AI asset lifecycle stage that they’re currently in. Use this information to determine which AI assets require your attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -38,11 +39,11 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\] or sn\_ai\_asset\_m
     -   To view the list of AI assets that are currently in the deploy stage, select **Deploy**.
 5.  Select an AI asset to start or continue the lifecycle review process or view additional details about the asset.
 
-    -   To start or continue the lifecycle review process for the asset, select the **Lifecycle** tab. See [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md) for more information on the lifecycle review process.
+    -   To start or continue the lifecycle review process for the asset, select the **Lifecycle** tab. See [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md) for more information on the lifecycle review process.
     -   To view additional details about the asset, select the **Details** tab.
     -   To view the lists of all related AI system, AI model, prompt, or dataset assets, select the **Related assets** tab.
     -   To view the risk and compliance posture of the asset, select the **Risk and compliance** tab.
     -   To view any evaluation metrics for the asset, select the **KPIs &amp; metrics** tab.
 
-**Parent Topic:**[Using AI Control Tower](../concept/using-ai-control-tower.md)
+**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

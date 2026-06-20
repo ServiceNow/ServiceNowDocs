@@ -2,6 +2,7 @@
 title: Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)
 description: You can activate the Now Assist skills for use in Now Assist for IT Operations Management \(ITOM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.html
 release: yokohama
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -17,7 +18,7 @@ You can activate the Now Assist skills for use in Now Assist for IT Operations M
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 Role required: admin
 
@@ -50,10 +51,10 @@ Activate the Now Assist skills in the Now Assist for IT Operations Management \(
     3.  Select **Save and test**.
 
 
--   **[Activate the Service Mapping Candidate skill](activate-sm-candidate-skill.md)**  
+-   **[Activate the Service Mapping Candidate skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidate-skill.md)**  
 The Service Mapping Candidate skill provides Now Assist the ability to classify app service candidates and generate a description for them. The skill is active by default. If needed, administrators can activate or deactivate the skill.
--   **[Activate the Service Mapping Candidates Impact skill](activate-sm-candidates-impact-skill.md)**  
+-   **[Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidates-impact-skill.md)**  
 The Service Mapping Candidates Impact skill analyzes connections and effects on servers. It enables generating an impact summary, using Now Assist. The skill is active by default. If needed, administrators can activate or deactivate the skill.
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

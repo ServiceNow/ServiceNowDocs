@@ -2,6 +2,7 @@
 title: GRC: Metrics in Integrated Risk Management
 description: Risk metrics are defined as a quantifiable measure that is used to track and assess the status of a specific risk. Metrics help in tracking the exposure of a risk over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-risk-management-workspace/using-metrics-in-irm.html
 release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -40,7 +41,7 @@ The following are the types of metrics.
 
 The following image shows the metrics workflow.
 
-![Workflow of metrics in IRM.](../images/metrics-workflow-irm.png "Workflow of metrics")
+\[Omitted image "metrics-workflow-irm.png"\] Alt text: Workflow of metrics in IRM.
 
 ## Difference between indicators and metrics
 

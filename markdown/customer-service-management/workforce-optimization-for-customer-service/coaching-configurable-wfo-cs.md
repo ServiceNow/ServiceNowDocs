@@ -2,6 +2,7 @@
 title: Coaching in Workforce Optimization for Customer Service
 description: By using Coaching in Workforce Optimization for Customer Service, you can assess your team's abilities to efficiently resolve cases by reviewing their work at critical moments of customer service.Use Skills Overview to analyze skill data such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.Assess the ability of your agents to resolve cases or the quality of their completed tasks.Add or update skills for an agent. You can approve predicted skills if the skill is necessary for the agent to complete assigned tasks. You can also reject a skill if it doesn't apply to the agent.Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.Create a catalog to organize related content into categories.Create learning tasks for agents to keep track of their learning activities.Add internal courses so that agents can learn new content and enhance their skill set.Add courses from external sources such as Udemy, Pluralsight, or Cornerstone to enable your users to gain skills from external content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/coaching-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -18,11 +19,11 @@ By using Coaching in Workforce Optimization for Customer Service, you can assess
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by [default](../reference/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a [coaching opportunity](https://www.servicenow.com/docs/access?context=create-coaching-opportunity&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available by [default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](use-configurable-wfo-cs.md)
+**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
 ## Skills Overview in Workforce Optimization for Customer Service
 
@@ -31,16 +32,16 @@ Use Skills Overview to analyze skill data such as how many skills are assigned t
 Access Skills Overview from the Teams application:
 
 1.  Go to **Workspaces** &gt; **Manager Workspace**.
-2.  Click the Teams icon ![Teams icon.](../../itsm-manager-workspace/image/teams-icon.png).
+2.  Click the Teams icon \[Omitted image "teams-icon.png"\] Alt text: Teams icon..
 3.  Select a team.
 4.  Click the **Skills** tab.
 5.  Select a skill.
 
 You can access the Skills Overview page when you click on a skill in a user profile page in any Workforce Optimization for Customer Service application.
 
-**Note:** You must enable the Coaching With Learning application to view the reports from the application. For enabling this application, see [Activate Workforce Optimization for Customer Service](../task/request-configurable-wfo-cs.md).
+**Note:** You must enable the Coaching With Learning application to view the reports from the application. For enabling this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
-![Skill overview page displaying a skill assigned to tasks, agents, on-call experts, and a pie chart of skill coverage experience level dispersal.](../image/skills-overview-new.png)
+\[Omitted image "skills-overview-new.png"\] Alt text: Skill overview page displaying a skill assigned to tasks, agents, on-call experts, and a pie chart of skill coverage experience level dispersal.
 
 ### Use cases
 
@@ -142,14 +143,14 @@ Displays the percentage as well as the number of users with different levels of 
 </td></tr></tbody>
 </table>### Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](../task/request-configurable-wfo-cs.md).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Assigned Users|![Single score icon.](../../../reuse/reporting/image/single-score-sm.svg)|User Skill \[sys\_user\_has\_skill\]|The number of users who have the selected skill assigned to them.|
-|Assigned Tasks|![Single score icon.](../../../reuse/reporting/image/single-score-sm.svg)|Task Skill \[task\_m2m\_skill\]|The number of tasks for which this skill has been assigned.|
-|Pending Users|![Single score icon.](../../../reuse/reporting/image/single-score-sm.svg)|Pending Users \[sn\_lc\_learning\_task\]|The numbers of users who are yet to be assigned the selected skill from the learning task.|
-|Course Items|![Single score icon.](../../../reuse/reporting/image/single-score-sm.svg)|Learning Course Item \[sn\_lc\_course\_item\]|The number of internal and external courses that have the skill associated with the course item.|
+|Assigned Users|\[Omitted image "single-score-sm.svg"\] Alt text: Single score icon.|User Skill \[sys\_user\_has\_skill\]|The number of users who have the selected skill assigned to them.|
+|Assigned Tasks|\[Omitted image "single-score-sm.svg"\] Alt text: Single score icon.|Task Skill \[task\_m2m\_skill\]|The number of tasks for which this skill has been assigned.|
+|Pending Users|\[Omitted image "single-score-sm.svg"\] Alt text: Single score icon.|Pending Users \[sn\_lc\_learning\_task\]|The numbers of users who are yet to be assigned the selected skill from the learning task.|
+|Course Items|\[Omitted image "single-score-sm.svg"\] Alt text: Single score icon.|Learning Course Item \[sn\_lc\_course\_item\]|The number of internal and external courses that have the skill associated with the course item.|
 
 ## Assess the quality of completed tasks
 
@@ -165,11 +166,9 @@ Role required: sn\_coaching.coach
 
 Watch this short video to get an overview on coaching, assessments, and trainings.
 
-Workforce Optimization for Customer Service Coaching Overview.
-
 ### About this task
 
-If the [coaching opportunity](https://www.servicenow.com/docs/access?context=create-coaching-opportunity&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://www.servicenow.com/docs/access?context=assess-trainee&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -181,37 +180,37 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d135089e643">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d94465e635">
 
 To
 
-</th><th align="left" id="d135089e646">
+</th><th align="left" id="d94465e638">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d135089e652">
+</th></tr></thead><tbody><tr><td id="d94465e644">
 
 **Perform adhoc assessments**
 
 </td><td>
 
-1.  Click the Lists \(![Lists icon.](../image/list-new.png)\) icon.
+1.  Click the Lists \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\) icon.
 2.  Select any record, such as a case or interaction, for which you want to create an assessment.
-3.  Select the Assessments \(![Coaching Assessment icon.](../image/coaching-assessment-new.png)\) icon. The assessment screen appears in the right panel.
+3.  Select the Assessments \(\[Omitted image "coaching-assessment-new.png"\] Alt text: Coaching Assessment icon.\) icon. The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d135089e688">
+</td></tr><tr><td id="d94465e680">
 
 **Use assessments triggered by coaching opportunities**
 
 </td><td>
 
-1.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+1.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 2.  Select any record for which you want to create an assessment.
 
 **Note:** Click the **Active Assessments** tab to view assessments of all teams for which you are a manager or an additional manager.
@@ -333,25 +332,25 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Click the **Skills** tab.
 
-    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    You can view the list of all assigned skills and the skill level for each agent on your team. For more information on skills and skills levels, see Skills Management.
 
     You can also filter the skill matrix based on users, groups, skill type, skill level, or skill category. Reset the filter if you want to view the skills for all users.
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d135089e1017">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d94465e1009">
 
 To
 
-</th><th align="left" id="d135089e1020">
+</th><th align="left" id="d94465e1012">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d135089e1026">
+</th></tr></thead><tbody><tr><td id="d94465e1018">
 
 **Add a skill**
 
@@ -362,7 +361,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d135089e1056">
+</td></tr><tr><td id="d94465e1048">
 
 **Update a skill level**
 
@@ -380,7 +379,7 @@ The skill gets automatically added to the agent.
     2.  In the **Details** tab, review the request for skill approval, the sample case resolutions that were used to predict the skill, and the activity stream.
     -   To approve a skill, click **Approve**. The skill is added to the agent and the lowest level for the skill is automatically associated with the added skill. The state for the request changes to **Approved** and the skill is added to the agent.
     -   To reject a skill, click **Reject**. The state for the request changes to **Rejected**. Predictive Intelligence does not recommend the skill for the user again and the field changes to **Add**.
-    -   Click the More Options \(![More options icon.](../image/ellipsis-new.png)\) icon and select **Save**.
+    -   Click the More Options \(\[Omitted image "ellipsis-new.png"\] Alt text: More options icon.\) icon and select **Save**.
     The application assigns the skill to the user. If the assigned skill does not have a skill level, the application adds the basic skill level to the user.
 
 
@@ -388,9 +387,7 @@ The skill gets automatically added to the agent.
 
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.
 
-**Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](../task/request-configurable-wfo-cs.md).
-
-Coaching with Learning
+**Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
 ### Create a learning catalog
 
@@ -404,7 +401,7 @@ Role required: sn\_lc.catalog\_manager
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Click the **Learning** tab.
 
@@ -443,13 +440,13 @@ Role required: sn\_lc.task\_creator
 
 #### About this task
 
-Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for Customer Service Reference](../reference/components-installed-configurable-wfo-cs.md).
+Set learning task completion due dates to include or exclude weekends using the **exclude\_weekends\_on\_learning\_task\_due\_date** system property. For more information, see [Workforce Optimization for Customer Service Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
 
 #### Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Click **Learning Tasks** and select **All Tasks**.
 
@@ -517,7 +514,7 @@ Role required: sn\_lc.content\_creator
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Click **Learning Courses** and select **Internal Courses**.
 
@@ -610,7 +607,7 @@ Role required: sn\_lc.learning\_admin
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Click the **Learning** tab.
 

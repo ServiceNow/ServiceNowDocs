@@ -2,6 +2,7 @@
 title: Avoid enforcement of a mandatory field
 description: You can avoid enforcing a mandatory field within tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/t\_AvoidEnforceOfMandFieldWinTab.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -23,7 +24,7 @@ Role required: admin
 
 By default, mandatory fields must be filled in before switching tabs in the **Choose Options** section of order guides.
 
-![Order guide mandatory fields](../image/AvoidEnforceMandFieldTabG.png "Order guide mandatory fields")
+\[Omitted image "AvoidEnforceMandFieldTabG.png"\] Alt text: Order guide mandatory fields
 
 In this example, if the customer attempts to select another tab without filling in the Street Address field, a warning prompt appears. The customer cannot switch tabs without entering this information.
 
@@ -42,5 +43,5 @@ To avoid this enforcement in all order guides:
     To avoid enforcement of mandatory fields altogether, use the Ignore Mandatory Evaluation check box within the relevant order guide rule.
 
 
-**Parent Topic:**[Order guides](../concept/c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 

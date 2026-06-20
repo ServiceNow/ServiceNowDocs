@@ -2,7 +2,10 @@
 title: Configure queues for recommendation process
 description: Enable administrators to configure custom queues to handle Recommended Actions asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-queues-for-recommendation-process.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-04-23"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: admin or sn\_nb\_action.next\_best\_action\_admin
 
 3.  On the queue registration form, fill in the fields.
 
-    For a description of the field values, see:[Queue registration form for recommendation process](../reference/ra-queue-registration-form.md).
+    For a description of the field values, see:[Queue registration form for recommendation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-queue-registration-form.md).
 
 4.  Select **Submit**.
 

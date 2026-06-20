@@ -2,6 +2,7 @@
 title: Delete a part requirement
 description: Delete a part requirement from a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_DeleteAPartRequirement.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -17,7 +18,7 @@ Delete a part requirement from a work order task.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Role required: wm\_qualifier or [qualifier combination role](../reference/r_User
     The system deletes the part requirement without displaying a confirmation message.
 
 
-**Parent Topic:**[Create a part requirement](t_CreateAPartRequirement.md)
+**Parent Topic:**[Create a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CreateAPartRequirement.md)
 

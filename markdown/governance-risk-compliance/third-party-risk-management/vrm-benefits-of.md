@@ -2,11 +2,12 @@
 title: Benefits of your third-party risk management program
 description: A third-party risk management program can help you to proactively identify, assess, and mitigate the risks that are associated with your relationships with third parties. By effectively managing third-party risks, you can enhance your overall resilience, protect your interests, and create sustainable and trustworthy business relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/vrm-benefits-of.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

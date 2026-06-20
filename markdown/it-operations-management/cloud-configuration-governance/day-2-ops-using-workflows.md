@@ -2,6 +2,7 @@
 title: Day 2 operations using workflows
 description: Take advantage of the workflows framework to automate your Day 2 operations. Quickly write a workflow that communicates with a Cloud API or a particular resource. Use SSH, PowerShell, or a similar tool, to access and then extend the workflow capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/day-2-ops-using-workflows.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -33,11 +34,11 @@ Learn more
 
 To learn about workflows in general, see:
 
--   [Workflow overview](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
--   [Create a workflow from a table](https://www.servicenow.com/docs/access?context=t_CreateAWorkflowFromATable&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+-   Workflow overview
+-   Create a workflow from a table
 
 To learn about how to work with variables in workflows, see:
 
--   [Workflow input variables](https://www.servicenow.com/docs/access?context=c_UsingVariablesInAWorkflow&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
--   [Using variables in a workflow](https://www.servicenow.com/docs/access?context=c_UsingVariablesInAWorkflow&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+-   Workflow input variables
+-   Using variables in a workflow
 

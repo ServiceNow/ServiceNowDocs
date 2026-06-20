@@ -2,13 +2,14 @@
 title: Uninstall Agent Client Collector from a Linux system
 description: Uninstall the Agent Client Collector from a Linux machine manually if the command script is unavailable due to the specific agent not being connected to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-linux-uninstall.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Perform a single-line Agent Client Collector installation on Linux, Agent Client Collector installation on a Linux OS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Perform a single-line ACC installation on Linux, Agent Client Collector installation on a Linux OS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Uninstall Agent Client Collector from a Linux system
@@ -49,5 +50,5 @@ By default, an uninstalled agent is removed from the system after 30 days. To mo
     **Warning:** Do not use the command rm -Rf, as this can cause data loss.
 
 
-**Parent Topic:**[Perform a single-line Agent Client Collector installation on Linux](acc-oneliner-install.md)
+**Parent Topic:**[Perform a single-line Agent Client Collector installation on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-oneliner-install.md)
 

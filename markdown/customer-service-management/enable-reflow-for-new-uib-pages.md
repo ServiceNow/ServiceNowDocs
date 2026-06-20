@@ -2,7 +2,10 @@
 title: Enable a reflow for your UI Builder pages
 description: Enable a reflow for your UI Builder pages. This way, when you’re resizing a window, you don't have to scroll horizontally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-reflow-for-new-uib-pages.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -55,6 +58,6 @@ The reflow feature adjusts the properties of the components when you’re resizi
 
 7.  Select **Done**.
 
-    For more details, see [Reflow for playbook components](https://www.servicenow.com/docs/access?context=reflow-for-playbook-components&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+    For more details, see .
 
 

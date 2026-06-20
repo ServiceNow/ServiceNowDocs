@@ -2,6 +2,7 @@
 title: Dashboards in the library
 description: To find dashboards in Platform Analytics, navigate to All Platform Analytics Library Dashboards .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/find-dashboard-library.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
@@ -13,33 +14,33 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 To find dashboards in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-![Platform Analytics Dashboards library page](../../par-for-workspace/image/analytics-center-db-tab.png "Platform Analytics Dashboards library")
+\[Omitted image "analytics-center-db-tab.png"\] Alt text: Platform Analytics Dashboards library page
 
 ## Dashboards overview tiles
 
 Each section of the Dashboards page shows up to 20 dashboard tiles at a time. You can filter the tiles on the Dashboards tab to show:
 
 -   **Recent** shows the most recent dashboards that you've viewed. The tile shows when you last opened the dashboard.
--   **Bookmarked** shows only your bookmarked dashboards. Bookmark dashboards that you have access to so that you can find them easily here. For more information about bookmarking dashboards, see [Bookmark a Platform Analytics dashboard](../task/bookmark-dashboard-ac.md).
--   **Certified** shows only the dashboards that an administrator has certified. For more information, see [Certify a Platform Analytics dashboard](../task/certify-db-ac.md).
+-   **Bookmarked** shows only your bookmarked dashboards. Bookmark dashboards that you have access to so that you can find them easily here. For more information about bookmarking dashboards, see [Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/bookmark-dashboard-ac.md).
+-   **Certified** shows only the dashboards that an administrator has certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/certify-db-ac.md).
 -   **Created by me** shows the dashboards that you’ve created.
 -   **Shared with me** shows dashboards that other users have shared with you.
 -   **All** shows all the dashboards that you have access to.
 
 Dashboard tiles show the following information:
 
--   ![Image section A](../../par-for-workspace/image/step-a.png) A description, in a tooltip, if a description has been written
--   ![Image section B](../../par-for-workspace/image/step-b.png) The title of the dashboard
--   ![Image section C](../../par-for-workspace/image/step-c.png) An information icon, present only if a description has been written for the dashboard, which opens the description tooltip ![Image section A](../../par-for-workspace/image/step-a.png)
--   ![Image section D](../../par-for-workspace/image/step-d.png) A bookmark icon, which is solid if the dashboard is bookmarked and clear if it is not
--   ![Image section E](../../par-for-workspace/image/step-e.png) A certification badge, if the dashboard is certified
--   ![Image section F](../../par-for-workspace/image/step-f.png) In the **Recents** view only, the date when the dashboard was last viewed
--   ![Image section G](../../par-for-workspace/image/step-g.png), The names of the dashboard owners, both users and groups
+-   \[Omitted image "step-a.png"\] Alt text: Image section A A description, in a tooltip, if a description has been written
+-   \[Omitted image "step-b.png"\] Alt text: Image section B The title of the dashboard
+-   \[Omitted image "step-c.png"\] Alt text: Image section C An information icon, present only if a description has been written for the dashboard, which opens the description tooltip \[Omitted image "step-a.png"\] Alt text: Image section A
+-   \[Omitted image "step-d.png"\] Alt text: Image section D A bookmark icon, which is solid if the dashboard is bookmarked and clear if it is not
+-   \[Omitted image "step-e.png"\] Alt text: Image section E A certification badge, if the dashboard is certified
+-   \[Omitted image "step-f.png"\] Alt text: Image section F In the **Recents** view only, the date when the dashboard was last viewed
+-   \[Omitted image "step-g.png"\] Alt text: Image section G, The names of the dashboard owners, both users and groups
 
-![Dashboard tile example with title, bookmark, certification, last viewed, description, and creator called out](../image/db-overview-ac-tile-callout.png)
+\[Omitted image "db-overview-ac-tile-callout.png"\] Alt text: Dashboard tile example with title, bookmark, certification, last viewed, description, and creator called out
 
--   **[Finding Next Experience dashboards](find-next-exp-db.md)**  
+-   **[Finding Next Experience dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-next-exp-db.md)**  
 You can located dashboards in the library's dashboard overview and using the picker on an individual dashboard.
 
-**Parent Topic:**[Exploring Platform Analytics dashboards](../reference/ac-elements.md)
+**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ac-elements.md)
 

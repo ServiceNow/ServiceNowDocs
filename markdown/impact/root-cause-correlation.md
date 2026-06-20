@@ -2,7 +2,10 @@
 title: Root Cause Correlation
 description: Root Cause Correlation \(RCC\) streamlines performing a root cause analysis by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/root-cause-correlation.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

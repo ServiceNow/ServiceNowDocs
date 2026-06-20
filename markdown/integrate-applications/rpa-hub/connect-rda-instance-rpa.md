@@ -2,6 +2,7 @@
 title: Connect to an RPA Hub instance from Attended Robot
 description: Connect to an RPA Hub instance in three ways by using the Connection Manager so that you can establish a connection between the Attended Robot and ServiceNow RPA Hub instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/connect-rda-instance-rpa.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Connect to an RPA Hub instance in three ways by using the Connection Manager so 
 
 ## Before you begin
 
-Establish a connection between the Attended Robot and ServiceNow RPA Hub instance. For more information, see [Set up Attended Robot](set-up-rda-runtime.md).
+Establish a connection between the Attended Robot and ServiceNow RPA Hub instance. For more information, see [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rda-runtime.md).
 
 Role required: none
 
@@ -25,15 +26,15 @@ Role required: none
 
 1.  To connect to an RPA Hub instance, do any of the following actions in the Connection Manager dialog box.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d540676e101">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d320218e101">
 
 Option
 
-</th><th align="left" id="d540676e104">
+</th><th align="left" id="d320218e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d540676e110">
+</th></tr></thead><tbody><tr><td id="d320218e110">
 
 **If there is a single instance**
 
@@ -43,7 +44,7 @@ Action
 2.  Select **Connect**.
 
 
-</td></tr><tr><td id="d540676e137">
+</td></tr><tr><td id="d320218e137">
 
 **If there are multiple instances and none of them are marked as default**
 
@@ -58,7 +59,7 @@ Action
 7.  Select **Log in**.
 
 
-</td></tr><tr><td id="d540676e192">
+</td></tr><tr><td id="d320218e192">
 
 **If an instance is marked as default**
 

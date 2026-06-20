@@ -2,6 +2,7 @@
 title: Complete a KPI collection task from the Supplier Collaboration Portal
 description: A KPI collection task is generated automatically each time a KPI is instantiated. A supplier contact can complete the assigned KPI collection task from the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/complete-kpi-task-scp.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -43,5 +44,5 @@ A KPI is instantiated when:
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

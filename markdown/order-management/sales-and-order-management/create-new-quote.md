@@ -2,6 +2,7 @@
 title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-new-quote.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -28,21 +29,21 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![List view icon.](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List view icon. view.
 
 2.  Navigate to **Quotes** &gt; **All** and select **New**.
 
 3.  In the Create new quote window, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d55052e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d46215e105">
 
 To
 
-</th><th align="left" id="d55052e108">
+</th><th align="left" id="d46215e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55052e114">
+</th></tr></thead><tbody><tr><td id="d46215e114">
 
 **Create quote for an account**
 
@@ -53,7 +54,7 @@ Select the **Account** and enter the following:-   Contact: Name of the primary 
 -   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d55052e137">
+</td></tr><tr><td id="d46215e137">
 
 **Create quote for a consumer**
 
@@ -72,12 +73,12 @@ Select the **Consumer** name and enter the following:-   Short description: Brie
 
         The quote is saved and you return to the **Quotes** list view.
 
-5.  Select refresh ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new quote in the list.
+5.  Select refresh \[Omitted image "icon-refresh.png"\] to see the new quote in the list.
 
 
 ## What to do next
 
-[Add and view details of a quote](quote-management-details-tab.md).
+[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-details-tab.md).
 
 The follow scenarios are possible when a user starts a quote:
 

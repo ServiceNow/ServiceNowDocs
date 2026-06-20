@@ -2,6 +2,7 @@
 title: Set up the AI Search spoke
 description: Configure the AI Search spoke to index content from a third-party application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-ais-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -25,7 +26,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 1.  Create an external content schema table.
 
-    To learn more about external content schema tables, see [Indexing and searching external content in AI Search](https://www.servicenow.com/docs/access?context=external-content-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    To learn more about external content schema tables, see .
 
     1.  Navigate to **AI Search** &gt; **Create Schema**.
 
@@ -37,7 +38,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 2.  Create an indexed source for content from your third-party application.
 
-    To learn more about indexed sources, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    To learn more about indexed sources, see .
 
     1.  Navigate to **AI Search** &gt; **Indexed Sources**.
 
@@ -72,7 +73,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 4.  Create a search source for your new indexed source.
 
-    To learn more about search sources, see [Search sources in AI Search](https://www.servicenow.com/docs/access?context=search-sources-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    To learn more about search sources, see .
 
     1.  Navigate to **AI Search** &gt; **Search Experience** &gt; **Search Sources**.
 
@@ -91,7 +92,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 5.  Create a search profile that includes your new search source.
 
-    For more information about configuring and publishing search profiles, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    For more information about configuring and publishing search profiles, see .
 
     1.  Navigate to **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
 
@@ -118,5 +119,5 @@ Configure the AI Search spoke to index content from a third-party application.
 
 You can now use the AI Search spoke actions to indexed content from the third-party application. To view the indexed content, you can use the Search Preview UI from the Advanced AI Search Management Tools application.
 
-For details on the Search Preview UI, see [Search Preview UI for AI Search](https://www.servicenow.com/docs/access?context=ai-search-preview&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US). To learn more about the Advanced AI Search Management Tools application, see [Analytics and Reporting Solution for Advanced AI Search Management Tools](https://www.servicenow.com/docs/access?context=adv-ais-mgmt-tools-content-pack&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For details on the Search Preview UI, see Search Preview UI for AI Search. To learn more about the Advanced AI Search Management Tools application, see Analytics and Reporting Solution for Advanced AI Search Management Tools.
 

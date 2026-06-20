@@ -2,6 +2,7 @@
 title: Set up message authentication for Alexa
 description: Define a token in your ServiceNow instance to set up a message authentication with your Alexa account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/setup-message-auth-alexa.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

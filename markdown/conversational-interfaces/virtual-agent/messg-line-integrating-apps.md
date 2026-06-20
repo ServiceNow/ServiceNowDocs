@@ -2,6 +2,7 @@
 title: Integrating the LINE messaging app with other applications
 description: Other ServiceNow applications and features can use the Conversational Integration with LINE application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-line-integrating-apps.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ As an administrator, you can use the Conversational Integration with LINE applic
 
 ## Integrating with Customer Service Management
 
-Integrate the Conversational Integration with LINE application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a LINE chat conversation with a virtual agent or live agent. An agent can initiate a conversation, or accept a conversation initiated from a LINE chat conversation. For more information, see [Integrate LINE with Customer Service Management](https://www.servicenow.com/docs/access?context=messg-integrate-line-csm&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+Integrate the Conversational Integration with LINE application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a LINE chat conversation with a virtual agent or live agent. An agent can initiate a conversation, or accept a conversation initiated from a LINE chat conversation. For more information, see Integrate LINE with Customer Service Management.
 
-**Parent Topic:**[Integrating Virtual Agent with LINE](messg-line.md)
+**Parent Topic:**[Integrating Virtual Agent with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line.md)
 

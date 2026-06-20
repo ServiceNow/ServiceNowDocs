@@ -2,6 +2,7 @@
 title: Access policy for System/Export Processors
 description: Ability for System/Export Processors to leverage processor access policy to secure all the export endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/api-auth-policy-export-processors.html
 release: yokohama
 product: Authentication
 classification: authentication

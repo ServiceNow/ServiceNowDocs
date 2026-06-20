@@ -2,6 +2,7 @@
 title: Configure the newly created DocIntel Extract Values Flow
 description: Configure the newly created DocIntel Extract Values Flow - copied use case - Invoice Processing v7 flow to add the missing information by referring to the default DocIntel Extract Values Flow - Invoice Processing v7 flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,9 +34,9 @@ In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7*
 
 3.  In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7** flow, under TRIGGER, do the following:
 
-    Configure the condition by appending **AND** condition with existing condition where the new condition is **Use case** which is equal to copied use case. Example: Use case=&lt;&lt;**copied use case**&gt;&gt;.![Copied GenAI use case](../image/add-genai-usecase.png)
+    Configure the condition by appending **AND** condition with existing condition where the new condition is **Use case** which is equal to copied use case. Example: Use case=&lt;&lt;**copied use case**&gt;&gt;.\[Omitted image "add-genai-usecase.png"\] Alt text: Copied GenAI use case
 
-4.  In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7** flow: under **Actions**, configure new actions similar to **Look up Invoice Stage Record** \(action 3\), **Look up Invoice Case Record** \(action 4\), **Condition label : Check if invoice on invoice case is not empty** \(action 5, 6, 7\) and **Update stage record** \(action 8\) from flow mentioned in step 2.![Trigger condition](../image/trigger-condition-usecase.png)
+4.  In the **DocIntel Extract Values Flow - copied use case - Invoice Processing v7** flow: under **Actions**, configure new actions similar to **Look up Invoice Stage Record** \(action 3\), **Look up Invoice Case Record** \(action 4\), **Condition label : Check if invoice on invoice case is not empty** \(action 5, 6, 7\) and **Update stage record** \(action 8\) from flow mentioned in step 2.\[Omitted image "trigger-condition-usecase.png"\] Alt text: Trigger condition
 
 5.  Select **Save**.
 

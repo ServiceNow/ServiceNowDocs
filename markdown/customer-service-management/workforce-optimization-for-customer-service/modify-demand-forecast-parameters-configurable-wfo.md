@@ -2,6 +2,7 @@
 title: Modify forecast parameters to visualize forecast data
 description: Configure and tweak forecast parameters to see how the forecast behaves when you vary the period length, periods to forecast, or algorithm. You can view the modified forecast on the time-series visualization at intervals of 15-, 30-, and 60-minute intervals and daily interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/modify-demand-forecast-parameters-configurable-wfo.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -27,7 +28,7 @@ You can define the start and end dates for which you want to create the forecast
 
 For 15-, 30-, and 60-minute intervals, managers can generate forecast up to 28 days. For daily interval, managers can generate forecast up to 365 days.
 
-Forecast results are displayed with the historical data so that the user can compare the patterns of historical data with the forecast. The historical data of 14 days prior to the current date will be displayed with forecasts of 15-, 30-, and 60-minute intervals. The historical data of four weeks to the prior date will be displayed with forecasts of daily intervals. You can customize and configure historical data to be displayed using the **sn\_agent\_forecast.number\_of\_historical\_days\_in\_timeseries\_chart** and **sn\_agent\_forecast.number\_of\_historical\_days\_in\_daily\_timeseries\_chart** [system properties.](../reference/components-installed-configurable-wfo-cs.md).
+Forecast results are displayed with the historical data so that the user can compare the patterns of historical data with the forecast. The historical data of 14 days prior to the current date will be displayed with forecasts of 15-, 30-, and 60-minute intervals. The historical data of four weeks to the prior date will be displayed with forecasts of daily intervals. You can customize and configure historical data to be displayed using the **sn\_agent\_forecast.number\_of\_historical\_days\_in\_timeseries\_chart** and **sn\_agent\_forecast.number\_of\_historical\_days\_in\_daily\_timeseries\_chart** [system properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md).
 
 The published forecast is reflected on the team calendar only when the **Forecast resources for future** job is executed.
 
@@ -35,7 +36,7 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click **Forecasts**.
 
@@ -43,7 +44,7 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
     You can visualize each of the forecast parameters that were created for the forecast model.
 
-5.  Click the gear \(![Forecast Parameters icon](../image/gear-new.png)\)icon.
+5.  Click the gear \(\[Omitted image "gear-new.png"\] Alt text: Forecast Parameters icon\)icon.
 
 6.  Click the plus \(+\) sign.
 
@@ -58,7 +59,7 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
 8.  To preview a forecast before publishing it, click **Preview**.
 
-    he forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](create-manual-adjustment-forecast-configurable-wfo.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
+    he forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-manual-adjustment-forecast-configurable-wfo.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
 
     |When you|Then the forecast|
     |--------|-----------------|
@@ -80,5 +81,5 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
 ## What to do next
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](../concept/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configuring-demand-forecast-configurable-wfo-cs.md)
 

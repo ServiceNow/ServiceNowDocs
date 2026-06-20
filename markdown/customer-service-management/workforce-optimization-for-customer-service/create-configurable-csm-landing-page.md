@@ -2,6 +2,7 @@
 title: Create a Manager Workspace landing page
 description: Create a landing page based on your business requirement.You can set a default landing page to surface the information that is most relevant for your business.Set the enhanced Manager Workspace as the default landing page for an improved user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-configurable-csm-landing-page.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -235,7 +236,7 @@ The type of report that renders.
 10. Click **Update** to save changes to the landing page.
 
 
-**Parent Topic:**[Configuring Workforce Optimization for Customer Service](../concept/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 
 ## Set the default landing page
 

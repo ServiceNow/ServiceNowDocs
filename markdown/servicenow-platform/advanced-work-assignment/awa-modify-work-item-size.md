@@ -2,6 +2,7 @@
 title: Create or change a work item size override
 description: Create a work item size override if you want Agent Affinity to calculate an agent's workload using a work item size other than the default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-modify-work-item-size.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -106,5 +107,5 @@ JavaScript condition statement that specifies the override work item size. The c
 </table>5.  Select **Submit** to create the override or **Update** to change the override.
 
 
-**Parent Topic:**[Service channels](../concept/awa-service-channels.md)
+**Parent Topic:**[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-service-channels.md)
 

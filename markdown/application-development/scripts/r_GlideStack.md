@@ -2,6 +2,7 @@
 title: Glide stack
 description: Glide is an extensible Web 2.0 development platform written in Java that facilitates rapid development of forms-based workflow applications \(work orders, trouble ticketing, and project management, for example\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/r\_GlideStack.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -145,7 +146,7 @@ Persistence
     -   ElementDescriptor
 
 </td></tr></tbody>
-</table>![](../image/GlideServlet.png "Glide servlet")
+</table>\[Omitted image "GlideServlet.png"\] Alt text:
 
-**Parent Topic:**[Glide class overview](r_GlideClassOverview.md)
+**Parent Topic:**[Glide class overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/r_GlideClassOverview.md)
 

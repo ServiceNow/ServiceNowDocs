@@ -2,6 +2,7 @@
 title: Plan unscheduled items into roadmap in Portfolio Planning Workspace
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
@@ -28,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d138921e93">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d56019e93">
 
 Roadmap type
 
-</th><th align="left" id="d138921e96">
+</th><th align="left" id="d56019e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d138921e102">
+</th></tr></thead><tbody><tr><td id="d56019e102">
 
 **Portfolio plan roadmap**
 
@@ -46,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d138921e123">
+</td></tr><tr><td id="d56019e123">
 
 **Free-form roadmap**
 
@@ -55,12 +56,12 @@ Navigation
 From the Free-form Roadmaps tab, select a roadmap.
 
 </td></tr></tbody>
-</table>2.  From the sidebar, select Unscheduled items \(![Unscheduled items icon.](../../alignment-planner-workspace/images/unscheduled-items-icon.png)\).
+</table>2.  From the sidebar, select Unscheduled items \(\[Omitted image "unscheduled-items-icon.png"\] Alt text: Unscheduled items icon.\).
 
 3.  From the list of unscheduled items in the side panel, drag and drop a planning item at a place of your choice on the roadmap.
 
-    ![Schedule unscheduled items.](../../spw-roadmap/images/unscheduled-items.gif)
+    \[Omitted image "unscheduled-items.gif"\] Alt text: Schedule unscheduled items.
 
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

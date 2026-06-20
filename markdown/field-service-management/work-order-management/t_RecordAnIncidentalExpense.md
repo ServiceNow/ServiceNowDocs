@@ -2,6 +2,7 @@
 title: Record an incidental expense
 description: Record incidental expenses associated with your business travel through the Field Service application to execute work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_RecordAnIncidentalExpense.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -126,5 +127,5 @@ An incidental record is created, the system generates an expense line if the fol
 
 Field service administrators and agents can view all incidentals by navigating to **Field Service** &gt; **Agent** &gt; **Incidentals**.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

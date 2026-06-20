@@ -2,7 +2,10 @@
 title: Create an advanced resource filter for dispatchers
 description: Create an advanced resource filter so all dispatchers can use the same filter in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/create-resource-filter.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

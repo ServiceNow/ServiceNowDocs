@@ -2,6 +2,7 @@
 title: ServiceNow AI Lens skill
 description: This skill provides generative AI capabilities to read, understand, respond, and act on visual data such as hand-written texts, images, and websites and take powerful actions to boost productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-skill.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -22,7 +23,7 @@ This skill is a Platform skill that is enabled by the admin from the ServiceNow 
 -   Provide instructions to extract data in a specific way or to get a specific output.
 -   Gather insights from multiple images.
 
-![ServiceNow lens screen.](../../../administer/now-assist-skills/image/servicenow-lens-skill.png "ServiceNow AI Lens skill in the Platform workflow of the Now Assist Admin console")
+\[Omitted image "servicenow-lens-skill.png"\] Alt text: ServiceNow lens screen.
 
 ## Availability
 
@@ -42,7 +43,7 @@ Platform
 
 </td><td>
 
-[ServiceNow AI Lens](servicenow-lens-landing-page.md)
+[ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
 
 </td></tr></tbody>
 </table>## Licensing requirements

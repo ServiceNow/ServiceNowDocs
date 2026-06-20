@@ -2,6 +2,7 @@
 title: Local change lists
 description: On the team dashboard, the Local Changes list shows the local changes that have not been queued for the next push or ignored for all pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/c\_NavigatingLocalChangeLists.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -25,5 +26,5 @@ The Ready to Push list shows the changes that are queued, and the Ignored list s
 |Right-click the row and select **Show Application File**|To open the application file for the customized record.|
 |Right-click the row and select **Show Version**|To open the current version record.|
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

@@ -2,6 +2,7 @@
 title: Update the state model script include
 description: Update the ChangeRequestStateModel\_normal script include to add new functions for the Complete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/t\_UpdateStateModelScriptInclude.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -48,7 +49,7 @@ You update the ChangeRequestStateModel\_normal with the following configuration.
                  },
         ```
 
-        ![Revised script](../image/NewStateTutUpdScrptIncl2.png)
+        \[Omitted image "NewStateTutUpdScrptIncl2.png"\] Alt text: Revised script
 
     2.  Modify the existing *implement* object to *toComplete*:
 
@@ -125,9 +126,9 @@ You update the ChangeRequestStateModel\_normal with the following configuration.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Update the state handler script include](t_UpdateStateHandlerScriptInclude.md)
+**Previous topic:**[Update the state handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_UpdateStateHandlerScriptInclude.md)
 
-**Next topic:**[Create a UI action](t_CreateNewUIAction.md)
+**Next topic:**[Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateNewUIAction.md)
 

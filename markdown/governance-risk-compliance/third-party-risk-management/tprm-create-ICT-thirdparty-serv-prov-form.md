@@ -2,11 +2,12 @@
 title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Create a third party and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -138,7 +139,7 @@ Total annual expense or estimated cost of the ICT third-party service provider
 
 Total annual expense or estimated cost of the ICT third-party service provider.**Note:** Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria.
 
-For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md).
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 </td></tr><tr><td>
 

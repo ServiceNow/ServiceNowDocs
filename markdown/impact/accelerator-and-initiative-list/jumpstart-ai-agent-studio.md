@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Agent Studio
 description: This accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

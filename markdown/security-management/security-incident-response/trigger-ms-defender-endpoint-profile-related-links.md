@@ -2,6 +2,7 @@
 title: Trigger the Microsoft Defender for Endpoint capabilities from Related Links
 description: Trigger a capability profile manually after reviewing a security incident from related links.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/trigger-ms-defender-endpoint-profile-related-links.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ In addition to running the profile for the CI or the Alternate CI of the securit
 
 4.  Browse and select a profile from the list of available profiles, and click **Submit**.
 
-    ![Trigger a Microsoft Defender for Endpoint capability profile from Related Links](../image/select_profile.png "Select a profile")
+    \[Omitted image "select\_profile.png"\] Alt text: Trigger a Microsoft Defender for Endpoint capability profile from Related Links
 
     The selected profile is triggered manually.
 

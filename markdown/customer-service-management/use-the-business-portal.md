@@ -1,17 +1,20 @@
 ---
 title: Using the Business Portal
-description: Search for information about a question or an issue, or request assistance from a customer service agent.
+description: Search for answers to questions or known issues, or contact a customer service agent for assistance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-the-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Using the Business Portal
 
-Search for information about a question or an issue, or request assistance from a customer service agent.
+Search for answers to questions or known issues, or contact a customer service agent for assistance.
 
 Your Business Portal activity usually begins on the home page. It has configurable widgets to display information.
 

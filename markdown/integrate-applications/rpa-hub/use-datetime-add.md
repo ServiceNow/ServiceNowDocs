@@ -2,6 +2,7 @@
 title: Use the Add component
 description: Increase or decrease the time or date by the value you specify as part of a Workflow with the Add component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-datetime-add.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Add component. For more information about these properties, see [Properties of the DateTime components](../reference/util-datetime-prop.md).
+You can configure the properties for the Add component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/util-datetime-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the Add component. For more information abo
 
 2.  Drag the Add component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Add component to the corresponding ports of the other components as described in the following table.
 
@@ -129,5 +130,5 @@ No. Connecting the port is optional.
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DateTime](../concept/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/datetime-utility.md)
 

@@ -2,6 +2,7 @@
 title: ServiceNow Governance
 description: Guidance on building ServiceNow Governance boards and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/servicenow-governance.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

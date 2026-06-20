@@ -2,9 +2,12 @@
 title: List of related party configurations provided with the base system
 description: Related party configurations for different entities that are provided with the base system are listed in the following tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/list-of-related-party-configurations.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
@@ -57,7 +60,7 @@ Types and responsibilities for install bases are listed in the following table.
 |Listed Member|Not applicable|
 |Listed Service Organization|Not applicable|
 
-For more information on install base related parties, see [Add related parties to an install base item](../task/add-related-party-install-base.md).
+For more information on install base related parties, see [Add related parties to an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-related-party-install-base.md).
 
 ## Related party configurations for account team members
 

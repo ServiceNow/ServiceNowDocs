@@ -2,6 +2,7 @@
 title: Disqualify a lead
 description: Disqualify a lead in Lead Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/lead-management-disqualify-lead.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,11 +22,11 @@ Role required: sales\_agent or sales\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select an existing lead that you're working with.
 
-3.  Open the lead record, select three-dot menu \(![](../image/icon-three-dot-menu.png)\) at the top-right corner on the lead header and select **Disqualify lead**.
+3.  Open the lead record, select three-dot menu \(\[Omitted image "icon-three-dot-menu.png"\]\) at the top-right corner on the lead header and select **Disqualify lead**.
 
     **Note:** You can only disqualify a lead that is in New or Contacted or Nurturing stage.
 
@@ -36,5 +37,5 @@ Role required: sales\_agent or sales\_manager
 
 ## What to do next
 
-To learn more, see [Using Lead Management](../concept/lead-management-using.md).
+To learn more, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/lead-management-using.md).
 

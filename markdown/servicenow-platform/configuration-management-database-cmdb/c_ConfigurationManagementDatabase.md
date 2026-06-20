@@ -2,6 +2,7 @@
 title: CMDB schema model
 description: The Configuration Management Database \(CMDB\) schema model is a series of connected tables that contain all the assets and business services controlled by a company and its configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/c\_ConfigurationManagementDatabase.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,11 +18,11 @@ The Configuration Management Database \(CMDB\) schema model is a series of conne
 
 Related ServiceNow® Store apps and reference information:
 
--   [CMDB tables descriptions](../reference/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
--   [CMDB CI Class Models](cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
--   [Populating the CMDB](c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
--   [Discovery patterns](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
--   [Getting started with Service Graph Connectors](cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](integrationhub-etl.md) wizard for creating new ETL transform maps.
+-   [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
+-   [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
+-   [Populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
+-   Discovery patterns: A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 CMDB tables contain information about computers and devices on the network, software contracts and licenses, business services, and so on. The IT desk can use the CMDB to better understand their network users' equipment, and the relationships between them. The CMDB can also be referenced by other processes within the system.
 
@@ -39,14 +40,14 @@ Key tables in the configuration management database \(CMDB\):
 
 The Configuration Item table is extended to other tables, such as Database \[cmdb\_ci\_database\] and Computer \[cmdb\_ci\_computer\]. The Computer table is extended to the Server \[cmdb\_ci\_server\] table, which is extended to the UNIX Server \[cmdb\_ci\_unix\_server\] table, and so on.
 
-**Note:** The Base Configuration Item \[cmdb\] table uses the table per partition extension model, which has different behaviors for replicating and deriving information than other extended tables. See [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** The Base Configuration Item \[cmdb\] table uses the table per partition extension model, which has different behaviors for replicating and deriving information than other extended tables. See .
 
 You can use the schema map to view more details of tables and their relationships:
 
 1.  Navigate to **System Definition** &gt; **Tables &amp; Columns**.
 2.  Select a table and click **Schema Map**.
 
-![Table hierarchy map.](../image/SchemaMap.png "Schema Map")
+\[Omitted image "SchemaMap.png"\] Alt text: Table hierarchy map.
 
 **Note:** CIs not extended from the Configuration Item \[cmdb\_ci\] table, are not displayed in Dependency Views maps and in CI relation formatters.
 

@@ -2,6 +2,7 @@
 title: Activate or deactivate a PaCE policy
 description: You can activate or deactivate any PaCE policy. Only activated policies can validate object \(tables and document IDs\) changes. Deactivated policies are not executed, even if the policy is mapped. Deactivating a policy enables you to place the policy into a maintenance-like mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/policy-as-code-engine-pace/pace-deactivate-policy.html
 release: yokohama
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -25,7 +26,7 @@ You can deactivate or activate any policy at any time.
 
 For activated policies:
 
--   The policy must include a Current \(published\) version. For more information, see [Manage PaCE policy versions](../concept/pace-policy-versions.md).
+-   The policy must include a Current \(published\) version. For more information, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).
 -   The policy is auto-validated when you activate it \(if the policy has mapping inputs defined\). Validation verifies the validity of mapping inputs, and checks that all required inputs were set. For more information, see the Validate mapping inputs section.
 
 Deactivating a policy enables you to place the policy into a maintenance-like mode. You can make changes, safe in the knowledge that no one is using the policy. While deactivated, the policy mappings are kept, but the policy cannot be executed. After you are done with any changes, you can reactivate the policy and any existing mappings are reused.
@@ -40,19 +41,19 @@ Deactivating a policy enables you to place the policy into a maintenance-like mo
 
 2.  Select the check box next to the policy that you want to activate or deactivate.
 
-    **Note:** To activate a policy, its current state must be ![Policy Inactive state](../image/pace-inactive-icon.jpg). To deactivate a policy, its current state must be ![Policy Active state](../image/pace-active-icon.jpg). You can select multiple policies, as required.
+    **Note:** To activate a policy, its current state must be \[Omitted image "pace-inactive-icon.jpg"\] Alt text: Policy Inactive state. To deactivate a policy, its current state must be \[Omitted image "pace-active-icon.jpg"\] Alt text: Policy Active state. You can select multiple policies, as required.
 
 3.  Activate or deactivate the selected policy.
 
-<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d414368e159">
+<table id="choicetable_gth_bhk_1pb"><thead><tr><th align="left" id="d301908e159">
 
 Task
 
-</th><th align="left" id="d414368e162">
+</th><th align="left" id="d301908e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d414368e168">
+</th></tr></thead><tbody><tr><td id="d301908e168">
 
 **Activate a policy**
 
@@ -72,7 +73,7 @@ Validation of the activated policy and its associated mapping inputs is performe
 
 **Note:** This only works with content-based policies.
 
-</td></tr><tr><td id="d414368e212">
+</td></tr><tr><td id="d301908e212">
 
 **Deactivate a policy**
 

@@ -2,6 +2,7 @@
 title: Credit memo
 description: You can create Credit memo invoice. The credit memo invoice type can be of PO and Non-PO invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/invoice-type-credit-memo.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,9 +25,9 @@ When an invoice is ingested into the Accounts Payable Operations application rec
 -   Credit memos issued for purchase order or invoice number must match with purchase order lines and invoice lines
 -   Invoice contains negative amount fields
 
-For more information on creating invoice, see [Create New Invoice form](../reference/create-new-invoice-form.md).
+For more information on creating invoice, see [Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
-For more information on invoices ingested using document intelligence, see [Invoice data transformation logic](invoice-data-trans-logic.md).
+For more information on invoices ingested using document intelligence, see [Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md).
 
-**Parent Topic:**[Create an invoice line manually](../task/create-invoice-line.md)
+**Parent Topic:**[Create an invoice line manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/create-invoice-line.md)
 

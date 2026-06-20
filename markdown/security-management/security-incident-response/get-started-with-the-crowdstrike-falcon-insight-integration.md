@@ -2,6 +2,7 @@
 title: Getting started with the CrowdStrike Falcon Insight integration
 description: You can activate and set up the CrowdStrike Falcon Insight to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -64,7 +65,7 @@ The ServiceNow Integration Hub Enterprise Pack Installer \[com.glide.hub.integra
 
 </td></tr><tr><td>
 
-[Set up an approval group.](create-approval-group.md)
+[Set up an approval group.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-approval-group.md)
 
 </td><td>
 
@@ -94,7 +95,7 @@ This integration uses CrowdStrike's custom scripts for few of the enrichment cap
 
 </td></tr><tr><td>
 
-[Generate API clients and keys in the CrowdStrike Falcon Platform.](create-api-clients-and-keys.md)
+[Generate API clients and keys in the CrowdStrike Falcon Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-api-clients-and-keys.md)
 
 </td><td>
 

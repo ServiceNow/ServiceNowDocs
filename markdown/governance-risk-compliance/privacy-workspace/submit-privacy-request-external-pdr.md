@@ -2,6 +2,7 @@
 title: Submit a privacy request using the external facing PDR form
 description: Submit a privacy request using the external-facing Personal Data Rights \(PDR\) form. After submitting, verify your email address using a six-digit code. On successful verification, your request is processed and you receive an acknowledgment email with your PDR case number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/submit-privacy-request-external-pdr.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace

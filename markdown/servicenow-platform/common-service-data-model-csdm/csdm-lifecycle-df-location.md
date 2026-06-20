@@ -2,6 +2,7 @@
 title: Life cycle value definitions for location entities
 description: The values for the location life-cycle process reflect the locations used by your organization and are visible only in the common data locations table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-location.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The values for the location life-cycle process reflect the locations used by you
 
 ## Definitions of location life cycle stage and life cycle stage status values
 
-![Relationships between CSDM stages and life cycle values.](../image/csdm-lifecycle-vp-location.png)
+\[Omitted image "csdm-lifecycle-vp-location.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
 -   **Ideation life cycle stage**
 
@@ -40,5 +41,5 @@ The values for the location life-cycle process reflect the locations used by you
     -   **Lease Return**: A leased location has been returned to the owner or landlord after the lease period ended.
     -   **Obsolete**: The location is no longer viable for use due to physical deterioration, business strategy changes, or other constraints.
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

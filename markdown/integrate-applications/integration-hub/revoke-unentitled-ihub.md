@@ -2,6 +2,7 @@
 title: Revoke unentitled software
 description: Revoke software using Microsoft System Center Configuration Manager \(SCCM\) that a user is not entitled to use even if the software was installed by some other process or user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/revoke-unentitled-ihub.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -17,11 +18,11 @@ Revoke software using Microsoft System Center Configuration Manager \(SCCM\) tha
 
 ## Before you begin
 
-To revoke software using SCCM, you must create an [Define an SCCM configuration](https://www.servicenow.com/docs/access?context=t_ConfigureSCCMCollections&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) for the application, in which the appropriate software Discovery model is defined. See [Software discovery models](https://www.servicenow.com/docs/access?context=c_DiscoveryModels&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US) [Discovery models and software installations](https://www.servicenow.com/docs/access?context=c_DiscoveryModels&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US).
+To revoke software using SCCM, you must create an Define an SCCM configuration for the application, in which the appropriate software Discovery model is defined. See Software discovery models Discovery models and software installations.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-Client Software Distribution \(CSD\) uses [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SAMOverview&version=yokohama&pubname=yokohama-it-asset-management&ft:locale=en-US) to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
+Client Software Distribution \(CSD\) uses Software Asset Management to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
 
 ## Procedure
 
@@ -33,8 +34,8 @@ Client Software Distribution \(CSD\) uses [Software Asset Management](https://ww
 
     This action runs the Revoke Client Software flow, which triggers the Revoke SCCM Application subflow that moves the user or device from the install collection to the uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
 
-    ![Revoking a software installation](../images/SCCMSoftwareInstallation.png)
+    \[Omitted image "SCCMSoftwareInstallation.png"\] Alt text: Revoking a software installation
 
 
-**Parent Topic:**[SCCM software revocation](../concept/sccm-revocation-ihub.md)
+**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/sccm-revocation-ihub.md)
 

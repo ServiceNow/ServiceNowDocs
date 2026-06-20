@@ -2,6 +2,7 @@
 title: Create ETL entity field definitions
 description: Define the entity fields mapped for Extract Transform Load \(ETL\) operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-import-sets/create-etl-field-definitions.html
 release: yokohama
 product: System Import Sets
 classification: system-import-sets

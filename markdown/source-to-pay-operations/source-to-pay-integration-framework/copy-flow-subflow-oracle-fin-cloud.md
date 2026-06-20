@@ -2,6 +2,7 @@
 title: Copy a flow or subflow in Oracle Financial Cloud
 description: You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-subflow-oracle-fin-cloud.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -27,7 +28,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 3.  Open the flow that you want to copy.
 
-4.  Click the ![More actions menu](../../../common/image/icon-ellipses.png) more actions icon, and select **Copy flow**.
+4.  Click the \[Omitted image "icon-ellipses.png"\] Alt text: More actions menu more actions icon, and select **Copy flow**.
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
@@ -44,7 +45,7 @@ Role required: sn\_fcms\_intg.integration\_user
     -   **Status** is **Pending Submission**
     **Note:** Do not modify the trigger condition.
 
-    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md)
+    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md)
 
     You have successfully copied and executed the flow.
 

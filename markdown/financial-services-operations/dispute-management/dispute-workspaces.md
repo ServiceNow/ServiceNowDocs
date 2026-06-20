@@ -2,6 +2,7 @@
 title: Managing workspaces for dispute management
 description: The Financial Services Operations workspace for dispute management enhances the management of the dispute resolution processes and consists of a card disputes landing page and a dispute manager landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/dispute-workspaces.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -43,5 +44,5 @@ Both the workspaces can be configured in UI Builder under **Experiences** &gt; *
     **Note:** As a dispute manager, you can also act as a fulfiller to Approve or Reject Approval Tasks.
 
 
-**Parent Topic:**[Understanding Dispute Management](disputes-overview.md)
+**Parent Topic:**[Understanding Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/disputes-overview.md)
 

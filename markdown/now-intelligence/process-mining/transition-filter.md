@@ -2,6 +2,7 @@
 title: Configure advanced conditions: transition filter
 description: Activity transitions filtering enables you to get closer views of the different routes that records go through.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/transition-filter.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -32,7 +33,7 @@ You can apply a transition filter in two ways:
 
 1.  Go to the **Advanced Condition** tab of your table configuration record.
 
-    ![Crop process in table configuration](../image/table-config-classic.png)
+    \[Omitted image "table-config-classic.png"\] Alt text: Crop process in table configuration
 
 2.  Select **Transition** from the **Condition type** list.
 
@@ -40,7 +41,7 @@ You can apply a transition filter in two ways:
 
 4.  In the **Create new process start condition** form, fill in the fields.
 
-    For a description of the field values, see [Create new process start/end condition](../reference/process-start-condition.md).
+    For a description of the field values, see [Create new process start/end condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-start-condition.md).
 
 5.  Select **Submit** to save the condition.
 
@@ -55,5 +56,5 @@ You can apply a transition filter in two ways:
 9.  Select **Submit** to save the condition.
 
 
-**Parent Topic:**[Set up a table configuration](po-table-configuration.md)
+**Parent Topic:**[Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/po-table-configuration.md)
 

@@ -2,13 +2,14 @@
 title: Create a product offering catalog
 description: Catalogs are top level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-create-product-catalog.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering catalog
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Catalogs**.
 

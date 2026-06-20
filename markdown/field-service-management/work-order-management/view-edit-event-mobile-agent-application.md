@@ -2,6 +2,7 @@
 title: Edit a personal event in the Mobile Agent
 description: Edit personal events that you created in the Mobile Agent if something related to the event changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-edit-event-mobile-agent-application.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ Role required: wm\_agent
 6.  Tap **Submit**.
 
 
-**Parent Topic:**[Personal events in Mobile Agent](../concept/events-now-mobile-application.md)
+**Parent Topic:**[Personal events in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/events-now-mobile-application.md)
 

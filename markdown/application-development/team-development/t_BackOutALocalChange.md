@@ -2,6 +2,7 @@
 title: Back out a local change
 description: Back out all local changes and restore the last version reconciled with the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/t\_BackOutALocalChange.html
 release: yokohama
 product: Team Development
 classification: team-development
@@ -17,9 +18,9 @@ Back out all local changes and restore the last version reconciled with the pare
 
 ## Procedure
 
-1.  [Define a parent instance](t_SelectTheParentInstance.md).
+1.  [Define a parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_SelectTheParentInstance.md).
 
-2.  [Pull changes from the parent instance](t_PullAVersion.md).
+2.  [Pull changes from the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_PullAVersion.md).
 
 3.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
@@ -29,8 +30,8 @@ Back out all local changes and restore the last version reconciled with the pare
 
     -   Click **Back Out All**.
     -   Right-click the local change you want to back out, and then click **Back Out**.
-    ![Local changes back out all](../image/LocalChangesBackOutAll.png)
+    \[Omitted image "LocalChangesBackOutAll.png"\] Alt text: Local changes back out all
 
 
-**Parent Topic:**[Team Development](../concept/c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

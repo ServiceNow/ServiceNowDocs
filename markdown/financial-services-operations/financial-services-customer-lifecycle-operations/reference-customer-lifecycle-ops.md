@@ -2,6 +2,7 @@
 title: Financial Services Customer Lifecycle Operations reference
 description: Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Financial Services Business Lifecycle application and the Financial Services Client Lifecycle application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/reference-customer-lifecycle-ops.html
 release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

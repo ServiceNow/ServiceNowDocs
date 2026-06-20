@@ -2,11 +2,14 @@
 title: Configure the standard ticket page for cases
 description: Configure the standard ticket page for cases from where users can view the details of a case in the Business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure\_std\_ticket\_page\_business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Configure the standard ticket page for cases
@@ -23,7 +26,7 @@ Role required: admin or sp\_admin
 
 2.  Select sn\_customerservice\_case, or sn\_customerservice\_task which is available by default.
 
-    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see Configure the standard ticket page.
 
 3.  Select **here** to edit the record.
 
@@ -37,5 +40,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.configure-st-page]
 

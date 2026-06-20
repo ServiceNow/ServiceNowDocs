@@ -2,6 +2,7 @@
 title: Manage alerts autonomously agentic workflow
 description: Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.html
 release: yokohama
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,7 +19,7 @@ Enhance IT operations with AI-driven, autonomous alert management using the mana
 
 ## Manage alerts autonomously agentic workflow overview
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 The manage alerts autonomously workflow introduces a unified AI-driven process that significantly streamlines alert management and reduces resolution times. This workflow supports alert management in the following ways:
 
@@ -27,11 +28,11 @@ The manage alerts autonomously workflow introduces a unified AI-driven process t
 -   root cause investigation of IT alerts
 -   generates reports, summarizes key insights and possible next steps.
 
-For information on how to review key insights and data derived from the workflow in Express List, see [Review AI generated alert information and insights in Express List](../task/use-ai-insights-express-list.md).
+For information on how to review key insights and data derived from the workflow in Express List, see [Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md).
 
-For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](../task/configure-manage-alerts-autonomously-workflow.md).
+For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.md).
 
-Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see .
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -66,14 +67,14 @@ The manage alerts autonomously agentic workflow performs several actions in the 
     -   Saves the summary in the alert record
     -   Provides clear, actionable insights
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
--   **[Review AI generated alert information and insights in Express List](../task/use-ai-insights-express-list.md)**  
+-   **[Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md)**  
 Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](now-assist-itom-ai-agent-workflows.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-ai-agent-workflows.md)
 
-**Previous topic:**[Use the Analyze potential impact agentic workflow to assess a change request](../task/use-now-assist-analyze-impact-agentic-workflow.md)
+**Previous topic:**[Use the Analyze potential impact agentic workflow to assess a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/use-now-assist-analyze-impact-agentic-workflow.md)
 
-**Next topic:**[Review AI generated alert information and insights in Express List](../task/use-ai-insights-express-list.md)
+**Next topic:**[Review AI generated alert information and insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/use-ai-insights-express-list.md)
 

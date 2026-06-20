@@ -2,6 +2,7 @@
 title: View recently closed work order tasks on a mobile device
 description: View the work order tasks that are closed in the last seven days in the ServiceNow Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-recently-closed-tasks.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -30,5 +31,5 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     The list displays the tasks closed in the last seven days.
 
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

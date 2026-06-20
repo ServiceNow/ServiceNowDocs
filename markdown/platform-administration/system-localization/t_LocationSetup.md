@@ -2,6 +2,7 @@
 title: Set up locations
 description: If your organization supports more than one distinct location, you can configure these locations in the platform to help further identify users, assets, and incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/system-localization/t\_LocationSetup.html
 release: yokohama
 product: System Localization
 classification: system-localization

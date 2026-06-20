@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)
 description: Use FSO agentic workflows and AI agents to improve and enhance financial services processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.html
 release: yokohama
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -43,13 +44,13 @@ Friendly fraud AI agent
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-For more information on modifying an agentic workflow, see [Configuring agentic workflows in Financial Services Operations](configuring-agentic-workflows-in-fso.md).
+For more information on modifying an agentic workflow, see [Configuring agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-agentic-workflows-in-fso.md).
 
-To learn about the Help resolve friendly fraud disputes agentic workflow, see [Help resolve friendly fraud disputes agentic workflow](friendly-fraud-agentic-ai-workflow.md).
+To learn about the Help resolve friendly fraud disputes agentic workflow, see [Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/friendly-fraud-agentic-ai-workflow.md).
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 ## AI agents security
@@ -58,5 +59,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for more information.
+See  for more information.
 

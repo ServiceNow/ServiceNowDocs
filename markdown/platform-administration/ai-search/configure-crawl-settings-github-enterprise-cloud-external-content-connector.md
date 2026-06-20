@@ -2,6 +2,7 @@
 title: Configure crawl settings for a GitHub Enterprise Cloud external content connector
 description: Specify the public and internal repositories you want your GitHub Enterprise Cloud external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-github-enterprise-cloud-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the public and internal repositories you want your GitHub Enterprise Clo
 
 ## Before you begin
 
-A connector admin must have already created the GitHub Enterprise Cloud external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitHub Enterprise Cloud external content connector](create-ext-cont-connector-github-enterprise-cloud.md).
+A connector administrator must have already created the GitHub Enterprise Cloud external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-github-enterprise-cloud.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the GitHub Enterprise Cloud external content connector crawls all public and internal repositories from its specified source system and sends all commits, issues, and pull requests to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the GitHub Enterprise Cloud external content connector crawls all public and internal repositories from its specified source system and sends all commits, issues, and pull requests to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Ignore one or more of the default content types when running content crawls
     -   Commits
@@ -72,7 +73,7 @@ The GitHub Enterprise Cloud external content connector is updated with your modi
 
 ## What to do next
 
-To retrieve content from your GitHub Enterprise Cloud source system using your modified crawl settings, create and run a one-time content crawl for your GitHub Enterprise Cloud external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your GitHub Enterprise Cloud source system using your modified crawl settings, create and run a one-time content crawl for your GitHub Enterprise Cloud external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[GitHub Enterprise Cloud external content connector](../concept/github-enterprise-cloud-external-content-connector.md)
+**Parent Topic:**[GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/github-enterprise-cloud-external-content-connector.md)
 

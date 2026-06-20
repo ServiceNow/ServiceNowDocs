@@ -2,6 +2,7 @@
 title: Use CMDB groups to add OT context to IT CIs
 description: Use Configuration Management Database \(CMDB\) groups to group IT configuration items \(CIs\) based on additional information, like installed software. Then you can add Operational Technology \(OT\) context to the IT CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.html
 release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -43,13 +44,13 @@ Follow these general guidelines:
 
 1.  Define a CMDB group with the required filter criteria that identifies the right IT CIs..
 
-    For more information, see [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    For more information, see .
 
 2.  Create an Automated IT to OT Bulk Conversion \(sn\_automated\_it\_ot\_bulk\_conversion\) record associated with the CMDB group.
 
     Creating this record adds OT context to IT CIs through the OT entity details.
 
-    For more information about how to create an Automated IT to OT Bulk Conversion record, see [Automatically convert your IT records to OT devices](automatically-convert-it-records-to-ot-devices.md).
+    For more information about how to create an Automated IT to OT Bulk Conversion record, see [Automatically convert your IT records to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.md).
 
 3.  To create a record in **sn\_automated\_it\_ot\_bulk\_conversion\_m2m\_cmdb\_group**, complete the following actions.
 
@@ -63,5 +64,5 @@ Follow these general guidelines:
     For example, if you want to add OT entity details for all computers that have a specific HISTORIAN software installed, we need to create a CMDB Group that matches this filter critieria. Then create a scheduled job and link it to the CMDB Group for computers that have HISTORIAN software installed.
 
 
-**Parent Topic:**[Using the Operational Technology Manager](../concept/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

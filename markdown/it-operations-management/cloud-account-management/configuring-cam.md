@@ -2,13 +2,14 @@
 title: Configuring Cloud Account Management
 description: Configuring the Cloud Account Management application involves a set of required tasks, integrations, and setups to be completed before initiating service account creation and provisioning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/configuring-cam.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2024-02-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
-keywords: [Configure Cloud Account Management, Configure Cloud Workspace, Configure CAM, Set-up Cloud Account Management]
+keywords: [Configure Cloud Account Management, Configure Cloud Workspace, Configure CAM, setup Cloud Account Management]
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -52,11 +53,11 @@ Purpose
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-email-server.svg)[Set up and verify root email in AWS](../task/aws-setup.md)
+\[Omitted image "bus-email-server.svg"\] Alt text:[Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/aws-setup.md)
 
 </td><td>
 
-Email Admin
+Email admin
 
 </td><td>
 
@@ -80,11 +81,11 @@ A single AD email across multiple AWS accounts streamlines management, enhances 
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-person.svg)[Set up an Identity Access Manager account for a ServiceNow user in AWS](set-up-iam-account-in-aws.md)
+\[Omitted image "bus-person.svg"\] Alt text:[Set up an Identity Access Manager account for a ServiceNow user in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.md)
 
 </td><td>
 
-AWS Admin
+AWS admin
 
 </td><td>
 
@@ -110,11 +111,11 @@ A centralized IAM user in the management account efficiently manages multiple AW
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)[Set up suspension of an AWS account using service control policy](../task/configure-suspension-policy.md)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configure-suspension-policy.md)
 
 </td><td>
 
-AWS Admin
+AWS admin
 
 </td><td>
 
@@ -138,15 +139,15 @@ Adding an account number to the AWS organization's Service Control Policy blocks
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)[Setting up Terraform and GitHub](about-terraform-git-and-servicenow_0.md#)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Setting up Terraform and GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/about-terraform-git-and-servicenow_0.md)
 
 **Note:** This step isn’t required if cloud native interface is used for provisioning the account.
 
 </td><td>
 
-Terraform Admin
+Terraform admin
 
- DevOps Admin
+ DevOps admin
 
 </td><td>
 
@@ -180,13 +181,13 @@ GitHub templates deployed to Terraform Cloud or Enterprise streamline account cr
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)[Create a cloud native interface account configuration](../task/create-cloud-native-interface-config.md)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
 
 **Note:** This step isn’t required if Terraform is used for provisioning the account.
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -202,7 +203,7 @@ None
 
 </td><td>
 
-No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](../task/activate-cloud-account-management.md).
+No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
 
 </td></tr><tr><td>
 
@@ -210,11 +211,11 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-work-order.svg)[Populate Cloud Account Management dependent tables](add-account-details.md)
+\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-account-details.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -242,14 +243,14 @@ Cloud Discovery or Service Graph Connector for AWS to import cloud organization 
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)[Provisioning modes for Cloud Account Management in Cloud Workspace](supported-provision-modes.md)
+\[Omitted image "bus-integration-and-apis.svg"\] Alt text:[Provisioning modes for Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/supported-provision-modes.md)
 
--   [Set up Terraform API key in ServiceNow](../task/configure-api-key.md)
--   [Set up AWS API configuration information in ServiceNow](configure-aws-api-key-in-servicenow.md)
+-   [Set up Terraform API key in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   [Set up AWS API configuration information in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configure-aws-api-key-in-servicenow.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -281,11 +282,11 @@ Streamline provisioning with flexible modes like Terraform and cloud native inte
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-investor-relations-1.svg)[Set up scan configuration for data visualization](../task/set-up-data-visualization.md)
+\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/set-up-data-visualization.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -309,11 +310,11 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg)[Add members to the group](../task/add-member-group.md)
+\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-member-group.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -329,7 +330,7 @@ None
 
 </td><td>
 
-Confirm members are assigned to the correct group for them to perform the account request, approval, provisioning, and certification process. Assign members to the correct groups for proper permissions, helping prevent unauthorized access and promoting security.
+Confirm that members are assigned to the correct group for them to perform the account request, approval, provisioning, and certification process. Assign members to the correct groups for proper permissions, helping prevent unauthorized access and promoting security.
 
 </td></tr><tr><td>
 
@@ -337,11 +338,11 @@ Confirm members are assigned to the correct group for them to perform the accoun
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg)[Creating configurations](cam-config.md)
+\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-config.md)
 
 </td><td>
 
-Cloud Workspace Admin
+Cloud Workspace admin
 
 </td><td>
 
@@ -365,11 +366,11 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-compliance.svg)[Review default Cloud Account Management certification policy](../task/policy-setup.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/policy-setup.md)
 
 </td><td>
 
-Cloud Workspace Admin
+Cloud Workspace admin
 
 </td><td>
 
@@ -393,11 +394,11 @@ Certify all cloud service accounts either created or boarded after discovery can
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-compliance.svg)[Review request policies](viewing-pace-policy.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review request policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/viewing-pace-policy.md)
 
 </td><td>
 
-Cloud Workspace Admin
+Cloud Workspace admin
 
 </td><td>
 
@@ -450,11 +451,11 @@ Purpose
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)[Configure account suspension in Azure](../task/configuring-azure-suspension-permission.md)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[Configure account suspension in Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configuring-azure-suspension-permission.md)
 
 </td><td>
 
-Azure Admin
+Azure admin
 
 </td><td>
 
@@ -482,11 +483,11 @@ Configure the permission and assign the permission to a user who suspends or rea
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-person.svg)[Set up Azure Service Principal credential](set-up-azure-service-principal-credential.md)
+\[Omitted image "bus-person.svg"\] Alt text:[Set up Azure Service Principal credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/set-up-azure-service-principal-credential.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -514,13 +515,13 @@ Provide the Azure credentials obtained from your Azure administrator. These cred
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)[Create a cloud native interface account configuration](../task/create-cloud-native-interface-config.md)
+\[Omitted image "bus-actionable-analytics.svg"\] Alt text:[Create a cloud native interface account configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/create-cloud-native-interface-config.md)
 
 **Note:** This step isn’t required if Terraform is used for provisioning the account.
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -536,7 +537,7 @@ None
 
 </td><td>
 
-No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](../task/activate-cloud-account-management.md).
+No additional procedure is needed for cloud native interface. You can proceed to [Install Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/activate-cloud-account-management.md).
 
 </td></tr><tr><td>
 
@@ -544,11 +545,11 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-work-order.svg)[Populate Cloud Account Management dependent tables](add-account-details.md)
+\[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-account-details.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -562,13 +563,13 @@ Discovery Credentials
 
 Cloud Organization
 
- AWS Org Unit
+ Azure Management Group
 
  Cloud Service Account
 
 </td><td>
 
-Cloud Discovery or Service Graph Connector for AWS import cloud organization structures and create subscription accounts.
+Cloud Discovery import cloud organization structures and create subscription accounts.
 
 </td></tr><tr><td>
 
@@ -576,11 +577,11 @@ Cloud Discovery or Service Graph Connector for AWS import cloud organization str
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-investor-relations-1.svg)[Set up scan configuration for data visualization](../task/set-up-data-visualization.md)
+\[Omitted image "bus-investor-relations-1.svg"\] Alt text:[Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/set-up-data-visualization.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -604,11 +605,11 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg)[Add members to the group](../task/add-member-group.md)
+\[Omitted image "bus-3-person.svg"\] Alt text:[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-member-group.md)
 
 </td><td>
 
-ServiceNow AI Platform Admin
+ServiceNow AI Platform admin
 
 </td><td>
 
@@ -624,7 +625,7 @@ None
 
 </td><td>
 
-Ensure that members are assigned to the correct group for them to perform the account request, approval, provisioning, and certification process. Assign members to the correct groups for proper permissions, helping prevent unauthorized access and promoting security.
+Confirm that members are assigned to the correct group for them to perform the account request, approval, provisioning, and certification process. Assign members to the correct groups for proper permissions, helping prevent unauthorized access and promoting security.
 
 </td></tr><tr><td>
 
@@ -632,11 +633,11 @@ Ensure that members are assigned to the correct group for them to perform the ac
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg)[Creating configurations](cam-config.md)
+\[Omitted image "bus-sdlc.svg"\] Alt text:[Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-config.md)
 
 </td><td>
 
-Cloud Workspace Admin
+Cloud Workspace admin
 
 </td><td>
 
@@ -660,11 +661,11 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-compliance.svg)[Review default Cloud Account Management certification policy](../task/policy-setup.md)
+\[Omitted image "bus-compliance.svg"\] Alt text:[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/policy-setup.md)
 
 </td><td>
 
-Cloud Workspace Admin
+Cloud Workspace admin
 
 </td><td>
 

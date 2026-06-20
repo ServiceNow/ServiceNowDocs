@@ -2,13 +2,14 @@
 title: Using suspend and resume actions
 description: You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-suspend-resume-action.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Action types for customer and service order management, Order Management, Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Action types for customer and service order management, Order Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Using suspend and resume actions

@@ -2,6 +2,7 @@
 title: Components installed with Retail Task Management
 description: Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Task Management plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/legacy-retail-task-management/rahi-retail-task-management-components.html
 release: yokohama
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management

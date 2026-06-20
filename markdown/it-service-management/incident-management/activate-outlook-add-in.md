@@ -2,6 +2,7 @@
 title: Activate the ServiceNow Add-in for Microsoft Office
 description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/activate-outlook-add-in.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -32,7 +33,7 @@ The following items are installed with ServiceNow Add-in for Microsoft 365:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Install the ServiceNow Add-in for Microsoft 365](https://www.servicenow.com/docs/access?context=install-sn-addin-for-ms365&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US) and [Components installed with ServiceNow Add-in for Microsoft 365](https://www.servicenow.com/docs/access?context=installed-with-sn-addin-ms365&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+For more information, see  and .
 
 ## Procedure
 
@@ -57,10 +58,10 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](../concept/create-incident-outlook.md)
+**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/create-incident-outlook.md)
 
 **Related topics**  
 
 
-[List of Yokohama plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

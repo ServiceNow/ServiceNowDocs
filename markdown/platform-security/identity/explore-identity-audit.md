@@ -2,6 +2,7 @@
 title: Exploring Identity and Access Audit
 description: Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/explore-identity-audit.html
 release: yokohama
 product: Identity
 classification: identity

@@ -2,6 +2,7 @@
 title: Configure integration services for Oracle Financial Cloud
 description: For configuring integration services, provide the connection end point and the Oracle Financial Cloud ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-oracle-fin-cloud.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -18,7 +19,7 @@ For configuring integration services, provide the connection end point and the O
 ## Before you begin
 
 -   Verify that the application scope is set to Oracle Financial Cloud spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see Installing the MID Server.
 
     **Note:** The MID Server integration is required only for an Oracle Financial Cloud ERP integration using SOAP services.
 

@@ -2,6 +2,7 @@
 title: Define alert metric criteria
 description: Specify alert metric criteria by choosing alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -52,5 +53,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define metric rule name and status](define-alert-name-state.md).
+[Define metric rule name and status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/define-alert-name-state.md).
 

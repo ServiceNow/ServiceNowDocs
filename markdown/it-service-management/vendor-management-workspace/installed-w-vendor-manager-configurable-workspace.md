@@ -2,6 +2,7 @@
 title: Installed with Vendor Management Workspace
 description: Vendor Management Workspace provides a single destination for you to view and manage your vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/vendor-management-workspace/installed-w-vendor-manager-configurable-workspace.html
 release: yokohama
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -129,5 +130,5 @@ Fetches all projects that haven’t been mined for the specified time-period. Th
 -   **Default value:** 7
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vendor Management Workspace reference](vendor-manager-workspace-reference.md)
+</table>**Parent Topic:**[Vendor Management Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/vendor-management-workspace/vendor-manager-workspace-reference.md)
 

@@ -2,6 +2,7 @@
 title: Cloning guidelines for DevOps Change Velocity
 description: Clone the DevOps Change Velocity application from one instance to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/devops-cloning.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -20,10 +21,10 @@ Clone the DevOps Change Velocity application from one instance to another.
 For detailed information for cloning a ServiceNow instance, see the following topics.
 
 -   
-    -   [Request a clone](https://www.servicenow.com/docs/access?context=t_StartAClone&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
-    -   [Register target instance \(legacy\)](https://www.servicenow.com/docs/access?context=t_CreateACloneTarget&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
-    -   [Exclude a table from cloning \(legacy\)](https://www.servicenow.com/docs/access?context=t_ExcludeATableFromCloning&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
-    -   [Create a data preserver \(legacy\)](https://www.servicenow.com/docs/access?context=t_CreateADataPreserver&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+    -   
+    -   
+    -   
+    -   
 -   [New Backup-based Clone Engine \[KB0540342\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0540342)
 
 ## Base system table exclusion and preservers on global tables used in DevOps
@@ -230,5 +231,5 @@ Aim to have all the m2m mapping intact in the target instance.
 |Waiting Reason Tracking|sn\_devops\_waiting\_reason\_tracking|DevOps Data Model|
 |Work Item|sn\_devops\_work\_item|DevOps Data Model|
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

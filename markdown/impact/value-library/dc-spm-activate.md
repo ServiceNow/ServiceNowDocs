@@ -2,6 +2,7 @@
 title: Activate Data Collection for SPM
 description: Activate the Data Collection Pack for SPM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-spm-activate.html
 release: yokohama
 product: Value Library
 classification: value-library

@@ -2,11 +2,12 @@
 title: Set up AI Risk and Compliance properties
 description: Configure AI Risk and Compliance properties to specify which authority documents and policies you want to display on the home page. You can also specify a default RAM to be used for risk assessments of AI systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

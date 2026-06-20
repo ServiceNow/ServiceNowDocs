@@ -2,6 +2,7 @@
 title: Configuring Attended Robot
 description: You can plan and configure an Attended Robot implementation in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/rda-runtime-setup.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -19,19 +20,19 @@ You can plan and configure an Attended Robot implementation in your organization
 
 Perform the following tasks to download the installation package and configure the Attended Robot after installation.
 
-1.  [Download Attended Robot from RPA Hub](../../rpa-hub/task/download-installer-rpa.md).
+1.  [Download Attended Robot from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/download-installer-rpa.md).
 
     Select and download the Attended Robot application in your Windows machine from RPA Hub as a prerequisite for installing the application.
 
-2.  [Install Attended Robot](../task/install-rda-runtime.md)
+2.  [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/install-rda-runtime.md)
 
     You can install the Attended Robot application in your Windows machine if you have the admin role.
 
-3.  [Set up Attended Robot](../task/set-up-rda-runtime.md)
+3.  [Set up Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/set-up-rda-runtime.md)
 
     Establish a connection between the Attended Robot and the ServiceNow RPA Hub instance.
 
-4.  [Connect to an RPA Hub instance from Attended Robot](../task/connect-rda-instance-rpa.md)
+4.  [Connect to an RPA Hub instance from Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/connect-rda-instance-rpa.md)
 
     Establish a connection between the Attended Robot and ServiceNow RPA Hub instance to connect to an RPA Hub instance in three ways by using Connection Manager.
 
@@ -40,5 +41,5 @@ Perform the following tasks to download the installation package and configure t
 
 Guided Setup provides a sequence of tasks that help you configure Attended Robot. With Guided Setup, keep track of what you have completed, so you can stop and start again where you left off. To open Guided Setup for RPA Hub, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 

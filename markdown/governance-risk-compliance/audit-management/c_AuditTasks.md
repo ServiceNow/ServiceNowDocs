@@ -2,6 +2,7 @@
 title: Audit task management
 description: Audit tasks are completed throughout an engagement and provide documented evidence that the organization is complying with external regulations and internal policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/c\_AuditTasks.html
 release: yokohama
 product: Audit Management
 classification: audit-management
@@ -17,5 +18,5 @@ Audit tasks are completed throughout an engagement and provide documented eviden
 
 When audit tasks are created or reassigned, a notification is sent to the assigned user. A notification is also sent when the task reaches 75% of its planned duration.
 
-**Parent Topic:**[Manage engagements](c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/c_Engagements.md)
 

@@ -2,6 +2,7 @@
 title: Query ACLs
 description: Query ACLs allow you to define more granular access control by explicitly defining who can query the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/access-control/query-acl-rule.html
 release: yokohama
 product: Access Control
 classification: access-control

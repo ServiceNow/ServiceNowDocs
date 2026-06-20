@@ -2,6 +2,7 @@
 title: LDAP type data source
 description: An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/system-import-sets/r\_LDAPTypeDataSource.html
 release: yokohama
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Data sources, Import sets, Imports, Data and Automation]
 
 An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 
-![LDAP data source example](../image/data-source-ldap.png)
+\[Omitted image "data-source-ldap.png"\] Alt text: LDAP data source example
 
 ## Processing a large LDAP request without paging
 
@@ -44,9 +45,9 @@ In this example, the LDAP server **Query field** is **preferredIdentity**. The i
 **Related topics**  
 
 
-[LDAP integration](https://www.servicenow.com/docs/access?context=c_LDAPIntegration&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.c_LDAPIntegration]
 
-[Specify LDAP attributes](https://www.servicenow.com/docs/access?context=t_SpecifyLDAPAttributes&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.t_SpecifyLDAPAttributes]
 
-[Define LDAP organizational units](https://www.servicenow.com/docs/access?context=t_DefineLDAPOrganizationalUnits&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.t_DefineLDAPOrganizationalUnits]
 

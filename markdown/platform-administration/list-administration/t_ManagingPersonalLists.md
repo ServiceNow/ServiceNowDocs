@@ -2,6 +2,7 @@
 title: Manage personal lists
 description: Administrators can manage personal lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/list-administration/t\_ManagingPersonalLists.html
 release: yokohama
 product: List Administration
 classification: list-administration
@@ -29,5 +30,5 @@ Role required: admin
 **Related topics**  
 
 
-[Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_PersonalLists]
 

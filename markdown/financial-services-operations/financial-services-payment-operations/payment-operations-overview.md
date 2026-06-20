@@ -2,6 +2,7 @@
 title: Exploring Financial Services Payment Operations
 description: You can use the ServiceNow Financial Services Payment Operations application to create and manage requests for payment inquiries, claims, and debit approvals for your financial institution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-payment-operations/payment-operations-overview.html
 release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -47,8 +48,8 @@ The Financial Services Payment Operations application is aimed at the following 
 
 Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service.
 
--   **[Payment Operations workflow example](payment-ops-workflow-example.md)**  
+-   **[Payment Operations workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.md)**  
 The workflows available with Financial Services Payment Operations connect people, departments, and institutions to quickly initiate, research, and resolve the payment errors and missing payments.
 
-**Parent Topic:**[Financial Services Payment Operations](payment-ops-landing-page.md)
+**Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
 

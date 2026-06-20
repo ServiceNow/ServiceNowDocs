@@ -2,6 +2,7 @@
 title: Trigger McAfee ePO profile manually from a security incident
 description: Trigger a capability profile manually from a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/mcafee-epo-submit-ih-fm-si.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Trigger a capability profile manually from a ServiceNow AI Platform Security Inc
 
 Role required: sn\_si.admin
 
-**Note:** The approvals option in the [Configuring profiles for the McAfee ePO integration](../concept/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
+**Note:** The approvals option in the [Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
 
 ## About this task
 
@@ -35,7 +36,7 @@ Once you activate the profile, based on the configured trigger conditions, you c
 
 3.  In the related lists section, select **Run EDR Profile\(s\)**.
 
-    ![Trigger a profile manually from a security incident](../image/mcafee-edr-profile.png "McAfee Run EDR Profile")
+    \[Omitted image "mcafee-edr-profile.png"\] Alt text: Trigger a profile manually from a security incident
 
 4.  Browse and select a profile from the list of available profiles.
 
@@ -49,13 +50,13 @@ Once you activate the profile, based on the configured trigger conditions, you c
 
     The selected profile is triggered manually. You can review the work notes and activities section and the profile-initiated and profile-completed tags in the work notes section.
 
-    ![Work notes logging when capability tasks are initiated and successfully completed](../image/mcafee-edr-worknotes.png "Work notes for automation activity")
+    \[Omitted image "mcafee-edr-worknotes.png"\] Alt text: Work notes logging when capability tasks are initiated and successfully completed
 
     The results appear in the form of related lists such as Get Host Details, Isolate Host machine, or Remove Isolation.
 
     **Note:** All the related list tables extend the base tables. In this example, the McAfee EPO System Details is an extended table of the Host Details base table.
 
-    ![Review the related list for additional details.](../image/mcafee-test-relatedlist.png "McAfee Related lists")
+    \[Omitted image "mcafee-test-relatedlist.png"\] Alt text: Review the related list for additional details.
 
 7.  To run individual capabilities on a Configuration Item \(CI\), perform the following steps:
 
@@ -70,9 +71,9 @@ Once you activate the profile, based on the configured trigger conditions, you c
         The select CI gets isolated from the network.
 
 
-**Parent Topic:**[McAfee ePO integration](../concept/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration](mcafee-epo-configure-profile.md)
+**Previous topic:**[Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configure-profile.md)
 
-**Next topic:**[Trigger additional actions in McAfee ePO integration](configure-additional-actions-mcafee.md)
+**Next topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-additional-actions-mcafee.md)
 

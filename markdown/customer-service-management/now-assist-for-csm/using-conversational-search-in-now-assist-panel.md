@@ -2,6 +2,7 @@
 title: Using conversational search in Now Assist panel
 description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -33,5 +34,5 @@ To use the feature, do the following:
 
 To get started with configuring the Now Assist Q&amp;A Skill, see the step-by step the instructions.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

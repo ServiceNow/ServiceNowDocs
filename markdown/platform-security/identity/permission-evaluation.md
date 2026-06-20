@@ -2,6 +2,7 @@
 title: Permission evaluation
 description: Permission evaluation criteria when using the Access analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/permission-evaluation.html
 release: yokohama
 product: Identity
 classification: identity
@@ -46,7 +47,7 @@ Details about the important fields in the Access Results are as follows:
 
 ## Presence of a script
 
-Alert Icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To know more about how these controls are evaluated and review the logic to determine the access, see [Access Analyzer Debug logs](access-analyzer-logs.md).
+Alert Icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To know more about how these controls are evaluated and review the logic to determine the access, see [Access Analyzer Debug logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/access-analyzer-logs.md).
 
 ## Legend in Access Analyzer
 

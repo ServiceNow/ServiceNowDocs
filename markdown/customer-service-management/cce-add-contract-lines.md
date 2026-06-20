@@ -2,7 +2,10 @@
 title: Add contract lines to a service contract
 description: Add one or more contract lines to a service contract on the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-add-contract-lines.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-06-25"
 reading_time_minutes: 1
@@ -30,7 +33,7 @@ Role required:
 
 4.  On the Service Contract form, select **Add Contract Line**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to create new service contract line is created.
     -   If the selected target entity is an order, an order to create new service contract line is created.
@@ -38,7 +41,7 @@ Role required:
 
 5.  In the Catalog tab, add products to the new quote or order that is created.
 
-    For more info, see [Add products to a quote](https://www.servicenow.com/docs/access?context=quote-management-catalog-tab&version=yokohama&pubname=yokohama-order-management&ft:locale=en-US).
+    For more info, see .
 
 6.  Select **Submit for approval**.
 

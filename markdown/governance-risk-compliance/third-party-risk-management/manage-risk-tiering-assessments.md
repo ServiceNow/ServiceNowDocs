@@ -2,11 +2,12 @@
 title: VRM third-party risk tiering assessments
 description: Organizations use risk tiering to classify their third parties into categories of potential risk posed at the time of onboarding. The standard predefined risk tiers are None, Low, Minor, Moderate, High, and Critical. Each risk tier has associated assessment questions and document requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/manage-risk-tiering-assessments.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Work in the VRM classic UI, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,16 +28,16 @@ To enable a seamless transition to TPRM, you have the option to duplicate existi
 2.  The TPR manager or TPR assessor determines the risk tier or categories of risk exposure for the third party.
 3.  The TPR manager selects the third party, assigns the tiering questionnaire template, and assigns the internal assessor that is required to complete the assessment.
 
-    ![Risk tiering assessment table relationship.](../../grc-vendor-risk/image/TieringAssessmentTableRelationship.png "Risk tiering assessment table relationship")
+    \[Omitted image "TieringAssessmentTableRelationship.png"\] Alt text: Risk tiering assessment table relationship.
 
 4.  Internal stakeholders navigate to **Self-service** &gt; **My Assessments and Surveys** to complete and submit the assessment.
 5.  After the internal assessor has responded to the questionnaire, the system calculates the tiering score as the average of all scores. The TPR manager can initiate the risk assessment or a configured business rule can auto-send one. When the assessment is closed, the system assigns a risk tier to the third party based on the tiering score.
 
-![Risk tiering assessment form.](../../grc-vendor-risk/image/VendorTierResponses.png "Risk tier calculation based on responses")
+\[Omitted image "VendorTierResponses.png"\] Alt text: Risk tiering assessment form.
 
 ## Risk tiering scale and scoring calculations
 
-![Risk tiering questionnaire and the risk tiering assessment, assessment instances, tiering score, and risk tier.](../../grc-vendor-risk/image/TieringScoreCalculations.png "Risk tiering process")
+\[Omitted image "TieringScoreCalculations.png"\] Alt text: Risk tiering questionnaire and the risk tiering assessment, assessment instances, tiering score, and risk tier.
 
 1.  The tiering assessment initiates an assessment instance for the assigned internal assessor.
 2.  Response scores are averaged to generate the tiering score.

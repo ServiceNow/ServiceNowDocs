@@ -2,6 +2,7 @@
 title: Pause a hardware asset pick task using the Mobile Agent application
 description: Record a break from a hardware asset pick task by using the Mobile Agent application if you’re not continuing to work on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/pause-asset-pick-task-ham-mobile-agent.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -37,8 +38,8 @@ After you pause a task, you can resume when you start working on it again. The s
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the asset pick task record that you want to pause.
 
 6.  On the **Details** tab, tap **Pause**.
@@ -54,5 +55,5 @@ After you pause a task, you can resume when you start working on it again. The s
 
 Each time you pause or resume work on the asset pick task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on a hardware asset pick task using the Mobile Agent application](../concept/record-time-pick-task-mobile-agent-ham.md)
+**Parent Topic:**[Record time worked on a hardware asset pick task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/record-time-pick-task-mobile-agent-ham.md)
 

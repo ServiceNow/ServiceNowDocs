@@ -2,6 +2,7 @@
 title: Run Tuning checks
 description: Tuning checks are scans aimed at optimizing configurations, grouped into suites with each specific check detailed below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/run-tuning-checks.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -45,7 +46,7 @@ The configured checks are listed under the following tabs:
 
     -   To understand the issue, select the Show check description link.
     -   To know more details on the issue, select the Documentation on the check link.
-    -   To view the definition page, select the Check definition page link. To edit a check, see [Edit an existing check](edit-an-existing-check.md).
+    -   To view the definition page, select the Check definition page link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/edit-an-existing-check.md).
 
-**Parent Topic:**[Discovery Admin Workspace Tuning](../concept/discovery-admin-workspace-tuning.md)
+**Parent Topic:**[Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-tuning.md)
 

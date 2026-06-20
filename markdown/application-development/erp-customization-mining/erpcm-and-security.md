@@ -2,6 +2,7 @@
 title: ERP-CM and security
 description: In addition to role-based security and access control, ERP Semantic Mining \(ERP-CM\) protects personally identifiable ERP \(Enterprise Resource Planning\) data in other ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-and-security.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -18,7 +19,7 @@ In addition to role-based security and access control, ERP Semantic Mining \(ERP
 Personally identifiable data is secured with Zero Copy Connector for ERP and ERP-CM in several ways.
 
 -   You can customize ERP models and remote tables to exclude personal data in a specified field, such as email address.
--   All remote tables are secured using access control rules \(ACLs\). If you have a remote table that contains sensitive data, use ACLs to restrict that table from ServiceNow users. For more information, see [ServiceNow® access control](https://www.servicenow.com/docs/access?context=c_SNCAccessControl&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+-   All remote tables are secured using access control rules \(ACLs\). If you have a remote table that contains sensitive data, use ACLs to restrict that table from ServiceNow users. For more information, see .
 
-**Parent Topic:**[Configuring ERP Semantic Mining](configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

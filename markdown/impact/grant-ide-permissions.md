@@ -2,7 +2,10 @@
 title: Manage Initiative and Accelerator permissions
 description: Review and approve Initiative and Accelerator activities access using Manage Permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/grant-ide-permissions.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Review and approve Initiative and Accelerator activities access using **Manage P
 
 If you have pending Initiatives and Accelerators that require permissions to be granted, a message displays on the Impact homepage that directs you to **Manage Permissions**.
 
-![Banner linking to Manage Permissions on the Impact homepage.](../image/permissions-manager-pending.png)
+\[Omitted image "permissions-manager-pending.png"\] Alt text: Banner linking to Manage Permissions on the Impact homepage.
 
 The following table contains available consent statuses and actions.
 
@@ -90,7 +93,7 @@ Role required: Impact Permissions Authorizer
 
 1.  Navigate to **Impact** &gt; **&lt;Your&gt; profile** &gt; **Manage Permissions** or select **Manage Permissions** from the homepage banner.
 
-    ![Manage Permissions navigation menu.](../image/ide-manage-permissions.png)
+    \[Omitted image "ide-manage-permissions.png"\] Alt text: Manage Permissions navigation menu.
 
     Manage Permissions opens and you can filter the list by entering in the name of the Impact activity in the **Search** field or by **Consents** status.
 
@@ -100,17 +103,17 @@ Role required: Impact Permissions Authorizer
 
     2.  Select **Accept** or **Decline** to approve or deny a pending request.
 
-        ![Impact Permissions Manager](../image/permissions-management.png)
+        \[Omitted image "permissions-management.png"\] Alt text: Impact Permissions Manager
 
 
 ## What to do next
 
 -   **Once permission has been granted, the Accelerator is active for users to start.**
 
-    Accelerators that require additional permissions prompt to update the permissions.![Impact Accelerator requiring permissions](../image/permissions-no.png)
+    Accelerators that require additional permissions prompt to update the permissions.\[Omitted image "permissions-no.png"\] Alt text: Impact Accelerator requiring permissions
 
 -   **Accelerators that have been granted permissions will display as such.**
 
-    The option to **Start Initiative** becomes available.![Impact Accelerator granted permissions](../image/permissions-yes.png)
+    The option to **Start Initiative** becomes available.\[Omitted image "permissions-yes.png"\] Alt text: Impact Accelerator granted permissions
 
 

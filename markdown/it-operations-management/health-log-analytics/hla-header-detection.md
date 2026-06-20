@@ -2,6 +2,7 @@
 title: Header properties detection
 description: In Health Log Analytics, automatic header properties detection separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data without including shipping information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-header-detection.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -28,7 +29,7 @@ When you disable header properties detection for a data input, the Health Log An
 -   The data input contains information that can be used for structuring.
 -   The data input forwards the logs fully parsed.
 
-For the procedure to disable header properties detection, see [Map raw log data](../task/hla-data-input-mapping.md).
+For the procedure to disable header properties detection, see [Map raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
-**Parent Topic:**[Log data auto-mapping and mapping](hla-data-input-automapping.md)
+**Parent Topic:**[Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

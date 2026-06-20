@@ -2,6 +2,7 @@
 title: Add third-party catalog data in an Excel file
 description: You can download and add third-party catalog data in an Excel file template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/add-third-party-catalog-spo.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -36,7 +37,7 @@ An Excel template is created with the required columns for adding the third-part
 
 ## What to do next
 
-After adding the required data to the Excel file, upload it to store the data in the Third-party Catalog \(sn\_spend\_intg\_third\_party\_catalog\) table. For more information, see [Configure punchout for third-party site purchases](configure-supplier-punchout.md).
+After adding the required data to the Excel file, upload it to store the data in the Third-party Catalog \(sn\_spend\_intg\_third\_party\_catalog\) table. For more information, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
-**Parent Topic:**[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+**Parent Topic:**[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 

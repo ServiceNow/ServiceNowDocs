@@ -2,6 +2,7 @@
 title: Upgrade configuration for Accounts Payable Operations integration with Document Intelligence
 description: After you upgrade Accounts Payable Operations to the latest version, you must review all the post-upgrade tasks and complete them as needed. Upgrade the copied use case to the latest Document Intelligence model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/upgrade-apo-di.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +28,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 2.  Navigate to **All** &gt; **Document Data Extraction Administration** &gt; **Use Cases**.
 
-3.  Search for DO NOT USE- Invoice processing V7 and create a duplicate copy using the ![duplicate icon](../image/duplicate-di-usecase.png) icon.
+3.  Search for DO NOT USE- Invoice processing V7 and create a duplicate copy using the \[Omitted image "duplicate-di-usecase.png"\] Alt text: duplicate icon icon.
 
 4.  Save the copied use case.
 

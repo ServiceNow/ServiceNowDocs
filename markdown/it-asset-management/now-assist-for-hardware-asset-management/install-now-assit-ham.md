@@ -2,6 +2,7 @@
 title: Install Now Assist for Hardware Asset Management \(HAM\)
 description: If you have the admin role, you can install the Now Assist for Hardware Asset Management \(HAM\) application. Now Assist for HAM enables asset managers and procurement users to use the capabilities of agentic workflows in Hardware Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-hardware-asset-management/install-now-assit-ham.html
 release: yokohama
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -41,7 +42,7 @@ The agentic workflow and the AI agents included in the Now Assist for Hardware A
 
 ## What to do next
 
-1.  Enable the Now Assist panel to access the AI agents. For details, see [Activate Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+1.  Enable the Now Assist panel to access the AI agents. For details, see .
 2.  Activate the AI Search application on your ServiceNow instance enabling the AI agents to search and get related records.
     1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
     2.  Trigger the automatic AI Search activation process on your ServiceNow instance by selecting **Request AI Search**.
@@ -49,5 +50,5 @@ The agentic workflow and the AI agents included in the Now Assist for Hardware A
         **Note:** The activation process can take up to 24 hours.
 
 
-**Parent Topic:**[Configuring Now Assist for Hardware Asset Management \(HAM\)](../concept/configuring-now-assist-ham.md)
+**Parent Topic:**[Configuring Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-hardware-asset-management/configuring-now-assist-ham.md)
 

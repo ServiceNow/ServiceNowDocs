@@ -2,6 +2,7 @@
 title: Secure Shell \(SSH\) connector methods
 description: The Secure Shell \(SSH\) connector methods establish an SSH connection, execute commands over the established connection, and disconnect the session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/connector-ssh-methods.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -19,9 +20,9 @@ The Secure Shell \(SSH\) connector methods establish an SSH connection, execute 
 
 Establishes an SSH connection. Provide the information required to connect to a remote machine.
 
-Select the settings icon \(![Settings icon](../image/component-settings-icon.png)\) to choose the authentication type.
+Select the settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Settings icon\) to choose the authentication type.
 
-Supported authentication types are Password, KeyboardInteractive, and KeyFileAuthentication.![The authentication type configuration window displaying the Password, KeyboardInteractive, and KeyFileAuthentication as authentication types.](../image/ssh-connector-auth-types.png)
+Supported authentication types are Password, KeyboardInteractive, and KeyFileAuthentication.\[Omitted image "ssh-connector-auth-types.png"\] Alt text: The authentication type configuration window displaying the Password, KeyboardInteractive, and KeyFileAuthentication as authentication types.
 
 Password is the default authentication type.
 
@@ -81,9 +82,9 @@ Password
 
 Secure string representation of the password. Password of the SSH account.
 
- You can use the SecureStringEncode component to encode the secure string password as mentioned in the following example. For more information, see [Use the SecureStringEncode component](../task/use-security-encryption-securestringencode.md).
+ You can use the SecureStringEncode component to encode the secure string password as mentioned in the following example. For more information, see [Use the SecureStringEncode component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/use-security-encryption-securestringencode.md).
 
-![SecureStringEncode component is connected to the Connect method to pass the encoded password.](../image/ssh-connect-pwd-example.png "Connect method with Password parameter")
+\[Omitted image "ssh-connect-pwd-example.png"\] Alt text: SecureStringEncode component is connected to the Connect method to pass the encoded password.
 
  After you perform this task, you can connect to the remote server.
 
@@ -208,7 +209,7 @@ Command
 
 Commands that must be executed on the remote SSH server, such as messages or scripts, can be valid shell commands or executable commands that the remote server can understand.For example, `echo hello`.
 
-![Command entered as "echo hello" in the Command parameter RunCommand method](../image/ssh-run-command-example.png "RunCommand method - Command parameter")
+\[Omitted image "ssh-run-command-example.png"\] Alt text: Command entered as "echo hello" in the Command parameter RunCommand method
 
 </td><td>
 
@@ -242,7 +243,7 @@ Return
 
 The result of the executed command.For example, after executing the automation, in the Data Preview of Return parameter, "hello" is displayed.
 
-![Data previews as hello, after the command is executed](../image/ssh-run-command-return-example.png "Return parameter of RunCommand method")
+\[Omitted image "ssh-run-command-return-example.png"\] Alt text: Data previews as hello, after the command is executed
 
 </td><td>
 
@@ -259,7 +260,7 @@ After executing commands, disconnect the established connection using the Discon
 
 The following example shows the entire automation after adding the Disconnect method.
 
-![SSH connector automation workflow example.](../image/ssh-disconnect-example.png "Disconnect method")
+\[Omitted image "ssh-disconnect-example.png"\] Alt text: SSH connector automation workflow example.
 
-**Parent Topic:**[Secure Shell \(SSH\) connector](../concept/ssh-connector.md)
+**Parent Topic:**[Secure Shell \(SSH\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/ssh-connector.md)
 

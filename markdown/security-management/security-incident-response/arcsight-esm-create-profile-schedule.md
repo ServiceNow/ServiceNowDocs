@@ -2,6 +2,7 @@
 title: Create a schedule for ArcSight ESM event ingestion ingestion
 description: You can define the polling or pull schedule for new correlated events. During this step, you can verify the existing settings for correlation event retrieval or modify the scheduling as needed. This step also permits you to retrieve historical correlation events using a date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/arcsight-esm-create-profile-schedule.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -33,15 +34,15 @@ As a user with the sn\_si.admin role, you configure these polling intervals on a
 
 2.  Choose one to schedule how and when correlation events are pulled from the &lt;ArcSight&gt; console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d178562e97">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d173816e93">
 
 Option
 
-</th><th align="left" id="d178562e100">
+</th><th align="left" id="d173816e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178562e106">
+</th></tr></thead><tbody><tr><td id="d173816e102">
 
 **-   Ongoing Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -51,7 +52,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the ArcSight ESM server for new correlation events every five minutes. Security incidents are created if correlation events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d178562e133">
+</td></tr><tr><td id="d173816e129">
 
 **-   Ongoing Event Ingestion field cleared
 -   One-Time Retrieval field selected
@@ -68,7 +69,7 @@ One-Time RetrievalUse this configuration if you want a one-time pull to ingest h
 After the correlation events are pulled, this setting will not retrieve more correlation events for this profile going forward from the current date. This setting populates the security incident with all the correlation events that are found for the range you enter.
 
 </td></tr></tbody>
-</table>    ![ArcSight ESM: Create Profile: Schedule](../image/sir-arcsight-esm-profile-schedule.png)
+</table>    \[Omitted image "sir-arcsight-esm-profile-schedule.png"\] Alt text: ArcSight ESM: Create Profile: Schedule
 
     As an example for scheduling an initial correlation event ingestion time, if you have a daily ArcSight ESM security check that runs once a day at 4 AM local time, you can set up the corresponding correlation event profile in your ServiceNow AI Platform instance to run at 4:05 AM local time to capture the security failure event right away and create a security incident. Enter `04 05 00` in the Initial event ingestion field. In the Increment \(Minutes\) field, enter `1440` \(24 hours\) to schedule the next event ingestion for 24 hours from the initial event ingestion. Both the initial event ingestion time and next event ingestion time are displayed in the fields.
 
@@ -86,6 +87,6 @@ After the correlation events are pulled, this setting will not retrieve more cor
 
 4.  Click **Continue** to navigate to the Additional Options page.
 
-    **Note:** The default number of security incidents that can be created and aggregated in a day, and the flow time period are defined in the ArcSight ESM Integration Settings. You can modify these settings if required. See [ArcSight ESM Integration Settings for event ingestion integration](../concept/arcsight-esm-settings.md) for details.
+    **Note:** The default number of security incidents that can be created and aggregated in a day, and the flow time period are defined in the ArcSight ESM Integration Settings. You can modify these settings if required. See [ArcSight ESM Integration Settings for event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/arcsight-esm-settings.md) for details.
 
 

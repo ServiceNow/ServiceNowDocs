@@ -2,6 +2,7 @@
 title: Install Now Assist for Privacy Management
 description: Install Now Assist for Privacy Management to .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,7 +18,7 @@ Install Now Assist for Privacy Management to .
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: Privacy admin
 
@@ -31,6 +32,6 @@ Role required: Privacy admin
 
     The Now Assist for Privacy Manager is installed in your instance.
 
-    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 

@@ -2,6 +2,7 @@
 title: Export OSCAL catalog
 description: From the Control objective list view page in the CAM Workspace, export the catalog in the OSCAL JSON format for the selected control objectives. This action enables you to export your control objectives from CAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-catalog-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the primary navigation, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  In the Compliance list, select Control objectives.
 
@@ -31,7 +32,7 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 5.  Select **OSCAL Export**.
 
-    ![S](../image/cam-export-oscal-control-objective.gif)
+    \[Omitted image "cam-export-oscal-control-objective.gif"\] Alt text: S
 
 6.  In the **OSCAL Export** pop-up window, enter the title and the version.
 
@@ -40,5 +41,5 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
     **Important:** Verify that the pop-up blocker is turned off for the URL so the Catalog JSON file downloads to your local repository automatically.
 
 
-**Parent Topic:**[Exporting in OSCAL format](../concept/oscal-support-cam.md)
+**Parent Topic:**[Exporting in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

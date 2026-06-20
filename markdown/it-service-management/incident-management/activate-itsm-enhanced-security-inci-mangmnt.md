@@ -2,6 +2,7 @@
 title: Activate ITSM Enhanced Security Features for Incident Management
 description: Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -33,8 +34,8 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Features of enhanced security model adoption for incident tables](../reference/comp-instal-itsm-enhanced-sec-features.md)
+**Parent Topic:**[Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md)
 

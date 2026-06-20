@@ -2,6 +2,7 @@
 title: Jumpstart Your Automated Testing- US Public Sector
 description: Prescriptive guidance on enabling and utilizing Automated Test Framework
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/usps-jumpstart-your-automated-testing.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

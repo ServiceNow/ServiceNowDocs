@@ -2,6 +2,7 @@
 title: Legacy - Create custom events to monitor
 description: Create custom events and monitor them in the Conversational Analytics Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/set-up-custom-events.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Create custom events and monitor them in the Conversational Analytics Dashboard.
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](../concept/VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -38,7 +39,7 @@ Most metrics you see on the dashboard, for example topic and conversation detail
 -   Number of conversations on a Slack channel that transferred to a live agent.
 -   Number of conversations on a Slack channel where the user never returned.
 
-![Virtual Agent Custom Events tab.](../images/dashboard-custom-events-dashboard-2.png)
+\[Omitted image "dashboard-custom-events-dashboard-2.png"\] Alt text: Virtual Agent Custom Events tab.
 
 Custom events appear on the **Custom Events** tab. If you haven't configured any custom events, the dashboard won't display any. You can create up to 20 custom events.
 
@@ -50,7 +51,7 @@ Custom events take effect when you create them. You cannot use them to analyze d
 
     The Event New record page appears.
 
-    ![Event new record form.](../images/dashboard-event-config-new1.png)
+    \[Omitted image "dashboard-event-config-new1.png"\] Alt text: Event new record form.
 
 2.  In the form, fill in the fields.
 
@@ -77,7 +78,7 @@ Custom events take effect when you create them. You cannot use them to analyze d
 
     The Event Property New Record page appears where you specify the properties for a custom event that you want to track on the dashboard.
 
-    ![Event Property new record form with Value Field selected.](../images/dashboard-event-property-new-record.png)
+    \[Omitted image "dashboard-event-property-new-record.png"\] Alt text: Event Property new record form with Value Field selected.
 
     In this example, the **Custom Event** tab shows metrics for **Updated by** for the custom event, Messages-from-Slack.
 
@@ -101,5 +102,5 @@ Custom events take effect when you create them. You cannot use them to analyze d
     The Events page appears, which lists all custom events. You can open the **Custom Events** tab on the dashboard to see the custom event. This custom event is not retroactive; the dashboard only displays new events that satisfy the custom event criteria.
 
 
-**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](../concept/setting-up-va-dashboard-overview1.md)
+**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1.md)
 

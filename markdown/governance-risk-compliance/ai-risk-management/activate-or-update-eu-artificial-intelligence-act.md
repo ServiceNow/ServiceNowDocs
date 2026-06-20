@@ -2,6 +2,7 @@
 title: Activate or update EU Artificial Intelligence Act using the ESG content accelerator
 description: Activate or update the EU Artificial Intelligence Act and select the citations for the framework. It installs the framework and the selected citations on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -23,19 +24,19 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the ESG content accelerator icon ![](../image/airc-content-accelerator-icon.png) on the AI Risk and Compliance Workspace.
+2.  Select the ESG content accelerator icon \[Omitted image "airc-content-accelerator-icon.png"\] on the AI Risk and Compliance Workspace.
 
-3.  Select the **Activate** button on the EU Artificial Intelligence Act Framework card.![Activate button on the EU Artificial Intelligence Act card.](../image/eu-artificial-intelligence-act.png)
+3.  Select the **Activate** button on the EU Artificial Intelligence Act Framework card.\[Omitted image "eu-artificial-intelligence-act.png"\] Alt text: Activate button on the EU Artificial Intelligence Act card.
 
     Make sure you have selected the correct version of the EU Artificial Intelligence Act.
 
 4.  Read the disclaimer statement and select **Agree**.
 
-5.  Choose the required citations from the list and select **Next**.![Citations available in the EU Artificial Intelligence Act.](../image/citations-eu.png)
+5.  Choose the required citations from the list and select **Next**.\[Omitted image "citations-eu.png"\] Alt text: Citations available in the EU Artificial Intelligence Act.
 
     You can include citations that are marked as Ready.
 
-6.  Review and confirm the selected citations.![Selected citations.](../image/review-and-confirm-eu.png)
+6.  Review and confirm the selected citations.\[Omitted image "review-and-confirm-eu.png"\] Alt text: Selected citations.
 
 7.  Select **Submit**.
 
@@ -46,5 +47,5 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 9.  Repeat the steps from 5.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

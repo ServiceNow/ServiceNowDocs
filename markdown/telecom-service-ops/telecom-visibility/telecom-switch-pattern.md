@@ -2,6 +2,7 @@
 title: Telecom Switch Pattern
 description: The ServiceNow Telecom Discovery application uses the Telecom Switch discovery pattern to find SNMP-based Telecom switches in the network. Discovering some of these resources requires updating the Telecommunications Discovery Patterns \(TSOM Patterns\) from the ServiceNow Store.To access a full list of OIDs that will be classified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecom-visibility/telecom-switch-pattern.html
 release: yokohama
 product: Telecom Visibility
 classification: telecom-visibility
@@ -21,14 +22,14 @@ Telecom Switch pattern is part of the Telecommunications Discovery Patterns appl
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Subscription to TSOM.
 -   Confirm that your network router devices have SNMP access.
--   On the ServiceNow® instance, configure SNMP credentials. For more information, see [SNMP support for Discovery](https://www.servicenow.com/docs/access?context=c_SNMPSupportForDiscovery&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US).
--   For setting up TSOM Patterns, see [Configure Telecommunications Discovery \(TSOM\) Patterns](configuring-telecommunications-discovery-patterns.md#).
+-   On the ServiceNow® instance, configure SNMP credentials. For more information, see .
+-   For setting up TSOM Patterns, see [Configure Telecommunications Discovery \(TSOM\) Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/configuring-telecommunications-discovery-patterns.md).
 
 ## Impacted CMDB CIs and CI Relationships \(Physical Layer\)
 
@@ -109,7 +110,7 @@ Any type of Network Interface is represented by the Network Interface CI.
  Network Interface is contained by Interface Card, IP Switch.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecom Discovery using Telecommunications Discovery Patterns](telecom-discovery-using-telecommunication-discovery-pattern.md)
+</table>**Parent Topic:**[Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md)
 
 ## Classifying xNFs for this Pattern
 
@@ -127,11 +128,11 @@ Classifier name: **Standard Network Switch**.
 
 2.  From the list, select **Standard Network Switch**.
 
-3.  Open the tab **SNMP OID Classifications** and see the list of OIDs.![snmp oid classification.](../images/telecom-switch-pattern-classification.png)
+3.  Open the tab **SNMP OID Classifications** and see the list of OIDs.\[Omitted image "telecom-switch-pattern-classification.png"\] Alt text: snmp oid classification.
 
     **Note:**
 
-    For more information on how to add additional OIDs to the classifier, see [Telecom Discovery using Telecommunications Discovery Patterns](telecom-discovery-using-telecommunication-discovery-pattern.md).
+    For more information on how to add additional OIDs to the classifier, see [Telecom Discovery using Telecommunications Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecom-visibility/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
     MiB Tables Used on an xNF:
 

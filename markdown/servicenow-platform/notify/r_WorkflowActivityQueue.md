@@ -2,6 +2,7 @@
 title: Queue workflow activity
 description: The Queue activity places an active Notify call in a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/notify/r\_WorkflowActivityQueue.html
 release: yokohama
 product: Notify
 classification: notify

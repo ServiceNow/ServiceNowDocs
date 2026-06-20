@@ -2,6 +2,7 @@
 title: Set up a secure connection to the Hermes Messaging Service
 description: Secure your Kafka topics by generating a ServiceNow instance-signed certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/set-up-connection-hermes.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -21,14 +22,14 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See [Hermes Messaging Service activation](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+-   The Hermes Messaging Service is activated. See .
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://www.servicenow.com/docs/access?context=kmf-roles&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+For details on assigning KMF roles, see .
 
 ## Procedure
 
@@ -36,15 +37,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d596776e122">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d186666e120">
 
 Option
 
-</th><th align="left" id="d596776e125">
+</th><th align="left" id="d186666e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d596776e131">
+</th></tr></thead><tbody><tr><td id="d186666e129">
 
 **Apply ACLs to namespaces**
 
@@ -57,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d596776e173">
+</td></tr><tr><td id="d186666e171">
 
 **Apply ACLs to defined topics**
 
@@ -100,5 +101,5 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 ## What to do next
 
-[Test the connection to Hermes through the ADCv2 gateway](test-connection-hermes.md).
+[Test the connection to Hermes through the ADCv2 gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-connection-hermes.md).
 

@@ -2,6 +2,7 @@
 title: Update the display limit of items for Prioritization and Roadmap in Portfolio Planning
 description: Create a system property to update the display limit of the items shown in Prioritization page, Roadmap page, and the item milestones on the roadmap view in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
@@ -45,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d79049e137">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d49809e137">
 
 Field
 
-</th><th align="left" id="d79049e140">
+</th><th align="left" id="d49809e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79049e146">
+</th></tr></thead><tbody><tr><td id="d49809e146">
 
 **Name**
 
@@ -64,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d79049e172">
+</td></tr><tr><td id="d49809e172">
 
 **Type**
 
@@ -72,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d79049e181">
+</td></tr><tr><td id="d49809e181">
 
 **Value**
 
@@ -81,10 +82,10 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](../concept/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

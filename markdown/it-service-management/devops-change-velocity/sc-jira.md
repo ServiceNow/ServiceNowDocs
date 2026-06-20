@@ -2,6 +2,7 @@
 title: Onboard Jira to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your Jira Server or Jira Cloud instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/sc-jira.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -79,7 +80,7 @@ Jira Cloud
 Pre-requisites:
 
     -   
-    -   [Obtain the value of Cloud ID](https://www.servicenow.com/docs/access?context=setup-jira-serv-mgmt&version=yokohama&pubname=yokohama-integrate-applications&section=jira-cloud-id&ft:locale=en-US)
+    -   
     -   
     -   Create credential record for Jira Cloud
 In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
@@ -94,7 +95,7 @@ In the **Tool credential** field, select an existing OAuth 2.0 tool credential r
 
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -166,5 +167,5 @@ Select the dates for which you want to import the data. By default, the last 30 
     A request is created. When the request is approved, the plan objects are associated to the app record, which enables real-time tracking. Historical data is also imported for the selected plans. The **Track** field is automatically enabled for imported plans.
 
 
-**Parent Topic:**[Jira integration with DevOps Change Velocity](../concept/jira-integration-dev-ops.md)
+**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

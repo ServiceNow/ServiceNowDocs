@@ -2,6 +2,7 @@
 title: Data snapshot sources and collection
 description: Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/tables-unlimited-breakdowns.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
@@ -33,5 +34,5 @@ Classic Performance Analytics data collection jobs continue to run in parallel w
 
 Data snapshots collection jobs copy a subset of the source table. These jobs also create a copy of every daily change for a record. These jobs may therefore result in increased storage use by Performance Analytics.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](../concept/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

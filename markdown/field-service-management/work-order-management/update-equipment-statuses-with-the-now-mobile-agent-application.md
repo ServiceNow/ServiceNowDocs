@@ -2,6 +2,7 @@
 title: Equipment on Mobile Agent
 description: Check in, check out, or report broken equipment using the My Equipment applet in the Mobile Agent.Check out or check back in equipment assigned to your work order tasks or crew through the Mobile Agent.Report breakdowns of equipment assigned to your work order tasks or crew through the Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Managemen
 
 Check in, check out, or report broken equipment using the **My Equipment** applet in the Mobile Agent.
 
-**Parent Topic:**[Complete work orders on Mobile Agent](Use-mobile-app-fsm.md)
+**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 
 ## Check equipment out or in with the Mobile Agent
 

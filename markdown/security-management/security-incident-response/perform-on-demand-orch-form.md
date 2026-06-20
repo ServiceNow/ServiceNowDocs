@@ -2,6 +2,7 @@
 title: Perform on-demand orchestration from the Security Incident form
 description: On-demand orchestration can be invoked from a choice list at the bottom of the Security Incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/perform-on-demand-orch-form.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -27,12 +28,12 @@ Role required: sn\_si.write
 
 3.  Click the **Run Orchestration** related link.
 
-    The **Run Orchestration** dialog box opens. The appearance of the dialog box depends on the setting of the [sn\_sec\_cmn.use\_on\_demand\_tbl\_as\_whitelist](../concept/on-demand-orchestration.md) property in Security Support Common.
+    The **Run Orchestration** dialog box opens. The appearance of the dialog box depends on the setting of the [sn\_sec\_cmn.use\_on\_demand\_tbl\_as\_whitelist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/on-demand-orchestration.md) property in Security Support Common.
 
-    ![Run Orchestration](../image/run-orch.png)
+    \[Omitted image "run-orch.png"\] Alt text: Run Orchestration
 
 4.  Click the lookup icon and select the workflow you want to run.
 
-    The selected workflow runs. For details, see [Security Incident Response Orchestration workflows and activities](../../security-incident-response-orchestration/concept/sec-inc-resp-orchestration-workflows.md).
+    The selected workflow runs. For details, see [Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md).
 
 

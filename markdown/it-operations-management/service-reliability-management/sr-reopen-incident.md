@@ -2,6 +2,7 @@
 title: Reopen an SRM incident
 description: Reopen a closed incident if you think the issue is not yet resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-reopen-incident.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Reliability tasks** \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the primary navigation, select **Reliability tasks** \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Find and open the incident you want to reopen.
 
@@ -35,15 +36,15 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d546691e104">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d414075e104">
 
 Option
 
-</th><th align="left" id="d546691e107">
+</th><th align="left" id="d414075e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d546691e113">
+</th></tr></thead><tbody><tr><td id="d414075e113">
 
 **In the incident list view**
 
@@ -53,7 +54,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d546691e137">
+</td></tr><tr><td id="d414075e137">
 
 **In the incident form**
 
@@ -64,10 +65,10 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incidents](../reference/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view and incident form and form header.
 
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

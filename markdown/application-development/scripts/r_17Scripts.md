@@ -2,6 +2,7 @@
 title: Available script types
 description: Scripts can be used in many places. The most important detail is whether the script runs on the client or the server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/r\_17Scripts.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -45,7 +46,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Ajax Scripts](https://www.servicenow.com/docs/access?context=p_AJAX&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+Ajax Scripts
 
 </td><td>
 
@@ -59,7 +60,7 @@ Enables the client to get data from the server to dynamically incorporate into a
 
 </td></tr><tr><td>
 
-[Business Rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+Business Rules
 
 </td><td>
 
@@ -75,7 +76,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Service Catalog UI policies](https://www.servicenow.com/docs/access?context=c_ServiceCatalogUIPolicy&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+Service Catalog UI policies
 
 </td><td>
 
@@ -88,7 +89,7 @@ Defines the display of a variable set or a catalog item \(from the service catal
 
 </td></tr><tr><td>
 
-[Client Scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+Client Scripts
 
 </td><td>
 
@@ -104,7 +105,7 @@ client
 
 </td></tr><tr><td>
 
-[Script actions](https://www.servicenow.com/docs/access?context=r_ScriptActions&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+Script actions
 
 </td><td>
 
@@ -132,7 +133,7 @@ server
 
 </td></tr><tr><td>
 
-[Transform maps](https://www.servicenow.com/docs/access?context=c_CreatingNewTransformMaps&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US)
+Transform maps
 
 </td><td>
 
@@ -147,7 +148,7 @@ server
 
 </td></tr><tr><td>
 
-[UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+UI actions
 
 </td><td>
 
@@ -182,7 +183,7 @@ Defines which "right-click menu" will pop-up in which area, and the menu choices
 
 </td></tr><tr><td>
 
-[UI macros](https://www.servicenow.com/docs/access?context=c_UIMacros&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+
 
 </td><td>
 
@@ -196,7 +197,7 @@ Contains modular, reusable components that can contain Jelly and are called by U
 
 </td></tr><tr><td>
 
-[UI Pages](https://www.servicenow.com/docs/access?context=r_UIPages&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+UI Pages
 
 </td><td>
 
@@ -267,7 +268,7 @@ client
 
 </td></tr><tr><td>
 
-[Validation Scripts](https://www.servicenow.com/docs/access?context=c_ValidateDateAndTime&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)
+Validation Scripts
 
 </td><td>
 
@@ -279,7 +280,7 @@ client
 
 </td></tr><tr><td>
 
-[Workflow editor](https://www.servicenow.com/docs/access?context=workflow-editor&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US)
+Workflow editor
 
 </td><td>
 
@@ -290,5 +291,5 @@ Used to create or change a workflow. Scripts can be run at any point in a workfl
 server - script and any conditions run on the server
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](../../topic/c_Script.md)
+</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_Script.md)
 

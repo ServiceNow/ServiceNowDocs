@@ -2,11 +2,14 @@
 title: Search the knowledge base on Business Portal
 description: Use the business portal to search the knowledge base or view a list of popular knowledge base articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SearchTheKnowledgeBase-business-portal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Search for information using Business Portal, Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Search for information using Business Portal, Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Search the knowledge base on Business Portal
@@ -34,7 +37,7 @@ The business portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d237030e110">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d233373e110">
 
 **Click a product to display more specific information**
 
@@ -42,7 +45,7 @@ The business portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d237030e119">
+</td></tr><tr><td id="d233373e119">
 
 **Click a link from one of the lists**
 
@@ -50,7 +53,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d237030e128">
+</td></tr><tr><td id="d233373e128">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

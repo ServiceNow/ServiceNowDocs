@@ -2,6 +2,7 @@
 title: View crew tasks on Dispatcher Workspace
 description: As a dispatcher, you can view the tasks that require crew and are assigned to a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/view-crew-tasks-disp-wrkspc.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -41,5 +42,5 @@ Role required: wm\_dispatcher
 -   If a task is assigned to a crew, the system updates the estimated travel duration based on the crew's start location or previous start location. The updated value is based on the Manual Assignment property setting used for calculating estimated travel time and distance.
 -   A warning message appears if the assigned task is outside the acceptable radius between the task location and the crew's location.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

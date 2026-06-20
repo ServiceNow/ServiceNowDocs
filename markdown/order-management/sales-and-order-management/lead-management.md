@@ -2,13 +2,14 @@
 title: Lead Management
 description: The Lead Management application enables your sales agents and sales development representatives to create leads and nurture them into opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/lead-management.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Lead Management
@@ -27,9 +28,9 @@ The processes include:
 
 As sales agents move through the lead workflow and recognize interest from customers in buying products, it becomes essential to qualify or convert the lead. This process includes linking the lead to specific accounts and establishing lead qualification, which ultimately generates product orders.
 
-![Lead Management workflow that shows the lead entry to lead conversion.](../image/lead-management-som.png "Lead workflow in Sales Customer Relationship Management")
+\[Omitted image "lead-management-som.png"\] Alt text: Lead Management workflow that shows the lead entry to lead conversion.
 
 ## What to do next
 
-To learn about setting up Lead Management, see [Install and configure Lead Management](configure-lead-management.md).
+To learn about setting up Lead Management, see [Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/configure-lead-management.md).
 

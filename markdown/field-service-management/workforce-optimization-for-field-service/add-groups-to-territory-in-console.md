@@ -2,6 +2,7 @@
 title: Assign groups to a territory
 description: Assign groups of qualifiers, dispatchers, agents, and crews to territories to optimize resource allocation for tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/add-groups-to-territory-in-console.html
 release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

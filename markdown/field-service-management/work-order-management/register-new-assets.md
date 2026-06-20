@@ -2,6 +2,7 @@
 title: Register new assets
 description: Register new assets that are supported for customers and have not been registered previously using the Now Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/register-new-assets.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -39,7 +40,7 @@ Role required: asset
 
 8.  Tap **Scan next item** each time to scan the barcodes of the next parts.
 
-    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://www.servicenow.com/docs/access?context=sg-configure-multiscan&version=yokohama&pubname=yokohama-mobile&ft:locale=en-US).
+    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see Configure a grouped input for multiple scans.
 
 9.  After scanning all the parts, tap **Review**.
 
@@ -50,5 +51,5 @@ Role required: asset
     The Register Assets form is updated with the latest count and other related information.
 
 
-**Parent Topic:**[Inventory on Mobile Agent](../concept/easily-track-parts.md)
+**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

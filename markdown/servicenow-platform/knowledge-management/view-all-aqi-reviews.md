@@ -2,6 +2,7 @@
 title: View all pending and completed AQI reviews
 description: View checklists of all users to monitor the pending and completed reviews.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/view-all-aqi-reviews.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

@@ -2,11 +2,12 @@
 title: Show the AES template
 description: You can make the App Engine Studio \(AES\) template, which is hidden by default, appear for users when they create an app in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-unhide-template.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Administering templates and forms for Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
@@ -29,8 +30,8 @@ Role required: admin
 
 4.  Clear the entry from the **Value** field.
 
-    If you want to hide any other templates, enter their system values \(sys\_id for each template\) in the **Value** field, separated by commas. For more information on the sys\_id, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+    If you want to hide any other templates, enter their system values \(sys\_id for each template\) in the **Value** field, separated by commas. For more information on the sys\_id, see .
 
 
-**Parent Topic:**[Administering templates and forms for Creator Studio](../concept/creator-studio-administering-forms.md)
+**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-administering-forms.md)
 

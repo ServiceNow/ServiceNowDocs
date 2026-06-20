@@ -2,6 +2,7 @@
 title: Application plugin installation sequence in Supplier Lifecycle Operations
 description: The following table provides the list of plugins for Supplier Lifecycle Operations, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/slm-plugin-list.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -133,5 +134,5 @@ To avoid incomplete demo data and other installation issues, you should install 
 1.  Supplier Common Architecture \(com.snc.sn\_slm\)
 2.  Supplier Collaboration Portal \(com.snc.sn\_supplier\_sp\)
 
-**Parent Topic:**[Install Supplier Lifecycle Operations](../task/install-supp-mgmt.md)
+**Parent Topic:**[Install Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

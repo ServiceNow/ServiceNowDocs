@@ -2,6 +2,7 @@
 title: Team Development setup
 description: To enable parallel development on multiple non-production instances, administrators can set up the Team Development instance hierarchy and grant access rights for developers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/team-development/c\_SettingUpTeamDevelopment.html
 release: yokohama
 product: Team Development
 classification: team-development

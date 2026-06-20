@@ -2,6 +2,7 @@
 title: Create a DevOps tool integration
 description: To create a DevOps tool integration, your integration developer configures DevOps tool integration settings, and a Workflow Studio subflow to collect and transform data from the source tool. Then your DevOps admin configures your DevOps tool connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -28,7 +29,7 @@ Role required: sn\_devops.admin
 
 Creating a DevOps tool integration procedure involves configuration by both your integration developer and your DevOps admin.
 
--   Your integration developer creates a tool integration record in DevOps, a Workflow Studio [subflow](../concept/creating-dev-ops-subflows.md), a tool capability mapping, and an integration capability record in DevOps to map the capabilities and actions together.
+-   Your integration developer creates a tool integration record in DevOps, a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md), a tool capability mapping, and an integration capability record in DevOps to map the capabilities and actions together.
 
     **Note:** Notification, connect, and discover capabilities are supported.
 
@@ -87,7 +88,7 @@ Active
 Selected
 
 </td></tr></tbody>
-</table>    2.  Navigate to **Flow Designer** &gt; **Designer** and [create a subflow](../concept/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
+</table>    2.  Navigate to **Flow Designer** &gt; **Designer** and [create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
 
         **Note:** The **Run As** field must be set to System User, and the **Inputs** label must be set to current variable.
 
@@ -223,7 +224,7 @@ The value for this field is `my_app_scope.connect_code_tool`.
 
  **Note:** If the **Subflow name** field is left blank for a Notification capability, default handling of notifications occurs.
 
-See [Notification tool capability action](../concept/dev-ops-tool-integration.md#section_h44_1bx_zjb).
+See [Notification tool capability action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/dev-ops-tool-integration.md).
 
 </td></tr><tr><td>
 
@@ -265,21 +266,21 @@ global
 
 ## Example
 
-![DevOpsToolIntegration](../image/dev-ops-tool-integration.png "DevOps tool integration")
+\[Omitted image "dev-ops-tool-integration.png"\] Alt text: DevOpsToolIntegration
 
-![SubflowProperties](../image/dev-ops-subflow-properties.png "Workflow Studio subflow properties")
+\[Omitted image "dev-ops-subflow-properties.png"\] Alt text: SubflowProperties
 
-![Subflow](../image/dev-ops-subflow.png "Workflow Studio subflow")
+\[Omitted image "dev-ops-subflow.png"\] Alt text: Subflow
 
-![NotificationFlow](../image/dev-ops-notification-flow.png "Workflow Studio DevOps Integration - Notification flow")
+\[Omitted image "dev-ops-notification-flow.png"\] Alt text: NotificationFlow
 
-![DevOps User Integration Mapping](../image/dev-ops-user-integration-map.png "DevOps tool capability mapping")
+\[Omitted image "dev-ops-user-integration-map.png"\] Alt text: DevOps User Integration Mapping
 
-![IntegrationCapability](../image/dev-ops-integration-capability.png "Integration capability")
+\[Omitted image "dev-ops-integration-capability.png"\] Alt text: IntegrationCapability
 
-![IntegrationPlanningTool](../image/dev-ops-integration-planning-tool.png "Planning tool")
+\[Omitted image "dev-ops-integration-planning-tool.png"\] Alt text: IntegrationPlanningTool
 
-![CrossScopeAccess](../image/dev-ops-cross-scope-access.png "Cross scope access records (read and write)")
+\[Omitted image "dev-ops-cross-scope-access.png"\] Alt text: CrossScopeAccess
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](../concept/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

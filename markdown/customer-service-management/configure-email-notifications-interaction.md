@@ -2,7 +2,10 @@
 title: Configure email notifications for an interaction
 description: Configure email notification to determine whether they should be sent to the contact, consumer, or guest.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-email-notifications-interaction.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -26,13 +29,13 @@ Email notifications that are available by default:
 -   Interaction created for guest
 -   Interaction created for contact
 
-You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+You can customize the existing notification or create a notification. For more information, see .
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Notifications ** &gt; **Email** &gt; **Notifications**.
 
-2.  Select the Show column search row icon \(![Show column search icon](../image/Search_icon_eaaI.jpg)\).
+2.  Select the Show column search row icon \(\[Omitted image "Search\_icon\_eaaI.jpg"\] Alt text: Show column search icon\).
 
 3.  In the  **Name** column, search for any of the following notification.
 

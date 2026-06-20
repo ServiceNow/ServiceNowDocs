@@ -2,6 +2,7 @@
 title: Cancel an appointment for a customer
 description: Dispatchers and agents can cancel appointments for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/appointment-booking-cancel-appt.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -40,5 +41,5 @@ A dispatcher or an agent can cancel an appointment for a customer from a work or
 
 The customer receives SMS and email notification that their scheduled appointment is canceled.
 
-**Parent Topic:**[Manage appointments from a work order or work order task](../concept/managing-appts-from-work-order.md)
+**Parent Topic:**[Manage appointments from a work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-work-order.md)
 

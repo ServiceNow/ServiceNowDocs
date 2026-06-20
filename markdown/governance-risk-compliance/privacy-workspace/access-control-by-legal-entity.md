@@ -2,6 +2,7 @@
 title: Access control through organizational structure
 description: Describes how access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -24,7 +25,7 @@ Entity-Based Access \(EBA\) implements this control by enforcing data segregatio
 -   Dynamic segmentation: Access can be assigned based on the organizational structure, such as legal entity, jurisdiction, business unit, or any defined grouping. So processing activity records are only visible to the appropriate teams.
 -   Regulatory alignment: Access controls can be mapped to organizational structures, helping organizations meet local regulatory requirements and maintain clear audit trails.
 
-For information about configuring access control, see [Configure access control](configure-access-control-by-legal-entity.md).
+For information about configuring access control, see [Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md).
 
 ## UI impact
 
@@ -78,18 +79,18 @@ Access records for configured entities and their associated downstream entities
 </td></tr></tbody>
 </table>**Note:** Assigned roles such as assignee, reviewer, and analyst retain access to their assigned records even if those records fall outside the configured entity.
 
--   **[Configure access control](configure-access-control-by-legal-entity.md)**  
+-   **[Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)**  
 Describes the step-by-step process for configuring Entity-based access control in Privacy Management, including property activation, hierarchy setup, record mapping, user assignment, bulk updates, and activating entity-based record access rules.
--   **[Configure Entity-based access](configure-entity-based-access.md)**  
+-   **[Configure Entity-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-entity-based-access.md)**  
 Configure entity-based access by installing the Entity-based Access Configurations plugin and enabling properties for record types.
--   **[Create an entity configurations](task/create-oganizational-structure.md)**  
+-   **[Create an entity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-oganizational-structure.md)**  
 Create an organizational structure by configuring entity-based access for different levels such as headquarters, regional offices, and subsidiaries, and define access rules for users and groups.
--   **[Add hierarchical relationships between entities](task/add-hierarchical-relationships.md)**  
+-   **[Add hierarchical relationships between entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-hierarchical-relationships.md)**  
 Define hierarchical relationships between entities \(Global → Regional → Country-level\) using Upstream and Downstream options. Adding an hierarchy creates a clear organizational structure.
--   **[Set access restrictions using an entity based record access update utility](task/create-bulk-access-update-config-privacy.md)**  
+-   **[Set access restrictions using an entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-bulk-access-update-config-privacy.md)**  
 Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
--   **[Set Entity based record access rules](task/eba-access-rules-config-privacy.md)**  
+-   **[Set Entity based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/eba-access-rules-config-privacy.md)**  
 Use entity-based record access rules to secure records and enable continuous monitoring. These rules automatically apply restrictions to new or modified records, ensuring access settings stay enforced without manual updates. When entities or processing activities change, the system updates access controls automatically.
 
-**Parent Topic:**[Using Privacy Management](concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

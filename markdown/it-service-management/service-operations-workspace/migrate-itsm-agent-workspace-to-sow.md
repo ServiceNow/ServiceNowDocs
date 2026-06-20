@@ -2,6 +2,7 @@
 title: Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: Through a set of simple steps, quickly migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -34,7 +35,7 @@ Role required: admin
         **Important:**
 
         -   This configuration must contain the credentials of the user who is logged in and has the admin role.
-        -   Only after you create the basic authentication configuration, create an update set to record any changes that are made to Service Operations Workspace for ITSM in your non-production instance during the migration. See [Create and select an update set as the current set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+        -   Only after you create the basic authentication configuration, create an update set to record any changes that are made to Service Operations Workspace for ITSM in your non-production instance during the migration. See .
     2.  From the **Select a basic auth configuration** drop-down, select the required configuration.
 
     3.  Select **Test the configuration**.
@@ -57,7 +58,7 @@ Role required: admin
     -   As the **List** and **Other features** does not correspond to a specific table, it contains multiple tables from other features or applications in ITSM.
     -   If you want to run the migration for the custom table in **List** and **Other features**, then add the custom table to the existing pre-defined features as well as in List and Other features section of the json string.
     -   In case, if any custom table does not correspond to any pre-defined features or application or categories, you can add the custom table in Custom Table Migration section of the json string.
-    For information about configurations and customizations that can be migrated, see [Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](../concept/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
+    For information about configurations and customizations that can be migrated, see [Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
 
 4.  Select **Next**.
 
@@ -74,21 +75,21 @@ Role required: admin
 
 Complete the post-migration tasks for each configuration or customization that you have migrated. For more information, see the following topics.
 
--   [Perform post-migration tasks for UI actions and layouts](verify-migration-status-ui-actions-layouts.md)
--   [Perform post-migration tasks for ribbons](verify-migration-status-ribbons.md)
--   [Perform post-migration tasks for view rules](verify-migration-status-view-rules.md)
--   [Perform post-migration tasks for new records](verify-migration-status-new-records.md)
--   [Perform post-migration tasks for highlighted fields in list and forms](verify-migration-status-highlighted-fields-lists-forms.md)
--   [Perform post-migration tasks for list actions](verify-migration-status-list-actions.md)
--   [Perform post-migration tasks for list categories and modules](verify-migration-status-list-categories-modules.md)
--   [Perform post-migration tasks for form headers](verify-migration-status-form-headers-sow.md)
--   [Perform post-migration tasks for search configurations](verify-migration-status-search-config.md)
--   [Perform post-migration tasks for Agent assist configuration](verify-migration-status-agent-assist.md)
--   [Perform post-migration tasks for related list declarative form actions](verify-migration-status-related-actions-aw-sow.md)
--   [Perform post-migration tasks for field decorators form actions](verify-migration-status-field-declarative-actions-aw-sow.md)
+-   [Perform post-migration tasks for UI actions and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-ui-actions-layouts.md)
+-   [Perform post-migration tasks for ribbons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-ribbons.md)
+-   [Perform post-migration tasks for view rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-view-rules.md)
+-   [Perform post-migration tasks for new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-new-records.md)
+-   [Perform post-migration tasks for highlighted fields in list and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-highlighted-fields-lists-forms.md)
+-   [Perform post-migration tasks for list actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-list-actions.md)
+-   [Perform post-migration tasks for list categories and modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-list-categories-modules.md)
+-   [Perform post-migration tasks for form headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-form-headers-sow.md)
+-   [Perform post-migration tasks for search configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-search-config.md)
+-   [Perform post-migration tasks for Agent assist configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-agent-assist.md)
+-   [Perform post-migration tasks for related list declarative form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-related-actions-aw-sow.md)
+-   [Perform post-migration tasks for field decorators form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-field-declarative-actions-aw-sow.md)
 
--   **[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](../concept/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
+-   **[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
 Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
 
-**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](../concept/migration-from-itsm-aw-sow.md)
+**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

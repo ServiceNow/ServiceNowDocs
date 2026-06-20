@@ -2,6 +2,7 @@
 title: Edit APM data charts on Service Observability dashboard templates
 description: Edit Service Observability dashboard templates to view different APM vendor metrics on the Overview or Observability tabs' charts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/edit-service-observability-dashboards.html
 release: yokohama
 product: Service Observability
 classification: service-observability
@@ -23,7 +24,7 @@ Use simple queries to return metrics associated with services, hosts, and databa
 
 Use advanced query mode to cut and paste queries from existing APM charts into Service Observability. For most APM vendors, you can simply copy a query from an existing chart in your APM instance.
 
-Both query types support [template variables](../reference/service-observability-template-variables.md) that let you use the same query to return metrics for multiple entity instances.
+Both query types support [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) that let you use the same query to return metrics for multiple entity instances.
 
 ## Before you begin
 
@@ -41,7 +42,7 @@ Role required: sn\_sow\_svcobs.admin
     -   **Express list** alert: Select a service from the **Impacted services** column.
     The Service Details page opens and the Overview tab is displayed.
 
-    If charts are displaying error messages, see [Chart error states](../reference/chart-error-states.md).
+    If charts are displaying error messages, see [Chart error states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/chart-error-states.md).
 
 2.  Open the template in editing mode.
 
@@ -51,7 +52,7 @@ Role required: sn\_sow\_svcobs.admin
 
     The new dashboard is titled with the words `- Copy` appended. Use the pencil icon to change the dashboard name.
 
-3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for [Edit Platform Analytics dashboard elements](https://www.servicenow.com/docs/access?context=edit-db-elements-in-ac&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US).
+3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for .
 
 4.  To add an APM query for a new chart, follow these steps:
 
@@ -71,7 +72,7 @@ Role required: sn\_sow\_svcobs.admin
 
         For AWS and Azure, instead of entering a query in advanced mode, you can import selected charts from an existing dashboard. Select **Import from AWS/Azure Dashboard**. Select a data source name, then select a dashboard and from the list of charts, select the one to import, then select **Import query**. The query for the chart is pasted into the Query box.
 
-        Use [template variables](../reference/service-observability-template-variables.md) to replace any hard-coded entities or time periods to have the query return results that match both the service and time period selected in the UI.
+        Use [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) to replace any hard-coded entities or time periods to have the query return results that match both the service and time period selected in the UI.
 
         **Note:** Use the **Docs** link to refer to the APM-specific documentation for help with creating the query.
 
@@ -93,7 +94,7 @@ Role required: sn\_sow\_svcobs.admin
 
         For AWS and Azure, instead of entering a query in advanced mode, you can import selected charts from an existing dashboard. Select **Import from AWS/Azure Dashboard**. Select a data source name, then select a dashboard and from the list of charts, select the one to import, then select **Import query**. The query for the chart is pasted into the Query box.
 
-        Use [template variables](../reference/service-observability-template-variables.md) to replace any hard-coded entities or time periods.
+        Use [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) to replace any hard-coded entities or time periods.
 
         **Note:** Use the **Docs** link to refer to the APM-specific documentation for help with creating the query.
 
@@ -106,5 +107,5 @@ Role required: sn\_sow\_svcobs.admin
 7.  To return the template to the default \(Certified\) version, use the **More actions** menu to select **Return to certified**.
 
 
-**Parent Topic:**[Customize Service Observability dashboard templates](customize-service-observability-dashboard-templates.md)
+**Parent Topic:**[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
 

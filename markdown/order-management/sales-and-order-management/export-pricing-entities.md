@@ -2,13 +2,14 @@
 title: Export pricing entities
 description: Export pricing entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/export-pricing-entities.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing pricing entities, Configuring product pricing, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing pricing entities, Configuring product pricing, Configure, Sales Customer Relationship Management]
 ---
 
 # Export pricing entities
@@ -23,7 +24,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -58,5 +59,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## What to do next
 
-[Import pricing entities](import-pricing-entities.md).
+[Import pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/import-pricing-entities.md).
 

@@ -2,6 +2,7 @@
 title: Create offboarding requests for AI assets
 description: Create an offboarding request to retire AI assets that are no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
@@ -27,6 +28,13 @@ Role required:
 To retire a deployed AI asset, a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role can initiate the offboarding process by creating and submitting an offboarding request. After the request is submitted, a user with the AI steward \(sn\_ai\_governance\_ai\_steward\) role can review and approves the request. This approval triggers the offboarding workflow that assigns tasks to impacted asset owners and updates the Status of the AI asset record to Retired upon completion.
 
 **Note:** We have automated the ServiceNow AI model to initiate the offboarding workflows when a deprecation date is present.
+
+You can create offboarding requests for the following AI asset types:
+
+-   AI systems \(classic, generative, and agentic\)
+-   AI models
+-   Datasets
+-   MCP servers
 
 ## Procedure
 
@@ -198,5 +206,5 @@ Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
     After all three stages are marked as complete, the Status of the request changes to Approved and the State changes to Completed. The State of the asset then changes to Retired.
 
 
-**Parent Topic:**[Creating requests for AI assets](../concept/creating-ai-asset-requests.md)
+**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

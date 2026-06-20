@@ -2,6 +2,7 @@
 title: Ingest sample Microsoft Graph Security API alerts
 description: Ingest sample alerts from your Microsoft Azure tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/ms-graph-create-profile-ingestion.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ Role required: sn\_si.admin
 
     The sample alert field values are populated on the left side of the form when sample alerts are ingested by the profile. These are the alerts that you map to the SIR security incident fields. The alert fields and values results are displayed as individual tabs.
 
-    ![Microsoft Graph Security API: ingest alerts](../image/ms-graph-create-profile-2.png)
+    \[Omitted image "ms-graph-create-profile-2.png"\] Alt text: Microsoft Graph Security API: ingest alerts
 
 
 ## What to do next

@@ -2,6 +2,7 @@
 title: Add tasks to a quote
 description: Create a single or multiple tasks for a quote and assign those to different agents. Tasks are the various actions that agents perform to create a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-tasks.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view ![](../image/Lists.png) and select **Quotes** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you want to work with and select the **Tasks** tab.
 

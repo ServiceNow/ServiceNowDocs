@@ -2,6 +2,7 @@
 title: Run a test for a SAFe story
 description: View the test scenario and execute all the steps of a test for verifying a SAFe story.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scaled-agile-framework-safe/run-SAFe-test.html
 release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -39,33 +40,33 @@ Role required: safe\_scrum\_user or safe\_admin
 
 8.  In the Test Execution pop-up, mark a step as passed, failed, or blocked using the following icons.
 
-<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d179508e125">
+<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d68815e125">
 
 Icon
 
-</th><th align="left" id="d179508e128">
+</th><th align="left" id="d68815e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179508e134">
+</th></tr></thead><tbody><tr><td id="d68815e134">
 
-**![Icon to indicate a step as passed](../images/passed.png)**
+**\[Omitted image "passed.png"\] Alt text: Icon to indicate a step as passed**
 
 </td><td>
 
 Passed.
 
-</td></tr><tr><td id="d179508e149">
+</td></tr><tr><td id="d68815e149">
 
-**![Icon to indicate a step as failed](../images/failed.png)**
+**\[Omitted image "failed.png"\] Alt text: Icon to indicate a step as failed**
 
 </td><td>
 
 Failed. In this state, options to add comments and attachments are available. Option to delete attachments is also available.
 
-</td></tr><tr><td id="d179508e164">
+</td></tr><tr><td id="d68815e164">
 
-**![Icon to indicate a step as blocked](../images/blocked.png)**
+**\[Omitted image "blocked.png"\] Alt text: Icon to indicate a step as blocked**
 
 </td><td>
 

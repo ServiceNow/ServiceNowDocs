@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Security Incident Response
 description: The Now Assist for Security Incident Response application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the Now Assist Admin console to configure Now Assist for Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.html
 release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -19,9 +20,9 @@ The Now Assist for Security Incident Response application is supported in the Se
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-You can opt out of an ServiceNow instance from sharing data from the Now Assist Admin console. See [Opt out of data sharing for Now Assist](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US). Repeat the opt-out process for all instances that use the Now Assist functionality.
+You can opt out of an ServiceNow instance from sharing data from the Now Assist Admin console. See . Repeat the opt-out process for all instances that use the Now Assist functionality.
 
-Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring Now Assist settings and features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for Security Incident Response. This console contains everything to install the applications and configure the generative AI skills. For additional information, see .
 
 **Note:** When you update the Now Assist for Security Incident Response applications, its dependency applications are automatically updated.
 
@@ -66,7 +67,7 @@ Post-incident analysis
 Security Incident Quality Assessment
 
 </td></tr></tbody>
-</table>1.  [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+</table>1.  .
 
     Install the Now Assist for Security Incident Response application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
 
@@ -74,7 +75,7 @@ Security Incident Quality Assessment
 
     When you update the Now Assist for Security Incident Response application, its dependency applications are automatically updated.
 
-2.  [Configure a skill for Now Assist for Security Incident Response](../task/activate-skills-for-now-assist-security-incident.md)
+2.  [Configure a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md)
 
     You can deactivate, configure, and reactivate generative AI skills and agentic workflows in the Guided Setup.
 

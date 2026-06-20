@@ -2,6 +2,7 @@
 title: Create a project from Project Workspace
 description: Use Project Workspace to create a project and start planning for your project tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/create-project-from-project-workspace.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
@@ -25,19 +26,19 @@ Role required: it\_project\_manager
 
 2.  Select **New** to create project from the homepage.
 
-    ![project workspace card view homepage.](../image/project-workspace-homepage.png)
+    \[Omitted image "project-workspace-homepage.png"\] Alt text: project workspace card view homepage.
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Project form of Project Workspace](../reference/project-form-pw.md).
+    For field information, see [Project form of Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-form-pw.md).
 
 4.  Select **Confirm**.
 
 
 ## What to do next
 
--   [Update the project details from Project Workspace](update-project-details-from-project-workspace.md)
--   [Personalize the planning page view in Project Workspace](personalize-planning-console-in-project-workspace.md)
+-   [Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-details-from-project-workspace.md)
+-   [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md)
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
 

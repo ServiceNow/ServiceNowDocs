@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Enterprise Data Foundation content pack models
 description: The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains models you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-enterprise-data-models.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -69,5 +70,5 @@ Read Vendor Data
 Retrieve all vendor details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](../concept/erp-canvas-enterprise-data-foundation-content-pack.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

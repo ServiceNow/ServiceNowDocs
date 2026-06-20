@@ -2,6 +2,7 @@
 title: Test index performance for slow queries
 description: After the Index Suggestion Engine \(ISE\) generates an index suggestion for a slow query, you can test the index to see if it improves execution time. If you're evaluating an index suggestion on a non-production instance, you can run this test after creating the index to get immediate results on index performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/test-index-performance.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance
@@ -37,13 +38,13 @@ This test is an optional assessment of the index. The test isn’t part of the 1
 
 3.  When the Test Index Suggestion progress indicator shows that testing is complete, select **Go to Result**.
 
-    ![Progress indicator window that shows the Query Execution Timer](../image/IndexSuggTestPerfProgress.png)
+    \[Omitted image "IndexSuggTestPerfProgress.png"\] Alt text: Progress indicator window that shows the Query Execution Timer
 
 4.  In the Query Performance Test Results form, compare the **Average with index** and **Average without index** fields to see if the index improved the query time.
 
     In the following example, the index improved the query time. The **Forced** check box is cleared, indicating that the database is using the index. If the check box is selected, the database is forced to use the index during the test, but not outside of the test.
 
-    ![Test results of the Test Performance option, which checks the average query time with and without the index.](../image/QueryPerfTestResults.png)
+    \[Omitted image "QueryPerfTestResults.png"\] Alt text: Test results of the Test Performance option, which checks the average query time with and without the index.
 
     |Field|Description|
     |-----|-----------|
@@ -58,5 +59,5 @@ This test is an optional assessment of the index. The test isn’t part of the 1
     The result of this index performance test doesn’t change the index state recorded in the Index Suggestion record.
 
 
-**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/resolving-slow-queries.md)
 

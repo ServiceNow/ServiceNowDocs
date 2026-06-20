@@ -2,13 +2,14 @@
 title: Add Observables to EDL
 description: Add observables such as IPs, domains, and hashes to External Dynamic List \(EDLs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/add-obsesrvables-edl.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Palo Alto Networks integration, TISC Security Tools - Firewall, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Palo Alto Networks integration, Firewall integration, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Add Observables to EDL
@@ -34,5 +35,5 @@ Role required: sn\_sec\_tisc.analyst
     The Add to EDL modal screen is displayed.
 
 
-**Parent Topic:**[Palo Alto Networks integration](../concept/palo-alto-networks-integration.md)
+**Parent Topic:**[Palo Alto Networks integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/palo-alto-networks-integration.md)
 

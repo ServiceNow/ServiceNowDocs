@@ -2,6 +2,7 @@
 title: ITOM Visibility and CMDB tables
 description: ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefit from and add value to ITOM Visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,7 +18,7 @@ ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefi
 
 ## Tables that ITOM Visibility manages
 
-![CSDM tables managed by ITOM Visibility.](../image/csdm-tables-managed-by-itom-visibility-4.png)
+\[Omitted image "csdm-tables-managed-by-itom-visibility-4.png"\] Alt text: CSDM tables managed by ITOM Visibility.
 
 -   **Mapped application service tables**
 
@@ -34,7 +35,7 @@ ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefi
     -   Virtual machines table \[cmdb\_ci\_vm\_instance\]
     -   Load balancer table \[cmdb\_ci\_lb\]
     -   Network gear table \[cmdb\_ci\_netgear\]
-    ![ITOM Visibility table structure.](../image/itom-visibility-table-structure.png)
+    \[Omitted image "itom-visibility-table-structure.png"\] Alt text: ITOM Visibility table structure.
 
 
 ## Tables that ITOM Visibility uses
@@ -42,7 +43,7 @@ ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefi
 1.  Dynamic CI Group table \[cmdb\_ci\_query\_based\_service\]
 2.  Product model tables \(for Technology Portfolio Management \[TPM\]\) software and hardware models
 
-![CSDM tables used by ITOM Visibility.](../image/csdm-tables-used-by-itom-visibility-4.png)
+\[Omitted image "csdm-tables-used-by-itom-visibility-4.png"\] Alt text: CSDM tables used by ITOM Visibility.
 
 ## Products that benefit from ITOM Visibility
 
@@ -56,5 +57,5 @@ ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefi
 
 ## Implementing CMDB data
 
-For details on implementing CMDB data to conform with the CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+For details on implementing CMDB data to conform with the CSDM framework, see .
 

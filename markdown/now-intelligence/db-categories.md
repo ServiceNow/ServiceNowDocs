@@ -2,6 +2,7 @@
 title: Platform Analytics experience dashboard categories
 description: Dashboard categories enable searching and filtering dashboards using general terms assigned to multiple dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/db-categories.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-04-01"

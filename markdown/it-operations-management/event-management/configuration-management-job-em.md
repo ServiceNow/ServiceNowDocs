@@ -2,6 +2,7 @@
 title: Periodically run an event forwarding job
 description: Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/configuration-management-job-em.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](../reference/event-forwarding-properties-em.md).
+You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-properties-em.md).
 
 **Note:** To minimize the performance impact, the scheduled job sends events not older than the latest hour when it ran for the first time after setting up event forwarding.
 
@@ -48,5 +49,5 @@ If the admin account is disabled, configure the user of the scheduled job. By de
 
 If the event forwarding to the instance failed due to any reason, the **Last Event Forwarding status** field displays `Failed` with a corresponding error message displayed in the **Last Event Forwarding error** field. The target instance generates a self-health monitoring event during the next successful event forwarding indicating the failure of event forwarding for the specified time range.
 
-**Parent Topic:**[Event forwarding](../concept/event-forwarding-em.md)
+**Parent Topic:**[Event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-em.md)
 

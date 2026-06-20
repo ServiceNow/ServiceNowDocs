@@ -2,6 +2,7 @@
 title: SAFe Prior PI Dashboard
 description: The SAFe Prior PI Dashboard provides data visualization on scope, actual burndown, and forecast trends of previous program increments \(PI\). Analyze the data and plan the work for upcoming PIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scaled-agile-framework-safe/safe-prior-pi-dashboard.html
 release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,11 +16,11 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 The SAFe Prior PI Dashboard provides data visualization on scope, actual burndown, and forecast trends of previous program increments \(PI\). Analyze the data and plan the work for upcoming PIs.
 
-![SAFe Prior PI dashboard widgets.](../image/safe-prior-sprint-widgets.png "SAFe Prior PI dashboard widgets")
+\[Omitted image "safe-prior-sprint-widgets.png"\] Alt text: SAFe Prior PI dashboard widgets.
 
-![SAFe Prior PI burnup report.](../image/safe-prior-pi-burndown.png "SAFe Prior PI burnup report")
+\[Omitted image "safe-prior-pi-burndown.png"\] Alt text: SAFe Prior PI burnup report.
 
-![SAFe Prior PI burnup report.](../image/safe-prior-pi-burnup.png "SAFe Prior PI burnup report")
+\[Omitted image "safe-prior-pi-burnup.png"\] Alt text: SAFe Prior PI burnup report.
 
 ## End user and roles
 
@@ -61,11 +62,11 @@ SAFe: Prior PI.
 
 |Title|Type|Description|
 |-----|----|-----------|
-|PI Burnup|Line chart ![Line chart](../../performance-analytics/image/line-icon.png)|Analyze the burnup trends of the previous PI.|
-|PI Burndown|Line chart![Line chart](../../performance-analytics/image/line-icon.png)|View the scope and rate of scope change, the ideal rate for work completion, and the actual rate of work completion. Analyze the burndown trends and accordingly plan the workload for an upcoming PI.|
-|PI Velocity Chart|Bar chart![Bar chart](../../performance-analytics/image/column-icon.png)|View the velocity of the ART members for the previous PI and plan the workload for an upcoming PI.|
+|PI Burnup|Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart|Analyze the burnup trends of the previous PI.|
+|PI Burndown|Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart|View the scope and rate of scope change, the ideal rate for work completion, and the actual rate of work completion. Analyze the burndown trends and accordingly plan the workload for an upcoming PI.|
+|PI Velocity Chart|Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart|View the velocity of the ART members for the previous PI and plan the workload for an upcoming PI.|
 
-You can customize the Burnup and Burndown reports. For more information, see [Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md).
+You can customize the Burnup and Burndown reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

@@ -2,6 +2,7 @@
 title: Source type structure adjustment
 description: Health Log Analytics enables you to reclassify auto-classified properties and change auto-mapped labels. These adjustments help Health Log Analytics machine learning to better understand your priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -69,8 +70,8 @@ For more information about the source type structure, see the [Source Type Struc
 
 **Note:** You can reactivate the learning mode for a source type structure to use the HLA engine's learning functionality again after the initial learning period becomes outdated. On the **Source Type Structure** form, select **Relearn** to reset parsing, extraction, classification, and labeling for the source type structure and restart the learning process.
 
--   **[Refine the source type structure](../task/hla-source-type-structure-refine.md)**  
+-   **[Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md)**  
 Fine-tune how Health Log Analytics reads your inner log messages and detects anomalies by customizing the extracted properties in the source type structure.
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](hla-implement.md)
+**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

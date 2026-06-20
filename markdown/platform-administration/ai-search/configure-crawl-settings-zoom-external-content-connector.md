@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Zoom external content connector
 description: Specify the content types you want your Zoom external content connector to retrieve.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-zoom-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the content types you want your Zoom external content connector to retri
 
 ## Before you begin
 
-A connector admin must have already created the Zoom external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Zoom external content connector](create-ext-cont-connector-zoom.md).
+A connector administrator must have already created the Zoom external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-zoom.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Zoom external content connector crawls all webinars and meetings found in its specified source system and sends their searchable content and metadata to AI Search for indexing. You only need to perform this task if you want the connector to exclude content from webinars or from meetings.
+This task is optional. By default, the Zoom external content connector crawls all webinars and meetings found in its specified source system and sends their searchable content and metadata to AI Search for indexing. Only perform this task if you want the connector to exclude content from webinars or from meetings.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -75,7 +76,7 @@ The Zoom external content connector is updated with your modified crawl settings
 
 ## What to do next
 
-To retrieve content from your Zoom source system using your modified crawl settings, create and run a one-time content crawl for your Zoom external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Zoom source system using your modified crawl settings, create and run a one-time content crawl for your Zoom external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Zoom external content connector](../concept/zoom-external-content-connector.md)
+**Parent Topic:**[Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/zoom-external-content-connector.md)
 

@@ -2,6 +2,7 @@
 title: Legacy Workforce Optimization for Customer Service manager workspace landing page
 description: Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/wfo-cs-manager-landing-page.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -15,7 +16,7 @@ breadcrumb: [Using Workforce Optimization for Customer Service, Workforce Optimi
 
 Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
 
-![Workforce Optimization for Customer Service landing page](../../../product/workforce-optimization-for-customer-service-configurable/image/landingpage.png)
+\[Omitted image "landingpage.png"\] Alt text: Workforce Optimization for Customer Service landing page
 
 ## End user and roles
 
@@ -61,19 +62,19 @@ Assignment Group.
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Open Cases By State​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Number of open cases based on the state such as new, on-hold, queued, work in progress, and pending accept.​|
-|Critical Open Cases​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Top priority cases.|
-|Unassigned Cases​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Cases not assigned to agents.​|
-|Escalated Cases​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Cases that are escalated to other agents.|
-|SLA Breached​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Cases that breached the service level agreement of your business.​|
-|Open Cases not updated for 7 days​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Cases that are not updated for the last 7 days.​|
-|Open Cases older than 30 days​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Cases that are in open state for the last 30 days.​|
-|In-Progress Chats​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Number of chats that are in progress with agents​|
-|Help requested interactions​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Number of work items that requested help from manager​|
+|Open Cases By State​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Number of open cases based on the state such as new, on-hold, queued, work in progress, and pending accept.​|
+|Critical Open Cases​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Top priority cases.|
+|Unassigned Cases​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Cases not assigned to agents.​|
+|Escalated Cases​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Cases that are escalated to other agents.|
+|SLA Breached​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Cases that breached the service level agreement of your business.​|
+|Open Cases not updated for 7 days​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Cases that are not updated for the last 7 days.​|
+|Open Cases older than 30 days​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Cases that are in open state for the last 30 days.​|
+|In-Progress Chats​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Number of chats that are in progress with agents​|
+|Help requested interactions​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Number of work items that requested help from manager​|
 |Agent Distribution by Presence State​|Horizontal Bar|Current status of agents distributed on work assignments \(Available, Lunch, and Offline\)​.|
-|Waiting Work Items​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Number of work items in waiting state​.|
-|Available Agents​|Single score ![Single score icon.](../../../reuse/reporting/image/single-score.svg)|Number of available agents​.|
+|Waiting Work Items​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Number of work items in waiting state​.|
+|Available Agents​|Single score \[Omitted image "single-score.svg"\] Alt text: Single score icon.|Number of available agents​.|
 |Total open cases|Horizontal Bar|Number of cases categorized by state such as new, resolved, awaiting info, and open cases.|
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](../../../product/workforce-optimization-for-customer-service-configurable/concept/use-configurable-wfo-cs.md)
+**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 

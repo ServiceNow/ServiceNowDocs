@@ -2,7 +2,10 @@
 title: Instance Observer user configurable dashboard
 description: Users can create their own dashboard according to their preferences of metrics that help users to analyze the health of their system in a snapshot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/user-configurable-dashboard.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-04-07"
 reading_time_minutes: 1
@@ -24,5 +27,5 @@ The default base system dashboard, the All instance health dashboard, is the Ins
 
 Users can select the auto-refresh frequency for the dashboard.
 
-**Note:** The All Instance health dashboard dashboard is not editable, deletable, or cloneable. Create a new dashboard to explore configuration options. See [Create a dashboard](customize-instance-observer-dashboard.md) for details.
+**Note:** The All Instance health dashboard dashboard is not editable, deletable, or cloneable. Create a new dashboard to explore configuration options. See [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/customize-instance-observer-dashboard.md) for details.
 

@@ -2,13 +2,14 @@
 title: Create a needs template and set the catalog relationship
 description: Define a needs template for a decision tree and associate the template with the product catalog to which it belongs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-publish-needs-template.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a needs template and set the catalog relationship
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Needs** &gt; **Needs Template** and select **New**.
 

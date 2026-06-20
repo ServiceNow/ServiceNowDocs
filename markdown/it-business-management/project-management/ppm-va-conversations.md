@@ -2,6 +2,7 @@
 title: PPM Virtual Agent conversation flows
 description: Virtual Agent for PPM provides several predefined topic conversations to enable project managers to gather information on their business-related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/ppm-va-conversations.html
 release: yokohama
 product: Project Management
 classification: project-management

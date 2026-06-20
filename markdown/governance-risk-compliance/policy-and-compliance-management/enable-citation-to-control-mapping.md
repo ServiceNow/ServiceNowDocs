@@ -2,6 +2,7 @@
 title: Enable associations of citation to controls mapping
 description: Enable the Citation to Control Mapping feature for more accurate compliance scoring and management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/enable-citation-to-control-mapping.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

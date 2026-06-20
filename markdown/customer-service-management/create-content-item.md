@@ -2,7 +2,10 @@
 title: Create a Playbook Content Item
 description: Create a content item of Playbook type on portal so that users can navigate to the playbook experience. These content items are specifically configured to enable the playbook experience on portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-content-item.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-04-15"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Playbook Content Items** &gt; **New**.
 
-    ![content item form showing all fields](../image/playbook-content-item.png "Content item form")
+    \[Omitted image "playbook-content-item.png"\] Alt text: content item form showing all fields
 
 2.  In the form, fill out the fields.
 

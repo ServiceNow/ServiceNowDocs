@@ -2,6 +2,7 @@
 title: Install the Data Collection Pack ITSM
 description: To enable the Data Collection Pack, you must activate Data Collection jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-itsm-install.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -25,7 +26,7 @@ Role required: Impact users
 
 2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Value PA Data Collection Jobs**.
 
-    ![Menu in product with All > Impact >Configuration> Value PA Data Collection Jobs selected.](../image/dct_install_all.png)
+    \[Omitted image "dct\_install\_all.png"\] Alt text: Menu in product with All &gt; Impact &gt;Configuration&gt; Value PA Data Collection Jobs selected.
 
 3.  Select **Value PA Data Collection jobs**.
 

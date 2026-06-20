@@ -2,6 +2,7 @@
 title: Add PI information objects to a privacy case
 description: Add information objects to the privacy case after a privacy case is created. Adding information objects helps you understand the types of personal information that is being compromised during a breach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/add-pi-information-objects-to-a-privacy-case.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List icon](../../grc-compliance-case-mgmt/image/list-icon.png) icon.
+2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
 
 3.  Select **All Cases**.
 
@@ -38,5 +39,5 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 8.  Click **Add**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

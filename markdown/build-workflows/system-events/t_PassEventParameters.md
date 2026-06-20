@@ -2,6 +2,7 @@
 title: Pass event parameters from a work-flow to a notification
 description: Pass two event parameters that send information about a record or related records from a work-flow to a notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/system-events/t\_PassEventParameters.html
 release: yokohama
 product: System Events
 classification: system-events
@@ -57,5 +58,5 @@ if (gr.next()){
 **Related topics**  
 
 
-[Scripting for email notifications](https://www.servicenow.com/docs/access?context=c_ScriptingForEmailNotifications&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScriptingForEmailNotifications]
 

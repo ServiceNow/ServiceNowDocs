@@ -2,6 +2,7 @@
 title: Review log data streaming status and sources of an integration
 description: Review the log data streaming status and streaming sources of an active integration for Health Log Analytics on the integration's Overview screen. From this tab, you can investigate streaming issues and refine the integration settings. Leverage the displayed data to refine how HLA reads the log data by adjusting the integration's configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,7 +19,7 @@ Review the log data streaming status and streaming sources of an active integrat
 
 ## Before you begin
 
-Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md).
+Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
 To access the Log Viewer from the Overview tab with context from the integration, you must have the ServiceNow Service Operations Workspace Log Analytics application installed.
 
@@ -26,13 +27,13 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-For more information about the data shown in the **Overview** screen, see [Review log data streaming status and sources of an integration](il-connector-overview-tab.md).
+For more information about the data shown in the **Overview** screen, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the ITOM AIOps configuration center icon ![](../image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the ITOM AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\].
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace that enables you to configure and manage AIOps features from a single place.
 
@@ -50,7 +51,7 @@ For more information about the data shown in the **Overview** screen, see [Revie
 
 6.  Adjust the configuration of the integration, if needed.
 
-    Use the options on the View menu \(![View menu icon.](../image/icon-actions.png)\) to navigate to the relevant table or the Log Viewer.
+    Use the options on the View menu \(\[Omitted image "icon-actions.png"\] Alt text: View menu icon.\) to navigate to the relevant table or the Log Viewer.
 
     **Note:** The View menu content changes dynamically depending on whether the referenced tables contain data.
 
@@ -68,7 +69,7 @@ Data Input Mapping
 
 </td><td>
 
-Opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data](hla-data-input-mapping.md).
+Opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Source Type Structure
 
 </td><td>
 
-Opens the **Source Type Structures** page. In the Source Type Structure, log data is classified and organized based on its origin or type. You can adjust the structure and verify that the HLA AI engine extracts properties properly and classifies them correctly. For more information, see [Source type structure adjustment](../concept/hla-source-type-structure-adjustment.md).
+Opens the **Source Type Structures** page. In the Source Type Structure, log data is classified and organized based on its origin or type. You can adjust the structure and verify that the HLA AI engine extracts properties properly and classifies them correctly. For more information, see [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Log Sources
 
 </td><td>
 
-Opens the **Log Sources** table. This table enables you to verify that HLA has created all your log sources. If a log source is missing, you can add it manually. For more information, see [Verify your log sources](hla-log-sources-review.md).
+Opens the **Log Sources** table. This table enables you to verify that HLA has created all your log sources. If a log source is missing, you can add it manually. For more information, see [Verify your log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-sources-review.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Log Viewer
 
 </td><td>
 
-Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing the logs for an alert on the Log viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Reviewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>7.  When you have resolved any data streaming issues and fixed the configuration, select **Test and save**.
@@ -102,5 +103,5 @@ Opens the **Log Viewer**, which shows the frequency of anomalies in the log data
 8.  Reactivate the integration.
 
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

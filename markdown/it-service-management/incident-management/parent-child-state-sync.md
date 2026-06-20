@@ -2,6 +2,7 @@
 title: Synchronization between a parent and a child incident
 description: The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/parent-child-state-sync.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -129,6 +130,8 @@ NA
 
 </td></tr></tbody>
 </table>**Note:**
+
+This table applies only to standard incident life cycle states. When a parent incident is proposed or accepted as a major incident, the states of any associated child incidents do not change automatically. For more information, see [Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/major-incident-management.md).
 
 When an incident has a child incident, the following actions take place:
 

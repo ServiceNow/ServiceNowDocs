@@ -2,7 +2,10 @@
 title: Create related party configurations
 description: Related party configurations define the title of a relationship between an entity and an organization or user. These configurations also enable linking related party types with responsibility definitions to grant access as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/adding-related-party-config-to-case.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

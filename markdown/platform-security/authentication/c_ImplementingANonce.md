@@ -2,6 +2,7 @@
 title: Implementing a nonce
 description: You can implement a nonce to be used with single sign-on digest authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_ImplementingANonce.html
 release: yokohama
 product: Authentication
 classification: authentication

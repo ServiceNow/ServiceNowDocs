@@ -2,7 +2,10 @@
 title: Proactive Code Check scan suite matrix
 description: Refer to the Proactive Code Check \(PCC\) scan suite matrix for details on the checks performed during a PCC scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/proactive-code-check-scan-suite.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-03-06"
 reading_time_minutes: 14
@@ -1033,5 +1036,5 @@ Detecting hard-coded strings in addWarningMessage\(\) usage
 Hard-coded messages/strings in the code will not be localized. Detecting such occurrences in addWarningMessage\(\) on both the client and server side.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact Proactive Code Check](proactive-code-check.md)
+</table>**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

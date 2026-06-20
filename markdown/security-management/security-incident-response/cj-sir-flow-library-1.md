@@ -2,6 +2,7 @@
 title: Security Incident Response playbook actions
 description: This section describes the actions provided in the Flow Designer action library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/cj-sir-flow-library-1.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response

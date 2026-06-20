@@ -2,6 +2,7 @@
 title: Create a filter in the Filter Designer
 description: Create a Platform Analytics filter in the Filter Designer and add it to the library for reuse.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-filter-library.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -29,10 +30,10 @@ Role required: analytics\_filter\_admin, admin
 
     Other configuration options vary depending on the data type you select.
 
-    -   [Single select](create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
-    -   [Multiple select](create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
-    -   [Date](create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
-    -   [True/False](create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](../../performance-analytics/concept/performance-analytics-glossary.md#) with only two values.
+    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
+    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
+    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
+    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values.
 3.  In the **Filter label** field, type a meaningful name for the filter.
 
     This name is the name that the runtime user sees.

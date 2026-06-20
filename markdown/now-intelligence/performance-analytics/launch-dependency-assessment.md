@@ -2,6 +2,7 @@
 title: Launch Dependency Assessment
 description: Use the Dependency Assessment tree view to view and edit Performance Analytics components including widgets, indicators, and breakdowns, from a single view. You can see the effects of your changes immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/launch-dependency-assessment.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
@@ -44,7 +45,7 @@ The Dependency Assessment tree view opens in the same browser window from which 
 
 2.  Select the dashboard you want to analyze.
 
-3.  From the context menu, select **Launch Dependency Assessment**.![Context menu open; Launch Dependency Assessment menu item selected](../../performance-analytics/image/launch-dep-assessment.png)
+3.  From the context menu, select **Launch Dependency Assessment**.\[Omitted image "launch-dep-assessment.png"\] Alt text: Context menu open; Launch Dependency Assessment menu item selected
 
     You can also select **Dashboard Properties** and click **Launch Dependency Assessment** in the related links.
 
@@ -53,5 +54,5 @@ The Dependency Assessment tree view opens in the same browser window from which 
 
 The tree view of the selected dashboard opens.
 
-**Parent Topic:**[Dependency Assessment](../../performance-analytics/concept/impact-analysis.md)
+**Parent Topic:**[Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
 

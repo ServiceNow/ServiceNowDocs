@@ -2,6 +2,7 @@
 title: Create a business calendar group
 description: For Performance Analytics and Reporting to use business calendars, organize several calendars into a business calendar group. An application might also contain a business calendar group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/time-configuration/create-business-calendar-group.html
 release: yokohama
 product: Time Configuration
 classification: time-configuration
@@ -50,16 +51,16 @@ You can base a Performance Analytics indicator or a report on business calendars
 
 The Gregorian Calendar group comes with the base system. It includes the Week, Month, Quarter, and Year business calendars, which also come with the base system.
 
-![The business calendar group record for the Gregorian calendar, showing the component business calendars](../image/gregorian-calendar-group.png "Gregorian Calendar group")
+\[Omitted image "gregorian-calendar-group.png"\] Alt text: The business calendar group record for the Gregorian calendar, showing the component business calendars
 
 Each business calendar record also shows which groups it belongs to.
 
-![Business calendar record showing which business calendar groups it is in](../image/biz-calendar-showing-group.png "The 'Week' business calendar")
+\[Omitted image "biz-calendar-showing-group.png"\] Alt text: Business calendar record showing which business calendar groups it is in
 
-**Parent Topic:**[Creating business calendars](../concept/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/business-calendars.md)
 
 **Related topics**  
 
 
-["Indicators with business calendars" in Create an automated indicator](https://www.servicenow.com/docs/access?context=t_CreateAnAutomatedIndicator&version=yokohama&pubname=yokohama-now-intelligence&ft:locale=en-US)
+[bundle-par.t_CreateAnAutomatedIndicator]
 

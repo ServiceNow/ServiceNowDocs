@@ -2,6 +2,7 @@
 title: Standard ERP-CM fields within remote tables
 description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining \(ERP-CM\) contain fields from additional SAP tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/standard-ecm-tables-within-tables.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM standard tables and fields, ERP Semantic Mining reference, E
 
 The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining \(ERP-CM\) contain fields from additional SAP tables.
 
-The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP-CM](erp-ecm-standard-remote-tables.md).
+The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-ecm-standard-remote-tables.md).
 
 |Remote table|Source table|ERP field name|Mapped field name|
 |------------|------------|--------------|-----------------|
@@ -177,5 +178,5 @@ The standard remote tables contain the following additional fields. For details 
 |SAP Transport|E071|OBJ\_NAME|object\_name|
 |SAP Transport|E071|PGMID|program\_id|
 
-**Parent Topic:**[ERP-CM standard tables and fields](erpcm-standard-fields-tables-reference-landing.md)
+**Parent Topic:**[ERP-CM standard tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-standard-fields-tables-reference-landing.md)
 

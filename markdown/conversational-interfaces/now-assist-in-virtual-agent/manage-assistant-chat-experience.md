@@ -2,6 +2,7 @@
 title: Manage an assistant chat experience
 description: Manage the chat experience of your assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.html
 release: yokohama
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Manage the chat experience of your assistant.
 
 ## Before you begin
 
-See [Brand an assistant](brand-assistant.md).
+See [Brand an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -35,13 +36,13 @@ Fallbacks are shown in the preview pane when you toggle on each or all fallbacks
 
 2.  In the **Messages** section, set up your greeting topic, closing topic, error topic, and survey.
 
-    ![Greeting message screen.](../image/NAinVA-messages-122025.png "Set up the assistant messages")
+    \[Omitted image "NAinVA-messages-122025.png"\] Alt text: Greeting message screen.
 
     Selecting a default topic shows its corresponding default message. You can also create your own topic from **All** &gt; **Assistant Designer** &gt; **Asset Library**, and use it as the greeting or closing topic. When selecting a custom topic, the message field isn’t shown in the preview pane.
 
     Closing message only appears if you have a display experience with standard chat.
 
-    ![Closing topic and closing message for the standard chat experience.](../image/NAinVA-closing-message-122025.png "Standard chat closing message")
+    \[Omitted image "NAinVA-closing-message-122025.png"\] Alt text: Closing topic and closing message for the standard chat experience.
 
     **Note:** Configuration options differ between different assistant types and display experiences.
 
@@ -212,7 +213,7 @@ No
 </td></tr></tbody>
 </table>3.  In the **Fallback** section, activate one or more fallback options.
 
-    ![Activate fallback options.](../image/NAinVA-fallback-122025.png "Activate fallback options")
+    \[Omitted image "NAinVA-fallback-122025.png"\] Alt text: Activate fallback options.
 
     **Note:** For Now Assist panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
 
@@ -237,12 +238,12 @@ No
 
     4.  End the chat between the user and the assistant by turning on **End this chat**. End this chat is a fallback option for the standard chat experience. For the enhanced chat experience, conversations don't end. The text input is used for the fallback button in the assistant, and the default text input is **End this chat**. The button label default is **End this chat**.
     5.  Select a topic from the **Custom fallback topic** field by turning on **Custom fallback**. There isn't a default topic. The text input is used for the fallback button in the assistant. The default text input is **Custom fallback button**.
-    For more information about fallback options, see [Enhanced chat](../concept/nava-enhanced-chat.md).
+    For more information about fallback options, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
 4.  Select **Save and continue**.
 
 
 ## What to do next
 
-See [Enable additional chat features](additional-chat-features.md).
+See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 

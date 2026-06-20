@@ -2,6 +2,7 @@
 title: Predict Configuration Item for incoming incidents
 description: Use this guided template to auto-assign incoming incidents to the correct configuration item to reduce your incident resolution times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-predict-config-item-incidents.html
 release: yokohama
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -29,11 +30,11 @@ This template walks you through customizing a use case model to predict the conf
 
 2.  Select the **Predict the Configuration Item for incoming incidents** guided template.
 
-    ![Predict Assignment Group for incoming incidents template.](../image/piwb-predict-ci-int-template.png)
+    \[Omitted image "piwb-predict-ci-int-template.png"\] Alt text: Predict Assignment Group for incoming incidents template.
 
 3.  In the **Use case - Predict the Configuration Item for incoming incidents** pop-up form, provide a unique name for your use case in the **Use case name** field.
 
-    ![Use case pop-up form.](../image/ITSMPIWBUseCaseSetupPopup.png)
+    \[Omitted image "ITSMPIWBUseCaseSetupPopup.png"\] Alt text: Use case pop-up form.
 
     **Note:** The use case will contain multiple models that you create. You can use the same name as the template, if desired.
 
@@ -57,19 +58,19 @@ This template walks you through customizing a use case model to predict the conf
 
     **Note:** To start implementation, you must provide at least a use case name and model name.
 
-    ![ITSM PWIB Model creation Great Job pop-up.](../image/ITSMPIWBGreatJobPopup.png)
+    \[Omitted image "ITSMPIWBGreatJobPopup.png"\] Alt text: ITSM PWIB Model creation Great Job pop-up.
 
 8.  Click **Done**.
 
     The use case page displays the name and description of the use case you created. On this page, you can see all the guided implementation phases you will work through to create and implement your use case model.
 
-    ![ITSM PIWB Use Case Guided Steps.](../image/ITSMPIWBGuidedSteps.png)
+    \[Omitted image "ITSMPIWBGuidedSteps.png"\] Alt text: ITSM PIWB Use Case Guided Steps.
 
 9.  Click **View Progress** below the header on the use case setup page to monitor a current training process.
 
-    ![ITSM PIWB training progress.](../image/ITSMPIWBModelTrainingProcess.png)
+    \[Omitted image "ITSMPIWBModelTrainingProcess.png"\] Alt text: ITSM PIWB training progress.
 
-    **Note:** When training is complete, you will receive an email notification letting you know your use case model training was successful. For more information about use case model notifications, refer to [ITSM Predictive Intelligence Workbench notifications](../reference/itsm-piwb-notifications.md).
+    **Note:** When training is complete, you will receive an email notification letting you know your use case model training was successful. For more information about use case model notifications, refer to [ITSM Predictive Intelligence Workbench notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-notifications.md).
 
 10. Click the model name under **Trained Models** on the use case setup page to view associated data about the trained model.
 
@@ -99,7 +100,7 @@ This template walks you through customizing a use case model to predict the conf
 
     The **Testing your models** page opens.
 
-    ![Testing models.](../image/PIWBTestingModels.png)
+    \[Omitted image "PIWBTestingModels.png"\] Alt text: Testing models.
 
 17. Under **Select models to test**, decide if there are other use case models available that you want to test.
 
@@ -119,9 +120,9 @@ This template walks you through customizing a use case model to predict the conf
 
 22. View the test results data for the use case model under **View test results**.
 
-    ![ITSM PIWB single testing.](../image/piwb-single_testing.png)
+    \[Omitted image "piwb-single\_testing.png"\] Alt text: ITSM PIWB single testing.
 
-    ![ITSM PIWB batch testing.](../image/piwb-batch_testing.png)
+    \[Omitted image "piwb-batch\_testing.png"\] Alt text: ITSM PIWB batch testing.
 
 23. If you are ready to integrate your use case model into your business processes, return to the use case set up page and click **Start** in the **Integrate a model** section.
 
@@ -131,7 +132,7 @@ This template walks you through customizing a use case model to predict the conf
 
     The **Select a model to integrate** page opens.
 
-    ![Integrate model.](../image/PIWBIntegrateModel.png)
+    \[Omitted image "PIWBIntegrateModel.png"\] Alt text: Integrate model.
 
     **Note:** You can change the retraining schedule via this page if you desire. Use the **Retraining Schedule** drop down selection field to change from the default 30 day value.
 
@@ -141,6 +142,6 @@ This template walks you through customizing a use case model to predict the conf
 
     You have integrated a use case model into your business process.
 
-    **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](../concept/itsm-piwb-integ-implem-custom.md).
+    **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-workbench/itsm-piwb-integ-implem-custom.md).
 
 

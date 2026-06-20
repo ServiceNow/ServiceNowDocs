@@ -2,6 +2,7 @@
 title: Create an opportunity
 description: Create a new product opportunity in the Opportunity Management application by entering the details, such as account, sales stage, sales cycle type, and deal size.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-new-opportunity.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![List icon](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List icon view.
 
 2.  In the **Opportunity** &gt; **ALL** list, select **New**.
 
@@ -41,10 +42,10 @@ Role required: sales\_agent
 
 4.  Select **Save** to save the opportunity and **Close** to return to the main Opportunities window.
 
-5.  Select Refresh ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new opportunity in the list.
+5.  Select Refresh \[Omitted image "icon-refresh.png"\] to see the new opportunity in the list.
 
 
 ## What to do next
 
-Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](opportunity-management-details-tab.md).
+Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/opportunity-management-details-tab.md).
 

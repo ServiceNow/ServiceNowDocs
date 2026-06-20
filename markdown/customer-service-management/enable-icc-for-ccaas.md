@@ -2,7 +2,10 @@
 title: Implement the Interaction Controls Component \(ICC\) for contact center integration
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-icc-for-ccaas.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-03-24"
 reading_time_minutes: 1
@@ -18,7 +21,7 @@ Implement prebuilt, certified integrations with Contact Center as a Service \(CC
 
 The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice integrations so agents can manage customer calls directly from their configurable workspace.
 
-For more information, see [Integrating contact centers with Interaction Controls Component \(ICC\) for voice calls](../concept/contact-center-integration-with-icc.md).
+For more information, see [Integrating contact centers with Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/contact-center-integration-with-icc.md).
 
 The voice controls display under the following conditions:
 

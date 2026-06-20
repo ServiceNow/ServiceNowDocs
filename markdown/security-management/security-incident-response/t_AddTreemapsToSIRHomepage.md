@@ -2,6 +2,7 @@
 title: Add treemaps to the Security Incident Response overview
 description: Treemaps display hierarchical \(tree-structured\) data as a set of nested rectangles. Each branch of the tree is given a rectangle, which is then tiled with smaller rectangles representing subbranches. Treemaps allow you to display security incident information in a dynamic, engaging way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/t\_AddTreemapsToSIRHomepage.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -32,19 +33,19 @@ Role required: sn\_si.admin
     -   Security Incident - Service Impact
     -   Security Incident - Real time
     -   Security Incident - Business Impact
-    -   [Vulnerability Significance](t_AddVulnSignTreemaps.md)
+    -   [Vulnerability Significance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_AddVulnSignTreemaps.md)
     **Note:** The Business Impact treemap appears on the Security Incident Response homepage by default. The Service Impact and Real time treemaps require that the Security Incident Analytics plugin are activated.
 
 5.  In the third selection box, select the level of granularity of information you want retrieved for the selected treemap.
 
     **Note:** For the Security Incident - Service Impact treemap, select **Security Incident** in the third selection box. This selection provides a drop-down list with multiple data categories.
 
-    ![Security Incident treemap category list](../image/Treemap_Category.png)
+    \[Omitted image "Treemap\_Category.png"\] Alt text: Security Incident treemap category list
 
 6.  At the bottom of the screen, click the location on the screen you want to add the gauge.
 
 7.  Close the **Add content** box.
 
 
-**Parent Topic:**[Security incident treemaps](../concept/c_ConfigureTreemaps.md)
+**Parent Topic:**[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/c_ConfigureTreemaps.md)
 

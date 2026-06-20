@@ -2,6 +2,7 @@
 title: Email a community user
 description: Send a private message to a community user directly from the community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/private-message-community-user.html
 release: yokohama
 product: Communities
 classification: communities
@@ -36,5 +37,5 @@ Uses for private messaging can include warning a user about use of a banned word
     **Note:** The email opens in your local email client.
 
 
-**Parent Topic:**[Community Service Portal](../concept/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/community-service-portal.md)
 

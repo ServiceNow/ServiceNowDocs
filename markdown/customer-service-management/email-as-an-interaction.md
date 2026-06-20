@@ -2,7 +2,10 @@
 title: Email Interaction
 description: Like chat and phone channels, Email Interaction enables agents to manage email conversations with customers using interaction records. Agents can create cases when further investigation is needed. This approach reduces unnecessary cases and provides a consistent design for omnichannel interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/email-as-an-interaction.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

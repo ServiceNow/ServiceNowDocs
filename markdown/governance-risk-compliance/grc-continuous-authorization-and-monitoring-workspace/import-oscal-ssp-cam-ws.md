@@ -2,6 +2,7 @@
 title: Import OSCAL SSP
 description: From the OSCAL Import landing page, import SSP OSCAL data into the CAM Workspace. This action enables you to seamlessly integrate security control assessments and compliance data, streamlining the process of managing and assessing security controls within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-ssp-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -31,7 +32,7 @@ The OSCAL SSP import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the OSCAL import landing page icon \(![OSCAL import](../image/cam-oscal-import-icon.png)\).
+2.  In the primary navigation, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
 
 3.  Select **SSP** from the **OSCAL Model** drop-down list.
 
@@ -53,7 +54,7 @@ The OSCAL SSP import is a synchronous process.
     -   **Data flow diagram**, **Boundary diagram**, and **Network diagram**: These diagrams are attached to the authorization boundary.
 8.  Verify the files that you have uploaded by selecting **Import**.
 
-    ![OSCAL SSP import.](../image/cam-oscal-import-ssp2.png)
+    \[Omitted image "cam-oscal-import-ssp2.png"\] Alt text: OSCAL SSP import.
 
 9.  In the **SSP import** pop-up window, verify the details that are to be created or skipped and select **Import**.
 
@@ -64,5 +65,5 @@ The OSCAL SSP import is a synchronous process.
     All the records displayed in the **SSP import** pop-up window are created.
 
 
-**Parent Topic:**[Importing in OSCAL format](../concept/import-oscal.md)
+**Parent Topic:**[Importing in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

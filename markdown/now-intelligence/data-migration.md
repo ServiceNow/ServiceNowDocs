@@ -2,6 +2,7 @@
 title: Platform Analytics Migration Center
 description: When you migrate your Core UI data, your existing dashboards, reports, interactive filters, and Performance Analytics widgets are moved to Platform Analytics. When you activate the migration, the result is a single set of visualizations and unified filters for all data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-migration.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-05-14"
@@ -24,6 +25,8 @@ The Migration Center is only available when Next Experience is enabled. To enabl
 
 Once migration is complete, you won't be able to add Core UI reports, PA widgets and filters to Platform Analytics experience dashboards. It is possible to add only migrated content and content created within Platform Analytics experience to these dashboards.
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 ## What is migrated
 
 The migration process takes your dashboard content and migrates it from Core UI \(Dashboards and visualizations in the classic environment\) to the Platform Analytics library. You then access all of your analytics through a unified navigation menu. If you use indicators, you get tools to alert you of significant changes.
@@ -32,7 +35,7 @@ The migration process takes your dashboard content and migrates it from Core UI 
 
 ## What isn't migrated
 
-The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics. Some content doesn’t have an analogous Platform Analytics feature and is migrated into containers, also called iframes. This is called Compatibility mode. For detailed information about content migrated into iframes and the few items that aren’t migrated at all, see [Content not migrated or migrated in compatibility mode](../reference/data-mig-unmigrated-content.md).
+The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics. Some content doesn’t have an analogous Platform Analytics feature and is migrated into containers, also called iframes. This is called Compatibility mode. For detailed information about content migrated into iframes and the few items that aren’t migrated at all, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-mig-unmigrated-content.md).
 
 ## What is the migration process
 
@@ -71,5 +74,5 @@ You can disable the **Start Moving** and **Activate** Platform Analytics experie
 
 If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=yokohama&pubname=yokohama-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+For more information, see .
 

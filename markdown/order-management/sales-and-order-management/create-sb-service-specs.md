@@ -2,6 +2,7 @@
 title: Create a service specification for a remote catalog item
 description: Create a service specification on a Service Exchange provider instance. When you publish the service specification, a remote record producer creates the remote catalog item for the service specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/create-sb-service-specs.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ When you create a customer facing service specification for a service request an
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Specifications** &gt; **Service specifications** and select **New**.
 
@@ -258,5 +259,5 @@ You can't change this field.
 
 ## What to do next
 
-[Associate consumer criteria to a remote record producer](associate-criteria-remote-catalog.md) for this remote catalog item.
+[Associate consumer criteria to a remote record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/associate-criteria-remote-catalog.md) for this remote catalog item.
 

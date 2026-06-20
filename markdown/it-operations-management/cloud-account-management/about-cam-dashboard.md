@@ -2,6 +2,7 @@
 title: Viewing Cloud Account Management dashboards
 description: There two types of dashboards: one for a requester and another for the admin. Depending on the logged in user, an appropriate dashboard appears while providing key insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/about-cam-dashboard.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management

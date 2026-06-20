@@ -2,6 +2,7 @@
 title: Approve a localization task
 description: Proofread the translated content and approve a localization task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-framework/approve-localization-task.html
 release: yokohama
 product: Localization Framework
 classification: localization-framework

@@ -2,7 +2,10 @@
 title: Impact
 description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to help you realize the full potential of your instance. Receive tailored recommendations and guidance from our dedicated teams and experts on demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-landing-page.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-02-24"
 reading_time_minutes: 4
@@ -18,7 +21,7 @@ ServiceNow Impact is a comprehensive value acceleration solution that provides r
 
 Tailored to your organization and role, Impact delivers personalized value guidance where you get relevant and immediate access to the right content, at the right time, in a visually compelling digital experience.
 
-Included at varying, incremental package levels, Impact leverages the breath of machine learning automation and analytic capabilities to help you realize value faster with preventative controls, proactive recommendations, and AI–enabled suggestions and alerts for platform health and optimization. See [Impact packages](../reference/impact-packages.md) for details on features included for each package.
+Included at varying, incremental package levels, Impact leverages the breath of machine learning automation and analytic capabilities to help you realize value faster with preventative controls, proactive recommendations, and AI–enabled suggestions and alerts for platform health and optimization. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-packages.md) for details on features included for each package.
 
 Impact helps you realize impact faster across your business with proactive insights, prescriptive guidance, tailored training and recommendations, and premium technical support and tools. Maximize and accelerate the return on your ServiceNow investment through our software and human-led programs.
 
@@ -32,34 +35,34 @@ As your hub for all things, with Impact you can:
 
 ## Impact options
 
--   [Impact Delivery Instance \(formerly Impact Digital Experience\)](impact-digital-experience.md): The central Impact portal, formerly the Impact Digital Experience \(IDE\). Your Impact squad interactive space and is the provider for data synced with the customer instance, the ServiceNow Impact Store Application.
--   [Impact Store Application](impact-store-app.md): The customer instance where the Impact Store Application is installed and is accessed in addition to the Impact Delivery Instance portal.
+-   [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md): The central Impact portal, formerly the Impact Digital Experience \(IDE\). Your Impact squad interactive space and is the provider for data synced with the customer instance, the ServiceNow Impact Store Application.
+-   [Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-store-app.md): The customer instance where the Impact Store Application is installed and is accessed in addition to the Impact Delivery Instance portal.
 
 ## Get started
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Impact operating model![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg)Learn about the research-backed system of key activities, personalized to your organization, to help drive faster time to value with the ServiceNow platform.](impact-operating-model.md)
+[Impact operating model\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Learn about the research-backed system of key activities, personalized to your organization, to help drive faster time to value with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-operating-model.md)
 
 </td><td>
 
-[Impact Delivery Instance \(formerly Impact Digital Experience\)![](../../../reuse/icons/brand-icons/bus-management-console.svg)Use the interactive portal where you can access your Impact tools and benefits that also provides data for the Impact Store App.](impact-digital-experience.md)
+[Impact Delivery Instance \(formerly Impact Digital Experience\)\[Omitted image "bus-management-console.svg"\] Alt text:Use the interactive portal where you can access your Impact tools and benefits that also provides data for the Impact Store App.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md)
 
 </td><td>
 
-[Impact Store Application![](../../../reuse/icons/brand-icons/bus-personalized-self-service-portal.svg)Use the updated centralized, interactive instance where you can access your Impact tools and benefits.](impact-store-app.md)
+[Impact Store Application\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Use the updated centralized, interactive instance where you can access your Impact tools and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-store-app.md)
 
 </td></tr><tr><td>
 
-[Initiatives and Accelerators![](../../../reuse/icons/brand-icons/bus-rocketship.svg)Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices.](impact-initiatives.md)
+[Initiatives and Accelerators\[Omitted image "bus-rocketship.svg"\] Alt text:Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/impact-initiatives.md)
 
 </td><td>
 
-[Impact Developer Support![](../../../reuse/icons/brand-icons/bus-it-leader.svg)Access a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations for Advanced and Total Impact packages.](developer-support.md)
+[Impact Developer Support\[Omitted image "bus-it-leader.svg"\] Alt text:Access a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations for Advanced and Total Impact packages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/developer-support.md)
 
 </td><td>
 
-[Impact Instance Observer![](../../../reuse/icons/brand-icons/bus-infographic.svg)Keep track of your instance health and performance in near real-time, while also accessing historical insights, with this observability and performance monitoring tool.](io-overview.md)
+[Impact Instance Observer\[Omitted image "bus-infographic.svg"\] Alt text:Keep track of your instance health and performance in near real-time, while also accessing historical insights, with this observability and performance monitoring tool.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 
 </td></tr></tbody>
 </table>

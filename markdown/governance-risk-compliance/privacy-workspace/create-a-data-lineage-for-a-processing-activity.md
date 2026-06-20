@@ -1,114 +1,82 @@
 ---
-title: Create a data lineage for a processing activity
-description: Establish a data lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
+title: Create a lineage for a processing activity
+description: Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Create a data lineage for a processing activity
+# Create a lineage for a processing activity
 
-Establish a data lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
+Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
 
 ## Before you begin
 
-Role required: sn\_privacy.business\_user
+The processing activity must be in Discover state or later. If the processing activity is in New state, move it to Discover before proceeding.
+
+Role required: Privacy analyst, Privacy manager, Privacy admin
 
 ## About this task
 
-Although data lineage can be created from the Hierarchy tab of a processing activity, this procedure shows how to create it from the Data Lineage page, which offers a visual representation of the hierarchy. When creating the hierarchy, make sure not to use the same asset as both the source and the destination.
+Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity could involve multiple entities such as vendors, applications, and systems that make up the processing activity. These vendors, applications, and systems share data with each other, making it essential to establish a lineage that tracks where personal data is shared. This helps mitigate privacy-related risks.
 
-When you create the hierarchy of relationships, you can view up to five levels of relationships. However, you can configure the number of levels according to your preference in the **sn\_privacy.nodemap.maxLevel** property.
+You add lineage relationships from the **Hierarchy** tab using the **Add** button. The Add screen is a two-step flow. In the first step you define the relationship, and in the second step you provide the relationship details.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace** &gt; **Processing activities** &gt; **All processing activities**.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace** &gt; **Processing activities** &gt; **All processing activities**.
 
-2.  Open the processing activity to which you want to create data lineage.
+2.  Navigate to the **Hierarchy** tab.
 
-3.  On the form, select **Data lineage**.
+3.  Select **Add**.
 
-4.  Select the record for which you want to create a relationship.
+4.  In the Primary node field, review the pre-selected record.
 
-5.  Select **Create new relationship**.
+    This field is automatically set to the processing activity you have open. You can change the primary node to any other node that has been linked with the processing activity.
 
-6.  In the New relationship dialog box, fill in the fields.
+5.  In the **Relationship Type** field, select the relationship type that describes how this processing activity relates to the node you want to add.
 
-<table id="table_fhc_fj4_xbc"><thead><tr><th>
+    Select from the following options:
 
-Field
+    1.  Depends on: The primary node depends on the related node for data. Data flows from the related node to the primary node.
+    2.  Contains: The primary node contains the related node. Data flows from the primary node to the related node.
+    3.  Contained by: The primary node is contained by the related node. Data flows from the related node to the primary node.
+    4.  Sends data to: The primary node sends data to the related node. Data flows from the primary node to the related node.
+    5.  Receives data from: The primary node receives data from the related node. Data flows from the related node to the primary node.
+    6.  Used by: The primary node is used by the related node. Data flows from the primary node to the related node.
+6.  In the **Related Node Type** field, select the type of entity you want to add.
 
-</th><th>
+    The available types are Processing Activity, Entity, Business Application, Business Process, Business Service, Company, and Vendor.
 
-Description
+7.  In the Related Node field, select from the available related nodes list and then select **Next**.
 
-</th></tr></thead><tbody><tr><td>
+    You can add more than one related node.
 
-Primary Node
+8.  For each related node, set the following options:
 
-</td><td>
-
-Record for which you're creating the relationship. While this field is automatically set to the record that is selected, you can change the node.
-
-</td></tr><tr><td>
-
-Hierarchy
-
-</td><td>
-
-Level at which you want to create the relationship. The choices are as follows.-   **Data coming from**: If you select this option, the data will flow to the levels above the primary node.
--   **Data sent to**: If you select this option, the data will flow to the levels below the primary node.
-
-
-</td></tr><tr><td>
-
-Related to
-
-</td><td>
-
-CMDB record with which the personal data is associated. For example, if the primary node is related to a business application, a business process, a business service, and so on. After you make a selection in this field, select the required records. This field provides the following choices.-   **Business Application**
--   **Business Process**
--   **Business Service**
--   **Company**
--   **Vendor**
--   **Entity**
--   **Processing Activity**
+    -   Part of processing activity: This option is enabled by default. Keep it selected if this is part of the current processing activity.
+    -   Description: Enter a description of the relationship for this node.
+    -   Copy details: If you have added multiple nodes and want to apply the description of one node to all other nodes, select Copy Details on that node.
+    -   Remove: To remove a node before saving, select the remove icon next to that node.
+9.  Select **Add**.
 
 
-</td></tr><tr><td>
+## Result
 
-Relationship Type
+The new node appears in the **Hierarchy** tab list. When you select the View lineage map, the node appears in the graphical view. If the related node is itself a processing activity with existing relationships, those connections also appear in the map.
 
-</td><td>
+-   **[Edit a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/editing-data-lineage.md)**  
+Edit an existing lineage relationship to update the relationship type, description, or key relationship status of a connected node.
+-   **[Delete a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/delete-data-lineage.md)**  
+Delete a lineage to remove a specific connection or node from the hierarchy of a processing activity.
+-   **[Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md)**  
+Update the `sn_privacy.nodemap.maxLevel system` property to control how many node levels are visible on the lineage map.
 
-Nature of the relationship between the personal data and the selected item. The choices are as follows.-   **Depends**: Indicates that the personal data is reliant on the specified item.
--   **Contains**: Specifies that the item includes or holds the personal data.
--   **Sends data to**: Shows that the item transmits the personal data to another application or party.
--   **Uses**: Demonstrates that the item utilizes the personal data for its operations or processes.
-**Note:** You can add more choices to appear in this field in the sn\_grc\_choice table.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Brief description of the relationship.
-
-</td></tr></tbody>
-</table>7.  Select **Create**.
-
-    The relationship node is created.
-
-8.  To view the inflow and outflow of data for a particular record, select the ![Recenter nodemap](../image/recenter-nodemap.jpg) icon.
-
-9.  To view the details of the processing activity and the entity if a processing activity is associated with the selected record, select the ![Details](../image/details-icon.jpg) icon.
-
-
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

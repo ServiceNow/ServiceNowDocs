@@ -2,6 +2,7 @@
 title: Jumpstart Your GenAI
 description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow GenAI \(Artificial Intelligence\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-gen-ai.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

@@ -2,6 +2,7 @@
 title: Viewing agent location and assign tasks to agents
 description: View the location of agents in your assignment group so you can assign agents to nearby tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/view-agent-location.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -30,5 +31,5 @@ Role required: wm\_manager
 4.  To assign or reassign a work order task, open a task and add the agent you want to work on the task to the **Assigned to** field.
 
 
-**Parent Topic:**[Using the map](../concept/using-manager-map.md)
+**Parent Topic:**[Using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-manager-map.md)
 

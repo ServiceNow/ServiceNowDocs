@@ -2,7 +2,10 @@
 title: Additional Resources
 description: Access the ServiceNow resources available to you, including case studies, learning opportunities, developer support, Now Community, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-resources.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

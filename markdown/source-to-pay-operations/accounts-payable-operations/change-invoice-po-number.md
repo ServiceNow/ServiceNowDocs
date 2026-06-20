@@ -2,6 +2,7 @@
 title: Update the purchase order on an invoice
 description: If you find that the purchase order that is currently associated with an invoice is incorrect, you can associate the correct purchase order to the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/change-invoice-po-number.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 1.  Navigate to **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **Invoices** &gt; **All open invoices**.
 
@@ -31,7 +32,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 5.  Under Summary Details, in the **Purchase order** field, search for and select a purchase order.
 
-    The following confirmation message is displayed: `Updating the Purchase order may require PO mapping again. Do you want to continue?`![Update purchase order on an invoice](../image/apo-update-po.png)
+    The following confirmation message is displayed: `Updating the Purchase order may require PO mapping again. Do you want to continue?`\[Omitted image "apo-update-po.png"\] Alt text: Update purchase order on an invoice
 
 6.  Select **OK**.
 
@@ -44,5 +45,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 The correct purchase order is associated with the invoice.
 
-**Parent Topic:**[Work with invoices](../concept/work-with-invoices.md)
+**Parent Topic:**[Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)
 

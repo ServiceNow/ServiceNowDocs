@@ -2,6 +2,7 @@
 title: Configuring AIOps LEAP
 description: You can download and install AIOps LEAP application from the ServiceNow Store to manage your IT operations efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -17,19 +18,19 @@ You can download and install AIOps LEAP application from the ServiceNow® Store 
 
 ## Configuration overview
 
-1.  [Install AIOps LEAP](../task/install-aiops-leap-application.md)
+1.  [Install AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/install-aiops-leap-application.md)
 
     Install AIOps LEAP if you have the admin role.
 
-2.  [Setup AIOps LEAP properties](../task/setup-aiops-leap-properties.md)
+2.  [Setup AIOps LEAP properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/setup-aiops-leap-properties.md)
 
     View and modify the AIOps LEAP AIOps LEAP properties as per your requirements.
 
-3.  [Activate AIOps LEAP](../task/activate-aiops-leap.md)
+3.  [Activate AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md)
 
     Activate AIOps LEAP to enable grouping of incidents, create problem records, and generate resolution playbooks.
 
-4.  [Change AIOps LEAP large language model \(LLM\)](../task/change-leap-large-languauge-model-llm.md)
+4.  [Change AIOps LEAP large language model \(LLM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/change-leap-large-languauge-model-llm.md)
 
     Modify the LLM model to suit your requirements.
 

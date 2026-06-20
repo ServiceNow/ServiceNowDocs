@@ -2,7 +2,10 @@
 title: Create a case digest configuration
 description: Create case digest configurations to handle different types of case review processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-review-type.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

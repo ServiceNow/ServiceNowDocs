@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Security Incident Response
 description: Get a quick overview of the important information that is related to the Now Assist for Security Incident Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.html
 release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

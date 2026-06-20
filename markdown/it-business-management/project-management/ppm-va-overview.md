@@ -2,6 +2,7 @@
 title: Virtual Agent for PPM
 description: ServiceNow Virtual Agent for PPM enables project managers to get quick answers to business-related queries by interacting with a virtual agent through various messaging services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/ppm-va-overview.html
 release: yokohama
 product: Project Management
 classification: project-management
@@ -43,7 +44,7 @@ The base system provides the following predefined Virtual Agent topics \(chatbot
     -   Projects without strategy
     -   Projects without program or portfolio
 
-A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see Virtual Agent.
 
 ## Integration with messaging applications
 
@@ -51,7 +52,7 @@ You can run Virtual Agent bot conversations for PPM using third-party messaging 
 
 Use the Virtual Agent integration app to configure the messaging apps for your instance.
 
-For more information, see [Virtual Agent integration with messaging apps](https://www.servicenow.com/docs/access?context=va-integration-messaging-apps&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+For more information, see Virtual Agent integration with messaging apps.
 
-For more information on integrating with Slack or Microsoft Teams, see [Setting up Virtual Agent notifications](https://www.servicenow.com/docs/access?context=configuring-va-notifications&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+For more information on integrating with Slack or Microsoft Teams, see Setting up Virtual Agent notifications.
 

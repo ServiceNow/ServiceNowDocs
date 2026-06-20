@@ -2,6 +2,7 @@
 title: Exploring Password complexity requirements
 description: Passwords in your ServiceNow instance must meet complexity requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/explore-password-requirements.html
 release: yokohama
 product: Authentication
 classification: authentication

@@ -1,19 +1,20 @@
 ---
 title: Add an MCP server from AI Agent studio
-description: Add an external MCP server from AI Agent studio.
+description: Add an external MCP server from AI Agent Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-23"
-reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers Via AI Gateway, Explore AI Gateway, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Process flow of MCP servers Via AI Gateway, Explore AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Add an MCP server from AI Agent studio
 
-Add an external MCP server from AI Agent studio.
+Add an external MCP server from AI Agent Studio.
 
 ## Before you begin
 
@@ -25,13 +26,15 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 -   \(AIG admin\) aig\_admin
 -   \(MCP Client admin\) sn\_mcp\_client.admin
 
-For more information on the AI steward role and its responsibilities, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md)
+For more information on the AI steward role and its responsibilities, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **AI Agent Studio** &gt; **Settings** &gt; **Manage MCP servers**.
 
 2.  Select **New**.
+
+    **Note:** In the Create and manage tab of the AI Agent Studio, you can add only those MCP servers that have been approved in the AI Control Tower. To view these approvals, go to the Approvals tab on the MCP server record. For more information on Approvals tab and MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
 
 3.  Enter the Name.
 
@@ -43,7 +46,7 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 6.  Select the Client registration type: Dynamic Client Registration.
 
-    AI Gateway registration in AI Agent Studio supports only Dynamic Client Registration.
+    AI Gateway registration in AI Agent Studio supports Dynamic Client Registration.
 
     If the server allows dynamic client registration, it will automatically retrieve the necessary details. Otherwise, you will need to enter the details manually.
 
@@ -55,9 +58,13 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 9.  Select **Authenticate** to authenticate the server with your credentials.
 
+    **Note:** To view the approval request record for every MCP server in the AI Agent studio, select **View Approval record**. This action will direct you to the Related Variants tab of the respective MCP server
+
+    To know more about Related Variants tab in the MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
+
 10. Select **Save** to create an MCP server record.
 
-    A scheduled job named **AI Agent Studio to AICT-MCP server sync** runs every 15 minutes to synchronize the MCP servers from AI Agent Studio to AI Control Tower.
+    **Note:** A scheduled job named **AI Agent Studio to AICT-MCP server sync** runs every 15 minutes to synchronize the MCP servers from AI Agent Studio to AI Control Tower.
 
 
 ## Result
@@ -68,5 +75,5 @@ After synchronizing, the MCP server shows up in the AI asset inventory with its 
 
 ## What to do next
 
-The MCP server approval request must be approved. See [MCP server approval request](playbook-workflow-of-mcp-server-approval-request.md)
+The MCP server approval request must be approved. See [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
 

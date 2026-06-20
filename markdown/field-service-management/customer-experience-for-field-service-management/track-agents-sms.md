@@ -2,13 +2,14 @@
 title: Track the current location of agents from email or SMS notifications
 description: Track the current location of agents and their estimated time of arrival through email or SMS notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/customer-experience-for-field-service-management/track-agents-sms.html
 release: yokohama
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Using Field Service Management, Field Service Management]
+breadcrumb: [Customer self service, Using Field Service Management, Field Service Management]
 ---
 
 # Track the current location of agents from email or SMS notifications
@@ -36,5 +37,5 @@ A link is sent through email or SMS notifications to track the current location 
 
 The agent tracking map for the related work order task opens for you to track the agent.
 
-**Parent Topic:**[Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Customer self service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customer-experience-for-field-service-management/customer-self-service.md)
 

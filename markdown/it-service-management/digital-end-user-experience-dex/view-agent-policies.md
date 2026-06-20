@@ -2,6 +2,7 @@
 title: View agent policies
 description: View the agent policies used during check runs on the associated Configuration Items \(CI\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/view-agent-policies.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,10 +24,10 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 3.  Select **Manage policies** on the Agent policies card.
 
 
-**Parent Topic:**[DEX application and device health](../concept/dex-appl-and-device-health.md)
+**Parent Topic:**[DEX application and device health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-appl-and-device-health.md)
 

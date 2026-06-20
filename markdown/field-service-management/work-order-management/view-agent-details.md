@@ -2,6 +2,7 @@
 title: View an agent profile on the Field Service Contractor Portal
 description: As a manager of a contractor company, you can view the profile information of all the agents in your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-agent-details.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -34,5 +35,5 @@ Agents can view and edit only their own profile information.
 4.  Review the agent profile information.
 
 
-**Parent Topic:**[Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

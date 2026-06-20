@@ -2,7 +2,10 @@
 title: Consumption Report
 description: The Consumption Report provides an overview of your Impact tier features and their usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/ide-consumption-report.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1

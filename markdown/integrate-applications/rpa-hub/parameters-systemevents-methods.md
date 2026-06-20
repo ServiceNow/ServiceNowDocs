@@ -2,6 +2,7 @@
 title: Parameters of the SystemEvent connector methods
 description: Learn about the various parameters of the SystemEvent connector methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/parameters-systemevents-methods.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -34,7 +35,7 @@ Learn about the various parameters of the SystemEvent connector methods in RPA D
 
 ## Configure inputs for the parameters
 
-To enter inputs for parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs for parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
-**Parent Topic:**[System Events](../concept/system-events-connector.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/system-events-connector.md)
 

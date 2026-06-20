@@ -2,7 +2,10 @@
 title: System properties for configuring Email Interaction
 description: You can manage certain workflows based on the system properties, such as enabling or disabling the creation of email interactions for guest users. You can set an inactivity period after which email interactions are automatically closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/system-properties-for-configuring-email-as-an-interaction.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

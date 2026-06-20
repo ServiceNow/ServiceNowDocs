@@ -2,6 +2,7 @@
 title: Review the inbound REST endpoint and configure inbound authentication
 description: After you install the Virtual Agent API, navigate to the Scripted REST API resource to review the endpoint and set up authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/configure-send-request.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -31,13 +32,13 @@ Role required: admin
 
     The format is: https://&lt;customer instance&gt;/api/sn\_va\_as\_service/bot/integration
 
-    ![Review the Resource path value for the REST endpoint.](../images/scripted-rest-api-endpoint.png)
+    \[Omitted image "scripted-rest-api-endpoint.png"\] Alt text: Review the Resource path value for the REST endpoint.
 
-    For a description of the request parameters and an example send request, see [Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+    For a description of the request parameters and an example send request, see Virtual Agent Bot Integration API.
 
 5.  In the **Security** tab on the same page, select the **Requires authentication** check box.
 
-    ![Select the Requires authentication check box.](../images/scripted-rest-api-botinteg.png)
+    \[Omitted image "scripted-rest-api-botinteg.png"\] Alt text: Select the Requires authentication check box.
 
 6.  Set up Provider Authentication using any of these methods: Basic, OAuth, Hash, or Static Token.
 
@@ -47,15 +48,15 @@ Role required: admin
 
     -   Set up Basic or OAuth authentication.
 
-        To learn more about OAuth authentication and the possible security configurations for scripted REST APIs, see [Enable OAuth with inbound REST](https://www.servicenow.com/docs/access?context=t_EnableOAuthWithREST&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+        To learn more about OAuth authentication and the possible security configurations for scripted REST APIs, see Enable OAuth with inbound REST.
 
-    -   Set up Message Authentication, which involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity. For details, see [Configure Message Authentication for inbound communication](set-up-message-auth-va-api.md).
+    -   Set up Message Authentication, which involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity. For details, see [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md).
 
 ## What to do next
 
-If you are using Message Authentication, [Configure Message Authentication for inbound communication](set-up-message-auth-va-api.md).
+If you are using Message Authentication, [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md).
 
-[Configure the output response REST endpoint and outbound authentication for the Virtual Agent API](configure-response-endpoint-va-api.md).
+[Configure the output response REST endpoint and outbound authentication for the Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-response-endpoint-va-api.md).
 
-**Parent Topic:**[Using Virtual Agent API](../concept/virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-api.md)
 

@@ -2,6 +2,7 @@
 title: Create an Oracle connection
 description: Establish a zero copy connection to an external Oracle database in Workflow Data Fabric Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/create-oracle-connection.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -96,15 +97,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Oracle.
 
-<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d402753e236">
+<table id="choicetable_hsy_pmb_2fc"><thead><tr><th align="left" id="d402482e236">
 
 Option
 
-</th><th align="left" id="d402753e239">
+</th><th align="left" id="d402482e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d402753e245">
+</th></tr></thead><tbody><tr><td id="d402482e245">
 
 **KeyStore - PEM \(secure\)**
 
@@ -141,7 +142,7 @@ and ending with:
 4.  Enter the PEM file password associated with the wallet.
 
 
-</td></tr><tr><td id="d402753e291">
+</td></tr><tr><td id="d402482e291">
 
 **KeyStore - JKS \(secure\)**
 
@@ -170,7 +171,7 @@ and ends with:
 6.  Enter the keystore password associated with the wallet.
 
 
-</td></tr><tr><td id="d402753e349">
+</td></tr><tr><td id="d402482e349">
 
 **Username / Password**
 
@@ -190,7 +191,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/manage-access-connection-wdf.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

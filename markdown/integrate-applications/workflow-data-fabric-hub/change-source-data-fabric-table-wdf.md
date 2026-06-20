@@ -2,6 +2,7 @@
 title: Change the connection in a data fabric table
 description: Connect a data fabric table to a different data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/change-source-data-fabric-table-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -27,7 +28,7 @@ Role required: a role containing the df\_data\_steward role in both the establis
     -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Data fabric tables**.
 2.  Find the data fabric table that you want to update.
 
-3.  Select the More Actions icon \(![More actions icon](../../integrationhub/images/more-actions-menu-icon.png)\), and select **Change connection**.
+3.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Change connection**.
 
     -   A data fabric table with multiple primary keys can only use its current connection. To change the connection, you must delete and recreate the table with the data source that you want to use.
     -   A data fabric table with a connection that still needs configuration or is deactivated can't use a different connection. You must finish configuring the connection or activate the current connection before you can change it.
@@ -40,5 +41,5 @@ Role required: a role containing the df\_data\_steward role in both the establis
 7.  Select **Finish**.
 
 
-**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](../concept/managing-data-fabric-tables-wdf.md)
+**Parent Topic:**[Managing data fabric tables in Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/managing-data-fabric-tables-wdf.md)
 

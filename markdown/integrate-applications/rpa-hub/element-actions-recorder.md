@@ -2,6 +2,7 @@
 title: Types of elements and actions for the recorder
 description: The actions are the activities that you can perform on an application element such as a text box, button, hyperlinks, and so on. By using these actions, you can build an automation flow in the RPA Desktop Design Studio recorder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/element-actions-recorder.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -150,5 +151,5 @@ Image
 |SetText|Sets the specified text to the element.|
 |Uncheck|Clears a check box element.|
 
-**Parent Topic:**[Recording automations](../concept/recording-automations.md)
+**Parent Topic:**[Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/recording-automations.md)
 

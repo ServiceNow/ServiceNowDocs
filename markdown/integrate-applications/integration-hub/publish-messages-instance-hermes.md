@@ -2,6 +2,7 @@
 title: Use the Kafka Producer step and the ProducerV2 API to publish messages
 description: Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/publish-messages-instance-hermes.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -18,11 +19,11 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 ## Before you begin
 
 -   Role required: integration\_hub\_admin
--   This page is part of the [Stream Connect quick start guide](../concept/stream-connect-quick-start.md).
--   This document shows you how to publish messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](set-up-connection-hermes.md) and [Testing the connection to Hermes through the ADCv2 gateway](test-connection-hermes.md).
--   The first part of this page shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see [Kafka Producer step](https://www.servicenow.com/docs/access?context=kafka-producer-action-designer&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
--   The second part of this page shows you how to use the ProducerV2 API to publish messages. For more information, see [ProducerV2 API](https://www.servicenow.com/docs/access?context=ProducerV2ScopedAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
--   To receive all the messages, you need to run two consumers for different datacenters. See [Consume test messages from a Hermes topic using the Kafka client](https://www.servicenow.com/docs/access?context=consume-messages-hermes&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) for details.
+-   This page is part of the [Stream Connect quick start guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-quick-start.md).
+-   This document shows you how to publish messages through your connection to Hermes. To set up and test your connection, see [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-connection-hermes.md) and [Testing the connection to Hermes through the ADCv2 gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-connection-hermes.md).
+-   The first part of this page shows you how to use the Kafka Producer step in Workflow Studio to publish messages to Hermes. For more information about the step, see .
+-   The second part of this page shows you how to use the ProducerV2 API to publish messages. For more information, see ProducerV2 API.
+-   To receive all the messages, you need to run two consumers for different datacenters. See  for details.
 
 ## Procedure
 
@@ -54,7 +55,7 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 
         To add an action step, select the plus sign between the **Inputs** and **Error Evaluation** in the Action Outline.
 
-        ![Add the Kafka Producer step to the action.](../images/add-kafka-producer-step.png)
+        \[Omitted image "add-kafka-producer-step.png"\] Alt text: Add the Kafka Producer step to the action.
 
     5.  In the step, set the **Topic** field to `topic1`.
 
@@ -62,7 +63,7 @@ Push data from ServiceNow to Hermes so that the Kafka consumers can read them.
 
         You don't need to change any other fields.
 
-        ![Fill in the fields for the Kafka Producer step.](../images/kafka-producer-step-fields.png)
+        \[Omitted image "kafka-producer-step-fields.png"\] Alt text: Fill in the fields for the Kafka Producer step.
 
     7.  Select **Save** to save the action.
 

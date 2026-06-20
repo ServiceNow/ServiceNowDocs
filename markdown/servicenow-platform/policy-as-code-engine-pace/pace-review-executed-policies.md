@@ -2,6 +2,7 @@
 title: Review executed policy activity
 description: You can review the execution activity of any policy at any time. Recorded execution activity includes the time taken to execute, decisions of compliance, execution types, and the outcome of the execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/policy-as-code-engine-pace/pace-review-executed-policies.html
 release: yokohama
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -27,7 +28,7 @@ Role required: sn\_pace.execution\_reader
 
 2.  Click **Executions** to display the execution activity for the selected policy.
 
-    ![Executed policies.](../image/pace-executed-policies-2.jpg)
+    \[Omitted image "pace-executed-policies-2.jpg"\] Alt text: Executed policies.
 
 3.  Review the execution information in the following columns.
 

@@ -2,6 +2,7 @@
 title: View another Live Feed user
 description: When a requester user, one that has no ServiceNow role, is viewing a feed and points to another user's picture, information for the user appears from the Business Card view of the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_ViewAnotherLiveFeedUser.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,14 +30,14 @@ Admins can change the amount of information that is displayed for users with dif
 
     A user summary appears.
 
-    ![User information](../image/UserInfo.png "View profile")
+    \[Omitted image "UserInfo.png"\] Alt text: User information
 
 2.  Select the profile picture to view the full profile.
 
     Use the tabs to view different types of information about the user.
 
-    ![Profile tabs](../image/ProfileTabs.png "Profile tabs")
+    \[Omitted image "ProfileTabs.png"\] Alt text: Profile tabs
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

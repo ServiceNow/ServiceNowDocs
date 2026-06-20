@@ -2,6 +2,7 @@
 title: GlideModal - Client
 description: The GlideModal API provides methods for displaying a content overlay, known as a modal. Modals are interactive windows that appear above a page and close when a user takes an action. You can use a modal to display information, ask questions, or perform actions.Creates an instance of the GlideModal class.Closes the current modal.Returns the GlideModal object identified by the specified UI page name.Returns the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.Renders the UI page specified when the API was instantiated in the modal. You must call this method after you define the modal for it to appear in the UI.Displays a modal with the specified string-based HTML content.Sets the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.Sets the specified preferences and then reloads the modal.Sets the title of the modal.Sets the width of the modal.Change the view and reload the modal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/c\_GlideModalV3API.html
 release: yokohama
 product: API Reference
 classification: api-reference
@@ -21,9 +22,9 @@ Using the GlideModal API you can create custom modals or you can leverage existi
 
 **Note:** This is a fully-featured replacement for the GlideWindow and GlideDialogWindow APIs.
 
-GlideModal doesn't work in workspace, instead use the [g\_modal](../../g_modal/concept/g_modalClientAPI.md#) API.
+GlideModal doesn't work in workspace, instead use the [g\_modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_modalClientAPI.md) API.
 
-![Example overlay](../../Images/GlideModalV3-Client-example-overlay-dialog.png "Example modal")
+\[Omitted image "GlideModalV3-Client-example-overlay-dialog.png"\] Alt text: Example overlay
 
 Modals can contain different types of content such as:
 
@@ -45,8 +46,8 @@ Using this API you can:
 
 To make a modal appear in the UI you must call one of the render methods:
 
--   [GlideModal - render\(\)](c_GlideModalV3API.md#)
--   [GlideModal - renderWithContent\(String html\)](c_GlideModalV3API.md#)
+-   [GlideModal - render\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)
+-   [GlideModal - renderWithContent\(String html\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)
 
 The following code example shows how to create and render a modal using the UI page "my\_modal".
 
@@ -108,48 +109,48 @@ A base ServiceNow instance provides the following modals, defined as UI pages, t
 
 -   `glide_alert_standard`: An alert modal with an **OK** button and an info or warning icon.
 
-    ![glide_alert_standard modal](../image/GM-glide_modal_alert.png)
+    \[Omitted image "GM-glide\_modal\_alert.png"\] Alt text: glide\_alert\_standard modal
 
 -   `glide_ask_standard`: A confirmation modal with **Yes** and **No** buttons.
 
-    ![glide_ask_standard modal](../image/GM-glide_ask_standard.png)
+    \[Omitted image "GM-glide\_ask\_standard.png"\] Alt text: glide\_ask\_standard modal
 
 -   `glide_confirm`: A confirmation modal with **Don't save**, **Cancel**, and **Save** buttons.
 
-    ![glide_confirm modal](../image/GM-glide_modal_confirm.png)
+    \[Omitted image "GM-glide\_modal\_confirm.png"\] Alt text: glide\_confirm modal
 
 -   `glide_confirm_basic`: A confirmation modal with an **OK** and **Cancel** button, without an icon.
 
-    ![glide_confirm_basic modal](../image/GM-glide_modal_confirm_basic.png)
+    \[Omitted image "GM-glide\_modal\_confirm\_basic.png"\] Alt text: glide\_confirm\_basic modal
 
 -   `glide_confirm_standard`: A confirmation modal with an **OK** and **Cancel** button, and an info or warning icon.
 
-    ![glide_confirm_standard modal](../image/GM-glide_modal_confirm_standard.png)
+    \[Omitted image "GM-glide\_modal\_confirm\_standard.png"\] Alt text: glide\_confirm\_standard modal
 
 -   `glide_info`: An information modal with an info icon and an **OK** button the width of the modal window.
 
-    ![glide_info modal](../image/GM-glide_modal_info.png)
+    \[Omitted image "GM-glide\_modal\_info.png"\] Alt text: glide\_info modal
 
 -   `glide_progress_standard`: An information modal with a **Close** button, an info or warning icon, and a scrolling progress bar. The progress bar is an animated GIF image and can't be updated as a typical progress bar.
 
-    ![glide_progress_standard modal](../image/GM-glide_modal_progress_standard.png)
+    \[Omitted image "GM-glide\_modal\_progress\_standard.png"\] Alt text: glide\_progress\_standard modal
 
 -   `glide_progress_no_button`: An information modal with an info or warning icon, and a scrolling progress bar. The progress bar is an animated GIF image and can't be updated as a typical progress bar.
 
-    ![glide_progress_no_button modal](../image/GM-glide_modal_progress_no_button.png)
+    \[Omitted image "GM-glide\_modal\_progress\_no\_button.png"\] Alt text: glide\_progress\_no\_button modal
 
 -   `glide_prompt`: A modal with a prompt text box and an **OK** and **Cancel** button.
 
-    ![glide_prompt modal](../image/GM-glide_modal_prompt.png)
+    \[Omitted image "GM-glide\_modal\_prompt.png"\] Alt text: glide\_prompt modal
 
 -   `glide_warn`: A simple modal with an **OK** button, but no icon.
 
-    ![glide_warn modal](../image/GM-glide_modal_warn.png)
+    \[Omitted image "GM-glide\_modal\_warn.png"\] Alt text: glide\_warn modal
 
 
 ## Preferences
 
-Modal preferences provides a way to pass data into the modal being rendered. You use the [setPreference\(\)](c_GlideModalV3API.md#) or [setPrefAndReload\(\)](c_GlideModalV3API.md#) methods to set a preference value. You then use the [GlideModal - getPreference\(String name\)](c_GlideModalV3API.md#) method to retrieve a set preference.
+Modal preferences provides a way to pass data into the modal being rendered. You use the [setPreference\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) or [setPrefAndReload\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) methods to set a preference value. You then use the [GlideModal - getPreference\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method to retrieve a set preference.
 
 To retrieve preferences in a UI page, use the following function: RP.getWindowProperties\(\).get\('preference\_name'\).
 
@@ -187,7 +188,7 @@ Some of the base-system modals support the following system-based preferences:
     ```
 
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client.md)
 
 ## GlideModal - GlideModal\(String id, Boolean readOnly, Number/String width\)
 
@@ -215,7 +216,7 @@ String
 
 </td><td>
 
-Name of the[UI page](../../../../../script/server-scripting/reference/r_UIPages.md#) to load into the modal.You can find the list of available UI pages in **System UI** &gt; **UI Pages**
+Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) to load into the modal.You can find the list of available UI pages in **System UI** &gt; **UI Pages**
 
 </td></tr><tr><td>
 
@@ -255,7 +256,7 @@ Default: modal-md
 
 Maximum width: 900 pixels
 
-**Note:** You can also set the modal width using the [GlideModal - setWidth\(Number/String width\)](c_GlideModalV3API.md#) method.
+**Note:** You can also set the modal width using the [GlideModal - setWidth\(Number/String width\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method.
 
 </td></tr></tbody>
 </table>The following code example shows how to create a GlideModal object using an existing UI page.
@@ -398,14 +399,14 @@ String
 
 </td><td>
 
-Name of the[UI page](../../../../../script/server-scripting/reference/r_UIPages.md#) associated with the modal.You can also specify the [base system modals](c_GlideModalV3API.md#) that are provided in a base instance.
+Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) associated with the modal.You can also specify the [base system modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) that are provided in a base instance.
 
 You can find the list of available UI pages in **System UI** &gt; **UI Pages**.
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[GlideModal](c_GlideModalV3API.md#)|Requested GlideModal object.|
+|[GlideModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)|Requested GlideModal object.|
 
 This example shows how to use the get\(\) method to obtain the modal that you want to close using the destroy\(\) method.
 
@@ -432,11 +433,11 @@ GlideModal.prototype.get("glide_confirm").destroy();
 
 Returns the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.
 
-Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](c_GlideModalV3API.md#) method. The UI page client script can then consume these preferences using this method and the following function: RP.getWindowProperties\(\).get\('preference\_name'\).
+Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method. The UI page client script can then consume these preferences using this method and the following function: RP.getWindowProperties\(\).get\('preference\_name'\).
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the preference value to retrieve. This value must have been previously set on the modal using the [GlideModal - setPreference\(String name, String value\)](c_GlideModalV3API.md#) method.|
+|name|String|Name of the preference value to retrieve. This value must have been previously set on the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method.|
 
 |Type|Description|
 |----|-----------|
@@ -460,7 +461,7 @@ var title = dialog.getPreference('table');
 
 Renders the UI page specified when the API was instantiated in the modal. You must call this method after you define the modal for it to appear in the UI.
 
-Call this method when you use a UI page to generate the content in your modal. If you want to display HTML within a modal, call [GlideModal - renderWithContent\(String html\)](c_GlideModalV3API.md#) to render the modal.
+Call this method when you use a UI page to generate the content in your modal. If you want to display HTML within a modal, call [GlideModal - renderWithContent\(String html\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) to render the modal.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -611,7 +612,7 @@ function cancelDialog(){
 
 Sets the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.
 
-To retrieve preferences in a UI page, use the following function: RP.getWindowProperties\(\).get\('preference\_name'\). For additional information on preferences, see [GlideModal - Client](c_GlideModalV3API.md#).
+To retrieve preferences in a UI page, use the following function: RP.getWindowProperties\(\).get\('preference\_name'\). For additional information on preferences, see [GlideModal - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -713,7 +714,7 @@ dialog.render();
 
 Sets the width of the modal.
 
-You can also set the width of a modal when you first instantiate the API using the [GlideModal - GlideModal\(String id, Boolean readOnly, Number/String width\)](c_GlideModalV3API.md#) method.
+You can also set the width of a modal when you first instantiate the API using the [GlideModal - GlideModal\(String id, Boolean readOnly, Number/String width\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method.
 
 <table id="table_msx_wts_3v" class="parameters"><thead><tr><th>
 
@@ -776,4 +777,8 @@ Change the view and reload the modal.
 |Type|Description|
 |----|-----------|
 |void| |
+
+```
+
+```
 

@@ -2,6 +2,7 @@
 title: Return items received in a transfer order
 description: When you receive a transfer order and if there’s a problem with all or some of the items, you can return the transfer order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/t\_ReturnItemsRecInXferOrder.html
 release: yokohama
 product: Asset Management
 classification: asset-management
@@ -64,5 +65,5 @@ Items in a transfer order must be received before they can be returned.
     If you return another defective model from the same, original order, the two defective returns are merged into one line item.
 
 
-**Parent Topic:**[Transfer orders for Asset Management](../concept/transfer-orders-for-am.md)
+**Parent Topic:**[Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-orders-for-am.md)
 

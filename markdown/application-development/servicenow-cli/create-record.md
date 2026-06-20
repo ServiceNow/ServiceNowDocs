@@ -2,6 +2,7 @@
 title: Create a record
 description: Inserts a single record in a specified table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-cli/create-record.html
 release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -153,5 +154,5 @@ The system returns the record in JSON format.
 
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/manage-records.md)
 

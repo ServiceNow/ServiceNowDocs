@@ -2,11 +2,12 @@
 title: Suppress schedule occurrences of your planned work orders
 description: Streamline and optimize maintenance activities by suppressing duplicate planned work tasks when different schedules overlap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/suppress\_schedules\_of\_your\_work\_plans.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring work plans, Configuring Planned Work Management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
 ---

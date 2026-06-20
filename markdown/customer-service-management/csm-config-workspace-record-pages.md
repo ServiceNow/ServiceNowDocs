@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace record pages
 description: A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This includes records such as cases, incidents, and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-config-workspace-record-pages.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2025-06-09"
 reading_time_minutes: 4
@@ -17,9 +20,9 @@ A record page provides the base structure for how a record is displayed in CSM C
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages, including the **CSM default record page** and **CSM Interaction record page**, leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability makes simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
-Each record page has an order value. The system uses the pages with the lowest order values as the [default record pages](csm-config-workspace-record-pages.md#section_j34_kwm_2vb). When the system displays information in CSM Configurable Workspace, such as interaction and case records, it uses the elements in the default pages to determine the page appearance.
+Each record page has an order value. The system uses the pages with the lowest order values as the [default record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md). When the system displays information in CSM Configurable Workspace, such as interaction and case records, it uses the elements in the default pages to determine the page appearance.
 
 ## Available record pages
 
@@ -35,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[CSM default record page](csm-default-record-page.md)
+[CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md)
 
 </td><td>
 
@@ -45,7 +48,7 @@ This page builds on the Record default page and includes specific features for c
 
 </td></tr><tr><td>
 
-[CSM Interaction record page](csm-interaction-record-page.md)
+[CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-interaction-record-page.md)
 
 </td><td>
 
@@ -55,7 +58,7 @@ This page builds on the interaction record page and includes CSM-specific featur
 
 </td></tr><tr><td>
 
-[Front-line case page](csm-front-line-case-page.md)
+[Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md)
 
 </td><td>
 
@@ -63,7 +66,7 @@ This page is designed for front-line agents. It provides a simplified case view 
 
 </td></tr><tr><td>
 
-[CSM voice interaction record page](csm-native-voice-record-page.md)
+[CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-native-voice-record-page.md)
 
 </td><td>
 
@@ -128,7 +131,7 @@ Components are the building blocks that you use to create pages. End users, such
 
 </td></tr><tr><td>
 
-[Presets](https://www.servicenow.com/docs/access?context=presets&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+Presets
 
 </td><td>
 
@@ -136,7 +139,7 @@ A preset is a set of instructions that define configuration values for a specifi
 
 </td></tr><tr><td>
 
-[Controllers](https://www.servicenow.com/docs/access?context=controllers&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+Controllers
 
 </td><td>
 
@@ -165,5 +168,5 @@ Upgrade customers retain their custom record pages. However, the following pages
 -   Record default
 -   Interaction record page
 
-For more information about setting the default record pages, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+For more information about setting the default record pages, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 

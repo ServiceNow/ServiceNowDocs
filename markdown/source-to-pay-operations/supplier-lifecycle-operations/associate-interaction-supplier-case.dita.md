@@ -2,6 +2,7 @@
 title: Associate an interaction record to a supplier case
 description: Associate an interaction record to a supplier case if your interaction is related to an existing supplier case in Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/associate-interaction-supplier-case.dita.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Source-to-Pay Workspace.**.
 
-2.  Select the List icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **All work** &gt; **Interactions**
 
 4.  In the Number column, select the link to an interaction that you want to associate with a supplier case.
 
-5.  Select More Actions ![More actions icon.](../image/more-actions-icon.png) and then select **Associate record**.
+5.  Select More Actions \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. and then select **Associate record**.
 
     The Create New Interaction Related Record form appears in a new tab.
 
@@ -38,5 +39,5 @@ Role required: admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md)
 

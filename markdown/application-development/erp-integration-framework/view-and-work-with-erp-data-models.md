@@ -2,6 +2,7 @@
 title: View and edit the foundation of ERP models
 description: Create a holistic data set by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP, which encompasses remote tables and extraction tables from the ERP system, as well as read and update operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/view-and-work-with-erp-data-models.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,7 +26,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 ## About this task
 
-Zero Copy Connector for ERP provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](../reference/erp-canvas-standard-extraction-tables.md).
+Zero Copy Connector for ERP provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
@@ -33,9 +34,9 @@ An ERP model functions as a staging area that contains all potential fields you 
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the ERP models icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP models page by selecting the ERP models icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
-    ![ERP Canvas models page](../image/erp-canvas-models-ys2.png)
+    \[Omitted image "erp-canvas-models-ys2.png"\] Alt text: ERP Canvas models page
 
 3.  Review the list of ERP models.
 
@@ -169,14 +170,14 @@ Date and time the model entity was last updated.
 
 9.  View and confirm the table entity fields included in the ERP model by selecting the **Entity fields** tab of the ERP model record.
 
-    For a description of the field values, see [Zero Copy Connector for ERP ERP model table field descriptions](../reference/erp-canvas-erp-data-model-table-fields.md).
+    For a description of the field values, see [Zero Copy Connector for ERP ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
 
-    ![Table entity fields for an ERP model](../image/erpc-material-stock.png "Zero Copy Connector for ERP table entity fields")
+    \[Omitted image "erpc-material-stock.png"\] Alt text: Table entity fields for an ERP model
 
 
 ## What to do next
 
-After you have noted the available fields and tables, you can add new table entities to a model by managing the model. When you manage the model, you can also create read and update operations using table reads and BAPIs \(Business Application Programming Interface\). For more information, see [Managing how models read and update the ERP system](../concept/erpc-managing-models-read.md).
+After you have noted the available fields and tables, you can add new table entities to a model by managing the model. When you manage the model, you can also create read and update operations using table reads and BAPIs \(Business Application Programming Interface\). For more information, see [Managing how models read and update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpc-managing-models-read.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

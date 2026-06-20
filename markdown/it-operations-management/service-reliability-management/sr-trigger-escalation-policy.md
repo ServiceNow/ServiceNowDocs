@@ -2,6 +2,7 @@
 title: Create an escalation trigger for an SRM team
 description: Define conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
@@ -21,9 +22,9 @@ Role required: srm\_manager or srm\_admin
 
 ## About this task
 
-This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See [Create an escalation trigger rule](https://www.servicenow.com/docs/access?context=create-trigger-rule-oncall&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US) for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role to complete the task.
+This procedure shows how to create escalation triggers in SRM. If your organization manages on-call scheduling using IT Service Management \(ITSM\), you can also use ITSM On-Call Scheduling to define escalation triggers. See  for more information. While that procedure lists ITSM roles, SRM users only need the srm\_manager or srm\_admin role to complete the task.
 
-For a broader overview of escalation processes in ITSM, see [Designing an escalation process](https://www.servicenow.com/docs/access?context=designing-escalation-process-oncall&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+For a broader overview of escalation processes in ITSM, see .
 
 **Note:** The following procedure supports trigger conditions based on assignment group changes only. For trigger conditions based on other fields, a workaround is required. Contact ServiceNow Support about accessing KB1702299 in the ServiceNow Support Knowledge Base.
 
@@ -35,7 +36,7 @@ For a broader overview of escalation processes in ITSM, see [Designing an escala
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Teams** icon \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the primary navigation, select the **Teams** icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select your team and then select the **Escalation triggers and policies** tab.
 
@@ -55,5 +56,5 @@ For a broader overview of escalation processes in ITSM, see [Designing an escala
     You can also add support for escalation triggers to run on alerts instead of incidents. You can add up to 5000 events or 250 alerts per second stream. To add the on-call for alerts support, either run the XML on trigger\_rule\_table\_cfg trigger table or create the record manually in the Trigger Rule Table Config page.
 
 
-**Parent Topic:**[Set up escalation policies for your team in SRM](sr-create-escalation-policies.md)
+**Parent Topic:**[Set up escalation policies for your team in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-escalation-policies.md)
 

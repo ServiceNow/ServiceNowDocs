@@ -2,6 +2,7 @@
 title: Pipeline management tab
 description: The Pipeline management tab enables you to get insights into savings and pipeline projects, improving visibility, tracking, and collaboration across teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,7 +21,7 @@ To view the Pipeline management tab in the Source-to-Pay Worksapce, you must hav
 -   Spend and Savings Management \(sn\_spend\_mgmt\)
 -   Sourcing Pipeline Management \(sn\_spend\_pipeline\)
 
-![Pipeline management tab](../image/pipeline-management-tab.png "Pipeline management tab")
+\[Omitted image "pipeline-management-tab.png"\] Alt text: Pipeline management tab
 
 ## Components in the Pipeline management tab
 
@@ -165,5 +166,5 @@ Single score
 Displays the total estimated savings \(estimated hard savings + estimated cost avoidance\) from in-progress pipeline projects assigned to the logged-in user, where the estimated end date falls within the current year.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+</table>**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

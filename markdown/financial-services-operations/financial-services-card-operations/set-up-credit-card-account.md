@@ -2,6 +2,7 @@
 title: Set up a credit card account for a customer and close the case
 description: Set up a new credit card account for a customer after customer verification is done and the required documents are prepared.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-card-operations/set-up-credit-card-account.html
 release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,29 +20,29 @@ Set up a new credit card account for a customer after customer verification is d
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
-This credit card task is automatically created for a new credit card case when the document service task to [file the customer agreement](file-customer-agreement.md) completes.
+This credit card task is automatically created for a new credit card case when the document service task to [file the customer agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-card-operations/file-customer-agreement.md) completes.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d25962e112">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d28962e112">
 
 Option
 
-</th><th align="left" id="d25962e115">
+</th><th align="left" id="d28962e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d25962e121">
+</th></tr></thead><tbody><tr><td id="d28962e121">
 
 **From a credit card service case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d25962e154">
+</td></tr><tr><td id="d28962e154">
 
 **From the Credit Card Task list**
 

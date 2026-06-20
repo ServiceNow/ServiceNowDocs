@@ -2,6 +2,7 @@
 title: Use Now Assist for App Engine
 description: Use the skills within Now Assist for App Engine to add custom AI features to your custom applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.html
 release: yokohama
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -18,39 +19,39 @@ Use the skills within Now Assist for App Engine to add custom AI features to you
 
 Now Assist for App Engine contains many tools and skills, including the following:
 
--   **[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **AI Agent Studio**
 
     Create flexible, adaptive AI agents that support App Engine use cases.
 
--   **[Now Assist Data Kit](https://www.servicenow.com/docs/access?context=na-data-kit-generate-data&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Data Kit**
 
     Build and maintain datasets and ground truths to evaluate your custom skills.
 
--   **[Knowledge article generation](https://www.servicenow.com/docs/access?context=now-assist-knowledge-management&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)**
+-   **Knowledge article generation**
 
     Use Now Assist to inspect your custom application data and generate knowledge base articles.
 
--   **[Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist in Document Intelligence**
 
     Incorporate the capabilities of DocIntel into your flows and playbooks.
 
--   **[Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Skill Kit**
 
     Develop custom skills to be used within your custom apps.
 
--   **[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US)**
+-   **Now Assist in Virtual Agent**
 
     Use Virtual Agent Designer with LLM enabled components to create chatbots.
 
--   **[Now Assist Platform skills](https://www.servicenow.com/docs/access?context=now-assist-on-now-platform&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Platform skills**
 
     Use platform skills to export dashboards and to help AI agents find answers from a variety of content.
 
--   **[Now Assist Navigation skills](https://www.servicenow.com/docs/access?context=now-assist-global-navigation&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Navigation skills**
 
     Use Now Assist to find records or tables, for example, ask for a list of incident records.
 
--   **[Search Q&amp;A \(+ multi-context synthesized answer generation\)](https://www.servicenow.com/docs/access?context=now-assist-ais&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)**
+-   **Search Q&amp;A \(+ multi-context synthesized answer generation\)**
 
     Search and summarize KB articles, policies, and guides that you publish with your application.
 

@@ -2,6 +2,7 @@
 title: Create a new Report Template
 description: Create a new case report template according to your business needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-new-report-template.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

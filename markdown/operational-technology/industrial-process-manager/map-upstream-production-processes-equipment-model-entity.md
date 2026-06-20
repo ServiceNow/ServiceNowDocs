@@ -2,6 +2,7 @@
 title: Map the upstream production processes for the selected equipment model entity
 description: Use the upstream process to review upstream production processes for the selected equipment model entity. You can also create and map a new upstream production process for the equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-process-manager/map-upstream-production-processes-equipment-model-entity.html
 release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -21,7 +22,7 @@ Role required: cmdb\_ot\_isa\_editor, cmdb\_ot\_isa\_viewer, cmdb\_ot\_isa\_admi
 
 ## About this task
 
-Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with an assigned cmdb\_ot\_isa\_editor role can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](create-user-criteria-for-equipment-model-entity-site-users.md).
+Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with an assigned cmdb\_ot\_isa\_editor role can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 ## Procedure
 
@@ -37,15 +38,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the upstream production processes for the equipment model, or map a new one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d66221e124">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33855e124">
 
 Task
 
-</th><th align="left" id="d66221e127">
+</th><th align="left" id="d33855e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66221e133">
+</th></tr></thead><tbody><tr><td id="d33855e133">
 
 **Review the upstream production processes for the selected equipment model entity**
 
@@ -53,7 +54,7 @@ Description
 
 Proceed to the next step and review the Upstream process form.
 
-</td></tr><tr><td id="d66221e142">
+</td></tr><tr><td id="d33855e142">
 
 **Map an upstream production process**
 
@@ -64,7 +65,7 @@ Proceed to the next step and review the Upstream process form.
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d66221e169">
+</td></tr><tr><td id="d33855e169">
 
 **Remove an upstream process**
 
@@ -82,5 +83,5 @@ Use the Dependency Map view.1.  Click **View Process**.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Review and update the equipment model details](equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

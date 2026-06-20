@@ -2,6 +2,7 @@
 title: Invoice data transformation logic
 description: Accounts Payable Operations integration with Document Intelligence converts the invoice and invoice line field values from the invoice document to a format supported by the system that processes the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -89,7 +90,7 @@ Currency groupings on invoice and invoice lines are determined based on the user
 
 **Note:** During conversion, for numbers such as 100,251 and 100.251, the system checks for other decimal separators mentioned in the invoice, and converts it to the appropriate decimal format. If the invoice contains fields with a single decimal separator, then conversion doesn’t apply for the invoice, and the value is set to empty as shown in the following table.
 
-For more information on currency conversion, see [Currency administration](https://www.servicenow.com/docs/access?context=currency&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information on currency conversion, see .
 
 |Decimal format mentioned in the incoming invoice|Converted decimal format|
 |------------------------------------------------|------------------------|
@@ -173,5 +174,5 @@ In such cases, the invoice is considered as of type Credit memo.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](apm-docintel-how-it-works.md)
+</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

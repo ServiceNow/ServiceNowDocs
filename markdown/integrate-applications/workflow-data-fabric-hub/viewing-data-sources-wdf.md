@@ -2,6 +2,7 @@
 title: Available connectors
 description: Discover available connectors to use in a zero copy connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/workflow-data-fabric-hub/viewing-data-sources-wdf.html
 release: yokohama
 product: Workflow Data Fabric Hub
 classification: workflow-data-fabric-hub
@@ -25,7 +26,7 @@ In Workflow Data Fabric Hub, you can access a variety of data sources that enabl
 
 In the Workflow Data Fabric Hub, a connection admin can navigate to the **Available connectors** tab to view primary and community connectors and create a zero copy connection. After the connection is established, the connection admin can grant access to a data steward. The data steward can then access the zero copy connection from the **Established connections** tab to create a data fabric table.
 
-![Available connectors in Workflow Data Fabric Hub.](../image/wdf-sources.png "Available connectors in Workflow Data Fabric Hub")
+\[Omitted image "wdf-sources.png"\] Alt text: Available connectors in Workflow Data Fabric Hub.
 
 ## Required ServiceNow AI Platform roles
 
@@ -48,7 +49,7 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
-For details on creating connections using primary connectors, see [Primary connectors](primary-connectors-wdf.md).
+For details on creating connections using primary connectors, see [Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/primary-connectors-wdf.md).
 
-For details on creating connections using community connectors, see [Community connectors](community-connectors-wdf.md).
+For details on creating connections using community connectors, see [Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/community-connectors-wdf.md).
 

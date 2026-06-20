@@ -2,6 +2,7 @@
 title: Configure ServiceNow System Logs Retriever data inputs
 description: Configure a data input for streaming log data from the ServiceNow System Log table to the Health Log Analytics AI engine \(Occultus\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -32,7 +33,7 @@ Role required: admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [ServiceNow System Logs Retriever data input configuration fields](../reference/hla-data-input-glide-syslog-ref.md).
+    For a description of the fields, see [ServiceNow System Logs Retriever data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.md).
 
 5.  Select **Save**.
 
@@ -49,7 +50,7 @@ The data input starts streaming ServiceNow log data from the System Log table to
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

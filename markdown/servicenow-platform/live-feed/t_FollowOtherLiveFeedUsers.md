@@ -2,6 +2,7 @@
 title: Follow other Live Feed users
 description: As you use Live Feed, you can follow the message threads of other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_FollowOtherLiveFeedUsers.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -27,18 +28,18 @@ Role required: none
 
     A **Follow** link appears in the user's profile.
 
-    ![Profile with Follow link](../image/Follow.png "Profile with Follow link")
+    \[Omitted image "Follow.png"\] Alt text: Profile with Follow link
 
 3.  Click **Follow**.
 
 4.  To stop following the user, navigate to **People** &gt; **Following**.
 
-    ![Unfollow](../image/Unfollow.png "Unfollow")
+    \[Omitted image "Unfollow.png"\] Alt text: Unfollow
 
 5.  Click **Unfollow**.
 
 6.  To view people who are following you, navigate to **People** &gt; **Followers**.
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

@@ -2,6 +2,7 @@
 title: List of components compatible with latest version
 description: Learn about the list of components that are executed in their latest versions in the RPA Desktop Design Studio and robots, irrespective of the version they were used during the automation design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/list-components-upgrade.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Robotic Process Automation \(RPA\) solution is built with backward compatibility
 
 An automation built using the earlier plugin versions are compatible with a latest version. For example, if an automation is built using an earlier version of a plugin, 1.0, the RPA Desktop Design Studio, Attended Robot, and Unattended Robot applications run the automation by loading the plugin version 1.0.
 
-If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see [RPA Hub release notes](https://www.servicenow.com/docs/access?context=rpa-rn&version=yokohama&pubname=yokohama-release-notes&ft:locale=en-US) and [RPA Plugin Bundle release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-rpa-plugin-bundle.html).
+If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see  and RPA Plugin Bundle release notes.
 
 Additionally, any automation component interacting with RPA Hub APIs are only compatible with its own RPA Hub version. For example, if the component is released as part of Utah 4.1, then it’s compatible only for that version.
 
@@ -78,5 +79,5 @@ The following list of components are executed in their latest versions in the RP
 |RemoteActivity|
 |VariableContainer|
 
-**Parent Topic:**[Automation components](../concept/rpa-studio-automation-components.md)
+**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-automation-components.md)
 

@@ -2,12 +2,13 @@
 title: Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace for field decorators actions
 description: Configure the UI component to migrate field decorators actions from ITSM Agent Workspace to Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/migrate-field-declarative-ui-component-aw-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -119,7 +120,7 @@ Role required: admin
 
     4.  If the record isn’t found with the table, remove the table filter and search for targetPayload contains route=mra or interceptor.
 
-        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://www.servicenow.com/docs/access?context=create-a-ux-add-on-event-mapping&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+        For **List** and **Field** decorator, you must add the mra and interceptor add-on event mappings manually. For more information, see .
 
     **Note:**
 
@@ -132,5 +133,5 @@ Role required: admin
     For a change\_request table that has a value as standard, Active is set as False when migrating the records from ITSM Agent Workspace to SOW.
 
 
-**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/field-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)
 

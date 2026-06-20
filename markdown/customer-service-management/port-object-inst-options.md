@@ -2,7 +2,10 @@
 title: Portal Object widget instance options form
 description: Instance options enable you to configure the Portal Object widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/port-object-inst-options.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
@@ -121,7 +124,7 @@ Enable Service Definitions
 
 </td><td>
 
-Option to display the service definitions associated with the record under **Actions**. For details, see [Service definitions](../concept/csm-service-definitions.md).
+Option to display the service definitions associated with the record under **Actions**. For details, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-service-definitions.md).
 
 </td></tr><tr><td>
 

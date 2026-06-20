@@ -2,6 +2,7 @@
 title: Configure crawl settings for an Adobe Experience Manager as a Cloud Service external content connector
 description: Specify the nodes you want your Adobe Experience Manager as a Cloud Service external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-adobe-expmgr-cs-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the nodes you want your Adobe Experience Manager as a Cloud Service exte
 
 ## Before you begin
 
-A connector admin must have already created the Adobe Experience Manager as a Cloud Service external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create an Adobe Experience Manager as a Cloud Service external content connector](create-ext-cont-connector-adobe-expmgr-cs.md).
+A connector administrator must have already created the Adobe Experience Manager as a Cloud Service external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-adobe-expmgr-cs.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Adobe Experience Manager as a Cloud Service external content connector crawls all nodes located beneath the `/content/dam` node of its specified source system and sends assets with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Adobe Experience Manager as a Cloud Service external content connector crawls all nodes located beneath the `/content/dam` node of its specified source system and sends assets with all supported file extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for the nodes to crawl when running content crawls
 -   Inclusion or exclusion filters for the file extensions of assets to retrieve when running content crawls
@@ -69,7 +70,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
         As an example, you might enter `.csv` to exclude assets with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported asset file extensions, see [Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+    For details on the supported asset file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
 6.  Select **Save and validate**.
 
@@ -80,7 +81,7 @@ The Adobe Experience Manager as a Cloud Service external content connector is up
 
 ## What to do next
 
-To retrieve content from your Adobe Experience Manager as a Cloud Service source system using your modified crawl settings, create and run a one-time content crawl for your Adobe Experience Manager as a Cloud Service external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Adobe Experience Manager as a Cloud Service source system using your modified crawl settings, create and run a one-time content crawl for your Adobe Experience Manager as a Cloud Service external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Adobe Experience Manager as a Cloud Service external content connector](../concept/adobe-expmgr-cs-external-content-connector.md)
+**Parent Topic:**[Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/adobe-expmgr-cs-external-content-connector.md)
 

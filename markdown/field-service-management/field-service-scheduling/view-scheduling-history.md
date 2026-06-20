@@ -2,6 +2,7 @@
 title: View scheduling history of work order tasks
 description: View the history of the scheduling method of work order tasks that are assigned and scheduled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/view-scheduling-history.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -42,5 +43,5 @@ View the scheduling history of the work order task with the following details:
 
 The work order task assignments with the scheduling method appear.
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/scheduling-and-dispatching-agents.md)
 

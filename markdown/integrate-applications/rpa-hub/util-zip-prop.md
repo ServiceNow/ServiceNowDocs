@@ -2,6 +2,7 @@
 title: Properties of the Zip components
 description: Learn about the properties of the Zip components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/util-zip-prop.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the Zip components in RPA Desktop Design Studio.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Zip](../concept/zip-utilities.md)
+**Parent Topic:**[Zip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/zip-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Set up the Wrike spoke
 description: Integrate the ServiceNow instance and Wrike account by creating a custom OAuth application in Wrike API Developer Site to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/wrike-setup-dec.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
@@ -45,7 +46,7 @@ Integrate the ServiceNow instance and Wrike account by creating a custom OAuth a
 
 8.  On the Wrike connection alias tile, select **View Details**.
 
-    ![View Details button on the Wrike connection alias tile.](../image/wrike-conn-alias-view-details.png)
+    \[Omitted image "wrike-conn-alias-view-details.png"\] Alt text: View Details button on the Wrike connection alias tile.
 
 9.  Select **Configure**.
 
@@ -59,7 +60,7 @@ Integrate the ServiceNow instance and Wrike account by creating a custom OAuth a
     |OAuth Client Secret|Option to provide the OAuth client secret that you generated when you set up the OAuth app.|
     |OAuth Redirect URL|Option to provide the redirect URL that you had provided when you set up the OAuth app. The redirect URL must be in the format `https://instance-name.service-now.com/oauth_redirect.do`.|
 
-    ![Create Connection form.](../image/wrike-create-conn-form.png)
+    \[Omitted image "wrike-create-conn-form.png"\] Alt text: Create Connection form.
 
 11. Select **Create and Get OAuth Token**.
 

@@ -2,6 +2,7 @@
 title: Add suppliers to a segmentation rule
 description: You can add a new supplier to a segmentation rule if the existing suppliers don’t meet your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-segmentation-rule.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -30,7 +31,7 @@ The **Supplier** related tab displays the list of suppliers that fall under this
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
 
 3.  In the Name column, select the link to the segmentation rule.
 
@@ -45,7 +46,7 @@ The **Supplier** related tab displays the list of suppliers that fall under this
 
 ## What to do next
 
-Select **Execute** to run the segmentation rule. For more information, see [Run segmentation rule](run-segmentation-rule.md).
+Select **Execute** to run the segmentation rule. For more information, see [Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
 
-**Parent Topic:**[Create segmentation rule](create-segmentation-rule-slo.md)
+**Parent Topic:**[Create segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-segmentation-rule-slo.md)
 

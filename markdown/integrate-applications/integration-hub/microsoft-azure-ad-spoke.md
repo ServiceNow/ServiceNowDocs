@@ -2,11 +2,12 @@
 title: Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)
 description: Manage users, applications, groups, devices, tenants, service principals, and passwords. Apply licenses and provision users in Office 365.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/microsoft-azure-ad-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-09-01"
+last_updated: "2026-06-08"
 reading_time_minutes: 15
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -21,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.7.4 is the latest version.
+Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.7.5 is the latest version.
 
 ## Spoke dependencies
 
@@ -54,7 +55,7 @@ The Microsoft Entra ID spoke provides sample subflows in the draft state to demo
 
 ## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Description|
 |----------------------|-----------|
@@ -1310,7 +1311,7 @@ Delegated \(work or school account\)
 
 </td><td>
 
-Directory.AccessAsUser.All
+User-PasswordProfile.ReadWrite.All
 
 </td></tr><tr><td>
 
@@ -1326,7 +1327,7 @@ Application
 
 </td><td>
 
-Not supported.
+User-PasswordProfile.ReadWrite.All
 
 </td></tr><tr><td rowspan="3">
 
@@ -1374,7 +1375,7 @@ Delegated \(work or school account\)
 
 </td><td>
 
-Directory.AccessAsUser.All
+User-PasswordProfile.ReadWrite.All
 
 </td></tr><tr><td>
 
@@ -1871,16 +1872,16 @@ User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for more information about creating a clone.
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -1892,14 +1893,14 @@ Available AI agents include:
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
 ## Microsoft Entra ID account requirements
 
-The Microsoft Entra ID spoke requires creating a custom app on your Microsoft Entra account to generate OAuth 2.0 tokens. See: [Create an Microsoft Entra ID application](../../integrationhub-store-spokes/task/set-up-azure.md#).
+The Microsoft Entra ID spoke requires creating a custom app on your Microsoft Entra account to generate OAuth 2.0 tokens. See: [Create an Microsoft Entra ID application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-azure.md).
 
 ## Connection and credential alias requirements
 
@@ -1911,5 +1912,5 @@ This spoke uses the AzureAD alias record to authorize actions on Microsoft Entra
 |----------------|-----------|--------------|
 |AzureAD|Connection to Microsoft Entra ID.|https://graph.microsoft.com|
 
-For information about setting up the spoke, see [Set up Microsoft Entra ID spoke](../../integrationhub-store-spokes/task/set-up-azure.md#).
+For information about setting up the spoke, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-azure.md).
 

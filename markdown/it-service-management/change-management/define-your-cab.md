@@ -2,6 +2,7 @@
 title: Create a CAB definition
 description: A Change Advisory Board \(CAB\) definition is similar to a recurring meeting invitation. When you define a CAB definition, it determines the attributes that are associated with all CAB meetings generated from that definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/define-your-cab.html
 release: yokohama
 product: Change Management
 classification: change-management
@@ -333,10 +334,10 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
 You can modify CAB meeting details and send meeting requests to attendees. You can also manage agendas by reviewing or adding agenda items to each of the meetings.
 
-**Parent Topic:**[Working with the CAB Workbench](../concept/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-cab-workbench-cf.md)
 
 **Related topics**  
 
 
-[OR conditions](https://www.servicenow.com/docs/access?context=c_UsingORConditions&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_UsingORConditions]
 

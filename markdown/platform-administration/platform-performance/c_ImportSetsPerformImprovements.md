@@ -2,6 +2,7 @@
 title: Import set performance
 description: The algorithm transforms import sets from their staging table into their final destination.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/c\_ImportSetsPerformImprovements.html
 release: yokohama
 product: Platform Performance
 classification: platform-performance

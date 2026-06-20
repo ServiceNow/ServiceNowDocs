@@ -2,7 +2,10 @@
 title: Impact Store Application
 description: The Impact Store Application, a centralized, interactive portal where you can access your Impact tools and benefits is available directly through your ServiceNow instance, in addition to the Impact Delivery Instance, formerly the Impact Digital Experience portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-store-app.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-03-09"
 reading_time_minutes: 1
@@ -21,15 +24,15 @@ See the Impact overview video to get started with the Impact Store Application.S
 
 <table id="table_dcj_bbv_bdc" class="nav-card presentation"><tbody><tr><td>
 
-[Exploring![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Impact Store Application concepts and features.](exploring-impact-platform.md)
+[Exploring\[Omitted image "bus-explore.svg"\] Alt text:Learn about Impact Store Application concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/exploring-impact-platform.md)
 
 </td><td>
 
-[Configuring![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Impact Store Application.](configuring-impact-platform.md)
+[Configuring\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Impact Store Application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md)
 
 </td><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-application-developer.svg)The Impact Store Application is an interactive portal where you can access your tools and benefits.](impact-in-app.md)
+[Using\[Omitted image "bus-application-developer.svg"\] Alt text:The Impact Store Application is an interactive portal where you can access your tools and benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-app.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

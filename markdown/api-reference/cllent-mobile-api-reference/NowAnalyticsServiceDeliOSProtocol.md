@@ -2,6 +2,7 @@
 title: NowAnalyticsServiceDelegate protocol - iOS
 description: The NowAnalyticsServiceDelegate protocol provides callback functions that provide information about the starting and ending of a user session and screen change detection.Notifies when a screen change is detected. The screen name is detected from the navigation bar. If that is not possible, it is the viewController subclass name.Notifies when the specified session has ended.Notifies when the specified session has started.Notifies when the specified session is about to end.Notifies whether the specified session is about to start.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowAnalyticsServiceDeliOSProtocol.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API refer
 
 The NowAnalyticsServiceDelegate protocol provides callback functions that provide information about the starting and ending of a user session and screen change detection.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAnalyticsServiceDelegate - nowAnalyticsDidDetectScreen\( \_ sessionId: String\)
 

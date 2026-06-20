@@ -2,13 +2,14 @@
 title: Add responsibilities to PRM roles
 description: A responsibility describes a role or function that supports a user. Use responsibility definitions to create relationships between any two partner entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/add-responsibilities-to-prm-roles.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Roles and components of Partner Relationship Management, Configure Partner Relationship Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Roles and components of Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Add responsibilities to PRM roles
@@ -37,15 +38,15 @@ Related party configurations define the title of a relationship between an entit
 
 2.  Open a channel partner record and add an external staff member or an enterprise partner relationship manager based on your requirement.
 
-<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d35177e124">
+<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d37183e124">
 
 Task
 
-</th><th align="left" id="d35177e127">
+</th><th align="left" id="d37183e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35177e133">
+</th></tr></thead><tbody><tr><td id="d37183e133">
 
 **Register External staff member**
 
@@ -54,9 +55,9 @@ Description
 1.  Select **Register External Partner Staff** from the channel partner record.
 2.  Select the **Role Type** you want to associate with your user, whether external partner manager or external partner associate.
 3.  Select **Submit**.
- To learn more about the role type and the member registration fields, see [Member registration form](../reference/member-registration-form.md).
+ To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/member-registration-form.md).
 
-</td></tr><tr><td id="d35177e173">
+</td></tr><tr><td id="d37183e173">
 
 **Register Enterprise Partner Relationship Manager**
 

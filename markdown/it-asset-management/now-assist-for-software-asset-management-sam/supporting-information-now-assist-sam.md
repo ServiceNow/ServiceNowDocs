@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Software Asset Management \(SAM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -23,7 +24,7 @@ Now Assist for SAM is supported starting with the Yokohama release.
 
 The Now Assist for SAM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
 
 <table id="table_e4m_4tf_pdc"><thead><tr><th>
 
@@ -91,5 +92,5 @@ Activate the applications in the following order:
 -   Now Assist for Platform
 -   Now Assist for Software Asset Management \(SAM\)
 
-**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](exploring-now-assist-sam.md)
+**Parent Topic:**[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
 

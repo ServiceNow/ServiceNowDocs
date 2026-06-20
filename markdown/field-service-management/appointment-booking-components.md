@@ -2,7 +2,10 @@
 title: Appointment booking components
 description: The roles, properties, and tables for the appointment booking feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking-components.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 2
@@ -207,5 +210,5 @@ Appointment Bookings\[sn\_apptmnt\_booking\_appointment\_booking\]
 Stores records for all appointments, including booked, rescheduled, and canceled appointments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
 

@@ -2,6 +2,7 @@
 title: Exploring the CSDM framework
 description: See how the CSDM framework ensures that your data resides in the appropriate CMDB tables for maximum value from your ServiceNow AI Platform applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -23,7 +24,7 @@ The CSDM is the data framework that admins should follow when they set up Servic
 
 ## Definitions of CSDM terms
 
-See [CSDM terms](../reference/csdm-term-definitions.md).
+See [CSDM terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-term-definitions.md).
 
 ## CSDM conceptual model
 
@@ -34,9 +35,9 @@ This illustration identifies each CSDM domain and the several roles and user typ
 -   The Application Service \[cmdb\_ci\_service\_auto\] table is now labeled Service Instance.
 -   The Technical service \[cmdb\_ci\_service\_technical\] table is now labeled Technology management service.
 
-See [Common Service Data Model — conceptual model](csdm-conceptual-model.md) for a full description.
+See [Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md) for a full description.
 
-![The domains of the CSDM conceptual model.](../image/csdm-model-40.png)
+\[Omitted image "csdm-model-40.png"\] Alt text: The domains of the CSDM conceptual model.
 
 ## CSDM benefits
 
@@ -85,8 +86,8 @@ Understand Service Health \(availability, CSAT, Performance, Vulnerabilities, IP
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
--   **[Common Service Data Model — conceptual model](csdm-conceptual-model.md)**  
+-   **[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)**  
 The CSDM is the data framework that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform products, apps, and features.
 
-**Parent Topic:**[Common Service Data Model](csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

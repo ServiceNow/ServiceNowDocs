@@ -2,6 +2,7 @@
 title: Record the assets used during a work task on the Contractor Portal
 description: Record any assets that you use during the execution of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/use-asset-cp.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -40,5 +41,5 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 The asset you used is successfully recorded in the agent personal stockroom.
 
-**Parent Topic:**[Record the usage of assets on the Contractor Portal](../concept/record-asset-usage-on-cp.md)
+**Parent Topic:**[Record the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-asset-usage-on-cp.md)
 

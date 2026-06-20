@@ -2,6 +2,7 @@
 title: Create a table index
 description: Build indexes to access the data held in your tables more easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/table-administration-and-data-management/t\_CreateCustomIndex.html
 release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d263199e60">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d177517e60">
 
 Option
 
-</th><th align="left" id="d263199e63">
+</th><th align="left" id="d177517e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d263199e69">
+</th></tr></thead><tbody><tr><td id="d177517e69">
 
 **Tables &amp; Columns module**
 
@@ -48,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d263199e102">
+</td></tr><tr><td id="d177517e102">
 
 **Database Indexes related list**
 
@@ -82,5 +83,5 @@ Steps
     Optimize data storage and retrieval by creating a columnstore index. Columnstore indexes store data in a compressed, column-oriented format that can improve query performance, especially when querying large datasets. Available with RaptorDB Professional.
 
 
-**Parent Topic:**[Managing tables and indexes](../concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

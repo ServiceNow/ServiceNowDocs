@@ -2,6 +2,7 @@
 title: Report an OT incident
 description: Create an Operational Technology \(OT\) incident record to report a deviation from an expected standard of operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-incident-management/report-ot-incident.html
 release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -23,7 +24,7 @@ Role required: sn\_ot\_incident\_write
 
 1.  Navigate to the **Industrial Workspace**.
 
-2.  Select the **List** ![](../../../common/image/icon-list.png) icon.
+2.  Select the **List** \[Omitted image "icon-list.png"\] icon.
 
 3.  Under the OT Incidents list module, select one of the following available lists.
 
@@ -218,5 +219,5 @@ Now, the assignment group and assignee are aware that there's an OT incident tha
 
 You can view an OT incident record created for an OT device directly in the device record by opening the device record, clicking the **Related Records** tab, and selecting **OT Incidents**.
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

@@ -2,6 +2,7 @@
 title: Create a snapshot to share and save data in ERP Semantic Mining
 description: Export and import ERP Semantic Mining base data to save and share.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/create-a-snapshot-to-share-and-save-data.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  In the side panel, select the configuration icon \(![Configuration page link](../image/configuration-alias-icon.png)\).
+2.  In the side panel, select the configuration icon \(\[Omitted image "configuration-alias-icon.png"\] Alt text: Configuration page link\).
 
 3.  Select the **Change system** button.
 
 4.  Select **Export data**.
 
-    A check is performed automatically prior to exporting. For details about the process, see [ERP Semantic Mining snapshot prerequisite check](../reference/erpcm-snapshot-prerequisite-check.md).
+    A check is performed automatically prior to exporting. For details about the process, see [ERP Semantic Mining snapshot prerequisite check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-snapshot-prerequisite-check.md).
 
     If another export is in progress, an export unavailable message is displayed. Select **OK** and view the **Snapshots** tab to monitor the progress.
 
@@ -39,21 +40,21 @@ Role required: admin
 
         In the **Snapshots** tab, the automatic export is **Pending**. Select the refresh icon to see the **Status** change to **In progress** and then **Complete**.
 
-        ![Snapshots list with an automatic export listed in pending state.](../image/erpcm-snapshot-export-pending.png)
+        \[Omitted image "erpcm-snapshot-export-pending.png"\] Alt text: Snapshots list with an automatic export listed in pending state.
 
-        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=yokohama&pubname=yokohama-build-workflows&ft:locale=en-US).
+        For more execution details, open Workflow Studio, select **Operations**, and select **Flows**. The flow named **Export snapshot** calls the sub flow **Check set Snapshot to in progress**, and then calls the sub flow **Create Snapshot**. For more information about viewing flows in Workflow Studio, see .
 
     2.  When the export is finished, go to the **Snapshots** tab on the **Configuration** page and select the completed export.
 
-        ![Snapshots list.](../image/erpcm-snapshot-export-complete.png)
+        \[Omitted image "erpcm-snapshot-export-complete.png"\] Alt text: Snapshots list.
 
     3.  On the snapshot record, in **Attachments**, select the actions icon and then select **Download**.
 
-        ![Snapshot record with attachments area highlighted.](../image/erpcm-snapshot-export-record.png)
+        \[Omitted image "erpcm-snapshot-export-record.png"\] Alt text: Snapshot record with attachments area highlighted.
 
         Next, import the data into another system.
 
-5.  In the side panel, select the configuration icon \(![Configuration page link](../image/configuration-alias-icon.png)\).
+5.  In the side panel, select the configuration icon \(\[Omitted image "configuration-alias-icon.png"\] Alt text: Configuration page link\).
 
 6.  Select the **Change system** button, and then select **Import data**.
 
@@ -63,7 +64,7 @@ Role required: admin
 
     3.  Navigate to your downloads folder, select the ERP mining snapshot zip file, and select **Open**.
 
-        ![Downloads folder with ERP snapshot zip file highlighted.](../image/erpcm-snapshot-select-zip.png)
+        \[Omitted image "erpcm-snapshot-select-zip.png"\] Alt text: Downloads folder with ERP snapshot zip file highlighted.
 
         The zip process is done using the ServiceNow Integration Hub Professional Pack Installer plugin. If the plugin isn't installed, the process uses the existing zip functionality on the MID Server.
 
@@ -75,18 +76,18 @@ Role required: admin
 
     6.  Check the status on the **Snapshots** tab.
 
-        ![Snapshots list with automatic export completed and import listed as in progress.](../image/erpcm-snapshot-import-running.png)
+        \[Omitted image "erpcm-snapshot-import-running.png"\] Alt text: Snapshots list with automatic export completed and import listed as in progress.
 
     7.  When the import is complete, manually run AI/ML to obtain candidates out of the new imported data by selecting the **Change system** button and **Run AI/ML analysis**.
 
-        ![Connect system button with options expand and run ai/ml option highlighted.](../image/erpcm-snapshot-run-aiml-ys2.png)
+        \[Omitted image "erpcm-snapshot-run-aiml-ys2.png"\] Alt text: Connect system button with options expand and run ai/ml option highlighted.
 
         AI/ML runs once a day automatically, but you can initiate the process manually at any time using the **Run AI/ML analysis** option. The manual and automatic process are the same and identify technical clusters, then candidate identification, and, lastly, model extensions.
 
         View the **All tasks** tab to check the status.
 
-        ![All tasks list with import tasks listed as completed.](../image/erpcm-snapshot-complete.png)
+        \[Omitted image "erpcm-snapshot-complete.png"\] Alt text: All tasks list with import tasks listed as completed.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

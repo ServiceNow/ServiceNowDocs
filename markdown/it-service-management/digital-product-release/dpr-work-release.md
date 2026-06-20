@@ -2,6 +2,7 @@
 title: Work on a timeline-oriented release for a single product or service
 description: Monitor and work on a release that follows the timeline-oriented release process to release a single product or service.View the release status and work on its phases and tasks, and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-work-release.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
@@ -23,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -33,29 +34,29 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
     **Note:** The selected schedule must be within the release duration \(release target date\).
 
-    The phase start and end dates are updated and the release duration is recalculated by considering the non-working days in the schedule. For more information on how schedules impact the dates of phases and release target, see [Holiday schedules in a release](../concept/dpr-release-holiday-schedule.md).
+    The phase start and end dates are updated and the release duration is recalculated by considering the non-working days in the schedule. For more information on how schedules impact the dates of phases and release target, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
 
 5.  If the release isn't in progress, select **Start release**.
 
 6.  Select the **Overview** section to review and modify release details, get an overview of its status, or change its readiness target date.
 
-    For more information, see [Review and update release details](dpr-work-release-details.md) and [Retarget a release](dpr-work-release-readiness-target.md).
+    For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-details.md) and [Retarget a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-readiness-target.md).
 
 7.  Select the **Release scope** section to review and update the scope of the release by adding or removing the product features and enhancements.
 
-    For more information, see [Update the scope of a release](dpr-work-release-scope.md).
+    For more information, see [Update the scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-scope.md).
 
 8.  Select the **Configuration items** section to review and manage the configuration items in the release.
 
-    You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](dpr-work-release-config-items.md).
+    You can add more configuration items or remove the existing ones as needed. For more information, see [Manage configuration items in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-config-items.md).
 
 9.  Select the **Change requests** section to review and manage the change requests in the release.
 
-    You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](dpr-work-release-change-request.md).
+    You can add new or existing change requests or remove the existing ones as needed. For more information, see [Manage change requests in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-change-request.md).
 
 10. From the Release form header, select the number under the Artifacts to manage artifacts added to the release.
 
-    For more information, see [Manage artifacts in a release](dpr-work-release-artifact.md).
+    For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 11. Select the **Release notes** section to create and manage release notes for the release.
 
@@ -64,7 +65,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
     -   To add release notes manually, select **Add manually** and then enter the release notes in the **Release notes** field.
     -   To generate release notes using AI, select **Generate**.
 
-        For more information, see [Generate AI-powered release notes for a release](dpr-generate-release-notes.md).
+        For more information, see [Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-generate-release-notes.md).
 
 
 ## Execute the release
@@ -87,13 +88,13 @@ Automated email notifications are triggered at key release life cycle events. No
 -   A task approval request is submitted
 -   A task approval request is rejected
 
-For more information, see [Email notifications in Digital Product Release](../reference/dpr-email-notification.md).
+For more information, see [Email notifications in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-email-notification.md).
 
 ### Procedure
 
 1.  Select **Release execution** to view the release status and work on its phases and tasks, and manage key dates.
 
-    ![Release execution page of a time-oriented release to track its progress.](../image/dpr-release-execution.png)
+    \[Omitted image "dpr-release-execution.png"\] Alt text: Release execution page of a time-oriented release to track its progress.
 
 2.  Update a release phase.
 
@@ -127,7 +128,7 @@ For more information, see [Email notifications in Digital Product Release](../re
 
     The task is created in the Pending state andadded to the selected phase.
 
-    For an approval task, an approval record is created for the approvers to review and act.An email notification is also sent to them. For more information, see [Approve or reject a release task](dpr-approve-reject-release-task.md).
+    For an approval task, an approval record is created for the approvers to review and act.An email notification is also sent to them. For more information, see [Approve or reject a release task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-approve-reject-release-task.md).
 
 4.  Track and manage the progress of tasks for the selected phase.
 
@@ -196,7 +197,7 @@ For more information, see [Email notifications in Digital Product Release](../re
 
     4.  Select **Request**.
 
-    The exception request is sent to the Compliance group. For more information about the review and approval of exception request, see [Review the policy exception and extension request](https://www.servicenow.com/docs/access?context=review-policy-ext-and-extension-req-ws&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US) and [Manage policy exceptions and extensions](https://www.servicenow.com/docs/access?context=manage-policy-exceptions-ws&version=yokohama&pubname=yokohama-governance-risk-compliance&ft:locale=en-US).
+    The exception request is sent to the Compliance group. For more information about the review and approval of exception request, see Review the policy exception and extension request and Manage policy exceptions and extensions.
 
     After the exception is approved, the policy status shows as Compliant with exception in subsequent executions. The phase can be completed if all other policies are compliant.
 
@@ -207,11 +208,11 @@ For more information, see [Email notifications in Digital Product Release](../re
     -   Add a new key date to the release:
         1.  Select the more actions icon next to the **Add task** button and then select **Add key date**.
 
-            ![Add key date button on the Release execution tab.](../image/dpr-icon-add-keydate.png)
+            \[Omitted image "dpr-icon-add-keydate.png"\] Alt text: Add key date button on the Release execution tab.
 
         2.  In the Add key date dialog box, fill in the fields.
 
-            For more information, see [Release key date form](../reference/release-key-date-form.md).
+            For more information, see [Release key date form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/release-key-date-form.md).
 
         3.  Select **Save**.
     -   Update the existing key dates in the release:
@@ -223,7 +224,7 @@ For more information, see [Email notifications in Digital Product Release](../re
         3.  Select **Save**.
 9.  Close a release after verifying its completeness.
 
-    For more information, see [Close a release](dpr-complete-release.md).
+    For more information, see [Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-complete-release.md).
 
 10. Cancel a release if it's no longer required.
 

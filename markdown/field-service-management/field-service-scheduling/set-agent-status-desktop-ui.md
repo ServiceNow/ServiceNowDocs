@@ -2,6 +2,7 @@
 title: Set agent status from the desktop
 description: Field service agents can indicate their status from the desktop and let dispatchers know if they are ahead of schedule, behind schedule, or on time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/set-agent-status-desktop-ui.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -39,5 +40,5 @@ The system administrator must enable the FSM Profile view before field service a
     The status is updated on the agent's User form. The dispatcher can see this status update in Dispatcher Workspace.
 
 
-**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

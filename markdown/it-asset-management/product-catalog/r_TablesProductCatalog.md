@@ -2,6 +2,7 @@
 title: Tables installed with Product Catalog
 description: Product Catalog plugin adds the following tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/product-catalog/r\_TablesProductCatalog.html
 release: yokohama
 product: Product Catalog
 classification: product-catalog
@@ -56,5 +57,5 @@ Vendor Catalog Item \[pc\_vendor\_cat\_item\]
 Stores all vendor catalog item information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Product Catalog](r_InstalledWithProductCatalog.md)
+</table>**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)
 

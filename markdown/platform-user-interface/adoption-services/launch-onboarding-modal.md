@@ -2,6 +2,7 @@
 title: Launch an Onboarding Modal
 description: Launch an Onboarding Modal you have created in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/launch-onboarding-modal.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services

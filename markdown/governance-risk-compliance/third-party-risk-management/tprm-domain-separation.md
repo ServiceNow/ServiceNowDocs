@@ -2,11 +2,12 @@
 title: Domain separation and Third-party Risk Management
 description: Domain separation is supported for TPRM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-domain-separation.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,7 +26,7 @@ Domain separation is supported for TPRM. Domain separation enables you to separa
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation overview
 
@@ -46,10 +47,10 @@ There is no **Domain** column in TPRM application tables.
 
 All TPRM tables support data-level domain separation with sys\_domain and sys\_domain\_path columns.
 
-**Parent Topic:**[Third-party Risk Management reference](tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

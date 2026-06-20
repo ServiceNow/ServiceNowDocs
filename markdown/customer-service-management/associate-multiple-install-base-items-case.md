@@ -2,7 +2,10 @@
 title: Associate multiple install base items to a case
 description: In the Customer Service Management application, you can associate one or more related install base items to a case to access all items associated with the parent install base item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/associate-multiple-install-base-items-case.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

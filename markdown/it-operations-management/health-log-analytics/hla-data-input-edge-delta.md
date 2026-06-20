@@ -2,6 +2,7 @@
 title: Configure Edge Delta data inputs
 description: Configure an Edge Delta data input to enable Health Log Analytics to process Edge Delta log messages streaming into your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-edge-delta.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -17,13 +18,13 @@ Configure an Edge Delta data input to enable Health Log Analytics to process Edg
 
 ## Before you begin
 
--   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+-   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
 
-    ![MID Server configuration with Log Ingestion capability enabled.](../image/hla-mid-log-ingestion.png)
+    \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=yokohama&pubname=yokohama-servicenow-platform&section=t_SetMIDServerProperties&ft:locale=en-US). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property. If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 Role required: evt\_mgmt\_admin
 
@@ -41,7 +42,7 @@ If your organization uses Edge Delta to handle large volumes of log data from mu
 
 4.  On the form, fill in the fields.
 
-    For a detailed description of the fields, see [Edge Delta data input configuration fields](../reference/hla-data-input-edge-delta-ref.md).
+    For a detailed description of the fields, see [Edge Delta data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-edge-delta-ref.md).
 
 5.  Select **Save** to save your configuration.
 
@@ -56,7 +57,7 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

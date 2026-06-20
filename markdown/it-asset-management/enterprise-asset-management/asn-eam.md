@@ -2,6 +2,7 @@
 title: Use Advanced Shipment Notification in Enterprise Asset Management
 description: Use Advanced Shipment Notification \(ASN\) to automate and create enterprise asset records for when your assets are in transit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/asn-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -27,7 +28,7 @@ Creating enterprise asset records manually is time consuming and can lead to err
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Asset operations** &gt; **Shipment Notifications**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Procurement** &gt; **Advance shipment**.
 
 2.  Select **New**.
 
@@ -60,5 +61,5 @@ Creating enterprise asset records manually is time consuming and can lead to err
     Serialized assets do not have duplicate enterprise import records created, but consumables do have duplicate entries.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

@@ -2,6 +2,7 @@
 title: Knowledge-based authentication \(Security Questions\)
 description: Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA also supports validation against external systems through custom scripts, enabling identification of callers whose data resides outside ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/knowledge-based-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -38,8 +39,8 @@ While the KBA method is a convenient authentication method, there are several co
 
 KBA can enhance overall security when used appropriately. For detailed configuration instructions, see:
 
--   [Create KBA questions](../task/create-knowledge-based-questions.md)
--   [Create KBA answers](../task/create-knowledge-based-answers.md)
--   [Map KBA questions to answers](../task/create-kba-answer-mappings.md)
--   [Assign KBA questions to your AI voice agent service](../task/create-kba-service-mappings.md)
+-   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-questions.md)
+-   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-answers.md)
+-   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-answer-mappings.md)
+-   [Assign KBA questions to your AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-service-mappings.md)
 

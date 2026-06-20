@@ -2,6 +2,7 @@
 title: Request translations in Localization Workspace: Scope
 description: Select specific documents to add to a translation request in Localization Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-request-translations-scope.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
@@ -31,7 +32,7 @@ The following procedure covers step three of four steps in the Translation Reque
 
     Localization Workspace retrieves all untranslated or partially translated documents according to the content types that you selected in the previous step. By default, all retrieved documents are selected for inclusion in your translation request.
 
-2.  Reveal the Types selector by opening the **Resizable panes divider**, then expand Types by selecting the carat icon. ![The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted.](../image/lw-request-translations-scope1.png)
+2.  Reveal the Types selector by opening the **Resizable panes divider**, then expand Types by selecting the carat icon. \[Omitted image "lw-request-translations-scope1.png"\] Alt text: The Types step in the Translation Request wizard in Localization Workspace, with the Knowledge type highlighted.
 
 3.  Deselect any retrieved documents that you don't want to include in your request.
 

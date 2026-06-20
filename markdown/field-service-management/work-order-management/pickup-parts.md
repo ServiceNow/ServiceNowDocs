@@ -2,6 +2,7 @@
 title: Track part pickups on the Field Service Contractor Portal
 description: You can see which parts are ready to be picked up by viewing a consolidated list of assets grouped by stockroom and waiting to be picked up. After picking up the part, you can close the transfer order line task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/pickup-parts.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -47,5 +48,5 @@ The agents can physically pick up the assets and then record them as delivered. 
 
 The part is delivered successfully to the agent.
 
-**Parent Topic:**[Requesting and receiving required parts](../concept/requesting-and-receiving-parts.md)
+**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

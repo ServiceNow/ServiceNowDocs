@@ -2,6 +2,7 @@
 title: Create KBA answers
 description: Create knowledge-based answers for the preconfigured security questions to confirm the user's identity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/create-knowledge-based-answers.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -76,7 +77,7 @@ Answer Column
 Select the answer column from the **Available** list. Example: `Business phone`.
 
 </td></tr></tbody>
-</table>    ![Knowledge Based Answer](../images/configure-kba-answer.png "Knowledge Based Answer")
+</table>    \[Omitted image "configure-kba-answer.png"\] Alt text: Knowledge Based Answer
 
 4.  Select **Submit**.
 
@@ -85,5 +86,5 @@ Select the answer column from the **Available** list. Example: `Business phone`.
 
 You're redirected to the Knowledge Based Answers list view. Verify if your answer is successfully added.
 
-![Knowledge Based Answer - list](../images/configure-kba-answer-result.png "Knowledge Based Answers - list")
+\[Omitted image "configure-kba-answer-result.png"\] Alt text: Knowledge Based Answer - list
 

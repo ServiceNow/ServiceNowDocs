@@ -2,7 +2,10 @@
 title: Add related lists to sold products and install base items
 description: Add Customer Contracts and Entitlements entities' related lists on the sold products and install base Items pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-lists-sp-ibi.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -27,15 +30,15 @@ To see the contracts, contract line items, and entitlements associated with a so
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d99135e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d100006e65">
 
 Add to
 
-</th><th align="left" id="d99135e68">
+</th><th align="left" id="d100006e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d99135e74">
+</th></tr></thead><tbody><tr><td id="d100006e74">
 
 **Sold Product**
 
@@ -45,7 +48,7 @@ Procedure
 2.  Select the sold product.
 
 
-</td></tr><tr><td id="d99135e107">
+</td></tr><tr><td id="d100006e107">
 
 **Install Base Item**
 

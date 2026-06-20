@@ -2,6 +2,7 @@
 title: Configuring components for responsive authoring
 description: When creating pages with responsive authoring for different form factors, learn how adjusting some component configuration options can make pages look and work better at smaller sizes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ui-builder/responsive-authoring-component-configuration.html
 release: yokohama
 product: UI Builder
 classification: ui-builder
@@ -29,15 +30,15 @@ A method of increasing page usability is to tailor the look and feel of componen
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch with responsive authoring.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-page.md).
 
 4.  At the top, check that the desktop form factor icon is selected.
 
-    ![Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-desktop.png)
+    \[Omitted image "responsive-author-icon-desktop.png"\] Alt text: Black arrow pointing to desktop form factor icon at the top of a UI Builder page in editor view.
 
 5.  On the stage, select **+ Add content**.
 
@@ -51,17 +52,17 @@ A method of increasing page usability is to tailor the look and feel of componen
 
 10. View the page at the desktop form factor.
 
-    ![Page showing list component at desktop form factor with icons, multiple columns displayed, and pagination information.](../image/responsive-author-config1.png)
+    \[Omitted image "responsive-author-config1.png"\] Alt text: Page showing list component at desktop form factor with icons, multiple columns displayed, and pagination information.
 
     Note the elements displayed, including the icons at the top, the number of columns, and the pagination information at the bottom.
 
 11. Select the mobile form factor icon.
 
-    ![Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.](../image/responsive-author-icon-mobile.png)
+    \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     At the mobile form factor, the list component is crowded and contains both vertical and horizontal scroll bars.
 
-    ![Page displayed at mobile form factor with list component.](../image/responsive-author-layout13.png)
+    \[Omitted image "responsive-author-layout13.png"\] Alt text: Page displayed at mobile form factor with list component.
 
     Make some simple configuration changes to improve the usability and appearance for the mobile form factor.
 
@@ -79,7 +80,7 @@ A method of increasing page usability is to tailor the look and feel of componen
 
     3.  Select the **Hide list actions** option.
 
-        ![Header section of the configuration panel's configure tab.](../image/responsive-author-config2.png)
+        \[Omitted image "responsive-author-config2.png"\] Alt text: Header section of the configuration panel's configure tab.
 
         As you made each change, the stage updated automatically. The header is a smaller size, the refresh time was removed, and the list actions icon was removed.
 
@@ -99,16 +100,16 @@ A method of increasing page usability is to tailor the look and feel of componen
 
     The range, row count, and rows per page selector were removed. \(The row count is still available at the top of the mobile screen\).
 
-    ![Page displayed at mobile form factor with configured list component.](../image/responsive-author-layout14.png)
+    \[Omitted image "responsive-author-layout14.png"\] Alt text: Page displayed at mobile form factor with configured list component.
 
     In the configuration panel, the options and fields you edited are marked with the mobile cascade icon.
 
 17. Select the mobile cascade icon next to any option or field to confirm that the value is for the mobile form factor.
 
-    ![Configuration panel with configure tab displayed and black arrow pointing to value is specific message.](../image/responsive-author-config3.png)
+    \[Omitted image "responsive-author-config3.png"\] Alt text: Configuration panel with configure tab displayed and black arrow pointing to value is specific message.
 
 18. Select the tablet and the desktop form factor icons at the top to confirm that no changes were made to the larger form factors.
 
 
-**Parent Topic:**[Responsive authoring](../concept/responsive-authoring.md)
+**Parent Topic:**[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/responsive-authoring.md)
 

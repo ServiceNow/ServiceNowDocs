@@ -2,6 +2,7 @@
 title: Parent and child security incident relationships
 description: You can associate and track the impact of any given issue using parent and child security incident relationships in Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/c\_ParentChildRelationships.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -19,13 +20,13 @@ Using the **Related Records** tab, you can add a **Parent security incident** is
 
 **Note:** You cannot make an existing parent security incident its own child by using the same number for both incidents.
 
-![Adding a Parent security incident](../image/SI_Parent2Child.png)
+\[Omitted image "SI\_Parent2Child.png"\] Alt text: Adding a Parent security incident
 
-![Viewing a Child security incident](../image/SI_Childview.png "Child Security Incident")
+\[Omitted image "SI\_Childview.png"\] Alt text: Viewing a Child security incident
 
 You can add one or more **Child Security Incidents** to any security incident record, as well, using the **Edit** button in the **Child Security Incidents** tab. In the following example, all three records are connected.
 
-![Viewing the grandparent, parent, and child security incidents](../image/SI_Parent-Child_Grandparent.png "Grandparent, Parent, and Child security incidents")
+\[Omitted image "SI\_Parent-Child\_Grandparent.png"\] Alt text: Viewing the grandparent, parent, and child security incidents
 
 Note:
 
@@ -34,5 +35,5 @@ Note:
 
 When a parent is closed or canceled, any active children are also closed or canceled. Any active **Response Tasks** on the child incidents are canceled. If there are no other open **Tasks**, the child incident is closed. When closed, the **Post Incident Interview** records the closure and the information found on the **Closure Information** tab is propagated from the parent to the children.
 
-![Child response task closed and post incident review updated](../image/ChildResponseTaskClosed.png "Close Child Response task")
+\[Omitted image "ChildResponseTaskClosed.png"\] Alt text: Child response task closed and post incident review updated
 

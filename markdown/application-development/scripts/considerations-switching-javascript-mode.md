@@ -2,6 +2,7 @@
 title: Considerations for switching JavaScript modes
 description: Switching the JavaScript mode for an application or script might change the behavior of existing scripts. Review some examples of behavior changes before switching JavaScript modes or to troubleshoot any issues that you experience after switching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scripts/considerations-switching-javascript-mode.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [JavaScript modes, JavaScript engine on the platform, Server-side sc
 
 Switching the JavaScript mode for an application or script might change the behavior of existing scripts. Review some examples of behavior changes before switching JavaScript modes or to troubleshoot any issues that you experience after switching.
 
-For more information about each JavaScript mode, see [JavaScript modes](https://www.servicenow.com/docs/access?context=c_JS_modes&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US) and [JavaScript engine feature support](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+For more information about each JavaScript mode, see  and .
 
 This table highlights how JavaScript behavior has evolved from the lenient and error-prone pre-ES5 environment, to the stricter and more predictable ES5, and lastly the more feature-rich environment of ES12 \(ECMAScript 2021\).
 
@@ -251,5 +252,5 @@ Treat let and yield as keywords
 Both are keywords. Using them as identifiers throws syntax errors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[JavaScript modes](c_JS_modes.md)
+</table>**Parent Topic:**[JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_JS_modes.md)
 

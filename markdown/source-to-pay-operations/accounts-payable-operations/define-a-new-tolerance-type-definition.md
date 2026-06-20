@@ -2,6 +2,7 @@
 title: Define an invoice tolerance type
 description: Define an invoice tolerance type that you can use in an exception definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_ap\_apm.invoice\_tolerance\_admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **All** &gt; **Tolerance types**.
 
-    ![Navigate to Tolerance types](../image/apo-tolerance-types-nav.png)
+    \[Omitted image "apo-tolerance-types-nav.png"\] Alt text: Navigate to Tolerance types
 
 2.  On the **Invoice Tolerance type** list, select **New**.
 
@@ -43,5 +44,5 @@ Role required: sn\_ap\_apm.invoice\_tolerance\_admin
 
 The invoice tolerance type is defined for use in an exception definition.
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

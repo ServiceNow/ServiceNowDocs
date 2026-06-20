@@ -2,6 +2,7 @@
 title: View Zero Copy Connector for ERP software information
 description: In Zero Copy Connector for ERP, view software information including machine type, node name, supported database, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/view-erp-system-information.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -26,16 +27,16 @@ This feature is available starting in the Yokohama Patch 3 \(May 2025\) release.
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP**.
 
-2.  Open the ERP systems list by selecting the systems icon \(![ERP systems icon](../image/erp-systems-icon-sidebar.png)\) in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \(\[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: ERP systems icon\) in the side panel.
 
 3.  Open a system.
 
 4.  Select the **Software info** tab.
 
-    ![Zero Copy Connector for ERP system record with software info tab displayed.](../image/erpc-software-info-tab.png)
+    \[Omitted image "erpc-software-info-tab.png"\] Alt text: Zero Copy Connector for ERP system record with software info tab displayed.
 
-    View software information including name, machine type, operating system, and kernel details. All fields are read-only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](../reference/erp-canvas-system-info-details.md).
+    View software information including name, machine type, operating system, and kernel details. All fields are read-only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-info-details.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-systems.md)
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.md)
 

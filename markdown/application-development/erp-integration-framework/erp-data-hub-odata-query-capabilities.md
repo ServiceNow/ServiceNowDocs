@@ -2,6 +2,7 @@
 title: OData capabilities supported by Zero Copy Connector for ERP
 description: Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Connect Zero Copy Connector for ERP to SAP using OData and HTTP, Us
 
 Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP.
 
-For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in Zero Copy Connector for ERP](../task/create-an-odata-connection.md).
+For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-odata-connection.md).
 
 <table id="table_obv_yvk_fdc"><thead><tr><th>
 
@@ -46,5 +47,5 @@ Available in the **Use ERP Data** flow.
 Specify the order, ascending or descending, in which data should be returned from an output variable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md)
+</table>**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

@@ -2,6 +2,7 @@
 title: View my exports
 description: View and download the exports you are authorized to access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-view-my-exports.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

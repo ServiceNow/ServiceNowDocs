@@ -2,6 +2,7 @@
 title: Associate tool objects to applications – Classic
 description: After creating an application, you can associate plans, repositories, pipelines, and artifacts with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/apps-associate-objects-classic.html
 release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -27,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
 
 3.  From the application record page, select the related list for the object type that you want to associate.
 
-<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d275944e77">
+<table id="choicetable_ewm_tlh_wwb"><thead><tr><th align="left" id="d272938e77">
 
 Object type
 
-</th><th align="left" id="d275944e80">
+</th><th align="left" id="d272938e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d275944e86">
+</th></tr></thead><tbody><tr><td id="d272938e86">
 
 **Plans**
 
@@ -47,7 +48,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d275944e122">
+</td></tr><tr><td id="d272938e122">
 
 **Repositories**
 
@@ -59,7 +60,7 @@ Steps
 4.  Select **Save**.
  **Note:** When the property **Enable automatic association of repos to apps on pipeline execution** is enabled, repositories are automatically assigned to applications when a pipeline associated with an app identifies commits of a repository that is not yet associated.
 
-</td></tr><tr><td id="d275944e165">
+</td></tr><tr><td id="d272938e165">
 
 **Pipelines**
 

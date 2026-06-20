@@ -2,6 +2,7 @@
 title: Configure Entity-based access
 description: Configure entity-based access by installing the Entity-based Access Configurations plugin and enabling properties for record types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/configure-entity-based-access.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -38,5 +39,5 @@ Role required: sn\_privacy.admin
     Based on your selected settings, the entity-based access properties are configured in your system.
 
 
-**Parent Topic:**[Access control through organizational structure](access-control-by-legal-entity.md)
+**Parent Topic:**[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)
 

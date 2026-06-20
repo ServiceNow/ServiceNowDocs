@@ -2,11 +2,12 @@
 title: Create Alibaba Cloud API Credentials
 description: Create Alibaba Cloud API credentials on the ServiceNow AI Platform to enable access to your Alibaba Cloud resources during Alibaba Cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/create-alibaba-cloud-api-credentials.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -48,5 +49,5 @@ Role required: discovery\_admin
 
 ## What to do next
 
-[Set up Alibaba Cloud service accounts](set-up-alibaba-cloud-service-account.md)
+[Set up Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md)
 

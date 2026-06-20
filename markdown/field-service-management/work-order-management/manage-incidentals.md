@@ -2,6 +2,7 @@
 title: Enter incidental expenses directly from a work order task on a mobile device
 description: Create and track incidental expenses that arise during the execution of a work order task through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/manage-incidentals.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -33,7 +34,7 @@ You can create incidental expenses for a work order task at any point during the
 
 3.  Open a work order task from the list.
 
-4.  On the **Details** tab, tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  On the **Details** tab, tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap the **Log incidental** function.
 
@@ -62,5 +63,5 @@ The system generates an expense line for the incidental expense if the following
 
 If any of the conditions change, the expense line is deleted.
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

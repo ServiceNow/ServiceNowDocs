@@ -2,6 +2,7 @@
 title: Convert quotes into orders
 description: Use the Customer Order tab to convert a quote into a customer order in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-customer-orders-tab.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ The quote must be in an Active state and the quote state must be set to Complete
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view ![](../image/Lists.png).
+1.  In the CSM Configurable Workspace, select the **List** view \[Omitted image "Lists.png"\].
 
 2.  Navigate to **Quotes** &gt; **All**.
 

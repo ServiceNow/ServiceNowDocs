@@ -2,6 +2,7 @@
 title: Auto-create translation tasks
 description: Auto-create translation tasks in specified languages to avoid having to manually create translation tasks after an article is published. The available languages are determined by the language plugins that have been installed on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/auto-create-translation-tasks.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

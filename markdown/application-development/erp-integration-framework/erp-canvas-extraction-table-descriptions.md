@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP extraction table field descriptions
 description: The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-table-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The Extraction table form in Zero Copy Connector for ERP enables you to create and edit extraction tables in the ERP \(Enterprise Resource Planning\) model.
 
-For process details, see [Add a new ERP extraction table in Zero Copy Connector for ERP](../task/erp-canvas-add-new-extraction-table.md).
+For process details, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 <table id="table_cv1_h3z_wxb"><thead><tr><th>
 
@@ -43,7 +44,7 @@ Table that the extracted data is cached and stored in.The transform table is a t
 
 The specified Glide table connects the source ERP extraction table and the target table for the extracted data.
 
-If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US).
+If you use a custom transform table, you must first create the table on the ServiceNow AI Platform, and the table must be in the application scope. For more information on creating table transform maps, see .
 
 </td></tr><tr><td>
 
@@ -94,5 +95,5 @@ Long text
 Any additional text to describe the ERP extraction table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

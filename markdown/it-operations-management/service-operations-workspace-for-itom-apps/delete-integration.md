@@ -2,11 +2,12 @@
 title: Delete integration
 description: Delete integration allows you to permanently remove a connector integration from your system. This feature helps you maintain a clean and organized system by eliminating unused or obsolete integrations, freeing up resources and reducing potential clutter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/delete-integration.html
 release: yokohama
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -25,15 +26,15 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
 3.  Select the **Installed integrations** tab.
 
-4.  For the integration that you want to delete, select the Ellipses icon \(![Ellipsis horizontal icon](../../../reuse/icons/product-icons/ellipsis-horizontal-fill-24.svg)\) and then select **Delete**.
+4.  For the integration that you want to delete, select the Ellipses icon \(\[Omitted image "ellipsis-horizontal-fill-24.svg"\] Alt text: Ellipsis horizontal icon\) and then select **Delete**.
 
-    ![Option to delete connector.](../image/delete-connector.png)
+    \[Omitted image "delete-connector.png"\] Alt text: Option to delete connector.
 
 5.  On the confirmation window, select **Delete**.
 

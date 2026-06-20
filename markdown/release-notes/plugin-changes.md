@@ -2,6 +2,7 @@
 title: Changes to plugins in the Yokohama release
 description: This table lists the existing plugins that were deprecated, planned for deprecation, renamed, or changed in some way.This table lists the existing plugins that were deprecated in Yokohama and Xanadu that weren't previously listed as planned for deprecation.This table lists the existing plugins that were planned for deprecation in a future release.This table lists the existing plugins that were renamed or changed in Yokohama or Xanadu.This table lists the existing plugins that are in maintenance mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/plugin-changes.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -51,7 +52,7 @@ Integrate Cloud Management Google Cloud Connector scoped application with CMP
 
 </td><td>
 
-Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the [Cloud Services Catalog Terraform Connector](https://www.servicenow.com/docs/access?context=cpg-terraform-connector-landing-page&version=yokohama&pubname=yokohama-it-operations-management&ft:locale=en-US) documentation.
+Install the Cloud Provisioning and Governance: Terraform Connector application from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Enables support for encryption of fields and attachments.
 
 </td><td>
 
-Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see [Activate Field Encryption Enterprise](https://www.servicenow.com/docs/access?context=activate-platform-encryption&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+Use either Field Encryption Starter or Field Encryption Enterprise under the new entitlement structure. For more information, see .
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ Use the HR Service Delivery Agent Workspace to interact with employees, respond 
 
 </td><td>
 
-Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see [Agent Workspace for HR Case Management \(Configurable\)](https://www.servicenow.com/docs/access?context=agent-ws-hr-case-mgmt-landing-page&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US) and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
+Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see  and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 
 </td></tr><tr><td>
 
@@ -195,7 +196,7 @@ Deprecated in Xanadu
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://www.servicenow.com/docs/access?context=configuring-dispatcher-workspace&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
+Install and configure the Field Service Dispatcher workspace. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -227,7 +228,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://www.servicenow.com/docs/access?context=sec-center-v2&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -243,7 +244,7 @@ Displays the dispatch map for viewing agents, tasks, and agent routes.
 
 </td><td>
 
-Install and configure the Field Service Dispatcher workspace. For guidance, see [Configuring Dispatcher Workspace](https://www.servicenow.com/docs/access?context=configuring-dispatcher-workspace&version=yokohama&pubname=yokohama-field-service-management&ft:locale=en-US).
+Install and configure the Field Service Dispatcher workspace. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -291,7 +292,7 @@ Offers ESG frameworks such as authority documents and citations and provides the
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://www.servicenow.com/docs/access?context=esg-content-accelerator&version=yokohama&pubname=yokohama-environmental-social-governance&ft:locale=en-US).
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -324,7 +325,7 @@ The SASB Accelerator is designed for use with the ESG Management and Reporting a
 
 </td><td>
 
-Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see [ESG content accelerator](https://www.servicenow.com/docs/access?context=esg-content-accelerator&version=yokohama&pubname=yokohama-environmental-social-governance&ft:locale=en-US).
+Install the ESG Content Accelerator application from the ServiceNow Store. For guidance, see .
 
 </td></tr><tr><td>
 
@@ -340,7 +341,7 @@ Allows providers to publish catalogs for customers and receive and fulfill custo
 
 </td><td>
 
--   Install the [Service Bridge for Providers](https://www.servicenow.com/docs/access?context=service-bridge-providers-landing-page&version=yokohama&pubname=yokohama-service-bridge&ft:locale=en-US) application from the ServiceNow Store and review the documentation.
+-   Install the Service Bridge for Providers application from the ServiceNow Store and review the documentation.
 -   Follow the guidance in KB1499823 to: Migrate your configurations Have your consumers install the new Service Bridge for Consumers application from the ServiceNow store. Test the new application with your consumers. Once it has been validated, remove the entitlements for the Service Bridge \(Legacy\) content and entitle the content for Service Bridge for Providers.
 
 </td></tr><tr><td>
@@ -357,7 +358,7 @@ Allows customers to submit service requests to their provider and monitor these 
 
 </td><td>
 
--   Install the [Service Bridge for Consumers](https://www.servicenow.com/docs/access?context=service-bridge-consumers-landing-page&version=yokohama&pubname=yokohama-service-bridge&ft:locale=en-US) application from the ServiceNow Store and review the documentation.
+-   Install the Service Bridge for Consumers application from the ServiceNow Store and review the documentation.
 -   Reach out to your Service Bridge Provider to coordinate the migration to the new Service Bridge application. They’ll need to coordinate the migration with you along with any testing. Once ready, they’ll send you a registration link to connect the new application.
 
 </td></tr><tr><td>
@@ -459,7 +460,7 @@ Load demo data for CTI Softphone.
 
 </td><td>
 
-Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the [Integrate ServiceNow Voice with Amazon Connect](https://www.servicenow.com/docs/access?context=integrate-ccc-amazonconnect&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) documentation.
+Install the ServiceNow Voice with Amazon Connect application and all its dependencies from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -555,7 +556,7 @@ Password reset add-on to enable the use of ServiceNow Orchestration. Includes su
 
 </td><td>
 
-Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the [Integrate Password Reset with your Active Directory service](https://www.servicenow.com/docs/access?context=t_ConPassResetActiveDir&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US) documentation.
+Install the Password Reset integration for Microsoft Active Directory application from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -699,7 +700,7 @@ Provides an enhanced user interface for monitoring and resolving threats to an o
 
 </td><td>
 
-Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the [Security Incident Response Workspace](https://www.servicenow.com/docs/access?context=sir-workspace-landing-page&version=yokohama&pubname=yokohama-security-management&ft:locale=en-US) documentation.
+Install Security Incident Response version 13.4.5 or higher from the ServiceNow Store and review the  documentation.
 
 </td></tr><tr><td>
 
@@ -928,7 +929,7 @@ Maintenance mode only.
 
 </td><td class="description">
 
-An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US) and [Content Management and Service Portal](https://www.servicenow.com/docs/access?context=c_CMSAndSP&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+An extension to Content Management that adds iFrames and Flash frames.Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see  and .
 
 </td><td align="center">
 

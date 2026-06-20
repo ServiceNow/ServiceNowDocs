@@ -2,6 +2,7 @@
 title: Follow feeds
 description: You can view users who are following you or other users you are following.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_FollowingFeeds.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -25,12 +26,12 @@ Role required: none
 
     The system shows 10 most recent followers or users you are following.
 
-    ![People](../image/People.png "People")
+    \[Omitted image "People.png"\] Alt text: People
 
 2.  Click the Show More link if either list contains more than 10 users.
 
     **Note:** If you are following a particular user whose profile changes, that user moves to the front of the Following list. This alerts you to changes in the profile of a user you are following.
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

@@ -2,6 +2,7 @@
 title: Remove Conversational Integration with Facebook Messenger
 description: Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
@@ -36,5 +37,5 @@ Role required: admin
     The Facebook Messenger application and all of its data is removed.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](messg-fbm.md)
+**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
 

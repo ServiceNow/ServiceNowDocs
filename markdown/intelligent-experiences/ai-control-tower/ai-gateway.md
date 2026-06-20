@@ -2,13 +2,14 @@
 title: AI Gateway
 description: Explore the AI Gateway page and its tab in the AI Control Tower Configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-gateway.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-10-28"
 reading_time_minutes: 1
-breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Gateway
@@ -30,5 +31,5 @@ You can **Export** the list into PDF, JSON, Excel, and CSV format. The list of a
 -   Last updated by
 -   Updated
 
-For information on AI Gateway tab on the AI Control Tower Home, see [AI Gateway tab in AI Control Tower](ai-gateway-tab.md)
+For information on AI Gateway tab on the AI Control Tower Home, see [AI Gateway tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-gateway-tab.md)
 

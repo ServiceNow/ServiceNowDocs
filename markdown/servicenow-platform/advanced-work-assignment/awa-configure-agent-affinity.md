@@ -2,6 +2,7 @@
 title: Configure Agent Affinity rules
 description: Create or change the Agent Affinity rules that route work items in Advanced Work Assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-configure-agent-affinity.html
 release: yokohama
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -105,5 +106,5 @@ Agent who is part of the account team. This field appears when you select **Acco
 </table>4.  Click **Submit** for a new affinity rule or **Update** to modify an existing affinity rule.
 
 
-**Parent Topic:**[Using Agent Affinity](../concept/awa-agent-affinity-concept.md)
+**Parent Topic:**[Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md)
 

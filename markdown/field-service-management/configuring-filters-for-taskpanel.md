@@ -2,7 +2,10 @@
 title: Determine the tasks to appear in the task panel
 description: Define default filters to determine which tasks appear on the task panel in the Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-filters-for-taskpanel.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

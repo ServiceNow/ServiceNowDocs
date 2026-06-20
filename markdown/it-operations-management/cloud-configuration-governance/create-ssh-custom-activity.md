@@ -2,6 +2,7 @@
 title: Create the SSH custom activity
 description: Create an SSH custom activity so you can use it in your workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-ssh-custom-activity.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,7 +28,7 @@ Role required: cloud designer or admin
 
 3.  From the list of types of activities, choose **SSH**.
 
-    ![Choose SSH as the custom activity type](../image/custom-tab-choose-ssh.png)
+    \[Omitted image "custom-tab-choose-ssh.png"\] Alt text: Choose SSH as the custom activity type
 
 4.  When the Activity Designer opens with the General tab displayed, enter a unique name for the activity and then click **Continue**.
 
@@ -59,7 +60,7 @@ Role required: cloud designer or admin
 
     3.  Click **Continue**.
 
-        ![Add inputs to the Execution Command](../image/execution-command-tab.png)
+        \[Omitted image "execution-command-tab.png"\] Alt text: Add inputs to the Execution Command
 
 7.  On the Outputs tab, add the output variables with the following steps:
 
@@ -80,7 +81,7 @@ Role required: cloud designer or admin
 
     5.  Repeat for the output variable, selecting executionResult.output as the Parsing source, then click **Submit**.
 
-        ![Outputs display in Parsing rules](../image/outputs-display-in-parsing-rules.png)
+        \[Omitted image "outputs-display-in-parsing-rules.png"\] Alt text: Outputs display in Parsing rules
 
     6.  Click **Continue**.
 
@@ -91,5 +92,5 @@ Role required: cloud designer or admin
 
 ## What to do next
 
-You have now created a custom activity that exists as a container until you add in the input mappings to it. The mappings tell the activity where the information it needs is coming from. You enter the input mappings during the workflow creation procedure. See [Create an SSH workflow](create-ssh-workflow.md).
+You have now created a custom activity that exists as a container until you add in the input mappings to it. The mappings tell the activity where the information it needs is coming from. You enter the input mappings during the workflow creation procedure. See [Create an SSH workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-ssh-workflow.md).
 

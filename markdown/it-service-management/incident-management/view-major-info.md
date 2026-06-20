@@ -2,6 +2,7 @@
 title: View major incident information on the Incident form
 description: When an incident enters the major incident life cycle, the Major Incident and the Post Incident Report tab appears on the incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/view-major-info.html
 release: yokohama
 product: Incident Management
 classification: incident-management
@@ -109,5 +110,5 @@ The probable cause of the issue identified in the major incident.
     |Timeline|Information of all the activity feeds not only of the incident but also of the incident communication plan and incident communication tasks related to the incident.|
 
 
-**Parent Topic:**[Working on major incident management](../concept/work-on-mim.md)
+**Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/work-on-mim.md)
 

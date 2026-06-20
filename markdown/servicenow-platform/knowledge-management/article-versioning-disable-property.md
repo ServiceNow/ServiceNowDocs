@@ -2,6 +2,7 @@
 title: Disable the article versioning feature
 description: Users with the system administrator role can disable the article versioning feature by setting a property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/article-versioning-disable-property.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

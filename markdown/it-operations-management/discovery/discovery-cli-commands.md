@@ -2,6 +2,7 @@
 title: Discovery CLI commands
 description: A list of commands that are available to the Discovery Command Line Interface \(CLI\) in the Pattern Designer Enhancements application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/discovery-cli-commands.html
 release: yokohama
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ A list of commands that are available to the Discovery Command Line Interface \(
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## discovery-insights
 
@@ -1007,5 +1008,5 @@ Target host on which these credentials are run. This value must be an IP address
 
 For more information about Discovery CLI, see the [Discovery CLI \[KB1553142\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1553142) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Discovery reference](discovery-references.md)
+**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-references.md)
 

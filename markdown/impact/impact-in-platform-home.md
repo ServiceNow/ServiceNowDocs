@@ -2,7 +2,10 @@
 title: Impact home page
 description: Impact application is available for you to install from ServiceNow Store applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-platform-home.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 6
@@ -19,8 +22,8 @@ Before using Impact application, you must verify that you have the entitlement. 
 
 To install and configure the Impact application, see
 
--   [Configuring the Impact Store Application](configuring-impact-platform.md).
--   [Install the Impact Store Application from the ServiceNow Store](install-impact-innovation-lab.md).
+-   [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md).
+-   [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-impact-innovation-lab.md).
 
 ## Home page
 
@@ -38,7 +41,7 @@ The Impact Workspace home page is a central hub that guides and enables you to l
 -   Stay updated
 -   Impact Delivery Instance
 
-![Impact Workspace Home page.](../image/impact-home-page-iip-ws.png)
+\[Omitted image "impact-home-page-iip-ws.png"\] Alt text: Impact Workspace Home page.
 
 ## Recommended next steps
 
@@ -53,10 +56,10 @@ If it’s a recommendation related to Strategic Portfolio Management \(SPM\), th
 
 For more information on convert to work item, see:
 
--   [Convert an Impact entity to SPM entity as a work item](../task/convert-spm-entity-impact-entity-recommendations.md)
--   [Create a work item from Impact initiative](../task/create-spm-work-item-impact-entity.md)
+-   [Convert an Impact entity to SPM entity as a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/convert-spm-entity-impact-entity-recommendations.md)
+-   [Create a work item from Impact initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/create-spm-work-item-impact-entity.md)
 
-For more information on recommendations, see [Using recommendations list in Impact home page](../task/using-recommendations-iip-ws.md).
+For more information on recommendations, see [Using recommendations list in Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/using-recommendations-iip-ws.md).
 
 ## Learn about Impact
 
@@ -77,15 +80,15 @@ This section features current information, curated news, webinars, workshops, an
 
 Use the **Preferences settings** option to filter content that is relevant to your workflow, business area, or features. Save the preference settings so you can view the content that you are interested in the landing page when you enable the **Preferences** button.
 
-Similarly, you can save a news item or an upcoming event as your favorite by selecting the add to favorites \(![Add to favorites icon.](../image/add-favorite-icon-imp-ws.png)\) icon in the topic tile. The next time when you enable **Favorites only** button you can view all your favorite news bits and events.
+Similarly, you can save a news item or an upcoming event as your favorite by selecting the add to favorites \(\[Omitted image "add-favorite-icon-imp-ws.png"\] Alt text: Add to favorites icon.\) icon in the topic tile. The next time when you enable **Favorites only** button you can view all your favorite news bits and events.
 
-![Save a curated item as your favorite.](../image/add-favorite-imp-ws-home.png)
+\[Omitted image "add-favorite-imp-ws-home.png"\] Alt text: Save a curated item as your favorite.
 
 ## Your Impact Squad
 
 The Impact team members that you interact with are listed here, along with their roles.
 
-For more information on the team and roles, see [Impact Squad](impact-squad.md).
+For more information on the team and roles, see [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md).
 
 ## Impact Foundations
 
@@ -97,13 +100,13 @@ Provides guidance for initial engagement for both new or seasoned customers and 
 
 Stay updated with Case Studies that interest you. Selecting the link takes you to a page where ServiceNow customer stories are featured based on industry, products, solution, or region.
 
-Release notes link takes you to Impact features and content that are documented for each release and are available to ServiceNow customers. For more information, see [Impact releases](impact-releases.md).
+Release notes link takes you to Impact features and content that are documented for each release and are available to ServiceNow customers. For more information, see [Impact releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-releases.md).
 
 ## Impact Delivery Instance
 
 Quick links take you directly to the Impact Delivery Instance which was formerly known as Impact Digital Experience \(IDE\) portal.
 
-Select [Activity Center](impact-activity-center.md) and [Benefits &amp; Usage](impact-features.md) to know more about the features listed in this section.
+Select [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/impact-activity-center.md) and [Benefits &amp; Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-features.md) to know more about the features listed in this section.
 
-For more information, see [Impact Delivery Instance \(formerly Impact Digital Experience\)](impact-digital-experience.md).
+For more information, see [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md).
 

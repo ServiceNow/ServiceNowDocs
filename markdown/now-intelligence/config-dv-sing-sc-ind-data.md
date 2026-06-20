@@ -2,6 +2,7 @@
 title: Indicator data options for single score visualizations
 description: When you select an indicator data source for a single score visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-sing-sc-ind-data.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected an Indicator data source in [Create a single score data visualization in the Visualization Designer or on a dashboard](../task/create-dv-sing-sc-ac.md).
+You have selected an Indicator data source in [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -51,7 +52,7 @@ Time aggregation
 
 </td><td>
 
-Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](../../performance-analytics/concept/applying-time-series-aggregations.md#).
+Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -339,5 +340,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a single score data visualization in the Visualization Designer or on a dashboard](../task/create-dv-sing-sc-ac.md)
+</table>**Parent Topic:**[Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md)
 

@@ -2,6 +2,7 @@
 title: AI driven supplier onboarding using Now Assist for SLO
 description: Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

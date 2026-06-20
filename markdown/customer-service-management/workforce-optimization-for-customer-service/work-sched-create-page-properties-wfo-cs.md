@@ -2,6 +2,7 @@
 title: Define the workItem property in the Work scheduler page configuration
 description: Add the workItem property to the Work scheduler page configuration to receive the workItem object provided by the work queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/work-sched-create-page-properties-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -37,18 +38,18 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The **workItem** property is created.
 
-8.  Hover over the **workItem** property and select the Dynamic data binding icon \(![Dynamic data binding icon](../image/dynamic-data-binding-icon.png)\).
+8.  Hover over the **workItem** property and select the Dynamic data binding icon \(\[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon\).
 
 9.  In the **workItem** field, type **@state.workItem**.
 
 10. Click **Save**.
 
-    Here's a demo on how to define the workItem property in the Work scheduler page configuration.Define the work item property in the Work Scheduler page configuration
+    Here's a demo on how to define the workItem property in the Work scheduler page configuration.
 
 
 ## What to do next
 
-[Define event mappings for Work scheduler](https://www.servicenow.com/docs/access?context=work-sched-event-mapping&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US)
+Define event mappings for Work scheduler
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 

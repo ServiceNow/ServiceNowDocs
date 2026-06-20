@@ -2,6 +2,7 @@
 title: Life cycle value definitions for document and contract entities
 description: The Life Cycle Stage and Life Cycle Stage Status values for the document and contract life-cycle process are visible only in tables related to document entities in Contracts and CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The Life Cycle Stage and Life Cycle Stage Status values for the document and con
 
 ## Definitions of document and contract life cycle stage and life cycle stage status values
 
-![Relationships between CSDM stages and life cycle values.](../image/csdm-lifecycle-vp-doc-contract.png)
+\[Omitted image "csdm-lifecycle-vp-doc-contract.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
 -   **Ideation life cycle stage**
 
@@ -41,5 +42,5 @@ The Life Cycle Stage and Life Cycle Stage Status values for the document and con
     -   **Expired**: Date-limited material such as contracts that are past their expiration date.
     -   **Retired**: Materials that are no longer needed by the organization.
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

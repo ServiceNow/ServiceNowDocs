@@ -2,6 +2,7 @@
 title: Move agents between territories in the Territory Planning console
 description: Relocate agents between territories to add flexibility to their work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/relocate-agents-territories.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -33,7 +34,7 @@ This video shows the agent relocation process.Agent relocation procedure
 
 2.  Select the territory and open the record.
 
-3.  Select the Agent Relocation \(![Agent Relocation icon.](../image/agent-relocation.jpg)\) icon.
+3.  Select the Agent Relocation \(\[Omitted image "agent-relocation.jpg"\] Alt text: Agent Relocation icon.\) icon.
 
     The **Relocate agents** form appears in the contextual side panel.
 
@@ -79,5 +80,5 @@ This video shows the agent relocation process.Agent relocation procedure
 -   Agent memberships are updated for the specified source and destination territories based on the form selections.
 -   Agent schedule attribute plans related list in the agent's user profile is updated.
 
-**Parent Topic:**[Managing territories and agents from Territory Planning console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 

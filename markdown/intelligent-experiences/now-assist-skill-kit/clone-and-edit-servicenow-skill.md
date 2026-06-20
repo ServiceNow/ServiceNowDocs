@@ -2,6 +2,7 @@
 title: Clone and edit a ServiceNow skill
 description: Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -66,7 +67,7 @@ Available providers:-   Now LLM Service
     -   Spokes
     -   Custom LLM
 
-For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](../../generative-ai-controller/task/configure-a-generic-llm-connector.md)
+For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
 
 Available prebuilt spokes that enable you to connect with an external LLM:
 
@@ -115,9 +116,9 @@ The provider of the API for your chosen LLM.
 
 ## What to do next
 
-Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](create-prompt-template.md).
+Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](evaluate-prompt.md).
+After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
-**Parent Topic:**[Create a skill](create-new-skill.md)
+**Parent Topic:**[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 

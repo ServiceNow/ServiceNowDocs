@@ -2,6 +2,7 @@
 title: Create a personal claim case
 description: A first-notice-of-loss representative or processor can begin the claim process by initiating a personal claim case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims/create-personal-claim-case.html
 release: yokohama
 product: Insurance Claims
 classification: insurance-claims
@@ -27,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative or sn\_ins\_claim\_pers
 
 3.  Create a case from the personal auto claim cases list.
 
-<table><thead><tr><th align="left" id="d97747e75">
+<table><thead><tr><th align="left" id="d102839e75">
 
 Option
 
-</th><th align="left" id="d97747e78">
+</th><th align="left" id="d102839e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d97747e84">
+</th></tr></thead><tbody><tr><td id="d102839e84">
 
 **Personal auto claim case from the personal auto claim case list**
 
@@ -65,5 +66,5 @@ A personal claim case is created in the New state and the workflow is triggered.
 
 ## What to do next
 
-As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a personal claim](process-personal-claim.md).
+As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a personal claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/process-personal-claim.md).
 

@@ -2,6 +2,7 @@
 title: Form Data Collector
 description: Learn about the Form Data Collector application that is used to assist with populating case form fields during a customer's interaction with a Virtual Agent chatbot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.html
 release: yokohama
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -70,5 +71,5 @@ Generate a question in a conversational format using Now LLM and present it to t
 
 **Note:** Only UI policies are supported for field iteration in a form. Client scripts are currently not supported.
 
-**Parent Topic:**[Exploring Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/exploring-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Exploring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
 

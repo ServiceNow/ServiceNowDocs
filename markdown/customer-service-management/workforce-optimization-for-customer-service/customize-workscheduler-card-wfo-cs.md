@@ -2,6 +2,7 @@
 title: Customize a Work Scheduler card using the Next Experience UI Builder
 description: Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/customize-workscheduler-card-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -35,15 +36,15 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 
 5.  In the left pane, go to the **Content** section and navigate to **Body \(Flex\)** &gt; **Work queue \(Flex\)** &gt; **Sidebar**.
 
-6.  In the right pane, select the icon \(![Edit card icon](../image/edit-card-icon.png)\) in the **Work item cards default** sub-page.
+6.  In the right pane, select the icon \(\[Omitted image "edit-card-icon.png"\] Alt text: Edit card icon\) in the **Work item cards default** sub-page.
 
 7.  In the left pane, select **Body \(Flex\)** &gt; **Viewport1**.
 
-8.  In the right pane, select the icon \(![Edit card icon](../image/edit-card-icon.png)\) next to a card, for example, **Incident default**, that you want to configure.
+8.  In the right pane, select the icon \(\[Omitted image "edit-card-icon.png"\] Alt text: Edit card icon\) next to a card, for example, **Incident default**, that you want to configure.
 
-9.  To duplicate the selected variant, in the left pane, in the **Variants** section, hover over the variant you want to duplicate, select the \(![Menu variant icon](../image/menu-variant-icon.png)\) icon and select **Duplicate**.
+9.  To duplicate the selected variant, in the left pane, in the **Variants** section, hover over the variant you want to duplicate, select the \(\[Omitted image "menu-variant-icon.png"\] Alt text: Menu variant icon\) icon and select **Duplicate**.
 
-10. Hover over the variant you have duplicated, select the \(![Menu variant icon](../image/menu-variant-icon.png)\) icon and select **Edit conditions**.
+10. Hover over the variant you have duplicated, select the \(\[Omitted image "menu-variant-icon.png"\] Alt text: Menu variant icon\) icon and select **Edit conditions**.
 
 11. In the **Order** field, set the order to be the lowest value so that this variant will display in manager workspace.
 
@@ -51,20 +52,20 @@ You can duplicate an existing work item variant such as an Incident, Problem, Ch
 
 12. Click **Save**.
 
-13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md).
+13. Customize the variant you've created using any of the tasks or steps listed in [Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md).
 
 
 ## Example
 
 |If you'd like to configure this in the Work Scheduler card|Refer to|
 |----------------------------------------------------------|--------|
-|Add fields|[Create page scripts for Work scheduler](work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
-|Add an avatar|[Configure an avatar component for Work scheduler](work-sched-avatar-component-wfo-cs.md)|
+|Add fields|[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/work-sched-create-page-scripts-wfo-cs.md) and refer to the Create the **Transform workItem to cardProps** page script steps.|
+|Add an avatar|[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/work-sched-avatar-component-wfo-cs.md)|
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](../concept/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setting-up-work-scheduler-wfo-cs.md)
 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US)
+[bundle-cadev.create-page]
 

@@ -2,6 +2,7 @@
 title: ERP-CM similar candidates field descriptions
 description: On a candidate record in ERP Semantic Mining \(ERP-CM\) the Similar candidates tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/erpcm-similar-candidates-field-descriptions.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,7 +16,7 @@ breadcrumb: [ERP-CM field descriptions, ERP Semantic Mining reference, ERP Seman
 
 On a candidate record in ERP Semantic Mining \(ERP-CM\) the **Similar candidates** tab displays information about similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
 
-For process details, see [View and work with candidate details in ERP-CM](../task/erpcm-view-work-with-candidate-details.md).
+For process details, see [View and work with candidate details in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-view-work-with-candidate-details.md).
 
 <table id="table_ozn_3z5_jyb"><thead><tr><th>
 
@@ -73,7 +74,7 @@ Similarity
 
 Numeric score representing how similar the candidates are, from 0 through 1.A higher score, for example 0.94, indicates very similar candidates.
 
-For more information, see [Recommendations and similar candidates in ERP-CM](../concept/erpcm-recommendations-and-similar-candidates.md).
+For more information, see [Recommendations and similar candidates in ERP-CM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-recommendations-and-similar-candidates.md).
 
 </td></tr><tr><td>
 
@@ -92,5 +93,5 @@ Updated
 Date and time the similar candidate details were most recently updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

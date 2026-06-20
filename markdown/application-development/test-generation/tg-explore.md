@@ -2,6 +2,7 @@
 title: Exploring Test generation
 description: If you are new to Test generation application, read this overview to learn what the app can do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-generation/tg-explore.html
 release: yokohama
 product: Test Generation
 classification: test-generation
@@ -17,7 +18,7 @@ If you are new to Test generation application, read this overview to learn what 
 
 Follow the gif to create tests from natural language leveraging AI power.
 
-![Gif showing the working of Test generation](../image/tg-gif.gif)
+\[Omitted image "tg-gif.gif"\] Alt text: Gif showing the working of Test generation
 
 ## Test generation overview
 
@@ -43,13 +44,13 @@ Test generation has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate test generation|[Generate a test using Test generation](../task/tg-implement.md)|System Administrator|
-|Edit a generated test after the preview|[Edit a generated test using Test generation](tg-edit-test.md)|System Administrator|
+|Automate test generation|[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/test-generation/tg-implement.md)|System Administrator|
+|Edit a generated test after the preview|[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/test-generation/tg-edit-test.md)|System Administrator|
 
 ## What to explore next
 
 To learn more about using Test generation, see:
 
--   [Using Test generation](tg-use.md)
--   [Test generation references](tg-reference.md)
+-   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/test-generation/tg-use.md)
+-   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/test-generation/tg-reference.md)
 

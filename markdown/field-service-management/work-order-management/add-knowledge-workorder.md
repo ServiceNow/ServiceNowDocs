@@ -2,6 +2,7 @@
 title: Assign a knowledge article to a work order or work order task
 description: Add additional information to complete tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/add-knowledge-workorder.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -49,10 +50,10 @@ As you enter a short description for a work order or work order task, a list of 
 
 The articles are added and appear under the **Attached Articles** tab.
 
-**Parent Topic:**[Manage work order tasks](../../planning-and-policy/concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 
 **Related topics**  
 
 
-[Knowledge properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_KnowledgeProperties]
 

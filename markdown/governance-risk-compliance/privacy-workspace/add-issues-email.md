@@ -2,6 +2,7 @@
 title: Report a privacy case through email
 description: Identify and manage issues related to the impacted areas for the reported privacy case. You can also create issues from the Privacy Case Management landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/add-issues-email.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -86,5 +87,5 @@ For privacy admin, the case will be visible in **Workspaces** &gt; **Privacy Wor
 
 Any reply sent by the admin appears in the Email tab of the privacy case.
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

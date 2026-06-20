@@ -2,6 +2,7 @@
 title: Logical life cycle
 description: The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The logical life-cycle value pairs represent the overall life cycle of logical assets and CIs as related to their products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -23,19 +24,19 @@ A life-cycle value pair is the combination life cycle stage and life cycle stage
 
 **Note:** A CI might be in the **Operational** stage, but might no longer be supported by the vendor or publisher or third-party. That doesn’t mean, however, that it can be or should be retired.
 
-![Logical life cycle process for software: ideation, purchase, design, inventory, deploy, operational, defective, missing, and end of life.](../image/csdm-lifecycle-logical.png)
+\[Omitted image "csdm-lifecycle-logical.png"\] Alt text: Logical life cycle process for software: ideation, purchase, design, inventory, deploy, operational, defective, missing, and end of life.
 
 The stage and status values logical items are visible only in tables related to logical items in Asset Management and the CMDB.
 
 **Note:** The \[life\_cycle\_control\] table uses the type of CI \(hardware, document, logical and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
-For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](foundation-domain.md).
+For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
 ## Service instance life cycles
 
 Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
 
-See [Monitor the health of application services on the Application Services dashboard](../../configuration-management/task/app-service-dashboard.md).
+See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 ## Holistic Life cycle: CMDB Logical Tables \(from cmdb\_ci\)​
 
@@ -120,5 +121,5 @@ See [Monitor the health of application services on the Application Services dash
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[CSDM reference](csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

@@ -2,7 +2,10 @@
 title: Create and publish a product adoption roadmap
 description: Create a product adoption roadmap \(PAR\) using either a predefined template or a custom roadmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-product-adoption-roadmap.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -34,15 +37,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
 5.  In the **How do you want to start?** section, indicate whether you want to create the roadmap from a template or manually.
 
-<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d67177e170">
+<table id="choicetable_ncv_thk_s2c"><thead><tr><th align="left" id="d37497e170">
 
 How do you want to start?
 
-</th><th align="left" id="d67177e173">
+</th><th align="left" id="d37497e173">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d67177e179">
+</th></tr></thead><tbody><tr><td id="d37497e179">
 
 **Create from a Template**
 
@@ -53,7 +56,7 @@ Actions
 
 **Note:** You can access product adoption roadmap templates with pre-defined sequence of capabilities for ITSM, ITOM, and Security Operations.
 
-</td></tr><tr><td id="d67177e214">
+</td></tr><tr><td id="d37497e214">
 
 **Create a roadmap manually**
 
@@ -64,7 +67,7 @@ Actions
 
 
 </td></tr></tbody>
-</table>    ![PARS template](../image/pars-template.png)
+</table>    \[Omitted image "pars-template.png"\] Alt text: PARS template
 
 6.  Select **Create**.
 
@@ -82,7 +85,7 @@ Actions
 
     3.  Select **Edit Phase titles and descriptions** to edit phase titles and descriptions. 
 
-    ![Manage capability for a given phase by adding, deleting, edit phase titles and descriptions.](../image/manage-capabilities-phase-pars.png)
+    \[Omitted image "manage-capabilities-phase-pars.png"\] Alt text: Manage capability for a given phase by adding, deleting, edit phase titles and descriptions.
 
 11. Select **Publish**.
 

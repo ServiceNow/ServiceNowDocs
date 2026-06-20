@@ -2,11 +2,12 @@
 title: Configure an event handler with Now Assist
 description: Use Now Assist in UI Builder to simplify the configuration of event handlers. At present, you can configure the following event handlers using Now Assist in UI Builder: Open page or URL, open or close modals, and viewport load requested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ui-builder/configure-an-event-handler-with-now-assist.html
 release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -29,15 +30,15 @@ Role required: ui\_builder\_admin, and now.assist.creator
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-page.md).
 
 4.  Add a component to your page, such as a button.
 
-    For more information about adding components to a page, see [Add and configure components](add-components.md#).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
 
@@ -51,7 +52,7 @@ Role required: ui\_builder\_admin, and now.assist.creator
 
 8.  In the **Generate configuration with Now Assist** field, enter a prompt for the action you want to perform \(for example, open a specific website\) or select an option from the available prompts.
 
-    ![Enter the action you want to perform or select an option from the dynamic prompts.](../image/event-handler-NowAssist.png)
+    \[Omitted image "event-handler-NowAssist.png"\] Alt text: Enter the action you want to perform or select an option from the dynamic prompts.
 
 9.  Select the right arrow icon.
 
@@ -68,5 +69,5 @@ Role required: ui\_builder\_admin, and now.assist.creator
 
 The event handler configurations are updated.
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)
 

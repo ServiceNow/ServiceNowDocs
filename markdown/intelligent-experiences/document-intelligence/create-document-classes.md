@@ -2,6 +2,7 @@
 title: Create a document class
 description: Create fields as part of your document classification use case. Document Intelligence uses fields to define the classes or categories to apply to documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/document-intelligence/create-document-classes.html
 release: yokohama
 product: Document Intelligence
 classification: document-intelligence
@@ -77,5 +78,5 @@ Option to indicate whether the class is being used.
 
 The system added the new class field to the Fields list associated with the use case.
 
-![Document classification use case with classes](../image/docintel-class-use-case-example.png "Document classification use case with classes")
+\[Omitted image "docintel-class-use-case-example.png"\] Alt text: Document classification use case with classes
 

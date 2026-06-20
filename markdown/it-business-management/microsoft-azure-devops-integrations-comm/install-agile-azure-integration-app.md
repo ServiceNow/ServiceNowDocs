@@ -2,6 +2,7 @@
 title: Install Microsoft Azure DevOps Integration for Agile Development
 description: Install the Microsoft Azure DevOps Integration for Agile Development \(sn\_agile\_ado\_int\) application version 1.3 from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/install-agile-azure-integration-app.html
 release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -66,5 +67,5 @@ The following components are installed with the installation of the application:
 -   Scheduled Jobs
 -   Tables
 
-For more information, see [Components installed with Microsoft Azure DevOps integration for Agile Development](components-installed-with-agile-azure-integration.md).
+For more information, see [Components installed with Microsoft Azure DevOps integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/components-installed-with-agile-azure-integration.md).
 

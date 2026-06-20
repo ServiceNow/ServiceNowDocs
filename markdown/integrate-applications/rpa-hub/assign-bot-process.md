@@ -2,6 +2,7 @@
 title: Assign bot process to an automation project
 description: Assign a bot process to an automation project in RPA Desktop Design Studio to start using the bot process resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/assign-bot-process.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -62,10 +63,10 @@ Record Context
 
 Enter the Sys ID or URL of the ServiceNow form record. This helps you to fetch field values using GetProcessFieldParameters component and update field values using SetProcessFieldParameters component of the selected Sys ID.
 
-For more about getting the Sys ID or URL, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more about getting the Sys ID or URL, see .
 
 </td></tr></tbody>
-</table>    **Note:** For more information about Embedded Task feature, see [Embedded Task Automation in RPA Hub](../../rpa-hub/concept/embedded-task-auto-rpa.md).
+</table>    **Note:** For more information about Embedded Task feature, see [Embedded Task Automation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/embedded-task-auto-rpa.md).
 
 4.  For unattended bot process, select the required robot from the **Robot** list.
 
@@ -75,8 +76,8 @@ For more about getting the Sys ID or URL, see [Unique record identifier \(sys\_i
 
 5.  Select **OK**.
 
-    If one or more skills are overridden in the bot process, the automation uses the updated skill version during current execution. For more information about overridden skill versions, see [Override a skill version for a bot process in RPA Hub](../../rpa-hub/task/override-skill-version-rpahub.md).
+    If one or more skills are overridden in the bot process, the automation uses the updated skill version during current execution. For more information about overridden skill versions, see [Override a skill version for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/override-skill-version-rpahub.md).
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-studio-use.md)
 

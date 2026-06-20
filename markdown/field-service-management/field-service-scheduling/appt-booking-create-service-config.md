@@ -2,6 +2,7 @@
 title: Create or modify service configuration for Appointment Booking
 description: Service-level appointment booking enables customers to easily schedule specific services by customizing appointment availability, lead times, notifications, and booking rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/appt-booking-create-service-config.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -135,7 +136,7 @@ Appointment is mandatory
 
 </td><td>
 
-Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](../reference/appt-booking-select-appt-window.md) before submitting the service request.
+Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/appt-booking-select-appt-window.md) before submitting the service request.
 -   If disabled, the user can submit the service request without selecting an appointment.
 
 
@@ -317,5 +318,5 @@ The service-level appointment booking configuration is set up or updated. Users 
 
 ## What to do next
 
-For further customization, you can create **service configuration rules** to define specific booking conditions or exceptions for individual locations or scenarios. For more information, see [Create service configuration rules for a service configuration](create-appt-booking-service-config-rules.md).
+For further customization, you can create **service configuration rules** to define specific booking conditions or exceptions for individual locations or scenarios. For more information, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 

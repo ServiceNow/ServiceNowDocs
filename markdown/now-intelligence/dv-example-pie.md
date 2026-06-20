@@ -2,6 +2,7 @@
 title: Pie visualization example
 description: The pie data visualization uses a circular shape to show the proportion or percentage of different categories or groups. Each part of the circle \(or "slice"\) represents a different category or group, and the size of each slice is proportional to the size of the group or category it represents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-pie.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -15,7 +16,7 @@ The pie data visualization uses a circular shape to show the proportion or perce
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,15 +24,15 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
 ## Procedure
 
-1.  Follow the first steps to [Create a pie or donut visualization in the Visualization Designer](../../reporting/task/create-dv-donut-ac.md):
+1.  Follow the first steps to [Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the Pie \(![Pie visualization icon](../../reporting/image/inline-data-vis-pie.png)\) visualization type.
+    3.  Select the Pie \(\[Omitted image "inline-data-vis-pie.png"\] Alt text: Pie visualization icon\) visualization type.
 
-        ![Animation showing workspace and visualization designer selection, and choosing to create a pie visualization](../../reporting/image/dv-ex-pie-select.gif)
+        \[Omitted image "dv-ex-pie-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a pie visualization
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -49,7 +50,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
     A pie visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only a two wedges for Active=True and Active=False. You add priority and assignment group in step 4.
 
-    ![Animation showing selection of data source, application of filter and result](../../reporting/image/dv-ex-pie-data-source.gif)
+    \[Omitted image "dv-ex-pie-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -77,7 +78,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
     2.  Choose `Ascending` for the sort order.
 
-        The segments are ordered by the assignment group name starting with Database, Hardware, and so on.![Pie report on open incidents sorted by Assignment group](../../reporting/image/dv-ex-pie-sort-by.png)
+        The segments are ordered by the assignment group name starting with Database, Hardware, and so on.\[Omitted image "dv-ex-pie-sort-by.png"\] Alt text: Pie report on open incidents sorted by Assignment group
 
 7.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -119,7 +120,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
     7.  Change the Max legend item width to give those values more or less room.
 
-        ![Open incidents by assignment group pie visualization with legend showing value and percentage options](../../reporting/image/dv-ex-pie-legend-options.png)
+        \[Omitted image "dv-ex-pie-legend-options.png"\] Alt text: Open incidents by assignment group pie visualization with legend showing value and percentage options
 
 9.  Clear **Show legend** and select **Show data labels**.
 
@@ -145,5 +146,5 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
 You've created a pie visualization grouped on one value. You've also configured the visualization's labeling, legend, and colors.
 
-**Parent Topic:**[Create a pie or donut visualization in the Visualization Designer](../../reporting/task/create-dv-donut-ac.md)
+**Parent Topic:**[Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
 

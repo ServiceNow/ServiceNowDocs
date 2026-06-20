@@ -2,6 +2,7 @@
 title: SCIM Client properties, tables, scriptable APIs, and logs
 description: The SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin includes the following system properties, tables, scriptable APIs, and logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/scim-client-properties.html
 release: yokohama
 product: Identity
 classification: identity
@@ -46,7 +47,7 @@ This property determines the number of days for clearing the logs.Default value:
 </td></tr></tbody>
 </table>To set the properties, navigate to **All** &gt; **SCIM** &gt; **SCIM Client Properties**.
 
-![SCIM Client Properties](../images/scim-client-properties.png)
+\[Omitted image "scim-client-properties.png"\] Alt text: SCIM Client Properties
 
 ## Tables
 
@@ -74,7 +75,7 @@ The following are some of the use cases for using the scriptable APIs:
     -   The user has access to the token, meaning that the user has the role to generate the token from the REST template.
     -   The user has access to retrieve the SCIM attribute values from the mapped tables.
 
-To know more about the scriptable API, see [SCIM2Client API](https://www.servicenow.com/docs/access?context=SCIM2ClientAPI&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US).
+To know more about the scriptable API, see SCIM2Client API.
 
 ## SCIM Client Logs
 

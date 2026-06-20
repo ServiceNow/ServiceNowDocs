@@ -2,6 +2,7 @@
 title: Close a work order task as incomplete
 description: Close a work order task as incomplete if there is work pending on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_CloseAWorkOrderTaskAsIncomplete.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -98,5 +99,5 @@ All follow-on tasks generated from any of the work order tasks are in **Closed C
     Condition = current.sys\_class\_name != 'wm\_task' &amp;&amp; current.sys\_class\_name != 'wm\_order'.
 
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

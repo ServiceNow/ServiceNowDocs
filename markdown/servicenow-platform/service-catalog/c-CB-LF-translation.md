@@ -2,6 +2,7 @@
 title: Localization Framework integration with Catalog Builder
 description: The Translation Status tab in the Catalog items tab on the Catalog Builder dashboard enables you to view the translation status of catalog items, and translate catalog items on the fly using manual or machine translation methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/c-CB-LF-translation.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
@@ -31,9 +32,9 @@ Set the glide.sc.catalog\_builder.localization.enable\_request\_translation\_mod
 
 When you create a new item, the **Request translations** step appears in the wizard steps region. Click **Browse** to view and select the languages you want to translate the catalog item information to.
 
-![Request translations screen.](../image/cblf-req-translate-new.png "Request translations step")
+\[Omitted image "cblf-req-translate-new.png"\] Alt text: Request translations screen.
 
-For more information, see [Request translations for Service Catalog items](https://www.servicenow.com/docs/access?context=request-translations-multiple-items&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information, see Request translations for Service Catalog items.
 
 ## Request translation mode for existing items
 
@@ -41,17 +42,17 @@ Set the glide.sc.catalog\_builder.localization.enable\_request\_translation\_mod
 
 On the **Catalog Items** tab, click the existing item that you want translated, then click the **Translation status** tab on the right pane \(next to the **Item details** tab\). You would see the list of languages configured in the system along with the state of that language for the catalog item and a **Request translations** link to request for a translation.
 
-![Translation status tab](../image/cb-translation.png "Translation status tab")
+\[Omitted image "cb-translation.png"\] Alt text: Translation status tab
 
 Click the **Request translations** link below the language you want the translations for. A dialog appears prompting you to confirm the translation request. When you confirm the translation request on the **Translation status** tab, a localization task gets generated and its corresponding Localization item record \("LRITMXXXXXXX"\) shows up in place of the **Request translations** link. The state for that specific language changes to **Translations requested**.
 
 When the localization task completes in Localization Framework, the **Request translations** link comes back which you can use to request for translations again. The state changes to **Translated**, **Partially translated**, or **Not translated** on the **Translation status** tab, depending on whether the translations occur for all fields, some fields, or no fields in the table.
 
-For more information, see [Request translations for Service Catalog items](https://www.servicenow.com/docs/access?context=request-translations-multiple-items&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information, see Request translations for Service Catalog items.
 
 ## Self-translation \(ad hoc\) mode
 
-![Translation status tab with self-translation mode](../image/sc_tstatus-adhoc.png "Translation status tab with self-translation mode")
+\[Omitted image "sc\_tstatus-adhoc.png"\] Alt text: Translation status tab with self-translation mode
 
 Set the glide.sc.catalog\_builder.localization.enable\_request\_translation\_mode property to **False** to enable self-translation mode. The default value for this property is **False**.
 
@@ -59,19 +60,19 @@ In the **Catalog Items** tab, click the existing item you want translated, then 
 
 Click the **Edit translations** link to open another tab that contains two comparison UI regions: The left region is the source language, and the right region is the target or translated language. You can compare the language translation side by side in the page, and make changes if required.
 
-For more information, see [Request ad hoc translation for Service Catalog items](https://www.servicenow.com/docs/access?context=req-adhoc-translation-for-sc-items&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+For more information, see Request ad hoc translation for Service Catalog items.
 
-![Self-translation](cb-adhoc-translate.png "Self-translation")
+\[Omitted image "cb-adhoc-translate.png"\] Alt text: Self-translation
 
 ## Translation States
 
 |State|Mode|Description|
 |-----|----|-----------|
-|Not available|Request translation and Self-translation|If the [Localization Framework Insights record](https://www.servicenow.com/docs/access?context=localization-insights-dashboard&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) is not available, the translation state displayed by the system is **Not Available**, and the state appears near the language name.|
+|Not available|Request translation and Self-translation|If the Localization Framework Insights record is not available, the translation state displayed by the system is **Not Available**, and the state appears near the language name.|
 |Not translated|Request translation and Self-translation|If there are no translations in the system for that specific catalog item for that language, the state **Not Translated** appears near the language name.|
 |Translations requested|Request translation|If there is an active LRTIM associated with a language for the item, the state **Translations requested** appears near the language name.|
 |Partially translated|Request translation and Self-translation|If there are partial translations in the system for that specific catalog item for that language, the state **Partially Translated** appears near the language name.|
 |Translated|Request translation and Self-translation|If all translations for that specific catalog item for that language exist in the system, the state **Translated** appears near the language name.|
 
-**Parent Topic:**[Creating or editing catalog item template](../task/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

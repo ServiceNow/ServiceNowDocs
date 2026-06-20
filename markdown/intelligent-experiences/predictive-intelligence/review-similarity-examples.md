@@ -2,6 +2,7 @@
 title: Review solution similarity examples
 description: Review the similarity examples and scores generated during solution training to determine if the similarity score threshold is sufficient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -34,7 +35,7 @@ The solution only returns similarity results that have a score that's higher tha
 
 2.  In the ML Solutions list, locate your solution and click the Reference Lookup icon.
 
-    ![Lookup icon](../../../common/image/Form_ReferenceLookupIcon.png)
+    \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Lookup icon
 
 3.  Click **Open Record**.
 
@@ -49,5 +50,5 @@ The solution only returns similarity results that have a score that's higher tha
 
 ## What to do next
 
-If you decide to adjust the score for your similarity solution, [update its similarity solution threshold](update-similarity-threshold.md).
+If you decide to adjust the score for your similarity solution, [update its similarity solution threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 

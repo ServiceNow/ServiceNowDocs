@@ -2,6 +2,7 @@
 title: View attestations for a serialized hardware asset
 description: View all the attestation records associated with a serialized hardware asset to check the status of previous asset attestations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/view-attestations-for-asset-ham.html
 release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -27,7 +28,7 @@ Role required: asset or inventory\_admin
 
 3.  Select the asset for which you want to view the list of attestations.
 
-4.  From the contextual side bar of the asset form, select the AssetLifeCycle icon \(![Asset Lifecycle icon](../image/asset-life-cycle-icon-ham.png)\).
+4.  From the contextual side bar of the asset form, select the AssetLifeCycle icon \(\[Omitted image "asset-life-cycle-icon-ham.png"\] Alt text: Asset Lifecycle icon\).
 
     All the asset lifecycle events are shown.
 
@@ -40,5 +41,5 @@ Role required: asset or inventory\_admin
     -   **User**
     -   **Attestation date**
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

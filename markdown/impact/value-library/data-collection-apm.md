@@ -2,6 +2,7 @@
 title: Impact Value Management Data Collection for APM
 description: Install and configure the Data Collection Content Pack for APM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/data-collection-apm.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -17,10 +18,10 @@ Install and configure the Data Collection Content Pack for APM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for APM](../task/dc-apm-install.md)
-2.  [Configure Data Collection for APM](../task/dc-apm-config.md)
-3.  [Activate Data Collection for APM](../task/dc-apm-activate.md)
-4.  [Review APM artifacts](../reference/dc-apm-installation-artifacts.md)
+1.  [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-apm-install.md)
+2.  [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-apm-config.md)
+3.  [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-apm-activate.md)
+4.  [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-apm-installation-artifacts.md)
 
-You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](dc-all-modify.md) and [Upgrading the Data Collection Content Pack](dc-all-upgrade.md).
+You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-all-upgrade.md).
 

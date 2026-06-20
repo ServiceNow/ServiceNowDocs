@@ -2,6 +2,7 @@
 title: Configure SAP for ERP-CM
 description: Enable SQLM \(SQL Monitor\) on the productive system and confirm that ST03 \(Workload Monitor\) is collected for daily workloads before you can install ERP Semantic Mining \(ERP-CM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-customization-mining/ecm-configure-sap-system.html
 release: yokohama
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -48,5 +49,5 @@ Role required: none
     2.  Verify that the **Workload data** field is set to **Daily**.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md)
 

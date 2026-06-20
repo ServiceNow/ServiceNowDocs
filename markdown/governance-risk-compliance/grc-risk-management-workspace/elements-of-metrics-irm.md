@@ -2,13 +2,14 @@
 title: Components of GRC: Metrics
 description: A metric consists of several components such as metric definition, metric data, metric definition data, metric data tasks. All of these elements or parts contribute to the metric collection process in various ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-risk-management-workspace/elements-of-metrics-irm.html
 release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Components of GRC: Metrics
@@ -37,7 +38,7 @@ Metric definition data gets automatically created when the metric definition get
 
 ## Metric data tasks
 
-Metric data tasks only apply to manual metric definitions. These tasks are generated whenever manual metrics are executed and the data owners provide responses for these tasks manually. You can provide responses to multiple metric data tasks using the metric data table. For more information, see [Metric data table](metric-data-table-irm.md).
+Metric data tasks only apply to manual metric definitions. These tasks are generated whenever manual metrics are executed and the data owners provide responses for these tasks manually. You can provide responses to multiple metric data tasks using the metric data table. For more information, see [Metric data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/metric-data-table-irm.md).
 
-A metrics manager has the authority to determine whether a metric data task needs approval. If approval is necessary, you can choose between two methods: Simple Approval or Advanced Approval by using the **Metric approval** property. For more information about this property, see [Components installed with the GRC: Metrics application](../reference/roles-installed-with-grc-metrics-irm.md).
+A metrics manager has the authority to determine whether a metric data task needs approval. If approval is necessary, you can choose between two methods: Simple Approval or Advanced Approval by using the **Metric approval** property. For more information about this property, see [Components installed with the GRC: Metrics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-grc-metrics-irm.md).
 

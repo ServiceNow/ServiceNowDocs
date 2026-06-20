@@ -2,6 +2,7 @@
 title: Install the Data Collection Pack for HR
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/value-library/dc-hr-install.html
 release: yokohama
 product: Value Library
 classification: value-library
@@ -17,7 +18,7 @@ To enable the Data Collection Pack, you must install dependent plugins and activ
 
 ## Before you begin
 
-The HR Success Metric Definitions in this application rely on another application. Ensure that the required plugins are installed if they are not already installed. For more information, see [Install Data Collection Content Pack dependent plugins](dc-install-plugins.md).
+The HR Success Metric Definitions in this application rely on another application. Ensure that the required plugins are installed if they are not already installed. For more information, see [Install Data Collection Content Pack dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-install-plugins.md).
 
 The HR Success Metric Definitions in this application are also dependent on the following Content Packs from the store for the pre-build HR Service Definitions:
 
@@ -34,7 +35,7 @@ Role required: Impact users
 
 2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Value PA Data Collection Jobs**.
 
-    ![Menu in product with All > Impact > Configuration> Value PA Data Collection Jobs selected.](../image/dct_install_all.png)
+    \[Omitted image "dct\_install\_all.png"\] Alt text: Menu in product with All &gt; Impact &gt; Configuration&gt; Value PA Data Collection Jobs selected.
 
 3.  Select **Value PA Data Collection jobs**.
 
@@ -42,6 +43,6 @@ Role required: Impact users
 
     -   **Impact VM - HR - Monthly Data Collection**
     -   **Impact VM - HR - Historical Data Collection**
-    If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Data Collection Content Pack dependent plugins](dc-install-plugins.md).
+    If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Data Collection Content Pack dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/dc-install-plugins.md).
 
 

@@ -2,6 +2,7 @@
 title: Working on a dispute case
 description: Work on a card dispute case to review case information, ensure that any outstanding tasks are completed, and resolve the service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/work-dispute-case.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -19,14 +20,14 @@ Work on a card dispute case to review case information, ensure that any outstand
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 When a customer requires resolution of a dispute, there are two ways a case is raised:
 
 -   An agent initiates a case and provides dispute transaction details, triggering a workflow for the transaction.
--   A customer files a dispute through their financial institution's customer portal. \(See [Managing dispute intake in portal](../concept/dispute-playbook-for-portal.md) for more information.\) The dispute agent assigned to the case then reviews the submitted details, makes updates as necessary, then submits the case for investigation.
+-   A customer files a dispute through their financial institution's customer portal. \(See [Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md) for more information.\) The dispute agent assigned to the case then reviews the submitted details, makes updates as necessary, then submits the case for investigation.
 
 Throughout the workflow, dispute agents complete their assigned tasks, and the statuses of tasks associated with the case update. Depending on the task updates, a workflow might have additional or fewer tasks. If there are more than one disputed transactions associated with a case, the case remains open until the workflows for each transaction are completed and closed.
 
@@ -36,7 +37,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -79,12 +80,12 @@ Use the case playbook that provides the activities and tasks required to researc
 
 The tasks update to Closed Complete.
 
--   **[Initiate a dispute](initiating-dispute.md#)**  
+-   **[Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-dispute.md)**  
 Begin a dispute case in Financial Services Card Operations for a transaction associated with a card account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
--   **[Investigating a dispute](investigate-a-dispute.md)**  
+-   **[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)**  
 Complete tasks such as initiate provisional credit, determine a recovery option, write off a disputed transaction amount, provide immediate final credit, notify the merchant, determine reversal of provisional credit, and investigate the transaction.
--   **[Initiating a chargeback](initiate-a-chargeback.md)**  
+-   **[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)**  
 You can access the **Chargeback** stage by opening a disputed transaction in the **Processing** stage of the playbook. During the **Chargeback** stage, the dispute is forwarded to the card network. The card network then forwards the dispute to the acquirer. There is a wait period to see if there is a representment.
 
-**Parent Topic:**[Managing dispute service requests](../concept/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

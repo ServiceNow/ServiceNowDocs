@@ -2,6 +2,7 @@
 title: Activate a draft integration in Health Log Analytics
 description: Activate an integration that was configured and saved as a draft in Health Log Analytics \(HLA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/il-connector-hla-activate-draft.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -53,5 +54,5 @@ Role required: evt\_mgmt\_admin
     The integration tile is available in the **Installed integrations** tab on the Integrations Launchpad
 
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

@@ -2,6 +2,7 @@
 title: Configure crawl settings for a ServiceNow instance external content connector
 description: Specify the content types that you want your ServiceNow instance external content connector to retrieve when running content crawls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-snow-instance-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the content types that you want your ServiceNow instance external conten
 
 ## Before you begin
 
-A connector admin must have already created the ServiceNow® instance external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow instance external content connector](create-ext-cont-connector-snow-instance.md).
+A connector administrator must have already created the ServiceNow® instance external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-snow-instance.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the ServiceNow instance external content connector retrieves all KB articles from your ServiceNow AI Platform instance. You only need to perform this task if you want the connector to use inclusion or exclusion filters for the KB articles to retrieve when running content crawls.
+This task is optional. By default, the ServiceNow instance external content connector retrieves all KB articles from your ServiceNow AI Platform instance. Only perform this task if you want the connector to use inclusion or exclusion filters for the KB articles to retrieve when running content crawls.
 
 Content is only retrieved from the source system if it passes all of your configured crawl setting filters. If any crawl setting filter excludes a content item, the external content connector doesn't retrieve it.
 
@@ -66,7 +67,7 @@ The ServiceNow instance external content connector is updated with your modified
 
 ## What to do next
 
-To retrieve content from your ServiceNow AI Platform instance using your modified crawl settings, create and run a one-time content crawl for your ServiceNow instance external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your ServiceNow AI Platform instance using your modified crawl settings, create and run a one-time content crawl for your ServiceNow instance external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[ServiceNow instance external content connector](../concept/servicenow-instance-external-content-connector.md)
+**Parent Topic:**[ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/servicenow-instance-external-content-connector.md)
 

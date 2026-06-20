@@ -2,7 +2,10 @@
 title: Reports
 description: Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/instance-observer-reporting.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
@@ -25,7 +28,7 @@ Navigate to **Instance Observer** &gt; **Reports** &gt; **.** Select the **Repor
 
 Select **Generate report** and the report renders. On the report page, you have the option to download the report or to schedule the report to be run periodically.
 
-![Report types](../image/io-reports.png)
+\[Omitted image "io-reports.png"\] Alt text: Report types
 
 For additional information about a report, select **Help** &gt; **Metrics** from the main menu and select the option from the right-hand menu.
 
@@ -44,7 +47,7 @@ Some Instance Observer reporting features vary between the Impact package that y
 |Data retention|45 days|6 months|6 months|
 |Self Service Alerts|X|✓|✓|
 
-**Note:** For more information on subscription support, see [Impact packages](impact-packages.md).
+**Note:** For more information on subscription support, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-packages.md).
 
 ## Daily Performance Metrics Report
 

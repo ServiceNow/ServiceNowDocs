@@ -2,6 +2,7 @@
 title: Available activity packs
 description: Activity packs are available with your subscription to Orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/orchestration/t\_ActivateAnActivityPack.html
 release: yokohama
 product: Orchestration
 classification: orchestration
@@ -23,15 +24,15 @@ Role required: admin
 
 The following activity packs are available and active with your Orchestration subscription:
 
--   [Orchestration - Active Directory](../concept/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
--   [Orchestration - Azure Active Directory](../concept/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
--   [Orchestration - Exchange](../concept/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
--   [Orchestration - SFTP](../concept/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
--   [Orchestration - Infoblox DDI Activity Pack](../concept/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
--   [F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
--   [Orchestration - SSH](../concept/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
--   [Orchestration - PowerShell](../concept/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
--   [Orchestration - System Center Configuration Manager](../../../product/orchestration/task/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
+-   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
+-   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
+-   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
+-   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
+-   [Orchestration - Infoblox DDI Activity Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
+-   [F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
+-   [Orchestration - SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
+-   [Orchestration - PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
+-   [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
 
 ## Procedure
 
@@ -39,7 +40,7 @@ The following activity packs are available and active with your Orchestration su
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -80,12 +81,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Activate Orchestration](../../../product/orchestration/task/t_ActivateOrchestration.md)
+**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/t_ActivateOrchestration.md)
 

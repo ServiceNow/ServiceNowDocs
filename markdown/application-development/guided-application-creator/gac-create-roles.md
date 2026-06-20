@@ -2,6 +2,7 @@
 title: Define roles in Guided Application Creator
 description: Create or select roles in Guided Application Creator for the members of your organization who use your custom application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/guided-application-creator/gac-create-roles.html
 release: yokohama
 product: Guided Application Creator
 classification: guided-application-creator
@@ -17,13 +18,13 @@ Create or select roles in Guided Application Creator for the members of your org
 
 ## Before you begin
 
-Complete the steps in [Create an application record in Guided Application Creator](gac-create-app-record.md).
+Complete the steps in [Create an application record in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-create-app-record.md).
 
 Role required: sn\_g\_app\_creator.app\_creator or admin
 
 ## About this task
 
-![GAC roles](../image/GAC-roles.png)
+\[Omitted image "GAC-roles.png"\] Alt text: GAC roles
 
 ## Procedure
 
@@ -31,15 +32,15 @@ Role required: sn\_g\_app\_creator.app\_creator or admin
 
     You can select existing roles or create roles.
 
-<table id="choicetable_lxp_mx4_zhb"><thead><tr><th align="left" id="d248480e91">
+<table id="choicetable_lxp_mx4_zhb"><thead><tr><th align="left" id="d41205e91">
 
 Option
 
-</th><th align="left" id="d248480e94">
+</th><th align="left" id="d41205e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d248480e100">
+</th></tr></thead><tbody><tr><td id="d41205e100">
 
 **Select an existing role**
 
@@ -49,7 +50,7 @@ Procedure
 2.  On the list, select the role name.
 
 
-</td></tr><tr><td id="d248480e121">
+</td></tr><tr><td id="d41205e121">
 
 **Create a role**
 
@@ -60,7 +61,7 @@ Procedure
 3.  Select **Create**.
 
 
-</td></tr><tr><td id="d248480e148">
+</td></tr><tr><td id="d41205e148">
 
 **Select an existing role and then create a role**
 
@@ -83,7 +84,7 @@ Procedure
 
 ## What to do next
 
-Continue building your application by following the steps in [Select user experiences in Guided Application Creator](gac-select-ux.md).
+Continue building your application by following the steps in [Select user experiences in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-select-ux.md).
 
-**Parent Topic:**[Setting up an application in Guided Application Creator](set-up-app.md)
+**Parent Topic:**[Setting up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/set-up-app.md)
 

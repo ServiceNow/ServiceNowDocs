@@ -2,6 +2,7 @@
 title: Event field format for event collection
 description: Event Management requires all events to use a standard form, regardless of how they arrive at the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/c\_EMIntegrateRequirementEvent.html
 release: yokohama
 product: Event Management
 classification: event-management
@@ -163,5 +164,5 @@ processing\_notes\[Processing Notes\]
 Display of the events processing log.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Processing Events](processing-events.md)
+</table>**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 

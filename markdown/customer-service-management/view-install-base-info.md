@@ -2,7 +2,10 @@
 title: View install base information from the Customer Service Portal
 description: View a list of install base to track the instances provisioned for your account and which products or services run on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-info.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

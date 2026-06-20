@@ -2,6 +2,7 @@
 title: Request the External Content for AI Search plugin
 description: Request activation of the External Content for AI Search plugin \(com.glide.ais.external\_content\) to enable indexing of searchable content and metadata from records in external data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/activate-ext-content-ais-plugin.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Request activation of the External Content for AI Search plugin \(com.glide.ais.
 
 ## Before you begin
 
-You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](../../plugins/concept/c_ServiceNowPlugins.md).
+You must purchase a paid subscription before requesting activation of the plugin. For details on purchasing a paid subscription for a plugin, see [ServiceNow plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-platform-administration/c_ServiceNowPlugins.md).
 
 Role required: admin
 
@@ -31,7 +32,7 @@ You can't activate the External Content for AI Search plugin from your instance 
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -72,12 +73,12 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Indexing and searching external content in AI Search](../concept/external-content-ais.md)
+**Parent Topic:**[Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/external-content-ais.md)
 

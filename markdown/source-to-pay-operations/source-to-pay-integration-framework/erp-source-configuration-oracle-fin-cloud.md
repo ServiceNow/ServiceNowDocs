@@ -2,6 +2,7 @@
 title: ERP source configuration for Oracle Financial Cloud
 description: Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to automatically post purchase order, receipt, invoice, and download primary data from the ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-oracle-fin-cloud.html
 release: yokohama
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -41,7 +42,7 @@ To perform the ERP Source configuration for Oracle Financial Cloud, follow these
 1.  Define the ERP source that you want to integrate with Oracle Financial Cloud integration.
 2.  Create a basic authentication profile that can be used for web service integration with Oracle Financial Cloud.
 3.  Register the Oracle Financial Cloud integration username and password to create the authentication profile and associate it to service maps.
-4.  Define source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for Oracle Financial Cloud](../task/define-erp-source-config-oracle-fin-cloud.md).
+4.  Define source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-oracle-fin-cloud.md).
 5.  Configure service maps for the following entities:
     -   **Suppliers**
 

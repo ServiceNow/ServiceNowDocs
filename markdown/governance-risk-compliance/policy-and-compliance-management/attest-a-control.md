@@ -2,6 +2,7 @@
 title: Attest a control
 description: Attestations are surveys that gather evidence to prove that a control is implemented. If the control attestation and respondents fields are selected, when the control moves from the Draft state to the Attest state, a notification is sent to the attestation respondents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/attest-a-control.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -31,7 +32,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
 2.  Open the attestation and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d359936e92">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d237850e92">
 
 **If you are unable to answer the questions**
 
@@ -43,7 +44,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
  The list of attestations refreshes when you reassign an attestation to another user.
 
-</td></tr><tr><td id="d359936e123">
+</td></tr><tr><td id="d237850e123">
 
 **If you are able to answer the questions**
 

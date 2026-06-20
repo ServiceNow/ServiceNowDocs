@@ -2,6 +2,7 @@
 title: ScriptLoader - Client
 description: The ScriptLoader API provides methods to load scripts asynchronously.Loads scripts asynchronously.Gets scripts asynchronously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/c\_ScriptLoaderAPI.html
 release: yokohama
 product: API Reference
 classification: api-reference
@@ -19,7 +20,7 @@ You can use this API in client-side scripts for a platform/desktop UI using List
 
 You access ScriptLoader methods by using the global object `ScriptLoader`.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client.md)
 
 ## ScriptLoader - getScripts\(Array scripts, Function callback\)
 

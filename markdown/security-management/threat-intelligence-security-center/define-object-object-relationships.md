@@ -2,6 +2,7 @@
 title: Define object-object relationships
 description: Define relationships between SDOs, except the indicator object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/define-object-object-relationships.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d172315e102">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d138888e98">
 
 Field
 
-</th><th align="left" id="d172315e105">
+</th><th align="left" id="d138888e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d172315e111">
+</th></tr></thead><tbody><tr><td id="d138888e107">
 
 **Source Object**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d172315e120">
+</td></tr><tr><td id="d138888e116">
 
 **Source Object Type**
 
@@ -55,7 +56,7 @@ Select and define the source object.
 
 Defines the type of source object.
 
-</td></tr><tr><td id="d172315e129">
+</td></tr><tr><td id="d138888e125">
 
 **Target Object**
 
@@ -63,7 +64,7 @@ Defines the type of source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d172315e138">
+</td></tr><tr><td id="d138888e134">
 
 **Target Object Type**
 
@@ -71,7 +72,7 @@ Select and define the target object.
 
 Defines the type of target object.
 
-</td></tr><tr><td id="d172315e148">
+</td></tr><tr><td id="d138888e144">
 
 **Relationship Type**
 
@@ -83,7 +84,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d172315e167">
+</td></tr><tr><td id="d138888e163">
 
 **Start Time**
 
@@ -91,7 +92,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d172315e176">
+</td></tr><tr><td id="d138888e172">
 
 **Stop Time**
 
@@ -99,7 +100,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d172315e185">
+</td></tr><tr><td id="d138888e181">
 
 **Description**
 
@@ -111,5 +112,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/relationship-objects.md)
 

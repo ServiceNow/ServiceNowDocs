@@ -2,6 +2,7 @@
 title: Operations tab
 description: The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state and department. You can see risk assessments, AI assessments, control assurance, and a breakdown of issues by priority and policy exceptions by risk rating. It also shows the number of AI cases by priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/operations-tab.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
@@ -37,5 +38,5 @@ The Operations tab displays the widgets that are listed in the following table.
 
 The following image shows the AI risk and compliance dashboard.
 
-![The operations tab of the AI risk and compliance workspace.](../image/operations-tab.png "Operations tab")
+\[Omitted image "operations-tab.png"\] Alt text: The operations tab of the AI risk and compliance workspace.
 

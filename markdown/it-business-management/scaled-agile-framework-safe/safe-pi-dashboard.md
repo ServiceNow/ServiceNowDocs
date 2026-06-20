@@ -2,6 +2,7 @@
 title: SAFe PI Dashboard
 description: The SAFe PI Dashboard allows you to track the progress of your features in the current program increment \(PI\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scaled-agile-framework-safe/safe-pi-dashboard.html
 release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,9 +16,9 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 The SAFe PI Dashboard allows you to track the progress of your features in the current program increment \(PI\).
 
-![SAFe PI Summary tab](../image/safe-PI-summary.png "PI Summary tab")
+\[Omitted image "safe-PI-summary.png"\] Alt text: SAFe PI Summary tab
 
-![SAFe PI Cycle time](../image/safe-PI-cycle-time.png "Cycle Time tab")
+\[Omitted image "safe-PI-cycle-time.png"\] Alt text: SAFe PI Cycle time
 
 The SAFe PI dashboard provides the following details:
 
@@ -102,7 +103,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   PI Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](../reference/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_enf_b2k_k3b"><thead><tr><th>
 
@@ -122,7 +123,7 @@ PI Burndown
 
 </td><td>
 
-Line chart![Line chart](../../performance-analytics/image/line-icon.png)
+Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -138,7 +139,7 @@ PI burnup
 
 </td><td>
 
-Line chart![Line chart](../../performance-analytics/image/line-icon.png)
+Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -155,7 +156,7 @@ PI Feature Progress
 
 </td><td>
 
-Horizontal bar chart![Horizontal bar chart](../../performance-analytics/image/horizontal-bar.png)
+Horizontal bar chart\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart
 
 </td><td>
 
@@ -167,7 +168,7 @@ Velocity by Sprint
 
 </td><td>
 
-Bar chart![Bar chart](../../performance-analytics/image/column-icon.png)
+Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -179,7 +180,7 @@ PI Cumulative Flow Diagram
 
 </td><td>
 
-Area chart![Area chart](../image/icon-area-report.png)
+Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
 
 </td><td>
 
@@ -216,7 +217,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![Bubble chart](../../performance-analytics/image/bubble-icon.png)
+Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
 
 </td><td>
 
@@ -235,10 +236,10 @@ Identify the time taken for each story in the PI to move from an in-progress sta
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

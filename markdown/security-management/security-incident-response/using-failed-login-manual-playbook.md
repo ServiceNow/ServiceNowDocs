@@ -2,6 +2,7 @@
 title: Using the Failed Login Manual playbook
 description: Use these steps to learn how you can use the Failed Login Manual playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/using-failed-login-manual-playbook.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +38,7 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 
 5.  Click **Analysis** to see the list of activities performed in the Analysis phase.
 
-    You have the option to modify it as per your requirements.![Failed Login Manual workspace](../image/failed-login-workspace.gif)
+    You have the option to modify it as per your requirements.\[Omitted image "failed-login-workspace.gif"\] Alt text: Failed Login Manual workspace
 
 6.  Similarly, you can click Contain, Eradicate, and Review to view the list of activities that have been performed in the respective phase.
 
@@ -46,5 +47,5 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 7.  If there’s any remaining activity or user action required in any of the phases, click the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Failed Login Manual](../concept/playbook-failed-login.md)
+**Parent Topic:**[Playbook for Failed Login Manual](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-failed-login.md)
 

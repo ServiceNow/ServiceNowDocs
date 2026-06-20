@@ -2,6 +2,7 @@
 title: Using Sales Customer Relationship Management applications
 description: As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/som-using.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,7 +20,7 @@ As agents and managers, you use the CSM Configurable Workspace to complete vario
 
 When you start an opportunity, quote, or order, a **Catalog** tab \(related list\) opens, which provides a visual display of the product offerings available in a catalog.
 
-![Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.](../image/som-catalog-ui.png "Product catalog interface")
+\[Omitted image "som-catalog-ui.png"\] Alt text: Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.
 
 The catalog view has the following features for selecting products:
 
@@ -37,7 +38,7 @@ The interface consists of three main sections:
 -   **Option selection**: Displays the product options that can be selected, for example product characteristics such as color or model.
 -   **Current Selection**: Shows the pricing for the options that you select. The pricing is calculated automatically and displayed dynamically as you select product options.
 
-![Interface for adding configurable products that has sections for navigating the product hierarchy, selecting product and characteristic options, and reviewing the current selection with pricing](../image/l2c-configurator-callouts-2.png "Product configurator interface")
+\[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: Interface for adding configurable products that has sections for navigating the product hierarchy, selecting product and characteristic options, and reviewing the current selection with pricing
 
-When you're adding configurable products to opportunities, quotes, and orders, you can create and manage multiple offering instances for certain types of child offerings. You can then configure the product options and characteristics for each offering instance separately, rather than use the same set of options and characteristics for the entire quantity of a particular child offering. For more information, see [Create multiple configurations](../task/create-multiple-child-configs.md).
+When you're adding configurable products to opportunities, quotes, and orders, you can create and manage multiple offering instances for certain types of child offerings. You can then configure the product options and characteristics for each offering instance separately, rather than use the same set of options and characteristics for the entire quantity of a particular child offering. For more information, see [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/create-multiple-child-configs.md).
 

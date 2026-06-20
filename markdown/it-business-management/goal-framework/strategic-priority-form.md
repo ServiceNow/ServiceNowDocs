@@ -2,6 +2,7 @@
 title: Strategic Priority form
 description: Use the Strategic Priority form to orient your organization strategic plan toward your goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/goal-framework/strategic-priority-form.html
 release: yokohama
 product: Goal Framework
 classification: goal-framework
@@ -98,5 +99,5 @@ Description
 A detailed description of the strategic priority.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/goal-framework-reference.md)
 

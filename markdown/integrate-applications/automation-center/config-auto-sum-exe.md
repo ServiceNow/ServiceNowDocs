@@ -2,6 +2,7 @@
 title: Configuring automation summary execution
 description: Configure the execution summary of automation to specify how automation data is aggregated and presented on the Automation Center dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/automation-center/config-auto-sum-exe.html
 release: yokohama
 product: Automation Center
 classification: automation-center
@@ -21,14 +22,14 @@ Earlier, for data of different data sources different types of summarization was
 
 **Note:** The summary execution table displays data about executions of the automations for the domain where they are created and not where they are executed. For example, if an automation is created in the parent domain and executed in the child domain, it will display the data in the parent domain. You cannot see this execution data in the child domain.
 
--   **[Create automation source type](../task/create-source-type.md)**  
+-   **[Create automation source type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-source-type.md)**  
 Define the kind of source type that you want to import and use in Automation Center.
--   **[Create automation source](../task/create-source.md)**  
+-   **[Create automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-source.md)**  
 Associate a data source for the selected source type.
--   **[Configure execution summary](../task/create-exe-sum-config.md)**  
+-   **[Configure execution summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-exe-sum-config.md)**  
 Configure the execution summary with the appropriate conditions.
--   **[Create execution state mapping](../task/create-exe-state-mapping.md)**  
+-   **[Create execution state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-exe-state-mapping.md)**  
 Define the mapping for the source and target tables for the configuration to work as expected.
 
-**Parent Topic:**[Configuring Automation Center](automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-setup.md)
 

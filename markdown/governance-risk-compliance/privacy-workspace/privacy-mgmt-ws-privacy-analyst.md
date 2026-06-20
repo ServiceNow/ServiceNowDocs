@@ -2,6 +2,7 @@
 title: Privacy Workspace for the privacy analyst
 description: Privacy analysts manage the privacy compliance posture of the processing activity owned by them. Compliance posture refers to the overall compliance status of an organization, business process, or business application, and so on based on the compliant and non-compliant status of controls across various regulations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-analyst.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -24,7 +25,7 @@ A privacy analyst has the sn\_privacy.analyst role. The primary tasks for a priv
 
 The following image shows the processing activity overview page for the privacy analyst.
 
-![Home page for the Privacy analyst.](../image/processing-activity-overview.png "Processing activity overview page")
+\[Omitted image "processing-activity-overview.png"\] Alt text: Home page for the Privacy analyst.
 
-**Parent Topic:**[Exploring Privacy Management](explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

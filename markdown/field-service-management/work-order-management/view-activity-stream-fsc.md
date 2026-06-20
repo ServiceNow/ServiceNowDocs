@@ -2,6 +2,7 @@
 title: Track or add work order task information on a mobile device
 description: View activities related to your work order task through the Field Service Contractor for mobile application. You can also add documents, images, or work notes to the work order task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-activity-stream-fsc.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -39,45 +40,45 @@ The Activity Stream screen tracks and shows all the information related to a wor
 
 7.  Add a document, image, or comment.
 
-<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d96920e109">
+<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d72009e109">
 
 Item to be added
 
-</th><th align="left" id="d96920e112">
+</th><th align="left" id="d72009e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d96920e118">
+</th></tr></thead><tbody><tr><td id="d72009e118">
 
 **Attach a document**
 
 </td><td>
 
-1.  Tap the document icon \(![Document icon.](../image/document.png)\).
+1.  Tap the document icon \(\[Omitted image "document.png"\] Alt text: Document icon.\).
 2.  Select a document to add to your work order task.
 
 
-</td></tr><tr><td id="d96920e142">
+</td></tr><tr><td id="d72009e142">
 
 **Add an image**
 
 </td><td>
 
-1.  Tap the image icon \(![Image icon.](../image/image-icon.png)\)
+1.  Tap the image icon \(\[Omitted image "image-icon.png"\] Alt text: Image icon.\)
 2.  Select an image to upload.
 
 
-</td></tr><tr><td id="d96920e166">
+</td></tr><tr><td id="d72009e166">
 
 **Add a photo**
 
 </td><td>
 
-1.  Tap the camera icon \(![Camera icon.](../image/camera.png)\).
+1.  Tap the camera icon \(\[Omitted image "camera.png"\] Alt text: Camera icon.\).
 2.  Capture the image to include in your work order task.
 
 
-</td></tr><tr><td id="d96920e190">
+</td></tr><tr><td id="d72009e190">
 
 **Add a comment**
 
@@ -87,5 +88,5 @@ Enter the comment in the **Add comment** field
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

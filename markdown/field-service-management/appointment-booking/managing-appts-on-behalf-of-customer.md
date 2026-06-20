@@ -2,6 +2,7 @@
 title: Manage appointments on behalf of a customer
 description: Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/managing-appts-on-behalf-of-customer.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -19,10 +20,10 @@ Agents and dispatchers can manage appointments on behalf of a customer from a wo
 
 Booked appointments can be rescheduled and canceled within the time constraints identified in the configuration.
 
--   **[Manage appointments from a work order or work order task](managing-appts-from-work-order.md)**  
+-   **[Manage appointments from a work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-work-order.md)**  
 Dispatchers and agents can book, reschedule, or cancel appointments from a work order or work order task on behalf of a customer.
--   **[Manage appointments in the CSM Configurable Workspace](managing-appts-from-csm-workspace.md)**  
+-   **[Manage appointments in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-csm-workspace.md)**  
 Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers for the associated work orders.
 
-**Parent Topic:**[Manage appointments](managing-appointments.md)
+**Parent Topic:**[Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)
 

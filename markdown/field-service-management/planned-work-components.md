@@ -2,7 +2,10 @@
 title: Planned Work Management Components
 description: Several types of components are installed with Planned Work Management, including tables and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/planned-work-components.html
 release: yokohama
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
@@ -350,8 +353,8 @@ Schedule Occurrence \[wm\_plan\_work\_schedule\_occurrence\]
  
 
 </td></tr></tbody>
-</table>-   **[Planned Work Management system properties](planned_work_management_sys_properties.md)**  
+</table>-   **[Planned Work Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/planned_work_management_sys_properties.md)**  
 Planned Work Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
 

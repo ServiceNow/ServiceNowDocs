@@ -2,6 +2,7 @@
 title: Customize a default callback topic
 description: Customize the default callback topics as per your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/omnichannel-callback/customize-callback-topic.html
 release: yokohama
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -27,7 +28,7 @@ You can customize one of the following default callback topics: Callback-Phone f
 
 1.  Duplicate the Callback-Phone topic from the Virtual Agent Designer.
 
-    For more information on how to duplicate a topic, see [Duplicate a Virtual Agent topic](https://www.servicenow.com/docs/access?context=duplicate-virtual-agent-topic&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+    For more information on how to duplicate a topic, see Duplicate a Virtual Agent topic.
 
 2.  In the Advanced properties section of the **Properties** tab, select the voice channel that you want to associate with the custom callback topic.
 

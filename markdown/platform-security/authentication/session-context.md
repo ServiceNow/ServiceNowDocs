@@ -2,6 +2,7 @@
 title: Session validation context
 description: Use the Session Validation Context as an additional layer of protection against session or cookie hijacking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/session-context.html
 release: yokohama
 product: Authentication
 classification: authentication
@@ -15,7 +16,7 @@ breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentica
 
 Use the Session Validation Context as an additional layer of protection against session or cookie hijacking.
 
-You can use the Session Validation Context with the [Adaptive authentication](adaptive-authentication.md) policy framework. The framework uses authentication policies to evaluate authentication requests and then either denies or allows access based on policy inputs and conditions.
+You can use the Session Validation Context with the [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/adaptive-authentication.md) policy framework. The framework uses authentication policies to evaluate authentication requests and then either denies or allows access based on policy inputs and conditions.
 
 The Session Validation Context policy can be used in conjunction with post auth policy, where an admin can enforce IP restrictions to certain or all users during the logged in session.
 
@@ -113,5 +114,5 @@ You can only use the IP, Role, and Group filter criteria for Session Validation 
 
 ## Policy inputs and conditions
 
-The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference; but they can’t be used to change the policy inputs or conditions. To modify your policy, navigate to the policy using the reference icon \(![Reference icon](../images/reference-icon.png)\) next to the **Allow Policy** or **Deny Policy** field.
+The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference; but they can’t be used to change the policy inputs or conditions. To modify your policy, navigate to the policy using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) next to the **Allow Policy** or **Deny Policy** field.
 

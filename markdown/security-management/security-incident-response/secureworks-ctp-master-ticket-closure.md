@@ -2,6 +2,7 @@
 title: Secureworks CTP Master Ticket Closure Notice
 description: Before you close a security incident created by a Secureworks CTP master ticket, you must verify that all child tickets associated with the master ticket are closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/secureworks-ctp-master-ticket-closure.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si.admin
 
     The Secureworks CTP tickets with their corresponding security incidents are displayed.
 
-    ![Secureworks: Ticket to Tasks](../image/secureworks-ticket-to-task.gif)
+    \[Omitted image "secureworks-ticket-to-task.gif"\] Alt text: Secureworks: Ticket to Tasks
 
 2.  Click on the security incident with the **isGlobalParent** field set to **true.**
 
@@ -33,7 +34,7 @@ Role required: sn\_si.admin
 
     The following dialog box is displayed.
 
-    ![Secureworks CTP: Master Ticket Closure](../image/secureworks-sir-master-ticket.gif)
+    \[Omitted image "secureworks-sir-master-ticket.gif"\] Alt text: Secureworks CTP: Master Ticket Closure
 
     This security incident is associated with a Secureworks Master Ticket. A Master Ticket may have one or more child tickets associated with it. Before the Master Ticket can be closed, you must first verify if all the child tickets associated with this Master Ticket are closed.
 

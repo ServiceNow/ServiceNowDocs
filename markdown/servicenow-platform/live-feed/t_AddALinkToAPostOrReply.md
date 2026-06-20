@@ -2,6 +2,7 @@
 title: Add a link to a post or reply
 description: Add or modify a link to a Live Feed post.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_AddALinkToAPostOrReply.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -29,7 +30,7 @@ Role required: none
 
     The **URL** and **Link text** fields appear.
 
-    ![Add a URL](../image/AddAURL.png "Add a URL")
+    \[Omitted image "AddAURL.png"\] Alt text: Add a URL
 
 3.  Enter the URL and the text you want to appear as the link.
 
@@ -37,10 +38,10 @@ Role required: none
 
 5.  When you have finished entering your message, click **Post** or **Reply**.
 
-    ![URL Saved](../image/URLSaved.png "URL Saved")
+    \[Omitted image "URLSaved.png"\] Alt text: URL Saved
 
-    To remove a link, click the trash can icon adjacent to the link. To make changes to an existing link, click the edit \(![Pencil](../image/Pencil.png)\) icon.
+    To remove a link, click the trash can icon adjacent to the link. To make changes to an existing link, click the edit \(\[Omitted image "Pencil.png"\] Alt text: Pencil\) icon.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

@@ -2,7 +2,10 @@
 title: Review a publication
 description: Users with the publications approver role that have been added as approvers to the publication workflow can review a publication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_TargetCommReviewAPublication.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-06-09"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d228906e132">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d225554e132">
 
 **Approve**
 
@@ -45,7 +48,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 The review state changes to **Approved** on the Approvals list and the publication stage is set to **Ready To Publish**.For other approvers of this article, the review state changes to **No Longer Required**.
 
-</td></tr><tr><td id="d228906e153">
+</td></tr><tr><td id="d225554e153">
 
 **Reject**
 

@@ -2,6 +2,7 @@
 title: Properties of the Flow Designer components
 description: To set the properties of a Flow Designer component, double-click the component and enter the values in the Properties pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/properties-flow-designer-components.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ To set the properties of a Flow Designer component, double-click the component a
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Flow Designer components](../concept/flow-designer-components.md)
+**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/flow-designer-components.md)
 

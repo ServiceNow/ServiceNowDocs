@@ -2,6 +2,7 @@
 title: Maximum allowed attachment size \[Updated in Security Center 1.3\]
 description: Configure the com.glide.attachment.max\_size property to control the maximum size \(in megabytes\) permitted for an uploaded attachment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Attachment limit properties](https://www.servicenow.com/docs/access?context=r_AttachmentLimitProperties&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

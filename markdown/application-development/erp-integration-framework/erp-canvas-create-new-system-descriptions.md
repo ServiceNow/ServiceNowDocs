@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP new system field descriptions
 description: The new system form in Zero Copy Connector for ERP contains information on connection details for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-create-new-system-descriptions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The new system form in Zero Copy Connector for ERP contains information on connection details for the ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md).
+For process details, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md).
 
 <table id="table_obh_qgd_5xb"><thead><tr><th>
 
@@ -47,7 +48,7 @@ Connection
 
 </td><td>
 
-Alias of the connection credential that you configured to connect to the system of record. You can select only from connections in the Zero Copy Connector for ERP scope.For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](../task/set-up-erp-integration-connection.md).
+Alias of the connection credential that you configured to connect to the system of record. You can select only from connections in the Zero Copy Connector for ERP scope.For more information, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Extraction tables
 
 </td><td>
 
-Number of ERP extraction tables in the ERP system. This field isn't editable.Link a system to an extraction table by adding the system to the ERP extraction table record in Zero Copy Connector for ERP. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](../task/erp-canvas-add-new-extraction-table.md).
+Number of ERP extraction tables in the ERP system. This field isn't editable.Link a system to an extraction table by adding the system to the ERP extraction table record in Zero Copy Connector for ERP. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Remote tables
 
 </td><td>
 
-Number of remote tables in the ERP system. This field isn't editable.Link a system to a remote table by adding the system to the ERP remote table record in Zero Copy Connector for ERP. For more information, see [View and edit ERP remote table details with Zero Copy Connector for ERP](../task/erpi-find-tables.md).
+Number of remote tables in the ERP system. This field isn't editable.Link a system to a remote table by adding the system to the ERP remote table record in Zero Copy Connector for ERP. For more information, see [View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erpi-find-tables.md).
 
 </td></tr><tr><td>
 
@@ -122,5 +123,5 @@ Updated \(on heartbeat tabs after system record is first saved\)
 Date and time when the heartbeat was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

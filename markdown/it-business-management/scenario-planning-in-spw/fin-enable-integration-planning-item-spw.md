@@ -2,6 +2,7 @@
 title: Enable integration for internal planning item
 description: Enable the integration for an internal planning item type to view portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/fin-enable-integration-planning-item-spw.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -31,6 +32,6 @@ Role required: admin
 
 4.  Set the Active field to **true** for dmn\_demand, pm\_project, and rm\_epic.
 
-    ![Integration for internal planning item.](../images/fin-integration-internal-planning-item.png)
+    \[Omitted image "fin-integration-internal-planning-item.png"\] Alt text: Integration for internal planning item.
 
 

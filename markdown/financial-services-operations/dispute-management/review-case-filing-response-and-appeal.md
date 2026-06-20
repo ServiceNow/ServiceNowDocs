@@ -2,6 +2,7 @@
 title: Review a case filing response and appeal the decision
 description: An appeal can be created by the issuer or acquirer if either party isn’t satisfied with the arbitration ruling from Visa. Review the case filing response and receive the decision letter from Visa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -49,15 +50,15 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 10. In the **Response outcome** field, either accept or appeal the decision.
 
-<table id="choicetable_lqj_tw4_mfc"><thead><tr><th align="left" id="d27948e192">
+<table id="choicetable_lqj_tw4_mfc"><thead><tr><th align="left" id="d31149e192">
 
 Option
 
-</th><th align="left" id="d27948e195">
+</th><th align="left" id="d31149e195">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d27948e201">
+</th></tr></thead><tbody><tr><td id="d31149e201">
 
 **Unresolved**
 
@@ -66,7 +67,7 @@ Result
 Either of the following scenarios appear:-   If the appeal amount is less than a certain amount, the **Reverse provisional credit** drop-down is displayed. Select **Yes** or **No**
 -   In the **Create appeal** drop-down list, select **Yes**.
 
-**Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflow](../concept/collaboration-workflow.md).
+**Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-workflow.md).
 
     1.  In the **Appeal amount** field, enter the amount for the appeal.
     2.  In the **Reason for appeal** field, explain why you want to appeal the decision.
@@ -78,7 +79,7 @@ Either of the following scenarios appear:-   If the appeal amount is less than a
     2.  Select **Continue**.
 
 
-</td></tr><tr><td id="d27948e309">
+</td></tr><tr><td id="d31149e309">
 
 **Resolved**
 
@@ -90,7 +91,7 @@ Select to indicate the case is resolved.
 </table>
 ## Result
 
-After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response. Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting **Get acknowledgment letter** in the [Review the case filing appeal](review-case-filing-appeal.md) activity.
+After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response. Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting **Get acknowledgment letter** in the [Review the case filing appeal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-case-filing-appeal.md) activity.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

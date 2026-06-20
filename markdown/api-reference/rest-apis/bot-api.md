@@ -2,6 +2,7 @@
 title: Virtual Agent Bot Integration API
 description: The Virtual Agent Bot Integration API provides endpoints that allow users to integrate any chat interface or a bot ecosystem with the ServiceNow Virtual Agent and/or Live Agent.Sends a specified message, attachment, or URL to a specified secondary ServiceNow Virtual Agent \(VA\) bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/bot-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
@@ -17,9 +18,9 @@ The Virtual Agent Bot Integration API provides endpoints that allow users to int
 
 This API is built on the conversational custom chat integration framework provided with Virtual Agent and operates in the `sn_va_as_service` namespace.
 
-For additional information on installing and configuring the Virtual Agent Bot Integration API, see [Virtual Agent API](https://www.servicenow.com/docs/access?context=virtual-agent-api&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+For additional information on installing and configuring the Virtual Agent Bot Integration API, see Virtual Agent API.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
 ## VA Bot Integration - POST /sn\_va\_as\_service/bot/integration
 
@@ -27,7 +28,7 @@ Sends a specified message, attachment, or URL to a specified secondary ServiceNo
 
 A customer's site can have one or more secondary ServiceNow bots. In addition to passing messages to a ServiceNow VA secondary bot, the primary bot or chat client can use this endpoint to pass messages to an agent through Live Agent chat. Use the **action** parameter passed in the request body to specify how the specified content should be handled.
 
-**Note:** This endpoint can be either synchronous or asynchronous depending on how it's configured. If asynchronous, when the request is received by the endpoint, it validates the request and responds with a call status of success or failure and the appropriate HTTP status code. The VA then processes the request and sends a second response to the configured response endpoint. For example, for a bot-to-bot integration, the second response would be to the URL of your primary bot. Both of these responses are defined below. For additional information on this configured response endpoint, see [Configure the output response REST endpoint and outbound authentication for the Virtual Agent API](https://www.servicenow.com/docs/access?context=configure-response-endpoint-va-api&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+**Note:** This endpoint can be either synchronous or asynchronous depending on how it's configured. If asynchronous, when the request is received by the endpoint, it validates the request and responds with a call status of success or failure and the appropriate HTTP status code. The VA then processes the request and sends a second response to the configured response endpoint. For example, for a bot-to-bot integration, the second response would be to the URL of your primary bot. Both of these responses are defined below. For additional information on this configured response endpoint, see Configure the output response REST endpoint and outbound authentication for the Virtual Agent API.
 
 **Note:** The responses in the code examples for this endpoint show what is sent from the VA to the configured response endpoint. They don't show the actual response to this endpoint which is a simple success or failure response.
 
@@ -119,7 +120,7 @@ contextVariables
 
 </td><td>
 
-JSON-formatted name-value pairs that provide addition information about the user. Provide this information to customize the conversation experience. For additional information on context variables, see [Define and publish chat context variables](https://www.servicenow.com/docs/access?context=ac-configure-context-variables&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).For example:
+JSON-formatted name-value pairs that provide addition information about the user. Provide this information to customize the conversation experience. For additional information on context variables, see Define and publish chat context variables.For example:
 
 ```
 "contextVariables": {
@@ -141,7 +142,7 @@ emailId
 
 </td><td>
 
-Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see [Link your ServiceNow user account to a messaging application for Virtual Agent conversations](https://www.servicenow.com/docs/access?context=link-accounts-with-virtual-agent&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).Data type: String
+Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see Link your ServiceNow user account to a messaging application for Virtual Agent conversations.Data type: String
 
 </td></tr><tr><td>
 
@@ -495,7 +496,7 @@ Required. Unique user identifier. This is the identifier of the end user who is 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -536,7 +537,7 @@ Required if using token-based authentication; optional for Basic or OAuth authen
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -821,7 +822,7 @@ body.group
 
 </td><td>
 
-Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see [Virtual Agent action scripts](https://www.servicenow.com/docs/access?context=va-action-scripts&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).Possible values:
+Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see Virtual Agent action scripts.Possible values:
 
 -   DefaultOutputCard
 -   DefaultDate
@@ -1092,7 +1093,7 @@ body.uiType
 
 </td><td>
 
-Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).Possible values:
+Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see Getting started with Virtual Agent Designer.Possible values:
 
 -   ActionMsg
 -   DefaultOutputCard
@@ -1450,7 +1451,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a conversation to Live Agent using utterance
 
-The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://www.servicenow.com/docs/access?context=contextual-actions&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see Contextual actions for custom chat integrations.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1967,7 +1968,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a conversation to Live Agent in a specific queue
 
-The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. For additional information on creating a work item queue, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. For additional information on creating a work item queue, see Create a work item queue.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \

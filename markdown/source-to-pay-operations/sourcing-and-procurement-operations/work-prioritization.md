@@ -2,6 +2,7 @@
 title: Work prioritization
 description: Priority is automatically assigned to purchase requisitions, sourcing requests, and procurement cases that your procurement specialists must work on, based on decisions configured by your administrators through decision tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/work-prioritization.html
 release: yokohama
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +28,7 @@ Your administrators can define the logic for defaulting priority in the above de
 
 The priority logic is retriggered and priority is automatically reevaluated if any subsequent updates are made to the respective records​.
 
-For information on how to work with decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+For information on how to work with decision tables, see .
 
-**Parent Topic:**[Procurement Case Management](../concept/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

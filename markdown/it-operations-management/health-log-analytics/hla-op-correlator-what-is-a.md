@@ -2,6 +2,7 @@
 title: Identifying relationships in log data by using log correlators
 description: Log correlators are keys or values in log data that detect correlations between alerts to help you determine whether an alert is part of a larger issue. For example, a log correlator could detect when the interface ID of a particular network device occurs simultaneously in multiple warnings across different service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -36,10 +37,10 @@ You can specify the set of log sources whose log data are analyzed by a log corr
 -   **All sources**: The system applies the log correlator to log lines from all log sources.
 -   **Specified source**: For a log correlator, the system analyzes only log lines from the log source that you specify.
 
--   **[Add a log correlator to identify relationships in logs](../task/hla-op-correlator-define.md)**  
+-   **[Add a log correlator to identify relationships in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-correlator-define.md)**  
 Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
--   **[Exclude a source from a log correlator](../../health-log-analytics-admin/task/hla-correlators-exclude-source.md)**  
+-   **[Exclude a source from a log correlator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md)**  
 Prevent the system from analyzing log lines from a specific source by excluding that source from the log correlator.
 
-**Parent Topic:**[ITOM AIOps](../../it-operations-management/reference/itom-health-landing-page.md)
+**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

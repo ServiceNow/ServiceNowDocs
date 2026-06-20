@@ -2,6 +2,7 @@
 title: Create additional child assets
 description: Create additional child assets for the model even if the assets are not defined in the model component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-addon-asset.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -37,5 +38,5 @@ Role required: sn\_eam.enterprise\_admin
 4.  Select **Add**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

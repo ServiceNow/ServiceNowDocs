@@ -2,6 +2,7 @@
 title: View task information on the classic mobile UI map
 description: The agent map on the classic mobile interface displays the agent's location, tasks assigned to the agent for the current day, accepted tasks, and unassigned tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-tasks-on-mobile-ui-map.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -31,7 +32,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d122921e95">
+<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d57915e95">
 
 **On**
 
@@ -39,7 +40,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 Displays the current date. Click the arrow to display the calendar and select a different date.
 
-</td></tr><tr><td id="d122921e104">
+</td></tr><tr><td id="d57915e104">
 
 **Show Assigned Tasks**
 
@@ -47,7 +48,7 @@ Displays the current date. Click the arrow to display the calendar and select a 
 
 All assigned tasks are displayed by default. Disable the switch to hide assigned tasks.
 
-</td></tr><tr><td id="d122921e113">
+</td></tr><tr><td id="d57915e113">
 
 **Show My Location**
 
@@ -55,7 +56,7 @@ All assigned tasks are displayed by default. Disable the switch to hide assigned
 
 Displays your current position on the map with the agent location icon. Disable the switch to remove this icon from the map.If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d122921e125">
+</td></tr><tr><td id="d57915e125">
 
 **Show Routing Numbers**
 
@@ -63,7 +64,7 @@ Displays your current position on the map with the agent location icon. Disable 
 
 Displays the routing numbers on tasks dispatched for the date selected in the calendar. Disable the switch to hide the routing numbers.
 
-</td></tr><tr><td id="d122921e134">
+</td></tr><tr><td id="d57915e134">
 
 **Show Unassigned Tasks**
 
@@ -75,5 +76,5 @@ All unassigned tasks are displayed by default. Disable the switch to hide unassi
 </table>4.  Click **Save** and then click the left arrow to return to the map.
 
 
-**Parent Topic:**[Manage tasks on the map](../../planning-and-policy/concept/c_ManageTasksOnTheMap.md)
+**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageTasksOnTheMap.md)
 

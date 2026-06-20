@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Process Mining
 description: Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/exp-na-process-mining.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -25,14 +26,14 @@ When a transition analysis job is initiated, relevant work notes from records in
 
 ## Work Notes Analysis skill
 
-Now Assist for Process Mining includes the Work Notes Analysis skill. This skill must be activated to use Now Assist for Process Mining. For more information, see [Activate work notes analysis skill](../task/activate-na-skill.md).
+Now Assist for Process Mining includes the Work Notes Analysis skill. This skill must be activated to use Now Assist for Process Mining. For more information, see [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md).
 
 ## What to explore next
 
 To learn more about configuring and using Now Assist for Process Mining, see:
 
--   [Configuring Now Assist for Process Mining](config-na-proc-min.md)
--   [Using Now Assist for Process Mining](use-na-process-mining.md)
+-   [Configuring Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/config-na-proc-min.md)
+-   [Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-na-process-mining.md)
 
-**Parent Topic:**[Now Assist for Process Mining](now-assist.md)
+**Parent Topic:**[Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
 

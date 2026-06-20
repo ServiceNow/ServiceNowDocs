@@ -2,13 +2,14 @@
 title: Order Management
 description: Learn more about available features in the Order Management application so that you can create a seamless ordering experience for your enterprise customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/order-mgt-exploring.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Sales Customer Relationship Management, Sales Customer Relationship Management]
+breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Order Management
@@ -17,7 +18,7 @@ Learn more about available features in the Order Management application so that 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Order Management overview
 
@@ -39,7 +40,7 @@ With the Order Management application, you get an order management system that i
     -   Direct order capture - Your agents and order managers can enter product or service orders using the CSM Configurable Workspace.
     -   If you're using the Order Management for Telecommunications, Media, and Technology application and have a Telecommunications Service Management subscription, you can use the following features:
         -   Product and Service Order Open APIs - Use the ServiceNow implementation of the TMF Open APIs to capture product and service orders from third-party systems.
-        -   Now Service Exchange integrations - Use the Service Exchange applications to receive and fulfill product or service requests directly between your instance and the instances of your customers, without configuring and maintaining custom integrations. Service Exchange supports the verification, enrichment, decomposition, and fulfillment of these customer orders. For detailed benefits of the Service Exchange applications, see [Learn about Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-benefits&version=yokohama&pubname=yokohama-service-bridge&ft:locale=en-US).
+        -   Now Service Exchange integrations - Use the Service Exchange applications to receive and fulfill product or service requests directly between your instance and the instances of your customers, without configuring and maintaining custom integrations. Service Exchange supports the verification, enrichment, decomposition, and fulfillment of these customer orders. For detailed benefits of the Service Exchange applications, see .
     After an order is captured, your order agents can add other required order details, such as delivery location or pricing as part of order enrichment.
 
 -   **Order decomposition**
@@ -61,6 +62,6 @@ With the Order Management application, you get an order management system that i
     -   Configure product options for complex products.
     -   Create orders and view products in their shopping carts.
     -   Review the fulfillment process to check the progress of their orders.
-    For more information on setting up the Business Portal, see [Configure the Business Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&version=yokohama&pubname=yokohama-customer-service-management&ft:locale=en-US).
+    For more information on setting up the Business Portal, see Configure the Business Portal.
 
 

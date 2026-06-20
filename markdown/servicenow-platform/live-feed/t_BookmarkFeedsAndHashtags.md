@@ -2,6 +2,7 @@
 title: Bookmark feeds and hashtags
 description: The Live Feed interface uses the standard bookmarking functionality for feeds and hashtags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_BookmarkFeedsAndHashtags.html
 release: yokohama
 product: Live Feed
 classification: live-feed
@@ -23,8 +24,8 @@ Role required: none
 
 1.  Drag-and-drop group feeds and hashtags from the Feed Summary section to the Edge for quick access.
 
-    ![Bookmark a hashtag](../image/BookmarkHashtag.png "Bookmark a hashtag")
+    \[Omitted image "BookmarkHashtag.png"\] Alt text: Bookmark a hashtag
 
 
-**Parent Topic:**[Live Feed UI overview](../reference/r_LiveFeedUIOverview.md)
+**Parent Topic:**[Live Feed UI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/r_LiveFeedUIOverview.md)
 

@@ -2,6 +2,7 @@
 title: Managing Visa disputes
 description: This page provides issuers the ability to understand the process of implementing the integration of ServiceNow Financial Services Card Operations \(card dispute playbook\) with the Dispute Rules Content Pack for Visa application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/managing-visa-disputes.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
@@ -17,9 +18,9 @@ This page provides issuers the ability to understand the process of implementing
 
 ## Creating card dispute case
 
-Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see [Creating a card dispute case](../task/create-dispute-service-case.md).
+Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see [Creating a card dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-dispute-service-case.md).
 
-This process includes various stages. For more details on these stages, see [Managing dispute workflows](dispute-management-workflows.md).
+This process includes various stages. For more details on these stages, see [Managing dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md).
 
 ## Dispute categories
 
@@ -48,7 +49,7 @@ Reason codes indicate the reason for a dispute.
 
 ## Dispute questionnaire
 
-When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Processing dispute intake](dispute-questionnaire.md).
+When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Processing dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-questionnaire.md).
 
 ## Dispute decision tables
 
@@ -80,7 +81,7 @@ Determines the chargeback reason code for Visa disputes based on the case catego
 -   This dispute is due to?
 
 </td></tr></tbody>
-</table>For more information on the Decision tables that provide the logic for processing card disputes, see [Configuring dispute decision tables](dispute-decision-tables.md)
+</table>For more information on the Decision tables that provide the logic for processing card disputes, see [Configuring dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-decision-tables.md)
 
 ## Chargeback reason code
 
@@ -102,8 +103,8 @@ ServiceNow will maintain the annual changes to these rules, removing the manual 
 
 The Dispute Rules Content Pack for Visa includes an intake questionnaire, chargeback eligibility determination based on Visa rules, and mapping of dispute reason codes. These features helps issuing banks enhance the data quality of dispute transactions, reduce the need for manual data entry, and apply chargeback eligibility rules through a connected system.
 
--   **[Dispute Rules Content Pack for Visa](../../dispute-content-pack-for-visa/concept/dispute-rules-content-pack-for-visa-landing-page-1.md)**  
+-   **[Dispute Rules Content Pack for Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-visa-landing-page-1.md)**  
 The ServiceNow® Dispute Rules Content Pack for Visa provides questionnaires for the intake of dispute related information under various dispute categories as per Visa guidelines.
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
 

@@ -2,6 +2,7 @@
 title: Data Visualization properties
 description: Several properties that limit what can be displayed in data visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-visualization-properties.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -66,5 +67,5 @@ Maximum setting recognized for the maxNumberOfGroups property of data visualizat
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-visualization-reference.md)
 

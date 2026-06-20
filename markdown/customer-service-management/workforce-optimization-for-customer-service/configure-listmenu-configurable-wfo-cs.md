@@ -2,6 +2,7 @@
 title: Configure a list menu to display in the Learning tab in Workforce Optimization for Customer Service
 description: Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for Customer Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/workforce-optimization-for-customer-service/configure-listmenu-configurable-wfo-cs.html
 release: yokohama
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -17,9 +18,9 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 ## Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](request-configurable-wfo-cs.md).
+**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=yokohama&pubname=yokohama-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
 
 Role required: admin
 
@@ -58,5 +59,5 @@ Role required: admin
 9.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](../concept/setup-coaching-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/setup-coaching-configurable-wfo-cs.md)
 

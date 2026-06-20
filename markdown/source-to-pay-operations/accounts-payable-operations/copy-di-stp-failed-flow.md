@@ -2,6 +2,7 @@
 title: Copy and configure the DI STP Failed flow
 description: Copy and configure the DI STP Failed flow and activate this flow to use it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/copy-di-stp-failed-flow.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ Scope: sn\_ap\_ic scope.
 
 2.  Search for and open the **DI STP Failed** flow.
 
-3.  Select the more actions icon \(![more actions icon](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) in the top right and select **Copy flow**.
 
     The Create a copy of this flow dialog box is displayed.
 
@@ -39,7 +40,7 @@ Scope: sn\_ap\_ic scope.
 
 6.  Select **Copy**.
 
-    A copy of the flow opens. Under **TRIGGER**, in the **Condition** field, copy "DI STP Failed" flow and update trigger condition to reference the use case created by the customer. Use the AND operator and select **Use case** is **copied Gen AI use case** and **Done**. Use the AND operator and, select **Use case** is **copied Gen AI use case** and **Done**. ![DI STP Failed trigger condition](../image/di-stp-failed-genai.png). For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](create-use-case-copy.md) and [Copy and activate the generative AI DocIntel flow](configure-gen-ai-di-flow.md).
+    A copy of the flow opens. Under **TRIGGER**, in the **Condition** field, copy "DI STP Failed" flow and update trigger condition to reference the use case created by the customer. Use the AND operator and select **Use case** is **copied Gen AI use case** and **Done**. Use the AND operator and, select **Use case** is **copied Gen AI use case** and **Done**. \[Omitted image "di-stp-failed-genai.png"\] Alt text: DI STP Failed trigger condition. For more information on copying use case, refer [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md) and [Copy and activate the generative AI DocIntel flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.md).
 
 7.  Select **Save**.
 

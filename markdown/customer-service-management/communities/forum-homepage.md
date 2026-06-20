@@ -2,6 +2,7 @@
 title: Navigating the forum homepage
 description: While in a forum, you can navigate the forum homepage and perform tasks, such as posting content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/forum-homepage.html
 release: yokohama
 product: Communities
 classification: communities
@@ -125,5 +126,5 @@ Most viewed content
 Displays the top three posts according to number of views.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use a community](../task/use-community-forums.md)
+</table>**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
 

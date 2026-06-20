@@ -2,6 +2,7 @@
 title: Copy Splunk Enterprise Security profiles from one instance to another using export/import functionality
 description: You can export and import Splunk Enterprise Security profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/import-and-export-splunk-profile-data.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -43,7 +44,7 @@ This functionality allows the security administrator to copy profiles that have 
 
     The following illustration shows exporting a profile \(SplunkES3profile\) from the ServiceNow AI Platform instance \(psand.service-now.com\).
 
-    ![Exporting Splunk profile data.](../image/splunk-profile-export.gif)
+    \[Omitted image "splunk-profile-export.gif"\] Alt text: Exporting Splunk profile data.
 
     The exported payload.xml file is downloaded on your computer. The file contains the profile name, correlation rules, mappings, filters, aggregation criteria, field translations, fetched sample data, scheduling, and configuration tile source information. When you select and download multiple profiles, they appear in the same payload.xml file.
 
@@ -61,7 +62,7 @@ This functionality allows the security administrator to copy profiles that have 
 
     The following illustration shows importing a profile \(SplunkES3profile\) from the ServiceNow AI Platform instance \(psand.service-now.com\) to the ServiceNow AI Platform instance \(ppsand.service-now.com\).
 
-    ![Importing a Splunk Profile.](../image/splunk-profile-import.gif)
+    \[Omitted image "splunk-profile-import.gif"\] Alt text: Importing a Splunk Profile.
 
     You have successfully imported the profile from another ServiceNow AI Platform instance.
 

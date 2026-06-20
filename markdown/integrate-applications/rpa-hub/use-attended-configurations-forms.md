@@ -2,6 +2,7 @@
 title: Use the AttendedConfigurations component
 description: When you use the AttendedConfigurations component, it shows a list of attended configurations associated to the selected same bot process. To select and give control out port for each configuration that routes the automation logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/rpa-hub/use-attended-configurations-forms.html
 release: yokohama
 product: RPA Hub
 classification: rpa-hub
@@ -17,9 +18,9 @@ When you use the AttendedConfigurations component, it shows a list of attended c
 
 ## Before you begin
 
-If you are running an automation from RPA Desktop Design Studio, then assign the automation to the bot process by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio. In the **Bot Process** field, ensure to select an attended bot process that is enabled with Embedded Task Automation. In the **Attended Config** field, ensure to select an associated attended configuration. In the **Record Context** field, ensure to enter the Sys ID or URL of the ServiceNow form record. For more information, see [Assign bot process to an automation project](assign-bot-process.md).
+If you are running an automation from RPA Desktop Design Studio, then assign the automation to the bot process by using the **Assign bot process** option from the **Design** tab of RPA Desktop Design Studio. In the **Bot Process** field, ensure to select an attended bot process that is enabled with Embedded Task Automation. In the **Attended Config** field, ensure to select an associated attended configuration. In the **Record Context** field, ensure to enter the Sys ID or URL of the ServiceNow form record. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/assign-bot-process.md).
 
-Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation in RPA Hub](../../rpa-hub/concept/embedded-task-auto-rpa.md).
+Ensure you are familiar with Embedded Task Automation concepts. For more information, see [Embedded Task Automation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/embedded-task-auto-rpa.md).
 
 Role required:
 
@@ -32,7 +33,7 @@ The AttendedConfigurations component segregates the execution of the automations
 
 If you are triggering the automation from the ServiceNow form's UI action \(button\) and it executes using the Attended Robot application, then the AttendedConfigurations component routes the automation flow from the associated attended configuration.
 
-You can configure the properties for the AttendedConfigurations component. For more information about these properties, see [Properties of the Forms components](../reference/sn-forms-properties.md).
+You can configure the properties for the AttendedConfigurations component. For more information about these properties, see [Properties of the Forms components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/sn-forms-properties.md).
 
 For example, if an automation requires two UI actions, create two attended configurations in RPA Hub, that are associated to the same bot process and table. Define the automation logics separately for these UI actions, under different activities.
 
@@ -44,13 +45,13 @@ Let's consider a currency price retrieval use case, where one automation is buil
 
 2.  Drag the AttendedConfigurations component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
 4.  Select one or more applicable attended configurations.
 
     In this example, select both the attended configurations \(Get Prices and Update Price\).
 
-    ![Select attended configurations.](../image/attended-config-forms-studio.png "Example: Select attended configurations")
+    \[Omitted image "attended-config-forms-studio.png"\] Alt text: Select attended configurations.
 
 5.  Click **OK**.
 
@@ -68,5 +69,5 @@ Let's consider a currency price retrieval use case, where one automation is buil
 7.  To test the component, right-click the title bar of the component and select **Run From Here**.
 
 
-**Parent Topic:**[Forms](../concept/forms_sn_rpa_studio.md)
+**Parent Topic:**[Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/forms_sn_rpa_studio.md)
 

@@ -2,6 +2,7 @@
 title: Review capacity of the resources
 description: Use the capacity planning page to review the capacity and utilization trends of the resources associated with the requested resource plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/review-capacity-for-resources.html
 release: yokohama
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ Use the capacity planning page to review the capacity and utilization trends of 
 
 **Important:** Capacity planning is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Planning user capacity in Strategic Planning Workspace](../../spw-capacity-planning/concept/using-cap-plan-spw.md) to view and manage the capacity, allocations, and utilization of resources.
+Resource Managers are encouraged to use the [Planning user capacity in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/using-cap-plan-spw.md) to view and manage the capacity, allocations, and utilization of resources.
 
 ## Before you begin
 
@@ -29,7 +30,7 @@ Role required: resource\_manager
 
 1.  Navigate to **All** &gt; **Resource** &gt; **Resource Workbench** &gt; **Capacity Planning**.
 
-2.  To filter the list of displayed resource plans, select the filter icon \(![filter](../../project-management/image/filter_icon.png)\) in the **Resource Plans** section.
+2.  To filter the list of displayed resource plans, select the filter icon \(\[Omitted image "filter\_icon.png"\] Alt text: filter\) in the **Resource Plans** section.
 
     The filtered resource plans are displayed as cards.
 
@@ -54,27 +55,27 @@ Role required: resource\_manager
     -   **% Utilization** tab: Displays the heat map for the percentage of utilization of resources including both hard and soft allocations and requested hours for the selected resource plans.
 5.  To show or hide the respective bar or line in the graph, select an item in the legend below the graph.
 
-6.  To open and modify the display settings for the graph and heat map, select the Settings icon ![settings](../image/PersonalizeIcon.png) in the **Resource Forecast** section.
+6.  To open and modify the display settings for the graph and heat map, select the Settings icon \[Omitted image "PersonalizeIcon.png"\] Alt text: settings in the **Resource Forecast** section.
 
 7.  In the **Resource Forecast** section, use the following options to take an action on a resource plan.
 
-<table id="choicetable_swx_rmw_kx"><tbody><tr><td id="d67231e221">
+<table id="choicetable_swx_rmw_kx"><tbody><tr><td id="d66584e221">
 
 **__Confirm__**
 
 </td><td>
 
-Confirms the resources to the selected plan.The selected resource plan moves to the Confirmed state. [Soft allocations](../reference/r_AllocatingResources.md) are created when the resource plan moves to the Confirmed state.
+Confirms the resources to the selected plan.The selected resource plan moves to the Confirmed state. [Soft allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_AllocatingResources.md) are created when the resource plan moves to the Confirmed state.
 
-</td></tr><tr><td id="d67231e243">
+</td></tr><tr><td id="d66584e243">
 
 **__Confirm and Allocate__**
 
 </td><td>
 
-Allocates the resources to the selected plan directly without first confirming them.The selected resource plan moves to the Allocated state. [Hard allocations](../reference/r_AllocatingResources.md) are created when the resource plan moves to the Allocated state.
+Allocates the resources to the selected plan directly without first confirming them.The selected resource plan moves to the Allocated state. [Hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_AllocatingResources.md) are created when the resource plan moves to the Allocated state.
 
-</td></tr><tr><td id="d67231e265">
+</td></tr><tr><td id="d66584e265">
 
 **__Reject__**
 
@@ -86,5 +87,5 @@ Rejects the selected plan.
 </table>    **Note:** You can select more than one resource plan to Confirm, Confirm and Allocate, or Reject.
 
 
-**Parent Topic:**[Capacity planning overview](../concept/c_ResourceWorkbench.md)
+**Parent Topic:**[Capacity planning overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceWorkbench.md)
 

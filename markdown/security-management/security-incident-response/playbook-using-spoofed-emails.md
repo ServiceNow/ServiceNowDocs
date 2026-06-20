@@ -2,6 +2,7 @@
 title: Use the Spoofed Emails \(using the same Display name\) playbook
 description: Use this playbook to investigate Spoofed Emails, which get triggered when spoofed names for emails are sent to the organization's employees. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Spoofed Emails \(using the same Display name\) playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-spoofed-emails.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -34,7 +35,7 @@ Role required:
 
     2.  In Action 6, you need to investigate the URL on a Linux VM \(For example, Ubuntu\).
 
-        ![Response task to investigate the URL on a Linux VM.](../image/playbook-spoofed-email-url.png "Spoofed Emails (using the same Display name) playbook")
+        \[Omitted image "playbook-spoofed-email-url.png"\] Alt text: Response task to investigate the URL on a Linux VM.
 
     3.  In Action 7, you need to look up when the domain was created on WHOIS.
 
@@ -44,7 +45,7 @@ Role required:
 
         If this email doesn't contain a malicious attachment or link, then the flow ends.
 
-        ![Response tasks to check if the spoofed email contains malicious attachments or links.](../image/playbook-spoofed-email-users.png "Spoofed email contains malicious attachments or links")
+        \[Omitted image "playbook-spoofed-email-users.png"\] Alt text: Response tasks to check if the spoofed email contains malicious attachments or links.
 
     5.  In Action 9, if the email contains malicious attachments or links, perform the following actions.
 
@@ -58,10 +59,10 @@ Role required:
 
 5.  In Action 18, if the user's system is impacted, then in Action 19, raise an IT ticket to reimage the impacted system.
 
-    ![Response task to check if the affected user's system is impacted.](../image/playbook-spoofed-email-system.png "Check if the affected user's system is impacted")
+    \[Omitted image "playbook-spoofed-email-system.png"\] Alt text: Response task to check if the affected user's system is impacted.
 
 6.  In Action 20, a response task is created for you to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](../concept/playbook-spoofed-emails-display-name.md)
+**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-spoofed-emails-display-name.md)
 

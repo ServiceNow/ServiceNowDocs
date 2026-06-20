@@ -2,13 +2,14 @@
 title: AI Control Tower Home
 description: Explore the AI Control Tower home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-09-03"
-reading_time_minutes: 3
-breadcrumb: [AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Control Tower Home
@@ -17,9 +18,9 @@ Explore the AI Control Tower home page.
 
 The AI Control Tower home page view on the dashboard features recommendations for actions at the top displaying task statuses, pending asset reviews, and newly added AI systems.
 
-The home page displays the [Overview tab in AI Control Tower](overview-tab-in-ai-control-tower.md), [AI strategy tab in AI Control Tower](ai-strategy-aict.md), [AI asset inventory tab in AI Control Tower](ai-asset-inventory.md), [Value tab in AI Control Tower](aict-value-tab.md), [Health tab in AI Control Tower](aict-health-tab.md) [Risk and compliance tab in AI Control Tower](risk-compliance-tab-aict.md), [AI cases tab in AI Control Tower](ai-cases-tab-aict.md), [Evaluation tab in AI Control Tower](ai-evaluation.md), [Security &amp; Privacy tab in AI Control Tower](security-privacy-tab.md).
+The home page displays the [Overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.md), , [AI asset inventory tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-asset-inventory.md), [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-value-tab.md), [Risk and compliance tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.md), [AI cases tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.md), [Security &amp; Privacy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/security-privacy-tab.md), and [AI Gateway tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-gateway-tab.md).
 
-**Important:** The [AI strategy tab in AI Control Tower](ai-strategy-aict.md) is available only with Strategic Portfolio Management \(SPM\) Professional license.
+**Important:** The  is available only with Strategic Portfolio Management \(SPM\) Professional license.
 
 Each of these tabs includes widgets, and you can explore the data within each widget in more detail. For instance, the AI system trend widget displays trends based on historical data about AI system deployments. Similarly, the AI risk classification widget shows data according to the default risk classification settings for your skills.
 

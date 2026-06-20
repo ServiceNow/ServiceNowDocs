@@ -2,6 +2,7 @@
 title: Configure service desk groups to access the Service Operations Workspace landing page
 description: Ensure that the right users have access to the Service Operations Workspace landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -45,5 +46,5 @@ It is applicable only for an instance that has Service Operations Workspace 1.1 
         2.  For the **Groups** field, add the required service desk group that the user is part of.
         3.  Select **Update**.
 
-**Parent Topic:**[Access controls in Service Operations Workspace for ITSM](../concept/access-controls-sow-itsm.md)
+**Parent Topic:**[Access controls in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/access-controls-sow-itsm.md)
 

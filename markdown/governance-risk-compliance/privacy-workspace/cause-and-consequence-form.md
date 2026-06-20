@@ -2,6 +2,7 @@
 title: Cause and consequence form
 description: Learn about the fields on the cause and consequence form. Use this form to define cause and consequence in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/cause-and-consequence-form.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -91,5 +92,5 @@ Observations
 Overall observations, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add causes and consequences to a privacy case](../task/add-causes-consequences.md)
+</table>**Parent Topic:**[Add causes and consequences to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-causes-consequences.md)
 

@@ -2,13 +2,14 @@
 title: Integrate with Contract Management Pro
 description: With the integration of Quote Management and Contract Management Pro, sales agents can initiate contract requests while finalizing a deal and formalizing agreements between you and your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/quote-management-integrate-contract-management.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Install Quote Management, Install and configure Quote Management, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Install Quote Management, Install and configure Quote Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Integrate with Contract Management Pro
@@ -31,10 +32,10 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-config-cmpro&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+    For more information on setting up Contract Management Pro, see .
 
 
 ## What to do next
 
-To learn more, see [Configuring Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-config-cmpro&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US) and [Initiate a contract request](quote-management-create-contract.md).
+To learn more, see  and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-and-order-management/quote-management-create-contract.md).
 

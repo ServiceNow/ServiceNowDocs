@@ -2,6 +2,7 @@
 title: Use the Response Evaluation Flow
 description: Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/fsm-marketplace-response-evaluation-flow.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -28,5 +29,5 @@ There are two default option for Response evaluation flow:
 
 **Note:** Customers can create their own subflows to evaluate responses.
 
-**Parent Topic:**[Assign a task to a contractor on Field Service Marketplace](../task/review-rspons-fsm-mrktplc.md)
+**Parent Topic:**[Assign a task to a contractor on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.md)
 

@@ -2,6 +2,7 @@
 title: Task Mining data model
 description: Task Mining collects and processes workstation data to provide insights into workstation user activities and interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/task-mining/data-collection-in-task-mining.html
 release: yokohama
 product: Task Mining
 classification: task-mining
@@ -17,7 +18,7 @@ Task Mining collects and processes workstation data to provide insights into wor
 
 ## Task Mining components and data flow
 
-![Infographic showing a high-level overview of the Task Mining data flow. For details, refer to the following description.](../image/task-mining-data-flow.png)
+\[Omitted image "task-mining-data-flow.png"\] Alt text: Infographic showing a high-level overview of the Task Mining data flow. For details, refer to the following description.
 
 The Task Mining agent is a service installed on a user's workstation that collects data from workstation users on their workstation. This data is sent as a data file to the data processing server. After processing, the data is forwarded to the Task Mining application where it’s stored in user data tables. The data is then used in projects and presented to authorized users through dashboards for analysis.
 
@@ -44,9 +45,9 @@ The Task Mining agent collects various types of data. Review this list for perso
 -   Application name, window titles, and web app URLs provide context and dashboard data by identifying the applications and web pages that workstation users interact with. Although these activities are essential for providing insights, the PII contained in window titles and URLs isn’t needed for analysis. Manage this data carefully to avoid the unintentional exposure of sensitive information such as session tokens, user names, or email addresses.
 -   The Task Mining agent tracks user interactions with specific UI elements such as input fields, drop-down lists, and buttons. UI object attributes can contain PII, especially when they’re related to other data subjects such as customer names or personal details entered into forms.
 
-In addition to the data collected by the Task Mining agent, Task Mining uses audit trail data that is collected from the Sys Audit \[sys\_audit\] table. This audit trail is used to identify and track activities that were performed during task execution, such as incident processing. This data provides a fuller view of the task, enabling a deeper view of the sequence and nature of activities. For more information, see [Data collected by Task Mining](../reference/data-management.md).
+In addition to the data collected by the Task Mining agent, Task Mining uses audit trail data that is collected from the Sys Audit \[sys\_audit\] table. This audit trail is used to identify and track activities that were performed during task execution, such as incident processing. This data provides a fuller view of the task, enabling a deeper view of the sequence and nature of activities. For more information, see [Data collected by Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/data-management.md).
 
-For a complete list of tables installed with Task Mining, see [Components installed with Task Mining](../reference/installed-with-task-mining.md).
+For a complete list of tables installed with Task Mining, see [Components installed with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/installed-with-task-mining.md).
 
 ## Data collection methods
 

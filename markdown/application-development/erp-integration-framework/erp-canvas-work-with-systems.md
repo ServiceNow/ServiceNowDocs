@@ -2,6 +2,7 @@
 title: Working with ERP systems in Zero Copy Connector for ERP
 description: An ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system of record. For example, sales orders or vendor invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-work-with-systems.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,7 +20,7 @@ An ERP \(Enterprise Resource Planning\) system represents a connection to a sect
 
 The system plays a crucial role in data synchronization, sharing, and collaboration, enabling seamless integration and operation between the ERP model and the connected ERP system.
 
-Zero Copy Connector for ERP provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](../reference/erp-canvas-standard-extraction-tables.md).
+Zero Copy Connector for ERP provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 ## Configuring ERP systems and checking connections
 
@@ -27,14 +28,14 @@ ERP systems are configured by ServiceNow admins. The ERP system is set on the ex
 
 Zero Copy Connector for ERP regularly scans all connected ERP systems for the latest heartbeat, which indicates whether a ping to the ERP system connection is currently successful.
 
--   **[Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md)**  
+-   **[Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/create-an-erp-system.md)**  
 Configure an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to organize your connections to the system of record.
--   **[View a list of Zero Copy Connector for ERP systems](../task/view-and-monitor-erp-systems-health.md)**  
+-   **[View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md)**  
 Check the ERP \(Enterprise Resource Planning\) systems list in Zero Copy Connector for ERP to view the heartbeats and retrieval status of your ERP systems.
--   **[View Zero Copy Connector for ERP system heartbeat information](../task/view-erp-system-heartbeat-information.md)**  
+-   **[View Zero Copy Connector for ERP system heartbeat information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-erp-system-heartbeat-information.md)**  
 In Zero Copy Connector for ERP, the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
--   **[View Zero Copy Connector for ERP software information](../task/view-erp-system-information.md)**  
+-   **[View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-erp-system-information.md)**  
 In Zero Copy Connector for ERP, view software information including machine type, node name, supported database, and more.
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

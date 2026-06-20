@@ -2,6 +2,7 @@
 title: Record the assets used during a work task
 description: Record any assets that you use during the execution of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_RecordAssetUsageUseAsset.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -44,5 +45,5 @@ Role required: wm\_agent
 
 The asset that was used is added to the **Asset Usages** related list.
 
-**Parent Topic:**[View asset usage](t_RecordAssetUsage.md)
+**Parent Topic:**[View asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsage.md)
 

@@ -2,6 +2,7 @@
 title: Scoping your analysis
 description: Define the data that you want to view in the graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/scope-analysis.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -19,16 +20,16 @@ You’ve selected the table from where you want to view data. You probably want 
 
 The following sections have the details.
 
--   **[Set filter conditions](../task/filter-conditions.md)**  
+-   **[Set filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-conditions.md)**  
 Set filter conditions to limit the scope of your analysis.
--   **[Set activity definitions](../task/set-activity-def.md)**  
+-   **[Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md)**  
 Specify the activity definition to determine what to show on the process graph, often choosing activities such as State, Assignment group, and Assigned to. Activity definition enables you to discover, monitor, and improve real processes through the visual representation. The visual representation enables you to understand behaviors and performances by identifying bottlenecks, deviations, and inefficiencies in the workflows.
--   **[Set breakdown definitions](../task/breakdown.md)**  
+-   **[Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/breakdown.md)**  
 Set the breakdown definitions that act as filters for your project. Breakdown definitions are used to filter and analyze the data based on specific criteria or attributes. These definitions enable you to break down the analysis into smaller subsets, focusing on specific dimensions or perspectives of the process.
--   **[Set use cases](../task/adv-settings.md)**  
+-   **[Set use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/adv-settings.md)**  
 Use cases are common patterns you may be interested in your analysis. Once enabled, they are automatically configured for the project.
--   **[Add a child entity](../task/child-entity.md)**  
+-   **[Add a child entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/child-entity.md)**  
 Add a child or related table to track an activity from a related process.
 
-**Parent Topic:**[Create a project or template using Project Builder](../task/define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/define-workflow-model.md)
 

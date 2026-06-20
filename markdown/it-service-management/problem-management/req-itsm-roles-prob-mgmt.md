@@ -2,6 +2,7 @@
 title: Request ITSM Roles — Problem Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Problem Management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/problem-management/req-itsm-roles-prob-mgmt.html
 release: yokohama
 product: Problem Management
 classification: problem-management
@@ -31,7 +32,7 @@ With the introduction of the new roles, ITSM provides more control over the acce
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of the Application Manager interface with the Request plugin option highlighted.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -72,20 +73,20 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    ![Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Completed Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Problem Management](../reference/prob-roles-instld-itsm-roles.md)**  
+-   **[Components installed with ITSM Roles — Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/prob-roles-instld-itsm-roles.md)**  
 Several user roles are installed with activation of the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\).
 
-**Parent Topic:**[Problem Management plugins](../concept/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/problem-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Yokohama plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

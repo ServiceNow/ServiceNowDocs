@@ -2,6 +2,7 @@
 title: Pick up an asset
 description: Agents can view a consolidated list, grouped by stockroom, of all their assets that are waiting to be picked up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/t\_PickUpAnAsset.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -37,5 +38,5 @@ The agents can physically pick up the assets and then record them as delivered. 
 3.  After physically picking up the items, select a check box next to the transfer order column, then go to the **Actions** choice list and select **Deliver**.
 
 
-**Parent Topic:**[Manage inventory in Field Service Management](../../field-service-management/concept/sourcing-parts.md)
+**Parent Topic:**[Manage inventory in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/sourcing-parts.md)
 

@@ -2,6 +2,7 @@
 title: User access to playbooks in Workflow Studio
 description: Administrators can grant users access to playbooks by assigning delegated development permissions or directly assigning a user role. Administrators can also specify which features and content a user can access based on user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/user-access-playbooks.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -204,30 +205,30 @@ none
         -   playbook.activity\_def\_read
     -   pd\_shared.admin
         -   pd\_shared.user
--   delegated\_developer
+        -   -   delegated\_developer
 
 ## Delegated development access
 
-Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook [delegated development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see [Developer permissions](https://www.servicenow.com/docs/access?context=developer-permissions&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook delegated development permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see Developer permissions.
 
 ## Role-based content filtering
 
-Specify the user roles necessary to access Workflow Studio playbook content. For example, activity definitions. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for playbooks](content-filtering-playbooks.md).
+Specify the user roles necessary to access Workflow Studio playbook content. For example, activity definitions. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 ## Role-based activity definition access
 
-Manage activity definition access by specifying the **Required Roles** to access an activity definition. To learn more about activity definitions, see [Activity definitions](activity-definitions.md).
+Manage activity definition access by specifying the **Required Roles** to access an activity definition. To learn more about activity definitions, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activity-definitions.md).
 
-![Required roles field in an activity definition](../images/required-roles-activity-def.png)
+\[Omitted image "required-roles-activity-def.png"\] Alt text: Required roles field in an activity definition
 
 **Note:** Both playbook.admin and pd\_content\_author roles can edit activity definitions, but only the playbook.admin role can edit the **Required Roles** field.
 
--   **[Content filtering for playbooks](content-filtering-playbooks.md)**  
+-   **[Content filtering for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/content-filtering-playbooks.md)**  
 Specify which content a user can access based on the user's role.
--   **[Configure content filtering definitions for playbooks](../task/configure-content-filtering-definitions-playbooks.md)**  
+-   **[Configure content filtering definitions for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-content-filtering-definitions-playbooks.md)**  
 Specify which content a user can access by creating content definitions.
--   **[Configure content filtering rules for playbooks](../task/configure-content-filtering-rules-playbooks.md)**  
+-   **[Configure content filtering rules for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-content-filtering-rules-playbooks.md)**  
 Use content filtering rules to specify the role a user must have to access content.
 
-**Parent Topic:**[Administering playbooks](administering-process-automation-designer.md)
+**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

@@ -2,6 +2,7 @@
 title: Viewing the admin dashboard
 description: View account statuses and violations, actionable insights, and administrative controls on the Overview dashboard, along with configuration and request policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/view-admin-dashboard.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
@@ -22,7 +23,7 @@ As an admin, you can access the Overview dashboard in either of two ways.
 -   Navigate to **All** &gt; **Cloud Workspace** &gt; **Overview**
 -   Navigate to **Workspaces** &gt; **Cloud Workspace** &gt; **Overview**
 
-![Admin dashboard view](../image/cam-dashboard-admin.png "Admin dashboard")
+\[Omitted image "cam-dashboard-admin.png"\] Alt text: Admin dashboard view
 
 The table column descriptions are as follows:
 

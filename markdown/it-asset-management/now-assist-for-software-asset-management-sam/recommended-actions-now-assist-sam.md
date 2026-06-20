@@ -2,6 +2,7 @@
 title: Generate recommended actions for products by using Now Assist for SAM
 description: Generate a list of recommended actions to manage software license compliance and optimize licensing spend. The recommended actions help you to take appropriate steps to fix any configuration, maintenance, and optimization issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/recommended-actions-now-assist-sam.html
 release: yokohama
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -21,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Now Assist for SAM generates the recommended actions for products by using reconciliation results, product life-cycle reports, and dashboards such as Discovered inventory, Normalization and content, and Health check.
 
@@ -46,7 +47,7 @@ When you run reconciliation with grouping, product summarization and recommended
     -   Configuration
     -   Maintenance
     -   Optimization
-    ![List of recommended actions for a product](../image/now-assist-sam-recommended-actions.png)
+    \[Omitted image "now-assist-sam-recommended-actions.png"\] Alt text: List of recommended actions for a product
 
     The compiled results can differ from product to product based on the current compliance level of a product.
 
@@ -58,15 +59,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d202692e175">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d197722e174">
 
 Action
 
-</th><th align="left" id="d202692e178">
+</th><th align="left" id="d197722e177">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202692e184">
+</th></tr></thead><tbody><tr><td id="d197722e183">
 
 **Regenerate icon**
 
@@ -76,7 +77,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d202692e199">
+</td></tr><tr><td id="d197722e198">
 
 **Feedback**
 
@@ -94,5 +95,5 @@ If you found that the recommended actions was helpful, select the helpful icon. 
     Once you have dismissed all the actions, a message appears mentioning that all recommendations have been dismissed.
 
 
-**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](../concept/using-now-assist-sam.md)
+**Parent Topic:**[Using Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

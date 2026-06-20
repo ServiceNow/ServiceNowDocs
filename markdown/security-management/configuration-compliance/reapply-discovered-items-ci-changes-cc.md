@@ -2,11 +2,12 @@
 title: CI changes for discovered items for Configuration Compliance
 description: The default value of the property sn\_sec\_cmn.update\_on\_ci\_change is true. So, when the configuration item \(CI\) for a discovered item is updated, the test results are updated as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/configuration-compliance/reapply-discovered-items-ci-changes-cc.html
 release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Discovered Items for Configuration Compliance, Configuration Compliance imported data, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

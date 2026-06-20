@@ -2,7 +2,10 @@
 title: Configure report groups for the Customer Information view
 description: Configure the groups of reports to display in a single section on the Customer Information view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-ci-report-groups.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 Report groups are displayed in the Customer Information view in Agent Workspace.
 
-![Configured report group shows high priority cases in the Customer Information view.](../image/report-groups.jpg)
+\[Omitted image "report-groups.jpg"\] Alt text: Configured report group shows high priority cases in the Customer Information view.
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Add log-based CIs to the CMDB
 description: Keep the Configuration Management Database \(CMDB\) updated with host data discovered in your logs by adding log-based configuration items \(CIs\) to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
@@ -27,15 +28,15 @@ Role required: evt\_mgmt\_admin
 
 2.  Handle a single CI candidate or multiple CI candidates together.
 
-<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d98060e92">
+<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d102302e92">
 
 Option
 
-</th><th align="left" id="d98060e95">
+</th><th align="left" id="d102302e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d98060e101">
+</th></tr></thead><tbody><tr><td id="d102302e101">
 
 **Take action on a single CI candidate**
 
@@ -43,7 +44,7 @@ Procedure
 
 1.  Select a CI candidate record and review the information on the form.
 
-For field descriptions, see [Field descriptions for log-based CI candidates](../reference/hla-cmdb-enrich-fields.md).
+For field descriptions, see [Field descriptions for log-based CI candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
 
 2.  Add the CI candidate to the CMDB or delete it.
     -   If the CI candidate is appropriate, either add it to the CMDB as is or include more information in it before adding it to the CMDB.
@@ -55,7 +56,7 @@ The CI is added to the CMDB. In the CMDB table for the relevant class type, the 
     -   If the CI candidate is irrelevant, delete it by selecting **Delete**.
 
 
-</td></tr><tr><td id="d98060e167">
+</td></tr><tr><td id="d102302e167">
 
 **Take action on multiple CI candidates at the same time**
 
@@ -76,5 +77,5 @@ The selected CIs are added to the CMDB. The CI candidate records are automatical
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enhancing the CMDB with host data found in logs](../concept/hla-cmdb-enrich-concept.md)
+**Parent Topic:**[Enhancing the CMDB with host data found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

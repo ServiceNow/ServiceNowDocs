@@ -2,11 +2,14 @@
 title: Complete a customer service satisfaction survey
 description: After accepting a solution for a case, complete a customer service satisfaction survey to provide your feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ComACustServSatSurvey-businessportal.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Complete a customer service satisfaction survey

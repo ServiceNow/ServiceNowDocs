@@ -2,6 +2,7 @@
 title: Check for conversational compatible subflows
 description: Run a compatibility check on new or all subflows to determine if they are conversation compatible. Review the inputs of a subflow to determine if their data types are compatible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/check-for-conversational-compatible-subflows.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -47,7 +48,7 @@ The system updates the list of conversational compatible subflows.
 
 ## What to do next
 
-To make a subflow conversational, configure its conversational settings. See [Configure subflow conversational settings](configure-subflow-conversation-settings.md).
+To make a subflow conversational, configure its conversational settings. See [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-subflow-conversation-settings.md).
 
-**Parent Topic:**[Conversational subflows](../concept/conversational-subflows.md)
+**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-subflows.md)
 

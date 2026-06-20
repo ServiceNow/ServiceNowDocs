@@ -2,6 +2,7 @@
 title: Create an improvement initiative from Process Mining
 description: Create an improvement initiative associated with the project you're analyzing in Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/create-improvement-initiative.html
 release: yokohama
 product: Process Mining
 classification: process-mining
@@ -25,9 +26,9 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  Open a new Improvement Initiative form one of the following ways:
 
-    -   Select the overview panel menu ![Project overview panel menu](../image/workbench-project-menu-icon.png) and select **New Improvement Initiative**.
+    -   Select the overview panel menu \[Omitted image "workbench-project-menu-icon.png"\] Alt text: Project overview panel menu and select **New Improvement Initiative**.
     -   From the Notes and initiatives panel:
-    1.  Select the Initiatives icon \(![improve initiative icon](../image/improve-initiative-icon.png)\).
+    1.  Select the Initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: improve initiative icon\).
 
     2.  Select **Create** &gt; **New Initiative**
 
@@ -35,7 +36,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 3.  Fill in the form fields.
 
-    For more information the fields, see: [Create an improvement initiative](https://www.servicenow.com/docs/access?context=create-cim-request&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US).
+    For more information the fields, see: Create an improvement initiative.
 
 4.  If you want to attach a supporting document, select **Browse** and select the file.
 
@@ -55,5 +56,5 @@ To change a record, from the CIM record:
 -   Update a record: Make a change on the record, then select **Save**.
 -   Delete an initiative: From the record, select the menu icon and select **Delete**.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](../../../product/benchmarks/task/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

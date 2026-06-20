@@ -2,6 +2,7 @@
 title: Reclaim SurveyMonkey user subscriptions in the Software Asset Workspace
 description: Reclaim unused SurveyMonkey subscriptions to reduce your total software costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription-workspace.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
@@ -17,7 +18,7 @@ Reclaim unused SurveyMonkey subscriptions to reduce your total software costs.
 
 ## Before you begin
 
-To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin. See [Request Software Asset Management](t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
+To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
 
 SurveyMonkey Role required: admin
 
@@ -51,7 +52,7 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
 
 2.  Remove the associated users from your SurveyMonkey team.
 
-    Based on the list of removal candidates that you identified in [step 1](reclaim-surveymonkey-subscription-workspace.md#identify-removal-candidate), you can reclaim user subscriptions by reassigning or deleting the associated users from your SurveyMonkey team.
+    Based on the list of removal candidates that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription-workspace.md), you can reclaim user subscriptions by reassigning or deleting the associated users from your SurveyMonkey team.
 
     1.  From a web browser, open [SurveyMonkey](https://www.surveymonkey.com/).
 
@@ -85,7 +86,7 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
 
     4.  Select the **Removal Candidates** related list.
 
-    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you removed from your SurveyMonkey team in [step 2](reclaim-surveymonkey-subscription-workspace.md#remove-user).
+    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you removed from your SurveyMonkey team in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription-workspace.md).
 
     6.  On the Removal Candidate form, update the state of the removal candidate by clicking **Closed Skipped**.
 
@@ -96,5 +97,5 @@ The SaaS License Management SurveyMonkey integration does not support reclamatio
     8.  Repeat steps e through g for each user that you removed from your SurveyMonkey team.
 
 
-**Parent Topic:**[Reclaim user subscriptions in the Software Asset Workspace](reclaim-user-subscription-saas-workspace.md)
+**Parent Topic:**[Reclaim user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-user-subscription-saas-workspace.md)
 

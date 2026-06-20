@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP software info tab field descriptions
 description: The software info tab in Zero Copy Connector for ERP contains information about the selected ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-system-info-details.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Zero Copy Connector
 
 The software info tab in Zero Copy Connector for ERP contains information about the selected ERP \(Enterprise Resource Planning\) system.
 
-For process details, see [View Zero Copy Connector for ERP software information](../task/view-erp-system-information.md).
+For process details, see [View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/view-erp-system-information.md).
 
 This feature is available starting in the Yokohama Patch 3 \(May 2025\) release.
 
@@ -39,5 +40,5 @@ This feature is available starting in the Yokohama Patch 3 \(May 2025\) release.
 |Database system|Database system, such as SAP HANA Database \(HDB\), the SAP system is using.|
 |Supported database|Databases, such as HANA 1.0 or HANA 2.0 that the SAP system supports.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

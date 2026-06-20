@@ -2,13 +2,14 @@
 title: Add Code field values to catalog entities after upgrading
 description: Add the Code field values for the main product catalog entities. The system uses this field to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-and-order-management/run-fix-script-sched-job-export.html
 release: yokohama
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
 ---
 
 # Add Code field values to catalog entities after upgrading

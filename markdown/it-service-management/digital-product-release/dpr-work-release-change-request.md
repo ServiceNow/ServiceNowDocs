@@ -2,6 +2,7 @@
 title: Manage change requests in a release
 description: View and manage change requests in a release. You can create and add new change requests to the release or add existing ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-work-release-change-request.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
@@ -27,7 +28,7 @@ You can associate a change request to a phase only once, although it can be adde
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -39,15 +40,15 @@ You can associate a change request to a phase only once, although it can be adde
 
 6.  Create change requests and add them to the phase, add existing change requests to the phase, or remove the ones that are already associated with the phase.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d381785e113">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d115667e113">
 
 Option
 
-</th><th align="left" id="d381785e116">
+</th><th align="left" id="d115667e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d381785e122">
+</th></tr></thead><tbody><tr><td id="d115667e122">
 
 **Create and add a change request to the phase**
 
@@ -57,11 +58,11 @@ Steps
 2.  Select a Change request model and then select **Next**.
 3.  Fill in the details in the Change Request form and select **Save**.
 
-For more information, see [Create a change request](../../change-management/task/t_CreateAChange.md).
+For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateAChange.md).
 
  The new change request is created and added to theselected phase. The **Software model** field in the change request is filled with the version of the release.
 
-</td></tr><tr><td id="d381785e173">
+</td></tr><tr><td id="d115667e173">
 
 **Add existing change requests to the phase**
 
@@ -75,7 +76,7 @@ All existing change requests that have the **Software model** field empty are li
 3.  Select **Add**.
  The selected change requests are added to theselected phase. The **Software model** field in these change requests is filled with the version of the release.
 
-</td></tr><tr><td id="d381785e214">
+</td></tr><tr><td id="d115667e214">
 
 **Remove associated change requests from the phase**
 
@@ -96,5 +97,5 @@ All existing change requests that have the **Software model** field empty are li
 -   If the change request is associated with a single phase, the **Attached to phases** in the header section of the Change Request record shows the name of that phase. Select the link to open the phase.
 -   If the change request is associated with more than one phase of the release, the **Attached to phases** shows the count of those phases. Select the link to open the list of those phases.
 
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-manage-releases.md)
 

@@ -2,6 +2,7 @@
 title: Enable mutual authentication
 description: You can configure a SOAP or REST message for mutual authentication using a protocol profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/t\_EnableMutualAuth.html
 release: yokohama
 product: Web Services
 classification: web-services
@@ -32,5 +33,5 @@ Role required: web\_service\_admin or admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Outbound web service mutual authentication](../concept/c_OutboundWebServicesMutualAuth.md)
+**Parent Topic:**[Outbound web service mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_OutboundWebServicesMutualAuth.md)
 

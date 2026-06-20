@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP content pack process extensions
 description: Use the process extensions in Zero Copy Connector for ERP content packs as examples that can be copied to add subflows with business logic to one or more models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/erp-canvas-content-pack-process-extensions.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,9 +19,9 @@ Use the process extensions in Zero Copy Connector for ERP content packs as examp
 
 Process extensions are subflows that can use one or more models. Process extensions enable you to use a model without needing to understand the model details. The process extensions are another abstraction layer on top of the models inside the content pack to make the models easier to use.
 
-Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](../task/erp-canvas-using-process-extensions.md).
+Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-using-process-extensions.md).
 
-![Workflow Studio subflows list showing content pack process extensions.](../image/erpc-process-extensions-list-ws.png)
+\[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing content pack process extensions.
 
 ## Process extension example
 
@@ -28,5 +29,5 @@ In this example, there is a model for reading a sales order. You want to determi
 
 A process extension can filter or add data when reading, using the model to find exactly what you are looking for based on the process extension description. So, in our example, instead of reading all sales orders, the process extension finds only the blocked sales orders.
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-content-packs.md)
 

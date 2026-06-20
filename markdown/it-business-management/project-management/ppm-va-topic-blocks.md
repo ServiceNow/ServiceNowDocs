@@ -2,6 +2,7 @@
 title: Reusable PPM Virtual Agent topic blocks
 description: You can create and reuse topics blocks to simplify the topic authoring and maintenance process. Topic blocks enable you to reuse standard procedures across conversation topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/ppm-va-topic-blocks.html
 release: yokohama
 product: Project Management
 classification: project-management
@@ -24,5 +25,5 @@ The following predefined reusable topic blocks are available:
 -   Resource Topic for PPM VA
 -   RIDAC Topic for PPM VA
 
-To view just the reusable topic functions, access the Topics page in Virtual Agent Designer and click the **Topic Blocks** tab. For detailed information, see [Reusable topic blocks](https://www.servicenow.com/docs/access?context=topic-blocks-overview&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US).
+To view just the reusable topic functions, access the Topics page in Virtual Agent Designer and click the **Topic Blocks** tab. For detailed information, see Reusable topic blocks.
 

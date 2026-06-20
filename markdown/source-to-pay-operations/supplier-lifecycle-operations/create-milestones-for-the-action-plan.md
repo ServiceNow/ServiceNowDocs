@@ -2,6 +2,7 @@
 title: Create milestones for the action plan
 description: Create milestones for the affected KPIs in the action plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.html
 release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select **Create**.
 
-    The **Crate new action plan item** dialog box is displayed.![Create new action plan item dialog box for creating milestone](../image/create-milestone-task.png)
+    The **Crate new action plan item** dialog box is displayed.\[Omitted image "create-milestone-task.png"\] Alt text: Create new action plan item dialog box for creating milestone
 
 3.  Select **Milestone**.
 
@@ -99,5 +100,5 @@ End date for the milestone collection
 </table>7.  Select **Save** to create and save the new milestone.
 
 
-**Parent Topic:**[Create action plan for KPIs](create-action-plan-for-kpis.md)
+**Parent Topic:**[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)
 

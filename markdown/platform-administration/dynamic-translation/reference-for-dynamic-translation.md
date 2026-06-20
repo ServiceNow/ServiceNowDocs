@@ -2,6 +2,7 @@
 title: Reference for Dynamic Translation
 description: Get details about Dynamic Translation domain separation, properties, actions, limitations, and error messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/dynamic-translation/reference-for-dynamic-translation.html
 release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation

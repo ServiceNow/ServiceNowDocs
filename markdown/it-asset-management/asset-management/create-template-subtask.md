@@ -2,6 +2,7 @@
 title: Create a template subtask
 description: Create template subtasks to add granularity to the transfer order line tasks. For example, before preparing for shipment, for a computer, you may want to create sub tasks for imaging the computer or adding additional software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/create-template-subtask.html
 release: yokohama
 product: Asset Management
 classification: asset-management
@@ -38,5 +39,5 @@ The template subtasks that you create are stored in the Template Subtask \[alm\_
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Create a transfer order line](t_CreateATransferOrderLine.md)
+**Parent Topic:**[Create a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreateATransferOrderLine.md)
 

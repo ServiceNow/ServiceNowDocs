@@ -2,13 +2,14 @@
 title: Cases
 description: You can view all the assigned and unassigned AI cases in a list view in the AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/cases.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI assets, AI Control Tower dashboard, Exploring AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Cases
@@ -23,7 +24,7 @@ Select any case from the list, select **Edit-More Actions** to assign the case t
 
 The following image displays all the AI cases in a list view.
 
-![List view of the cases on the AI assets page.](../image/aict-cases.png "Cases")
+\[Omitted image "aict-cases.png"\] Alt text: List view of the cases on the AI assets page.
 
-For information about creating AI cases from the AI cases tab in the AI Control Tower workspace, see [Create an AI case in the AI Control Tower](../task/create-ai-case-in-the-ai-control-tower.md)
+For information about creating AI cases from the AI cases tab in the AI Control Tower workspace, see [Create an AI case in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-ai-case-in-the-ai-control-tower.md)
 

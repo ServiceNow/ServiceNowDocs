@@ -2,6 +2,7 @@
 title: App Readiness and Compliance Report
 description: App Engine Admins can use the App Readiness and Compliance Report dashboard to check if the apps they’re creating are ready to go live.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/app-readiness-report.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
@@ -18,7 +19,7 @@ App Engine Admins can use the App Readiness and Compliance Report dashboard to c
 
 App Engine Admins can use the App Readiness and Compliance Report dashboard within the App Engine Management Center \(AEMC\) to verify that the apps that they’re creating are fully prepared for a live launch. This dashboard provides detailed insights from the Product Instance scans and helps to identify any issues or requirements that must be addressed before the app goes live, facilitating a smooth and compliant deployment process.
 
-![App Readiness and Compliance Report Dashboard](../image/app-readiness-report-dashboard.png)
+\[Omitted image "app-readiness-report-dashboard.png"\] Alt text: App Readiness and Compliance Report Dashboard
 
 ## Testing and Validation Categories for the Readiness Score
 
@@ -62,5 +63,5 @@ The readiness score evaluates the following categories of testing and validation
 
 To run a new app readiness report, select the **Run new report** button in the dashboard. After generating a report, you can see the readiness status of the app. You can also check issues in detail by selecting **More data available**.
 
-**Parent Topic:**[Managing requests using AEMC](manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-aemc-requests.md)
 

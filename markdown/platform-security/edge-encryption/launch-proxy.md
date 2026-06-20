@@ -2,6 +2,7 @@
 title: Launch the Edge Encryption proxy server
 description: After an Edge Encryption proxy is installed and configured, you can start the proxy from the installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/edge-encryption/launch-proxy.html
 release: yokohama
 product: Edge Encryption
 classification: edge-encryption
@@ -27,16 +28,16 @@ Role required: admin
 
     A message displays the proxy status.
 
-    ![Proxy status](../images/Madrid-Edge-Installer-End.png "Proxy status")
+    \[Omitted image "Madrid-Edge-Installer-End.png"\] Alt text: Proxy status
 
 
 ## What to do next
 
-After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](increase-memory.md).
+After successfully installing the Edge Encryption proxy server, [Set the proxy server initial memory limit and upper bound memory limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/edge-encryption/increase-memory.md).
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure the Edge Encryption proxy database](configure-proxy-db.md)
+**Previous topic:**[Configure the Edge Encryption proxy database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/edge-encryption/configure-proxy-db.md)
 
-**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](verify-install.md)
+**Next topic:**[Verify and troubleshoot the Edge Encryption proxy server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/edge-encryption/verify-install.md)
 

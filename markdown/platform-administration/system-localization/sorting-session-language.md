@@ -2,6 +2,7 @@
 title: Sorting according to the session language
 description: Order string values according to the user's session language when sorting a column in a list.Enable sorting string values in columns according to the user's session language.Configure whether the values in columns are sorted according to the user's session language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/system-localization/sorting-session-language.html
 release: yokohama
 product: System Localization
 classification: system-localization
@@ -19,9 +20,9 @@ By default, when sorting columns in lists, string values are ordered according t
 
 In the following example, the user's session language is Swedish. The Example string field column is sorted in descending order with the values ordered from Ö to A according to the Swedish alphabet.
 
-![Column sorted according to the session language](../image/sort-session-lang.png)
+\[Omitted image "sort-session-lang.png"\] Alt text: Column sorted according to the session language
 
-**Note:** The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](add-collation-unsupported-language.md).
+**Note:** The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/add-collation-unsupported-language.md).
 
 ## Enable sorting according to the session language
 

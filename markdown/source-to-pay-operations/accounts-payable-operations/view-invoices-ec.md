@@ -2,6 +2,7 @@
 title: View your invoices on Employee Center
 description: As a business owner, you can view all the invoices that you own on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/source-to-pay-operations/accounts-payable-operations/view-invoices-ec.html
 release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_shop.invoice\_owner
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    ![Navigate to Employee Center](../image/apo-navigate-emp-center.png)
+    \[Omitted image "apo-navigate-emp-center.png"\] Alt text: Navigate to Employee Center
 
 2.  In the My active items widget, select **Invoices**.
 
@@ -36,5 +37,5 @@ Role required: sn\_shop.invoice\_owner
 
 The business owner views all owned invoices on Employee Center.
 
-**Parent Topic:**[Work with invoices](../concept/work-with-invoices.md)
+**Parent Topic:**[Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)
 

@@ -2,6 +2,7 @@
 title: State flow dictionary overrides
 description: A dictionary override in a state flow defines the starting state for all new records in a specific table. You set an override in tables that extend a base table only, so that your customizations are applied only to the extended table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/state-flow-overrides.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management

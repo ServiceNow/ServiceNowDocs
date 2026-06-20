@@ -2,6 +2,7 @@
 title: Knowledge article version information
 description: Users can view version information for a knowledge article from the Knowledge view page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-article-version-info.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management

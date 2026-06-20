@@ -2,6 +2,7 @@
 title: LEAP AI agent
 description: Enhance IT operations with AI-driven, autonomous artifact creation such as problem record, knowledge base articles, and playbooks using the LEAP AI agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -23,5 +24,5 @@ Use the information on this page to learn about the actions related to the LEAP 
 |--------|-------------|
 |LEAP AI agent|Uses automation opportunities created by LEAP analysis, and creates artifacts \(problem records, knowledge base articles, or playbooks\) requested by user.|
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+**Important:** This agent is turned on by default. For more information, see .
 

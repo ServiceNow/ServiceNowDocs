@@ -2,6 +2,7 @@
 title: View details screen on the Field Service Contractor for mobile in ServiceNow Agent application
 description: Use Field Service Contractor for mobile application to view work order fields detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-details-tab-fsc.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
@@ -52,5 +53,5 @@ The Details screen shows complete information about a work order task. The contr
     |Assigned to|Shows the agent or manager currently assigned to the task|
 
 
-**Parent Topic:**[Field Service Contractor for mobile](../concept/wot-fsc.md)
+**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

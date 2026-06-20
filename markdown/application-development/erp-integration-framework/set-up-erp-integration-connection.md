@@ -2,6 +2,7 @@
 title: Configure the Zero Copy Connector for ERP credentials and connection
 description: Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) directly or using a load balancer to enable access to the ERP \(Enterprise Resource Planning\) system. You must select an existing, configured connection when you set up an ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/erp-integration-framework/set-up-erp-integration-connection.html
 release: yokohama
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Connect Zero Copy Connector for ERP to a system of record \(such as SAP\) direct
 
 ## Before you begin
 
-You must first create the alias for Zero Copy Connector for ERP. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+You must first create the alias for Zero Copy Connector for ERP. For more information, see .
 
 Role required: admin
 
@@ -27,7 +28,7 @@ Zero Copy Connector for ERP and ERP-CM currently support ECC \(minimum SAP Netwe
 
 **Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
 
-Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](erp-canvas-guided-setup.md).
+Alternatively, you can run Guided Setup. For more information, see [Run Guided Setup for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
 
 ## Procedure
 
@@ -46,24 +47,24 @@ Alternatively, you can run Guided Setup. For more information, see [Run Guided S
 
     You must specify a connection and login credential to be used simultaneously. That is, the connection you configure uses the defined login credentials for the connection.
 
-    For a description of the field values, see [Zero Copy Connector for ERP connection and credentials field descriptions](../reference/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US) for field and MID Server details.
+    For a description of the field values, see [Zero Copy Connector for ERP connection and credentials field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-system-connection-form-details.md). If you're creating an HTTP connection, see  for field and MID Server details.
 
 5.  Set up the Zero Copy Connector for ERP connection.
 
     1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-    2.  Open the ERP systems list by selecting the systems icon \(![ERP systems icon](../image/erp-systems-icon-sidebar.png)\) in the side panel.
+    2.  Open the ERP systems list by selecting the systems icon \(\[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: ERP systems icon\) in the side panel.
 
     3.  In the **Connection** column, select the **\(empty\)** cell.
 
         **Important:** You must select the empty row instead of creating a new row.
 
-    4.  In the search box that appears, select the search icon \(![Search icon](../../erp-customization-mining/image/search-icon-connection.png)\).
+    4.  In the search box that appears, select the search icon \(\[Omitted image "search-icon-connection.png"\] Alt text: Search icon\).
 
     5.  On the Connection &amp; Credential Aliases dialog, select **sn\_erp\_integration.ERP\_Integration**.
 
-    6.  Select the selection icon \(![Selection icon](../../erp-customization-mining/image/selection-check-icon.png)\).
+    6.  Select the selection icon \(\[Omitted image "selection-check-icon.png"\] Alt text: Selection icon\).
 
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

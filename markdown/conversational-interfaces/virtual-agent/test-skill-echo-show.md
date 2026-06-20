@@ -2,6 +2,7 @@
 title: Test a skill on the Alexa Echo or Echo Show screen device
 description: Test your Alexa skill using the Alexa Echo or Echo Show screen device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/test-skill-echo-show.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent

@@ -2,6 +2,7 @@
 title: Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]
 description: The captcha for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a captcha verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -71,7 +72,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -100,5 +101,5 @@ Functional impact
 This property enables or disables the captcha on the CSM Guest Walkup Check-in widgets. By default, it is set to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

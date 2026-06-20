@@ -2,6 +2,7 @@
 title: Cancel an appointment as a customer
 description: Cancel a service appointment from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking/appt-booking-cancel-appt-UI.html
 release: yokohama
 product: Appointment Booking
 classification: appointment-booking
@@ -48,5 +49,5 @@ An appointment cannot be canceled if the current time is within the cancellation
     Information about the canceled appointment is noted in the **Activities** field on the work order. This information includes the original appointment window, an appointment cancellation message, and the user who made the change.
 
 
-**Parent Topic:**[Manage appointments as a customer](../concept/manage-appts-as-a-customer.md)
+**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

@@ -2,6 +2,7 @@
 title: Center of Excellence and Innovation Maturity Assessment Accelerator
 description: This Center of Excellence and Innovation \(CoEI\) Maturity Assessment Accelerator provides insight into your current  ServiceNow  CoEI maturity level and targeted recommendations based on the current maturity level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

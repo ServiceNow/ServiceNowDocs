@@ -2,6 +2,7 @@
 title: Code generation roles
 description: The following roles are installed for use with code generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/now-assist-code-roles.html
 release: yokohama
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Code generation reference, Now Assist for code generation, Scriptin
 
 The following roles are installed for use with code generation.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## Now Assist Creator \[now.assist.creator\]
 
@@ -38,5 +39,5 @@ Write scripts using AI-powered code generation.
     None
 
 
-**Parent Topic:**[Code generation reference](../concept/now-assist-code-reference.md)
+**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/now-assist-code-reference.md)
 

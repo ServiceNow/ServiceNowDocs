@@ -2,7 +2,10 @@
 title: Use Proactive Code Check scanning
 description: Developers can identify issues and prevent defects before they are deployed to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/install-proactive-code-check.html
 release: yokohama
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2025-03-06"
 reading_time_minutes: 1
@@ -29,13 +32,13 @@ Role required: admin
 
     The Customer Updates tab displays the pending development changes to be pushed to the production instance.
 
-2.  Select the **Proactive Code Check** UI action to initiate the scan.![The Proactive Code Check UI button.](../image/pcc-progress-bar.png)
+2.  Select the **Proactive Code Check** UI action to initiate the scan.\[Omitted image "pcc-progress-bar.png"\] Alt text: The Proactive Code Check UI button.
 
     A progress bar displays that also includes the total number of warnings, errors, and findings.
 
 3.  Select **Go to Result/Refresh** the current update set form to view findings  in the related list.
 
-    ![The PCC scan findings results table.](../image/pcc-related-findings-list.png)
+    \[Omitted image "pcc-related-findings-list.png"\] Alt text: The PCC scan findings results table.
 
     The Scan Findings are displayed in a table. You can review the system check for background information for a particular result or link externally to a KB article that explains resolution and configuration details.
 
@@ -48,5 +51,5 @@ Role required: admin
     New findings are referenced to the specific Update Set from which they originated, including findings related to child update sets, allowing for easy navigation between findings and the update set in the user interface.
 
 
-**Parent Topic:**[Impact Proactive Code Check](proactive-code-check.md)
+**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

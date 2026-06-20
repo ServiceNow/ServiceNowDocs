@@ -2,6 +2,7 @@
 title: Configure crawl settings for a Smartsheet external content connector
 description: Specify the items you want your Smartsheet external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/configure-crawl-settings-smartsheet-external-content-connector.html
 release: yokohama
 product: AI Search
 classification: ai-search
@@ -18,13 +19,13 @@ Specify the items you want your Smartsheet external content connector to crawl. 
 
 ## Before you begin
 
-A connector admin must have already created the Smartsheet external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Smartsheet external content connector](create-ext-cont-connector-smartsheet.md).
+A connector administrator must have already created the Smartsheet external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create a Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-smartsheet.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Smartsheet external content connector crawls all workspaces from its specified source system and sends all sheets and attachments with all supported file extensions to AI Search for indexing. You only need to perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Smartsheet external content connector crawls all workspaces from its specified source system and sends all sheets and attachments with all supported file extensions to AI Search for indexing. Only perform this task if you want the connector to use any of the following non-default settings:
 
 -   Inclusion or exclusion filters for workspaces to crawl when running content crawls
 -   Inclusion or exclusion filters for sheets to retrieve when running content crawls
@@ -84,7 +85,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](../reference/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/file-extensions-ext-cont-connector.md).
 
 8.  Select **Save and validate**.
 
@@ -95,7 +96,7 @@ The Smartsheet external content connector is updated with your modified crawl se
 
 ## What to do next
 
-To retrieve content from your Smartsheet source system using your modified crawl settings, create and run a one-time content crawl for your Smartsheet external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md).
+To retrieve content from your Smartsheet source system using your modified crawl settings, create and run a one-time content crawl for your Smartsheet external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Smartsheet external content connector](../concept/smartsheet-external-content-connector.md)
+**Parent Topic:**[Smartsheet external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/smartsheet-external-content-connector.md)
 

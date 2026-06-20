@@ -2,7 +2,10 @@
 title: Onboard Outsourced Service Provider agent
 description: An OSP manager can onboard OSP agents to manage and fulfill cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/onboard-osp-agent.html
 release: yokohama
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1

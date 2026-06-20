@@ -2,13 +2,14 @@
 title: Preview and sign closed work orders from the Customer or Consumer Service Portal
 description: As a customer, you can digitally sign work orders that are closed and in the Closed Complete or Closed Incomplete state to provide confirmation that the work order should be closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/customer-experience-for-field-service-management/preview-sign-wo-csm-portal.html
 release: yokohama
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Using Field Service Management, Field Service Management]
+breadcrumb: [Customer self service, Using Field Service Management, Field Service Management]
 ---
 
 # Preview and sign closed work orders from the Customer or Consumer Service Portal
@@ -46,5 +47,5 @@ Role required: sn\_customerservice.customer and sn\_customerservice.consumer
 
 The signed PDF summary is generated and attached to the Work Order form. Signatures are attached to the corresponding work order task if there are multiple work order tasks in a work order that are signed.
 
-**Parent Topic:**[Customer or Consumer Service Portal](../concept/use-customer-experience.md)
+**Parent Topic:**[Customer self service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customer-experience-for-field-service-management/customer-self-service.md)
 

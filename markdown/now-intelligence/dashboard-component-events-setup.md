@@ -2,6 +2,7 @@
 title: Dashboard component events
 description: Select event handlers to configure the actions \(events\) provided with the dashboard component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dashboard-component-events-setup.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
@@ -65,5 +66,5 @@ Add this event handler if you want to override the default drilldown with custom
 4.  Locate the code `api.emit('NAV_ITEM_SELECTED', payload);` and update `payload` to align with your custom redirect logic.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add a dashboard to a Dashboards page](../../../use/performance-analytics/task/add-dashboard-to-workspace.md)
+</table>**Parent Topic:**[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-dashboard-to-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Configure request parameters for EMR systems
 description: Define parameters to include EMR variables from an EMR system in a ServiceNow service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.html
 release: yokohama
 product: EMR Help
 classification: emr-help
@@ -82,7 +83,7 @@ EMR system to which the parameter is mapped.
 -   **Epic**: Epic EMR system.
 -   **Cerner**: Cerner EMR system.
 -   **Any system**: Any type of EMR system, including an Epic EMR system or a Cerner EMR system.
-**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. For more information, see [Modify dictionary entries](https://www.servicenow.com/docs/access?context=t_ModifyADictionaryEntryFromAForm&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. For more information, see .
 
 </td></tr><tr><td>
 

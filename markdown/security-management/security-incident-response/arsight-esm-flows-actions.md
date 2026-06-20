@@ -2,6 +2,7 @@
 title: Flow Designer usage with ArcSight ESM event ingestion integration
 description: Using the Integration Hub and Flow Designer, several flows, subflows, and actions are available with the ArcSight ESM integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/arsight-esm-flows-actions.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ Using the Integration Hub and Flow Designer, several flows, subflows, and action
 
 To view these subflows, navigate to **Flow Designer** &gt; **Designer** and click on the **SubFlows** tab. The figure below shows the important subflows used during profile creation and the scheduled ingestion job.
 
-![ArcSight ESM: Flows](../image/sir-arcsight-esm-flows.png)
+\[Omitted image "sir-arcsight-esm-flows.png"\] Alt text: ArcSight ESM: Flows
 
 These subflows are listed in the sequence in which they are executed below:
 
@@ -32,5 +33,5 @@ These subflows are listed in the sequence in which they are executed below:
 
 During execution, the above subflows also trigger several other subflows and actions either directly or indirectly as shown below.
 
-![ArcSight ESM: Additional subflows](../image/sir-arcsight-esm-flows-subflows.png)
+\[Omitted image "sir-arcsight-esm-flows-subflows.png"\] Alt text: ArcSight ESM: Additional subflows
 

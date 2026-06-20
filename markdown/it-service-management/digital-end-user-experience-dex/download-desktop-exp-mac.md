@@ -2,6 +2,7 @@
 title: Download Desktop Assistant installer on macOS devices
 description: Download the Desktop Assistant installer on your macOS device to install the Desktop Assistant application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-end-user-experience-dex/download-desktop-exp-mac.html
 release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,7 +24,7 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **All** &gt; **Desktop Assistant** &gt; **Deployment** &gt; **Installer and Uninstaller**.
 
-2.  In the macOS Download section of the Desktop Assistant Downloads page, select the download icon \(![Download icon](../image/icon-download-blue.png)\) for the installer you want to download.
+2.  In the macOS Download section of the Desktop Assistant Downloads page, select the download icon \(\[Omitted image "icon-download-blue.png"\] Alt text: Download icon\) for the installer you want to download.
 
     -   For macOS devices with Intel chips: Select the **Intel \[x64 arch\]** installer.
     -   For macOS devices with Apple Silicon chips: Select the **Apple Silicon \[x64 arch\]** installer.
@@ -39,20 +40,20 @@ Role required: sn\_dex\_desktop.admin
 
 5.  Select the destination folder and then select **Continue**.
 
-    ![The Install Desktop Assistant window to select a destination folder to install the application.](../image/desktop-exp-mac-destination.png)
+    \[Omitted image "desktop-exp-mac-destination.png"\] Alt text: The Install Desktop Assistant window to select a destination folder to install the application.
 
 6.  In Installation Type, select **Install**.
 
 7.  When prompted for a password, select **Use Password**, enter your password, and then select **Continue**.
 
-    ![The Password authentication window to allow installer to install the new application.](../image/desktop-exp-mac-password.png)
+    \[Omitted image "desktop-exp-mac-password.png"\] Alt text: The Password authentication window to allow installer to install the new application.
 
 
 ## Result
 
 The Desktop Assistant application is installed on your macOS device.
 
-When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](update-da-instance-url.md).
+When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/update-da-instance-url.md).
 
 **Note:** Only the system administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
 

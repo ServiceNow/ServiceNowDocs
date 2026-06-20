@@ -2,6 +2,7 @@
 title: Phase 2 - Prepare for the development instance upgrade
 description: For a better understanding of your production upgrade duration, request a full clone of your production instance \(including large tables and attachments\) onto a non-production instance. Confirm your current and target release versions, because you will later use this information when scheduling your upgrade in Now Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-phase-2.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
@@ -19,7 +20,7 @@ Role required: admin.
 
 ## About this task
 
-![Upgrade progress bar](../image/progress-bar-phase-2.png)
+\[Omitted image "progress-bar-phase-2.png"\] Alt text: Upgrade progress bar
 
 ## Procedure
 

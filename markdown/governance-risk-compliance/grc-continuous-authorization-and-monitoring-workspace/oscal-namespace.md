@@ -2,6 +2,7 @@
 title: OSCAL namespace
 description: To include CAM-specific information, custom properties with a unique namespace are used to add impact and tailor the content as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-namespace.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -29,5 +30,5 @@ To include CAM-specific information, custom properties with a unique namespace a
 |system-of-records-notice|PII information system-of-records-notice.|
 |privacy-sensitive-system|PII information privacy-sensitive-system.|
 
-**Parent Topic:**[CAM OSCAL](oscal-cam-ws.md)
+**Parent Topic:**[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)
 

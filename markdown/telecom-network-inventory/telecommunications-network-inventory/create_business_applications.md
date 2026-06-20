@@ -2,6 +2,7 @@
 title: Define the network function details
 description: Create a network function record in the Telecommunications Network Inventory application. You can manage the network functions such as 5Physical Network Function \(PNF\), Virtual Network Function \(VNF\) and so on.Created topics for STRY55389656 - DOC1072742
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/create\_business\_applications.html
 release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,16 +28,16 @@ When you create a network function record, it creates a corresponding configurat
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then select **Inventory** &gt; **Network Function**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then select **Inventory** &gt; **Network Function**.
 
 3.  Select **New**
 
 4.  On the form, fill in the fields.
 
-    To see a description of the fields, see [Design domain in the CSDM framework](https://www.servicenow.com/docs/access?context=design-domain&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US).
+    To see a description of the fields, see .
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Managing your network functions](../concept/services.md)
+**Parent Topic:**[Managing your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

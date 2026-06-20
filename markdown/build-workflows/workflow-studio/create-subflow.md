@@ -2,6 +2,7 @@
 title: Create a subflow in Workflow Studio
 description: Reuse an entire flow's content as a subflow. Define the input data the subflow uses and the output data it generates. Call subflows from other flows or script.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-subflow.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
@@ -19,9 +20,9 @@ Reuse an entire flow's content as a subflow. Define the input data the subflow u
 
 Role required: flow\_designer or admin
 
-Create an application in App Engine Studio to store Workflow Studio content. For more information about building an application, see [Building applications in App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-creation&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+Create an application in App Engine Studio to store Workflow Studio content. For more information about building an application, see Building applications in App Engine Studio.
 
-Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content allows you to deploy it using the application repository or the ServiceNow Store.
 
 ## About this task
 
@@ -35,7 +36,7 @@ Users with the flow\_designer or admin role should know the application table st
 
     The Subflow properties screen displays.
 
-    **Tip:** If you want to create the subflow with generative AI, see [Create a subflow with Now Assist](create-subflow-now-asist.md).
+    **Tip:** If you want to create the subflow with generative AI, see [Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-subflow-now-asist.md).
 
 3.  Fill in the following fields:
 
@@ -77,7 +78,7 @@ Domain
 
 </td><td>
 
-Domain scope of the subflow. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=yokohama&pubname=yokohama-platform-security&ft:locale=en-US).
+Domain scope of the subflow. For more information about domain separation, see .
 
 </td></tr><tr><td colspan="2">
 
@@ -142,7 +143,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 -   Low
 -   Medium \(Default\)
 -   High
- To learn about flow priority levels, see [Flow priority](../concept/flow-priority.md).
+ To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
 </table>4.  Create subflow inputs to specify the data available to the subflow when it starts running.
@@ -165,9 +166,9 @@ Priority level at which you want the system to run this subflow by default. Opti
         -   sys\_mod\_count
     4.  To make the input a mandatory configuration option, select the **Mandatory** flag.
 
-    5.  Click ![Open icon](../images/icon-advanced-input.png) to view the advanced options and define values.
+    5.  Click \[Omitted image "icon-advanced-input.png"\] Alt text: Open icon to view the advanced options and define values.
 
-        Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+        Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see field types.
 
 5.  Create subflow outputs by defining the names and data types.
 
@@ -187,7 +188,7 @@ Priority level at which you want the system to run this subflow by default. Opti
         -   sys\_updated\_on
         -   sys\_updated\_by
         -   sys\_mod\_count
-    ![Inputs and outputs in a subflow.](../images/subflow-inputs-outputs.png)
+    \[Omitted image "subflow-inputs-outputs.png"\] Alt text: Inputs and outputs in a subflow.
 
 6.  To add actions, flows, subflows, or flow logic, select **Add an Action, Flow Logic, or Subflow**.
 
@@ -207,7 +208,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](../concept/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=yokohama&pubname=yokohama-integrate-applications&ft:locale=en-US) and [Spokes](../concept/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -265,5 +266,5 @@ Test the subflow, and publish it when it is ready to be added to a flow or calle
 
 **Note:** You can only test or publish subflows that contain at least one action.
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/subflows.md)
 

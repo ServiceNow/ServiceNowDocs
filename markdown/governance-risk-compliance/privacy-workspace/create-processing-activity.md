@@ -2,6 +2,7 @@
 title: Create or update a processing activity
 description: Manually create a processing activity or update a processing activity that is automatically created out of a privacy screening assessment. You can also update a processing activity that is created from an entity record. When you update a processing activity, you can fill in the relevant details about the personal data that is being processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/create-processing-activity.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,15 +24,15 @@ Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_p
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d330717e59">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d41866e59">
 
 Action
 
-</th><th align="left" id="d330717e62">
+</th><th align="left" id="d41866e62">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330717e68">
+</th></tr></thead><tbody><tr><td id="d41866e68">
 
 **To create a new processing activity**
 
@@ -41,7 +42,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d330717e104">
+</td></tr><tr><td id="d41866e104">
 
 **To update a processing activity**
 
@@ -279,5 +280,5 @@ Internal notes not visible to the external people.
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 
