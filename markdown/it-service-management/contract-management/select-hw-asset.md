@@ -53,15 +53,15 @@ Invalid assets are not carried over to the draft contract and you must add them 
 
 4.  Update the hardware or enterpriseassets in the contract.
 
-<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d84354e172">
+<table id="choicetable_ftz_d1c_qtb"><thead><tr><th align="left" id="d84488e172">
 
 Interface
 
-</th><th align="left" id="d84354e175">
+</th><th align="left" id="d84488e175">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d84354e181">
+</th></tr></thead><tbody><tr><td id="d84488e181">
 
 **Core UI**
 
@@ -69,7 +69,7 @@ Action
 
 Indicate the assets that you want to cover by moving assets to the **Assets Covered List** or removing them.
 
-</td></tr><tr><td id="d84354e193">
+</td></tr><tr><td id="d84488e193">
 
 **Hardware Asset Workspace**
 
@@ -81,7 +81,7 @@ Add or remove assets from the existing list to indicate the assets you want to c
 -   To remove an asset, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d84354e220">
+</td></tr><tr><td id="d84488e220">
 
 **Enterprise Asset Workspace**
 

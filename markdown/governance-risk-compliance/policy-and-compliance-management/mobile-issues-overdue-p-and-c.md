@@ -59,15 +59,15 @@ Edit or reassign an issue directly from the list of records. Alternatively, add 
 
     \[Omitted image "mobile-overdue-issue-record.jpg"\] Alt text: Overdue issue record.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d147401e248">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d147522e248">
 
 Option
 
-</th><th align="left" id="d147401e251">
+</th><th align="left" id="d147522e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147401e257">
+</th></tr></thead><tbody><tr><td id="d147522e257">
 
 **Details tab**
 
@@ -84,7 +84,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   Navigate back to the record and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147401e301">
+</td></tr><tr><td id="d147522e301">
 
 **Activity Stream tab**
 
@@ -94,7 +94,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147401e331">
+</td></tr><tr><td id="d147522e331">
 
 **Related List tab**
 
@@ -106,7 +106,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the record on the Issue screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147401e361">
+</td></tr><tr><td id="d147522e361">
 
 **Screen icons at the bottom of the screen.**
 

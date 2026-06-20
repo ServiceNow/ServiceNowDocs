@@ -36,15 +36,15 @@ Role required: srm\_manager or srm\_admin
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d279657e106">
+<table id="choicetable_pxz_gj2_mbc"><thead><tr><th align="left" id="d279791e106">
 
 Field
 
-</th><th align="left" id="d279657e109">
+</th><th align="left" id="d279791e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d279657e115">
+</th></tr></thead><tbody><tr><td id="d279791e115">
 
 **On-call shift managers**
 
@@ -52,7 +52,7 @@ Description
 
 Team managers for the on-call shift.
 
-</td></tr><tr><td id="d279657e124">
+</td></tr><tr><td id="d279791e124">
 
 **PTO requests**
 
@@ -64,7 +64,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 -   Not allowed
 
 
-</td></tr><tr><td id="d279657e147">
+</td></tr><tr><td id="d279791e147">
 
 **First day of the week**
 
@@ -72,7 +72,7 @@ Requests for Paid Time Off \(PTO\) made by team members. Choices are:-   System 
 
 First day of your work week.**Note:** This option is available for Washington DC and later releases only.
 
-</td></tr><tr><td id="d279657e158">
+</td></tr><tr><td id="d279791e158">
 
 **Allow shift schedule overlap**
 
@@ -80,7 +80,7 @@ First day of your work week.**Note:** This option is available for Washington DC
 
 Option to allow schedules to overlap
 
-</td></tr><tr><td id="d279657e168">
+</td></tr><tr><td id="d279791e168">
 
 **Escalation rule on shift overlap**
 

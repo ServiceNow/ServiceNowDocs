@@ -32,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d106390e99">
+<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d106524e99">
 
 To
 
-</th><th align="left" id="d106390e102">
+</th><th align="left" id="d106524e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d106390e108">
+</th></tr></thead><tbody><tr><td id="d106524e108">
 
 **View all work orders related to this asset**
 
@@ -52,7 +52,7 @@ Do this
     -   To view all upcoming work orders, click **Upcoming Work Orders**.
 
 
-</td></tr><tr><td id="d106390e143">
+</td></tr><tr><td id="d106524e143">
 
 **Create a work order for this asset**
 

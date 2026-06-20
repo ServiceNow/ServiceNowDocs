@@ -899,7 +899,7 @@ Description
 
 Accept
 
-</td><td id="d3154e85">
+</td><td id="d3143e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
@@ -1478,7 +1478,7 @@ Description
 
 Accept
 
-</td><td id="d3154e85">
+</td><td id="d3143e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
@@ -2743,7 +2743,7 @@ Description
 
 Accept
 
-</td><td id="d3154e85">
+</td><td id="d3143e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 

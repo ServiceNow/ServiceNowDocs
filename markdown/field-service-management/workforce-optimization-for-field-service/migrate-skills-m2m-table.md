@@ -32,15 +32,15 @@ In the Field Service Management application, the work order task assignments don
 
 1.  Add a system property with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d56059e84">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d56193e84">
 
 Option
 
-</th><th align="left" id="d56059e87">
+</th><th align="left" id="d56193e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56059e93">
+</th></tr></thead><tbody><tr><td id="d56193e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -52,7 +52,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d56059e118">
+</td></tr><tr><td id="d56193e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

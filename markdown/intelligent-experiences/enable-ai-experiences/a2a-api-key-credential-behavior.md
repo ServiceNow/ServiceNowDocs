@@ -7,7 +7,7 @@ release: zurich
 product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

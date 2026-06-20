@@ -39,15 +39,15 @@ To learn more about the nature and benefits of hybrid search, see [Hybrid search
 
 3.  If you don't see the \[\[\[ **Hybrid search** \]\]\] option shown on the Search Application Configuration form, select a situation and follow the corresponding steps.
 
-<table><thead><tr><th align="left" id="d62466e169">
+<table><thead><tr><th align="left" id="d62600e169">
 
 Situation
 
-</th><th align="left" id="d62466e172">
+</th><th align="left" id="d62600e172">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62466e178">
+</th></tr></thead><tbody><tr><td id="d62600e178">
 
 **Beginning with Zurich patch 10**
 
@@ -62,7 +62,7 @@ The Search Application Attribute Configuration New record page appears.
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d62466e222">
+</td></tr><tr><td id="d62600e222">
 
 **Versions before Zurich patch 10**
 

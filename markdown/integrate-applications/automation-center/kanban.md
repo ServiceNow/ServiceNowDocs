@@ -1,0 +1,30 @@
+---
+title: Automation Center Kanban board
+description: The Automation Center Kanban board provides an easy access to view and manage automation requests and automation tasks.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/kanban.html
+release: zurich
+product: Automation Center
+classification: automation-center
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
+---
+
+# Automation Center Kanban board
+
+The Automation Center Kanban board provides an easy access to view and manage automation requests and automation tasks.
+
+The Automation Center Kanban board provides the following benefits:
+
+-   Viewing all automation requests and automation tasks of all states in one place.
+-   Ease of updating the state of an automation request or automation task.
+
+-   **[Manage automation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/manage-req-board.md)**  
+Manage all automation requests from one location from the Request Board in the Automation Center Kanban board.
+-   **[Manage automation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/manage-task-board.md)**  
+Manage all tasks associated with the automation requests from one location from the Task Board in the Automation Center Kanban board.
+
+**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-explore.md)
+

@@ -43,15 +43,15 @@ Role required: sn\_hr\_core\_admin
     -   Included: The user matches the filter criteria and a case will be created for the user.
     -   Excluded: The user does not match the criteria and a case will not be created.
     -   Duplicate: The user is listed multiple times.
-<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d95357e141">
+<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d95491e141">
 
 Review result
 
-</th><th align="left" id="d95357e144">
+</th><th align="left" id="d95491e144">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95357e150">
+</th></tr></thead><tbody><tr><td id="d95491e150">
 
 **Some user statuses need to be modified**
 

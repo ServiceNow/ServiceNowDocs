@@ -38,15 +38,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 5.  Edit the user assignments based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d452504e113">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d452638e113">
 
 Action
 
-</th><th align="left" id="d452504e116">
+</th><th align="left" id="d452638e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d452504e122">
+</th></tr></thead><tbody><tr><td id="d452638e122">
 
 **Assign a single user**
 
@@ -69,7 +69,7 @@ If you don't select any space, the user is assigned to the floor selected on the
 7.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d452504e202">
+</td></tr><tr><td id="d452638e202">
 
 **Assign multiple users**
 
@@ -97,7 +97,7 @@ For example, `Workplace profile is Active`. For more information about condition
 6.  Select the users that you want to assign, then select **Confirm**.
 
 
-</td></tr><tr><td id="d452504e274">
+</td></tr><tr><td id="d452638e274">
 
 **Move a user**
 
@@ -115,7 +115,7 @@ Alternatively, you can select a space that has a user assigned.
 5.  Select **Apply**.
 
 
-</td></tr><tr><td id="d452504e321">
+</td></tr><tr><td id="d452638e321">
 
 **Unassign users**
 

@@ -7,7 +7,7 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---

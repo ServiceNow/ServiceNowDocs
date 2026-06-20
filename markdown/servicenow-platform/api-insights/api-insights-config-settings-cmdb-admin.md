@@ -32,7 +32,7 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect\_adminor sn\_cmdb\_adm
 
 4.  In the API creation tool section, select an API creation tool from the available options.
 
-<table id="choicetable_mvn_tgd_ncc"><tbody><tr><td id="d79241e104">
+<table id="choicetable_mvn_tgd_ncc"><tbody><tr><td id="d79375e104">
 
 **None**
 
@@ -40,7 +40,7 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect\_adminor sn\_cmdb\_adm
 
 Uses no external tool.
 
-</td></tr><tr><td id="d79241e113">
+</td></tr><tr><td id="d79375e113">
 
 **Digital Integration Management**
 
@@ -48,7 +48,7 @@ Uses no external tool.
 
 Uses the Digital Integration Management application \(part of the Enterprise Architecture Workspace\), if enabled, to initiate the API design process by creating a digital interface record.
 
-</td></tr><tr><td id="d79241e125">
+</td></tr><tr><td id="d79375e125">
 
 **External tool**
 
@@ -66,15 +66,15 @@ Uses a third-party tool for API creation, requiring the URL for the external too
 
 6.  In the Ownership group section, set the ownership group responsible for managing the API.
 
-<table id="choicetable_ots_vkd_ncc"><thead><tr><th align="left" id="d79241e198">
+<table id="choicetable_ots_vkd_ncc"><thead><tr><th align="left" id="d79375e198">
 
 Option
 
-</th><th align="left" id="d79241e201">
+</th><th align="left" id="d79375e201">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79241e207">
+</th></tr></thead><tbody><tr><td id="d79375e207">
 
 **Managed by Group**
 
@@ -84,7 +84,7 @@ Assigns the API to a specific group responsible for its overall management and g
 
 By default, the **SyncOwnershipGroupsOfAPIVersions** scheduled job is active, ensuring that the managed by group is synced for the next API version.
 
-</td></tr><tr><td id="d79241e224">
+</td></tr><tr><td id="d79375e224">
 
 **Change Group**
 
@@ -92,7 +92,7 @@ By default, the **SyncOwnershipGroupsOfAPIVersions** scheduled job is active, en
 
 Assigns the API to a group that oversees changes, managing the life cycle to ensure modifications are documented and implemented without disrupting services.
 
-</td></tr><tr><td id="d79241e233">
+</td></tr><tr><td id="d79375e233">
 
 **Approval Group**
 
@@ -100,7 +100,7 @@ Assigns the API to a group that oversees changes, managing the life cycle to ens
 
 Assigns the API to a group handling approvals for actions like changes or deployments, ensuring necessary approvals are secured.
 
-</td></tr><tr><td id="d79241e242">
+</td></tr><tr><td id="d79375e242">
 
 **Support Group**
 

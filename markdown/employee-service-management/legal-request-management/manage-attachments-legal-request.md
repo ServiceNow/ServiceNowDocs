@@ -36,15 +36,15 @@ If the Privileged and Confidential status is enabled on a legal request, you can
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d77686e113">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d77820e113">
 
 Option
 
-</th><th align="left" id="d77686e116">
+</th><th align="left" id="d77820e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77686e122">
+</th></tr></thead><tbody><tr><td id="d77820e122">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d77686e151">
+</td></tr><tr><td id="d77820e151">
 
 **As a collaborator**
 
@@ -69,15 +69,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Manage documents in the legal request.
 
-<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d77686e181">
+<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d77820e181">
 
 Option
 
-</th><th align="left" id="d77686e184">
+</th><th align="left" id="d77820e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77686e190">
+</th></tr></thead><tbody><tr><td id="d77820e190">
 
 **Using the attachment icon**
 
@@ -96,7 +96,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached file, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d77686e272">
+</td></tr><tr><td id="d77820e272">
 
 **Using the Documents tab**
 
@@ -117,7 +117,7 @@ In the **Documents** tab, a link to the document is listed in the **External URL
     2.  Select **Delete**.
 Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-request-management/document-access-legal-request.md).
 
-</td></tr><tr><td id="d77686e348">
+</td></tr><tr><td id="d77820e348">
 
 **Using Privileged Document Access tab**
 

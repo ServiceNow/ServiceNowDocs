@@ -46,7 +46,7 @@ For an example of an OIDC provider configuration, see . For an SSO-specific exam
 
 5.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d182067e125">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d182201e125">
 
 **Automatically provision users**
 
@@ -54,7 +54,7 @@ For an example of an OIDC provider configuration, see . For an SSO-specific exam
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d182067e134">
+</td></tr><tr><td id="d182201e134">
 
 **Provision data source**
 
@@ -62,7 +62,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d182067e155">
+</td></tr><tr><td id="d182201e155">
 
 **User roles applied to provisioned users**
 

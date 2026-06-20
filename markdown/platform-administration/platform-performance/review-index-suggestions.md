@@ -7,7 +7,7 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer]
 ---
@@ -36,7 +36,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 4.  Choose the next processing step for the index suggestion.
 
-<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d155526e104">
+<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d155660e104">
 
 **Export**
 
@@ -44,7 +44,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 Downloads the index suggestion as an .xml file, which can be [exported to a non-production instance for testing and evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/platform-performance/export-index-suggestion.md).
 
-</td></tr><tr><td id="d155526e130">
+</td></tr><tr><td id="d155660e130">
 
 **Ignore**
 
@@ -52,7 +52,7 @@ Downloads the index suggestion as an .xml file, which can be [exported to a non-
 
 Changes the index suggestion state to ignore, which indicates the index suggestion is no longer active and available for index creation. Index suggestions with an Ignore state are listed in the **Index Suggestions &gt; Done** view of the Index Suggestion table.
 
-</td></tr><tr><td id="d155526e142">
+</td></tr><tr><td id="d155660e142">
 
 **Schedule creation**
 

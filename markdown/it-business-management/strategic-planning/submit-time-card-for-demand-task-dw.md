@@ -30,15 +30,15 @@ The resource submits the time card or time sheet to record and track the work pe
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d279049e80">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d279094e80">
 
 Demand task assignment
 
-</th><th align="left" id="d279049e83">
+</th><th align="left" id="d279094e83">
 
 To create a time card
 
-</th></tr></thead><tbody><tr><td id="d279049e89">
+</th></tr></thead><tbody><tr><td id="d279094e89">
 
 **If a demand task is assigned to you**
 
@@ -48,7 +48,7 @@ To create a time card
 2.  Select the **Add to Time Sheet** link in the task.
 
 
-</td></tr><tr><td id="d279049e110">
+</td></tr><tr><td id="d279094e110">
 
 **If a demand task is assigned to you as an additional assignee**
 

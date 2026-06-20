@@ -7,7 +7,7 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 keywords: [resolution steps, LEAP, recommendations, Service Operations Workspace, incident resolution]
 breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]

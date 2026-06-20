@@ -26,15 +26,15 @@ Role required: it\_demand\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d48198e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d48332e85">
 
 Choice
 
-</th><th align="left" id="d48198e88">
+</th><th align="left" id="d48332e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48198e94">
+</th></tr></thead><tbody><tr><td id="d48332e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d48198e124">
+</td></tr><tr><td id="d48332e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d48198e151">
+</td></tr><tr><td id="d48332e151">
 
 **Activate a scheduled job**
 

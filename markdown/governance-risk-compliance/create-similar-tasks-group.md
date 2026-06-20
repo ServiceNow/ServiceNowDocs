@@ -28,15 +28,15 @@ You can create a similar tasks group and add tasks to it only in the **Draft** s
 
 2.  To create a similar event tasks group, use one of these options.
 
-<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d92377e93">
+<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d92511e93">
 
 Action
 
-</th><th align="left" id="d92377e96">
+</th><th align="left" id="d92511e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d92377e102">
+</th></tr></thead><tbody><tr><td id="d92511e102">
 
 **Choose similar event tasks in the __Event tasks__ tab and select the __Create similar tasks group__ UI action.**
 
@@ -46,7 +46,7 @@ Description
 2.  Verify that the group is created and shows up in the Similar tasks groups list.
 \[Omitted image "event-tasks-from-event-task-tab.png"\] Alt text: Event tasks tab.
 
-</td></tr><tr><td id="d92377e132">
+</td></tr><tr><td id="d92511e132">
 
 **Add event tasks from the __Similar tasks groups__ tab.**
 

@@ -7,7 +7,7 @@ release: zurich
 product: AI Platform Administration
 classification: ai-platform-administration
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer]
 ---

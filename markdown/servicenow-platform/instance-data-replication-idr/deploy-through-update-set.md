@@ -45,15 +45,15 @@ You can copy a replication configuration from one instance to another using an u
     -   Producer replication \(one-way\)
     -   Producer replication with bi-directional replication
     -   Producer replication with discrete replication
-<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d371503e143">
+<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d371637e143">
 
 Option
 
-</th><th align="left" id="d371503e146">
+</th><th align="left" id="d371637e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d371503e152">
+</th></tr></thead><tbody><tr><td id="d371637e152">
 
 **Capture a producer replication configuration**
 
@@ -65,7 +65,7 @@ Steps
 4.  Capture the replication configuration by selecting **Track in Update Set**.
 
 
-</td></tr><tr><td id="d371503e194">
+</td></tr><tr><td id="d371637e194">
 
 **Capture a consumer replication configuration**
 
@@ -131,15 +131,15 @@ Steps
 
 6.  On the target instance, perform the following steps based on the type of replication set that you want to set up.
 
-<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d371503e472">
+<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d371637e472">
 
 Type of replication
 
-</th><th align="left" id="d371503e475">
+</th><th align="left" id="d371637e475">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d371503e481">
+</th></tr></thead><tbody><tr><td id="d371637e481">
 
 **Producer replication**
 
@@ -150,7 +150,7 @@ Steps
 3.  Select **Activate**.
 
 
-</td></tr><tr><td id="d371503e517">
+</td></tr><tr><td id="d371637e517">
 
 **Consumer replication**
 
@@ -162,7 +162,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d371503e562">
+</td></tr><tr><td id="d371637e562">
 
 **Bi-directional replication**
 
@@ -176,7 +176,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d371503e620">
+</td></tr><tr><td id="d371637e620">
 
 **Discrete replication**
 

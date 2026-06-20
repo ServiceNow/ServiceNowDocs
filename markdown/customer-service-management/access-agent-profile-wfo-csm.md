@@ -38,15 +38,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d246564e134">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d246698e134">
 
 To
 
-</th><th align="left" id="d246564e137">
+</th><th align="left" id="d246698e137">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d246564e143">
+</th></tr></thead><tbody><tr><td id="d246698e143">
 
 **Access your profile from a case record**
 
@@ -56,7 +56,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d246564e170">
+</td></tr><tr><td id="d246698e170">
 
 **Create your profile for centralized access**
 

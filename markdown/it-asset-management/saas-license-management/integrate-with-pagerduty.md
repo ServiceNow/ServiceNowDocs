@@ -162,15 +162,15 @@ If you’re using Software Asset Workspace, the option to create the PagerDuty i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d125373e670">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d125507e670">
 
 Interface
 
-</th><th align="left" id="d125373e673">
+</th><th align="left" id="d125507e673">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d125373e679">
+</th></tr></thead><tbody><tr><td id="d125507e679">
 
 **Core UI**
 
@@ -181,7 +181,7 @@ Action
 3.  Select **PagerDuty Integration Profile**.
 
 
-</td></tr><tr><td id="d125373e721">
+</td></tr><tr><td id="d125507e721">
 
 **Software Asset Workspace**
 

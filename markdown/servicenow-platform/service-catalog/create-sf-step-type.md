@@ -32,15 +32,15 @@ The following step types are available in the base system.
 
 1.  Set up a data store to store information needed for running the step. This information is provided by a catalog item owner while defining the request fulfillment process. Do one of the following.
 
-<table id="choicetable_lxs_24x_jpb"><thead><tr><th align="left" id="d347817e67">
+<table id="choicetable_lxs_24x_jpb"><thead><tr><th align="left" id="d347951e67">
 
 Option
 
-</th><th align="left" id="d347817e70">
+</th><th align="left" id="d347951e70">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d347817e76">
+</th></tr></thead><tbody><tr><td id="d347951e76">
 
 **When additional input is required from the catalog item owner for a step type**
 
@@ -52,7 +52,7 @@ Create a table by extending the Service Fulfillment Step \[sc\_service\_fulfillm
 
  For tables extending the Service Fulfillment Step \[sc\_service\_fulfillment\_step\] table, the **Domain master** attribute should be added and its value should be set as **service\_fulfillment\_stage**. The domain of a service fulfillment step is then inherited from the catalog item.
 
-</td></tr><tr><td id="d347817e101">
+</td></tr><tr><td id="d347951e101">
 
 **When no input is required for a step type**
 

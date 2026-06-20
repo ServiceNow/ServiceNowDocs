@@ -33,15 +33,15 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d36607e90">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d36741e90">
 
 Field
 
-</th><th align="left" id="d36607e93">
+</th><th align="left" id="d36741e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36607e99">
+</th></tr></thead><tbody><tr><td id="d36741e99">
 
 **Version**
 
@@ -49,7 +49,7 @@ Description
 
 Version number of the asset
 
-</td></tr><tr><td id="d36607e108">
+</td></tr><tr><td id="d36741e108">
 
 **Asset type**
 
@@ -64,7 +64,7 @@ Type of assets:-   Generative AI
 -   AI datasets
 
 
-</td></tr><tr><td id="d36607e141">
+</td></tr><tr><td id="d36741e141">
 
 **Provider**
 
@@ -72,7 +72,7 @@ Type of assets:-   Generative AI
 
 who has built the asset
 
-</td></tr><tr><td id="d36607e150">
+</td></tr><tr><td id="d36741e150">
 
 **Vendor**
 
@@ -80,7 +80,7 @@ who has built the asset
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d36607e160">
+</td></tr><tr><td id="d36741e160">
 
 **Department**
 
@@ -88,7 +88,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d36607e169">
+</td></tr><tr><td id="d36741e169">
 
 **Managed by**
 
@@ -96,7 +96,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d36607e178">
+</td></tr><tr><td id="d36741e178">
 
 **License details**
 
@@ -104,7 +104,7 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d36607e187">
+</td></tr><tr><td id="d36741e187">
 
 **Supported locations**
 
@@ -112,7 +112,7 @@ License details of the asset
 
 Shows the locations supported for the AI asset.
 
-</td></tr><tr><td id="d36607e199">
+</td></tr><tr><td id="d36741e199">
 
 **Lifecycle phase**
 
@@ -127,7 +127,7 @@ Shows the asset's lifecycle phase.
 -   Offboarding
 
 
-</td></tr><tr><td id="d36607e228">
+</td></tr><tr><td id="d36741e228">
 
 **State**
 
@@ -140,7 +140,7 @@ The state of the asset.-   Deployed
 -   N/A
 
 
-</td></tr><tr><td id="d36607e255">
+</td></tr><tr><td id="d36741e255">
 
 **Lifecycle status**
 
@@ -157,7 +157,7 @@ The lifecycle status of the asset.-   In review
 -   Canceled
 
 
-</td></tr><tr><td id="d36607e294">
+</td></tr><tr><td id="d36741e294">
 
 **Risk classification**
 
@@ -165,7 +165,7 @@ The lifecycle status of the asset.-   In review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d36607e303">
+</td></tr><tr><td id="d36741e303">
 
 **Created**
 
@@ -173,7 +173,7 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d36607e312">
+</td></tr><tr><td id="d36741e312">
 
 **Updated**
 

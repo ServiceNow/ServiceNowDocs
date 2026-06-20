@@ -307,7 +307,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d3376e337">
+</td><td id="d3283e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -349,7 +349,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3376e405">
+</td><td id="d3283e405">
 
 Channel sys\_id. Data type: String
 
@@ -385,7 +385,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3376e467">
+</td><td id="d3283e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1556,7 +1556,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3376e405">
+</td><td id="d3283e405">
 
 Channel sys\_id. Data type: String
 
@@ -1592,7 +1592,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3376e467">
+</td><td id="d3283e467">
 
 Presence state sys\_id. Data type: String
 

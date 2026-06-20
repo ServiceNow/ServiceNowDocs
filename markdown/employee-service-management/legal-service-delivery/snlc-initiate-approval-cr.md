@@ -36,15 +36,15 @@ You can assign these approvals to any user or user group in your organization wh
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88641e110">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88775e110">
 
 Option
 
-</th><th align="left" id="d88641e113">
+</th><th align="left" id="d88775e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88641e119">
+</th></tr></thead><tbody><tr><td id="d88775e119">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d88641e140">
+</td></tr><tr><td id="d88775e140">
 
 **As a collaborator**
 

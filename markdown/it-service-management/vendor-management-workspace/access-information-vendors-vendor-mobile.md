@@ -26,15 +26,15 @@ Role required: sn\_vlm.vendor\_manager
 
 2.  Do any of the following.
 
-<table id="choicetable_xlp_xvh_vrb"><thead><tr><th align="left" id="d89519e64">
+<table id="choicetable_xlp_xvh_vrb"><thead><tr><th align="left" id="d89653e64">
 
 To access
 
-</th><th align="left" id="d89519e67">
+</th><th align="left" id="d89653e67">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d89519e73">
+</th></tr></thead><tbody><tr><td id="d89653e73">
 
 **Information about your vendors**
 
@@ -42,7 +42,7 @@ Do this
 
 Tap **My Vendors**.To contact a vendor, tap the vendor record and then tap **Primary Contact Details**. The vendor's contact appears.
 
-</td></tr><tr><td id="d89519e91">
+</td></tr><tr><td id="d89653e91">
 
 **Incidents created for your vendors**
 
@@ -50,7 +50,7 @@ Tap **My Vendors**.To contact a vendor, tap the vendor record and then tap **Pri
 
 Tap **My Vendor Incidents**.You can see the vendor details and activity streams for each incident.
 
-</td></tr><tr><td id="d89519e106">
+</td></tr><tr><td id="d89653e106">
 
 **Outages created for your vendors**
 
@@ -58,7 +58,7 @@ Tap **My Vendor Incidents**.You can see the vendor details and activity streams 
 
 Tap **My Vendor Outages**. You can view the list of outages. Click on an outage to view outage details and the affected CIs for services and offerings.
 
-</td></tr><tr><td id="d89519e121">
+</td></tr><tr><td id="d89653e121">
 
 **SLAs breached by the vendor**
 

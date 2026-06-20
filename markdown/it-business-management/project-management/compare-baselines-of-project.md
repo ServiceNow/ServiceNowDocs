@@ -28,15 +28,15 @@ You can [create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zur
 
 1.  To compare the financial baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d146151e78">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d146285e78">
 
 Option
 
-</th><th align="left" id="d146151e81">
+</th><th align="left" id="d146285e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d146151e87">
+</th></tr></thead><tbody><tr><td id="d146285e87">
 
 **From the Project Workspace**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select the **Baselines** from header and then select **Compare baselines**.
 
 
-</td></tr><tr><td id="d146151e135">
+</td></tr><tr><td id="d146285e135">
 
 **From the Project form**
 
@@ -61,7 +61,7 @@ Steps
 5.  On the **Financials** tab, select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon\) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d146151e198">
+</td></tr><tr><td id="d146285e198">
 
 **From the Baseline form**
 

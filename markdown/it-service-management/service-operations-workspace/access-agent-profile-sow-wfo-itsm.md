@@ -38,15 +38,15 @@ Access your profile to analyze information such as:
 
 2.  Click the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d172120e126">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d172254e126">
 
 To
 
-</th><th align="left" id="d172120e129">
+</th><th align="left" id="d172254e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d172120e135">
+</th></tr></thead><tbody><tr><td id="d172254e135">
 
 **Access your profile from an incident record**
 
@@ -56,7 +56,7 @@ Do this
 2.  In the Assigned column, select your name.
 The profile page appears. In that page, you can access all the information that is related to your profile.
 
-</td></tr><tr><td id="d172120e159">
+</td></tr><tr><td id="d172254e159">
 
 **Create your profile for centralized access**
 
@@ -73,7 +73,7 @@ The profile page appears. In that page, you can access all the information that 
 
 For information on creating a list, see Create My Lists in Workspace.
 
-</td></tr><tr><td id="d172120e233">
+</td></tr><tr><td id="d172254e233">
 
 **Analyze Performance Analytics targets**
 

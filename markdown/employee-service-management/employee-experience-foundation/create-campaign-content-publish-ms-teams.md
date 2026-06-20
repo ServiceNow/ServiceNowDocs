@@ -28,15 +28,15 @@ Create notifications to send messages directly to your employees through Microso
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d165759e97">
+<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d166346e97">
 
 Record source
 
-</th><th align="left" id="d165759e100">
+</th><th align="left" id="d166346e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d165759e106">
+</th></tr></thead><tbody><tr><td id="d166346e106">
 
 **Existing content record**
 
@@ -44,7 +44,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d165759e115">
+</td></tr><tr><td id="d166346e115">
 
 **New content**
 

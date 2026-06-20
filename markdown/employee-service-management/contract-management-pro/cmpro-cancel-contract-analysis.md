@@ -30,15 +30,15 @@ You can cancel an analysis for a contract document or for all contract documents
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d164100e88">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d164234e88">
 
 Method
 
-</th><th align="left" id="d164100e91">
+</th><th align="left" id="d164234e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164100e97">
+</th></tr></thead><tbody><tr><td id="d164234e97">
 
 **Contract Workspace listing**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d164100e145">
+</td></tr><tr><td id="d164234e145">
 
 **Workspace used by your application**
 
@@ -64,15 +64,15 @@ Steps
 </td></tr></tbody>
 </table>2.  Cancel the contract analysis for a contract document or all documents in a contract request.
 
-<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d164100e175">
+<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d164234e175">
 
 Method
 
-</th><th align="left" id="d164100e178">
+</th><th align="left" id="d164234e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164100e184">
+</th></tr></thead><tbody><tr><td id="d164234e184">
 
 **Cancel contract analysis for a document**
 
@@ -83,7 +83,7 @@ Steps
 3.  Cancel the contract analysis by selecting **Yes, Cancel**.
 
 
-</td></tr><tr><td id="d164100e214">
+</td></tr><tr><td id="d164234e214">
 
 **Cancel contract analysis for all the documents in a contract request**
 

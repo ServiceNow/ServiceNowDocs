@@ -37,15 +37,15 @@ For creating a release for multiple products using the wizard, see [Create a rel
 
 2.  Create a release for a product version from the Release planning page or the Releases list view.
 
-<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d60168e151">
+<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d60302e151">
 
 Option
 
-</th><th align="left" id="d60168e154">
+</th><th align="left" id="d60302e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d60168e160">
+</th></tr></thead><tbody><tr><td id="d60302e160">
 
 **From the Release planning page of a product**
 
@@ -57,7 +57,7 @@ Steps
 4.  Select the sub menu icon \(\[Omitted image "dpr-icon-lane-action.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
 
 
-</td></tr><tr><td id="d60168e211">
+</td></tr><tr><td id="d60302e211">
 
 **From the Releases list view**
 

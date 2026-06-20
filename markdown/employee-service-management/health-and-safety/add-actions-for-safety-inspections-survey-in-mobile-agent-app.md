@@ -42,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d101884e145">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d102064e145">
 
 Section
 
-</th><th align="left" id="d101884e148">
+</th><th align="left" id="d102064e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101884e154">
+</th></tr></thead><tbody><tr><td id="d102064e154">
 
 **My Surveys**
 
@@ -58,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d101884e168">
+</td></tr><tr><td id="d102064e168">
 
 **Inspections**
 

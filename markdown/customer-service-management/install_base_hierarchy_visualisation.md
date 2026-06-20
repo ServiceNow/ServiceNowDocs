@@ -7,7 +7,7 @@ release: zurich
 product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

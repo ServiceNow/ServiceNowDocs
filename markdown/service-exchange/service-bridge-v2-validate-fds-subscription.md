@@ -38,15 +38,15 @@ After the provider sends the sample, a subscription is generated for each offeri
 
 5.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\) or a non-CMDB table.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d21592e111">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d21726e111">
 
 Option
 
-</th><th align="left" id="d21592e114">
+</th><th align="left" id="d21726e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21592e120">
+</th></tr></thead><tbody><tr><td id="d21726e120">
 
 **Configure data integration for CMDB tables**
 
@@ -64,7 +64,7 @@ A message is displayed stating that you’re about to navigate to the ETL Transf
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d21592e163">
+</td></tr><tr><td id="d21726e163">
 
 **Configure data integration for non-CMDB table**
 

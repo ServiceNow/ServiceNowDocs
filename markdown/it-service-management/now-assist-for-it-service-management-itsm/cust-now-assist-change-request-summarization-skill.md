@@ -153,15 +153,15 @@ Attachment added to the change request.
 
     Review and test the prompt for each input template configuration.
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d336353e436">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d336487e436">
 
 To
 
-</th><th align="left" id="d336353e439">
+</th><th align="left" id="d336487e439">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d336353e445">
+</th></tr></thead><tbody><tr><td id="d336487e445">
 
 **Evaluate a prompt for each input template**
 
@@ -175,7 +175,7 @@ Do this
 2.  Select **Run Test**. \[Omitted image "now-assist-cust-prompt-change-summ-1.png"\] Alt text: Evaluate prompt output for the change request summarization skill
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the change state selections and retest as needed.
 
-</td></tr><tr><td id="d336353e484">
+</td></tr><tr><td id="d336487e484">
 
 **Edit the prompt in the Now Assist Skill Kit and then test the prompt**
 

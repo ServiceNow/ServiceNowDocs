@@ -40,15 +40,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
         For legal matter, select the artifact from the Artifact section and then select Add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachments icon\)
 
-<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d550868e150">
+<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d551002e150">
 
 Method
 
-</th><th align="left" id="d550868e153">
+</th><th align="left" id="d551002e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d550868e159">
+</th></tr></thead><tbody><tr><td id="d551002e159">
 
 **Add file from the system**
 
@@ -59,7 +59,7 @@ Steps
 3.  Select **Open**
 
 
-</td></tr><tr><td id="d550868e185">
+</td></tr><tr><td id="d551002e185">
 
 **Drag and drop file from the email**
 

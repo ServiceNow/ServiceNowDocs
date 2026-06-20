@@ -40,15 +40,15 @@ When DLP analyst performs the Download evidence files for DLP Incidents action f
 
 4.  Select the preferred storage type.
 
-<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d395941e123">
+<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d396075e123">
 
 Type
 
-</th><th align="left" id="d395941e126">
+</th><th align="left" id="d396075e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d395941e132">
+</th></tr></thead><tbody><tr><td id="d396075e132">
 
 **Evidence File Storage**
 
@@ -56,7 +56,7 @@ Description
 
 Option to enable the Evidence file storage.
 
-</td></tr><tr><td id="d395941e141">
+</td></tr><tr><td id="d396075e141">
 
 **Storage Type**
 

@@ -52,15 +52,15 @@ When you start an order, a pop-up prompts you to enter details. The pop-up windo
 
 3.  On the Create a new order pop-up, create order for either an account or consumer.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d242106e170">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d242240e170">
 
 To
 
-</th><th align="left" id="d242106e173">
+</th><th align="left" id="d242240e173">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d242106e179">
+</th></tr></thead><tbody><tr><td id="d242240e179">
 
 **Create an order for an account**
 
@@ -73,7 +73,7 @@ Description
     -   **Order action**: Select the type of order action.
 
 
-</td></tr><tr><td id="d242106e217">
+</td></tr><tr><td id="d242240e217">
 
 **Create an order for a consumer**
 

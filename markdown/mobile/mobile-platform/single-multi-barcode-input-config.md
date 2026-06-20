@@ -54,15 +54,15 @@ Barcode inputs are available [offline](https://raw.githubusercontent.com/Service
 
 6.  Depending on the type of barcode scan input you want to configure.
 
-<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d47701e249">
+<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d47887e249">
 
 Option
 
-</th><th align="left" id="d47701e252">
+</th><th align="left" id="d47887e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47701e258">
+</th></tr></thead><tbody><tr><td id="d47887e258">
 
 **Single scan barcode inputs**
 
@@ -70,7 +70,7 @@ Description
 
 When you finish configuring all the fields you want, select **Update**.
 
-</td></tr><tr><td id="d47701e270">
+</td></tr><tr><td id="d47887e270">
 
 **Multi-scan barcode inputs**
 

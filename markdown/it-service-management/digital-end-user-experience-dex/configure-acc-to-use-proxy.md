@@ -39,15 +39,15 @@ Proxy setup is needed in the following use cases:
 
 1.  Run diagnostics to verify that the endpoint can reach ServiceNow before making changes.
 
-<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d337366e113">
+<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d337500e113">
 
 Option
 
-</th><th align="left" id="d337366e116">
+</th><th align="left" id="d337500e116">
 
 Command
 
-</th></tr></thead><tbody><tr><td id="d337366e122">
+</th></tr></thead><tbody><tr><td id="d337500e122">
 
 **Windows**
 
@@ -55,7 +55,7 @@ Command
 
 PowerShell: `.\servicenow-net-check.ps1`
 
-</td></tr><tr><td id="d337366e134">
+</td></tr><tr><td id="d337500e134">
 
 **macOS**
 

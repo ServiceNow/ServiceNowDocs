@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Portfolio Management
 classification: strategic-portfolio-management
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---

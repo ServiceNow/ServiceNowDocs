@@ -32,15 +32,15 @@ Role required: admin
 
 5.  Edit any of the following sections based on your requirement.
 
-<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d234217e105">
+<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d234351e105">
 
 Section
 
-</th><th align="left" id="d234217e108">
+</th><th align="left" id="d234351e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234217e114">
+</th></tr></thead><tbody><tr><td id="d234351e114">
 
 **General details**
 
@@ -48,7 +48,7 @@ Description
 
 Edit basic information about the skill like the name, workflow, large language model \(LLM\), and skill template.
 
-</td></tr><tr><td id="d234217e123">
+</td></tr><tr><td id="d234351e123">
 
 **Choose input**
 
@@ -58,7 +58,7 @@ Select the fields to be included as an input for the summarization skill. For ex
 
 For more information about customizing the input fields, see .
 
-</td></tr><tr><td id="d234217e139">
+</td></tr><tr><td id="d234351e139">
 
 **Customize prompt**
 
@@ -66,7 +66,7 @@ For more information about customizing the input fields, see .
 
 Add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like New, Work in progress, or Resolved.For more information about customizing the prompt output, see .
 
-</td></tr><tr><td id="d234217e153">
+</td></tr><tr><td id="d234351e153">
 
 **Role attribution**
 
@@ -74,7 +74,7 @@ Add or remove sections that are included in the generated summary. You can custo
 
 Select the table, fields for the requester and fulfiller, and fulfiller roles for the skill.
 
-</td></tr><tr><td id="d234217e163">
+</td></tr><tr><td id="d234351e163">
 
 **Define availability**
 
@@ -82,7 +82,7 @@ Select the table, fields for the requester and fulfiller, and fulfiller roles fo
 
 Customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see .
 
-</td></tr><tr><td id="d234217e175">
+</td></tr><tr><td id="d234351e175">
 
 **Define access**
 
@@ -90,7 +90,7 @@ Customize whether the skill is available by default, or only available based on 
 
 Add roles to provide the access required to summarize a case. For example, `sn_wsd_core.workplace_manager`.
 
-</td></tr><tr><td id="d234217e187">
+</td></tr><tr><td id="d234351e187">
 
 **Select display**
 

@@ -32,7 +32,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
     **Note:** Selection options vary depending on the requestor's configuration.
 
-<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d102764e126">
+<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d102898e126">
 
 **Respond**
 
@@ -40,7 +40,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
 Enables you to respond with time estimates, cost estimates, or other notes and comments. The requestor may award the task to you.
 
-</td></tr><tr><td id="d102764e135">
+</td></tr><tr><td id="d102898e135">
 
 **Accept**
 
@@ -48,7 +48,7 @@ Enables you to respond with time estimates, cost estimates, or other notes and c
 
 Accepts the request. The requestor may award the task to you.
 
-</td></tr><tr><td id="d102764e144">
+</td></tr><tr><td id="d102898e144">
 
 **Decline**
 

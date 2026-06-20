@@ -34,15 +34,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d88396e162">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d88530e162">
 
 Type
 
-</th><th align="left" id="d88396e165">
+</th><th align="left" id="d88530e165">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d88396e171">
+</th></tr></thead><tbody><tr><td id="d88530e171">
 
 **Team Doc**
 
@@ -52,7 +52,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d88396e189">
+</td></tr><tr><td id="d88530e189">
 
 **Planning item Doc**
 

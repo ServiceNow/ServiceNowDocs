@@ -36,15 +36,15 @@ To set a personal target, you need the sn\_vlm.vendor\_manager role.
 
 5.  Set the KPI target.
 
-<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d156456e104">
+<table id="choicetable_m2z_fzg_qrb"><thead><tr><th align="left" id="d156440e104">
 
 To
 
-</th><th align="left" id="d156456e107">
+</th><th align="left" id="d156440e107">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d156456e113">
+</th></tr></thead><tbody><tr><td id="d156440e113">
 
 **To create a target**
 
@@ -63,7 +63,7 @@ Do this
 6.  Click **Save**.
 
 
-</td></tr><tr><td id="d156456e172">
+</td></tr><tr><td id="d156440e172">
 
 **To update an existing target**
 

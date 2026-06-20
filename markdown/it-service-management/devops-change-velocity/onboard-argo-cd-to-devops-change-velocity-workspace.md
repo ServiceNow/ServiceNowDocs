@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Argo CD.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d295873e80">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d296007e80">
 
 Option
 
-</th><th align="left" id="d295873e83">
+</th><th align="left" id="d296007e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d295873e89">
+</th></tr></thead><tbody><tr><td id="d296007e89">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d295873e113">
+</td></tr><tr><td id="d296007e113">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d295873e159">
+</td></tr><tr><td id="d296007e159">
 
 **Tools module**
 

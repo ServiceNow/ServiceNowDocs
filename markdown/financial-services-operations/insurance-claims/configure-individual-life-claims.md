@@ -34,15 +34,15 @@ Individual Life Claims includes a death benefit claim workflow that demonstrates
 
 2.  Review the installed components and modify them, or add new ones as applicable.
 
-<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d51303e128">
+<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d51437e128">
 
 Task
 
-</th><th align="left" id="d51303e131">
+</th><th align="left" id="d51437e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51303e137">
+</th></tr></thead><tbody><tr><td id="d51437e137">
 
 **Configure roles and user groups**
 
@@ -59,7 +59,7 @@ Determine the roles of the individuals that you need to work on the claim cases 
 -   Admin: Included in Individual Life Claims and inherits the service definition admin core role. This role performs the configurations that are required for the application. This role is shared across all your lines of business. You may not need to make any changes to this role.
  Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-groups-fso.md).
 
-</td></tr><tr><td id="d51303e216">
+</td></tr><tr><td id="d51437e216">
 
 **Set up script includes**
 
@@ -75,7 +75,7 @@ Modify the ClaimConstants script include to reuse the object names across functi
 
 For more information, see .
 
-</td></tr><tr><td id="d51303e248">
+</td></tr><tr><td id="d51437e248">
 
 **Configure tables and ACLs**
 
@@ -87,7 +87,7 @@ Configure the tables by reviewing the existing tables that were provided in Insu
 
 For more information, see [Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
 
-</td></tr><tr><td id="d51303e280">
+</td></tr><tr><td id="d51437e280">
 
 **Configure form views**
 
@@ -95,7 +95,7 @@ For more information, see [Data Models](https://raw.githubusercontent.com/Servic
 
 Set up any required views for any new tables according to your business requirements.You can use the included case views and task views in this application for reference.
 
-</td></tr><tr><td id="d51303e292">
+</td></tr><tr><td id="d51437e292">
 
 **Configure service definitions**
 
@@ -107,7 +107,7 @@ You can also define the services for task tables to create different flows for y
 
 For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-service-definitions.md).
 
-</td></tr><tr><td id="d51303e316">
+</td></tr><tr><td id="d51437e316">
 
 **Set up UI actions**
 
@@ -119,7 +119,7 @@ Override or hide the actions according to your business requirements.
 
 For more information, see  and [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/fso-core-banking-tables.md).
 
-</td></tr><tr><td id="d51303e350">
+</td></tr><tr><td id="d51437e350">
 
 **Configure workspaces**
 
@@ -131,7 +131,7 @@ For more information, see [Enable the claim workspace for Individual Life Claims
 
 For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) and .
 
-</td></tr><tr><td id="d51303e398">
+</td></tr><tr><td id="d51437e398">
 
 **Configure decision tables**
 
@@ -143,7 +143,7 @@ Set up the decision tables that are specific to your business requirements.Refer
 
 For more information, see .
 
-</td></tr><tr><td id="d51303e417">
+</td></tr><tr><td id="d51437e417">
 
 **Configure the approval engine**
 
@@ -153,7 +153,7 @@ Update the approval engine properties as required at **Insurance claim operation
 
 For more information, see [Insurance claims core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/insurance-claims-core-roles-and-properties.md).
 
-</td></tr><tr><td id="d51303e445">
+</td></tr><tr><td id="d51437e445">
 
 **Configure assignment rules**
 
@@ -161,7 +161,7 @@ For more information, see [Insurance claims core properties](https://raw.githubu
 
 Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d51303e462">
+</td></tr><tr><td id="d51437e462">
 
 **Edit or create flows**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Work plans, Planned Work Management, Work orders and tasks, Configure, Field Service Management]
 ---

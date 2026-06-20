@@ -30,15 +30,15 @@ Role required: LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d158245e103">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d158379e103">
 
 UI option
 
-</th><th align="left" id="d158245e106">
+</th><th align="left" id="d158379e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d158245e112">
+</th></tr></thead><tbody><tr><td id="d158379e112">
 
 **Actions**
 
@@ -46,7 +46,7 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\] Alt text: Actions button, and select **Create Playbook**.
 
-</td></tr><tr><td id="d158245e130">
+</td></tr><tr><td id="d158379e130">
 
 **Explore**
 

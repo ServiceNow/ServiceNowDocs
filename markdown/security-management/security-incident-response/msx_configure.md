@@ -36,15 +36,15 @@ Role required: sn\_si.admin
 
     \[Omitted image "ms-configure-tile.png"\] Alt text: Configure Exchange Online link highlighted.
 
-<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d136539e137">
+<table id="choicetable_erq_lmy_c2b"><thead><tr><th align="left" id="d136673e137">
 
 Option
 
-</th><th align="left" id="d136539e140">
+</th><th align="left" id="d136673e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136539e146">
+</th></tr></thead><tbody><tr><td id="d136673e146">
 
 **__Connection Settings tab__**
 
@@ -52,7 +52,7 @@ Description
 
  
 
-</td></tr><tr><td id="d136539e157">
+</td></tr><tr><td id="d136673e157">
 
 **Tenant**
 
@@ -60,7 +60,7 @@ Description
 
 The Microsoft Exchange Online tenant that you want to perform searches on. This text is the unique name that appears after @ for email addresses for your organization. For this example, `snowsecops.onmicrosoft.com` is the tenant \(domain\).
 
-</td></tr><tr><td id="d136539e172">
+</td></tr><tr><td id="d136673e172">
 
 **Certificate Thumbprint**
 
@@ -68,7 +68,7 @@ The Microsoft Exchange Online tenant that you want to perform searches on. This 
 
 A certificate thumbprint is a hash of a certificate, computed over all certificate data and its signature. Thumbprints are used as unique identifiers for certificates, in applications when making trust decisions, in configuration files, and displayed in interfaces.
 
-</td></tr><tr><td id="d136539e184">
+</td></tr><tr><td id="d136673e184">
 
 **OAuth Application ID**
 
@@ -76,7 +76,7 @@ A certificate thumbprint is a hash of a certificate, computed over all certifica
 
 The Application \(client\) ID that was generated for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d136539e213">
+</td></tr><tr><td id="d136673e213">
 
 **OAuth Client Secret**
 
@@ -84,7 +84,7 @@ The Application \(client\) ID that was generated for the account that you create
 
 Password \(client secret\) for the account that you created in the Microsoft Azure portal. For more information, see [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-azure-account.md).
 
-</td></tr><tr><td id="d136539e241">
+</td></tr><tr><td id="d136673e241">
 
 **__Additional Settings tab__**
 
@@ -92,7 +92,7 @@ Password \(client secret\) for the account that you created in the Microsoft Azu
 
  
 
-</td></tr><tr><td id="d136539e252">
+</td></tr><tr><td id="d136673e252">
 
 **Email Search Window \(days\)**
 
@@ -102,7 +102,7 @@ The email search history range in number of days. The integration searches for e
 
 Before executing the email search, there are no parameters that permit you to change this value for individual searches.
 
-</td></tr><tr><td id="d136539e269">
+</td></tr><tr><td id="d136673e269">
 
 **Maximum Search Duration**
 
@@ -110,7 +110,7 @@ Before executing the email search, there are no parameters that permit you to ch
 
 Use this option to set the search timeout threshold. If the timeout threshold is reached, the search ends and no results are displayed. You can specify a default value of 90 minutes and a maximum value of 240 minutes. By setting this threshold, you can avoid endless search loops that could cause performance issues on the Microsoft Exchange Online tenant and the ServiceNow instance.
 
-</td></tr><tr><td id="d136539e284">
+</td></tr><tr><td id="d136673e284">
 
 **Tagging**
 
@@ -124,7 +124,7 @@ Security tag. Default is selected.
 
  For more information, see [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/ms-edit-tags.md).
 
-</td></tr><tr><td id="d136539e319">
+</td></tr><tr><td id="d136673e319">
 
 **Recover Deleted Emails**
 
@@ -138,7 +138,7 @@ If you want users to recover the emails you delete, select this check box.
 
 If this check box is selected, depending on how the user's account is configured in Microsoft Exchange Online, the emails you delete using the workflow of this integration are placed in the Deleted Items folder in the mailbox of the user. If an account is configured so that the user can view the Deleted Items folder in their mailbox, the user can recover the emails you delete from their Microsoft Exchange Online account. For more information, see [Recover deleted items or email in Outlook Web App](https://support.office.com/en-us/article/recover-deleted-items-or-email-in-outlook-web-app-c3d8fc15-eeef-4f1c-81df-e27964b7edd4?ui=en-US&rs=en-US&ad=US).
 
-</td></tr><tr><td id="d136539e348">
+</td></tr><tr><td id="d136673e348">
 
 **Search Completion Notification**
 
@@ -146,7 +146,7 @@ If this check box is selected, depending on how the user's account is configured
 
 Select this option to enable notifications when the search is completed. If the **Enable** check box is selected, you’ll receive notifications if any matching emails are found. If the check box is cleared, search completion notifications aren’t sent.
 
-</td></tr><tr><td id="d136539e363">
+</td></tr><tr><td id="d136673e363">
 
 **Approvals**
 
@@ -162,7 +162,7 @@ Request approval to delete emails. Default is cleared.
 
  After a request is submitted to an approval group, only one approval is required from the group to complete the request. Any member of the approval group has approval authority. Having a group with more than one person with approval permission ensures that these requests are processed in a timely way.
 
-</td></tr><tr><td id="d136539e390">
+</td></tr><tr><td id="d136673e390">
 
 **Failure Notifications**
 
@@ -170,7 +170,7 @@ Request approval to delete emails. Default is cleared.
 
 Select the check box to enable failure notifications when the search or delete action fails due to invalid OAuth credentials. If Enabled, failure notifications are sent through email to each member of the failure notifications group when OAuth credentials are invalid. If the check box is cleared, no failure notifications are sent.
 
-</td></tr><tr><td id="d136539e402">
+</td></tr><tr><td id="d136673e402">
 
 **Email Result Threshold**
 

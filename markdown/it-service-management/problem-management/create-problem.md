@@ -24,7 +24,7 @@ Role required: itil
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d140508e54">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d140642e54">
 
 **From the Problem module**
 
@@ -32,7 +32,7 @@ Role required: itil
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d140508e72">
+</td></tr><tr><td id="d140642e72">
 
 **From an incident**
 

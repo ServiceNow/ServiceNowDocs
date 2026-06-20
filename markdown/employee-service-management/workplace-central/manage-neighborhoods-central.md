@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the neighborhoods based on your requirement.
 
-<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d155690e101">
+<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d155824e101">
 
 Action
 
-</th><th align="left" id="d155690e104">
+</th><th align="left" id="d155824e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155690e110">
+</th></tr></thead><tbody><tr><td id="d155824e110">
 
 **Filter neighborhoods**
 
@@ -52,7 +52,7 @@ Steps
 
 You can filter, sort, and group the neighborhoods in the list using filters. For more information about filters, see .
 
-</td></tr><tr><td id="d155690e122">
+</td></tr><tr><td id="d155824e122">
 
 **Create a neighborhood**
 
@@ -66,7 +66,7 @@ For a description of the field values, see the Neighborhood Form table in [Creat
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d155690e158">
+</td></tr><tr><td id="d155824e158">
 
 **Edit neighborhood details**
 

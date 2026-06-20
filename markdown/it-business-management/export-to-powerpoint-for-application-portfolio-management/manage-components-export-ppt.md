@@ -26,7 +26,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 2.  Select a parent table record, for example, Project report `pm_project`.
 
-<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d119090e82">
+<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d119224e82">
 
 **To manage Related Tables**
 
@@ -47,7 +47,7 @@ On the Related tables form, fill the fields. For a description of the field valu
 4.  Select **Submit**.
 The selected table and its relation to the parent table is displayed in the Related tables section.
 
-</td></tr><tr><td id="d119090e161">
+</td></tr><tr><td id="d119224e161">
 
 **To manage Scripted Elements**
 

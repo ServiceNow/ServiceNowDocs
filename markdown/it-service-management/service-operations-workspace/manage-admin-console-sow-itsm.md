@@ -36,15 +36,15 @@ The Admin Center consists of the following tabs:
 
 3.  Select any of the following options.
 
-<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d54188e138">
+<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d54322e138">
 
 Option
 
-</th><th align="left" id="d54188e141">
+</th><th align="left" id="d54322e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54188e147">
+</th></tr></thead><tbody><tr><td id="d54322e147">
 
 **Migrate configurations and customizations from ITSM Agent Workspace to SOW for ITSM**
 
@@ -52,7 +52,7 @@ Description
 
 On the **Overview** tab, from the **Initial Setup** section, select the **Migrate from ITSM Agent Workspace to SOW** option. For information about this migration utility, see [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md).
 
-</td></tr><tr><td id="d54188e189">
+</td></tr><tr><td id="d54322e189">
 
 **Configure the landing page**
 
@@ -73,7 +73,7 @@ On the **Overview** tab, from the **Initial Setup** section, select the **Migrat
         -   For tier 1 agents, visibility of the Getting started section that provides an overview of key features in Service Operations Workspace.
 For information about landing page customizations, see [Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-sow-landing-page.md).
 
-</td></tr><tr><td id="d54188e304">
+</td></tr><tr><td id="d54322e304">
 
 **Configure the availability and order of contextual side panel tabs for record pages**
 
@@ -87,7 +87,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
 **Note:** Ensure that the user's scope is set to that of the app route.
 
-</td></tr><tr><td id="d54188e356">
+</td></tr><tr><td id="d54322e356">
 
 **Configure the incident record page**
 
@@ -116,7 +116,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
  For information about incident record page customizations, see [Customize the incident record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-</td></tr><tr><td id="d54188e520">
+</td></tr><tr><td id="d54322e520">
 
 **Configure the Major Incident Management features**
 
@@ -133,7 +133,7 @@ For information about landing page customizations, see [Customizing Service Oper
     -   Timeline configurations for post incident report.
 For more information on the configurations of features in Major Incident Management in Admin Center, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 
-</td></tr><tr><td id="d54188e588">
+</td></tr><tr><td id="d54322e588">
 
 **Configure the Problem Management features**
 
@@ -145,7 +145,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Problem task record: configure the problem task record UI elements and the visible data content. For more information, see 
 
 
-</td></tr><tr><td id="d54188e636">
+</td></tr><tr><td id="d54322e636">
 
 **Configure the Change Management features**
 
@@ -175,7 +175,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Change task record: Configure the change task record UI elements and the visible data content. For more information, see .
 
 
-</td></tr><tr><td id="d54188e824">
+</td></tr><tr><td id="d54322e824">
 
 **Configure the On-Call Scheduling features**
 
@@ -195,7 +195,7 @@ For more information on the configurations of features in Major Incident Managem
 
 **Note:** You can restart a skipped configuration.
 
-</td></tr><tr><td id="d54188e957">
+</td></tr><tr><td id="d54322e957">
 
 **Configure the Service Reliability Management sections**
 
@@ -211,7 +211,7 @@ For more information on the configurations of features in Major Incident Managem
 
 For information about Service Reliability Management configurations, see .
 
-</td></tr><tr><td id="d54188e1025">
+</td></tr><tr><td id="d54322e1025">
 
 **Configure the Notify features**
 

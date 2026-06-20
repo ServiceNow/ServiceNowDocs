@@ -1,0 +1,65 @@
+---
+title: Set up the Craft spoke
+description: Integrate the ServiceNow instance and Craft spoke by using the basic authentication to authenticate ServiceNow requests.Add and configure a Craft spoke connection to authenticate ServiceNow requests.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/integration-hub/setup-craft-spoke.html
+release: zurich
+product: Integration Hub
+classification: integration-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Craft spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+---
+
+# Set up the Craft spoke
+
+Integrate the ServiceNow instance and Craft spoke by using the basic authentication to authenticate ServiceNow requests.
+
+## Before you begin
+
+-   Request an Integration Hub subscription.
+-   Activate the Craft spoke.
+-   Role required: admin.
+
+## Configure a connection for Craft spoke
+
+Add and configure a Craft spoke connection to authenticate ServiceNow requests.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio.**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **sn\_craft\_spoke** and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Azure DevOps Boards spoke, click **View Details**.\[Omitted image "craft-spoke-conn-template.png"\] Alt text: Craft spoke connection template details
+    -   To manage more than one Azure DevOps Boards spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "craft-spoke-conn-temp-config.png"\] Alt text: Craft spoke connection template configuration for the first time
+
+5.  On the **Configure Connection** form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|Name to uniquely identify the connection record. For example, `Craft connection`.|
+    |Connection URL|URL of the Craft instance. For example, enter the URL in this format: `https:://api.craft.co/`|
+    |API Key|API key from your Craft account.|
+
+    \[Omitted image "craft-spoke-conn-temp-form.png"\] Alt text: Craft spoke connection template configuration form
+
+6.  Click **Configure Connection**.
+
+
+### Result
+
+The spoke connection is configured and ready to be used.
+

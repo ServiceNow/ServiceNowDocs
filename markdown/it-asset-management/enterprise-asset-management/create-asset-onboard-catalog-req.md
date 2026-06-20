@@ -36,15 +36,15 @@ A minimum of one asset is required to submit a catalog request. Each catalog req
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d155452e92">
+<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d155586e92">
 
 Field
 
-</th><th align="left" id="d155452e95">
+</th><th align="left" id="d155586e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155452e101">
+</th></tr></thead><tbody><tr><td id="d155586e101">
 
 **Due by**
 
@@ -52,7 +52,7 @@ Description
 
 Date by when the asset onboarding must be complete.This field is optional.
 
-</td></tr><tr><td id="d155452e112">
+</td></tr><tr><td id="d155586e112">
 
 **Requested for**
 
@@ -60,7 +60,7 @@ Date by when the asset onboarding must be complete.This field is optional.
 
 Person for whom the asset is requested.This field is optional.
 
-</td></tr><tr><td id="d155452e123">
+</td></tr><tr><td id="d155586e123">
 
 **Stockroom**
 
@@ -68,7 +68,7 @@ Person for whom the asset is requested.This field is optional.
 
 Select a stockroom for the assets.
 
-</td></tr><tr><td id="d155452e132">
+</td></tr><tr><td id="d155586e132">
 
 **Is new model?**
 
@@ -80,7 +80,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 -   Short description
 **Note:** The above information is collected for creating a model record. The model record gets created in the Enterprise Asset Workspace.
 
-</td></tr><tr><td id="d155452e161">
+</td></tr><tr><td id="d155586e161">
 
 **Model**
 
@@ -88,7 +88,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 
 Select an existing model record for the assets.
 
-</td></tr><tr><td id="d155452e170">
+</td></tr><tr><td id="d155586e170">
 
 **Add**
 

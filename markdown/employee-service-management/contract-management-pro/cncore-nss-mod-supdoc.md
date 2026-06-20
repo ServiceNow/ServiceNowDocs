@@ -28,15 +28,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d626626e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d626760e67">
 
 Action
 
-</th><th align="left" id="d626626e70">
+</th><th align="left" id="d626760e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d626626e76">
+</th></tr></thead><tbody><tr><td id="d626760e76">
 
 **Add supporting documents**
 
@@ -44,7 +44,7 @@ Steps
 
 [Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d626626e90">
+</td></tr><tr><td id="d626760e90">
 
 **Reclassify supporting documents**
 
@@ -52,7 +52,7 @@ Steps
 
 [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d626626e104">
+</td></tr><tr><td id="d626760e104">
 
 **Remove the supporting document**
 

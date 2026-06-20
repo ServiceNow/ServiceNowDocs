@@ -44,15 +44,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d62131e143">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d62265e143">
 
 Assign work choices
 
-</th><th align="left" id="d62131e146">
+</th><th align="left" id="d62265e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62131e152">
+</th></tr></thead><tbody><tr><td id="d62265e152">
 
 **Manual Assign**
 
@@ -64,7 +64,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d62131e183">
+</td></tr><tr><td id="d62265e183">
 
 **Auto Assign**
 

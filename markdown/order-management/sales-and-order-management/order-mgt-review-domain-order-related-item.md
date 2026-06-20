@@ -34,15 +34,15 @@ Review if compatibility rules or horizontal relationships are configured for dom
 
     For change, the new column **Existing related inventory** displays **True** for the domain order related items that are created using existing valid product inventory relationships and **False** for the domain order related items that are newly created.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d98090e88">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d98224e88">
 
 Task
 
-</th><th align="left" id="d98090e91">
+</th><th align="left" id="d98224e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d98090e97">
+</th></tr></thead><tbody><tr><td id="d98224e97">
 
 **Review an existing domain order related item**
 
@@ -54,7 +54,7 @@ Action
 -   To filter the existing domain order related items, select the filter icon \[Omitted image "form-filter.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d98090e142">
+</td></tr><tr><td id="d98224e142">
 
 **Create a new domain order related item**
 

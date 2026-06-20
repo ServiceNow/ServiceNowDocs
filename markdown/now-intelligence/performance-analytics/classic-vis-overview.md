@@ -36,7 +36,7 @@ Visualizations in the Core UI tools include dashboards, reports, and analytics h
 
 </td><td>
 
-[Interactive filters\[Omitted image "bus-filter.svg"\] Alt text:Filter all the reports on a dashboard together, dynamically.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md)
+[Interactive filters\[Omitted image "bus-filter.svg"\] Alt text:Filter all the reports on a dashboard together, dynamically.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md)
 
 </td></tr><tr><td>
 

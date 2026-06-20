@@ -44,15 +44,15 @@ This feature is supported for all attachment locations including: activity strea
 
 3.  Select the attachment location for where you want to control the origin of the attachment source.
 
-<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d35809e122">
+<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d35943e122">
 
 Attachment location
 
-</th><th align="left" id="d35809e125">
+</th><th align="left" id="d35943e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35809e131">
+</th></tr></thead><tbody><tr><td id="d35943e131">
 
 **Function**
 
@@ -70,7 +70,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d35809e209">
+</td></tr><tr><td id="d35943e209">
 
 **Activity stream**
 
@@ -85,7 +85,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d35809e261">
+</td></tr><tr><td id="d35943e261">
 
 **Input form screen**
 

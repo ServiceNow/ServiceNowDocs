@@ -36,15 +36,15 @@ When [an existing matter template is updated and published](https://raw.githubus
 
 4.  In the Matter Template related list, associate an existing matter template or create and associate a new matter template.
 
-<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d277805e111">
+<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d277939e111">
 
 Option
 
-</th><th align="left" id="d277805e114">
+</th><th align="left" id="d277939e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d277805e120">
+</th></tr></thead><tbody><tr><td id="d277939e120">
 
 **Associate an existing matter template**
 
@@ -55,7 +55,7 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d277805e153">
+</td></tr><tr><td id="d277939e153">
 
 **Create a template and associate it with the intake form**
 

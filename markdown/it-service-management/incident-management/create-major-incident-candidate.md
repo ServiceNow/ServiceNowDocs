@@ -28,15 +28,15 @@ A major incident manager can accept or reject a major incident candidate.
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d318888e56">
+<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d319022e56">
 
 Option
 
-</th><th align="left" id="d318888e59">
+</th><th align="left" id="d319022e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d318888e65">
+</th></tr></thead><tbody><tr><td id="d319022e65">
 
 **Create major incident trigger rules**
 
@@ -44,7 +44,7 @@ Description
 
 An incident can be marked as a major incident candidate based on the major incident trigger rules. A major incident manager or an incident manager can [Create trigger rules for major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/major-incident-trigger-rules.md) to identify major incident candidates automatically.**Note:** The base system major incident trigger rules are disabled by default. A major incident manager or an incident manager needs to activate the trigger rules that define conditions under which an incident is automatically considered as a major incident candidate.
 
-</td></tr><tr><td id="d318888e85">
+</td></tr><tr><td id="d319022e85">
 
 **Propose an incident as a major incident candidate manually**
 
@@ -52,7 +52,7 @@ An incident can be marked as a major incident candidate based on the major incid
 
 Manually propose an existing incident to be a major incident candidate by clicking **Propose Major Incident** from the context menu. You are prompted to enter the reason for proposing the incident as a candidate, and specifying the business impact of the incident. **Note:** If an incident is in the resolved, closed, or canceled state, the **Propose Major Incident** option does not appear on the context menu.
 
-</td></tr><tr><td id="d318888e106">
+</td></tr><tr><td id="d319022e106">
 
 **Create a candidate from application navigation**
 

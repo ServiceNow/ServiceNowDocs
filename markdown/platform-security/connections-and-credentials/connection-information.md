@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Connections and Credentials, Access Management]
 ---

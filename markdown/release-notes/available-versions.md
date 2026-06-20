@@ -7,7 +7,7 @@ release: zurich
 product: Release Notes
 classification: release-notes
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-06-19"
 reading_time_minutes: 7
 breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---
@@ -188,6 +188,22 @@ Unavailable
 
 </td></tr><tr><td>
 
+[Zurich Patch 7b Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101108)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/19
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
 [Zurich Patch 7b Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-7b-hf-1.md)
 
 </td><td>
@@ -200,7 +216,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 

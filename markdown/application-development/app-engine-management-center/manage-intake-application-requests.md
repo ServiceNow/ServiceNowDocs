@@ -42,15 +42,15 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
 
 4.  Use the **Permission type** list in the Administration section to select one of the following options for provisioning groups to this application.
 
-<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d59826e219">
+<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d59960e219">
 
 Permission type
 
-</th><th align="left" id="d59826e222">
+</th><th align="left" id="d59960e222">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59826e228">
+</th></tr></thead><tbody><tr><td id="d59960e228">
 
 **Select group\(s\)**
 
@@ -62,7 +62,7 @@ Option to give one or more of the following groups permission to develop this ap
 -   Creator Studio Users
 For more information about how to control which groups show up in this list, see [Manage user groups for Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-management-center/manage-app-intake-user-groups.md).
 
-</td></tr><tr><td id="d59826e277">
+</td></tr><tr><td id="d59960e277">
 
 **I will manually provision user**
 
@@ -70,7 +70,7 @@ For more information about how to control which groups show up in this list, see
 
 Option to add groups to the application manually.
 
-</td></tr><tr><td id="d59826e286">
+</td></tr><tr><td id="d59960e286">
 
 **Do not give requestor permissions**
 

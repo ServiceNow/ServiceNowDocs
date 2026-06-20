@@ -28,15 +28,15 @@ Role required: sn\_vul.manage\_exposure\_assessment and admin
 
 2.  Perform the following configurations.
 
-<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d55548e111">
+<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d55682e111">
 
 Property
 
-</th><th align="left" id="d55548e114">
+</th><th align="left" id="d55682e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55548e120">
+</th></tr></thead><tbody><tr><td id="d55682e120">
 
 **`sn_vul_analyst.auto_create_vits`: This property determines if new vulnerable item records will be created automatically for fully matched hardware vulnerability assessments. When set to true, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
 
@@ -50,7 +50,7 @@ Select **Yes**.
 
  Deselect if you want to create vulnerable items \(VITs\) manually.
 
-</td></tr><tr><td id="d55548e152">
+</td></tr><tr><td id="d55682e152">
 
 **`sn_vul_analyst.assess_unmapped_disc_models`: Enabling this property includes discovery models without CPE mappings in the assessment.
 
@@ -62,7 +62,7 @@ The default value is **No**.
 
  Select **Yes** to perform vulnerability assessments for discovery models of OT devices that aren’t CPE-mapped.
 
-</td></tr><tr><td id="d55548e178">
+</td></tr><tr><td id="d55682e178">
 
 **`hva_confidence_score_threshold`: This property controls the minimum confidence score threshold required for creation of vulnerability assessments. Only matches with scores equal to or above this threshold will generate vulnerability assessments. The threshold value must be a decimal number between 0.0 and 1.0. Default value OOB is 0.75.
 

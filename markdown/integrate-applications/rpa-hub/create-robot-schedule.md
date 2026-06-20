@@ -1,0 +1,116 @@
+---
+title: Create a schedule on the robot calendar in RPA Hub
+description: Create a schedule on the Robot Calendar tab in RPA Hub to execute unattended robots. You can also identify any conflicts in the schedule by selecting the Preview button.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/rpa-hub/create-robot-schedule.html
+release: zurich
+product: RPA Hub
+classification: rpa-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Manage, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+---
+
+# Create a schedule on the robot calendar in RPA Hub
+
+Create a schedule on the **Robot Calendar** tab in RPA Hub to execute unattended robots. You can also identify any conflicts in the schedule by selecting the **Preview** button.
+
+## Before you begin
+
+Perform the following tasks before you create a schedule on the robot calendar:
+
+-   Ensure you are familiar with robot calendar concepts. For more information, see [Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/robot-calendar-rpa.md) and [View current robot events in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/view-robot-calendar.md).
+-   Create an unattended robot. On the robot form, ensure that you select the **Robot Type** field as **Unattended**. For more information, see [Creating an attended or an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/create-robot.md).
+-   Establish the robot connection to an unattended bot process. For more information, see [Assign a robot to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/assign-robots.md).
+-   Verify that the life-cycle stage of the associated bot process isn’t set to **Retired**.
+-   Ensure that the RPA developer \(sn\_rpa\_fdn.rpa\_developer\) or the RPA support user \(sn\_rpa\_fdn.rpa\_support\_user\) are in the Managed by Group list of the associated bot process.
+
+Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
+
+## About this task
+
+To create a schedule within an unattended bot process, see [Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/create-schedule-botprocess.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
+
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
+
+3.  View a robot calendar either from a robot or from a bot process.
+
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d139794e182">
+
+Option
+
+</th><th align="left" id="d139794e185">
+
+Action
+
+</th></tr></thead><tbody><tr><td id="d139794e191">
+
+**View a robot calendar from a robot**
+
+</td><td>
+
+1.  On the **Lists** tab, under **Administration**, select **Robots**.
+2.  Open a robot to view the robot calendar.
+3.  In the form header, select **Robot Calendar**.
+
+
+</td></tr><tr><td id="d139794e224">
+
+**View a robot calendar from a bot process**
+
+</td><td>
+
+1.  On the **Lists** tab, under **Build**, select **Bot Process**.
+2.  Open a bot process to view the robot calendar.
+3.  In the form header, select **Show Robot Calendar**.
+4.  In the **Select the robot to view the calendar** dialog box, select a robot from the Robot list.
+5.  Select **Continue**.
+
+
+</td></tr></tbody>
+</table>4.  To create a new schedule, perform any of the following tasks:
+
+    -   On the **Robot Calendar** tab, select **New Schedule**.
+    -   Right-click an empty slot of the calendar. Then, select **New Schedule**.
+    -   Double-click an empty slot of the calendar.
+    The **Create a new schedule** contextual side panel opens.
+
+5.  To view more bot processes, select the filter icon \(\[Omitted image "filter-rc-rpa.png"\] Alt text: Filter icon.\) and add the appropriate **Process Name** filter and **Life Cycle Stage Status** filter.
+
+6.  In the **Create a new schedule** contextual side panel, select a bot process that you want to create a schedule for.
+
+7.  Select one of the following options, depending on what the life cycle stage status is of your bot process:
+
+    -   If the life cycle stage status of the bot process is either Build or In Maintenance, select **Continue**.
+    -   If the life cycle stage status of the bot process is Published, to change the status to In Maintenance, in the Confirmation dialog box, select **Continue**.
+8.  On the schedule form, update the fields as appropriate.
+
+    For more information, see [Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/schedule-rpa-form.md).
+
+9.  To identify any conflicts in the schedule or preview the schedule, select **Preview**.
+
+    To edit or delete a schedule, see [Edit a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/edit-robot-schedule.md) and [Delete a robot schedule in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/delete-robot-schedule.md).
+
+10. To view more details about an event, perform any of the following tasks:
+
+    -   Select the view event details icon \(\[Omitted image "icon-view-event-rpa.png"\] Alt text: View event details icon.\) on the event pop-up window.
+    -   Right-click an event and select **View event details**.
+    An event card with details of the schedule appears in the contextual side panel.
+
+11. To view the bot process details in a new tab, select the view bot process details icon \(\[Omitted image "icon-view-bp-rpa.png"\] Alt text: View bot process details icon.\) on the event pop-up window.
+
+12. Perform any of the following tasks to save the schedule.
+
+    |Option|Action|
+    |------|------|
+    |**Only save the schedule**|Select **Save**.|
+    |**Save the schedule and publish the bot process**|Select the down arrow in the **Save** button and then select **Save and Publish**.|
+
+
+**Parent Topic:**[Managing RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/rpa-hub/managing-rpa-hub.md)
+

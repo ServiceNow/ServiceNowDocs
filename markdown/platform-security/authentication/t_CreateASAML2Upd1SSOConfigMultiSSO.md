@@ -34,7 +34,7 @@ Role required: admin
     -   To create a new configuration, click **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d48773e116">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d48907e116">
 
 **Using a metadata descriptor URL**
 
@@ -42,7 +42,7 @@ Role required: admin
 
 Click the URL check box and enter the URL of the IdP that you are using.
 
-</td></tr><tr><td id="d48773e125">
+</td></tr><tr><td id="d48907e125">
 
 **Using metadata descriptor XML file**
 
@@ -50,7 +50,7 @@ Click the URL check box and enter the URL of the IdP that you are using.
 
 Click the XML check box and paste in the XML data generated from the IdP you are using.
 
-</td></tr><tr><td id="d48773e134">
+</td></tr><tr><td id="d48907e134">
 
 **Entering metadata manually**
 

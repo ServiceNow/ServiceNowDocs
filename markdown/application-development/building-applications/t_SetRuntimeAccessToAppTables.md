@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d101712e80">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d101846e80">
 
 **__Developed__**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d101712e90">
+</td></tr><tr><td id="d101846e90">
 
 **__Downloaded__**
 

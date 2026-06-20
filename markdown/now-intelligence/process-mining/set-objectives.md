@@ -26,15 +26,15 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  Provide the following details.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d88400e65">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d88538e65">
 
 Field
 
-</th><th align="left" id="d88400e68">
+</th><th align="left" id="d88538e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88400e74">
+</th></tr></thead><tbody><tr><td id="d88538e74">
 
 **Select type**
 
@@ -42,7 +42,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d88400e83">
+</td></tr><tr><td id="d88538e83">
 
 **Template type**
 
@@ -56,7 +56,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d88400e122">
+</td></tr><tr><td id="d88538e122">
 
 **Name**
 
@@ -64,7 +64,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d88400e131">
+</td></tr><tr><td id="d88538e131">
 
 **Short description**
 
@@ -72,7 +72,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d88400e141">
+</td></tr><tr><td id="d88538e141">
 
 **Source Type**
 
@@ -84,7 +84,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Archived data: Select an archived table.
 
 
-</td></tr><tr><td id="d88400e164">
+</td></tr><tr><td id="d88538e164">
 
 **Table**
 
@@ -92,7 +92,7 @@ The source for the project or template you’re creating.-   Table: Any database
 
 Select a table that you want to base your project on. This list varies depending on the type of source that you’ve selected.
 
-</td></tr><tr><td id="d88400e176">
+</td></tr><tr><td id="d88538e176">
 
 **Mark as restricted**
 
@@ -102,7 +102,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d88400e189">
+</td></tr><tr><td id="d88538e189">
 
 **Auto retire**
 
@@ -118,7 +118,7 @@ This field is available only if you choose the type as **Project**.
 
  The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d88400e229">
+</td></tr><tr><td id="d88538e229">
 
 **Add a KPI dashboard**
 

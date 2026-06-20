@@ -28,15 +28,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d340256e93">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d340390e93">
 
 Action
 
-</th><th align="left" id="d340256e96">
+</th><th align="left" id="d340390e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340256e102">
+</th></tr></thead><tbody><tr><td id="d340390e102">
 
 **Modify the request details**
 
@@ -50,7 +50,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The gifts and entertainment disclosure request is updated with the new information.
 
-</td></tr><tr><td id="d340256e138">
+</td></tr><tr><td id="d340390e138">
 
 **Cancel the request**
 
@@ -68,15 +68,15 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d340256e188">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d340390e188">
 
 Option
 
-</th><th align="left" id="d340256e191">
+</th><th align="left" id="d340390e191">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340256e197">
+</th></tr></thead><tbody><tr><td id="d340390e197">
 
 **If the Attachments tab is visible**
 
@@ -87,7 +87,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d340256e236">
+</td></tr><tr><td id="d340390e236">
 
 **If the Documents tab is visible**
 

@@ -30,15 +30,15 @@ Role required: sales\_agent
 
 3.  Use the following table to fill in the information.
 
-<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d74424e88">
+<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d74558e88">
 
 Fields
 
-</th><th align="left" id="d74424e91">
+</th><th align="left" id="d74558e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74424e97">
+</th></tr></thead><tbody><tr><td id="d74558e97">
 
 **Short Description**
 
@@ -46,7 +46,7 @@ Description
 
 Fill in a short description for the opportunity.
 
-</td></tr><tr><td id="d74424e106">
+</td></tr><tr><td id="d74558e106">
 
 **Estimated Deal Size**
 
@@ -54,7 +54,7 @@ Fill in a short description for the opportunity.
 
 Amount of potential opportunity.
 
-</td></tr><tr><td id="d74424e115">
+</td></tr><tr><td id="d74558e115">
 
 **Account**
 
@@ -62,7 +62,7 @@ Amount of potential opportunity.
 
 Provide account information.
 
-</td></tr><tr><td id="d74424e124">
+</td></tr><tr><td id="d74558e124">
 
 **Consumer**
 
@@ -70,7 +70,7 @@ Provide account information.
 
 Select a consumer.
 
-</td></tr><tr><td id="d74424e134">
+</td></tr><tr><td id="d74558e134">
 
 **Deal type**
 
@@ -80,7 +80,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
 
 
-</td></tr><tr><td id="d74424e151">
+</td></tr><tr><td id="d74558e151">
 
 **Stage**
 
@@ -88,7 +88,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 
 Enter a stage of the opportunity. For example: Qualify, Develop, Propose, Negotiate, Closed- Won, or Closed- Lost.
 
-</td></tr><tr><td id="d74424e160">
+</td></tr><tr><td id="d74558e160">
 
 **Route to market**
 
@@ -100,7 +100,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 -   Distributor
 
 
-</td></tr><tr><td id="d74424e183">
+</td></tr><tr><td id="d74558e183">
 
 **Sales Cycle Type**
 
@@ -108,7 +108,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 
 Enter the type of sales cycle during the creation of the opportunity. For example: NEWCUST, RENEW, or UPSELL.
 
-</td></tr><tr><td id="d74424e192">
+</td></tr><tr><td id="d74558e192">
 
 **Contact**
 
@@ -116,7 +116,7 @@ Enter the type of sales cycle during the creation of the opportunity. For exampl
 
 Fill in the primary contact information associated with the opportunity.
 
-</td></tr><tr><td id="d74424e201">
+</td></tr><tr><td id="d74558e201">
 
 **Channel partner**
 

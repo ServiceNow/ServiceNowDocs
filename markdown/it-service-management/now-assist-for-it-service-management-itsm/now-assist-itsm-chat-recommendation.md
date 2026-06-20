@@ -48,15 +48,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with Now Assist option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d267791e170">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d267925e170">
 
 Chat message window
 
-</th><th align="left" id="d267791e173">
+</th><th align="left" id="d267925e173">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d267791e181">
+</th></tr></thead><tbody><tr><td id="d267925e181">
 
 **Typed response**
 
@@ -68,7 +68,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d267791e201">
+</td></tr><tr><td id="d267925e201">
 
 **Left blank**
 

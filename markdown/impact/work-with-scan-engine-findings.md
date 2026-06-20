@@ -138,15 +138,15 @@ Monitor and optionally fix during future development cycles.
 
     The following fields appear on the **Resolution** tab.
 
-<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d50382e337">
+<table id="choicetable_rwc_3yq_hhc"><thead><tr><th align="left" id="d50516e337">
 
 Field
 
-</th><th align="left" id="d50382e340">
+</th><th align="left" id="d50516e340">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50382e346">
+</th></tr></thead><tbody><tr><td id="d50516e346">
 
 **Estimated Time to Resolve Issue**
 
@@ -154,7 +154,7 @@ Description
 
 Time it will take to resolve the finding
 
-</td></tr><tr><td id="d50382e355">
+</td></tr><tr><td id="d50516e355">
 
 **Impact to Instance**
 
@@ -164,7 +164,7 @@ Time it will take to resolve the finding
 -   Ranges from 1 \(minimal\) to 10 \(critical\), as defined in the scan definition. This value helps prioritize findings by business impact. Higher values indicate findings that should be addressed first.
 
 
-</td></tr><tr><td id="d50382e376">
+</td></tr><tr><td id="d50516e376">
 
 **Steps to Resolve**
 
@@ -172,7 +172,7 @@ Time it will take to resolve the finding
 
 Suggested method for resolving the finding
 
-</td></tr><tr><td id="d50382e385">
+</td></tr><tr><td id="d50516e385">
 
 **Supporting documentation**
 

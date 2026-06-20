@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d67978e583">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d68112e583">
 
 Interface
 
-</th><th align="left" id="d67978e586">
+</th><th align="left" id="d68112e586">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d67978e592">
+</th></tr></thead><tbody><tr><td id="d68112e592">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d67978e634">
+</td></tr><tr><td id="d68112e634">
 
 **Software Asset Workspace**
 

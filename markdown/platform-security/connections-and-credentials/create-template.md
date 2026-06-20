@@ -28,15 +28,15 @@ Role required: admin
 
 3.  Select the type of configuration template that you want to create.
 
-<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d54681e77">
+<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d54815e77">
 
 Configuration type
 
-</th><th align="left" id="d54681e80">
+</th><th align="left" id="d54815e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54681e86">
+</th></tr></thead><tbody><tr><td id="d54815e86">
 
 **HTTP Connection with OAuth Authorization Code grant type**
 
@@ -44,7 +44,7 @@ Description
 
 Creates a template to register the third-party system as an OAuth provider using an authorization code.
 
-</td></tr><tr><td id="d54681e95">
+</td></tr><tr><td id="d54815e95">
 
 **HTTP Connection with OAuth JWT Bearer grant type**
 
@@ -60,7 +60,7 @@ Creates a template to register the third-party system as an OAuth provider using
 
 Creates a template to integrate with a third-party application via the OAuth 2.0 authentication that uses the client credentials grant type.
 
-</td></tr><tr><td id="d54681e116">
+</td></tr><tr><td id="d54815e116">
 
 **HTTP Connection with OAuth Client Credentials grant type \(External Storage\)**
 
@@ -68,7 +68,7 @@ Creates a template to integrate with a third-party application via the OAuth 2.0
 
 Creates a template that enables the sending of OAuth token request that comprises client credentials stored by an external storage to an OAuth server via the MID Server.
 
-</td></tr><tr><td id="d54681e129">
+</td></tr><tr><td id="d54815e129">
 
 **HTTP Connection with Basic Auth Credential**
 
@@ -76,7 +76,7 @@ Creates a template that enables the sending of OAuth token request that comprise
 
 Creates a template to integrate with the third-party system using basic authentication.
 
-</td></tr><tr><td id="d54681e138">
+</td></tr><tr><td id="d54815e138">
 
 **HTTP Connection with API Key Credential**
 
@@ -84,7 +84,7 @@ Creates a template to integrate with the third-party system using basic authenti
 
 Creates a template to integrate with the third-party system using an API key.
 
-</td></tr><tr><td id="d54681e147">
+</td></tr><tr><td id="d54815e147">
 
 **Other Configuration**
 

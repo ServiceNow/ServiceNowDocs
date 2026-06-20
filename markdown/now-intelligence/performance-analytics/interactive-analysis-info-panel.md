@@ -16,7 +16,7 @@ breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analyt
 
 The **Filter Info** panel summarizes what the current filter shows and enables you to edit the source filter condition, bookmark an interactive analysis, and share an interactive analysis with colleagues.
 
-Interactive analysis assumes that there are interactive filters on the tables you are working in. To create filters, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/r_AvailableHomepagePublisherTypes.md).
+Interactive analysis assumes that there are interactive filters on the tables you are working in. To create filters, see [Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md).
 
 Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Info icon\) to open the **Filter Info** panel.
 

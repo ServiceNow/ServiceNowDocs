@@ -28,7 +28,7 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d447976e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d448110e86">
 
 **Certificate Management Service**
 
@@ -36,7 +36,7 @@ Role required: admin or idr\_admin
 
 Checks the status and setup of your certificate management service.**Note:** IDR requires a certificate management service to be up and running.
 
-</td></tr><tr><td id="d447976e100">
+</td></tr><tr><td id="d448110e100">
 
 **EJBCA Service Status**
 
@@ -44,7 +44,7 @@ Checks the status and setup of your certificate management service.**Note:** IDR
 
 Checks the status and setup of the EJBCA service as part of the Key Management Framework \(KMF\) health.
 
-</td></tr><tr><td id="d447976e115">
+</td></tr><tr><td id="d448110e115">
 
 **Hermes Enabled**
 
@@ -52,7 +52,7 @@ Checks the status and setup of the EJBCA service as part of the Key Management F
 
 Checks whether the Hermes Messaging Service is available.
 
-</td></tr><tr><td id="d447976e127">
+</td></tr><tr><td id="d448110e127">
 
 **Hermes Cluster Configuration**
 

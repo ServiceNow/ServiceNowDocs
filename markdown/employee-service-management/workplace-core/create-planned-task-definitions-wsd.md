@@ -93,15 +93,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d308610e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d308744e257">
 
 Option
 
-</th><th align="left" id="d308610e260">
+</th><th align="left" id="d308744e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d308610e266">
+</th></tr></thead><tbody><tr><td id="d308744e266">
 
 **Create another planned task definition**
 
@@ -109,7 +109,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d308610e278">
+</td></tr><tr><td id="d308744e278">
 
 **Generate planned tasks immediately**
 

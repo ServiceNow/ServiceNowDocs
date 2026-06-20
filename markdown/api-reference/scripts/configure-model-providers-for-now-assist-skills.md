@@ -7,7 +7,7 @@ release: zurich
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Configure, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -46,15 +46,15 @@ Set the default AI model providers for Now Assist skills in your instance throug
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d198081e198">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d198215e198">
 
 Choice
 
-</th><th align="left" id="d198081e201">
+</th><th align="left" id="d198215e201">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198081e207">
+</th></tr></thead><tbody><tr><td id="d198215e207">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -65,7 +65,7 @@ Description
 3.  Select **Save and activate**.
  \[Omitted image "now-assist-code-llm-instance.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d198081e243">
+</td></tr><tr><td id="d198215e243">
 
 **Select a model provider for a specific skill group.**
 
@@ -79,7 +79,7 @@ Description
 
 \[Omitted image "now-assist-code-llm-customize-skill-group.png"\] Alt text: Select model provider for a skill group.
 
-</td></tr><tr><td id="d198081e285">
+</td></tr><tr><td id="d198215e285">
 
 **Select a model provider for a specific skill.**
 

@@ -38,7 +38,7 @@ Role required: admin
 
 4.  Navigate between a customer update record, the file properties view, and the configuration record view.
 
-<table id="choicetable_yhn_xlt_cr"><tbody><tr><td id="d210492e129">
+<table id="choicetable_yhn_xlt_cr"><tbody><tr><td id="d210626e129">
 
 **__Show Related Record__ related link**
 
@@ -46,7 +46,7 @@ Role required: admin
 
 Navigate to the configuration record
 
-</td></tr><tr><td id="d210492e140">
+</td></tr><tr><td id="d210626e140">
 
 **__Show Parent Record__ related link**
 
@@ -54,7 +54,7 @@ Navigate to the configuration record
 
 Navigate to the parent record of the current configuration record.
 
-</td></tr><tr><td id="d210492e151">
+</td></tr><tr><td id="d210626e151">
 
 **__Descendants__ related link**
 

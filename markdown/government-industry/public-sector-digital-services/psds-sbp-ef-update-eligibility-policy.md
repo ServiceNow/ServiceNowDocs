@@ -28,15 +28,15 @@ Role required: admin
 
 3.  Do one of the following, depending on what information you want to update.
 
-<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d33852e84">
+<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d33986e84">
 
 Select...
 
-</th><th align="left" id="d33852e87">
+</th><th align="left" id="d33986e87">
 
 To...
 
-</th></tr></thead><tbody><tr><td id="d33852e93">
+</th></tr></thead><tbody><tr><td id="d33986e93">
 
 **Select the Details tab.**
 
@@ -44,7 +44,7 @@ To...
 
 Edit details such as the policy name, category, date, and description.
 
-</td></tr><tr><td id="d33852e102">
+</td></tr><tr><td id="d33986e102">
 
 **Select the Policy Builder tab.**
 
@@ -52,7 +52,7 @@ Edit details such as the policy name, category, date, and description.
 
 Make changes to the policy logic, and switch between versions to take various actions at the version level. **Note:** Published versions of policies cannot be updated. To make changes to the logic of an existing policy, select **Create a copy** to create a new version of the existing policy that can be updated accordingly.
 
-</td></tr><tr><td id="d33852e116">
+</td></tr><tr><td id="d33986e116">
 
 **Select the Version Management tab.**
 
@@ -60,7 +60,7 @@ Make changes to the policy logic, and switch between versions to take various ac
 
 Manage different versions of a policy.
 
-</td></tr><tr><td id="d33852e125">
+</td></tr><tr><td id="d33986e125">
 
 **Select the Mappings tab.**
 
@@ -68,7 +68,7 @@ Manage different versions of a policy.
 
 Update or review the benefits to which the given policy is mapped.
 
-</td></tr><tr><td id="d33852e135">
+</td></tr><tr><td id="d33986e135">
 
 **Select the Executions tab.**
 

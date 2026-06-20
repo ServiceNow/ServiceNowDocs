@@ -61,7 +61,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 3.  Right-click the form header and select one of the following options.
 
-<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d55145e223">
+<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d55279e223">
 
 **Insert**
 
@@ -69,7 +69,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 Saves the item as a new record and returns to the previously viewed page.
 
-</td></tr><tr><td id="d55145e232">
+</td></tr><tr><td id="d55279e232">
 
 **Insert and Stay**
 

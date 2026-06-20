@@ -28,15 +28,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d62801e80">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d62959e80">
 
 Field
 
-</th><th align="left" id="d62801e83">
+</th><th align="left" id="d62959e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62801e89">
+</th></tr></thead><tbody><tr><td id="d62959e89">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Enter a descriptive name to identify the intrusion set.
 
-</td></tr><tr><td id="d62801e98">
+</td></tr><tr><td id="d62959e98">
 
 **First Seen**
 
@@ -52,7 +52,7 @@ Enter a descriptive name to identify the intrusion set.
 
 The time that this intrusion set was first seen performing malicious activities.
 
-</td></tr><tr><td id="d62801e107">
+</td></tr><tr><td id="d62959e107">
 
 **Last Seen**
 
@@ -60,7 +60,7 @@ The time that this intrusion set was first seen performing malicious activities.
 
 The time that this intrusion set was last seen performing malicious activities.
 
-</td></tr><tr><td id="d62801e116">
+</td></tr><tr><td id="d62959e116">
 
 **Primary Motivation**
 
@@ -68,7 +68,7 @@ The time that this intrusion set was last seen performing malicious activities.
 
 The primary reason, motivation, or purpose behind this intrusion set. The motivation is why the Intrusion Set wants to achieve the goal \(what they are trying to achieve\).For example, an intrusion set with a goal to disrupt the finance sector in a country might be motivated by ideological hatred of capitalism.
 
-</td></tr><tr><td id="d62801e129">
+</td></tr><tr><td id="d62959e129">
 
 **Resource Level**
 
@@ -76,7 +76,7 @@ The primary reason, motivation, or purpose behind this intrusion set. The motiva
 
 This property specifies the organizational level at which this intrusion set typically works, which in turn determines the resources available for use in an attack.
 
-</td></tr><tr><td id="d62801e138">
+</td></tr><tr><td id="d62959e138">
 
 **Source**
 
@@ -84,7 +84,7 @@ This property specifies the organizational level at which this intrusion set typ
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d62801e147">
+</td></tr><tr><td id="d62959e147">
 
 **Description**
 
@@ -92,7 +92,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the intrusion set, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d62801e156">
+</td></tr><tr><td id="d62959e156">
 
 **Aliases**
 
@@ -100,7 +100,7 @@ A description that provides more details and context about the intrusion set, po
 
 Alternative names to identify this intrusion set.
 
-</td></tr><tr><td id="d62801e165">
+</td></tr><tr><td id="d62959e165">
 
 **Goals**
 
@@ -108,7 +108,7 @@ Alternative names to identify this intrusion set.
 
 The high-level goals of this intrusion set, namely, what are they trying to do. For example, they may be motivated by personal gain, but their goal is to steal credit card numbers. To do this, they may execute specific campaigns that have detailed objectives like compromising point of sale systems at a large retailer.
 
-</td></tr><tr><td id="d62801e177">
+</td></tr><tr><td id="d62959e177">
 
 **Source ID**
 
@@ -116,7 +116,7 @@ The high-level goals of this intrusion set, namely, what are they trying to do. 
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d62801e187">
+</td></tr><tr><td id="d62959e187">
 
 **Created Time in Source**
 
@@ -124,7 +124,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d62801e196">
+</td></tr><tr><td id="d62959e196">
 
 **Modified Time in Source**
 

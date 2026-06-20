@@ -278,7 +278,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d98051e429">
+<table><tbody><tr><td id="d98185e429">
 
 **Roles**
 
@@ -288,7 +288,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
 
-</td></tr><tr><td id="d98051e457">
+</td></tr><tr><td id="d98185e457">
 
 **Group Members**
 
@@ -298,7 +298,7 @@ Assign one or more agents from the list of available agents to the user group.
 
  For more information on assigning group members, see .
 
-</td></tr><tr><td id="d98051e475">
+</td></tr><tr><td id="d98185e475">
 
 **Groups**
 
@@ -306,7 +306,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d98051e484">
+</td></tr><tr><td id="d98185e484">
 
 **Skills**
 
@@ -316,7 +316,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d98051e506">
+</td></tr><tr><td id="d98185e506">
 
 **Locations Covered**
 
@@ -326,7 +326,7 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d98051e529">
+</td></tr><tr><td id="d98185e529">
 
 **Covered by Dispatch Groups**
 
@@ -334,7 +334,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d98051e541">
+</td></tr><tr><td id="d98185e541">
 
 **Product Models**
 
@@ -366,7 +366,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d98051e664">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d98185e664">
 
 **Roles**
 
@@ -376,7 +376,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and .
 
-</td></tr><tr><td id="d98051e692">
+</td></tr><tr><td id="d98185e692">
 
 **Group Members**
 
@@ -386,7 +386,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
  For more information on assigning group members, see .
 
-</td></tr><tr><td id="d98051e710">
+</td></tr><tr><td id="d98185e710">
 
 **Groups**
 
@@ -394,7 +394,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d98051e719">
+</td></tr><tr><td id="d98185e719">
 
 **Locations Covered**
 
@@ -430,7 +430,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d98051e866">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d98185e866">
 
 **Roles**
 
@@ -440,7 +440,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md) and  .
 
-</td></tr><tr><td id="d98051e894">
+</td></tr><tr><td id="d98185e894">
 
 **Group Members**
 
@@ -450,7 +450,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
  For more information on assigning group members, see Add a user to a group.
 
-</td></tr><tr><td id="d98051e913">
+</td></tr><tr><td id="d98185e913">
 
 **Groups**
 
@@ -458,7 +458,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d98051e922">
+</td></tr><tr><td id="d98185e922">
 
 **Locations Covered**
 
@@ -468,7 +468,7 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
-</td></tr><tr><td id="d98051e941">
+</td></tr><tr><td id="d98185e941">
 
 **Assignment Groups Covered\|**
 

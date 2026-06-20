@@ -7,7 +7,7 @@ release: zurich
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Understanding PaCE, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---

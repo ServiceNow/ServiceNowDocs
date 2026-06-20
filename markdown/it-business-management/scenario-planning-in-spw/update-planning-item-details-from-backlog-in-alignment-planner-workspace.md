@@ -33,15 +33,15 @@ Update the details of a planning item using the Prioritization, Kanban, and Hier
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d160807e122">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d160941e122">
 
 Choice
 
-</th><th align="left" id="d160807e125">
+</th><th align="left" id="d160941e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160807e131">
+</th></tr></thead><tbody><tr><td id="d160941e131">
 
 **Update planning item details**
 
@@ -56,7 +56,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d160807e174">
+</td></tr><tr><td id="d160941e174">
 
 **Attach files to planning item**
 
@@ -64,7 +64,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d160807e189">
+</td></tr><tr><td id="d160941e189">
 
 **Delete planning item**
 

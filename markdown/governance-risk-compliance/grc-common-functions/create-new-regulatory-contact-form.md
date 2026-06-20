@@ -7,7 +7,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Add a regulatory contact to an agency, Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---

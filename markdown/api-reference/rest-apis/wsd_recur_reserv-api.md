@@ -1092,7 +1092,7 @@ Details about the state of the reservation for the location.Data type: Object
 
 result.reservation.location.state.display\_value
 
-</td><td id="d3205e4996">
+</td><td id="d3514e4996">
 
 Display value for the current state of the reservation, such as confirmed.Data type: String
 
@@ -1100,7 +1100,7 @@ Display value for the current state of the reservation, such as confirmed.Data t
 
 result.reservation.location.state.value
 
-</td><td id="d3205e5007">
+</td><td id="d3514e5007">
 
 Internal value for the current state of the reservation, such as 2.Data type: String
 
@@ -4002,7 +4002,7 @@ Format: UTC - yyyy-mm-ddThh:mm:ssZ, such as 2021-02-05T18:00:00Z
 
 result.successfulReservations.sys\_id
 
-</td><td id="d3205e6754">
+</td><td id="d3514e6754">
 
 Sys\_id of the reservation that was created.Data type: String
 

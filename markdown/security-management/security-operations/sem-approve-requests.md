@@ -142,15 +142,15 @@ The approval flow for risk reduction is same as the exception approvals \(deferr
 
 5.  Choose one of the following options to approve or reject the request.
 
-<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d61321e327">
+<table id="choicetable_p3t_h5x_wqb"><thead><tr><th align="left" id="d61455e327">
 
 Option
 
-</th><th align="left" id="d61321e330">
+</th><th align="left" id="d61455e330">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61321e336">
+</th></tr></thead><tbody><tr><td id="d61455e336">
 
 **Click the Details tab, enter text in the Comments field, and click Reject**
 
@@ -162,7 +162,7 @@ Description
 -   The Vulnerability State Change Approval record is no longer displayed on your Approvals list view in the workspace.
 
 
-</td></tr><tr><td id="d61321e360">
+</td></tr><tr><td id="d61455e360">
 
 **From either the __Request__ or __Details__ tabs, click Approve**
 

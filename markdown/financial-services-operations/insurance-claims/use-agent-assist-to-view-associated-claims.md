@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d109120e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d109254e85">
 
 Option
 
-</th><th align="left" id="d109120e88">
+</th><th align="left" id="d109254e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109120e94">
+</th></tr></thead><tbody><tr><td id="d109254e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d109120e118">
+</td></tr><tr><td id="d109254e118">
 
 **From the Commercial auto claim adjuster tasks list**
 

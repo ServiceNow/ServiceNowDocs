@@ -40,15 +40,15 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 7.  Cancel the event.
 
-<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d114733e179">
+<table id="choicetable_wgl_swd_byb"><thead><tr><th align="left" id="d114867e179">
 
 Action
 
-</th><th align="left" id="d114733e182">
+</th><th align="left" id="d114867e182">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114733e188">
+</th></tr></thead><tbody><tr><td id="d114867e188">
 
 **Cancel the schedule occurrence**
 
@@ -56,7 +56,7 @@ Steps
 
 On the calendar, right-click the schedule occurrence event that you want to cancel, and then select **Cancel schedule occurrence**.
 
-</td></tr><tr><td id="d114733e200">
+</td></tr><tr><td id="d114867e200">
 
 **Cancel work order for the schedule occurrence**
 
@@ -64,7 +64,7 @@ On the calendar, right-click the schedule occurrence event that you want to canc
 
 On the calendar, right-click the schedule occurrence event, and then select **Cancel work orders**.
 
-</td></tr><tr><td id="d114733e212">
+</td></tr><tr><td id="d114867e212">
 
 **Cancel work order**
 

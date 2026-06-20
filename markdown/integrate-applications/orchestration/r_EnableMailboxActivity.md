@@ -1,0 +1,85 @@
+---
+title: Enable Mailbox activity
+description: The Enable Mailbox activity creates a new mailbox for an existing Active Directory user.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/orchestration/r\_EnableMailboxActivity.html
+release: zurich
+product: Orchestration
+classification: orchestration
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Exchange activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
+---
+
+# Enable Mailbox activity
+
+The Enable Mailbox activity creates a new mailbox for an existing Active Directory user.
+
+This activity implements the Microsoft Exchange [Enable-Mailbox](https://technet.microsoft.com/en-us/library/aa998251%28v=exchg.160%29.aspx) command.
+
+To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Exchange** &gt; **Mailbox**.
+
+**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationDatabus.md).
+
+## Input variables
+
+<table id="table_kqx_pcv_qt"><thead><tr><th>
+
+Variable
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+hostname
+
+</td><td>
+
+The hostname of the Exchange server with which the activity interacts. Do not enter an IP address in this variable.
+
+</td></tr><tr><td>
+
+domain
+
+</td><td>
+
+The name of the Exchange server's assigned domain.
+
+</td></tr><tr><td>
+
+user
+
+</td><td>
+
+Active Directory user who's mailbox should be enabled. The activity passes this value to Exchange as the Identity Exchange variable.
+
+</td></tr><tr><td>
+
+parameters
+
+</td><td>
+
+Optional parameters to pass to the Exchange server written in JavaScript Object Notation \(JSON\). Exchange activities cannot pass parameters that reference an object, such as a PSCredential object. Plain text is automatically converted to SecureString objects for parameters that require that data type.Attempting to save an activity that specifies duplicate parameters, including parameters from activity variables, or incorrectly formatted JSON causes a warning message to appear.
+
+**Note:** When passing a switch parameter, such as ForceUpgrade, you must use the format **"parameter":"true"**.
+
+</td></tr></tbody>
+</table>## Output variables
+
+|Variable|Description|
+|--------|-----------|
+|result|Either **success** or **failure**.|
+|error|Error message if the operation fails.|
+
+## Conditions
+
+|Condition|Description|
+|---------|-----------|
+|Success|The activity succeeded in creating a new mailbox for the specified user.|
+|Failure|The activity failed to create a new mailbox for the specified user.|
+
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md)
+

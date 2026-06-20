@@ -38,7 +38,7 @@ Role required: admin
 
     Make sure that the result returned from the **getAssetCMDBSysClassNameWithOtEntityTypeSysId** extension point follows the format mentioned in the comments. Any change in the result string format results in import failure or irregularities. The format should be &lt;cmdb class name&gt;:::&lt;ot entity type sys id&gt;.
 
-<table id="choicetable_thp_13x_drb"><tbody><tr><td id="d49342e119">
+<table id="choicetable_thp_13x_drb"><tbody><tr><td id="d49476e119">
 
 **getAssetCMDBSysClassNameWithOtEntityTypeSysId\(/\*string\*/ type, /\*string\*/ osVersion, /\*string\*/ firmwareVersion\)**
 
@@ -46,7 +46,7 @@ Role required: admin
 
 Implement this method to return the CMDB sys class name that the device belongs to, along with the OT Entity type sys\_id concatenated with “:::”.For unclassified devices, the OT device type is set to ot\_base.
 
-</td></tr><tr><td id="d49342e133">
+</td></tr><tr><td id="d49476e133">
 
 **getComputerType\(\(/\*string\*/ operatingSystem\)**
 

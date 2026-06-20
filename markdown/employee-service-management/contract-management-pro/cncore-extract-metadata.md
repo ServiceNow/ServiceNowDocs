@@ -32,15 +32,15 @@ You can also configure the system properties to automatically initiate the metad
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d192184e98">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d192318e98">
 
 Method
 
-</th><th align="left" id="d192184e101">
+</th><th align="left" id="d192318e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192184e107">
+</th></tr></thead><tbody><tr><td id="d192318e107">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d192184e155">
+</td></tr><tr><td id="d192318e155">
 
 **Workspace used by your application**
 

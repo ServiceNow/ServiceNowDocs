@@ -36,15 +36,15 @@ Once you create a dynamic attribute store field and set up the dynamic categorie
 
 4.  Capture one or more dynamic attributes in the dynamic attribute store field by entering JSON or using the API.
 
-<table id="choicetable_vrc_vx4_zfc"><thead><tr><th align="left" id="d101413e84">
+<table id="choicetable_vrc_vx4_zfc"><thead><tr><th align="left" id="d101682e84">
 
 Option
 
-</th><th align="left" id="d101413e87">
+</th><th align="left" id="d101682e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d101413e93">
+</th></tr></thead><tbody><tr><td id="d101682e93">
 
 **Enter JSON**
 
@@ -54,7 +54,7 @@ Enter one or more attributes and values in the dynamic store field. For example:
 { "watts: 50" , "screen_size": "75", "screen_type" : "OLED" }
 ```
 
-</td></tr><tr><td id="d101413e104">
+</td></tr><tr><td id="d101682e104">
 
 **Use the API**
 

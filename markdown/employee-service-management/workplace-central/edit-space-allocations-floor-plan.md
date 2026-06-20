@@ -52,15 +52,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Edit the space allocations based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d191745e168">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d191879e168">
 
 Action
 
-</th><th align="left" id="d191745e171">
+</th><th align="left" id="d191879e171">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191745e177">
+</th></tr></thead><tbody><tr><td id="d191879e177">
 
 **Edit space allocation**
 
@@ -80,7 +80,7 @@ Steps
 6.  Select **Apply**.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d191745e257">
+</td></tr><tr><td id="d191879e257">
 
 **Remove allocations**
 

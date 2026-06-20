@@ -34,15 +34,15 @@ Role required: sn\_sec\_tisc.admin
 
 4.  Fill in the details as appropriate.
 
-<table id="choicetable_dzs_2xx_ghc"><thead><tr><th align="left" id="d156263e101">
+<table id="choicetable_dzs_2xx_ghc"><thead><tr><th align="left" id="d156879e101">
 
 Field
 
-</th><th align="left" id="d156263e104">
+</th><th align="left" id="d156879e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d156263e110">
+</th></tr></thead><tbody><tr><td id="d156879e110">
 
 **Name**
 
@@ -50,7 +50,7 @@ Description
 
 Name of the report template.
 
-</td></tr><tr><td id="d156263e119">
+</td></tr><tr><td id="d156879e119">
 
 **Report Category**
 
@@ -60,7 +60,7 @@ Select the desired option from the drop down list. The available report categori
 2.  **Intelligence Reports**: Intelligence Reports allow users to curate reports using data available across the entire Threat Intelligence Library.
 
 
-</td></tr><tr><td id="d156263e140">
+</td></tr><tr><td id="d156879e140">
 
 **Description**
 

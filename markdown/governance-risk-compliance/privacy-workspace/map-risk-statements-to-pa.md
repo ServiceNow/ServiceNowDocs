@@ -43,15 +43,15 @@ You can relate risk statements to an assessment question only if the questions a
 
 3.  Open the question for which you want to add risk statement
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d101286e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d101490e110">
 
 Type of questions
 
-</th><th align="left" id="d101286e113">
+</th><th align="left" id="d101490e113">
 
 Steps to map risk statements
 
-</th></tr></thead><tbody><tr><td id="d101286e119">
+</th></tr></thead><tbody><tr><td id="d101490e119">
 
 **Boolean, Template**
 
@@ -66,7 +66,7 @@ To create and apply risk statements for a response, perform the following steps.
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d101286e154">
+</td></tr><tr><td id="d101490e154">
 
 **Choice, Image scale, Numeric, Ranking**
 

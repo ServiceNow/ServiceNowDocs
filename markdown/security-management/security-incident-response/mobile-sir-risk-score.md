@@ -48,15 +48,15 @@ From the list of records, assign an open security incident that has a risk score
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d468670e186">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d468429e186">
 
 Option
 
-</th><th align="left" id="d468670e189">
+</th><th align="left" id="d468429e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d468670e195">
+</th></tr></thead><tbody><tr><td id="d468429e195">
 
 **Assign to Me**
 
@@ -64,7 +64,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d468670e204">
+</td></tr><tr><td id="d468429e204">
 
 **Reassign**
 
@@ -85,15 +85,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
     \[Omitted image "mobile-sir-risk-60-record.jpg"\] Alt text: Security incident record for Risk Score &gt; 60.
 
-<table id="choicetable_zjs_jhq_zhb"><thead><tr><th align="left" id="d468670e280">
+<table id="choicetable_zjs_jhq_zhb"><thead><tr><th align="left" id="d468429e280">
 
 Option
 
-</th><th align="left" id="d468670e283">
+</th><th align="left" id="d468429e283">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d468670e289">
+</th></tr></thead><tbody><tr><td id="d468429e289">
 
 **Tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon. on the upper right of the screen.**
 
@@ -103,7 +103,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
  After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d468670e334">
+</td></tr><tr><td id="d468429e334">
 
 **Activity Stream tab**
 
@@ -111,7 +111,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
 
-</td></tr><tr><td id="d468670e352">
+</td></tr><tr><td id="d468429e352">
 
 **Related List tab**
 
@@ -119,7 +119,7 @@ With the Activity Stream tab selected, review the audit trail of work notes, act
 
 With the Related List tab selected, view the items on any of the Related Lists that are populated on the security incident. Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d468670e364">
+</td></tr><tr><td id="d468429e364">
 
 **Screen icons at the bottom of the screen.**
 

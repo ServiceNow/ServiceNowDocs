@@ -151,15 +151,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Clou
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d44207e497">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d44341e497">
 
 Interface
 
-</th><th align="left" id="d44207e500">
+</th><th align="left" id="d44341e500">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d44207e506">
+</th></tr></thead><tbody><tr><td id="d44341e506">
 
 **Core UI**
 
@@ -170,7 +170,7 @@ Action
 3.  Select **GitHub Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d44207e548">
+</td></tr><tr><td id="d44341e548">
 
 **Software Asset Workspace**
 

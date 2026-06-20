@@ -7,7 +7,7 @@ release: zurich
 product: Mobile Platform
 classification: mobile-platform
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Access instances on mobile web browser, Using the mobile apps, Mobile Platform]
 ---

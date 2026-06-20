@@ -26,15 +26,15 @@ Role required: admin or delegated\_developer
 
 2.  Bookmark your apps and files from different locations in ServiceNow Studio.
 
-<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d40066e110">
+<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d40200e110">
 
 Location in ServiceNow Studio
 
-</th><th align="left" id="d40066e115">
+</th><th align="left" id="d40200e115">
 
 How to bookmark
 
-</th></tr></thead><tbody><tr><td id="d40066e121">
+</th></tr></thead><tbody><tr><td id="d40200e121">
 
 **Home page**
 
@@ -44,7 +44,7 @@ How to bookmark
 2.  Select the add to bookmarks icon \(\[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: Add to bookmarks icon\) that appears in the card of the app or file that you want to bookmark.
  \[Omitted image "sn-studio-recently-opened.png"\] Alt text: On the ServiceNow Studio home page you can bookmark apps and files by selecting the Add to bookmarks icon that appears in the card of the app or file
 
-</td></tr><tr><td id="d40066e168">
+</td></tr><tr><td id="d40200e168">
 
 **Navigator panel**
 
@@ -55,7 +55,7 @@ How to bookmark
 3.  Select the add to bookmarks icon \(\[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: add to bookmarks icon\).
  \[Omitted image "sn-studio-bookmark-file.png"\] Alt text: Bookmark a file directly from the Navigator panel
 
-</td></tr><tr><td id="d40066e214">
+</td></tr><tr><td id="d40200e214">
 
 **Open tab**
 
@@ -68,7 +68,7 @@ How to bookmark
 2.  Next to the application name, select the add to bookmarks icon \(\[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: Add to bookmarks icon\).
  \[Omitted image "sn-studio-bookmark-app.png"\] Alt text: Bookmark applications by opening them in the canvas and selecting the bookmark icon next to the application name
 
-</td></tr><tr><td id="d40066e249">
+</td></tr><tr><td id="d40200e249">
 
 **App details page**
 

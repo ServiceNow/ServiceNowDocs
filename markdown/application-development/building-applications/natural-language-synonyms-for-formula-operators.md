@@ -7,7 +7,7 @@ release: zurich
 product: Building Applications
 classification: building-applications
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Reference, UI generation, Builder library, Developing your application, Building applications]
 ---

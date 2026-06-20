@@ -43,15 +43,15 @@ You can add or manage controls to a processing activity in the following ways:
 
 4.  To add a control to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d41915e123">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d42049e123">
 
 Option
 
-</th><th align="left" id="d41915e126">
+</th><th align="left" id="d42049e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41915e132">
+</th></tr></thead><tbody><tr><td id="d42049e132">
 
 **To create a control**
 
@@ -59,7 +59,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-</td></tr><tr><td id="d41915e158">
+</td></tr><tr><td id="d42049e158">
 
 **To add a control by using the existing control objectives**
 
@@ -70,7 +70,7 @@ Click **New** and fill in the form.For details see, [Create a control](https://r
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d41915e185">
+</td></tr><tr><td id="d42049e185">
 
 **To select a control from the list of recommended controls**
 

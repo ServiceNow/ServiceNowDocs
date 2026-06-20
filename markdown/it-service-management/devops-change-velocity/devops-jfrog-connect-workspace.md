@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard JFrog.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d121911e121">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d122045e121">
 
 Option
 
-</th><th align="left" id="d121911e124">
+</th><th align="left" id="d122045e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d121911e130">
+</th></tr></thead><tbody><tr><td id="d122045e130">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d121911e157">
+</td></tr><tr><td id="d122045e157">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d121911e206">
+</td></tr><tr><td id="d122045e206">
 
 **Tools module**
 

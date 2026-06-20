@@ -188,7 +188,7 @@ Interactive filter
 
 </td><td>
 
-Select an existing interactive filter. For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/interactive-filters/c_HomepagePublishers.md)
+Select an existing interactive filter. For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md)
 
 </td></tr></tbody>
 </table><table id="table_reports"><thead><tr><th>

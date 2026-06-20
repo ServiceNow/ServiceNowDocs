@@ -42,15 +42,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Manage the neighborhood based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d155843e117">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d155842e117">
 
 Action
 
-</th><th align="left" id="d155843e120">
+</th><th align="left" id="d155842e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155843e126">
+</th></tr></thead><tbody><tr><td id="d155842e126">
 
 **Add a space**
 
@@ -62,7 +62,7 @@ Steps
 4.  Select **Save**.
  **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-space-management/add-a-space.md).
 
-</td></tr><tr><td id="d155843e181">
+</td></tr><tr><td id="d155842e181">
 
 **Remove a space**
 
@@ -73,7 +73,7 @@ Steps
 3.  On the confirmation pop-up, select **Delete all**.
 
 
-</td></tr><tr><td id="d155843e211">
+</td></tr><tr><td id="d155842e211">
 
 **Export space details**
 
@@ -99,7 +99,7 @@ If you select email, you must enter the email address of the recipient.
 6.  Select **Export**.
 
 
-</td></tr><tr><td id="d155843e283">
+</td></tr><tr><td id="d155842e283">
 
 **Assign a workplace profile**
 
@@ -111,7 +111,7 @@ If you select email, you must enter the email address of the recipient.
 
 For a description of the field values, see [Workplace Profile Location Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/wsd-location-assignment-form.md).
 
-</td></tr><tr><td id="d155843e320">
+</td></tr><tr><td id="d155842e320">
 
 **Remove a workplace profile**
 
@@ -122,7 +122,7 @@ For a description of the field values, see [Workplace Profile Location Assignmen
 3.  On the confirmation pop-up, select **Delete all**.
 
 
-</td></tr><tr><td id="d155843e350">
+</td></tr><tr><td id="d155842e350">
 
 **Create a space assignment task**
 
@@ -137,7 +137,7 @@ For a description of the field values, see [Workplace Task form - Space Assignme
 4.  Select **Save**.
  **Note:** Assigning spaces based on the task can take several minutes.
 
-</td></tr><tr><td id="d155843e398">
+</td></tr><tr><td id="d155842e398">
 
 **Create a user assignment rule**
 

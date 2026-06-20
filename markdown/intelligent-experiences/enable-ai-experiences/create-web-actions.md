@@ -58,15 +58,15 @@ An AI agent named **Web Automation Agent** and agentic workflow named **Web Auto
 
 9.  On the form, fill in the fields.
 
-<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d45589e224">
+<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d45723e224">
 
 Field
 
-</th><th align="left" id="d45589e227">
+</th><th align="left" id="d45723e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45589e233">
+</th></tr></thead><tbody><tr><td id="d45723e233">
 
 **Name**
 
@@ -74,7 +74,7 @@ Description
 
 Provide a unique intuitive name.
 
-</td></tr><tr><td id="d45589e242">
+</td></tr><tr><td id="d45723e242">
 
 **Tool Description**
 
@@ -82,7 +82,7 @@ Provide a unique intuitive name.
 
 Description of the tool's purpose, functionality, inputs, and expected outputs, written in complete sentences. The AI agent uses this description to select the appropriate tool. Explain how an AI agent uses the tool and its inputs — including specific fields or data types — to carry out its role. Include exact input requirements such as format rules, character limits, and valid values. Specify what the tool returns and how the AI agent should use the output.
 
-</td></tr><tr><td id="d45589e251">
+</td></tr><tr><td id="d45723e251">
 
 **Navigation actions**
 
@@ -90,7 +90,7 @@ Description of the tool's purpose, functionality, inputs, and expected outputs, 
 
 Add a list of precise steps that the AI agent must execute on the web page or application effectively.
 
-</td></tr><tr><td id="d45589e260">
+</td></tr><tr><td id="d45723e260">
 
 **Time out**
 
@@ -98,7 +98,7 @@ Add a list of precise steps that the AI agent must execute on the web page or ap
 
 Enter the maximum number of minutes an AI agent should use the web page or application. Default value: 30 mins.
 
-</td></tr><tr><td id="d45589e272">
+</td></tr><tr><td id="d45723e272">
 
 **Execution mode**
 
@@ -108,7 +108,7 @@ Mode of execution for your selected desktop action:-   **Supervised**: Inputs fr
 -   **Autonomous**: Doesn't require any input from your live agent during the execution of this desktop action while the AI agent runs.
 
 
-</td></tr><tr><td id="d45589e293">
+</td></tr><tr><td id="d45723e293">
 
 **Display output**
 
@@ -127,7 +127,7 @@ If you want the AI agent to work in Off Glide architecture with AI-native experi
     -   **No**
 **Note:** The display output as a toggle is exclusively available for the AI-native experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
 
-</td></tr><tr><td id="d45589e362">
+</td></tr><tr><td id="d45723e362">
 
 **Select an output transformation format**
 
@@ -140,7 +140,7 @@ Style for the LLM to present the results as it passes information between tools 
 -   Custom
 
 
-</td></tr><tr><td id="d45589e388">
+</td></tr><tr><td id="d45723e388">
 
 **Write processing messages for users**
 

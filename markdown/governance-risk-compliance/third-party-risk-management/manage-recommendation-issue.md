@@ -53,15 +53,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d43493e242">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d43627e242">
 
 Option
 
-</th><th align="left" id="d43493e245">
+</th><th align="left" id="d43627e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43493e251">
+</th></tr></thead><tbody><tr><td id="d43627e251">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d43493e275">
+</td></tr><tr><td id="d43627e275">
 
 **Create issues or dismiss issues from the Predicted issues list**
 

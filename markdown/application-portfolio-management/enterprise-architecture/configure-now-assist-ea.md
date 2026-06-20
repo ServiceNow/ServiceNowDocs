@@ -58,15 +58,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31821e325">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d31955e325">
 
 Skill
 
-</th><th align="left" id="d31821e328">
+</th><th align="left" id="d31955e328">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31821e334">
+</th></tr></thead><tbody><tr><td id="d31955e334">
 
 **ADR Doc Summarization and Actions**
 
@@ -77,7 +77,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d31821e365">
+</td></tr><tr><td id="d31955e365">
 
 **Business application insights**
 
@@ -109,7 +109,7 @@ The Business application insights skill is activated.
 
  **Note:** An admin user can also define and configure custom parameters for the prompt. To define and configure custom parameters, select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text: Row context menu icon.\) next on the **Business applications insights** card and then select **Make a copy**.
 
-</td></tr><tr><td id="d31821e495">
+</td></tr><tr><td id="d31955e495">
 
 **Diagram change analysis**
 
@@ -134,7 +134,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d31821e583">
+</td></tr><tr><td id="d31955e583">
 
 **Refine text**
 

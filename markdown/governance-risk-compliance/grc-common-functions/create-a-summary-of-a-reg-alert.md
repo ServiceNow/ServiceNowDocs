@@ -51,15 +51,15 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d153925e211">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d154059e211">
 
 Option
 
-</th><th align="left" id="d153925e214">
+</th><th align="left" id="d154059e214">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153925e220">
+</th></tr></thead><tbody><tr><td id="d154059e220">
 
 **Share to additional comments**
 
@@ -67,7 +67,7 @@ Description
 
 Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d153925e235">
+</td></tr><tr><td id="d154059e235">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d153925e244">
+</td></tr><tr><td id="d154059e244">
 
 **View less**
 
@@ -83,25 +83,25 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d153925e253">
+</td></tr><tr><td id="d154059e253">
 
 **Provide feedback**
 
 </td><td>
 
-Select the helpful icon \[Omitted image "a3961a217c6c42794d87b70ca50a5c4e51637db4.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "a8538f6374f4f5e87b48dc63f04908d721aa1789.png"\] Alt text: if the summary wasn't helpful.
+Select the helpful icon \[Omitted image "686bdc7532da8a3d5b2548f101f5b2091038092b.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "dffc9e719de63903a1453c44d70c122bb8273399.png"\] Alt text: if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d153925e279">
+</td></tr><tr><td id="d154059e279">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy icon \[Omitted image "0e923b11ae593b3c5240d2fab57b32bca386c59d.png"\] Alt text: to copy the summary to the clipboard.
+Select the copy icon \[Omitted image "ea6a98bd0d399f9047adea178f8fce126935a4ed.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d153925e296">
+</td></tr><tr><td id="d154059e296">
 
 **Regenerate the summary**
 

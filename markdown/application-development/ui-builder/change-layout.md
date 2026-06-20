@@ -38,15 +38,15 @@ Layouts control what containers and components are available on a page, and wher
 
 5.  Depending on the type of page, do one of the following to select a container to update.
 
-<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d219026e139">
+<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d219160e139">
 
 Type of page
 
-</th><th align="left" id="d219026e142">
+</th><th align="left" id="d219160e142">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d219026e148">
+</th></tr></thead><tbody><tr><td id="d219160e148">
 
 **Existing page**
 
@@ -54,7 +54,7 @@ Instruction
 
 Select the container on your page for which you want to change the layout.**Note:** Alternately, you can select the container in the content tree to the left of the main page area. When the page structure is in the structured tree, you can more easily find the container you want to change. If you have many components and containers in the content tree, use the search bar to find a specific container.
 
-</td></tr><tr><td id="d219026e160">
+</td></tr><tr><td id="d219160e160">
 
 **New page**
 
@@ -97,15 +97,15 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
     You can add components by using any of the following ways.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d219026e310">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d219160e310">
 
 To add a component
 
-</th><th align="left" id="d219026e313">
+</th><th align="left" id="d219160e313">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d219026e319">
+</th></tr></thead><tbody><tr><td id="d219160e319">
 
 **Directly from your page \(option 1\)**
 
@@ -113,7 +113,7 @@ Do the following
 
 Select the add content \(plus\) icon, select the **Components** tab, and then select a component.
 
-</td></tr><tr><td id="d219026e336">
+</td></tr><tr><td id="d219160e336">
 
 **Directly from your page \(option 2\)**
 
@@ -121,7 +121,7 @@ Select the add content \(plus\) icon, select the **Components** tab, and then se
 
 On a column layout or component, select the add before \(plus\) or add after \(plus\) icon, and then select a component.
 
-</td></tr><tr><td id="d219026e348">
+</td></tr><tr><td id="d219160e348">
 
 **From the content tree**
 
@@ -131,7 +131,7 @@ In the content tree, select **+ Add content** and then select a component.
 
  \[Omitted image "component-add-from-content-tree.png"\] Alt text: Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.
 
-</td></tr><tr><td id="d219026e370">
+</td></tr><tr><td id="d219160e370">
 
 **From the floating menu above the page**
 
@@ -142,15 +142,15 @@ On a column layout or component, select the Menu icon, select **Add before** or 
 </td></tr></tbody>
 </table>8.  Modify the layout styling options in any of the following ways.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d219026e397">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d219160e397">
 
 Option
 
-</th><th align="left" id="d219026e400">
+</th><th align="left" id="d219160e400">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d219026e406">
+</th></tr></thead><tbody><tr><td id="d219160e406">
 
 **Change the layout styling**
 
@@ -167,7 +167,7 @@ You can click the container in the content tree, or you can click the container 
 3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/css-grid-uib.md).
 
 
-</td></tr><tr><td id="d219026e460">
+</td></tr><tr><td id="d219160e460">
 
 **Choose Flex**
 
@@ -198,7 +198,7 @@ You can click the container in the content tree, or you can click the container 
     -   Padding: Set the padding for each side of your flexbox items.
 \[Omitted image "UIB-flexbox-styling.png"\] Alt text: Flex style options.
 
-</td></tr><tr><td id="d219026e592">
+</td></tr><tr><td id="d219160e592">
 
 **Select Grid**
 

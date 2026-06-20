@@ -57,15 +57,15 @@ Time to complete this task: 5-10 minutes.
 
     \[Omitted image "mobile-issue-record.jpg"\] Alt text: Issue record.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d147389e236">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d147510e236">
 
 Option
 
-</th><th align="left" id="d147389e239">
+</th><th align="left" id="d147510e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147389e245">
+</th></tr></thead><tbody><tr><td id="d147510e245">
 
 **Details tab**
 
@@ -82,7 +82,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   At the top right of the screen with the Issue screen displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147389e289">
+</td></tr><tr><td id="d147510e289">
 
 **Activity Stream tab**
 
@@ -92,7 +92,7 @@ Choose one to continue.-   View work notes and additional comments. Tap the plus
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147389e319">
+</td></tr><tr><td id="d147510e319">
 
 **Related List tab**
 
@@ -105,7 +105,7 @@ View the related lists.
 3.  After your review, navigate back to the issue record and tap the menu \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d147389e352">
+</td></tr><tr><td id="d147510e352">
 
 **Screen icons at the bottom of the screen.**
 

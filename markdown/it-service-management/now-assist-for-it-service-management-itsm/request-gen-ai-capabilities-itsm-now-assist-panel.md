@@ -39,15 +39,15 @@ For information about how to activate the Now Assist panel, see .
 
     \[Omitted image "itsm-now-assist-panel.png"\] Alt text: Now Assist panel for ITSM skills.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d122513e203">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d122647e203">
 
 Option
 
-</th><th align="left" id="d122513e206">
+</th><th align="left" id="d122647e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d122513e212">
+</th></tr></thead><tbody><tr><td id="d122647e212">
 
 **Summarize the chat for an interaction**
 
@@ -58,7 +58,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d122513e248">
+</td></tr><tr><td id="d122647e248">
 
 **Summarize the chat for an incident that is created from an interaction**
 
@@ -69,7 +69,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the incident was created is displayed.
 
 
-</td></tr><tr><td id="d122513e284">
+</td></tr><tr><td id="d122647e284">
 
 **Summarize a Sidebar discussion**
 
@@ -80,7 +80,7 @@ Description
 3.  In the Now Assist panel, select **Sidebar Discussion Summarization**. A summary of the discussion with the live agent is displayed.
 
 
-</td></tr><tr><td id="d122513e323">
+</td></tr><tr><td id="d122647e323">
 
 **Summarize an incident**
 
@@ -91,7 +91,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**. An incident summary that helps you quickly understand the incident context is generated.
 
 
-</td></tr><tr><td id="d122513e360">
+</td></tr><tr><td id="d122647e360">
 
 **Summarize a change request**
 
@@ -102,7 +102,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a change request**. A change request summary that helps you quickly understand the change request context is generated.
 
 
-</td></tr><tr><td id="d122513e396">
+</td></tr><tr><td id="d122647e396">
 
 **Change risk explanation**
 
@@ -113,7 +113,7 @@ Description
 3.  In the Now Assist panel, select **Explain change risk**. An explanation of the change request risk that helps you quickly understand the change request risk rating is generated.
 
 
-</td></tr><tr><td id="d122513e432">
+</td></tr><tr><td id="d122647e432">
 
 **Generate incident resolution notes**
 
@@ -124,7 +124,7 @@ Description
 3.  In the Now Assist panel, select **Generate resolution notes**. The incident resolution notes that provide a summary of the steps taken to resolve the issue are generated.
 
 
-</td></tr><tr><td id="d122513e468">
+</td></tr><tr><td id="d122647e468">
 
 **Generate a knowledge article**
 
@@ -135,7 +135,7 @@ Description
 3.  In the Now Assist panel, select **Generate Article**. A Knowledge article is drafted for the incident using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d122513e507">
+</td></tr><tr><td id="d122647e507">
 
 **Generate chat reply recommendation**
 
@@ -146,7 +146,7 @@ Description
 3.  In the Now Assist panel, select **Generate Chat Reply Recommendation**. The reply that provides a recommendation for the issue in the chat is generated.
 
 
-</td></tr><tr><td id="d122513e543">
+</td></tr><tr><td id="d122647e543">
 
 **Ask questions about an incident**
 
@@ -157,7 +157,7 @@ Description
 3.  In the Now Assist panel, either type in an incident assist topic question, or select **Answer questions about an incident**, and select an incident assist topic. Information requested about the incident is shown.
 
 
-</td></tr><tr><td id="d122513e580">
+</td></tr><tr><td id="d122647e580">
 
 **Use AI agents to complete tasks**
 
@@ -167,7 +167,7 @@ Description
 2.  Follow the on-screen instructions to complete the task.
 
 
-</td></tr><tr><td id="d122513e598">
+</td></tr><tr><td id="d122647e598">
 
 **Add comments or work notes to a task record**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Release Notes
 classification: release-notes
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 97
 breadcrumb: [Prepare your upgrade, Zurich release notes]
 ---

@@ -32,15 +32,15 @@ Triggers, by themselves, execute nothing. After defining a trigger in MetricBase
 
 3.  Fill in the fields.
 
-<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d73485e95">
+<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d73619e95">
 
 Field
 
-</th><th align="left" id="d73485e98">
+</th><th align="left" id="d73619e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73485e104">
+</th></tr></thead><tbody><tr><td id="d73619e104">
 
 **Flow name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the flow to execute.
 
-</td></tr><tr><td id="d73485e113">
+</td></tr><tr><td id="d73619e113">
 
 **Description**
 
@@ -56,7 +56,7 @@ Name of the flow to execute.
 
 Explanation of what the flow does and why you are associating this flow with the trigger.
 
-</td></tr><tr><td id="d73485e122">
+</td></tr><tr><td id="d73619e122">
 
 **Application**
 
@@ -64,7 +64,7 @@ Explanation of what the flow does and why you are associating this flow with the
 
 Application scope to create your flow in. The value, **Global**, is the default.
 
-</td></tr><tr><td id="d73485e134">
+</td></tr><tr><td id="d73619e134">
 
 **Protection**
 
@@ -72,7 +72,7 @@ Application scope to create your flow in. The value, **Global**, is the default.
 
 Option to make the flow read-only. Selecting read-only prevents users who do not own the application scope from changing the flow. You can only select a value when you create the flow in an application scope you own.
 
-</td></tr><tr><td id="d73485e144">
+</td></tr><tr><td id="d73619e144">
 
 **Run As**
 
@@ -82,7 +82,7 @@ Choose whether the flow runs as **System User** or **User who initiates the sess
 
 **Note:** If you select **User who initiates the session**, ensure that security restrictions \(ACLs\) do not prevent the users who trigger the flow from performing the flow actions.
 
-</td></tr><tr><td id="d73485e170">
+</td></tr><tr><td id="d73619e170">
 
 **Run with roles**
 

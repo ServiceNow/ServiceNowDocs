@@ -28,15 +28,15 @@ Role required: it\_project\_manager
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d51802e88">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d51936e88">
 
 Option
 
-</th><th align="left" id="d51802e91">
+</th><th align="left" id="d51936e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51802e97">
+</th></tr></thead><tbody><tr><td id="d51936e97">
 
 **Create a baseline**
 
@@ -53,7 +53,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
  **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d51802e148">
+</td></tr><tr><td id="d51936e148">
 
 **Compare baselines**
 

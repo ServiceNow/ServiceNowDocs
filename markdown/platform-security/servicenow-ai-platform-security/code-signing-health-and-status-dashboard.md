@@ -7,7 +7,7 @@ release: zurich
 product: ServiceNow AI Platform Security
 classification: servicenow-ai-platform-security
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Code Signing, Platform Security]
 ---

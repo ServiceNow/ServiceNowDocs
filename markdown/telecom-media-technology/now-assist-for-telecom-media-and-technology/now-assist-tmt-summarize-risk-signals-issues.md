@@ -49,15 +49,15 @@ The risk signal and issues summarization skill checks the record to determine if
 
 3.  After you're finished summarizing the risk signal and issues, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23494e147">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23628e147">
 
 Option
 
-</th><th align="left" id="d23494e150">
+</th><th align="left" id="d23628e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23494e156">
+</th></tr></thead><tbody><tr><td id="d23628e156">
 
 **View more or less summary details**
 
@@ -67,7 +67,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23494e186">
+</td></tr><tr><td id="d23628e186">
 
 **Provide feedback for the summary**
 
@@ -77,7 +77,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23494e219">
+</td></tr><tr><td id="d23628e219">
 
 **Copy the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23494e234">
+</td></tr><tr><td id="d23628e234">
 
 **View the information about the summary**
 

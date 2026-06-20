@@ -60,15 +60,15 @@ Role required: guarded\_script\_admin or admin
 
     **Note:** In addition to recording incompatible scripts, guarded script logs errors for rejected scripts. To identify rejected scripts, navigate to **System Logs** &gt; **System Log** &gt; **Errors** with the following message: `KittyScript validation failed for <script name> with error: <error message> Source code: <script source>`. Use the script name and source code in the error message to locate the corresponding entry in the Incompatible Guarded Scripts list.
 
-<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d860818e368">
+<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d860952e368">
 
 Option
 
-</th><th align="left" id="d860818e371">
+</th><th align="left" id="d860952e371">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d860818e377">
+</th></tr></thead><tbody><tr><td id="d860952e377">
 
 **Move complex logic to a script include**
 
@@ -81,7 +81,7 @@ For scripts that contain complex logic and can be rewritten, move the logic to a
 5.  Update the original script to call the new script include using a simple function call, such as `MyScriptInclude.function()`.
 For more information about creating script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ScriptIncludes.md). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/scripts/c_ScriptsBackground.md).
 
-</td></tr><tr><td id="d860818e428">
+</td></tr><tr><td id="d860952e428">
 
 **Create an exemption**
 

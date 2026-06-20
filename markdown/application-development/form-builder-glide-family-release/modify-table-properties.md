@@ -51,15 +51,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     \[Omitted image "tb-add-new-field.png"\] Alt text: Adding a new field to a table.
 
-<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d158813e267">
+<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d158947e267">
 
 Field
 
-</th><th align="left" id="d158813e270">
+</th><th align="left" id="d158947e270">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158813e276">
+</th></tr></thead><tbody><tr><td id="d158947e276">
 
 **Column label**
 
@@ -67,7 +67,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d158813e285">
+</td></tr><tr><td id="d158947e285">
 
 **Column name**
 
@@ -75,7 +75,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d158813e294">
+</td></tr><tr><td id="d158947e294">
 
 **Type**
 
@@ -87,7 +87,7 @@ Type of information that the column contains. For example, to contain plain text
 
  See Field types.
 
-</td></tr><tr><td id="d158813e325">
+</td></tr><tr><td id="d158947e325">
 
 **Reference**
 
@@ -95,7 +95,7 @@ Type of information that the column contains. For example, to contain plain text
 
 Table that is associated with the column. This field applies only if the column type is **Reference**.
 
-</td></tr><tr><td id="d158813e338">
+</td></tr><tr><td id="d158947e338">
 
 **Max length**
 
@@ -103,7 +103,7 @@ Table that is associated with the column. This field applies only if the column 
 
 Maximum number of characters that users can enter in the field.
 
-</td></tr><tr><td id="d158813e347">
+</td></tr><tr><td id="d158947e347">
 
 **Default value**
 
@@ -111,7 +111,7 @@ Maximum number of characters that users can enter in the field.
 
 Value that populates the field automatically after a new record is created.
 
-</td></tr><tr><td id="d158813e356">
+</td></tr><tr><td id="d158947e356">
 
 **Display**
 
@@ -121,7 +121,7 @@ Option to set the column as the display value for the table. A reference field s
 
  Only one column can act as the display value for a table.
 
-</td></tr><tr><td id="d158813e386">
+</td></tr><tr><td id="d158947e386">
 
 **Updated**
 

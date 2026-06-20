@@ -44,15 +44,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d586723e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d586857e127">
 
 Action
 
-</th><th align="left" id="d586723e130">
+</th><th align="left" id="d586857e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586723e136">
+</th></tr></thead><tbody><tr><td id="d586857e136">
 
 **Enter your own message.**
 
@@ -60,7 +60,7 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d586723e145">
+</td></tr><tr><td id="d586857e145">
 
 **Use Response templates to insert predefined content into the email body**
 
@@ -72,7 +72,7 @@ Enter your message in the text box.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d586723e178">
+</td></tr><tr><td id="d586857e178">
 
 **Use Email templates to use predefined template**
 
@@ -87,15 +87,15 @@ Enter your message in the text box.
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d586723e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d586857e225">
 
 Action
 
-</th><th align="left" id="d586723e228">
+</th><th align="left" id="d586857e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586723e234">
+</th></tr></thead><tbody><tr><td id="d586857e234">
 
 **Send the email immediately**
 
@@ -103,7 +103,7 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d586723e246">
+</td></tr><tr><td id="d586857e246">
 
 **Send the email later**
 
@@ -115,7 +115,7 @@ To send the email immediately, select **Send email**.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d586723e280">
+</td></tr><tr><td id="d586857e280">
 
 **Discard the email**
 

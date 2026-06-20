@@ -74,7 +74,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d82697e332">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d82831e332">
 
 **Parsing rule**
 
@@ -82,7 +82,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d82697e348">
+</td></tr><tr><td id="d82831e348">
 
 **[Post-processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/orchestration/t_CreateAParsingRule.md)**
 

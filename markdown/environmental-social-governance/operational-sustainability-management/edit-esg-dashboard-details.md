@@ -30,15 +30,15 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Edit the fields as necessary.
 
-<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d22678e103">
+<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d22812e103">
 
 Field
 
-</th><th align="left" id="d22678e106">
+</th><th align="left" id="d22812e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22678e112">
+</th></tr></thead><tbody><tr><td id="d22812e112">
 
 **Name**
 
@@ -46,7 +46,7 @@ Description
 
 Edit the name of the dashboard.
 
-</td></tr><tr><td id="d22678e121">
+</td></tr><tr><td id="d22812e121">
 
 **Description**
 
@@ -54,7 +54,7 @@ Edit the name of the dashboard.
 
 Fill in the description to provide further context about the purpose of the dashboard.
 
-</td></tr><tr><td id="d22678e130">
+</td></tr><tr><td id="d22812e130">
 
 **Mark as certified**
 
@@ -64,7 +64,7 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
  **Note:** You must have an admin role to mark a dashboard as certified. For more information, see .
 
-</td></tr><tr><td id="d22678e148">
+</td></tr><tr><td id="d22812e148">
 
 **Dashboard visibility**
 
@@ -72,7 +72,7 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
 View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit ESG Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/operational-sustainability-management/edit-esg-dashboards.md).
 
-</td></tr><tr><td id="d22678e167">
+</td></tr><tr><td id="d22812e167">
 
 **Create new category**
 
@@ -80,7 +80,7 @@ View, add, or remove workspaces in which the dashboard can be viewed.**Note:** I
 
 Specify one or more dashboard categories.**Note:** For more information, see .
 
-</td></tr><tr><td id="d22678e181">
+</td></tr><tr><td id="d22812e181">
 
 **Requested by**
 
@@ -88,7 +88,7 @@ Specify one or more dashboard categories.**Note:** For more information, see .
 
 Specify who requested the dashboard.**Note:** This user is considered a responsible user. The data visualization is shared with them, with editing permissions.
 
-</td></tr><tr><td id="d22678e192">
+</td></tr><tr><td id="d22812e192">
 
 **Owner**
 
@@ -96,7 +96,7 @@ Specify who requested the dashboard.**Note:** This user is considered a responsi
 
 Specify the owner of the dashboard.**Note:** By default, the owner is the creator of the dashboard, but the creator or owner can assign ownership to another user.
 
-</td></tr><tr><td id="d22678e203">
+</td></tr><tr><td id="d22812e203">
 
 **Owner Group**
 
@@ -104,7 +104,7 @@ Specify the owner of the dashboard.**Note:** By default, the owner is the creato
 
 Specify an owner group.**Note:** The owner of a dashboard can be an entire group rather than a single person.
 
-</td></tr><tr><td id="d22678e214">
+</td></tr><tr><td id="d22812e214">
 
 **Created by**
 
@@ -112,7 +112,7 @@ Specify an owner group.**Note:** The owner of a dashboard can be an entire group
 
 See who created the dashboard.
 
-</td></tr><tr><td id="d22678e223">
+</td></tr><tr><td id="d22812e223">
 
 **Last updated by**
 
@@ -120,7 +120,7 @@ See who created the dashboard.
 
 See who updated the dashboard along with the date and time details.
 
-</td></tr><tr><td id="d22678e233">
+</td></tr><tr><td id="d22812e233">
 
 **Shared with**
 

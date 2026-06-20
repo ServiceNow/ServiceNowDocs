@@ -26,15 +26,15 @@ Role required: admin
 
 2.  In the **Condition** field, select the Lookup using list icon, and then either select an existing condition or create a new condition\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.
 
-<table id="choicetable_yhh_n4d_5fc"><thead><tr><th align="left" id="d21619e75">
+<table id="choicetable_yhh_n4d_5fc"><thead><tr><th align="left" id="d21753e75">
 
 Option
 
-</th><th align="left" id="d21619e78">
+</th><th align="left" id="d21753e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d21619e84">
+</th></tr></thead><tbody><tr><td id="d21753e84">
 
 **Select existing condition**
 
@@ -42,7 +42,7 @@ Action
 
 From the list, select an existing condition.
 
-</td></tr><tr><td id="d21619e93">
+</td></tr><tr><td id="d21753e93">
 
 **Create a new condition**
 

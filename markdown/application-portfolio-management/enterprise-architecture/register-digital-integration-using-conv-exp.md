@@ -41,15 +41,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a business application** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38210e164">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d38344e164">
 
 Instruction
 
-</th><th align="left" id="d38210e167">
+</th><th align="left" id="d38344e167">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38210e173">
+</th></tr></thead><tbody><tr><td id="d38344e173">
 
 **Short: Request a digital integration**
 
@@ -67,7 +67,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. You can skip answering a question that is related to non-required fields by entering **skip**.\[Omitted image "register-digital-integration.png"\] Alt text: Screenshot showing Now AssistVirtual Agent chat window showing a request for the requesting a digital integration.
 
-</td></tr><tr><td id="d38210e231">
+</td></tr><tr><td id="d38344e231">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

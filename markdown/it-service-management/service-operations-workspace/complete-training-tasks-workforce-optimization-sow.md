@@ -38,15 +38,15 @@ Role required: sn\_wfo\_cfg\_itsm.employee
     -   Select the **Completed** tab to view the list of tasks sorted by the date they were completed.
 4.  Complete a learning task.
 
-<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d151282e126">
+<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d151320e126">
 
 If
 
-</th><th align="left" id="d151282e129">
+</th><th align="left" id="d151320e129">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d151282e135">
+</th></tr></thead><tbody><tr><td id="d151320e135">
 
 **The task is associated with a learning path**
 
@@ -56,7 +56,7 @@ You can do any of the following:-   Select the task and view details of the task
 -   Select a task that's in progress and complete it.
 **Note:** You must complete the courses in the path in the given order to complete the learning task. After you complete all learning tasks in a path, the course items associated with the path display the status as **Complete** in the **Discover** tab.
 
-</td></tr><tr><td id="d151282e163">
+</td></tr><tr><td id="d151320e163">
 
 **The task is associated with a course item**
 
@@ -68,7 +68,7 @@ You can view the course description and the skills associated with the course it
 
 **Note:** After you complete an external course item, it is automatically marked as complete.
 
-</td></tr><tr><td id="d151282e183">
+</td></tr><tr><td id="d151320e183">
 
 **The task is a quiz associated with a learning path**
 

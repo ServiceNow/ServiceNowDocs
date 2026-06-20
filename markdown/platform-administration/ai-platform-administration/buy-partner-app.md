@@ -33,15 +33,15 @@ Role required: none
 
     If an application requires additional approval from the provider, the listing details page displays a **Request purchase** option. If the application doesn't require any additional approval, the listing details page displays **Contact seller** instead.
 
-<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d106979e138">
+<table id="choicetable_bcb_3ct_hjc"><thead><tr><th align="left" id="d107113e138">
 
 Option
 
-</th><th align="left" id="d106979e141">
+</th><th align="left" id="d107113e141">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d106979e147">
+</th></tr></thead><tbody><tr><td id="d107113e147">
 
 **Request purchase**
 
@@ -49,7 +49,7 @@ Procedure
 
 Select **Request purchase** to send a request to the provider. Approval is granted at the provider's discretion.
 
-</td></tr><tr><td id="d106979e159">
+</td></tr><tr><td id="d107113e159">
 
 **Contact seller**
 

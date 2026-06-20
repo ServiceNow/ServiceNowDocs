@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Harness.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d128835e86">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d128969e86">
 
 Option
 
-</th><th align="left" id="d128835e89">
+</th><th align="left" id="d128969e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d128835e95">
+</th></tr></thead><tbody><tr><td id="d128969e95">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d128835e119">
+</td></tr><tr><td id="d128969e119">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d128835e168">
+</td></tr><tr><td id="d128969e168">
 
 **Tools module**
 

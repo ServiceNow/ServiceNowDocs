@@ -40,15 +40,15 @@ The due date of your service acknowledgment task is set based on the due date de
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40371e121">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40505e121">
 
 Action
 
-</th><th align="left" id="d40371e124">
+</th><th align="left" id="d40505e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40371e130">
+</th></tr></thead><tbody><tr><td id="d40505e130">
 
 **I didn't receive any services**
 
@@ -56,7 +56,7 @@ Description
 
 Displays the **Confirm you didn't receive any services** dialog box to record your confirmation for that particular month. On confirmation, the task is marked as Closed Complete and moved to the **Completed** tab. The scheduled job will run to create a new task for you the following month.
 
-</td></tr><tr><td id="d40371e145">
+</td></tr><tr><td id="d40505e145">
 
 **Mark as received**
 
@@ -64,7 +64,7 @@ Displays the **Confirm you didn't receive any services** dialog box to record yo
 
 Displays the **Specify the quantity you received** dialog box, where you can enter the received quantity for the selected purchase line for that particular month \(if the unit of the supplier product is individual unit\), or the received percentage \(if the unit of the supplier product is fixed fee\). This information is now displayed in the **Confirmed** tab.**Note:** If you select multiple purchase lines, you can't specify individual amounts or percentages for them, and the entire lines must be marked as received. Also, if the purchase order line has fixed fee as the unit, then it’s automatically set up for percentage.
 
-</td></tr><tr><td id="d40371e162">
+</td></tr><tr><td id="d40505e162">
 
 **Mark this task as complete**
 

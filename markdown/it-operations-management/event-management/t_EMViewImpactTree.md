@@ -51,7 +51,7 @@ You can also learn about the impact tree from the following video tutorial.
     -   **OK \(green\)**: An alert is created. The resource is still functional.
 6.  Do one or more of the following.
 
-<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d269091e206">
+<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d269225e206">
 
 **Adjust impact rules**
 
@@ -61,7 +61,7 @@ You can also learn about the impact tree from the following video tutorial.
 2.  Review and adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d269091e227">
+</td></tr><tr><td id="d269225e227">
 
 **Remediate an alert**
 

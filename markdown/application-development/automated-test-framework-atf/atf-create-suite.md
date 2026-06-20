@@ -34,7 +34,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 4.  Select the tests to be included in this suite.
 
-<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d125780e104">
+<table id="choicetable_tzr_ryh_5fb"><tbody><tr><td id="d125914e104">
 
 **Filter**
 
@@ -44,7 +44,7 @@ Add tests dynamically using a filter:1.  In the **Filter** field, use the condit
 2.  Click **Save**.
  All tests that match the filter conditions appear in the **Test Suite Tests** related list. Because the suite is dynamic, any new test that matches the conditions is automatically added to the suite.
 
-</td></tr><tr><td id="d125780e134">
+</td></tr><tr><td id="d125914e134">
 
 **Test Suite Tests**
 
@@ -61,7 +61,7 @@ Add tests manually:
 
 6.  In the **Test Suite Tests** related list, specify options for a test.
 
-<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d125780e186">
+<table id="choicetable_hmg_313_5fb"><tbody><tr><td id="d125914e186">
 
 **Execution order**
 
@@ -69,7 +69,7 @@ Add tests manually:
 
 Enter a value to specify the order in which this test should execute within the test suite.
 
-</td></tr><tr><td id="d125780e195">
+</td></tr><tr><td id="d125914e195">
 
 **Abort on Failure**
 

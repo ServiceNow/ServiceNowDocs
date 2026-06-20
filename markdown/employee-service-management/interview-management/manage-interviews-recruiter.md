@@ -36,15 +36,15 @@ You must activate the Interview Management plugin to have access to this functio
 
 6.  From the interview record page, perform any of the following actions.
 
-<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d477822e104">
+<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d477956e104">
 
 Option
 
-</th><th align="left" id="d477822e107">
+</th><th align="left" id="d477956e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d477822e113">
+</th></tr></thead><tbody><tr><td id="d477956e113">
 
 **Update the state**
 
@@ -52,7 +52,7 @@ Action
 
 On the **Details** tab, update the **State** field.
 
-</td></tr><tr><td id="d477822e128">
+</td></tr><tr><td id="d477956e128">
 
 **View the attendee details**
 
@@ -60,7 +60,7 @@ On the **Details** tab, update the **State** field.
 
 On the **Attendees** tab, view the attendee details such as name, role, acceptance status, job title, and type.
 
-</td></tr><tr><td id="d477822e140">
+</td></tr><tr><td id="d477956e140">
 
 **View the interview feedback details**
 
@@ -68,7 +68,7 @@ On the **Attendees** tab, view the attendee details such as name, role, acceptan
 
 On the **Feedback** tab, view the feedback details such as number, state, rating, review comments, interviewer, and interview type.
 
-</td></tr><tr><td id="d477822e152">
+</td></tr><tr><td id="d477956e152">
 
 **Add a feedback record manually, when an interview has happened off the system**
 
@@ -80,7 +80,7 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 -   The due date on the feedback record created is set as seven days from the interview start date by default. An admin can update the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property to change the default value.
 
 
-</td></tr><tr><td id="d477822e185">
+</td></tr><tr><td id="d477956e185">
 
 **Send reminder to interviewer to submit feedback**
 
@@ -88,7 +88,7 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 
 From the **Feedback** tab, open the feedback record and select **Send reminder**.**Note:** Feedback reminders are also configured to be sent automatically for one week \(on alternate days\) from the feedback creation date, by default. This default value can be updated using the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property.
 
-</td></tr><tr><td id="d477822e205">
+</td></tr><tr><td id="d477956e205">
 
 **Provide interview feedback**
 
@@ -99,7 +99,7 @@ From the **Feedback** tab:-   To provide interview feedback, open the feedback r
 -   To indicate that an interview assigned to you didn't happen, open the feedback record and select **Interview incomplete** to enter the corresponding reason and comments.
 
 
-</td></tr><tr><td id="d477822e244">
+</td></tr><tr><td id="d477956e244">
 
 **Reschedule an interview**
 
@@ -117,7 +117,7 @@ For a description of the field values, see [Schedule interview form](https://raw
 
  **Note:** The reschedule count of an interview, and the reason and notes entered during rescheduling are saved in the activity stream of the interview record.
 
-</td></tr><tr><td id="d477822e297">
+</td></tr><tr><td id="d477956e297">
 
 **Substitute an interviewer**
 
@@ -132,7 +132,7 @@ For a description of the field values, see [Schedule interview form](https://raw
 7.  Select **Confirm**.
  A confirmation message is displayed, both interviewers' calendars are updated, an invite is sent to the substitute, and the recruiter, coordinator, hiring manager, and other interviewers are notified. The feedback task is reassigned, and the change is logged in the activity log.
 
-</td></tr><tr><td id="d477822e355">
+</td></tr><tr><td id="d477956e355">
 
 **Complete an interview**
 
@@ -140,7 +140,7 @@ For a description of the field values, see [Schedule interview form](https://raw
 
 Select **Mark as complete**.
 
-</td></tr><tr><td id="d477822e367">
+</td></tr><tr><td id="d477956e367">
 
 **Mark an interview as no show**
 
@@ -148,7 +148,7 @@ Select **Mark as complete**.
 
 From the Mark as complete list, select **No show**.
 
-</td></tr><tr><td id="d477822e380">
+</td></tr><tr><td id="d477956e380">
 
 **Cancel an interview**
 

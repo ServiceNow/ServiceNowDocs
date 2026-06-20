@@ -28,15 +28,15 @@ Role required: asset, contract\_manager \(core UI and Hardware Asset Workspace o
     -   If you are using the Enterprise Asset Workspace, navigate to the Contract and lease management view and then select the **All contracts** tab. Open the enterprise asset contract that you want to add terms and conditions to and then select the **Terms and Conditions** tab.
 2.  Update the terms and conditions in the contract.
 
-<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d125017e79">
+<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d125151e79">
 
 Interface
 
-</th><th align="left" id="d125017e82">
+</th><th align="left" id="d125151e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d125017e88">
+</th></tr></thead><tbody><tr><td id="d125151e88">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 
 Indicate the terms and conditions that you want to cover by moving them to the **Terms and Conditions List** or removing them.
 
-</td></tr><tr><td id="d125017e100">
+</td></tr><tr><td id="d125151e100">
 
 **Hardware Asset Workspace**
 
@@ -56,7 +56,7 @@ Add or remove terms and conditions from the draft contract.
 -   To remove a term and condition, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d125017e127">
+</td></tr><tr><td id="d125151e127">
 
 **Enterprise Asset Workspace**
 

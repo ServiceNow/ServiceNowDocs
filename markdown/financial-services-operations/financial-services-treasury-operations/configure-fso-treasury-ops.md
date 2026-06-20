@@ -32,15 +32,15 @@ Role required: sn\_bom\_treasury.admin and admin
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d82847e127">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d82981e127">
 
 Task
 
-</th><th align="left" id="d82847e130">
+</th><th align="left" id="d82981e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82847e136">
+</th></tr></thead><tbody><tr><td id="d82981e136">
 
 **Configure service definitions**
 
@@ -48,7 +48,7 @@ Description
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-service-definitions.md) to enable unique flows and views for treasury service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d82847e158">
+</td></tr><tr><td id="d82981e158">
 
 **Edit or create flows**
 
@@ -56,7 +56,7 @@ Description
 
 [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d82847e180">
+</td></tr><tr><td id="d82981e180">
 
 **Configure playbook**
 
@@ -64,7 +64,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d82847e202">
+</td></tr><tr><td id="d82981e202">
 
 **Configure CSM Configurable Workspace**
 
@@ -72,7 +72,7 @@ Description
 
 [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d82847e230">
+</td></tr><tr><td id="d82981e230">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -80,7 +80,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md) to configure SLA timings for treasury service cases and tasks.
 
-</td></tr><tr><td id="d82847e249">
+</td></tr><tr><td id="d82981e249">
 
 **Configure user groups**
 
@@ -88,7 +88,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d82847e268">
+</td></tr><tr><td id="d82981e268">
 
 **Configure assignment rules**
 
@@ -96,7 +96,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d82847e284">
+</td></tr><tr><td id="d82981e284">
 
 **Configure Document Processor**
 

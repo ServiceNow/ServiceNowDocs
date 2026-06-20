@@ -56,15 +56,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author, admin
 
 7.  Configure the AI search result type.
 
-<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d39622e223">
+<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d39756e223">
 
 Option
 
-</th><th align="left" id="d39622e226">
+</th><th align="left" id="d39756e226">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39622e232">
+</th></tr></thead><tbody><tr><td id="d39756e232">
 
 **Map genius result: No**
 
@@ -75,7 +75,7 @@ Steps
 
 This field shows all the source tables mapped to the search profile of your search application configuration.
 
-</td></tr><tr><td id="d39622e261">
+</td></tr><tr><td id="d39756e261">
 
 **Map genius result: Yes**
 
@@ -95,15 +95,15 @@ This field shows return fields of the genius result configuration that is linked
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use the pill picker to supply dynamic values.
 
-<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d39622e314">
+<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d39756e314">
 
 Option
 
-</th><th align="left" id="d39622e317">
+</th><th align="left" id="d39756e317">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39622e323">
+</th></tr></thead><tbody><tr><td id="d39756e323">
 
 **Use a static value**
 
@@ -111,7 +111,7 @@ Steps
 
 Enter a value in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d39622e332">
+</td></tr><tr><td id="d39756e332">
 
 **Use a pill picker**
 

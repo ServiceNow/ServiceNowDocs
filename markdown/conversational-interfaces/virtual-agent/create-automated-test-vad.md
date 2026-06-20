@@ -53,15 +53,15 @@ As you work on a published topic, setup topic, or small talk topic, use the **Te
 
 7.  Perform one of the following actions.
 
-<table id="choicetable_ezr_zt3_w5b"><thead><tr><th align="left" id="d43759e237">
+<table id="choicetable_ezr_zt3_w5b"><thead><tr><th align="left" id="d43893e237">
 
 Option
 
-</th><th align="left" id="d43759e240">
+</th><th align="left" id="d43893e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43759e246">
+</th></tr></thead><tbody><tr><td id="d43893e246">
 
 **Discard the test case**
 
@@ -72,7 +72,7 @@ Description
 
 The test case is discarded and the testing conversation restarts.
 
-</td></tr><tr><td id="d43759e269">
+</td></tr><tr><td id="d43893e269">
 
 **Save the test case**
 

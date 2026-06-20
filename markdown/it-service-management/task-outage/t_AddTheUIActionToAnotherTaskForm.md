@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Modify the **Conditions** field as described in the following examples.
 
-<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d146754e97">
+<table id="choicetable_ayx_s1b_h5"><tbody><tr><td id="d146888e97">
 
 **To add this UI action to the Ticket \[ticket\] table**
 
@@ -40,7 +40,7 @@ Role required: admin
 
 `current.getRecordClassName() == 'incident' || current.getRecordClassName() == 'problem' || current.getRecordClassName() == 'ticket'`
 
-</td></tr><tr><td id="d146754e109">
+</td></tr><tr><td id="d146888e109">
 
 **To use the UI action on only the Problem \[problem\] table**
 

@@ -36,15 +36,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the Now Assist panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d563188e187">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d563322e187">
 
 Launch an alert analysis
 
-</th><th align="left" id="d563188e190">
+</th><th align="left" id="d563322e190">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d563188e196">
+</th></tr></thead><tbody><tr><td id="d563322e196">
 
 **From the list**
 
@@ -60,7 +60,7 @@ The Now Assist panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d563188e237">
+</td></tr><tr><td id="d563322e237">
 
 **From an alert form**
 

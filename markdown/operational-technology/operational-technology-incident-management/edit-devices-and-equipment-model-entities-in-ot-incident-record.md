@@ -32,15 +32,15 @@ Role required: sn\_ot\_incident\_write or sn\_ot\_incident\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d51876e125">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d52010e125">
 
 Action
 
-</th><th align="left" id="d51876e128">
+</th><th align="left" id="d52010e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51876e134">
+</th></tr></thead><tbody><tr><td id="d52010e134">
 
 **Add a related OT device from the incident record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d51876e164">
+</td></tr><tr><td id="d52010e164">
 
 **Remove a related OT device from the incident record**
 

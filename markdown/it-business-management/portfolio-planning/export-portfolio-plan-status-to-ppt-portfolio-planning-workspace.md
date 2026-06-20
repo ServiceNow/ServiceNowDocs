@@ -39,15 +39,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qkd_qrh_bcc"><thead><tr><th align="left" id="d45561e148">
+<table id="choicetable_qkd_qrh_bcc"><thead><tr><th align="left" id="d45695e148">
 
 For exporting this data
 
-</th><th align="left" id="d45561e151">
+</th><th align="left" id="d45695e151">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d45561e157">
+</th></tr></thead><tbody><tr><td id="d45695e157">
 
 **Portfolio plan or roadmap with default settings**
 
@@ -62,7 +62,7 @@ Perform these steps
 
 \[Omitted image "ppt-export-template-ppw.png"\] Alt text: Select a template to export portfolio plan.
 
-</td></tr><tr><td id="d45561e208">
+</td></tr><tr><td id="d45695e208">
 
 **Roadmap or free-form roadmap with customized settings**
 

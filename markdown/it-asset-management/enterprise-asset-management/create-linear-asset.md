@@ -28,15 +28,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_qqz_vqx_kxb"><thead><tr><th align="left" id="d124462e77">
+<table id="choicetable_qqz_vqx_kxb"><thead><tr><th align="left" id="d124596e77">
 
 Field
 
-</th><th align="left" id="d124462e80">
+</th><th align="left" id="d124596e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124462e86">
+</th></tr></thead><tbody><tr><td id="d124596e86">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Unique name of the linear asset.
 
-</td></tr><tr><td id="d124462e95">
+</td></tr><tr><td id="d124596e95">
 
 **Linear asset type**
 
@@ -52,7 +52,7 @@ Unique name of the linear asset.
 
 Type of the linear asset. Select from the list or you can create your own asset type.
 
-</td></tr><tr><td id="d124462e104">
+</td></tr><tr><td id="d124596e104">
 
 **Description**
 
@@ -60,7 +60,7 @@ Type of the linear asset. Select from the list or you can create your own asset 
 
 Description of the linear asset.
 
-</td></tr><tr><td id="d124462e113">
+</td></tr><tr><td id="d124596e113">
 
 **Location**
 
@@ -68,7 +68,7 @@ Description of the linear asset.
 
 Vicinity of your linear asset. To draw a linear asset, select the Geomap icon to display the map. After you enter the location, the map will properly focus and zoom to that vicinity.For more information on using the Geomap icon to connect geo coordinate points on a map, watch this short video
 
-</td></tr><tr><td id="d124462e125">
+</td></tr><tr><td id="d124596e125">
 
 **Boundary width**
 
@@ -78,7 +78,7 @@ Boundary width of the linear asset.
 
  The boundary width helps in associating discrete assets with linear assets. The discrete asset's location must fall within the linear asset's boundary widths. For example, if the boundary width of a linear asset is 500 feet, a discrete asset can be associated to it only if the discrete asset is within 250 feet of that linear asset.
 
-</td></tr><tr><td id="d124462e140">
+</td></tr><tr><td id="d124596e140">
 
 **Width unit**
 
@@ -86,7 +86,7 @@ Boundary width of the linear asset.
 
 The width of the linear asset in units.
 
-</td></tr><tr><td id="d124462e149">
+</td></tr><tr><td id="d124596e149">
 
 **Length unit**
 
@@ -94,7 +94,7 @@ The width of the linear asset in units.
 
 The unit the length of the linear asset is measured in.
 
-</td></tr><tr><td id="d124462e158">
+</td></tr><tr><td id="d124596e158">
 
 **Length**
 
@@ -102,7 +102,7 @@ The unit the length of the linear asset is measured in.
 
 The length of the linear asset. This input field is optional. If it isn’t filled out, it’s calculated using the coordinates.
 
-</td></tr><tr><td id="d124462e167">
+</td></tr><tr><td id="d124596e167">
 
 **Start marker**
 
@@ -110,7 +110,7 @@ The length of the linear asset. This input field is optional. If it isn’t fill
 
 The start point of the linear asset.
 
-</td></tr><tr><td id="d124462e176">
+</td></tr><tr><td id="d124596e176">
 
 **End marker**
 
@@ -118,7 +118,7 @@ The start point of the linear asset.
 
 The end point of the linear asset.
 
-</td></tr><tr><td id="d124462e186">
+</td></tr><tr><td id="d124596e186">
 
 **Coordinates**
 

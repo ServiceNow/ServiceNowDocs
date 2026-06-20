@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d586511e83">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d586645e83">
 
 Option
 
-</th><th align="left" id="d586511e86">
+</th><th align="left" id="d586645e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586511e92">
+</th></tr></thead><tbody><tr><td id="d586645e92">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d586511e121">
+</td></tr><tr><td id="d586645e121">
 
 **As a collaborator**
 
@@ -105,15 +105,15 @@ The state and the Contract status of the contract request is Work in progress.
 
 12. Add the internal or external signatories needed for e-signatures on the contract.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d586511e374">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d586645e374">
 
 Option
 
-</th><th align="left" id="d586511e377">
+</th><th align="left" id="d586645e377">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586511e383">
+</th></tr></thead><tbody><tr><td id="d586645e383">
 
 **Internal**
 
@@ -123,7 +123,7 @@ Steps
 2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value must be unique. For example: Enter the order numbers as 10, 20, 30, and so on, increasing by 10 each time. The system starts sending the contract to the internal signer with the lowest number.
 
 
-</td></tr><tr><td id="d586511e416">
+</td></tr><tr><td id="d586645e416">
 
 **External**
 
@@ -140,15 +140,15 @@ Steps
 
     The action you take depends on the signature type.
 
-<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d586511e468">
+<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d586645e468">
 
 Signature type
 
-</th><th align="left" id="d586511e471">
+</th><th align="left" id="d586645e471">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d586511e477">
+</th></tr></thead><tbody><tr><td id="d586645e477">
 
 **Electronic signature**
 
@@ -161,7 +161,7 @@ The document opens on the configured e-signature portal.
 2.  In the e-signature portal, complete the document by adding the required fields, including the **Signature** field, and then select **Send**.
  An e-signature envelope is created and sent to all signatories. If the system receives a success notification from the e-signature provider, the state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d586511e512">
+</td></tr><tr><td id="d586645e512">
 
 **Wet signature**
 
@@ -169,7 +169,7 @@ The document opens on the configured e-signature portal.
 
 Select **Send for signature**. A signature request email is sent to all the signatories. The state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d586511e527">
+</td></tr><tr><td id="d586645e527">
 
 **Offline signature**
 

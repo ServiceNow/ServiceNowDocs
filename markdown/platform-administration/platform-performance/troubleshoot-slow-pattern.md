@@ -48,7 +48,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 6.  To access additional helpful information for troubleshooting, add the Referenced Scripts and Related Slow Patterns related lists.
 
-<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d122402e171">
+<table id="choicetable_f4t_kdp_cvb"><tbody><tr><td id="d122536e171">
 
 **Slow scripts**
 
@@ -58,7 +58,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 2.  Change the form view by selecting **View** &gt; **Slow Script Insights**.
 
 
-</td></tr><tr><td id="d122402e201">
+</td></tr><tr><td id="d122536e201">
 
 **Slow queries**
 

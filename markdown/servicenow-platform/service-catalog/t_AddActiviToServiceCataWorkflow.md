@@ -89,7 +89,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 6.  Drag the activity **Create Task** onto the arrow between **Procurement** and **End**, and then fill in the form.
 
-<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d276297e469">
+<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d276431e469">
 
 **Name**
 
@@ -97,7 +97,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 Set Up Laptop
 
-</td></tr><tr><td id="d276297e478">
+</td></tr><tr><td id="d276431e478">
 
 **Stage**
 
@@ -105,7 +105,7 @@ Set Up Laptop
 
 Fulfillment
 
-</td></tr><tr><td id="d276297e487">
+</td></tr><tr><td id="d276431e487">
 
 **Task Type**
 
@@ -113,7 +113,7 @@ Fulfillment
 
 Catalog Task
 
-</td></tr><tr><td id="d276297e496">
+</td></tr><tr><td id="d276431e496">
 
 **Priority**
 
@@ -121,7 +121,7 @@ Catalog Task
 
 3 - Moderate
 
-</td></tr><tr><td id="d276297e505">
+</td></tr><tr><td id="d276431e505">
 
 **Fulfillment Group**
 
@@ -129,7 +129,7 @@ Catalog Task
 
 Hardware
 
-</td></tr><tr><td id="d276297e515">
+</td></tr><tr><td id="d276431e515">
 
 **Short Description**
 

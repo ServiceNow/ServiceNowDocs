@@ -7,7 +7,7 @@ release: zurich
 product: Security Operations
 classification: security-operations
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Implement, Unified Security Exposure Management, Security Operations]
 ---

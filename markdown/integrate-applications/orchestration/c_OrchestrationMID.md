@@ -1,0 +1,43 @@
+---
+title: MID Servers for Orchestration
+description: Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/orchestration/c\_OrchestrationMID.html
+release: zurich
+product: Orchestration
+classification: orchestration
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Classic Orchestration, Workflow Data Fabric]
+---
+
+# MID Servers for Orchestration
+
+Orchestration automatically selects an appropriate MID Server based on the capabilities that you configure in activities, the IP addresses of target devices, and the application that the MID Server is allowed to use.
+
+To allow a MID Server to work with Orchestration, it must have the **Orchestration** application or the **ALL** application assigned to it. See Configure a default MID Server for each application for instructions.
+
+You can have MID Servers focus on different capabilities and separate sections of your network. See:
+
+-   MID Server capabilities
+-   Map an IP address to a DNS name
+
+You can also specify a default MID Server to use if no MID Servers meet the capability and IP range criteria for an activity. See [Select the default MID Server for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
+
+-   **[MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+MID Server capabilities define the specific functions of a MID Server within an IP address range.
+-   **[Select the default MID Server for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+Orchestration uses the default MID Server if it cannot find a MID Server with the correct IP range and capability.
+-   **[PowerShell probe version 2 system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/powershell-probe-v2.md)**  
+View detailed PowerShell credential information and view extended logging information.
+-   **[PowerShell log property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/powershell-log-property.md)**  
+Enable debug messages to display from PowerShell.
+
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/orchestration/r-orchestration.md)
+
+**Related topics**  
+
+
+[bundle-platcap.r_MIDServerCapabilities]
+

@@ -7,7 +7,7 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

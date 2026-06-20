@@ -37,15 +37,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 4.  Specify any number of attributes for the question and select **Save** after every change.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210587e141">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210978e141">
 
 Attribute
 
-</th><th align="left" id="d210587e144">
+</th><th align="left" id="d210978e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210587e150">
+</th></tr></thead><tbody><tr><td id="d210978e150">
 
 **Required**
 
@@ -53,7 +53,7 @@ Description
 
 If the assessor must answer the question in order to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d210587e167">
+</td></tr><tr><td id="d210978e167">
 
 **Conditionally visible**
 
@@ -67,7 +67,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d210587e196">
+</td></tr><tr><td id="d210978e196">
 
 **Justification**
 
@@ -79,7 +79,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d210587e222">
+</td></tr><tr><td id="d210978e222">
 
 **Attachments**
 
@@ -96,7 +96,7 @@ Use the condition builder to specify the conditions. The values that you specify
 </td></tr></tbody>
 </table>5.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210587e274">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210978e274">
 
 **Question description**
 
@@ -108,7 +108,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d210587e299">
+</td></tr><tr><td id="d210978e299">
 
 **Guidance**
 

@@ -28,7 +28,7 @@ Role required: security\_admin.
 
 2.  Add an access control record with the following information.
 
-<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d159771e106">
+<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d159905e106">
 
 **_Type_**
 
@@ -36,7 +36,7 @@ Role required: security\_admin.
 
 `record`
 
-</td></tr><tr><td id="d159771e121">
+</td></tr><tr><td id="d159905e121">
 
 **_Operation_**
 
@@ -44,7 +44,7 @@ Role required: security\_admin.
 
 ``report_on``
 
-</td></tr><tr><td id="d159771e139">
+</td></tr><tr><td id="d159905e139">
 
 **_Name_ \(table\)**
 

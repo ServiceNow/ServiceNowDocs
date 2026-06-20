@@ -28,15 +28,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d74838e80">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d74972e80">
 
 Field
 
-</th><th align="left" id="d74838e83">
+</th><th align="left" id="d74972e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74838e89">
+</th></tr></thead><tbody><tr><td id="d74972e89">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Enter a descriptive name to identify the location.
 
-</td></tr><tr><td id="d74838e98">
+</td></tr><tr><td id="d74972e98">
 
 **Street Address**
 
@@ -52,7 +52,7 @@ Enter a descriptive name to identify the location.
 
 The street address that this location describes. This property includes all aspects or parts of the street address.
 
-</td></tr><tr><td id="d74838e107">
+</td></tr><tr><td id="d74972e107">
 
 **City**
 
@@ -60,7 +60,7 @@ The street address that this location describes. This property includes all aspe
 
 The city that this location is in.
 
-</td></tr><tr><td id="d74838e116">
+</td></tr><tr><td id="d74972e116">
 
 **Postal Code**
 
@@ -68,7 +68,7 @@ The city that this location is in.
 
 The postal code that this location is in.
 
-</td></tr><tr><td id="d74838e126">
+</td></tr><tr><td id="d74972e126">
 
 **Region**
 
@@ -76,7 +76,7 @@ The postal code that this location is in.
 
 The region that this location is in.
 
-</td></tr><tr><td id="d74838e135">
+</td></tr><tr><td id="d74972e135">
 
 **Country**
 
@@ -84,7 +84,7 @@ The region that this location is in.
 
 The country that this location is in.
 
-</td></tr><tr><td id="d74838e144">
+</td></tr><tr><td id="d74972e144">
 
 **Latitude**
 
@@ -92,7 +92,7 @@ The country that this location is in.
 
 The latitude of the Location in decimal degrees. Positive numbers describe latitudes north of the equator, and negative numbers describe latitudes south of the equator. The value of this property must be from -90.0 through 90.0 respectively.
 
-</td></tr><tr><td id="d74838e156">
+</td></tr><tr><td id="d74972e156">
 
 **Longitude**
 
@@ -100,7 +100,7 @@ The latitude of the Location in decimal degrees. Positive numbers describe latit
 
 The longitude of the location in decimal degrees. Positive numbers describe longitudes east of the prime meridian and negative numbers describe longitudes west of the prime meridian. The value of this property must be from -180.0 through 180.0, inclusive.
 
-</td></tr><tr><td id="d74838e168">
+</td></tr><tr><td id="d74972e168">
 
 **Source**
 
@@ -108,7 +108,7 @@ The longitude of the location in decimal degrees. Positive numbers describe long
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d74838e177">
+</td></tr><tr><td id="d74972e177">
 
 **Description**
 
@@ -116,7 +116,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the intrusion set, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d74838e187">
+</td></tr><tr><td id="d74972e187">
 
 **Source ID**
 
@@ -124,7 +124,7 @@ A description that provides more details and context about the intrusion set, po
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d74838e196">
+</td></tr><tr><td id="d74972e196">
 
 **Created Time in Source**
 
@@ -132,7 +132,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d74838e205">
+</td></tr><tr><td id="d74972e205">
 
 **Modified Time in Source**
 

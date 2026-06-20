@@ -52,15 +52,15 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
 8.  After confirming that you received all required information, navigate to the third-party element list by using one of the following options.
 
-<table id="choicetable_kwv_3zd_43c"><thead><tr><th align="left" id="d88389e200">
+<table id="choicetable_kwv_3zd_43c"><thead><tr><th align="left" id="d88523e200">
 
 Option
 
-</th><th align="left" id="d88389e203">
+</th><th align="left" id="d88523e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88389e209">
+</th></tr></thead><tbody><tr><td id="d88523e209">
 
 **Third-party elements list**
 
@@ -68,7 +68,7 @@ Description
 
 Select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Third-party Elements** &gt; **All third-party elements**.
 
-</td></tr><tr><td id="d88389e232">
+</td></tr><tr><td id="d88523e232">
 
 **Engagement record**
 

@@ -41,15 +41,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 5.  Specify any number of attributes for the question.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210597e145">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d210988e145">
 
 Attribute
 
-</th><th align="left" id="d210597e148">
+</th><th align="left" id="d210988e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210597e154">
+</th></tr></thead><tbody><tr><td id="d210988e154">
 
 **Required**
 
@@ -57,7 +57,7 @@ Description
 
 If the assessor must answer the question in order to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d210597e171">
+</td></tr><tr><td id="d210988e171">
 
 **Conditionally visible**
 
@@ -71,7 +71,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d210597e200">
+</td></tr><tr><td id="d210988e200">
 
 **Justification**
 
@@ -83,7 +83,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d210597e226">
+</td></tr><tr><td id="d210988e226">
 
 **Attachments**
 
@@ -97,7 +97,7 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d210597e263">
+</td></tr><tr><td id="d210988e263">
 
 **Set character limit**
 
@@ -109,7 +109,7 @@ Option for the code type question.
 
  Default: 4000.
 
-</td></tr><tr><td id="d210597e281">
+</td></tr><tr><td id="d210988e281">
 
 **Specify preferred answers**
 
@@ -124,7 +124,7 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
 7.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210597e330">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d210988e330">
 
 **Question description**
 
@@ -136,7 +136,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d210597e355">
+</td></tr><tr><td id="d210988e355">
 
 **Guidance**
 

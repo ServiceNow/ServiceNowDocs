@@ -30,15 +30,15 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
     When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/map-missing-custom-table-sub-mgt.md)
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d43420e145">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d43554e145">
 
 Option
 
-</th><th align="left" id="d43420e148">
+</th><th align="left" id="d43554e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43420e154">
+</th></tr></thead><tbody><tr><td id="d43554e154">
 
 **Map to a recommended product**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d43420e181">
+</td></tr><tr><td id="d43554e181">
 
 **Map to a product of your choice**
 
@@ -61,7 +61,7 @@ Description
 4.  Repeat these steps for each remaining unmapped table.
 
 
-</td></tr><tr><td id="d43420e211">
+</td></tr><tr><td id="d43554e211">
 
 **Manually map to a product through the Custom Applications table**
 

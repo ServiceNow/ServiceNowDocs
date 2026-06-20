@@ -44,7 +44,7 @@ The following procedure covers step one of four steps in the Translation Request
 
 4.  Select target languages or language groups according to the following guidance.
 
-<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d69511e157">
+<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d69828e157">
 
 **Language**
 
@@ -54,7 +54,7 @@ To select an individual language:1.  In the **Target language** field, select an
 2.  In the **Translation provider** field, select a name from the list of providers available for the language you chose.
  You can add more than one language to a request.
 
-</td></tr><tr><td id="d69511e181">
+</td></tr><tr><td id="d69828e181">
 
 **Groups**
 

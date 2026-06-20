@@ -50,7 +50,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 9.  In the **Pursue recovery** drop-down, select one of the following.
 
-<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d77072e217">
+<table id="choicetable_gwh_bjs_3fcc"><tbody><tr><td id="d77206e217">
 
 **Yes**
 
@@ -58,7 +58,7 @@ Recovery option task to choose whether to pursue chargeback for a transaction wh
 
 The relevant tasks for the transaction trigger for the **Chargeback** stage.
 
-</td></tr><tr><td id="d77072e229">
+</td></tr><tr><td id="d77206e229">
 
 **No**
 

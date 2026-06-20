@@ -89,15 +89,15 @@ You can modify the context and attributes for service channels in AWA. For the S
 
 1.  Configure the Social Benefit Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23981e457">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d24115e457">
 
 Options
 
-</th><th align="left" id="d23981e460">
+</th><th align="left" id="d24115e460">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23981e466">
+</th></tr></thead><tbody><tr><td id="d24115e466">
 
 **Enable the Social Benefit Request service channel**
 
@@ -110,7 +110,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23981e523">
+</td></tr><tr><td id="d24115e523">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -130,7 +130,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23981e605">
+</td></tr><tr><td id="d24115e605">
 
 **Configure the Social Benefit Requests queue**
 
@@ -144,7 +144,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see Create a work item queue.
 
-</td></tr><tr><td id="d23981e657">
+</td></tr><tr><td id="d24115e657">
 
 **Change Inbox card layouts for Social Benefit request items in CSM Configurable Workspace**
 
@@ -193,15 +193,15 @@ You can modify the context and attributes for service channels in AWA. For the L
 
 1.  Configure the License and Permits Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23981e916">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d24115e916">
 
 Options
 
-</th><th align="left" id="d23981e919">
+</th><th align="left" id="d24115e919">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23981e925">
+</th></tr></thead><tbody><tr><td id="d24115e925">
 
 **Enable the License and Permit Request service channel**
 
@@ -214,7 +214,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23981e982">
+</td></tr><tr><td id="d24115e982">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -234,7 +234,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23981e1064">
+</td></tr><tr><td id="d24115e1064">
 
 **Configure the License and Permit Requests queue**
 
@@ -248,7 +248,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see Create a work item queue.
 
-</td></tr><tr><td id="d23981e1116">
+</td></tr><tr><td id="d24115e1116">
 
 **Change Inbox card layouts for License and Permits request items in CSM Configurable Workspace**
 
@@ -298,15 +298,15 @@ You can modify the context and attributes for service channels in AWA. For the I
 
 1.  Configure the Information Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23981e1384">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d24115e1384">
 
 Options
 
-</th><th align="left" id="d23981e1387">
+</th><th align="left" id="d24115e1387">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23981e1393">
+</th></tr></thead><tbody><tr><td id="d24115e1393">
 
 **Enable the Information Request service channel**
 
@@ -319,7 +319,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d23981e1450">
+</td></tr><tr><td id="d24115e1450">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -339,7 +339,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23981e1528">
+</td></tr><tr><td id="d24115e1528">
 
 **Configure the Information Requests queue**
 
@@ -353,7 +353,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see Create a work item queue.
 
-</td></tr><tr><td id="d23981e1576">
+</td></tr><tr><td id="d24115e1576">
 
 **Change Inbox card layouts for information request items in CSM Configurable Workspace**
 
@@ -403,15 +403,15 @@ You can modify the context and attributes for service channels in AWA. For the S
 
 1.  Configure the Service Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d23981e1845">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d24115e1845">
 
 Options
 
-</th><th align="left" id="d23981e1848">
+</th><th align="left" id="d24115e1848">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d23981e1854">
+</th></tr></thead><tbody><tr><td id="d24115e1854">
 
 **Enable the Service Request service channel**
 
@@ -423,7 +423,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d23981e1905">
+</td></tr><tr><td id="d24115e1905">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -443,7 +443,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d23981e1983">
+</td></tr><tr><td id="d24115e1983">
 
 **Configure the Public Service Requests queue**
 
@@ -457,7 +457,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see Create a work item queue.
 
-</td></tr><tr><td id="d23981e2031">
+</td></tr><tr><td id="d24115e2031">
 
 **Change Inbox card layouts for service request items in CSM Configurable Workspace**
 

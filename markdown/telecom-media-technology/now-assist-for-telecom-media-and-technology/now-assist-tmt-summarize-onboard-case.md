@@ -57,15 +57,15 @@ If there’s enough data, the Account Onboarding Case summary component displays
 
 4.  After you're finished summarizing an account onboarding case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23475e169">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23609e169">
 
 Option
 
-</th><th align="left" id="d23475e172">
+</th><th align="left" id="d23609e172">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23475e178">
+</th></tr></thead><tbody><tr><td id="d23609e178">
 
 **View more or less summary details**
 
@@ -75,7 +75,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23475e208">
+</td></tr><tr><td id="d23609e208">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23475e241">
+</td></tr><tr><td id="d23609e241">
 
 **Copy the summary**
 
@@ -93,7 +93,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23475e256">
+</td></tr><tr><td id="d23609e256">
 
 **View the information about the summary**
 

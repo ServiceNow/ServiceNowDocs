@@ -73,7 +73,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 5.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d156285e246">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d156419e246">
 
 **To add an existing document block to the template**
 
@@ -81,7 +81,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d156285e258">
+</td></tr><tr><td id="d156419e258">
 
 **To add a new document block to the template**
 

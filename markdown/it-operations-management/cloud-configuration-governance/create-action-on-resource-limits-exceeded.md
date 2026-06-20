@@ -60,15 +60,15 @@ The **On resource limit exceeded** base system policy action has a default Servi
 
     2.  Click **Create** next to the action you want to occur when the quota is exceeded.
 
-<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d185697e260">
+<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d185831e260">
 
 Option
 
-</th><th align="left" id="d185697e263">
+</th><th align="left" id="d185831e263">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d185697e269">
+</th></tr></thead><tbody><tr><td id="d185831e269">
 
 **ServiceNow Approval**
 
@@ -79,7 +79,7 @@ Steps
 3.  Select the **Assignment group** to which this action applies.
 
 
-</td></tr><tr><td id="d185697e309">
+</td></tr><tr><td id="d185831e309">
 
 **Custom Approval**
 
@@ -89,7 +89,7 @@ Steps
 2.  Select an existing custom workflow in the **Subflow** field.
 
 
-</td></tr><tr><td id="d185697e340">
+</td></tr><tr><td id="d185831e340">
 
 **Send aNotification**
 

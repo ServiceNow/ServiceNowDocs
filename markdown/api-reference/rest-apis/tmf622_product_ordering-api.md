@@ -6285,7 +6285,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3138e1764">
+</td><td id="d4332e1764">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -7337,7 +7337,7 @@ Default: Blank string
 
 externalSystem
 
-</td><td id="d3138e1569">
+</td><td id="d4332e1569">
 
 External system of the service order, appended with `TMF622`. For example, if the external system is ABC then enter the value in **externalSystem** as `ABC-TMF622`.
 

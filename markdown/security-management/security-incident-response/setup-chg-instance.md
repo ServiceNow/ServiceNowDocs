@@ -42,15 +42,15 @@ This ServiceNow extension addon is required so that security incidents can be cr
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d452455e155">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d452589e155">
 
 Field
 
-</th><th align="left" id="d452455e158">
+</th><th align="left" id="d452589e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d452455e164">
+</th></tr></thead><tbody><tr><td id="d452589e164">
 
 **URL**
 
@@ -58,7 +58,7 @@ Description
 
 URL of the ServiceNow instance for your Splunk Enterprise Security console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d452455e182">
+</td></tr><tr><td id="d452589e182">
 
 **Auth type**
 
@@ -68,7 +68,7 @@ Authentication method to be used for API requests. The available options include
 -   **OAuth 2.0 Authentication**: Uses access tokens to authenticate requests.
 
 
-</td></tr><tr><td id="d452455e203">
+</td></tr><tr><td id="d452589e203">
 
 **Basic Authentication**
 
@@ -76,7 +76,7 @@ Authentication method to be used for API requests. The available options include
 
  
 
-</td></tr><tr><td id="d452455e211">
+</td></tr><tr><td id="d452589e211">
 
 **Username**
 
@@ -84,7 +84,7 @@ Authentication method to be used for API requests. The available options include
 
 Username of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) role should be present in the ServiceNow instance specified in the preceding URL field.
 
-</td></tr><tr><td id="d452455e226">
+</td></tr><tr><td id="d452589e226">
 
 **Password**
 
@@ -92,7 +92,7 @@ Username of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) 
 
 Password of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) role should be present in the ServiceNow instance specified in the preceding URL field.
 
-</td></tr><tr><td id="d452455e240">
+</td></tr><tr><td id="d452589e240">
 
 **Confirm Password**
 
@@ -100,7 +100,7 @@ Password of the user.User with the \(sn\_si.integration\_user, sn\_si.analyst\) 
 
 Renter the password to confirm it.
 
-</td></tr><tr><td id="d452455e249">
+</td></tr><tr><td id="d452589e249">
 
 **OAuth 2.0 Authentication**
 
@@ -108,7 +108,7 @@ Renter the password to confirm it.
 
  
 
-</td></tr><tr><td id="d452455e257">
+</td></tr><tr><td id="d452589e257">
 
 **Client ID**
 
@@ -116,7 +116,7 @@ Renter the password to confirm it.
 
 Client ID of the app created on the ServiceNow Server. For information on how to get the Client ID, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-application-registry-splunk.md)
 
-</td></tr><tr><td id="d452455e275">
+</td></tr><tr><td id="d452589e275">
 
 **Client Secret**
 
@@ -124,7 +124,7 @@ Client ID of the app created on the ServiceNow Server. For information on how to
 
 Client Secret of the app created on the ServiceNow Server. For information on how to get the Client Secret, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configure-application-registry-splunk.md)
 
-</td></tr><tr><td id="d452455e293">
+</td></tr><tr><td id="d452589e293">
 
 **Redirect URL**
 
@@ -132,7 +132,7 @@ Client Secret of the app created on the ServiceNow Server. For information on ho
 
 The URL to be redirected to. Copy and paste this URL in the redirect URL field of the Application Registries record.
 
-</td></tr><tr><td id="d452455e305">
+</td></tr><tr><td id="d452589e305">
 
 **Optional Proxy**
 
@@ -140,7 +140,7 @@ The URL to be redirected to. Copy and paste this URL in the redirect URL field o
 
  
 
-</td></tr><tr><td id="d452455e313">
+</td></tr><tr><td id="d452589e313">
 
 **Proxy URL**
 
@@ -148,7 +148,7 @@ The URL to be redirected to. Copy and paste this URL in the redirect URL field o
 
 Proxy URL for your Splunk Enterprise Security console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d452455e328">
+</td></tr><tr><td id="d452589e328">
 
 **Port**
 
@@ -156,7 +156,7 @@ Proxy URL for your Splunk Enterprise Security console or Splunk Cloud instance.
 
 Address of the port.
 
-</td></tr><tr><td id="d452455e337">
+</td></tr><tr><td id="d452589e337">
 
 **Username**
 
@@ -164,7 +164,7 @@ Address of the port.
 
 Username that you created for the Proxy account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d452455e349">
+</td></tr><tr><td id="d452589e349">
 
 **Password**
 
@@ -172,7 +172,7 @@ Username that you created for the Proxy account on the Splunk Enterprise Securit
 
 Password that you created for the Proxy account on the Splunk Enterprise Security console.
 
-</td></tr><tr><td id="d452455e361">
+</td></tr><tr><td id="d452589e361">
 
 **Confirm Password**
 
@@ -180,7 +180,7 @@ Password that you created for the Proxy account on the Splunk Enterprise Securit
 
 Renter the password to confirm it.
 
-</td></tr><tr><td id="d452455e371">
+</td></tr><tr><td id="d452589e371">
 
 **Logging Level Setup**
 
@@ -188,7 +188,7 @@ Renter the password to confirm it.
 
  
 
-</td></tr><tr><td id="d452455e379">
+</td></tr><tr><td id="d452589e379">
 
 **Logging Level**
 
@@ -200,7 +200,7 @@ The level of reporting logs generated by the integration, meaning the name of th
 -   **debug**
  By default, the value is **info**.
 
-</td></tr><tr><td id="d452455e413">
+</td></tr><tr><td id="d452589e413">
 
 **API Selection**
 
@@ -208,7 +208,7 @@ The level of reporting logs generated by the integration, meaning the name of th
 
  
 
-</td></tr><tr><td id="d452455e421">
+</td></tr><tr><td id="d452589e421">
 
 **API Selection**
 

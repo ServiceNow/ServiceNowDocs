@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d52303e81">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d52437e81">
 
 Browser
 
-</th><th align="left" id="d52303e84">
+</th><th align="left" id="d52437e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d52303e90">
+</th></tr></thead><tbody><tr><td id="d52437e90">
 
 **Google Chrome**
 
@@ -51,7 +51,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d52303e124">
+</td></tr><tr><td id="d52437e124">
 
 **Microsoft Edge**
 

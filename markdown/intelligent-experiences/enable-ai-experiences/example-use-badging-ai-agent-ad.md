@@ -117,15 +117,15 @@ The Execution workspace returns to the ready state.
 
 6.  Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d55927e413">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d56061e413">
 
 Option
 
-</th><th align="left" id="d55927e416">
+</th><th align="left" id="d56061e416">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55927e422">
+</th></tr></thead><tbody><tr><td id="d56061e422">
 
 **Fit to window**
 
@@ -133,7 +133,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d55927e435">
+</td></tr><tr><td id="d56061e435">
 
 **Original resolution**
 

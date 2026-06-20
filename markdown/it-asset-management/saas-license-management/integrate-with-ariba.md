@@ -202,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the SAP Ariba i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d88459e797">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d88593e797">
 
 Interface
 
-</th><th align="left" id="d88459e800">
+</th><th align="left" id="d88593e800">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88459e806">
+</th></tr></thead><tbody><tr><td id="d88593e806">
 
 **Core UI**
 
@@ -221,7 +221,7 @@ Action
 3.  Select **SAP Ariba Integration Profile**.
 
 
-</td></tr><tr><td id="d88459e848">
+</td></tr><tr><td id="d88593e848">
 
 **Software Asset Workspace**
 

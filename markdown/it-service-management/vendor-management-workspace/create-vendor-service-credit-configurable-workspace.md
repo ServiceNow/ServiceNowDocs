@@ -66,15 +66,15 @@ You must have the sn\_incident\_read role enabled to view service credit reports
 
 3.  Create a service credit from a vendor, incident, outage, or a service offering.
 
-<table id="choicetable_qb5_n35_1pb"><thead><tr><th align="left" id="d154378e147">
+<table id="choicetable_qb5_n35_1pb"><thead><tr><th align="left" id="d154512e147">
 
 To create a service credit
 
-</th><th align="left" id="d154378e150">
+</th><th align="left" id="d154512e150">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d154378e156">
+</th></tr></thead><tbody><tr><td id="d154512e156">
 
 **From a vendor**
 
@@ -86,7 +86,7 @@ Do this
 4.  Click the **Service Credit** tab.
 
 
-</td></tr><tr><td id="d154378e186">
+</td></tr><tr><td id="d154512e186">
 
 **From an incident, outage, or service availability**
 

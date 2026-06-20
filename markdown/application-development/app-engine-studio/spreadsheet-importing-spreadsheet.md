@@ -61,7 +61,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 8.  Based on what you would like to do with your spreadsheet data, navigate to one of the following procedures to continue.
 
-<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d44805e230">
+<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d44939e230">
 
 **Create a new table directly from the spreadsheet import**
 
@@ -69,7 +69,7 @@ Role required: sn\_app\_eng\_studio.user, sn\_app\_eng\_studio.admin, or delegat
 
 Refer to [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-table.md) for next steps.
 
-</td></tr><tr><td id="d44805e249">
+</td></tr><tr><td id="d44939e249">
 
 **Create a new table by extending an existing table, and then using the spreadsheet import to update it**
 
@@ -77,7 +77,7 @@ Refer to [Create new table from spreadsheet import](https://raw.githubuserconten
 
 Refer to [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) for next steps.
 
-</td></tr><tr><td id="d44805e268">
+</td></tr><tr><td id="d44939e268">
 
 **Use spreadsheet import to update an existing application table**
 

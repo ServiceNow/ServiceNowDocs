@@ -104,15 +104,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41439e485">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41573e485">
 
 Interface
 
-</th><th align="left" id="d41439e488">
+</th><th align="left" id="d41573e488">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41439e494">
+</th></tr></thead><tbody><tr><td id="d41573e494">
 
 **Core UI**
 
@@ -123,7 +123,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d41439e536">
+</td></tr><tr><td id="d41573e536">
 
 **Software Asset Workspace**
 
