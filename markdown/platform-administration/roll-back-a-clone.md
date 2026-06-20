@@ -2,6 +2,7 @@
 title: Roll back a clone
 description: Return a clone target to its state before the latest cloning. Roll back cloning if something went wrong in the cloning process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/roll-back-a-clone.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ Rollbacks remove the latest cloning updates on a cloning target. You can only ro
 
     The **Rollback Clone** modal displays.
 
-    ![Why roll back clone?](../image/rollback-clone-telemetry.png)
+    \[Omitted image "rollback-clone-telemetry.png"\] Alt text: Why roll back clone?
 
 4.  In **Specify Reason**, select a reason for the rollback and click **OK**, or select **Others**, enter a reason in the text box and click **OK**.
 

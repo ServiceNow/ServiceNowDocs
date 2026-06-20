@@ -2,6 +2,7 @@
 title: Administer gamification
 description: Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/communities-gamification-administer.html
 release: xanadu
 product: Communities
 classification: communities
@@ -15,18 +16,18 @@ breadcrumb: [Gamification, Communities, Customer Service Management]
 
 Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
 
--   **[Configure gamification properties](../task/gamification-configure-properties.md)**  
+-   **[Configure gamification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-configure-properties.md)**  
 Configure gamification properties to meet your company's needs.
--   **[Create a gamification rule](../task/gamification-create-rule.md)**  
+-   **[Create a gamification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-create-rule.md)**  
 Create gamification rules so that users can earn points for community activities.
--   **[Create a gamification track](../task/gamification-create-track.md)**  
+-   **[Create a gamification track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-create-track.md)**  
 Create tracks to provide a logical way to separate points assigned in the communities into different areas.
--   **[Create a gamification badge](../task/gamification-create-badge.md)**  
+-   **[Create a gamification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-create-badge.md)**  
 Create gamification badges that users can earn for achievements within the community.
--   **[Manage gamification levels](../task/gamification-create-level-def.md)**  
+-   **[Manage gamification levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-create-level-def.md)**  
 Manage the predefined levels for global, forum, and topic expertise.
--   **[Manage gamification level ranges](../task/gamification-create-level-range.md)**  
+-   **[Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-create-level-range.md)**  
 Manage level ranges for a gamification level definition, to recognize the expertise level of your community users.
 
-**Parent Topic:**[Gamification](communities-gamification.md)
+**Parent Topic:**[Gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/communities-gamification.md)
 

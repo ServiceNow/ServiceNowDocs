@@ -2,6 +2,7 @@
 title: Configurable pricing plans
 description: Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/configuring-pricing-plan.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,15 +22,15 @@ The default pricing plan is an active, published plan that is automatically impl
 
 **Note:** If you upgraded to the November 2024 release, there is no change in pricing calculations or pricing logic with the pricing plan. If you don't change anything with the pricing plan, the pricing calculations occur exactly as before the upgrade.
 
-![Sequence of steps in the default pricing plan, described in the following table](../image/default-pp-steps.png "Default Pricing Plan steps")
+\[Omitted image "default-pp-steps.png"\] Alt text: Sequence of steps in the default pricing plan, described in the following table
 
 The default plan consists of basic pricing steps in which certain actions are run to calculate product offering prices.
 
 |Step|Action|
 |----|------|
 |Initialize Pricing Context|Starts the pricing engine context. The system gathers basic data required for subsequent calculation steps. For example, the system resolves context variable values, initializes the pricing cache, and performs basic validation of request payloads.|
-|Fetch Cost|Get costs from a [cost book](../task/create-cost-books.md), if your organization is using cost books in Quote Management.|
-|Fetch Price List Price|Get the list price for all requested products based on the [price list](../task/som-create-price-list.md), unit of measurement, and data provided to the pricing API.|
+|Fetch Cost|Get costs from a [cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-cost-books.md), if your organization is using cost books in Quote Management.|
+|Fetch Price List Price|Get the list price for all requested products based on the [price list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-price-list.md), unit of measurement, and data provided to the pricing API.|
 |Apply Attribute Adjustments|Apply attribute adjustments based on product characteristics selected.|
 |Apply configuration component adjustment|Apply adjustments as defined in the Configuration Component Price Adjustment Matrix for child product offerings that are bundled under a parent product offering.|
 |Apply contextual adjustments|Apply adjustments as defined in the Standard Price Adjustment Matrix for product offerings based on non-product characteristics, such as billing state or shipping zip code.|
@@ -46,7 +47,7 @@ For the configuration component adjustments, contextual adjustments, and custom 
 
 The following example shows how multiple pricing adjustments in a pricing plan are calculated and applied to a door sensor product. The door sensor is part of the Home Automation bundled product, which is being sold to Boxeo, a customer in California. The price of the door sensor is based on the price list for Boxeo.
 
-![Table that shows how pricing adjustments are calculated for a door sensor product, using the list price and previous price point and rolling calculations.](../image/pricing-plan-example.png "Pricing plan calculations for a product")
+\[Omitted image "pricing-plan-example.png"\] Alt text: Table that shows how pricing adjustments are calculated for a door sensor product, using the list price and previous price point and rolling calculations.
 
 ## Customizing a pricing plan
 
@@ -54,9 +55,9 @@ The default pricing plan is fixed, to preserve the default pricing logic. You ca
 
 As a pricing admin or manager, follow these steps to define a custom pricing plan:
 
--   [Create a configurable pricing plan](../task/create-custom-pricing-plan.md) \(copy the default plan\).
--   [Add or change a pricing plan step](../task/add-pricing-step.md). In your configurable pricing plan, you can add one or more pricing steps for pricing adjustments, including any conditions for running the step. You can also change the sequence of the adjustment steps, if needed.
--   [Delete a pricing plan step](../task/delete-pricing-plan-step.md).
+-   [Create a configurable pricing plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-custom-pricing-plan.md) \(copy the default plan\).
+-   [Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/add-pricing-step.md). In your configurable pricing plan, you can add one or more pricing steps for pricing adjustments, including any conditions for running the step. You can also change the sequence of the adjustment steps, if needed.
+-   [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/delete-pricing-plan-step.md).
 
 As you add or change pricing steps, the system validates your entries, such as the sequence number, price point, and calculation type. When you finish adding or changing steps, publish the configurable pricing plan to make it active. The former active plan is retired.
 

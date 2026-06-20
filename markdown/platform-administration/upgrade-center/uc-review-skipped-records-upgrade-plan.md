@@ -2,6 +2,7 @@
 title: Review skipped records with upgrade plan
 description: Review the skipped records after the completion of the upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-review-skipped-records-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center

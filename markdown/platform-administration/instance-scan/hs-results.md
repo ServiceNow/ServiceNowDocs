@@ -2,6 +2,7 @@
 title: Results
 description: An Instance Scan result reports the status and type of scan. You can also see all the checks that ran as part of the scan and all other information related to the scan such as errors and scan logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-results.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

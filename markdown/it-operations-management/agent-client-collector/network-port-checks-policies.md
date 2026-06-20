@@ -2,6 +2,7 @@
 title: Network port default check
 description: Agent Client Collector provides the following default check for Network port monitoring. The check is available for both Windows and Linux.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/network-port-checks-policies.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -59,5 +60,5 @@ CheckPort CRITICAL: Connection refused by:
  Host: localhost and its ports are: 8100, 8101, 8102, 8103, 8104, 8105, 8106, 8107, 8108, 8109, 8110, 8111, 8112, 8113, 8114, 8115, 8116, 8117, 8118, 8119, 8120, 8121, 8122, 8123, 8124, 8125, 8126, 8127, 8128, 8129, 8130, 8131, 3030.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

@@ -2,6 +2,7 @@
 title: Set up OAuth connection with Microsoft Exchange Online
 description: Register your Microsoft Exchange Online with ServiceNow instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -19,16 +20,16 @@ Register your Microsoft Exchange Online with ServiceNow instance for OAuth autho
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope.\) on the top-right corner of your Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.
 
 Ensure that you performed the following steps:
 
--   [Configure Microsoft Azure in normal mode](authenticate-mxexchange-with-azure.md)
+-   [Configure Microsoft Azure in normal mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.md)
 -   Configured resources Microsoft Exchange Online in the calendar. For more information, refer to [https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes).
--   [Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+-   [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md)
 
 Role required: admin
 
@@ -63,17 +64,17 @@ The OAuth registration is added for Microsoft Exchange Online.
 
 1.  Depending on whether you want to use the default alias or you want to create your own alias, do one of the following:
 
-    -   To use default alias: [Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](create-connection-and-credential-alias-for-msexchange-.md)
-    -   To create your own alias: [Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md)
-    [Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+    -   To use default alias: [Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md)
+    -   To create your own alias: [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md)
+    [Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md)
 
-2.  [Configure Microsoft Exchange Online calendar provider](configure-xsex-calendar-provider-in-normal-mode.md)
+2.  [Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md)
 
 .
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
-**Previous topic:**[Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+**Previous topic:**[Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md)
 
-**Next topic:**[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](create-connection-and-credential-alias-for-msexchange-.md)
+**Next topic:**[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md)
 

@@ -2,6 +2,7 @@
 title: Hide News Center from the Mega Menu
 description: The News Center menu option appears in the primary navigation menu by default, however, a portal admin can remove it from the menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/hide-news-center-mega-menu.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation

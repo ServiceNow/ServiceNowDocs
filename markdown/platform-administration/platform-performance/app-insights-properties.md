@@ -2,6 +2,7 @@
 title: Application Insights properties
 description: These system properties control the behavior of the Application Insights application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/app-insights-properties.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -106,5 +107,5 @@ integer
 The default time duration for metric graphs which include overview graphs, individual metric graphs, and drill-down slow pattern graphs.Default: **1**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Application Insights](../concept/application-insights.md)
+</table>**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

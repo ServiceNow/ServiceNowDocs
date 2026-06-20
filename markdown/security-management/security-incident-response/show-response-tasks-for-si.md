@@ -2,11 +2,12 @@
 title: View response task information for a security incident
 description: You can view response task information, such as task SLAs, risk score audits. and outages associated with a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/show-response-tasks-for-si.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,7 +42,7 @@ Tasks
 
 </td><td>
 
-Displays tasks already defined for the security incident. You can manually [create a response task](t_CreateResponseTask.md) or and [Create a task](https://servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/task-table/task/t_CreateATask.html) from this related list.
+Displays tasks already defined for the security incident. You can manually [create a response task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/t_CreateResponseTask.md) or and Create a task from this related list.
 
 </td></tr><tr><td>
 
@@ -81,15 +82,15 @@ Email Search
 
 </td><td>
 
-A list of records that holds search criteria to run queries on an email server, such as a Microsoft® Exchange Server \(based on the implementation installed\), and stores the results received. **Note:** if the [Security Operations Integration- Email Search and Delete capability](../../security-operations-common/concept/email-search-capability.md) is not active, the **Email Search** related link is not displayed.
+A list of records that holds search criteria to run queries on an email server, such as a Microsoft® Exchange Server \(based on the implementation installed\), and stores the results received. **Note:** if the [Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/email-search-capability.md) is not active, the **Email Search** related link is not displayed.
 
 </td></tr></tbody>
 </table>4.  Click any of the following related links to further update the security incident:
 
-    -   [Show Affected Items](show-affected-items-for-si.md)
-    -   [Show Related Items](show-related-items-for-si.md)
-    -   [Show IoC](show-ioc-info-for-si.md)
-    -   [Show Enrichment Data](show-enrich-data-for-si.md)
+    -   [Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-affected-items-for-si.md)
+    -   [Show Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-related-items-for-si.md)
+    -   [Show IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-ioc-info-for-si.md)
+    -   [Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-enrich-data-for-si.md)
 5.  When you have completed your entries, click **Submit**.
 
 

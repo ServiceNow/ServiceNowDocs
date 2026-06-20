@@ -2,6 +2,7 @@
 title: Authentication metrics
 description: View metrics related to authentication on your instance from a dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/authentication.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -28,5 +29,5 @@ Displays data for metrics related to authentication schemes such as MFA usage, w
 -   REST API's Without Access Policy: Total count of users login without REST API's Access Policy.
 -   Integration Accounts without Web Service Access Only Flag enabled: Total count of users login without Integration Accounts Web Service Access Only Flag enabled.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

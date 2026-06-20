@@ -2,6 +2,7 @@
 title: Xanadu Patch 10
 description: The Xanadu Patch 10 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-10.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-08-27"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 10 includes 348problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp10.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp10.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,7 +38,7 @@ Xanadu Patch 10 includes fixes for security-related problems that affected certa
 
 ## Changes in Xanadu Patch 10
 
--   **[Identity Type](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)**
+-   **Identity Type**
 
     Use the Identity Type to define the correct identity type while creating a user. You can select **Human**, **Machine**, or **AI Agent** based on the user identity.
 
@@ -5742,20 +5743,20 @@ When setting up a WOT template, the choices that appear for the **Status \[state
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Xanadu Patch 9 Hotfix 1](xanadu-patch-9-hf-1-PO.md)
--   [Xanadu Patch 9a Hotfix 1](xanadu-patch-9a-hf-1-PO.md)
+-   [Xanadu Patch 9 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-9-hf-1-PO.md)
+-   [Xanadu Patch 9a Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-9a-hf-1-PO.md)
 -   [Xanadu Patch 9a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2290356)
--   [Xanadu Patch 9](xanadu-patch-9.md)
--   [Xanadu Patch 8](xanadu-patch-8.md)
--   [Xanadu Patch 7](xanadu-patch-7.md)
--   [Xanadu Patch 6](xanadu-patch-6.md)
--   [Xanadu Patch 5](xanadu-patch-5.md)
--   [Xanadu Patch 4](xanadu-patch-4.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 9](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-9.md)
+-   [Xanadu Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-8.md)
+-   [Xanadu Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-7.md)
+-   [Xanadu Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-6.md)
+-   [Xanadu Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-5.md)
+-   [Xanadu Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

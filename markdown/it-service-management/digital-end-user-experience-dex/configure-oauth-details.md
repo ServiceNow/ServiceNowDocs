@@ -2,11 +2,12 @@
 title: Configure OAuth details
 description: Edit OAuth field values, as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/configure-oauth-details.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Setting up DEX Desktop Assistant, Configuring Digital End-User Experience, Digital End-User Experience, IT Service Management]
 ---
@@ -27,11 +28,11 @@ Role required: sn\_dex\_desktop.admin
 
 2.  From the list, select **Desktop Assistant**.
 
-    ![Application Registries form where you can update OAuth details.](../image/desktop-exp-application-registries.png "Application Registries form")
+    \[Omitted image "desktop-exp-application-registries.png"\] Alt text: Application Registries form where you can update OAuth details.
 
 3.  On the form, edit the required fields.
 
-    To learn about each field and the corresponding descriptions, see [Application Registries form](../reference/application-registries-form.md).
+    To learn about each field and the corresponding descriptions, see [Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-registries-form.md).
 
 4.  Customize to avoid SSO Screen during logging in to DEX Desktop Assistant:
 

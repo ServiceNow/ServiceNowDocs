@@ -2,6 +2,7 @@
 title: Software entitlement fields
 description: Software Entitlement form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/software-entitlement-fields.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -113,7 +114,7 @@ The type determines whether the rights grant full access to the software or if t
 
  The default value for SaaS entitlements is **Subscription**.
 
- For more information about the license types and their impact on software reconciliation, see [Impact of different license types on software reconciliation](license-types-impact-reconciliation.md).
+ For more information about the license types and their impact on software reconciliation, see [Impact of different license types on software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/license-types-impact-reconciliation.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ License metric
 
 </td><td>
 
-License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field.For more information, see [Software license metrics](../concept/c_SAMLicenseMetrics.md).
+License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field.For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
  **Note:**
 
@@ -224,7 +225,7 @@ Unit cost
 
 </td><td>
 
-Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](../concept/c_SAMDashboard.md)
+Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMDashboard.md)
 
 </td></tr><tr><td>
 
@@ -399,7 +400,7 @@ Cost center financially responsible for the asset.
 </td></tr></tbody>
 </table>## Contracts tab
 
-When [importing software entitlements](../task/view-entitlement-import-errors.md), use the **Contract number** column on the downloadable template to link the contracts to the entitlements. Since the **Contract number** is a reference field, the system first searches for matches to existing contracts, so enter existing contract numbers. If no matching contract number is found, entitlement import errors are generated.
+When [importing software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/view-entitlement-import-errors.md), use the **Contract number** column on the downloadable template to link the contracts to the entitlements. Since the **Contract number** is a reference field, the system first searches for matches to existing contracts, so enter existing contract numbers. If no matching contract number is found, entitlement import errors are generated.
 
 You should be able to create the contract from the error, enabling for the creation of the entitlement and the appearance of the contract on the entitlement form in the Contracts related list. You can also skip the contract creation process and still create the entitlement, but without a contract.
 
@@ -436,7 +437,7 @@ Assigned to
 
 </td><td>
 
-User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](../task/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
+User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -481,7 +482,7 @@ Assigned to
 
 </td><td>
 
-Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](../task/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
+Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -616,7 +617,7 @@ Active
 
 Indicates if the downgrade rights on the software entitlement are active or not. If needed, you can deactivate the downgrade rights. Only the active downgrade rights appear in the list. To see all the downgrade rights, remove the Active condition from the filter.If you deactivate a downgrade right on a software model, the change is propagated to the related software entitlement downgrade rights; irrespective of the source of the downgrade right.
 
- To deactivate a downgrade right, double-click the field to display the toggle button. Select false and select the Save icon \(![Save icon](../image/save-icon.png)\).
+ To deactivate a downgrade right, double-click the field to display the toggle button. Select false and select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon\).
 
 -   false: Deactivates the downgrade right on the software model and on the related software entitlements.
 -   true: Deactivates the downgrade right on the software model and on the related software entitlements.
@@ -662,7 +663,7 @@ End date of the downgrade.
 |-----|-----------|
 |Software entitlement|The software entitlement that the consumption is linked to.|
 |Consumption rule|The consumption rule linked to the entitlement.|
-|License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](../concept/reconcile-licenses-global-entities.md).|
+|License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md).|
 
 ## License Key related list
 
@@ -672,5 +673,5 @@ End date of the downgrade.
 |License key|License key value. Must be unique for an entitlement.|
 |Software entitlement|Software entitlement associated with the license key.|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/references.md)
 

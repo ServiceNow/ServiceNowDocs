@@ -2,6 +2,7 @@
 title: Components installed with Accounts Payable Invoice Processing
 description: Several types of components are installed with activation of the Accounts Payable Invoice Processing plugin, including user roles, flows, and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +26,7 @@ Several types of components are installed with activation of the Accounts Payabl
 
 The sn\_shop.invoice\_owner role is installed with Source-to-Pay Common Architecture \(com.snc.sn\_shop\), which is installed as a dependent plugin.
 
-For information about the components installed with Invoice Case Management, see [Components installed with Invoice Case Management](installed-with-invoice-case-mgmt.md).
+For information about the components installed with Invoice Case Management, see [Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md).
 
 <table id="table_o4b_sbc_gvb"><thead><tr><th>
 
@@ -148,7 +149,7 @@ Start Invoice Processing for Orphan Invoices
 
 </td><td>
 
-Picks up all the invoice records in Draft state that don’t have an invoice case associated with them and starts their processing.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Start Invoice Processing for Orphan Invoices flow](../task/activate-start-invoice-processing-flow.md).
+Picks up all the invoice records in Draft state that don’t have an invoice case associated with them and starts their processing.You must activate the flow to use it. For information on how to activate the flow, see [Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md).
 
 </td></tr></tbody>
 </table>|Job|Description|

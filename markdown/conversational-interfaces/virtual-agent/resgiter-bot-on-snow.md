@@ -2,6 +2,7 @@
 title: Integrate your Self-configured bot with Microsoft Teams for GCC
 description: You must install the bot that you created in your Microsoft Teams tenant on your ServiceNow instance to integrate it with the Virtual Agent. Use your ServiceNow Virtual Agent application to install and configure Conversational Integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/resgiter-bot-on-snow.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -22,13 +23,13 @@ Role required: virtual\_agent\_admin or admin and Microsoft Azure admin.
 
 This installation requires a ServiceNow instance to integrate with a self-configured bot on the Microsoft Teams tenant.
 
-Ensure that you created a bot on the Microsoft Teams tenant to integrate with the ServiceNow instance. For more information, see [Create a Bot in Microsoft Teams](create-bot-msteams.md).
+Ensure that you created a bot on the Microsoft Teams tenant to integrate with the ServiceNow instance. For more information, see [Create a Bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
 ## Procedure
 
 1.  Fetch the Tenant ID, Client ID \(App ID\), Client Secret, and Bot Name details for your bot created in Microsoft Teams.
 
-    For more information, see [Retrieve bot details](create-bot-msteams.md#bot-details).
+    For more information, see [Retrieve bot details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-bot-msteams.md).
 
     **Note:** Use this information when setting up the self-configured bot in your ServiceNow instance.
 
@@ -44,24 +45,24 @@ Ensure that you created a bot on the Microsoft Teams tenant to integrate with th
 
         **Note:** The **Add Integrations** drop-down is available only after installing the Conversational Integration with Microsoft Teams plugin \(sn\_va\_teams\) on your ServiceNow instance.
 
-        ![Microsoft Teams Add Integrations options. The Integrate with Self-configured bot option is selected.](../images/add-msteams-self-integ.png)
+        \[Omitted image "add-msteams-self-integ.png"\] Alt text: Microsoft Teams Add Integrations options. The Integrate with Self-configured bot option is selected.
 
     4.  From the **Add Integrations** drop-down, select **Integrate with Self-configured bot**.
 
     5.  In the Integrate Microsoft Teams with self-configured bot page, provide the **Name of the bot**, **Tenant ID**, **Client ID \(App ID\)**, and **Client Secret** that you made a note while creating the Microsoft Teams bot and select **Submit**.
 
-        ![Integrate Microsoft Teams with self-configured bot window in Conversational integrations Channels and integrations settings.](../images/msteams-multi-integ.png "Integrate Microsoft Teams with self-configured bot")
+        \[Omitted image "msteams-multi-integ.png"\] Alt text: Integrate Microsoft Teams with self-configured bot window in Conversational integrations Channels and integrations settings.
 
         **Note:** If you own multiple ServiceNow instances and would like to integrate additional bots for additional instances, repeat the preceding steps to add and integrate with bots.
 
-        If you would like to integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for self-configured bot icon against the Self-configured bot or select the **Add integration** drop-down on the Manage Microsoft Teams channel page and select **Integrate with your self-configured bot**. ![Manage Microsoft Teams channel in Conversational Interfaces general settings. The Add integration for Self-configured bot button and Integrate with Self-configured bot option in the Add integration dropdown are highlighted.](../images/add-self-config-integ.png).
+        If you would like to integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for self-configured bot icon against the Self-configured bot or select the **Add integration** drop-down on the Manage Microsoft Teams channel page and select **Integrate with your self-configured bot**. \[Omitted image "add-self-config-integ.png"\] Alt text: Manage Microsoft Teams channel in Conversational Interfaces general settings. The Add integration for Self-configured bot button and Integrate with Self-configured bot option in the Add integration dropdown are highlighted..
 
-        For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](configure-va-teams.md).
+        For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-va-teams.md).
 
         User receives a message that the installation is successful.
 
 
 ## What to do next
 
-[Auto-generate the manifest file for uploading on Microsoft Teams](generate-manifest-file-msteams.md).
+[Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md).
 

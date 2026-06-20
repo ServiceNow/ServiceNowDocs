@@ -2,7 +2,10 @@
 title: View an agent's profile on a mobile device
 description: View the profile information of all the agents in your team through the Field Service Contractor for mobile application so you can contact them when necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-agent-details-fsc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ As a contractor manager, you can access details on your team members such as the
 5.  Review the agent profile information.
 
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

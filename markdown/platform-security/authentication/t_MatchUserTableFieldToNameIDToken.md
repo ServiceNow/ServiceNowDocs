@@ -2,6 +2,7 @@
 title: Determine what User table field matches the NameID token
 description: Identity providers specify what format the NameID token has.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_MatchUserTableFieldToNameIDToken.html
 release: xanadu
 product: Authentication
 classification: authentication

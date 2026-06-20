@@ -2,11 +2,12 @@
 title: Determine the statement item type
 description: Determine the type of statement item as a first step to create a statement item. Or, you must determine the source from where the consumption or usage details and the cost of consumption data is retrieved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/determine-statement-item.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -57,12 +58,12 @@ Define a statement item depending on the source where your consumption data is a
 |Cost Model Statement Item|Link to create a cost model statement item.|
 |Service Catalog Statement Item|Link to create a service catalog statement item.|
 
--   **[Define a consumption statement item](define-consumption-statmt-item.md)**  
+-   **[Define a consumption statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-consumption-statmt-item.md)**  
 If your cost and business service usage details are sourced from an external consumption table, then you can source the consumption details of the consumption table for the statement item.
--   **[Define a cost model statement item](define-cost-model-statement-item.md)**  
+-   **[Define a cost model statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-cost-model-statement-item.md)**  
 The cost of the item or service is derived from the allocation lines of financial modeling application. The statement item captures the cost from the segment accounts, specific accounts in a segment, or buckets in an account, which gives you the cost of the statement item for a fiscal period.
--   **[Define a service catalog statement item](define-service-catalog-statmt-item.md)**  
+-   **[Define a service catalog statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-service-catalog-statmt-item.md)**  
 A business service can be represented by a service catalog category or a catalog item. When a service request from the service catalog is fulfilled, the price listed for the service in the service catalog item is captured as the cost of the statement item for a fiscal period.
 
-**Parent Topic:**[Financial charging application setup](../concept/financial-reporting-appln-setup.md)
+**Parent Topic:**[Financial charging application setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting-appln-setup.md)
 

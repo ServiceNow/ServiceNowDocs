@@ -2,7 +2,10 @@
 title: View informational notifications
 description: View the notifications that are sent during specific events in a ticket life cycle. These notifications are sent to the requester associated with the ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/non-actionable-notifications.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,8 +45,8 @@ The following informational notifications are included with ServiceNow for Micro
     -   Requested item
 4.  Click the notification to view the details.
 
-    ![Non-actionable notification](../images/non-action-notification-2.png)
+    \[Omitted image "non-action-notification-2.png"\] Alt text: Non-actionable notification
 
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-sn-ms-teams.md)
 

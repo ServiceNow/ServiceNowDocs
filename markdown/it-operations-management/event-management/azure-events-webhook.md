@@ -2,6 +2,7 @@
 title: Integrate Azure Monitor with basic authentication
 description: Integrate Microsoft Azure with Event Management by adding a standard webhook in Azure Monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/azure-events-webhook.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -50,7 +51,7 @@ Alerts start flowing from the Azure Monitor into the Event Management plugin. Th
 
 ## What to do next
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](configure-azure-bi-directional-connector.md).
+If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](../concept/azure-integration.md)
+**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/azure-integration.md)
 

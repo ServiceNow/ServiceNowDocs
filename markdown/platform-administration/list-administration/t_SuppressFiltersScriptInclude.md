@@ -2,6 +2,7 @@
 title: Use script includes to suppress filters and breadcrumbs
 description: You can use a script to restrict filters and breadcrumbs to specific roles, either on a per-table or global basis. Using a script is an advanced option that offers additional flexibility compared to using list control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_SuppressFiltersScriptInclude.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -76,5 +77,5 @@ The examples shown must be modified for your environment.
 5.  To modify filter and breadcrumb access for another table, create a script include using the name of that table instead of Incident.
 
 
-**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](t_RestrictBreadcrmbsWFixedQueries.md)
+**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_RestrictBreadcrmbsWFixedQueries.md)
 

@@ -2,6 +2,7 @@
 title: Apply table rotation
 description: Preserve instance performance by applying table rotation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ApplyTableRotation.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -55,7 +56,7 @@ Type
 
 The type of rotation. -   Rotation and Extension are time-based.
 -   Shard is based on a document ID.
-See [Database rotation](../../database-rotation/concept/c_DatabaseRotation.md) for more information.
+See [Database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DatabaseRotation.md) for more information.
 
 </td></tr><tr><td>
 
@@ -88,8 +89,8 @@ The date to clean \(truncate\) the base table.Applies to **Rotation** type.
 
     When you define a new rotation, a schedule creates and new data writes to one of the tables in the rotation group. The group includes the original table plus several additional tables.
 
-    ![New table rotation group](../image/NewTableRotationGroup.png)
+    \[Omitted image "NewTableRotationGroup.png"\] Alt text: New table rotation group
 
 
-**Parent Topic:**[Table rotation](../concept/c_TableRotation.md)
+**Parent Topic:**[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_TableRotation.md)
 

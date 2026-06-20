@@ -2,6 +2,7 @@
 title: Legacy - Natural Language Understanding of Virtual Agent responses
 description: Virtual Agent \(VA\) uses the Natural Language Understanding \(NLU\) service to understand user input. Use the NLU Prediction tab to see how well NLU predicts intents, and to improve the intents so NLU makes better predictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/nlu-tab.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,15 +18,15 @@ Virtual Agent \(VA\) uses the Natural Language Understanding \(NLU\) service to 
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 If you are an existing user of this dashboard and want to migrate analytics data to the new dashboard, see [Migrate data to Conversational Analytics dashboard in Platform Analytics experience \[KB1651556\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1651556).
 
-The **NLU Prediction** tab on the Conversational Analytics Dashboard shows how well NLU is understanding user input in chat conversations. Virtual Agent comes with NLU models, but you can use the [Activate the NLU Workbench](https://www.servicenow.com/docs/access?context=activate-nlu-workbench&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) to modify or create new models.
+The **NLU Prediction** tab on the Conversational Analytics Dashboard shows how well NLU is understanding user input in chat conversations. Virtual Agent comes with NLU models, but you can use the Activate the NLU Workbench to modify or create new models.
 
-![NLU Predictions page.](../images/dashboard-NLU-entire.png)
+\[Omitted image "dashboard-NLU-entire.png"\] Alt text: NLU Predictions page.
 
 To use the NLU Prediction tab, you must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role.
 
@@ -60,12 +61,12 @@ It's possible for intents to appear in several categories. For example, the Acti
 
 Clicking anywhere on the graph opens the Model Performance page. It shows a summary of intents predicted or not predicted over the date range specified on the graph.
 
-![NLU Model Performance page.](../images/dashboard-model-performance.png)
+\[Omitted image "dashboard-model-performance.png"\] Alt text: NLU Model Performance page.
 
-See [Activate the NLU Workbench](https://www.servicenow.com/docs/access?context=activate-nlu-workbench&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) to see how to use the NLU Workbench to improve NLU predictions.
+See Activate the NLU Workbench to see how to use the NLU Workbench to improve NLU predictions.
 
--   **[Legacy - Modify models](../task/modify-model.md)**  
+-   **[Legacy - Modify models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/modify-model.md)**  
 Test and modify the Virtual Agent models so they more accurately predict user intents.
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

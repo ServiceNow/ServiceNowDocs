@@ -2,7 +2,10 @@
 title: Configure user groups for dispatchers in Dispatcher Workspace
 description: Enable dispatchers to be a member of different user groups so they can efficiently manage agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/configure-dispatcher-user.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-03-24"
 reading_time_minutes: 1
@@ -35,7 +38,7 @@ Configuring user groups
 
 5.  Select the Dispatch Group that you want the dispatcher to be a part of.
 
-6.  Select the Add icon ![add icon](../image/add-arrow.png).
+6.  Select the Add icon \[Omitted image "add-arrow.png"\] Alt text: add icon.
 
 7.  Repeat steps five and six until all Dispatch Groups are added.
 

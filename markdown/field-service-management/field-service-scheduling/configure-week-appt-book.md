@@ -2,6 +2,7 @@
 title: Change the day of the week that the appointment booking calendar starts on
 description: You can make the appointment booking calendar start on a day other than Sunday, the default. If the start day of the week was changed, you can also change the start of the week back to Sunday.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/configure-week-appt-book.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -44,5 +45,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

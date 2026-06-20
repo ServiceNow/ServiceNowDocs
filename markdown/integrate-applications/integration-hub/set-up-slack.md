@@ -2,6 +2,7 @@
 title: Set up Slack spoke
 description: Integrate the ServiceNow instance and your Slack account by creating a custom OAuth application in Slack to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/set-up-slack.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -29,9 +30,9 @@ The spoke set up procedure outlined here requires bot user tokens only. You can'
 
 Perform these steps to set up the Slack spoke.
 
-1.  [Configure Slack app](../../integrationhub/tasks/configure-slack-workspace.md).
-2.  [Add Slack connection in ServiceNow instance](../../integrationhub/tasks/setup-slackspoke-fd.md).
-3.  [Provide Signing Key in ServiceNow instance](provide-signingkey-slack.md).
-4.  [Configure outbound configurations in ServiceNow instance](conf-outbound-slack-1.md).
-5.  [Configure inbound decisions in ServiceNow instance](conf-inbound-slack.md).
+1.  [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-slack-workspace.md).
+2.  [Add Slack connection in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-slackspoke-fd.md).
+3.  [Provide Signing Key in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/provide-signingkey-slack.md).
+4.  [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
+5.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/conf-inbound-slack.md).
 

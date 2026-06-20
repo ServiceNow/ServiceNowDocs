@@ -2,9 +2,10 @@
 title: Browser requirements for all Xanadu features and products
 description: Cumulative release notes summary on browser requirements for Xanadu features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-browser-reqs.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
@@ -37,7 +38,7 @@ Advanced Work Assignment
 
 </td><td>
 
-Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge -Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge -Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Agent experience for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Case management for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Data management for CSM
 
 </td><td>
 
-Starting with the Xanadu release, ServiceNow® Data Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Starting with the Xanadu release, ServiceNow® Data Management doesn't support mobile devices and Internet Explorer. For more information, see Browser support.
 
 </td></tr><tr><td>
 
@@ -82,7 +83,7 @@ Digital End-User Experience
 
 </td><td>
 
-For the web/SaaS application, enable the DEX browser extension for monitoring web/SaaS applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For the web/SaaS application, enable the DEX browser extension for monitoring web/SaaS applications to collect various operational or performance-based metrics on your system. For more information, see .
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -156,7 +157,7 @@ RPA Hub
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ The Xanadu release doesn't support Internet Explorer 11.
 
 The iOS version of Firefox doesn’t support Service Portal pages.
 
-For more information about Service Portal browser support, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+For more information about Service Portal browser support, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -184,8 +185,8 @@ Virtual Agent
 
 </td><td>
 
-Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/browser-support.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

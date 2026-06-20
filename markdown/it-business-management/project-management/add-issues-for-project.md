@@ -2,6 +2,7 @@
 title: Add issues for a project
 description: Add an issue to a project to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the project life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/add-issues-for-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -119,7 +120,7 @@ Brief description of the issue and its potential impact on the success of the pr
 
  As you start typing the title for your issue, related issues that potentially match your issue are displayed.
 
- Click the suggestion icon \(![Suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select from the list of predefined issue descriptions.
+ Click the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select from the list of predefined issue descriptions.
 
 </td></tr><tr><td>
 
@@ -140,7 +141,7 @@ Information to record and track the work accomplished for resolving the issue.
 </td></tr></tbody>
 </table>5.  Search in the knowledge base for any article related to the issue.
 
-    1.  Click the search knowledge icon \(![Search knowledge icon](../image/search_knowledge_icon.png)\).
+    1.  Click the search knowledge icon \(\[Omitted image "search\_knowledge\_icon.png"\] Alt text: Search knowledge icon\).
 
     2.  If you find relevant articles, click the title of an article to view its content.
 
@@ -153,8 +154,8 @@ Information to record and track the work accomplished for resolving the issue.
 
 ## What to do next
 
--   Convert an existing issue to decision, action, or request change and close the issue. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](convert-ridac-for-project.md).
--   Associate the issue with your existing risks so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
+-   Convert an existing issue to decision, action, or request change and close the issue. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/convert-ridac-for-project.md).
+-   Associate the issue with your existing risks so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

@@ -2,7 +2,10 @@
 title: Create work orders for a selected asset on a mobile device
 description: Create a work order for an asset through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-wot-asset-contrator-mob.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     -   Enter the asset code in **Asset Tag**.
 4.  Tap the asset record and do one of the following actions.
 
-<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d77717e94">
+<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d68530e94">
 
 **To create a work order for this asset**
 
@@ -47,5 +50,5 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
 
 A work order is created for a selected asset or review the related work history.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

@@ -2,6 +2,7 @@
 title: Create a Universal Request in Service Operations Workspace
 description: As an agent, you can create universal requests from the Universal Request application on behalf of the requester to track and resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/create-ur-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -219,5 +220,5 @@ How or why the universal request was closed.
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Using Universal Request in Service Operations Workspace](../concept/using-ur-sow.md)
+**Parent Topic:**[Using Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/using-ur-sow.md)
 

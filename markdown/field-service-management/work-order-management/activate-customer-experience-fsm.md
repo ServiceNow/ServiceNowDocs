@@ -2,6 +2,7 @@
 title: Activate Field Service Management Customer Experience
 description: Activate the Field Service Management Customer Experience plugin \(com.snc.fsm\_customer\_experience\) to use the Customer Experience feature with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/activate-customer-experience-fsm.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
@@ -52,7 +53,7 @@ Provides APIs and workflow activities for applications to handle various notific
 
 -   **Notify**
 
-    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see Notify.
 
 
 The following items are installed with Field Service Management Customer Experience:
@@ -61,7 +62,7 @@ The following items are installed with Field Service Management Customer Experie
 -   Properties
 -   Business rules
 
-For more information, see [Customer Experience components](../reference/customer-experience-components.md).
+For more information, see [Customer Experience components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/customer-experience-components.md).
 
 ## Procedure
 

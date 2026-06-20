@@ -2,6 +2,7 @@
 title: Integrate with a third-party shipping carrier in the Enterprise Asset Workspace
 description: Integrate the Enterprise Asset Management application with a third-party shipping carrier so that you can track the real-time status of your enterprise asset shipments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/integrate-shipping-carriers-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -105,5 +106,5 @@ Additional notes about the shipping carrier.
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

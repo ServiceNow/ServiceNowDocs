@@ -2,6 +2,7 @@
 title: Agent Client Collector Framework configuration properties
 description: Description of the properties that determine the behavior of Agent Client Collector Framework configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-framework-configuration-properties.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -172,5 +173,5 @@ The number of minutes after which CMDB changes are detected and then synched to 
 When processing ecc\_queues, only query those created within the indicated time \(in seconds\).Default: 43200 \(12 hours\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

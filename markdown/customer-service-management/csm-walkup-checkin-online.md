@@ -2,7 +2,10 @@
 title: Schedule appointments or join a queue from the Customer Service Management portal
 description: Customers need to invest time in coming to a physical location for service. Ability to book appointments at a specific time helps plan visits to the service location. A slot is pre-assigned based on the appointment booking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-checkin-online.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ Role required: sn\_walkup.walkup\_login
 
 6.  Select a reason for your visit from the drop-down list.
 
-7.  Click the Calendar icon \(![Calendar icon.](../image/calendar.jpg)\) and select the date and time of appointment.
+7.  Click the Calendar icon \(\[Omitted image "calendar.jpg"\] Alt text: Calendar icon.\) and select the date and time of appointment.
 
 8.  Click **Schedule Appointment**.
 

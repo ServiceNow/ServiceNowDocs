@@ -2,6 +2,7 @@
 title: Create a third-party element record
 description: Create a third-party element record after you collect the responses from a third party by using a collection template questionnaire in the Third-party Risk Management application. After a third-party element record is created, an element entity is available to be assigned to an engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-tp-element-create.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,7 +30,7 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
+2.  Select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Due diligence requests** &gt; **All requests**.
 
 3.  Select the due diligence request that you want.
 
@@ -39,17 +40,17 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
     You can send the third-party element questionnaire only to third parties.
 
-    For more information on assessments, see [Assessing your third-party risk](../concept/tprm-assessing-tpr.md).
+    For more information on assessments, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md).
 
 6.  After you receive responses from the engagement contact, navigate to the **Risk overview** tab of the assessment.
 
 7.  In the Questionnaires and document requests section, select the collection template questionnaire and review the responses.
 
-8.  After confirming that you received all the required information, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third-party Elements** &gt; **All third-party elements**.
+8.  After confirming that you received all the required information, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Third-party Elements** &gt; **All third-party elements**.
 
 9.  Create a third-party element record by selecting **New** and fill in the form by using the information that was collected from each set of responses in the third-party element questionnaire.
 
-    For descriptions of all these fields, see [Third-party element form](../../grc-workspace-vrm/reference/tprm-tpe-form.md).
+    For descriptions of all these fields, see [Third-party element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.md).
 
     **Note:** The TP element classification determines which scoring model is applied to the third-party element. You can create new third-party element classifications by navigating to **All** &gt; **Third-party Risk Management** &gt; **Third-party Elements** &gt; **Classifications**.
 
@@ -60,5 +61,5 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
 ## What to do next
 
-Close the external assessment for collecting elements and then manually add elements as entities on the entities tab of an engagement. After all third-party elements are assigned to an engagement, you can start the due diligence process. For more information, see [Add a third-party element record to an engagement](tprm-tp-element-engagement.md) and [Monitoring third-party elements](../concept/tprm-monitor-tp-elements.md).
+Close the external assessment for collecting elements and then manually add elements as entities on the entities tab of an engagement. After all third-party elements are assigned to an engagement, you can start the due diligence process. For more information, see [Add a third-party element record to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-tp-element-engagement.md) and [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md).
 

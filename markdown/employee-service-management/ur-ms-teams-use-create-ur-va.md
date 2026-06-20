@@ -2,7 +2,10 @@
 title: Create a Universal request from Microsoft Teams
 description: Create a universal request with the help of the Virtual Agent. You can access the Virtual Agent from the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-use-create-ur-va.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Role required: none
 
 A universal request is created for the issue.
 
-**Parent Topic:**[Employee actions](../concept/ur-ms-teams-use-employee.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-ms-teams-use-employee.md)
 

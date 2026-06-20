@@ -2,6 +2,7 @@
 title: Update a submitted digital forensic request
 description: Update the request details, add comments, manage custodial and non-custodial data, or upload documents in a digital forensic request you submitted while it is still in the New state. You can cancel a submitted request irrespective of its state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/modify-legal-dft-request.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,15 +26,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d202185e78">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d192755e78">
 
 Action
 
-</th><th align="left" id="d202185e81">
+</th><th align="left" id="d192755e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d202185e87">
+</th></tr></thead><tbody><tr><td id="d192755e87">
 
 **Edit request details**
 
@@ -45,18 +46,18 @@ Steps
 2.  In the Variables form, complete any of the following actions:
 
     -   To modify the request details, update fields as needed.
-    -   To add custodial data, click **Add**. For more information, see [Add a custodian to a digital forensic request](submit-legal-dft-request.md#).
+    -   To add custodial data, click **Add**. For more information, see [Add a custodian to a digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/submit-legal-dft-request.md).
     -   To remove all custodial data, click **Remove All**.
-    -   To add non-custodial data, click **Add**. For more information, see [Add a custodian to a digital forensic request](submit-legal-dft-request.md#).
+    -   To add non-custodial data, click **Add**. For more information, see [Add a custodian to a digital forensic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/submit-legal-dft-request.md).
     -   To remove all non-custodial data, click **Remove All**.
-    -   To add multiple custodial or non-custodial data from a file in one go, click **Upload**. For more information, see [Add custodial and non-custodial data from a file](submit-legal-dft-request.md#).
+    -   To add multiple custodial or non-custodial data from a file in one go, click **Upload**. For more information, see [Add custodial and non-custodial data from a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/submit-legal-dft-request.md).
 .
 
 3.  Click **Save**.
 4.  Click **Back** to return to the Standard Ticket page.
 The digital forensic request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d202185e181">
+</td></tr><tr><td id="d192755e181">
 
 **Cancel the request**
 
@@ -72,26 +73,26 @@ The request is canceled and the cancellation comments appear in the Additional C
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d202185e228">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d192755e228">
 
 Option
 
-</th><th align="left" id="d202185e231">
+</th><th align="left" id="d192755e231">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d202185e237">
+</th></tr></thead><tbody><tr><td id="d192755e237">
 
 **If the Attachments tab is visible**
 
 </td><td>
 
--   To upload a new document, select the add attachment icon \(![Add attachment icon.](../../legal-request-management/image/add-attachment-icon.png)\) and select a file.
--   To rename an attached file, select the edit file name icon \(![Edit file name icon.](../../legal-request-management/image/rename-icon.png)\) and update the file name.
--   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-request-management/image/delete-icon.png)\).
+-   To upload a new document, select the add attachment icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachment icon.\) and select a file.
+-   To rename an attached file, select the edit file name icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit file name icon.\) and update the file name.
+-   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d202185e276">
+</td></tr><tr><td id="d192755e276">
 
 **If the Documents tab is visible**
 
@@ -105,10 +106,10 @@ A link to the document is listed in the **External URL** column of the documents
 
 
 </td></tr></tbody>
-</table>6.  In the **Custodial Data** tab, view the existing custodians added to the request or export to a file by clicking the more options icon \(![More options icon.](../../wsd-for-mobile/images/more-options-icon.png)\).
+</table>6.  In the **Custodial Data** tab, view the existing custodians added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
 
-7.  In the **Non-Custodial Data** tab, view the existing non-custodial data added to the request or export to a file by clicking the more options icon \(![More options icon.](../../wsd-for-mobile/images/more-options-icon.png)\).
+7.  In the **Non-Custodial Data** tab, view the existing non-custodial data added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
 
 
-**Parent Topic:**[Submitting digital forensics requests](../concept/submitting-legal-dft-request.md)
+**Parent Topic:**[Submitting digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/submitting-legal-dft-request.md)
 

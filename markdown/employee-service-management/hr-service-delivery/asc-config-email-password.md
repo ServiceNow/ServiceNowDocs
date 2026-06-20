@@ -2,6 +2,7 @@
 title: Configure email and password resets for the Alumni Service Center
 description: Use Notifications, to configure the emails that send the user ID and password reset for your alumni.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/asc-config-email-password.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Geo point field type
 description: The geo point data type stores longitude and latitude coordinates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/geo-point-field-type.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -40,7 +41,7 @@ Function fields provide several glidefunction operations for working with geo po
     ```
 
 
-See [Function field](../../../build/platform-functions/concept/platform-support-functions.md#).
+See [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-support-functions.md).
 
 Values for geo points are in longitude, latitude format where:
 
@@ -49,5 +50,5 @@ Values for geo points are in longitude, latitude format where:
 -   The latitude range is \[-90, 90\].
 -   Values entered outside the ranges for longitude or latitude are normalized to values inside their respective ranges.
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

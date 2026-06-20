@@ -2,7 +2,10 @@
 title: Use Notify connector for Microsoft Teams with task records
 description: Notify connector for Microsoft Teams enables you to initiate conference calls from task records such as incidents, problems, or change requests.Make a conference call from a task record such as an incident, problem record, or change request in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/notify-connector-ms-teams-task.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integ
 
 Notify connector for Microsoft Teams enables you to initiate conference calls from task records such as incidents, problems, or change requests.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c-agent-ex-use-nc.md)
 
 ## Start and manage a conference call from a task record
 

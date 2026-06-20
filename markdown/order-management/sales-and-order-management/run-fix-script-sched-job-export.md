@@ -2,6 +2,7 @@
 title: Add Code field values to catalog entities after upgrading
 description: Add the Code field values for the main product catalog entities. The system uses this field to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/run-fix-script-sched-job-export.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

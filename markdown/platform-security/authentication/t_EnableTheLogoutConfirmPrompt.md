@@ -2,6 +2,7 @@
 title: Configuring the logout confirmation prompt
 description: You can enable a logout confirmation prompt to prevent users from inadvertently logging themselves out.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_EnableTheLogoutConfirmPrompt.html
 release: xanadu
 product: Authentication
 classification: authentication

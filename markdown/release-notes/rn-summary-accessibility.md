@@ -2,9 +2,10 @@
 title: Accessibility information for all Xanadu features and products
 description: Cumulative release notes summary on accessibility information for Xanadu features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-accessibility.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 15
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
@@ -41,7 +42,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -52,10 +53,10 @@ Agent experience for CSM
 
 The following templates were updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 
--   [Case playbook: horizontal stages template](https://www.servicenow.com/docs/access?context=csm-playbook-templates&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
--   [Case playbook: vertical stages template](https://www.servicenow.com/docs/access?context=csm-playbook-templates&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+-   Case playbook: horizontal stages template
+-   Case playbook: vertical stages template
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See Reflow for Configurable Workspace for details.
 
 </td></tr><tr><td>
 
@@ -94,8 +95,8 @@ Case management for CSM
 
 The following templates were updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 
--   [Case playbook: horizontal stages template](https://www.servicenow.com/docs/access?context=csm-playbook-templates&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
--   [Case playbook: vertical stages template](https://www.servicenow.com/docs/access?context=csm-playbook-templates&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+-   Case playbook: horizontal stages template
+-   Case playbook: vertical stages template
 
 </td></tr><tr><td>
 
@@ -155,7 +156,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -172,7 +173,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -185,7 +186,7 @@ Document Intelligence
 
 The sn-docintel-iframe component was updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -216,7 +217,7 @@ In addition, the following pages were updated to support reflow:
     -   Service location
     -   Geography
     -   Agent recommendation
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -251,7 +252,7 @@ Next Experience
 
 </td><td>
 
--   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)**
+-   ****
 
 In addition to the 40 keyboard shortcuts available, there is a new keyboard shortcut to reduce the time required opening the OpenFrame window. This shortcut allows agents to dial and answer the phone from the platform.
 
@@ -345,11 +346,11 @@ Now Assist AI agents
 
 </td><td>
 
--   **[Voice Input for Now Assist AI agents](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)**
+-   **Voice Input for Now Assist AI agents**
 
 Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see Enable voice input for Now Assist panel.
 
-Once enabled, the Enable voice input for the Now Assist panel option will be available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for more information.
+Once enabled, the Enable voice input for the Now Assist panel option will be available in individual user accessibility preferences. See Configure Next Experience accessibility preferences for more information.
 
 Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
@@ -402,7 +403,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 -   **Resize text**
 
@@ -417,9 +418,9 @@ Theme Builder
 
 Accessibility improvements for Theme Builder include the following updates:
 
--   Added a dark alternate color palette that makes the display easier for your eyes and less disturbing in low-light settings is available for creation. For more information, see [Add an alternate color palette](https://www.servicenow.com/docs/access?context=tb-edit-color-palette&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Added a dark alternate color palette that makes the display easier for your eyes and less disturbing in low-light settings is available for creation. For more information, see .
 -   Updated modal when you publish a theme group for your web instance. A warning appears if there’s an accessibility error within the base theme or the theme's alternate color palettes. A link within the modal navigates you to the correct theme or alternate color palette with accessibility errors.
--   Improved Accessibility Inspector detects and guides you through fixing accessibility issues in your theme. This tool includes the total number of violations and a list of specific components with accessibility issues. For more information, see [Adjust a component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Improved Accessibility Inspector detects and guides you through fixing accessibility issues in your theme. This tool includes the total number of violations and a list of specific components with accessibility issues. For more information, see .
 -   Updated reflow feature ensures the content within the Component Editor view automatically adjusts when the screen size is reduced. This improvement eliminates the need for horizontal scrolling.
 
 </td></tr><tr><td>
@@ -449,7 +450,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -466,7 +467,7 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr><tr><td>
@@ -483,9 +484,9 @@ Accessibility improvements were completed to create a configurable workspace tha
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) for details.
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See  for details.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

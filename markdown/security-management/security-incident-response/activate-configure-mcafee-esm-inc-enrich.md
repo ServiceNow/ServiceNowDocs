@@ -2,6 +2,7 @@
 title: Get started with the McAfee ESM - Incident Enrichment integration
 description: McAfee ESM protects endpoints against viruses, spyware, Trojan horses, and other malware threats and integrates easily with Security Operations. Before you can use the McAfee ESM - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and login credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/activate-configure-mcafee-esm-inc-enrich.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation is complete, navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configuration**.
 
@@ -29,7 +30,7 @@ Role required: sn\_si\_admin
 
 3.  In the McAfee ESM - Incident Enrichment card, click **New**.
 
-    ![McAfee ESM configuration](../image/intel-config.png)
+    \[Omitted image "intel-config.png"\] Alt text: McAfee ESM configuration
 
 4.  Fill in the fields, as needed.
 
@@ -103,7 +104,7 @@ Include raw data samples in search results
 
 </td><td>
 
-Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](../../../security-incident-response/reference/installed-with-sir.md).
+Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/installed-with-sir.md).
 
 </td></tr><tr><td>
 

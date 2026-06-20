@@ -2,6 +2,7 @@
 title: IBM License Metric Tool \(ILMT\) and BigFix Inventory transform map for v2 APIs
 description: When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses a default transform map to process this data into ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/ibm-transform-maps-v2.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -54,7 +55,7 @@ ILMT Discovered Computer \[ilmt\_discovered\_computer\]
 
 ## ILMT and BigFix Inventory data processing
 
-The ILMT Software License Usage transform map processes data by using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see [Map with transformation event scripts](https://www.servicenow.com/docs/access?context=r_MapWithTransformationEventScripts&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+The ILMT Software License Usage transform map processes data by using the onStart transform map script. The onStart transform map script is an event script that processes at the beginning of an import. For more information on this transform map script, see Map with transformation event scripts.
 
-**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](integrating-ilmt-bigfix-v2-apis.md)
+**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v2-apis.md)
 

@@ -2,6 +2,7 @@
 title: Enhanced Sync Properties
 description: You can define the behavior of sync operations by configuring the Enhanced Sync properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/indoor-mapping/enhanced-sync-properties.html
 release: xanadu
 product: Indoor Mapping
 classification: indoor-mapping
@@ -149,9 +150,9 @@ Enables the deactivation of Indoor Mapping records as part of the sync process.Y
 You can enter multiple options by separating them with a comma.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Indoor Mapping references](../concept/indoor-mapping-references.md)
+</table>**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Floor map import group form](import-group-form.md)
+**Previous topic:**[Floor map import group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/import-group-form.md)
 
-**Next topic:**[Workplace Central](../../workplace-central/concept/workplace-central-feat.md)
+**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-central/workplace-central-feat.md)
 

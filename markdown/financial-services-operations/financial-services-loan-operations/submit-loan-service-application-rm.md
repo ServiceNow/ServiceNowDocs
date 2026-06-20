@@ -2,6 +2,7 @@
 title: Submit a loan service request as a loan contributor or agent connector
 description: Collect all required information and documents from the customer and submit the loan service request to back-office agents for fulfilment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-loan-operations/submit-loan-service-application-rm.html
 release: xanadu
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -24,7 +25,7 @@ Role required: none
 
 **Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see .
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ As a loan contributor or agent connector, fill in the customer data, collect the
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  In the **Lists** tab, under **Loan Service Cases**, click **All**.
 

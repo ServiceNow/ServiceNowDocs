@@ -2,6 +2,7 @@
 title: Access policy for System/Export Processors
 description: Ability for System/Export Processors to leverage processor access policy to secure all the export endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/api-auth-policy-export-processors.html
 release: xanadu
 product: Authentication
 classification: authentication

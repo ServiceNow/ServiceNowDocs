@@ -2,6 +2,7 @@
 title: Resolve a retail case in CSM/FSM Configurable Workspace
 description: Manage and close retail cases using CSM/FSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-resolve-workspace.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

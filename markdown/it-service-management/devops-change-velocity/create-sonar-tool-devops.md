@@ -2,6 +2,7 @@
 title: Onboard SonarQube to DevOps Change Velocity — Classic
 description: Connect to your Sonar instance to retrieve scan results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/create-sonar-tool-devops.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -69,7 +70,7 @@ Use MID Server
 
 </td><td>
 
-MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see MID Server selection.
 
 </td></tr></tbody>
 </table>3.  Click **Submit** to connect to your Sonar instance.
@@ -90,8 +91,8 @@ MID Server is optional. Select MID Server for an on-premises tool that is attach
 
 ## What to do next
 
--   [Configure SonarQube scans on Azure DevOps pipelines](config-sonarqube-azure-devops.md)
--   [Configure SonarQube scans on Jenkins pipelines](config-sonarqube-jenkins-devops.md)
+-   [Configure SonarQube scans on Azure DevOps pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/config-sonarqube-azure-devops.md)
+-   [Configure SonarQube scans on Jenkins pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/config-sonarqube-jenkins-devops.md)
 
-**Parent Topic:**[SonarQube integration with DevOps Change Velocity](../concept/sonarqube-devops-integration-devops.md)
+**Parent Topic:**[SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 

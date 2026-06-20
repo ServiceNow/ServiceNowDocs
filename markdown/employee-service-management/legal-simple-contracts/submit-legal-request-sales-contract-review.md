@@ -2,6 +2,7 @@
 title: Submit a legal request for sales contract review
 description: Submit a legal request to the legal team for review and legal support for a sales contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.html
 release: xanadu
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -27,7 +28,7 @@ You can submit a request for review of a sales contract to engage legal counsel,
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**.
 
-    **Note:** If you’re using [Employee Center](../../employee-center/concept/employee-center-landing-page.md), you can submit a legal request by navigating to the Employee Center portal and selecting a request from the **Legal services** &gt; **Browse Legal services** menu.
+    **Note:** If you’re using [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-center-landing-page.md), you can submit a legal request by navigating to the Employee Center portal and selecting a request from the **Legal services** &gt; **Browse Legal services** menu.
 
 2.  Click **Service Catalog** to view all the available request categories.
 
@@ -94,7 +95,7 @@ Additional information
 Additional information about the sales contract.
 
 </td></tr></tbody>
-</table>5.  Click the add attachments icon \(![Add attachments icon](../../legal-request-management/image/add-attachment-icon.png)\) to upload an attachment to the request.
+</table>5.  Click the add attachments icon \(\[Omitted image "add-attachment-icon.png"\] Alt text: Add attachments icon\) to upload an attachment to the request.
 
 6.  Click **Submit**.
 
@@ -109,5 +110,5 @@ Additional information about the sales contract.
 
 The legal request is created and assigned to the legal sales contract group.
 
-**Parent Topic:**[Sales contract review requests](../concept/legal-request-sales-contracts.md)
+**Parent Topic:**[Sales contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.md)
 

@@ -2,6 +2,7 @@
 title: Create an HR case from an injury or illness
 description: Create an HR case for an employee who is on leave because of an injury or illness or needs any other assistance from the HR department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.html
 release: xanadu
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -19,10 +20,10 @@ Create an HR case for an employee who is on leave because of an injury or illnes
 
 Ensure that the following conditions are met:
 
--   The Health and Safety Case Management \(sn\_hs\_cm\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Case Management](../../hs-case-management/task/install-hs-case-management.md).
--   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your instance. For more information on activating it, see [Activate Case and Knowledge Management](../../human-resources/task/activate-case-and-knowledge-management-scoped.md).
--   HR service property for creating an HR case for an injury is configured. For more information, see [Configure HR service for creating an HR case for an injury](../../hs-case-management/task/hs-configure-hr-service-property-case-injury.md).
--   **Employee** is selected in the **Person type** field on the injury and illness record. For more information, see [Injury and illness fields](../reference/hs-injury-illness-form.md).
+-   The Health and Safety Case Management \(sn\_hs\_cm\) application is installed on your ServiceNow instance. For more information, see [Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-case-management/install-hs-case-management.md).
+-   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your instance. For more information on activating it, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
+-   HR service property for creating an HR case for an injury is configured. For more information, see [Configure HR service for creating an HR case for an injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-case-management/hs-configure-hr-service-property-case-injury.md).
+-   **Employee** is selected in the **Person type** field on the injury and illness record. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
 Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations\_manager, and sn\_hs\_cm.case\_manager
 
@@ -30,19 +31,19 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\) and navigate to the **Lists** tab.
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\) and navigate to the **Lists** tab.
 
 3.  Open an injury and illness record to add the HR case to.
 
-<table id="choicetable_HRcase"><thead><tr><th align="left" id="d68348e155">
+<table id="choicetable_HRcase"><thead><tr><th align="left" id="d70503e155">
 
 Option
 
-</th><th align="left" id="d68348e158">
+</th><th align="left" id="d70503e158">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68348e164">
+</th></tr></thead><tbody><tr><td id="d70503e164">
 
 **From a safety incident**
 
@@ -54,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d68348e200">
+</td></tr><tr><td id="d70503e200">
 
 **From an injury and illness list**
 
@@ -70,7 +71,7 @@ Steps
 
 ## Result
 
-The HR case is created and added to the **HRSD case record** field on the injury form. For more information, see [Injury and illness fields](../reference/hs-injury-illness-form.md).
+The HR case is created and added to the **HRSD case record** field on the injury form. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](../concept/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

@@ -2,6 +2,7 @@
 title: Define policy reason mappings
 description: You can define the reason choices to be available to any user who requests an exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/define-policy-reason-mappings.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -97,5 +98,5 @@ Option to display the choice in the list of reason choices.
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Requesting and approving an exception for a remediation task](../concept/cc-ex-mgmt-request-approve.md)
+**Parent Topic:**[Requesting and approving an exception for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-mgmt-request-approve.md)
 

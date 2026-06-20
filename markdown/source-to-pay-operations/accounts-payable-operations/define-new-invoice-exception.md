@@ -2,6 +2,7 @@
 title: Create an invoice exception definition
 description: You can create invoice exception definition for invoices of types PO, Non-PO, credit memo.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/define-new-invoice-exception.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,7 +32,7 @@ Create an invoice exception definition
 
 3.  On the Invoice exception definition form, fill in the fields.
 
-    For a description of the field values, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md). Example: Missing business owner or legal entity.
+    For a description of the field values, see [Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md). Example: Missing business owner or legal entity.
 
 4.  Select **Active**.
 
@@ -45,13 +46,13 @@ Create an invoice exception definition
 
 8.  Configure the subflow that you want to choose from the drop-down list.
 
-    For more information on sub flows, see [Create subflow in workflow studio](create-subflow-in-workflow-studio.md).
+    For more information on sub flows, see [Create subflow in workflow studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-subflow-in-workflow-studio.md).
 
 9.  Select **Save**.
 
 10. Open an invoice record with all fields configured and click **View invoice processing case**.
 
-    For more information on creating an invoice record, see [Create an invoice manually](create-invoice.md). The exception engine runs and displays exceptions in the **Review exceptions** activity card of the playbook.
+    For more information on creating an invoice record, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-invoice.md). The exception engine runs and displays exceptions in the **Review exceptions** activity card of the playbook.
 
 11. Click **Resolve exceptions** activity card.
 
@@ -66,8 +67,8 @@ Create an invoice exception definition
     The exception is raised and resolved successfully.
 
 
--   **[Create subflow in workflow studio](create-subflow-in-workflow-studio.md)**  
+-   **[Create subflow in workflow studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-subflow-in-workflow-studio.md)**  
 Use subflows to configure conditions that are applied on the invoice and raise an exception.
 
-**Parent Topic:**[Invoice exceptions](../concept/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

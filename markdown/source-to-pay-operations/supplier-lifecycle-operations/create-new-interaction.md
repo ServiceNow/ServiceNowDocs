@@ -2,6 +2,7 @@
 title: View or create an interaction for a supplier
 description: Typically, an interaction record is automatically created when you accept a chat through the chat queue in the Source-to-Pay Workspace. However, you can also manually created an interaction from the list page of the Source-to-Pay Workspace. You can link an interaction record to an existing supplier case or can assign a task, which needs a supplier manager involvement for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-new-interaction.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.owner
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) to open the List page.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) to open the List page.
 
 3.  Navigate to **All work** &gt; **Interactions**
 
@@ -105,5 +106,5 @@ Additional information or comments added to the interaction.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md)
 

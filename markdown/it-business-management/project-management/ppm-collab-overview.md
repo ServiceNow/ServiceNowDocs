@@ -2,6 +2,7 @@
 title: PPM Collaboration
 description: Collaborate with your project team on a common enterprise messaging platform such as Slack or Microsoft Teams using the PPM Collaboration application. Facilitate active and timely communication about the project among the project's team members, be involved in critical discussions on your project, and receive real-time updates on the project's status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/ppm-collab-overview.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -47,5 +48,5 @@ Team member
 
 **Note:** PPM Collaboration is not supported for teamspaces.
 
-**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

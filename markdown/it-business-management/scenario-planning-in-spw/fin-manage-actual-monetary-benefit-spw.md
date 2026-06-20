@@ -2,6 +2,7 @@
 title: Capture actual monetary benefits
 description: Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/fin-manage-actual-monetary-benefit-spw.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 ## Before you begin
 
--   [Create monetary benefit plans for your planning items in Strategic Planning](fin-manage-monetary-benefit-plans-spw.md)
+-   [Create monetary benefit plans for your planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/fin-manage-monetary-benefit-plans-spw.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure

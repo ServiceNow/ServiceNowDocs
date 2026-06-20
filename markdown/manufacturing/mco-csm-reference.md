@@ -2,6 +2,7 @@
 title: Customer Service Management for Manufacturing Commercial Operations reference
 description: Reference topics provide additional information about the Customer Service Management for Manufacturing Commercial Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-csm-reference.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-10-16"
@@ -13,5 +14,5 @@ breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing]
 
 Reference topics provide additional information about the Customer Service Management for Manufacturing Commercial Operations application.
 
-For more reference information about Customer Service Management, see [Customer Service Management reference](https://www.servicenow.com/docs/access?context=csm-reference&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more reference information about Customer Service Management, see .
 

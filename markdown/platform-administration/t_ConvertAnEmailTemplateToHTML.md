@@ -2,6 +2,7 @@
 title: Convert an email template to rich HTML
 description: If you have an email template created prior to the Eureka release, you can convert it to rich HTML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConvertAnEmailTemplateToHTML.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Open the email template you want to convert.
 
-    ![Viewing template content](../image/legacy-email-template.png)
+    \[Omitted image "legacy-email-template.png"\] Alt text: Viewing template content
 
 3.  Click **Switch to Rich HTML Editor**.
 
@@ -31,7 +32,7 @@ Role required: admin
 
     -   HTML Editor: Any raw HTML in the **Message** field is rendered as WYSIWYG text in the **Message HTML** field. The content can be edited in a feature-rich HTML editor.
     -   Simplified Mail Scripts: Any mail scripts in the body are automatically saved to the Email Script \[sys\_script\_email\] table and are replaced in the notification body with an embedded script tag. This makes the template body easier to read and makes it easier to reuse scripts in multiple email templates.
-    ![Content converted to rich HTML](../image/Template_converted.png)
+    \[Omitted image "Template\_converted.png"\] Alt text: Content converted to rich HTML
 
 4.  Modify the message text, as needed, using the WYSIWYG editor or by editing the underlying HTML.
 
@@ -48,5 +49,5 @@ If you manually enter a mail script in the body of a new or converted email noti
 
 You can view the mail scripts in their original form by opening the email template and clicking the **Show Notification Scripts** related link.
 
-**Parent Topic:**[Email templates](../concept/c_EmailTemplates.md)
+**Parent Topic:**[Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailTemplates.md)
 

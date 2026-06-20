@@ -2,6 +2,7 @@
 title: Change Management workflows
 description: The Change Management processes for a change request are controlled by workflows defined for a specific change request type. You can use the graphical Workflow Editor to modify one of the default workflows, or to create additional change request workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/change-workflows.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -26,5 +27,5 @@ By default, six change request workflows are provided.
 |Change Request - Standard|The workflow process that a standard change request follow.|
 |Change Request - Standard change tasks|The child workflow process that handles the creation and management of the change tasks for the standard change request workflow.|
 
-**Parent Topic:**[Reference section for Change Management](reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/reference-change-management.md)
 

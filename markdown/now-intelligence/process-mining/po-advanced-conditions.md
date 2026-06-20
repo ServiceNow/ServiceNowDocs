@@ -2,6 +2,7 @@
 title: Configure advanced conditions
 description: Configure custom start and end conditions for your table configuration to define which part of the process should be included in the Process Mining project and made available for analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/po-advanced-conditions.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -29,7 +30,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  In the **Create new process start condition** form, fill in the fields.
 
-    For a description of the field values, see [Create new process start condition](../reference/process-start-condition.md).
+    For a description of the field values, see [Create new process start condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/process-start-condition.md).
 
 3.  Select **Submit** to save the condition.
 
@@ -46,7 +47,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 In this example, a process end condition is configured when an incident record enters the `Work in progress` state. Because the **Occurrence\(s\) to match** field is set to `First only`, the condition only triggers the first time a record's state changes to `Work in progress`.
 
-![Configured process start condition](../image/start-condition-example.png)
+\[Omitted image "start-condition-example.png"\] Alt text: Configured process start condition
 
-**Parent Topic:**[Set up a table configuration](po-table-configuration.md)
+**Parent Topic:**[Set up a table configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/po-table-configuration.md)
 

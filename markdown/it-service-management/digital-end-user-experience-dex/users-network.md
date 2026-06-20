@@ -2,6 +2,7 @@
 title: Network monitoring
 description: The Network monitoring page in the displays information about multiple facets of a user's network configuration. This information includes connection details, performance metrics, and application network hops.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/users-network.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -39,5 +40,5 @@ This section showcases the applications drop-down menu, domain name, and address
 
 Use the **Applications** drop-down menu to select an application to view its hop information. To get the latest information, select **Run**.
 
-For more information on the network card, see [Network monitoring page](../reference/user-network-card.md).
+For more information on the network card, see [Network monitoring page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/user-network-card.md).
 

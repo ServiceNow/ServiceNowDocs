@@ -2,6 +2,7 @@
 title: Supplier contact
 description: You can add the supplier contacts allowing them to access the  Supplier Collaboration Portal  and start working on the most important tasks. You can view information about the supplier contacts and also indicates which user is the primary contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/supplier-contact.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,5 +28,5 @@ You can view the supplier contact details.
 |User ID|String|User ID to identify the supplier|
 |Title|String|The designated title of the supplier.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

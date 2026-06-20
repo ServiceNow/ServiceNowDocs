@@ -2,6 +2,7 @@
 title: Create a CSS include to override theming for AI Search in Service Portal
 description: Override theming for AI Search in Service Portal to comply with your company branding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/css-override-ais-theming-sp.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -21,19 +22,19 @@ Role required: sp\_admin or admin
 
 ## About this task
 
-As an example of styling features of AI Search in Service Portal, this procedure removes the borders around the search results container and search filters and changes the hit highlight color. You can style several other features using additional CSS variables. For more information about these variables, see [Theming for AI Search in Service Portal](../reference/ais-sp-css-vars.md).
+As an example of styling features of AI Search in Service Portal, this procedure removes the borders around the search results container and search filters and changes the hit highlight color. You can style several other features using additional CSS variables. For more information about these variables, see [Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/ais-sp-css-vars.md).
 
 **Search results container**: Remove the line border around each item retrieved in the search.
 
-![Search results container.](../image/css-override-container.png)
+\[Omitted image "css-override-container.png"\] Alt text: Search results container.
 
 **Search filters**: Remove the line border around search filters.
 
-![Search filters.](../image/css-override-search-filter.png)
+\[Omitted image "css-override-search-filter.png"\] Alt text: Search filters.
 
 **Hit highlight color**: Change the color displaying the search hit on the text searched.
 
-![Hit highlights.](../image/css-override-hit-highlights.png)
+\[Omitted image "css-override-hit-highlights.png"\] Alt text: Hit highlights.
 
 ## Procedure
 
@@ -200,10 +201,10 @@ Option to load the CSS Include asynchronously to improve page load time. This op
 
 The borders around the search results container and search filters are removed and the hit highlight color displays your custom color.
 
-![Theming for AI Search in SP override results.](../image/css-override-results.png)
+\[Omitted image "css-override-results.png"\] Alt text: Theming for AI Search in SP override results.
 
--   **[Theming for AI Search in Service Portal](../reference/ais-sp-css-vars.md)**  
+-   **[Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/ais-sp-css-vars.md)**  
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 
-**Parent Topic:**[AI Search in Service Portal](../concept/ai-search.md)
+**Parent Topic:**[AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/ai-search.md)
 

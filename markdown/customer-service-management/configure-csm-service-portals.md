@@ -2,7 +2,10 @@
 title: Configure the Customer and Consumer Service Portals
 description: Configure the Customer and Consumer Service Portals to provide information and support for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-csm-service-portals.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -55,5 +58,5 @@ To activate the Consumer Service Portal, activate the Consumer Service plugin.
 **Related topics**  
 
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_ServicePortal]
 

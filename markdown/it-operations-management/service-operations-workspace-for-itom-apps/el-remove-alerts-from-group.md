@@ -2,6 +2,7 @@
 title: Remove alerts from an alert group in Express List
 description: Remove secondary alerts from an alert group directly from the Express List pane or from the preview panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/el-remove-alerts-from-group.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -26,40 +27,40 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  From the navigation bar, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  Remove a secondary alert from an alert group.
 
     You can remove alerts from a group regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d289894e114">
+<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d269435e114">
 
 Location
 
-</th><th align="left" id="d289894e117">
+</th><th align="left" id="d269435e117">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d289894e123">
+</th></tr></thead><tbody><tr><td id="d269435e123">
 
 **The Express List pane**
 
 </td><td>
 
-1.  In the Active alerts list, select the chevron icon \(![Chevron icon.](../image/icon-chevron.png)\) at the beginning of one or more alert group rows to display the alerts contained in the group.
+1.  In the Active alerts list, select the chevron icon \(\[Omitted image "icon-chevron.png"\] Alt text: Chevron icon.\) at the beginning of one or more alert group rows to display the alerts contained in the group.
 2.  Select one or more secondary alerts.
 3.  From the **Close** drop-down list at the top right of the list, select **Remove from group**.
 
 **Note:** When you are trying to remove the only secondary alert from an alert group, thereby ungrouping the group, a message displays that enables you to undo the action.
 
-</td></tr><tr><td id="d289894e161">
+</td></tr><tr><td id="d269435e161">
 
 **The Express List preview panel for a group of alerts**
 
 </td><td>
 
 1.  In the **Alerts in group** tab, select an alert tile.
-2.  Select the more actions icon \(![More actions icon](../../event-management/image/more-actions-icon.png)\).
+2.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\).
 3.  Select **Remove from group**.
 
 

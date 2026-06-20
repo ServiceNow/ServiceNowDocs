@@ -2,6 +2,7 @@
 title: Integrating ServiceNow Virtual Agent with Microsoft Teams
 description: Enables ServiceNow Virtual Agent to integrate with Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-msteams.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

@@ -2,6 +2,7 @@
 title: Understanding conversation deflection rate
 description: Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/understanding-deflection-rate.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

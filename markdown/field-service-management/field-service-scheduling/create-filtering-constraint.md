@@ -2,6 +2,7 @@
 title: Create a filter constraint or a ranking criteria for a task recommendation policy
 description: Define a filtering constraints or a ranking criteria for a task recommendation policy. Filter the best matched tasks for the agent based on the filter ordering rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-filtering-constraint.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -97,5 +98,5 @@ Method for ranking the criteria. Choices are as follows:-   **More is better:** 
 
 The task recommendation policy-related criterion is created successfully. The criterion is added to the appropriate related list: Filtering Constraint or Ranking Criteria.
 
-**Parent Topic:**[Create Task Recommendation Policies](create-task-recommendation-policies.md)
+**Parent Topic:**[Create Task Recommendation Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-task-recommendation-policies.md)
 

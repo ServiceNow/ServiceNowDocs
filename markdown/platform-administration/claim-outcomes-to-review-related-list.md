@@ -2,6 +2,7 @@
 title: Claim Outcomes to Review related list
 description: During system upgrades, the Claim Status tab displays outcomes to review and resolve. See the Claim Status field in the table below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/claim-outcomes-to-review-related-list.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -126,5 +127,5 @@ Table
 Table that contains the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade History module: Track every upgrade](c_UpgradeHistory.md)
+</table>**Parent Topic:**[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeHistory.md)
 

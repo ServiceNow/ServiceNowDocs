@@ -2,6 +2,7 @@
 title: Execute a skipped record rule
 description: Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.Execute the skipped record rules on demand on the skipped records whenever it's required.Execute the skipped record rules automatically during the upgrade on the skipped records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-execute-skipped-record-rule.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -37,15 +38,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d236760e121">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d171197e121">
 
 Option
 
-</th><th align="left" id="d236760e124">
+</th><th align="left" id="d171197e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d236760e130">
+</th></tr></thead><tbody><tr><td id="d171197e130">
 
 **Using Run Now**
 
@@ -56,7 +57,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d236760e156">
+</td></tr><tr><td id="d171197e156">
 
 **Using View Latest Upgrade History tab**
 

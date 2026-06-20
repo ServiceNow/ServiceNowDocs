@@ -2,6 +2,7 @@
 title: Install Application Insights
 description: You can install the Application Insights application \(sn\_app\_insights\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/install-application-insights.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -39,7 +40,7 @@ The following items are installed with Application Insights:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Application Insights](../reference/installed-with-app-insights.md).
+For more information, see [Components installed with Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/installed-with-app-insights.md).
 
 ## Procedure
 
@@ -49,7 +50,7 @@ For more information, see [Components installed with Application Insights](../re
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -58,8 +59,8 @@ For more information, see [Components installed with Application Insights](../re
 4.  Select **Install**.
 
 
--   **[Components installed with Application Insights](../reference/installed-with-app-insights.md)**  
+-   **[Components installed with Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/installed-with-app-insights.md)**  
 Several types of components are installed with the installation of the Application Insights application, including tables and user roles.
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

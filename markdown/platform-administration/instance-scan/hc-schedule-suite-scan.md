@@ -2,6 +2,7 @@
 title: Schedule a suite scan
 description: Create a schedule to regularly trigger a suite scan even when you don’t have an active session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hc-schedule-suite-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -40,7 +41,7 @@ Role required: admin.
     -   **Full Instance**: Scans all the available records in the instance.
     -   **Scoped App**: Scans selected scoped apps. You can select multiple scoped apps.
     -   **Update Set**: Scans multiple update sets.
-6.  Select **Schedule Scan**.![Image showing Schedule Suite Scan modal](../image/hc-schedule-suite-scan.png)
+6.  Select **Schedule Scan**.\[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
 
     **Note:** If a record is inactive, the checks don't generate any findings for that record.
 

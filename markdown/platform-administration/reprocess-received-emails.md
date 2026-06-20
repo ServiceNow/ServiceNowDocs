@@ -2,6 +2,7 @@
 title: Reprocess received emails
 description: When a email has been processed incorrectly, fix the underlying problem, then reprocess the email. You can reprocess emails individually or in a batch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/reprocess-received-emails.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -39,5 +40,5 @@ Take the following steps only after fixing the underlying problem. This procedur
     Remember that you can reprocess only `received` or `received-ignored` emails.
 
 
-**Parent Topic:**[Use Inbound email actions](../concept/use-inbound-email-action.md)
+**Parent Topic:**[Use Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/use-inbound-email-action.md)
 

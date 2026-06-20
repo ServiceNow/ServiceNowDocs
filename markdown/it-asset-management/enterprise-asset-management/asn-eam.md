@@ -2,6 +2,7 @@
 title: Use Advanced Shipment Notification in Enterprise Asset Management
 description: Use Advanced Shipment Notification \(ASN\) to automate and create enterprise asset records for when your assets are in transit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/asn-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -58,5 +59,5 @@ Creating enterprise asset records manually is time consuming and can lead to err
     Serialized assets do not have duplicate enterprise import records created, but consumables do have duplicate entries.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

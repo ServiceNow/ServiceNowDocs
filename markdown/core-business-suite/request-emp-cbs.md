@@ -2,7 +2,10 @@
 title: Raise HR requests
 description: Raise an HR request for general requests, payroll, or benefits on CBS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/core-business-suite/request-emp-cbs.html
 release: xanadu
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2025-11-24"
 reading_time_minutes: 1
@@ -31,8 +34,8 @@ Role required: sn\_cbs.requestor
 
         For more information on the field descriptions of each request form, see the following:
 
-        -   [HR service catalog management](https://www.servicenow.com/docs/access?context=hr-service-catalog-management&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
-        -   [Report an issue with your payslip](https://www.servicenow.com/docs/access?context=payslips-awd&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+        -   .
+        -   .
 
-**Parent Topic:**[Using Core Business Suite](../concept/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/core-business-suite/cbs-using-parent.md)
 

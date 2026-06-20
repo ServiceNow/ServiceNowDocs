@@ -2,7 +2,10 @@
 title: Complete questionnaires for a work order task on the Contractor Portal
 description: As a manager or field service agent of a contractor company, you can access and complete questionnaires from the work order tasks assigned to you through the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/complete-questionnaire-contractor-portal.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -36,5 +39,5 @@ You can complete questionnaires for the work order tasks that are assigned to yo
 6.  Click **Submit** after answering all the mandatory questions in the questionnaire.
 
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

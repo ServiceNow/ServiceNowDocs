@@ -2,7 +2,10 @@
 title: Activate dark mode
 description: Turn on dark mode in the Mobile Agent to alleviate eye strain if the default is too bright.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/activate-dark-mode-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,5 +31,5 @@ Role required: wm\_agent
 4.  Tap **Dark theme**.
 
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

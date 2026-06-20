@@ -2,6 +2,7 @@
 title: Redirect agents of a specific group to Service Operations Workspace
 description: Enable only agents of specific user groups to be automatically redirected to Service Operations Workspace after logging in to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/redirect-specific-agent-group-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

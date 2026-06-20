@@ -2,7 +2,10 @@
 title: Create notification content for Microsoft Teams
 description: Create notifications to send messages directly to your employees through Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-campaign-content-publish-ms-teams.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,9 +18,9 @@ Create notifications to send messages directly to your employees through Microso
 
 ## Before you begin
 
--   [Install the necessary plugins](../concept/using-campaigns-ms-teams.md)
+-   [Install the necessary plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/using-campaigns-ms-teams.md)
 -   Role required: sn\_cd.campaign\_manager
--   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](../../employee-center/task/ecpro-manage-link-content.md)
+-   A Microsoft Teams notification includes a link [Create a video, URL, or to-do link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## Procedure
 
@@ -25,15 +28,15 @@ Create notifications to send messages directly to your employees through Microso
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d536417e97">
+<table id="choicetable_chl_pby_h5b"><thead><tr><th align="left" id="d145837e97">
 
 Record source
 
-</th><th align="left" id="d536417e100">
+</th><th align="left" id="d145837e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d536417e106">
+</th></tr></thead><tbody><tr><td id="d145837e106">
 
 **Existing content record**
 
@@ -41,7 +44,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d536417e115">
+</td></tr><tr><td id="d145837e115">
 
 **New content**
 
@@ -120,9 +123,9 @@ Option to indicate that the notification is active and available.
 
 ## What to do next
 
-Make the content available to users: [Schedule delivery of Microsoft Teams notification content](schedule-delivery-content.md#).
+Make the content available to users: [Schedule delivery of Microsoft Teams notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/schedule-delivery-content.md).
 
-Alternatively, you can build out a more robust publishing configuration using [Creating campaigns with Content Experiences](../../employee-center/concept/ecpro-campaigns.md)
+Alternatively, you can build out a more robust publishing configuration using [Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 
-**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](../concept/create-campaign-content-publishing.md)
+**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-campaign-content-publishing.md)
 

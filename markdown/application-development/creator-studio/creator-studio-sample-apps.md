@@ -2,6 +2,7 @@
 title: Example apps you can build in Creator Studio
 description: Creator Studio enables you to build apps where people can make requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-sample-apps.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio

@@ -2,6 +2,7 @@
 title: Create response tasks
 description: After a security incident has been created, you can create response tasks to track separate actions to be performed to respond to the security issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/t\_CreateResponseTask.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -32,7 +33,7 @@ Role required: sn\_si.basic
 
 3.  Click the **Add Response Task** button in the form header.
 
-    **Note:** To create any other task, click the **Tasks** tab in the incident Related List. For more information on creating other types of tasks, see [Create a task](https://servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/task-table/task/t_CreateATask.html).
+    **Note:** To create any other task, click the **Tasks** tab in the incident Related List. For more information on creating other types of tasks, see Create a task.
 
 4.  Fill in the fields on the form, as appropriate.
 
@@ -50,7 +51,7 @@ Select security tag
 
 </td><td>
 
-If you set up and activated [security tags](../../security-operations-common/task/create-class-group-and-tags.md), you can select one or more tags to add metadata to the record or specify the degree of sensitivity of the response task. If you did not set up or activate security tags, this drop-down list is not displayed.
+If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/create-class-group-and-tags.md), you can select one or more tags to add metadata to the record or specify the degree of sensitivity of the response task. If you did not set up or activate security tags, this drop-down list is not displayed.
 
 </td></tr><tr><td>
 

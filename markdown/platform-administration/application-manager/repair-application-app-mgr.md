@@ -2,6 +2,7 @@
 title: Repair an application or plugin
 description: Repair an application procured through the ServiceNow Store or a plugin included in your instance. Repairing apps or plugins can resolve issues caused by unintentional modifications, corrupted files, or partial deletion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/repair-application-app-mgr.html
 release: xanadu
 product: Application Manager
 classification: application-manager

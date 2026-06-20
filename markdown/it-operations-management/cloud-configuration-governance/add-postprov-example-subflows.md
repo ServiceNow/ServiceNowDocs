@@ -2,6 +2,7 @@
 title: Add pre- or post-provisioning operations to a template-based catalog item
 description: Create a post-provisioning operation using subflows on a template-based catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/add-postprov-example-subflows.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -72,5 +73,5 @@ Role required: Cloud user, designer, admin, sn\_cmp.cloud\_service\_designer
     |---|-----|
     |`flowcorrelationid`|`$(Script:CMPFlowStepHandler.generateCorrelationId)`|
 
--   To check whether the flow completes successfully, see [Create a response action for Cloud Provisioning and Governance.](create-subflow-action-cloud-provision-governance.md)
+-   To check whether the flow completes successfully, see [Create a response action for Cloud Provisioning and Governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.md)
 

@@ -2,6 +2,7 @@
 title: UX: Taxonomy Review and Design
 description: The User Experience \(UX\) Taxonomy Review and Design Accelerator optimizes content structure and navigation in your portal, with a focus on Knowledge and Catalog to improve usability and help users easily find the correct information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/ux\_review\_unified\_taxonomy.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -25,7 +26,7 @@ The Accelerator is divided into three main phases, Diagnose, Run, and Review.
 -   Run: Conducts activities to assist in creating the desired taxonomy
 -   Review: Discusses results and next steps
 
-    The Accelerator differs slightly if your organization has an existing taxonomy you want to use or if starting without an existing baseline. See [Portal Browse Taxonomy widget](https://www.servicenow.com/docs/access?context=browse-taxo-widget&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) for additional information on taxonomy.
+    The Accelerator differs slightly if your organization has an existing taxonomy you want to use or if starting without an existing baseline. See  for additional information on taxonomy.
 
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.

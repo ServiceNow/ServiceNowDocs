@@ -2,9 +2,10 @@
 title: Modify notification channels
 description: You can update channel information for your notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/modify-notif-channel.html
 release: xanadu
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Setting notification preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,7 +24,7 @@ Role required: none
 
 2.  In the Notification Channels section, select the channel row or the right arrow \(**&gt;**\) next to the channel name.
 
-3.  In the Edit Channel form, update the fields \(see [Create notification channels](create-channel.md) for descriptions of the form fields\).
+3.  In the Edit Channel form, update the fields \(see [Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-channel.md) for descriptions of the form fields\).
 
 4.  Select **Save**.
 
@@ -32,5 +33,5 @@ Role required: none
 
 The system updates and saves the channel information that you modified.
 
-**Parent Topic:**[Setting notification preferences in Core UI](../concept/user-notification-preferences.md)
+**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-notification-preferences.md)
 

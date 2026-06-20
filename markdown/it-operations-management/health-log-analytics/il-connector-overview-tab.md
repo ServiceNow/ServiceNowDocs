@@ -2,6 +2,7 @@
 title: Review log data streaming status and sources of an integration
 description: Review the log data streaming status and sources of an active integration for Health Log Analytics on the integration's Overview tab. From this tab, you can investigate streaming issues and refine the integration's configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-overview-tab.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,7 +19,7 @@ Review the log data streaming status and sources of an active integration for He
 
 ## Before you begin
 
-Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md).
+Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -32,17 +33,17 @@ The Overview tab for an active integration allows you to check the integration's
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon \(![Integration Launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\)
+2.  From the left pane, select the Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integration Launchpad icon\)
 
 3.  On the **Installed integrations** tab, search for an active integration and open it.
 
     The **Overview** tab displays.
 
-    ![Integration Overview tab and View menu items.](../image/hla-connector-overview-tab.png "Overview tab and View menu items")
+    \[Omitted image "hla-connector-overview-tab.png"\] Alt text: Integration Overview tab and View menu items.
 
     The **Streaming status** shows the integration's data streaming stats between the log source and the MID Server, and the MID Server and the AI engine. It also shows the total number of alerts that the AI engine created in the ServiceNow AIOps table. These statistics are updated when the **Overview** tab loads. If there's a streaming issue, an error message appears. If data streaming fails, the integration is automatically deactivated, and the **Streaming status** indicates where the failure happened. A banner explains the failure and steps to take.
 
-    ![Streaming status failure.](../image/il-connector-hla-status-failed.png)
+    \[Omitted image "il-connector-hla-status-failed.png"\] Alt text: Streaming status failure.
 
     **Note:** The ServiceNow System Logs Retriever integration doesn't run on a MID Server. Therefore, the **Overview** tab for this integration doesn’t display the MID Server streaming status.
 
@@ -119,7 +120,7 @@ The average number of pre-processed log lines that streamed to the MID Server pe
 
 5.  Adjust the configuration of the integration, if needed.
 
-    Navigate to relevant tables or the Log Viewer from the View menu \(![View menu icon.](../image/icon-actions.png)\).
+    Navigate to relevant tables or the Log Viewer from the View menu \(\[Omitted image "icon-actions.png"\] Alt text: View menu icon.\).
 
     **Note:** The View menu content changes dynamically depending on whether the referenced tables contain data.
 
@@ -137,7 +138,7 @@ Data Input Mapping
 
 </td><td>
 
-This option opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data](hla-data-input-mapping.md).
+This option opens the **Data Input Mapping** page. On this page, you can map sources manually if HLA didn't discover properties automatically. For more information, see [Map raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ Source Type Structure
 
 </td><td>
 
-This option opens the **Source Type Structures** page. In the Source Type Structure, log data is classified and organized based on its origin or type. You can adjust the structure and verify that the HLA AI engine extracts properties properly and classifies them correctly. For more information, see [Source type structure adjustment](../concept/hla-source-type-structure-adjustment.md).
+This option opens the **Source Type Structures** page. In the Source Type Structure, log data is classified and organized based on its origin or type. You can adjust the structure and verify that the HLA AI engine extracts properties properly and classifies them correctly. For more information, see [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ Log Sources
 
 </td><td>
 
-This option opens the **Log Sources** table. This table enables you to verify that HLA has created all your log sources. If a log source is missing, you can add it manually. For more information, see [Verify your log sources](hla-log-sources-review.md).
+This option opens the **Log Sources** table. This table enables you to verify that HLA has created all your log sources. If a log source is missing, you can add it manually. For more information, see [Verify your log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-log-sources-review.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ Log Viewer
 
 </td><td>
 
-This option opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Viewing the logs for an alert on the Log viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept.md).**Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+This option opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Viewing the logs for an alert on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md).**Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>6.  When you have resolved any streaming issues and fixed the configuration, test and save the integration, and then reactivate it.
@@ -169,5 +170,5 @@ This option opens the **Log Viewer**, which shows the frequency of anomalies in 
     For more information, see the documentation on configuring individual integrations.
 
 
-**Parent Topic:**[Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md)
+**Parent Topic:**[Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)
 

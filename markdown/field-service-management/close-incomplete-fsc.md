@@ -2,7 +2,10 @@
 title: Close an incomplete work order task on a mobile device
 description: You can close a work order task as incomplete if there is work pending on the task through the Field Service Contractor for mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/close-incomplete-fsc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: wm\_ext\_agent
 
 3.  Open a work order task that is already in progress.
 
-4.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap **Close Incomplete**.
 
@@ -48,5 +51,5 @@ Role required: wm\_ext\_agent
 
 The task is closed. If you created a follow-up work order task, you can access it by navigating to **My work** &gt; **My group tasks**.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

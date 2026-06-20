@@ -2,6 +2,7 @@
 title: JSON object format
 description: The JSON object is built in two structures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_JSONObjectFormat.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -200,5 +201,5 @@ The following is a record array of incident responses with an error.
 }
 ```
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_JSONv2WebService.md)
 

@@ -2,6 +2,7 @@
 title: Generate Content action
 description: Use the Generate Content action with Workflow Studio and Virtual Agent to generate bodies of text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/generate-content-action.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller

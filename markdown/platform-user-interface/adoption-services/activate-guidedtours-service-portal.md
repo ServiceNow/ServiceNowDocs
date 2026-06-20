@@ -2,6 +2,7 @@
 title: Enable guided tours
 description: Enable guided tours for Service Portal pages as well as the standard platform UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/activate-guidedtours-service-portal.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -28,7 +29,7 @@ With the Xanadu release, you can also enable guided tours to run on Service Port
 -   For instances that are new in Xanadu, the Guided Tours for Service Portal feature is active by default.
 -   For pre-Xanadu instances that you upgrade to Xanadu, the Guided Tours for Service Portal feature is inactive by default.
 
-**Note:** The [Service Portal](../../service-portal/concept/c_ServicePortal.md) application provides a framework that enables you to customize your portal so that your users can access specific platform features in a custom context. You can create a guided tour for a Service Portal page to guide your users through its content step by step.
+**Note:** The [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/c_ServicePortal.md) application provides a framework that enables you to customize your portal so that your users can access specific platform features in a custom context. You can create a guided tour for a Service Portal page to guide your users through its content step by step.
 
 ## Procedure
 
@@ -75,9 +76,9 @@ Service Portal pages
 
 In the base system, you can only launch tours from pages that use the SP Header Menu. Manually launched tours do not display on pages with custom header menus.
 
- If your guided tour is on a Service Portal page that does not use the SP Header Menu, you must configure your tour for auto-launch so the tour is visible to your users. To ensure this type of tour is visible to your users, see [Configure auto-launch for guided tours](auto-launch-guided-tours.md).
+ If your guided tour is on a Service Portal page that does not use the SP Header Menu, you must configure your tour for auto-launch so the tour is visible to your users. To ensure this type of tour is visible to your users, see [Configure auto-launch for guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/auto-launch-guided-tours.md).
 
- If your Service Portal uses Page Route Maps, tours may not show when expected. For example, your users may not see a tour when expected if the tour is configured for a redirected page. For more information, see [Redirect a reference to a Page ID](../../service-portal/task/reroute-page.md) .
+ If your Service Portal uses Page Route Maps, tours may not show when expected. For example, your users may not see a tour when expected if the tour is configured for a redirected page. For more information, see [Redirect a reference to a Page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/reroute-page.md) .
 
 </td></tr><tr><td>
 

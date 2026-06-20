@@ -2,6 +2,7 @@
 title: Add communication plan from the major incident workbench
 description: You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/add-comm-plan-from-mim-workbench.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -21,7 +22,7 @@ Role required: major\_incident\_manager
 
 ## Procedure
 
-1.  Navigate to [Major incident workbench](../concept/major-incident-workbench.md).
+1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/major-incident-workbench.md).
 
 2.  Click the **Communications** tab and then click **Add** that appears in Communication Tasks section to display the Adhoc Communication pop-up window.
 
@@ -37,5 +38,5 @@ Role required: major\_incident\_manager
     |Due in \(Minutes\)|Time span when the task must be executed after the task initiates. For recurring tasks, it also indicates the time span after which the task must repeat.|
 
 
-**Parent Topic:**[Major incident workbench](../concept/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/major-incident-workbench.md)
 

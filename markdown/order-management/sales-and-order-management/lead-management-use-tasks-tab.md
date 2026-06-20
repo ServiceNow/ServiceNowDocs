@@ -2,6 +2,7 @@
 title: Add lead tasks
 description: Create lead tasks to follow-up calls, emails, or meetings with your to progress on the lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-use-tasks-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,13 +22,13 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Leads - All**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\] Alt text:and select **Leads - All**.
 
 2.  From the **Leads List** window, select the lead you want to work with.
 
     -   On the **Leads- All** page, select **Create task**.
     -   Open the lead record, select the **Tasks** tab and select **New** to start a new lead task or select an existing lead task to make changes.
-    To [Create a lead](create-new-lead.md), select **New**.
+    To [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-lead.md), select **New**.
 
     **Note:**
 
@@ -49,5 +50,5 @@ Role required: sales\_agent
 
 ## What to do next
 
-You can create appointments in your lead tasks. To learn more, see [Create appointments](../concept/opportunity-management-create-an-appoinment.md).
+You can create appointments in your lead tasks. To learn more, see [Create appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management-create-an-appoinment.md).
 

@@ -2,6 +2,7 @@
 title: Configure the IBM Watson Assistant Chat integration
 description: Set up the IBM Watson Assistant topic to run dialog skills \(conversations created in IBM Watson Assistant\) in the web-based chat client. This topic returns information exchanged during the virtual agent conversation to IBM Watson Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-watson-assistant-topic.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -47,13 +48,13 @@ This topic runs an IBM Watson Assistant dialog in Virtual Agent. It doesn't requ
 
     3.  Confirm that the **Endpoint** field and the **Endpoint** column displayed on the **Authentication** tab have the correct endpoint URL for your IBM Watson account.
 
-        ![REST Messages form for IBM Watson Assistant with IBM endpoint URLs highlighted.](../images/REST-msg-Watson.png)
+        \[Omitted image "REST-msg-Watson.png"\] Alt text: REST Messages form for IBM Watson Assistant with IBM endpoint URLs highlighted.
 
 3.  In the **Basic auth profile** field on the **Authentication** tab, open the Assistant Profile record.
 
 4.  In the Basic Auth Configuration form, enter the **Username** and **Password** values from your IBM Watson Assistant Service Credentials, then select **Update**.
 
-    ![Basic Auth Configuration form for IBM Watson Assistant assistant profile.](../images/Basic-auth-config-assistant-profile.png)
+    \[Omitted image "Basic-auth-config-assistant-profile.png"\] Alt text: Basic Auth Configuration form for IBM Watson Assistant assistant profile.
 
 5.  Publish the IBM Skill topic:
 

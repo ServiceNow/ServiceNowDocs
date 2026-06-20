@@ -2,6 +2,7 @@
 title: Raise a Compliance Request form
 description: Use the Raise a Compliance Request form in the Employee Center to raise a compliance request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/compliance-request-form-employee-center.html
 release: xanadu
 product: Compliance Case Management
 classification: compliance-case-management
@@ -94,5 +95,5 @@ Location
 Location where the request was raised. For example, Japan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Raise a compliance request from the Employee Center](../task/raise-compliance-request-employee-center.md)
+</table>**Parent Topic:**[Raise a compliance request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/compliance-case-management/raise-compliance-request-employee-center.md)
 

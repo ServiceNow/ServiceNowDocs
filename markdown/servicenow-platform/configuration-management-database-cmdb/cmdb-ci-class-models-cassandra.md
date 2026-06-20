@@ -2,13 +2,14 @@
 title: Cassandra extension classes
 description: The CMDB CI Class Models store app adds or updates classes for Cassandra databases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-cassandra.html
 release: xanadu
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI Class Models, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Cassandra extension classes
@@ -19,7 +20,7 @@ The app adds class models that extend the CMDB class hierarchy, including class 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Cassandra
 
@@ -29,7 +30,7 @@ Cassandra is a distributed database that is treated as one database and that run
 
 This section lists the classes that the CMDB CI Class Models store app adds or updates.
 
-CMDB CI Class Models: For the list of CMDB classes in a base system, including ones that this store app might be extending, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+CMDB CI Class Models: For the list of CMDB classes in a base system, including ones that this store app might be extending, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_h2r_d5z_ryb"><thead><tr><th>
 
@@ -84,5 +85,5 @@ DB catalog\[cmdb\_ci\_db\_catalog\]
 “Hosted On” cmdb\_ci\_cassandra\_cluster
 
 </td></tr></tbody>
-</table>![Cassandra cluster node class schema.](../image/cmdb-ci-cassandra-cluster-node.png) ![Cassandra instance class schema.](../image/cmdb-ci-cassandra-instance.png) ![Cassandra keyspace class schema.](../image/cmdb-ci-cassandra-keyspace.png)
+</table>\[Omitted image "cmdb-ci-cassandra-cluster-node.png"\] Alt text: Cassandra cluster node class schema. \[Omitted image "cmdb-ci-cassandra-instance.png"\] Alt text: Cassandra instance class schema. \[Omitted image "cmdb-ci-cassandra-keyspace.png"\] Alt text: Cassandra keyspace class schema.
 

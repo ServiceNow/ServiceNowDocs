@@ -2,6 +2,7 @@
 title: Edit basic conversation details
 description: In Connect Chat, you can customize the avatar, name, and description for a group or record conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/connect/t\_EditBasicConversationDetails.html
 release: xanadu
 product: Connect
 classification: connect

@@ -2,6 +2,7 @@
 title: Change an approval summarizer
 description: You can modify existing approval summaries to include additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/t\_ChangeASummarizer.html
 release: xanadu
 product: Approvals
 classification: approvals

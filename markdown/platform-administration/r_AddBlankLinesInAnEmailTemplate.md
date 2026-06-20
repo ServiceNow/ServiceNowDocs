@@ -2,6 +2,7 @@
 title: Add blank lines in an email template
 description: You can easily add blank lines in an email template using HTML tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_AddBlankLinesInAnEmailTemplate.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -18,5 +19,5 @@ Judicious use of these HTML tags can make your email easier to read.
 -   You can use `**&lt;br/&gt;**` to insert a line break
 -   You can wrap paragraphs in `**&lt;p&gt; ... &lt;/p&gt;**` tags to format your email nicely.
 
-**Parent Topic:**[Construct an email message with a template](r_ConstructAnEmailMessage.md)
+**Parent Topic:**[Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ConstructAnEmailMessage.md)
 

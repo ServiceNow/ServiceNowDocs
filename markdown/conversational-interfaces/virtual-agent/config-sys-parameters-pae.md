@@ -2,6 +2,7 @@
 title: System parameter configuration
 description: Use system parameters to configure the functionality of the Conversational Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/config-sys-parameters-pae.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -67,5 +68,5 @@ sn\_ci\_analytics.show\_hashed\_user\_id
 2.  Provide read access to Hashed User ID column in the Users \(sys\_user\) table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversational Analytics dashboard reference](conversational-analytics-dashboard-reference-pae.md)
+</table>**Parent Topic:**[Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.md)
 

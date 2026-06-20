@@ -2,6 +2,7 @@
 title: Associate an interaction record in Accounts Payable Operations
 description: Associate an interaction record to an invoice case if your interaction is related to an existing invoice case in Source-to-Pay workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/associate-an-interaction-record.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Associate a record with an existing invoice case.
 
-    1.  Select More Actions ![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png) and then select **Associate record**.
+    1.  Select More Actions \[Omitted image "more-actions-icon.png"\] Alt text: more actions and then select **Associate record**.
 
         The **Create New Interaction Related Record** form appears in a new tab.
 
@@ -43,5 +44,5 @@ Role required: admin
     |ID of related record|Auto-populates after the **Document table** field is filled.|
 
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](../concept/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

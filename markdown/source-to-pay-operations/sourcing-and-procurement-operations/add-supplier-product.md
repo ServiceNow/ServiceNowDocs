@@ -2,6 +2,7 @@
 title: Add a supplier product
 description: Add supplier products to populate the primary data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/add-supplier-product.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Add supplier products to populate the primary data.
 
 ## Before you begin
 
-To add a supplier product, you must have already added a supplier, product category or model category, and product model to the primary data. For more information on how to add them, see [Add a supplier](create-supplier.md), [Create product categories](create-product-model-categories.md), and [Create product models](create-product-models.md).
+To add a supplier product, you must have already added a supplier, product category or model category, and product model to the primary data. For more information on how to add them, see [Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md), [Create product categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.md), and [Create product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-product-models.md).
 
 Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administrator
 
@@ -214,7 +215,7 @@ Supplier delivers to
 Countries where the suppliers can deliver the product.
 
 </td></tr></tbody>
-</table>    For more information, see [Manage delivery to valid address](manage-shipping-address.md).
+</table>    For more information, see [Manage delivery to valid address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/manage-shipping-address.md).
 
 6.  Select the **Lead Time** tab and review the fields.
 
@@ -225,7 +226,7 @@ Countries where the suppliers can deliver the product.
     |Purchasing time in days|Estimated number of days to complete the purchase requisition and create a purchase order.|
     |Shipping time in days|Estimated number of days to ship the product to the delivery location.|
 
-    For more information, see [Lead time calculations](../reference/lead-time-calculations.md).
+    For more information, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 7.  Select **Submit**.
 
@@ -234,5 +235,5 @@ Countries where the suppliers can deliver the product.
 
 Use the related lists of the supplier product form to view the pricing, purchase order lines, product visuals, and ledger assignment rules that are associated with this supplier product.
 
-**Parent Topic:**[Setting up your product catalog](create-product-catalogue.md)
+**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

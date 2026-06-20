@@ -2,6 +2,7 @@
 title: Install Legal Invention Disclosure
 description: You can install the Legal Invention Disclosure application by installing the Legal Simple Intellectual Property \(sn\_lg\_ip\) application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-invention-disclosure/install-legal-invention-disclosure.html
 release: xanadu
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -51,5 +52,5 @@ The following items are installed with Legal Invention Disclosure:
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Legal Invention Disclosure](configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

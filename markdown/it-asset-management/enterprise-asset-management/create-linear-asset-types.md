@@ -2,6 +2,7 @@
 title: Create linear asset types
 description: Create linear asset types to categorize linear assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-linear-asset-types.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -45,5 +46,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
     The new linear asset type appears in the Linear asset types related list. If you don't see it in the related list, select the Refresh List icon on the right side of the page.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

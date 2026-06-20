@@ -2,6 +2,7 @@
 title: Configure the preview text setting for a standard article template
 description: Configure the preview text setting to customize the default preview text for a standard article template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/create-template-standard-article.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -74,5 +75,5 @@ var ArticleTemplateUtil = Class.create();
                  });
 ```
 
-**Parent Topic:**[Configure knowledge article templates](../../../configure-knowledge-article-templates.md)
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 

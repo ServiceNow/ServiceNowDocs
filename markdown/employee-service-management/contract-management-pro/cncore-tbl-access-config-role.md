@@ -2,6 +2,7 @@
 title: Provide permissions to configure default contract document information
 description: As an administrator, enable a contract user to configure information placed in the contract document by assigning a contract configurator role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-tbl-access-config-role.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -38,5 +39,5 @@ Template mappings automatically insert default information in the contract docum
 6.  Save the user record by selecting **Update**.
 
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

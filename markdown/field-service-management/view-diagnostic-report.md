@@ -2,7 +2,10 @@
 title: View an Emergency Exposure Management diagnostic report for an affected agent
 description: View the diagnostic report to identify affected agents and potentially affected customers and agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-diagnostic-report.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ As the Field Service manager of an affected agent, you can view the diagnostic r
     -   To view the list of impacted customers, click the **Impacted customers** tab.
     -   To view the list of impacted agents who potentially came in contact with the affected agent or visited the same customer location within the selected time period, click the **Impacted field agents** tab.
 
-**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](../concept/use-exposure-management-fsm.md)
+**Parent Topic:**[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-exposure-management-fsm.md)
 

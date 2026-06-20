@@ -2,6 +2,7 @@
 title: Conditions for two filters to follow each other
 description: It is possible to set up two filters to follow each other mutually. However, several technical limitations apply.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/filters-follow-each-other.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -13,9 +14,9 @@ breadcrumb: [Configure a Single/Multiple select or cascading filter, Filters, Pl
 
 It is possible to set up two filters to follow each other mutually. However, several technical limitations apply.
 
-Two Single/Multiple select filters can follow each other through a direct connection, as described in [Configure a Single/Multiple select or cascading filter](../task/create-select-filter-workspace.md). The conditions described in that topic apply to both filters. For example, both filters must filter data on the other's filter source.
+Two Single/Multiple select filters can follow each other through a direct connection, as described in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-select-filter-workspace.md). The conditions described in that topic apply to both filters. For example, both filters must filter data on the other's filter source.
 
-Two Single/Multiple select filters can also filter each other through a many-to-many connection, as described in [Set a filter to follow another filter in a many-to-many relationship](../task/set-filter-to-follow-filter.md). Only admins can set up such a connection.
+Two Single/Multiple select filters can also filter each other through a many-to-many connection, as described in [Set a filter to follow another filter in a many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/set-filter-to-follow-filter.md). Only admins can set up such a connection.
 
 Besides the general conditions for a filter to follow another, the following conditions also apply:
 
@@ -28,5 +29,5 @@ Besides the general conditions for a filter to follow another, the following con
     If two filters follow each other through many-to-many connections, both connections must use the same connecting table.
 
 
-**Parent Topic:**[Configure a Single/Multiple select or cascading filter](../task/create-select-filter-workspace.md)
+**Parent Topic:**[Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-select-filter-workspace.md)
 

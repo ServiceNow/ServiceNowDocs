@@ -2,6 +2,7 @@
 title: Define a REST message HTTP header
 description: Define an HTTP header for a REST message or HTTP method to send that header with REST requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/t\_DefineAnHTTPHeader.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -39,7 +40,7 @@ You can specify an HTTP header for a REST message, or for an HTTP method. Header
 
     **Note:**
 
-    -   Multipart Content-Type is not supported in RestMessage. You can use [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) instead.
+    -   Multipart Content-Type is not supported in RestMessage. You can use  instead.
     -   For other supported headers, it depends on the REST web service provider that you are connecting. Refer to the documentation of your web service provider to identify which headers are valid or required.
 7.  Click on the **Value** field for the new row and enter the value you want to assign this header.
 
@@ -48,5 +49,5 @@ You can specify an HTTP header for a REST message, or for an HTTP method. Header
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a REST message](t_ConfiguringARESTMessage.md)
+**Parent Topic:**[Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/t_ConfiguringARESTMessage.md)
 

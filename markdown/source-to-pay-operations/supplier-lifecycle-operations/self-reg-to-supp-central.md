@@ -2,6 +2,7 @@
 title: Self-register to the Supplier Collaboration Portal
 description: Supplier contacts can self-register themselves to the Supplier Collaboration Portal without the help of an administrator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -56,5 +57,5 @@ Role required: sn\_slm.contact
 
 Your self-registration is complete. You can now log in to the Supplier Collaboration Portal.
 
-**Parent Topic:**[Supplier contact self-registration](../concept/supp-contact-self-reg.md)
+**Parent Topic:**[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supp-contact-self-reg.md)
 

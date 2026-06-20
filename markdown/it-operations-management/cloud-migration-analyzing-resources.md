@@ -2,7 +2,10 @@
 title: Analyzing your current infrastructure
 description: Consider aspects of the current IT infrastructure and anticipate the consequences to prepare for the cloud migration. Decide on the migration scope: What IT resources need to migrate, in what capacity and how soon. In addition, you can use migration to optimize the use of IT resources. Analyze the resource use to identify redundant, underutilized or overutilized resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-migration-analyzing-resources.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -41,9 +44,9 @@ Use the following questions to decide on the approach and plan the migration pro
     -   Is it possible to consolidate the number of services?
     -   Are there any servers or services that are using the end-of-life software and must be upgraded or replaced?
 
-**Parent Topic:**[Planning the migration process](cloud-migration-planning.md)
+**Parent Topic:**[Planning the migration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-planning.md)
 
-**Previous topic:**[Planning the migration process](cloud-migration-planning.md)
+**Previous topic:**[Planning the migration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-planning.md)
 
-**Next topic:**[Review your current infrastructure with Cloud Migration Assessment](../task/migration-review-infrastructure.md)
+**Next topic:**[Review your current infrastructure with Cloud Migration Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/migration-review-infrastructure.md)
 

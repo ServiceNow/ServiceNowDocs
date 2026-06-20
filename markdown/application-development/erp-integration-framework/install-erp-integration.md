@@ -2,6 +2,7 @@
 title: Install ERP Data Hub
 description: Install the ERP Data Hub \(Enterprise Resource Planning\) application \(sn\_erp\_integration\) if you have the admin role from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/install-erp-integration.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Install the ERP Data Hub \(Enterprise Resource Planning\) application \(sn\_erp\
 
 ## Before you begin
 
-For a complete list of prerequisites for installing ERP Data Hub, including licensing information, see [Requirements for installing ERP Data Hub](../reference/erpc-prereqs-for-installation.md).
+For a complete list of prerequisites for installing ERP Data Hub, including licensing information, see [Requirements for installing ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-prereqs-for-installation.md).
 
 Role required: admin
 
@@ -46,5 +47,5 @@ Role required: admin
 
 After you install ERP Data Hub, you must enable the **sn\_erp\_integration.enableModelModification** property so users can customize ERP models. After you enable the **sn\_erp\_integration.enableModelModification** property, ERP Data Hub retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.System properties are maintained in the System Property table \[sys\_properties\], which you can access using the module navigator, or by directly typing `sys_properties.list` in the Navigator Filter.
 
-**Parent Topic:**[Configuring ERP Data Hub](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

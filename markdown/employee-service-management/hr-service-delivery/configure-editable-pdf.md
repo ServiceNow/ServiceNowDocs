@@ -2,6 +2,7 @@
 title: Configure a PDF document template
 description: Upload an editable, fillable PDF template and customize the template as per your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/configure-editable-pdf.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -94,7 +95,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Signing type
 
 </td><td>
 
-Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](../concept/docusign-doc.md), [AdobeSign](../concept/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://www.servicenow.com/docs/access?context=digital-signature&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Option to specify the application that is used for signing the document. For example, ServiceNow Sign, [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/adobe-sign-doc.md), Digital Signature - Smart Cards.
 
 **Note:** Signing Types are available only when respective integration plugins are installed.
 
@@ -211,8 +212,8 @@ Source template from which you created a copy of current template.
 ## What to do next
 
 -   Click the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
--   In the **Participants** related list, [create participants](create-participant.md).
--   In the **PDF Template Mappings** related list, [define field mappings](edit-pdf-mappings.md).
--   Click [Mark a signature block](mark-signature-doctemp.md).
+-   In the **Participants** related list, [create participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/create-participant.md).
+-   In the **PDF Template Mappings** related list, [define field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
+-   Click [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
 -   Publish the template. Flows using the template might get effected in case you want to edit a published template.
 

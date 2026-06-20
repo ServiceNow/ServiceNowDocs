@@ -2,7 +2,10 @@
 title: Teams in Workforce Optimization
 description: Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.Analyze trends to monitor your team's performance and adherence within a KPI group. Analyze the data by drilling down into the data for a team, a specific team member, an indicator, or a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/using-teams-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -23,7 +26,7 @@ With Teams, you can do the following:
 -   View the KPI trend to analyze the future forecasts for each of the KPIs, if the date range has the latest values.
 -   Drill down to the individual agent level to view a 360-degree view of the current work, historical KPIs, presence history, channel capacity utilization, skills, and upcoming agent time-offs.
 
-**Parent Topic:**[Managing Workforce Optimization for Field Service](using-wfo-fsm.md)
+**Parent Topic:**[Managing Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-wfo-fsm.md)
 
 ## Analyze the performance trends for your teams
 
@@ -37,11 +40,11 @@ Role required: sn\_wfo\_fsm.manager
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Teams icon ![Teams icon](../../itsm-manager-workspace/image/teams-icon.png).
+2.  Click the Teams icon \[Omitted image "teams-icon.png"\] Alt text: Teams icon.
 
 3.  Select a date range to view your teams' performance for that time period.
 
-    You can set the default date range using the sn\_team\_perf.default\_date\_range property. For more information, see [Workforce Optimization for Field Service components](../reference/components-wfo-fsm.md).
+    You can set the default date range using the sn\_team\_perf.default\_date\_range property. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/components-wfo-fsm.md).
 
 4.  Analyze team performance.
 

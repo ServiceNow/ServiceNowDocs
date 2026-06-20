@@ -2,6 +2,7 @@
 title: Installed application — CPU, memory and I/O performance section
 description: The installed application performance section provides information on CPU usage, CPU usage trends, memory usage, and memory usage trends. This information is important for optimizing system performance, resource allocation, capacity planning, and troubleshooting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/installed-app-performance-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -92,7 +93,7 @@ I/O write - &lt;time&gt;**Note:** The &lt;time&gt; range of the performance data
 Tracks the history of data storage operations, facilitating performance analysis and data management assessment.
 
 </td></tr></tbody>
-</table>To return to the Installed application details page, see [Installed application details](../concept/installed-application-details.md).
+</table>To return to the Installed application details page, see [Installed application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/installed-application-details.md).
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/application-form.md)
 

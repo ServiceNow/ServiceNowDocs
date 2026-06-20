@@ -2,6 +2,7 @@
 title: Escalate an HR case
 description: If you are unable to resolve an issue, you can escalate an HR task. This action reassigns it to the manager of the HR group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/t\_EscalateAnHRCase.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Escalate an HR case when you encounter any of the following conditions.
 -   Do not have the necessary skills.
 -   Need help with some part of the HR case.
 
-An escalated HR case is reassigned based on escalation rules. See [Add or modify escalation rules](t_CreateOrModifyEscalationRules.md).
+An escalated HR case is reassigned based on escalation rules. See [Add or modify escalation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
 
 ## Procedure
 
@@ -42,5 +43,5 @@ An escalated HR case is reassigned based on escalation rules. See [Add or modify
     The case is reassigned to the manager of the escalation group as a high priority case.
 
 
-**Parent Topic:**[HR Case Management](../concept/c_HRCaseManagement.md)
+**Parent Topic:**[HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

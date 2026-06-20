@@ -2,6 +2,7 @@
 title: Report ranges
 description: Use a report range to define data intervals that are used in bar, donut, and pie charts in Platform Analytics data visualizations and Core UI reports.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to Reports Administration Report Ranges or Platform Analytics Administration Color Settings Report Ranges .Create a report range to define data intervals that are used in bar, donut, and pie charts in reports and data visualizations.To use report ranges in your bar and pie charts, you must enable the report range module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/c\_ReportRanges.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -21,9 +22,9 @@ Example use case: There is a significant cost involved to a business each time a
 
 **Note:** Reports only show historical data. It is not possible to set report ranges for dates in the future.
 
-![Vertical bar report with configured report ranges highlighted](../image/IncidentsCreatedDateWRanges06032013.png "Incidents created date with ranges")
+\[Omitted image "IncidentsCreatedDateWRanges06032013.png"\] Alt text: Vertical bar report with configured report ranges highlighted
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## How report ranges work
 
@@ -41,7 +42,7 @@ Report ranges can be globally applied to all date type fields \(date, due date, 
 
 To view all currently configured report ranges, navigate to **Reports** &gt; **Administration** &gt; **Report Ranges** or **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report Ranges**.
 
-![](../image/ReportRangesK-L.png "Report ranges list")
+\[Omitted image "ReportRangesK-L.png"\] Alt text:
 
 The following are important columns and their associated data types:
 
@@ -69,7 +70,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Fill in the form \(see table\):
 
-    ![New report ranges form](../image/NewReportRangesFormFuji.png)
+    \[Omitted image "NewReportRangesFormFuji.png"\] Alt text: New report ranges form
 
     Use the following fields to refine the data displayed in the report and to design the appearance of your report visualization:
 
@@ -177,7 +178,7 @@ Role required: admin
 
 2.  Open the **Reports** application menu.
 
-3.  In the **Modules** related list, enable the Report Ranges module.![Application menu form showing the Modules related list and the Report Ranges module highlighted.](../image/rep-range-mod.png)
+3.  In the **Modules** related list, enable the Report Ranges module.\[Omitted image "rep-range-mod.png"\] Alt text: Application menu form showing the Modules related list and the Report Ranges module highlighted.
 
     The Modules related list may have over 100 entries. Filter it on the word range to shorten your search.
 

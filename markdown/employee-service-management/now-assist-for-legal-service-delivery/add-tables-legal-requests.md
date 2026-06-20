@@ -2,6 +2,7 @@
 title: Add the legal request child tables for indexing
 description: Add the legal request child tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request child tables are indexed so that you can get relevant AI Search results for the legal records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.html
 release: xanadu
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -18,13 +19,13 @@ Add the legal request child tables to be considered for data indexing for AI Sea
 
 ## Before you begin
 
-Set the application scope to **Legal Counsel Center** in the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Set the application scope to **Legal Counsel Center** in the application picker. For more information, see Application picker.
 
 Role required: admin
 
 ## About this task
 
-Include the legal request tables as child tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see [Indexed source retention policies and filter conditions](https://www.servicenow.com/docs/access?context=retention-policies-conditions-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Include the legal request tables as child tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see .
 
 ## Procedure
 
@@ -94,9 +95,9 @@ Option to activate indexing for the child table.
 
 The legal request child tables are indexed for AI Search.
 
-![Enable data indexing for legal request child tables for AI Search.](../image/adding-tables-child-tables.png "Indexing legal request child tables for AI Search")
+\[Omitted image "adding-tables-child-tables.png"\] Alt text: Enable data indexing for legal request child tables for AI Search.
 
 ## What to do next
 
-Define the semantic indexing configuration settings that you want to apply when AI Search indexes the records for a legal request table. For more information, see [Configure the semantic index settings for legal request tables](create-record-legal-requests.md).
+Define the semantic indexing configuration settings that you want to apply when AI Search indexes the records for a legal request table. For more information, see [Configure the semantic index settings for legal request tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/create-record-legal-requests.md).
 

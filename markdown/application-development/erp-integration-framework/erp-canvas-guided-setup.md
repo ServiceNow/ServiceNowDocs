@@ -2,6 +2,7 @@
 title: Run Guided Setup for ERP Data Hub
 description: Run the Guided Setup to configure ERP Data Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-guided-setup.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,13 +18,13 @@ Run the Guided Setup to configure ERP Data Hub.
 
 ## Before you begin
 
-You must first download and install ERP Data Hub from the ServiceNow Store. For more information, see [Install ERP Data Hub](install-erp-integration.md).
+You must first download and install ERP Data Hub from the ServiceNow Store. For more information, see [Install ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/install-erp-integration.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-For more information on using Guided Setup, see [Guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information on using Guided Setup, see .
 
 ## Procedure
 
@@ -39,7 +40,7 @@ For more information on using Guided Setup, see [Guided setup](https://www.servi
 
     3.  Select **Configure MID server files** and follow the instructions to configure the required MID Server files, which are detailed in the Guided Setup.
 
-        For more information, see [Install ERP Data Hub](install-erp-integration.md).
+        For more information, see [Install ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/install-erp-integration.md).
 
 3.  Set up the connection and credentials.
 
@@ -49,7 +50,7 @@ For more information on using Guided Setup, see [Guided setup](https://www.servi
 
     3.  Select **Configure connection and capabilities** and complete the steps.
 
-    Alternatively, you can configure without Guided Setup. For more information, see [Configure the ERP Data Hub credentials and connection](set-up-erp-integration-connection.md).
+    Alternatively, you can configure without Guided Setup. For more information, see [Configure the ERP Data Hub credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 4.  Create and validate the ERP system.
 
@@ -57,18 +58,18 @@ For more information on using Guided Setup, see [Guided setup](https://www.servi
 
     2.  Select **Validate system** and follow the steps.
 
-    Alternatively, you can configure without Guided Setup. For more information, see [Create an ERP system in ERP Data Hub](create-an-erp-system.md).
+    Alternatively, you can configure without Guided Setup. For more information, see [Create an ERP system in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-erp-system.md).
 
 5.  Configure remote tables and extraction sources.
 
     1.  Select **Configure remote tables** and follow the steps.
 
-        Alternatively, you can configure without Guided Setup. For more information, see [View and edit ERP remote table details with ERP Data Hub](erpi-find-tables.md).
+        Alternatively, you can configure without Guided Setup. For more information, see [View and edit ERP remote table details with ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpi-find-tables.md).
 
     2.  Select **Configure extraction sources** and follow the steps.
 
-        Alternatively, you can configure without Guided Setup. For more information, see [Add a new ERP extraction table in ERP Data Hub](erp-canvas-add-new-extraction-table.md).
+        Alternatively, you can configure without Guided Setup. For more information, see [Add a new ERP extraction table in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
 
-**Parent Topic:**[Configuring ERP Data Hub](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

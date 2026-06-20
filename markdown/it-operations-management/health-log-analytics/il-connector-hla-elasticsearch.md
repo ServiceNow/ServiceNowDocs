@@ -2,6 +2,7 @@
 title: Configure Elasticsearch integrations
 description: Configure an integration for seamless log data streaming from Elasticsearch indices to your instance for processing by Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-elasticsearch.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -20,17 +21,17 @@ Configure an integration for seamless log data streaming from Elasticsearch indi
 
 **Note:** Health Log Analytics supports Elasticsearch versions above 7.10.2 and below 8.18.2. For advanced information about streaming log data from Elasticsearch indices to your instance, see the [Stream logs using Elasticsearch data input - Advanced guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1080162) \[KB1080162\] article in the Now Support knowledge base.
 
--   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](install-health-log-analytics.md).
+-   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/install-health-log-analytics.md).
 -   Ensure that a service instance is available.
 -   Ensure that the Health Log Analytics AI Engine is up and running.
 
--   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   Ensure that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
 
-    ![MID Server configuration with Log Ingestion capability enabled.](../image/hla-mid-log-ingestion.png)
+    \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=xanadu&pubname=xanadu-servicenow-platform&section=t_SetMIDServerProperties&ft:locale=en-US).
+-   If the MID Server IP address is exposed by network address translation \(NAT\), a load balancer or a similar device, it must have a public IP address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property.
 
 Role required: evt\_mgmt\_admin
 
@@ -38,7 +39,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon \(![Integration Launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\)
+2.  From the left pane, select the Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integration Launchpad icon\)
 
 3.  In the **Browse integrations** tab, enter `Elasticsearch` in the search field.
 
@@ -48,17 +49,17 @@ Role required: evt\_mgmt\_admin
 
 5.  On the **Provide details** form, fill in the fields.
 
-    For a description of the fields, see the **Provide details** table in [Elasticsearch integration configuration fields](../reference/il-connector-hla-elastic-fields.md).
+    For a description of the fields, see the **Provide details** table in [Elasticsearch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.md).
 
 6.  Select **Next**.
 
 7.  On the **Set data retrieval method** form, fill in the fields.
 
-    For a description of the fields, see [Elasticsearch integration configuration fields](../reference/il-connector-hla-elastic-fields.md).
+    For a description of the fields, see [Elasticsearch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.md).
 
 8.  Select **Advanced settings** to set advanced configuration fields.
 
-    For a description of the fields, see the **Advanced settings** table in [Elasticsearch integration configuration fields](../reference/il-connector-hla-elastic-fields.md).
+    For a description of the fields, see the **Advanced settings** table in [Elasticsearch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.md).
 
 9.  Select **Test and save** to save the integration to the database and test connectivity.
 
@@ -79,15 +80,15 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-Leverage the information on the **Overview** tab to refine how HLA reads the log data. For more information, see [Review log data streaming status and sources of an integration](il-connector-overview-tab.md).
+Leverage the information on the **Overview** tab to refine how HLA reads the log data. For more information, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
-**Tip:** Use the More options menu \(![](../image/more-options.png)\) to open the **Data Input Mapping**, **Source Type Structures**, or **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More options menu also provides direct access to the **Log Viewer**, where you can review raw log messages ingested by the integration.
+**Tip:** Use the More options menu \(\[Omitted image "more-options.png"\] Alt text:\) to open the **Data Input Mapping**, **Source Type Structures**, or **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More options menu also provides direct access to the **Log Viewer**, where you can review raw log messages ingested by the integration.
 
 For more information, see:
 
--   [Log data auto-mapping and mapping](../concept/hla-data-input-automapping.md)
--   [Source type structure adjustment](../concept/hla-source-type-structure-adjustment.md)
--   [Review logs on the Log Viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept-sow.md)
+-   [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
+-   [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
+-   [Review logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
 
 If you saved the integration as a draft, perform these steps to activate it later:
 
@@ -102,8 +103,8 @@ If you saved the integration as a draft, perform these steps to activate it late
     **Note:** To test and save the integration without activating it, select the **Test &amp; save** button at the top of the page.
 
 
--   **[Elasticsearch integration configuration fields](../reference/il-connector-hla-elastic-fields.md)**  
+-   **[Elasticsearch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.md)**  
 Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 
-**Parent Topic:**[Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md)
+**Parent Topic:**[Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)
 

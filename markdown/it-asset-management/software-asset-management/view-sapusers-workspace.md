@@ -2,6 +2,7 @@
 title: View SAP users in workspace
 description: View all the discovered users pulled from the SAP systems in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-sapusers-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

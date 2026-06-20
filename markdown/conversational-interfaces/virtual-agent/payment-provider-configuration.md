@@ -2,6 +2,7 @@
 title: Complete the Payment Provider Configuration
 description: Fill out the information in the Payment Provider Configuration table to connect your payment provider information to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/payment-provider-configuration.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

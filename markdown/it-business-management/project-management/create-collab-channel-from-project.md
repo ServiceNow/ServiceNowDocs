@@ -2,6 +2,7 @@
 title: Create a Slack channel for your project
 description: Create a Slack channel for your project to start collaborating with your team and receive timely updates of the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/create-collab-channel-from-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -47,5 +48,5 @@ Role required: it\_project\_manager
 
 If you are unable to create a channel, retry the procedure after sometime. If the issue persists, contact your system administrator.
 
-**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

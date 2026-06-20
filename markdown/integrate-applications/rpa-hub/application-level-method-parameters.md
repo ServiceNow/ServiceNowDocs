@@ -2,6 +2,7 @@
 title: Application level method parameters
 description: These parameters pass custom specifications to the various applications such as Java, Google Chrome , Windows , and Mainframe. Based on the specifications, the applications return an output. The process is a part of a Robotic Process Automation .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/application-level-method-parameters.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -46,5 +47,5 @@ These parameters pass custom specifications to the various applications such as 
 |Field \(String\)|Returns the data in the form or text field.|Not applicable|
 |MatchAllChildren|Option to indicate whether the method will match all elements of the application while the terminal session executes.|No|
 
-**Parent Topic:**[Connectors](../concept/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/connectors.md)
 

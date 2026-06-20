@@ -2,6 +2,7 @@
 title: Download DLP incidents evidence files on Proofpoint
 description: Download DLP incident evidence files that violate the DLP policy on Proofpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/data-loss-prevention/download-proofpoint-evidence-files.html
 release: xanadu
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -60,7 +61,7 @@ After performing this action, the file that violated the DLP policy on Proofpoin
 
 **Note:**
 
-DLP admin can also control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** setting from the Advanced Settings page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://servicenow.com/docs/bundle/xanadu-security-management/page/product/data-loss-prevention/task/configure-advanced-settings-dlp.html).
+DLP admin can also control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** setting from the Advanced Settings page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
-**Parent Topic:**[Create a Profile for Proofpoint DLP integration](create-profile-proofpoint-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
 

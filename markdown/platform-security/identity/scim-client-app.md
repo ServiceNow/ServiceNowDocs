@@ -2,6 +2,7 @@
 title: SCIM Client
 description: The SCIM Client facilitates provisioning and updates on identity resources through CRUD operations exposed by SCIM endpoint on an external system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/scim-client-app.html
 release: xanadu
 product: Identity
 classification: identity
@@ -17,27 +18,27 @@ The SCIM Client facilitates provisioning and updates on identity resources throu
 
 <table id="table_en2_q4d_2yb" class="nav-card"><tbody><tr><td>
 
-[Explore![Exploring](../../../common/image/icon-explore.png)](explore-scim-client.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Exploring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/explore-scim-client.md)
 
- [Learn about SCIM Client.](explore-scim-client.md)
+ [Learn about SCIM Client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/explore-scim-client.md)
 
 </td><td>
 
-[Activate![Configuring](../../../common/image/icon-set-up.png)](../task/activate-scim-client-plugin.md)
+[Activate\[Omitted image "icon-set-up.png"\] Alt text: Configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/activate-scim-client-plugin.md)
 
- [Activate SCIM Client.](../task/activate-scim-client-plugin.md)
+ [Activate SCIM Client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/activate-scim-client-plugin.md)
 
 </td></tr><tr><td>
 
-[SCIM Client Properties![Reference](../../../common/image/icon-reference.png)](scim-client-properties.md)
+[SCIM Client Properties\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/scim-client-properties.md)
 
- [Get details about how to customize SCIM.](scim-client-properties.md)
+ [Get details about how to customize SCIM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/scim-client-properties.md)
 
 </td><td>
 
-[Troubleshoot![Advanced](../../../common/image/icon-workspace.png)](../reference/scim-client-troubleshooting.md)
+[Troubleshoot\[Omitted image "icon-workspace.png"\] Alt text: Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/scim-client-troubleshooting.md)
 
- [Learn more about source definition for SCIM.](../reference/scim-client-troubleshooting.md)
+ [Learn more about source definition for SCIM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/scim-client-troubleshooting.md)
 
 </td></tr></tbody>
 </table>

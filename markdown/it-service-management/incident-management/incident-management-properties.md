@@ -2,6 +2,7 @@
 title: Incident Management properties
 description: Incident Management properties are used to control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/incident-management-properties.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -281,5 +282,5 @@ List of attributes \(comma-separated\) that will be copied from the child Incide
 Select the fields that must be copied from the incident when creating a major incident.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+</table>**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-configuration.md)
 

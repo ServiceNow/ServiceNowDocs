@@ -2,6 +2,7 @@
 title: Creating, testing, and moving customizations
 description: Use these procedures to create, test, and move customizations from a development system to a production system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/system-update-sets/update-set-create-test-move-custom.html
 release: xanadu
 product: System Update Sets
 classification: system-update-sets

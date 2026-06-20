@@ -2,6 +2,7 @@
 title: Employee Return to Workplace lifecycle event
 description: The Employee Return to Workplace lifecycle event helps to verify that your employees who are working from home are ready to return to the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/return-workplace-employee.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ The Employee Return to Workplace lifecycle event helps to verify that your emplo
 
 The Employee Return to Workplace lifecycle event provides you with preconfigured process flows, activity sets, activities, templates, and sample content items.
 
-**Note:** Clone this lifecycle event prior to updating it with your company's specific information. For more information on cloning, see [Clone a lifecycle event](../../human-resources/task/clone-lifecycle-event.md).![Employee Return to Workplace - LIfecycle event](../images/employee-return-workplace.png)
+**Note:** Clone this lifecycle event prior to updating it with your company's specific information. For more information on cloning, see [Clone a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/clone-lifecycle-event.md).\[Omitted image "employee-return-workplace.png"\] Alt text: Employee Return to Workplace - LIfecycle event
 
 ## HR case
 
@@ -78,5 +79,5 @@ Contains the following activities:
 
 Employee Feedback: An HR task assigned to employees that collects feedback using the Feedback on your Return to Workplace Experience survey.
 
-**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](return-workplace-le.md)
+**Parent Topic:**[Return to Workplace Location Readiness and Employee Return to Workplace lifecycle events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/return-workplace-le.md)
 

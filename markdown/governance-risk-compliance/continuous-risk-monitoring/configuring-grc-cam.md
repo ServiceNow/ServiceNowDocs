@@ -2,6 +2,7 @@
 title: Configuring CAM
 description: Follow the steps in the checklist to download CAM from the ServiceNow Store and get it ready for operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/configuring-grc-cam.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -17,15 +18,15 @@ Follow the steps in the checklist to download CAM from the ServiceNow Store and 
 
 ## Configuration overview
 
-1.  [Setup checklist for Continuous Authorization and Monitoring](../task/cam-setup-checklist.md)
+1.  [Setup checklist for Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-setup-checklist.md)
 
     The checklist includes the tasks that you must complete to prepare the base system.
 
-2.  [Download Continuous Authorization and Monitoring](../task/download-cam.md)
+2.  [Download Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/download-cam.md)
 
     You download CAM from the ServiceNow Store.
 
-3.  [Assign Continuous Authorization and Monitoring roles to users and groups](../task/assign-cam-roles.md)
+3.  [Assign Continuous Authorization and Monitoring roles to users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/assign-cam-roles.md)
 
     Assign roles to users and groups to prepare to use the CAM application.
 

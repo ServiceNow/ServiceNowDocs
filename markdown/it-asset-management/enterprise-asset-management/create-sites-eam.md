@@ -2,6 +2,7 @@
 title: Create sites in the Enterprise Asset Management
 description: Create a site for asset groups in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-sites-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](../concept/asset-groups-eam.md).
+For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
 ## Procedure
 
@@ -187,5 +188,5 @@ Current operational status of the entity:-   **Operational**: Entity that is ful
     The newly created site appears in the Sites tab.
 
 
-**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](../concept/config-eam-enterrpriseadmins.md)
+**Parent Topic:**[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)
 

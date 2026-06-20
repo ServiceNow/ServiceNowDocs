@@ -2,6 +2,7 @@
 title: Create a predefined Express List view for users
 description: Configure an Express List view for users to make sure that they focus on specific services, priorities, or alerts. You can set the filters, column order, and filter attributes for this view and assign it to individual users or user groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/manage-views-express-list-admin.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Configure an Express List view for users to make sure that they focus on specifi
 
 ## Before you begin
 
-For more information about predefined Express List views, see [Express List Configuring Express List views for users and user groups](../../service-operations-workspace-itom/concept/manage-views-express-list.md).
+For more information about predefined Express List views, see [Express List Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/manage-views-express-list.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -153,34 +154,34 @@ Select **Preview**.
 </td></tr></tbody>
 </table>5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d542704e384">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d490057e384">
 
 Task
 
-</th><th align="left" id="d542704e387">
+</th><th align="left" id="d490057e387">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d542704e393">
+</th></tr></thead><tbody><tr><td id="d490057e393">
 
 **Assign a user to the selected Express List view**
 
 </td><td>
 
 1.  In the **Users** tab, select **Insert a new row...**.
-2.  Select the search icon \(![Search icon.](../image/search-icon.png)\) and search for the relevant user in the **Users** table.
-3.  Select the user and then select the save icon \(![Save icon.](../../itom-governance/image/save-icon.png)\).
+2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\) and search for the relevant user in the **Users** table.
+3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d542704e438">
+</td></tr><tr><td id="d490057e438">
 
 **Assign a user group to the selected Express List view**
 
 </td><td>
 
 1.  In the **Groups** tab, select **Insert a new row...**.
-2.  Select the search icon \(![Search icon.](../image/search-icon.png)\) and search for the relevant group in the **Groups** table.
-3.  Select the group and then select the save icon \(![Save icon.](../../itom-governance/image/save-icon.png)\).
+2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\) and search for the relevant group in the **Groups** table.
+3.  Select the group and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
  **Note:** Users who belong to a group can only see the views that you assigned to that group. If a user belongs to multiple groups, they can see the views you configured for all of these groups.
 
 </td></tr></tbody>
@@ -192,15 +193,15 @@ Procedure
     -   The **Express List View Field Attributes** tab shows the filter attributes for the open alerts in Express List.
 7.  Add table fields and field attributes to the Express List view.
 
-<table id="choicetable_s15_jxj_k1c"><thead><tr><th align="left" id="d542704e535">
+<table id="choicetable_s15_jxj_k1c"><thead><tr><th align="left" id="d490057e535">
 
 Task
 
-</th><th align="left" id="d542704e538">
+</th><th align="left" id="d490057e538">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d542704e544">
+</th></tr></thead><tbody><tr><td id="d490057e544">
 
 **Add a column to the Express List table**
 
@@ -216,7 +217,7 @@ Procedure
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d542704e598">
+</td></tr><tr><td id="d490057e598">
 
 **Add an attribute to the Filter pane in Express List**
 
@@ -234,41 +235,41 @@ Procedure
 </td></tr></tbody>
 </table>8.  Exclude fields or field attributes from the Express List view by deactivating them.
 
-<table id="choicetable_ng2_jkc_k1c"><thead><tr><th align="left" id="d542704e660">
+<table id="choicetable_ng2_jkc_k1c"><thead><tr><th align="left" id="d490057e660">
 
 Task
 
-</th><th align="left" id="d542704e663">
+</th><th align="left" id="d490057e663">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d542704e669">
+</th></tr></thead><tbody><tr><td id="d490057e669">
 
 **Deactivate a field**
 
 </td><td>
 
-1.  In the **Express List Table Fields** tab, select the information icon \(![Information icon](../image/information_icon.png)\) to the left of a field record.
+1.  In the **Express List Table Fields** tab, select the information icon \(\[Omitted image "information\_icon.png"\] Alt text: Information icon\) to the left of a field record.
 2.  On the field form, clear **Active**.
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d542704e707">
+</td></tr><tr><td id="d490057e707">
 
 **Deactivate a field attribute**
 
 </td><td>
 
-1.  In the **Express List View Field Attributes** tab, select the information icon \(![Information icon](../image/information_icon.png)\) to the left of a field attribute record.
+1.  In the **Express List View Field Attributes** tab, select the information icon \(\[Omitted image "information\_icon.png"\] Alt text: Information icon\) to the left of a field attribute record.
 2.  On the field form, clear **Active**.
 3.  Select **Update**.
 
 
 </td></tr></tbody>
-</table>    **Note:** You can view the updated state of a field or a field attribute in the table by selecting the list controls icon \(![List controls icon.](../../service-mapping/image/list-controls-button.png) \) and then selecting **Refresh List**.
+</table>    **Note:** You can view the updated state of a field or a field attribute in the table by selecting the list controls icon \(\[Omitted image "list-controls-button.png"\] Alt text: List controls icon. \) and then selecting **Refresh List**.
 
 9.  When you're satisfied with the Express List view, select **Update**.
 
 
-**Parent Topic:**[Express List Configuring Express List views for users and user groups](../../service-operations-workspace-itom/concept/manage-views-express-list.md)
+**Parent Topic:**[Express List Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/manage-views-express-list.md)
 

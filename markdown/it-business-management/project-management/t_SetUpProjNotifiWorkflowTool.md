@@ -2,6 +2,7 @@
 title: Set up project notifications with the workflow tool
 description: Use the workflow tool, for example, to set up a workflow that sends an email notification when the state of a project task becomes Work in Progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_SetUpProjNotifiWorkflowTool.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -43,8 +44,8 @@ Role required: admin
         -   Planned start date: $\{start\_date\}
         -   Planned end date: $\{end\_date\}
         -   Planned duration: $\{duration\}
-    ![screenshot for project notifications](../image/Notificationwf.png)
+    \[Omitted image "Notificationwf.png"\] Alt text: screenshot for project notifications
 
 
-**Parent Topic:**[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+**Parent Topic:**[Activate project task email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ActivateProjTaskEmailNot.md)
 

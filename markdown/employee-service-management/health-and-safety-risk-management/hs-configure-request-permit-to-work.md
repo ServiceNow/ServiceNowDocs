@@ -2,6 +2,7 @@
 title: Configure a permit to work request
 description: Edit existing questions or add new questions to the permit-to-work form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-request-permit-to-work.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -21,7 +22,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 ## About this task
 
-The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](../concept/hs-configure-permit-to-work.md).
+The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md).
 
 ## Procedure
 
@@ -32,12 +33,12 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 3.  To add new questions:
 
     1.  Select **New** in the **Variables** related link.
-    2.  On the form, fill in the fields. For more information on the field description, see [Variable new record form](../reference/hs-variable-new-record.md).
+    2.  On the form, fill in the fields. For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
     3.  Select **Submit**.
 4.  To edit or update existing questions:
 
     1.  Select the existing question in the **Variables** related link.
     2.  Edit the form and select **Update**.
 
-**Parent Topic:**[Configure permit-to-work](../concept/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

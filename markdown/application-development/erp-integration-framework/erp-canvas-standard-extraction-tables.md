@@ -2,6 +2,7 @@
 title: Standard ERP models and extraction tables for ERP Data Hub
 description: ERP Data Hub provides a number of standard extraction tables that you can link to ERP \(Enterprise Resource Planning\) models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -40,7 +41,7 @@ The following extraction tables are available through ERP Data Hub.
 |SAP Vendor Invoice|Sales|
 |SAP Transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more details on working with remote tables, see .
 
-**Parent Topic:**[ERP Data Hub standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[ERP Data Hub standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

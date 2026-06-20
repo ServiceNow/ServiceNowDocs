@@ -2,6 +2,7 @@
 title: Compose communications for incidents and major incidents
 description: Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/compose-communication-mim-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -30,8 +31,8 @@ The **Communicate** tab displays the list of communication tasks with various op
 
 You must configure the communication plans and tasks in one of the following ways:
 
--   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](configure-comm-plan-mim-sow.md).
--   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see [Task Communications Management](https://www.servicenow.com/docs/access?context=tcm-landing-page&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
+-   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see .
 
 Role required: major\_incident\_manager, ia\_admin, itil, or admin
 
@@ -87,5 +88,5 @@ Role required: major\_incident\_manager, ia\_admin, itil, or admin
 5.  Select **Send**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](../concept/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

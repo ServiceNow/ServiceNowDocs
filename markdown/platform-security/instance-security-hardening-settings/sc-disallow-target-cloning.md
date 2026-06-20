@@ -2,6 +2,7 @@
 title: Disallow target cloning \[New in Security Center 1.3\]
 description: Configure the glide.db.clone.allow\_clone\_target property to prevent your instance from being used as a clone target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-disallow-target-cloning.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -101,8 +102,8 @@ References
 
 </td><td>
 
--   [System clone](https://www.servicenow.com/docs/access?context=c_SystemClone&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
--   [Clone Target Registration and Authentication](https://www.servicenow.com/docs/access?context=t_CreateACloneTarget&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Functional impact
 This property provides an additional safeguard which prevents a production instance from being cloned to. The default value is false for production instances and true for sub production instances such as dev or qa. To enable an instance to be used as a clone target set this property to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

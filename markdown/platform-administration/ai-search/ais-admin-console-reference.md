@@ -2,6 +2,7 @@
 title: AI Search Admin Console reference
 description: Reference information for the AI Search Admin Console application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ais-admin-console-reference.html
 release: xanadu
 product: AI Search
 classification: ai-search

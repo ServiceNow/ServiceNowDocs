@@ -2,7 +2,10 @@
 title: Approve or reject requests for onboarding agents
 description: Review external agent requests that are assigned to you for approval and determine whether to accept or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/Approve-reject-request-onboard-agent.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -40,5 +43,5 @@ Whenever a manager of the contractor company onboards a field service agent, the
         The newly onboarded agent is rejected by the parent company. External managers cannot assign the work order tasks to the agent.
 
 
-**Parent Topic:**[Field Service Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-contractor-portal.md)
 

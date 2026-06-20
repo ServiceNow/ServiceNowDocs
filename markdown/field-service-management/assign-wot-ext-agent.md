@@ -2,7 +2,10 @@
 title: Assign outsourced work order tasks
 description: Managers of contractor companies can assign outsourced work order tasks to be performed at the customer location to their agents or to themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-ext-agent.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,5 +47,5 @@ Outsourced work order tasks are always automatically assigned to the managers of
 
 If you have assigned the task to an agent, the agent receives an email notification about the assignment.
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

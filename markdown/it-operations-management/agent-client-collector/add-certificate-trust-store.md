@@ -2,6 +2,7 @@
 title: Add a self-signed certificate to your operating system's truststore
 description: Add a self-signed certificate to the truststore of your operating system \(OS\). By adding a certificate to the truststore, you can verify that the certificate is authentic and that your connections are secure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/add-certificate-trust-store.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -47,7 +48,7 @@ Role required: agent\_client\_collector\_admin
 
     6.  Follow the steps in the Certificate Import Wizard.
 
-        For details, see [Import a self-signed certificate](import-self-signed-certificate.md).
+        For details, see [Import a self-signed certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/import-self-signed-certificate.md).
 
     Alternatively, you can add a Windows certificate using PowerShell by running the following command as an administrator:
 

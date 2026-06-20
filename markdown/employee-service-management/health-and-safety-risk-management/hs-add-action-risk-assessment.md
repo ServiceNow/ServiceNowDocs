@@ -2,6 +2,7 @@
 title: Add an action for a safety risk
 description: Add an action to address an identified risk or implement control measures necessary to improve workplace safety. You can add multiple actions for a hazard or control measure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-add-action-risk-assessment.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,19 +24,19 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\) to open the **Risk assessment** list.
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\) to open the **Risk assessment** list.
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d666227e84">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d378286e84">
 
 Option
 
-</th><th align="left" id="d666227e87">
+</th><th align="left" id="d378286e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d666227e93">
+</th></tr></thead><tbody><tr><td id="d378286e93">
 
 **From a Risk assessment record**
 
@@ -46,7 +47,7 @@ Steps
 3.  In the **Risk actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d666227e126">
+</td></tr><tr><td id="d378286e126">
 
 **From the Risk actions list**
 
@@ -59,7 +60,7 @@ Steps
 </td></tr></tbody>
 </table>4.  On the form, fill in the fields.
 
-    For information on field descriptions, see [Health and Safety action form](../../ohs-incident-management/reference/hs-action-form.md).
+    For information on field descriptions, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 5.  Select **Save**.
 
@@ -78,5 +79,5 @@ Steps
     -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
     -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Safety risk assessment](../concept/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

@@ -2,6 +2,7 @@
 title: Adaptive authentication security metrics
 description: Use authentication policies to evaluate authentication requests and deny or allow access to your instance based on the specified policy conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/sc-adaptive-authentication.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 Use authentication policies to evaluate authentication requests and deny or allow access to your instance based on the specified policy conditions.
 
-Adaptive authentication metrics enable you to monitor how adaptive authentication is being used on your instance. View a summary of all of your metrics on Adaptive authentication, individual metrics such as policy result rates or denied IP addresses. This page requires the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin for adaptive authentication to be available in your instance. You must enable Authentication Policy to see the metrics. See [Activate adaptive authentication](../../../integrate/authentication/task/adaptive-authentication-plugin.md) and [Configure adaptive authentication properties](../../../integrate/authentication/task/configure-adaptive-auth-properties.md) for more details.![adaptive authentication security metrics](../images/adaptive-authentication-security-metrics.png)
+Adaptive authentication metrics enable you to monitor how adaptive authentication is being used on your instance. View a summary of all of your metrics on Adaptive authentication, individual metrics such as policy result rates or denied IP addresses. This page requires the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin for adaptive authentication to be available in your instance. You must enable Authentication Policy to see the metrics. See [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/adaptive-authentication-plugin.md) and [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/configure-adaptive-auth-properties.md) for more details.\[Omitted image "adaptive-authentication-security-metrics.png"\] Alt text: adaptive authentication security metrics
 
 **Note:** This feature was released with version 1.2.
 
@@ -28,5 +29,5 @@ Adaptive authentication metrics enable you to monitor how adaptive authenticatio
 -   Authentication trend: The total number of events recorded.
 -   Authenticated users: The number of users counted for each event type, excluding the pre-login event.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

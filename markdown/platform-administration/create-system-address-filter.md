@@ -2,6 +2,7 @@
 title: Create a system address filter
 description: Define how email address filters apply to inbound and outbound email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-system-address-filter.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Define how email address filters apply to inbound and outbound email.
 
 ## Before you begin
 
-Complete the steps in [Set email address filters](set-email-address-filters.md).
+Complete the steps in [Set email address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/set-email-address-filters.md).
 
 Role required: email\_account\_admin
 
@@ -116,7 +117,7 @@ Email address filters to apply to the system address filter.
 
 A default outbound filter applies to all active SMTP email accounts automatically. A default inbound filter applies to all active IMAP or POP3 email accounts automatically.
 
-For a non-default filter, the next step is to apply the filter to an email account manually. For more information on applying a filter to an email account, see [Create an email account](t_ConfigureAnEmailAccount.md).
+For a non-default filter, the next step is to apply the filter to an email account manually. For more information on applying a filter to an email account, see [Create an email account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigureAnEmailAccount.md).
 
-**Parent Topic:**[Email service](../../../integrate/inbound-rest/concept/email-service.md)
+**Parent Topic:**[Email service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-service.md)
 

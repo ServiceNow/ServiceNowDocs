@@ -2,6 +2,7 @@
 title: Define priority lookup rules
 description: Define impact and urgency of an incident to calculate the priority. The priority calculation can then be used to prioritize work and drive service level agreements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/def-prio-lookup-rules.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -57,5 +58,5 @@ Role required: data\_lookup\_admin, or admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-configuration.md)
 

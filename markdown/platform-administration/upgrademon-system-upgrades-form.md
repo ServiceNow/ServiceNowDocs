@@ -2,6 +2,7 @@
 title: System Upgrades form
 description: When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrademon-system-upgrades-form.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Process the skipped records list, Upgrade Monitor module: Upgrade a
 
 When an upgrade is complete, the System Upgrades form displays key statistics about the upgrade and a related list of skipped records \(the skipped list\).
 
-![Upgrade Details form](../image/upgrade-system-upgrades-small.png "System Upgrades form")
+\[Omitted image "upgrade-system-upgrades-small.png"\] Alt text: Upgrade Details form
 
 |Screen element|Description|
 |--------------|-----------|
@@ -30,5 +31,5 @@ When an upgrade is complete, the System Upgrades form displays key statistics ab
 |Deleted|The number of records the system deleted.|
 |Total|The total number of records the system inspected and/or processed for this upgrade.|
 
-**Parent Topic:**[Process the skipped records list](../task/upgrademon-process-skip-list.md)
+**Parent Topic:**[Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-process-skip-list.md)
 

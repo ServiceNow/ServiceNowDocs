@@ -2,6 +2,7 @@
 title: Create a new Indoor Mapping space
 description: Create a Indoor Mapping space in Workplace Indoor Mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-new-ind-mapping-space.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -165,11 +166,11 @@ Indoor map place
 
 </td><td>
 
-Indoor mapping location. Ensure that the parent hierarchy is synced to view available locations. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+Indoor mapping location. Ensure that the parent hierarchy is synced to view available locations. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Indoor Mapping](../concept/wsd-integration-indoor-mapping.md)
+**Parent Topic:**[Configure Workplace Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsd-integration-indoor-mapping.md)
 

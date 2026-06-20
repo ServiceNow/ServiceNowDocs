@@ -2,6 +2,7 @@
 title: Override capacity assignment for a changed work schedule
 description: Change the default capacity assignment rules for any change in plan within a capacity definition. So that you can update the capacity assignments for the existing capacity definition rule at different time intervals and for different capacity buckets rather than creating a new capacity definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/workforce-optimization-for-field-service/override-capacity-assignment.html
 release: xanadu
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

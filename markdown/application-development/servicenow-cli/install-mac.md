@@ -2,6 +2,7 @@
 title: Install the ServiceNow CLI on Mac
 description: Install ServiceNow CLI on a Mac OS using the installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/servicenow-cli/install-mac.html
 release: xanadu
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -53,5 +54,5 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Install the ServiceNow CLI](download-cli.md)
+**Parent Topic:**[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-cli/download-cli.md)
 

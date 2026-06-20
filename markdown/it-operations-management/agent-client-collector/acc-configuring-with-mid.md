@@ -2,6 +2,7 @@
 title: Configuring Agent Client Collector with a MID Server
 description: Configure the Agent Client Collector with a MID Server to enable communication between network servers and the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-configuring-with-mid.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,6 +2,7 @@
 title: Customize your form for an app in Creator Studio
 description: Forms help people ask for things they need, such as a new keyboard or permission to take time off. The default form that's added when you create an app in Creator Studio needs some changes to fit your needs. For example, you must add question labels to gather information about the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-edit-form.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -22,7 +23,7 @@ To customize a form, you must be given permission to work on the app.
 
 ## About this task
 
-You can add additional forms to your application if you need them. Additional forms are stored in the app's same table. No need to worry about those tables right now, but if you want to know how to add more forms besides the form that was generated when the app was created, check out [Add more forms to an app in Creator Studio](creator-studio-add-another-form.md).
+You can add additional forms to your application if you need them. Additional forms are stored in the app's same table. No need to worry about those tables right now, but if you want to know how to add more forms besides the form that was generated when the app was created, check out [Add more forms to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-another-form.md).
 
 **Summary:** After finishing the following steps, you’ll know how to:
 
@@ -50,11 +51,11 @@ Let's open a form and customize it.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
@@ -62,11 +63,11 @@ Let's open a form and customize it.
 
     If you’re not, select the form you want to edit.
 
-    ![Select the appropriate form from the Request forms tab](../image/cs-form-selection.png)
+    \[Omitted image "cs-form-selection.png"\] Alt text: Select the appropriate form from the Request forms tab
 
 5.  Let’s customize the form by doing one or more of the following optional steps.
 
-    1.  Add or modify the image that appears on your form by selecting the add image icon \(![Select an image to accompany your form](../image/cs-add-form-image.png)\) and then selecting an image.
+    1.  Add or modify the image that appears on your form by selecting the add image icon \(\[Omitted image "cs-add-form-image.png"\] Alt text: Select an image to accompany your form\) and then selecting an image.
 
     2.  Change the form’s title, short description, and other text by selecting those parts of the form and typing in your changes.
 
@@ -78,7 +79,7 @@ Let's open a form and customize it.
 
         If you're adding a pre-configured **Question set**, you must select the question set from the modal that appears when you drag it onto the form.
 
-        For a description of question types and how they're used, see [Available question types in Creator Studio](../reference/creator-studio-form-elements-ref.md).
+        For a description of question types and how they're used, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-elements-ref.md).
 
     2.  Select the question.
 
@@ -88,11 +89,11 @@ Let's open a form and customize it.
 
         The details vary by question type. For example, if you add a **Dropdown** question, you must supply the options to choose from.
 
-        ![Entering details for a question on a form](../image/crs-form-questions-sets-dynamic.png "Form question details")
+        \[Omitted image "crs-form-questions-sets-dynamic.png"\] Alt text: Entering details for a question on a form
 
-    4.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](../concept/creator-studio-glossary.md#) to it on the **Behaviors** tab.
+    4.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) to it on the **Behaviors** tab.
 
-        For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](creator-studio-dynamic-behavior.md).
+        For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-dynamic-behavior.md).
 
     5.  Select **Save and close** when you finish modifying the question.
 
@@ -112,9 +113,9 @@ Let's open a form and customize it.
 
         **Note:** To edit or delete a section, you must hover over the section name and then select **Section** to see the section details in the properties panel, as well as the delete icon.
 
-        ![Hover over the section name to edit it](../image/crs-section-edit-hover.png "Selecting a section")
+        \[Omitted image "crs-section-edit-hover.png"\] Alt text: Hover over the section name to edit it
 
-        For more information, see [Layout options for forms in Creator Studio](../reference/creator-studio-form-layout-options.md).
+        For more information, see [Layout options for forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-layout-options.md).
 
     3.  Select **Save** in the Section details/Question details panel when you’re done revising the form’s layout.
 
@@ -125,9 +126,9 @@ Let's open a form and customize it.
 
 ## What to do next
 
-You must then mark the form as ready to publish it, which makes it available for the app to use. Find out how to publish a form in [Publish a form for your app in Creator Studio](creator-studio-publish-form.md).
+You must then mark the form as ready to publish it, which makes it available for the app to use. Find out how to publish a form in [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-publish-form.md).
 
-You can select the **Undo all changes** option, available in the form header's more options icon \(![Select more options to undo changes](../image/cs-more-actions-icon.png)\), to reset a form to the most recently published version.
+You can select the **Undo all changes** option, available in the form header's more options icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: Select more options to undo changes\), to reset a form to the most recently published version.
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md)
 

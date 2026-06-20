@@ -2,6 +2,7 @@
 title: Enforce client generated scripts sandbox \[Updated in Securty Center 1.3\]
 description: Use the glide.script.use.sandbox property to enable script sandboxing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -69,7 +70,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -125,13 +126,13 @@ References
 
 </td><td>
 
-[Configuring Script sandbox property](../../security/reference/r_ScriptSandboxing.md) **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
+[Configuring Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/r_ScriptSandboxing.md) **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
 
 -   **glide.script.allow.ajaxevaluate**: See Enable AJAXEvaluate.
 -   **glide.script.secure.ajaxgliderecord**: See .
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

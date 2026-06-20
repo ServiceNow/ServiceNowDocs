@@ -2,6 +2,7 @@
 title: Create ledger assignment rules
 description: Automate ledger account assignment for a purchase line by relating ledger accounts to a product category, product model, supplier product, and cost center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -79,5 +80,5 @@ Ledger account to post the purchase expenses of this product after the purchase 
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Ledger assignment rules](../concept/ledger-assignment-rules.md)
+**Parent Topic:**[Ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.md)
 

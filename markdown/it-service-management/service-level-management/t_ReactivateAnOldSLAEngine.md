@@ -2,6 +2,7 @@
 title: Reactivate escalation engine
 description: Escalation engine is replaced with 2011 SLA Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-level-management/t\_ReactivateAnOldSLAEngine.html
 release: xanadu
 product: Service Level Management
 classification: service-level-management
@@ -34,5 +35,5 @@ ServiceNow Express used the legacy Escalation Engine to process SLAs. If for any
     ServiceNow recommends using the 2011 SLA Engine.
 
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](../concept/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

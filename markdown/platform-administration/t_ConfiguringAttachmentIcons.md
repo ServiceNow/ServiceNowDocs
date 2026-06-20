@@ -2,6 +2,7 @@
 title: Configure attachment icons
 description: Configure the icon that appears beside an attachment of a particular file type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfiguringAttachmentIcons.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,15 +28,15 @@ Role required: admin
 
 4.  Enter the rule details.
 
-<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d61066e126">
+<table id="choicetable_py2_kyw_t1b"><thead><tr><th align="left" id="d51804e126">
 
 Field
 
-</th><th align="left" id="d61066e129">
+</th><th align="left" id="d51804e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61066e135">
+</th></tr></thead><tbody><tr><td id="d51804e135">
 
 **Select icon by**
 
@@ -43,7 +44,7 @@ Description
 
 Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon specified by **MIME Type** and a different icon specified by **File Extension**, the **MIME Type** icon takes precedence.
 
-</td></tr><tr><td id="d61066e162">
+</td></tr><tr><td id="d51804e162">
 
 **MIME type**
 
@@ -51,7 +52,7 @@ Select **MIME Type** or **File Extension**.**Note:** If a file type has an icon 
 
 If **Select icon by** is **MIME Type**, enter the MIME type and subtype to associate with the icon, separated by a slash \(example: `application/pdf`\).
 
-</td></tr><tr><td id="d61066e180">
+</td></tr><tr><td id="d51804e180">
 
 **File extension**
 
@@ -59,7 +60,7 @@ If **Select icon by** is **MIME Type**, enter the MIME type and subtype to assoc
 
 If **Select icon by** is **FIle Extension**, enter the file extension to associate with the icon beginning with the period \(example: `.pdf`\).
 
-</td></tr><tr><td id="d61066e198">
+</td></tr><tr><td id="d51804e198">
 
 **Icon**
 
@@ -71,5 +72,5 @@ Enter the path to the icon image file \(example: `images/icons/attach_pdf.gifx`\
 </table>5.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Administering attachments](../reference/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_AdministeringAttachments.md)
 

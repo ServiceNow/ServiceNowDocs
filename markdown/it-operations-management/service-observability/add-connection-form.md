@@ -2,6 +2,7 @@
 title: Add connection form
 description: Field descriptions for the Add connection form when connecting an observability data source. Add a data connection for Service Observability to ingest data from New Relic or Dynatrace. You can create a connection and API key, or choose to use existing ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/add-connection-form.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -94,5 +95,5 @@ Use an existing API Key credential
 Option to search for an existing API Key credential.Select the **API Key** field to see all your valid credentials.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+</table>**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/service-observability-reference.md)
 

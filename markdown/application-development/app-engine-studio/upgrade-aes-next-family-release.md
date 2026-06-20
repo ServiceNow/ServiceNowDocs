@@ -2,6 +2,7 @@
 title: Upgrade your AES instance to the next family release
 description: If you are currently running a family release \(Rome, for example\) and want to upgrade App Engine Studio \(AES\) to the next release, you don't need to acquire the applications from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/upgrade-aes-next-family-release.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,5 +18,5 @@ If you are currently running a family release \(Rome, for example\) and want to 
 
 The application is automatically updated when the platform is updated to the minimum required version.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-installation-store.md)
 

@@ -2,6 +2,7 @@
 title: Qualys REST messages
 description: Qualys REST messages are used to make calls to the Qualys API to fetch the compliance data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/qualys-rest-messages-cc.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -408,5 +409,5 @@ compressionRequired
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Qualys integration with Configuration Compliance](Qualys-cc-Integration.md)
+</table>**Parent Topic:**[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/Qualys-cc-Integration.md)
 

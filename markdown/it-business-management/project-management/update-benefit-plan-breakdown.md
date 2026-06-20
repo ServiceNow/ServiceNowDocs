@@ -2,6 +2,7 @@
 title: Update a monetary benefit plan breakdown for a project
 description: Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/update-benefit-plan-breakdown.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -29,21 +30,21 @@ Role required: it\_project\_manager
 
 4.  Open the required monetary benefit plan.
 
-5.  In the Monetary Benefit Plan Breakdowns related list, click the information icon \(![information icon](../../planning-and-policy/image/informationicon.png)\) for a monetary benefit plan breakdown.
+5.  In the Monetary Benefit Plan Breakdowns related list, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: information icon\) for a monetary benefit plan breakdown.
 
 6.  Click **Open Record**.
 
 7.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d67179e117">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d68939e117">
 
 Field
 
-</th><th align="left" id="d67179e120">
+</th><th align="left" id="d68939e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67179e126">
+</th></tr></thead><tbody><tr><td id="d68939e126">
 
 **Task**
 
@@ -51,7 +52,7 @@ Description
 
 Task to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d67179e135">
+</td></tr><tr><td id="d68939e135">
 
 **Portfolio**
 
@@ -59,7 +60,7 @@ Task to which the benefit plan breakdown belongs.
 
 Portfolio to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d67179e144">
+</td></tr><tr><td id="d68939e144">
 
 **Entered currency**
 
@@ -67,7 +68,7 @@ Portfolio to which the benefit plan breakdown belongs.
 
 Currency specified in the benefit plan.
 
-</td></tr><tr><td id="d67179e153">
+</td></tr><tr><td id="d68939e153">
 
 **Exchange rate**
 
@@ -75,7 +76,7 @@ Currency specified in the benefit plan.
 
 Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d67179e166">
+</td></tr><tr><td id="d68939e166">
 
 **Actual benefit**
 
@@ -83,7 +84,7 @@ Rate in effect for the period corresponding to the benefit plan breakdown. When 
 
 Actual benefit that is incurred from the project or demand.
 
-</td></tr><tr><td id="d67179e175">
+</td></tr><tr><td id="d68939e175">
 
 **Benefit plan**
 
@@ -91,15 +92,15 @@ Actual benefit that is incurred from the project or demand.
 
 Benefit plan to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d67179e184">
+</td></tr><tr><td id="d68939e184">
 
 **Fiscal period**
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://www.servicenow.com/docs/access?context=c_FiscalCalendar&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Fiscals generated at the period level. For information on periods, see fiscal calendars.
 
-</td></tr><tr><td id="d67179e197">
+</td></tr><tr><td id="d68939e197">
 
 **Entered benefit**
 
@@ -107,7 +108,7 @@ Fiscals generated at the period level. For information on periods, see [fiscal c
 
 Benefit in entered currency.
 
-</td></tr><tr><td id="d67179e206">
+</td></tr><tr><td id="d68939e206">
 
 **Functional benefit**
 
@@ -115,7 +116,7 @@ Benefit in entered currency.
 
 Functional benefit obtained by multiplying the exchange rate with the entered benefit.
 
-</td></tr><tr><td id="d67179e215">
+</td></tr><tr><td id="d68939e215">
 
 **Exchange rate date**
 
@@ -129,5 +130,5 @@ First date of the fiscal period corresponding to the benefit plan breakdown.
     **Note:** Changing benefit plan start and end date is not possible if the recorded actual benefits are outside of the date range.
 
 
-**Parent Topic:**[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+**Parent Topic:**[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-project-benefit-plan.md)
 

@@ -2,6 +2,7 @@
 title: Resolve the failure to submit a self-serve contract
 description: As a legal user, resubmit a contract request that was not submitted due to incomplete signatory information by updating and syncing signatory information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-sync-signatories-fulfiller.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -28,7 +29,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Legal Requests**.
 
@@ -59,5 +60,5 @@ Role required:
 
 The contract request is resubmitted and the state changes from Draft to Work in progress.
 
-**Parent Topic:**[Updating and synchronizing signatories](snlc-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-update-sync-signatories.md)
 

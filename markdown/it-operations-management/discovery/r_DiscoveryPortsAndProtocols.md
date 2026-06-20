@@ -2,12 +2,13 @@
 title: Shazzam probe, port probes, and protocols
 description: Port scanning is the first step in the discovery process. The Shazzam probe performs port scanning, regardless of whether you use patterns for horizontal discovery. The following table lists the known ports and protocols used by Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/r\_DiscoveryPortsAndProtocols.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2024-08-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Port probes, List of Discovery probes, Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -249,10 +250,17 @@ epmap \(port 135\)
 |vmapp\_https|vCenter Server Appliance Web Interface using https|5480| | |TCP|
 |wbem\_https|CIM-XML via HTTPS\(WBEM\)|5989|CIM Classification| |TCP|
 |wins|Windows Internet Name Service|137|NetBIOS Name Resolver| |UDP|
+|https-alt|HyperText Transfer Protocol over Secure Socket \(alternate\)|8443|Secure Web Servers| |TCP|
+|pop3s|POP3 over TLS/SSL|995|Secure POP3| |TCP|
+|ftps-data|FTP data over TLS/SSL|989|Secure FTP data channel| |TCP|
+|ftps|FTP control over TLS/SSL|990|Secure FTP control channel| |TCP|
+|imap|Internet Message Access Protocol|143|IMAP / StartTLS| |TCP|
+|submission|Message Submission|587|SMTP submission / StartTLS| |TCP|
+|winrm\_ssl|Windows Remote Management over HTTPS|5986|Windows Systems| |TCP|
 
 ## Windows and dynamic ports
 
 Supported Windows machines can have dynamic ports ranges: 49152-65535 for both TCP and UDP.
 
-**Parent Topic:**[Port probes](r_PortProbes.md)
+**Parent Topic:**[Port probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/r_PortProbes.md)
 

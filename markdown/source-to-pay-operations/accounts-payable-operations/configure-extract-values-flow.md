@@ -2,6 +2,7 @@
 title: Configure the newly created DocIntel Extract Values Flow
 description: Configure the newly created DocIntel Extract Values Flow - copied use case - Invoice Processing v3 flow to add the missing information by referring to the default DocIntel Extract Values Flow - Invoice Processing v3 flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

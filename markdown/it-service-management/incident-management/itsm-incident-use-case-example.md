@@ -2,6 +2,7 @@
 title: Incident Management use case
 description: Incident Management restores normal service operation, while also minimizing impact to your business and maintaining the quality of your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/itsm-incident-use-case-example.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -44,7 +45,7 @@ Use the Incident form to see the impact of an incident and restore affected serv
 4.  \(Optional\) Add the **Affected CI** related list \[task\_ci\] to identify the CIs that might have caused the incident.
 5.  \(Optional\) Add the **Impacted Services** related list \[task\_cmdb\_ci\_service\] to see the services and CIs that are impacted by the incident.
 
-![Incident form with numbered fields.](../image/incident-form-use-case.png "Incident form for use case")
+\[Omitted image "incident-form-use-case.png"\] Alt text: Incident form with numbered fields.
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

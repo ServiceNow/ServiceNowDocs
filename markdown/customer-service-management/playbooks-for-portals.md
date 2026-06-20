@@ -2,7 +2,10 @@
 title: Playbooks for Portals
 description: With Customer Service Management \(CSM\) playbooks on service portals, you get the step-by-step guidance for the case flow process and the contextual information that you need to successfully complete each stage of the flow and its associated activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/playbooks-for-portals.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,18 +24,18 @@ Select any of the tiles to learn how to activate and use a playbook.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Activate Playbooks for Portals![](../../../reuse/icons/brand-icons/bus-rocketship.svg)Learn how to activate Playbooks for Portals.](activate-playbooks-for-portals.md#)
+[Activate Playbooks for Portals\[Omitted image "bus-rocketship.svg"\] Alt text:Learn how to activate Playbooks for Portals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-playbooks-for-portals.md)
 
 </td><td>
 
-[Use Playbooks for Portals![](../../../reuse/icons/brand-icons/rtw-safe-at-work.svg)Use the playbook to successfully complete all the required stages and activities with step-by-step guidance.](using-playbooks-for-portals.md)
+[Use Playbooks for Portals\[Omitted image "rtw-safe-at-work.svg"\] Alt text:Use the playbook to successfully complete all the required stages and activities with step-by-step guidance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/using-playbooks-for-portals.md)
 
 </td><td>
 
-[Enable a reflow for new UI Builder pages![](../../../reuse/icons/brand-icons/bus-visual-task-boards.svg)Adjust the properties of components when resizing a window or utilizing a browser's zoom feature](../task/enable-reflow-for-new-uib-pages.md)
+[Enable a reflow for new UI Builder pages\[Omitted image "bus-visual-task-boards.svg"\] Alt text:Adjust the properties of components when resizing a window or utilizing a browser's zoom feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/enable-reflow-for-new-uib-pages.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

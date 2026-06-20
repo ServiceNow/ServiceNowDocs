@@ -2,6 +2,7 @@
 title: Check the status of bounced email addresses
 description: Choose the email address record that you want to modify, and update the state field as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/change-bounce-email-status.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -25,8 +26,8 @@ Role required: admin
 
     **Important:** Before modifying the status, address the reason for the failure of that particular email address.
 
-3.  Select the confirm icon \(![Confirm icon.](../../../reuse/icons/brand-icons/bus-checkmark-circle.svg)\) to confirm the status.
+3.  Select the confirm icon \(\[Omitted image "bus-checkmark-circle.svg"\] Alt text: Confirm icon.\) to confirm the status.
 
 
-**Parent Topic:**[Reference](../concept/reference-email-admin.md)
+**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/reference-email-admin.md)
 

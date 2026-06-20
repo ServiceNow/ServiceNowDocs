@@ -2,7 +2,10 @@
 title: Track part pickups on the Field Service Contractor Portal
 description: You can see which parts are ready to be picked up by viewing a consolidated list of assets grouped by stockroom and waiting to be picked up. After picking up the part, you can close the transfer order line task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/pickup-parts.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -45,5 +48,5 @@ The agents can physically pick up the assets and then record them as delivered. 
 
 The part is delivered successfully to the agent.
 
-**Parent Topic:**[Requesting and receiving required parts](../concept/requesting-and-receiving-parts.md)
+**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/requesting-and-receiving-parts.md)
 

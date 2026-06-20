@@ -2,6 +2,7 @@
 title: Project tasks
 description: Project tasks are the units of work that make up a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_ProjectTasks.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,22 +33,22 @@ Top-down \(strategic\) tasking means that you plan high-level tasks first, then 
 
 **Note:** When you use this method, the Project Management application still rolls up several values, such as task duration. Creating a task with a longer duration than the project, expands to cover the entire duration of the task, and defeats the purpose of using this approach. Values are not rolled down from parent tasks, nor are there any restrictions on creating child tasks that are longer than specified duration of the parent.
 
--   **[Project task relationships and dependencies](c_ProjectTaskRelationDepend.md)**  
+-   **[Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md)**  
 The Project Management application enables you a create parent-child relationships between tasks and dependencies, such as finish-to-start and finish-to-finish, between tasks.
--   **[Scheduling conflicts between project tasks](scheduling-conflicts.md)**  
+-   **[Scheduling conflicts between project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/scheduling-conflicts.md)**  
 Scheduling conflict helps you to identify project tasks that are not honoring dependencies. A scheduling conflict occurs when one project task prevents other task from starting on the specified date because of dependencies or constraint types.
--   **[Create a project task](../task/t_CreateAProjectTask.md)**  
+-   **[Create a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectTask.md)**  
 You can create project tasks in various ways, even from other applications in the instance.
--   **[Create a milestone](../task/t_CreateMilestones.md)**  
+-   **[Create a milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateMilestones.md)**  
 A milestone is a project task with a duration of zero \(0\). Use milestones to mark key dates in your project, such as key decision points, approvals, and holidays. Milestones are treated like any other project task and you can create dependencies between tasks and milestones.
--   **[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)**  
+-   **[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)**  
 Large-scale changes approved by your change approval board \(CAB\) require new or existing projects to be implemented.
--   **[Project task checklists](c_project-task-checklists.md)**  
+-   **[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_project-task-checklists.md)**  
 A project task checklist gives you the ability to track activities that must be completed on a task.
--   **[Accept or reject project task notifications](../task/accept-project-task-notifications.md)**  
+-   **[Accept or reject project task notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/accept-project-task-notifications.md)**  
 Approve or reject the changes in a notification for an external soft dependency.
--   **[Task resources](c_TaskResources.md)**  
+-   **[Task resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_TaskResources.md)**  
 Resources are the individuals or groups assigned to perform tasks and subtasks in Project Management.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

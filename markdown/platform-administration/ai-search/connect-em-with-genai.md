@@ -2,6 +2,7 @@
 title: Connect your custom embedding model with the Generative AI application
 description: Integrate your custom embedding model with a capability definition to help the Generative AI application understand your data better and deliver more relevant, tailored responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/connect-em-with-genai.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  Ensure that **Definition Table** field is prepopulated with sys\_one\_extend\_capability\_definition.
 
-4.  In the **Definition** field, select the search icon \(![Lookup documents using list.](../../../common/image/Banner_GlobalTextSearchIcon.png)\)to select the definition document.
+4.  In the **Definition** field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup documents using list.\)to select the definition document.
 
     1.  In the **Table name** field, select One API System Executor \[one\_api\_system\_executor\].
 
@@ -49,5 +50,5 @@ Role required: admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring bring your own model \(BYOM\)](../concept/creating-byom.md)
+**Parent Topic:**[Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/creating-byom.md)
 

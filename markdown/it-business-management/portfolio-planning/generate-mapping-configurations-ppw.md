@@ -2,6 +2,7 @@
 title: Generate default mapping configurations
 description: Generate default mapping configurations to create table maps for Project Portfolio Management \(PPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/generate-mapping-configurations-ppw.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning

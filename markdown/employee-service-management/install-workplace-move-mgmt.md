@@ -2,6 +2,7 @@
 title: Install Workplace Move Management
 description: Install the Workplace Move Management application from the ServiceNow Store. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-workplace-move-mgmt.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -11,7 +12,7 @@ breadcrumb: [Configuring Workplace Move Management, Workplace Move Management, W
 
 # Install Workplace Move Management
 
-Install the Workplace Move Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Move Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -55,5 +56,5 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configuring Workplace Move Management](../concept/configure-workplace-move-mgmt.md)
+**Parent Topic:**[Configuring Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-workplace-move-mgmt.md)
 

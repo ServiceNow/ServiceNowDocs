@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for HR Service Delivery \(HRSD\)
 description: Get a quick overview of the important information that is related to the Now Assist for HR Service Delivery \(HRSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.html
 release: xanadu
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

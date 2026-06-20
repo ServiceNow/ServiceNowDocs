@@ -2,6 +2,7 @@
 title: View unified service map and the impact paths in Service Operations Workspace
 description: Visualize relationships between Configuration Items \(CIs\) and alerts with real-time updates and detailed impact paths. Enhance troubleshooting and proactive management by quickly identifying root causes and dependencies for both discovered services and application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/view-impact-tree.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -36,7 +37,7 @@ You can also investigate a wider view of the service topology on the service map
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation bar, select the Service Dashboard icon \(![Service Dashboard icon](../image/icon-service-dashboard.png)\).
+2.  From the left navigation bar, select the Service Dashboard icon \(\[Omitted image "icon-service-dashboard.png"\] Alt text: Service Dashboard icon\).
 
     The Service Dashboard page appears.
 
@@ -44,19 +45,19 @@ You can also investigate a wider view of the service topology on the service map
 
     A pop-up window displays the business criticality and severity of a service.
 
-    ![Application service tile with options to see service details and service map.](../image/sow-itom-service-app-tile-options.png)
+    \[Omitted image "sow-itom-service-app-tile-options.png"\] Alt text: Application service tile with options to see service details and service map.
 
 4.  Select **Service Map**.
 
     The application map along with the CI relationships appears.
 
-    ![The application map along with the CI relationships appears.](../image/sow-service-map-page.png)
+    \[Omitted image "sow-service-map-page.png"\] Alt text: The application map along with the CI relationships appears.
 
     **Note:** Depending on the size of the service, the unified map either shows the full map \(if it contains up to 60 CIs\) or an Impact Path leading to the most critical alert \(for maps with over 60 CIs\). For large maps, you can reveal more CIs by clearing the existing selecting and navigating to the **Showing more nodes** optimization option.
 
-    ![Option to change how many CIs you want to view in the map.](../image/sow-service-map-nodes.png)
+    \[Omitted image "sow-service-map-nodes.png"\] Alt text: Option to change how many CIs you want to view in the map.
 
-    If the impact path panel is closed, you can open it by selecting the Impact path icon \(![Impact path icon](../image/icon-sow-impact-path.png)\).
+    If the impact path panel is closed, you can open it by selecting the Impact path icon \(\[Omitted image "icon-sow-impact-path.png"\] Alt text: Impact path icon\).
 
 5.  Navigate between alerts by selecting an alert card.
 
@@ -64,12 +65,12 @@ You can also investigate a wider view of the service topology on the service map
 
     Selecting any alert tile displays the unified map for that alert. To return to the full map for the service, select **Clear**.
 
-    ![Clear option to return to the full service map.](../image/sow-clear-option.png)
+    \[Omitted image "sow-clear-option.png"\] Alt text: Clear option to return to the full service map.
 
-6.  To view alert details, select the Open Record Form icon \(![Open record form icon to view details of the alert.](../image/icon-sow-open-record-form.png)\) on the alert card.
+6.  To view alert details, select the Open Record Form icon \(\[Omitted image "icon-sow-open-record-form.png"\] Alt text: Open record form icon to view details of the alert.\) on the alert card.
 
     The alert details page opens.
 
-    ![Alert details page.](../image/sow-servicemap-alert-details-page.png)
+    \[Omitted image "sow-servicemap-alert-details-page.png"\] Alt text: Alert details page.
 
 

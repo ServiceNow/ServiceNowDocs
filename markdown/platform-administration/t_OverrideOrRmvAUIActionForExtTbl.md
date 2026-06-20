@@ -2,6 +2,7 @@
 title: Override a UI action for an extended table
 description: You can override or remove a UI action for a table that is extended from another table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_OverrideOrRmvAUIActionForExtTbl.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -38,5 +39,5 @@ When a UI action is defined for the Task table, it applies to all tasks, includi
     2.  Add the condition **current.getRecordClassName\(\) !='incident'**.
 
 
-**Parent Topic:**[UI actions](../concept/c_UIActions.md)
+**Parent Topic:**[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UIActions.md)
 

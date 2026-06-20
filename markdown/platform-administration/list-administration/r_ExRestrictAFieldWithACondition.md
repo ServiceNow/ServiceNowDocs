@@ -2,6 +2,7 @@
 title: Example - Restrict a field with a condition
 description: This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_ExRestrictAFieldWithACondition.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -15,7 +16,7 @@ breadcrumb: [Configuring contextual security for the list editor, List editor ad
 
 This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
 
-![](../image/RestrictCriticalEvents.png "Restrict Critical Incidents")
+\[Omitted image "RestrictCriticalEvents.png"\] Alt text:
 
 -   **Type:** record
 -   **Operation:** list\_edit
@@ -23,9 +24,9 @@ This access control prevents everyone from editing a Critical Incident in a list
 -   **Admin overrides:** Clear the check box.
 -   **Condition:** Priority is not 1 - Critical
 
-**Parent Topic:**[Configuring contextual security for the list editor](r_ConfigListEditorContextSecurity.md)
+**Parent Topic:**[Configuring contextual security for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ConfigListEditorContextSecurity.md)
 
-**Previous topic:**[Example - Restrict a field with a script](r_ExampleRestrictAFieldWithAScript.md)
+**Previous topic:**[Example - Restrict a field with a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictAFieldWithAScript.md)
 
-**Next topic:**[User preferences for list editing](r_ManagingUserPreferences.md)
+**Next topic:**[User preferences for list editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ManagingUserPreferences.md)
 

@@ -2,7 +2,10 @@
 title: Create a Developer Support case
 description: Enter a support case to engage Developer Support assistance, if you are a named contact on the Impact plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/create-developer-support-case.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: Impact Developer Support
 
     You may also navigate directly to NowSupport.
 
-2.  Select **Create a Case**.![Shows the Developer support tile in NowSupport.](../image/Select-dev-support.png)
+2.  Select **Create a Case**.\[Omitted image "Select-dev-support.png"\] Alt text: Shows the Developer support tile in NowSupport.
 
 3.  Select the Case Type **Developer Support**.
 

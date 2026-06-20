@@ -2,6 +2,7 @@
 title: Setting up the integration of Process Mining with Workforce Optimization for ITSM
 description: Use default templates so that you can create process mining projects for your assignment groups to mine the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/setting-up-process-optimization-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,14 +18,14 @@ Use default templates so that you can create process mining projects for your as
 
 The Process Mining template for the Incident tables is available by default with the Default template type.
 
-But you can create a new template with the Default template type on a new table. For more information, see [Create Process Mining templates](../task/create-template-po-wfo-itsm.md).
+But you can create a new template with the Default template type on a new table. For more information, see [Create Process Mining templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/create-template-po-wfo-itsm.md).
 
 **Note:** Workforce Optimization only mines the data for the Incident table. So, Workforce Optimization uses only the Incident table.
 
--   **[Create Process Mining templates](../task/create-template-po-wfo-itsm.md)**  
+-   **[Create Process Mining templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/create-template-po-wfo-itsm.md)**  
 Create templates on tables for which you want to create the process mining projects.
--   **[Workforce Optimization for ITSM integration with Process Mining components](../reference/configurable-wfo-itsm-process-optimization.md)**  
+-   **[Workforce Optimization for ITSM integration with Process Mining components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-process-optimization.md)**  
 Workforce Optimization for ITSM installs roles and properties to configure the Workforce Optimization for ITSM integration with Process Mining.
 
-**Parent Topic:**[Integrating Process Mining with Workforce Optimization for ITSM](integrating-po-wfo-itsm.md)
+**Parent Topic:**[Integrating Process Mining with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/integrating-po-wfo-itsm.md)
 

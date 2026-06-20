@@ -2,6 +2,7 @@
 title: Explore Indoor Mapping
 description: Indoor maps objects and data can be synchronized with Workplace Service Delivery and can be used for reservation management, case management, move management, and within the location directory for wayfinding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/indoor-mapping/ind-mapping-explore.html
 release: xanadu
 product: Indoor Mapping
 classification: indoor-mapping
@@ -26,16 +27,16 @@ Indoor Mapping provides capabilities within the Map Studio to digitalize workpla
 3.  Use Workplace Service Delivery move management to request and move a desk from one location to another. Ensure that the workspace is mapped to Indoor Mapping map data.
 4.  Provide interactive locations and wayfinding solutions by providing the start and destination points on indoor maps.
 
-    **Note:** Step by step directions for wayfinding within workplaces are only available on Now Mobile app. For more information, see [Work with Location Directory for Now Mobile app](../../wsd-for-mobile/task/view-location-directory-mobile.md).
+    **Note:** Step by step directions for wayfinding within workplaces are only available on Now Mobile app. For more information, see [Work with Location Directory for Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.md).
 
 
-Indoor maps can be created by importing and converting existing architectural or engineering floor plan to create indoor maps. Indoor Mapping supports AutoCAD files \(DWG and DXF\) and raster sources \(PNG\) files. For more information, see [Import CAD files to Map Studio](../task/CAD-file-import.md) and [Import Raster files](../task/import-raster-files.md).
+Indoor maps can be created by importing and converting existing architectural or engineering floor plan to create indoor maps. Indoor Mapping supports AutoCAD files \(DWG and DXF\) and raster sources \(PNG\) files. For more information, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/CAD-file-import.md) and [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/import-raster-files.md).
 
-Customize and manage maps with Indoor Mapping Map Studio. Collaborate in real time and update map data and objects. For more information, see [Manage map objects and data](using-indoor-mapping.md).
+Customize and manage maps with Indoor Mapping Map Studio. Collaborate in real time and update map data and objects. For more information, see [Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/using-indoor-mapping.md).
 
-![Diagram showing the Indoor Mapping Map Studio Interface](../images/Indoor-Infographics-01.png "Indoor Mapping Map Studio")
+\[Omitted image "Indoor-Infographics-01.png"\] Alt text: Diagram showing the Indoor Mapping Map Studio Interface
 
-![Indoor Mapping Map Studio](../images/Indoor-Infographics-02.png)
+\[Omitted image "Indoor-Infographics-02.png"\] Alt text: Indoor Mapping Map Studio
 
-**Parent Topic:**[Indoor Mapping](../reference/Indoor-mapping.md)
+**Parent Topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

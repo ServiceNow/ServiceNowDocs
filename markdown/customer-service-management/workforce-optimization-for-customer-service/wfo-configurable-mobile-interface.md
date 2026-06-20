@@ -2,6 +2,7 @@
 title: Mobile experience for Workforce Optimization for Customer Service
 description: Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/wfo-configurable-mobile-interface.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -17,10 +18,10 @@ Manage customer service cases from your mobile device with the Now Mobile Agent 
 
 **Important:** Starting with the Tokyo release, Legacy Workforce Optimization is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-If you're an agent \(sn\_customerservice\_agent​\) or a manager \(sn\_wfo\_csm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Customer Service Mobile Plugin \(com.sn\_csm\_mobile\). For more information about the Now Mobile for Customer Service Management, see [Mobile experience for Customer Service Management](../../customer-service-management/concept/customer-service-mobile-interface.md)
+If you're an agent \(sn\_customerservice\_agent​\) or a manager \(sn\_wfo\_csm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Customer Service Mobile Plugin \(com.sn\_csm\_mobile\). For more information about the Now Mobile for Customer Service Management, see [Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/customer-service-mobile-interface.md)
 
--   To get started with this application, follow the instructions in [Get started with the Customer Service mobile application](../../customer-service-management/task/install-customer-service-mobile-app.md).
--   You can learn about the agent and manager tasks that you can perform in [Use the mobile application to perform agent and manager tasks](../../customer-service-management/concept/csm-mobile-agent-mgr-task.md). Additionally, you can also perform the following tasks for Workforce Optimization for Customer Service.
+-   To get started with this application, follow the instructions in [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/install-customer-service-mobile-app.md).
+-   You can learn about the agent and manager tasks that you can perform in [Use the mobile application to perform agent and manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-mobile-agent-mgr-task.md). Additionally, you can also perform the following tasks for Workforce Optimization for Customer Service.
 
 <table id="table_mnd_gzg_zlb"><thead><tr><th>
 
@@ -99,5 +100,5 @@ Tap the notification. The case record appears.
 Review the case record and take appropriate action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Workforce Optimization for Customer Service](use-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 

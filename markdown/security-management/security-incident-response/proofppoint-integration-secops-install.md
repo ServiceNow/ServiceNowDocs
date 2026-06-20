@@ -2,6 +2,7 @@
 title: Install and configure the Proofpoint Integration for Security Operations
 description: Install and configure the  Proofpoint Integration for Security Operations application from the  ServiceNow Store on your  ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/proofppoint-integration-secops-install.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

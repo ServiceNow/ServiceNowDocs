@@ -2,7 +2,10 @@
 title: Create a task for an order case line item
 description: Create a task for an order case line item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-order-ops-order-case-create-task.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-10-30"
 reading_time_minutes: 1

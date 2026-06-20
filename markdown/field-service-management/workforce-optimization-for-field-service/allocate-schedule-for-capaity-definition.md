@@ -2,6 +2,7 @@
 title: Create capacity allocation schedule
 description: A Capacity Allocation Schedule helps manage and distribute your resource capacity over a set period, ensuring that a certain percentage of your resources are reserved for high-priority or same-day tasks. Allocate certain amount of capacity to different schedules so that the right amount of capacity is released for the work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/workforce-optimization-for-field-service/allocate-schedule-for-capaity-definition.html
 release: xanadu
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

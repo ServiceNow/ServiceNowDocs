@@ -2,11 +2,12 @@
 title: Synchronize configuration settings rules
 description: Metric Intelligence configuration settings rules contain user specified values that override default values that currently exist on Metric Intelligence MID Servers. To take effect, the Metric Intelligence MID Servers must be synchronized with the updated set of configuration settings rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/synch-config-settings-rules.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Create a configuration settings rule, Configuring Agent Client Collector Monitoring, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---

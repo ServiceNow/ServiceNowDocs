@@ -2,6 +2,7 @@
 title: Extract fields using the draw tool
 description: Use the draw tool to extract information directly from text and tables on the document image.Use the draw tool to extract a single field directly from the document image.Use the draw tool to extract a table directly from the document image.Adjust the draw tool grid to better fit the information that you want to extract from the document image.Use the draw tool to review auto-filled fields directly from the document image panel.Edit the fields on the document image to make sure that the correct information is extracted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -23,7 +24,7 @@ Especially in cases when there are no recommendations yet or incorrect recommend
 
 Any extracted table fields should already appear in a grid over the table. An extracted single field appears as a labeled box over the text.You can review the extracted fields right from the grid or boxand make adjustments as needed. If the table fields are empty or there is no grid, you can create one or more grids over the table to extract the fields.
 
-![Draw tool creates a grid over the table on the document image.](../image/docintel-drawtool-overview2.gif)
+\[Omitted image "docintel-drawtool-overview2.gif"\] Alt text: Draw tool creates a grid over the table on the document image.
 
 ## Extract a single field using the draw tool
 
@@ -45,17 +46,17 @@ If the field is auto-filled, a box already appears over the extracted text. You 
 
 2.  Select a field.
 
-    The Draw Tool icon \(![Draw Tool icon.](../image/icon-docintel-draw-mode2.png)\) is enabled in the document controls toolbar.
+    The Draw Tool icon \(\[Omitted image "icon-docintel-draw-mode2.png"\] Alt text: Draw Tool icon.\) is enabled in the document controls toolbar.
 
     If the field is already auto-filled and the box appears over the field, or if you’ve already drawn a box, proceed to step 5.
 
-3.  Select the Draw Tool icon \(![Draw Tool icon.](../image/icon-docintel-draw-mode2.png)\).
+3.  Select the Draw Tool icon \(\[Omitted image "icon-docintel-draw-mode2.png"\] Alt text: Draw Tool icon.\).
 
 4.  Draw a box over the area on the document image that you want to extract.
 
     An editable box appears over the text. The field name is displayed next to the box. The extracted text in the box appears highlighted.
 
-    ![Box drawn on the document to extract the date field value.](../image/docintel-dm-single-field-example.png "Box drawn on a single field")
+    \[Omitted image "docintel-dm-single-field-example.png"\] Alt text: Box drawn on the document to extract the date field value.
 
     The extracted text fills the related field in the document fields panel.
 
@@ -63,15 +64,15 @@ If the field is auto-filled, a box already appears over the extracted text. You 
 
 5.  Adjust the box as needed.
 
-<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d70773e210">
+<table id="choicetable_kws_nrj_4bc"><thead><tr><th align="left" id="d26752e210">
 
 Option
 
-</th><th align="left" id="d70773e213">
+</th><th align="left" id="d26752e213">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d70773e219">
+</th></tr></thead><tbody><tr><td id="d26752e219">
 
 **Resize the box**
 
@@ -81,17 +82,17 @@ Select the box. Drag the box edge or corner to the desired position.
 
  The updated text in the box is extracted and fills the related field in the document fields panel.
 
-</td></tr><tr><td id="d70773e234">
+</td></tr><tr><td id="d26752e234">
 
 **Remove the box**
 
 </td><td>
 
-Select the Remove the box icon \(![Remove the box icon](../image/icon-docintel-delete-grid.png)\).
+Select the Remove the box icon \(\[Omitted image "icon-docintel-delete-grid.png"\] Alt text: Remove the box icon\).
 
  The box is deleted and the extracted value is removed from the field.
 
-</td></tr><tr><td id="d70773e255">
+</td></tr><tr><td id="d26752e255">
 
 **Extract to a different field**
 
@@ -117,7 +118,7 @@ Role required: sn\_docintel.extraction\_agent
 
 Use the following steps to extract a table from a document using the draw tool. The extracted data is used to fill the related table fields.
 
-If the table fields are auto-filled, a draw tool grid is already available based on the extracted fields. You can adjust the fields as needed. For more information, see [Adjust the draw tool grid](use-draw-mode-to-extract-fields.md#).
+If the table fields are auto-filled, a draw tool grid is already available based on the extracted fields. You can adjust the fields as needed. For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 You can select multiple sections of a table throughout the pages of a document.
 
@@ -125,17 +126,17 @@ You can select multiple sections of a table throughout the pages of a document.
 
 1.  In the document fields panel, expand the Tables section.
 
-    The Tables section only displays fields assigned to a table [field group](../task/manage-keys.md).
+    The Tables section only displays fields assigned to a table [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/manage-keys.md).
 
 2.  Select a table in the Tables section.
 
-    The table panel is displayed, and the Draw Toolicon \(![Draw Tool icon.](../image/icon-docintel-draw-mode2.png)\) is enabled in the document controls toolbar.
+    The table panel is displayed, and the Draw Toolicon \(\[Omitted image "icon-docintel-draw-mode2.png"\] Alt text: Draw Tool icon.\) is enabled in the document controls toolbar.
 
     If the table fields are already auto-filled and the grid appears over the table, or if you’ve already drawn a grid, proceed to step 5.
 
-    **Tip:** Collapse the Table panel using the Collapse table panel icon \(![Collapse table panel icon](../image/icon-docintel-collapse-table.png)\), if needed.
+    **Tip:** Collapse the Table panel using the Collapse table panel icon \(\[Omitted image "icon-docintel-collapse-table.png"\] Alt text: Collapse table panel icon\), if needed.
 
-3.  Select the Draw Toolicon \(![Draw Tool icon.](../image/icon-docintel-draw-mode2.png)\).
+3.  Select the Draw Toolicon \(\[Omitted image "icon-docintel-draw-mode2.png"\] Alt text: Draw Tool icon.\).
 
 4.  Draw a box over the area on the document image that you want to extract.
 
@@ -145,15 +146,15 @@ You can select multiple sections of a table throughout the pages of a document.
 
     The text in the cell appears surrounded by a dotted-line box before it is extracted to the table fields. After it is extracted, it appears in a solid-line box.
 
-    ![Draw tool grid displayed over a table on the document image.](../image/docintel-drawmode-grid.png)
+    \[Omitted image "docintel-drawmode-grid.png"\] Alt text: Draw tool grid displayed over a table on the document image.
 
 5.  Adjust the grid as needed.
 
-    For more information, see [Adjust the draw tool grid](use-draw-mode-to-extract-fields.md#).
+    For more information, see [Adjust the draw tool grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 6.  To select another section of the table on the same or a different page of the document:
 
-    1.  Select the Draw Toolicon \(![Draw Tool icon.](../image/icon-docintel-draw-mode2.png)\).
+    1.  Select the Draw Toolicon \(\[Omitted image "icon-docintel-draw-mode2.png"\] Alt text: Draw Tool icon.\).
 
     2.  Draw a box over the other area on the document image that you want to extract.
 
@@ -163,7 +164,7 @@ You can select multiple sections of a table throughout the pages of a document.
 
     3.  Adjust the grid as needed.
 
-7.  To hide the grid\(s\), select the Hide/show the grid\(s\) icon \(![Hide/show the grids icon.](../image/icon-docintel-hide-grids.png)\).
+7.  To hide the grid\(s\), select the Hide/show the grid\(s\) icon \(\[Omitted image "icon-docintel-hide-grids.png"\] Alt text: Hide/show the grids icon.\).
 
     A partly-transparent box shows where a hidden grid is located on the document.
 
@@ -192,7 +193,7 @@ Adjust the draw tool grid to better fit the information that you want to extract
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid on the document image. For more information, see [Extract a table using the draw tool](use-draw-mode-to-extract-fields.md#).
+-   These steps apply to tables that have a draw tool grid on the document image. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### About this task
@@ -205,7 +206,7 @@ Use the following steps to make changes to a grid. You can then extract the upda
 
     If you have more than one grid on the document, only one displays editing tools. The other grid appears as an overlay until you select it for editing.
 
-    ![Tools to adjust the draw-mode grid.](../image/docintel-drawtool-adjustments.png)
+    \[Omitted image "docintel-drawtool-adjustments.png"\] Alt text: Tools to adjust the draw-mode grid.
 
 2.  Adjust the grid as needed.
 
@@ -215,23 +216,23 @@ Use the following steps to make changes to a grid. You can then extract the upda
 
     The text in the cell appears surrounded by a solid-line box if it’s already extracted. It appears in a dotted-line box if it isn’t extracted yet.
 
-<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d70773e675">
+<table id="choicetable_jmr_csy_11c"><thead><tr><th align="left" id="d26752e675">
 
 Option
 
-</th><th align="left" id="d70773e678">
+</th><th align="left" id="d26752e678">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d70773e684">
+</th></tr></thead><tbody><tr><td id="d26752e684">
 
 **Move the grid**
 
 </td><td>
 
-Drag the Move icon \(![Move icon.](../image/icon-docintel-dm-move-table.png)\) to the desired position.
+Drag the Move icon \(\[Omitted image "icon-docintel-dm-move-table.png"\] Alt text: Move icon.\) to the desired position.
 
-</td></tr><tr><td id="d70773e702">
+</td></tr><tr><td id="d26752e702">
 
 **Change a column header**
 
@@ -239,7 +240,7 @@ Drag the Move icon \(![Move icon.](../image/icon-docintel-dm-move-table.png)\) t
 
 Select the column header and select the column where the data will be extracted to in the table fields.
 
-</td></tr><tr><td id="d70773e714">
+</td></tr><tr><td id="d26752e714">
 
 **Make the first row a header row**
 
@@ -247,7 +248,7 @@ Select the column header and select the column where the data will be extracted 
 
 Select the row header and check the **This is a header row** check box.
 
-</td></tr><tr><td id="d70773e729">
+</td></tr><tr><td id="d26752e729">
 
 **Move a column or row border**
 
@@ -255,37 +256,37 @@ Select the row header and check the **This is a header row** check box.
 
 Drag the border to the desired position.
 
-</td></tr><tr><td id="d70773e742">
+</td></tr><tr><td id="d26752e742">
 
 **Add a new column or row**
 
 </td><td>
 
-Go to the outside border of the grid and select the Add a line icon \(![Add a line icon.](../image/icon-docintel-add-grid-line.png)\).
+Go to the outside border of the grid and select the Add a line icon \(\[Omitted image "icon-docintel-add-grid-line.png"\] Alt text: Add a line icon.\).
 
  Adding a line splits the affected cells so they can be extracted to separate fields.
 
-</td></tr><tr><td id="d70773e763">
+</td></tr><tr><td id="d26752e763">
 
 **Remove a column or row border**
 
 </td><td>
 
-Select the Remove a line icon \(![Remove a line icon.](../image/icon-docintel-delete-grid-line.png)\) at the end of the border outside the grid.
+Select the Remove a line icon \(\[Omitted image "icon-docintel-delete-grid-line.png"\] Alt text: Remove a line icon.\) at the end of the border outside the grid.
 
  Removing a line merges the affected cells so they can be extracted to the same fields.
 
-</td></tr><tr><td id="d70773e784">
+</td></tr><tr><td id="d26752e784">
 
 **Remove the grid**
 
 </td><td>
 
-Select the Remove the grid icon \(![Remove the grid icon](../image/icon-docintel-delete-grid.png)\).
+Select the Remove the grid icon \(\[Omitted image "icon-docintel-delete-grid.png"\] Alt text: Remove the grid icon\).
 
  This action only removes the grid, not the extracted data.
 
-</td></tr><tr><td id="d70773e805">
+</td></tr><tr><td id="d26752e805">
 
 **Ignore a table column or row**
 
@@ -304,7 +305,7 @@ Use the draw tool to review auto-filled fields directly from the document image 
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](use-draw-mode-to-extract-fields.md#)or [Extract a single field using the draw tool](use-draw-mode-to-extract-fields.md#).
+-   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### Procedure
@@ -313,18 +314,18 @@ Use the draw tool to review auto-filled fields directly from the document image 
 
     For a single field, an editable box appears over the text. The field name is displayed next to the box.
 
-    ![Single field on the document image.](../image/docintel-dm-single-field.png)
+    \[Omitted image "docintel-dm-single-field.png"\] Alt text: Single field on the document image.
 
     For a table field, the text in the grid cell appears surrounded by a box if the value is extracted.
 
-    ![Tooltip showing the extracted field value.](../image/docintel-drawtool-cell-tooltip.png)
+    \[Omitted image "docintel-drawtool-cell-tooltip.png"\] Alt text: Tooltip showing the extracted field value.
 
 2.  Verify the value that appears in the field’s tooltip.
 
     -   If the value is accurate, move on to review the next field.
     -   If the value must be changed, edit the field.
 
-        See [Edit a field on the document image](use-draw-mode-to-extract-fields.md#).
+        See [Edit a field on the document image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 3.  Repeat steps 1 and 2 for each field that you want to review.
 
@@ -335,7 +336,7 @@ Edit the fields on the document image to make sure that the correct information 
 
 ### Before you begin
 
--   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](use-draw-mode-to-extract-fields.md#)or [Extract a single field using the draw tool](use-draw-mode-to-extract-fields.md#).
+-   These steps apply to tables that have a draw tool grid or single fields that have a draw tool boxon the document. For more information, see [Extract a table using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md)or [Extract a single field using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 -   Role required: sn\_docintel.extraction\_agent
 
 ### About this task
@@ -350,7 +351,7 @@ Use the following steps to change to a field by editing the recommendation on th
 
 2.  Enter a value in the text box or select another recommendation from the list.
 
-    ![Dialog box for the table field opened from the document image.](../image/docintel-edit-dm-field-in-doc2.png)
+    \[Omitted image "docintel-edit-dm-field-in-doc2.png"\] Alt text: Dialog box for the table field opened from the document image.
 
 3.  Select **Save**.
 

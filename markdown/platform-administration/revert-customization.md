@@ -2,6 +2,7 @@
 title: Revert a customization
 description: To prevent customizations from being overwritten by system upgrades, the upgrade process automatically skips changes to objects that have been customized. You may want to overwrite your customizations when a software upgrade contains a feature that you would like to implement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/revert-customization.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -48,10 +49,10 @@ To identify customized objects, the system adds a corresponding record in the Cu
         -   The version record with the source '\_to\_platform\_version\_' contains the payload from ServiceNow without any modifications. \(State= HISTORY\)
         -   The version record with the previous customization source, for example, '\_update\_set\_', that has the customer's customizations overridden by the values from the incoming ServiceNow version, except for the update\_exempt fields. The customer's customizations for update\_exempt fields are preserved in this version. \(State= CURRENT\)
 
-**Parent Topic:**[Customizations Unchanged related list](../concept/customizations-unchanged-related-list.md)
+**Parent Topic:**[Customizations Unchanged related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/customizations-unchanged-related-list.md)
 
 **Related topics**  
 
 
-[Update set administration](https://www.servicenow.com/docs/access?context=update-set-administration&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.update-set-administration]
 

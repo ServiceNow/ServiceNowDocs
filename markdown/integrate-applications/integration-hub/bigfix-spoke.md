@@ -2,6 +2,7 @@
 title: BigFix Inventory Spoke
 description: Manage hardware, software, and licenses in BigFix Inventory from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/bigfix-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage hardware, software, and licenses in BigFix Inventory from your ServiceNow
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -60,7 +61,7 @@ The BigFix Inventory spoke provides a sample subflow, Send an Email Notification
 
 ServiceNow provides a sample remote table that you can use to connect to BigFix Inventory, and view, pull, and manipulate data from the BigFix Inventory. The name of the sample remote table is Computers. You can create custom remote tables based on the sample remote table. To access the remote table, on your instance, navigate to **All** &gt; **BigFix Inventory Spoke** &gt; **Software Inventories** &gt; **Remote Table**, and then select **Computers**.
 
-For more information on remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more information on remote tables, see .
 
 ## Spoke actions
 
@@ -102,7 +103,7 @@ The BigFix Inventory spoke provides actions to automate BigFix Inventory tasks w
 |Look up VM Managers|Lists VM managers in the BigFix Inventory system.|
 |Set End of Support Date for Software Component|Configures the End of Support Date for software component.|
 
-For information about setting up the spoke, see [Set up the BigFix Inventory spoke](../task/setup-bigfix.md#).
+For information about setting up the spoke, see [Set up the BigFix Inventory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-bigfix.md).
 
 ## Spoke modules
 
@@ -143,5 +144,5 @@ The BigFix Inventory spoke the bigfix\_admin \(sn\_bigfix\_in\_spoke.bigfix\_adm
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 

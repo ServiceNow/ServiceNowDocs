@@ -2,6 +2,7 @@
 title: Set up a webhook for the Plivo spoke
 description: Configure a webhook to subscribe to your Plivo account with a ServiceNow callback URL.Register a Plivo webhook in your ServiceNow instance to notify the ServiceNow app when certain events occur in Plivo.Provide a webhook callback URL in your Plivo account to create a webhook.Create a webhook routing policy and subflow as per your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-plivo-webhook.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -77,7 +78,7 @@ Role required: sn\_plivo\_spoke.Plivo\_Admin and decision\_table\_admin
 
 ### Result
 
-The callback URL is added in your Plivo account. You can create routing policies and subflows as per your requirement. See [Create routing policy and customize webhook](setup-plivo-webhook.md#) for information regarding the creation of new routing policies and subflows.
+The callback URL is added in your Plivo account. You can create routing policies and subflows as per your requirement. See [Create routing policy and customize webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-plivo-webhook.md) for information regarding the creation of new routing policies and subflows.
 
 ## Create routing policy and customize webhook
 
@@ -89,7 +90,7 @@ Role required: sn\_plivo\_spoke.Plivo\_Admin and decision\_table\_admin
 
 ### About this task
 
-Routing policy in the Plivo WebHook Routing Policy module triggers the subflows and notifies the ServiceNow instance when certain events occur in your Plivo account. See [Plivo Spoke](../concept/plivo-spoke.md) for information about the fields that the routing policy and subflows support.
+Routing policy in the Plivo WebHook Routing Policy module triggers the subflows and notifies the ServiceNow instance when certain events occur in your Plivo account. See [Plivo Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/plivo-spoke.md) for information about the fields that the routing policy and subflows support.
 
 ### Procedure
 
@@ -103,7 +104,7 @@ Routing policy in the Plivo WebHook Routing Policy module triggers the subflows 
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) for more information about creating and using subflows, and [Plivo Spoke](../concept/plivo-spoke.md) for information about the supported fields.
+    See Building subflows for more information about creating and using subflows, and [Plivo Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/plivo-spoke.md) for information about the supported fields.
 
 5.  Navigate to **Plivo Spoke** &gt; **Plivo WebHook Routing Policy**.
 
@@ -133,7 +134,7 @@ Default answer
 
 </td><td>
 
-Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Flow [sys_hub_flow]`.

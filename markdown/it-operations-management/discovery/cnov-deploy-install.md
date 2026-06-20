@@ -2,6 +2,7 @@
 title: Install Agent Client Collector for Kubernetes – Visibility
 description: You can install Agent Client Collector for Kubernetes – Visibility using either a Helm chart or the Kubernetes YAML file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-deploy-install.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -56,12 +57,12 @@ This procedure describes the standard Agent Client Collector for Kubernetes – 
                     ```
 
             2.  In the command, configure additional settings as needed:
-                -   [Configure the memory limit of the Informer pod](cnov-config-informer-memory.md)
-                -   [Change the full discovery frequency in Agent Client Collector for Kubernetes – Visibility](cnov-config-full-discovery-frequency.md)
-                -   [Deactivate continuous discovery in Agent Client Collector for Kubernetes – Visibility](cnov-config-continuous-discovery-off.md)
+                -   [Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-config-informer-memory.md)
+                -   [Change the full discovery frequency in Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
+                -   [Deactivate continuous discovery in Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
                 -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
-                -   [Enabling application service maps](../concept/enabling-application-service-maps.md)
+                -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/enabling-application-service-maps.md)
         2.  Run the command.
     -   Install Agent Client Collector for Kubernetes – Visibility using the Kubernetes YAML file.
         1.  Download the Kubernetes YAML zip file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
@@ -80,7 +81,7 @@ This procedure describes the standard Agent Client Collector for Kubernetes – 
             -   Replace all occurrences of &lt;INSTANCE\_NAME&gt; with the name of your instance, without the domain name.
             -   Replace &lt;CLUSTER\_NAME&gt; with the name of your cluster as it appears in the CMDB.
             -   If the Informer is installed in OpenShift, change the value of the OPENSHIFT environment variable to `true`.
-            -   [Enabling application service maps](../concept/enabling-application-service-maps.md)
+            -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/enabling-application-service-maps.md)
         4.  If you use the Hybrid service maps to map resources both inside and outside the Kubernetes cluster, set the following parameters:
 
             ```

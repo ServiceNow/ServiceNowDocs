@@ -2,6 +2,7 @@
 title: Export opportunities
 description: Export a list of all opportunities in a specified file format, such as JSON or Excel, in Opportunity Management and provide it to a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-export-opportunities.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view. ![](../image/Lists.png) and select **Opportunity** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to the **List** view. \[Omitted image "Lists.png"\] Alt text: and select **Opportunity** &gt; **All**.
 
 2.  Select **Export**.
 

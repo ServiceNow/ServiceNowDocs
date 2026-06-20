@@ -2,6 +2,7 @@
 title: Automation task form
 description: Use the Automation task form to create an automation task in Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/automation-task-form.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -113,5 +114,5 @@ Assigned to
 Name of the user assigned to the automation task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automation-center-reference.md)
 

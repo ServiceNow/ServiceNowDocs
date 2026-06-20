@@ -2,7 +2,10 @@
 title: Add related party configurations to cases, sold products, install bases, or service organizations
 description: Link related party entity responsibilities to responsibility definitions by adding related party configurations to cases, sold products, install bases, or service organizations for customer access management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/adding-related-party-config-to-case.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -89,6 +92,6 @@ Role required: admin
     **Note:**
 
     -   Whenever a related party record is created, the **Responsibility** field gets auto-populated from the default responsibility associated with the selected type​.
-    -   Listed role types don’t have any responsibility. Since the correct role and responsibility determine access, related parties are not granted access if the **Responsibility** field is left empty.​ For more information on install base related parties, see [Add a related party to an install base item](add-related-party-install-base.md).
+    -   Listed role types don’t have any responsibility. Since the correct role and responsibility determine access, related parties are not granted access if the **Responsibility** field is left empty.​ For more information on install base related parties, see [Add a related party to an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/add-related-party-install-base.md).
     -   Assign the sn\_customerservice.case\_contributor\_creator role to the Authorized Contributor related party to view and update the cases of the install base.
 

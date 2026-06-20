@@ -2,6 +2,7 @@
 title: Deleted hardening settings for baseline version 5
 description: Here's a list of all the hardening settings that have been removed with Security Center baseline version 5.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-five.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,8 +26,8 @@ Here's a list of all the hardening settings that have been removed with Security
 -   Unset LDAP Initial Distinguished Name
 -   Set Minimal Password Length
 
--   **[Deleted hardening settings for baseline version 4.0](deleted-hardening-settings-for-version-four.md)**  
+-   **[Deleted hardening settings for baseline version 4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-version-four.md)**  
 This list contains the hardening settings which have been removed in Security Center baseline version 4.0.
 
-**Parent Topic:**[Hardening settings baseline versions](hardening-settings-baseline.md)
+**Parent Topic:**[Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md)
 

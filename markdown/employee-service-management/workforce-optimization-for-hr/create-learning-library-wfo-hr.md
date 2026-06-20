@@ -2,6 +2,7 @@
 title: Create a learning library in Workforce Optimization for HR
 description: Create a learning library to organize related content into categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/create-learning-library-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

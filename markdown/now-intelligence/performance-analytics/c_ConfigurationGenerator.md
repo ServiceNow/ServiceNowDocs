@@ -2,6 +2,7 @@
 title: \(Legacy\) Quickly configure Performance Analytics for a task table
 description: The configuration generator enables you to quickly configure Performance Analytics to display data from any task table.As an administrator, you can enable the Performance Analytics configuration generator plugin \(com.snc.pa.configurationgenerator\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/c\_ConfigurationGenerator.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Configure Performance Analytics advanced features, Performance Anal
 
 The configuration generator enables you to quickly configure Performance Analytics to display data from any task table.
 
-**Note:** The configuration generator is a legacy feature. Performance Analytics Solutions are content packs of Performance Analytics components including dashboards. These Performance Analytics Solutions have been greatly expanded over the last few releases. The separate configuration generator has lost most of its value. For custom applications, it makes more sense to find and to install a closely related Performance Analytics Solution and modify it as needed. For more information, see [Analytics solutions](../../dashboards/concept/content-packs-in-form-analytics.md).
+**Note:** The configuration generator is a legacy feature. Performance Analytics Solutions are content packs of Performance Analytics components including dashboards. These Performance Analytics Solutions have been greatly expanded over the last few releases. The separate configuration generator has lost most of its value. For custom applications, it makes more sense to find and to install a closely related Performance Analytics Solution and modify it as needed. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/content-packs-in-form-analytics.md).
 
 You can specify a Task-based table to report on, and the configuration generator automatically creates indicators, breakdowns, formulas, data collection jobs, and dashboards. This configuration provides the same elements as the Performance Analytics incident solution, but for any Task table. When using domain separation, all records are created in the domain of the current user.
 
@@ -25,7 +26,7 @@ You can access the configuration generator by navigating to **Performance Analyt
 
 After generating a configuration for the selected table, you can view the created records using the **Go to the configuration record**, **Generated Indicators**, and **Generated Jobs** related links. You can modify the generated records as needed using standard Performance Analytics configuration options.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 ## Activate the Performance Analytics configuration generator
 
@@ -49,6 +50,6 @@ Before starting this procedure, you must have a subscription to Performance Anal
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

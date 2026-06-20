@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with Microsoft Teams using the self-configured bot
 description: You can integrate Virtual Agent with Microsoft Teams by configuring your own bots. The self-configured method provides another way for customers to enable the integration without installing the default Now Virtual Agent app that is published on the Microsoft Store. Unlike the pre-published app, the self-configured bot bypasses the collaboration proxy architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -20,10 +21,10 @@ The self-configured method offers a solution for the following cases:
 -   Commercial customers with a ServiceNow instance running far away from the United States who may be having issues using the collaboration proxy.
 -   ServiceNow Government Community Cloud \(GCC\) customers.
 
-    **Note:** Microsoft Azure supports the bot framework in GCCHIGH and DOD \(US Department of Defense\). For more information about the bot framework support, see [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](va-integ-msteams-gcch.md).
+    **Note:** Microsoft Azure supports the bot framework in GCCHIGH and DOD \(US Department of Defense\). For more information about the bot framework support, see [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md).
 
 
-If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your Self-configured bot with single Microsoft Teams tenant](../task/teams-install-custom-app.md).
+If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your Self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 
 ## Prerequisites
 
@@ -41,9 +42,9 @@ Before integrating Virtual Agent with your Microsoft Teams tenant, ensure that t
 
 ## What to do next
 
-1.  [Plugins for Conversational Integration with Microsoft Teams](../reference/addtional-plugins-msteams.md)
-2.  [Create a Bot in Microsoft Teams](../task/create-bot-msteams.md)
-3.  [Integrate your Self-configured bot with Microsoft Teams for GCC](../task/resgiter-bot-on-snow.md).
-4.  [Auto-generate the manifest file for uploading on Microsoft Teams](../task/generate-manifest-file-msteams.md)
-5.  [Upload the manifest package file to publish your bot](../task/upload-package-file-msteams.md)
+1.  [Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md)
+2.  [Create a Bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-bot-msteams.md)
+3.  [Integrate your Self-configured bot with Microsoft Teams for GCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/resgiter-bot-on-snow.md).
+4.  [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md)
+5.  [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)
 

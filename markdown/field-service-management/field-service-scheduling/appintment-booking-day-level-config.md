@@ -2,6 +2,7 @@
 title: Create appointment booking advanced configuration
 description: Create or modify different schedules on an advanced level when booking appointments for a service. The appointments can be scheduled at different time slots of a day, such as morning, afternoon, and evening.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appintment-booking-day-level-config.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -175,5 +176,5 @@ Provides a preview of the appointment windows and times based on the selected st
 
 Appointment booking advanced configuration is created.
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

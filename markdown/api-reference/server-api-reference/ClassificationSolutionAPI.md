@@ -2,6 +2,7 @@
 title: ClassificationSolution - Global
 description: The ClassificationSolution API is a scriptable object used in Predictive Intelligence stores.Creates a classification solution.Cancels a job for a solution object that has been submitted for training.Gets the active ClassificationSolutionVersion object.Gets all versions of a classification solution.Gets the latest version of a solution.Gets the name of the object to use for interaction with the store.Gets solution object properties.Gets a solution by provided version number.Activates a specified version of a solution in the store.Submits a training job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -19,18 +20,18 @@ This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) 
 
 The solution setup-to-training flow is as follows:
 
-1.  Create a dataset using the [DatasetDefinition](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) API.
-2.  Optional. Build an encoder using the [Encoder](../../Encoder/concept/EncoderAPI.md#) API.
-3.  Use the [constructor](ClassificationSolutionAPI.md#) to create a classification solution object.
-4.  Add the solution object to the classification solution store using the [ClassificationSolutionStore - add\(\)](../../ClassificationSolutionStore/concept/ClassificationSolutionStoreAPI.md#) method.
-5.  Train the solution using the [submitTrainingJob\(\)](ClassificationSolutionAPI.md#) method. This creates a version of the object that you can manage using the [ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) API.
-6.  Get predictions using the [ClassificationSolutionVersion – predict\(\)](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) method.
+1.  Create a dataset using the [DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/DatasetDefinitionAPI.md) API.
+2.  Optional. Build an encoder using the [Encoder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/EncoderAPI.md) API.
+3.  Use the [constructor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) to create a classification solution object.
+4.  Add the solution object to the classification solution store using the [ClassificationSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md) method.
+5.  Train the solution using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) method. This creates a version of the object that you can manage using the [ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) API.
+6.  Get predictions using the [ClassificationSolutionVersion – predict\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) method.
 
-**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see [Query ACLs](https://www.servicenow.com/docs/access?context=query-acl-rule&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** This API runs with full privileges before the Vancouver Patch 7 Hotfix 2b and Washington DC Patch 7 releases. With later releases, grant access using ACLs. For more information see .
 
-For usage guidelines, refer to [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For usage guidelines, refer to Using ML APIs.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## ClassificationSolution - ClassificationSolution\(Object config\)
 
@@ -129,7 +130,7 @@ Object
 
 </td><td>
 
-[DatasetDefinition](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) name.
+[DatasetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/DatasetDefinitionAPI.md) name.
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ String
 
 </td><td>
 
-Optional. Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US). Default: Current domain, for example, `"global"`.
+Optional. Domain name associated with this dataset. See Domain separation and Predictive Intelligence. Default: Current domain, for example, `"global"`.
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ Object
 
 </td><td>
 
-Optional. Trained encoder object to assign to this solution. See [Encoder - Encoder\(Object config\)](../../Encoder/concept/EncoderAPI.md#).
+Optional. Trained encoder object to assign to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/EncoderAPI.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +166,7 @@ String
 
 </td><td>
 
-Optional. Field name by which the system groups records to build classification solutions. For usage information, see [Using group by for classification](https://www.servicenow.com/docs/access?context=using-group-by-for-classification&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Optional. Field name by which the system groups records to build classification solutions. For usage information, see Using group by for classification.
 
 </td></tr><tr><td>
 
@@ -237,7 +238,7 @@ Array
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://www.servicenow.com/docs/access?context=create-custom-stopwords-list&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US). Default: English Stopwords
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Default: English Stopwords
 
 </td></tr><tr><td>
 
@@ -320,7 +321,7 @@ Gets the active ClassificationSolutionVersion object.
 
 |Type|Description|
 |----|-----------|
-|Object|Active [ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) object.|
+|Object|Active [ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) object.|
 
 The following example shows how to get an active ClassificationSolution version from the store and return its training status.
 
@@ -350,7 +351,7 @@ Gets all versions of a classification solution.
 
 |Type|Description|
 |----|-----------|
-|Array|Existing versions of a solution object. See also [ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) API.|
+|Array|Existing versions of a solution object. See also [ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) API.|
 
 The following example shows how to get all ClassificationSolution version objects and call the getVersionNumber\(\) and getStatus\(\) solution version methods on them.
 
@@ -384,7 +385,7 @@ Gets the latest version of a solution.
 
 |Type|Description|
 |----|-----------|
-|Object|[ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) object corresponding to the latest version of a [ClassificationSolution\(\)](ClassificationSolutionAPI.md#).|
+|Object|[ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) object corresponding to the latest version of a [ClassificationSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md).|
 
 The following example shows how to get the latest version of a solution and return its training status.
 
@@ -470,7 +471,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [ClassificationSolution\(\)](ClassificationSolutionAPI.md#) object details in the [ClassificationSolutionStore](../../ClassificationSolutionStore/concept/ClassificationSolutionStoreAPI.md#).```
+Contents of the Dataset and [ClassificationSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) object details in the [ClassificationSolutionStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md).```
 {
   "algorithmConfig": {
     "algorithm": "String",
@@ -526,7 +527,7 @@ Class recall parameter to steer a solution's training to bias a specific class. 
 
 </td><td>
 
-Lists the properties of the [DatasetDefinition\(\)](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) object associated with the solution.
+Lists the properties of the [DatasetDefinition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  ```
 {
@@ -594,7 +595,7 @@ Machine-learning field type. Data type: String.
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US). Data type: String.
+Encoded query string in standard Glide format. See Encoded query strings. Data type: String.
 
 </td></tr><tr><td>
 
@@ -602,7 +603,7 @@ Encoded query string in standard Glide format. See [Encoded query strings](https
 
 </td><td>
 
-Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US). Data type: String.
+Domain name associated with this dataset. See Domain separation and Predictive Intelligence. Data type: String.
 
 </td></tr><tr><td>
 
@@ -610,7 +611,7 @@ Domain name associated with this dataset. See [Domain separation and Predictive 
 
 </td><td>
 
-Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](../../Encoder/concept/EncoderAPI.md#).Data type: Object.
+Encoder object assigned to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/EncoderAPI.md).Data type: Object.
 
 </td></tr><tr><td>
 
@@ -680,7 +681,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://www.servicenow.com/docs/access?context=create-custom-stopwords-list&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US). Data type: Array.
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array.
 
 </td></tr><tr><td>
 
@@ -759,7 +760,7 @@ Gets a solution by provided version number.
 
 |Type|Description|
 |----|-----------|
-|Object|Specified version of the [ClassificationSolution\(\)](ClassificationSolutionAPI.md#) object on which you can call [ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) API methods.|
+|Object|Specified version of the [ClassificationSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) object on which you can call [ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) API methods.|
 
 The following example shows how to get the training status of a solution by version number.
 
@@ -805,7 +806,7 @@ String
 
 </td><td>
 
-Name of the [ClassificationSolution\(\)](ClassificationSolutionAPI.md#) object version to activate.Activating this version deactivates any other version.
+Name of the [ClassificationSolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) object version to activate.Activating this version deactivates any other version.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -822,7 +823,7 @@ sn_ml.ClassificationSolution.setActiveVersion("ml_incident_categorization");
 
 Submits a training job.
 
-**Note:** Before running this method, you must first add a solution to the store using the [ClassificationSolutionStore - add\(\)](../../ClassificationSolutionStore/concept/ClassificationSolutionStoreAPI.md#) method.
+**Note:** Before running this method, you must first add a solution to the store using the [ClassificationSolutionStore - add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -830,7 +831,7 @@ Submits a training job.
 
 |Type|Description|
 |----|-----------|
-|Object|[ClassificationSolutionVersion](../../ClassificationSolutionVersion/concept/ClassificationSolutionVersionAPI.md#) object corresponding to the [ClassificationSolution](ClassificationSolutionAPI.md#) being trained.|
+|Object|[ClassificationSolutionVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md) object corresponding to the [ClassificationSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/ClassificationSolutionAPI.md) being trained.|
 
 The following example shows how to create a dataset, apply it to a solution, add the solution to a store, and submit the training job.
 

@@ -2,6 +2,7 @@
 title: Update indicators in Microsoft Defender for Endpoint
 description: Update the existing indicators in Microsoft Defender for Endpoint from the list context-menu or from the form view of the Microsoft Defender Indicator respectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/update-indicator-in-microsoft-defender-for-endpoint-using-the-microsoft-defender-indicator-form-view.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,17 +28,17 @@ Role required: sn\_si.admin, sn\_si.analyst
 
     **Note:**
 
-    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](../../../security-incident-response/concept/sir-new-ui-setup-form-uiaction.md).
+    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
 
 3.  Update the Microsoft Defender for Endpoint indicators in one of the following ways:
 
     -   To update the indicators from the list context-menu, select the row of the indicator that you want to update and click **Update Indicator in the Microsoft Defender** option.
 
-        ![Update Indicators in Microsoft Defender for Endpoint from Microsoft Defender Indicator's list context-menu](../image/indicator_contextmenu.png "Update Indicators using list context-menu")
+        \[Omitted image "indicator\_contextmenu.png"\] Alt text: Update Indicators in Microsoft Defender for Endpoint from Microsoft Defender Indicator's list context-menu
 
     -   To update the indicators from the form view, click **Update Indicator in Microsoft Defender** in the form view.
 
-        ![Update Indicator in Microsoft Defender for Endpoint from the Microsoft Defender Indicator's form view](../image/Indicator_formview.png "Update Indicators using form view")
+        \[Omitted image "Indicator\_formview.png"\] Alt text: Update Indicator in Microsoft Defender for Endpoint from the Microsoft Defender Indicator's form view
 
 4.  On the form, fill in the fields.
 

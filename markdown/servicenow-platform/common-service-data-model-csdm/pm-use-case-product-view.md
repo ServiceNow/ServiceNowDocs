@@ -2,6 +2,7 @@
 title: Problem Management product view
 description: Problem Management helps identify the cause of an error in the IT infrastructure, reported as occurrences of related incidents. The goal of this product view is to help you to understand how Problem Management key entities work with the core CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-product-view.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -32,14 +33,14 @@ The Problem Management form references the following CSDM elements \(attributes 
 4.  Affected/Causal CIs — Related list \[task\_ci\] table
 5.  Impacted Services — Related list \[task\_cmdb\_ci\_service\] table
 
-![Problem Management form with numbered fields.](../image/prob-mang-form.png "Change Request form")
+\[Omitted image "prob-mang-form.png"\] Alt text: Problem Management form with numbered fields.
 
--   **[Applying CSDM guidelines to Problem Management](../reference/pm-use-case.md)**  
+-   **[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case.md)**  
 Problem Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Problem Management.
--   **[Problem Management use case](pm-use-case-example.md)**  
+-   **[Problem Management use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-example.md)**  
 The Problem Management use case is described in this section.
--   **[Problem Management considerations](pm-use-case-trouble.md)**  
+-   **[Problem Management considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/pm-use-case-trouble.md)**  
 Consider these points while implementing the CSDM framework.
 
-**Parent Topic:**[Applying the CSDM guidelines to your product](../reference/use-cases.md)
+**Parent Topic:**[Applying the CSDM guidelines to your product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/use-cases.md)
 

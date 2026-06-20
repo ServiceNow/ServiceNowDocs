@@ -2,6 +2,7 @@
 title: Exploring Upgrade Center
 description: Get an overview of Upgrade Center so you can plan your upgrade ahead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-explore.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -21,7 +22,7 @@ Get an overview of Upgrade Center so you can plan your upgrade ahead.
 
     You can see all the details that are related to an upgrade.
 
-    ![Image showing the home page of Upgrade Center](../image/uc-one-stop.png)
+    \[Omitted image "uc-one-stop.png"\] Alt text: Image showing the home page of Upgrade Center
 
 -   **Preview your upgrade**
 
@@ -31,15 +32,15 @@ Get an overview of Upgrade Center so you can plan your upgrade ahead.
 
     **Note:** If this is your first upgrade, **Estimated upgrade duration** doesn't show up.
 
-    ![Image showing estimated time of an upgrade](../image/uc-estimate-upgrade-time.png)
+    \[Omitted image "uc-estimate-upgrade-time.png"\] Alt text: Image showing estimated time of an upgrade
 
     Reduce post-upgrade review time by previewing the records that have been customized and are different from the upgrade version being previewed and might get skipped due to your customizations in the instance. You can then prioritize your work depending on the records listed in the skip list.
 
-    ![Image showing the skip list priority](../image/uc-skiplist-priority.png)
+    \[Omitted image "uc-skiplist-priority.png"\] Alt text: Image showing the skip list priority
 
 -   **Monitor an upgrade**
 
-    Use the Upgrade Monitor module to schedule and view the status of an ongoing upgrade. You can also reschedule the upgrade by clicking **Reschedule upgrade**. To check for an immediately available upgrade, select **Check for upgrade**.![Image showing the Upgrade Monitor page to schedule an upgrade](../image/monitor.png)
+    Use the Upgrade Monitor module to schedule and view the status of an ongoing upgrade. You can also reschedule the upgrade by clicking **Reschedule upgrade**. To check for an immediately available upgrade, select **Check for upgrade**.\[Omitted image "monitor.png"\] Alt text: Image showing the Upgrade Monitor page to schedule an upgrade
 
     If an upgrade is in progress, the user is automatically directed to the upgrade in progress page.
 
@@ -47,10 +48,10 @@ Get an overview of Upgrade Center so you can plan your upgrade ahead.
 
     Use the Upgrade History module to view the complete report of any upgrade made to an instance.
 
-    ![Image showing previous upgrade summary](../image/uc-review-previous-upgrade.png)
+    \[Omitted image "uc-review-previous-upgrade.png"\] Alt text: Image showing previous upgrade summary
 
     You can also view the resolution status of any previous upgrade with skipped records using the visual task board \(VTB\) view.
 
-    ![Image showing the VTB view of skipped records resolution status](../image/uc-vtb.png)
+    \[Omitted image "uc-vtb.png"\] Alt text: Image showing the VTB view of skipped records resolution status
 
 

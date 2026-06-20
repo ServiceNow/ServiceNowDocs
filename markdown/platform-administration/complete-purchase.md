@@ -2,6 +2,7 @@
 title: Complete the offline application purchase transaction
 description: Complete the application purchase transaction from your ServiceNow instance after purchasing the application offline, without navigating to the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/complete-purchase.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -42,5 +43,5 @@ Role required: admin
 7.  Click **Install**.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

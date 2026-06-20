@@ -2,6 +2,7 @@
 title: Creating CIs for Configuration Compliance using the Identification and Reconciliation Engine
 description: Starting with Configuration Compliance 11.1, you can create configuration items \(CIs\) in the Configuration Management Database \(CMDB\) using the Identification and Reconciliation engine \(IRE\) API. By using the IRE API to create CIs, you can prevent duplicate CIs from being created and you can reconcile CI attributes by allowing only authoritative data sources to write to CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ci-creation-using-ire.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,7 +22,7 @@ A CI class \(table\) is the original table name in the instance database. CMDB c
 
 Prior to version 11.1, if a matched CI was not found either in the Discovered Items list or CMDB, a CI was created in the Unmatched CI class \(`sn_sec_cmn_unmatched_ci`\).
 
-For more information, see [Unmatched CIs](../../vulnerability-response/concept/unmatchedCIs.md).
+For more information, see [Unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-response/unmatchedCIs.md).
 
 Starting with version 11.1, you can use the IRE API to create CIs in CMDB. Instead of using the Unmatched CI class, a CI is created in the Unclassed Hardware or Incomplete IP Identified Device class.
 
@@ -67,12 +68,12 @@ CI is created in this table if any of the following information is available in 
 -   The CMDB CI Class plugin is not activated.
 -   IRE raises an exception while creating a new CI.
 
-**Parent Topic:**[Exploring Configuration Compliance](vuln-config-compl.md)
+**Parent Topic:**[Exploring Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl.md)
 
 **Related topics**  
 
 
-[CMDB CI Class Models store app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models]
 
-[Identification and Reconciliation engine \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.ire]
 

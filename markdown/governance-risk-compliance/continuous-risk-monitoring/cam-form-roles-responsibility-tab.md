@@ -2,6 +2,7 @@
 title: Fields on the Roles and Responsibilities tab
 description: On the Roles and Responsibilities tab, you specify the responsibilities of various stakeholders during the review and approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-form-roles-responsibility-tab.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -15,7 +16,7 @@ breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance,
 
 On the **Roles and Responsibilities** tab, you specify the responsibilities of various stakeholders during the review and approval process.
 
-CAM roles that are required for particular tasks are listed in [CAM user roles](cam-roles-list.md).
+CAM roles that are required for particular tasks are listed in [CAM user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-roles-list.md).
 
 |Role|Responsibilities|
 |----|----------------|
@@ -28,5 +29,5 @@ CAM roles that are required for particular tasks are listed in [CAM user roles](
 |Information owners|The individuals responsible for statutory, management, and operational authority.|
 |System users|The users responsible for performing the actual work on the system.|
 
-**Parent Topic:**[CAM reference](../concept/reference-grc-cam.md)
+**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

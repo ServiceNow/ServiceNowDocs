@@ -2,7 +2,10 @@
 title: Configure business rule for reassigning tickets
 description: Configure the business rule for reassigning the tickets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/business-rule-re-assigning-ticket-itsm.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,17 +24,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
 
-    ![Business rules](../images/business-rules.png)
+    \[Omitted image "business-rules.png"\] Alt text: Business rules
 
 2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
-    ![Business rule to re-assign ticket](../images/buisness-rule-re-assigning-itsm.png)
+    \[Omitted image "buisness-rule-re-assigning-itsm.png"\] Alt text: Business rule to re-assign ticket
 
     In the **Advanced** tab, update the **Script** fields.
 
-    ![Script for re assigning ticket](../images/business-rule-re-assignment-itsm02.png)
+    \[Omitted image "business-rule-re-assignment-itsm02.png"\] Alt text: Script for re assigning ticket
 
 <table id="table_gpx_p1z_vqb"><thead><tr><th>
 
@@ -120,5 +123,5 @@ chats.forEach( function(chat) {
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](../concept/customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/customize-sn-ms-teams.md)
 

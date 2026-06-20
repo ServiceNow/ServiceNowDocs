@@ -2,11 +2,12 @@
 title: Create consumption breakdowns
 description: Create consumption breakdown records to make your showback report more detailed by reporting the expense line accounts that comprise the consumption statement item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-consumption-breakdowns.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Define a consumption statement item, Determine the statement item type, Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -42,5 +43,5 @@ For example, a storage service invoice can provide the consumption details of in
 3.  Click **Submit** to save the record.
 
 
-**Parent Topic:**[Define a consumption statement item](define-consumption-statmt-item.md)
+**Parent Topic:**[Define a consumption statement item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-consumption-statmt-item.md)
 

@@ -2,6 +2,7 @@
 title: Configuring Talent Feedback
 description: Set up Talent Feedback to be able to use it along with Talent Development.You can install the Talent Feedback application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-feedback/configuring-talent-feedback.html
 release: xanadu
 product: Talent Feedback
 classification: talent-feedback
@@ -15,7 +16,7 @@ breadcrumb: [Talent Feedback, Talent Development, Employee Service Management]
 
 Set up Talent Feedback to be able to use it along with Talent Development.
 
-**Parent Topic:**[Talent Feedback](talent-feedback-landing.md)
+**Parent Topic:**[Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/talent-feedback-landing.md)
 
 ## Install Talent Feedback
 

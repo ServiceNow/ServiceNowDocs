@@ -2,6 +2,7 @@
 title: Configure an Alexa skill
 description: Configure your Alexa skill to talk to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/confgure-alexa-for-snow-instance.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

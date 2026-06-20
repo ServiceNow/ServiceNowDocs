@@ -2,6 +2,7 @@
 title: View expenses in the general ledger
 description: You can view records in any of the general ledger tables and make changes if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_View\_ExpensesInTheGeneralLedger.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -27,7 +28,7 @@ Role required: cost\_transparency\_admin, cost\_transparency\_analyst
 
 3.  On the form, fill in the fields.
 
-    ![The Groomed General Ledger Data form](../image/General_ledger_form.png "Groomed General Ledger Data form")
+    \[Omitted image "General\_ledger\_form.png"\] Alt text: The Groomed General Ledger Data form
 
 <table id="table_fk1_1by_wq"><thead><tr><th>
 
@@ -277,5 +278,5 @@ General Ledger Cleansed Data
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Financial data import](../concept/c_FinancialManagementImport.md)
+**Parent Topic:**[Financial data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_FinancialManagementImport.md)
 

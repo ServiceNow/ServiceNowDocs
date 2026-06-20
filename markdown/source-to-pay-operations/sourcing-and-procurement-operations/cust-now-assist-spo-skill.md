@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
 description: If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,7 +34,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     1.  On the Summarization for fulfillers feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../image/more_vertical_icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make copy**.
 
@@ -45,7 +46,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](../reference/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 
@@ -63,7 +64,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![Choose input screen.](../image/na-choose-input-spo.png "Choose input step")
+        \[Omitted image "na-choose-input-spo.png"\] Alt text: Choose input screen.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -181,7 +182,7 @@ Closed
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

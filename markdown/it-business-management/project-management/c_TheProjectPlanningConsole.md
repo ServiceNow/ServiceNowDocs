@@ -2,6 +2,7 @@
 title: Planning console
 description: The planning console is a centralized interface for the Project Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_TheProjectPlanningConsole.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -25,50 +26,50 @@ The planning console is divided into the following sections:
 -   The Gantt chart.
 -   Banner icons and lists for performing tasks on the console.
 
-![screenshot for Planning console](../image/planning_console.png "Example planning console")
+\[Omitted image "planning\_console.png"\] Alt text: screenshot for Planning console
 
-For more information on the Gantt chart and the task relationships and dependencies that you can build, see [Gantt chart](c_GanttChart.md) and [Project task relationships and dependencies](c_ProjectTaskRelationDepend.md).
+For more information on the Gantt chart and the task relationships and dependencies that you can build, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md) and [Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md).
 
-**Note:** The resources in the **Assigned to** column of the planning console can be constrained to be derived only from the allocated resource plans associated to the project or any of its tasks. The **Derive assignee list from resource plan** field controls the behavior on the [project form](../task/t_CreateAProject.md#table_mb3_rfw_1r).
+**Note:** The resources in the **Assigned to** column of the planning console can be constrained to be derived only from the allocated resource plans associated to the project or any of its tasks. The **Derive assignee list from resource plan** field controls the behavior on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProject.md).
 
 ## Business rules
 
-By default, the business rules are not triggered during an operation in the planning console. You can enable the business rules using [**Enable firing of Business Rules**](../reference/r_InstalledWithProjectManagement.md#project_application_properties) property.
+By default, the business rules are not triggered during an operation in the planning console. You can enable the business rules using [**Enable firing of Business Rules**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) property.
 
-**Note:** To enable this property, you must clear the [**Enable Client Side Planning**](../task/enable-client-side-planning.md) check box.
+**Note:** To enable this property, you must clear the [**Enable Client Side Planning**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/enable-client-side-planning.md) check box.
 
-You can also enable business rules when [defining the columns for planning console](../task/add-display-column.md#table_irt_mrm_rx) using the **Fire BR on Save** field.
+You can also enable business rules when [defining the columns for planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/add-display-column.md) using the **Fire BR on Save** field.
 
 ## Client side planning console
 
-Build your project structure quickly on the client side without having to save details in the server for each interaction in planning console. Enabling [**Client side planning console**](client-side-planning-console.md) prevents any time lags that occur after you perform any actions in planning console, and improves the scheduling performance.
+Build your project structure quickly on the client side without having to save details in the server for each interaction in planning console. Enabling [**Client side planning console**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/client-side-planning-console.md) prevents any time lags that occur after you perform any actions in planning console, and improves the scheduling performance.
 
 ## Automatic and manual projects
 
-In an **automatic** project, any change to the dates, duration, or relationships of a project task automatically updates all the tasks in the entire project, including the project record, as necessary. The automatic project icon \(![screenshot for automatic project icon](../image/automatic_project.png)\) appears adjacent to the project name.
+In an **automatic** project, any change to the dates, duration, or relationships of a project task automatically updates all the tasks in the entire project, including the project record, as necessary. The automatic project icon \(\[Omitted image "automatic\_project.png"\] Alt text: screenshot for automatic project icon\) appears adjacent to the project name.
 
-In a **manual** project, changes to the dates, duration, or relationships of a project task do not automatically update all tasks. So parent task dates do not reflect any changes made to dependents or child tasks. The only change that is made automatically is when a task date or duration change updates dates and duration of the project record. In a manual project, any update to actual start date does not update the planned end date of the project or project task. However, enabling the [project property](../reference/r_InstalledWithProjectManagement.md#project_application_properties) **Enable alter of planned date with Actual for Manual Project** updates the planned end date from actual start date and planned duration. The manual project icon \(![screenshot for manual project icon](../image/manual_project.png)\) appears adjacent to the project name.
+In a **manual** project, changes to the dates, duration, or relationships of a project task do not automatically update all tasks. So parent task dates do not reflect any changes made to dependents or child tasks. The only change that is made automatically is when a task date or duration change updates dates and duration of the project record. In a manual project, any update to actual start date does not update the planned end date of the project or project task. However, enabling the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Enable alter of planned date with Actual for Manual Project** updates the planned end date from actual start date and planned duration. The manual project icon \(\[Omitted image "manual\_project.png"\] Alt text: screenshot for manual project icon\) appears adjacent to the project name.
 
 You can specify if a project is automatic or manual in the **Calculation** field on the Project form. This field becomes read-only when the project starts.
 
 ## Tutorial
 
-A tutorial walk through is available in the console. It shows you all the features of the console and how to use them. Access the walk through within the help icon \(![screenshot for help icon](../image/help_icon.png)\).
+A tutorial walk through is available in the console. It shows you all the features of the console and how to use them. Access the walk through within the help icon \(\[Omitted image "help\_icon.png"\] Alt text: screenshot for help icon\).
 
--   **[Open the project planning console](../task/t_OpenPlanningConsole.md)**  
+-   **[Open the project planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_OpenPlanningConsole.md)**  
 Access the planning console to perform the planning for the project.
--   **[Planning console tasks](../reference/r_PlanningConsoleTasks.md)**  
+-   **[Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_PlanningConsoleTasks.md)**  
 You can perform several tasks on the planning console that you can perform on lists and forms, such as creating project tasks and copying projects. You can also perform several tasks unique to the console.
--   **[Client side planning console](client-side-planning-console.md)**  
+-   **[Client side planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/client-side-planning-console.md)**  
 During calculation of project schedule in the planning console, it is possible to build your project structure quickly on the client side \(browser\) without having to save details in the server for each interaction. It prevents any time lags that occur after you perform any actions in the planning console, and improves the scheduling performance.
--   **[Gantt chart](c_GanttChart.md)**  
+-   **[Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md)**  
 A Gantt chart on the planning console is a visual representation of a project timeline that shows start and end dates of tasks, and the dependencies between tasks.
--   **[Create a parent-child relationship on the planning console](../task/t_CreateParentChildRelatConsole.md)**  
+-   **[Create a parent-child relationship on the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateParentChildRelatConsole.md)**  
 The WBS section of the planning console allows you to create parent-child relationships for new tasks or move around existing tasks in a new parent-child relationship. The position of a task in the hierarchy and the level of indentation determine the parent-child relationship it has with the tasks above or below it.
--   **[Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md)**  
+-   **[Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_ProjectTaskDependencyValues.md)**  
 In the WBS section of the planning console, you can create dependencies between tasks by specifying a series of values.
--   **[Custom columns in the planning console](custom-columns-planning-console.md)**  
+-   **[Custom columns in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/custom-columns-planning-console.md)**  
 In addition to the regular columns that are provided in the base system, as the PPS admin, you can configure which columns appear in the planning console.
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

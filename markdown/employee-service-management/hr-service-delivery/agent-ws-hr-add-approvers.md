@@ -2,6 +2,7 @@
 title: Adding or substituting approvers to a case in HR Service Delivery Agent Workspace
 description: HR cases can be set up to require approvals before it can progress to completion.Using HR Service Delivery Agent Workspace you can add an approver or substitute missing approvers for cases that require approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-add-approvers.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,20 +16,20 @@ breadcrumb: [Using the HR Service Delivery Agent Workspace, HR Service Delivery 
 
 HR cases can be set up to require approvals before it can progress to completion.
 
-The HR service configures actions related to approvals. For more information on HR service configuration, see [Configure an HR service](../task/configure-hr-service.md).
+The HR service configures actions related to approvals. For more information on HR service configuration, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 When a case requires an approver, the request for approval appears in the approver's Employee Center or portal under To-dos.
 
-![Employee Center - To-dos](../reference/images/esc-hr-to-do.png)
+\[Omitted image "esc-hr-to-do.png"\] Alt text: Employee Center - To-dos
 
 |Number|Description|
 |------|-----------|
-|![HR Agent Workspace Case form callout 1](../reference/images/1.png)|Select To-dos.|
-|![HR Agent Workspace Case form callout 2](../reference/images/2.png)|To approve, select **Approve**. To reject, enter a reason and select **Reject**.|
+|\[Omitted image "1.png"\] Alt text: HR Agent Workspace Case form callout 1|Select To-dos.|
+|\[Omitted image "2.png"\] Alt text: HR Agent Workspace Case form callout 2|To approve, select **Approve**. To reject, enter a reason and select **Reject**.|
 
 In HR Service Delivery Agent Workspace, the child tab **Approvers** lists all requested approvers.
 
-![HR Agent Workspace - Approvers tab](../reference/images/agent-ws-hr-approvers-tab.png)
+\[Omitted image "agent-ws-hr-approvers-tab.png"\] Alt text: HR Agent Workspace - Approvers tab
 
 ## Multiple approvers required
 
@@ -40,7 +41,7 @@ HR services has an optional configuration that requires multiple approvers. When
 
 When an approver is missing, the following message appears:
 
-![HR Agent Workspace - Missing approvers message](../reference/images/agent-ws-hr-missing-approvers.png)
+\[Omitted image "agent-ws-hr-missing-approvers.png"\] Alt text: HR Agent Workspace - Missing approvers message
 
 ## Add or substitute an approver to a case in HR Service Delivery Agent Workspace
 
@@ -58,11 +59,11 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select **Add Approvers** from the list of UI actions \(tabs at the top of the form\).
 
-    ![HR Agent Workspace - Approver missing](../reference/images/agent-ws-hr-approver-missing.png)
+    \[Omitted image "agent-ws-hr-approver-missing.png"\] Alt text: HR Agent Workspace - Approver missing
 
 4.  Select replacement approvers or add new ones.
 
-    ![HR Agent Workspace - List of approvers](../reference/images/agent-ws-hr-list-approvers.png)
+    \[Omitted image "agent-ws-hr-list-approvers.png"\] Alt text: HR Agent Workspace - List of approvers
 
 5.  Select **OK**.
 

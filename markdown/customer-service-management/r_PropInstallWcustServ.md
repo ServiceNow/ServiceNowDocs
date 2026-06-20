@@ -2,7 +2,10 @@
 title: Properties installed with Customer Service Management
 description: Properties are added with the activation of the Customer Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_PropInstallWcustServ.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-08"
 reading_time_minutes: 7
@@ -232,7 +235,7 @@ com.snc.cs\_base.last.generated.code.tree.path
 
 </td><td>
 
-Property that gets created by the system when the first customer\_account record is inserted into an instance. It stores the **Account Code** value for the most recently created customer account in the Account \[customer\_account\] table. When a new customer account record is created, the system uses this property to determine a unique account code value for the account. The property is then updated with this latest assigned value so that the next account code value can be set as a unique value for the next account record insert. See [Set the account code property](../task/configure-csm-accounts-contacts.md#) for more details.
+Property that gets created by the system when the first customer\_account record is inserted into an instance. It stores the **Account Code** value for the most recently created customer account in the Account \[customer\_account\] table. When a new customer account record is created, the system uses this property to determine a unique account code value for the account. The property is then updated with this latest assigned value so that the next account code value can be set as a unique value for the next account record insert. See [Set the account code property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-csm-accounts-contacts.md) for more details.
 
  -   **Type**: string
 -   **Default value**: none
@@ -462,5 +465,5 @@ Rules or filters from the sn\_query\_rule table to determine read access to cust
 -   **Location**: **Customer Service** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Customer Service Management](r_InstalledWithCustomerService.md)
+</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/r_InstalledWithCustomerService.md)
 

@@ -2,6 +2,7 @@
 title: Localize the bot messages
 description: Localize the bot messages to receive them in a language of your choice during your conversations with the bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/localize-bot-messg.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

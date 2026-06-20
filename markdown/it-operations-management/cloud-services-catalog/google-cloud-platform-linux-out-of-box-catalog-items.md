@@ -2,11 +2,12 @@
 title: Google Cloud Platform Linux Out Of Box Catalog items
 description: Cloud Services Catalog Linux VM with Agent Client Collector \(ACC\), up to 10 additional disks or secure Linux deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-services-catalog/google-cloud-platform-linux-out-of-box-catalog-items.html
 release: xanadu
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -60,8 +61,8 @@ Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, s
 
 The key-value is updated only in the cmdb\_key\_value table, not in public cloud at this time. This will be fixed in future releases to update the tags in cloud.
 
--   **[Google Cloud Platform Linux Out Of Box permissions](gcp-linux-oob-permissions.md)**  
+-   **[Google Cloud Platform Linux Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-services-catalog/gcp-linux-oob-permissions.md)**  
 Google Cloud Platform Linux Out Of Box catalog items permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

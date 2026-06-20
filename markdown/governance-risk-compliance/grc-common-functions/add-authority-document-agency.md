@@ -2,11 +2,12 @@
 title: Add an authority document to an agency
 description: Add an authority document to a regulatory agency in Compliance Workspace to maintain traceability between regulations and their source documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/add-authority-document-agency.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -36,5 +37,5 @@ Authority documents represent official regulatory publications such as rulebooks
 5.  Select **Save**.
 
 
-**Parent Topic:**[Regulatory Agency Library](../../grc-rcm/concept/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

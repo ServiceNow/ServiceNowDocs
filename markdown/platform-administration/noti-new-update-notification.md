@@ -2,6 +2,7 @@
 title: Create and update a provider notification for all users
 description: Create a notification in the notification provider framework to send to both sys and non-sys users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/noti-new-update-notification.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -188,13 +189,13 @@ Option to select when the recipients are from more than 2 tables. These options 
 
 6.  Update the form using any of the available related lists.
 
-    See [Create and add additional recipients](noti-add-additional-recipients.md) for more information.
+    See [Create and add additional recipients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-add-additional-recipients.md) for more information.
 
     **Note:** All the validation messages given by different providers are retained. Warning messages of one provider isn’t overridden by warning messages of another provider.
 
 
--   **[Create and add additional recipients](noti-add-additional-recipients.md)**  
+-   **[Create and add additional recipients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-add-additional-recipients.md)**  
 Update the notifications form by adding additional recipients from the Additional Recipients related list to send notifications to.
 
-**Parent Topic:**[Create provider notification](../concept/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-provider-notification-using.md)
 

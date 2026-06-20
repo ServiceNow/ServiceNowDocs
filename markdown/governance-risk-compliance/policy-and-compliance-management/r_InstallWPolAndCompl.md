@@ -2,6 +2,7 @@
 title: Components installed with Policy and Compliance Management
 description: Reference topics provide additional information about components that are installed with the activation of the Policy and Compliance Management plugin. These components include tables, user roles, and properties.Tables are added with activation of GRC: Policy and Compliance Management.Roles are added with activation of GRC: Policy and Compliance Management.The access control limitations \(ACLs\) or no role conditions with snc\_internal role \(or no role\) is replaced with sn\_grc.business\_user role to control the access level of different users to compliance tables and also to track their usage.Properties are added with activation of GRC: Policy and Compliance Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/policy-and-compliance-management/r\_InstallWPolAndCompl.html
 release: xanadu
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -15,11 +16,11 @@ breadcrumb: [Policy and Compliance Management reference, Policy and Compliance M
 
 Reference topics provide additional information about components that are installed with the activation of the Policy and Compliance Management plugin. These components include tables, user roles, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
-**Parent Topic:**[Policy and Compliance Management reference](../concept/reference-data-policy-compliance.md)
+**Parent Topic:**[Policy and Compliance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/policy-and-compliance-management/reference-data-policy-compliance.md)
 
 ## Tables installed with Policy and Compliance Management
 

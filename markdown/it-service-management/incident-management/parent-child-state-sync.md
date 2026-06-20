@@ -2,6 +2,7 @@
 title: Synchronization between a parent and a child incident
 description: The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/parent-child-state-sync.html
 release: xanadu
 product: Incident Management
 classification: incident-management

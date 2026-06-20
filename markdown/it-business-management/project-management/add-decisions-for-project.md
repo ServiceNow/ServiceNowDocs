@@ -2,6 +2,7 @@
 title: Add decisions for a project
 description: As a project manager, develop a plan to manage risks and issues proactively with solutions. Add the solution for a risk or issue to a project in the form of a decision. You can also convert a risk or an issue to a decision or a decision to an action or a request change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/add-decisions-for-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -133,7 +134,7 @@ Short description
 
 Brief description of the decision such as what the decision is about, who made it, what it affects, and the decision outcome.As you start typing the title for your decision, related decisions that potentially match your decision are displayed.
 
- Click the Suggestion icon \(![Suggestion icon](../../planning-and-policy/image/suggestions-icon.png)\) to select a description from the list of predefined decision descriptions.
+ Click the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select a description from the list of predefined decision descriptions.
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ Information to record and track the status of decision implementation or approva
 </td></tr></tbody>
 </table>5.  Search in the knowledge base for any article related to the decision.
 
-    1.  Click the search knowledge icon \(![Search knowledge icon](../image/search_knowledge_icon.png)\).
+    1.  Click the search knowledge icon \(\[Omitted image "search\_knowledge\_icon.png"\] Alt text: Search knowledge icon\).
 
     2.  If you find relevant articles, click the title of an article to view its content.
 
@@ -167,8 +168,8 @@ Information to record and track the status of decision implementation or approva
 
 ## What to do next
 
--   Convert a decision to an action or request change and close the decision. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](convert-ridac-for-project.md).
--   Associate the decision with your existing issues and risks so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
+-   Convert a decision to an action or request change and close the decision. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/convert-ridac-for-project.md).
+-   Associate the decision with your existing issues and risks so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

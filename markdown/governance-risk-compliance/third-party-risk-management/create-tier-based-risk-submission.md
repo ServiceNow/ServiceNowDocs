@@ -2,6 +2,7 @@
 title: Create a VRM automated risk assessment when the assigned risk tier changes
 description: Create a risk assessment when the risk changes for a third party by using a tier-based assessment submission rule. With this process, you can start reassessing the risk automatically if the source of the tier change is the engagement or third party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/create-tier-based-risk-submission.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

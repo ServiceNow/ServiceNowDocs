@@ -2,7 +2,10 @@
 title: Track cases on the Business Location Service Portal
 description: Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/track-cases-for-blsp-portal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Create cases for a business location in the Business Location Servi
 
 Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 
-![Filter options for My Lists widget on the Business Location Service Portal.](../image/my-lists-widget.png "My Lists widget on the Business Location Service Portal")
+\[Omitted image "my-lists-widget.png"\] Alt text: Filter options for My Lists widget on the Business Location Service Portal.
 
 Depending on the roles assigned to the logged-in user, the widget displays the following filters.
 
@@ -22,7 +25,7 @@ Depending on the roles assigned to the logged-in user, the widget displays the f
 |All Cases|List of all the cases.|
 |Action Needed|Cases in the **Resolved** state that are waiting for a customer response.|
 |My Cases|Cases for myself.|
-|My Requests|Cases that are created as a request. To integrate request management, see, [CSM integration with Request Management](csm-integration-sm-request.md).|
+|My Requests|Cases that are created as a request. To integrate request management, see, [CSM integration with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-integration-sm-request.md).|
 |Cases for Accounts|Cases created by the account contributor.|
 |Cases for Consumers|Cases created by the consumer contributor.|
 |My Cases for Business Locations|Cases created by the contributor user on behalf of their business locations.|

@@ -2,6 +2,7 @@
 title: Guided setup for Universal Request
 description: Before you start using the ServiceNow Universal Request application in your organization, you must set up Universal Request. Work with your stakeholders to define requirements for setting up the application effectively to meet the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/universal-request-for-hr-service-delivery/ur-guided-setup.html
 release: xanadu
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -43,5 +44,5 @@ Navigate to **Universal Request** &gt; **Administration**, open the following gu
 -   **Guided setup for UR**
 -   **Guided setup for Services**
 
-**Parent Topic:**[Setting up and configuring Universal Request](../concept/setup-configure-ur.md)
+**Parent Topic:**[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)
 

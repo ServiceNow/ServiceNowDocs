@@ -2,6 +2,7 @@
 title: Update a project in progress
 description: While a project is underway, keep actual values as current as possible. Continue to measure actual values, analyze the impact of any potential project risks, and make adjustments to handle scope, cost, and schedule accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_UpdateAProjectInProgress.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -43,8 +44,8 @@ Role required: it\_project\_manager
 3.  Click **Update** to save the record.
 
 
--   **[Track project comments and collaborate with stakeholders](t_TrackProjCommentsCollabStake.md)**  
+-   **[Track project comments and collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_TrackProjCommentsCollabStake.md)**  
 When a project is in progress, you can take advantage of two platform features that help project participants interact and collaborate: journal fields and live feed. Two useful journal fields are Comments and Work notes.
 
-**Parent Topic:**[Project Management](../concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

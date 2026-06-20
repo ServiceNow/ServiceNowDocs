@@ -2,6 +2,7 @@
 title: Create a dynamic attribute group
 description: Organize related attributes into a dynamic attribute group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-dynamic-attribute-group.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -37,11 +38,11 @@ Role required: admin
 
 ## Create a dynamic attribute group for capturing the size of products
 
-![Add a dynamic attribute group called Product dimensions that captures the size of products.](../image/dynamic-attribute-group-example.png)
+\[Omitted image "dynamic-attribute-group-example.png"\] Alt text: Add a dynamic attribute group called Product dimensions that captures the size of products.
 
 ## What to do next
 
 Add more dynamic attribute groups as needed. For example, you might add dynamic attribute groups for describing television features like Screen Resolutions or Sound Formats.
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

@@ -2,6 +2,7 @@
 title: Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams
 description: Enable users to configure branding for the published Microsoft Teams bot app, the ServiceNow Virtual Agent. Users are provided with the flexibility to customize the default ServiceNow branding for the Microsoft Teams production bot name and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-msteams-branding.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Role required: admin
 
 3.  In the list of apps, search for the Now Virtual Agent app using the Search bar and open it.
 
-4.  Select the pencil icon ![Edit icon.](../images/edit-icon.png) to **Customizable** to customize the app.
+4.  Select the pencil icon \[Omitted image "edit-icon.png"\] Alt text: Edit icon. to **Customizable** to customize the app.
 
 5.  In the Customize panel, you can edit the app name, short description, color icon, outline icon, and accent color.
 

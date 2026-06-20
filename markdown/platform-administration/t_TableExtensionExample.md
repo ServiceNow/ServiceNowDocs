@@ -2,6 +2,7 @@
 title: Apply table extension
 description: Preserve data sets using table extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_TableExtensionExample.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -33,8 +34,8 @@ Role required: admin
 
 4.  Click **Submit**.
 
-    ![New table extension](../image/TableExtension.png)
+    \[Omitted image "TableExtension.png"\] Alt text: New table extension
 
 
-**Parent Topic:**[Table extension](../../managing-data/concept/table-extension.md)
+**Parent Topic:**[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-extension.md)
 

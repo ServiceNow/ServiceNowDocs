@@ -2,7 +2,10 @@
 title: Add or remove an approver
 description: Facilitate approval process by adding or removing approvers from your publication workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_TargetCommAddAnApprover.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: sn\_publications.admin
 
 3.  To add an approver, click **Edit Approvers** next to the **Approvers** field and select an approver from the Users list.
 
-    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see [Approval and rollback workflow activities](https://www.servicenow.com/docs/access?context=c_ApprovalAndRollbackActivities&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see .
 
 4.  To remove an approver, click **Edit Approvers** next to the **Approvers** field, select the approver's name, and then click **Remove**.
 

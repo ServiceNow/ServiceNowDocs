@@ -2,6 +2,7 @@
 title: Building apps with Creator Studio
 description: By now, your admin has set up Creator Studio, given you permission to build an app, and you've got a great idea for a request-fulfillment app! How should you think about using Creator Studio to create your app?
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/building-apps-with-creator-studio.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -20,15 +21,15 @@ By now, your admin has set up Creator Studio, given you permission to build an a
 
 When finished, your app will look like a catalog of items that people can request. To create your app, you’ll:
 
-1.  Select one of the available [catalog](creator-studio-glossary.md#) templates.
-2.  Customize a [form](creator-studio-glossary.md#) to be included in the catalog using a WYSIWYG editor.
+1.  Select one of the available [catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) templates.
+2.  Customize a [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) to be included in the catalog using a WYSIWYG editor.
 
     A form describes one item in the catalog and provides space for questions that a requester will answer to specify details about what they want, such as the model number of a laptop. If your catalog needs multiple items, you can create multiple forms.
 
 
 ## Automate workflows and simplify tasks with playbooks
 
-Streamlining your request-fulfillment process goes beyond just collecting information. Creator Studio empowers you to automate tasks with powerful [playbooks](creator-studio-glossary.md#). Think of them as pre-programmed workflows that kick in after a form is submitted.
+Streamlining your request-fulfillment process goes beyond just collecting information. Creator Studio empowers you to automate tasks with powerful [playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md). Think of them as pre-programmed workflows that kick in after a form is submitted.
 
 Here are some things that playbooks can do:
 
@@ -43,22 +44,22 @@ Once deployed, your app will sit in its own workspace category, which makes it e
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 
--   **[Find existing apps in Creator Studio](../task/view-apps-creator-studio-home-page.md)**  
+-   **[Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/view-apps-creator-studio-home-page.md)**  
 Perhaps you’ve been given permission to work on an app someone else created, or you want to add new items to the catalog in your app. The Creator Studio home page acts as your central hub, listing all the apps people in your company have built using Creator Studio.
--   **[App creation in Creator Studio](creator-studio-creating-apps.md)**  
+-   **[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-creating-apps.md)**  
 Have you ever dreamed of creating your own app? With Creator Studio, you might be closer than you think! The following links will send you to the sections in this guide that will walk you through the steps.
--   **[Collaboration in Creator Studio](../reference/creator-studio-collaboration-roles.md)**  
+-   **[Collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-collaboration-roles.md)**  
 Sometimes you need help building out your app, and that’s ok! And sometimes other people need your help building their apps, which is great! This is where collaboration comes into play.
--   **[Working with forms in Creator Studio](creator-studio-work-with-forms.md)**  
+-   **[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md)**  
 To add items or services to your catalog, you must create a different form for each thing being requested.
--   **[Working with automation in Creator Studio](creator-studio-working-with-automations.md)**  
+-   **[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md)**  
 How do you simplify and streamline tasks for fulfillers? Use automation! For example, you can have a task assigned automatically to someone based on what type of request it is. We’ll use playbooks to accomplish adding this automation to your app.
--   **[Working with form submission workspaces in Creator Studio](creator-studio-form-submissions-workspace-about.md)**  
+-   **[Working with form submission workspaces in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)**  
 So, you’ve built your app, and people are submitting requests through it, that’s great! However, you might be wondering where those requests go after they’re submitted. The short answer is they live in a form submission Workspace, which you can customize in Creator Studio to suit your needs.
--   **[Deploying your Creator Studio app](creator-studio-publishing-apps.md)**  
+-   **[Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-publishing-apps.md)**  
 Congrats, you’ve built your app and are ready to share the first version of it with the world. That’s great! Deployment is the next step in the process.
--   **[I've built my app in Creator Studio, now what?](creator-studio-made-your-app-now-what.md)**  
+-   **[I've built my app in Creator Studio, now what?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-made-your-app-now-what.md)**  
 You've added forms and automation to your app, and customized the form submission workspace. Now what?
 
-**Parent Topic:**[Creator Studio](creator-studio-landing.md)
+**Parent Topic:**[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-landing.md)
 

@@ -2,6 +2,7 @@
 title: Create an Agent Client Collector Security Incident Response OSQuery
 description: Define an OSQuery to gather information on a security incident's CI. OSQuery provides an SQL layer on top of OS tables, and is bundled together with the Agent Client Collector as part of the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-create-os-query.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -44,13 +45,13 @@ Role required: sn\_si.admin
 
 5.  Enter the specific end-point Agent where the result of the test is displayed.
 
-6.  -   ![successful](../image/acc-create-command-ok.png) If it was successful
--   ![large](../image/acc-create-command-large.png) too large of an output
--   ![error](../image/acc-create-command-error.png) or an Error occurred with the error message displayed to the sn\_si.admin.
+6.  -   \[Omitted image "acc-create-command-ok.png"\] Alt text: successful If it was successful
+-   \[Omitted image "acc-create-command-large.png"\] Alt text: large too large of an output
+-   \[Omitted image "acc-create-command-error.png"\] Alt text: error or an Error occurred with the error message displayed to the sn\_si.admin.
 7.  Select **Submit**.
 
     OSQueries gather information on the target machine, where the incident commands are listed by operating system. For example, a query defined as `select * from system_info` gathers all information from the OSQuery **system\_info** table.
 
 
-**Parent Topic:**[Agent Client Collector Security Incident Response](../concept/acc-security-incident-response.md)
+**Parent Topic:**[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 

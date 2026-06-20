@@ -2,7 +2,10 @@
 title: Configure consumers
 description: A consumer is a customer in the business-to-consumer \(B2C\) business model.Use Customer Service Management guided setup to import existing consumers.A consumer is a customer in the business-to-consumer \(B2C\) business model. Use the Customer Service Management application to create consumer records.Consumers can have multiple addresses, including one primary address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-csm-consumers.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

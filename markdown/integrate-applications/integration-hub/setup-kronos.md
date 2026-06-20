@@ -2,6 +2,7 @@
 title: Set up the UKG spoke
 description: Integrate your Kronos application with your ServiceNow instance. Register an OAuth application in Kronos and authenticate requests from ServiceNow.Add and configure a connection using the connection template to authenticate ServiceNow requests in UKG spoke.Create a connection record and credential record for setting up the UKG spoke.Use the information generated during the Kronos application creation and configuration to register Kronos as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Authorize the Kronos spoke actions by creating credential records for the application registered in Kronos. The Kronos spoke connection and credential alias uses these credentials to authorize actions.Create a record to provide details and credentials of the required Kronos user. The Kronos spoke uses these user credentials to perform actions in Kronos.Create Connection records to your Kronos application. The Kronos spoke connection and credential alias uses these connections to perform actions in Kronos.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-kronos.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -46,11 +47,11 @@ Role required: admin
 
     **Note:** Don't click **Add Connection**.
 
-    ![Connection template for UKG spoke.](../image/ukg-spoke-conn-template.png)
+    \[Omitted image "ukg-spoke-conn-template.png"\] Alt text: Connection template for UKG spoke.
 
 4.  Click **Edit**.
 
-    If you are configuring the spoke for the first time, click **Configure**.![Configure a connection for the UKG spoke](../image/ukg-spoke-config-conn.png)
+    If you are configuring the spoke for the first time, click **Configure**.\[Omitted image "ukg-spoke-config-conn.png"\] Alt text: Configure a connection for the UKG spoke
 
 5.  On the form, fill in the fields.
 
@@ -241,7 +242,7 @@ Credential
 
 </td><td>
 
-Credential record you created for Kronos. For example, select **Kronos Cred**. See [Create Credential record for the Kronos spoke](setup-kronos.md#) for more information.
+Credential record you created for Kronos. For example, select **Kronos Cred**. See [Create Credential record for the Kronos spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-kronos.md) for more information.
 
 </td></tr><tr><td>
 

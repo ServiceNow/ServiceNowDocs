@@ -2,6 +2,7 @@
 title: Quick message author \[email\_client\_quick\_message\_author\]
 description: Creates quick messages for users in their group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/email-client-roles-5.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

@@ -2,6 +2,7 @@
 title: Use the GetProcessParameter component
 description: Get the value of a specific process parameter you had set for a bot process in RPA Hub with the GetProcessParameter component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-processprm-getprsprm.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Get the value of a specific process parameter you had set for a bot process in R
 
 ## Before you begin
 
-Set at least one process parameter as part of a bot process on the RPA Hub. See [Create a process parameter within a bot process in RPA Hub](../../rpa-hub/task/create-process-parameter-botprocess.md).
+Set at least one process parameter as part of a bot process on the RPA Hub. See [Create a process parameter within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-process-parameter-botprocess.md).
 
 Assign the automation to the bot process by using the **Assign bot process** option in the Toolbar of RPA Desktop Design Studio . You must set the same bot process and robot associated with the process parameter.
 
@@ -25,7 +26,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetProcessParameter component. For more information about these properties, see [Properties of the Process Parameters components](../reference/processprm-properties.md).
+You can configure the properties for the GetProcessParameter component. For more information about these properties, see [Properties of the Process Parameters components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/processprm-properties.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ You can configure the properties for the GetProcessParameter component. For more
 
 2.  Drag the GetProcessParameter component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetProcessParameter component to the corresponding ports of the other components as described in the following table.
 
@@ -47,5 +48,5 @@ You can configure the properties for the GetProcessParameter component. For more
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Process Parameters](../concept/process-parameters.md)
+**Parent Topic:**[Process Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/process-parameters.md)
 

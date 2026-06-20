@@ -2,6 +2,7 @@
 title: Generate recommended actions in UI16 for a security incident with Now Assist for Security Incident Response
 description: Automatically generate the next steps your analysts can take to help them close a security incident in the UI16 \(legacy\) view. The recommended steps are based on existing security incidents and knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-for-SI-in-UI16.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

@@ -2,6 +2,7 @@
 title: Using Virtual Agent API
 description: Use the ServiceNow Virtual Agent API app to integrate any chat interface or a bot with ServiceNow Virtual Agent or Agent Chat. The app is available from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/virtual-agent-api.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -38,11 +39,11 @@ The Virtual Agent API is a REST API. This API is built on the conversational cus
     Use Virtual Agent Bot Interconnect as the primary bot in a diverse chat environment. Bot Interconnect creates a unified chat experience and gives your end users access to multiple channels and a wide variety of enterprise tasks that are available from ServiceNow.
 
 
-The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](va-custom-adapter-framework.md).
+The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
-For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see [Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see Virtual Agent Bot Integration API.
 
-![Video link to Virtual Agent Academy.](../../conversational-interfaces/image/icon-video-link.png) [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
+\[Omitted image "icon-video-link.png"\] Alt text: Video link to Virtual Agent Academy. [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
 
 ## How the Virtual Agent API works
 
@@ -54,7 +55,7 @@ The following diagram shows how the REST API processes user input from a third-p
 4.  The ServiceNow AI Platform sends a POST response JSON from the outbound REST endpoint \(via REST API\) back to the bot.
 5.  The primary bot or third-party chat interfaces displays the response to the user.
 
-![Diagram that shows how the REST endpoints in the Virtual Agent API handle user input and authentication and bot response and authentication.](../images/va-api-steps.png "Inbound and outbound REST endpoints in the Virtual Agent API")
+\[Omitted image "va-api-steps.png"\] Alt text: Diagram that shows how the REST endpoints in the Virtual Agent API handle user input and authentication and bot response and authentication.
 
 To see a demonstration of the Virtual Agent API and an FAQ, see [Getting Started with Virtual Agent APIs](https://community.servicenow.com/community?id=community_article&sys_id=080e3903dbc4e4107d3e02d5ca96198c) on the Community site.
 
@@ -157,30 +158,30 @@ Paris
 </td></tr></tbody>
 </table>**Note:** The Virtual Agent API requires a Pro license similar to that of Virtual Agent.
 
--   **[Virtual Agent API features](va-api-features.md)**  
+-   **[Virtual Agent API features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-api-features.md)**  
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the Store app version number of the API.
--   **[Virtual Agent API features available in Store release 2.0.x](va-api-features-v2.md#)**  
+-   **[Virtual Agent API features available in Store release 2.0.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-api-features-v2.md)**  
 Virtual Agent API version 2.0.x provides access to more of the same features that are available in Virtual Agent and Agent Chat, including rich control support and notifications.
--   **[Virtual Agent API features available in Store release 3.0.x](va-api-features-v3.md#)**  
+-   **[Virtual Agent API features available in Store release 3.0.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-api-features-v3.md)**  
 Virtual Agent API version 3.0.x provides access to more of the same features that are available in Virtual Agent and Agent Chat, including the ability to upload files from a private URL and synchronous handshake enhancements.
--   **[Install the Virtual Agent API](../task/install-virtual-agent-api.md)**  
+-   **[Install the Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/install-virtual-agent-api.md)**  
 Install the Virtual Agent API app to integrate any chat interface or a bot with ServiceNow® Virtual Agent or Agent Chat.
--   **[Review the inbound REST endpoint and configure inbound authentication](../task/configure-send-request.md)**  
+-   **[Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-send-request.md)**  
 After you install the Virtual Agent API, navigate to the Scripted REST API resource to review the endpoint and set up authentication.
--   **[Configure Message Authentication for inbound communication](../task/set-up-message-auth-va-api.md)**  
+-   **[Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/set-up-message-auth-va-api.md)**  
 You can configure Message Authentication for the Virtual Agent API instead of Basic or OAuth. Message Authentication involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity.
--   **[Configure the output response REST endpoint and outbound authentication for the Virtual Agent API](../task/configure-response-endpoint-va-api.md)**  
+-   **[Configure the output response REST endpoint and outbound authentication for the Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-response-endpoint-va-api.md)**  
 Specify the outbound endpoint URL to which the Virtual Agent responses are posted. Configure outbound authentication.
--   **[Virtual Agent bot-to-bot integration](bot2bot.md)**  
+-   **[Virtual Agent bot-to-bot integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/bot2bot.md)**  
 The Virtual Agent API supports environments that use multiple bots. In this situation, a primary bot communicates with third-party secondary bots, such as a ServiceNow bot.
--   **[Closing idle bot-to-bot conversations](va-b2b-open-conversation.md)**  
+-   **[Closing idle bot-to-bot conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-b2b-open-conversation.md)**  
 In bot-to-bot integrations \(Virtual Agent API\), abandoned conversations that are "idle" for more than an hour are automatically closed by the scheduled job, **Time Out Abandoned B2B Conversations**. This job runs hourly each day.
--   **[Configure multiple provider applications](configure-multiple-provider-applications.md)**  
+-   **[Configure multiple provider applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-multiple-provider-applications.md)**  
 You can configure multiple provider applications to support AI agents where there are multiple primary bots using Virtual Agent API and you need to distinguish between them.
--   **[Transform Virtual Agent API request and response](transform-virtual-agent-api-request-and-response.md)**  
+-   **[Transform Virtual Agent API request and response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/transform-virtual-agent-api-request-and-response.md)**  
 You can transform Virtual Agent API request and response into supported formats through the scripted extension points provided in Virtual Agent API.
--   **[Enable Now Assist experience in Virtual Agent API](enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)**  
+-   **[Enable Now Assist experience in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/enable-now-assist-in-virtual-agent-experience-in-virtual-agent-api.md)**  
 Enable Now Assist experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 
-**Parent Topic:**[Building and deploying Virtual Agent](using-virtual-agent.md)
+**Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

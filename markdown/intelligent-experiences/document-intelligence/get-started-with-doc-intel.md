@@ -2,6 +2,7 @@
 title: Set up Document Intelligence
 description: Review the following information before you start setting up Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/get-started-with-doc-intel.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -33,7 +34,7 @@ Verify that the following applications or plugins are installed and activated fr
 -   Platform Document Intelligence \(com.glide.platform\_ml\_di\)
 -   Document Intelligence UIB Component \(sn\_docintel\_iframe\)
 
-For more information, see [Install Document Intelligence](../task/install-document-intelligence.md).
+For more information, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -67,9 +68,9 @@ Domain separation
 
 </td><td>
 
-Review the [domain separation topic](domain-separation-and-doc-intel.md) information if you intend to separate data, processes, and administrative tasks.
+Review the [domain separation topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/domain-separation-and-doc-intel.md) information if you intend to separate data, processes, and administrative tasks.
 
- See [Domain separation and Document Intelligence](domain-separation-and-doc-intel.md).
+ See [Domain separation and Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/domain-separation-and-doc-intel.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ The glide.attachment.extensions system property is empty by default. When custom
 -   png
 -   pdf
 
- For more information, see [Restrict attachment file extensions](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=xanadu&pubname=xanadu-platform-administration&section=t_RestrictingFileExtensions&ft:locale=en-US).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Copy any use cases needed to support your Document Intelligence implementation.
 
 </td><td>
 
-Follow the steps in [Duplicate a document extraction use case](../task/duplicate-a-use-case.md) to copy a use case along with its fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
+Follow the steps in [Duplicate a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/duplicate-a-use-case.md) to copy a use case along with its fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ Import any use cases needed to support your Document Intelligence implementation
 
 </td><td>
 
-Follow the steps in [Import a document extraction use case](../task/import-a-use-case.md) to import a use case along with its fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
+Follow the steps in [Import a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/import-a-use-case.md) to import a use case along with its fields, field groups, integrations, flows, and all the related machine learning \(ML\) models.
 
 </td></tr></tbody>
 </table>

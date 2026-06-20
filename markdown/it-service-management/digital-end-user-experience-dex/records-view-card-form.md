@@ -2,6 +2,7 @@
 title: Records View cards form
 description: The Records View cards form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/records-view-card-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -79,9 +80,9 @@ Visible Fields
 
 </td><td>
 
-Fields from the selected table that should appear on the card details page.Use the Unlock Visible Fields icon \(![Unlock field icon](../image/icon-unlock-visible-fields.png)\) and under the **Available** section, select the fields to be visible and then select the right arrow icon \(![Right arrow icon](../image/icon-right-arrow.png)\) to move it to the **Selected** section. You can also use the up arrow icon \(![Up arrow icon](../image/icon-up-arrow.png)\) or the down arrow icon \(![Down arrow icon](../image/icon-down-arrow.png)\) to customize the column position.
+Fields from the selected table that should appear on the card details page.Use the Unlock Visible Fields icon \(\[Omitted image "icon-unlock-visible-fields.png"\] Alt text: Unlock field icon\) and under the **Available** section, select the fields to be visible and then select the right arrow icon \(\[Omitted image "icon-right-arrow.png"\] Alt text: Right arrow icon\) to move it to the **Selected** section. You can also use the up arrow icon \(\[Omitted image "icon-up-arrow.png"\] Alt text: Up arrow icon\) or the down arrow icon \(\[Omitted image "icon-down-arrow.png"\] Alt text: Down arrow icon\) to customize the column position.
 
-When you have added all the required fields, select the lock visible fields icon \(![Use this icon to lock the option to make any changes to the visibility settings.](../image/icon-lock-visible-fields.png)\) to ensure these fields are always visible on the form, regardless of any changes made to the form.
+When you have added all the required fields, select the lock visible fields icon \(\[Omitted image "icon-lock-visible-fields.png"\] Alt text: Use this icon to lock the option to make any changes to the visibility settings.\) to ensure these fields are always visible on the form, regardless of any changes made to the form.
 
 </td></tr><tr><td>
 
@@ -92,5 +93,5 @@ Icon
 Image that appears on the card.Use the **Click to add** link and select **Choose File** to select an image from your system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Desktop Assistant reference](dex-desktop-experience-reference.md)
+</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

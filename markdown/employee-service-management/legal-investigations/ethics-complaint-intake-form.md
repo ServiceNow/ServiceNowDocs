@@ -2,6 +2,7 @@
 title: Ethics complaints intake form
 description: Employees can use the Ethics Complaints intake form to report an ethics violation incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-investigations/ethics-complaint-intake-form.html
 release: xanadu
 product: Legal Investigations
 classification: legal-investigations
@@ -68,5 +69,5 @@ Notes
 Any additional information about the involved party.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Investigations reference](legal-investigations-reference.md)
+</table>**Parent Topic:**[Legal Investigations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-investigations/legal-investigations-reference.md)
 

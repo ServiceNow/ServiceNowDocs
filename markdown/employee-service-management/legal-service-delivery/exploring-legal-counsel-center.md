@@ -2,6 +2,7 @@
 title: Exploring Legal Counsel Center
 description: Legal Counsel Center enables legal department members to categorize, prioritize, and efficiently address legal issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/exploring-legal-counsel-center.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -22,7 +23,7 @@ Legal Counsel Center requires the installation of the following applications:
 
 Install Legal Counsel Center to get the Next Experience. Review the [Legal Counsel Center](https://store.servicenow.com/sn_appstore_store.do#!/store/application/278ddaf373003300844489b954f6a78b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see [Uninstall an application](https://www.servicenow.com/docs/access?context=t_UninstallApplications&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see .
 
 ## Legal Counsel Center benefits
 
@@ -43,9 +44,9 @@ The Legal Counsel Center is the next experience Workspace for the legal fulfille
 **Important:**
 
 -   The Matters and Matter tasks widgets are visible if the Legal Matter Management plugin is installed.
--   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management](../../human-resources/concept/hr-er-interview-1.md#).
+-   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 The following is an example of the Legal Counsel Center landing page.
 
-![Legal Counsel Center Home page](../image/landing-page.png "Example of the Legal Counsel Center")
+\[Omitted image "landing-page.png"\] Alt text: Legal Counsel Center Home page
 

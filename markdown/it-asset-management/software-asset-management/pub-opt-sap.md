@@ -2,6 +2,7 @@
 title: Publisher optimizations for SAP
 description: View licensing optimizations for SAP by selecting SAP from the Publisher drop-down list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/pub-opt-sap.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -112,5 +113,5 @@ SAP Digital Access\[samp\_sap\_digital\_access\]
 Total count of Digital Access licenses consumed, grouped by the document type created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/references.md)
 

@@ -2,6 +2,7 @@
 title: Changes Applied related list
 description: Changes Applied lists all changes that were applied in this upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/changes-applied-related-list.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -129,5 +130,5 @@ Changed by vendor
 Indicates whether the file has been changed by the vendor since the last upgrade.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade History module: Track every upgrade](c_UpgradeHistory.md)
+</table>**Parent Topic:**[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeHistory.md)
 

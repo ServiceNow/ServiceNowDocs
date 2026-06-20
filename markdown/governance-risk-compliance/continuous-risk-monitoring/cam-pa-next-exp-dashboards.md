@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for CAM
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with ServiceNow AI Platform products. The solutions help you to track and analyze CAM performance analytics dashboard reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -29,12 +30,12 @@ The following roles and tasks are associated with this solution:
 -   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\): Access all the dashboards.
 -   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\): Access all the dashboards.
 
--   **[CAM Overview dashboard](cam-overvw-pa-db.md)**  
+-   **[CAM Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-overvw-pa-db.md)**  
 The CAM Overview dashboard provides multiple tabs with reports on critical aspects of your CAM security posture.
--   **[AO Overview dashboard](../../../product/grc-cam/reference/reports-ao-overview.md)**  
+-   **[AO Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/reports-ao-overview.md)**  
 Users with the Authorization Official \[sn\_irm\_cont\_auth.authorization\_official\] role can view the reports in the AO Overview module.
--   **[SCA Overview dashboard](../../../product/grc-cam/reference/reports-sca-ov.md)**  
+-   **[SCA Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.md)**  
 The SCA Overview dashboard enables you to view and manage control assessments as they occur.
 
-**Parent Topic:**[CAM reference](../../../product/grc-cam/concept/reference-grc-cam.md)
+**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

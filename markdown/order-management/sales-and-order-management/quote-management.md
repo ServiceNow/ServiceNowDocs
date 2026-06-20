@@ -2,6 +2,7 @@
 title: Quote Management
 description: Quote Management is an application used to create and manage product quotes. Quote Management can be a separate application or part of the Sales Customer Relationship Management \(SOM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Quote Management is an application used to create and manage product quotes. Quo
 
 A quote is a formal offer for products and services, proposed at specific prices and related payment terms, which is sent to a prospective customer or consumer. In the context of Sales Customer Relationship Management, quotes can be created from the Opportunity Management application or quotes can be created separately, depending on your configuration.
 
-![Sales and Order Management workflow that shows the opportunity, quote, and order creation steps.](../image/l2c-quote-workflow-5.png "Quote workflow in Sales Customer Relationship Management")
+\[Omitted image "l2c-quote-workflow-5.png"\] Alt text: Sales and Order Management workflow that shows the opportunity, quote, and order creation steps.
 
 ## Quote Management interface
 
@@ -25,14 +26,14 @@ The Quote Management application is integrated with the product offering catalog
 
 |Tab|Description|
 |---|-----------|
-|[Details tab](../task/quote-management-details-tab.md)|Add basic information for the quote.|
-|[Catalog tab](../task/quote-management-catalog-tab.md)|Search for and add products to your quote using the product configurator. Pricing is also managed through the product offering catalogs.|
-|[Line Items tab](../task/quote-managment-line-items-tab.md)|Add different line items to a quote. In each quote line item, you can update product characteristics and add pricing adjustments.|
-|[Revisions tab](../task/quote-management-revisions-tab.md)|Create multiple versions of a quote.|
-|[Customer Orders tab](../task/quote-management-customer-orders-tab.md)|Turn your quote into a customer order.|
-|[Pricing Adjustment tab](../task/quote-management-pricing-adjustments-tab.md)|View and update pricing adjustments.|
+|[Details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-details-tab.md)|Add basic information for the quote.|
+|[Catalog tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-catalog-tab.md)|Search for and add products to your quote using the product configurator. Pricing is also managed through the product offering catalogs.|
+|[Line Items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-managment-line-items-tab.md)|Add different line items to a quote. In each quote line item, you can update product characteristics and add pricing adjustments.|
+|[Revisions tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-revisions-tab.md)|Create multiple versions of a quote.|
+|[Customer Orders tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-customer-orders-tab.md)|Turn your quote into a customer order.|
+|[Pricing Adjustment tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management-pricing-adjustments-tab.md)|View and update pricing adjustments.|
 
-![The Quote Management Details tab used to enter all the basic quote information. The image also shows additional tabs used to build the quote.](../image/l2c_quote-main-window.png "Quote Management Details tab")
+\[Omitted image "l2c\_quote-main-window.png"\] Alt text: The Quote Management Details tab used to enter all the basic quote information. The image also shows additional tabs used to build the quote.
 
 ## Quote Management integration with product offering catalogs
 
@@ -47,7 +48,7 @@ The product configurator lets your agents configure products in the following wa
 
 The product configurator uses Sales Customer Relationship Management primitives to create and update quote lines and characteristics.
 
-![Shows the product configurator that lets agents select options for products before they add the product to the quote.](../image/l2c-quote-product-customize.png "Building a quote with the product configurator")
+\[Omitted image "l2c-quote-product-customize.png"\] Alt text: Shows the product configurator that lets agents select options for products before they add the product to the quote.
 
 ## Configure and create quote line items
 
@@ -79,7 +80,7 @@ A cost book contains the unit costs for product offerings. Cost books provide yo
 -   Discount management: Apply discounts to quotes based on cost prices to incentivize bulk purchases or long-term commitments for flexible pricing strategies while maintaining profitability and competitive incentives to your customers.​
 -   Negotiation support: Use cost prices as a reference during negotiations with your customers or suppliers. It provides a transparent basis for discussions, helping you build trust and facilitating fair and mutually beneficial agreements.​
 
-To learn more about cost books and their configuration, see [Pricing Management](pricing-management.md), [Create and publish a cost book](../task/create-cost-books.md), [Create a cost book line](../task/create-cost-book-lines.md), and [Install and configure Quote Management](configure-quote-management.md).
+To learn more about cost books and their configuration, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/pricing-management.md), [Create and publish a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-cost-books.md), [Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-cost-book-lines.md), and [Install and configure Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configure-quote-management.md).
 
 ## Creating PDF documents in Quote Management
 
@@ -91,5 +92,5 @@ Sales Agent view quote line items as a hierarchical list, which helps organize q
 
 ## What to do next
 
-To learn about setting up Quote Management, see [Install and configure Quote Management](configure-quote-management.md).
+To learn about setting up Quote Management, see [Install and configure Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configure-quote-management.md).
 

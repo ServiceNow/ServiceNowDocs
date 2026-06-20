@@ -2,6 +2,7 @@
 title: Migrate financial baselines of demands to Next Experience
 description: Migrate the financial baselines of demands to Next Experience to manage the financial using Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/demand-management/migrate-fin-baselines-demands.html
 release: xanadu
 product: Demand Management
 classification: demand-management
@@ -23,15 +24,15 @@ Baselines view in the Next Experience provides better insights to view and analy
 
 Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI do not capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the actual costs will be captured as part of the baseline migration using the processed expense lines as of the baseline creation date of the financial baseline.
 
-For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](../../portfolio-planning/concept/using-financials-pp.md).
+For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/using-financials-pp.md).
 
 **Note:** Migration of financial baselines is not applicable for demands or projects with multi-currency.
 
-![Flow chart explaining the logical flow of migrating a financial baseline from classic to Next Experience.](../../pw-financials/images/fin_baseline_migration_logical_flow_no_background.png)
+\[Omitted image "fin\_baseline\_migration\_logical\_flow\_no\_background.png"\] Alt text: Flow chart explaining the logical flow of migrating a financial baseline from classic to Next Experience.
 
 ## Before you begin
 
--   [Create a financial baseline for a demand](create-demand-baseline.md)
+-   [Create a financial baseline for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/create-demand-baseline.md)
 -   Role required: it\_demand\_manager
 
 ## Procedure
@@ -40,15 +41,15 @@ For detailed information and use cases on using financials in Next Experience, s
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d83199e151">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d44621e151">
 
 Choice
 
-</th><th align="left" id="d83199e154">
+</th><th align="left" id="d44621e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d83199e160">
+</th></tr></thead><tbody><tr><td id="d44621e160">
 
 **Using list actions**
 
@@ -59,7 +60,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d83199e190">
+</td></tr><tr><td id="d44621e190">
 
 **Using related links**
 
@@ -69,7 +70,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d83199e211">
+</td></tr><tr><td id="d44621e211">
 
 **Activate a scheduled job**
 
@@ -79,7 +80,7 @@ Description
 2.  Filter the Name field to locate the **Migrate financial baselines to Next Experience** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](../../project-management/task/gen-labor-costs-scheduled-job-ppm.md#).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
 
 4.  Select **Update**.
 
@@ -90,11 +91,11 @@ For a description of the field names, see [Scheduled Script Execution Form](../.
 
 ## Result
 
-Financial baselines for the selected demands will be migrated to Next Experience and you can view them in the [Baselines view](../../portfolio-planning/concept/using-financials-pp.md#section_bkp_g2l_2zb).
+Financial baselines for the selected demands will be migrated to Next Experience and you can view them in the [Baselines view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/using-financials-pp.md).
 
 ## What to do next
 
-[View and compare the migrated baselines](../../portfolio-planning/task/create-compare-baselines-pp.md) with any existing baselines or current baseline \(![Flag icon to indicate current baseline.](../../spw-financials/images/fin-current-baseline-flag.png)\).
+[View and compare the migrated baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/create-compare-baselines-pp.md) with any existing baselines or current baseline \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/t_CreatingDemands.md)
 

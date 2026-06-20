@@ -2,6 +2,7 @@
 title: Using Service Exchange for Consumers
 description: As a manufacturer using Service Exchange for Consumers in Manufacturing Commercial Operations, learn how your consumers can use Manufacturing Commercial Operations with Service Bridge to submit requests from the service catalog, all from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/using-servicebridge-mf-cons.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

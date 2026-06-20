@@ -2,6 +2,7 @@
 title: Using the Zero-day Vulnerability Playbook
 description: Use these steps to learn how you can use the Zero-day Vulnerability Playbook in the MSIM Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/using-zero-day-playbook.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_msi.workspace\_manager
 
     It takes you to the playbook page.
 
-    ![Playbook Page](../image/msi-number.png)
+    \[Omitted image "msi-number.png"\] Alt text: Playbook Page
 
 3.  Go to the **Ellipsis** menu.
 

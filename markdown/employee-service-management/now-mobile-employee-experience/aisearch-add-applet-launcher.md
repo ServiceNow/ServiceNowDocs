@@ -2,6 +2,7 @@
 title: Add AI Search to a launcher screen
 description: Configure your launcher screen to use the AI Search search engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[AI Search in mobile](../concept/text-search-advanced-now.md)
+**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
 

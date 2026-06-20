@@ -1,0 +1,52 @@
+---
+title: Supporting information for Now Assist for Hardware Asset Management \(HAM\)
+description: Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/now-assist-for-hardware-asset-management/supporting-info-now-assist-ham.html
+release: xanadu
+product: Now Assist for Hardware Asset Management
+classification: now-assist-for-hardware-asset-management
+topic_type: concept
+last_updated: "2025-04-10"
+reading_time_minutes: 1
+keywords: [AI Agents, Agentic AI]
+breadcrumb: [Exploring Now Assist for Hardware Asset Management \(HAM\), Now Assist for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
+---
+
+# Supporting information for Now Assist for Hardware Asset Management \(HAM\)
+
+Get a quick overview of the important information related to the Now Assist for Hardware Asset Management \(HAM\) application.
+
+## Supported versions
+
+The Now Assist for HAM application is supported starting with the Xanadu Patch 9 release.
+
+## Supported user interfaces
+
+You can access the agentic workflow included in the Now Assist for HAM application through the Now Assist panel in the Hardware Asset Workspace.
+
+## Licensing requirements
+
+The Now Assist for HAM application requires a Hardware Asset Management Pro Plus license.
+
+## Application information
+
+Activate the Now Assist for Hardware Asset Management \(HAM\) store application \(sn\_now\_assist\_ham\) to use the agentic workflow.
+
+This store application has the following dependencies:
+
+-   Hardware Asset Management \(com.sn\_hamp\)
+-   Now Assist for Platform \(com.sn\_genai\_platform\)
+-   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
+
+Activate the applications in the following order:
+
+-   Hardware Asset Management \(com.sn\_hamp\)
+-   Now Assist for Platform \(com.sn\_genai\_platform\)
+-   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
+-   Now Assist for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
+
+**Parent Topic:**[Exploring Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
+
+**Parent Topic:**[Exploring Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/now-assist-for-hardware-asset-management/exploring-now-assist-ham.md)
+

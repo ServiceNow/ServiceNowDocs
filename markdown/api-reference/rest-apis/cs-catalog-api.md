@@ -2,6 +2,7 @@
 title: Cloud Services Catalog API
 description: The Cloud Services Catalog API provides methods related to Day-1 \(provisioning\) and Day-2 \(modification\) operations available in the Cloud Services Catalog, such as creating cloud service stacks and calling resource operation requests. You can also retrieve information about catalog requests, stacks getting status, and other information.Returns a list of resource catalog items based on a given configuration item \(CI\) class.Returns a list of resource catalog items based on a given resource block.Returns a list of catalog items based on the given blueprint of a Provision or Lifecycle catalog type.Returns a list of catalog items based on Provision-type blueprints \(also known as stacks\).Returns the status and details of a given catalog RITM \(request item\).Submits a resource operation request to perform day 2 operations on provisioned resources.Submits a cloud services request. This method accepts provisioned requests for both day 2 operations and stacks or resource operation catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/cs-catalog-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -19,9 +20,9 @@ This API is included in the `now` namespace and requires the sn\_cmp.cloud\_serv
 
 The Cloud Services Catalog API features actions you perform during Day 2 operations. In the context of this API, resource catalog items refer to catalog items related to Day 2 operations.
 
-To use this API, ensure that you have completed the Cloud Services Catalog guided setup process or have a working configuration where provisioning and catalog operations are working in the UI. For more information about these steps, see [Cloud Services Catalog](https://www.servicenow.com/docs/access?context=csc-home&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
+To use this API, ensure that you have completed the Cloud Services Catalog guided setup process or have a working configuration where provisioning and catalog operations are working in the UI. For more information about these steps, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Cloud Services Catalog - GET /now/cmp\_catalog\_api/itemsbyciclass
 
@@ -95,7 +96,7 @@ Optional. Resource interface that the resource catalog item is hosted on. Locate
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -120,7 +121,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -307,7 +308,7 @@ Optional. Resource interface that the resource catalog item is hosted on. Locate
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -332,7 +333,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -511,7 +512,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -536,7 +537,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1012,7 +1013,7 @@ Default: False
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1037,7 +1038,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1407,7 +1408,7 @@ Unique request item number in the Requested Item \[sc\_req\_item\] table. For ex
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1432,7 +1433,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1705,7 +1706,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1730,7 +1731,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1959,7 +1960,7 @@ Required. Name of the stack. The stack name is dynamic and is reflected in resou
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1984,7 +1985,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

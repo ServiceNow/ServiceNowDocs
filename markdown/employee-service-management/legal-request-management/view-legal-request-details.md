@@ -2,6 +2,7 @@
 title: Viewing and tracking legal request details
 description: View the details of a legal request after it has been submitted and track request activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-request-management/view-legal-request-details.html
 release: xanadu
 product: Legal Request Management
 classification: legal-request-management
@@ -41,5 +42,5 @@ Role required: sn\_lg\_ops.legal\_user
 5.  Track the request's activities and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Using legal services](../concept/submitting-legal-request.md)
+**Parent Topic:**[Using legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/submitting-legal-request.md)
 

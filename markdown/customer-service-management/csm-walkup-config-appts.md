@@ -2,7 +2,10 @@
 title: Create or modify a Walk-up Experience appointment booking service configuration
 description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-config-appts.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -115,7 +118,7 @@ Appointment is mandatory
 
 </td><td>
 
-Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the [Select Appointment window](https://www.servicenow.com/docs/access?context=appt-booking-select-appt-window&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US) before submitting the service request.
+Enable this check box if it is mandatory that a customer create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment on the Select Appointment window before submitting the service request.
 -   If disabled, the user can submit the service request without selecting an appointment.
 
 

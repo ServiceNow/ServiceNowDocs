@@ -2,6 +2,7 @@
 title: Override metric data
 description: If the metric data provided by the data owner is inaccurate, then you can modify or override the metric data provided by the data owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/t\_override-metric-data.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

@@ -2,7 +2,10 @@
 title: View schedule and track the parts for drop-off
 description: You can view the parts that you have scheduled for drop off from your personal stockroom to another stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/drop-off-parts-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## About this task
 
-The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to [Transfer orders for Asset Management](https://www.servicenow.com/docs/access?context=transfer-orders-asset&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to Transfer orders for Asset Management.
 
 ## Procedure
 
@@ -29,8 +32,8 @@ The transfer order line for drop-off must be in **Draft** or **Requested** state
 
     You can view the list of parts that you have scheduled for drop off.
 
-    For more information on dropping off an asset, refer to [Drop off an asset](../../planning-and-policy/task/t_DropOffAnAsset.md).
+    For more information on dropping off an asset, refer to [Drop off an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_DropOffAnAsset.md).
 
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

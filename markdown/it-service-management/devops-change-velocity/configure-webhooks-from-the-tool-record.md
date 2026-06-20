@@ -2,6 +2,7 @@
 title: Configure webhooks from the tool record
 description: Configure webhooks from the tool record to send data to DevOps Change Velocity after your tool is connected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -23,21 +24,21 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner in DevOps Change Veloc
 
 1.  Navigate to **All** &gt; **Workspaces &gt; DevOps Change Workspace &gt; Tools**.
 
-2.  Select the required tool to open the tool record.![Configure options in the tool record](../image/configure-tool-record.png)
+2.  Select the required tool to open the tool record.\[Omitted image "configure-tool-record.png"\] Alt text: Configure options in the tool record
 
 3.  Select the **Configure** drop-down menu, and select one of the following actions.
 
     **Note:** You can also select the a Project, Plan, or Repository record and configure the corresponding webhooks for them specifically.
 
-<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d420830e95">
+<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d173008e95">
 
 Options
 
-</th><th align="left" id="d420830e98">
+</th><th align="left" id="d173008e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d420830e104">
+</th></tr></thead><tbody><tr><td id="d173008e104">
 
 **Auto configure with existing token**
 
@@ -45,7 +46,7 @@ Description
 
 Configures a webhook with your existing token.
 
-</td></tr><tr><td id="d420830e113">
+</td></tr><tr><td id="d173008e113">
 
 **Auto configure with new token**
 
@@ -53,24 +54,24 @@ Configures a webhook with your existing token.
 
 Configures a webhook with a new token.
 
-</td></tr><tr><td id="d420830e122">
+</td></tr><tr><td id="d173008e122">
 
 **Configure manually**
 
 </td><td>
 
--   [Configure webhooks in Azure DevOps manually](../concept/configure-test-webhooks.md#)
--   [Configure webhooks in GitHub manually](config-webhooks-github-manually.md)
--   [Configure webhooks in GitLab manually](configure-webhooks-in-gitlab.md)
--   [Configure webhooks in Jira manually](config-webhooks-jira-manually.md)
--   [Configure webhooks in Bitbucket manually](config-webhooks-bitbucket-manually.md)
--   [Configure webhooks in Argo CD manually](configure-webhooks-in-argo-cd-manually.md)
--   [Configure webhooks manually for Jenkins](configure-jenkins-plugin.md#)
+-   [Configure webhooks in Azure DevOps manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/configure-test-webhooks.md)
+-   [Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/config-webhooks-github-manually.md)
+-   [Configure webhooks in GitLab manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/configure-webhooks-in-gitlab.md)
+-   [Configure webhooks in Jira manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/config-webhooks-jira-manually.md)
+-   [Configure webhooks in Bitbucket manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/config-webhooks-bitbucket-manually.md)
+-   [Configure webhooks in Argo CD manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/configure-webhooks-in-argo-cd-manually.md)
+-   [Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/configure-jenkins-plugin.md)
 
 
 </td></tr></tbody>
 </table>    Webhooks are configured in your third-party tool's instance to send data to DevOps Change Velocity.
 
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

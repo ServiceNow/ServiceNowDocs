@@ -2,6 +2,7 @@
 title: Disable soap fault stack trace display
 description: Manage how stack traces are displayed in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-disable-soap-fault-stack-trace-display.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -94,5 +95,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

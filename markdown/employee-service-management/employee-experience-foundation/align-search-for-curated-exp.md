@@ -2,6 +2,7 @@
 title: AI Search for Curated Experiences
 description: Align the AI search to limit the search to the content associated with your taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/align-search-for-curated-exp.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ Deactivate the existing taxonomy so that the search configurations pick up the c
 
 For new customers, the AI search is enabled by default.
 
-If you have installed a version of Service Portal prior to Rome, and want to use the Employee taxonomy that is provided by default with the Employee Center portal, you must run a fix script. For more information, see [Run fix scripts to update Employee Center](run_scripts_manually_config-search.md).
+If you have installed a version of Service Portal prior to Rome, and want to use the Employee taxonomy that is provided by default with the Employee Center portal, you must run a fix script. For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
 
 ## Procedure
 

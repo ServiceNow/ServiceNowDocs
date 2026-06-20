@@ -2,6 +2,7 @@
 title: How ERP Customization Mining determines candidate score and potential
 description: ERP Customization Mining \(ERP-CM\) generates a score to rank the potential for replatforming legacy ERP \(Enterprise Resource Planning\) candidates onto the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-potential-and-recommendations.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -22,7 +23,7 @@ Every candidate has an ERP module specified in the candidate details in ERP-CM. 
 
 **Note:**
 
-Admins must first configure the connection to the ERP system in ERP Data Hub. For more information, see [Working with ERP systems in ERP Data Hub](../../erp-integration/concept/erp-canvas-work-with-systems.md).
+Admins must first configure the connection to the ERP system in ERP Data Hub. For more information, see [Working with ERP systems in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-work-with-systems.md).
 
 ## High and low scores for candidate potential
 
@@ -49,5 +50,5 @@ The candidate potential score is calculated using the following metrics:
 -   Unsupported table extensions: The number of custom app tables that are also suggested as model extensions.
 -   Model inaccuracy: The number of tables supported by relevant ERP models that aren’t used by custom apps, and are passed through a sigmoid function.
 
-**Parent Topic:**[Exploring ERP Customization Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/exploring-ecm.md)
 

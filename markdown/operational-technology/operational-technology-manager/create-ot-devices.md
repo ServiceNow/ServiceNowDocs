@@ -2,6 +2,7 @@
 title: Create an OT device
 description: Create an OT device manually in the Import OT Devices staging table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/create-ot-devices.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -25,9 +26,9 @@ You can manually create an OT device in the Import OT Devices staging table inst
 
 For more information about using the Excel template, see the following topics:
 
--   [Download the Excel template](download-excel-template.md)
--   [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md)
--   [Import the Excel template](import-excel-template.md)
+-   [Download the Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/download-excel-template.md)
+-   [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md)
+-   [Import the Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/import-excel-template.md)
 
 ## Procedure
 
@@ -127,5 +128,5 @@ Equipment model entity path that the device is on.
 
 The OT device is created and added to the staging table.
 
-**Parent Topic:**[Easy import](../concept/easy-import.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/easy-import.md)
 

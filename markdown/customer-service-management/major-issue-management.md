@@ -2,7 +2,10 @@
 title: Major issue management overview
 description: Major issue management enables customer communication for issues that impact a wider audience. Use this feature to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/major-issue-management.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

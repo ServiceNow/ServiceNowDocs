@@ -2,6 +2,7 @@
 title: Read-only roles for Financial Management
 description: You can restrict the level of access of your users with a read-only role that enables them to view the Financial Management \(FM\) dashboards. Users with the read-only role can view FM reports and the underlying tables that provide data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/user-roles-fm-apm.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -21,7 +22,7 @@ If you are a new customer, the Read only roles for PPM Standard \(com.snc.pmo\_r
 
 ## Why read-only roles for FM
 
-Read only roles for Financial Management \(sn\_itfm\_read\) is available when Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) is activated. Users with this role can access dashboards and view reports in Financial Management for Application Portfolio Management. To assign user roles, including read-only roles, see [assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Read only roles for Financial Management \(sn\_itfm\_read\) is available when Read only roles for PPM Standard plugin \(com.snc.pmo\_read\_roles\) is activated. Users with this role can access dashboards and view reports in Financial Management for Application Portfolio Management. To assign user roles, including read-only roles, see assign a role to a user.
 
 ## Dashboards accessible to users with FM read role
 
@@ -45,5 +46,5 @@ Following are the Financial Management tables that the users with the FM read ro
 |IT Shared Service|itfm\_shared\_service|
 |Cost Allocation Breakdown Aggregate|itfm\_allocation\_breakdown|
 
-**Parent Topic:**[Financial Management](../concept/c_ITFinance.md)
+**Parent Topic:**[Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_ITFinance.md)
 

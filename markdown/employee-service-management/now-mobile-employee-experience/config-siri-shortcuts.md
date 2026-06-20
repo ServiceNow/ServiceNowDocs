@@ -2,6 +2,7 @@
 title: Configure Siri shortcuts for Now Mobile
 description: Configure Siri shortcuts for quick access to common features on your iOS mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/config-siri-shortcuts.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -23,10 +24,10 @@ Role required: admin
 
 1.  Set up the Siri shortcuts in the Apple **Shortcuts** application.
 
-    ![Mobile UI of Siri shortcuts displaying different feature tiles.](../image/siri_shortcut24.png "Siri shortcuts")
+    \[Omitted image "siri\_shortcut24.png"\] Alt text: Mobile UI of Siri shortcuts displaying different feature tiles.
 
     For more information, see [https://support.apple.com/en-in/guide/shortcuts/welcome/ios](https://support.apple.com/en-in/guide/shortcuts/welcome/ios).
 
 
-**Parent Topic:**[Configuring Now Mobile](../../mobile-employee/concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

@@ -2,6 +2,7 @@
 title: Add dynamic attributes to a dynamic group
 description: Define the dynamic attributes that describe a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-dynamic-attributes.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -77,7 +78,7 @@ Choice Set
 
 </td><td>
 
-Fixed set of values defined in a choice set. For example, if you created a choice set for Colors with choices for red, green, and blue, you can select the Colors choice set to limit the attribute's values to the color choices defined in the choice set. See [Create a dynamic choice set](create-choice-set.md).
+Fixed set of values defined in a choice set. For example, if you created a choice set for Colors with choices for red, green, and blue, you can select the Colors choice set to limit the attribute's values to the color choices defined in the choice set. See [Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-choice-set.md).
 
  This option only appears when you select String in the **Type** field.
 
@@ -111,11 +112,11 @@ Option to activate the dynamic attribute.
 
 ## Add a dynamic attribute for product height
 
-![Add a dynamic attribute that captures the height of products.](../image/dynamic-attribute-example.png)
+\[Omitted image "dynamic-attribute-example.png"\] Alt text: Add a dynamic attribute that captures the height of products.
 
 ## What to do next
 
 Add more dynamic attributes to the dynamic attribute group as needed. For example, when defining metadata for products in the electronics category, you might add dynamic attributes for height, width, and depth.
 
-**Parent Topic:**[Dynamic Schema](../concept/dynamic-schema.md)
+**Parent Topic:**[Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-schema.md)
 

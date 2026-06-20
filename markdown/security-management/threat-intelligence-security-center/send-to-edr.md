@@ -2,13 +2,14 @@
 title: Send observables to EDR
 description: Send observables to the EDR security tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/send-to-edr.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-10-22"
 reading_time_minutes: 1
-breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Send observables to EDR
@@ -35,13 +36,13 @@ Role required: sn\_sec\_tisc.analyst
 
 6.  Select the required implementation from the list.
 
-    ![Send observable to CrowdStrike - Implementation](../image/tisc-send-to-edr.png)
+    \[Omitted image "tisc-send-to-edr.png"\] Alt text: Send observable to CrowdStrike - Implementation
 
 7.  Click **Next**.
 
 8.  Select the run time details such as the **Action Type** and **Description** of the implementation.
 
-    ![Send observable to CrowdStrike - Runtime details](../image/tisc-send-to-edr-runtime.png)
+    \[Omitted image "tisc-send-to-edr-runtime.png"\] Alt text: Send observable to CrowdStrike - Runtime details
 
     The available options for the CrowdStrike during implementation run time details are:
 
@@ -54,7 +55,7 @@ Role required: sn\_sec\_tisc.analyst
     **Note:**
 
     -   Once the execution is initiated or completed, a work notes is posted on the activity stream of the form view.
-    -   **Send to EDR** action is also available on the observables list under **Artifacts** tab for a case record. For more information, see [Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md).
+    -   **Send to EDR** action is also available on the observables list under **Artifacts** tab for a case record. For more information, see [Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md).
 
-**Parent Topic:**[CrowdStrike Falcon EDR integration](../concept/crowdstrike-edr-integration.md)
+**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
 

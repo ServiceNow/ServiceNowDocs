@@ -2,6 +2,7 @@
 title: Customer Service Management Product Maturity Assessment
 description: The Customer Service Management \(CSM\) Product Maturity Assessment Accelerator provides insight into your current ServiceNow CSM maturity level and targeted recommendations based on the current maturity level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The Customer Service Management \(CSM\) Product Maturity Assessment Accelerator 
 
 ## Overview
 
-Customer Service Management \(CSM\) Product Maturity Assessment provides Impact customers with insight into the maturity of CSM adoption and value with their ServiceNow platform. See [Exploring Customer Service Management](https://www.servicenow.com/docs/access?context=exploring-csm&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) for information on CSM.
+Customer Service Management \(CSM\) Product Maturity Assessment provides Impact customers with insight into the maturity of CSM adoption and value with their ServiceNow platform. See  for information on CSM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

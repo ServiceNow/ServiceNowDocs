@@ -2,6 +2,7 @@
 title: Parallel testing using Cloud Runner
 description: Parallel testing using the Cloud Runner involves execution of tests within a suite in parallel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-parallel-test.html
 release: xanadu
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner

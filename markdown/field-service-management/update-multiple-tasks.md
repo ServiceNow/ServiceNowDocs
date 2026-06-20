@@ -2,7 +2,10 @@
 title: Update multiple work order tasks simultaneously
 description: Save time and update multiple work order tasks at once in the calendar in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/update-multiple-tasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: wm\_dispatcher
 
     **Note:** Tasks must be in the assigned or scheduled state to be selected.
 
-4.  Select the Overflow actions icon \(![Overflow actions icon](../image/overflow-actions.png)\) in the contextual side panel.
+4.  Select the Overflow actions icon \(\[Omitted image "overflow-actions.png"\] Alt text: Overflow actions icon\) in the contextual side panel.
 
 5.  Select the action to perform on the tasks:
 

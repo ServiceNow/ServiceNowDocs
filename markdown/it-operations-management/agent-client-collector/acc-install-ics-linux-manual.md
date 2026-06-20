@@ -2,6 +2,7 @@
 title: Install MID-less Agent Client Collector manually in a Linux environment
 description: Install MID-less Agent Client Collector manually on a Linux machine to enable sending data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-install-ics-linux-manual.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,12 +19,12 @@ Install MID-less Agent Client Collector manually on a Linux machine to enable se
 ## Before you begin
 
 -   Install the ITOM Cloud Services Core \(sn\_itom\_cloud\_svc\) plugin.
--   Configure an agent registration key. For details, see [Configure an agent registration key](agent-registration-key-configuration.md).
+-   Configure an agent registration key. For details, see [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 -   Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For details on sending data through the cloud in a MID-less deployment, see .
 
 ## Procedure
 
@@ -213,5 +214,5 @@ For details on sending data through the cloud in a MID-less deployment, see [DEX
         `# systemctl start acc`
 
 
-**Parent Topic:**[Installing MID-less Agent Client Collector](../concept/acc-itom-cloud-services.md)
+**Parent Topic:**[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)
 

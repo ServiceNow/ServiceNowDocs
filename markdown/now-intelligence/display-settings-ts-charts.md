@@ -2,6 +2,7 @@
 title: Display settings for different time series charts
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/display-settings-ts-charts.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-22"

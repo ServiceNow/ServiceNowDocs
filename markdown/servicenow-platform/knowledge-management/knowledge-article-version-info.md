@@ -2,6 +2,7 @@
 title: Knowledge article version information
 description: Users can view version information for a knowledge article from the Knowledge view page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/knowledge-article-version-info.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -24,5 +25,5 @@ You can view any of the previous versions of an article by clicking the version 
 
 At the bottom of a knowledge article, you can see additional information about an article, including the name of the author or revisor and the date that the article was last modified.
 
-**Parent Topic:**[Knowledge Management reference](../../../knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

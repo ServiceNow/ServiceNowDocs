@@ -2,6 +2,7 @@
 title: SCA Overview dashboard
 description: The SCA Overview dashboard enables you to view and manage control assessments as they occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,7 +26,7 @@ Users with the following roles can access the dashboard:
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **SCA Overview**.
 
-![SCA Overview dashboard displaying the different reports.](../image/cam-sca-overview.png)
+\[Omitted image "cam-sca-overview.png"\] Alt text: SCA Overview dashboard displaying the different reports.
 
 ## Reports on the SCA Overview dashboard
 
@@ -41,5 +42,5 @@ To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp;
 |Engagement Results|An overall count of audit engagements conducted for each entity. The chart is stacked to display the overall audit results for each entity.|
 |Overdue Audit Tasks|List of open audit tasks that have exceeded the planned end date.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for CAM](../../../use/dashboards/application-content-packs/cam-pa-next-exp-dashboards.md)
+**Parent Topic:**[Analytics and Reporting Solutions for CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.md)
 

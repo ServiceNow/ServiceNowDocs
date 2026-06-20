@@ -2,6 +2,7 @@
 title: Workplace Service Portal
 description: The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-core/workplace-services-portal-wsd.html
 release: xanadu
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ The Workplace Service Portal is a self-service portal for employees, delivering 
 
 **Note:**
 
-In Workplace Core \[sn\_wsd\_core\] version 2.19.0 and above, the navigation path for Workplace Services Portal is not available in the application search context menu **All****Workplace Core**. The Workplace Services Portal is currently being deprecated. You can access the Workplace Services Portal from the Employee Center portal home page **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace services**. For more information, [Workplace services on the Employee Center portal](workplace-services-on-employee-center.md).
+In Workplace Core \[sn\_wsd\_core\] version 2.19.0 and above, the navigation path for Workplace Services Portal is not available in the application search context menu **All****Workplace Core**. The Workplace Services Portal is currently being deprecated. You can access the Workplace Services Portal from the Employee Center portal home page **All** &gt; **Self-Service** &gt; **Employee Center** &gt; **Workplace services**. For more information, [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
 From the Workplace Service Portal, you can do the following:
 
@@ -28,7 +29,7 @@ From the Workplace Service Portal, you can do the following:
 -   View your requests and approvals \(if you are an approver\).
 -   View the location directory of your organization. Search for a co-worker, a space or any workplace location on the world map.
 
-    **Note:** To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](../../workplace-space-mapping/concept/wsm-mappedin-admin.md).
+    **Note:** To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-mappedin-admin.md).
 
 -   Submit requests for general inquiry, registering visitors, shift-based reservations, and other requests.
 -   Chat with a virtual agent to submit requests and view submitted requests.

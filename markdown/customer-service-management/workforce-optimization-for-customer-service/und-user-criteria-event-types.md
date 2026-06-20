@@ -2,6 +2,7 @@
 title: Understanding user criteria for event types in Workforce Optimization for Customer Service
 description: Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.Add a user criteria record to specify which users, roles, and groups can access event types in Workforce Optimization for Customer Service.Add or remove access to users for any event type so that they can view event types that are relevant only to them.​Check what create, read, update, and delete rights your groups or your team members have for events to make sure that they have the correct permissions that they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/und-user-criteria-event-types.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -23,7 +24,7 @@ For additional flexibility around managing the CRUD access, you can set the user
 
 The flow diagram shows the logic on how inclusion and exclusion user criteria access work for event types.
 
-![](../image/inclusion-exclusion-criteria-event-types.svg "Inclusion and exclusion logic for event types")
+\[Omitted image "inclusion-exclusion-criteria-event-types.svg"\]
 
 **How inclusion and exclusion user criteria access works**
 
@@ -42,7 +43,7 @@ When the user criteria rules get evaluated, it's done in the following order:
 
 **Note:** The exclusion access always takes precedence over the inclusion access. If no inclusion or exclusion access is set, then the role-based access is used for managing event types.
 
-**Parent Topic:**[Using Workforce Optimization for Customer Service](use-configurable-wfo-cs.md)
+**Parent Topic:**[Using Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-configurable-wfo-cs.md)
 
 ## Create user criteria for event types in Workforce Optimization for Customer Service
 
@@ -92,15 +93,15 @@ Role required: sn\_shift\_planning.admin​
 
 3.  Exclude or Include specific CRUD access for users to events.
 
-<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d185610e425">
+<table id="choicetable_s5n_mmr_pwb"><thead><tr><th align="left" id="d88671e425">
 
 To
 
-</th><th align="left" id="d185610e428">
+</th><th align="left" id="d88671e428">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d185610e434">
+</th></tr></thead><tbody><tr><td id="d88671e434">
 
 **Exclude users for which you do not want to enable specific access to event types.__Important:__ For exclusion, a __Create__ access will deny the user from creating events because it excludes that access for the user. The same principle applies to any of the CRUD operations.
 
@@ -119,7 +120,7 @@ Do this
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d185610e491">
+</td></tr><tr><td id="d88671e491">
 
 **Include users for which you want to enable specific access to event types.__Important:__
 
@@ -165,15 +166,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d185610e673">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d88671e673">
 
 To
 
-</th><th align="left" id="d185610e676">
+</th><th align="left" id="d88671e676">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d185610e682">
+</th></tr></thead><tbody><tr><td id="d88671e682">
 
 **Verify user access for all your groups**
 
@@ -181,7 +182,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d185610e694">
+</td></tr><tr><td id="d88671e694">
 
 **Specific groups and team members**
 

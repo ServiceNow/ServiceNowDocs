@@ -2,6 +2,7 @@
 title: Configuring Enterprise Asset Management by incident managers
 description: Incident managers or users with the itil role can configure the Enterprise Asset Management application by creating, updating, and resolving IT incidents for enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/config-eam-itil.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -20,10 +21,10 @@ The itil role can perform the following:
 -   Create Enterprise Asset Management incidents
 -   Resolve and close Enterprise Asset Management incidents.
 
--   **[Create an Enterprise Asset Management incident](../task/create-eam-incident.md)**  
+-   **[Create an Enterprise Asset Management incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-incident.md)**  
 Create an incident record to document a deviation from an expected Enterprise Asset Management standard of operation.
--   **[Resolve and close an Enterprise Asset Management incident](../task/resolve-eam-incident.md)**  
+-   **[Resolve and close an Enterprise Asset Management incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/resolve-eam-incident.md)**  
 Take action on the assets that are affected by an Enterprise Asset Management incident so that you can resolve and close the incident.
 
-**Parent Topic:**[Configuring Enterprise Asset Management](configuring-eam.md)
+**Parent Topic:**[Configuring Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/configuring-eam.md)
 

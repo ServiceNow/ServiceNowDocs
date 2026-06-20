@@ -2,6 +2,7 @@
 title: Setting up service channels and queues
 description: You can set up service channels, queues, and key performance indicators \(KPIs\) to route work items automatically to agents based on an agent's availability, capacity, and skills.Add service channels and queues to automatically route incoming work items to agents.Define agent assignment rules and specify groups of agents who are eligible to receive overflow work assignments for a queue.Configure key performance indicators \(KPIs\) in service channels to your teams to track the ongoing work and real-time performance of teams.Configure key performance indicators \(KPIs\) for queues so that you can track the incoming work by category in a service channel.Configure key performance indicators \(KPIs\) in service channels for your agents so that you can track the agents' ongoing work and real-time performance.Configure supervisor lists in a service channel to view the list of active work items across service channels and queues.Use scripted extension points to configure the sort order for the columns in the All Agents and All Queues lists for Channel Management.Use scripted extension points to configure the columns in the All agents list for Channel Management.Use scripted extension points to configure the columns in the All queues list for Channel Management.Generate and distribute a daily scheduled report that summarizes the agent's work performance via email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-channels-queues-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -19,9 +20,9 @@ You can set up service channels, queues, and key performance indicators \(KPIs\)
 
 With Workforce Optimization for Customer Service, you, as a channel administrator, can set up service channels and work item queues so that managers can view the real-time operational metrics for the work that is being done by their teams and the specific items that their teams are working on. You can also configure real-time refresh intervals for the metrics and lists so that managers can always see the latest information about their teams.
 
-Configure filters to refine the search and view targeted results. Filters are persisted across all channel management pages in the session. To view a list of the default interactive filters and the KPI reports for channels, queues, agents, and groups that you can map to the interactive filters, see [Interactive Filters](../reference/components-installed-configurable-wfo-cs.md) under the Channel Management section. By default, the assignment group filter is applied to all lists and groups that you manage. You can disable interactive filters by using the **sn\_channel\_mgmt.filter\_config.enable** property.
+Configure filters to refine the search and view targeted results. Filters are persisted across all channel management pages in the session. To view a list of the default interactive filters and the KPI reports for channels, queues, agents, and groups that you can map to the interactive filters, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) under the Channel Management section. By default, the assignment group filter is applied to all lists and groups that you manage. You can disable interactive filters by using the **sn\_channel\_mgmt.filter\_config.enable** property.
 
-**Parent Topic:**[Configuring Workforce Optimization for Customer Service](setup-configurable-wfo-cs.md)
+**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 
 ## Add service channels and queues
 
@@ -42,14 +43,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Click **New** and see [Create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) to create the service channel.
+    2.  Click **New** and see Create a service channel to create the service channel.
     3.  Click **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Queues** or select the service channel and click the **Queues** tab.
-    2.  Click **New** and see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) to create the queue.
+    2.  Click **New** and see Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 
@@ -61,7 +62,7 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 **Important:** Starting with the Tokyo release, Legacy Workforce Optimization is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). Use [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use Advanced Work Assignment \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -109,8 +110,8 @@ Groups
 
 </td><td>
 
-Groups that are eligible for assignment. -   Click the lock \(![Lock icon.](../image/lock-new.png)\) icon to unlock it and select the agent groups in the eligible assignment pool.
--   Click the \(![Lock icon.](../image/lock-new.png)\) icon to lock it.
+Groups that are eligible for assignment. -   Click the lock \(\[Omitted image "lock-new.png"\] Alt text: Lock icon.\) icon to unlock it and select the agent groups in the eligible assignment pool.
+-   Click the \(\[Omitted image "lock-new.png"\] Alt text: Lock icon.\) icon to lock it.
 
 
 </td></tr></tbody>
@@ -118,7 +119,7 @@ Groups that are eligible for assignment. -   Click the lock \(![Lock icon.](../i
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
 
 
 ## Configure KPIs for service channels
@@ -133,15 +134,15 @@ Role required: sn\_channel\_mgmt.admin
 
 ### About this task
 
-Add the [channel Management reports](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
+Add the [channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service or create a new KPI report that matters the most to you. Key performance indicators help managers perform the following actions:
 
 -   Review real-time performance as the team is actively working on tasks across channels and queues.​
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
 -   Drill down into all queues and monitor ongoing cases, interactions, and tasks.
 -   Jump in and support agents for help-requested work items using chat whisper or add work notes to a task.​
--   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see [Interactive Filters](https://www.servicenow.com/docs/access?context=c_HomepagePublishers&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+-   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see Interactive Filters.
 
-The KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](../reference/components-installed-configurable-wfo-cs.md) or choose to not automatically refresh using the **sn\_channel\_mgmt.channels\_card\_auto\_refresh.enable** [property](../reference/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(![Refresh overview data icon](../image/refresh-sync-new.png)\) icon.
+The KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) or choose to not automatically refresh using the **sn\_channel\_mgmt.channels\_card\_auto\_refresh.enable** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon\) icon.
 
 ​
 
@@ -153,9 +154,9 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
 3.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
-4.  Select and add the [Channel Management reports](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
+4.  Select and add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
     **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
 
@@ -167,7 +168,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -183,7 +184,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -210,15 +211,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  To add KPIs to a queue, do one of the following.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d181530e874">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d180034e874">
 
 To
 
-</th><th align="left" id="d181530e877">
+</th><th align="left" id="d180034e877">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d181530e883">
+</th></tr></thead><tbody><tr><td id="d180034e883">
 
 **Add from a service channel**
 
@@ -230,7 +231,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d181530e925">
+</td></tr><tr><td id="d180034e925">
 
 **Add from a queue**
 
@@ -243,9 +244,9 @@ Do This
 </td></tr></tbody>
 </table>2.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
-3.  Add the [Channel Management reports](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
+3.  Add the [Channel Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
     **Note:** Review the report's definition and add the corresponding filters applicable to the service channel that matter the most to you.
 
@@ -257,7 +258,7 @@ Do This
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -273,7 +274,7 @@ Do This
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -282,7 +283,7 @@ Do This
 
 ### Result
 
-The key performance indicators are added to the queue and appear in the **All Queues** tab in the Channels page. By default, the KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the [sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds](../reference/components-installed-configurable-wfo-cs.md) property.
+The key performance indicators are added to the queue and appear in the **All Queues** tab in the Channels page. By default, the KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the [sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) property.
 
 ## Configure KPIs for agents
 
@@ -301,7 +302,7 @@ Add key performance indicators to channels to help managers perform the followin
 -   Review real-time performance of agents who are actively working on tasks across channels and queues.​
 -   Track progress against KPIs and drill down into agents and individual performance.​
 
-The KPI scores are automatically refreshed at an interval of 30 seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](../reference/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(![Refresh overview data icon](../image/refresh-sync-new.png)\) icon.
+The KPI scores are automatically refreshed at an interval of 30 seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh overview data icon\) icon.
 
 ​
 
@@ -313,7 +314,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
 3.  Click the Agents Reports related list.
 
-4.  Add the [Reports for Agents in Channel Management](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
+4.  Add the [Reports for Agents in Channel Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
     **Note:** Review the report's definition and add the corresponding filters that are applicable to the service channel that matters the most to you.
 
@@ -325,7 +326,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -341,7 +342,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -352,7 +353,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
 ### Result
 
-The KPIs that are configured in the service channel appear in the Current Work section of the agent's Overview page. For more information, see [Track and analyze agents' performance](use-channels-configurable-wfo-cs.md#).
+The KPIs that are configured in the service channel appear in the Current Work section of the agent's Overview page. For more information, see [Track and analyze agents' performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-channels-configurable-wfo-cs.md).
 
 ## Configure supervisor lists for service channels
 
@@ -366,7 +367,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ### About this task
 
-A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Database views](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see Database views.
 
 **Note:** You can configure three supervisor lists for each service channel. The first three lists with the lowest order number appear in Channel Management.
 
@@ -378,9 +379,9 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Click the **Supervisor Lists** tab.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) if you do not see the **Supervisor Lists** tab.
+    **Note:** You must add the Reports related list if you do not see the **Supervisor Lists** tab.
 
-4.  Click **New**.![Service channel chat displaying supervisor lists. For information about the supervisor lists components, refer to the Supervisor Lists form table.](../image/supervisor-lists.png)
+4.  Click **New**.\[Omitted image "supervisor-lists.png"\] Alt text: Service channel chat displaying supervisor lists. For information about the supervisor lists components, refer to the Supervisor Lists form table.
 
 5.  On the form, fill in the fields.
 
@@ -438,7 +439,7 @@ Number that displays the order.**Note:** The first three lists with the lowest o
 
 ### Result
 
-The supervisor list is added to the service channels and appears in Channel Management. ![Active Work Items page displaying the supervisor lists in a Chat channel.](../image/lists-chat.png)
+The supervisor list is added to the service channels and appears in Channel Management. \[Omitted image "lists-chat.png"\] Alt text: Active Work Items page displaying the supervisor lists in a Chat channel.
 
 ## Use extension points to configure the sort order
 
@@ -466,7 +467,7 @@ Use the **sn\_channel\_mgmt.ChannelMgmtExtensionPoint** extension point and crea
 
 5.  Add or modify the columns and sort directions in the `vardata` section.
 
-    ![Scripted extension point with the vardata section empty.](../image/extension_script.jpg)
+    \[Omitted image "extension\_script.jpg"\] Alt text: Scripted extension point with the vardata section empty.
 
 6.  Click **Update**.
 
@@ -477,7 +478,7 @@ The sorting mechanism is applied to the defined columns in the All Queues and Al
 
 ### Example
 
-The Presence State column with **ASC** as a sort direction in the extension script displays the Presence State records in an ascending order in the All Agents list. For more information, see [Track and analyze agents' performance](use-channels-configurable-wfo-cs.md#).
+The Presence State column with **ASC** as a sort direction in the extension script displays the Presence State records in an ascending order in the All Agents list. For more information, see [Track and analyze agents' performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-channels-configurable-wfo-cs.md).
 
 ## Configure columns in the All agents list
 
@@ -505,7 +506,7 @@ Use the **sn\_channel\_mgmt.AgentListColumns** extension point to modify the cur
 
 5.  Add or modify the columns in the `getColumns` section.
 
-    ![Scripted extension point to configure the columns in the All agents list.](../image/configure_columns_allagents.png)
+    \[Omitted image "configure\_columns\_allagents.png"\] Alt text: Scripted extension point to configure the columns in the All agents list.
 
 6.  Click **Update**.
 
@@ -536,7 +537,7 @@ Use the **sn\_channel\_mgmt.QueueListColumns** extension point to modify the cur
 
 5.  Add or modify the columns in the `getColumns` section.
 
-    ![Scripted extension point to configure columns in the All queues list.](../image/configure_columns_allqueues.png)
+    \[Omitted image "configure\_columns\_allqueues.png"\] Alt text: Scripted extension point to configure columns in the All queues list.
 
 6.  Click **Update**.
 

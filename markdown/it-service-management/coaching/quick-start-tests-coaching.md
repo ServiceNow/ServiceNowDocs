@@ -2,6 +2,7 @@
 title: Quick start tests for Coaching
 description: Validate that Coaching still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/coaching/quick-start-tests-coaching.html
 release: xanadu
 product: Coaching
 classification: coaching
@@ -33,5 +34,5 @@ Coaching quick start tests require activating the Coaching plugin \(com.sn\_coac
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

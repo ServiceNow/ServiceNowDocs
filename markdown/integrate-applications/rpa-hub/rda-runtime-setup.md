@@ -2,6 +2,7 @@
 title: Configuring Attended Robot
 description: You can plan and configure an Attended Robot implementation in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/rda-runtime-setup.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ The ServiceNow® Attended Robot is a software agent that you install on a Window
 
 Guided Setup provides a sequence of tasks that help you configure Attended Robot. With Guided Setup, keep track of what you have completed, so you can stop and start again where you left off. To open Guided Setup for RPA Hub, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 
 ## Configuration overview
 

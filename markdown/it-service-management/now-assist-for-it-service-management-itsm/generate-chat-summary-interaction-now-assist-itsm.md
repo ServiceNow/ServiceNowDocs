@@ -2,6 +2,7 @@
 title: Summarize a chat conversation by using Now Assist for IT Service Management \(ITSM\)
 description: Summarize the Virtual Agent chat conversation between a live agent and a requester in Service Operations Workspace for ITSM. You can generate the summary by using the chat summarization skill in Now Assist for IT Service Management \(ITSM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -39,13 +40,13 @@ You can also summarize the chat interaction when the chat ends or when an incide
 
 4.  Summarize the chat while interacting with the requester by using the `/summarize` quick action in the **Active Chat** section.
 
-    For more information, see [Chat summarization](https://www.servicenow.com/docs/access?context=now-assist-chat-summary&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For more information, see .
 
 5.  End the chat by selecting **End Chat**.
 
     The **Short description** and **Chat Summary** fields are updated for the interaction.
 
-    ![Chat summarization for an interaction.](../image/itsm-chat-summary.png)
+    \[Omitted image "itsm-chat-summary.png"\] Alt text: Chat summarization for an interaction.
 
 6.  Review the text in the **Short description** or **Chat Summary** fields and edit if necessary.
 
@@ -62,5 +63,5 @@ You can also summarize the chat interaction when the chat ends or when an incide
         -   The **Chat summary** field of the interaction is updated with the interaction summary.
         -   The **Short Description** and **Description** fields of the incident are updated with the interaction summary and saved.
 
-**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](../concept/using-now-assist-for-itsm.md)
+**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 

@@ -1,0 +1,18 @@
+---
+title: Individual Life Servicing reference
+description: Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Individual Life Servicing application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services/individual-life-servicing-reference.html
+release: xanadu
+product: Financial Services
+classification: financial-services
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Setting up Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+---
+
+# Individual Life Servicing reference
+
+Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Individual Life Servicing application.
+

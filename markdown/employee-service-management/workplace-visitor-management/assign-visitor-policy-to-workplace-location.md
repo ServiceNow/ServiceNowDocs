@@ -2,6 +2,7 @@
 title: Assign visitor policy to a workplace location
 description: Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.html
 release: xanadu
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -48,7 +49,7 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
     2.  Move the selection to the **Locations List** column on the right.
 
-        To move the location, use the add-remove icon \(![](../../wsd-reservation-management/image/add-remove-icon.png)\).
+        To move the location, use the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text:\).
 
 6.  Click **Save**.
 
@@ -57,5 +58,5 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
 The visitor policy is assigned to the selected workplace location.
 
-**Parent Topic:**[Create a visitor policy](create-visitor-policy.md)
+**Parent Topic:**[Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-visitor-management/create-visitor-policy.md)
 

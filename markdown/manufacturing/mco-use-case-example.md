@@ -2,6 +2,7 @@
 title: Manufacturing Commercial Operations Use Cases
 description: In this example, the Manufacturing Commercial Operations application helps the fictitious Zenod manufacturing company \(the OEM\) use Service Exchange to manage their partnerships with Boxeo, a transportation company who uses their printers and services for shipping goods globally, and Office Mart, a channel retailer that sells many office brands and commercial tech supplies to retailers and consumers \(e.g., computers, monitors, printers, shipping supplies, etc.\)​.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-use-case-example.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

@@ -2,6 +2,7 @@
 title: Create a Data Stream \(Integration Hub\) type data source
 description: Create a Data Stream \(IntegrationHub\) type data source record to define what complex data an import set should import from a Data Stream action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/system-import-sets/create-data-stream-data-source.html
 release: xanadu
 product: System Import Sets
 classification: system-import-sets
@@ -73,8 +74,8 @@ Data Stream action
 
 </td><td>
 
--   ![Select Data Stream action](../image/select-data-stream-action.png) Selected to use an existing published Data Stream action from Integration Hub.
--   ![Select published Data Stream action or create new Data Stream action](../image/create-data-stream-action.png) Selected for one of the following reasons:
+-   \[Omitted image "select-data-stream-action.png"\] Alt text: Select Data Stream action Selected to use an existing published Data Stream action from Integration Hub.
+-   \[Omitted image "create-data-stream-action.png"\] Alt text: Select published Data Stream action or create new Data Stream action Selected for one of the following reasons:
     -   If you select a published Data Stream action, click this button to open the Data Stream action in Integration Hub.
     -   If you don't select a Data Stream action, click this button to create and publish a new Data Stream action in Integration Hub.
  **Note:** Data Stream actions require a subscription for production use.
@@ -87,7 +88,7 @@ Connection
 
 Specify the connection alias for the Data Stream action. You can use the default parent alias or select any of its children's aliases. Available child aliases are listed in the menu.
 
- This field is only available when the Data Stream action is configured to use a connection alias. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+ This field is only available when the Data Stream action is configured to use a connection alias. For more information, see Create a Connection and Credential alias.
 
 </td></tr><tr><td>
 

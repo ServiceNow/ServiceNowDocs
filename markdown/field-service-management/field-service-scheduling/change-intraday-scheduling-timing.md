@@ -2,6 +2,7 @@
 title: Change the time that determines whether an agent has acted
 description: Fine-tune the amount of time that determines whether an agent has acted when scheduled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/change-intraday-scheduling-timing.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -44,5 +45,5 @@ The Agent Not Take Action flow is made up of three subflows that determine wheth
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Intraday schedule automation](../concept/config-intraday-scheduling-steps.md)
+**Parent Topic:**[Configuring Intraday schedule automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/config-intraday-scheduling-steps.md)
 

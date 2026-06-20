@@ -2,6 +2,7 @@
 title: Domain separation and Predictive Intelligence Workbench
 description: Domain separation is supported in the Predictive Intelligence Workbench application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/domain-separation-pred-intell-wb.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -17,7 +18,7 @@ Domain separation is supported in the Predictive Intelligence Workbench applicat
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -43,5 +44,5 @@ An instance owner can train a machine learning model for each domain by creating
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

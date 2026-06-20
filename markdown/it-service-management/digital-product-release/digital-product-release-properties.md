@@ -2,6 +2,7 @@
 title: Digital Product Release properties
 description: Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-product-release/digital-product-release-properties.html
 release: xanadu
 product: Digital Product Release
 classification: digital-product-release
@@ -78,7 +79,7 @@ Determines whether to create individual releases that can be managed independent
 -   When set to false, a main release is created for the primary product or service that includes individual releases for each product as dependent releases.
 -   When set to true, a release bundle is created that includes independent releases for each included product.
 
-For more information, see [Create a release with a wizard](../task/dpr-create-release-guided.md).
+For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
  -   Type: true\|false
 -   Default value: false
@@ -90,7 +91,7 @@ sn\_dpr.multi\_product.included\_products\_limit
 
 </td><td>
 
-Specifies the maximum number of products that can be added as Included products when creating a multi-product release. For more information, see [Create a release with a wizard](../task/dpr-create-release-guided.md).
+Specifies the maximum number of products that can be added as Included products when creating a multi-product release. For more information, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-create-release-guided.md).
 
 **Note:** This property is applicable only if sn\_dpr.multi\_product.create\_independent\_releases is set to true.
 
@@ -125,7 +126,7 @@ sn\_dpr.release\_calendar\_exclusions
 
 Restricts the schedules shown as part of release calendar using the encoded query.
 
- You can use an encoded query on the cmn\_schedule table to filter and show specific schedules in the **Exclusion schedules** field on the [Release calendar](../task/dpr-create-release-calendar.md) dialog box. Blackout and Maintenance schedules are included by default.
+ You can use an encoded query on the cmn\_schedule table to filter and show specific schedules in the **Exclusion schedules** field on the [Release calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-create-release-calendar.md) dialog box. Blackout and Maintenance schedules are included by default.
 
  -   Type: string
 -   Default value: sn\_dpr\_model.release\_admin
@@ -171,7 +172,7 @@ sn\_dpr.VulnerabilitiesTypeMapping
 
 </td><td>
 
-Customizes the levels mapped to various types of vulnerabilities so that they can be represented in the Vulnerabilities widget in the [Release Quality dashboard](../concept/dpr-release-quality-dashboard.md).
+Customizes the levels mapped to various types of vulnerabilities so that they can be represented in the Vulnerabilities widget in the [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -218,8 +219,8 @@ sn\_dpr\_workspace.cmdb\_model\_creation.supported\_ci\_types
 
 </td><td>
 
-Specifies the comma-separated list of Configuration Item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](../task/dpr-request-product.md).
+Specifies the comma-separated list of Configuration Item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-request-product.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Link consumption rules to entitlements
 description: After you've created a consumption rule, you must link the rule to one or more entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/link-consumption-rules.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

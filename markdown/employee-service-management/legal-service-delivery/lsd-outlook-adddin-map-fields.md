@@ -2,6 +2,7 @@
 title: Auto populate information from email to legal request or matter
 description: Map the sender's email address, email content, and subject field from an email to legal request fields to automatically fill in information from the email to the submitted legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/lsd-outlook-adddin-map-fields.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -35,15 +36,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 3.  In the **Script** field, specify the mappings.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d200368e111">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d191007e111">
 
 Variables from email
 
-</th><th align="left" id="d200368e114">
+</th><th align="left" id="d191007e114">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d200368e120">
+</th></tr></thead><tbody><tr><td id="d191007e120">
 
 **subject**
 
@@ -55,7 +56,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d200368e140">
+</td></tr><tr><td id="d191007e140">
 
 **fromEmail**
 
@@ -68,15 +69,15 @@ requested_for: "fromEmail"
 ```
 
 </td></tr></tbody>
-</table><table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d200368e163">
+</table><table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d191007e163">
 
 Variables from email
 
-</th><th align="left" id="d200368e166">
+</th><th align="left" id="d191007e166">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d200368e172">
+</th></tr></thead><tbody><tr><td id="d191007e172">
 
 **subject**
 
@@ -88,7 +89,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d200368e192">
+</td></tr><tr><td id="d191007e192">
 
 **fromEmail**
 
@@ -100,7 +101,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d200368e214">
+</td></tr><tr><td id="d191007e214">
 
 **body**
 
@@ -114,5 +115,5 @@ description: "body"
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

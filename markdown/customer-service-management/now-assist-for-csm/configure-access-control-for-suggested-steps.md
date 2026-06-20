@@ -2,6 +2,7 @@
 title: Customize access control for suggested steps
 description: Replace the default sn\_esm\_agent role with a custom role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/configure-access-control-for-suggested-steps.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm

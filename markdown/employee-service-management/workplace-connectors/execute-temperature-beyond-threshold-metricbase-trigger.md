@@ -2,6 +2,7 @@
 title: Execute Temperature Beyond Threshold MetricBase trigger
 description: The Temperature Beyond Threshold MetricBase trigger reads the time-series data that is stored in the Occupancy and Environment Data MetricBase data and trigger Workflow Studio flows. This Metricbase Trigger sends the email notification to the concerned person or group in case temperature for a space goes beyond threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/execute-temperature-beyond-threshold-metricbase-trigger.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -17,7 +18,7 @@ The Temperature Beyond Threshold MetricBase trigger reads the time-series data t
 
 ## Before you begin
 
-**Note:** The application comes with seed data or pre-filled values for Temperature Beyond Threshold trigger. For more information about MetricBase triggers, see [Triggering flows using MetricBase data](https://www.servicenow.com/docs/access?context=metricbase-triggers&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** The application comes with seed data or pre-filled values for Temperature Beyond Threshold trigger. For more information about MetricBase triggers, see .
 
 Role required: admin
 
@@ -60,9 +61,9 @@ The aggregate duration to check temperature for a space. For example, 30 minutes
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](../concept/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Extension point definition for Wi-Fi data](wsd-extension-point-definition-for-wifi-data.md)
+**Previous topic:**[Extension point definition for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/wsd-extension-point-definition-for-wifi-data.md)
 
-**Next topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Next topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Cloud Cost Management
 description: Several types of components are installed with activation of Cloud Cost Management, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/installed-with-ci.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -1713,5 +1714,5 @@ Spend Report Monthly Tag Agg Cost
  sn\_cld\_spend\_core\_monthly\_tag\_agg\_cost
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

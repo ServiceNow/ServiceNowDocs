@@ -2,6 +2,7 @@
 title: Negotiation events
 description: Negotiation events represent the type of sourcing activity needed to negotiate with each supplier, and track the individual negotiations with each supplier. They help sourcing managers manage multi-supplier and multi-product negotiations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/negotiation-events.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Negotiation events represent the type of sourcing activity needed to negotiate w
 
 Instead of individually managing negotiations of similar item requests from various suppliers who provide that item, sourcing managers can create a negotiation event for a negotiation intent or objective to manage multi-supplier and multi-product negotiations. Multiple negotiations and sourcing requests can be mapped to a single negotiation event as child entities.
 
-Through this negotiation event, the sourcing managers can view and effectively manage the progress of the negotiations created for each supplier​. They can also discuss, follow, update, or cancel the event, as required. Further, they can award a single supplier or multiple suppliers, or even reject bids by selecting **Award**, **Award multiple suppliers**, or **Reject bids** respectively. Selecting **Award multiple suppliers** redirects them to the Source-to-Pay Workspace, where they can complete the process. For more information on this, see [Award multiple suppliers from a negotiation event](../task/award-multiple-suppliers-from-a-ne.md).
+Through this negotiation event, the sourcing managers can view and effectively manage the progress of the negotiations created for each supplier​. They can also discuss, follow, update, or cancel the event, as required. Further, they can award a single supplier or multiple suppliers, or even reject bids by selecting **Award**, **Award multiple suppliers**, or **Reject bids** respectively. Selecting **Award multiple suppliers** redirects them to the Source-to-Pay Workspace, where they can complete the process. For more information on this, see [Award multiple suppliers from a negotiation event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/award-multiple-suppliers-from-a-ne.md).
 
 Negotiation events can be best viewed from the Source-to-Pay Workspace list page.
 
@@ -164,7 +165,7 @@ Sourcing Requests
 
 </td><td>
 
-View all the sourcing requests that are mapped to this negotiation event.For details, see [Sourcing request](sourcing-request.md).
+View all the sourcing requests that are mapped to this negotiation event.For details, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ Negotiations
 
 </td><td>
 
-View all the negotiations with each supplier that are mapped to this negotiation event.For details, see [Negotiations](negotiations.md).
+View all the negotiations with each supplier that are mapped to this negotiation event.For details, see [Negotiations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/negotiations.md).
 
 </td></tr><tr><td>
 
@@ -180,7 +181,7 @@ Purchase Lines
 
 </td><td>
 
-View and track all the purchase line records within the parent purchase for the suppliers referenced on the negotiation event.For details, see [Purchase lines](purchase-lines.md).
+View and track all the purchase line records within the parent purchase for the suppliers referenced on the negotiation event.For details, see [Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ Purchasing Tasks
 
 </td><td>
 
-View information on all the purchasing tasks that are related to the negotiation event. For details, see [Purchasing tasks and procurement cases](purchasing-tasks.md).
+View information on all the purchasing tasks that are related to the negotiation event. For details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +205,7 @@ Draft Contracts
 
 </td><td>
 
-View and track all the draft contracts for the suppliers referenced on the negotiation event. For more details, see [Contracts](contracts.md).
+View and track all the draft contracts for the suppliers referenced on the negotiation event. For more details, see [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/contracts.md).
 
 </td></tr><tr><td>
 
@@ -244,7 +245,7 @@ Purchase Requisitions
 
 </td><td>
 
-View information on all the purchase requisitions that are related to the negotiation event.For more details, see [Purchase requisition](purchase-requisition.md).
+View information on all the purchase requisitions that are related to the negotiation event.For more details, see [Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md).
 
 </td></tr><tr><td>
 
@@ -265,7 +266,7 @@ Associated email communication that has been sent.
 </td></tr></tbody>
 </table>## Negotiation event workflow
 
-![Negotiation event workflow](../image/ne-workflow.png)
+\[Omitted image "ne-workflow.png"\] Alt text: Negotiation event workflow
 
 The default states that are available for a negotiation event are listed.
 
@@ -279,5 +280,5 @@ The default states that are available for a negotiation event are listed.
 -   Closed No Decision
 -   Closed Canceled
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

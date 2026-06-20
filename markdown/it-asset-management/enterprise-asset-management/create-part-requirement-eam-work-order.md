@@ -2,6 +2,7 @@
 title: Create a part requirement for an Enterprise Asset Management work order or work order task
 description: If the enterprise asset that is associated with your work order or work order task is missing a required asset or part, create a part requirement to track and verify the missing asset or part.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -93,5 +94,5 @@ Option that indicates if the missing asset or part is required.
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Create a work order for an enterprise asset](create-eam-work-order.md)
+**Parent Topic:**[Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-work-order.md)
 

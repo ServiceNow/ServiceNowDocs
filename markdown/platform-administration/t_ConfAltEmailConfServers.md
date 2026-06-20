@@ -2,6 +2,7 @@
 title: Enable using your own SMTP and POP3 servers
 description: You can use your own SMTP and POP3 servers to send email from the instance and to store and receive email for the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfAltEmailConfServers.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ You can use your own SMTP and POP3 servers to send email from the instance and t
 -   Email servers required:
     -   SMTP
     -   POP3
--   [Basic email properties:](t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## Procedure
 
@@ -141,7 +142,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](../../notification/concept/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +175,7 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
     If the email account is valid, the system returns a success message.
 
-    ![Test SMTP connection](../../notification/image/test-smtp-connection.png)
+    \[Omitted image "test-smtp-connection.png"\] Alt text: Test SMTP connection
 
 9.  Click **New**.
 
@@ -186,12 +187,12 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
     If the email account is valid, the system returns a success message.
 
-    ![Test POP3 connection](../../notification/image/test-pop3-connection.png)
+    \[Omitted image "test-pop3-connection.png"\] Alt text: Test POP3 connection
 
 
 ## Example
 
-![Using your own SMTP and POP3 servers](../image/AlternateEmailConfigurationUsingYourOwnSMTPAndPOP3Servers.png "Using your own SMTP and POP3 servers")
+\[Omitted image "AlternateEmailConfigurationUsingYourOwnSMTPAndPOP3Servers.png"\] Alt text: Using your own SMTP and POP3 servers
 
-**Parent Topic:**[Advanced email setup](../concept/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AlternateEmailConfigurations.md)
 

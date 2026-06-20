@@ -2,6 +2,7 @@
 title: Configure ITSM Predictive Intelligence Workbench settings
 description: View the default Predictive Intelligence Workbench property settings and configure them to meet your business process needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-config-settings.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -23,7 +24,7 @@ Role required: piwb\_admin or piwb\_manager
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -35,7 +36,7 @@ Predictive Intelligence Workbench includes several configurable property setting
 
     The Predictive Intelligence Workbench Settings page appears with default setting configurations.
 
-    ![Predictive Intelligence Workbench property settings](../image/piwb-property-settings.png)
+    \[Omitted image "piwb-property-settings.png"\] Alt text: Predictive Intelligence Workbench property settings
 
 2.  Modify the property settings, if desired, or work within the default parameters.
 

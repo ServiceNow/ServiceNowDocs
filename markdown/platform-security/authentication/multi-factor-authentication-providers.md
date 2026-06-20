@@ -2,6 +2,7 @@
 title: Multi-factor authentication Providers
 description: Use MFA providers to configure SMS and Email based authentication to ensure every user can login securely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/multi-factor-authentication-providers.html
 release: xanadu
 product: Authentication
 classification: authentication

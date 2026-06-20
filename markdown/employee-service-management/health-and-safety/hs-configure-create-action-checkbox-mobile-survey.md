@@ -2,6 +2,7 @@
 title: Configure the create action check box for safety inspection survey in the Mobile Agent app
 description: Determine the survey field types that should display the Create action option when inspection agents complete the survey in the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.html
 release: xanadu
 product: Health and Safety
 classification: health-and-safety
@@ -17,7 +18,7 @@ Determine the survey field types that should display the **Create action** optio
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Verify that the application scope is selected as Health and Safety Incident Management. For more information, see Application picker.
 
 Role required: admin
 
@@ -36,5 +37,5 @@ Role required: admin
 
 The **Create action** check box is added to the type of the survey field mentioned in the property.
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Virtual Agent integration with Voice channels
 description: Enable users to run voice-based Virtual Agent bot conversations by integrating with supported third-party Contact Center applications and voice-assistant-based applications. Use the Conversational Integration apps that are available from the ServiceNow Store to configure these voice-based apps for your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-voice-apps.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,5 +18,5 @@ Enable users to run voice-based Virtual Agent bot conversations by integrating w
 
 Conversational IVR \(Interactive Voice Response\) integrates third-party Contact Center applications with your ServiceNow instance. This enables users to have voice-based conversations with your Virtual Agent.
 
-The Virtual Agent integration with voice assistant applications enables interactions with touch or speak commands. For more information, see [Conversational Integration with Alexa](conv-integ-alexa.md)
+The Virtual Agent integration with voice assistant applications enables interactions with touch or speak commands. For more information, see [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conv-integ-alexa.md)
 

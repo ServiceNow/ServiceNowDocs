@@ -2,6 +2,7 @@
 title: Run the Automatic Test Framework \(ATF\) tests
 description: Run the ATF tests to ensure data continuity after upgrading Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/atf-tests-after-upgrade.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -44,7 +45,7 @@ In this procedure, you run the following tests after upgrading Cloud Cost Manage
 
     The Run Test progress dialog box appears.
 
-    ![Run Test dialog box shows test progress](../image/run-test-progress-dialog.png)
+    \[Omitted image "run-test-progress-dialog.png"\] Alt text: Run Test dialog box shows test progress
 
 6.  When the test finishes, select **Go to Result**.
 

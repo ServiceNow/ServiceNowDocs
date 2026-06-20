@@ -2,6 +2,7 @@
 title: Export to PowerPoint for Strategic Portfolio Management
 description: The ServiceNow Export to PowerPoint for Strategic Portfolio Management add-in helps you to generate and download project status reports from your instance as a Microsoft PowerPoint file. You can use this file to share it across the stakeholders or teams for collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-landing-page.html
 release: xanadu
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -17,25 +18,23 @@ The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in 
 
 ## Export to PowerPoint overview
 
-Export to PowerPoint overview video. Approximately two minutes long.
-
 ## Get started
 
 <table id="id_cqr_1l4_55b" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore.](../../../common/image/icon-explore.png) Learn about Export to PowerPoint add-in features.](explore-export-to-ppt.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about Export to PowerPoint add-in features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/export-to-powerpoint-for-application-portfolio-management/explore-export-to-ppt.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-set-up.png) Install and configure the Export to PowerPoint add-in.](configure-export-to-ppt.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure. Install and configure the Export to PowerPoint add-in.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 
 </td></tr><tr><td>
 
-[Use ![Use.](../../../reuse/images/request.png) Use Export to PowerPoint to generate and download your project status report.](using-export-to-ppt.md)
+[Use \[Omitted image "request.png"\] Alt text: Use. Use Export to PowerPoint to generate and download your project status report.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 
 </td><td>
 
-[Reference ![Reference.](../../../common/image/icon-reference.png) Get details about components installed, form fields, tables, roles, and general guidelines.](../reference/export-ppt-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference. Get details about components installed, form fields, tables, roles, and general guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**

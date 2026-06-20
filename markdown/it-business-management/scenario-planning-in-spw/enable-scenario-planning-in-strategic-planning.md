@@ -2,6 +2,7 @@
 title: Enable or disable scenario planning in Strategic Planning
 description: Enable or disable scenario planning in Strategic Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/enable-scenario-planning-in-strategic-planning.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,7 +28,7 @@ Scenario planning is enabled by default. Use the following steps to disable or e
 
 1.  Navigate to **All****&gt; System Properties**.
 
-2.  Search for the property **sn\_align\_ws.is\_scenario\_planning\_disabled**.![Use the sn_align_ws.is_scenario_planning_disabled property to enable or disable scenario planning](../image/enable-scenario-planning-in-strategic-management.png)
+2.  Search for the property **sn\_align\_ws.is\_scenario\_planning\_disabled**.\[Omitted image "enable-scenario-planning-in-strategic-management.png"\] Alt text: Use the sn\_align\_ws.is\_scenario\_planning\_disabled property to enable or disable scenario planning
 
 3.  Verify the value of the property.
 
@@ -36,5 +37,5 @@ Scenario planning is enabled by default. Use the following steps to disable or e
 
 ## What to do next
 
-[Create a scenario in Strategic Planning](create-a-scenario-in-strategic-planning.md)
+[Create a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.md)
 

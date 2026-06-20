@@ -2,6 +2,7 @@
 title: Provide source credentials for the Sterling service
 description: Provide the source and REST credentials for the Sterling service so that it can be accessed for integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-integrations-sources-sterling.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Provide the source and REST credentials for the Sterling service so that it can 
 
 ## Before you begin
 
-**Important:** Integrating with the Sterling Talent Solutions service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a [plugin activation request](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/plugins/task/t_RequestAPlugin.html). For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Integrating with the Sterling Talent Solutions service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a plugin activation request. For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_hr\_integrations.admin
 
@@ -74,9 +75,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the Sterling Talent Solutions service](../concept/integrate-with-sterling-service.md)
+**Parent Topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
 
-**Previous topic:**[Integrating with the Sterling Talent Solutions service](../concept/integrate-with-sterling-service.md)
+**Previous topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
 
-**Next topic:**[Verify integration for the Sterling service](verify-base-integration-for-sterling.md)
+**Next topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
 

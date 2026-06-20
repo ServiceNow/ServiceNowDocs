@@ -2,7 +2,10 @@
 title: Using the Customer Service Portal
 description: Search for information about a question or an issue, or request assistance from a customer service agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/use-the-customer-portal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

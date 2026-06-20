@@ -2,7 +2,10 @@
 title: Add staff members to an internal business location
 description: Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/add-user-internal-bus-location.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

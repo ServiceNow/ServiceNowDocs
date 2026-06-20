@@ -2,7 +2,10 @@
 title: Consumer Profile Location table
 description: The Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] table stores the relationship between the consumer profiles and locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/consumer-profile-location-table.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

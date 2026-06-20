@@ -2,6 +2,7 @@
 title: Manage Microsoft Teams permissions
 description: Configure which groups or users can access Sidebar discussions in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/manage-teams-permissions.html
 release: xanadu
 product: Sidebar
 classification: sidebar

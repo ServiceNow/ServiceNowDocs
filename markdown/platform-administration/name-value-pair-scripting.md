@@ -2,9 +2,10 @@
 title: Name-value pairs field type
 description: You can access the values stored in a name-value pairs field in scripts using the name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/name-value-pair-scripting.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Field types, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +37,5 @@ for(var name in gr.nv_field) {
 gs.print(gr.nv_field); // Expected output: {"name1":"value1","name2":"value2"}
 ```
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

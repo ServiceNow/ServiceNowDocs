@@ -2,7 +2,10 @@
 title: Configure tabs in the contextual side panel
 description: Use the inlineTabExclusion UX page property to prevent tabs from appearing in the configurable side panel in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-side-panel-tabs.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

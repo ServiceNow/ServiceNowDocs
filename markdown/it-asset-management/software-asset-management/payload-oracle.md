@@ -2,6 +2,7 @@
 title: Sample payload for Oracle software install records
 description: A sample payload for Oracle publisher pack that populates the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table with software install records from third-party discovery sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/payload-oracle.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -101,5 +102,5 @@ The following is a sample payload to create software install records for Oracle 
 |className|cmdb\_ci\_linux\_server|Name of the related Linux Server table.|
 |mac address|4653XYZAA|MAC address of the interface in the Linux server.|
 
-**Parent Topic:**[Software asset connections](../concept/third-party-discovery-sam.md)
+**Parent Topic:**[Software asset connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/third-party-discovery-sam.md)
 

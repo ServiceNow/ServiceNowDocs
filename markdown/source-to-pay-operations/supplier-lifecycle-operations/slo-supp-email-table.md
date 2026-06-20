@@ -2,6 +2,7 @@
 title: Supplier Email Domain table
 description: The Supplier Email Domain \[sn\_slm\_email\_domain\] table stores important information about the email domain of a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-supp-email-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -56,5 +57,5 @@ Reference
 Vendor that provides goods and services.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

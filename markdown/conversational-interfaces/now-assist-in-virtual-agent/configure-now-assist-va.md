@@ -2,6 +2,7 @@
 title: Configuring Now Assist in Virtual Agent
 description: Use Now Assist in Virtual Agent to provide a content-driven and search-driven generative AI experience for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -39,7 +40,7 @@ Accessing assistants
 
 </td><td>
 
-See Procedure 1 [Create an assistant](create-assistant.md) to set up your assistant.
+See Procedure 1 [Create an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md) to set up your assistant.
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ See Procedure 1 [Create an assistant](create-assistant.md) to set up your assist
 
 </td><td>
 
-Select the **Set up Now Assist in Virtual Agent** link. ![Now Assist skills for Platform.](../image/NAinVA-na-admin-platform-May.png "Now Assist Admin console > Platform view")
+Select the **Set up Now Assist in Virtual Agent** link. \[Omitted image "NAinVA-na-admin-platform-May.png"\] Alt text: Now Assist skills for Platform.
 
 </td></tr><tr><td>
 
@@ -55,31 +56,31 @@ Select the **Set up Now Assist in Virtual Agent** link. ![Now Assist skills for 
 
 </td><td>
 
-Select the **Manage Assistants** link.![Now Assist panel with link to Manage assistants.](../image/NAinVA-NAP-manage-assistants.png "Manage assistants from the Now Assist panel")
+Select the **Manage Assistants** link.\[Omitted image "NAinVA-NAP-manage-assistants.png"\] Alt text: Now Assist panel with link to Manage assistants.
 
 </td></tr></tbody>
 </table>Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Admins can configure more than one Now Assist in Virtual Agent assistant with this guided setup. A primary assistant can be linked to one or more secondary assistants. The linkage enables a primary assistant to use search sources from secondary assistants, enhancing its functionality and efficiency. For more information on primary and secondary assistants, see [LLM assistants](../concept/llm-assistants.md).
+Admins can configure more than one Now Assist in Virtual Agent assistant with this guided setup. A primary assistant can be linked to one or more secondary assistants. The linkage enables a primary assistant to use search sources from secondary assistants, enhancing its functionality and efficiency. For more information on primary and secondary assistants, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
 
-Each assistant uses either standard chat or enhanced chat. Enhanced chat provides a conversational search experience that combines Now Assist in Virtual Agent chat with search results. For more information, see [Standard chat](../concept/nava-standard-chat.md) and [Enhanced chat](../concept/nava-enhanced-chat.md). For a comparison of the two, see [Using Now Assist in Virtual Agent](../concept/using-now-assist-in-va.md).
+Each assistant uses either standard chat or enhanced chat. Enhanced chat provides a conversational search experience that combines Now Assist in Virtual Agent chat with search results. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) and [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). For a comparison of the two, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 ## Procedure
 
-1.  [Create an assistant](create-assistant.md).
+1.  [Create an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
-2.  [Assign Now Assist skills to an assistant](assign-na-skills-assistant.md).
+2.  [Assign Now Assist skills to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/assign-na-skills-assistant.md).
 
-3.  [Display your assistant on a portal or channel](display-assistant-portal-channel.md).
+3.  [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 
-4.  [Add information sources to an assistant](add-info-sources-assistant.md).
+4.  [Add information sources to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.md).
 
-5.  [Brand an assistant](brand-assistant.md).
+5.  [Brand an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 
-6.  [Manage an assistant chat experience](manage-assistant-chat-experience.md).
+6.  [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.md).
 
-7.  [Review assistant settings](review-assistant-settings.md).
+7.  [Review assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
 
 

@@ -2,6 +2,7 @@
 title: Configure Virtual Agent settings for Slack
 description: Configure your Slack bots that are integrated with the Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-va-slack-settings.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -41,10 +42,10 @@ Role required: admin
 
     -   **System Messages**: Customize the default system messages displayed during Virtual Agent conversations.
 
-        For more information about changing or updating a system message, see [Change system messages](../../conversational-interfaces/task/ac-change-system-messages.md).
+        For more information about changing or updating a system message, see [Change system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/ac-change-system-messages.md).
 
     -   **Contextual Actions**: Customize the supported actions per user command inputs.
 
-        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](../reference/contextual-actions.md#).
+        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/contextual-actions.md).
 
 

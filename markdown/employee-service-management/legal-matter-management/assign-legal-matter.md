@@ -2,6 +2,7 @@
 title: Assign a legal matter to a legal group user
 description: Assign a legal matter to yourself or to someone in the assignment group to start working on the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/assign-legal-matter.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,7 +28,7 @@ During the creation of a legal matter either directly or by promoting a legal re
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Legal Matters**, click **Unassigned**.
 
@@ -51,5 +52,5 @@ The legal matter is assigned to the selected member of the user group. The state
 
 ## What to do next
 
-The assigned member can start [working on the legal matter](work-on-legal-matter-1.md).
+The assigned member can start [working on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 

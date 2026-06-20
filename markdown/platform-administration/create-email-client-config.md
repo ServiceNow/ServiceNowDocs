@@ -2,6 +2,7 @@
 title: Create an email client configuration
 description: Define a configuration that controls the display and behavior of the email client that is based on a selected ServiceNow table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-email-client-config.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -38,13 +39,13 @@ You can create one email client configuration per ServiceNow table.
 
 3.  In the Recipient Configuration section, select **Recipient Qualifiers** to be used for this client configuration.
 
-    1.  Select the lock icon \(![Lock icon](../../localization-framework/image/lock-icon.png)\).
+    1.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\).
 
         By default, two types of recipients are available: Active Users with email accounts and Active Groups with email accounts.
 
-    2.  Select the search icon \(![Search icon](../image/search-icon.png)\) and select a recipient configuration from the list of available recipient configurations.
+    2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon\) and select a recipient configuration from the list of available recipient configurations.
 
-    3.  Select the lock icon \(![Lock icon](../image/unlock-icon.png)\) to lock it.
+    3.  Select the lock icon \(\[Omitted image "unlock-icon.png"\] Alt text: Lock icon\) to lock it.
 
 4.  In the Display Configuration section:
 
@@ -62,11 +63,11 @@ You can create one email client configuration per ServiceNow table.
 
 6.  In the Filter Configuration section, select **Email Address Filters** to be applied to the email client.
 
-    1.  Unlock the lock icon \(![Lock icon](../image/unlock-icon.png)\).
+    1.  Unlock the lock icon \(\[Omitted image "unlock-icon.png"\] Alt text: Lock icon\).
 
-    2.  Select the search icon \(![Search icon](../image/search-icon.png)\) and select one or more Email Address Filters.
+    2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon\) and select one or more Email Address Filters.
 
-    3.  Select the lock icon \(![Lock icon](../image/unlock-icon.png)\) to lock **Email Address Filters**.
+    3.  Select the lock icon \(\[Omitted image "unlock-icon.png"\] Alt text: Lock icon\) to lock **Email Address Filters**.
 
     Each filter that you select evaluates a given email address and determines whether or not the given address is valid to apply to an outbound email.
 
@@ -75,5 +76,5 @@ You can create one email client configuration per ServiceNow table.
     The configuration is added to the Email Client Configuration \[sys\_email\_client\_configuration\] table.
 
 
-**Parent Topic:**[Email client configurations](../concept/email-client-configuration.md)
+**Parent Topic:**[Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-client-configuration.md)
 

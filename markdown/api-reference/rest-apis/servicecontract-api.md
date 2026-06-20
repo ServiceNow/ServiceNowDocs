@@ -2,6 +2,7 @@
 title: Service Contract API
 description: The Service Contract API provides endpoints to create and retrieve service contract records.Retrieves a specified service contract record.Retrieves the details of a specified service contract line record and its related entities.Creates a service contract record and all its related entities from a specified payload.Creates a contract line record and all of its related entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/servicecontract-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -25,7 +26,7 @@ To access this API the following plugins must be activated on the associated ins
 
 In addition, to successfully call this API you must have the sn\_pss\_core.pss\_integrator role. This API runs in the `sn_pss_core` namespace.
 
-Before using this API, you should have associated data in the following tables. For additional information, see [Create service contracts](https://www.servicenow.com/docs/access?context=create-csm-service-contracts&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+Before using this API, you should have associated data in the following tables. For additional information, see .
 
 -   Account \[customer\_account\]
 -   Consumer \[csm\_consumer\]
@@ -35,7 +36,7 @@ Before using this API, you should have associated data in the following tables. 
 -   Product Model \[cmdb\_model\]
 -   Sold Product \[sn\_install\_base\_sold\_product\]
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Service Contract - GET /sn\_pss\_core/servicecontract/\{id\}
 
@@ -116,7 +117,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -141,7 +142,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3745,7 +3746,7 @@ Versioned URL: `/api/sn_pss_core/{api_version}/servicecontract/contractline/{id}
 
 Default URL: `/api/sn_pss_core/servicecontract/contractline/{id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3807,7 +3808,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3832,7 +3833,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -6855,7 +6856,7 @@ The Service Contract API stores data in various tables. The following is the lis
 -   Service Contract \[sn\_pss\_core\_service\_contract\]
 -   Service Contract Line \[sn\_pss\_core\_service\_contract\_line\]
 
-The request body of this endpoint references fields in the following tables. This information needs to be added to your instance before utilizing this API. For additional information, see [Create service contracts](https://www.servicenow.com/docs/access?context=create-csm-service-contracts&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+The request body of this endpoint references fields in the following tables. This information needs to be added to your instance before utilizing this API. For additional information, see .
 
 -   Account \[customer\_account\]
 -   Characteristic Option \[sn\_prd\_pm\_characteristic\_option\]
@@ -6868,7 +6869,7 @@ Versioned URL: `/api/sn_pss_core/{api_version}/servicecontract`
 
 Default URL: `/api/sn_pss_core/servicecontract`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -6959,7 +6960,7 @@ install\_base\_items\_covered
 
 </td><td>
 
-List of install base items covered under the service contract.For more information on Install Base Items [Configure install base](https://www.servicenow.com/docs/access?context=configure-install-base&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+List of install base items covered under the service contract.For more information on Install Base Items .
 
 Data type: Array of Objects
 
@@ -8500,7 +8501,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -8533,7 +8534,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -9503,7 +9504,7 @@ Versioned URL: `/api/sn_pss_core/{api_version}/servicecontract/contractline`
 
 Default URL: `/api/sn_pss_core/servicecontract/contractline`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -10915,7 +10916,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -10948,7 +10949,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

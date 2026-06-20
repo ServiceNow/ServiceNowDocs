@@ -2,6 +2,7 @@
 title: Email administration
 description: All email notifications use the email properties that you define for your instance and the email accounts that you set up. Your email service can also affect the successful transmission of incoming and outgoing email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_EmailConfiguration.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,18 +16,18 @@ All email notifications use the email properties that you define for your instan
 
 ## Email accounts
 
-Email administrators set up [email accounts](../../notification/concept/c_EmailAccounts.md) to allow the system to connect to external mail services such as POP3, SMTP, or IMAP servers. You can use the ServiceNow - provided email accounts or create your own accounts for your own email services.
+Email administrators set up [email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailAccounts.md) to allow the system to connect to external mail services such as POP3, SMTP, or IMAP servers. You can use the ServiceNow - provided email accounts or create your own accounts for your own email services.
 
 ## Email properties
 
-Use [Email Properties](c_EmailProperties.md) to configure settings for inbound and outbound email. Email properties apply to all email accounts.
+Use [Email Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailProperties.md) to configure settings for inbound and outbound email. Email properties apply to all email accounts.
 
 ## Email service size restrictions
 
 Your email service, whether you are using a standard ServiceNow email configuration or an alternate email configuration, determines the successful transmission of incoming or outgoing emails based on a maximum email size. An email configuration consists of your instance, email server, and email client.
 
--   [Standard email configurations](c_StandardEmailConfiguration.md) – For instances that use the standard email configuration, the ServiceNow mail servers cannot send or receive emails larger than approximately 50 MB \(before encoding\), including the email header, body text, and attachments. Email messages are encoded by an email client, which increases total email message size. The maximum ServiceNow mail server size restriction is 75 MB \(after encoding\). The maximum email size limit is enforced regardless of any configured attachment size limits.
--   [Alternate email configurations](c_AlternateEmailConfigurations.md) – If your email service uses a company-owned or third-party server, the approximate size restriction of 50 MB \(including the email header, body text, and attachments\) may still apply. However, your service might support different maximum total file sizes for inbound and outbound emails. Check with the email administrator of your email service to verify email size limits.
+-   [Standard email configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_StandardEmailConfiguration.md) – For instances that use the standard email configuration, the ServiceNow mail servers cannot send or receive emails larger than approximately 50 MB \(before encoding\), including the email header, body text, and attachments. Email messages are encoded by an email client, which increases total email message size. The maximum ServiceNow mail server size restriction is 75 MB \(after encoding\). The maximum email size limit is enforced regardless of any configured attachment size limits.
+-   [Alternate email configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AlternateEmailConfigurations.md) – If your email service uses a company-owned or third-party server, the approximate size restriction of 50 MB \(including the email header, body text, and attachments\) may still apply. However, your service might support different maximum total file sizes for inbound and outbound emails. Check with the email administrator of your email service to verify email size limits.
 
 For details on how encoding can affect email message size and email transmission, see [KB0521772](https://support.servicenow.com/kb_view.do?sysparm_article=KB0521772).
 
@@ -34,15 +35,15 @@ For details on how encoding can affect email message size and email transmission
 
 Email service is intentionally shut down on instance clones to prevent resending already delivered email. Upgrades no longer require an extended interruption of email service. Instances continue to process email during an upgrade. For a possible explanation for undelivered emails, see [this blog post](https://community.servicenow.com/community?id=community_blog&sys_id=4acd62e9dbd0dbc01dcaf3231f961958) by a ServiceNow Technical Support Engineer in the ServiceNow Community.
 
-For instructions on creating and sending custom emails when events on the instance occur, see the tasks in [Email and SMS notifications](../../notification/concept/c_EmailNotifications.md).
+For instructions on creating and sending custom emails when events on the instance occur, see the tasks in [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailNotifications.md).
 
 ## Instance-to-instance communication via email
 
-Use [Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) to communicate between two instances.
+Use Web services to communicate between two instances.
 
 ## Designate untrusted and trusted email domains
 
-Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see [Designate untrusted and trusted email domains](https://www.servicenow.com/docs/access?context=designate-untrusted-trusted-email-domains&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Using Instance Security Center, you can monitor the blocked and allowed incoming email metrics for your instance. For more information, see Designate untrusted and trusted email domains.
 
 ## Next steps after enabling email
 

@@ -2,6 +2,7 @@
 title: Request membership to a forum
 description: You must be a registered member of the community to request membership to a forum that is marked for membership only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/request-membership-forum.html
 release: xanadu
 product: Communities
 classification: communities
@@ -38,5 +39,5 @@ Role required: sn\_communities.community\_user
     **Status** changes to **Request Access**.
 
 
-**Parent Topic:**[Use a community](use-community-forums.md)
+**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/use-community-forums.md)
 

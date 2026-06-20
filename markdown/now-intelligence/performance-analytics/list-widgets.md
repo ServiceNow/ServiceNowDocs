@@ -2,6 +2,7 @@
 title: List widgets
 description: List widgets show the scores of multiple indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/list-widgets.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -29,11 +30,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![](../image/scorecard-icon.png)
+\[Omitted image "scorecard-icon.png"\] Alt text:
 
 </td><td>
 
-[Scorecard](../task/create-scorecard-list-widget.md)
+[Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/create-scorecard-list-widget.md)
 
 </td><td>
 
@@ -45,11 +46,11 @@ For several indicators, shows any of the following attributes:-   Scores at seve
 
 </td></tr><tr><td>
 
-![](../image/spider-icon.png)
+\[Omitted image "spider-icon.png"\] Alt text:
 
 </td><td>
 
-[Spider](../task/create-spider-list-widget.md)
+[Spider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/create-spider-list-widget.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Integrated Risk Management Maturity Assessment
 description: The Integrated Risk Management \(IRM\) Maturity Assessment Accelerator provides guidance on maximizing the resources available with IRM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/IRM-maturity-assessment.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ Integrated Risk Management Maturity Assessment provides Impact customers with pr
 
 ServiceNow IRM is an integrated risk solution that enables you to manage risk across the enterprise. Automation and continuous monitoring ensure a real-time view of compliance and risk, for informed decision making and increased performance.
 
-See [Integrating Risk Management with other applications](https://www.servicenow.com/docs/access?context=integrating-ara-with-other-apps&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US) for additional information about IRM.
+See  for additional information about IRM.
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 

@@ -2,6 +2,7 @@
 title: Approve or reject a task
 description: Review the tasks that are assigned to you and approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/approve-reject-task.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -34,5 +35,5 @@ Role required: sn\_slm.contact or admin
 4.  In the **Do you want to approve the following:** field, enter your comments and select **Approve** or **Reject**.
 
 
-**Parent Topic:**[Viewing supplier contact tasks from the Supplier Collaboration Portal](../concept/my-to-dos.md)
+**Parent Topic:**[Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md)
 

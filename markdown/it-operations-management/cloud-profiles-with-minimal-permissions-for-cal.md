@@ -2,7 +2,10 @@
 title: Cloud profiles with minimal permissions for Cloud Action Library actions and subflows
 description: You need appropriate cloud permissions to execute the Cloud Action Library actions and subflows. Edit the cloud permissions profile JSON to suit the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-profiles-with-minimal-permissions-for-cal.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -66,5 +69,5 @@ You need appropriate cloud permissions to execute the Cloud Action Library actio
 }
 ```
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-action-library-reference.md)
 

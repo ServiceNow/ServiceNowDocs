@@ -2,6 +2,7 @@
 title: IP range based authentication
 description: One way to secure a web-based application is to restrict access based on the IP address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_IPRangeBasedAuthentication.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ One way to secure a web-based application is to restrict access based on the IP 
 
 You can block access to a specific address or range of addresses that you suspect belong to malicious individuals. The instance allows you to control access by IP address.
 
-**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](../../../integrate/authentication/concept/adaptive-authentication.md).
+**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/adaptive-authentication.md).
 
 Notes and Limitations:
 

@@ -2,7 +2,10 @@
 title: Reschedule an appointment for a customer
 description: Dispatchers and agents can reschedule appointments for customers to dispatch agent to address the customer issue based on rescheduled time slot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appointment-booking-resched-appt.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Dispatchers and agents can reschedule appointments for customers to dispatch age
 
 Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 
@@ -42,5 +45,5 @@ A dispatcher or an agent can reschedule an appointment for a customer from a wor
     Rescheduling an appointment triggers an appointment rescheduled email to the customer.
 
 
-**Parent Topic:**[Manage an appointment for a customer](../concept/manage-an-appointment-for-a-customer.md)
+**Parent Topic:**[Manage an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-for-a-customer.md)
 

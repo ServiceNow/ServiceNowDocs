@@ -2,6 +2,7 @@
 title: Track project comments and collaborate with stakeholders
 description: When a project is in progress, you can take advantage of two platform features that help project participants interact and collaborate: journal fields and live feed. Two useful journal fields are Comments and Work notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_TrackProjCommentsCollabStake.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -23,9 +24,9 @@ Role required: it\_project\_manager
 
 -   To add journal fields to a project form:
 
-    1.  [Configure](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) any project form to show **Comments** and **Work notes**.
+    1.  Configure any project form to show **Comments** and **Work notes**.
 
--   To add [live feed](https://www.servicenow.com/docs/access?context=c_GetStartedWithLiveFeed&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) to a project form:
+-   To add live feed to a project form:
 
     1.  Navigate to **System Definition** &gt; **Dictionary**.
 
@@ -48,5 +49,5 @@ Role required: it\_project\_manager
     10. Personalize the Project form and add **Activities \(filtered\)**, which is the activity formatter, to the desired location on the Project form.
 
 
-**Parent Topic:**[Update a project in progress](t_UpdateAProjectInProgress.md)
+**Parent Topic:**[Update a project in progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_UpdateAProjectInProgress.md)
 

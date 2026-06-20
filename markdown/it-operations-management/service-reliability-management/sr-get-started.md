@@ -2,6 +2,7 @@
 title: Get started with Service Reliability Management
 description: SRM accelerates your path to viewing service health in the context of service level objectives and incident resolution. Helps IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-get-started.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,15 +18,15 @@ SRM accelerates your path to viewing service health in the context of service le
 
 Get started with SRM to understand what are the different sections on the SRM interface.
 
-For more information on roles, see [SRM roles and responsibilities](../reference/sr-roles.md).
+For more information on roles, see [SRM roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-roles.md).
 
 ## Basic SRM tasks
 
 |Step|Description|Reference|
 |----|-----------|---------|
-|Set up guide modules|Our Setup guide modules for your Homepage, Services, and Teams landing pages show you how to add a team or a service. It includes all the key milestones to make sure you’re set up for success.|[Add an SRM team](../task/sr-create-team.md)|
-|Your homepage|Your home page is where you find the things most important to you. Like the Services with critical alerts and incidents, work assigned to you and your team.|[SRM home page](../reference/sr-home-page.md)|
-|Learn the ins-and-outs of SRM navigation.|You can get familiar with the different sections and elements of the SRM interface. The sections and elements are used throughout our documentation.|[SRM interface](sr-navigate-interface.md)|
+|Set up guide modules|Our Setup guide modules for your Homepage, Services, and Teams landing pages show you how to add a team or a service. It includes all the key milestones to make sure you’re set up for success.|[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-team.md)|
+|Your homepage|Your home page is where you find the things most important to you. Like the Services with critical alerts and incidents, work assigned to you and your team.|[SRM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-home-page.md)|
+|Learn the ins-and-outs of SRM navigation.|You can get familiar with the different sections and elements of the SRM interface. The sections and elements are used throughout our documentation.|[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-navigate-interface.md)|
 
 SRM helps you when you must create and administer teams, services, and integrations.
 
@@ -51,7 +52,7 @@ Define the basic tasks and parameters that make up your service and how it shoul
 
 </td><td>
 
-[Add a service to SRM](../task/sr-add-service.md)
+[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-service.md)
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Set up a team. Teams are responsible for the issues that occur in the associated
 
 </td><td>
 
-[Add an SRM team](../task/sr-create-team.md)
+[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-team.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Create an on-call schedule for your team to ensure to ensure that dedicated supp
 
 </td><td>
 
-[Create your SRM On-call schedule](../task/sr-create-on-call-schedule.md)
+[Create your SRM On-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Use a map canvas to add, configure, and arrange services. You can add child serv
 
 </td><td>
 
-For more information, see [View impact of child service on parent service](../../event-management/task/cross-business-service-impact.md).
+For more information, see [View impact of child service on parent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/cross-business-service-impact.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Set up a third-party integration, such as Datadog or ServiceNow Cloud Observabil
 
 </td><td>
 
-[Add an integration to SRM](../task/sr-add-integration.md).
+[Add an integration to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-integration.md).
 
 </td></tr><tr><td>
 
@@ -128,10 +129,10 @@ Alert automations enable you to define alert conditions. Set up alert rules for 
 The Alert automation application is available from the ServiceNow Store.
 
 </td></tr></tbody>
-</table>-   **[SRM home page](../reference/sr-home-page.md)**  
+</table>-   **[SRM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-home-page.md)**  
 The SRM home page provides relevant information about your work, services, schedules and maintenance reminders, and teams. View this home page by navigating to **Service Reliability Management**.
--   **[SRM interface](sr-navigate-interface.md)**  
+-   **[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-navigate-interface.md)**  
 The different components on the SRM interface provide easy access to different functions. The features and functions that appear depend on your role and permissions.
 
-**Parent Topic:**[Exploring Service Reliability Management](exploring-service-reliability-management.md)
+**Parent Topic:**[Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
 

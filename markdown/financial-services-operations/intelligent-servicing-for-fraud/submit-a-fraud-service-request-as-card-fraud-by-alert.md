@@ -2,6 +2,7 @@
 title: Submit a fraud request
 description: Collect all required information and documents from the customer and submit the fraud request to the back-office agents so that you can begin the fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/intelligent-servicing-for-fraud/submit-a-fraud-service-request-as-card-fraud-by-alert.html
 release: xanadu
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -23,7 +24,7 @@ Role required: sn\_bom\_fraud.agent
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  On the **Lists** tab, under **Fraud cases**, select **All**
 

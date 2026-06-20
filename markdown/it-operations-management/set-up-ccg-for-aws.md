@@ -2,7 +2,10 @@
 title: Set up Cloud Configuration Governance for AWS
 description: Set up access to the Amazon Web Services \(AWS\) cloud accounts in Cloud Configuration Governance to enable interaction between the application and the cloud. The application requires access to the cloud accounts to scan the cloud resources for non-compliant configurations and remediate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/set-up-ccg-for-aws.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 5
@@ -194,15 +197,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d237590e631">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d75764e631">
 
 Option
 
-</th><th align="left" id="d237590e634">
+</th><th align="left" id="d75764e634">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d237590e640">
+</th></tr></thead><tbody><tr><td id="d75764e640">
 
 **Create an assume role configuration for the management account**
 
@@ -212,15 +215,15 @@ If you want to use a management account to scan the member accounts of the AWS o
 
  1.  If you don't want to use the OrganizationAccountAccessRole to access the member account, configure the trusting account for Cloud Configuration Governance.
 
-For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md).
+For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/configure-trusting-account-for-ccg.md).
 
-2.  Repeat step [6.a](set-up-ccg-for-aws.md#create-trusting-acc-for-management-acc) for all the member accounts that must be scanned through the management account without using the OrganizationAccountAccessRole.
+2.  Repeat step [6.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/set-up-ccg-for-aws.md) for all the member accounts that must be scanned through the management account without using the OrganizationAccountAccessRole.
 
 3.  If you want to use the OrganizationAccountAccessRole to access the member account, create an assume role configuration for the management account.
 
-For more information, see [Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md).
+For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/create-assume-role-config.md).
 
-</td></tr><tr><td id="d237590e697">
+</td></tr><tr><td id="d75764e697">
 
 **Configure the trusting account for Cloud Configuration Governance**
 
@@ -230,25 +233,25 @@ If you want to use a trusted account to scan the trusting account, configure the
 
  1.  Configure the trusting account for Cloud Configuration Governance.
 
-For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md).
+For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/configure-trusting-account-for-ccg.md).
 
-2.  Repeat step [6.a](set-up-ccg-for-aws.md#cross-assume-use-case-substep) for all the trusting accounts that must be scanned through the trusted account.
+2.  Repeat step [6.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/set-up-ccg-for-aws.md) for all the trusting accounts that must be scanned through the trusted account.
 
 
 </td></tr></tbody>
 </table>7.  Install and configure the MID Servers.
 
-    For more information, see [Install and configure MID Servers](../../it-operations-management/task/mid-server-configuration-cloud.md).
+    For more information, see [Install and configure MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/mid-server-configuration-cloud.md).
 
 8.  Run datacenter discovery to identify the datacenters associated with the service accounts.
 
-    For more information, see [Run datacenter discovery](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md).
+    For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 
 
--   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md)**  
+-   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/configure-trusting-account-for-ccg.md)**  
 Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
--   **[Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md)**  
+-   **[Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/create-assume-role-config.md)**  
 Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account.
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/exploring-cloud-configuration-governance.md)
 

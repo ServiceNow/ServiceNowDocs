@@ -2,6 +2,7 @@
 title: Check Point Anti-bot - Email Parser integration
 description: Check Point Anti-bot - Email Parser integration is supported using an email parser that consumes email notifications from Check Point Anti-bot to create security incidents and drive enrichment and response workflows.The Check Point Anti-bot - Email Parser integration uses email notifications to drive enrichment, and response workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/checkpt-antibot-integration.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ A Check Point Anti-bot email parser template is provided to use for the integrat
 
     The available security integrations appear as a series of cards.
 
-    ![Check Point Anti-bot integration card](../image/checkpt-antibot-plugin-card.png)
+    \[Omitted image "checkpt-antibot-plugin-card.png"\] Alt text: Check Point Anti-bot integration card
 
 2.  In the Check Point Anti-bot - Email Parser card, click **Configure**.
 
@@ -41,7 +42,7 @@ A Check Point Anti-bot email parser template is provided to use for the integrat
 
 4.  Click the **Check Point Anti-bot** link to edit the settings in the template email parser provided.
 
-    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](../../../security-operations-common/task/parsing-emails.md).
+    At a minimum, fill in the `Email is from` field. To create an email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/parsing-emails.md).
 
 5.  Check the **Active** box.
 

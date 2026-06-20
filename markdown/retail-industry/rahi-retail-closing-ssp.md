@@ -2,6 +2,7 @@
 title: View and close a retail case in the Business Location Service Portal
 description: You can track and manage pending retail cases from directly within the Business Location Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-closing-ssp.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

@@ -2,6 +2,7 @@
 title: Populating Assigned To attribute in Computer CI for ACC-V
 description: To update the Assigned To attribute of the Computer CI, you need to collect information from the logged in user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/fetching-logged-in-user-information-for-acc-v.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,7 +20,7 @@ To update the Assigned To attribute of the Computer CI, you need to collect info
 
 Role required: admin
 
-You can automatically populate Assigned to for Windows endpoint devices and macOS devices, like workstations or employee laptops, as part of agent-based Discovery using ACC-VC with the following system properties. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) for more information.
+You can automatically populate Assigned to for Windows endpoint devices and macOS devices, like workstations or employee laptops, as part of agent-based Discovery using ACC-VC with the following system properties. See Available system properties for more information.
 
 -   **sn\_acc\_vis\_content.set\_assigned\_to**
 -   **sn\_acc\_vis\_content.assigned\_to\_user\_order**
@@ -49,5 +50,5 @@ You can automatically populate Assigned to for Windows endpoint devices and macO
 
 No new user account is created in the sys\_user table. Instead, the existing user is queryied and the same is referenced as Assigned To user for a CI.
 
-**Parent Topic:**[Using Agent Client Collector for Visibility](../concept/acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

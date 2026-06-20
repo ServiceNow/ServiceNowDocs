@@ -2,7 +2,10 @@
 title: Portal Quick Links widget
 description: The Portal Quick Links widget displays a variety of links to internal and external resources on the portal for quick access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-quick-links-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -17,10 +20,10 @@ The quick links in the portal widget enable your users to quickly access content
 
 The following types of Portal Quick Links widgets display quick links related to a single type of information: knowledge articles or catalog items:
 
--   Portal Knowledge Quick Links widget: Displays quick links in the widget associated with relevant knowledge articles. For more information, see [Portal Knowledge Quick Links widget](portal-know-quick-links-widget.md).
--   Portal Catalog Quick Links widget: Displays quick links in the widget associated with relevant catalog items. For more information, see [Portal Catalog Quick Links widget](portal-catalog-widget.md).
+-   Portal Knowledge Quick Links widget: Displays quick links in the widget associated with relevant knowledge articles. For more information, see [Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/portal-know-quick-links-widget.md).
+-   Portal Catalog Quick Links widget: Displays quick links in the widget associated with relevant catalog items. For more information, see [Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/portal-catalog-widget.md).
 
-![Portal Quick Links widget displaying different quick links.](../image/portal-quick-links-widget.png "Portal Quick Links widget")
+\[Omitted image "portal-quick-links-widget.png"\] Alt text: Portal Quick Links widget displaying different quick links.
 
-For more information, see [Add and configure the Portal Quick Links widget](../task/config-portal-quick-links-widget-inst-optns.md).
+For more information, see [Add and configure the Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-portal-quick-links-widget-inst-optns.md).
 

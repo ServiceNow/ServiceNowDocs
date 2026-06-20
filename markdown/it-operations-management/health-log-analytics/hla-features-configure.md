@@ -2,6 +2,7 @@
 title: Enable or disable Health Log Analytics system features
 description: Customize the basic configuration of Health Log Analytics by enabling or disabling system features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-features-configure.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -38,5 +39,5 @@ Role required: evt\_mgmt\_admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Health Log Analytics administration](../concept/hla-administer.md)
+**Parent Topic:**[Health Log Analytics administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-administer.md)
 

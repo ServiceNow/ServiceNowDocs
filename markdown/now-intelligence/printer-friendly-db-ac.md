@@ -2,6 +2,7 @@
 title: Print a Platform Analytics dashboard
 description: To print a dashboard, create a printer-friendly copy and print that copy from your browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/printer-friendly-db-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2025-12-01"
@@ -27,9 +28,9 @@ Role required: Any
 
 2.  Open the dashboard that you want to print.
 
-3.  From the More actions menu \(![](../image/icon-vert-3dot-p.png)\), select **Printer friendly**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Printer friendly**.
 
-    ![Printer friendly option in More actions menu](../../par-for-workspace/image/paw-printer-friendly.png)
+    \[Omitted image "paw-printer-friendly.png"\] Alt text: Printer friendly option in More actions menu
 
     A printer-friendly copy of the dashboard opens in a new browser tab.
 

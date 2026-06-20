@@ -2,6 +2,7 @@
 title: Bi-directional incident ticketing integrations
 description: A bi-directional integration exchanges data between your ServiceNow instance and a third-party system so that incident information is synchronized between the systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/c\_BiDiIncidentTicketingIntegrations.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -41,7 +42,7 @@ While bi-directional implementations are developed on their own merits, you can 
 
 In this implementation, data authentication is done before insertion into the import set. Transform maps and scripts execute before the data reaches the Incident table. The Incident table is used to store the history of the incident records. For the outbound data path, the target table could trigger business rules before the data is queued in the outbound web service.
 
-![Bi-directional ticketing integration using import sets and web services](../image/BiDirectionalTicketingIntegrationUsingImportSetsAndWebServices.png "Bi-directional ticketing integration using import sets and web services")
+\[Omitted image "BiDirectionalTicketingIntegrationUsingImportSetsAndWebServices.png"\] Alt text: Bi-directional ticketing integration using import sets and web services
 
 ## Example using import sets and the ECC queue
 
@@ -49,7 +50,7 @@ An implementation variation for the inbound path would be to use an import set t
 
 Implementing this type of integration involves a web-service component for third-party applications for inbound data. The ECC queue is recommended for outbound data.
 
-![Bi-directional ticketing integration using import sets and the ECC queue](../image/BiDirectionalTicketingIntegrationUsingImportSetsAndTheECCQueue.png "Bi-directional ticketing integration using import sets and the ECC queue")
+\[Omitted image "BiDirectionalTicketingIntegrationUsingImportSetsAndTheECCQueue.png"\] Alt text: Bi-directional ticketing integration using import sets and the ECC queue
 
-**Parent Topic:**[Incident ticketing integrations](c_IncidentTicketingIntegrations.md)
+**Parent Topic:**[Incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentTicketingIntegrations.md)
 

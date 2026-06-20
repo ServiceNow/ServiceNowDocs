@@ -2,6 +2,7 @@
 title: Classic HR Service Delivery Agent Workspace landing page
 description: The first thing HR agents see when accessing HR Agent Workspace is the landing page. The landing page provides a personalized and engaging experience for the HR agent.In order to modify a landing page supplied by the base system, you must first make a copy.You can configure how your Create a new case form looks in HR Service Delivery Agent Workspace.Use the sn\_hr\_ws.case\_creation\_tabs system property to add or delete the tabs that appear at initial case creation.Use the Card List Configuration to configure the cards that appear on the HR Service Delivery Agent Workspace landing page.Use the Land Page Tag Configuration to define the tags to display on the cards list configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-landing-pg.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,15 +16,15 @@ breadcrumb: [Setting up HR Service Delivery Agent Workspace, HR Service Delivery
 
 The first thing HR agents see when accessing HR Agent Workspace is the landing page. The landing page provides a personalized and engaging experience for the HR agent.
 
-![HR Agent WS - Landing page](../image/agent-ws-hr-landing-page2.png)
+\[Omitted image "agent-ws-hr-landing-page2.png"\] Alt text: HR Agent WS - Landing page
 
 The landing page shows high priority cases, cases at risk for violating service level agreements \(SLA\), and cases with recent changes.
 
 Information related to the teams your HR agents belong to display below the Overview section.
 
-The bottom of the landing page provides company information, links, and tools available. This section is part of Content Delivery. For more information, see [Content Library](../../employee-center/concept/ec-streamline-content.md).
+The bottom of the landing page provides company information, links, and tools available. This section is part of Content Delivery. For more information, see [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-![HR Agent WS - Landing Page](../image/agent-ws-hr-landing-cont-delivery.png)
+\[Omitted image "agent-ws-hr-landing-cont-delivery.png"\] Alt text: HR Agent WS - Landing Page
 
 ## Configuration
 
@@ -39,8 +40,8 @@ The Landing Page \(CD\) is available when the Content Delivery \(com.sn\_content
 
 For more information, see:
 
--   [Configure the Card List Configuration for the Classic HR Agent Workspace landing page](agent-ws-hr-landing-pg.md#)
--   [Configure the Tag Configuration for the Classic HR Agent Workspace landing page](agent-ws-hr-landing-pg.md#)
+-   [Configure the Card List Configuration for the Classic HR Agent Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-landing-pg.md)
+-   [Configure the Tag Configuration for the Classic HR Agent Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-landing-pg.md)
 
 ## Modifying your landing page
 
@@ -52,17 +53,17 @@ The base system landing pages can only be modified if you make a copy first.
 
 In order to modify a landing page supplied by the base system, you must first make a copy.
 
-To make a copy of your landing page, use the UI Builder. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+To make a copy of your landing page, use the UI Builder. For more information, see UI Builder.
 
 ## Classic HR Service Delivery Agent Workspace Create a new case form
 
 You can configure how your **Create a new case** form looks in HR Service Delivery Agent Workspace.
 
-The **Create a new case** form shows two tabs when creating a new HR case.![HR Agent WS New case form](../image/agent-ws-hr-new-case-form.png)
+The **Create a new case** form shows two tabs when creating a new HR case.\[Omitted image "agent-ws-hr-new-case-form.png"\] Alt text: HR Agent WS New case form
 
 Use the sn\_hr\_ws.case\_creation\_tabs system property to add or delete the tabs that appear at initial case creation.
 
-**Note:** The **Description** field in the sn\_hr\_ws.case\_creation\_tabs system property provides information on how to add a new array object for new tab entries. To delete a tab, remove the tab array object. For more information on, see [Add or delete tabs from the Create new case form](agent-ws-hr-landing-pg.md#).
+**Note:** The **Description** field in the sn\_hr\_ws.case\_creation\_tabs system property provides information on how to add a new array object for new tab entries. To delete a tab, remove the tab array object. For more information on, see [Add or delete tabs from the Create new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-landing-pg.md).
 
 After entering an employee or case number, the **Cases for opened for** tab appears if the employee has additional cases associated cases.
 
@@ -84,7 +85,7 @@ The **Description** field in the sn\_hr\_ws.case\_creation\_tabs system property
 
 3.  In the **Value** field, scroll down to the **"title":"interactions"** object from the array.
 
-    ![Sys property sn_hr_ws.case_creation_tabs](../image/sn_hr_ws.case_creation_tabs.png)
+    \[Omitted image "sn\_hr\_ws.case\_creation\_tabs.png"\] Alt text: Sys property sn\_hr\_ws.case\_creation\_tabs
 
 4.  Remove the text highlighted above.
 
@@ -108,7 +109,7 @@ Role required: sn\_hr\_core.admin
     -   **SLAs at risk**
     -   **High priority cases**
     -   **All cases**
-    ![HR Agent WS - Card List Configuration](../image/agent-ws-hr-card-list-config.png)
+    \[Omitted image "agent-ws-hr-card-list-config.png"\] Alt text: HR Agent WS - Card List Configuration
 
 2.  Select one of the pre-configured records or **New**.
 
@@ -191,7 +192,7 @@ Role required: sn\_hr\_core.admin
     -   SLA
     -   Blue "VIP" if opened for or subject person is VIP
     -   Green "New" if created in last 24 hours
-    ![HR Agent WS - Card List Configuration](../image/agent-ws-hr-card-tag-config.png)
+    \[Omitted image "agent-ws-hr-card-tag-config.png"\] Alt text: HR Agent WS - Card List Configuration
 
 2.  Select one of the pre-configured records or **New**.
 
@@ -229,7 +230,7 @@ SLA timer configuration
 
 </td><td>
 
-The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see [SLA timer configurations](https://www.servicenow.com/docs/access?context=sla-timer-configurations&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+The configuration of the SLA timer that determines which task SLA displays as part of the timer component.**Note:** For more information, see SLA timer configurations.
 
  Field appears when you select **SLA Timer** in the **Type** field.
 
@@ -269,7 +270,7 @@ Applies this configuration when specific conditions are met.For example, conditi
 -   Subject person.VIP is true
  The fields available to you to create a condition are from the HR case \[sn\_hr\_case\] table.
 
- **Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+ **Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 

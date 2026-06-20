@@ -2,6 +2,7 @@
 title: Add covered products to order line items
 description: Enhance orders by adding covered products such as contracts or entitlements at the order line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-update-covered-products.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Order agents can add covered products to an order line during the order capture 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Customer orders** &gt; **All** and select the order that you’re working with.
 
@@ -33,7 +34,7 @@ Order agents can add covered products to an order line during the order capture 
 
 4.  Select **More** &gt; **Covered product**.
 
-    ![Image shows how agents can select Covered Products from the more menu in the order line form.](../image/som-covered-product.png)
+    \[Omitted image "som-covered-product.png"\] Alt text: Image shows how agents can select Covered Products from the more menu in the order line form.
 
 5.  In the Covered Product form, select **New**.
 
@@ -41,15 +42,15 @@ Order agents can add covered products to an order line during the order capture 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d48147e136">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d37740e136">
 
 Covered product type
 
-</th><th align="left" id="d48147e139">
+</th><th align="left" id="d37740e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48147e145">
+</th></tr></thead><tbody><tr><td id="d37740e145">
 
 **Covered sold product**
 
@@ -57,7 +58,7 @@ Description
 
 Add a sold product to an entitlement/contract type of order line to establish a coverage relationship between them.
 
-</td></tr><tr><td id="d48147e157">
+</td></tr><tr><td id="d37740e157">
 
 **Covered order line item**
 
@@ -65,7 +66,7 @@ Add a sold product to an entitlement/contract type of order line to establish a 
 
 Add a covered order line item to the order line.
 
-</td></tr><tr><td id="d48147e166">
+</td></tr><tr><td id="d37740e166">
 
 **Covered install base item**
 
@@ -83,5 +84,5 @@ Add an install base item to the order line.
     A contract is created with the contract details for the order line.
 
 
-**Parent Topic:**[Create an order in Order Management](som-create-product-order.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-product-order.md)
 

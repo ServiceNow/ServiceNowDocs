@@ -2,6 +2,7 @@
 title: Create a Configuration Compliance calculator group
 description: Configuration Compliance calculator groups are used to group calculators based on how you want to use them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/create-confi-compl-calc-group.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -52,21 +53,21 @@ You also create new calculators directly from these groups.
 
 5.  Right-click **Save** in the form header or click **Submit**.
 
-    The new calculator group is displayed on in the group list with the other calculators. Click the name of new calculator group to open the record. See [Create, edit, and reapply risk calculators for Configuration Compliance](v11reapplycalc.md) for more information about setting conditions and displayed values and reapplying calculators.
+    The new calculator group is displayed on in the group list with the other calculators. Click the name of new calculator group to open the record. See [Create, edit, and reapply risk calculators for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/v11reapplycalc.md) for more information about setting conditions and displayed values and reapplying calculators.
 
-    ![Newly added risk calculator called My risk calculator highlighted](../image/v11Newcalc.png)
+    \[Omitted image "v11Newcalc.png"\] Alt text: Newly added risk calculator called My risk calculator highlighted
 
     The **Security Calculators** related list is displayed.
 
-    ![Risk score calculator group](../image/CalculatorGroup.png)
+    \[Omitted image "CalculatorGroup.png"\] Alt text: Risk score calculator group
 
 6.  Click **New** to add calculators along with their conditions to the group.
 
     Case sensitivity for the search text you enter in the condition builder is not supported on this record or form.
 
 
--   **[Configuration Compliance calculators and calculator rules](../concept/config-compliance-calculator-rules.md)**  
+-   **[Configuration Compliance calculators and calculator rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/config-compliance-calculator-rules.md)**  
 Configuration Compliance automate calculating initial values for the fields on test results. The condition for each calculator is evaluated in order, and the first matching calculator is used.
 
-**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

@@ -2,6 +2,7 @@
 title: Limit guest's active session life span \[New in Security Center 1.3\]
 description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest’s HTTP sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-limit-guests-active-session-life-span.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -77,7 +78,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Functional impact
 This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero will disable timing out the active sessions. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

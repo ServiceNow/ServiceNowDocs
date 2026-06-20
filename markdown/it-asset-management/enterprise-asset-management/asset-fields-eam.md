@@ -2,6 +2,7 @@
 title: Asset fields for enterprise assets
 description: A detailed description of all asset fields in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/asset-fields-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -186,7 +187,7 @@ If you set the location to a specific building, floor, or place, and then set th
 
 If you set the location to a specific place and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, the asset record, which is generated after you fill in all fields and save the form, includes an interactive map that shows the real-time location of the asset. This map is still included in the asset record when you open the record from an associated work order task or stockroom record.
 
-The map does not display by default. To display the map, select the Location map icon \(![Location map icon.](../image/asset-indoor-location-icon.png)\) on the sidebar of the asset record.
+The map does not display by default. To display the map, select the Location map icon \(\[Omitted image "asset-indoor-location-icon.png"\] Alt text: Location map icon.\) on the sidebar of the asset record.
 
 </td></tr><tr><td>
 
@@ -258,7 +259,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](../concept/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
 
 </td></tr><tr><td>
 
@@ -514,7 +515,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](../concept/eam-zebra-rfid-integration.md).
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md).
 
 </td></tr><tr><td>
 
@@ -652,7 +653,7 @@ Status
 
 Status of mapping RFID location data to the asset. If the data is successfully mapped to the asset, this field is set to **Matched**. If the data is not mapped to the asset, this field is set to **Unmatched**.**Important:** RFID location data can be mapped to the asset only if you select the **Active** option in the RFID form section.
 
- **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](../concept/asset-estate-overview-eam.md).
+ **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md).
 
 </td></tr></tbody>
 </table><table id="table_ydm_ggh_nrb"><thead><tr><th>
@@ -673,5 +674,5 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 -   Work notes are updated when asset is received by a purchase order and transfer order. These work notes help in tracking life cycle of the asset.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create enterprise assets](../task/create-asset-eam.md)
+</table>**Parent Topic:**[Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-asset-eam.md)
 

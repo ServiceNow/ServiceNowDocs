@@ -2,6 +2,7 @@
 title: Monitoring non-persistent VDIs
 description: Monitoring non-persistent Virtual Desktop Infrastructures \(VDIs\) with Digital End-User Experience \(DEX\) enables your organization to track performance issues and troubleshoot efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/monitoring-np-vdis.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

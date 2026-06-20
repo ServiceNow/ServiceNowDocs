@@ -2,6 +2,7 @@
 title: Product Adoption Roadmaps
 description: Access the Product Adoption Roadmaps \(PARs\) feature to view a recommended implementation sequence for your capabilities. The sequence is organized into specific phases for optimal implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-product-adoption-roadmap/impact-par.html
 release: xanadu
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -19,7 +20,7 @@ Access the Product Adoption Roadmaps \(PARs\) feature to view a recommended impl
 
 The Product Adoption Roadmaps feature is available to Advanced and Total Impact customers.
 
-Your Impact squad works with you to determine the initial implementation sequence that best supports your unique capabilities. Before creating a PAR, a capability map should be published for that instance. See [Capabilities maps](capabilities-map.md) for information on the capabilities maps. As soon as your Impact squad creates your PAR, you receive a notification.
+Your Impact squad works with you to determine the initial implementation sequence that best supports your unique capabilities. Before creating a PAR, a capability map should be published for that instance. See [Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/impact-product-adoption-roadmap/capabilities-map.md) for information on the capabilities maps. As soon as your Impact squad creates your PAR, you receive a notification.
 
 After created, you can access all of your roadmaps by selecting **Product Adoption Roadmaps** from the **Product Adoption** menu on the Impact homepage.
 

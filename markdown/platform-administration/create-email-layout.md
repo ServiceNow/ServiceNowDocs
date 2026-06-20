@@ -2,6 +2,7 @@
 title: Create an email layout
 description: Create an email layout to specify the HTML content you want to appear in the body of one or more email templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-email-layout.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -76,7 +77,7 @@ Layout
 
 </td><td>
 
-Use the inline editor to add HTML elements. The system displays HTML from this field in the body of any email template that uses the layout. Include notification variables to show content from the related record. For more information notification variables see [Notification variables](../concept/notification-variables.md).
+Use the inline editor to add HTML elements. The system displays HTML from this field in the body of any email template that uses the layout. Include notification variables to show content from the related record. For more information notification variables see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/notification-variables.md).
 
  **Note:** The editor automatically formats any HTML code you enter from the **Source code** view.
 
@@ -110,5 +111,5 @@ Use this field to manually enter HTML code. The system displays HTML from this f
     The email template uses the selected email layout to format the body of email messages.
 
 
-**Parent Topic:**[Email layouts](../concept/email-layouts.md)
+**Parent Topic:**[Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-layouts.md)
 

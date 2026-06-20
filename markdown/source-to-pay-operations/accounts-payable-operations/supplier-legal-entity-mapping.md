@@ -2,6 +2,7 @@
 title: Supplier Legal Entity Mapping
 description: You can view all the information about a supplier and associated legal entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/supplier-legal-entity-mapping.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,5 +25,5 @@ You can view all the information about a supplier and associated legal entities.
 |Payment term|Reference|The name or code of the payment term. Example: Net 60.|
 |General ledger account|Reference|The account to which capital or operational expenses will be posted.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

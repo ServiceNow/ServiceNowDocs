@@ -2,6 +2,7 @@
 title: GCP PubSub data input configuration fields
 description: Description of the fields on the GCP PubSub data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -86,7 +87,7 @@ The MID Server cluster to which the log data is pulled.The data input runs on a 
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).This field is required.
+For more information about MID Server clusters, see Configure a MID Server cluster.This field is required.
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr></tbody>
 </table>The fields in the following table show read-only information.
@@ -139,7 +140,7 @@ GCP Credential Alias
 
 The credential alias to be used. Specify one GCP credential alias by selecting the magnifying glass icon and then either selecting an existing credential alias from the **Connection &amp; Credential Aliases** list, or selecting **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
 
- For information about creating a credential alias, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+ For information about creating a credential alias, see Credential aliases for Discovery.
 
 </td></tr><tr><td>
 
@@ -163,5 +164,5 @@ The subscription Health Log Analytics uses to receive log data that is published
 |Rate limit|The maximum number of events per second that this data input processes.|-1|
 |Drop if queue is full|Option for selecting to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 
-**Parent Topic:**[Configure data inputs \(GCP PubSub\)](../task/hla-data-input-gcp-pubsub.md)
+**Parent Topic:**[Configure data inputs \(GCP PubSub\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.md)
 

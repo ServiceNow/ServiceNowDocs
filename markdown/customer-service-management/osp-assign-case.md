@@ -2,7 +2,10 @@
 title: Assign a case
 description: Assign a case to yourself or another Outsourced Service Provider \(OSP\) agent within the organization to start working on the case or to fulfill the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/osp-assign-case.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Create vRealize credentials
 description: Create credentials to access vRealize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/create-credentials-vrealize.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -92,10 +93,10 @@ The order \(sequence\) in which the platform tries this credential as it attempt
 
 The credential for use with the vRealize connector is created.
 
-**Parent Topic:**[Configure event collection from vRealize](t_EMConfigurevRealizeConnectorJS.md)
+**Parent Topic:**[Configure event collection from vRealize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/t_EMConfigurevRealizeConnectorJS.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.r-credentials]
 

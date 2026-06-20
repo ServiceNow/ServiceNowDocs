@@ -2,6 +2,7 @@
 title: Create an email client template
 description: Create a different template for each table that uses the email client to pre-populate data for recipients and email content.After you create an email client template, you can apply it to an email.You can now create custom email client response templates that support conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAnEmailClientTemplate.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The email client uses its own [email templates](../concept/c_EmailTemplates.md) to define default values for fields. Use the following sections in the Email Client Template form to build a client template:
+The email client uses its own [email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailTemplates.md) to define default values for fields. Use the following sections in the Email Client Template form to build a client template:
 
 -   Content: The message body.
 -   Recipients: The email addresses of users receiving the email message. The email addresses are displayed in the To, Cc, and Bcc fields of the message.
@@ -213,7 +214,7 @@ Enter a comma-separated list of either field names that contain user email addre
     -   Text: Enter the email From address to be used in the client.
     **Note:**
 
-    The From email address doesn’t appear in the email client unless you configure an email client to display the From address. For more information on managing the behavior of an email client, see [Email client configurations](../concept/email-client-configuration.md).
+    The From email address doesn’t appear in the email client unless you configure an email client to display the From address. For more information on managing the behavior of an email client, see [Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-client-configuration.md).
 
     If the domain for the From address isn’t the domain of the SMTP email account server, the owner of the From domain address must configure the SPF record for the domain. The owner changes the domain settings to enable the instance to send an email as if from that domain. For more information on using SPF records, see ServiceNow [KB0535456](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535456).
 
@@ -222,12 +223,12 @@ Enter a comma-separated list of either field names that contain user email addre
     The template is added to the Email Client Templates \[sys\_email\_client\_template\] table.
 
 
-**Parent Topic:**[Configure email client](../concept/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configuring-email-client.md)
 
 **Related topics**  
 
 
-[Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.c_ScriptIncludes]
 
 ## Apply an email client template
 
@@ -249,7 +250,7 @@ The following steps are implemented only after creating an email client template
 
 3.  Fill in the fields to compose an email.
 
-    See [Create an email client template](t_CreateAnEmailClientTemplate.md#) for field details.
+    See [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAnEmailClientTemplate.md) for field details.
 
     **Note:** The body of the email is filled up with the details from the incident record. If you modify one or more fields in the incident record and are not saved, the unsaved changes still reflect in the email body.
 
@@ -312,7 +313,7 @@ The conditions that determine when this client response template is used. Use th
 
 Select the target table name under conditions that the template applies to. Enable the response template for the same table.
 
- ![Image showing the target table](../image/target-table.png)
+ \[Omitted image "target-table.png"\] Alt text: Image showing the target table
 
 </td></tr><tr><td>
 
@@ -452,7 +453,7 @@ Enter a comma-separated list of either field names that contain user email addre
         ```
 
     -   Text: Enter the email From address to be used in the client.
-    **Note:** The From email address does not appear in the email client unless you configure email client to display the From address. For more information on managing the behavior of email client, see [Email client configurations](../concept/email-client-configuration.md).
+    **Note:** The From email address does not appear in the email client unless you configure email client to display the From address. For more information on managing the behavior of email client, see [Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/email-client-configuration.md).
 
     If the domain for the From address is not the domain of the SMTP email account server, the owner of the From domain must configure the SPF record for the domain. The owner changes the domain settings to allow the instance to send email as if from that domain. For details on using SPF records, see ServiceNow [KB0535456](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535456).
 

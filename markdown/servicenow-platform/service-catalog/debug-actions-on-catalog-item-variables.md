@@ -2,6 +2,7 @@
 title: Debug actions on catalog item variables
 description: Analyze the client-side actions affecting the state and values of all variables. You can also get insights into the performance of each script working on the variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/debug-actions-on-catalog-item-variables.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -23,7 +24,7 @@ Role required: admin, catalog\_admin, catalog\_manager, or catalog\_editor.
 
 ## About this task
 
-The variable action logger displays the chronology of actions that happen on all variables of a catalog item before it is submitted. These actions can happen due to catalog client scripts, catalog UI policies, or catalog data lookups. This client-side logger does not store any data in the database. Also, the information displayed is applicable only while you work on the catalog form.Features available for debugging Service Catalog issues including UI macro customization debugging; variable action logger; variable watcher; item diagnostic report
+The variable action logger displays the chronology of actions that happen on all variables of a catalog item before it is submitted. These actions can happen due to catalog client scripts, catalog UI policies, or catalog data lookups. This client-side logger does not store any data in the database. Also, the information displayed is applicable only while you work on the catalog form.
 
 ## Procedure
 
@@ -48,11 +49,11 @@ The variable action logger displays the chronology of actions that happen on all
     -   Order in which scripts and actions are executed. When a new action is triggered from an existing action, the order of the new action is tracked at a sublevel under the order of the existing action. For example, the order of a new action triggered from step 1.2 is 1.2.1.
     -   Source of the action taken on a variable and the variable name.
     -   Details of the action taken on the variable.
-    ![Screenshot for the Variable Action Logger window](../image/VariableActionLogger.png "Variable Action Logger window")
+    \[Omitted image "VariableActionLogger.png"\] Alt text: Screenshot for the Variable Action Logger window
 
 6.  Review the results of the variable action logger.
 
-<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d235929e185">
+<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d123875e180">
 
 **Search**
 
@@ -60,7 +61,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 To search for a variable or script, use the **Search** field.
 
-</td></tr><tr><td id="d235929e197">
+</td></tr><tr><td id="d123875e192">
 
 **Collapse All**
 
@@ -68,7 +69,7 @@ To search for a variable or script, use the **Search** field.
 
 To collapse variable logs within a group, click **Collapse All**.
 
-</td></tr><tr><td id="d235929e209">
+</td></tr><tr><td id="d123875e204">
 
 **Expand All**
 
@@ -76,39 +77,39 @@ To collapse variable logs within a group, click **Collapse All**.
 
 To expand variable logs within a group, click **Expand All**.
 
-</td></tr><tr><td id="d235929e221">
+</td></tr><tr><td id="d123875e216">
 
 **Filter**
 
 </td><td>
 
-To filter variable logs, click the Filter icon \(![Filter icon](../image/Filter.png)\) and select the required options.
+To filter variable logs, click the Filter icon \(\[Omitted image "Filter.png"\] Alt text: Filter icon\) and select the required options.
 
-</td></tr><tr><td id="d235929e236">
+</td></tr><tr><td id="d123875e231">
 
 **Clear Logs**
 
 </td><td>
 
-To clear variable logs, click the Actions icon \(![Icon to clear variable logs](../image/Actions.png)\) and select **Clear Logs**.
+To clear variable logs, click the Actions icon \(\[Omitted image "Actions.png"\] Alt text: Icon to clear variable logs\) and select **Clear Logs**.
 
-</td></tr><tr><td id="d235929e255">
+</td></tr><tr><td id="d123875e250">
 
 **Export to CSV**
 
 </td><td>
 
-To export the variable logs to a .csv file, click the Actions icon \( ![Actions icon](../image/Actions.png)\) and select **Export to CSV**.
+To export the variable logs to a .csv file, click the Actions icon \( \[Omitted image "Actions.png"\] Alt text: Actions icon\) and select **Export to CSV**.
 
-</td></tr><tr><td id="d235929e273">
+</td></tr><tr><td id="d123875e268">
 
 **Print Logs**
 
 </td><td>
 
-To print variable logs, click the Actions icon \(![Actions icon](../image/Actions.png)\) and select **Print Logs**.
+To print variable logs, click the Actions icon \(\[Omitted image "Actions.png"\] Alt text: Actions icon\) and select **Print Logs**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Debugging Service Catalog](../concept/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

@@ -2,7 +2,10 @@
 title: Request-based chat - Start and import chat as guest user from classic view
 description: You can start a Microsoft Teams chat with an external organization user and import chat after you are invited to their chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/start-import-req-based-chat-as-guest.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,16 +22,16 @@ The following configuration must be complete for a guest user from an allowed-do
 -   Configure external collaboration for a guest user
 -   Add a guest user to the Microsoft Azure AD
 
-For more information, see [Enable chat access for guest users](../task/enable-guest-chat-access-st.md) for self-configured app, [Enable chat access for a guest user](../task/enable-guest-chat-access-mt.md) for pre-published app, and [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/guest-access).
+For more information, see [Enable chat access for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enable-guest-chat-access-st.md) for self-configured app, [Enable chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enable-guest-chat-access-mt.md) for pre-published app, and [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/guest-access).
 
 **Note:**
 
 As a guest user, you can import chat only if you are present in the allowed-domain but you can initiate a chat. A tag with the label **External** appears by your name to indicate that you are a guest user and not present in the allowed-domain. For more information, see [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57).
 
--   **[Start a Microsoft Teams chat as a guest user](../task/start-chat-as-guest-user.md)**  
+-   **[Start a Microsoft Teams chat as a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/start-chat-as-guest-user.md)**  
 Start a Microsoft Teams chat as a guest user with an external organization user.
--   **[Import a Microsoft Teams chat as a guest user](../task/import-chat-as-guest-user.md)**  
+-   **[Import a Microsoft Teams chat as a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/import-chat-as-guest-user.md)**  
 Import your Microsoft Teams chat with an external organization user as a guest user.
 
-**Parent Topic:**[Agent actions](agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-sn-ms-teams.md)
 

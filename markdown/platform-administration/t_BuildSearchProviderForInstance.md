@@ -2,6 +2,7 @@
 title: Build a search provider for your instance
 description: ServiceNow Search Providers allow you search and our Forums from the IE and Firefox search bar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_BuildSearchProviderForInstance.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ ServiceNow Search Providers allow you search and our Forums from the IE and Fire
 
 In Firefox 3.x you can also assign a keyword to each Search Provider and access them from the address bar. For example, assign w to the wiki search provider and you can search the wiki for Business Rules by typing: `w business rules` in the address bar.
 
-![](../image/SearchProviders.png "Search Bar")
+\[Omitted image "SearchProviders.png"\] Alt text:
 
 ## Procedure
 
@@ -47,5 +48,5 @@ In Firefox 3.x you can also assign a keyword to each Search Provider and access 
     You could try running the JavaScript command from the browser location box instead of using the html file. This works with FF not IE.
 
 
-**Parent Topic:**[Supported integration interfaces](../../vendor-specific-integrations/reference/r_SupportedIntegrationInterfaces.md)
+**Parent Topic:**[Supported integration interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_SupportedIntegrationInterfaces.md)
 

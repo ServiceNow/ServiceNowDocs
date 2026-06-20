@@ -2,6 +2,7 @@
 title: Cancel the wet signature process from the Employee Center
 description: Cancel a wet signature process for a Non-disclosure agreement legal requests from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-tpc-cancel-wet-signature.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -44,5 +45,5 @@ You can cancel the signature process from the Employee Center under following co
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a legal request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

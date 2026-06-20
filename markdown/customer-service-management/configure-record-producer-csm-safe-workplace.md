@@ -2,7 +2,10 @@
 title: Configure the health screening form
 description: Provide additional information on contacts or consumers to health screeners by adding fields to the health screening form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-record-producer-csm-safe-workplace.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see [Creating variables](https://www.servicenow.com/docs/access?context=r_CreatingVariablesForFieldTypes&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+        For more information about the different types of variables and how to configure them, see Creating variables.
 
     4.  Click **Submit**.
 
@@ -35,12 +38,12 @@ Role required: admin
 
     6.  Add the variable to the client script as a consumer or contact field.
 
-        For more information on client scripts, see [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+        For more information on client scripts, see Client scripts.
 
 2.  Navigate to **Activity Subscriptions** &gt; **Script Includes**.
 
     1.  Add the variables to the **HealthScreeningUtil** script include.
 
-        For more information on script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+        For more information on script includes, see Script includes.
 
 

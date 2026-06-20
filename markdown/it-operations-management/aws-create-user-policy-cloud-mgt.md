@@ -2,7 +2,10 @@
 title: Control AWS access and permissions using policies
 description: I have reworked this topic to fit the new accessibility configuration structure. Per our discussion, please remove this topic from the CPG map and add a reference to the new access configuration anchor \(./../discovery/concept/access-aws-accounts.dita\) to the AWS Day 1 landing page. Configure policies with the necessary level of permissions to provide access to the AWS resources for Cloud Discovery and Cloud Provisioning and Governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aws-create-user-policy-cloud-mgt.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -138,7 +141,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
                         "cloudformation:DescribeStack*",
                         "cloudwatch:Get*",
                         "cloudwatch:List*",
-                        "config:ListDiscoveredResources"
+                        "config:ListDiscoveredResources",
                         "dynamodb:Describe*",
                         "dynamodb:DescribeTable",
                         "dynamodb:ListGlobalTables",
@@ -191,7 +194,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
                         "cloudformation:GetTemplateSummary",
                         "cloudformation:List*",
                         "cloudformation:UpdateStack",
-                        "cloudformation:ValidateTemplate"
+                        "cloudformation:ValidateTemplate",
                         "ec2:*",
                         "s3:CreateBucket",
                         "s3:DeleteBucket",
@@ -207,7 +210,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         ```
 
 
-**Parent Topic:**[Set up AWS service accounts](../concept/setup-aws-service-accounts.md)
+**Parent Topic:**[Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 

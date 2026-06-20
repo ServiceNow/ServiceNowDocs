@@ -2,7 +2,10 @@
 title: License Report form
 description: Description of the fields on the License Report form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/license-report-form.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -76,5 +79,5 @@ Total consumption of subscription units by the application and all ITOM applicat
  Appears highlighted under Total Subscription Units Consumed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](itom-su-licensing-reference.md)
+</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-su-licensing-reference.md)
 

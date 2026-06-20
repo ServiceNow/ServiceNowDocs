@@ -2,6 +2,7 @@
 title: Create a scheduling attribute for Schedule Optimization
 description: Create the scheduling attributes to specify which tasks to optimize and define the rules to perform the optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/configure-scheduling-attributes.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Create the scheduling attributes to specify which tasks to optimize and define t
 
 ## Before you begin
 
-[Configuring Schedule Optimization](../concept/schedule-optimization-engine.md) must be setup.
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/schedule-optimization-engine.md) must be setup.
 
 Role required: wm\_admin
 
@@ -41,7 +42,7 @@ This video demonstrates how to create a scheduling attribute for Schedule Optimi
 
     4.  Select a travel estimate configuration.
 
-        For more information, see [Setting up a travel estimate provider](setting-up-a-travel-estimate-provider.md).
+        For more information, see [Setting up a travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.md).
 
 4.  Select **Submit**.
 
@@ -74,5 +75,5 @@ This video demonstrates how to create a scheduling attribute for Schedule Optimi
 
 ## What to do next
 
-[Create a batch for Schedule Optimization](create-an-optimization-batch.md#)
+[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-an-optimization-batch.md)
 

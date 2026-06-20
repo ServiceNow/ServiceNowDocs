@@ -2,6 +2,7 @@
 title: Robotic Process Automation \(RPA\) Hub glossary
 description: Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/rpa-hub-glossary.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -16,7 +17,7 @@ breadcrumb: [Robotic Process Automation \(RPA\) Hub reference, Robotic Process A
 
 Learn about the terms and concepts that are unique to Robotic Process Automation \(RPA\) Hub.
 
-**Parent Topic:**[Robotic Process Automation \(RPA\) Hub reference](../../rpa-core/reference/rpa-reference.md)
+**Parent Topic:**[Robotic Process Automation \(RPA\) Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-reference.md)
 
 ## A
 
@@ -88,7 +89,7 @@ Glossary terms are grouped alphabetically.
 
 ### execution logs
 
-Logs that are captured when an automation is executed by either an attended or an unattended robot. These logs help in understanding the errors and the end-to-end logging of automation execution. For more information, see [Bot Process form in RPA Hub](bot-process-form.md).
+Logs that are captured when an automation is executed by either an attended or an unattended robot. These logs help in understanding the errors and the end-to-end logging of automation execution. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/bot-process-form.md).
 
 ## G
 

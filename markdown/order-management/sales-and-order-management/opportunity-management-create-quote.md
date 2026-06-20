@@ -2,6 +2,7 @@
 title: Create a quote from an opportunity
 description: Create a quote directly from an opportunity using the Quotes tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-create-quote.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: and select **Opportunity - All**.
 
 2.  Select the opportunity that you want to work with and select the **Quotes** tab.
 

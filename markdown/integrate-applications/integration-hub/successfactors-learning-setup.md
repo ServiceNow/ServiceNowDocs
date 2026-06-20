@@ -2,6 +2,7 @@
 title: Set up the SuccessFactors Learning spoke
 description: Integrate the ServiceNow instance and SuccessFactors Learning by using the SuccessFactors Learning REST credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/successfactors-learning-setup.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

@@ -2,6 +2,7 @@
 title: Create a risk event response template
 description: Automatically add approvers, issues, and owners to a risk event based on the conditions defined in the risk event response template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -175,8 +176,8 @@ Priority of the event. Select from: -   **Critical**
     A new risk event response template is created.
 
 
--   **[Define a threshold amount for the risk event response template](define-threshold-amount-risk-event.md)**  
+-   **[Define a threshold amount for the risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.md)**  
 Define a threshold limit for assigning risk event approvers. A threshold limit is defined to determine if a risk event needs an approver.
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

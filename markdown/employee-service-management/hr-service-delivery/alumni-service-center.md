@@ -2,6 +2,7 @@
 title: Alumni Service Center
 description: The Alumni Service Center is your dedicated hub to stay connected with the organization after your tenure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/alumni-service-center.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,7 +33,7 @@ The Alumni Service Center portal provides the following benefits to the alumni a
 
 ## Content analytics
 
-The Alumni Service Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](../../employee-center/task/ecpro-content-analytics-setup.md).
+The Alumni Service Center provides a separate content analytics tracking profile. For more information, see [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
 
 ## Employee to alumni transition
 
@@ -45,7 +46,7 @@ You can perform this transition for individuals or in bulk. To access the Alumni
 
 **Note:**
 
--   You can add the alumni roles \(sn\_asc.admin\) and \(sn\_asc.manager\) to any user. For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   You can add the alumni roles \(sn\_asc.admin\) and \(sn\_asc.manager\) to any user. For more information, see .
 -   To be able to login and access all the alumni features, you must be a user in the Alumni table \(sn\_asc\_user\) and not in the User table \(sys\_user\).
 
 ## Ensure that alumni aren't included in your UU licensing counts
@@ -58,7 +59,7 @@ When an employee transitions to an alumnus, and you're using Unrestricted User \
 
 -   If you have HRSD Professional, with HR or unrestricted users, and are providing alumni services outside of Alumni Service Center, to help prevent former employees from being included in the UU count, you need to create a custom alumni table. The custom alumni table extends the \[sys\_user\] table. When an employee leaves the organization, you can change the user class of the employee in the \[sys\_user\] table from **User** to the sys class name that corresponds to the custom alumni table.
 
-    **Note:** Creating a custom alumni table to service alumni outside of Alumni Service Center is considered a custom implementation. Refer to [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) for more information.
+    **Note:** Creating a custom alumni table to service alumni outside of Alumni Service Center is considered a custom implementation. Refer to  for more information.
 
 
 For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1125071) article in the Now Support Knowledge Base.
@@ -67,15 +68,15 @@ For additional information, see the [DEF1000205 \| HR User \[KB1125071\]](https:
 
 <table id="table_z4y_wjs_3hc" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Detailed information on Alumni Center](asc-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Detailed information on Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/asc-explore.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Configure the application to get started](asc-configure.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/asc-configure.md)
 
 </td><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Know how you can use Alumni Center](asc-use.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Know how you can use Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/asc-use.md)
 
 </td></tr></tbody>
 </table>## Additional resources

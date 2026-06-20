@@ -2,6 +2,7 @@
 title: Activate Communities plugins
 description: Activate the Customer Communities plugin to use the Communities application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/activate-communities.html
 release: xanadu
 product: Communities
 classification: communities
@@ -50,5 +51,5 @@ To activate the Communities dashboard, activate the Performance Analytics — Co
 4.  Click **Activate** on the Activate Plugin pop-up window.
 
 
-**Parent Topic:**[Communities](../reference/servicenow-communities.md)
+**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/servicenow-communities.md)
 

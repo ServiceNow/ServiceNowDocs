@@ -2,6 +2,7 @@
 title: Administer the ServiceNow AI Platform
 description: As a platform administrator, you have the power of the ServiceNow AI Platform at your fingertips. The ServiceNow AI Platform is an application platform as a service that automates business processes across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/intro-now-platform-landing.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -18,23 +19,23 @@ Choose one of these tiles to get started.
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Start here to learn about the ServiceNow AI Platform![](../../../reuse/icons/brand-icons/bus-power.svg)Learn how the ServiceNow AI Platform works.](get-started-now-platform.md)
+[Start here to learn about the ServiceNow AI Platform\[Omitted image "bus-power.svg"\] Alt text:Learn how the ServiceNow AI Platform works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/get-started-now-platform.md)
 
 </td><td>
 
-[Configure ServiceNow AI Platform core features![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure settings that affect global ServiceNow AI Platform behavior and behavior for ServiceNow AI Platform applications.](config-now-platform-core-features.md)
+[Configure ServiceNow AI Platform core features\[Omitted image "bus-sdlc.svg"\] Alt text:Configure settings that affect global ServiceNow AI Platform behavior and behavior for ServiceNow AI Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/config-now-platform-core-features.md)
 
 </td></tr><tr><td>
 
-[Maintain and monitor the ServiceNow AI Platform![](../../../reuse/icons/brand-icons/ind-maintenance-repair-operations.svg)Identify health issues and settings that you need to change. Optimize ServiceNow AI Platform performance using performance monitoring and diagnostics.](maintain-monitor-now-platform.md)
+[Maintain and monitor the ServiceNow AI Platform\[Omitted image "ind-maintenance-repair-operations.svg"\] Alt text:Identify health issues and settings that you need to change. Optimize ServiceNow AI Platform performance using performance monitoring and diagnostics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/maintain-monitor-now-platform.md)
 
 </td><td>
 
-[Upgrade to the latest version![](../../../reuse/icons/brand-icons/bus-release.svg)Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center. Monitor upgrade progress and view a summary of upgrade results with Upgrade Monitor.](upgrade-now-platform.md)
+[Upgrade to the latest version\[Omitted image "bus-release.svg"\] Alt text:Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center. Monitor upgrade progress and view a summary of upgrade results with Upgrade Monitor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-now-platform.md)
 
 </td></tr><tr><td>
 
-[Additional Resources![](../image/adm-additional-resources.png)Upgrade your platform administrator experience to the next level](../reference/adm-additional-resources.md)
+[Additional Resources\[Omitted image "adm-additional-resources.png"\] Alt text:Upgrade your platform administrator experience to the next level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/adm-additional-resources.md)
 
 </td><td>
 
@@ -49,14 +50,14 @@ Learn about the ServiceNow AI Platform and these important applications:
 
     A central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights. Start with Adoption blueprints, which tell you which plugins to install to meet business objectives.
 
-    ![Image showing adoption blueprints](../../admin-center/image/ac-adoption-blueprints.png)
+    \[Omitted image "ac-adoption-blueprints.png"\] Alt text: Image showing adoption blueprints
 
 -   **Subscription Management**
 
     A centralized management experience to help you understand your subscriptions and entitlements.
 
 
-![Subscription Management overview.](../../subscription-management/image/subscription-management-overview.png)
+\[Omitted image "subscription-management-overview.png"\] Alt text: Subscription Management overview.
 
 ## Configure ServiceNow AI Platform core features
 
@@ -97,7 +98,7 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
 ## Maintain and monitor the ServiceNow AI Platform
 
-![Performance dashboard](../image/servicenow_performance_db.png)
+\[Omitted image "servicenow\_performance\_db.png"\] Alt text: Performance dashboard
 
 -   **Instance Scan**
 
@@ -114,7 +115,7 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
 ## Plan and manage your ServiceNow AI Platform upgrade
 
-![Image showing the skip list priority](../../upgrade-center/image/uc-skiplist-priority.png)
+\[Omitted image "uc-skiplist-priority.png"\] Alt text: Image showing the skip list priority
 
 -   **Upgrade Center and Upgrade Monitor**
 
@@ -123,24 +124,24 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
 ## Applications and features
 
--   [Core configuration](../../core-configuration/concept/p_CoreConfigurationOverview.md)
--   [Admin Center](../../admin-center/concept/admin-center-intro.md)
--   [Subscription Management](../../subscription-management/reference/subscription-management-landing-page-v2.md)
--   [User administration](../../roles/concept/c_UserAdministration.md)
--   [Table administration](../../table-administration/concept/c_TableAdministration.md)
--   [Data management](../../managing-data/concept/c_DataManagement.md)
--   [Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
--   [Form administration](../../form-administration/concept/form-administration.md)
--   [List administration](../../core-configuration/concept/p_ListAdministration.md)
--   [Search administration](../../search-administration/reference/search-administration.md)
--   [Currency administration](../../currency/concept/currency.md)
--   [Time configuration](../../time/time-configuration-landing.md)
--   [Dynamic Translation](../../dynamic-translation/concept/dynamic-translation-overview.md)
--   [System Localization](../../localization/concept/system-localization-landing.md)
--   [State Management](../../state-model/concept/state-model.md)
--   [Integrate with third-party applications and data sources](../../../integrate/concept/c_IntegrateWThirdPartyAppsDataSrces.md)
--   [Events](https://www.servicenow.com/docs/access?context=events&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
--   [Metrics](../../../use/reporting/concept/c_MetricDefinitionSupport.md)
--   [Platform performance](../../core-configuration/concept/platform-performance-landing.md)
--   [Upgrading the Now Platform](upgrade-now-platform.md)
+-   [Core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/p_CoreConfigurationOverview.md)
+-   [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/admin-center/admin-center-intro.md)
+-   [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/subscription-management-landing-page-v2.md)
+-   [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-administration/c_UserAdministration.md)
+-   [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
+-   [Data management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataManagement.md)
+-   [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
+-   [Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/form-administration.md)
+-   [List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/p_ListAdministration.md)
+-   [Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/search-administration/search-administration.md)
+-   [Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/currency.md)
+-   [Time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/time-configuration/time-configuration-landing.md)
+-   [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dynamic-translation-overview.md)
+-   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-localization/system-localization-landing.md)
+-   [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/state-management/state-model.md)
+-   [Integrate with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
+-   Events
+-   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_MetricDefinitionSupport.md)
+-   [Platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/platform-performance-landing.md)
+-   [Upgrading the Now Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-now-platform.md)
 

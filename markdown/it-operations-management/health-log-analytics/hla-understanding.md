@@ -2,6 +2,7 @@
 title: Understanding ServiceNow Health Log Analytics \(HLA\)
 description: Health Log Analytics predicts IT issues before they affect your users. The application helps you solve problems faster by collecting, understanding, and correlating machine-generated log data in real time. It discovers any deviation from normal behavior as it happens and alerts you of possible issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-understanding.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -29,11 +30,11 @@ Health Log Analytics can handle any kind of machine-generated textual log data. 
 
 ## Architecture
 
-Health Log Analytics collects logs streaming into your ServiceNow instance from endpoints or data lakes, such as Splunk and Elasticsearch. The instance receives the logs via the [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) connector instance. Health Log Analytics identifies and triages anomalies in your log data using unsupervised machine-learning \(ML\) models. It then groups the anomalies together and applies further algorithms to help identify the root cause of the issue.
+Health Log Analytics collects logs streaming into your ServiceNow instance from endpoints or data lakes, such as Splunk and Elasticsearch. The instance receives the logs via the MID Server connector instance. Health Log Analytics identifies and triages anomalies in your log data using unsupervised machine-learning \(ML\) models. It then groups the anomalies together and applies further algorithms to help identify the root cause of the issue.
 
 The following figure shows a setup using Rsyslog, Splunk, Filebeat, and Elasticsearch.
 
-![Health Log Analytics architecture.](../image/hla-architecture-img.png "Health Log Analytics architecture")
+\[Omitted image "hla-architecture-img.png"\] Alt text: Health Log Analytics architecture.
 
 ## Workflow
 
@@ -41,7 +42,7 @@ Health Log Analytics collects and processes log data automatically. It structure
 
 The diagram shows the Health Log Analytics workflow from collecting the data through sending an event or alert to Event Management.
 
-![Health Log Analytics workflow: Ingestion - Structuring - Enrichment - Analysis - ML & AI - Alert in Event Management](../image/hla-workflow-img.png "Health Log Analytics workflow")
+\[Omitted image "hla-workflow-img.png"\] Alt text: Health Log Analytics workflow: Ingestion - Structuring - Enrichment - Analysis - ML &amp; AI - Alert in Event Management
 
 -   **Ingestion**
 
@@ -65,7 +66,7 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
     This layer handles identifying the variable parts of a log message.
 
-    ![Health Log Analytics workflow - Enrichment.](../image/hla-enrichment-img.png "Health Log Analytics workflow - Enrichment")
+    \[Omitted image "hla-enrichment-img.png"\] Alt text: Health Log Analytics workflow - Enrichment.
 
     It also identifies keywords and contextual properties. In the image, "WARN" and "Failed" are the keywords to track. "User," "source IP," and "port" are the contextual properties.
 
@@ -82,5 +83,5 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
     Health Log Analytics sends events to Event Management. In Event Management, Health Log Analytics alerts appear in the **All alerts** list. This list enables operators to see alerts from the event and the Health Log Analytics alert type in a single location.
 
 
-**Parent Topic:**[Exploring Health Log Analytics](hla-exploring.md)
+**Parent Topic:**[Exploring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-exploring.md)
 

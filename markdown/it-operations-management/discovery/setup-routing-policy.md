@@ -2,6 +2,7 @@
 title: Set up the routing policy for automated certificate management
 description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/setup-routing-policy.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -23,7 +24,7 @@ Role required: pki\_admin or admin
 
 The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form table](../reference/certificate-routing-policy-form-table.md).
+**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
     -   It should not contain commas.
     -   It should not start and end with a forward slash \(/\) and \* matches any.
-    -   For more inforamtion about the fields and values on a routing policy form, see [.](../reference/certificate-routing-policy-form-table.md)
+    -   For more inforamtion about the fields and values on a routing policy form, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/certificate-routing-policy-form-table.md)
 3.  The following CSR attributes are matched with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
 
     -   Organization
@@ -56,7 +57,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d76573e186">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d78005e186">
 
 **If a single routing policy matches**
 
@@ -67,7 +68,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d76573e207">
+</td></tr><tr><td id="d78005e207">
 
 **If multiple routing policies are eligible**
 
@@ -75,7 +76,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d76573e216">
+</td></tr><tr><td id="d78005e216">
 
 **If there is no routing policy found**
 
@@ -83,7 +84,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d76573e225">
+</td></tr><tr><td id="d78005e225">
 
 **If single policy matches and approval needed flag is true**
 

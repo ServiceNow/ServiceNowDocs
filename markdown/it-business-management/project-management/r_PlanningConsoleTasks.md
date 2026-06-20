@@ -2,6 +2,7 @@
 title: Planning console tasks
 description: You can perform several tasks on the planning console that you can perform on lists and forms, such as creating project tasks and copying projects. You can also perform several tasks unique to the console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/r\_PlanningConsoleTasks.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ Display a project in the planning console
 
 </td><td>
 
-Select the project from the list in the project workspace banner. ![Project list.](../image/project_selection.png "Project list")
+Select the project from the list in the project workspace banner. \[Omitted image "project\_selection.png"\] Alt text: Project list.
 
 </td></tr></tbody>
 </table><table id="table_m3q_lsy_fdc"><thead><tr><th>
@@ -46,9 +47,9 @@ Create a project task
 
 </td><td>
 
-Click the add task below icon \(![Add task icon](../image/add_task_icon.png)\) on the row to create a new task.
+Click the add task below icon \(\[Omitted image "add\_task\_icon.png"\] Alt text: Add task icon\) on the row to create a new task.
 
- You can also click an existing task to determine the insertion point for the new task, and then click the add task above icon \(![Add task icon.](../image/add_task_above.png)\) or the add task below icon \(![Add task icon.](../image/add_task_below.png)\).
+ You can also click an existing task to determine the insertion point for the new task, and then click the add task above icon \(\[Omitted image "add\_task\_above.png"\] Alt text: Add task icon.\) or the add task below icon \(\[Omitted image "add\_task\_below.png"\] Alt text: Add task icon.\).
 
 </td></tr><tr><td>
 
@@ -56,7 +57,7 @@ Move a task up or down in the hierarchy
 
 </td><td>
 
-Click an existing task, and then click the move up \(![Move up icon](../image/move_up_icon.png)\) or move down \(![Move down icon](../image/move_down_icon.png)\) icons.
+Click an existing task, and then click the move up \(\[Omitted image "move\_up\_icon.png"\] Alt text: Move up icon\) or move down \(\[Omitted image "move\_down\_icon.png"\] Alt text: Move down icon\) icons.
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Indent or unindent a task in the hierarchy
 
 </td><td>
 
-Click an existing task, and then click the unindent \(![Unindent icon.](../image/promote_icon.png)\) or indent \(![Indent icon.](../image/demote_icon.png)\) icons.
+Click an existing task, and then click the unindent \(\[Omitted image "promote\_icon.png"\] Alt text: Unindent icon.\) or indent \(\[Omitted image "demote\_icon.png"\] Alt text: Indent icon.\) icons.
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ View and modify task status
 
 </td><td>
 
-View the status of the project task based on the difference of the planned end date of the task from the current date. The status of the task updates automatically from Green to Yellow to Red as the planned end date approaches.You can manually update the task status by double-clicking the **Status** column and selecting a different task status. For more information, see **Status** field description in the [Create a project task from a project](../task/t_CreateATaskFromAProject.md) topic.
+View the status of the project task based on the difference of the planned end date of the task from the current date. The status of the task updates automatically from Green to Yellow to Red as the planned end date approaches.You can manually update the task status by double-clicking the **Status** column and selecting a different task status. For more information, see **Status** field description in the [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateATaskFromAProject.md) topic.
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Add an agile phase or a test phase
 
 </td><td>
 
-Right-click a project and select **Add Agile Phase** or **Add Test Phase**. The agile phase icon or test phase icons appear next to the task in the **Name** column. See [phase icons](../concept/c_GanttChart.md#phase_icons). **Note:**
+Right-click a project and select **Add Agile Phase** or **Add Test Phase**. The agile phase icon or test phase icons appear next to the task in the **Name** column. See [phase icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md). **Note:**
 
 -   The **Add Agile Phase** option is available only for Agile and Hybrid projects. You must also have the Agile Development 2.0 plugin installed.
 -   You can add multiple agile phases and multiple test phases to a project.
@@ -118,7 +119,7 @@ Cancel a resource plan for a Closed project
 
 </td><td>
 
-Right-click the project and select **Cancel Resource Plans**. All past and future allocations for the selected [resource plan are canceled](../../resource-management/task/cancel-resource-plan-from-project-or-demand.md).The option is available only for a project in any of the Closed states.
+Right-click the project and select **Cancel Resource Plans**. All past and future allocations for the selected [resource plan are canceled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md).The option is available only for a project in any of the Closed states.
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Complete a resource plan for a Closed project
 
 </td><td>
 
-Right-click the project and select **Complete Resource Plans**. All the requested and resource allocations for the resource plan post the completion date are deleted.The option to [complete resource plans](../../resource-management/task/complete-resource-plan-from-project-or-demand.md) is available only for a project in any of the Closed states.
+Right-click the project and select **Complete Resource Plans**. All the requested and resource allocations for the resource plan post the completion date are deleted.The option to [complete resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md) is available only for a project in any of the Closed states.
 
 </td></tr><tr><td>
 
@@ -134,7 +135,7 @@ Add an external dependency between tasks of different projects
 
 </td><td>
 
-Right-click a task and select **Add External Dependency**. Select the project and task to which the [dependency is added](../task/create-external-dependency-planning-console.md).
+Right-click a task and select **Add External Dependency**. Select the project and task to which the [dependency is added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/create-external-dependency-planning-console.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +143,7 @@ View the project name of an external dependency
 
 </td><td>
 
-Point to the link icon \(![Link icon](../image/link-icon.png)\) beside the external dependency task to display a tooltip which shows the name of the project to which the external dependency is added.
+Point to the link icon \(\[Omitted image "link-icon.png"\] Alt text: Link icon\) beside the external dependency task to display a tooltip which shows the name of the project to which the external dependency is added.
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ Allow task dates outside schedule
 
 </td><td>
 
-Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon \(![Off-schedule task icon](../image/OffScheduleTaskIcon.png)\) appears next to the task in the **Short description** column.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
+Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon \(\[Omitted image "OffScheduleTaskIcon.png"\] Alt text: Off-schedule task icon\) appears next to the task in the **Short description** column.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
 
  -   The option is not available for a parent task. When a task is made off-schedule, its parent also becomes off-schedule. The project also operates as out of schedule if any of the children is set to out of schedule.
 -   Once a task is allowed outside the schedule, the **Follow schedule** option is available for the task. Right-click the task and select **Follow schedule** to follow the schedule for the task.
@@ -188,7 +189,7 @@ Show or hide external dependencies
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click the **Hide External Dependencies** switch. When this option is enabled, the external dependencies are not displayed when you add an external dependency between two projects. However, the **Dependency** column in the WBS section of the successor project still shows the value of external dependency.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click the **Hide External Dependencies** switch. When this option is enabled, the external dependencies are not displayed when you add an external dependency between two projects. However, the **Dependency** column in the WBS section of the successor project still shows the value of external dependency.
 
 </td></tr><tr><td>
 
@@ -196,9 +197,9 @@ Show external dependency notifications
 
 </td><td>
 
-Click the notification bell icon ![Notification bell icon.](../image/NotificationIcon.png) to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.![External dependency notification example.](../image/ExternalDependNotification.png)
+Click the notification bell icon \[Omitted image "NotificationIcon.png"\] Alt text: Notification bell icon. to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.\[Omitted image "ExternalDependNotification.png"\] Alt text: External dependency notification example.
 
--   For a [soft dependency](../concept/external-dependency-types.md), click **Accept** or **Reject** to accept or reject the changes in the notification.
+-   For a [soft dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/external-dependency-types.md), click **Accept** or **Reject** to accept or reject the changes in the notification.
 -   For a hard dependency, view the displayed notification to review the changes in the notification.
 
 </td></tr><tr><td>
@@ -207,7 +208,7 @@ Save changes to the server
 
 </td><td>
 
-Click the save icon ![Save icon.](../image/save_icon.png) to commit changes made in the planning console. The option is available only when [Client Side Planning Console](../concept/client-side-planning-console.md) is enabled.
+Click the save icon \[Omitted image "save\_icon.png"\] Alt text: Save icon. to commit changes made in the planning console. The option is available only when [Client Side Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/client-side-planning-console.md) is enabled.
 
 </td></tr><tr><td>
 
@@ -223,7 +224,7 @@ Show or hide columns in the planning console
 
 </td><td>
 
-Click the show or hide columns in gantt icon \(![Show or hide columns in gantt icon.](../../project-workspace/image/gear_icon.png)\), and then select or clear the check boxes for the columns available. Admin can [customize](../concept/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
+Click the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide columns in gantt icon.\), and then select or clear the check boxes for the columns available. Admin can [customize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
 
 </td></tr><tr><td>
 
@@ -231,7 +232,7 @@ Select WBS levels to show
 
 </td><td>
 
-Click the show or hide columns in gantt icon \(![Show or hide columns in gantt icon.](../../project-workspace/image/gear_icon.png)\), and then select the level from the [WBS](../concept/c_WorkBreakdownStructure.md) **Depth** list.
+Click the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide columns in gantt icon.\), and then select the level from the [WBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_WorkBreakdownStructure.md) **Depth** list.
 
 </td></tr><tr><td>
 
@@ -256,7 +257,7 @@ View a summary of a task
 
 </td><td>
 
-Point to a task.![Tooltip shows the summary of the task.](../image/task_summary.png "Tooltip for summary of the task")
+Point to a task.\[Omitted image "task\_summary.png"\] Alt text: Tooltip shows the summary of the task.
 
 </td></tr><tr><td>
 
@@ -280,7 +281,7 @@ Create a dependency between tasks
 
 </td><td>
 
-Find the successor task in the relationship and double-click the value in the **Predecessor** column and enter a value that specifies the relationship. See [Predecessor dependencies in the planning console](r_ProjectTaskDependencyValues.md) for examples.Alternatively, you can create a relationship between two tasks by connecting the ends of the corresponding task bars in the timeline view.
+Find the successor task in the relationship and double-click the value in the **Predecessor** column and enter a value that specifies the relationship. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for examples.Alternatively, you can create a relationship between two tasks by connecting the ends of the corresponding task bars in the timeline view.
 
 </td></tr><tr><td>
 
@@ -288,7 +289,7 @@ Select a baseline
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then select a baseline from the baselines list.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select a baseline from the baselines list.
 
 </td></tr><tr><td>
 
@@ -296,7 +297,7 @@ Create a baseline
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Create new baseline**. See [Create baseline of a project](../task/t_CreateAProjectBaseline.md) for more information.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Create new baseline**. See [Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProjectBaseline.md) for more information.
 
 </td></tr><tr><td>
 
@@ -304,7 +305,7 @@ Compare schedule baselines
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then select a schedule baseline from the baselines list. Click the show or hide columns in gantt icon \(![show or hide columns in gantt icon.](../../project-workspace/image/gear_icon.png)\), and then select the following columns to compare schedule baselines:-   Baseline start date
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select a schedule baseline from the baselines list. Click the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: show or hide columns in gantt icon.\), and then select the following columns to compare schedule baselines:-   Baseline start date
 -   Baseline end date
 -   Baseline variance
 
@@ -314,7 +315,7 @@ Display the critical path
 
 </td><td>
 
-Click the critical path icon \(![Critical path icon](../image/critical_path_icon.png)\). For more information on the critical path, see [Gantt chart](../concept/c_GanttChart.md).
+Click the critical path icon \(\[Omitted image "critical\_path\_icon.png"\] Alt text: Critical path icon\). For more information on the critical path, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_GanttChart.md).
 
 </td></tr><tr><td>
 
@@ -322,7 +323,7 @@ Show date change
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click the **Show Date Change** switch. When this option is enabled, the start and end dates of the task are displayed when you drag the task bar.![Start and end dates on the task bar.](../image/date_change.png "Start date and end dates on task bar")
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click the **Show Date Change** switch. When this option is enabled, the start and end dates of the task are displayed when you drag the task bar.\[Omitted image "date\_change.png"\] Alt text: Start and end dates on the task bar.
 
 </td></tr><tr><td>
 
@@ -330,7 +331,7 @@ Show duration change
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click the **Show Duration Change** switch. When this option is enabled, the duration of the task is displayed when you drag either end of the task bar.![Duration on the task bar.](../image/duration_change.png "Task duration")
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click the **Show Duration Change** switch. When this option is enabled, the duration of the task is displayed when you drag either end of the task bar.\[Omitted image "duration\_change.png"\] Alt text: Duration on the task bar.
 
 </td></tr><tr><td>
 
@@ -338,7 +339,7 @@ Show weekends on the calendar
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click the **Show Weekends** switch. The weekends appear as light-blue vertical bars in the Gantt chart.![Light-blue colored vertical bar indicates a Weekend on the task bar.](../image/weekend_gantt_chart.png "Weekend on task bar")
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click the **Show Weekends** switch. The weekends appear as light-blue vertical bars in the Gantt chart.\[Omitted image "weekend\_gantt\_chart.png"\] Alt text: Light-blue colored vertical bar indicates a Weekend on the task bar.
 
 </td></tr><tr><td>
 
@@ -346,7 +347,7 @@ Zoom the calendar in or out
 
 </td><td>
 
-On the top of the calendar, click one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.![Calendar zoom options.](../image/zoom_level.png "Calendar zoom")
+On the top of the calendar, click one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.\[Omitted image "zoom\_level.png"\] Alt text: Calendar zoom options.
 
 When the zoom level in calendar is selected as **Auto Fit**, the Gantt view fits in one page to display the entire timeline for the project in one go without using the scrollbar.
 
@@ -356,7 +357,7 @@ Open the tutorial
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Walkthrough**.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Walkthrough**.
 
 </td></tr><tr><td>
 
@@ -364,7 +365,7 @@ Open list of keyboard shortcuts
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Keyboard Shortcuts**.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Keyboard Shortcuts**.
 
 </td></tr></tbody>
 </table><table id="table_u3d_msy_fdc"><thead><tr><th>
@@ -381,7 +382,7 @@ Open the project workbench
 
 </td><td>
 
-Click the **Planning Console** selection arrow on the banner and select **Project Workbench**. For more information, see [Project workbench](../concept/c_ProjectWorkbench.md).
+Click the **Planning Console** selection arrow on the banner and select **Project Workbench**. For more information, see [Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectWorkbench.md).
 
 </td></tr><tr><td>
 
@@ -389,7 +390,7 @@ Open live feed
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Show live feed**.
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Show live feed**.
 
 </td></tr><tr><td>
 
@@ -397,7 +398,7 @@ Export project data in MPP, CSV, or XML format
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Export Planning Console**. For more information, see [Export project data](../task/t_ExportAProjectWithTheProjectForm.md).
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Export Planning Console**. For more information, see [Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md).
 
 </td></tr><tr><td>
 
@@ -405,7 +406,7 @@ Print the gantt timeline
 
 </td><td>
 
-Click the more options icon \(![More options icon.](../../planning-and-policy/image/gannt_chart_icon.png)\), and then click **Print**.**Note:**
+Click the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then click **Print**.**Note:**
 
 -   Printing on a smaller paper size might result in the gantt chart image being cut off. You may either zoom out using the gantt chart calendar, or increase paper size to print the gantt timeline for projects and tasks.
 -   If the colored bars in gantt chart area are not visible in Print preview, then select the option for background graphics in the Print dialog.

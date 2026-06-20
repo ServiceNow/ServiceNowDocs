@@ -2,6 +2,7 @@
 title: Installing your Upgrade Plan
 description: Install your upgrade plan in the consumer instance to implement it in your upgrades.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-installing-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select Retrieve to find your upgrade plan.
 
-    ![](../image/uc-retrieve-install.png)
+    \[Omitted image "uc-retrieve-install.png"\] Alt text:
 
 3.  Search your upgrade plan by name.
 
@@ -39,7 +40,7 @@ Role required: admin
 
 6.  Select **Install** to install the upgrade plan to your instance.
 
-    ![](../image/uc-plan-install.png)
+    \[Omitted image "uc-plan-install.png"\]
 
     **Note:** If you made any changes to the upgrade plan on the builder instance after installing it on the consumer instance, then update the upgrade plan to the latest version.
 

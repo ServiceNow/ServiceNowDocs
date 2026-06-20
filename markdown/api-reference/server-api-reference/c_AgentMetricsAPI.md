@@ -2,6 +2,7 @@
 title: AgentMetrics - Global
 description: The AgentMetrics script include provides methods to process inbound MID Server metrics.Creates an instance of AgentMetrics.Handles counter metrics from the agent by putting them into an array that can be used to update the ECC Agent Counter Metric table \(ecc\_agent\_counter\_metric\).Updates the memory metrics for the given agent.Handles metric information from a remote glide record by putting it into an array.Handles scalar values from the agent by putting them into an array.Updates the specified metrics table with the new metric information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_AgentMetricsAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +25,7 @@ This script include updates the following tables:
 
 Use these methods in server scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## AgentMetrics - AgentMetrics\(\)
 

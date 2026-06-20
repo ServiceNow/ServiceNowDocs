@@ -2,6 +2,7 @@
 title: Edit the settings for a form in Creator Studio
 description: Edit form settings if you need to change its basic attributes, such as its associated image or attachments are allowed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-edit-form-settings.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -37,33 +38,33 @@ To edit the settings for a form, you must be given permission to work on the app
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 4.  Check that you're editing the correct form in your app by selecting it from the **Request forms** tab.
 
-    ![Selection from the Request forms tab](../image/cs-request-forms-tab.png)
+    \[Omitted image "cs-request-forms-tab.png"\] Alt text: Selection from the Request forms tab
 
-5.  Select the more actions icon ![](../image/cs-more-actions-icon.png).
+5.  Select the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text:.
 
 6.  Select **Form settings**.
 
-    ![Menu option to edit form settings](../image/cs-form-settings-menu.png "Form settings menu option")
+    \[Omitted image "cs-form-settings-menu.png"\] Alt text: Menu option to edit form settings
 
 7.  Update settings on the **General** tab.
 
-    For details on specific form settings, see [Creator Studio form settings](../reference/creator-studio-form-settings.md).
+    For details on specific form settings, see [Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-settings.md).
 
-    ![Option to hide a form](../image/cs-form-settings-hide.png "Form settings modal")
+    \[Omitted image "cs-form-settings-hide.png"\] Alt text: Option to hide a form
 
 8.  Select the **Location** tab to update where the form appears in a catalog, how it's categorized, and which topics it appears for.
 
-    1.  Select the edit icon \(![](../image/cs-edit-form-location.png)\) for the **Catalogs and categories** card.
+    1.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) for the **Catalogs and categories** card.
 
     2.  Select the catalog that represents the business area the app will use.
 
@@ -75,7 +76,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
     5.  Select the **Apply** button to save your changes.
 
-    6.  Select the edit icon \(![](../image/cs-edit-form-location.png)\) for the **Topics** card.
+    6.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) for the **Topics** card.
 
     7.  Choose the **Taxonomy** page where you want the form to appear, such as **Employee**.
 
@@ -83,7 +84,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
     8.  Select the topic\(s\) that represent the Employee Center areas where you want the form to appear.
 
-        For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+        For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
 
     9.  Select the topics where you want the form to appear, as many as you need.
 
@@ -91,22 +92,22 @@ To edit the settings for a form, you must be given permission to work on the app
 
 9.  Select the **Access** tab to change which roles and groups can view and submit the form.
 
-    1.  Select the edit icon \(![](../image/cs-edit-form-location.png)\) to edit users that the form should be **Available for**.
+    1.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) to edit users that the form should be **Available for**.
 
     2.  Select the roles and groups that should have access to the form.
 
     3.  Select the **Apply** button to save your changes.
 
-    4.  Select the edit icon \(![](../image/cs-edit-form-location.png)\) to edit users that the form should be **Not available for**.
+    4.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) to edit users that the form should be **Not available for**.
 
     5.  Select the roles and groups that shouldn’t have access to the form.
 
-        Work with your admin to restrict or provide access to the roles and groups for this setting in non-production and production environments. For more information, see [Administering user access for deployed Creator Studio apps](../concept/creator-studio-administering-user-access-apps.md).
+        Work with your admin to restrict or provide access to the roles and groups for this setting in non-production and production environments. For more information, see [Administering user access for deployed Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-administering-user-access-apps.md).
 
     6.  Select the **Apply** button to save your changes.
 
 10. Select **Save all settings**.
 
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md)
 

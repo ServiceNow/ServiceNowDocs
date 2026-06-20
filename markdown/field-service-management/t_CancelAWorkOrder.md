@@ -2,7 +2,10 @@
 title: Cancel a work order
 description: Cancel a work order if the work is no longer necessary or if it is a duplicate of another work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CancelAWorkOrder.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -46,5 +49,5 @@ Work orders and work order tasks can be canceled by users with these roles:
 4.  Click **Cancel**.
 
 
-**Parent Topic:**[Managing work orders](../concept/c_ManageWorkOrders.md)
+**Parent Topic:**[Managing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageWorkOrders.md)
 

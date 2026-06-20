@@ -2,6 +2,7 @@
 title: Perform condition evaluation from a mobile application
 description: Perform condition evaluation to calculate the score and result of the condition attributes from a mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -23,7 +24,7 @@ Role required: sn\_eam.asset\_technician
 
 Before proceeding with this task, ensure that an asset condition work order task for an asset has been created and assigned to the technician.
 
-These steps detail the process of performing the condition evaluation from a mobile application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](perform-condition-assessment-webui.md).
+These steps detail the process of performing the condition evaluation from a mobile application. Condition evaluations can also be performed from the Enterprise Asset Workspace. For details, see [Perform condition evaluation from the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ These steps detail the process of performing the condition evaluation from a mob
 8.  Tap **Close** to close the work order task.
 
 
-**Parent Topic:**[Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md)
+**Parent Topic:**[Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 

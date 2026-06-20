@@ -2,6 +2,7 @@
 title: Coaching in Workforce Optimization for HR
 description: Use Coaching in Workforce Optimization for HR to assess your team's abilities to efficiently resolve cases by reviewing their work at critical moments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/using-coaching-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -18,7 +19,7 @@ Use Coaching in Workforce Optimization for HR to assess your team's abilities to
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available to coach your agents. You can also create a [coaching opportunity](https://www.servicenow.com/docs/access?context=create-coaching-opportunity&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US) using the Coaching application specific to your agent needs.
+-   Use the coaching opportunities that are available to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 

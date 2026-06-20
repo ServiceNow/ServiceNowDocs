@@ -2,6 +2,7 @@
 title: Clone profiles for clone requests
 description: A clone profile enables you to store predefined target and clone options. The clone profile automatically populates your clone request with your selected profile settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/system-profile-clone.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ Navigate to **System Clone** &gt; **Clone Profiles** to view your clone profiles
 
 You can create, edit, and delete clone profiles from the **Clone Profile** view. The system profile is a read-only clone profile that you can't delete. It shows a predefined list of table exclusions, data preservers, and cleanup scripts. This list is based on the plugins that your instance contains.
 
-![Clone profile](../image/clone-profile.png)
+\[Omitted image "clone-profile.png"\] Alt text: Clone profile
 
 To set a new clone profile as the default profile used when you request a clone, select the **Make Default** option. Verify that this is the correct clone profile you want to use for the clone scenario you are requesting.
 

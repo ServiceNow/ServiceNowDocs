@@ -2,6 +2,7 @@
 title: Resolve a feedback task
 description: Resolve a task created from a feedback submitted through the integrated experience and service feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/resolve-feedback-task.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -77,8 +78,8 @@ Comment box to provide a resolution.
 
     You can use the **Feedback tasks** filter option to view both your open and completed tasks.
 
-    **Note:** A feedback notification is sent to the feedback provider when it's resolved. For more information, see [Feedback task notification](../concept/fdbck-task-notification.md).
+    **Note:** A feedback notification is sent to the feedback provider when it's resolved. For more information, see [Feedback task notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/fdbck-task-notification.md).
 
 
-**Parent Topic:**[Use the integrated service and experience feedback](../concept/using-ex-fdback.md)
+**Parent Topic:**[Use the integrated service and experience feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/using-ex-fdback.md)
 

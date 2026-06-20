@@ -2,6 +2,7 @@
 title: Configure navigation tabs in an AI Search application configuration
 description: Define settings for navigation tabs in a search application configuration. Users of the application can select navigation tabs to refine their search query results by search source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/config-nav-tabs-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -35,7 +36,7 @@ Use this procedure to configure display settings for navigation tabs in your sea
 
 4.  On the Navigation Tab form, fill in the fields.
 
-    For a description of the field values, see [Navigation Tab form](../reference/navigation-tab-form-ais.md).
+    For a description of the field values, see [Navigation Tab form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/navigation-tab-form-ais.md).
 
 5.  Select **Update**.
 
@@ -44,5 +45,5 @@ Use this procedure to configure display settings for navigation tabs in your sea
 
 The navigation tab appears with updated settings in the Navigation Tabs related list.
 
-**Parent Topic:**[Search application configurations](../concept/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

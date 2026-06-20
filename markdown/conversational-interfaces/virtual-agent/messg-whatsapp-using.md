@@ -2,6 +2,7 @@
 title: Using Conversational Integration with WhatsApp \(powered by Twilio\)
 description: Enable a requester to converse with an agent at their convenience using the WhatsApp chat conversations through Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-using.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Conversational Integration with WhatsApp \(powered by Twilio\), Int
 
 Enable a requester to converse with an agent at their convenience using the WhatsApp chat conversations through Virtual Agent.
 
-An administrator can configure the Conversational Integration with WhatsApp \(powered by Twilio\) application for integrating the WhatsApp messaging app with a ServiceNow application. For more information, see [Integrating the WhatsApp messaging app with other applications](messg-whatsapp-integrating-apps.md).
+An administrator can configure the Conversational Integration with WhatsApp \(powered by Twilio\) application for integrating the WhatsApp messaging app with a ServiceNow application. For more information, see [Integrating the WhatsApp messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-integrating-apps.md).
 
 Agents and requesters can do the following:
 
@@ -43,5 +44,5 @@ As a live agent interacting with a requester over the WhatsApp service channel, 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](../task/messg-whatsapp-live-agent-conv.md) and [Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md) and Service channels.
 

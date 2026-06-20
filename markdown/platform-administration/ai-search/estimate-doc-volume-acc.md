@@ -2,6 +2,7 @@
 title: Estimate document volume for Atlassian Confluence Cloud
 description: Estimate the number of documents included in your Atlassian Confluence Cloud source system. Use this information to determine crawl scope settings needed for your Atlassian Confluence Cloud external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/estimate-doc-volume-acc.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -68,7 +69,7 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 If your Atlassian Confluence Cloud source system's total available document count exceeds the connector limit of one million \(1,000,000\) documents, you will need to limit the crawl scope for the Atlassian Confluence Cloud external content connector. Choose a set of spaces whose total document count is less than the connector limit, and inform your AI Search administrator so they can configure the external content connector's crawl settings to include only those spaces.
 
-For details on configuring the Atlassian Confluence Cloud connector's crawl settings, see [Configure crawl settings for the Atlassian Confluence Cloud external content connector](configure-crawl-settings-cc-ext-cont-connector.md).
+For details on configuring the Atlassian Confluence Cloud connector's crawl settings, see [Configure crawl settings for the Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-crawl-settings-cc-ext-cont-connector.md).
 
-**Parent Topic:**[Estimating document volume for source systems](../concept/estimating-doc-volume-src-sys.md)
+**Parent Topic:**[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/estimating-doc-volume-src-sys.md)
 

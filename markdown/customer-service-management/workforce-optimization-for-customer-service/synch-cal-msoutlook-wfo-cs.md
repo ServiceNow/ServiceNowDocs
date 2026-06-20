@@ -2,6 +2,7 @@
 title: Synchronize team calendar with Microsoft Outlook
 description: Managers and agents can synchronize their calendars and events with Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/synch-cal-msoutlook-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Workforce Optimization for Customer Service, Workforce 
 
 Managers and agents can synchronize their calendars and events with Microsoft Outlook.
 
-As a user with admin role, you can enable this feature by installing Microsoft Exchange Online Spoke. See [Set up](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+As a user with admin role, you can enable this feature by installing Microsoft Exchange Online Spoke. See .
 
 **Note:** Ensure that you grant the following Graph API permissions to synchronize Microsoft Outlook with team calendar.
 
@@ -27,5 +28,5 @@ As a user with admin role, you can enable this feature by installing Microsoft E
 
 After installing Microsoft Exchange Online Spoke, set the **sn\_wfo\_outlook.enable\_outlook\_sync** system property to `true` in the System Properties \[sys\_properties\] table. Add the email IDs that you want to synchronize in the User \[sys\_user\] table.
 
-**Parent Topic:**[Configuring Workforce Optimization for Customer Service](setup-configurable-wfo-cs.md)
+**Parent Topic:**[Configuring Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-configurable-wfo-cs.md)
 

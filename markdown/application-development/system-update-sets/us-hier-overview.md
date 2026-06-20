@@ -2,6 +2,7 @@
 title: Update set batching
 description: Batch update sets enable you to group update sets together so you can preview and commit them in bulk.You include an update set in a batch by specifying another update set as its parent.You retrieve a batch of update sets using the same process you would as for any individual update set.You can preview at once all the update sets belonging to a batch.You can commit at once all the update sets belonging to a batch.You can remove an individual update set from the batch or change its parent.Back out a batched update set by following the backout procedure for the base update set for the batch. You can also back out any child update set independently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/system-update-sets/us-hier-overview.html
 release: xanadu
 product: System Update Sets
 classification: system-update-sets
@@ -24,19 +25,19 @@ The system organizes update set batches into a hierarchy. One update set can act
 
 When you preview or commit the base update set, you preview or commit the entire batch. The system determines the processing order, and checks for collisions, based on the dates the changes were recorded, and on their sequential ancestry. Their ancestries are the specific instances in which the changes in the update sets took place.
 
-**Note:** For more details, see [Compare local update sets](../../task/t_CompareLocalUpdateSets.md#) and [View customizations and compare with current version](../../task/view-customer-update-records.md).
+**Note:** For more details, see [Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/t_CompareLocalUpdateSets.md) and [View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/view-customer-update-records.md).
 
 ## Example of batched update sets
 
 The list of update set records reflects the batch hierarchy in the **Parent** and**Batch Base** columns.
 
-![List of batched update sets](../../image/xmpl-batch-us.png "List of batched update sets")
+\[Omitted image "xmpl-batch-us.png"\] Alt text: List of batched update sets
 
 
 
-![Diagram of batched update set heirarchy](../../image/xmpl-a-diag-batched-update-sets.png)
+\[Omitted image "xmpl-a-diag-batched-update-sets.png"\] Alt text: Diagram of batched update set heirarchy
 
-**Parent Topic:**[System update sets](../../concept/system-update-sets.md)
+**Parent Topic:**[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/system-update-sets.md)
 
 ## Create a batch update set
 
@@ -73,7 +74,7 @@ Role required: admin
 
 1.  To retrieve a batch of update sets, follow the same process for the batch base as you would for any individual update set.
 
-    The system will process the entire batch at once. For details, see [Retrieve an update set](../../task/t_RetrieveAnUpdateSet.md).
+    The system will process the entire batch at once. For details, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
 
 
 ## Preview a batch of update sets
@@ -92,13 +93,13 @@ You must have retrieved the update sets from the source instance.
 
 2.  From the list of retrieved update sets, select the batch base for the batch you want to preview.
 
-    You cannot separately preview an update set that is a child in a batch. You must preview the entire batch by previewing the batch base. If necessary, you can [remove the child update set](us-hier-overview.md#) from the batch by editing its record's **parent** field.
+    You cannot separately preview an update set that is a child in a batch. You must preview the entire batch by previewing the batch base. If necessary, you can [remove the child update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md) from the batch by editing its record's **parent** field.
 
 3.  Click **Preview Update Set Batch**.
 
 4.  If the system found problems, preview the problems.
 
-    1.  Click the **Preview Problems for Batch** and [resolve the problems](../../task/t_PreviewARemoteUpdateSet.md#) as you normally would for any update set.
+    1.  Click the **Preview Problems for Batch** and [resolve the problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md) as you normally would for any update set.
 
     2.  When you have resolved all the problems, click **Run Preview Again for Batch**.
 
@@ -149,7 +150,7 @@ Role required: admin
 
 ### What to do next
 
-If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the record is updated with a new parent. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a batch of update sets](us-hier-overview.md#) .
+If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the record is updated with a new parent. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a batch of update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md) .
 
 ## Back out batched update set
 
@@ -160,17 +161,17 @@ The following rules apply when backing out an update set that belongs to a batch
 -   If the update set has a parent value, the system clears the parent value and treats the update set as an independent update set, or as a new batch base if it has any children.
 -   The system backs out the selected update set, plus any children of the backed-out update set.
 
-To learn more, see [Back out an update set](../../task/t_BackOutUpdateSet.md) and [Update set batching](us-hier-overview.md#)
+To learn more, see [Back out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/t_BackOutUpdateSet.md) and [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md)
 
 ### Example of backing out a batched update set
 
-If you back out Update Set 1.1 from the batch shown in [List of batched update sets before backing out an update set](us-hier-overview.md#fig_g3f_syx_41b), the result is the batch shown in [List of batched update sets after backing out Update Set 1.1](us-hier-overview.md#fig_px1_xyx_41b).
+If you back out Update Set 1.1 from the batch shown in [List of batched update sets before backing out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md), the result is the batch shown in [List of batched update sets after backing out Update Set 1.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md).
 
-![Batched update sets](../../image/xmpl-batch-us.png "List of batched update sets before backing out an update set")
+\[Omitted image "xmpl-batch-us.png"\] Alt text: Batched update sets
 
-![Batched update set after backing out a child update set from the batch](../../image/xmpl-batch-us-after-backout.png "List of batched update sets after backing out Update Set 1.1")
+\[Omitted image "xmpl-batch-us-after-backout.png"\] Alt text: Batched update set after backing out a child update set from the batch
 
-[Hierarchical diagram of Update Set batch](us-hier-overview.md#fig_xcs_fyd_p1b) shows the hierarchy both before and after the back out. The red boxes show the update sets the system backs out if you back out Update Set 1.1.
+[Hierarchical diagram of Update Set batch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md) shows the hierarchy both before and after the back out. The red boxes show the update sets the system backs out if you back out Update Set 1.1.
 
-![Diagram of batched update set hierarchy with a child selected to back out](../../image/xmpl-diagram-batched-update-sets.png "Hierarchical diagram of Update Set batch")
+\[Omitted image "xmpl-diagram-batched-update-sets.png"\] Alt text: Diagram of batched update set hierarchy with a child selected to back out
 

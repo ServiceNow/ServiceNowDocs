@@ -2,7 +2,10 @@
 title: Use the Response Evaluation Flow
 description: Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/fsm-marketplace-response-evaluation-flow.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ There are two default option for Response evaluation flow:
 
 **Note:** Customers can create their own subflows to evaluate responses.
 
-**Parent Topic:**[Assign a task to a contractor on Field Service Marketplace](../task/review-rspons-fsm-mrktplc.md)
+**Parent Topic:**[Assign a task to a contractor on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/review-rspons-fsm-mrktplc.md)
 

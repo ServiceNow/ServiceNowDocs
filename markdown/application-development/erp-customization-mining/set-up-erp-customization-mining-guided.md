@@ -2,6 +2,7 @@
 title: Run Guided Setup for ERP Customization Mining
 description: Run the Guided Setup to configure ERP Customization Mining \(ERP-CM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/set-up-erp-customization-mining-guided.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -23,9 +24,9 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 ## About this task
 
-For more information on using Guided Setup, see [Guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information on using Guided Setup, see .
 
-Alternatively, you can configure ERP-CM without Guided Setup. For more information, see [Configure a new ERP Customization Mining connection](set-up-erp-customization-mining.md).
+Alternatively, you can configure ERP-CM without Guided Setup. For more information, see [Configure a new ERP Customization Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/set-up-erp-customization-mining.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Alternatively, you can configure ERP-CM without Guided Setup. For more informati
 
     ERP Data Hub is required by ERP-CM to connect to systems.
 
-    Follow the steps to configure ERP Data Hub, and select **Continue**. For more information, see [Run Guided Setup for ERP Data Hub](../../erp-integration/task/erp-canvas-guided-setup.md).
+    Follow the steps to configure ERP Data Hub, and select **Continue**. For more information, see [Run Guided Setup for ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-guided-setup.md).
 
 3.  Connect ERP Customization Mining to the ERP system.
 
@@ -44,5 +45,5 @@ Alternatively, you can configure ERP-CM without Guided Setup. For more informati
     2.  Select **Validate the connection status**, follow the steps, and select **Continue**.
 
 
-**Parent Topic:**[Configuring ERP Customization Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

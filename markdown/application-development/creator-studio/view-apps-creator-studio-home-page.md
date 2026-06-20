@@ -2,6 +2,7 @@
 title: Find existing apps in Creator Studio
 description: Perhaps you’ve been given permission to work on an app someone else created, or you want to add new items to the catalog in your app. The Creator Studio home page acts as your central hub, listing all the apps people in your company have built using Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/view-apps-creator-studio-home-page.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -41,11 +42,11 @@ There could be a lot of apps listed on the Creator Studio home page. Here’s ho
 
     The Creator Studio home page appears, which displays the apps most recently created by everyone in your company using Creator Studio.
 
-    ![Creator Studio home page with all apps seen in a card view](../image/crs-homepage-all-apps.png "View available apps on the home page")
+    \[Omitted image "crs-homepage-all-apps.png"\] Alt text: Creator Studio home page with all apps seen in a card view
 
-2.  Would you prefer to see the apps in a list instead of displayed as cards? Select the view icon \(![view icon](../image/cs-view-icon.png)\) and switch to **List View**.
+2.  Would you prefer to see the apps in a list instead of displayed as cards? Select the view icon \(\[Omitted image "cs-view-icon.png"\] Alt text: view icon\) and switch to **List View**.
 
-    ![Creator Studio home page with all apps shown in a list](../image/crs-homepage-all-apps-list.png "List view of apps on the home page")
+    \[Omitted image "crs-homepage-all-apps-list.png"\] Alt text: Creator Studio home page with all apps shown in a list
 
 3.  Narrow down the list of apps displayed by selecting one of the following:
 
@@ -53,7 +54,7 @@ There could be a lot of apps listed on the Creator Studio home page. Here’s ho
     -   **Your apps**: Displays only the apps that you created. \(You own the apps that you create.\)
     -   **Shared with you**: Displays only the apps you didn’t create, but the owner said you could work on.
 
-        For more information about working collaboratively on an app, see [Delegated development and deployment](../../applications/concept/c_DelegatedDevelopment.md).
+        For more information about working collaboratively on an app, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 4.  Sort the list of displayed apps by selecting the drop-down sorting menu and then selecting one of the following options:
 
@@ -61,20 +62,20 @@ There could be a lot of apps listed on the Creator Studio home page. Here’s ho
     -   **Newest**: Lists the apps in the order of their creation date, newest to oldest.
     -   **Oldest**: Lists the apps in the order of their creation date, oldest to newest.
     -   **A-Z** or **Z-A**: Lists the displayed apps alphabetically in the order you choose.
-5.  5. Select an app to open it in Creator Studio or select the more actions icon \(![More options enable you to take action on an app](../image/cs-more-actions-icon.png)\) and select one of the following:
+5.  5. Select an app to open it in Creator Studio or select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: More options enable you to take action on an app\) and select one of the following:
 
     -   **Open in new tab**: Open the app in a different browser tab.
-    -   **Manage collaborators**: If you’re the app owner, you can invite others to work on the app with you. For more information, see [Manage collaborators for an app in Creator Studio](creator-studio-manage-collaborators.md).
+    -   **Manage collaborators**: If you’re the app owner, you can invite others to work on the app with you. For more information, see [Manage collaborators for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-manage-collaborators.md).
     -   **Copy link**: Send collaborators a link to the app so they can find it.
-    -   **Settings**: Update the app’s image and other settings. For more information, see [Edit an app's settings in Creator Studio](creator-studio-edit-app-settings.md).
+    -   **Settings**: Update the app’s image and other settings. For more information, see [Edit an app's settings in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-edit-app-settings.md).
 6.  Select **Request access** to open an app that you don’t have permission to work on.
 
-    To open an app, you must own it, or the owner must give you permission. For more information about requesting access, see [Ask to work on an app in Creator Studio](creator-studio-request-join-app.md).
+    To open an app, you must own it, or the owner must give you permission. For more information about requesting access, see [Ask to work on an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-join-app.md).
 
 
 ## Result
 
 **Congrats:** Congratulations! You’ve found and opened an app or performed an action on it. Next, we’ll see how to work on it.
 
-**Parent Topic:**[Building apps with Creator Studio](../concept/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/building-apps-with-creator-studio.md)
 

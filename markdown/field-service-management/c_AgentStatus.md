@@ -2,7 +2,10 @@
 title: Agent work and schedule status
 description: View an agent's work status and schedule status as they complete their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/c\_AgentStatus.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2

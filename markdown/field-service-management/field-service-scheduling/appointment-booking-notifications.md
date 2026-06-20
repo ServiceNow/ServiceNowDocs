@@ -2,6 +2,7 @@
 title: Appointment booking email and SMS notifications
 description: The system administrator can customize email and SMS notifications for appointment confirmation and cancellation notices and appointment reminders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appointment-booking-notifications.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,9 +24,9 @@ System administrators can configure both email and SMS notifications using the f
 -   appointment.cancel
 -   appointment.reschedule
 
-These templates come included with the appointment booking plugin. You can customize them to meet specific requirements. For more information, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+These templates come included with the appointment booking plugin. You can customize them to meet specific requirements. For more information, see .
 
-**Note:** Ensure to install Customer Experience plugin to configure SMS. For more information, see [Activate Field Service Management Customer Experience](../task/activate-customer-experience-fsm.md).
+**Note:** Ensure to install Customer Experience plugin to configure SMS. For more information, see [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/activate-customer-experience-fsm.md).
 
 Appointment booking email and SMS notifications are active for all services using the appointment booking feature. The following email notifications are included with the appointment booking feature:
 
@@ -33,5 +34,5 @@ Appointment booking email and SMS notifications are active for all services usin
 -   **Appointment Cancel**: Sent to the customer when an appointment is canceled. Can include task information and also a reason for the cancellation.
 -   **Appointment Reschedule**: Sent to the customer when an appointment is rescheduled. Can include task information.
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

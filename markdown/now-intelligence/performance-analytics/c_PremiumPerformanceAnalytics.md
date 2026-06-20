@@ -2,6 +2,7 @@
 title: Activating your Performance Analytics subscription
 description: Without a paid Performance Analytics subscription, your use is limited to 180 days of data collection \(five months for monthly indicators\) and to specific indicators provided by ServiceNow. For unlimited access to all features, purchase a subscription to Performance Analytics.With a subscription to Performance Analytics, your features should be activated automatically.Confirm manually whether you are entitled to a Performance Analytics product line. If so, you are entitled to activate the corresponding plugin on production instances.When you have purchased a Performance Analytics subscription and identified the associated plugin, activate that plugin as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/c\_PremiumPerformanceAnalytics.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -22,7 +23,7 @@ Performance Analytics subscriptions enable you to use the following functionalit
 -   Custom Performance Analytics indicators, breakdowns, widgets, or other configuration records
 -   Scores preserved for longer than 180 days \(Five full months for monthly indicators\)
 -   Text analytics widgets \(Core UI only\)
--   [Proactive analytics insights on dashboards](../../par-for-workspace/concept/proactive-analytics.md)
+-   [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/proactive-analytics/proactive-analytics.md)
 
 If you have purchased Performance Analytics through a Professional or Enterprise offering, you may use it with no restrictions in these situations:
 
@@ -34,13 +35,13 @@ If you have purchased Performance Analytics through a Professional or Enterprise
 
 If you try to perform these tasks on a production instance that doesn’t have a Performance Analytics subscription, you get a warning that a subscription is required.
 
-![Warning that you cannot do what you are trying to do unless you subscribe to Performance Analytics](../image/complimentary-warning.png "Subscription-required warning")
+\[Omitted image "complimentary-warning.png"\] Alt text: Warning that you cannot do what you are trying to do unless you subscribe to Performance Analytics
 
 The Performance Analytics Admin Console also warns you when an instance doesn’t have the full version of Performance Analytics activated.
 
-![Performance Analytics admin console showing subscription version not activated](../image/admin-console-pa-not-activated.png)
+\[Omitted image "admin-console-pa-not-activated.png"\] Alt text: Performance Analytics admin console showing subscription version not activated
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 ## Subscription Management for Performance Analytics
 
@@ -48,7 +49,7 @@ With a subscription to Performance Analytics, your features should be activated 
 
 Starting in Tokyo, Subscription Management applies to Performance Analytics. If you use Subscription Management, you should not need to activate a Performance Analytics plugin manually. The remainder of this page describes the older, manual system of activating a subscription.
 
-This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see Subscription Management.
 
 ## Identify your entitlement to Performance Analytics on an on-premises instance
 
@@ -95,7 +96,7 @@ Role required: admin
 
 5.  Select **Install**.
 
-    The Review Installation Details pane opens.![](../image/review-installation-details.png)
+    The Review Installation Details pane opens.\[Omitted image "review-installation-details.png"\] Alt text:
 
 6.  Review the dependencies and install now or later.
 
@@ -106,7 +107,7 @@ A progress bar shows you the progress of the plugin activation, after which you 
 
 ### What to do next
 
-When the process is complete, consider installing Analytics Solutions, which include preconfigured dashboards and all necessary underlying components. For more information, see [Analytics solutions](../../dashboards/concept/content-packs-in-form-analytics.md).
+When the process is complete, consider installing Analytics Solutions, which include preconfigured dashboards and all necessary underlying components. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/content-packs-in-form-analytics.md).
 
-Also consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](spotlight.md).
+Also consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/spotlight.md).
 

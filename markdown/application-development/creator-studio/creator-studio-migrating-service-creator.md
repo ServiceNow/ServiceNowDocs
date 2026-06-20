@@ -2,6 +2,7 @@
 title: Migrating to Creator Studio from Service Creator
 description: Creator Studio is intended to replace the legacy Service Creator offering, which will be retired in the Australia release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-migrating-service-creator.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -27,18 +28,18 @@ If you're a Service Creator user ready to check out Creator Studio, you must do 
 
 -   Confirm that your instance is on a minimum version of Xanadu patch 3.
 -   Purchase an App Engine Enterprise license.
--   Download Creator Studio from the ServiceNow Store. For more information, see [Installing Creator Studio from the ServiceNow Store](installing-creator-studio-from-the-store.md).
+-   Download Creator Studio from the ServiceNow Store. For more information, see [Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/installing-creator-studio-from-the-store.md).
 -   Activate Creator Studio.
 
 ## Playbooks vs. workflows
 
 Unlike the workflows that Service Creator used, Creator Studio uses playbooks to automate processes in the apps you build.
 
-[Playbooks](creator-studio-glossary.md#) are a set of activities that occur in order based on a trigger. Each activity is more like a step in a chain of steps. You can add multiple playbooks to an app if you need to.
+[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) are a set of activities that occur in order based on a trigger. Each activity is more like a step in a chain of steps. You can add multiple playbooks to an app if you need to.
 
 Playbook activities in Creator Studio replace the process of defining service configurations in Service Creator.
 
 In Service Creator, you had to first create a category for services, and then create the service and its table. Creator Studio automatically creates the table for you when you create an app, and streamlines the category selection process.
 
-For more information, see [Working with automation in Creator Studio](creator-studio-working-with-automations.md).
+For more information, see [Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-working-with-automations.md).
 

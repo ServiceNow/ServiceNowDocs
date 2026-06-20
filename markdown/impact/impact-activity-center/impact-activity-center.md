@@ -2,6 +2,7 @@
 title: Activity Center
 description: The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-activity-center/impact-activity-center.html
 release: xanadu
 product: Impact Activity Center
 classification: impact-activity-center
@@ -17,12 +18,12 @@ The Activity Center provides a comprehensive view of all the activities supporti
 
 Review outstanding notifications for your key Impact activities and deliverables that need your attention, such as tasks, recommendations, and communications. You can go directly to the record and take action. Sort by upcoming activities or view a report, such as a capability map or HealthScan report. Access your Value Journey snapshot, view your overview of Impact feature usage, and your learning credit balance.
 
-![Shows the Key Activities homescreen.](../image/key-activities.png)
+\[Omitted image "key-activities.png"\] Alt text: Shows the Key Activities homescreen.
 
 |Section|Use|
 |-------|---|
 |Conversations|Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.|
-|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](recommendations-value-journey.md) for additional information.|
+|All recommendations|View recommendations from your Squad. See [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/impact-activity-center/recommendations-value-journey.md) for additional information.|
 |Tasks|See and manage work items you are responsible for. Also create tasks and assign them to others.|
 |Calendar|See upcoming Impact related events, such as meetings, assessments, and goals.|
 |Activity log|See your team's latest activities and how they support your value journey. All activities, conversations, meetings and tasks are consolidated into one page for ease of access.|

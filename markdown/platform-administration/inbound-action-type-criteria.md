@@ -2,6 +2,7 @@
 title: Criteria for matching email to inbound actions
 description: The system matches incoming email to the conditions of the active inbound actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/inbound-action-type-criteria.html
 release: xanadu
 topic_type: concept
 last_updated: "2026-03-07"
@@ -15,11 +16,11 @@ The system matches incoming email to the conditions of the active inbound action
 
 The default inbound actions create or update task record under these conditions.
 
-![Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers](../image/inbound-email-action-type.png "Default matching criteria")
+\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
 If you customize or deactivate the default inbound actions, the system checks the conditions of the active inbound actions. If the system cannot find an inbound action with matching conditions, it sets the state to **Processed**.
 
-![Work flow for matching email to custom inbound actions](../image/processing-email-no-matching-inbound-action.png "Custom matching criteria")
+\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Work flow for matching email to custom inbound actions
 
 <table id="table_axb_pk4_m4"><thead><tr><th>
 
@@ -91,5 +92,5 @@ Create new record
 </td></tr></tbody>
 </table>If more than one inbound action is available for a particular type, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
 
-**Parent Topic:**[Inbound email actions](actions-inbound-email.md)
+**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/actions-inbound-email.md)
 

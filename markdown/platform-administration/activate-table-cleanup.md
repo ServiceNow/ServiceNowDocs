@@ -2,6 +2,7 @@
 title: Create a table cleanup rule
 description: Define the criteria for deleting unwanted records in a table cleanup rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/activate-table-cleanup.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Select the data management policy for the table that contains the records you want to delete.
 
-    If the table doesn't have a data management policy record, create one. See [Create a data management policy](create-data-management-policy.md).
+    If the table doesn't have a data management policy record, create one. See [Create a data management policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-data-management-policy.md).
 
 3.  In the Table Cleanup Rules related list, select **New**.
 
@@ -123,5 +124,5 @@ Condition builder for specifying filter conditions that define the records to be
 
 Table cleaner runs automatically and deletes records when they meet the specified record age and any conditions that you set for them.
 
-**Parent Topic:**[Deleting older or unwanted records](../concept/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-older-records.md)
 

@@ -2,6 +2,7 @@
 title: Analytics Generation
 description: Use Analytics Generation to generate Platform Analytics artifacts from conversational interactions. For example, you can ask for information about the number of open incidents and get a single-score data visualization. Analytics Generation is part of the Now Assist for Creator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/analytics-assist-landing-page.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -18,15 +19,15 @@ Use Analytics Generation to generate Platform Analytics artifacts from conversat
 
 <table id="table_jlp_gnw_xbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about what Analytics Generation supports](../concept/exploring-analytics-assist.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about what Analytics Generation supports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/exploring-analytics-assist.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable Analytics Generation for an instance](../concept/configure-analytics-assist.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable Analytics Generation for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-analytics-assist.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use AI to generate Analytics](../task/use-dv-generation.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use AI to generate Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/use-dv-generation.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -52,16 +53,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tables and indicators that will be used to generate analytics. For example, information from the Incident table or the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tables and indicators that will be used to generate analytics. For example, information from the Incident table or the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Analytics Generation](../concept/exploring-analytics-assist.md)**  
+-   **[Exploring Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/exploring-analytics-assist.md)**  
 Use Analytics Generation to generate Platform Analytics artifacts from conversational interactions. For example, you can ask for information about the number of open incidents and get a single-score data visualization.
--   **[Configure Analytics Generation](../concept/configure-analytics-assist.md)**  
+-   **[Configure Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-analytics-assist.md)**  
 Enable Analytics Generation skills in the Now Assist for Creator application to give users generative AI capabilities with analytics.
--   **[Use Analytics Generation](../task/use-dv-generation.md)**  
+-   **[Use Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/use-dv-generation.md)**  
 In the Now Assist panel, request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

@@ -2,6 +2,7 @@
 title: Configure the CI summarization skill
 description: Review and configure the settings of the Now Assist for Configuration Management Database \(CMDB\) CI summarization skill to restrict the availability of the skill to certain users or conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-config-ci-summary.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -39,7 +40,7 @@ Discovery
 
 The CI summarization skill extracts details from the **Discovery source** and **Most recent discovery** CI attributes.
 
- If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360/Multisource CMDB](../concept/multisource-cmdb.md).
+ If CMDB 360 is enabled, the summary can show additional discovery sources for the CI. For more information, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Alerts
 
 </td><td>
 
-Event Management must be activated for the CI summarization skill. For more information, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
+Event Management must be activated for the CI summarization skill. For more information, see .
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Security vulnerabilities
 
 </td><td>
 
-Security Operations must be activated for the CI summarization skill. For more information, see [Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&version=xanadu&pubname=xanadu-security-management&ft:locale=en-US).
+Security Operations must be activated for the CI summarization skill. For more information, see .
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ CI ownership
 
 The CI summarization skill determines the CI ownership based on the attribute that is specified in the **glide.cmdb.health.ci\_ownership\_field** system property.
 
- For more information, see [CMDB Health system properties](../reference/r_CMDBHealthProperties.md) and [CMDB Health](../concept/c_CMDBHealth.md).
+ For more information, see [CMDB Health system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthProperties.md) and [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Data on the CMDB Health Dashboard
 
 </td><td>
 
-The Correctness Score Calculation scheduled job improves the accuracy of the summary details on the CMDB Health Dashboard. For more information, see [Enable and configure a CMDB Health Dashboard job](t_EnableCMDBHealthDashboardJob.md).
+The Correctness Score Calculation scheduled job improves the accuracy of the summary details on the CMDB Health Dashboard. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -133,7 +134,7 @@ Select display
 </td><td>
 
 1.  Toggle the Display switch to expose the CI summarization skill on CI forms. When the **Display** toggle is in the off state, the CI summarization skill isn't available even when the skill itself is activated.
-2.  Specify the user roles that can use the CI summarization skill by selecting the drop-down list icon \( ![drop-down list icon.](../image/NowAssistDisplayDropDown.png)\) and then selecting the user roles in the **User roles** field.
+2.  Specify the user roles that can use the CI summarization skill by selecting the drop-down list icon \( \[Omitted image "NowAssistDisplayDropDown.png"\] Alt text: drop-down list icon.\) and then selecting the user roles in the **User roles** field.
 3.  Select **Save and continue**.
 
 
@@ -148,10 +149,10 @@ Review the summary of settings for the skill \(each card displays a different ca
 </td></tr></tbody>
 </table>    The **Summarize** button appears when users with the appropriate roles view a CI.
 
-    ![Summarize button becomes available for any CI.](../image/na-cmdb-summarize-button.png)
+    \[Omitted image "na-cmdb-summarize-button.png"\] Alt text: Summarize button becomes available for any CI.
 
 
 ## What to do next
 
-Use the CI summarization skill. For more information, see [Use the CI summarization skill](../concept/now-assist-cmdb-using-1.md).
+Use the CI summarization skill. For more information, see [Use the CI summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 

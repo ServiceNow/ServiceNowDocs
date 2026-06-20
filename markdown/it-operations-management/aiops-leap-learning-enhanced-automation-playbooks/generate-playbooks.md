@@ -2,6 +2,7 @@
 title: Generate AIOps LEAP playbooks
 description: Create standard, dynamic, and automated playbooks using AIOps LEAP to promote fast incident resolution and response time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -27,12 +28,12 @@ Role required: AIOps LEAP admin
 
 3.  If the list of resolution steps don't appear in the Overview, select **Generate resolution steps**.
 
-    ![Generate resolution steps](../images/generate-playbook.png)
+    \[Omitted image "generate-playbook.png"\] Alt text: Generate resolution steps
 
 4.  Select **Create LEAP**.
 
     Workflow Studio opens and the playbook generation process starts. The **Playbook name** and **Now Assist directions** fields are prefilled with the problem record title and the generated resolution steps.
 
-    ![LEAP playbook in Workflow studio](../images/workflow-studio-for-playbooks.png)
+    \[Omitted image "workflow-studio-for-playbooks.png"\] Alt text: LEAP playbook in Workflow studio
 
 

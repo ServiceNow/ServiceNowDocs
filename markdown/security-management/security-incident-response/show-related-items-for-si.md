@@ -2,11 +2,12 @@
 title: View related items for a security incident
 description: You can view related items, such as similar and child security incidents, related users, vulnerability groups, and vulnerable items associated with a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/show-related-items-for-si.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -126,10 +127,10 @@ If Customer Service is activated, you can view Customer Service case information
 </td></tr></tbody>
 </table>4.  Click any of the following related links to further update the security incident:
 
-    -   [Show Affected Items](show-affected-items-for-si.md)
-    -   [Show IoC](show-ioc-info-for-si.md)
-    -   [Show Enrichment Data](show-enrich-data-for-si.md)
-    -   [Show Response Tasks](show-response-tasks-for-si.md)
+    -   [Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-affected-items-for-si.md)
+    -   [Show IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-ioc-info-for-si.md)
+    -   [Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-enrich-data-for-si.md)
+    -   [Show Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/show-response-tasks-for-si.md)
 5.  When you have completed your entries, click **Submit**.
 
 

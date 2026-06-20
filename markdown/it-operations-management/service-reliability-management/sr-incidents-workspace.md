@@ -2,6 +2,7 @@
 title: SRM incident workspace
 description: The incident workspace contains various panels containing incident details and possible actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ The incident workspace contains various panels containing incident details and p
 
 The top header contains description information, tags, priority information, state, service, and assignment group.
 
-**Note:** Tags are imported from third-party integrations and attached to incidents. However, you can also create tags to categorize data and drive system logic using the Tag icon ![Tag icon](../image/icon-sr-tag.png). For more information on creating and viewing tags, see [Manually create SRM tags](../task/sr-create-tags.md).
+**Note:** Tags are imported from third-party integrations and attached to incidents. However, you can also create tags to categorize data and drive system logic using the Tag icon \[Omitted image "icon-sr-tag.png"\] Alt text: Tag icon. For more information on creating and viewing tags, see [Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-tags.md).
 
 When selecting an incident, you are taken to an overview. This section contains three content panels: Summary, Activity, and Recommended actions.
 
@@ -278,7 +279,7 @@ About Postmortem owner:
 
 Each section of the postmortem can be edited, excluded from a PDF, deleted, or reordered using drag-and-drop.
 
-You can add new sections using the add icon ![Add icon.](../image/icon-sr-add.png).
+You can add new sections using the add icon \[Omitted image "icon-sr-add.png"\] Alt text: Add icon..
 
 For more detailed information on editing postmortems, see .
 
@@ -290,11 +291,11 @@ Comments are added to the Activity timeline automatically. Visible to everyone i
 
 **Activity** section
 
-Stream that contains all the system activity, and resolution notes. You can filter, sort, expand or collapse all posts using the header icons. ![Header icons.](../image/icon-sr-activity-header.png)
+Stream that contains all the system activity, and resolution notes. You can filter, sort, expand or collapse all posts using the header icons. \[Omitted image "icon-sr-activity-header.png"\] Alt text: Header icons.
 
 **Note:** The filter option includes **Post types**, **Field changes**, and **Filter sets**. All choices are selected by default. Flagged entries are either all or none.
 
-![Activity section showing selected filters](../image/sr-incident-timeline-options.png)
+\[Omitted image "sr-incident-timeline-options.png"\] Alt text: Activity section showing selected filters
 
 **Actions** panel
 
@@ -304,7 +305,7 @@ The **Notifications**, **Agent assist**, **Expert on-call**, and **Email templat
 
 **Attachments** section
 
-Open the **Attachments** section using the Attachment icon ![Attachment icon](../image/icon-sr-attachment.png).
+Open the **Attachments** section using the Attachment icon \[Omitted image "icon-sr-attachment.png"\] Alt text: Attachment icon.
 
 On the **Attachments** section, you can initially **Browse** your local hard drive for files.
 
@@ -314,21 +315,21 @@ Once you have added attachments, you can:
 
     **Note:** You must have two or more attachments to search.
 
--   Upload a new attachment using the \(![Attachments](../image/icon-sr-add.png)\) icon
--   Download an existing attachment using the More actions icon \(![More actions icon.](../image/icon-more-options.png)\) to the right of the attachment.
+-   Upload a new attachment using the \(\[Omitted image "icon-sr-add.png"\] Alt text: Attachments\) icon
+-   Download an existing attachment using the More actions icon \(\[Omitted image "icon-more-options.png"\] Alt text: More actions icon.\) to the right of the attachment.
 -   Remove an existing attachment using the More actions icon to the right of the attachment.
 -   Rename an existing attachment using the More actions icon to the right of the attachment.
 
-    ![More actions icon.](../image/sr-attach-menu.png)
+    \[Omitted image "sr-attach-menu.png"\] Alt text: More actions icon.
 
 
 **Template** section
 
-Open the **Template** panel using the Template icon ![Template icon](../image/icon-sr-template.png).
+Open the **Template** panel using the Template icon \[Omitted image "icon-sr-template.png"\] Alt text: Template icon.
 
 **Note:** If there are existing templates, they are displayed but creating templates is not available in SRM.
 
-See [Manually create an SRM template](../task/sr-create-template.md) to create your own templates.
+See [Manually create an SRM template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-template.md) to create your own templates.
 
 **Collaboration** panel
 
@@ -380,5 +381,5 @@ Start or join a Slack channel:
     You are taken to the Slack channel.
 
 
-**Parent Topic:**[Exploring Service Reliability Management](../concept/exploring-service-reliability-management.md)
+**Parent Topic:**[Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
 

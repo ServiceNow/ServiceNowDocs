@@ -2,6 +2,7 @@
 title: Set up the Confluence Cloud spoke
 description: Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAuth 2.0 application in Confluence Cloud to authenticate ServiceNow requests.Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.Create a connection between your Confluence Cloud applications and your ServiceNow instance.Specify the groups that have access to Confluence products so that you can manage the users within only these groups using the Confluence Cloud spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-confluence-cloud.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -187,7 +188,7 @@ OAuth Redirect URL
 
 </td><td>
 
-URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the callback URL that you specified in [Create a Confluence Cloud OAuth 2.0 \(3LO\) application](setup-confluence-cloud.md#).
+URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the callback URL that you specified in [Create a Confluence Cloud OAuth 2.0 \(3LO\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-confluence-cloud.md).
 
 </td></tr></tbody>
 </table>6.  Click **Configure and Get OAuth Token**.

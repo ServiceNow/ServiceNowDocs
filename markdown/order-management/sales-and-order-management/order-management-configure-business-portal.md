@@ -2,6 +2,7 @@
 title: Configuring the Business Portal
 description: Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer can browse products and create orders in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/order-management-configure-business-portal.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer ca
     4.  Business Portal: sn\_b2b\_portal
     5.  UI Components for Customer Portals: sn\_ciwf\_ui\_cmpnt
     6.  Sales Cart plugin: sn\_sales\_cart
-2.  [Enable the Business Portal](../task/order-management-enable-business-portal.md)
+2.  [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-management-enable-business-portal.md)
 
     Enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 

@@ -2,6 +2,7 @@
 title: Update roadmap item milestones in Portfolio Planning Workspace
 description: Update or delete the milestones that you added to your planning items \(such as demands, scrum epics, or programs\) so that they reflect any change of plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/update-roadmap-item-milestones-portfolio-planning-workspace.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Update or delete the milestones that you added to your planning items \(such as 
 
 ## Before you begin
 
-[Add milestones for roadmap items in Portfolio Planning Workspace](add-milestones-for-roadmap-items-portfolio-planning.md).
+[Add milestones for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -32,21 +33,21 @@ For free-form roadmaps, milestones are supported only if the source table is Pla
 
 You can’t add a project milestone from the roadmap view. Creating or updating project milestones may impact the associated project plans. So, it’s recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
 
-However, any existing milestones of the project are visible on the roadmap if you've integrated [Portfolio Planning with Project Portfolio Management](../concept/portfolio-planning-integration-with-execution-applications.md).
+However, any existing milestones of the project are visible on the roadmap if you've integrated [Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d190269e132">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d146274e132">
 
 Roadmap type
 
-</th><th align="left" id="d190269e135">
+</th><th align="left" id="d146274e135">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d190269e141">
+</th></tr></thead><tbody><tr><td id="d146274e141">
 
 **Portfolio plan roadmap**
 
@@ -56,7 +57,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d190269e162">
+</td></tr><tr><td id="d146274e162">
 
 **Free-form roadmap**
 
@@ -77,12 +78,12 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     -   To update, edit the field details and click **Save**.
 
-        For information on the form fields, see [Planning item milestone form](../../alignment-planner-workspace/reference/planning-item-milestone-form.md).
+        For information on the form fields, see [Planning item milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/planning-item-milestone-form.md).
 
     -   To delete the milestone, click **Delete.**
 
         Select **OK** to confirm.
 
 
-**Parent Topic:**[Add milestones for roadmap items in Portfolio Planning Workspace](add-milestones-for-roadmap-items-portfolio-planning.md)
+**Parent Topic:**[Add milestones for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md)
 

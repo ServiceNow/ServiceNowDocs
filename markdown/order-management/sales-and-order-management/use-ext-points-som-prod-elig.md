@@ -2,6 +2,7 @@
 title: Use extension points in product eligibility
 description: Use extension points to call custom scripts from external sources that control product eligibility logic used in the Sales Customer Relationship Management \(SOM\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/use-ext-points-som-prod-elig.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

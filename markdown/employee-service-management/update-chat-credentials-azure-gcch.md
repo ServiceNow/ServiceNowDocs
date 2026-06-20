@@ -2,7 +2,10 @@
 title: Update chat credentials with Azure GCC URL
 description: Update the Azure URL in the chat credentials of GCC customers. Enable GCC customers to start chat and import chat conversations from Microsoft Teams to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/update-chat-credentials-azure-gcch.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-request-based-chat-integration-gcch.md)
+**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ec-teams-request-based-chat-integration-gcch.md)
 

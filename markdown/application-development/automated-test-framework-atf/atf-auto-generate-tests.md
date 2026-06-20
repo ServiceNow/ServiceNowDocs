@@ -2,6 +2,7 @@
 title: Auto-generate ATF tests
 description: Auto-generate ATF tests by selecting the auto-generate option either from the Auto-generate Tests module or Tests/Suites modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/atf-auto-generate-tests.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,15 +24,15 @@ Role required: admin
 
 1.  Access the Auto-generate Tests feature using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d216955e53">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d201080e53">
 
 Option
 
-</th><th align="left" id="d216955e56">
+</th><th align="left" id="d201080e56">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216955e62">
+</th></tr></thead><tbody><tr><td id="d201080e62">
 
 **Using Auto-generate Tests module**
 
@@ -45,7 +46,7 @@ Steps
 
 **Note:** The ATF Test Generator and Cloud Runner store app page shows up.
 
-</td></tr><tr><td id="d216955e99">
+</td></tr><tr><td id="d201080e99">
 
 **Using Tests or Suites module**
 

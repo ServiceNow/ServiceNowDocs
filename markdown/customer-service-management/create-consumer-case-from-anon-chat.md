@@ -2,7 +2,10 @@
 title: Create a consumer case from an anonymous chat
 description: If an anonymous chat results in the need to create a consumer case, create the case directly from the conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-consumer-case-from-anon-chat.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

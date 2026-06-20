@@ -2,11 +2,12 @@
 title: Exploring Dashboards in Strategic Planning Workspace
 description: As a product and portfolio manager, use dashboards in Strategic Planning Workspace to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution. These dashboards leverage Platform Analytics to provide a trend of historical data and regular reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/strategic-planning/exploring-dashboards-spw.html
 release: xanadu
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,16 +35,16 @@ You can use the default dashboards or create your own dashboards to monitor perf
 -   View relevant data by applying filters directly within a dashboard.
 -   Any filters applied are saved as part of user personalization and are available the next time you log in.
 
-For guidance on using and managing dashboards in the Strategic Planning Workspace, see [Using Dashboards in Strategic Planning Workspace](using-dashboards-spw.md).
+For guidance on using and managing dashboards in the Strategic Planning Workspace, see [Using Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/using-dashboards-spw.md).
 
--   **[Feedback Dashboard in Strategic Planning](feedback-dashboard-spw.md)**  
+-   **[Feedback Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/feedback-dashboard-spw.md)**  
 The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
--   **[Product Idea Dashboard in Strategic Planning](product-idea-dashboard-spw.md)**  
+-   **[Product Idea Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/product-idea-dashboard-spw.md)**  
 The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and preventing backlog bottlenecks.
--   **[Execution Dashboard in Strategic Planning](execution-dashboard-spw.md)**  
+-   **[Execution Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/execution-dashboard-spw.md)**  
 The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
--   **[Strategy Execution Dashboard in Strategic Planning](strategic-execution-dashboard-spw.md)**  
+-   **[Strategy Execution Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/strategic-execution-dashboard-spw.md)**  
 The Strategy Execution Dashboard helps portfolio managers monitor the alignment between strategy and business outcomes, and quickly assess goal progress to ensure high-impact delivery.
 
-**Parent Topic:**[Dashboards in Strategic Planning Workspace](dashboards-in-spw.md)
+**Parent Topic:**[Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/dashboards-in-spw.md)
 

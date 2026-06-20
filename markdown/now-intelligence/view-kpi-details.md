@@ -2,6 +2,7 @@
 title: View KPI Details
 description: From a list of indicators, select an indicator to open its KPI Details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/view-kpi-details.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,5 +41,5 @@ The following actions open KPI Details:
 
 The KPI Details page on the selected indicator opens.
 
-**Parent Topic:**[KPI Details](../../par-for-workspace/concept/kpi-details.md)
+**Parent Topic:**[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/kpi-details.md)
 

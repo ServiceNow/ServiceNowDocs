@@ -2,6 +2,7 @@
 title: Initiate an ad hoc approval for a contract document revision
 description: Initiate an ad hoc approval for a contract document revision from a user or a user group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,19 +34,19 @@ You can request for approval of a revision for contract documents from stakehold
 
 1.  Navigate to your workspace.
 
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d77851e100">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d79612e100">
 
 Option
 
-</th><th align="left" id="d77851e103">
+</th><th align="left" id="d79612e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77851e109">
+</th></tr></thead><tbody><tr><td id="d79612e109">
 
 **As an assignee**
 
@@ -57,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d77851e138">
+</td></tr><tr><td id="d79612e138">
 
 **As a collaborator**
 
@@ -70,7 +71,7 @@ The state of the request is Work in progress and the contract status is also wor
 </td></tr></tbody>
 </table>4.  In the **Approvers** tab, click **Initiate Approval**.
 
-    You can also initiate an approval by clicking the more actions button \(![More actions button icon.](../../legal-request-management/image/more-button-icon.png)\) and selecting **Initiate Approval**.
+    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.
 
 5.  On the Initiate Approval dialog box, fill in the fields.
 
@@ -148,12 +149,12 @@ Assigned approvers are added in the **Approvers** tab with other approval detail
 
 ## What to do next
 
-Approvers can view and [Approve or reject a contract document](cmpro-approve-reject-request-docs.md).
+Approvers can view and [Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md).
 
--   **[Approve or reject a contract document](cmpro-approve-reject-request-docs.md)**  
+-   **[Approve or reject a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-approve-reject-request-docs.md)**  
 Review a contract request or attachment and approve or reject it.
--   **[Cancel an ad hoc approval for a contract document revision](cmpro-cancel-approval-request.md)**  
+-   **[Cancel an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.md)**  
 Cancel an ad hoc approval for a contract document revision if it no longer requires any action.
 
-**Parent Topic:**[Use Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

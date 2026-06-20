@@ -2,6 +2,7 @@
 title: GRC Feature roles
 description: GRC Feature roles are specialized roles that grant access to capabilities of specific GRC features or application areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/grc-feature-roles-common-core.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
@@ -41,7 +42,7 @@ Non-IRM users can perform the following actions when assigned appropriate featur
     Create and manage evidence requests, collection details, and evidence responses.
 
 
-**Important:** GRC Feature roles uses the functional domain field on the individual record to identify the type of the record. Access to the record is restricted based on the functional domain enabling the required access to users who need it. For more information about functional domains, see [Tagging records with functional domain](../concept/tagging-records-with-functional-domain.md).
+**Important:** GRC Feature roles uses the functional domain field on the individual record to identify the type of the record. Access to the record is restricted based on the functional domain enabling the required access to users who need it. For more information about functional domains, see [Tagging records with functional domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.md).
 
 <table id="table_mwj_4c1_4gc"><thead><tr><th>
 
@@ -276,5 +277,5 @@ sn\_compliance.policy\_admin\[Operator\]
 Users with this role can delete policy, acknowledge campaign, policy, and policy exception.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Governance, Risk, and Compliance reference](../concept/grc-reference.md)
+</table>**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

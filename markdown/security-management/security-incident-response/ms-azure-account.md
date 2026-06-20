@@ -2,6 +2,7 @@
 title: Set up your Microsoft Azure account
 description: Complete the following setup tasks in your Microsoft Azure portal prior to installing the ServiceNow application for this integration. This account permits access to the Microsoft Exchange Online tenant for email message details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/ms-azure-account.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -47,11 +48,11 @@ In the following images, `ServiceNow Inc.` is displayed for the account name in 
 
     6.  Select **Register**.
 
-        An Application ID is created. This ID is similar to a user name. You enter this value on the configuration page in the **OAUTH Application ID** field during the configuration step in your ServiceNow AI Platform instance that is described in [Configure the Microsoft Exchange Online integration](msx_configure.md).
+        An Application ID is created. This ID is similar to a user name. You enter this value on the configuration page in the **OAUTH Application ID** field during the configuration step in your ServiceNow AI Platform instance that is described in [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/msx_configure.md).
 
     7.  With the Application \(client\) ID displayed in the ServiceNow Exchange Online Integration pane, select **API permissions**.
 
-        ![Application client ID highlighted in the ServiceNow Exchange Online Integration pane in the Microsoft Azure portal.](../image/ms_Azure_Portal_5.png)
+        \[Omitted image "ms\_Azure\_Portal\_5.png"\] Alt text: Application client ID highlighted in the ServiceNow Exchange Online Integration pane in the Microsoft Azure portal.
 
     8.  In the ServiceNow Exchange Online Integration - API permissions pane that is displayed, select **Add a Permission**.
 
@@ -71,9 +72,9 @@ In the following images, `ServiceNow Inc.` is displayed for the account name in 
 
     16. In the form that is displayed on the ServiceNow Exchange Online Integration - Certificates &amp; Secrets pane, enter the name for the application in the `Description` field, click an option for expiration, and select **Add**.
 
-        In the Certificates &amp; Secrets pane that is displayed, in the **Client secrets** section, under `Value`, the row is populated with the new client secret \(password\). Save this password in a secure location. After you leave this page, this password value is no longer visible. You enter this password in the **OAUTH Client Secret** field on the configuration page during the configuration step for the integration in your ServiceNow AI Platform instance. The configuration steps for the integration are described in [Configure the Microsoft Exchange Online integration](msx_configure.md).
+        In the Certificates &amp; Secrets pane that is displayed, in the **Client secrets** section, under `Value`, the row is populated with the new client secret \(password\). Save this password in a secure location. After you leave this page, this password value is no longer visible. You enter this password in the **OAUTH Client Secret** field on the configuration page during the configuration step for the integration in your ServiceNow AI Platform instance. The configuration steps for the integration are described in [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/msx_configure.md).
 
-        ![Secret value highlighted in Microsoft Azure portal.](../image/ms-azure-client-secret.png)
+        \[Omitted image "ms-azure-client-secret.png"\] Alt text: Secret value highlighted in Microsoft Azure portal.
 
         You have successfully created an application ID for OAuth authentication in the Microsoft Azure portal.
 
@@ -82,9 +83,9 @@ In the following images, `ServiceNow Inc.` is displayed for the account name in 
 
 You are ready to set up your ServiceNow AI Platform® instance for the integration.
 
-**Parent Topic:**[Microsoft Exchange Online integration](../concept/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Microsoft Exchange Online integration](../concept/ms-exchange-online-lookups.md)
+**Previous topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Next topic:**[Install Microsoft Exchange Online application](install-and-configure-ms-exchange-online.md)
+**Next topic:**[Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)
 

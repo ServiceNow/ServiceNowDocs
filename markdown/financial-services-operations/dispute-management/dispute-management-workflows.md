@@ -2,6 +2,7 @@
 title: Dispute workflows
 description: As a card dispute agent or agent connector, you can work on a credit or debit card dispute cases by investigating and resolving dispute requests for cardholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -25,13 +26,13 @@ When a dispute agent initiates a case, the case begins in the Initiate stage.
 
 During this phase, you can identify the disputed transaction, add more transactions \(if the dispute category is Fraud\), complete the dispute questionnaire, and upload any supporting documentation.
 
-When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as [Ethoca Consumer Clarity](https://www.servicenow.com/docs/access?context=ethoca-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) and [Order Insight Digital Management](https://www.servicenow.com/docs/access?context=visa-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+When a transaction is selected for dispute, you can obtain additional information about the transaction with an integration, such as Ethoca Consumer Clarity and Order Insight Digital Management.
 
 The system evaluates decision rules and determines policy rules for each transaction in the case \(for example, which transaction qualifies for a provisional credit as opposed to a final credit\).
 
 The system generates tasks based on the policy rules that are evaluated when a case is submitted. For instance, when a case has a dispute category of Fraud, the system creates a task to block and reissue the card.
 
-For information about configuring business rules, see [Exploring decision tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+For information about configuring business rules, see .
 
 ## Review
 
@@ -47,7 +48,7 @@ The system generates tasks based on the policy rules that are evaluated when a c
 
 ## Investigation
 
-During this stage of the case, the card network, card issuing bank, merchant bank or acquirer, and merchant engage in review processes to make final determinations for each transaction. In this stage, you can [alert the merchant to a card transaction dispute](../task/alert-merchant-regarding-dispute.md). If a merchant refuses a transaction dispute, [the case may also move to the manual investigation task](../task/manually-investigate-disputed-transaction.md).
+During this stage of the case, the card network, card issuing bank, merchant bank or acquirer, and merchant engage in review processes to make final determinations for each transaction. In this stage, you can [alert the merchant to a card transaction dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/alert-merchant-regarding-dispute.md). If a merchant refuses a transaction dispute, [the case may also move to the manual investigation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/manually-investigate-disputed-transaction.md).
 
 The business rules engine initiates decisions for the transaction such as:
 
@@ -76,5 +77,5 @@ If the evaluated policy rules deny the transaction, it will move directly to Clo
 
 Agents can enter the Resolution code and any Resolution notes before the case is moved to Closed Complete state.
 
-**Parent Topic:**[About Dispute Management](../../fso-deposit-operations/concept/disputes-overview.md)
+**Parent Topic:**[About Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/disputes-overview.md)
 

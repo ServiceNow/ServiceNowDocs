@@ -2,6 +2,7 @@
 title: Data policy fields
 description: These fields appear on the Data Policy form and related forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_DataPolicyFields.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -153,5 +154,5 @@ How the data policy affects the mandatory state of the field. Choices are:
  **Note:** For tables that are in a different scope than the data policy record, you cannot make a field mandatory.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a data policy](../task/t_CreateADataPolicy.md)
+</table>**Parent Topic:**[Create a data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateADataPolicy.md)
 

@@ -2,6 +2,7 @@
 title: Duplicate a Platform Analytics dashboard
 description: Duplicate a dashboard created in the inline editor so that you can share a modified version with different users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/duplicate-db.html
 release: xanadu
 topic_type: task
 last_updated: "2025-10-27"
@@ -18,7 +19,7 @@ Duplicate a dashboard created in the inline editor so that you can share a modif
 
 Role required: At least one role, as well as access to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
 
 ## About this task
 
@@ -34,11 +35,11 @@ When you duplicate a dashboard, you copy all settings and details of the origina
 
 4.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
 
-    ![Application scope picker](../../par-for-workspace/image/app-scope-picker.png)
+    \[Omitted image "app-scope-picker.png"\] Alt text: Application scope picker
 
-5.  Open the More actions menu \(![More actions menu icon](../../dashboards/image/icon-vert-3dot-p.png)\) and select **Duplicate**.
+5.  Open the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\) and select **Duplicate**.
 
-    ![Duplicate context action](../../par-for-workspace/image/db-duplicate.png)
+    \[Omitted image "db-duplicate.png"\] Alt text: Duplicate context action
 
 6.  Give the duplicate a unique name and select **Duplicate**.
 

@@ -2,6 +2,7 @@
 title: Connect ERP Data Hub to SAP using OData and HTTP
 description: Extract data securely from ERP OData APIs using ETL for use in remote tables and extraction tables. OData connects to SAP via HTTP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -42,16 +43,16 @@ The following are properties related to OData available for ERP in Xanadu Store 
 
 For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats become active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status can be seen on the system record. BAPI and table list retrieval is done via RFC. OData retrieval is done via HTTP.
 
-![ERP Data Hub systems page with RFC and HTTP heartbeat status.](../image/erpc-system-heartbeats.png)
+\[Omitted image "erpc-system-heartbeats.png"\] Alt text: ERP Data Hub systems page with RFC and HTTP heartbeat status.
 
 ## More information
 
-For more information about using OData in ERP Data Hub, see [Create an OData connection in ERP Data Hub](../task/create-an-odata-connection.md) and [OData capabilities supported by ERP Data Hub](../reference/erp-data-hub-odata-query-capabilities.md).
+For more information about using OData in ERP Data Hub, see [Create an OData connection in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
--   **[OData capabilities supported by ERP Data Hub](../reference/erp-data-hub-odata-query-capabilities.md)**  
+-   **[OData capabilities supported by ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.md)**  
 Details about the OData query capabilities supported in ERP Data Hub.
--   **[Create an OData connection in ERP Data Hub](../task/create-an-odata-connection.md)**  
+-   **[Create an OData connection in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-odata-connection.md)**  
 Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
 
-**Parent Topic:**[Using ERP models, extraction tables, and remote tables](work-with-erp-systems-connections-and-remote-tables.md)
+**Parent Topic:**[Using ERP models, extraction tables, and remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

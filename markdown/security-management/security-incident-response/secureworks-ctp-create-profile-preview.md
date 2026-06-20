@@ -2,6 +2,7 @@
 title: Preview the mapped values in the security incident
 description: After you complete the mapping step, preview the values that you mapped in a SIR security incident. This preview step permits you to verify that you have mapped all the ticket fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/secureworks-ctp-create-profile-preview.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Preview a security incident and edit the mapping again as required to fix fields
 
 3.  Review the field mapping of the ticket values on the security incident.
 
-    ![Secureworks CTP: Create Profile: Preview](../image/secureworks-create-profile-preview.gif)
+    \[Omitted image "secureworks-create-profile-preview.gif"\] Alt text: Secureworks CTP: Create Profile: Preview
 
     The preceding image is an example of a preview with a mapping error of the samples that were ingested.
 

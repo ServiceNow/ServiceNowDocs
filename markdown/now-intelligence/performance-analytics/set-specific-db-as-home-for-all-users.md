@@ -2,6 +2,7 @@
 title: Set a specific dashboard as home for all users
 description: Configure ServiceNow so that all users see the same dashboard when they log in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics

@@ -2,6 +2,7 @@
 title: Add or remove multiple services from an integration in SRM
 description: Add multiple services to an integration at once to monitor events from those services all in one place. You can also remove one or more services from the integration when you no longer need to track them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-remove-service-integration.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -23,7 +24,7 @@ Role required: srm\_responder, srm\_manager, and srm\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the integrations launchpad icon \(![Integrations launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\).
+2.  Select the integrations launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integrations launchpad icon\).
 
 3.  Select an integration.
 
@@ -31,15 +32,15 @@ Role required: srm\_responder, srm\_manager, and srm\_admin
 
 5.  Add or remove multiple services.
 
-<table id="choicetable_vly_s5z_bbc"><thead><tr><th align="left" id="d130751e100">
+<table id="choicetable_vly_s5z_bbc"><thead><tr><th align="left" id="d60974e100">
 
 Option
 
-</th><th align="left" id="d130751e103">
+</th><th align="left" id="d60974e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130751e109">
+</th></tr></thead><tbody><tr><td id="d60974e109">
 
 **Add services**
 
@@ -50,7 +51,7 @@ Steps
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d130751e136">
+</td></tr><tr><td id="d60974e136">
 
 **Remove services**
 
@@ -66,5 +67,5 @@ Steps
 
 When you're adding services, make sure that the configurations are done correctly on the webhook so that the events that come in are connected to the correct service. For more information, see KB article \(add KB permalink!\).
 
-**Parent Topic:**[Available SRM integrations](../concept/sr-builtin-integrations.md)
+**Parent Topic:**[Available SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-builtin-integrations.md)
 

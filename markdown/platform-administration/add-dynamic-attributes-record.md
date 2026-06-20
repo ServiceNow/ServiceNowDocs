@@ -2,6 +2,7 @@
 title: Add dynamic attributes to a record
 description: Store dynamic attributes and their values on a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/add-dynamic-attributes-record.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -39,5 +40,5 @@ gr.insert();
 
 In the example, the schema was defined a dynamic schema with a category of **groups\_json**, a group of **global\_electronics\_group** and an attribute of **voltage**. A typical example may be **category = Television**, **group = dimensions**, **attribute = screen size**.
 
-**Parent Topic:**[Storing dynamic attributes on a record](../concept/storing-dynamic-attributes.md)
+**Parent Topic:**[Storing dynamic attributes on a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/storing-dynamic-attributes.md)
 

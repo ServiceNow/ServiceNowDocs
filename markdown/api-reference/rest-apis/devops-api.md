@@ -2,6 +2,7 @@
 title: DevOps API
 description: The DevOps API provides endpoints that enable the interaction with external DevOps tools.Returns the schema object for a specified code resource: commit, repository, or branch.Returns the current status of the specified onboarding event which is processed or being processed asynchronously by the DevOps service.Checks if the orchestration task is under change control.Retrieves change request details for a specified orchestration pipeline execution.Returns the schema object for a specified orchestration resource.Verifies that the information being passed is valid for the creation of an orchestration task and is valid for association to a previously created step.Returns the schema object for a specific plan: app, version, or work item.Enables orchestration tools to register artifacts into a ServiceNow instance.Creates an onboarding app event that is asynchronously processed by the DevOps service.Creates an onboarding tool event that is asynchronously processed by the DevOps service.Registers a callback with a ServiceNow instance for an orchestration task under change control, which can be called once a decision has been made on the change request.Verifies that the information being passed is valid for the creation of an orchestration task and is valid for association to a previously created step. If both are valid, it creates the orchestration task and makes the association.Enables orchestration tools to create new artifact packages that contain specified artifact versions.Posts the passed in payload to the Inbound Event \[sn\_devops\_inbound\] table for processing by a custom DevOps subflow.Posts the passed in payload from GitHub, Jira, or Bitbucket to the Events \[sn\_devops\_event\] table for processing by a pre-built subflow.Updates the change control information for the specified orchestration task.Updates fields in a specified change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/devops-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -26,15 +27,15 @@ This REST API enables integrators to:
 -   Register artifact versions and packages along with their associated pipeline execution and commits.
 -   Create and manage onboarding application and tool events.
 
-For additional information, see [DevOps Config](https://www.servicenow.com/docs/access?context=devops-config-landing-page&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information, see .
 
 Starting with v2, this API supports token-based authentication. Tokens can be acquired by clicking the **Copy token** button on the tool record, located in the Tool \[sn\_devops\_tool\] table. The token can then be used in an authorization header in the format `Authorization: sn_devops.DevOpsToken <tool_sys_id>:<tool_token>`.
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## DevOps - GET /devops/code/schema
 
@@ -98,7 +99,7 @@ Required. Type of resource schema to return.Valid values \(not case-sensitive\):
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -110,7 +111,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -494,7 +495,7 @@ Unique identifier of the onboarding event whose status to return. This value is 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -506,7 +507,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1413,7 +1414,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1441,7 +1442,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr></tbody>
 </table>|Header|Description|
@@ -1450,7 +1451,7 @@ If the **devops.system** user is not available in your instance, use the **Switc
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1615,7 +1616,7 @@ Required. Sys\_id of the orchestration tool. Located in the Orchestration Tool \
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1643,7 +1644,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr></tbody>
 </table>|Header|Description|
@@ -1652,7 +1653,7 @@ If the **devops.system** user is not available in your instance, use the **Switc
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1912,7 +1913,7 @@ Type of resource schema to return.Valid values \(not case-sensitive\):
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1924,7 +1925,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2285,7 +2286,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2297,7 +2298,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2444,7 +2445,7 @@ Type of resource schema to return.Valid values \(not case-sensitive\):
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2456,7 +2457,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2959,7 +2960,7 @@ This endpoint creates new artifacts and artifact versions, and associates them t
     -   If a task execution is not found, the request is persisted in the staging table. The staged request contains the build details.
 -   If the **artifact.version** is not passed in, then depending on the tool configuration, the artifact version is either retrieved by calling the /devops/tool/artifact endpoint if your artifact tool supports webhooks or through a custom subflow that retrieves the artifact version from the artifact tool.
 
-For additional information on artifacts, see [Using DevOps change acceleration for releases](https://www.servicenow.com/docs/access?context=using-dev-ops-release-change&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on artifacts, see Using DevOps change acceleration for releases.
 
 ### URL format
 
@@ -3146,7 +3147,7 @@ Required if **pipelineName** is passed. Stage name. Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3174,7 +3175,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -3191,7 +3192,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3675,7 +3676,7 @@ This endpoint can perform the following actions:
 
 All of these actions are tool and capability specific. The following table outlines the actions available for each supported tool.
 
-![Application onboarding matrix](../image/devops-onboarding_app-matrix.png)
+\[Omitted image "devops-onboarding\_app-matrix.png"\] Alt text: Application onboarding matrix
 
 ### URL format
 
@@ -4017,7 +4018,7 @@ Required if the `artifactRepositories` object is specified and the **repositorie
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4030,7 +4031,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -4203,11 +4204,11 @@ Depending on the type of tool for which the request is posted, the endpoint perf
 
 All of these actions are tool specific and are executed based on the integration capabilities for the specified tool.
 
-![Tool onboarding matrix](../image/devops-tool_onboarding-matrix.png)
+\[Omitted image "devops-tool\_onboarding-matrix.png"\] Alt text: Tool onboarding matrix
 
-The return results for this endpoint only indicate whether the request was posted, it does not indicate whether the associated tools were created. The actual tool creation is processed asynchronously. To obtain the status of the tool creation and all other actions, you must call the [/devops/onboarding/status](devops-api.md#) endpoint and pass in the **onboardingRequestID** parameter that is returned by this endpoint.
+The return results for this endpoint only indicate whether the request was posted, it does not indicate whether the associated tools were created. The actual tool creation is processed asynchronously. To obtain the status of the tool creation and all other actions, you must call the [/devops/onboarding/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/devops-api.md) endpoint and pass in the **onboardingRequestID** parameter that is returned by this endpoint.
 
-Before you are able to access this endpoint, your admin must have configured the DevOps connection and credential alias \(CreateDevOpsTool\) to setup tools in the instance. For details, see [Install DevOps Change Velocity](https://www.servicenow.com/docs/access?context=activate-dev-ops&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US). In addition, the calling entity must have the devops.integration.user role.
+Before you are able to access this endpoint, your admin must have configured the DevOps connection and credential alias \(CreateDevOpsTool\) to setup tools in the instance. For details, see Install DevOps Change Velocity. In addition, the calling entity must have the devops.integration.user role.
 
 ### URL format
 
@@ -4354,7 +4355,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4367,7 +4368,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -4490,7 +4491,7 @@ curl -X POST "https://servicenow-instance/api/sn_devops/v1/devops/onboarding/too
 
 Registers a callback with a ServiceNow instance for an orchestration task under change control, which can be called once a decision has been made on the change request.
 
-Before you call this endpoint, you must have an orchestration task created in your ServiceNow instance. You can create this task either through Discovery or by calling the [DevOps - POST /devops/orchestration/stepMapping](devops-api.md#) endpoint. You must also ensure that the orchestration task is associated to a previously defined pipeline step and that change control is enabled \(by selecting the **Change control** option on the App Stage form.\) For details, see [Accelerating DevOps change](https://www.servicenow.com/docs/access?context=dev-ops-change-acceleration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Before you call this endpoint, you must have an orchestration task created in your ServiceNow instance. You can create this task either through Discovery or by calling the [DevOps - POST /devops/orchestration/stepMapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/devops-api.md) endpoint. You must also ensure that the orchestration task is associated to a previously defined pipeline step and that change control is enabled \(by selecting the **Change control** option on the App Stage form.\) For details, see Accelerating DevOps change.
 
 ### URL format
 
@@ -4730,7 +4731,7 @@ If the orchestration task is a child nested inside a parent orchestration task, 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -4758,7 +4759,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -4775,7 +4776,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -5081,7 +5082,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -5109,7 +5110,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -5126,7 +5127,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -5213,7 +5214,7 @@ Enables orchestration tools to create new artifact packages that contain specifi
 
 Artifact packages are used to display commits to change approvers when they view a change request. For commits to show in change requests, the package must be created in the stage prior to the stage containing the change approval.
 
-Any artifact versions included in the package registration request should already be registered with DevOps. For details on registering artifact versions, see [DevOps - POST /devops/artifact/registration](devops-api.md#).
+Any artifact versions included in the package registration request should already be registered with DevOps. For details on registering artifact versions, see [DevOps - POST /devops/artifact/registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/devops-api.md).
 
 Typically, you will pass in the **artifacts.version** and **artifacts.name** parameters when identifying an artifact version to include in a package. You can also use the advanced features of this endpoint which allows you to pass the build details for each artifact version instead of the version itself. Artifact-specific build details include the following parameters:
 
@@ -5226,7 +5227,7 @@ The endpoint uses these artifact-specific build details to look up task executio
 
 **Note:** This endpoint does not support updates. It always creates a new package even if one with same name already exists.
 
-For additional information on artifact packages, see [Using DevOps change acceleration for releases](https://www.servicenow.com/docs/access?context=using-dev-ops-release-change&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on artifact packages, see Using DevOps change acceleration for releases.
 
 ### URL format
 
@@ -5471,7 +5472,7 @@ Required. Pipeline run number.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -5499,7 +5500,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -5516,7 +5517,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -5940,13 +5941,13 @@ Response - request created a staged package:
 
 Posts the passed in payload to the Inbound Event \[sn\_devops\_inbound\] table for processing by a custom DevOps subflow.
 
-Call this endpoint from the associated webhook in your tool, specified by the passed in **capability** parameter. A custom subflow, to process the passed in payload, must already be defined in your ServiceNow instance. Based on a predefined schedule, the DevOps Master Flow picks up the webhook event information from the Inbound Event table and passes it to the custom subflow, which then process the payload. For more information on creating a custom subflow, see [Creating DevOps subflows](https://www.servicenow.com/docs/access?context=creating-dev-ops-subflows&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+Call this endpoint from the associated webhook in your tool, specified by the passed in **capability** parameter. A custom subflow, to process the passed in payload, must already be defined in your ServiceNow instance. Based on a predefined schedule, the DevOps Master Flow picks up the webhook event information from the Inbound Event table and passes it to the custom subflow, which then process the payload. For more information on creating a custom subflow, see Creating DevOps subflows.
 
-For additional information on test tool integration, see [DevOps test tool integration](https://www.servicenow.com/docs/access?context=dev-ops-test-tool-integration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on test tool integration, see DevOps test tool integration.
 
-Before calling this endpoint for a custom DevOps tool, you must implement the handleTool\(\) and getNativeIdForOrchestrationTask\(\) methods from sn\_devops.DevOpsOrchestrationToolIntegrationHandler. For more information, see [DevOpsOrchestrationToolIntegrationHandler - Scoped](../../../app-store/dev_portal/API_reference/DevOpsOrchToolIntHandlerScoped/concept/DevOpsOrchToolIntHandlerScopedAPI.md#)[DevOpsOrchestrationToolIntegrationHandler - Scoped](https://developer.servicenow.com/go_to_api.do?ID=DevOpsOrchToolIntHandlerScopedAPI&v=washingtondc).
+Before calling this endpoint for a custom DevOps tool, you must implement the handleTool\(\) and getNativeIdForOrchestrationTask\(\) methods from sn\_devops.DevOpsOrchestrationToolIntegrationHandler. For more information, see [DevOpsOrchestrationToolIntegrationHandler - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/DevOpsOrchToolIntHandlerScopedAPI.md)[DevOpsOrchestrationToolIntegrationHandler - Scoped](https://developer.servicenow.com/go_to_api.do?ID=DevOpsOrchToolIntHandlerScopedAPI&v=washingtondc).
 
-**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see [Adaptive authentication](https://www.servicenow.com/docs/access?context=adaptive-authentication&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see .
 
 ### URL format
 
@@ -6028,7 +6029,7 @@ Required. Sys\_id of the tool for which the endpoint is being called.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -6056,7 +6057,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -6073,7 +6074,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -6440,13 +6441,13 @@ Posts the passed in payload from GitHub, Jira, or Bitbucket to the Events \[sn\_
 
 Before calling this endpoint, you must create an integration with the tool you're using.
 
--   [GitHub integration with DevOps](https://www.servicenow.com/docs/access?context=github-integration-dev-ops&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
--   [Jira integration with DevOps](https://www.servicenow.com/docs/access?context=jira-integration-dev-ops&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
--   [Bitbucket integration with DevOps](https://www.servicenow.com/docs/access?context=bitbucket-integration-dev-ops&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+-   GitHub integration with DevOps
+-   Jira integration with DevOps
+-   Bitbucket integration with DevOps
 
-To process events from any other tool besides GitHub, Jira, or Bitbucket, use the [DevOps - POST /devops/tool/\{capability\}](devops-api.md#) endpoint instead.
+To process events from any other tool besides GitHub, Jira, or Bitbucket, use the [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/devops-api.md) endpoint instead.
 
-**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see [Adaptive authentication](https://www.servicenow.com/docs/access?context=adaptive-authentication&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** Starting with 1.34.1 version, a new version of this API has been introduced. With this API, Adaptive Authentication policies may not execute as expected. For more information about these policies, see .
 
 ### URL format
 
@@ -6493,7 +6494,7 @@ Table: Devops Tools \[sn\_devops\_tool\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_zbt_c4y_1tb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -6521,7 +6522,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -6538,7 +6539,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7350,7 +7351,7 @@ Required. URL of the task to execute.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -7378,7 +7379,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr id="content_type-row-RESTAPI"><td>
 
@@ -7395,7 +7396,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7580,7 +7581,7 @@ Possible values:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -7608,7 +7609,7 @@ Starting with v2, this API supports token-based authentication. Tokens can be ac
 
 **Note:** If Basic Auth details \(user name and password\) are provided in addition to an authorization header with token, Basic Auth takes precedence.
 
-If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see [DevOps Change Velocity properties](https://www.servicenow.com/docs/access?context=dev-ops-administration&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the **devops.system** user is not available in your instance, use the **Switch to this user after token based authentication is successful** property. This property enables setting any user that has the sn\_devops.integration role, which is needed to complete the token authentication. For information, see .
 
 </td></tr><tr><td>
 
@@ -7625,7 +7626,7 @@ Data format of the request body. Only supports **application/json**.
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

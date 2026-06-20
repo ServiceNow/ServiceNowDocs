@@ -2,6 +2,7 @@
 title: Configure search resources for an interaction
 description: You can configure additional search resources for an interaction to assist agents with quick resolution of the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

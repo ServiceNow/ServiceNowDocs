@@ -2,6 +2,7 @@
 title: Properties for Alumni Service Center
 description: Use properties to control the behavior of the Alumni Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/asc-properties.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

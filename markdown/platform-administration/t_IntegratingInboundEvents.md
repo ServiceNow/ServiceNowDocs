@@ -2,6 +2,7 @@
 title: Integrate inbound events
 description: This example illustrates how to create a notification from an inbound JSON request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_IntegratingInboundEvents.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -45,7 +46,7 @@ The following example steps assume you have your own demonstration instance.
         {"sysparm_action":"insert","message":"this is an event","uuid":"abc"}
         ```
 
-    ![The REST JSON request](../image/RESTRequest.png)
+    \[Omitted image "RESTRequest.png"\] Alt text: The REST JSON request
 
 5.  Click **Send**.
 
@@ -53,7 +54,7 @@ The following example steps assume you have your own demonstration instance.
 
 7.  Verify that the instance sends back a response with a `sys_id`.
 
-    ![The REST response](../image/RESTResponse.png)
+    \[Omitted image "RESTResponse.png"\] Alt text: The REST response
 
 8.  Login to your development instance.
 
@@ -61,8 +62,8 @@ The following example steps assume you have your own demonstration instance.
 
 10. Verify that the import set table has an event matching your JSON request.
 
-    ![REST import set table](../image/RESTImportSetTable.png)
+    \[Omitted image "RESTImportSetTable.png"\] Alt text: REST import set table
 
 
-**Parent Topic:**[References for Inbound email](../concept/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 

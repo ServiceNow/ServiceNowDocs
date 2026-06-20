@@ -2,6 +2,7 @@
 title: Digital End-User Experience
 description: ServiceNow Digital End-User Experience \(DEX\) offers comprehensive monitoring for applications, networks, and devices, promoting optimal performance across all channels. DEX includes Application and Device Health for monitoring performance and compliance, DEX Content Playbook for facilitating remediation with policies and metrics checks, and Desktop Assistant for integrating ServiceNow functionalities into the daily end-user workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/dex-landing.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -35,19 +36,19 @@ Proactive Engagement can assist your organization to improve employee productivi
 
 <table id="table_yjv_4lx_nxb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Leverage the system for monitoring and remediation objectives](explore-dex-console.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Leverage the system for monitoring and remediation objectives]()
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Digital End-User Experience.](config-dex-console.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/config-dex-console.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Monitor and manage the digital workplace with Digital End-User Experience.](use-dex-console.md)
+[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Monitor and manage the digital workplace with Digital End-User Experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/use-dex-console.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about the DEX Workspace administration.](../reference/dex-console-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about the DEX Workspace administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -2,6 +2,7 @@
 title: Edit the schedule or filter of an existing notification message
 description: You can update a schedule or filter that was previously created for an email notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_EditSchedOrFiltNotifMessage.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,5 +33,5 @@ To edit the schedule or filter of an existing notification message:
 3.  Click **Update**.
 
 
-**Parent Topic:**[Create a notification filter](../../../administer/notification/task/t_NotificationFilters.md)
+**Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_NotificationFilters.md)
 

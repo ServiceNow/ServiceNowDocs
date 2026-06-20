@@ -2,6 +2,7 @@
 title: Create a task bundling rule
 description: Create a task bundling rule to bundle tasks dynamically according to the selected parameters with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-a-task-bundling-rule.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Create a task bundling rule to bundle tasks dynamically according to the selecte
 
 ## Before you begin
 
-To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](create-a-task-bundling-policy.md).
+To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
 Role required: admin
 
@@ -64,7 +65,7 @@ Policy
 
 </td><td>
 
-Policy that this rule is grouped under.**Note:** To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](create-a-task-bundling-policy.md).
+Policy that this rule is grouped under.**Note:** To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
 </td></tr><tr><td>
 

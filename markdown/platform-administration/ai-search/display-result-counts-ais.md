@@ -2,6 +2,7 @@
 title: Display search result counts on the results page for a search application
 description: Display search result counts on the results page for AI Search applications that use Seismic components. Counts show the total number of matching search results and the number of matching results for each navigation tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/display-result-counts-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -29,9 +30,9 @@ Search administrators can enable display of search result counts in AI Search ap
     **Note:** Navigation tabs with 1,000 or more matching search results display **1000+** as their result count.
 
 
-![Service Portal results page showing result counts before result list and in navigation tabs.](../image/service-portal-result-counts-ais.png "Sample results page with results counts")
+\[Omitted image "service-portal-result-counts-ais.png"\] Alt text: Service Portal results page showing result counts before result list and in navigation tabs.
 
-**Note:** Result counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on late binding security, see [Content security in AI Search](../concept/content-security-ais.md).
+**Note:** Result counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on late binding security, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/content-security-ais.md).
 
 Result counts are supported in search applications that use Seismic components. You can display search result counts in the following search applications:
 
@@ -59,5 +60,5 @@ Search result counts are enabled by default for new search application configura
 
 AI Search displays the total result count and navigation tab result counts on the results page for the selected search application.
 
-**Parent Topic:**[Search application configurations](../concept/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

@@ -2,6 +2,7 @@
 title: Import a Microsoft Project file with the Import module
 description: Use the Import module to import a Microsoft project file as a new project into the Project Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ImportMicrosoftProjectFiles.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -24,7 +25,7 @@ Role required: it\_project\_manager
 Before importing a Microsoft Project file into the ServiceNow instance, consider the following information.
 
 -   Microsoft Project project imported into a teamspace is only available to users who can access the teamspace.
--   To import custom fields in your Microsoft project, create those custom fields in your ServiceNow instance first, and then create mapping between these fields before importing the project. For more information, see [Create custom field mapping for Microsoft Project file import](map-custom-fields-msp-project.md).
+-   To import custom fields in your Microsoft project, create those custom fields in your ServiceNow instance first, and then create mapping between these fields before importing the project. For more information, see [Create custom field mapping for Microsoft Project file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/map-custom-fields-msp-project.md).
 
     **Note:** You can also use the Scripted Extension Points for importing custom fields without creating and mapping the custom fields manually. Use the MSProjectImportTaskFormatter Extension Point to create a script include and map custom fields in Microsoft Project and ServiceNow. You can also use this Extension Point to modify the data while importing a project.
 
@@ -56,7 +57,7 @@ Before importing a Microsoft Project file into the ServiceNow instance, consider
 
     1.  Select **Update an existing project**.
 
-    2.  Click the reference lookup icon \(![Lookup icon](../image/IconReferencelookup.png)\) and select a project or task.
+    2.  Click the reference lookup icon \(\[Omitted image "IconReferencelookup.png"\] Alt text: Lookup icon\) and select a project or task.
 
         Only active projects appear in the list.
 
@@ -64,7 +65,7 @@ Before importing a Microsoft Project file into the ServiceNow instance, consider
 
     -   **Automatic**: Select this option to apply the scheduling engine while importing the project tasks. The supported constraint types are imported with same constraints applied to them while other constraint types are converted to **Start on specific date**.
     -   **Manual**: Select this option to import all project tasks with **Start on specific date** constraint type irrespective of their constraint type in Microsoft Project.
-    For more information about supported constraint types, see [Project import from Microsoft Project](../concept/project-import-msp.md#ul_gsp_tlz_bq).
+    For more information about supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/project-import-msp.md).
 
 7.  Click **Import**.
 
@@ -79,5 +80,5 @@ Before importing a Microsoft Project file into the ServiceNow instance, consider
     -   The **State** of the parent project and tasks are rolled up.
     -   The % Complete on the top task is rolled up.
 
-**Parent Topic:**[Project import from Microsoft Project](../concept/project-import-msp.md)
+**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/project-import-msp.md)
 

@@ -2,6 +2,7 @@
 title: View publisher part number \(PPN\) suggestions in workspace
 description: View Content Service suggestions for your custom PPNs and DMAPS in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-customppn-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

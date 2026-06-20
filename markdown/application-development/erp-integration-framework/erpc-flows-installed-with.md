@@ -2,6 +2,7 @@
 title: Flows that ship with ERP Data Hub
 description: ERP Data Hub includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-flows-installed-with.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [ERP Data Hub reference, ERP Data Hub, Building low-code application
 
 ERP Data Hub includes two ERP \(Enterprise Resource Planning\) flows that run automatically.
 
-You don't need to do anything to activate the flows, but you can customize them in Workflow Studio if you want. For example, to change the time that they run daily. For more information, see [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+You don't need to do anything to activate the flows, but you can customize them in Workflow Studio if you want. For example, to change the time that they run daily. For more information, see .
 
 **Note:** ERP Data Hub appears as **ERP Integration** when you work with it in Workflow Studio.
 
@@ -29,5 +30,5 @@ The flows save their changes to the following tables:
 -   sn\_erp\_integration\_sap\_tables\_list
 -   sn\_erp\_integration\_sap\_bapi\_list\_list
 
-**Parent Topic:**[ERP Data Hub reference](erp-integration-reference.md)
+**Parent Topic:**[ERP Data Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-reference.md)
 

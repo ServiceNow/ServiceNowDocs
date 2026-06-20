@@ -2,13 +2,14 @@
 title: Configure Custom Field Mapping
 description: Field Mapping allows you to configure how each field in a data feed such as Text, CSV or JSON is interpreted and assigned to the corresponding observable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-field-mapping.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-07-21"
 reading_time_minutes: 5
-breadcrumb: [Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure Custom Field Mapping
@@ -29,11 +30,11 @@ Role required: sn\_sec\_tisc.admin
 
 4.  Fill in the text feed form details as required.
 
-    For more information see, [Configure a new threat intelligence feed](tisc-new-data-source.md).
+    For more information see, [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
 
 5.  On the new form view, drill down to **Data Parsing Mechanism** field under the **Configuration** section.
 
-    For more information on Data Parsing Mechanism, see [Configure a new threat intelligence feed](tisc-new-data-source.md).
+    For more information on Data Parsing Mechanism, see [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
 
 6.  Select **Custom Field Mapping** option.
 
@@ -53,7 +54,7 @@ Role required: sn\_sec\_tisc.admin
 
     This sample data will fetch the first ten records by default, this total number of records to be retrieved can be modified with the system property `sn_sec_tisc.feed_field_mapping_sample_count`.
 
-    ![TISC - Field Mapping Adding Sample Data.](../image/tisc-field-map-sample-data.png)
+    \[Omitted image "tisc-field-map-sample-data.png"\] Alt text: TISC - Field Mapping Adding Sample Data.
 
 11. Select **Next** to configure the field mapping.
 
@@ -73,7 +74,7 @@ Role required: sn\_sec\_tisc.admin
 
 14. Proceed to add the field mapping by selecting the appropriate values from the drop down list.
 
-    ![TISC Field Mapping Data Delimiter](../image/tisc-field-mapping-data-delimiter.png)
+    \[Omitted image "tisc-field-mapping-data-delimiter.png"\] Alt text: TISC Field Mapping Data Delimiter
 
 15. Use the **Transform Script** to transform and normalize the input values before mapping them to observables.
 
@@ -100,7 +101,7 @@ Role required: sn\_sec\_tisc.admin
 
         **Note:** Each individual mapping record supports its own script, allowing users to define custom transformation logic for every mapping.
 
-        ![TISC Field Mapping Transform Script](../image/tisc-field-mapping-transform-script.png)
+        \[Omitted image "tisc-field-mapping-transform-script.png"\] Alt text: TISC Field Mapping Transform Script
 
     4.  Select **Save** to save the script to get the updated target value.
 
@@ -108,7 +109,7 @@ Role required: sn\_sec\_tisc.admin
 
 16. Select **Next** to proceed to preview the field mappings in the **Preview** section.
 
-    ![TISC - Field Mapping preview sample data.](../image/tisc-field-mapping-preview-data.png)
+    \[Omitted image "tisc-field-mapping-preview-data.png"\] Alt text: TISC - Field Mapping preview sample data.
 
 17. Preview the sample field mapping and select **Save**.
 
@@ -127,5 +128,5 @@ Role required: sn\_sec\_tisc.admin
     Always verify the sample data after changes to ensure correct parsing before running the integration.
 
 
-**Parent Topic:**[Threat Intelligence Feeds](../concept/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

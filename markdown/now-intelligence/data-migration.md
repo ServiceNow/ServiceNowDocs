@@ -2,6 +2,7 @@
 title: Platform Analytics Migration Center
 description: When you migrate your Core UI data, your existing dashboards, reports, interactive filters, and Performance Analytics widgets are moved to Platform Analytics. When you activate the migration, the result is a single set of visualizations and unified filters for all data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/data-migration.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-05-14"
@@ -32,7 +33,7 @@ The migration process takes your dashboard content and migrates it from Core UI 
 
 ## What isn't migrated
 
-The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics. Some content doesn’t have an analogous Platform Analytics feature and is migrated into containers, also called iframes. This is called Compatibility mode. For detailed information about content migrated into iframes and the few items that aren’t migrated at all, see [Content not migrated or migrated in compatibility mode](../reference/data-mig-unmigrated-content.md).
+The short answer is that almost everything is migrated. Most Core UI dashboard content is supported in Platform Analytics. Some content doesn’t have an analogous Platform Analytics feature and is migrated into containers, also called iframes. This is called Compatibility mode. For detailed information about content migrated into iframes and the few items that aren’t migrated at all, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/data-mig-unmigrated-content.md).
 
 ## What is the migration process
 
@@ -71,5 +72,5 @@ You can disable the **Start Moving** and **Activate** Platform Analytics experie
 
 If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
 
-For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+For more information, see .
 

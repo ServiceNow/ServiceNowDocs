@@ -2,6 +2,7 @@
 title: Adaptive Authentication Events
 description: You can use the adaptive authentication events table to know about the events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/adaptive-authentication-events.html
 release: xanadu
 product: Authentication
 classification: authentication

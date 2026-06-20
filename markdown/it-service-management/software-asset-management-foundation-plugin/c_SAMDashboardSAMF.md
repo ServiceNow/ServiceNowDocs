@@ -2,6 +2,7 @@
 title: Software Asset Management Foundation dashboard
 description: View compliance and true-up cost trend charts on the Software Asset Management Foundation dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/software-asset-management-foundation-plugin/c\_SAMDashboardSAMF.html
 release: xanadu
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -23,7 +24,7 @@ Results are updated daily, or whenever a new reconciliation result is available,
 
 The source for overview data is the Product Result \[samp\_product\_result\] table.
 
-![Overview data on the Product Result table](../image/SAMOverviewSAMF.png)
+\[Omitted image "SAMOverviewSAMF.png"\] Alt text: Overview data on the Product Result table
 
 |Report|Description|
 |------|-----------|
@@ -32,5 +33,5 @@ The source for overview data is the Product Result \[samp\_product\_result\] tab
 |Total True-up Cost|Cost to be compliant based on the average prices in entitlements for the rights.|
 |Top 10 Products by True-up Cost|Top 10 products graphed in order of true-up cost.|
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](using-samf-classic.md)
+**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

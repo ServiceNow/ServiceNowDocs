@@ -2,6 +2,7 @@
 title: Complete a Listening Posts pulse survey
 description: Provide your rating for the questions asked in a pulse survey. Your feedback is used to gauge overall employee experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/complete-pulse-survey.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts

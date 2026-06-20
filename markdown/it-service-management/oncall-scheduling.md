@@ -2,7 +2,10 @@
 title: On-call dashboard
 description: Dashboard providing view into the performance of On-call Escalations handled by the team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/oncall-scheduling.html
 release: xanadu
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2024-09-02"
 reading_time_minutes: 1

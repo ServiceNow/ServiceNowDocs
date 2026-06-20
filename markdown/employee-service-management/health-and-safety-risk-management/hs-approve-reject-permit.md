@@ -2,6 +2,7 @@
 title: Approve or reject a permit
 description: Review the permit and approve or reject it through the employee center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-approve-reject-permit.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -34,5 +35,5 @@ Once the permit requestor submits the permit-to-work request, the permit approve
 4.  Add comments on the approve request and approve or reject the permit request.
 
 
-**Parent Topic:**[Permit-to-work](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

@@ -2,7 +2,10 @@
 title: Preview an email from the Emails related list
 description: Preview emails directly from within cases. With this capability, you can select case-related emails and read the details in full view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/preview-email-cases.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-07"
 reading_time_minutes: 1
@@ -21,9 +24,9 @@ Role required: sn\_customerservice\_agent
 
 For information about adding or modifying actions on a form, see the following topics:
 
--   [Customizing your workspace with declarative actions](https://www.servicenow.com/docs/access?context=declarative-actions-landing&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
--   [Create a UXF client action for forms](https://www.servicenow.com/docs/access?context=create-a-new-uxf-client-action-for-forms&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
--   [Declarative actions glossary](https://www.servicenow.com/docs/access?context=declarative-actions-glossary&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+-   Customizing your workspace with declarative actions
+-   Create a UXF client action for forms
+-   Declarative actions glossary
 
 ## Procedure
 
@@ -39,7 +42,7 @@ For information about adding or modifying actions on a form, see the following t
 
     The email opens in a sub tab and displays the details.
 
-    ![Details tab displaying email information of a case record.](../image/email-tab.png)
+    \[Omitted image "email-tab.png"\] Alt text: Details tab displaying email information of a case record.
 
 5.  Select **Reply** or **Reply All** to reply to the message you are viewing or select **Forward** to forward the email.
 

@@ -2,6 +2,7 @@
 title: SLA Repair workflow
 description: You can configure workflow usage for SLA repair operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-level-management/r\_SLARepairWorkflow.html
 release: xanadu
 product: Service Level Management
 classification: service-level-management
@@ -31,5 +32,5 @@ For new instances, the SLA Repair function uses the Default SLA workflow, which 
 
 To change the default workflow the SLA repair function uses, go to **Service Level Management** &gt; **Properties** &gt; **SLA Repair** and set the **com.snc.sla.repair.workflow** repair property.
 
-**Parent Topic:**[Service Level Management reference](../concept/service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-level-management/service-level-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Project opportunity
 description: Projects facilitate creating a team consisting of multiple roles filled by multiple people. Projects can be broad in scope and be long-term or short-term in duration. Projects and other opportunity types are configured by ServiceNow admins from the Opportunity Type Configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-project.html
 release: xanadu
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -23,7 +24,7 @@ Projects are temporary opportunities, but they can be either long-term or short-
 -   Demonstrate the ability to handle responsibility
 -   Lead teams
 
-Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see [Manage and create opportunity types in Opportunity Marketplace](../task/egd-oppt-mrktplc-manage-opportunity-types.md).
+Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see [Manage and create opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-manage-opportunity-types.md).
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

@@ -2,6 +2,7 @@
 title: States of localization projects and tasks
 description: The state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is defined for translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/localization-framework/localization-task-states.html
 release: xanadu
 product: Localization Framework
 classification: localization-framework
@@ -32,5 +33,5 @@ The state of a localization project or of a task defines the status of the local
 |In Progress|Translation of localization tasks is in progress.|
 |Under Review|Approver is reviewing the translations.|
 
-**Parent Topic:**[Localization Framework reference](../concept/reference-localization-framework.md)
+**Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/localization-framework/reference-localization-framework.md)
 

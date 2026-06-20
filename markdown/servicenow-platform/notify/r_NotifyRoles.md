@@ -2,6 +2,7 @@
 title: Roles installed with Notify
 description: Notify adds the following roles.Administrator with privileges for Notify 2 functionality.Assign to users who need to view notify content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/notify/r\_NotifyRoles.html
 release: xanadu
 product: Notify
 classification: notify
@@ -15,9 +16,9 @@ breadcrumb: [Components installed with Notify, Reference, Notify, Manage service
 
 Notify adds the following roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Components installed with Notify](installed-with-notify2.md)
+**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/notify/installed-with-notify2.md)
 
 ## Notify administrator \[notify\_admin\]
 

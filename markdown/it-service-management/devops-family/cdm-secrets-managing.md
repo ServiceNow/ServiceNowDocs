@@ -2,13 +2,14 @@
 title: How encrypted data is handled
 description: By default, encrypted values appear in all views as \*\*\*\*\*\*\*. Only users with the CDM Secrets \[sn\_cdm.cdm\_secrets\] role can view, create, update, and delete encrypted values in config data. The system validates and exports encrypted data appropriately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-family/cdm-secrets-managing.html
 release: xanadu
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Reference, DevOps Config, IT Service Management]
+breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 ---
 
 # How encrypted data is handled
@@ -38,5 +39,5 @@ By default, encrypted values appear in all views as `*******`. Only users with t
 -   Cannot view, create, or update encrypted values in config data.
 -   Cannot export a snapshot that includes encrypted data.
 
-**Parent Topic:**[DevOps Config reference](../../devops-config/reference/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-family/devops-config-reference.md)
 

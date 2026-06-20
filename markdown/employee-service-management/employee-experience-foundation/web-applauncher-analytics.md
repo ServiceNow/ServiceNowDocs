@@ -2,6 +2,7 @@
 title: App launcher user experience analytics
 description: Visually analyze app usage, user behavior, and other information from the user experience dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/web-applauncher-analytics.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ You can use the dashboard to view the information about application usage, appli
 
 Navigate to **User Experience Analytics** &gt; **Dashboard** for a detailed view and analysis. Click the respective widget or chart for more information.
 
-![Displays usage and adoption data](../images/applauncher-user-analytics-dashboard.jpg "User experience analytics dashboard")
+\[Omitted image "applauncher-user-analytics-dashboard.jpg"\] Alt text: Displays usage and adoption data
 
 ## User and roles
 

@@ -2,6 +2,7 @@
 title: View the progress of automated tests
 description: When an automated test is running, view its progress in the Run Test progress dialog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/atf-view-progress.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -36,5 +37,5 @@ When you execute a test or test suite, the system automatically displays the Run
     -   If you are currently viewing the Test Results page or the Suite Results page, click **Show Progress** under Related Links.
     -   If you are currently viewing the Test Results list or Suite Results list, right-click the row for the running test or test suite, then click **Show Progress**.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](../concept/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/atf-build-overview.md)
 

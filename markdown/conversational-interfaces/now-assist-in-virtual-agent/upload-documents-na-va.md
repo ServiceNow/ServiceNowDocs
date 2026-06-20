@@ -2,6 +2,7 @@
 title: Upload documents in Now Assist in Virtual Agent
 description: Upload or drag files into Now Assist in Virtual Agent to extract relevant data from a file. The assistant analyzes and understands the content of the files, and you can ask questions about the content of the files or get a summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Upload or drag files into Now Assist in Virtual Agent to extract relevant data f
 
 ## Before you begin
 
-Now Assist in Virtual Agent standard and enhanced chat support uploading documents to the assistant. For more information about the different chat capabilities, see [Standard chat](../concept/nava-standard-chat.md) and [Enhanced chat](../concept/nava-enhanced-chat.md). Uploading a document within a chat is available to you when an admin activates this feature in the admin guided setup. For more information, see [Configuring Now Assist in Virtual Agent](configure-now-assist-va.md).
+Now Assist in Virtual Agent standard and enhanced chat support uploading documents to the assistant. For more information about the different chat capabilities, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) and [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). Uploading a document within a chat is available to you when an admin activates this feature in the admin guided setup. For more information, see [Configuring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
 Uploaded file formats include text and image files such as PDF, Word \(.doc, .docx\), JPEG, and PNG. The maximum size of a file is 5 megabytes \(MB\).
 
@@ -31,7 +32,7 @@ Role required: requestor
 
 3.  Select the paperclip icon to upload the file or drag the file into the chat.
 
-    ![Upload document or image files.](../image/NAinVA-upload-files-052025.png "Upload files into the chat")
+    \[Omitted image "NAinVA-upload-files-052025.png"\] Alt text: Upload document or image files.
 
     One or more files can be uploaded to the chat. The maximum number of files that can be uploaded is three. You see the progress as the file uploads, until its completion. If the file fails to upload, or the content can't be properly parsed, take corrective action.
 

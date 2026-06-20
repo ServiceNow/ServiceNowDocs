@@ -2,6 +2,7 @@
 title: Add or change a pricing plan step
 description: Add a pricing plan step to a configurable pricing plan that applies either a pricing matrix or a custom adjustment using the pricing extension point. You can also change certain items in an existing step, such as the sequence or type of matrix used, as well as specify conditions for running the step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/add-pricing-step.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Add a pricing plan step to a configurable pricing plan that applies either a pri
 
 ## Before you begin
 
-[Create a configurable pricing plan](create-custom-pricing-plan.md).
+[Create a configurable pricing plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-custom-pricing-plan.md).
 
 Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
 
@@ -34,7 +35,7 @@ You can add or change a pricing plan step only when the configurable pricing pla
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Plans**.
 
@@ -43,7 +44,7 @@ You can add or change a pricing plan step only when the configurable pricing pla
 4.  In the pricing plan, select the Pricing Plan Steps tab.
 
     -   To add a step, select **New**.
-    -   To change a step, select the step number to be updated. If you need to delete a pricing adjustment step, see [Delete a pricing plan step](delete-pricing-plan-step.md).
+    -   To change a step, select the step number to be updated. If you need to delete a pricing adjustment step, see [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/delete-pricing-plan-step.md).
 5.  Fill in or change certain fields in the form.
 
 <table><thead><tr><th>
@@ -130,8 +131,8 @@ Rule matrix
 
 </td><td>
 
-Option that displays if you selected the Apply Matrix Adjustments action. Select the pricing matrix to be applied:-   [Configuration Component Price Adjustment Matrix](som-create-bundle-adjustment.md): Use this matrix to set the price adjustments for child product offerings that are bundled under a parent product offering.
--   [Standard Price Adjustment Matrix](som-create-nonprod-attrib-adjustment.md): Use this matrix to set a pricing adjustment for a product offering based on non-product characteristics, such as billing state or shipping zip code.
+Option that displays if you selected the Apply Matrix Adjustments action. Select the pricing matrix to be applied:-   [Configuration Component Price Adjustment Matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-bundle-adjustment.md): Use this matrix to set the price adjustments for child product offerings that are bundled under a parent product offering.
+-   [Standard Price Adjustment Matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-nonprod-attrib-adjustment.md): Use this matrix to set a pricing adjustment for a product offering based on non-product characteristics, such as billing state or shipping zip code.
 You can select the rule matrix link in the step to define the matrix.
 
 </td></tr><tr><td>
@@ -164,7 +165,7 @@ Option that displays the PricingAdjustmentsExtensionPoint if you selected the Ap
 
 8.  To continue adding or changing steps, repeat steps 4 through 7.
 
-    If you need to remove a step, see [Delete a pricing plan step](delete-pricing-plan-step.md).
+    If you need to remove a step, see [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/delete-pricing-plan-step.md).
 
 9.  When you're finished adding or changing steps, select **Publish**.
 

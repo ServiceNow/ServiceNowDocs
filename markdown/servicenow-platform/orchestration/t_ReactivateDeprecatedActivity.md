@@ -2,6 +2,7 @@
 title: Reactivate a deprecated activity
 description: Orchestration activities that were converted to activity packs are deprecated for upgraded and new instances but can be reactivated for use in new workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/orchestration/t\_ReactivateDeprecatedActivity.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ Orchestration activities that were converted to activity packs are deprecated fo
 
 Role required: workflow\_admin, admin
 
-**Note:** Reactivation of deprecated activities for use in new workflows is discouraged. Legacy activities cannot use the unique features of the scoped applications, such as reuse of data from the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#) and input variable testing.
+**Note:** Reactivation of deprecated activities for use in new workflows is discouraged. Legacy activities cannot use the unique features of the scoped applications, such as reuse of data from the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrationDatabus.md) and input variable testing.
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: workflow\_admin, admin
 
 2.  In the list of activities, clear the condition **Category !=deprecated** from the filter.
 
-    ![Category filter for deprecated activities](../image/CategoryDeprecationFilter.png)
+    \[Omitted image "CategoryDeprecationFilter.png"\] Alt text: Category filter for deprecated activities
 
 3.  Open the definition record for the activity you want to reactivate.
 
@@ -42,5 +43,5 @@ Role required: workflow\_admin, admin
     The system creates a new category using the value provided and reactivates the activity, which becomes available in the **Core** tab of the Workflow Editor.
 
 
-**Parent Topic:**[Deprecated Orchestration activities](../reference/r_OrchestrationBasicActivities.md)
+**Parent Topic:**[Deprecated Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/r_OrchestrationBasicActivities.md)
 

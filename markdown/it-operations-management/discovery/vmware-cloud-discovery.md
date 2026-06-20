@@ -2,6 +2,7 @@
 title: VMware Cloud Discovery
 description: Applications that access VMware cloud resources need access to VMware credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/vmware-cloud-discovery.html
 release: xanadu
 product: Discovery
 classification: discovery

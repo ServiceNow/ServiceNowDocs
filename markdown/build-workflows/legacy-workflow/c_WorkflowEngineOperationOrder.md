@@ -2,6 +2,7 @@
 title: Workflow engine operation order
 description: The workflow engine runs in a predefined order relative to business rules and database operations. It caches commonly-used published workflows to improve performance.The workflow engine caches commonly-used published workflows to improve performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/legacy-workflow/c\_WorkflowEngineOperationOrder.html
 release: xanadu
 product: Legacy Workflow
 classification: legacy-workflow
@@ -17,9 +18,9 @@ The workflow engine runs in a predefined order relative to business rules and da
 
 The **Run after bus. rules run** workflow property defines if a workflow is **Default** or **Deferred**.
 
-The diagram below shows the workflow engine order of operations and when Default and Deferred flows are executed. For a more general overview of engine operation order, see [Execution order of scripts and engines](https://www.servicenow.com/docs/access?context=r_ExecutionOrderScriptsAndEngines&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+The diagram below shows the workflow engine order of operations and when Default and Deferred flows are executed. For a more general overview of engine operation order, see Execution order of scripts and engines.
 
-![](../image/WFEngineOrderDiagram.png "Workflow engine order diagram")
+\[Omitted image "WFEngineOrderDiagram.png"\] Alt text:
 
 ## Workflow caching
 

@@ -2,7 +2,10 @@
 title: Mobile experience for Workforce Optimization for Field Service
 description: Manage work order tasks from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/mobile-interface-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,11 +16,11 @@ breadcrumb: [Managing Workforce Optimization for Field Service, Using Field Serv
 
 Manage work order tasks from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 
-If you're an agent \(sn\_fieldservice\_agent​\) or a manager \(sn\_wfo\_fsm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Field Service Mobile plugin \(com.sn\_fsm\_mobile\). For more information, see [Mobile experience for Field Service Management](mobile-experience-fsm.md).
+If you're an agent \(sn\_fieldservice\_agent​\) or a manager \(sn\_wfo\_fsm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Field Service Mobile plugin \(com.sn\_fsm\_mobile\). For more information, see [Mobile experience for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/mobile-experience-fsm.md).
 
--   To get started with this application, follow the instructions in [Connect to your Field Service data](../task/install-fsm-mobile-app.md).
--   Field Service agents can receive their scheduled task updates and access their schedules when in offline mode. For more information, see [Scheduled offline caching](https://www.servicenow.com/docs/access?context=scheduled-offline-caching&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
--   For information about the agent and manager tasks that you can perform, see [Use the Now Mobile Agent application to perform tasks](Use-mobile-app-fsm.md). Additionally, you can also perform the tasks in the following table through Workforce Optimization for Field Service.
+-   To get started with this application, follow the instructions in [Connect to your Field Service data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/mobile-experience-for-field-service-management-glide-family/install-fsm-mobile-app.md).
+-   Field Service agents can receive their scheduled task updates and access their schedules when in offline mode. For more information, see Scheduled offline caching.
+-   For information about the agent and manager tasks that you can perform, see [Use the Now Mobile Agent application to perform tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Use-mobile-app-fsm.md). Additionally, you can also perform the tasks in the following table through Workforce Optimization for Field Service.
 
 <table id="table_mnd_gzg_zlb"><thead><tr><th>
 
@@ -83,5 +86,5 @@ Tap the notification. The task record appears.
 Review the task record and take appropriate action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing Workforce Optimization for Field Service](using-wfo-fsm.md)
+</table>**Parent Topic:**[Managing Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-wfo-fsm.md)
 

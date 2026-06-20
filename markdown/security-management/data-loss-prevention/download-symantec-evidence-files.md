@@ -2,12 +2,13 @@
 title: Download evidence files on Symantec
 description: Download the DLP incident evidence files that violate the DLP policy on Symantec.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/data-loss-prevention/download-symantec-evidence-files.html
 release: xanadu
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
 last_updated: "2024-08-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Symantec Integration for Data Loss Prevention Incident Response, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
 ---
 
@@ -61,7 +62,7 @@ Role required:
 
 After performing this action, the evidence file in either ZIP format \(if the incident has violations in multiple components and/or the original message data is also available\) or a single file \(if incident has violations in single component or only original message data is available\) will be downloaded to the user's local machine.
 
-**Note:** As a DLP admin, you can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** option from the **Advanced Settings** page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://servicenow.com/docs/bundle/washingtondc-security-management/page/product/data-loss-prevention/task/configure-advanced-settings-dlp.html).
+**Note:** As a DLP admin, you can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed** option from the **Advanced Settings** page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
-**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](../concept/symantec-dlp-integration.md)
+**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

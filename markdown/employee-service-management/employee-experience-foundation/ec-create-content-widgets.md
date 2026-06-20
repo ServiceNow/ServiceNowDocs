@@ -2,6 +2,7 @@
 title: Create rich content from portal widgets
 description: Use the Rich Content widget content authoring shortcuts to create and edit rich content directly from the employee portal. When you use the widget shortcuts, the system generates a publish plan to deliver the content to that specific widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-create-content-widgets.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sn\_cd.content\_manager
 
 ## About this task
 
-![Enable the Author view toggle to create and edit content from widgets](../images/edit-content-widget.png)
+\[Omitted image "edit-content-widget.png"\] Alt text: Enable the Author view toggle to create and edit content from widgets
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Role required: sn\_cd.content\_manager
 
 3.  Click the **Add content** or **Edit content** icon.
 
-    -   If you click **Add content**, the new content form opens. Follow the Rich content creation flow to create a content record and assemble the rich content. See [Create rich content](ec-content-library-portal-rich-content.md).
+    -   If you click **Add content**, the new content form opens. Follow the Rich content creation flow to create a content record and assemble the rich content. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md).
     -   If you click **Edit content**, the Rich Content Editor opens where you can edit the content as needed.
 4.  Select **Save and Finish** to return to the content record.
 
@@ -44,5 +45,5 @@ Role required: sn\_cd.content\_manager
 
 ## What to do next
 
-If necessary, modify the publish plan. See [Create a publish plan for your content](ec-content-library-publish2.md).
+If necessary, modify the publish plan. See [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

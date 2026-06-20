@@ -2,6 +2,7 @@
 title: Create a bulk case request using Agent Workspace for HR Case Management
 description: Create bulk case requests through Agent Workspace for HR Case Management to create the same type of HR case for multiple employees without having to create the same case multiple times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-aws.html
 release: xanadu
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,7 +24,7 @@ Role required: sn\_hr\_core\_admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **Bulk case requests**.
 
@@ -31,7 +32,7 @@ Role required: sn\_hr\_core\_admin
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Bulk case request form](../reference/bulk-case-request-form.md).
+    For more information, see [Bulk case request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-workspace-for-hr-case-management/bulk-case-request-form.md).
 
 6.  Select **Save**.
 
@@ -39,7 +40,7 @@ Role required: sn\_hr\_core\_admin
 
 7.  Create a user segment group.
 
-    For more information, see [Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management](segment-group-aws.md).
+    For more information, see [Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.md).
 
 8.  View details of your bulk case request by selecting the **Details** tab when your segment status changes to **Processed**.
 

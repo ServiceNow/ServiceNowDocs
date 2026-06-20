@@ -2,6 +2,7 @@
 title: VMware credentials
 description: The VMware credentials type manages access to vCenter credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/connections-and-credentials/r\_VMwareCredentialsForm.html
 release: xanadu
 product: Connections and Credentials
 classification: connections-and-credentials

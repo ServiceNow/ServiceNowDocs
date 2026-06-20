@@ -2,6 +2,7 @@
 title: Terms and conditions in the ServiceNow Store
 description: Learn about when terms and conditions must be accepted in the ServiceNow Store. Unaccepted terms and conditions block procurement and installations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/sn-store-tncs.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-09-26"

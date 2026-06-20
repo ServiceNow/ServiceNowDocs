@@ -2,6 +2,7 @@
 title: Business rules installed with Procurement
 description: Procurement plugin adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/procurement/r\_BusinessRulesProcurement.html
 release: xanadu
 product: Procurement
 classification: procurement
@@ -259,10 +260,10 @@ Hardware \[alm\_hardware\]
 Sets the **Configuration item** field on the catalog task and requested item to the related hardware CI created during the procurement process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+</table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/procurement/r_InstalledWithProcurement.md)
 
 **Related topics**  
 
 
-[Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.c_BusinessRules]
 

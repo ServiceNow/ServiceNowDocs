@@ -2,6 +2,7 @@
 title: Install the Employee Goals application
 description: Install the Employee Goals application to incorporate goals as a tool for developing your organizational talent. The Employee Goals app gives employees access to their goals from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-goals/egd-goals-install.html
 release: xanadu
 product: Employee Goals
 classification: employee-goals
@@ -33,7 +34,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -48,5 +49,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Installing and configuring Employee Goals](../concept/egd-goals-install-config.md)
+**Parent Topic:**[Installing and configuring Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-goals/egd-goals-install-config.md)
 

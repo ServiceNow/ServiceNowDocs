@@ -8,36 +8,36 @@ doc_type: toc
 
 # Xanadu Retail Industry
 
-- [Retail](rahi-retail-industry-overview.md)
-  - [Retail Core](rahi-retail-operations-overview.md)
-    - [Exploring Retail Core](rahi-retail-operations-explore.md)
-      - [Retail case](rahi-retail-case.md)
-    - [Configuring Retail Core](rahi-retail-operations-configuring.md)
-      - [Activate Retail Core](rahi-retail-operations-install.md)
-      - [Assign roles to Retail Core users](rahi-retail-assign-roles-users.md)
-      - [Configure related party configurations for retail staff](rahi-retail-configure-titles-labels.md)
-      - [Create a retail organization](rahi-retail-create-retail-organization.md)
-      - [Add members to a retail organization](rahi-retail-add-members-to-organization.md)
-      - [Configure your organizational structure](rahi-retail-configure-organizational-structure.md)
-      - [Set up your retail support team](rahi-retail-setup-support-team.md)
-      - [Configure Playbooks for Retail Core](rahi-retail-configure-playbooks.md)
-      - [Configure Omnichannel communications for Retail Core](rahi-retail-configure-omnichannel.md)
-      - [Configure Case Management for Retail Core](rahi-retail-configure-case-management.md)
-      - [Configure Business Location Service Portal for Retail Core](rahi-retail-configure-blsp.md)
-      - [Configure Work Orders for Retail Core](rahi-retail-configure-work-orders.md)
-    - [Create support requests for your retail organization](rahi-retail-operations-create-support-requests.md)
-      - [Create a retail case](rahi-retail-create-retail-case.md)
-        - [Escalate a retail case](rahi-retail-escalate-case.md)
-        - [De-escalate a retail case](de-escalate-a-retail-case.md)
-        - [Add a task to a retail case](add-task-retail-case.md)
-      - [Report an issue using the Business Location Service Portal](rahi-retail-report-issue-ssp.md)
-      - [Create a support request in CSM/FSM Workspace](rahi-retail-create-case-workspace.md)
-    - [Resolve support requests for your retail organization](rahi-retail-operations-fulfill-support-requests.md)
-      - [Close a retail case](rahi-retail-close-retail-case.md)
-      - [View and close a case in BLSP](rahi-retail-closing-ssp.md)
-      - [Resolve a retail case in CSM/FSM Configurable Workspace](rahi-retail-resolve-workspace.md)
-    - [Retail Core reference](rahi-retail-operations-reference.md)
-      - [Components installed with Retail Core](rahi-retail-operations-components-installed.md)
-      - [Retail Core data model](rahi-retail-data-model.md)
-        - [Retail Core data model tables](rahi-retail-operations-data-model-tables.md)
-      - [Domain Separation in Retail Core](rahi-retail-domain.md)
+- [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-industry-overview.md) -- The Retail industry products provide Retail Operations and Retail Service Management users with a suite of applications to help optimize their retail processes.
+  - [Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-overview.md) -- The ServiceNow application empowers managers and associates to manage daily retail operations by automating tasks and resolving issues quickly with self-service, freeing up time to serve customers. It enables seamless two-way communication and visibility between stores and HQ, delivering a great customer experience while enhancing staff productivity and reducing costs.
+    - [Exploring Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-explore.md) -- Whether you're starting or expanding your implementation of the Retail Core application, learn more about the features available to optimize your retail organization.
+      - [Retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-case.md) -- Retail case creation enables streamlined support by displaying key retail content for retail organization support use cases.
+    - [Configuring Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-configuring.md) -- Plan and configure your implementation of Retail Core.
+      - [Activate Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-install.md) -- You can install the Retail Core application if you have the admin role. The application includes demo data for Retail Operations and installs related ServiceNow Store applications and plugins if they aren't already installed.
+      - [Assign roles to Retail Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-assign-roles-users.md) -- Assign specific roles to give retail users visibility into organizations and the hierarchies they manage.
+      - [Configure related party configurations for retail staff](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-titles-labels.md) -- Configure the responsibilities of your retail staff by linking related party entity responsibilities to responsibility definitions.
+      - [Create a retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-create-retail-organization.md) -- Create a retail organization to enable management of hierarchical stores and franchises that simplifies store associate management.
+      - [Add members to a retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-add-members-to-organization.md) -- Add members to your organization to enable them to view and complete tasks within your retail organization.
+      - [Configure your organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-organizational-structure.md) -- Configure the structure of your retail organization within Retail Core.
+      - [Set up your retail support team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-setup-support-team.md) -- Set up your retail support team by creating a group then assigning the sn_retail.support_agent role to members of that group.
+      - [Configure Playbooks for Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-playbooks.md) -- Retail Core users can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
+      - [Configure Omnichannel communications for Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-omnichannel.md) -- Retail Core users can meet customers where they feel most comfortable by providing omnichannel support.
+      - [Configure Case Management for Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-case-management.md) -- Retail Core users can create retail cases as needed while utilizing case management from Customer Service Management.
+      - [Configure Business Location Service Portal for Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-blsp.md) -- Retail Core users can utilize the Business Location Service Portal to create and close retail case support requests.
+      - [Configure Work Orders for Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-configure-work-orders.md) -- Retail Core users can create work orders from their retail cases using the CSM/FSM Configurable Workspace.
+    - [Create support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-create-support-requests.md) -- Retail Core user can create support requests using the retail case type.
+      - [Create a retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-create-retail-case.md) -- Create a retail case to request support for issues in your retail organization.
+        - [Escalate a retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-escalate-case.md) -- Escalate a retail case when needed using the Escalations related list.
+        - [De-escalate a retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/de-escalate-a-retail-case.md) -- De-escalate a retail case when needed using the related links within a retail case.
+        - [Add a task to a retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/add-task-retail-case.md) -- Add tasks directly to your retail case using the Tasks related list.
+      - [Report an issue using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-report-issue-ssp.md) -- Use the Report an Issue catalog item in the Business Location Service Portal to submit a retail case support request for issues that can be resolved within your retail organization.
+      - [Create a support request in CSM/FSM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-create-case-workspace.md) -- Use the CSM/FSM Configurable Workspace to create a retail case.
+    - [Resolve support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-fulfill-support-requests.md) -- Use Retail Core to fulfill retail case support requests created for your retail organization.
+      - [Close a retail case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-close-retail-case.md) -- Once a retail case has been resolved within your retail organization, close the case.
+      - [View and close a case in BLSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-closing-ssp.md) -- You can track and manage pending retail cases from directly within the Business Location Service Portal.
+      - [Resolve a retail case in CSM/FSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-resolve-workspace.md) -- Manage and close retail cases using CSM/FSM Configurable Workspace.
+    - [Retail Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-reference.md) -- Reference topics provide additional information about Retail Core components.
+      - [Components installed with Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-components-installed.md) -- Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core plugin.
+      - [Retail Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-data-model.md) -- Learn about the Retail Core application by viewing the data model and role relationship diagrams. These diagrams show the relationships between the tables and roles within the application and provide an overall picture of how the Retail Core application operates.
+        - [Retail Core data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-operations-data-model-tables.md) -- Tables configured within the Retail Operations application enable you to determine the data model, tasks, and product offerings for your Retail Operations workflows.
+      - [Domain Separation in Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/retail-industry/rahi-retail-domain.md) -- Domain separation is supported for Retail Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.

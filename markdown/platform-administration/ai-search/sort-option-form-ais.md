@@ -2,6 +2,7 @@
 title: Sort Option form
 description: The Sort Option form contains information about search result sort options defined in your AI Search application configurations. Use this form when creating or modifying a search result sort option for a search application configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/sort-option-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Sort Option form contains information about search result sort options defined in your AI Search application configurations. Use this form when creating or modifying a search result sort option for a search application configuration.
 
-For details on creating or editing search result sort options, see [Search result sort options in AI Search application configurations](../concept/sort-options-srch-app-cfg-ais.md#).
+For details on creating or editing search result sort options, see [Search result sort options in AI Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/sort-options-srch-app-cfg-ais.md).
 
 <table id="table_f2c_t4r_grb"><thead><tr><th>
 
@@ -104,5 +105,5 @@ Active
 Option to activate the search result sort option for use in the search application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

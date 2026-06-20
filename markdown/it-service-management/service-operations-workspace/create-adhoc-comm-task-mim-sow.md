@@ -2,6 +2,7 @@
 title: Create an adhoc communication task
 description: Create an adhoc communication task as required during the various phases of an incident in Major Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -99,7 +100,7 @@ User, user groups, or list of recipients to whom the communication message must 
 </table>4.  Either save your communication or compose your communication, depending on whether the **Compose and sent communication** field has been set to **Later** or **Now**.
 
     -   If the **Compose and sent communication** field is set to **Later**, select **Save**. The communication task is saved and displayed in the list of communication tasks on the **Communicate** tab.
-    -   If the **Compose and sent communication** field is set to **Now**, select **Compose communication** to compose your messages within your selected communication channels. The communication task record opens on a new tab within the incident view. For more information, see [Compose communications for incidents and major incidents](compose-communication-mim-sow.md).
+    -   If the **Compose and sent communication** field is set to **Now**, select **Compose communication** to compose your messages within your selected communication channels. The communication task record opens on a new tab within the incident view. For more information, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/compose-communication-mim-sow.md).
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](../concept/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

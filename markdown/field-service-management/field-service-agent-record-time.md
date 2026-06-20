@@ -2,7 +2,10 @@
 title: Record time worked for a task or activity manually
 description: Agents can record time worked on a work order task as well as time spent on other activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-agent-record-time.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -50,5 +53,5 @@ A time card is created for each category type and work order task. The total hou
     The Time Worked form is saved and added to the Time Worked list. If this is the first time worked entry for the selected category, a time card is created for that category and the time worked record is added to the card. If a time card for the category already exists, the time worked record is added to that card.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

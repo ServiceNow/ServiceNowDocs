@@ -2,6 +2,7 @@
 title: Performing compliance tasks in Compliance Workspace
 description: Starting with Version 13.0.0, a new workspace has been introduced for the GRC: Policy and Compliance Management application. The new workspace provides you with an improved User Experience \(UX\) and a simplified user journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-compliance-management-workspace/grc-tasks-pol-comp-ws.html
 release: xanadu
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -17,9 +18,9 @@ Starting with Version 13.0.0, a new workspace has been introduced for the GRC: P
 
 **Note:** Compliance Workspace has a dependency on GRC: Policy and Compliance Management application and the latter is automatically installed when the workspace plugin is installed.
 
-To know more about Compliance Workspace, see [GRC Compliance Workspace](grc-unified-compliance-workspace.md). For persona-based Compliance Workspace pages, see:
+To know more about Compliance Workspace, see [GRC Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.md). For persona-based Compliance Workspace pages, see:
 
--   [Compliance Home page for the compliance manager](compliance-manager-compliance-ws.md)
--   [Compliance Home page for the compliance analyst](compliance-analyst-compliance-ws.md)
--   [Compliance Home page for the IT compliance manager](it-compliance-manager-compliance-ws.md)
+-   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md)
+-   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md)
+-   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md)
 

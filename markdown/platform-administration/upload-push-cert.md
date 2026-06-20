@@ -2,6 +2,7 @@
 title: Upload a push certificate to your instance
 description: Upload a push certificate to your instance so that you can use it later to connect your iOS device to the push notification system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upload-push-cert.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Using your Apple developer environment, create a push certificate and convert it
 
 Role required: push\_admin or admin
 
-**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US)
+**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at Mobile push notifications
 
 ## About this task
 
@@ -42,5 +43,5 @@ After you create a PKCS \(.p12\) file that contains the iPhone developer certifi
 
 ## What to do next
 
-[Create a push application record for your custom app](t_CreateAMobileApplication.md)
+[Create a push application record for your custom app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAMobileApplication.md)
 

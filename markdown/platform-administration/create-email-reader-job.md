@@ -2,6 +2,7 @@
 title: Create an email reader job
 description: If you created email account groups to fine-tune inbound email account processing, you can create an email reader job to process those account groups concurrently, in addition to the default email reader job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-email-reader-job.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,8 +16,8 @@ If you created email account groups to fine-tune inbound email account processin
 
 ## Before you begin
 
-1.  [Create email account groups](create-email-account-group.md).
-2.  [Enable email account group processing](enable-group-processing.md)
+1.  [Create email account groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-email-account-group.md).
+2.  [Enable email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/enable-group-processing.md)
 
 Role required: email\_account\_admin or admin
 
@@ -37,5 +38,5 @@ Role required: email\_account\_admin or admin
 
 ## What to do next
 
-[Monitor email account group processing](monitor-email-account-groups.md) and determine if the additional reader job reduces processing time. If needed, you can continue fine-tuning email account processing. For example, you might consider adding another email account group.
+[Monitor email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/monitor-email-account-groups.md) and determine if the additional reader job reduces processing time. If needed, you can continue fine-tuning email account processing. For example, you might consider adding another email account group.
 

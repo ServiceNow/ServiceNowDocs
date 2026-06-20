@@ -2,6 +2,7 @@
 title: Set up a safety inspection schedule
 description: Set up an inspection schedule to create a safety inspection at a future date, or to schedule recurring safety inspections, such as daily or weekly, or monthly at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-schedule-recurring-safety-inspection.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Select the **Inspection schedules** list and then **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 
 5.  On the form, fill in the fields.
 
-    Enter inspection details and the duration. For more information on inspection field descriptions, see [Inspection schedule form](../reference/hs-inspection-schedule-form.md).
+    Enter inspection details and the duration. For more information on inspection field descriptions, see [Inspection schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-inspection-schedule-form.md).
 
 6.  Select **Save**.
 
@@ -52,7 +53,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 -   All inspection records for an inspection schedule are generated in its **Scheduled inspections** tab. These inspection records are also available under **Inspections** &gt; **All**.
 -   All required fields are copied from the inspection schedule to its inspection records.
 -   The assigned user receives a notification about the inspection survey. If the inspection format is set as digital, the notification includes the survey link that they can take in the Employee Center or on Now Mobile app.
--   The safety agent can also create actions for the survey responses. For more information, see [Add an action from survey response in safety inspection through Employee center](add-action-from-survey-response-in-safety-inspection.md)
+-   The safety agent can also create actions for the survey responses. For more information, see [Add an action from survey response in safety inspection through Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/add-action-from-survey-response-in-safety-inspection.md)
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

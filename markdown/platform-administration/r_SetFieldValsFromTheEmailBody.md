@@ -2,6 +2,7 @@
 title: Setting field values from the email body
 description: Values in an inbound email can set field values in a task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_SetFieldValsFromTheEmailBody.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ Any name:value pair in an inbound email body gets parsed into a variable/value p
 
 **Tip:** To prevent unexpected parsing, ensure that all the names in the name:value pairs are unique.
 
-See [Redirecting Emails](r_RedirEmailDifferentAssignGrp.md) for an example of using **setDisplayValue\(\)** in an inbound email action.
+See [Redirecting Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_RedirEmailDifferentAssignGrp.md) for an example of using **setDisplayValue\(\)** in an inbound email action.
 
 **Note:** The action always generates a lowercase variable name. Also, this functionality does not work on reference fields.
 
@@ -38,5 +39,5 @@ In this example, the script sets the value of *\[field\]* to the value **bar**.
 
 **Note:** Spaces are rendered as underscores when a name:value pair gets parsed into a variable/value pair. For example, if an email body contains a line with spaces like `my variable:data`, then the inbound email script creates the variable *email.body.my\_variable*. The value of the variable is **data**.
 
-**Parent Topic:**[Configure inbound email actions](../concept/configure-inbound-email.md)
+**Parent Topic:**[Configure inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-inbound-email.md)
 

@@ -2,6 +2,7 @@
 title: Coalesce records on a normal value
 description: Coalescence enables an administrator to redirect references to multiple records containing variants of the same field value to point to a single record, based on a normal value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CoalesceNormalValues.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -45,10 +46,10 @@ When the references are fixed, all table fields directly corresponding to sys\_d
 
     The system updates any references to records that match aliases and rules to instead point to the normal record. The system also deletes the duplicate records from the table.
 
-6.  [Start](t_ApplyAliases.md) all the **Alias application** data jobs to replace the aliases with the normal value in existing records in the database.
+6.  [Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ApplyAliases.md) all the **Alias application** data jobs to replace the aliases with the normal value in existing records in the database.
 
     The system starts the **Coalesce to normal** data jobs for each alias.
 
 
-**Parent Topic:**[Normal values](../concept/c_WhatFieldNormalizationDoes.md)
+**Parent Topic:**[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)
 

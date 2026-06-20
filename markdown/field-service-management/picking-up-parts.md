@@ -2,7 +2,10 @@
 title: Picking up parts
 description: You can view a summarized list of transfer orders for all the assets that are waiting to be picked up physically.Pick up parts that you requested from peer agents that are ready for pickup and then close the transfer order line.When you are at a task site and need a missing part to complete your job, you can pick up the part by transferring it from an available stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/picking-up-parts.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Manage your inventory using the Now Mobile Agent application, Use t
 
 You can view a summarized list of transfer orders for all the assets that are waiting to be picked up physically.
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 
 ## Pick up parts for your part requests
 
@@ -21,7 +24,7 @@ Pick up parts that you requested from peer agents that are ready for pickup and 
 
 ### Before you begin
 
-The Field Service Advanced Parts Sourcing plugin \(com.snc.fsm\_advanced\_parts\_sourcing\) must be activated. For more information, see [Additional plugins for Field Service Management](../reference/field-service-additional-plugins.md).
+The Field Service Advanced Parts Sourcing plugin \(com.snc.fsm\_advanced\_parts\_sourcing\) must be activated. For more information, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-additional-plugins.md).
 
 Role required: wm\_agent
 

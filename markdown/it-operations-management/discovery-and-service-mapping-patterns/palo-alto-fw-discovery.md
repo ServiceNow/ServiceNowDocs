@@ -2,6 +2,7 @@
 title: Palo Alto Networks firewall discovery
 description: The ServiceNow Discovery application uses the Next-Generation Palo Alto Firewall pattern to find Palo Alto Networks firewalls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/palo-alto-fw-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,17 +20,17 @@ The discovery pattern uses a set of SNMP calls to find the Palo Alto Networks fi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see .
 -   Add the SNMP system OID record for the Palo Alto Networks device to the ServiceNow instance. Update the following:
     -   Classifier: Palo Alto Firewall
     -   Class: Palo Alto Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-fw&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install Firewall extension classes from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the discovery pattern from the ServiceNow Store.
     3.  Sync the pattern with the appropriate MID Server.
 
@@ -86,5 +87,5 @@ These relationships are created to support Palo Alto Networks firewall discovery
 |Router Interface \[dscy\_router\_interface\]|References|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
 |Serial Number \[cmdb\_serial\_number\]|References|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

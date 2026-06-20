@@ -2,7 +2,10 @@
 title: View the status of a request, change request, or registration request
 description: Users with the snc\_external role can view the status of requests and change requests from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/view-request-status-cust-portal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

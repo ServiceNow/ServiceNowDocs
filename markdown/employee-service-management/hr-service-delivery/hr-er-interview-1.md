@@ -2,6 +2,7 @@
 title: Interview Management
 description: Use Interview Management to create templates to capture questions, answers, and notes in a consistent and efficient way, sync scheduling with Microsoft Outlook, and better plan and track your interviews.Set up HR Service Delivery Interview Templates so your agents can quickly, consistently, and accurately capture appropriate information.You can activate the Interview Templates plugin \(com.sn\_interview\_templates\) for the ServiceNow AI Platform if you have the admin role.Interview Question Templates provides your agents with a consistent and efficient way to capture answers from interviews.Create template tags you can use to filter interview question templates on pre-defined attributes. Template tags allow you to find relevant questions easier and faster.You can schedule and document interviews and use interview templates using the Core UI or HR Service Delivery Agent Workspace.You can use the default ServiceNow calendar or integrate with Microsoft Exchange to schedule interviews related to Employee Relations \(ER\) cases.Documenting interviews is crucial to ER cases. Use the Interview form to take notes and capture important details of the ER case.Use HR Service Delivery Agent Workspace to capture a record of an interview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Use Interview Management to create templates to capture questions, answers, and 
 
 Set up HR Service Delivery Interview Templates so your agents can quickly, consistently, and accurately capture appropriate information.
 
-Activate the Interview Templates plugin \(com.sn\_interview\_templates\) for the ServiceNow AI Platform if you have the admin role. For more information, see [Activate Interview Templates](hr-er-interview-1.md#).
+Activate the Interview Templates plugin \(com.sn\_interview\_templates\) for the ServiceNow AI Platform if you have the admin role. For more information, see [Activate Interview Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 -   Create interview question templates.
 -   Create interview template tags. Tags help you filter your interview question templates so you can easily browse for relevant questions to use in an interview. For example, agents ask different questions depending on who they are talking to and what the specific allegations are. Template tags help agents to find the appropriate interview template.
@@ -36,7 +37,7 @@ The **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property determ
 
 When entering multiple tables, separate the table names with a comma \(,\) but with no space between each table.
 
-![Interview Question Template system property](../image/hr-er-sys-property.png)
+\[Omitted image "hr-er-sys-property.png"\] Alt text: Interview Question Template system property
 
 ### Template tags
 
@@ -60,7 +61,7 @@ There are two types of template tags you can create:
         -   Complainant
         -   Subject of allegation
         -   Witness
-        ![Interview question template tags](../image/agent-ws-hr-template-tag-ex.png)
+        \[Omitted image "agent-ws-hr-template-tag-ex.png"\] Alt text: Interview question template tags
 
     Involved party type becomes the top-level category in the organization with the tags being a way to organize the type of person you are interviewing.
 
@@ -85,7 +86,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ### Create an interview question template
@@ -104,15 +105,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d267255e462">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d149592e462">
 
 Field
 
-</th><th align="left" id="d267255e465">
+</th><th align="left" id="d149592e465">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d267255e471">
+</th></tr></thead><tbody><tr><td id="d149592e471">
 
 **Active**
 
@@ -120,7 +121,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d267255e483">
+</td></tr><tr><td id="d149592e483">
 
 **Name**
 
@@ -128,15 +129,15 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d267255e492">
+</td></tr><tr><td id="d149592e492">
 
 **Application**
 
 </td><td>
 
-The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see Application scope.
 
-</td></tr><tr><td id="d267255e508">
+</td></tr><tr><td id="d149592e508">
 
 **Table**
 
@@ -144,7 +145,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d267255e521">
+</td></tr><tr><td id="d149592e521">
 
 **Question template body**
 
@@ -157,7 +158,7 @@ List of questions related to the type of interview. Interview question templates
 
     The **Template Tags** related list appears. In order to filter your interview templates, you must associate the interview template with a template tag.
 
-    **Note:** For more information on **Template Tags**, see [Create an interview template tag](hr-er-interview-1.md#).
+    **Note:** For more information on **Template Tags**, see [Create an interview template tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 
 ### Create an interview template tag
@@ -192,7 +193,7 @@ Tag type
 
 </td><td>
 
-The category of tag you are creating. The choices are:-   Referenced: Select to create tags related to a specific table. The tables that appear depend on the entries in the **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property. For more information, see [Setting up Interview Templates](hr-er-interview-1.md#).
+The category of tag you are creating. The choices are:-   Referenced: Select to create tags related to a specific table. The tables that appear depend on the entries in the **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property. For more information, see [Setting up Interview Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 **Note:** When you have multiple applications that use **Interview Question Templates**, using **Referenced**, can keep your interview question templates separate. Associating a tag with a table helps your users filter for interview question templates faster and easier.
 
@@ -253,7 +254,7 @@ Domain
 
 </td><td>
 
-The domain your current scope is associated with. This field applies to customers that have multiple domains. For more information, see [Domain Separation and HR Service Delivery](hr-domain-separation.md).
+The domain your current scope is associated with. This field applies to customers that have multiple domains. For more information, see [Domain Separation and HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-domain-separation.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save** or **Submit**.
@@ -273,9 +274,9 @@ Scheduling an interview: There are two \(2\) methods you can use to schedule an 
 
 -   Use Microsoft Outlook Calendar to schedule an interview.
 
-    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see [Set up Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see Set up Microsoft Exchange Online spoke.
     -   The **sn\_hr\_er.exchange\_online\_max\_candidate** system property determines the maximum number of meeting time slots to return when trying to schedule an interview using Microsoft Exchange. The default value is 500 slots.
-    **Note:** You can use the manual method of scheduling in HR Service Delivery Agent Workspace. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](hr-er-interview-1.md#) or [Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management](hr-er-interview-1.md#).
+    **Note:** You can use the manual method of scheduling in HR Service Delivery Agent Workspace. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md) or [Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 
 ### Scheduling an interview
@@ -332,7 +333,7 @@ Interviewee
 
 </td><td>
 
-Name of the person who you are interviewing.Select the **Lookup using list** icon ![Lookup using list icon](../image/magnifying-glass.png) and search for the person you are interviewing. If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](../task/hr-er-involved-parties.md).
+Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -340,7 +341,7 @@ Interviewers
 
 </td><td>
 
-Names of the people who conducted the interview.Click the **Unlock Interviewers** icon ![Unlock Interviewers icon](../image/icon-hr-unlock-add-parties.png) and search for the names of the people who conduct the interview.
+Names of the people who conducted the interview.Click the **Unlock Interviewers** icon \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock Interviewers icon and search for the names of the people who conduct the interview.
 
 **Note:** Only members with the sn\_interview\_temp.writer role or belong to a group that has the Employee Relations skill.
 
@@ -370,7 +371,7 @@ Scheduling method
 
 The method you are using to schedule the interview. If your company only uses the manual method of scheduling, **Manual entry** appears and cannot be edited.
 
- If your company uses the integration with Microsoft Outlook Calendar to schedule, **Calendar** appears. For more information, see [Using Interview Management](hr-er-interview-1.md#).
+ If your company uses the integration with Microsoft Outlook Calendar to schedule, **Calendar** appears. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 </td></tr><tr><td>
 
@@ -394,7 +395,7 @@ Additional parties
 
 </td><td>
 
-Other people you want as part of the interview record.Click the **Add me** icon ![Add me icon](../image/icon-hr-add-me.png) to add yourself or the **Unlock additional parties** icon ![Unlock additional parties icon](../image/icon-hr-unlock-add-parties.png) to add yourself or other people.
+Other people you want as part of the interview record.Click the **Add me** icon \[Omitted image "icon-hr-add-me.png"\] Alt text: Add me icon to add yourself or the **Unlock additional parties** icon \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock additional parties icon to add yourself or other people.
 
  You can optionally enter the email addresses for each interviewer.
 
@@ -433,7 +434,7 @@ Notes from the interview or you can enter the answers to the questions from the 
 </td></tr></tbody>
 </table>6.  Select the **Questions** button at the top, right corner to view, and select questions from an interview template.
 
-    Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](hr-er-interview-1.md#).
+    Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 7.  If an interview template appears, select it and you can select **Copy to clipboard** or **Insert to notes**.
 
@@ -441,7 +442,7 @@ Notes from the interview or you can enter the answers to the questions from the 
 
 8.  Select **Save** or **Submit**.
 
-    If you select **Save**, the Evidence related list appears. For more information, see [Evidence Management for Employee Relations](hr-er-evidence-mgmt.md#).
+    If you select **Save**, the Evidence related list appears. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
 
 ### Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management
@@ -456,7 +457,7 @@ Role required: sn\_hr\_er.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
 
-2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **Other**.
 
@@ -502,7 +503,7 @@ Interviewee
 
 </td><td>
 
-Name of the person who you are interviewing.Select the **Lookup using list** icon ![Lookup using list icon](../image/magnifying-glass.png) and search for the person you are interviewing. If no names appear, you can create an involved party. For more information, see [Create an involved parties record](../task/hr-er-involved-parties.md).
+Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -540,7 +541,7 @@ Scheduling method
 
 The method you are using to schedule the interview. Select **Manual entry** to select the Start and End dates and times of the interview.
 
- If your company uses the integration with Microsoft Outlook Calendar to schedule, select **Calendar**. You can schedule an interview with an interface that syncs with your company's Outlook Calendar. For more information, see [Using Interview Management](hr-er-interview-1.md#).
+ If your company uses the integration with Microsoft Outlook Calendar to schedule, select **Calendar**. You can schedule an interview with an interface that syncs with your company's Outlook Calendar. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 </td></tr><tr><td>
 
@@ -548,7 +549,7 @@ Start date
 
 </td><td>
 
-The start date and time of the interview.Select the **Show calendar** icon \(![Show calendar icon](../image/hr-ws-show-calendar-icon.png) and select the date and time the interview starts.
+The start date and time of the interview.Select the **Show calendar** icon \(\[Omitted image "hr-ws-show-calendar-icon.png"\] Alt text: Show calendar icon and select the date and time the interview starts.
 
 </td></tr><tr><td>
 
@@ -556,7 +557,7 @@ End date
 
 </td><td>
 
-The endt date and time of the interview.Select the **Show calendar** icon \(![Show calendar icon](../image/hr-ws-show-calendar-icon.png) and select the date and time the interview ends.
+The endt date and time of the interview.Select the **Show calendar** icon \(\[Omitted image "hr-ws-show-calendar-icon.png"\] Alt text: Show calendar icon and select the date and time the interview ends.
 
 </td></tr><tr><td>
 
@@ -592,17 +593,17 @@ Interview notes
 
 </td><td>
 
-Notes from the interview or you can enter the answers to the questions from the interview question templates.In the Contextual Sidebar, select the **Interview Templates** icon \(![Interview template icon](../image/hr-ws-int-temp-icon.png) to search for interview question templates.
+Notes from the interview or you can enter the answers to the questions from the interview question templates.In the Contextual Sidebar, select the **Interview Templates** icon \(\[Omitted image "hr-ws-int-temp-icon.png"\] Alt text: Interview template icon to search for interview question templates.
 
- ![HR Agent Workspace - Interview Template](../image/agent-ws-hr-er-int-temp.png)
+ \[Omitted image "agent-ws-hr-er-int-temp.png"\] Alt text: HR Agent Workspace - Interview Template
 
  Interview templates provide questions you can use in the interview, You can insert the questions from the template into the **Interview notes** field or copy to the clipboard to insert in an outside document.
 
- ![HR Agent Workspace - Interview templates](../image/agent-ws-hr-er-interview.png)
+ \[Omitted image "agent-ws-hr-er-interview.png"\] Alt text: HR Agent Workspace - Interview templates
 
- Select ![Interview Template icon](../image/hr-ws-int-temp-icon2.png) to see the Insert to notes or Copy to clipboard choices.
+ Select \[Omitted image "hr-ws-int-temp-icon2.png"\] Alt text: Interview Template icon to see the Insert to notes or Copy to clipboard choices.
 
- Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](hr-er-interview-1.md#).
+ Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 </td></tr></tbody>
 </table>10. Select **Save**.

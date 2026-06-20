@@ -2,9 +2,10 @@
 title: Removed features and products in Xanadu
 description: Cumulative release notes summary on features that were removed from Xanadu features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-removed-features.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 5
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
@@ -82,7 +83,7 @@ Document Intelligence
 
 </td><td>
 
-Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see [Document Intelligence monitoring dashboard](https://www.servicenow.com/docs/access?context=document-intelligence-monitoring-dashboard&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Starting in the Xanadu release, the Platform Document Intelligence Usage dashboard is no longer supported or available through the Document Intelligence application. Performance metrics are available in the Document Intelligence Admin experience. For more information, see .
 
 </td></tr><tr><td>
 
@@ -124,8 +125,8 @@ Flows, subflows, and actions in Workflow Studio
 
 </td><td>
 
--   Removed the system property com.snc.process\_flow.reporting.iteration.lastn that was used to specify the number of loop iterations that a flow would generate execution details for. To report on all iterations of a loop, create a flow execution settings record for the flow instead. For more information about flow execution settings, see [Flow execution settings](https://www.servicenow.com/docs/access?context=flow-execution-settings&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
--   The user preference for flow authors to include draft actions in the list of available actions has been removed. To see a custom action during flow design, publish the action. For more information, see [Create an action in Workflow Studio](https://www.servicenow.com/docs/access?context=create-action&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+-   Removed the system property com.snc.process\_flow.reporting.iteration.lastn that was used to specify the number of loop iterations that a flow would generate execution details for. To report on all iterations of a loop, create a flow execution settings record for the flow instead. For more information about flow execution settings, see .
+-   The user preference for flow authors to include draft actions in the list of available actions has been removed. To see a custom action during flow design, publish the action. For more information, see .
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ Theme Builder
 
 </td><td>
 
--   Removed the **Apply** button used to apply your theme to web and mobile instances. To publish your theme, use the **Publish** option from the theme card overflow menu. For more information about publishing themes, see [Publish your themes with Theme Builder](https://www.servicenow.com/docs/access?context=tb-apply-theme&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Removed the **Apply** button used to apply your theme to web and mobile instances. To publish your theme, use the **Publish** option from the theme card overflow menu. For more information about publishing themes, see Publish your themes with Theme Builder.
 
 </td></tr><tr><td>
 
@@ -247,5 +248,5 @@ Vulnerability Response
 The **Close** button has been removed for a remediation task in the Classic UI, Vulnerability Manager Workspace, and IT Remediation Workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

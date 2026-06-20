@@ -2,6 +2,7 @@
 title: Get entitlement for AES apps
 description: Install App Engine Studio \(AES\) by verifying that the application or the product and its associated applications have valid ServiceNow entitlements. An entitlement means you have a license to install the product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/entitle-aes-product.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,8 +18,6 @@ Install App Engine Studio \(AES\) by verifying that the application or the produ
 
 This video shows you how to perform the following procedure.
 
-Get entitlement for AES apps
-
 ## Before you begin
 
 **Note:** An App Engine Studio subscription is required to install on a production or non-production instance. For more information, contact your ServiceNow representative.
@@ -33,19 +32,19 @@ Role required: admin
 
 2.  Select **Sign In** and log in using your Now Support credentials.
 
-    ![ServiceNow Store products and login](../image/servicenow-store-products-login-2.jpg)
+    \[Omitted image "servicenow-store-products-login-2.jpg"\] Alt text: ServiceNow Store products and login
 
     Integrations and other types of content appear on the **Certified Apps** tab.
 
 3.  Select the **ServiceNow Products** tab to view all available ServiceNow products.
 
-    ![ServiceNow Store App Engine Studio installation link](../image/store-aes-product.jpg)
+    \[Omitted image "store-aes-product.jpg"\] Alt text: ServiceNow Store App Engine Studio installation link
 
 4.  Select **App Engine Studio**.
 
     **Note:** When you have obtained entitlement to the core product, the applications listed under it are also entitled.
 
-    ![ServiceNow Store App Engine Studio button](../image/store-opt-in-1.jpg)
+    \[Omitted image "store-opt-in-1.jpg"\] Alt text: ServiceNow Store App Engine Studio button
 
     The page lists all the applications that are associated with the AES product you're entitling.
 
@@ -57,7 +56,7 @@ Role required: admin
 
     Opting in to entitlement is a one-time process for each product.
 
-    ![Terms and Conditions](../image/terms-conditions.png)
+    \[Omitted image "terms-conditions.png"\] Alt text: Terms and Conditions
 
     A check mark appears next to the product name, and the **Manage Entitlement** button appears. The button indicates that you are subscribed to the product and its associated applications.
 
@@ -71,5 +70,5 @@ Role required: admin
 
 Install and activate AES. Navigate to **All** &gt; **My Company Applications** and select App Engine Studio.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-installation-store.md)
 

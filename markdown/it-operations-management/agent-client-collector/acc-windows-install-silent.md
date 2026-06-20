@@ -2,6 +2,7 @@
 title: Install the Agent Client Collector on a Windows machine using silent installation
 description: Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-windows-install-silent.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -173,8 +174,8 @@ Indicates whether the user password expires \(false\) or never expires \(true\).
     For the `<MID IP>` value, you can assign either the MID FQDN or CNAME. To enable high availability, use either the Auto MID Selection algorithm, or manage a virtual IP with a load balancer. For more information, see the [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613) article in the HI Knowledge Base.
 
 
--   **[Uninstall Agent Client Collector from a Windows system using a single-line command](acc-uninstall-windows-single-line.md)**  
+-   **[Uninstall Agent Client Collector from a Windows system using a single-line command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-uninstall-windows-single-line.md)**  
 Uninstall the Agent Client Collector from a Windows machine by running an efficient single-line command. If the script is not connected to the instance, you might have to uninstall Agent Client Collector manually.
 
-**Parent Topic:**[Agent Client Collector installation on a Windows machine](../concept/acc-windows-install-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
 

@@ -2,6 +2,7 @@
 title: Configure scoring for an assessment
 description: Set up scoring for your assessment responses to calculate meaningful scores at the assessment, section, or subsection level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.html
 release: xanadu
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -36,7 +37,7 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 4.  Under **Scoring settings**, select the **Enable scoring for this template** option.
 
     -   The **Enable scoring for this template** option enables you to apply scoring at the assessment, section, subsection, and question levels.
-    -   Once scoring is enabled, you can enable normalization and configure its default settings. For more information, refer to [Configure normalization in assessment](configure-normalization-in-assessment.md)
+    -   Once scoring is enabled, you can enable normalization and configure its default settings. For more information, refer to [Configure normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/smart-assessment-engine/configure-normalization-in-assessment.md)
 5.  To activate scoring at assessment level, select the **Assessment score** option.
 
     Enabling the **Assessment Score** option initiates the calculation of the assessment-level score, which can be grouped by sections or questions.
@@ -221,7 +222,7 @@ Default score for the subsection, which is used in case the all questions within
 
 15. Turn on the toggle switch on the section for which you want to configure scoring.
 
-    ![Scoring section.](../image/scoring-section.jpg)
+    \[Omitted image "scoring-section.jpg"\] Alt text: Scoring section.
 
 16. On the form, fill in the fields.
 

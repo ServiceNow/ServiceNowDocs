@@ -2,6 +2,7 @@
 title: Using Now Assist for Supplier Lifecycle Operations \(SLO\)
 description: If you have the sn\_slm.fulfiller or admin role, you can generate supplier-related case summaries to get a quick overview of the cases, completed actions, or pending tasks by using the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -16,5 +17,5 @@ breadcrumb: [Now Assist for Supplier Lifecycle Operations \(SLO\), Supplier Life
 
 If you have the sn\_slm.fulfiller or admin role, you can generate supplier-related case summaries to get a quick overview of the cases, completed actions, or pending tasks by using the Now Assist for Supplier Lifecycle Operations \(SLO\) application.
 
-For more information on how to use Now Assist for SLO, see [Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](../task/now-assist-slo-summarize-case.md).
+For more information on how to use Now Assist for SLO, see [Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md).
 

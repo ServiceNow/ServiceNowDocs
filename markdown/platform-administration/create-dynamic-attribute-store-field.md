@@ -2,6 +2,7 @@
 title: Create a dynamic attribute store field
 description: Store dynamic attributes on a record using a dynamic attribute store field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-dynamic-attribute-store-field.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -46,15 +47,15 @@ Role required: admin
 
 ## Add a dynamic attribute store field
 
-![Add a dynamic attribute store field to your table.](../image/dynamic-json-field-example.png)
+\[Omitted image "dynamic-json-field-example.png"\] Alt text: Add a dynamic attribute store field to your table.
 
 ## Set up the dependency between the dynamic attribute store field and a dynamic schema reference field
 
-![Make the dynamic attribute store field dependent on the reference field.](../image/dynamic-json-dependent-on.png)
+\[Omitted image "dynamic-json-dependent-on.png"\] Alt text: Make the dynamic attribute store field dependent on the reference field.
 
 ## What to do next
 
-[Add dynamic attributes to a record](add-dynamic-attributes-record.md)
+[Add dynamic attributes to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-dynamic-attributes-record.md)
 
-**Parent Topic:**[Storing dynamic attributes on a record](../concept/storing-dynamic-attributes.md)
+**Parent Topic:**[Storing dynamic attributes on a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/storing-dynamic-attributes.md)
 

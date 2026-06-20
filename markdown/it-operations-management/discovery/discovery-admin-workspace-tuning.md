@@ -2,6 +2,7 @@
 title: Discovery Admin Workspace Tuning
 description: Tuning validates your existing configurations and helps you resolve configuration issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/discovery-admin-workspace-tuning.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -21,7 +22,7 @@ The Discovery Admin Workspace Tuning Home page provides tools to assess instance
 
 ## Tuning check results
 
-Use the tuning tools to interrogate your instance for configurations that indicate health issues and identify opportunities to address best practices. Tuning checks your existing configurations and helps you resolving issues. For more information on how to run checks, see [Run Tuning checks](../task/run-tuning-checks.md).
+Use the tuning tools to interrogate your instance for configurations that indicate health issues and identify opportunities to address best practices. Tuning checks your existing configurations and helps you resolving issues. For more information on how to run checks, see [Run Tuning checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/run-tuning-checks.md).
 
 ## Roles
 

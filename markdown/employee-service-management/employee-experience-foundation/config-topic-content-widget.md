@@ -2,6 +2,7 @@
 title: Modify the topic content widget display
 description: The topic content widget displays the knowledge articles and requests associated with the topic in your taxonomy. Click a knowledge article or a request to open it. You can configure the instance options to control the number of items to show per page and their sort order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-topic-content-widget.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ Role required: sp\_admin or admin
 
 3.  Press and hold the control key on the keyboard, right-click the browse topic widget, and then select **Instance Options**.
 
-    ![Topic content widget instance options. The topic content widget for HR is shown as an example.](../images/hr-browse-ins-opt.png)
+    \[Omitted image "hr-browse-ins-opt.png"\] Alt text: Topic content widget instance options. The topic content widget for HR is shown as an example.
 
 4.  Configure the instance options.
 
@@ -67,5 +68,5 @@ Default value: popularity
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Customize the Employee Center with widgets](../concept/emp-center-topic-inst-options.md)
+**Parent Topic:**[Customize the Employee Center with widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 

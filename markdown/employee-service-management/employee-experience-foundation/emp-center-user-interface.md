@@ -2,6 +2,7 @@
 title: Employee Center features and interface
 description: Learn about the Employee Center user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/emp-center-user-interface.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,9 +16,9 @@ breadcrumb: [Explore, Employee Center, Employee Service Management]
 
 Learn about the Employee Center user interface.
 
-Employee Center is delivered to all customers as a pre-installed application, while Employee Center Pro is a licensed application and must be separately installed. For more information on Employee Center Pro, see [Employee Center Pro features and interface](emp-center-vs-ec-pro.md).
+Employee Center is delivered to all customers as a pre-installed application, while Employee Center Pro is a licensed application and must be separately installed. For more information on Employee Center Pro, see [Employee Center Pro features and interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/emp-center-vs-ec-pro.md).
 
-![Employee Center versus Employee Center Pro](../images/emp-center-landing-img.png "Employee Center feature summary")
+\[Omitted image "emp-center-landing-img.png"\] Alt text: Employee Center versus Employee Center Pro
 
 **Note:** These images are for illustration purpose only. For more up-to-date theme and UI, see the product interface.
 
@@ -25,7 +26,7 @@ Employee Center is delivered to all customers as a pre-installed application, wh
 
 Employee Center application is available by default. This portal is loaded with the latest widgets and a modern portal theme that gives an employee-centric content delivery experience.
 
-![Employee Center home page with widget options](../images/ec-home-page-options.jpg "Home page and widgets")
+\[Omitted image "ec-home-page-options.jpg"\] Alt text: Employee Center home page with widget options
 
 **Note:** The latest widgets are made available only after you install Employee Center from the ServiceNow Store.
 
@@ -42,9 +43,9 @@ The video provides an overview of the cluster of features available with browse 
 
 Key features include:
 
--   [Unified Taxonomy for Employee Center](config-taxonomy.md): Unifies various types of content, such as requests, articles, and quick links, to create an improved browsing experience.
--   [Dynamic topic pages](dynamic-topic-page.md): Dynamically delivers content tagged to the taxonomy.
--   [Configure Mega menu](../task/config-mega-menu.md): Easily navigate to topics and their subcategories in one place, providing a seamless navigation experience.
+-   [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-taxonomy.md): Unifies various types of content, such as requests, articles, and quick links, to create an improved browsing experience.
+-   [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/dynamic-topic-page.md): Dynamically delivers content tagged to the taxonomy.
+-   [Configure Mega menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-mega-menu.md): Easily navigate to topics and their subcategories in one place, providing a seamless navigation experience.
 
 The browse experience ensures that your Employee Center portal is not only unified and comprehensive but also user-friendly, facilitating easier access to relevant information based on employee needs.
 
@@ -52,7 +53,7 @@ The browse experience ensures that your Employee Center portal is not only unifi
 
 Delivers a unified content view for requests and articles that are associated to the topic and its child topics. A portal admin can feature any content under this feature.
 
-![Unified browse experience with items](../images/unified-browse.jpg "Browsing experience")
+\[Omitted image "unified-browse.jpg"\] Alt text: Unified browse experience with items
 
 ## Content recommendations
 
@@ -60,7 +61,7 @@ Get the most relevant content like Knowledge Base articles, Service Catalog item
 
 ## Cross-channel favorites
 
-Employees get quick access to frequently-used content across multiple channels and business units directly from the My favorites widget on the home page or the My Favorites link in the [global header navigation bar](config-global-header.md).
+Employees get quick access to frequently-used content across multiple channels and business units directly from the My favorites widget on the home page or the My Favorites link in the [global header navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-global-header.md).
 
-For configuration, see [Cross-channel favorites](app-launcher-usability.md).
+For configuration, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/app-launcher-usability.md).
 

@@ -2,6 +2,7 @@
 title: Create a scripted REST API resource
 description: Create a scripted REST API resource to define the HTTP method, the processing script, and to override settings from the parent service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_CreateAScriptedRESTAPIResource.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -52,7 +53,7 @@ By default, any new Scripted REST API resource you create contains an ACL that p
 
 ## What to do next
 
-After creating the resource, you can associate headers and query parameters. For details, see [Define scripted REST API headers](t_DefineRESTServiceHeaders.md) and [Define available query parameters](t_DefineAvailableQueryParameters.md).
+After creating the resource, you can associate headers and query parameters. For details, see [Define scripted REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_DefineRESTServiceHeaders.md) and [Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_DefineAvailableQueryParameters.md).
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

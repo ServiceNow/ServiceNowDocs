@@ -2,6 +2,7 @@
 title: Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -16,7 +17,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. Note that the RHV patterns, tables, and related items have been renamed to oVirt. For a full list of name changes, see the Zurich release [ITOM Visibility release notes](https://www.servicenow.com/docs/access?context=itom-visibility-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US).
+Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. Note that the RHV patterns, tables, and related items have been renamed to oVirt. For a full list of name changes, see the Zurich release ITOM Visibility release notes.
 
 Discovery uses the following patterns for OLVM and RHV discovery:
 
@@ -28,7 +29,7 @@ Discovery uses the following patterns for OLVM and RHV discovery:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -66,7 +67,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /ovirt-engine/api/networks
 -   **Add CMDB CI Class Models**
 
-    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-redhat-rhv&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see Red Hat Virtualization \(RHV\) extension classes.
 
 -   **Create a cloud service account**
 
@@ -254,7 +255,7 @@ Discovery populates the data in the CMDB when running the patterns.
 
 On the Dependency Views map, you can view all discovered OLVM or RHV resources in your organization and the relationships between them.
 
-![OLVM or RHV CIs and connections on a Dependency Views map](../image/ovirt-dependency-view.png "OLVM or RHV dependency view")
+\[Omitted image "ovirt-dependency-view.png"\] Alt text: OLVM or RHV CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -287,5 +288,5 @@ The following relationships are created to support OLVM or RHV discovery.
 |VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Implement End Point To::Implement End Point From|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
 |VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Extends from|Endpoint \[cmdb\_ci\_endpoint\]|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

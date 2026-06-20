@@ -2,6 +2,7 @@
 title: View a report on customizations and configuration changes
 description: The base system provides reports for changes to the Incident table and changes by the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/system-update-sets/t\_ReportOnUpdates.html
 release: xanadu
 product: System Update Sets
 classification: system-update-sets

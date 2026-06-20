@@ -2,6 +2,7 @@
 title: Render journal field entries as HTML
 description: Journal fields can render text enclosed within code tags as HTML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/render-journal-field-entries-as-html.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -87,17 +88,17 @@ The system escapes the content of the script tag.**Note:** By default, the HTML 
 
 The system renders the text within code tags as HTML.
 
--   **[Restrict the CODE tag in journal fields](t_RestrictTheCODETagInJrnalFlds.md)**  
+-   **[Restrict the CODE tag in journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_RestrictTheCODETagInJrnalFlds.md)**  
 You can prevent journal fields from rendering HTML code by disabling support for the `[code]` tag.
--   **[Validate HTML in journal fields](t_ValidateHTMLInJournalFields.md)**  
+-   **[Validate HTML in journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ValidateHTMLInJournalFields.md)**  
 Prevent users from saving invalid HTML in a journal field.
 
-**Parent Topic:**[Journal field type](../concept/c_JournalFields.md)
+**Parent Topic:**[Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_JournalFields.md)
 
 **Related topics**  
 
 
-[General security settings properties](https://www.servicenow.com/docs/access?context=r_GeneralSecuritySettings&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.r_GeneralSecuritySettings]
 
-[HTML sanitizer](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.c_HTMLSanitizer]
 

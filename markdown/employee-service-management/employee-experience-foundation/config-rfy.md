@@ -2,6 +2,7 @@
 title: Configure the Recommended for you
 description: The Recommended for you widget displays catalog items and knowledge articles, enabling you to view information that is most relevant to you based on the taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-rfy.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,11 +26,11 @@ Role required: sp\_admin or admin
 
 2.  Edit the portal to suit your needs.
 
-    For more information on the portal form fields and description, see [Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+    For more information on the portal form fields and description, see Create a portal.
 
 3.  Map the **Taxonomy** that you created or use the default **Employee** taxonomy at the portal level.
 
-    For more information on taxonomy, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
+    For more information on taxonomy, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 4.  Navigate to **System Definition** &gt; **Fix Scripts**.
 
@@ -46,7 +47,7 @@ From the content associated to the taxonomy, most viewed or recommended articles
 
 ## What to do next
 
-You can proceed to configure the instance options to control the appearance of the widget, see [Modify the Recommended for you widget display](config-recommended-for-you.md)
+You can proceed to configure the instance options to control the appearance of the widget, see [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-recommended-for-you.md)
 
-**Parent Topic:**[Recommended for you](../concept/rfy-ec.md)
+**Parent Topic:**[Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/rfy-ec.md)
 

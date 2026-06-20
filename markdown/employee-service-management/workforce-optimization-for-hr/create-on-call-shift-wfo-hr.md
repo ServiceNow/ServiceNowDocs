@@ -2,6 +2,7 @@
 title: Create an on-call shift
 description: Create on-call shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/create-on-call-shift-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -19,7 +20,7 @@ Create on-call shift.
 
 Role required: sn\_hr\_wfo.admin
 
-Create a shift plan. [Create a shift plan](create-shift-wfo-hr.md)
+Create a shift plan. [Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md)
 
 ## Procedure
 

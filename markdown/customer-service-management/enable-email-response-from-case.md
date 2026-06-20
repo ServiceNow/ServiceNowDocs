@@ -2,7 +2,10 @@
 title: Disable email responses from the case activity stream
 description: By default, customer service agents can respond to cases using options within a customer email thread instead of having to use another email client. As an admin, you can disable this option for a business manager who does not want agents to interact with customers directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/enable-email-response-from-case.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

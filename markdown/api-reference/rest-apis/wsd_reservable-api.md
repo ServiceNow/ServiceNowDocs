@@ -2,6 +2,7 @@
 title: WSD Reservable API
 description: The Workplace Service Delivery \(WSD\) Reservable API provides endpoints to retrieve details of a reservable, an entity that can be reserved, such as a workplace location, from a ServiceNow instance.Returns the details for one or more specified reservables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/wsd\_reservable-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,15 +16,15 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Workplace Service Delivery \(WSD\) Reservable API provides endpoints to retrieve details of a reservable, an entity that can be reserved, such as a workplace location, from a ServiceNow instance.
 
-**Note:** A newer version of this API, [WSD Reservable V2 API](wsd_reservable-V2-api.md#), is available for use. The new version allows you to include all reservables in a POST request to avoid character limitations of the **sys\_Id** parameter.
+**Note:** A newer version of this API, [WSD Reservable V2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/wsd_reservable-V2-api.md), is available for use. The new version allows you to include all reservables in a POST request to avoid character limitations of the **sys\_Id** parameter.
 
 To access this API, the caller must have the sn\_wsd\_core.workplace\_user role.
 
 This API runs in the `sn_wsd_rsv` namespace. To access this API, the Workplace Reservation Management \(sn\_wsd\_rsv\) plugin must be activated.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see Workplace Reservation Management.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## WSD Reservable - GET /sn\_wsd\_rsv/reservable/list\_reservables/\{sys\_ids\}
 
@@ -78,7 +79,7 @@ include\_flexible\_services
 
 </td><td>
 
-Flag that indicates whether to return the flexible services associated with the reservable in to the response.A flexible service is an additional provision available with a reservable workplace item when a reservation is made. For example, Classroom style - Rows of tables arranged with all participants facing towards the front of the room. For additional information on flexible services, see [Create a flexible service](https://www.servicenow.com/docs/access?context=add-flexible-service&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Flag that indicates whether to return the flexible services associated with the reservable in to the response.A flexible service is an additional provision available with a reservable workplace item when a reservation is made. For example, Classroom style - Rows of tables arranged with all participants facing towards the front of the room. For additional information on flexible services, see Create a flexible service.
 
 Valid values:
 
@@ -112,7 +113,7 @@ include\_standard\_​services
 
 </td><td id="include_standard_services-reserv-entry">
 
-Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see [Standard services](https://www.servicenow.com/docs/access?context=standard-service&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US). This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
+Flag that indicates whether to return the standard services information in the response.A standard service describes basic provisions available with a reservable workplace item when the reservation is made, such as white boards, additional monitors, and similar services. For additional information on standard services, see Standard services. This information is located in the Standard Service \[sn\_wsd\_rsv\_standard\_service\] table.
 
 Valid values:
 
@@ -131,7 +132,7 @@ reservable\_module\_sys\_id
 
 Required. Sys\_id of the reservable module.A reservable module groups similar types of workplace items. This sys\_id is located in the Reservable Module \[sn\_wsd\_rsv\_reservable\_module\] table.
 
-For additional information on reservable modules, see [Configure a reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+For additional information on reservable modules, see Configure a reservable module.
 
 Data type: String
 
@@ -152,7 +153,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -177,7 +178,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -456,7 +457,7 @@ result.employee\_override\_privacy
 
 </td><td>
 
-Flag that indicates whether users can override the privacy setting for the associated reservable.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+Flag that indicates whether users can override the privacy setting for the associated reservable.For additional information on these privacy settings, see Location privacy settings and impact.
 
  Valid values:
 
@@ -484,7 +485,7 @@ result.enable\_reservation\_privacy
 
 Flag that indicates the default setting for reservation privacy.
 
- For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+ For additional information on these privacy settings, see .
 
  Possible values:
 

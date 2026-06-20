@@ -2,13 +2,14 @@
 title: Bulk import Taxonomies
 description: Import the taxonomy records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-import-taxonomy.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-11-04"
 reading_time_minutes: 1
-breadcrumb: [Creating Taxonomies, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Creating Taxonomies, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Bulk import Taxonomies

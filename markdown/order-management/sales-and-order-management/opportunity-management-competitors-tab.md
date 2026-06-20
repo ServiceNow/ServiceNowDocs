@@ -2,6 +2,7 @@
 title: Add competitors to an opportunity
 description: Capture competitor details for your opportunity so that you can have winning sales conversations with your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-competitors-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\] Alt text:and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Competitors** tab.
 

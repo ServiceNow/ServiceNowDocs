@@ -2,6 +2,7 @@
 title: Example- Coaching using Workforce Optimization for Customer Service
 description: Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skill sets with Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/example-coaching-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -33,11 +34,7 @@ Amy Jones can manage all of these actions by doing the following:
 
 Get an overview on coaching, creating assessments, taking surveys, assigning training, and adding skills.
 
-Workforce Optimization for Customer Service Coaching Overview
-
 Get an overview of how you can add skills manually or the ones recommended using Predictive Intelligence and the Skill Recommendation application.
 
-Workforce Optimization for Customer Service Skill Recommendation
-
-For detailed instructions to use Coaching in Workforce Optimization for Customer Service, see [Coaching](coaching-configurable-wfo-cs.md#).
+For detailed instructions to use Coaching in Workforce Optimization for Customer Service, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/coaching-configurable-wfo-cs.md).
 

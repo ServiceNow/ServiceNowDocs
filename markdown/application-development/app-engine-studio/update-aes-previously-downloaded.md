@@ -2,6 +2,7 @@
 title: Update a previously installed AES version
 description: If you previously installed App Engine Studio \(AES\) from the ServiceNow Store and if a new version is available, then update the version in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/update-aes-previously-downloaded.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Search for `App Engine Studio`.
 
-    ![Install the AES product](../image/aes-activate-plugin.jpg)
+    \[Omitted image "aes-activate-plugin.jpg"\] Alt text: Install the AES product
 
 3.  Select the version that you want to update to, and select **Update** or **Install/Update All**.
 
@@ -36,5 +37,5 @@ Role required: admin
 
 App Engine Studio automatically updates on the instance.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-installation-store.md)
 

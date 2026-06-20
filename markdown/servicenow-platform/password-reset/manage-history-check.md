@@ -2,6 +2,7 @@
 title: Enable history check for password reset
 description: Manage the process to perform a history check for the old used passwords when users reset their passwords. The history check ensures that they don’t reuse old passwords which can lead to significant security risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/manage-history-check.html
 release: xanadu
 product: Password Reset
 classification: password-reset
@@ -29,10 +30,10 @@ Role required: password reset admin
 
 4.  Select the credential store record, and then select the **Enforce history policy** option to enforce the history policy \(password reuse\) check.
 
-    For more information on credential store for password reset, see [Credentials Store for Password Reset for Active Directory](../concept/credentials-store-AD.md).
+    For more information on credential store for password reset, see [Credentials Store for Password Reset for Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/password-reset/credentials-store-AD.md).
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Credentials Store for Password Reset for Active Directory](../concept/credentials-store-AD.md)
+**Parent Topic:**[Credentials Store for Password Reset for Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/password-reset/credentials-store-AD.md)
 

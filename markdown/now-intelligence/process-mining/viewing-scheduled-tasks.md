@@ -2,6 +2,7 @@
 title: Viewing scheduled tasks
 description: From the Scheduled tasks panel, view statuses and access the results of on-demand scheduled mining tasks, such as a requested cluster analysis or applied filter view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/viewing-scheduled-tasks.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -21,9 +22,9 @@ The Scheduled tasks panel shows the current Queued, In progress, Error, or Compl
 -   Linked process mining
 -   Applying filters, breakdowns, transitions, and routes
 
-![Scheduled tasks panel - example task in progress](../image/scheduled-tasks.png)
+\[Omitted image "scheduled-tasks.png"\] Alt text: Scheduled tasks panel - example task in progress
 
 You can further access their results or views from the Scheduled tasks panel.
 
-**Parent Topic:**[Using Process Mining](use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/use-process-mining.md)
 

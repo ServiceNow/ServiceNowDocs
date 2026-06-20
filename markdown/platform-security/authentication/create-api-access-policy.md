@@ -2,6 +2,7 @@
 title: Create REST API access policy
 description: Create an API access policy and map an authentication profile to restrict the authentication type for a REST API. For example, you can create an API access policy that allows only ID token authentication for a REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/create-api-access-policy.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -18,7 +19,7 @@ Create an API access policy and map an authentication profile to restrict the au
 ## Before you begin
 
 -   Role required: admin
--   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](create-authentication-profile.md).
+-   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/create-authentication-profile.md).
 
 ## Procedure
 
@@ -28,7 +29,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 3.  On the form, fill in the fields.
 
-    ![API access policy fields](../images/rest-api-access-policy.png)
+    \[Omitted image "rest-api-access-policy.png"\] Alt text: API access policy fields
 
 <table id="table_d4x_w45_d4b"><thead><tr><th>
 
@@ -135,11 +136,11 @@ Apply to all versions
 Enable to apply auth policy for the API to all the resources.
 
 </td></tr></tbody>
-</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](../../inbound-rest/concept/api-access-policy-prioritization.md).
+</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/api-access-policy-prioritization.md).
 
 4.  Double-click **Insert a new row**.
 
-5.  Select an inbound authentication profile from the list and click the save icon ![save icon](../images/green-checkmark.png).
+5.  Select an inbound authentication profile from the list and click the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
     For example, you can add **Basic Auth**, **ID Token**, **Certificate based Auth**, **OAuth** or **WSSE Auth**.
 
@@ -149,7 +150,7 @@ Enable to apply auth policy for the API to all the resources.
 
         -   **Create standard http authentication profiles**
         -   **Create WSSE authentication profiles**
-        ![Authentication profile](../../inbound-soap/image/auth-profile.png)
+        \[Omitted image "auth-profile.png"\] Alt text: Authentication profile
 
     3.  After creating the authentication profile, save the record.
 

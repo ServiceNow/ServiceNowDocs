@@ -2,6 +2,7 @@
 title: Microsoft Defender for Cloud Integration for Security Operations
 description: The Microsoft Defender for Cloud Integration product is an infrastructure security management system that enhances the security posture of your cloud environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc\_asc\_overview.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -66,10 +67,10 @@ If a CI is not matched in the CMDB, a CI is created in the **cmdb\_ci\_cmp\_reso
 
 **Note:** Automatic reconciliation does not happen for cloud resources.
 
--   **[Install and configure Microsoft Defender for Cloud Integration for Security Operations](../task/cc_asc_install_configure.md)**  
+-   **[Install and configure Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc_asc_install_configure.md)**  
 Install and configure the Microsoft Defender for Cloud Integration for Security Operations, so that you can use the data that is imported from Microsoft Defender for Cloud to prioritize and remediate any misconfigurations on your assets.
--   **[Configuration Compliance imported data for Microsoft Defender for Cloud Integration](cc-asc-policies.md)**  
+-   **[Configuration Compliance imported data for Microsoft Defender for Cloud Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-asc-policies.md)**  
 Configuration Compliance imports policies, tests, authoritative sources, and test results from third-party integrations and stores them in modules for viewing.
 
-**Parent Topic:**[Configuration Compliance integrations](../../../vulnerability-config-compliance/concept/vuln-config-compl-integrations.md)
+**Parent Topic:**[Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-integrations.md)
 

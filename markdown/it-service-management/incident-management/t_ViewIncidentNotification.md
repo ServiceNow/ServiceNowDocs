@@ -2,6 +2,7 @@
 title: View incident notifications
 description: View incident notifications that are sent during specific events in an incident life cycle. These notifications are sent to various recipients including the ESS and the ITIL users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/t\_ViewIncidentNotification.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -45,12 +46,12 @@ In email notifications, you can decide where the links to an incident record are
 
 To ensure consistency, the email notification template for incident is updated to send the notification from SOW in the same format as sent from classic UI16 interface. Also, the template theme is updated to match the Next Experience theme.
 
-To receive these notifications, the end user must enable notifications. For more information, see [Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+To receive these notifications, the end user must enable notifications. For more information, see Subscription-based notifications.
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-configuration.md)
 
 **Related topics**  
 
 
-[Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateANotification]
 

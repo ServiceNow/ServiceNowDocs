@@ -2,6 +2,7 @@
 title: Configure evidence file storage
 description: Configure evidence file storage to securely store the evidence files in the ServiceNow instance or external for the Proofpoint email DLP Incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/data-loss-prevention/configure-evidence-file-storage.html
 release: xanadu
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -21,9 +22,9 @@ Role required: sn\_dlir.admin
 
 ## About this task
 
-You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance or store externally, ensuring that files are stored and encrypted using Column Level Encryption. For more information, see [Field Encryption](https://servicenow.com/docs/bundle/xanadu-platform-security/page/administer/encryption/concept/column-level-encryption-landing.html) on NowPlatform documentation.
+You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance or store externally, ensuring that files are stored and encrypted using Column Level Encryption. For more information, see Field Encryption on NowPlatform documentation.
 
-When a DLP analyst performs the Download evidence files for DLP Incidents action from analyst workspace, the file will be downloaded from the selected storage if evidence file storage option is enabled. Otherwise, the file will be downloaded directly from the Proofpoint source and will not be persisted in ServiceNow instance. For more information, see [Download DLP incidents evidence files on Proofpoint](download-proofpoint-evidence-files.md).
+When a DLP analyst performs the Download evidence files for DLP Incidents action from analyst workspace, the file will be downloaded from the selected storage if evidence file storage option is enabled. Otherwise, the file will be downloaded directly from the Proofpoint source and will not be persisted in ServiceNow instance. For more information, see [Download DLP incidents evidence files on Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/download-proofpoint-evidence-files.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ When a DLP analyst performs the Download evidence files for DLP Incidents action
 
 3.  Select the preferred storage type.
 
-<table id="choicetable_yhz_yvv_tcc"><thead><tr><th align="left" id="d168682e102">
+<table id="choicetable_yhz_yvv_tcc"><thead><tr><th align="left" id="d163946e102">
 
 Field
 
-</th><th align="left" id="d168682e105">
+</th><th align="left" id="d163946e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168682e111">
+</th></tr></thead><tbody><tr><td id="d163946e111">
 
 **Evidence file storage**
 
@@ -49,7 +50,7 @@ Description
 
 Option to enable the evidence file storage.
 
-</td></tr><tr><td id="d168682e120">
+</td></tr><tr><td id="d163946e120">
 
 **Storage type**
 
@@ -60,7 +61,7 @@ Option to select the preferred storage type. You can use either internal or exte
 
 This storage provides a flexibility to manage the evidence files, allows you to choose the preferred storage method. Internal storage offers quick access within the application, while external storage supports both Blob storage and Amazon S3 storage options and allows the increased capacity and backup options. When you select this storage type, a new field is displayed: **External File Storage Source**.
 
-</td></tr><tr><td id="d168682e146">
+</td></tr><tr><td id="d163946e146">
 
 **External File Storage Source**
 
@@ -71,11 +72,11 @@ This field supports both Blob storage and Amazon S3 storage options. This is in 
 </td></tr></tbody>
 </table>4.  **Internal Storage**
 
-    ![Internal storage view](../image/dlp-proofpoint-internal-storage.png)
+    \[Omitted image "dlp-proofpoint-internal-storage.png"\] Alt text: Internal storage view
 
     **External Storage**
 
-    ![DLP Proofpoint external storage view.](../image/dlp-proofpoint-external-storage.png)
+    \[Omitted image "dlp-proofpoint-external-storage.png"\] Alt text: DLP Proofpoint external storage view.
 
 5.  Click **Finish**.
 
@@ -84,5 +85,5 @@ This field supports both Blob storage and Amazon S3 storage options. This is in 
 
 If the **Evidence File Storage** option is enabled and ServiceNow Storage is selected then the evidence files will be stored internally in an encrypted format, after the incidents from Proofpoint are fetched and if you perform **Download File** action for any of these Proofpoint incident then the system will get the evidence file from this table.
 
-**Parent Topic:**[Create a Profile for Proofpoint DLP integration](create-profile-proofpoint-dlp-integration.md)
+**Parent Topic:**[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)
 

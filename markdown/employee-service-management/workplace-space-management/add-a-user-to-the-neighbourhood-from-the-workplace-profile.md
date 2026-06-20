@@ -2,6 +2,7 @@
 title: Add or edit a neighborhood assignment of a workplace profile
 description: Add a user or edit a user's neighborhood assignment from their workplace profile directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-space-management/add-a-user-to-the-neighbourhood-from-the-workplace-profile.html
 release: xanadu
 product: Workplace Space Management
 classification: workplace-space-management
@@ -29,7 +30,7 @@ You can also add a user or modify a user's neighborhood assignment from their wo
 
 2.  Select the user whose neighborhood assignment you want to add or edit.
 
-    1.  On the User Workplace Profiles list, select the Preview icon \(![Preview icon.](../../safe-workplace-dashboard/image/icon-preview.png)\) next to the **Employee** name.
+    1.  On the User Workplace Profiles list, select the Preview icon \(\[Omitted image "icon-preview.png"\] Alt text: Preview icon.\) next to the **Employee** name.
 
     2.  Select **Open Record**.
 

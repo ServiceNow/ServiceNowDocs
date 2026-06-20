@@ -2,6 +2,7 @@
 title: Embed videos in the HTML editor
 description: You can insert videos into HTML fields. You can also add videos to the video library using the HTML Insert/Modify Video form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_EmbeddingVideoInHTMLFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -42,7 +43,7 @@ The larger the file size, the longer it takes to download before the video start
 |Bit rate|320KBPS|
 |Resolution|480\*320|
 
-Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see [Add and manage attachments](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see Add and manage attachments.
 
 **Note:** Administrators and users with the image\_admin role can manage the video library at **System UI** &gt; **Videos**.
 
@@ -52,7 +53,7 @@ Internet Explorer and Safari have difficulty streaming videos uploaded to the da
 
 2.  Click the position where the video is to appear, or to modify an existing video, click the video.
 
-3.  Click the insert/edit video icon \(![Insert or edit video](../image/TinyMCEV4Video.png)\) on the HTML editor toolbar.
+3.  Click the insert/edit video icon \(\[Omitted image "TinyMCEV4Video.png"\] Alt text: Insert or edit video\) on the HTML editor toolbar.
 
 4.  Enter information in each field.
 
@@ -87,5 +88,5 @@ Enter the **Width** and **Height** of the video in pixels.
 </table>5.  Click **OK**.
 
 
-**Parent Topic:**[Extended functions in HTML field editor](../reference/r_ExtendedFunctions.md)
+**Parent Topic:**[Extended functions in HTML field editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ExtendedFunctions.md)
 

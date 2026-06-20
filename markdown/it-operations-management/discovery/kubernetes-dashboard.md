@@ -2,6 +2,7 @@
 title: Kubernetes dashboard
 description: Use the Kubernetes dashboard to review the statistics for the Kubernetes platform used by your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/kubernetes-dashboard.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -27,7 +28,7 @@ Alternatively, navigate to **All** &gt; **Configuration** &gt; **Kubernetes**.
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
-![Kubernetes dashboard](../image/kubernetes-dashboard.png "Kubernetes dashboard")
+\[Omitted image "kubernetes-dashboard.png"\] Alt text: Kubernetes dashboard
 
 ## Use cases
 
@@ -83,7 +84,7 @@ Kubernetes Workloads
 
 </td><td>
 
-Pie![](../../reporting/image/icon-pie-report-p.png)
+Pie\[Omitted image "icon-pie-report-p.png"\] Alt text:
 
 </td><td>
 
@@ -99,7 +100,7 @@ Kubernetes Pods
 
 </td><td>
 
-Pie![](../../reporting/image/icon-pie-report-p.png)
+Pie\[Omitted image "icon-pie-report-p.png"\] Alt text:
 
 </td><td>
 

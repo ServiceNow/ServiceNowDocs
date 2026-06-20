@@ -2,6 +2,7 @@
 title: Explore Workplace Agent for mobile
 description: Manage all your workplace cases and tasks on the go using the Agent Workplace Services for Mobile application on the ServiceNow Agent mobile application. As a workplace agent, the application enables you to view, manage, and create workplace cases using your mobile device instead of a desktop or a laptop.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-agent-for-mobile/explore-workplace-agent-mobile.html
 release: xanadu
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -17,9 +18,9 @@ Manage all your workplace cases and tasks on the go using the Agent Workplace Se
 
 The Workplace Agent for mobile application on the ServiceNow Agent mobile application enables you to work on the workplace cases created in the Workplace Service Delivery applications. You can manage and create workplace cases, case tasks, move tasks, and maintenance tasks using the application.
 
-![Work view landing page showing My work overview and case task status.](../images/wsdagentmob-home.png)
+\[Omitted image "wsdagentmob-home.png"\] Alt text: Work view landing page showing My work overview and case task status.
 
-![Use the Work view menu option to create a task, view My schedule, view the Group work cases based on priority and criticality .](../images/wsdagentmob-home2.png)
+\[Omitted image "wsdagentmob-home2.png"\] Alt text: Use the Work view menu option to create a task, view My schedule, view the Group work cases based on priority and criticality .
 
 As a workplace agent, the application enables you to perform the following actions:
 
@@ -43,7 +44,7 @@ As a workplace agent, use the Workplace Agent for mobile to handle cases raised 
 
 When you log in to the application as an agent, the application displays all the workplace cases that are associated with you. You can get details such as the number of cases that are assigned to you, the details of the cases that are assigned to you, the cases that are assigned to your assignment group, and also the unassigned cases that belong to the agent assignment group.
 
-You can use a quick action to create a case or task without having to connect to a parent case. Use the search icon ![Search icon](../images/wsdagentmob-searchicon.png) from the top-right corner to search for cases, tasks, articles, services and people from the Work view page.
+You can use a quick action to create a case or task without having to connect to a parent case. Use the search icon \[Omitted image "wsdagentmob-searchicon.png"\] Alt text: Search icon from the top-right corner to search for cases, tasks, articles, services and people from the Work view page.
 
 The launch screen displays information helpful in managing and resolving cases.
 

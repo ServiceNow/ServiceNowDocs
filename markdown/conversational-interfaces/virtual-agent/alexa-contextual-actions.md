@@ -2,6 +2,7 @@
 title: Contextual actions for Alexa
 description: Use the contextual actions supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/alexa-contextual-actions.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

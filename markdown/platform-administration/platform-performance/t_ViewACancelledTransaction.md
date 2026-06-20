@@ -2,6 +2,7 @@
 title: View a transaction cancelled because of a quota rule
 description: The Quota Manager logs each canceled transaction as a warning message in the system log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/t\_ViewACancelledTransaction.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance

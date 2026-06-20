@@ -2,6 +2,7 @@
 title: Exploring Service Owner Workspace
 description: The Service Owner Workspace provides portfolio and service owners with an integrated and graphically intuitive user experience to manage and monitor portfolios and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/explore-service-owner-workspace.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,11 +16,11 @@ breadcrumb: [Service Owner Workspace, IT Service Management]
 
 The Service Owner Workspace provides portfolio and service owners with an integrated and graphically intuitive user experience to manage and monitor portfolios and services.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Navigate](../image/SOWExploreBanner2.png "Navigate")
+\[Omitted image "SOWExploreBanner2.png"\] Alt text: Navigate
 
 </td></tr></tbody>
 </table>## How Service Owner Workspace works
@@ -30,13 +31,13 @@ Users can create new metric definitions or use the metric definitions provided i
 
 ## Service Owner Workspace browser requirements
 
-ServiceNow workspaces do not support mobile devices, and, starting with the Orlando release, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US). If you're using New York or an earlier release and you're using Internet Explorer 11 or Microsoft Edge with any workspace, such as ServiceNow® CSM Agent Workspace or ServiceNow® Vendor Manager Workspace, you must migrate to a newer browser before you upgrade to at least the Orlando release. See the [Internet Explorer 11 Performance \[KB0683275\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275) article in the Now Support Knowledge Base for more information.
+ServiceNow workspaces do not support mobile devices, and, starting with the Orlando release, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers listed in Browser support. If you're using New York or an earlier release and you're using Internet Explorer 11 or Microsoft Edge with any workspace, such as ServiceNow® CSM Agent Workspace or ServiceNow® Vendor Manager Workspace, you must migrate to a newer browser before you upgrade to at least the Orlando release. See the [Internet Explorer 11 Performance \[KB0683275\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0683275) article in the Now Support Knowledge Base for more information.
 
 ## Service Owner Workspace overview
 
 Manage and monitor your services with premium features. View service offering details in the workspace:
 
-![Service offering details](../image/ServiceOwnerWorkspaceOverviewTab.png "Service offering details")
+\[Omitted image "ServiceOwnerWorkspaceOverviewTab.png"\] Alt text: Service offering details
 
 <table id="table_tpw_tlf_1kb"><thead><tr><th>
 

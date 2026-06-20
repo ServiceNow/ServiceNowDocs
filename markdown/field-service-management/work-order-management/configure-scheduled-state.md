@@ -2,6 +2,7 @@
 title: Configure the Scheduled state
 description: Administrators can optionally choose to enable the Scheduled state flow for work orders and work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/configure-scheduled-state.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management

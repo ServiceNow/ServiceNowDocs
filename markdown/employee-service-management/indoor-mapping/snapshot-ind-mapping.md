@@ -2,6 +2,7 @@
 title: Create Snapshots to migrate Indoor Mapping data
 description: Create snapshots for taking point-in-time backups of your Indoor Mapping map data and objects and migrate the snapshots to Workplace Service Delivery instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/indoor-mapping/snapshot-ind-mapping.html
 release: xanadu
 product: Indoor Mapping
 classification: indoor-mapping
@@ -74,16 +75,16 @@ Role required: map admin, map editor, wsd\_core\_admin
 
 16. Few workplace tables are impacted during the snapshot process.
 
-    For more information about impacted tables, see [Snapshot Impacted tables](../reference/snapshot-ind-mapping-tables.md).
+    For more information about impacted tables, see [Snapshot Impacted tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.md).
 
 
 ## What to do next
 
 **Note:** After moving the snapshots, the Space Details table \[sn\_wsd\_spcmgmt\_space\_detail\] in Workplace Space Management doesn't get populated with the snapshots. To get the updated Space details table record, manually run the fix script **Load space details table- current state**. Navigate to **All** &gt; **Fix Scripts** and search for Workplace Space Management **Load space details table- current state** fix script. Select **Run Fix Script** tab to run the script and get latest Space Details table \[sn\_wsd\_spcmgmt\_space\_detail\] record.
 
-**Parent Topic:**[Manage map objects and data](../concept/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Print a map](print-map.md)
+**Previous topic:**[Print a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/print-map.md)
 
-**Next topic:**[Keyboard shortcuts](keyboard-shortcuts.md)
+**Next topic:**[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/indoor-mapping/keyboard-shortcuts.md)
 

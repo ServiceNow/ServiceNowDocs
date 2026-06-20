@@ -2,6 +2,7 @@
 title: Opt in to the ServiceNow Store products
 description: Opt in to the required product available on ServiceNow Store by navigating to the ServiceNow Products module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/optin-optout-prod.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -52,5 +53,5 @@ Role required: admin
         You have opted in to all product in the required family.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

@@ -2,6 +2,7 @@
 title: NowServiceConfiguration structure - iOS
 description: The NowServiceConfiguration structure defines configuration information for a feature service.Configures the calling feature service with the specified configuration information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -20,7 +21,7 @@ The NowServiceConfiguration structure defines configuration information for a fe
 |appBundleId|String|Bundle ID of the application integrating with the NowSDK.|
 |instanceUrl|String|URL of the ServiceNow instance that the feature service will access. For example: `https://instance.servicenow.com`.|
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowServiceConfiguration - init\(instanceUrl: URL, appBundleId: String\)
 

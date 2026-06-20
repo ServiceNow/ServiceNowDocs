@@ -2,6 +2,7 @@
 title: User Experience Analytics related properties for Service Portal
 description: Use system properties to configure User Experience Analytics for Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/sp-analytics-properties.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -28,12 +29,12 @@ Use system properties to configure User Experience Analytics for Service Portal.
     -   Type: string
     -   Default value: none
 
-**Parent Topic:**[User Experience Analytics for Service Portal](../concept/sp-analytics.md)
+**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
-[Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UniqueRecordIdentifier]
 

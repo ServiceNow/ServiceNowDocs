@@ -2,6 +2,7 @@
 title: Enable or disable executing Automated Test Framework tests
 description: Allow or prevent tests and test suites from executing on this instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/atf-enable-tests.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -34,5 +35,5 @@ By default, the system property that is used to run automated tests is disabled 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Administering the Automated Test Framework](../concept/atf-admin-overview.md)
+**Parent Topic:**[Administering the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/atf-admin-overview.md)
 

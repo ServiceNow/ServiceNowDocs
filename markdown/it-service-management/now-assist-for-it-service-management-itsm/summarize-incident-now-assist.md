@@ -2,6 +2,7 @@
 title: Summarize an incident by using Now Assist for IT Service Management \(ITSM\)
 description: Quickly understand the incident context and respond to a requester’s inquiries by using the incident summarization skill in the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/summarize-incident-now-assist.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -32,7 +33,7 @@ An incident summary provides you with a concise summary of an incident. The summ
 -   Additional comments
 -   Resolution notes \(for a resolved incident\)
 
-For information about the incident states, see [Life cycle of an Incident](../../incident-management/concept/c_IncidentManagementStateModel.md).
+For information about the incident states, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/c_IncidentManagementStateModel.md).
 
 You can summarize an incident in Core UI and Service Operations Workspace for ITSM.
 
@@ -42,29 +43,29 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 2.  Select **Summarize**.
 
-    ![Summarize action in the Overview tab.](../image/itsm-incident-summarize.png)
+    \[Omitted image "itsm-incident-summarize.png"\] Alt text: Summarize action in the Overview tab.
 
     -   In Core UI, the summary appears in a banner of the incident record.
 
-        ![Incident summary in Core UI that specifies the issue and actions taken.](../image/incident-summary-core-ui.png)
+        \[Omitted image "incident-summary-core-ui.png"\] Alt text: Incident summary in Core UI that specifies the issue and actions taken.
 
     -   In Service Operations Workspace for ITSM, the summary is generated in the **Overview** tab.
 
         You can provide feedback by selecting the thumbs up or thumbs down icon. You can also share the summary using the **Share** button.
 
-        ![Incident summary in Service Operations Workspace for ITSM that specifies the issue and actions taken.](../image/incident-summary-now-assist.png)
+        \[Omitted image "incident-summary-now-assist.png"\] Alt text: Incident summary in Service Operations Workspace for ITSM that specifies the issue and actions taken.
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d202259e202">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d199284e202">
 
 Option
 
-</th><th align="left" id="d202259e205">
+</th><th align="left" id="d199284e205">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202259e211">
+</th></tr></thead><tbody><tr><td id="d199284e211">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -75,39 +76,39 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d202259e238">
+</td></tr><tr><td id="d199284e238">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d202259e259">
+</td></tr><tr><td id="d199284e259">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d202259e282">
+</td></tr><tr><td id="d199284e282">
 
 **Copy the incident summary**
 
 </td><td>
 
-If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
+If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d202259e298">
+</td></tr><tr><td id="d199284e298">
 
 **View the information about the incident summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](../concept/using-now-assist-for-itsm.md)
+**Parent Topic:**[Using Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md)
 

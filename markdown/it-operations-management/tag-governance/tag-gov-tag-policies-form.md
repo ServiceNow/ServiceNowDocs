@@ -2,6 +2,7 @@
 title: Tag Policies form
 description: You use the Tag Policy form to configure tag compliance and health policies that run on discovered cloud resources or CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/tag-governance/tag-gov-tag-policies-form.html
 release: xanadu
 product: Tag Governance
 classification: tag-governance
@@ -175,7 +176,7 @@ Policy Criteria
 
 </td><td>
 
-Other policy criteria that you can configure using dynamically populated reference lookup lists. The Configuration Item \[cmdb\_ci\] table populates the data for this lookup list. For more information, see the [Reference lookup](https://www.servicenow.com/docs/access?context=c_ReferenceLookup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Other policy criteria that you can configure using dynamically populated reference lookup lists. The Configuration Item \[cmdb\_ci\] table populates the data for this lookup list. For more information, see the Reference lookup.
 
 </td></tr><tr><td>
 
@@ -223,5 +224,5 @@ User
 Specific user from the assignment group to whom you want to assign the task. Use lookup lists to select a user.This field appears only when you select the Create Tasks check box.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Tag Governance reference](../../it-operations-management/concept/reference-tag-governance.md)
+</table>**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/tag-governance/reference-tag-governance.md)
 

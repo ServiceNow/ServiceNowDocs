@@ -2,6 +2,7 @@
 title: Set up a trading window
 description: Set up a trading window for a period in which certain designated employees of the organization are permitted to trade in the securities of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-stock-preclearance/set-up-trading-window.html
 release: xanadu
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -114,5 +115,5 @@ Option to exclude trading on holidays that fall within the trading window. Selec
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up Legal Stock Preclearance](../concept/legal-stock-pre-administration.md)
+**Parent Topic:**[Setting up Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

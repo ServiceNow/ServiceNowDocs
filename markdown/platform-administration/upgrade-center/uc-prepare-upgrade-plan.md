@@ -2,6 +2,7 @@
 title: Prepare to upgrade with Upgrade Plan
 description: Prepare your instance upgrade with Upgrade Plan by determining all the applications and plugins are ready to be implemented in the upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-prepare-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -39,7 +40,7 @@ Role required: admin
 
 4.  Apply an existing upgrade plan to an instance anytime, without being limited to during upgrades only.
 
-    You can now also export the upgrade plan in a batch install format by using the **Export** button. See [CI/CD - POST /sn\_cicd/app/batch/install](https://www.servicenow.com/docs/access?context=cicd-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) for more information.
+    You can now also export the upgrade plan in a batch install format by using the **Export** button. See CI/CD - POST /sn\_cicd/app/batch/install for more information.
 
 5.  Select **Reinstall** to reinstall the failed items in an upgrade plan, after the upgrade completes. You can also review the upgrade plan history to know the reasons of failure.
 

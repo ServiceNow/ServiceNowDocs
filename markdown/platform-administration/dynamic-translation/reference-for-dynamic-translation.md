@@ -2,6 +2,7 @@
 title: Reference for Dynamic Translation
 description: Get details about Dynamic Translation domain separation, properties, actions, limitations, and error messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/reference-for-dynamic-translation.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation

@@ -2,6 +2,7 @@
 title: Creating external content connectors
 description: Search administrators create external content connectors to retrieve searchable content and security principals from supported source systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/creating-ext-cont-connectors.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -16,22 +17,22 @@ breadcrumb: [Configure, External Content Connectors, ServiceNow Store applicatio
 
 Search administrators create external content connectors to retrieve searchable content and security principals from supported source systems.
 
--   **[Create an Atlassian Confluence Cloud external content connector](create-ext-cont-connector-acc.md)**  
+-   **[Create an Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-acc.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Atlassian Confluence Cloud source system.
--   **[Create an Atlassian Jira Cloud external content connector](create-ext-cont-connector-jira.md)**  
+-   **[Create an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-jira.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Atlassian Jira Cloud source system.
--   **[Create a Google Drive external content connector](create-ext-cont-connector-gdrive.md)**  
+-   **[Create a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-gdrive.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Google Drive source system.
--   **[Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md)**  
+-   **[Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-mspo.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Microsoft SharePoint Online source system.
--   **[Create a Microsoft Teams external content connector](create-ext-cont-connector-msteams.md)**  
+-   **[Create a Microsoft Teams external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-msteams.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Microsoft Teams source system.
--   **[Create a predefined web sources external content connector](create-ext-cont-connector-websources.md)**  
+-   **[Create a predefined web sources external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-websources.md)**  
 Create an external content connector to retrieve searchable content from pages and subdomains in a predefined public web source system.
--   **[Create a ServiceNow product documentation external content connector](create-ext-cont-connector-snowdoc.md)**  
+-   **[Create a ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-snowdoc.md)**  
 Create an external content connector to retrieve searchable content from the ServiceNow product documentation site.
--   **[Create a Slack external content connector](create-ext-cont-connector-slack.md)**  
+-   **[Create a Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-slack.md)**  
 Create an external content connector to retrieve searchable content from public channels in your Slack source system.
 
-**Parent Topic:**[Configuring External Content Connectors](../concept/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configuring-ext-cont-connectors.md)
 

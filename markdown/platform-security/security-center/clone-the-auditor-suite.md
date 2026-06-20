@@ -2,6 +2,7 @@
 title: Clone the access controls auditor suite
 description: Clone and customize the default access controls auditor suite in your instance to create a new suite tailored to your organization's security practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/clone-the-auditor-suite.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -54,5 +55,5 @@ The default access controls auditor suite provided with your instance can't be m
 8.  Select **Execute Suite Scan**.
 
 
-**Parent Topic:**[Create new suite](create-new-suite.md)
+**Parent Topic:**[Create new suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/create-new-suite.md)
 

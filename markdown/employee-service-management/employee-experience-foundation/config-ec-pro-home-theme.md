@@ -2,6 +2,7 @@
 title: Update the Employee Center Pro home page theme
 description: Enable the gradient background theme along with other UI changes on the Employee Center Pro home page as an existing customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-ec-pro-home-theme.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,5 +39,5 @@ For existing customers, the following procedure must be followed to enable the t
 
 Your Employee Center Pro home page has the updated user interface.
 
-**Parent Topic:**[Portal configuration](portal-config.md)
+**Parent Topic:**[Portal configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/portal-config.md)
 

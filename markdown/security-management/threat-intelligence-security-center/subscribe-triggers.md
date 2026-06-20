@@ -2,13 +2,14 @@
 title: Subscribe Triggers
 description: View the list of all the subscribed webhook triggers for the current webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/subscribe-triggers.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Configure webhooks, Working with Webhooks, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure webhooks, Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Subscribe Triggers
@@ -42,5 +43,5 @@ Role required: sn\_sec\_tisc.admin
     **Note:** You can also **Unsubscribe** the webhook from the selected trigger\(s\).
 
 
-**Parent Topic:**[Configure webhooks](setup-webhooks.md)
+**Parent Topic:**[Configure webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/setup-webhooks.md)
 

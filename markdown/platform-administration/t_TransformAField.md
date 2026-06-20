@@ -2,6 +2,7 @@
 title: Transform a field
 description: Transform the contents of field using a set of rules and conditions.Creating a transformation record is the first step in transforming a field.Each related transform record performs a specific transformation type such as adding characters to the beginning of the value or replacing one string for another. You may need to create multiple related transform records to generate a preferred output field value.Verify the transform changes the field value as desired before applying them to existing records in the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_TransformAField.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,7 +33,7 @@ Role required: admin or normalizer
 
 If you want to also show what the original \(raw\) input value was prior to transformation, create a raw field to store this value.
 
-**Parent Topic:**[Transforms](../concept/c_FieldTransformations.md)
+**Parent Topic:**[Transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldTransformations.md)
 
 ## Create a transformation record
 
@@ -102,7 +103,7 @@ Raw field
 
 </td><td>
 
-Select the field to use to display the original input \(non-normalized\) values on a form in which a field value has been normalized. For the selection to appear in the drop-down list, add a custom field to the form for the table selected. For instructions on adding a field for raw data, see [Create a raw field](t_CreateARawField.md).
+Select the field to use to display the original input \(non-normalized\) values on a form in which a field value has been normalized. For the selection to appear in the drop-down list, add a custom field to the form for the table selected. For instructions on adding a field for raw data, see [Create a raw field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateARawField.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -122,7 +123,7 @@ Each related transform record performs a specific transformation type such as ad
 
     A selection list of transform types appears, displaying only those transformations appropriate for the field type selected.
 
-    ![Transform types](../image/TransformTypes.png "Transform types")
+    \[Omitted image "TransformTypes.png"\] Alt text: Transform types
 
 3.  Select a transform type and provide the appropriate parameters.
 
@@ -136,7 +137,7 @@ Each related transform record performs a specific transformation type such as ad
 
     The following transform example replaces the INC at the beginning of an incident number with the string ENG if the assignment group is ITSM Engineering.
 
-    ![Transformation record](../image/TransformationRecord.png "Transformation record")
+    \[Omitted image "TransformationRecord.png"\] Alt text: Transformation record
 
 7.  Click **Submit**.
 
@@ -175,13 +176,13 @@ New transformation records open in the **Test** mode by default, enabling admini
 
     3.  Enter a value to transform in the **Raw data** field.
 
-        ![Raw data field](../image/RawDataField.png)
+        \[Omitted image "RawDataField.png"\] Alt text: Raw data field
 
     4.  Click **OK**.
 
         The platform transforms the raw value in the **Transformed data** field.
 
-        ![Transformed data field](../image/TransformedDataField.png)
+        \[Omitted image "TransformedDataField.png"\] Alt text: Transformed data field
 
     5.  Enter new raw data to test other transforms.
 

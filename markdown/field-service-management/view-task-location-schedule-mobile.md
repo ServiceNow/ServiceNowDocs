@@ -2,7 +2,10 @@
 title: Plan your schedule
 description: View tasks to be executed as well as your personal events on a particular day to plan your schedule for that day. Add events for yourself and display your availability to team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-task-location-schedule-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -43,7 +46,7 @@ The task list displays the following information for each work order task:
 
 6.  Add or edit a personal event.
 
-    1.  Tap the more actions \( ![More actions icon](../image/OverflowIcon.png)\) icon and select **Create Event**.
+    1.  Tap the more actions \( \[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and select **Create Event**.
     2.  Fill in the following fields:
 
 <table id="table_jmn_qtj_4gb"><thead><tr><th>
@@ -117,5 +120,5 @@ Frequency of the repeated event.Available options:
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

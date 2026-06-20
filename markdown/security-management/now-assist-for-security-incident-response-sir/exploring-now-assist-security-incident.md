@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Security Incident Response
 description: Your security analysts can use intelligent workflows and ServiceNow generative AI skills to help them triage, investigate, and close security incidents within the flow of their work with the Now Assist for Security Incident Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -136,7 +137,7 @@ Gain insight into how efficiently your security analysts are working with securi
 
 </td><td>
 
-Generate Security Operation Center \(SOC\) Performance Analysis and get suggestions for improvement from an AI agent.**Note:** You must activate the Security operations metrics analysis skill if you want to use the Analyze security operations metrics agentic workflow. See [Configure and activate a skill for Now Assist for Security Incident Response](../task/activate-skills-for-now-assist-security-incident.md) for more information.
+Generate Security Operation Center \(SOC\) Performance Analysis and get suggestions for improvement from an AI agent.**Note:** You must activate the Security operations metrics analysis skill if you want to use the Analyze security operations metrics agentic workflow. See [Configure and activate a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md) for more information.
 
 </td><td>
 
@@ -172,12 +173,12 @@ admin
 
 To learn more about configuring and using Now Assist for Security Incident Response, see:
 
--   [Configuring Now Assist for Security Incident Response](configuring-now-assist-for-security-operations.md)
--   [Summarize a security incident with Now Assist for Security Incident Response](../task/summarize-security-incident-now-assist-sec-incident.md)
--   [Generate closure notes for a security incident with Now Assist for Security Incident Response](../task/generate-closure-notes-si-now-assist-sec-incident.md)
--   [Generate correlation insights with Now Assist for Security Incident Response](../task/generating-insights-for-now-assist-for-security.md)
--   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](../task/generate-recommended-actions-now-assist-for-security.md)
--   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](../task/generate-pia-report-now-assist-security-incident.md)
--   [Inputs and triggers for Now Assist for Security Incident Response](../reference/input-triggers-now-assist-security-incident.md)
--   [Using AI agentic workflows in Now Assist for Security Incident Response](using-now-assist-ai-agents-sir.md)
+-   [Configuring Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
+-   [Summarize a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   [Generate closure notes for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
+-   [Generate correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md)
+-   [Generate recommended actions for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
+-   [Generate a post-incident analysis for a security incident with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
+-   [Inputs and triggers for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.md)
+-   [Using AI agentic workflows in Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/using-now-assist-ai-agents-sir.md)
 

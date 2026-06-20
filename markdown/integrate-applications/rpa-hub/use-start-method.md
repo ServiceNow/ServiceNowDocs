@@ -2,6 +2,7 @@
 title: Use the Start method for Universal App Connector
 description: Use the Start method to launch a browser or an application for the Universal App Connector \(UAC\) object. You can use this method if you want a browser or application to start before interacting with any application screens or elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-start-method.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -51,7 +52,7 @@ AppType
 
 </td><td>
 
-Opens the Port Properties dialog. The options available are **Chrome**, **Edge**, and **Application**.If you select **Chrome** or **Edge** from the **Static Value** list, the selected browser opens in a new tab. For more information on how to configure port properties, see [Configure port properties](configure-input-port-properties.md).
+Opens the Port Properties dialog. The options available are **Chrome**, **Edge**, and **Application**.If you select **Chrome** or **Edge** from the **Static Value** list, the selected browser opens in a new tab. For more information on how to configure port properties, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
  If you select **Application** from the **Static Value** list, you must provide the full path of the application in the **Path** parameter of the Start method.
 
@@ -85,5 +86,5 @@ No
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/universal-app-connector.md)
 

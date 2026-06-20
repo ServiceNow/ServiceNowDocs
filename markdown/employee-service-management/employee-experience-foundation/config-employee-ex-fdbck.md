@@ -2,6 +2,7 @@
 title: Set up the feedback configuration
 description: Set up the feedback configuration for the experience and service feedback in the Employee Center portal. Configure a seamless channel of feedback communication that remains constant for your portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-employee-ex-fdbck.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ The feedback configuration is generic for all feedback types and definitions.
 
 3.  On the feedback configuration form, fill in the fields.
 
-    For a description of the field values, see [Feedback configuration form](../reference/ex-feedback-new-record.md).
+    For a description of the field values, see [Feedback configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ex-feedback-new-record.md).
 
 4.  Select **Submit**.
 
@@ -49,5 +50,5 @@ You’ve configured the properties for the integrated service and experience fee
 
 ## What to do next
 
-Set up the feedback definition. For more information, see [Set up the feedback definition](config-feedback-dfnition.md).
+Set up the feedback definition. For more information, see [Set up the feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md).
 

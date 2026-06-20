@@ -2,6 +2,7 @@
 title: Cart line update scenarios
 description: Cart lines are created, updated, or deleted based on the updates that you make to the products in your shopping cart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/cart-line-update-scenarios.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -26,5 +27,5 @@ Cart lines are created, updated, or deleted based on the updates that you make t
 -   If you wish to buy a product at a later date or time, and select **Purchase later**, the cart line status is updated to Purchasing Later.
 -   If you move a product, some quantity of which already exists in your cart, from your **Purchase later** section to your shopping cart, the cart lines merge and the purchase quantity is updated accordingly.
 
-**Parent Topic:**[Shopping cart](../concept/shopping-cart.md)
+**Parent Topic:**[Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md)
 

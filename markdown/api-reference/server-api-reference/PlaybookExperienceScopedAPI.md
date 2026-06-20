@@ -2,6 +2,7 @@
 title: PlaybookExperience - Scoped
 description: The PlaybookExperience API provides methods for handling playbook executions.Cancel an individual playbook.Cancels playbook executions for a given parent record.Gets a list of playbook executions for a given parent record.Checks whether a parent record has playbook executions.Restarts an execution from the beginning \(the entire playbook\) or from a specific stage or activity of a playbook.Initiates a playbook for a parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/PlaybookExperienceScopedAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The PlaybookExperience API provides methods for handling playbook executions.
 
 This API requires the Playbook Experience Core plugin \(com.glide.playbook\_experience.config\) and is provided within the `sn_playbook` namespace.
 
-This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see Process Automation Designer.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## PlaybookExperience - cancelPlaybook\(String playbookContext, String cancellationReason, String playbookExperienceId, Boolean force\)
 

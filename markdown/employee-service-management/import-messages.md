@@ -2,7 +2,10 @@
 title: Import messages from a ticket manually
 description: You can import the conversation with a user from Microsoft Teams and append them in the Comments to store all the important messages in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/import-messages.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -66,14 +69,14 @@ Import messages as
 
 
 </td></tr></tbody>
-</table>    ![Import messages from a record](../images/import-messages-record-01.png)
+</table>    \[Omitted image "import-messages-record-01.png"\] Alt text: Import messages from a record
 
 4.  Select the messages, files, and the images you would like to import and click **Import messages**.
 
     If you try to import the messages manually for a ticket that will automatically import the messages, the system displays a message that the chat is being imported using auto-import.
 
-    ![Import messages modal error message for automaticlaly imported chats](../images/manual-import-error.png)
+    \[Omitted image "manual-import-error.png"\] Alt text: Import messages modal error message for automaticlaly imported chats
 
 
-**Parent Topic:**[Request based chat - Start and import chat from classic view](../concept/initiate-conversation-requester.md)
+**Parent Topic:**[Request based chat - Start and import chat from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-conversation-requester.md)
 

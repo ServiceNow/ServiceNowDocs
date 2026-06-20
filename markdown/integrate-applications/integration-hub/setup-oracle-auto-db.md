@@ -2,6 +2,7 @@
 title: Set up the Oracle Autonomous DB spoke
 description: Integrate the ServiceNow instance and Oracle Autonomous DB by using the credentials to authenticate ServiceNow requests.Create a credential record for the Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential aliases use these connections to perform actions in Oracle Cloud IAM.Create a credential record for the Oracle Autonomous DB account. The Oracle Autonomous DB spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Oracle Autonomous DB account. The Oracle Autonomous DB spoke connection and credential aliases use these connections to perform actions in Oracle Autonomous DB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-oracle-auto-db.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub

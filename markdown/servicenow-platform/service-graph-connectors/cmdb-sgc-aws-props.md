@@ -2,6 +2,7 @@
 title: Service Graph Connector for AWS properties
 description: Service Graph Connector for AWS properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-props.html
 release: xanadu
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -462,7 +463,7 @@ sn\_aws\_integ.windows\_TCP\_Listener\_Status
 </td></tr></tbody>
 </table>## Custom system properties
 
-You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see .
 
 <table id="table_r43_g5k_c3c"><thead><tr><th>
 
@@ -799,9 +800,9 @@ Enter the list of import set table names for which the DB Load is to be enabled 
 </td></tr></tbody>
 </table>## Related content
 
-[Data mapping for Service Graph Connector for AWS](cmdb-data-mapping-aws.md)
+[Data mapping for Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/cmdb-data-mapping-aws.md)
 
-[CMDB classes targeted in Service Graph Connector for AWS](cmdb-aws-classes.md)
+[CMDB classes targeted in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-**Parent Topic:**[Service Graph Connector for AWS reference](../concept/sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

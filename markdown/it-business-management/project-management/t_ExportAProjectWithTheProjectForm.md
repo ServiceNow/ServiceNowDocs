@@ -2,6 +2,7 @@
 title: Export project data
 description: Export the project data using the Export module, Project form, or Planning Console. Save the export file to a folder on your system in the Microsoft Project \(MPP\), XML, or CSV format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ExportAProjectWithTheProjectForm.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -29,15 +30,15 @@ The option for exporting the project data in MPP and CSV format is available whe
 
 1.  Export the project data from any of the following options.
 
-<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d279696e86">
+<table id="choicetable_jrq_jjk_jlb"><thead><tr><th align="left" id="d38508e86">
 
 Location
 
-</th><th align="left" id="d279696e89">
+</th><th align="left" id="d38508e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d279696e95">
+</th></tr></thead><tbody><tr><td id="d38508e95">
 
 **From the Export module**
 
@@ -47,7 +48,7 @@ Steps
 2.  Select a project From the Project to export list and click **Export**.
 
 
-</td></tr><tr><td id="d279696e131">
+</td></tr><tr><td id="d38508e131">
 
 **From the Project form**
 
@@ -58,7 +59,7 @@ Steps
 3.  In the Project form, select **Export to MS Project** from the context menu.
 
 
-</td></tr><tr><td id="d279696e170">
+</td></tr><tr><td id="d38508e170">
 
 **From the Planning Console**
 
@@ -67,7 +68,7 @@ Steps
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All**.
 2.  Open the project that you want to export.
 3.  In the Project form, click the **Planning Console** related link.
-4.  In the Planning Console, click the more actions icon \(![More actions icon](../image/elipsis_icon.png)\) and select the **Export** option.
+4.  In the Planning Console, click the more actions icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: More actions icon\) and select the **Export** option.
 5.  In the Microsoft Project Export dialog box, select the file format.
 6.  Click **OK**.
 
@@ -86,8 +87,8 @@ Steps
 -   Use the XML file to import the project data into other ServiceNow instances or Microsoft Project.
 -   Use the CSV file to view project data using other applications.
 
--   **[Export project tasks](t_ExportProjectTasks.md)**  
+-   **[Export project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_ExportProjectTasks.md)**  
 The task being exported must be associated with a project that uses either the Project Management Schedule or the Default MS Project schedule.
 
-**Parent Topic:**[Project export to Microsoft Project](../concept/c_ProjectExportToMicrosoftProject.md)
+**Parent Topic:**[Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md)
 

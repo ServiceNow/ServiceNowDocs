@@ -2,6 +2,7 @@
 title: Integrating with Azure AD
 description: You can integrate your ServiceNow instance with Microsoft Azure Active Directory \(AD\) to view software usage for all connected SSO applications.Create an app in the Microsoft Azure AD portal to integrate with the ServiceNow AI Platform.Create an Azure AD integration profile in your ServiceNow instance.Connect a Single Sign-On \(SSO\) app to view all users and groups with access to the app. Track user login data and reclaim unused licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-azure-ad.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -89,7 +90,7 @@ User Administrator
 User.ReadWrite.All
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate with SSO providers](saas-sso-integration.md)
+</table>**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/saas-sso-integration.md)
 
 ## Create a Microsoft Azure AD application
 
@@ -97,7 +98,7 @@ Create an app in the Microsoft Azure AD portal to integrate with the ServiceNow 
 
 ### Before you begin
 
-Microsoft Azure AD Role required: Refer to the [Minimal users permission](integrate-with-azure-ad.md#) table.
+Microsoft Azure AD Role required: Refer to the [Minimal users permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
 
 ### Procedure
 
@@ -150,15 +151,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft A
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d58471e559">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d59609e559">
 
 Interface
 
-</th><th align="left" id="d58471e562">
+</th><th align="left" id="d59609e562">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58471e568">
+</th></tr></thead><tbody><tr><td id="d59609e568">
 
 **Core UI**
 
@@ -169,7 +170,7 @@ Action
 3.  Select **Microsoft Azure AD Integration Profile**.
 
 
-</td></tr><tr><td id="d58471e610">
+</td></tr><tr><td id="d59609e610">
 
 **Software Asset Workspace**
 
@@ -186,7 +187,7 @@ Action
 
     The remaining fields are automatically populated when you submit the form.
 
-    **Note:** The SSO integration is created using a directory integration. The directory integration pulls SSO applications, users, and group data that are associated with your SSO integrations. For more information, see [Viewing SSO subscription information](../reference/sso-subscriptions.md).
+    **Note:** The SSO integration is created using a directory integration. The directory integration pulls SSO applications, users, and group data that are associated with your SSO integrations. For more information, see [Viewing SSO subscription information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/sso-subscriptions.md).
 
     If you already have a Microsoft Azure AD directory integration, the SSO integration uses your existing directory integration. Otherwise, a Microsoft Azure AD directory integration is automatically created.
 
@@ -209,18 +210,18 @@ Action
 
 6.  Select **Create and Get OAuth Token**.
 
-    You would get redirected to the Azure portal. For the role required to perform this step, refer to the [Minimal users permission](integrate-with-azure-ad.md#) table.
+    You would get redirected to the Azure portal. For the role required to perform this step, refer to the [Minimal users permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
 
 7.  In the pop-up window, sign in to your account with Azure AD admin credentials.
 
 8.  Select **Publish**.
 
-    Scheduled jobs and directory jobs download a list of all your applications, users, and groups. For more information, see [Viewing SSO subscription information](../reference/sso-subscriptions.md). View the status of your jobs in the Scheduled Job Results and Directory Job Results related lists of the integration profile. Software models are automatically created for applications with an **External Catalog ID** that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table.
+    Scheduled jobs and directory jobs download a list of all your applications, users, and groups. For more information, see [Viewing SSO subscription information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/sso-subscriptions.md). View the status of your jobs in the Scheduled Job Results and Directory Job Results related lists of the integration profile. Software models are automatically created for applications with an **External Catalog ID** that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table.
 
 
 ### Result
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Connect SSO apps
 
@@ -237,7 +238,7 @@ Role required: sam\_integrator or admin
 -   If the **Assignment required** toggle button is set to **Yes**, you must assign this application to the Microsoft Azure AD users and related applications and services. After you assign the application, Microsoft Azure AD users, associated applications, and services can access it.
 -   If the **Assignment required** toggle button is set to **No**, all users can log in to the application. The associated applications and services can also obtain an access token to this service.
 
-SaaS License Management offers direct integrations with select applications. Direct integrations provide the most robust usage data. For a list of available direct integrations, see [Integrate with SaaS applications](create-integration-profile.md). If you have a direct integration for an app, connecting the same app in an SSO integration creates duplicate subscription records in your ServiceNow instance. If you connect an SSO app and later decide to create a direct integration for that app, disconnect the app before creating a direct integration.
+SaaS License Management offers direct integrations with select applications. Direct integrations provide the most robust usage data. For a list of available direct integrations, see [Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-integration-profile.md). If you have a direct integration for an app, connecting the same app in an SSO integration creates duplicate subscription records in your ServiceNow instance. If you connect an SSO app and later decide to create a direct integration for that app, disconnect the app before creating a direct integration.
 
 **Note:** If you’re using Software Asset Workspace, the option to navigate to the SSO application in the Core UI is inactive.
 
@@ -256,7 +257,7 @@ SaaS License Management offers direct integrations with select applications. Dir
 
 3.  If the **Software model** field is empty, add a software model for the app.
 
-    An app must have a software model before you can connect it. Software models are automatically created for apps with an **External Catalog ID** that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other apps, you can create a software model manually. For more information, see [Create software models in Software Asset Management classic](../task/record-terms-software-licenses.md).
+    An app must have a software model before you can connect it. Software models are automatically created for apps with an **External Catalog ID** that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other apps, you can create a software model manually. For more information, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
 4.  Select a date for the **Analyze last activity from** field.
 
@@ -280,9 +281,9 @@ After the SSO application connects, your ServiceNow instance automatically creat
 
 ### What to do next
 
-Review all automatically generated reclamation rules to meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
-Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance. For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md). For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance. For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md). For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

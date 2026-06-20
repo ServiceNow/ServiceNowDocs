@@ -2,6 +2,7 @@
 title: Skill inputs and triggers for Now Assist for Customer Service Management \(CSM\)
 description: Use the inputs and triggers for each skill to configure how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-skill-inputs.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm

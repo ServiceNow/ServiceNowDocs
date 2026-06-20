@@ -2,6 +2,7 @@
 title: Configure Microsoft SharePoint Online for external content indexing
 description: Register an OAuth 2.0 application in the Microsoft Entra admin center to allow the Microsoft SharePoint Online external content connector to access your Microsoft SharePoint Online source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -26,7 +27,7 @@ You need the following credentials and permissions for your organization in the 
 -   Permission to grant admin consent for an application's API permissions
 -   Permission to upload certificates for an application
 
-You must have created a public/private key pair for the Microsoft SharePoint Online external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft SharePoint Online external content connector](gen-cert-spo-ext-cont-connector.md).
+You must have created a public/private key pair for the Microsoft SharePoint Online external content connector and extracted the public key certificate in DER-encoded binary X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.md).
 
 Role required: none
 
@@ -48,7 +49,7 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     3.  On the App registrations page, select **New registration**.
 
-        ![App registrations page in Microsoft Entra admin center with New registration link.](../image/ms-entra-home-app-registrations.png)
+        \[Omitted image "ms-entra-home-app-registrations.png"\] Alt text: App registrations page in Microsoft Entra admin center with New registration link.
 
     4.  On the Register an application form, fill in the following fields:
 
@@ -58,7 +59,7 @@ To enable the connector to access your Microsoft SharePoint Online source system
         |Supported account types|Select **Accounts in this organizational directory only \(&lt;instance-name&gt; only - Single tenant\)**, where `<instance-name>` is the name of your Microsoft Entra instance.|
         |Redirect URI \(optional\)|Leave this field empty.|
 
-        ![Register an application dialog box in Microsoft Entra admin center.](../image/ms-sharepoint-online-entra-register-application.png)
+        \[Omitted image "ms-sharepoint-online-entra-register-application.png"\] Alt text: Register an application dialog box in Microsoft Entra admin center.
 
     5.  Select **Register**.
 
@@ -66,7 +67,7 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
 2.  Record the values of the **Application \(client\) ID** and **Directory \(tenant\) ID** properties in a secure location.
 
-    ![Application's overview page in Microsoft Entra admin center showing application/client and directory/tenant ID values.](../image/ms-sharepoint-online-entra-app-overview.png)
+    \[Omitted image "ms-sharepoint-online-entra-app-overview.png"\] Alt text: Application's overview page in Microsoft Entra admin center showing application/client and directory/tenant ID values.
 
     **Important:** Your ServiceNow AI Platform admin needs the application's tenant and client IDs to configure a Microsoft SharePoint Online external content connector.
 
@@ -74,18 +75,18 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     1.  In the application menu, select **Manage** &gt; **API permissions**.
 
-        ![Application's API permissions list in Microsoft Entra admin center with Add a permission link.](../image/ms-sharepoint-online-entra-api-permissions-before.png)
+        \[Omitted image "ms-sharepoint-online-entra-api-permissions-before.png"\] Alt text: Application's API permissions list in Microsoft Entra admin center with Add a permission link.
 
     2.  Select **Add a permission**, then select **Microsoft Graph**, then select **Application permissions**.
 
-        ![Request API permissions dialog box in Microsoft Entra admin center showing Microsoft Graph tile](../image/ms-entra-request-api-permissions-ms-graph.png)
+        \[Omitted image "ms-entra-request-api-permissions-ms-graph.png"\] Alt text: Request API permissions dialog box in Microsoft Entra admin center showing Microsoft Graph tile
 
     3.  For each of the following permissions, enter the permission name into the **Select permissions** search field, then locate and select the option for the permission.
 
         -   GroupMember.Read.All
         -   Sites.Read.All
 
-            **Note:** The Microsoft SharePoint Online external content connector only uses the Sites.Read.All permission to perform automatic site discovery for crawl configuration and one-time crawls. If you plan to specify the sites to crawl manually, you don't need to select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for the Microsoft SharePoint Online external content connector](configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](run-doc-crawl-ext-cont-connector.md).
+            **Note:** The Microsoft SharePoint Online external content connector only uses the Sites.Read.All permission to perform automatic site discovery for crawl configuration and one-time crawls. If you plan to specify the sites to crawl manually, you don't need to select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md).
 
         -   User.Read.All
     4.  Select **Add permissions**.
@@ -94,17 +95,17 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     5.  Select **Add a permission**, then select **SharePoint**, then select **Application permissions**.
 
-        ![Request API permissions dialog box in Microsoft Entra admin center showing SharePoint tile.](../image/ms-entra-request-api-permissions-sharepoint.png)
+        \[Omitted image "ms-entra-request-api-permissions-sharepoint.png"\] Alt text: Request API permissions dialog box in Microsoft Entra admin center showing SharePoint tile.
 
     6.  In the **Select permissions** search field, enter `Sites.FullControl.All`, then locate and select the option for the permission.
 
-        **Note:** If your organization does not permit you to grant Sites.FullControl.All permission to a registered application, you can enter `Sites.Selected` instead. When you grant this API permission, a source system administrator must grant FullControl permission for each site collection that you want the Microsoft SharePoint Online external content connector to be able to crawl. For details on granting FullControl permission for individual site collections, see [Configure site collection access for the Microsoft SharePoint Online external content connector](cfg-site-coll-access-spo-ext-cont-connector.md).
+        **Note:** If your organization does not permit you to grant Sites.FullControl.All permission to a registered application, you can enter `Sites.Selected` instead. When you grant this API permission, a source system administrator must grant FullControl permission for each site collection that you want the Microsoft SharePoint Online external content connector to be able to crawl. For details on granting FullControl permission for individual site collections, see [Configure site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md).
 
     7.  Select **Add permissions**.
 
         The new SharePoint permission appears in the application's Configured permissions list.
 
-    ![Application's API permissions list in Microsoft Entra admin center showing added permissions needing admin consent.](../image/ms-sharepoint-online-entra-api-permissions-grant-consent.png)
+    \[Omitted image "ms-sharepoint-online-entra-api-permissions-grant-consent.png"\] Alt text: Application's API permissions list in Microsoft Entra admin center showing added permissions needing admin consent.
 
 4.  Grant admin consent for the added API permissions.
 
@@ -112,7 +113,7 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     2.  In the Grant admin consent confirmation dialog box, select **Yes**.
 
-        ![Application's API permissions list in Microsoft Entra admin center showing added permissions with admin consent granted.](../image/ms-sharepoint-online-entra-api-permissions-after.png)
+        \[Omitted image "ms-sharepoint-online-entra-api-permissions-after.png"\] Alt text: Application's API permissions list in Microsoft Entra admin center showing added permissions with admin consent granted.
 
     The status for the added API permissions changes to `Granted for <instance-name>`, where `<instance-name>` is the name of your Microsoft Entra instance.
 
@@ -122,11 +123,11 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     2.  Select **Certificates**, then select **Upload certificate**.
 
-        ![Application's Certificates & secrets page in Microsoft Entra admin center showing Upload certificate link.](../image/ms-sharepoint-online-entra-certificates-secrets-before.png)
+        \[Omitted image "ms-sharepoint-online-entra-certificates-secrets-before.png"\] Alt text: Application's Certificates &amp; secrets page in Microsoft Entra admin center showing Upload certificate link.
 
     3.  Select **Select a file** and locate your DER-encoded binary X.509 format public key certificate file, then enter a description for it.
 
-        ![Upload certificate dialog box in Microsoft Entra admin center.](../image/ms-sharepoint-online-entra-upload-certificate.png)
+        \[Omitted image "ms-sharepoint-online-entra-upload-certificate.png"\] Alt text: Upload certificate dialog box in Microsoft Entra admin center.
 
     4.  Select **Add**.
 
@@ -136,7 +137,7 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     5.  Copy the certificate's **Thumbprint** SHA1 hash, shown in hexadecimal format.
 
-        ![Application's Certificates & secrets page in Microsoft Entra admin center showing thumbprint SHA1 hash value for uploaded certificate.](../image/ms-sharepoint-online-entra-certificates-secrets-after.png)
+        \[Omitted image "ms-sharepoint-online-entra-certificates-secrets-after.png"\] Alt text: Application's Certificates &amp; secrets page in Microsoft Entra admin center showing thumbprint SHA1 hash value for uploaded certificate.
 
     6.  Convert the certificate's SHA1 thumbprint hash from hexadecimal format to a byte array, then convert the byte array to base64 encoding and record the base64-encoded hash in a secure location.
 
@@ -166,21 +167,21 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
 ## What to do next
 
-If you granted Sites.Selected permission instead of Sites.FullControl.All permission in step [3.f](cfg-azure-spo-ext-cont-connector.md#add-sharepoint-api-permissions-substep), configure SharePoint API permissions for the site collections you want the Microsoft SharePoint Online connector to be able to crawl. For details on this procedure, see [Configure site collection access for the Microsoft SharePoint Online external content connector](cfg-site-coll-access-spo-ext-cont-connector.md).
+If you granted Sites.Selected permission instead of Sites.FullControl.All permission in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md), configure SharePoint API permissions for the site collections you want the Microsoft SharePoint Online connector to be able to crawl. For details on this procedure, see [Configure site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md).
 
 Provide the following items to your ServiceNow AI Platform admin:
 
--   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](cfg-azure-spo-ext-cont-connector.md#client-tenant-ids-step).
--   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash that you recorded in step [5.f](cfg-azure-spo-ext-cont-connector.md#certificate-thumbprint-step).
+-   The OAuth 2.0 application's tenant ID and client ID that you recorded in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md).
+-   The DER-encoded binary X.509 format public key certificate's SHA1 thumbprint hash that you recorded in step [5.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-azure-spo-ext-cont-connector.md).
 
 Your ServiceNow AI Platform admin needs these items to configure a Microsoft SharePoint Online external content connector to retrieve searchable content and security principals from your Microsoft SharePoint Online instance.
 
-For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](create-ext-cont-connector-mspo.md).
+For details on creating and configuring a Microsoft SharePoint Online external content connector, see [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
 
--   **[Create a public/private key pair for the Microsoft SharePoint Online external content connector](gen-cert-spo-ext-cont-connector.md)**  
+-   **[Create a public/private key pair for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/gen-cert-spo-ext-cont-connector.md)**  
 Generate a public/private key pair for the Microsoft SharePoint Online external content connector. Extract the public key as a DER-encoded binary X.509 format certificate for use in configuring API access for the connector in the Microsoft Entra admin center.
--   **[Configure site collection access for the Microsoft SharePoint Online external content connector](cfg-site-coll-access-spo-ext-cont-connector.md)**  
+-   **[Configure site collection access for the Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-site-coll-access-spo-ext-cont-connector.md)**  
 Allow the Microsoft SharePoint Online connector to crawl your site collections by granting SharePoint API FullControl permissions to your registered Microsoft Entra OAuth 2.0 app for the connector.
 
-**Parent Topic:**[Configuring source systems for external content indexing](../concept/cfg-src-sys-ext-content-indexing.md)
+**Parent Topic:**[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-src-sys-ext-content-indexing.md)
 

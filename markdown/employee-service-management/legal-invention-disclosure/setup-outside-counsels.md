@@ -2,6 +2,7 @@
 title: Set up Outside Counsels for Legal Invention Disclosure
 description: Create Outside Counsel records to enable outside counsels to work on a Legal Invention Disclosure request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-invention-disclosure/setup-outside-counsels.html
 release: xanadu
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -17,7 +18,7 @@ Create Outside Counsel records to enable outside counsels to work on a Legal Inv
 
 ## Before you begin
 
-An Outside Firm record must be active. For more information, see [Set up Outside Firms for Legal Invention Disclosure](setup-outside-firms.md).
+An Outside Firm record must be active. For more information, see [Set up Outside Firms for Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-invention-disclosure/setup-outside-firms.md).
 
 Role required: sn\_lg\_matter.matter\_config, sn\_lg\_matter.matter\_fulfiller
 
@@ -29,15 +30,15 @@ Setting up an outside counsel can be done either as a fulfiller task or when con
 
 1.  Access the form to create an Outside Counsel record.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d122465e78">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d121622e78">
 
 Location
 
-</th><th align="left" id="d122465e81">
+</th><th align="left" id="d121622e81">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d122465e87">
+</th></tr></thead><tbody><tr><td id="d121622e87">
 
 **From the Legal Matter module**
 
@@ -45,14 +46,14 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d122465e114">
+</td></tr><tr><td id="d121622e114">
 
 **From Legal Counsel Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Select the List icon \(![List icon](../../ohs-incident-management/image/list-icon-hs.png)\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
 
 
 </td></tr></tbody>
@@ -72,5 +73,5 @@ Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **
     -   On the Outside Counsels New record form, select **Submit**.
     -   On the Create New Outside Counsel from the Legal Counsel Center, select **Save**.
 
-**Parent Topic:**[Configuring Legal Invention Disclosure](../concept/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

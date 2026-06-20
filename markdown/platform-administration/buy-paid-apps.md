@@ -2,6 +2,7 @@
 title: Buy a paid application
 description: Request a quote and buy a paid application from your ServiceNow instance, without navigating to the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/buy-paid-apps.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -61,5 +62,5 @@ Role required: admin
     An email notification is sent when the PO request is reviewed and approved. Then, you can install the application.
 
 
-**Parent Topic:**[Request a free or paid application](request-app.md)
+**Parent Topic:**[Request a free or paid application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/request-app.md)
 

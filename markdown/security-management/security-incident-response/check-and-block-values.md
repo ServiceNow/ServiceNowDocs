@@ -2,6 +2,7 @@
 title: Security Operations Palo Alto Networks - Check and Block Value workflow
 description: As security incidents are created and triaged to identify potential threats, you can use the Security Operations Palo Alto Networks - Check and Block Value workflow to automatically check and update IP addresses, URLs, and domains using External Dynamic Lists defined in Palo Alto Networks - Firewall.This activity is called by other activities to set the Firewall block request status to success or failure.After the workflow has identified a value that is not on the firewall, the record is routed for approval. Upon approval, this activity connects to the MID Server via your SSH credentials and invokes a script that adds the value to the firewall External Block List.This activity checks if the value \(IP, URL, or domain\) is included in its respective External Dynamic List/Dynamic Block List \(EDL/DBL\) on firewall. The EDL/DBL details are obtained from the firewall using an operational command, and a routine is performed to check if the value is blocked on the firewall.This action retrieves the API key from the firewall.The Palo Alto Firewall: Get Firewall Config flow action gets all the related firewall configuration information from the database, and makes it available for use by the subsequent action.This activity executes an operational command on the firewall to refresh the External Dynamic List from the source configured on the firewall. The output of this activity indicates whether the Refresh job has been queued up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/check-and-block-values.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -25,9 +26,9 @@ The **Security Operations Palo Alto Networks - Check and Block Value** workflow 
 
 During workflow execution, commands defined under **Palo Alto Networks Integration** &gt; **Firewall** &gt; **Commands** are run. The Show type commands \(for example, Show-IP-ExternalDynamicList\) determine whether the value exists on the firewall. The Refresh type commands \(for example, Refresh-IP-ExternalDynamicList\) add value that do not exist on the firewall to the block list.
 
-After the [Blocked Status](check-and-block-values.md#) activity executes, approval by a system administrator is required before the workflow can proceed.
+After the [Blocked Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/check-and-block-values.md) activity executes, approval by a system administrator is required before the workflow can proceed.
 
-![Palo Alto Networks Firewall - Check and Block workflow](../../secops-integration-palo-alto-firewall/image/check-and-block-wf.png "Security Operations Palo Alto Networks - Check and Block Value workflow")
+\[Omitted image "check-and-block-wf.png"\] Alt text: Palo Alto Networks Firewall - Check and Block workflow
 
 ## Procedure
 
@@ -105,14 +106,14 @@ After the workflow has identified a value that is not on the firewall, the recor
 
 Input variables determine the initial behavior of the activity.
 
-**Note:** You must manually enter the input variables for this activity and then [publish the workflow](https://www.servicenow.com/docs/access?context=work-on-workflows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US). If the workflow is not published, the input variables will not be saved for non-admin users.
+**Note:** You must manually enter the input variables for this activity and then publish the workflow. If the workflow is not published, the input variables will not be saved for non-admin users.
 
 |Variable|Description|
 |--------|-----------|
 |toBeBlockedValue \[string\]|The value to be added to the EDL if not already present. This input variable is mandatory.|
 |typeToBeBlocked \[string\]|The type of value to be blocked: IP, URL, or Domain. This input variable is mandatory.|
 |targetHost \[string\]|The MID Server on which the script is executed.|
-|SSHCredentialTag \[string\]|The [SSH credential tag defined on the MID server](../../secops-integration-palo-alto-firewall/task/set-up-and-config-MID-server.md).|
+|SSHCredentialTag \[string\]|The [SSH credential tag defined on the MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/set-up-and-config-MID-server.md).|
 |scriptCommand \[string\]|The AppendValueToList.sh script used to add the value to the EDL. It requires the full path to the MID Server.|
 
 ### Output variables

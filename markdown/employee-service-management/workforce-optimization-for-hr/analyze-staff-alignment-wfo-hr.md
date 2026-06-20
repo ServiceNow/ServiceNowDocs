@@ -2,6 +2,7 @@
 title: Analyze staff alignment using Demand Forecast in Workforce Optimization for HR
 description: Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/analyze-staff-alignment-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -33,7 +34,7 @@ Using Demand Forecast, you can:
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click the **Team Calendar** tab.
 
@@ -41,15 +42,15 @@ Using Demand Forecast, you can:
 
 5.  You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d330437e118">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d310018e118">
 
 To analyze staff alignment
 
-</th><th align="left" id="d330437e121">
+</th><th align="left" id="d310018e121">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d330437e127">
+</th></tr></thead><tbody><tr><td id="d310018e127">
 
 **For each day**
 
@@ -68,7 +69,7 @@ Select **Day** from the list.The **Total resources needed** row displays the dem
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d330437e214">
+</td></tr><tr><td id="d310018e214">
 
 **For a given week**
 

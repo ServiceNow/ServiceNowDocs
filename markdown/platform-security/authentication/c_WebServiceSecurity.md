@@ -2,6 +2,7 @@
 title: Web service security
 description: Enforce security using basic authentication, mutual authentication, or WS-Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_WebServiceSecurity.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -17,13 +18,13 @@ Enforce security using basic authentication, mutual authentication, or WS-Securi
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore web security![Explore web security](../../../common/image/icon-explore.png)](exploring-web-sec.md)
+[Explore web security\[Omitted image "icon-explore.png"\] Alt text: Explore web security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/exploring-web-sec.md)
 
- [Learn the features and business values of web service security.](exploring-web-sec.md)
+ [Learn the features and business values of web service security.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/exploring-web-sec.md)
 
 </td><td>
 
-[Configure mutual authentication![Use mutual authentication](../../../common/image/icon-set-up.png)](c_MutualAuthentication.md)
+[Configure mutual authentication\[Omitted image "icon-set-up.png"\] Alt text: Use mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/c_MutualAuthentication.md)
 
  Use mutual authentication to establish trust by exchanging secure sockets layer \(SSL\) certificates.
 

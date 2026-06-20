@@ -2,6 +2,7 @@
 title: Edit a reliability indicator
 description: Update the details of a reliability indicator when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/sr-edit-sli-slo.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -29,7 +30,7 @@ If you update the Service Level Objective \(SLO\) during an active measurement p
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  Select the Services page icon \(![services icon](../../service-reliability/image/icon-sr-services.png)\).
+2.  Select the Services page icon \(\[Omitted image "icon-sr-services.png"\] Alt text: services icon\).
 
 3.  On the Services Overview page, select the service for which you want to edit reliability metrics.
 
@@ -42,5 +43,5 @@ If you update the Service Level Objective \(SLO\) during an active measurement p
 7.  Select **Save**.
 
 
-**Parent Topic:**[Working with Reliability metrics](../concept/sr-work-SLI-SLO.md)
+**Parent Topic:**[Working with Reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)
 

@@ -2,6 +2,7 @@
 title: Set up message authentication for your custom chat configuration
 description: Create a Hash Message Verification record and Message Auth record to set up message authentication for your custom chat integration. This is configured in the Hash Message Verifications \[hash\_message\_verification\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/set-up-msg-auth-va-cccif.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Create a Hash Message Verification record and Message Auth record to set up mess
 
 ## Before you begin
 
-[Configure a provider for your custom chat integration](create-provider-va-cccif.md).
+[Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-provider-va-cccif.md).
 
 Role required: admin
 
@@ -62,5 +63,5 @@ You can create a Hash Message Verification record and Message Auth record to set
 
 ## What to do next
 
-[Create a channel identifier for your custom chat integration](create-channel-id-va-cccif.md)
+[Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md)
 

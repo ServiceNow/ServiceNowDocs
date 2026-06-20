@@ -2,6 +2,7 @@
 title: Components installed with ITSM Roles - Change Management
 description: Several user roles are installed with the activation of the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/installed-with-cm-itsm-roles.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -17,7 +18,7 @@ Several user roles are installed with the activation of the ITSM Roles — Chang
 
 When you install the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\), the plugin updates the Security Access Control Lists \(ACLs\), integrating revised scripts, and other files to overhaul the security model for these applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -161,5 +162,5 @@ Write access to the comments for the Requested Item \(sc\_req\_item\).**Note:** 
 NA
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles- Change Management](../task/request-itsm-roles-cm.md)
+</table>**Parent Topic:**[Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/request-itsm-roles-cm.md)
 

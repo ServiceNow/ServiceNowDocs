@@ -2,6 +2,7 @@
 title: Mentoring home page
 description: Mentoring home page provides you with a bird's eye view of all your mentorship relationships, requests, and programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/mentoring-home-egd.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -23,5 +24,5 @@ The Overview tab is the first thing you see when you access Mentoring after navi
 
 Use the **Your mentorships** tab to find trending courses across your organization. You can browse through highlighted content promoted by the learning team, popular learning-related searches, and recommended content based on learners similar to you.
 
-**Parent Topic:**[Exploring Mentoring](exploring-mentoring-egd.md)
+**Parent Topic:**[Exploring Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/exploring-mentoring-egd.md)
 

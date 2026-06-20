@@ -2,6 +2,7 @@
 title: Getting apps as an on-premise customer
 description: If you have an on-premise \(self-hosted\) instance, you can procure apps from the ServiceNow Store. Download encrypted apps and products to install on your instance, or connect your instance to the ServiceNow Store to sync purchases with your instance directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/getting-apps-on-prem.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -25,16 +26,16 @@ If you have an on-premise instance, there are two ways that you can procure apps
 
 Use the following steps to procure apps and products without connecting your instance to the ServiceNow Store.
 
-1.  [Get an app as an on-premise customer](../task/get-app-on-prem.md)
+1.  [Get an app as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/get-app-on-prem.md)
 
     Procure and download an encrypted app from the ServiceNow Store for use with your on-premise instance.
 
-2.  [Upload an app to an on-premise instance](../task/upload-app-on-prem-instance.md)
+2.  [Upload an app to an on-premise instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upload-app-on-prem-instance.md)
 
     Upload an application's encrypted file to your on-premise instance to make it available for installation.
 
 
 ## Procuring apps and products by connecting to the ServiceNow Store
 
-After Customer Service and Support confirms that your instance is connected to the ServiceNow Store, follow the same steps used to procure and install applications in hosted instances. Refer to [Getting apps and trials from the ServiceNow Store](getting-apps-trials.md) for more details.
+After Customer Service and Support confirms that your instance is connected to the ServiceNow Store, follow the same steps used to procure and install applications in hosted instances. Refer to [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md) for more details.
 

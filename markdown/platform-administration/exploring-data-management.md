@@ -2,6 +2,7 @@
 title: Exploring Data Management
 description: Learn about Data Management capabilities and how they help you manage table data in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/exploring-data-management.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ The Data Management capabilities enable you to manage the growth of data in your
 
 This infographic depicts how an administrator uses a data management policy to configure data management rules for a table and monitor data usage on an instance.
 
-![Infographic depicting how an administrator uses a data management policy to configure data management rules for a table and monitor data usage. For details, refer to the following description.](../image/mmasset0020353-data-management-workflow-landing.png "Managing data on your instance")
+\[Omitted image "mmasset0020353-data-management-workflow-landing.png"\] Alt text: Infographic depicting how an administrator uses a data management policy to configure data management rules for a table and monitor data usage. For details, refer to the following description.
 
 1.  The instance admin monitors cloud storage entitlements and data usage at the account-level in Subscription Management.
 2.  The instance admin finds that one instance is consuming a greater amount of storage than expected and decides to investigate.
@@ -45,17 +46,17 @@ This infographic depicts how an administrator uses a data management policy to c
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Archive older records|[Data archiving](../../database-rotation/concept/c_ArchiveData.md)|Administrator|
-|Delete older or unwanted records automatically|[Table cleaner](table-cleaner.md)|Administrator|
-|Monitor data usage on your instance over time|[Viewing data usage on your instance](viewing-data-usage.md)|Administrator|
+|Archive older records|[Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ArchiveData.md)|Administrator|
+|Delete older or unwanted records automatically|[Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-cleaner.md)|Administrator|
+|Monitor data usage on your instance over time|[Viewing data usage on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/viewing-data-usage.md)|Administrator|
 
 ## What to explore next
 
 To learn more about configuring and using Data Management, see:
 
--   [Managing the growth of data on your instance](data-management-policies.md)
--   [Updating records safely](updating-records-safely.md)
--   [Deleting records safely](deleting-records-safely.md)
--   [Database rotation](../../database-rotation/concept/c_DatabaseRotation.md)
--   [Data Management reference](../reference/data-management-reference.md)
+-   [Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-management-policies.md)
+-   [Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/updating-records-safely.md)
+-   [Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/deleting-records-safely.md)
+-   [Database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DatabaseRotation.md)
+-   [Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-management-reference.md)
 

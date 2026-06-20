@@ -2,6 +2,7 @@
 title: Auto-complete suggestion types included with Now Assist in AI Search
 description: Now Assist in AI Search includes an auto-complete suggestion type that displays suggested Now Assist in Virtual Agent queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/auto-complete-suggestion-types-na-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -16,7 +17,7 @@ breadcrumb: [Now Assist in AI Search reference, Now Assist in AI Search, Service
 
 Now Assist in AI Search includes an auto-complete suggestion type that displays suggested Now Assist in Virtual Agent queries.
 
-To learn more about how this auto-complete suggestion type appears to search and chat users, see [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US). For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](../concept/auto-complete-ais.md#).
+To learn more about how this auto-complete suggestion type appears to search and chat users, see . For details on configuring and using auto-complete suggestion types in your search application configurations, see [Auto-complete suggestions in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/auto-complete-ais.md).
 
 <table id="table_rc4_z2y_v2c"><thead><tr><th>
 
@@ -48,5 +49,5 @@ Displays Virtual Agent conversational prompts based on previous user searches \(
  **Note:** This suggestion reader group is only supported in search application configurations for applications that support the enhanced chat experience, such as the Now Assist in VA search application configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in AI Search reference](../concept/reference-now-assist-ais.md)
+</table>**Parent Topic:**[Now Assist in AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-now-assist-ais.md)
 

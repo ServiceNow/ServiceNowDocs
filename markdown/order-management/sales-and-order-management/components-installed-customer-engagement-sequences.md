@@ -2,6 +2,7 @@
 title: Components installed with Customer Engagement Sequences
 description: Several types of components are installed with activation of the Customer Engagement Sequences plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/components-installed-customer-engagement-sequences.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Financial Services Operations \(FSO\)
 description: If you have the admin role, you can configure the Now Assist for Financial Services Operations \(FSO\) application so that your agents can use the generative AI skills in Financial Services Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.html
 release: xanadu
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -22,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for FSO. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -39,15 +40,15 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 1.  Install the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](../concept/supporting-information-for-now-assist-for-financial-services-operations-fso.md#section_ng1_bdj_mbc).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Select the **Customer** workflow group.
 
 4.  In the **Select product** drop-down list, select **FSO**.
 
-    ![Now Assist for FSO skills are in the Customer workflow group. Selecting FSO in the Select product drop-down list displays the available skills.](../image/now-assist-fso-select-product.png)
+    \[Omitted image "now-assist-fso-select-product.png"\] Alt text: Now Assist for FSO skills are in the Customer workflow group. Selecting FSO in the Select product drop-down list displays the available skills.
 
 5.  On the feature card that is associated with the skill you would like to activate, select **View details**.
 
@@ -57,7 +58,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
     The input table fields are read-only.
 
-    For information about the inputs for each skill, see [Skill inputs for Now Assist for Financial Services Operations \(FSO\)](../concept/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
+    For information about the inputs for each skill, see [Skill inputs for Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.md).
 
 8.  After you review the inputs for the selected skill, select **Save and continue** to go to the next step.
 
@@ -69,7 +70,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
         For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -82,5 +83,5 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 ## What to do next
 
-Configure security for your configured Now Assist for FSO skills. See [Configuring security](configuring-security-in-now-assist-for-fso.md) for more information.
+Configure security for your configured Now Assist for FSO skills. See [Configuring security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-security-in-now-assist-for-fso.md) for more information.
 

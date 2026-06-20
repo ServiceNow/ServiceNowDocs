@@ -2,6 +2,7 @@
 title: Override a SOAP endpoint
 description: The SOAP endpoint address where the SOAP message is posted is consistent with the endpoint of the WSDL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_OverridingTheSOAPEndpoint.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -36,5 +37,5 @@ https://myproxy.mycompany.com/service-now/incident.do?SOAP
 
 ```
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_SOAPWebService.md)
 

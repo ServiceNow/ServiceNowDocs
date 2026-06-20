@@ -2,7 +2,10 @@
 title: Offboard agents on the Field Service Contractor Portal
 description: Offboard agents of the contractor company to terminate their services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/offboard-agents-fsmcp.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -45,5 +48,5 @@ After receiving the offboarding request:
 -   Email or SMS notifications are no longer sent to the agent.
 -   The agent is automatically removed from the additional manager role and responsibilities.
 
-**Parent Topic:**[Field Service Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-contractor-portal.md)
 

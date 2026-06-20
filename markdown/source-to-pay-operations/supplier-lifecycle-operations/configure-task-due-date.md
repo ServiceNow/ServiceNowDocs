@@ -2,6 +2,7 @@
 title: Configure due dates for tasks
 description: Configure due dates for different task types so that the Due date field is auto-populated when you create tasks for internal users and suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/configure-task-due-date.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -49,5 +50,5 @@ Although the **Due date** field is auto-populated for a task type, you can alway
 3.  Select **Save**.
 
 
-**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+**Parent Topic:**[Managing supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 

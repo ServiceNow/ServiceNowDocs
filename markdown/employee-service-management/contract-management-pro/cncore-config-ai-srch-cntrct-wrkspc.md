@@ -2,6 +2,7 @@
 title: Configure AI search for Contract Workspace
 description: Get improved search results in Contract Workspace by configuring the ServiceNow AI Search application to work with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-config-ai-srch-cntrct-wrkspc.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,7 +28,7 @@ If you are a new customer, the AI Search application is configured with your bas
 
 If you are an existing customer, you have to configure Contract Workspace to use the AI Search application.
 
-For more information on the AI Search application, and how to use most effectively use it, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US). For information about how to associate the AI Search application with Contract Workspace, see [Create a search application configuration for AI Search](https://www.servicenow.com/docs/access?context=create-search-app-config-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on the AI Search application, and how to use most effectively use it, see AI Search. For information about how to associate the AI Search application with Contract Workspace, see Create a search application configuration for AI Search.
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Generate correlation insights with Now Assist for Security Incident Response
 description: Generate correlation insights from the Now Assist panel to help you connect past events to the security incident you are working on. You can use the related information you generate to avoid duplicating your investigation into affected users, configuration items, and observables and help you resolve the incident you are working on more quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/now-assist-for-security-incident-response-sir/generate-correlation-insights-now-assist-for-security.html
 release: xanadu
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -19,9 +20,9 @@ Generate correlation insights from the Now Assist panel to help you connect past
 
 The correlation insights generation skill must be activated before you can see the **Generate correlation insights** option in the Now Assist panel.
 
-If you do not see the Now Assist panel, you must activate it. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+If you do not see the Now Assist panel, you must activate it. For more information, see .
 
-For more information about correlation insights searches, see [Exploring correlation insights with Now Assist for Security Incident Response](generating-insights-for-now-assist-for-security.md).
+For more information about correlation insights searches, see [Exploring correlation insights with Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/now-assist-for-security-incident-response-sir/generating-insights-for-now-assist-for-security.md).
 
 Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
 
@@ -31,7 +32,7 @@ Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
 
 2.  Alternatively, in the legacy UI \(UI16\), locate a security incident on the Security Incidents \[sn\_si\_incident\] table and open it.
 
-3.  Select the Now Assist icon \(![AI Sparkle icon](../../../common/image/icon-ai-sparkle.png)\) in the top header to open the Now Assist panel.
+3.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon\) in the top header to open the Now Assist panel.
 
 4.  Select **Generate correlation insights**.
 
@@ -44,7 +45,7 @@ Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
     -   **Observables**: Records that are linked by shared observables that suggest potential ongoing attacks or repeated use of malicious infrastructure. Examples might include IP addresses, URLs, or file hashes. Note you must enter an exact value for an observable, for example, a complete file hash.
     If no matching data exists for any of these filters, none are displayed. You are prompted to add one of these values to the security incident you are working from, save it, and reset your conversation in the panel and try again.
 
-5.  To reset your conversation, select the Now Assist reset menu icon \(![](../image/now-assist-reset-icon.png)\) in the panel and select **Reset Conversation**.
+5.  To reset your conversation, select the Now Assist reset menu icon \(\[Omitted image "now-assist-reset-icon.png"\]\) in the panel and select **Reset Conversation**.
 
 6.  Select a filter.
 
@@ -57,7 +58,7 @@ Roles required: sn\_si.analyst, sn\_si.manager or sn\_si.basic
     -   The Affected users filter returns: SIR, INC, and CHG records.
     -   The Configuration filter item returns: SIR, INC, CHG, PRB, and VIT records.
     -   The Observables filter return SIR records.
-    ![Now Assist panel with returned records for a configuration item for correlation insights](../image/NAP-C-Insights.png)
+    \[Omitted image "NAP-C-Insights.png"\] Alt text: Now Assist panel with returned records for a configuration item for correlation insights
 
 7.  To modify the 30-day limit for the query, follow these steps:
 

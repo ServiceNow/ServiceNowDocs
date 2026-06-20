@@ -2,7 +2,10 @@
 title: Edit multiple tasks in Dispatcher Workspace
 description: Select and open or bundle multiple tasks with Bulk Actions on Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/bulk-actions-dw.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,11 +34,11 @@ When 1 or more tasks are selected, the **Bulk Open** action appears. Selecting *
 
 ## Bulk Auto-assignment
 
-When 1 or more tasks are selected, the **Auto-assignment** action is enabled. Selecting **Auto-assignment** will dynamically schedule all selected tasks. For more information, see [Dynamic scheduling](dynamic-scheduling.md).
+When 1 or more tasks are selected, the **Auto-assignment** action is enabled. Selecting **Auto-assignment** will dynamically schedule all selected tasks. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dynamic-scheduling.md).
 
 ## Bundle
 
-When 2 or more tasks are selected, the **Bundle** action appears. Selecting **Bundle** will bundle the selected tasks. For more information, see [Bundling work order tasks](task-bundling-fsm.md)
+When 2 or more tasks are selected, the **Bundle** action appears. Selecting **Bundle** will bundle the selected tasks. For more information, see [Bundling work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/task-bundling-fsm.md)
 
 **Note:** If the Dynamic Scheduling plugin \(com.snc.dynamic\_scheduling\) and Field Service Task Bundling plugin \(com.snc.fsm\_task\_bundle\) are both enabled, the **Auto-assignment** and **Bulk Open** actions will be consolidated into a dropdown menu.
 

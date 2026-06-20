@@ -2,6 +2,7 @@
 title: Delete a document classification use case
 description: Delete a use case when it's no longer needed for your documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/delete-document-classification-use-case.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -34,5 +35,5 @@ Role required: sn\_docintel.manager
 
 The use case is deleted along with the related fields, field groups, integrations, flows, and machine learning \(ML\) models. The deletion of the related records may trigger their own related deletions.
 
-**Parent Topic:**[Manage document classification use cases](../concept/manage-document-classification-use-cases.md)
+**Parent Topic:**[Manage document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/manage-document-classification-use-cases.md)
 

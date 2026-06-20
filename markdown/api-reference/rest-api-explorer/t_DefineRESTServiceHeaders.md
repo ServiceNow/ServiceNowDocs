@@ -2,6 +2,7 @@
 title: Define scripted REST API headers
 description: Define scripted REST API headers to control which headers the API accepts and can respond with.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/t\_DefineRESTServiceHeaders.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -44,5 +45,5 @@ Role required: web\_service\_admin
 
 After defining available headers, associate the headers with a scripted REST resource.
 
-**Parent Topic:**[Create a scripted REST API](t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

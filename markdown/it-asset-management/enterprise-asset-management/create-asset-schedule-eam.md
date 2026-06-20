@@ -2,6 +2,7 @@
 title: Map enterprise assets to an operational schedule
 description: Create an asset schedule to map the enterprise assets to an operation schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-asset-schedule-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -112,5 +113,5 @@ Indicates whether the asset schedule is active.
 6.  To sync the mapping between the assets and the operational schedules on demand, select **Sync KPI records**.
 
 
-**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace](../concept/configure-kpi-settings-eam.md)
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/configure-kpi-settings-eam.md)
 

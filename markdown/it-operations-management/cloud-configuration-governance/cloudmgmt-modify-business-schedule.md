@@ -2,11 +2,12 @@
 title: Modify business schedule operations for a stack
 description: Business hours scheduling can be performed on stacks at the time of provisioning or on existing stacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/cloudmgmt-modify-business-schedule.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Business hour scheduling, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---

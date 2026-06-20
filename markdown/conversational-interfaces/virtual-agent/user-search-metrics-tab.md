@@ -2,6 +2,7 @@
 title: Legacy - Using user search metrics with Virtual Agent
 description: By using user search metrics with the Virtual Agent application, you can see your users' queries and the results from their searches. With these metrics, you can identify the areas where you can improve Virtual Agent to offer more meaningful search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/user-search-metrics-tab.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ By using user search metrics with the Virtual Agent application, you can see you
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -30,19 +31,19 @@ Use the **User Search Metrics** tab in the Conversational Analytics dashboard to
 -   Which were the most common queries from users?
 -   Which search results did the users select most often?
 
-**Note:** You can also use Remote Tables to view user-search data in Dashboards. For more information, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** You can also use Remote Tables to view user-search data in Dashboards. For more information, see .
 
 To access the **User Search Metrics** tab, you must have the chat analytics admin role or the chat analytics viewer role. The following example shows the data included in the **User Search Metrics** tab.
 
-![Virtual Agent Analytics user search metrics tab.](../images/dashboard-user-search-metrics.png "User Search Metrics tab")
+\[Omitted image "dashboard-user-search-metrics.png"\] Alt text: Virtual Agent Analytics user search metrics tab.
 
 ## AI Search
 
-Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](va-ai-search.md).
+Virtual Agent topics may use AI search to suggest helpful resources to the user. When a user enters a query, AI search provides the most relevant results by using intelligent query features. To know more about AI search, see AI Search . To integrate Virtual Agent with AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-ai-search.md).
 
 ## Contextual Search
 
-Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](topic-blocks-overview.md).
+Contextual search matches keywords to an existing database search to find potential matches to a query. Virtual Agent topics may use contextual search to resolve queries. For more information, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/topic-blocks-overview.md).
 
 ## Topic Links
 
@@ -59,5 +60,5 @@ The following table describes the summarized User Search information that is vis
 |Trending queries|Queries that users most commonly asked. Total % refers to the number of trending queries expressed as a percentage of total number of trending queries.|
 |Trending content|Search results that most users clicked on. Total % refers to the number of trending search results users clicked on expressed as a percentage of total number of trending search results.|
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

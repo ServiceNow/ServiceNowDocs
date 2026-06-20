@@ -2,6 +2,7 @@
 title: Exclude a source from a log correlator
 description: Prevent the system from analyzing log lines from a specific source by excluding that source from the log correlator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-correlators-exclude-source.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -30,5 +31,5 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 4.  In the Actions on selected items list, select **Exclude from this source**.
 
 
-**Parent Topic:**[Using log correlators to detect relationships in log data](../../health-log-analytics-operator/concept/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Using log correlators to detect relationships in log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

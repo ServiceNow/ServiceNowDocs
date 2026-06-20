@@ -2,6 +2,7 @@
 title: Request Manager Approval activity
 description: Enable agents and fulfillers to submit an approval request to a manager during a playbook run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/request-mgr-approval-activity.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ These activities are available as an application in the ServiceNow Store. Users 
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ibc_1bk_35b"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -164,5 +165,5 @@ Option for the approver to add comments in the approval request.
 
 Record of your approval request.
 
-**Parent Topic:**[Interactive activities](../concept/interactive-activities.md)
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/interactive-activities.md)
 

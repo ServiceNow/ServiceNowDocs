@@ -2,6 +2,7 @@
 title: Composite Fields
 description: A composite field combines information from two fields in a table to form a single field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/pm-composite-fields.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ A composite field combines information from two fields in a table to form a sing
 
 For example, the **Task** field on the Project Tasks list displays the short description and the project task number. The short description appears above the project task number. The project task number appears and is a link to the Project Task form.
 
-![Composite field](../image/CompositeField.png "Composite field")
+\[Omitted image "CompositeField.png"\] Alt text: Composite field
 
 ## Use a composite field
 

@@ -2,7 +2,10 @@
 title: CSM Landing Page
 description: The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-ws-landing-page-original.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [CSM Configurable Workspace landing pages, CSM Configurable Workspac
 
 The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in UI Builder to meet their unique business needs.
 
 The CSM Landing Page includes components that display case information, plus visualizations that further break down the component data. Each of these visualizations is connected to a data source. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention.
 
@@ -21,9 +24,9 @@ The CSM Landing Page is available with the CSM Configurable Workspace \(sn\_csm\
 
 **Note:** Upgrade customers who have not customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Xanadu release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page need to manually accept the Xanadu landing page.
 
-![Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.](../image/csm-config-ws-polaris-case-section.png "CSM landing page - Assigned cases and case tasks")
+\[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 
-![Landing page with agent and organization performance data. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table that follows.](../image/csm-config-ws-polaris-performance-section.png "CSM landing page - Performance metrics")
+\[Omitted image "csm-config-ws-polaris-performance-section.png"\] Alt text: Landing page with agent and organization performance data. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table that follows.
 
 ## CSM Landing Page sections and components
 
@@ -97,7 +100,7 @@ Click an indicator to view a KPI details page.**Note:** This section is availabl
 
 Use UI Builder to create landing pages for your agents. For more information, see the following topics:
 
--   [Create a CSM Configurable Workspace landing page](../task/config-csm-config-ws-landing-page.md)
+-   [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-config-ws-landing-page.md)
 -   Creating custom landing pages for workspaces
 -   Create a custom landing page in UI Builder
 

@@ -2,6 +2,7 @@
 title: Configure Microsoft Azure in normal mode
 description: Set up a normal mode authentication with Microsoft Azure to connect Microsoft Outlook with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -93,13 +94,13 @@ The Microsoft Exchange Online is set up with Microsoft Azure.
 
 Configure resources Microsoft Exchange Online in the calendar. For more information, refer to [https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes).
 
-[Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+[Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md)
 
-[Set up OAuth connection with Microsoft Exchange Online](setup-connectivity-with-msexchange-for-calendar-sync.md)
+[Set up OAuth connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md)
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
-**Previous topic:**[Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md)
+**Previous topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
-**Next topic:**[Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+**Next topic:**[Create a connection with Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke.md)
 

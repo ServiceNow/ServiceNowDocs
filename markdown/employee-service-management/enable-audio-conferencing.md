@@ -2,7 +2,10 @@
 title: Enable Audio Conferencing
 description: Enable the audio conferencing to allow the users to participate in the conference call by dialing the conference bridge number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/enable-audio-conferencing.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,10 +28,10 @@ Role required: admin
 
 2.  Select **Enable Audio Conferencing**.
 
-    ![Enable audio conferencing option](../image/enable-audio-conf.png)
+    \[Omitted image "enable-audio-conf.png"\] Alt text: Enable audio conferencing option
 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](../concept/config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/config-notify-ms-teams.md)
 

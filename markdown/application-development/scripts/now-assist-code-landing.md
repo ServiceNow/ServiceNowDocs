@@ -2,6 +2,7 @@
 title: Now Assist for code generation
 description: Use ServiceNow Now Assist for code generation for help writing scripts quickly with AI-generated code based on text or code prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/now-assist-code-landing.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -21,23 +22,23 @@ Code generation in script editors.
 
 <table id="table_izc_23p_vyb2" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how developers script with AI-generated code.](exploring-now-assist-code.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how developers script with AI-generated code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/exploring-now-assist-code.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure code generation functionality for an instance.](configuring-now-assist-code.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure code generation functionality for an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/configuring-now-assist-code.md)
 
 </td><td>
 
-[Generate scripts![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Write scripts quickly with AI-generated code.](generate-code.md#)
+[Generate scripts\[Omitted image "bus-start-developing.svg"\] Alt text:Write scripts quickly with AI-generated code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/generate-code.md)
 
 </td></tr><tr><td>
 
-[Edit scripts![](../../../reuse/icons/brand-icons/bus-documentation.svg)Edit scripts quickly with AI-generated code.](edit-code-now-assist.md)
+[Edit scripts\[Omitted image "bus-documentation.svg"\] Alt text:Edit scripts quickly with AI-generated code.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/edit-code-now-assist.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about properties, roles, and more.](now-assist-code-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/now-assist-code-reference.md)
 
 </td><td>
 
@@ -60,7 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

@@ -2,6 +2,7 @@
 title: Add a custom registration form field
 description: You can add custom fields in the user self-registration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/add-custom-reg-form-field.html
 release: xanadu
 product: Authentication
 classification: authentication

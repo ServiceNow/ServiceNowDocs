@@ -2,6 +2,7 @@
 title: Case and Knowledge Management
 description: The Case and Knowledge Management application allows you to standardize the documentation, interaction, and fulfillment of employee inquiries and requests, which helps to improve HR efficiency and services over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,15 +18,15 @@ The Case and Knowledge Management application allows you to standardize the docu
 
 <table class="nav-card"><tbody><tr><td>
 
-[Use and Explore ![Explore and use](../../../common/image/icon-workspace.png) Explore HR Case and Knowledge Management features and see how agents use them.](../concept/hr-ckm-use-explore.md)
+[Use and Explore \[Omitted image "icon-workspace.png"\] Alt text: Explore and use Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 
 </td><td>
 
-[Install![Activate HR Case and Knowledge Management features](../../../common/image/icon-install.png)Activate HR Case and Knowledge Management.](../task/activate-case-and-knowledge-management-scoped.md)
+[Install\[Omitted image "icon-install.png"\] Alt text: Activate HR Case and Knowledge Management featuresActivate HR Case and Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
 
 </td><td>
 
-[Configure and Administer![Administer HR Case and Knowledge Management](../../../common/image/icon-set-up.png)Configure and administer HR Case and Knowledge Management features.](../concept/c_AdministerHRServiceManagement.md)
+[Configure and Administer\[Omitted image "icon-set-up.png"\] Alt text: Administer HR Case and Knowledge ManagementConfigure and administer HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Signature workflow for a contract request
 description: Contract Management Pro supports electronic signature or wet \(manual\) signature for a contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-signature-workflow.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,19 +16,19 @@ breadcrumb: [Use Contract Management Pro, Contract Management Pro, Employee Serv
 
 Contract Management Pro supports electronic signature or wet \(manual\) signature for a contract request.
 
--   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](../task/cncore-integrate-esign.md).
+-   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](../task/cncore-config-system-prop-COC.md).
+    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md).
 
 -   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see .
 
 ## Electronic signature workflow
 
 -   Send the finalized document to the signatories for signing.
-    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider](../task/cncore-integrate-esign.md).
+    -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
     -   An email notification that the contract document is available for signature is sent to the first signatory. The email contains a link to the contract document that the signatory can open and sign the document through the Docusign or Adobe Acrobat Sign electronic signature provider as configured in the electronic signature integration.
 
-        The first signatory is the one whose Order value in the list of signatories is set the lowest in the contract template rule. For more information, see [Configure contract template rules](../task/cncore-config-template-rules.md).
+        The first signatory is the one whose Order value in the list of signatories is set the lowest in the contract template rule. For more information, see [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
 -   Signatories can sign or decline the contract document.
 
@@ -160,8 +161,8 @@ Access to a contract document is based on the following user roles and condition
 
 While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven’t been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
--   **[Cancel the signature process](../task/cncore-cancel-a-manual-signature.md)**  
+-   **[Cancel the signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.md)**  
 Cancel a wet signature process for contract documents that have been sent to signatories.
 
-**Parent Topic:**[Use Contract Management Pro](cncore-use-cmpro.md)
+**Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

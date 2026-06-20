@@ -2,6 +2,7 @@
 title: Agent Client Collector configuration data files
 description: Your Agent Client Collector configuration data files contain the dynamic instance data that a check definition uses when you execute a check. When you create a check definition with a configuration data file, you can view the information about your instance. For example, you could view the Azure virtual machine details that are stored in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-config-data-files.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,11 +2,12 @@
 title: Docs for planning items in Portfolio Planning
 description: Store and manage all kinds of documentation for planning items from a centralized location of Portfolio Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/docs-for-planning-items-in-ppw.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -46,7 +47,7 @@ The following are the key features of Docs:
 
 With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.
 
-![Docs real-time collaboration.](../../collab-work-mgmt/images/cwm-docs-rtc.png)
+\[Omitted image "cwm-docs-rtc.png"\] Alt text: Docs real-time collaboration.
 
 **Note:** Huge number of users editing the same block of content simultaneously might result in issues with application performance.
 

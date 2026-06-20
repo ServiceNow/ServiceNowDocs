@@ -2,6 +2,7 @@
 title: Post installation mandatory step for Supplier Collaboration Portal
 description: After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,8 +16,8 @@ breadcrumb: [Install Supplier Collaboration Portal, Configuring Supplier Lifecyc
 
 After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.
 
--   **[Enable access to Supplier Collaboration Portal](../task/enable-access-supp-central.md)**  
+-   **[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)**  
 Enable users to access the Supplier Collaboration Portal either by configuring the user criteria or by running the fix script.
 
-**Parent Topic:**[Install Supplier Collaboration Portal](../task/install-supp-central.md)
+**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 

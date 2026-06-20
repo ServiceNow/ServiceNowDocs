@@ -2,6 +2,7 @@
 title: Request a free or paid application
 description: Request a free or paid application that requires approval from the vendor to purchase the application directly from the ServiceNow instance, without navigating to ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/request-app.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -28,10 +29,10 @@ Role required: admin
     A confirmation message is displayed that the request is sent to vendor. Once the vendor approves the request, you will be notified through an email.
 
 
--   **[Get a free application](get-free-app.md)**  
+-   **[Get a free application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/get-free-app.md)**  
 Get a free application from your ServiceNow instance, without navigating to the ServiceNow Store.
--   **[Buy a paid application](buy-paid-apps.md)**  
+-   **[Buy a paid application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/buy-paid-apps.md)**  
 Request a quote and buy a paid application from your ServiceNow instance, without navigating to the ServiceNow Store.
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

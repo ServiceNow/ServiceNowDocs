@@ -2,7 +2,10 @@
 title: Walk-up Experience appointment booking
 description: With the CSM Walk-up Experience appointment booking feature, walk-up users can view available appointment windows. The users can also select and book an appointment for a walk-up location using the online Walk-up Check-in feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-appt-booking.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,5 +31,5 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, see [Managing appointments](https://www.servicenow.com/docs/access?context=managing-appointments-fsm&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For detailed information about the **Appointment Booking** application, see Managing appointments.
 

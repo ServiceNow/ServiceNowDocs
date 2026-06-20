@@ -2,7 +2,10 @@
 title: Edit a role for an Impact user
 description: Update a role for an Impact user role after the initial assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/edit-impact-user.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Role required: Impact admin
 
 6.  Edit the user role and access accordingly.
 
-    **Note:** Refer to [User roles in Impact](../reference/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
+    **Note:** Refer to [User roles in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
 
 7.  Select **Confirm**.
 

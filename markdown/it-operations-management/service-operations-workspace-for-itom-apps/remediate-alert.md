@@ -2,6 +2,7 @@
 title: Remediate an alert in Express List
 description: Take a remediation action to fix an issue manually on an alert directly from the Express List pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/remediate-alert.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  From the navigation bar, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  Select the alert number to open it.
 
@@ -33,6 +34,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     **Note:** If the list is empty, no remediation actions are available.
 
-    ![Option to remediate an alert.](../image/remediation-action.png)
+    \[Omitted image "remediation-action.png"\] Alt text: Option to remediate an alert.
 
 

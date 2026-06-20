@@ -2,6 +2,7 @@
 title: Activate Major Incident Management in Service Operations Workspace
 description: Activate the Major Incident Management \(app-sow-mim\) plugin in Service Operations Workspace using Admin Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/install-mim-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -30,5 +31,5 @@ Role required: admin
 
 ## What to do next
 
-After Major Incident Management has been activated, you can configure the available features by selecting the Configure option, which redirects you to the **Configuration** tab of the Admin Center. For more information, see [Configuring Major Incident Management in Service Operations Workspace](../concept/configuring-mim-in-sow.md).
+After Major Incident Management has been activated, you can configure the available features by selecting the Configure option, which redirects you to the **Configuration** tab of the Admin Center. For more information, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 

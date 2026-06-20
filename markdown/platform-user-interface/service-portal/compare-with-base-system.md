@@ -2,6 +2,7 @@
 title: Compare a customized widget against the base system
 description: Identify customizations to a base system widget so that you can revert your customized widgets and resolve issues on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/compare-with-base-system.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -33,7 +34,7 @@ The option to compare a widget against the base system version is available only
 
     Customized widgets are outlined in red.
 
-4.  On any customized widget, click the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On any customized widget, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
 5.  On the window, click **Compare with Base system widget**.
 
@@ -41,14 +42,14 @@ The option to compare a widget against the base system version is available only
 
     **Note:** Although both widget records are labeled **Version**, the left-side record represents the base system widget and the right-side record represents the customized widget.
 
-    ![Comparison between customized and base system widgets](../image/compare-with-base.png)
+    \[Omitted image "compare-with-base.png"\] Alt text: Comparison between customized and base system widgets
 
-6.  For each field in which it appears, click the window icon \(![Window icon](../image/pop-out-icon.png)\) to open the code comparator.
+6.  For each field in which it appears, click the window icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Window icon\) to open the code comparator.
 
     Differences between the code of current and previous widget versions are highlighted.
 
-    ![Code comparator](../image/code-comparator.png)
+    \[Omitted image "code-comparator.png"\] Alt text: Code comparator
 
 
-**Parent Topic:**[Widget diagnostics](../concept/sp-diagnostic-tool.md)
+**Parent Topic:**[Widget diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/sp-diagnostic-tool.md)
 

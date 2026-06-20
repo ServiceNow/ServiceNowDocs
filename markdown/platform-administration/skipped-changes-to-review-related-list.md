@@ -2,6 +2,7 @@
 title: Skipped Changes to Review related list
 description: To prevent your customizations from being overwritten during system upgrades, the upgrade process skips \(does not apply the update to\) objects that have been customized. To assist you in tracking and resolving skipped update records that need review, Skipped Changes to Review lists all updates skipped during the upgrade process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/skipped-changes-to-review-related-list.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -126,8 +127,8 @@ Table
 Table that contains the record.
 
 </td></tr></tbody>
-</table>-   **[Resolve a skipped update and set a resolution status](../task/t_ResolveASkippedUpdate.md)**  
+</table>-   **[Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ResolveASkippedUpdate.md)**  
 To prevent your customizations from being overwritten during system upgrades, the upgrade process skips \(does not apply the update to\) objects that have been customized. One of your responsibilities as the administrator is to resolve each skipped update after an upgrade.
 
-**Parent Topic:**[Upgrade History module: Track every upgrade](c_UpgradeHistory.md)
+**Parent Topic:**[Upgrade History module: Track every upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeHistory.md)
 

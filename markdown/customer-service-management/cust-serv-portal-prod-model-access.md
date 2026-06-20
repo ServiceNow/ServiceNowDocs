@@ -2,7 +2,10 @@
 title: Limit access to product model data on the Customer Service Portal
 description: Use a system property to limit customer access to data in the Product Models table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/cust-serv-portal-prod-model-access.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

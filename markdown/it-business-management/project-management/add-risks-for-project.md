@@ -2,6 +2,7 @@
 title: Add risks for a project
 description: Add a risk to a project to identify, analyze, prioritize, plan, and track a risk during any phase of the project life cycle. Assess potential problems and the severity of their impact to take informed decisions about the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/add-risks-for-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -103,7 +104,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](risk-value-lookup-project.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Risk value
 
 </td><td>
 
-A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](risk-value-lookup-project.md).
+A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -201,12 +202,12 @@ Brief description of efforts taken to mitigate the risk.
 
 ## What to do next
 
--   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://www.servicenow.com/docs/access?context=assess-project-risk-using-ara&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US)
--   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](convert-ridac-for-project.md).
--   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
+-   Assess the risks that have been added. For more information, see Assign project risks to stakeholders for assessment
+-   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/convert-ridac-for-project.md).
+-   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
 
--   **[Configure custom Risk rank and Risk value for a project](risk-value-lookup-project.md)**  
+-   **[Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/risk-value-lookup-project.md)**  
 Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

@@ -2,6 +2,7 @@
 title: Suppress filters and breadcrumbs with list controls
 description: Use list controls to suppress filters and breadcrumbs on defined tables for users with specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_SuppressFiltersAndBreadcrumbs.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -37,5 +38,5 @@ Role required: personalize\_control
     The **Filter Roles** field allows an administrator to specify certain roles that can see the filters.
 
 
-**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](t_RestrictBreadcrmbsWFixedQueries.md)
+**Parent Topic:**[Restrict filters and breadcrumbs with fixed queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_RestrictBreadcrmbsWFixedQueries.md)
 

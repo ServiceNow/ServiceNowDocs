@@ -2,6 +2,7 @@
 title: Suspend and resume SLA timing from a work order
 description: Pause and resume the timing on a work order SLA from the work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/t\_SpndRsmSLATimingWO.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management

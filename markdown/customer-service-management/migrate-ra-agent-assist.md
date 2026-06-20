@@ -2,7 +2,10 @@
 title: Enable AI search in Recommended Actions
 description: As an admin, you can enable the Recommended Actions - AI search on the Front-line case page, CSM default record page, and CSM Interaction page \(for chat, video, walk-up, and email channels\) by setting the hideAgentAssistShowRA UX page property to true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migrate-ra-agent-assist.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2025-04-01"
 reading_time_minutes: 1

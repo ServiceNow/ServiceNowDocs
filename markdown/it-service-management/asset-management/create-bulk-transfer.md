@@ -2,6 +2,7 @@
 title: Perform bulk updates for transfer order lines
 description: Update tasks for multiple transfer order lines at one go to streamline the transfer order process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/create-bulk-transfer.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -17,7 +18,7 @@ Update tasks for multiple transfer order lines at one go to streamline the trans
 
 ## Before you begin
 
-Transfer order lines enable the transfer of multiple assets on a transfer order. When you create a transfer order line, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Each transfer order line can have multiple tasks such as **Requested**, **Shipment Preparation**, **In Transit**. For information on the stages of a transfer order line task, see [Summary of transfer order line tasks](../concept/transfer-orders-asset.md#).
+Transfer order lines enable the transfer of multiple assets on a transfer order. When you create a transfer order line, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Each transfer order line can have multiple tasks such as **Requested**, **Shipment Preparation**, **In Transit**. For information on the stages of a transfer order line task, see [Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/transfer-orders-asset.md).
 
 Role required: inventory\_user
 
@@ -52,5 +53,5 @@ Role required: inventory\_user
 7.  Return to the Bulk Update - Transfer Order Line dialog box to continue this process until you close all the tasks required for completing the transfer order line.
 
 
-**Parent Topic:**[Asset Management](../concept/c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 

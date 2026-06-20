@@ -2,6 +2,7 @@
 title: Use a script with Generative AI Controller
 description: Use background scripts and Generative AI Controller Generic Prompt to interact directly with the generative AI model API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/script-with-generative-ai.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -25,7 +26,7 @@ Role required: admin
 
 With scripting, you have greater flexibility in how you use Generative AI Controller capabilities across the platform. By accessing the capability programmatically, you can capture the LLM's response and use that to determine next actions.
 
-For more information on tracking Generative AI Controller usage, see [Monitoring Now Assist usage](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on tracking Generative AI Controller usage, see Monitoring Now Assist usage.
 
 ## Procedure
 

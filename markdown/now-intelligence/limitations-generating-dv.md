@@ -2,6 +2,7 @@
 title: Limitations to generating data visualizations
 description: While Analytics Generation is designed to handle a wide range of queries and scenarios, certain cases are currently not supported or only partially supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/limitations-generating-dv.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -132,5 +133,5 @@ Data visualizations can be added only to dashboards that are created in the inli
 -   Specify a single time period per query.
 -   Avoid multiple conditions in a single query.
 
-**Parent Topic:**[Use Analytics Generation](../task/use-dv-generation.md)
+**Parent Topic:**[Use Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/use-dv-generation.md)
 

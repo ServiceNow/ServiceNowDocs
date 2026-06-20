@@ -2,6 +2,7 @@
 title: Guest review form fields
 description: A description of the fields on the Guest review form in the ServiceNow Store, as well as which fields are publicly visible after the review is published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/guest-review-form-fields.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-30"
@@ -110,5 +111,5 @@ Number of stars out of five, where a five-star rating is the highest and a one-s
 Publicly visible.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Store reference](store-reference.md)
+</table>**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/store-reference.md)
 

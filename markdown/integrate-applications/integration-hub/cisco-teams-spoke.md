@@ -2,6 +2,7 @@
 title: Cisco Webex Teams Spoke
 description: Manage Cisco Webex Teams from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/cisco-teams-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage Cisco Webex Teams from your ServiceNow instance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -80,7 +81,7 @@ The Cisco Webex Teams Spoke provides actions to automate Cisco Web Teams tasks w
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-You can use OAuth 2.0 or the custom Cisco Webex Credentials to authenticate requests. For information about setting up the spoke, see [Set up the Cisco Webex Teams Spoke](../task/setup-cisco-teams.md#).
+You can use OAuth 2.0 or the custom Cisco Webex Credentials to authenticate requests. For information about setting up the spoke, see [Set up the Cisco Webex Teams Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-cisco-teams.md).
 

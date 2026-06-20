@@ -2,7 +2,10 @@
 title: Create a case or account escalation template
 description: Create a template for each type of case or account escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-escalation-template.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

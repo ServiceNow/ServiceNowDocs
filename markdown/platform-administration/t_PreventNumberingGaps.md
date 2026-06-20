@@ -2,6 +2,7 @@
 title: Prevent numbering gaps
 description: By default, numbers are generated every time a new record is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_PreventNumberingGaps.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ When records are created but not saved, a gap in the numbering is created. You c
 3.  Click **Save**.
 
 
-**Parent Topic:**[Record numbering](../concept/c_ManagingRecordNumbering.md)
+**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ManagingRecordNumbering.md)
 

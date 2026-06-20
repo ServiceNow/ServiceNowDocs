@@ -2,7 +2,10 @@
 title: Domain separation and the CSM Walk-up Experience application
 description: This section is an overview of domain separation as it pertains to the CSM Walk-up Experience application and how it relates to Service Portal pages, interaction queues, and configurations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-domain-separation.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -23,7 +26,7 @@ This section is an overview of domain separation as it pertains to the CSM Walk-
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -53,7 +56,7 @@ Elements of the Service Portal that are used as part of the walk-up experience a
 -   Theme \(Walk-up theme\)
 -   Widgets \(Online check-in experience, walk-up queue on site, walk-up check-in, walk-up exit survey, walk-up home, walk-up schedule\)
 
-To learn more, see [Domain separation and Service Portal](https://www.servicenow.com/docs/access?context=domain-separation-service-portal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+To learn more, see Domain separation and Service Portal.
 
 For data separation, the CSM Walk-up Experience application uses the walk-up user \(Requester/Walkup login user\) domain to determine in which domain the requester data should be placed.
 

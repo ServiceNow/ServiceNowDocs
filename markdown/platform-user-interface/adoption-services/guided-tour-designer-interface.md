@@ -2,6 +2,7 @@
 title: Guided Tour Designer interface
 description: The Guided Tour Designer \(GTD\) is a simplified way to create a guided tour. You can drag a callout to the element, and enter the step instructions and trigger in one step. You can test the steps as you build them, and modify them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-tour-designer-interface.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -17,7 +18,7 @@ The Guided Tour Designer \(GTD\) is a simplified way to create a guided tour. Yo
 
 The GTD has the following features:
 
-![GTD interface with description callouts](../image/gtd-interface.png "GTD interface")
+\[Omitted image "gtd-interface.png"\] Alt text: GTD interface with description callouts
 
 -   **Guided tour actions \(A\)**
 

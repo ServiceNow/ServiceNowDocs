@@ -2,7 +2,10 @@
 title: Manage calls using Meeting Extensions
 description: Use Meeting Extensions to start conference calls to discuss about the resolution for a major incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/manage-calls-meeting-extensibility-ms-teams.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -39,7 +42,7 @@ Role required: itil, itil\_admin, or admin
     |Frequency|Frequency at which a specific task must be executed. A task can be executed only once or on specific durations.|
     |Due in \(Minutes\)|Time span when the task must be executed after the task initiates. For recurring tasks, it also indicates the time span after which the task must repeat.|
 
-    ![Add collaboration communication task.](../image/collab-task2.png)
+    \[Omitted image "collab-task2.png"\] Alt text: Add collaboration communication task.
 
 7.  Click **Next**.
 
@@ -53,7 +56,7 @@ Role required: itil, itil\_admin, or admin
 
 11. Within the dialog box that appears, select the participants for the chat.
 
-    ![Participants for the group chat modal screen.](../image/initiate-tech-call.png)
+    \[Omitted image "initiate-tech-call.png"\] Alt text: Participants for the group chat modal screen.
 
     The dialog box displays the **Recommended** and **Selected** participants for the chat.
 
@@ -75,26 +78,26 @@ Role required: itil, itil\_admin, or admin
 
     The Microsoft Teams application opens the tab where the agent can chat with all the selected participants.
 
-15. Click ![Show and Hide conversation](../image/show_hide_conversation.png) to toggle between show and hide conversation.
+15. Click \[Omitted image "show\_hide\_conversation.png"\] Alt text: Show and Hide conversation to toggle between show and hide conversation.
 
 16. Click **ServiceNow Meeting Extensions** tab.
 
-    ![ServiceNow Meeting Extensibility tab.](../image/me-ms-teams01.png)
+    \[Omitted image "me-ms-teams01.png"\] Alt text: ServiceNow Meeting Extensibility tab.
 
     -   **Details** tab: Displays the details of the major incident. Click **View in workbench** to open the major incident in ServiceNow.
     -   **Communication Tasks** tab: Displays the communication tasks of this major incident.
 17. Click **Communication Tasks** tab.
 
-    ![Communication tasks tab in Microsoft Teams](../image/communications-tasks-ms-teams-01.png)
+    \[Omitted image "communications-tasks-ms-teams-01.png"\] Alt text: Communication tasks tab in Microsoft Teams
 
     -   The information in the **Details**tab, and the **Communication Tasks** tab is automatically updated during the meeting whenever the major incident is updated from ServiceNow.
     -   The timer color in Microsoft Teams changes when the remaining time goes past 75% of the stipulated time.
 18. To move the major incident to resolved state, open the major incident in the major incident workbench, and click **Resolve**.
 
-    ![Major incident is resolved](../image/major-incident-resolved-01.png)
+    \[Omitted image "major-incident-resolved-01.png"\] Alt text: Major incident is resolved
 
     The state is updated in the Microsoft Teams meeting.
 
 
-**Parent Topic:**[Use Microsoft Teams Meeting Extensions](../concept/c-agent-ex-use-meet-ext.md)
+**Parent Topic:**[Use Microsoft Teams Meeting Extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c-agent-ex-use-meet-ext.md)
 

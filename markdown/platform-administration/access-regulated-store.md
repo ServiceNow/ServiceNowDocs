@@ -2,6 +2,7 @@
 title: Access the ServiceNow Store for a regulated environment
 description: Log in to the isolated instance of the ServiceNow Store contained in your regulated environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/access-regulated-store.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"

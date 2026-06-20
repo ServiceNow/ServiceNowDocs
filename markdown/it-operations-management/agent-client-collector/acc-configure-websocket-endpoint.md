@@ -2,6 +2,7 @@
 title: Configure a websocket endpoint
 description: Configure a websocket endpoint to provide web access from the MID Server to the Agent Client Collector \(ACC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-configure-websocket-endpoint.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

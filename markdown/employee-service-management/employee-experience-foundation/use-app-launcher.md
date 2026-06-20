@@ -2,6 +2,7 @@
 title: Modify applications widget display
 description: Access all the useful applications from a unified application from the Applications widget from your employee portal. You can see list of related applications when you browse topics and launch the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/use-app-launcher.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sp\_admin
 
 ## About this task
 
-Using the application launcher with the Employee Center Pro, You can provide one-click access to the applications and configure the instance options to control the appearance of the widget, such as the icon and description. For more information, see [App Launcher](../concept/web-application-employee-about.md).
+Using the application launcher with the Employee Center Pro, You can provide one-click access to the applications and configure the instance options to control the appearance of the widget, such as the icon and description. For more information, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/web-application-employee-about.md).
 
 ## Procedure
 

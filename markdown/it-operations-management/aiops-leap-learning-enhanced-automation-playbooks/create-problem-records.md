@@ -2,6 +2,7 @@
 title: Create AIOps LEAP problem records
 description: Create problem records for AIOps LEAP from available incident clusters, also known as automation opportunities, for further analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -42,12 +43,12 @@ The problem record creation process automatically transfers critical information
 
 2.  On the AIOps LEAP landing page, select an automation opportunity.
 
-    ![Automation opportunity details page](../images/leap-details-page.png)
+    \[Omitted image "leap-details-page.png"\] Alt text: Automation opportunity details page
 
 3.  If a list of resolution steps don't appear in the Overview tab, select **Generate resolution steps**.
 
 4.  Select the **Create problem record** button to create a record for further in-depth analysis.
 
-    ![Create problem record](../images/create-problem-record.png)
+    \[Omitted image "create-problem-record.png"\] Alt text: Create problem record
 
 

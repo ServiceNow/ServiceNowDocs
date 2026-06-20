@@ -2,6 +2,7 @@
 title: Add custom Labels and Annotations to Kubernetes resources
 description: Add custom Labels and Annotations to all resources deployed by Agent Client Collector for Kubernetes – Visibility in the Kubernetes cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-add-custom-labels.html
 release: xanadu
 product: Discovery
 classification: discovery

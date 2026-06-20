@@ -2,6 +2,7 @@
 title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-new-quote.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -28,7 +29,7 @@ When you start a quote, a pop-up prompts you for quote information. You can choo
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select **New**.
 
@@ -36,15 +37,15 @@ When you start a quote, a pop-up prompts you for quote information. You can choo
 
     -   To create a quote for an account, select the **Account**.
     -   To create a quote for a consumer, select the **Consumer** name.
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d46541e122">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d40536e122">
 
 To
 
-</th><th align="left" id="d46541e125">
+</th><th align="left" id="d40536e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46541e131">
+</th></tr></thead><tbody><tr><td id="d40536e131">
 
 **Create quote for an account**
 
@@ -55,7 +56,7 @@ Enter the following:-   Contact: Name of the primary customer contact.
 -   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d46541e151">
+</td></tr><tr><td id="d40536e151">
 
 **Create quote for a consumer**
 

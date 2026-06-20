@@ -2,6 +2,7 @@
 title: Calculating the security score for password reset process
 description: The security score of the password reset process is a critical metric for the password reset administrators to assess the strength and configuration of the password reset process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/pwd-reset-process-recommend.html
 release: xanadu
 product: Password Reset
 classification: password-reset
@@ -44,5 +45,5 @@ To maximize your Password Policy Score, enable the Password Policy on the Creden
 
 **Send password reset process security score notification** is a weekly job that send reminders to the password admin about the score and recommendations to improve the score. An email notification is sent to the Process Owners of all the active processes if **Enable security score notification** option is selected in Password Reset Process form.
 
-**Parent Topic:**[Configuring Password Reset](../concept/password-reset-admin-guide.md)
+**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/password-reset/password-reset-admin-guide.md)
 

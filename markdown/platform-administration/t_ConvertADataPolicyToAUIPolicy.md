@@ -2,6 +2,7 @@
 title: Convert a data policy to a UI policy
 description: Convert a data policy to a UI policy if a data policy already exists but needs to apply only to records created or updated in the browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConvertADataPolicyToAUIPolicy.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -33,8 +34,8 @@ Converting deactivates the data policy. The new UI policy is applied only at the
 
 3.  Edit the fields on the UI policy record as necessary.
 
-    For details about the fields, see [Create a UI Policy](../../form-administration/task/t_CreateAUIPolicy.md#).
+    For details about the fields, see [Create a UI Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAUIPolicy.md).
 
 
-**Parent Topic:**[Data policy](../concept/c_DataPolicy.md)
+**Parent Topic:**[Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataPolicy.md)
 

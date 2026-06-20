@@ -2,6 +2,7 @@
 title: Request false positive for a set of test results
 description: Starting with v22.0 of Vulnerability Response, you can raise a false positive request for a set of test results within a remediation task, in the IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/it-remediation-workspace/vmws-tr-false-positive.html
 release: xanadu
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -38,7 +39,7 @@ Role required: sn\_vulc.remediation\_owner
 
 6.  On the Take Questionnaire modal, answer the questions to provide additional information about your request to the approver and select **Submit**.
 
-    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information on how a questionnaire is configured, see [Configure Exception Management for Configuration Compliance](../../vulnerability-config-compliance/task/configure-exception-management-configuration-compliance.md).
+    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information on how a questionnaire is configured, see [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
 
     The selected test results are moved to a new remediation task and your request is submitted for approval. The task number appears in the **Activity stream** of the old Remediation Task. The approver receives an email notification about your request.
 

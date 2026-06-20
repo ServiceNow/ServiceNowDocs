@@ -2,6 +2,7 @@
 title: Communities roles
 description: Ensure that users can perform all necessary actions by assigning roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/communities-roles.html
 release: xanadu
 product: Communities
 classification: communities
@@ -148,5 +149,5 @@ A community user who can create a customer service case from a community discuss
 Communities Portal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities](servicenow-communities.md)
+</table>**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/servicenow-communities.md)
 

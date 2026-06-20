@@ -2,6 +2,7 @@
 title: Define a sibling rollup relationship
 description: Define a relationship to roll up amounts to accounts in the sibling segments. You can roll up the expenses to any account in the hierarchy, not restricting to the immediate parent or grandparent in the hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/define-sibling-rollup-relationship.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -38,5 +39,5 @@ Role required: cost\_transparency\_admin or cost\_transparency\_analyst
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a cost model from Cost Model form](t_CreateACostModel.md)
+**Parent Topic:**[Create a cost model from Cost Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateACostModel.md)
 

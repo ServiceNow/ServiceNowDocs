@@ -2,6 +2,7 @@
 title: Mark a feed as a favorite
 description: Top-level messages in feeds can be marked as favorites on a per user basis only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_MarkAFeedAsAFavorite.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -29,10 +30,10 @@ You can also search for messages marked as favorites, and remove the favorite de
 
 2.  Click either **Group Feeds** or **Record Feeds**, and then click **All Feeds**.
 
-3.  In the list of feeds, click the star icon \(![Empty star](../image/EmptyStar.png)\) adjacent to the feed name you want to mark as a favorite.
+3.  In the list of feeds, click the star icon \(\[Omitted image "EmptyStar.png"\] Alt text: Empty star\) adjacent to the feed name you want to mark as a favorite.
 
-    To unfavorite a message, click the star icon \(![Full star](../image/FullStar.png)\) of a message that is already a favorite.
+    To unfavorite a message, click the star icon \(\[Omitted image "FullStar.png"\] Alt text: Full star\) of a message that is already a favorite.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

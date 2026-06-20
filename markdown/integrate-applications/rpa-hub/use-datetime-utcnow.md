@@ -2,6 +2,7 @@
 title: Use the UtcNow component
 description: Get the current date and time of the system in the Coordinated Universal Time \(UTC\) format by using the UtcNow component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-datetime-utcnow.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the UtcNow component. For more information about these properties, see [Properties of the DateTime components](../reference/util-datetime-prop.md).
+You can configure the properties for the UtcNow component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-datetime-prop.md).
 
 ## Procedure
 
@@ -83,5 +84,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DateTime](../concept/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/datetime-utility.md)
 

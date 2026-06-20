@@ -2,6 +2,7 @@
 title: Configuring code generation
 description: Configure how developers can use code generation on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/configuring-now-assist-code.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,10 +16,10 @@ breadcrumb: [Now Assist for code generation, Scripting, API implementation, API 
 
 Configure how developers can use code generation on an instance.
 
--   **[Install Now Assist for code generation](../task/install-now-assist-code-app.md)**  
+-   **[Install Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/install-now-assist-code-app.md)**  
 Install the ServiceNow® Now Assist for Creator application from the ServiceNow® Store to get Now Assist for code generation.
--   **[Tracking AI-generated code](tracking-ai-generated-code.md#)**  
+-   **[Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/tracking-ai-generated-code.md)**  
 Control when to track and indicate that code is AI-generated.
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_Script.md)
 

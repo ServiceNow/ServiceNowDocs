@@ -2,6 +2,7 @@
 title: Create fixed assets
 description: Fixed assets are containers that can hold multiple assets. Fixed assets are commonly tracked at the corporate level by a finance or accounting department, but may contain IT assets such as hardware and software.You can calculate depreciation for a fixed asset using a choice of depreciation schedules. Calculating depreciation for a fixed asset can help IT coordinate with the corporate fixed asset system to report correct valuation and book value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/c\_CreatingFixedAssets.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -41,7 +42,7 @@ To sum the residual values of all assets in a fixed asset:
     The ServiceNow platform calculates the**Residual Value**, **Total cost,** and **Total depreciation** based on information in the **Financial** and **Depreciation** sections on the individual asset records.
 
 
-**Parent Topic:**[Asset Management](c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## Use depreciation with fixed assets
 
@@ -80,7 +81,7 @@ The following example shows depreciated value on a $10,000.00 asset over five ye
 
 5.  Add a **Script** to calculate depreciation value.
 
-    ![Depreciation schedule](../image/DepreciationSchedule.png "Example depreciation schedule script")
+    \[Omitted image "DepreciationSchedule.png"\] Alt text: Depreciation schedule
 
 6.  Click **Submit**.
 

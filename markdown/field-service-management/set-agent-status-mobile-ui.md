@@ -2,7 +2,10 @@
 title: Set agent status from the mobile UI
 description: Field service agents can indicate their status from the mobile UI and let dispatchers know if they are ahead of schedule, behind schedule, or on time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/set-agent-status-mobile-ui.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,5 +36,5 @@ Role required: wm\_agent
     The status is updated on the agent's form. The dispatcher can see this status update in Dispatcher Workspace.
 
 
-**Parent Topic:**[Using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-dynamic-scheduling.md)
 

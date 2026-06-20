@@ -2,6 +2,7 @@
 title: Data retrieval limitations
 description: By default, there are no restrictions on how data is retrieved from Qualys. Many records can be related to low severity vulnerabilities that a customer is not willing to remediate using their vulnerability response process. Updating the corresponding REST message/method parameters can modify this behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-limit-data-retrieved.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -20,5 +21,5 @@ The REST message/method responsible for this update is **Qualys Host Detection â
 -   Name: severities
 -   Value: 3-5 \(or whatever appropriate severities are desired\)
 
-**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](cc-qualys-troubleshooting.md)
+**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-troubleshooting.md)
 

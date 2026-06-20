@@ -2,6 +2,7 @@
 title: Obtain the token and secret values from the X developer account
 description: Create an app in the X developer account and obtain the values of Access Token, Access Token Secret, Consumer key, and Consumer Secret for authenticating the requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/twitter-spk-setup.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ Role required: admin
 
     4.  Under **App name**, provide the app name in **DEVELOPMENT APP** and click **Next**.
 
-        Under **Keys &amp; Tokens**, the values of **API Key**, **API Key Secret**, and **Bearer Token** are displayed.![Values of API Key, API Key Secret, and Bearer Token.](../image/x-spk-keys-tokens.png)
+        Under **Keys &amp; Tokens**, the values of **API Key**, **API Key Secret**, and **Bearer Token** are displayed.\[Omitted image "x-spk-keys-tokens.png"\] Alt text: Values of API Key, API Key Secret, and Bearer Token.
 
     5.  Copy and record these values for later use.
 
@@ -45,7 +46,7 @@ Role required: admin
 
     3.  In the **Settings** tab, under **User authentication settings**, click **Set up**.
 
-    4.  On the User authentication settings page, under **App permissions** select the **Read and write and Direct message** option.![App permissions.](../image/x-spk-app-permissions.png)
+    4.  On the User authentication settings page, under **App permissions** select the **Read and write and Direct message** option.\[Omitted image "x-spk-app-permissions.png"\] Alt text: App permissions.
 
     5.  Click **Save**.
 
@@ -69,7 +70,7 @@ Role required: admin
 
     5.  Click **Yes, regenerate**.
 
-        The values of **Access Token** and **Access Token Secret** are displayed.![Copy the values of Access Token and Access Secret.](../image/x-spk-access-tok-sec.png)
+        The values of **Access Token** and **Access Token Secret** are displayed.\[Omitted image "x-spk-access-tok-sec.png"\] Alt text: Copy the values of Access Token and Access Secret.
 
     6.  Copy these values for later use.
 

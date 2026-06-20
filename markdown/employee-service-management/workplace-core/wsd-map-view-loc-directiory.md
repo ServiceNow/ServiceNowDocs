@@ -2,6 +2,7 @@
 title: Work with the Map view on the Location Directory
 description: Work with Map view to search for workplace users, locations, spaces, and neighborhoods. Get directions to a workplace location, meeting rooms, or an employee to collaborate quickly and effectively. Filter spaces based on reservation and occupancy states, space types, or neighborhoods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-core/wsd-map-view-loc-directiory.html
 release: xanadu
 product: Workplace Core
 classification: workplace-core
@@ -36,11 +37,11 @@ Work with Map view to search for workplace users, locations, spaces, and neighbo
 -   Control the Map display setting options to display permanent and private workplace profile users.
 -   Show or hide neighborhoods for a location.
 
-For more information, see [Configure map properties for Location Directory](configure-map-properties-location-directory.md).
+For more information, see [Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/configure-map-properties-location-directory.md).
 
 The latitude and longitude of your regions, sites, campuses, and buildings must be created. If the latitude and longitude aren’t specified, you can’t view a campus or its buildings on the map. Contact your administrator for more information.
 
-While reserving or viewing a space, the employee can see if a space is part of a neighborhood. The neighborhood icon \(![Neighborhood icon.](../../wsd-for-mobile/images/neighborhood-icon.png)\) is displayed on the space card.
+While reserving or viewing a space, the employee can see if a space is part of a neighborhood. The neighborhood icon \(\[Omitted image "neighborhood-icon.png"\] Alt text: Neighborhood icon.\) is displayed on the space card.
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -54,9 +55,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
     By default, the Location directory home page opens on the World map.
 
-    Your location is displayed with a location pin \(![Location pin that shows the selected location on the map.](../../wsd-for-mobile/images/wsd-location-pin-icon.png)\).
+    Your location is displayed with a location pin \(\[Omitted image "wsd-location-pin-icon.png"\] Alt text: Location pin that shows the selected location on the map.\).
 
-    ![Location directory page displaying location on the World map.](../images/wsd-location-directory-landing-page.png)
+    \[Omitted image "wsd-location-directory-landing-page.png"\] Alt text: Location directory page displaying location on the World map.
 
     .
 
@@ -66,13 +67,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
         If you search for a Neighborhood, all the campuses that contain the neighborhood are displayed on the map and the neighborhood card. You can copy the neighborhood URL from the context menu.
 
-    2.  Additionally, use the zoom in \(![Zoom in control icon to focus on the map artifacts.](../../wsd-for-mobile/images/wsd-mobile-zoom-in-icon-new-loc-directory.jpeg)\) controls on the map to bring into focus your location or select the location pin marker icon \(![Location pin marker on map.](../../wsd-for-mobile/images/wsd-location-pin-icon.png)\).
+    2.  Additionally, use the zoom in \(\[Omitted image "wsd-mobile-zoom-in-icon-new-loc-directory.jpeg"\] Alt text: Zoom in control icon to focus on the map artifacts.\) controls on the map to bring into focus your location or select the location pin marker icon \(\[Omitted image "wsd-location-pin-icon.png"\] Alt text: Location pin marker on map.\).
 
         The campus when selected or zoomed into shows the buildings within a campus.
 
         The selected campus is displayed on the map.
 
-        ![Map view showing selected campus tab.](../images/wsd-loc-directory-homepage-with-campus-selected-use.png)
+        \[Omitted image "wsd-loc-directory-homepage-with-campus-selected-use.png"\] Alt text: Map view showing selected campus tab.
 
 5.  When you select a campus, the **Select Building** tab is enabled on the menu.
 
@@ -90,11 +91,11 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The **Show filters** option is enabled when a floor is selected from the **Floor** tab.
 
-    ![Location Directory home page displaying selected campus, building](../images/wsd-new-loc-directory-campus-buidling-menu.png)
+    \[Omitted image "wsd-new-loc-directory-campus-buidling-menu.png"\] Alt text: Location Directory home page displaying selected campus, building
 
     **Note:** The **Last updated &lt;time interval&gt;** label is shown on the map after selecting a building. For example,**Last updated 1 min ago**. The map is automatically refreshed if your administrator has enabled the map property \(**Auto Refresh time interval \(in mins\) for showing Reservation and/or Occupancy information on the Location directory**\). This property fetches the latest reservation and occupancy data on the map.
 
-    ![Last updated refresh time interval label on the map.](../images/wsd-automatically-refresh-new-loc-dir.png)
+    \[Omitted image "wsd-automatically-refresh-new-loc-dir.png"\] Alt text: Last updated refresh time interval label on the map.
 
 8.  Select a floor from the **Floor** list option.
 
@@ -106,9 +107,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
     Neighborhoods are color-coded based on the assigned department, cost center, or workplace entity. For more information, see Step 17.
 
-    ![Map view showing neighborhoods for a selected location.](../images/wsd-neighborhoods-map-new-loc-directory.png).
+    \[Omitted image "wsd-neighborhoods-map-new-loc-directory.png"\] Alt text: Map view showing neighborhoods for a selected location..
 
-10. Select the **Refresh view** icon on the map \(![Refresh view icon to manually refresh the map and fetch reservation and occupancy status.](../../wsd-for-mobile/images/wsd-refresh-icon-loc-directory.png)\) to refresh the map.
+10. Select the **Refresh view** icon on the map \(\[Omitted image "wsd-refresh-icon-loc-directory.png"\] Alt text: Refresh view icon to manually refresh the map and fetch reservation and occupancy status.\) to refresh the map.
 
     When you manually refresh the map, the application fetches the latest reservation and occupancy status for a selected location.
 
@@ -116,9 +117,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
     **Note:** The **Show filters** button is displayed on the map when **Show Reservation and/or Occupancy information on the Location directory** \[sn\_wsd\_space\_map.show\_rsv\_occ\_data\_loc\_dir\] map property is set to **Yes** by your administrator. Filters can be applied at a floor or space level. When this property is set to **No**, only space type filters are available for you to select.
 
-    ![All filters panel showing space availability filters based on reservation status, occupancy status, and spaces space types.](../images/wsd-show-filters-panel-items-new-loc-dir.png)
+    \[Omitted image "wsd-show-filters-panel-items-new-loc-dir.png"\] Alt text: All filters panel showing space availability filters based on reservation status, occupancy status, and spaces space types.
 
-    ![All filters panel showing space availability filters.](../images/wsd-new-all-filters-items-loc-directory.png)
+    \[Omitted image "wsd-new-all-filters-items-loc-directory.png"\] Alt text: All filters panel showing space availability filters.
 
     Select and filter any of the following available options in the All filters dialog box:
 
@@ -166,7 +167,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The selected filters are applied and the **Filter by label** on the map shows filtered items as pills on the map. For example: Booked, Available, and so on. Select **Clear All** to remove the filter pills from the map.
 
-    ![Filter by label showing the filter pills with filtered items.](../images/wsd-filter-pills-new-loc-directory.png)
+    \[Omitted image "wsd-filter-pills-new-loc-directory.png"\] Alt text: Filter by label showing the filter pills with filtered items.
 
 13. Select a space on the map to view the Space card details.
 
@@ -181,16 +182,16 @@ Role required: sn\_wsd\_core.workplace\_user
     -   Private spaces are hidden when the profile or space is indicated as private. The employee name isn’t displayed.
     -   View permanent seat assignment. Permanently assigned spaces are displayed with workplace profile names.
     -   View standard workplace services for a selected space.
-    -   View a designated neighborhood, The neighborhood icon \(![Space card with neighborhood icon showing number of spaces with neighborhood.](../images/wsd-neighborhood-icon-new-loc-directory.png)\) is displayed along with the number of seats.
-    ![Selected space on the map showing the space card details panel.](../images/wsd-space-card-details-loc-directory-use.png)
+    -   View a designated neighborhood, The neighborhood icon \(\[Omitted image "wsd-neighborhood-icon-new-loc-directory.png"\] Alt text: Space card with neighborhood icon showing number of spaces with neighborhood.\) is displayed along with the number of seats.
+    \[Omitted image "wsd-space-card-details-loc-directory-use.png"\] Alt text: Selected space on the map showing the space card details panel.
 
-    ![Space card details panel showing Permanent assigned seating.](../images/wsd-legend-space-availability-loc-dir.png)
+    \[Omitted image "wsd-legend-space-availability-loc-dir.png"\] Alt text: Space card details panel showing Permanent assigned seating.
 
-    1.  Select the More actions icon \(![More options icon](../../wsd-for-mobile/images/wsd-more-options-icon-loc-directory.png)\) and use any of the following options as required:
+    1.  Select the More actions icon \(\[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: More options icon\) and use any of the following options as required:
 
         -   Copy URL: Option to copy a space location link. The Copy URL link, when selected, copies the location URL link to a clipboard. The location URL link can be shared with your team members and colleagues.
         -   Raise an issue: Option to raise a workplace service request or a workplace service issue. For example, catering, cleaning, furniture, and so on
-        ![Space card panel showing Copy URL and Raise an issue options.](../images/wsd-space-copy-url-raise-issue-reserve.png)
+        \[Omitted image "wsd-space-copy-url-raise-issue-reserve.png"\] Alt text: Space card panel showing Copy URL and Raise an issue options.
 
     2.  Select **Reserve** to reserve an available space.
 
@@ -202,7 +203,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
         Wayfinding using Location directory. 
 
-        ![Space card panel showing currently booked reservation state label.](../images/wsd-space-card-new-loc-currently-booked.png)
+        \[Omitted image "wsd-space-card-new-loc-currently-booked.png"\] Alt text: Space card panel showing currently booked reservation state label.
 
 14. To get directions from one space to another, perform the following actions on the map.
 
@@ -217,9 +218,9 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Select start point: Option to enter the starting point from where you want your direction or wayfinding route to start. For example, select a floor in a building from the list. You can also select a different building. For example, Starting point as Building A or Building B. You can enter a collaborator or colleague's name to find directions to their desk or location on the map.
         -   Select end point: The End point is selected by default for a selected building and floor. You can change it to another building or to a location or workplace profile user of your choice.
 
-            ![Map with pathway for wayfinding to a floor within the same building.](../images/wsd-loc-directory-get-directions.png)
+            \[Omitted image "wsd-loc-directory-get-directions.png"\] Alt text: Map with pathway for wayfinding to a floor within the same building.
 
-            ![Map with pathway for wayfinding from one building to a different building.](../images/wsd-get-directions-buildinga-b.png)
+            \[Omitted image "wsd-get-directions-buildinga-b.png"\] Alt text: Map with pathway for wayfinding from one building to a different building.
 
     3.  Select direction modes as **Default** or **Accessible**.
 
@@ -233,12 +234,12 @@ Role required: sn\_wsd\_core.workplace\_user
 
         The system displays directions from the start point to the end point. The distance is displayed in feet or in meters based on your selection.
 
-15. Select the Map display settings icon \(![Map display settings icon.](../../wsd-for-mobile/images/wsd-gear-settings-icon-loc-directorr.png)\) to open the Display options panel.
+15. Select the Map display settings icon \(\[Omitted image "wsd-gear-settings-icon-loc-directorr.png"\] Alt text: Map display settings icon.\) to open the Display options panel.
 
     -   Show names for permanent assigned seating: Option to show users with permanently assigned seats on the map. Select the check box if you want to display permanent workplace user profiles on the map.
     -   Don't show employee names: Option To hide private workplace users profile names on the map. Select the check box to hide private users on the map.
     -   Select **Apply**.
-    ![Map settings display options.](../images/wsd-new-display-settings-loc-dir.png)
+    \[Omitted image "wsd-new-display-settings-loc-dir.png"\] Alt text: Map settings display options.
 
     1.  To show layers on the map, select all the available layers for a location or select layers as required.
 
@@ -246,9 +247,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
     2.  Select **Apply**.
 
-    ![Map settings display options with Layers selected.](../images/wsd-new-display-options-layers-selected-loc-dir.png)
+    \[Omitted image "wsd-new-display-options-layers-selected-loc-dir.png"\] Alt text: Map settings display options with Layers selected.
 
-16. To reset the map to north, select the **Reset North** icon \(![Reset north icon on the map.](../../wsd-for-mobile/images/wsd-reset-north-icon-loc-directory.png)\) on the map.
+16. To reset the map to north, select the **Reset North** icon \(\[Omitted image "wsd-reset-north-icon-loc-directory.png"\] Alt text: Reset north icon on the map.\) on the map.
 
 17. Select a **Legend** list to view and interpret the colors and symbols or icons available on the map.
 
@@ -256,11 +257,11 @@ Role required: sn\_wsd\_core.workplace\_user
 
     -   Amenities: Option to view map legend assigned for Spaces types. For example, Room, lounge, desk, and so on.
 
-        ![Map legends for Amenities or space types on the map.](../images/wsd-legend-amenities-new-loc-dir.png)
+        \[Omitted image "wsd-legend-amenities-new-loc-dir.png"\] Alt text: Map legends for Amenities or space types on the map.
 
     -   Space Availability: Option to view map legends for space availability based on reservation states and occupancy states. For example: Available, currently booked, Occupied, and so on.
 
-        ![Map showing space availability legend based on reservation status.](../images/wsd-legend-space-availability--new-loc-dir.png)
+        \[Omitted image "wsd-legend-space-availability--new-loc-dir.png"\] Alt text: Map showing space availability legend based on reservation status.
 
     -   Neighborhood: If you have selected the **Neighborhood** check box, the map legend shows a toggle option to show or hide neighborhoods on the map. If the Neighborhood check box isn’t selected on the map menu \(See step 17\), you don't see the option to show or hide the neighborhood on the Legend.
 
@@ -268,7 +269,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
         .
 
-        ![Map showing legend available for a neighborhood.](../images/wsd-legend-neighborhood-new-loc-dir.png)
+        \[Omitted image "wsd-legend-neighborhood-new-loc-dir.png"\] Alt text: Map showing legend available for a neighborhood.
 
         -   Select the Neighborhood toggle on and toggle off button to show or hide the neighborhoods on the map.
 
@@ -276,12 +277,12 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Selected locations or workspaces with a neighborhood are filled with neighborhood-assigned colors.
         -   The **Select all** and **Deselect all** options are available on the Legend to select or deselect neighborhoods.
         -   If a space belongs to more than one Neighborhood, it’s represented with a unique color on the map and the Neighborhood is displayed on the map legend with "&amp;."
-18. To switch to the Card view, select the toggle button \(![Toggle button to switch to the Map view.](../../wsd-for-mobile/images/wsd-map-card-view-toggle-button.png)\).
+18. To switch to the Card view, select the toggle button \(\[Omitted image "wsd-map-card-view-toggle-button.png"\] Alt text: Toggle button to switch to the Map view.\).
 
 
-**Parent Topic:**[Manage workplace activities and services with Location directory](../concept/location-directory.md)
+**Parent Topic:**[Manage workplace activities and services with Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 
-**Previous topic:**[Configure map properties for Location Directory](configure-map-properties-location-directory.md)
+**Previous topic:**[Configure map properties for Location Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/configure-map-properties-location-directory.md)
 
-**Next topic:**[Work with the Card view on the Location directory](wsd-card-view-loc-directory.md)
+**Next topic:**[Work with the Card view on the Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/wsd-card-view-loc-directory.md)
 

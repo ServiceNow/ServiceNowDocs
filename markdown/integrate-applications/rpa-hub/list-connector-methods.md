@@ -2,6 +2,7 @@
 title: List connector methods
 description: The List connector methods perform various actions on list items as part of an automation workflow. You must first expose the methods before using.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/list-connector-methods.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -19,7 +20,7 @@ The List connector methods perform various actions on list items as part of an a
 
 Adds a single list item.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -29,7 +30,7 @@ To provide inputs to the parameters, see [Configure port properties](../task/con
 
 Adds a list of items.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|Notes|
 |---------|-----------|--------------|---------|-------------|----------|-----|
@@ -39,7 +40,7 @@ To provide inputs to the parameters, see [Configure port properties](../task/con
 
 Returns the Boolean value based on whether a list item exists.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -58,7 +59,7 @@ Returns the total count of list items added.
 
 Finds a list item based on the specified key and value. You must create at least one key value pair list item before executing this method.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -71,7 +72,7 @@ To provide inputs to the parameters, see [Configure port properties](../task/con
 
 Finds text or regex in the list items based on the specified filter and returns the total occurrences of the text and the text itself.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 <table id="table_tjd_l2r_4tb"><thead><tr><th>
 
@@ -224,7 +225,7 @@ Not applicable
 
 Returns a list item based on its index value.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -237,8 +238,8 @@ Returns the list items based on their index values. You must configure the index
 
 To configure, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add index icon \(![Add index icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add index icon.\).
 3.  Enter the index value.
 4.  Update the data type of the index value.
 5.  Repeat the steps to add more index values.
@@ -259,7 +260,7 @@ Returns all list items and lists created.
 
 Removes the specified list item.
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -279,8 +280,8 @@ Updates the values of the list items. To use the method, you must first configur
 
 To configure, do the following steps.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add index icon \(![Add index icon.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add index icon.\).
 3.  Enter the index value.
 4.  Update the data type of the index value.
 5.  Repeat the steps to add more index values.
@@ -289,7 +290,7 @@ To configure, do the following steps.
     A data in port is created with each index value.
 
 
-To provide inputs to the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 |Parameter|Description|Data port type|Data type|Default value|Mandatory?|
 |---------|-----------|--------------|---------|-------------|----------|
@@ -307,5 +308,5 @@ Returns the list items in the form of an array. You must add more than one list 
 |---------|-----------|--------------|---------|-------------|----------|
 |Return|Returns the list items in the form of an array list.|Data out|Array list|Not applicable|Not applicable|
 
-**Parent Topic:**[List](list-connector.md)
+**Parent Topic:**[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/list-connector.md)
 

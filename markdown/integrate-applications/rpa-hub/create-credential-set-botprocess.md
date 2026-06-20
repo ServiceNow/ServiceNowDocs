@@ -2,6 +2,7 @@
 title: Create a robot credential in RPA Hub
 description: Create a robot credential so that the unattended robot can log in to a Windows machine and perform the automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/create-credential-set-botprocess.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -18,9 +19,9 @@ Create a robot credential so that the unattended robot can log in to a Windows m
 
 ## Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](../concept/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/credential-management-rpa-hub.md).
 
-Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md), [Bot process configuration form in RPA Hub](../reference/bot-process-config-form.md), and [Bot Process form in RPA Hub](../reference/bot-process-form.md).
+Do this task only when you select the **Process Type** field as **Unattended** on the Bot process configuration form while you're creating a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/bot-process-config-form.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/bot-process-form.md).
 
 For Smart Card, ensure that the latest MSIs for Unattended Robot and Unattended Robot Login Agent \(version 10.1.0\) are installed.
 
@@ -30,9 +31,9 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, 
 
 ## About this task
 
-You can't delete a robot credential if it’s associated with any credential group. For more information, see [Create a credential group in RPA Hub](create-credential-group.md#).
+You can't delete a robot credential if it’s associated with any credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-group.md).
 
-You can't edit the **Robot Username** field when the life-cycle stage status of the associated bot process is set to **Published**. You can edit the password irrespective of what the life-cycle stage is of the associated bot process. For more information, see [Life-cycle stage statuses of a bot process in RPA Hub](../reference/lifecycle-stages-botprocess.md).
+You can't edit the **Robot Username** field when the life-cycle stage status of the associated bot process is set to **Published**. You can edit the password irrespective of what the life-cycle stage is of the associated bot process. For more information, see [Life-cycle stage statuses of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/lifecycle-stages-botprocess.md).
 
 You can't edit the **External Credential** field when the life-cycle stage status of the associated bot process is set to **Published**.
 
@@ -41,13 +42,13 @@ If a robot credential uses an external credential vault, you must make sure that
 In RPA Hub, you can retrieve the robot credentials, application credentials, or a Time-based One-time Password \(TOTP\) seed in two ways:
 
 -   From a ServiceNow credentials record \(application credential, robot credential, or TOTP authenticator\).
--   From an external credential vault. For more information, see [External credential vault in RPA Hub](../concept/external-credentials-rpa.md).
+-   From an external credential vault. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/external-credentials-rpa.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Credential Management**, select **Robot Credentials**.
 
@@ -133,7 +134,7 @@ JSON that acts as an input to the subflow mapped in the selected external creden
 
 The value must be in a JSON format. You can't enter an empty JSON value.
 
-For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](../reference/config-ext-cred-rpa.md).
+For more information about the JSON, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/config-ext-cred-rpa.md).
 
 This field appears only when the **External Credential** option is selected.
 

@@ -2,6 +2,7 @@
 title: Data sources for data visualizations
 description: Each workspace data visualization references a specific data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/data-sources-visualizations.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -50,7 +51,7 @@ Base system
 
 An indicator, also called a key performance indicator \(KPI\), is a record of the changes to your table data over a period of time. You use indicators to determine trends and forecast the future. Indicators apply an aggregation and conditions to the data. For example, the indicator Number of open incidents applies the Count aggregation to the Incident table, resulting in a number of incidents. It also applies the conditions that the State of the incidents must not be Closed or Canceled, and the Active field must be True.Indicators often have breakdowns applied. A breakdown is a qualitative property for filtering the indicator scores. For example, for incident data, the priority, category, and assignment group for the incident are all commonly applied breakdowns.
 
- For more information, see [Performance Analytics indicators](../../performance-analytics/concept/c_Indicators.md).
+ For more information, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_Indicators.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +63,7 @@ Activated by default. However, to include User Experience Analytics data sources
 
 </td><td>
 
-The ServiceNow® User Experience Analytics application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about User Experience Analytics, see User Experience Analytics. For more information specific to data visualizations, see [User Experience Analytics data sources for visualizations](../../performance-analytics/concept/uxa-data-sources.md).
+The ServiceNow® User Experience Analytics application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about User Experience Analytics, see User Experience Analytics. For more information specific to data visualizations, see [User Experience Analytics data sources for visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/uxa-data-sources.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see MetricBase.
 
 </td></tr><tr><td>
 
@@ -86,17 +87,17 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://www.servicenow.com/docs/access?context=hla-landing-page&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
+The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see .
 
  **Note:** You can create and edit data visualizations for Health Log Analytics only in the UI Builder, not in the Platform Analytics Visualization Designer or in dashboards.
 
 </td></tr></tbody>
-</table>-   **[Indicator management and Performance Analytics](../concept/indicator-data-sources-pa.md)**  
+</table>-   **[Indicator management and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/indicator-data-sources-pa.md)**  
 Indicator data sources are created and managed through the architecture of the Performance Analytics application. This functionality is now part of Platform Analytics administration.
--   **[User Experience Analytics data sources for visualizations](../../performance-analytics/concept/uxa-data-sources.md)**  
+-   **[User Experience Analytics data sources for visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/uxa-data-sources.md)**  
 You can show metrics related to User Experience Analytics in a data visualization component. The available metrics depend on the visualization type.
--   **[Multiple data sources](multiple-data-sources.md)**  
+-   **[Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/multiple-data-sources.md)**  
 Some visualization types support multiple data sources, while others do not. If your data visualization supports multiple data sources, the data sources must all be of the same type: all tables, all indicators, or all another type.
 
-**Parent Topic:**[Data visualizations in Platform Analytics](../../performance-analytics/concept/analytics-center-data-visualizations.md)
+**Parent Topic:**[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-center-data-visualizations.md)
 

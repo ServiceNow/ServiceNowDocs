@@ -2,6 +2,7 @@
 title: Authenticator configuration options
 description: Use the Authenticator Configuration page to manage authenticator options on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/mfa-auth-config.html
 release: xanadu
 product: Authentication
 classification: authentication

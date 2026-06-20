@@ -2,6 +2,7 @@
 title: Create a work order task for an Enterprise Asset Management work order
 description: Create a work order task to track and manage an individual task for your Enterprise Asset Management work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-eam-work-order-task.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -81,9 +82,9 @@ Location
 
 </td><td>
 
-Current location of the associated enterprise asset. This field populates automatically.**Note:** If you select a linear asset, the Work order linear asset location \[![Pencil icon](../../../reuse/icons/product-icons/pencil-outline-24.svg)\] appears to enable you to choose the work order location between the Start marker and End marker. This option is available with Enterprise Asset Management version 9.0 and later. To select a location, follow these steps:
+Current location of the associated enterprise asset. This field populates automatically.**Note:** If you select a linear asset, the Work order linear asset location \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\] appears to enable you to choose the work order location between the Start marker and End marker. This option is available with Enterprise Asset Management version 9.0 and later. To select a location, follow these steps:
 
-1.  Select the pencil icon \[![Pencil icon](../../../reuse/icons/product-icons/pencil-outline-24.svg)\].
+1.  Select the pencil icon \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\].
 
 A Map location form appears, showing the start and the end markers on the map.
 
@@ -180,5 +181,5 @@ Actual completion date and time of the work order task.
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Create a work order for an enterprise asset](create-eam-work-order.md)
+**Parent Topic:**[Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-work-order.md)
 

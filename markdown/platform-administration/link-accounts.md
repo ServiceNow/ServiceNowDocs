@@ -2,6 +2,7 @@
 title: Link your ServiceNow user account to your Slack or MS Teams account for Now Actions
 description: Link your ServiceNow account to your Slack or Teams account to take action on ServiceNow notifications from within Slack or Teams. If you do not link accounts, you can still receive notifications within group channels. However, you cannot to approve ServiceNow requests or take action on notifications from within Slack or Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/link-accounts.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -27,7 +28,7 @@ Role required: none
 
     The bot then presents a link to authenticate.
 
-    ![An authentication message displayed in Teams.](../../virtual-agent/images/va-teamsauthprompt.png "Authentication message")
+    \[Omitted image "va-teamsauthprompt.png"\] Alt text: An authentication message displayed in Teams.
 
 4.  Click the **Connect to ServiceNow** link.
 
@@ -35,14 +36,14 @@ Role required: none
 
 5.  Click **Confirm** to link the accounts.
 
-    ![A confirmation prompt to allow a link between ServiceNow and Slack or Teams](../../virtual-agent/images/va-link-confirm-prompt.png)
+    \[Omitted image "va-link-confirm-prompt.png"\] Alt text: A confirmation prompt to allow a link between ServiceNow and Slack or Teams
 
 6.  After confirmation, you are directed to the instance user record.
 
     A confirmation message is displayed at the top of the screen.
 
-    ![The link confirmation message shown on the user record.](../../virtual-agent/images/va-link-confirm-success.png)
+    \[Omitted image "va-link-confirm-success.png"\] Alt text: The link confirmation message shown on the user record.
 
 
-**Parent Topic:**[Notifications in messaging applications](../concept/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/messaging-integration.md)
 

@@ -2,6 +2,7 @@
 title: Use Cases
 description: Possible use cases for Document Templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/doctemp-usecases.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Possible use cases for Document Templates.
 
 ## Submitting and approving a document online
 
-![Submit and review a document online.](../image/doc-template-workflow.png)
+\[Omitted image "doc-template-workflow.png"\] Alt text: Submit and review a document online.
 
 This is a use case where a document is to be filled out by an employee and reviewed by an HR agent.
 

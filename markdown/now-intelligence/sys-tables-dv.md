@@ -2,6 +2,7 @@
 title: System tables in data visualizations
 description: System tables are excluded from data visualizations by default. However, you can exempt system tables from the prohibition. Some system tables are exempt from the restriction by default. Be very careful when creating data visualizations on these system tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/sys-tables-dv.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-03-17"
@@ -31,5 +32,5 @@ With reports and data visualizations, however, you cannot predict what your quer
 -   It is slow, so your report or data visualization will take an unacceptably long time to run.
 -   While the database is scanning your table, your instance will slow down or even become unavailable because other queries cannot get the resources they need.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

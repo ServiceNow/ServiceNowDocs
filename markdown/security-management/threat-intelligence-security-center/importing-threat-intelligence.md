@@ -2,6 +2,7 @@
 title: Import Threat Intelligence
 description: Use this feature to add or import the threat intelligence data manually to the repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/importing-threat-intelligence.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,12 +23,12 @@ The following import formats are supported in the intelligence data import proce
 3.  Import from raw text
 4.  Import from file \(unstructured\)
 
--   **[Import data using structured file](../task/import-data-using-structured-file.md)**  
+-   **[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)**  
 Upload the structured data in the supported file formats such as CSV, XLSX or XLS.
--   **[Import data using standard format](../task/import-data-using-standard-format.md)**  
+-   **[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)**  
 Upload the standard data in the supported file formats such as STIX 2.x JSON, MISP JSON.
--   **[Import data using raw text](../task/import-data-using-pasted-text.md)**  
+-   **[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)**  
 Import the observables data by copying and pasting raw text or entering the free text.
--   **[Import data using unstructured file format](../task/import-data-using-unstructured-file.md)**  
+-   **[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)**  
 Upload the data in an unstructured format supported using the file formats such as TXT, CSV, JSON, XLS, XLSX.
 

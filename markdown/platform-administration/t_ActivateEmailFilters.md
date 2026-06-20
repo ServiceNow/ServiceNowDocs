@@ -2,6 +2,7 @@
 title: Activate email filters
 description: Administrators can activate the Email Filters plugin \(com.glide.email\_filter\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ActivateEmailFilters.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,12 +30,12 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/find-components.md).
 
 
 ## What to do next
 
-[Create an email filter](t_CreateAnEmailFilter.md)
+[Create an email filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAnEmailFilter.md)
 
-**Parent Topic:**[Activate email administration](../concept/activate-email-admin.md)
+**Parent Topic:**[Activate email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-email-admin.md)
 

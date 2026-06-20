@@ -2,6 +2,7 @@
 title: Installed with Password Reset
 description: Tables, roles, business rules, scripts, and workflows are installed with the Password Reset application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/r\_InstalledWithPasswordReset.html
 release: xanadu
 product: Password Reset
 classification: password-reset

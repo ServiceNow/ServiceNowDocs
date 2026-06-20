@@ -2,6 +2,7 @@
 title: Create a domain configuration
 description: Create a domain configuration to define which domains to collect scores from and how to store scores within the domain hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/create-domain-configuration.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -49,7 +50,7 @@ Visibility group
 
 </td><td>
 
-When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see Visibility domains and Contains domains.
 
 </td></tr><tr><td>
 
@@ -95,10 +96,10 @@ Select **All child domains** to roll up scores from the specified domains and al
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](../concept/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 
 **Related topics**  
 
 
-[Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.c_DomainSeparationSetup]
 

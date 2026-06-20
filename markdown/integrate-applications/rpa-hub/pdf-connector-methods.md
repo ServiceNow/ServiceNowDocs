@@ -2,6 +2,7 @@
 title: PDF connector methods
 description: Accelerate PDF processing for your document automation by using the various methods of PDF connector in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/pdf-connector-methods.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -371,5 +372,5 @@ Call this method with the output folder path where the split PDF pages must be s
 |---------|-----------|---------|
 |OutputFolderPath|The path to the folder where the split PDF pages are saved. Ensure the folder exists or has appropriate permissions for writing files.|String|
 
-**Parent Topic:**[PDF connector](pdf-connector.md)
+**Parent Topic:**[PDF connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/pdf-connector.md)
 

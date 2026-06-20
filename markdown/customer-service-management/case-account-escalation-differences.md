@@ -2,7 +2,10 @@
 title: Case and account escalation differences
 description: An overview of the differences between case escalations and account escalations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/case-account-escalation-differences.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

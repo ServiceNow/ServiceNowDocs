@@ -2,6 +2,7 @@
 title: Preview and download a signed contract document
 description: View and download a signed contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-preview-contract.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -50,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d683329e119">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d633180e119">
 
 Choice
 
-</th><th align="left" id="d683329e122">
+</th><th align="left" id="d633180e122">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d683329e128">
+</th></tr></thead><tbody><tr><td id="d633180e128">
 
 **When internal storage is configured**
 
@@ -69,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d683329e149">
+</td></tr><tr><td id="d633180e149">
 
 **When external storage is configured**
 
@@ -81,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

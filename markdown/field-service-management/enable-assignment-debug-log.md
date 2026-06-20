@@ -2,9 +2,12 @@
 title: Display the task assignment debug log
 description: Display information from the task assignment debug log in the Confirm Assignment pop-up window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/enable-assignment-debug-log.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---
@@ -36,5 +39,5 @@ The task assignment debug log information is stored in the Log \[syslog\] table.
     The Confirm Assignment pop-up window displays the debug logs for each of the selected tasks. Click the task to collapse or expand this information.
 
 
-**Parent Topic:**[Using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-dynamic-scheduling.md)
 

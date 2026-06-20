@@ -2,6 +2,7 @@
 title: Applying Common Service Data Model guidelines to Automation Center
 description: Apply Common Service Data Model \(CSDM\) to Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/applying-csdm.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -25,14 +26,14 @@ CSDM is the data model standard for all products that use the Configuration Mana
 -   The CSDM data model supports multiple configuration strategies and includes guidelines for using base-system tables and relationships.
 -   You can use the CMDB query builder to create reports showing CMDB configuration items \(CIs\) and their relationships.
 
-For more information, see [Common Service Data Model](https://www.servicenow.com/docs/access?context=csdm-landing-page&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more information, see .
 
--   **[Automation Center product view](product-view.md)**  
+-   **[Automation Center product view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/product-view.md)**  
 Use the ServiceNow® Automation Center application to govern your end-to-end multi-vendor automation life cycles from one place. By using real-time dashboards, you can manage and measure the health of the automation and prevent automation failures across multiple vendors​.
--   **[Automation Center and CSDM tables](csdm-tables.md)**  
+-   **[Automation Center and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/csdm-tables.md)**  
 Automation Center uses CSDM tables. Several ServiceNow products benefit from and add value to Automation Center.
--   **[Automation Center use cases](use-cases.md)**  
+-   **[Automation Center use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/use-cases.md)**  
 Automation Center enables you to manage your automations from one central place.
 
-**Parent Topic:**[Configuring Automation Center](automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automation-center-setup.md)
 

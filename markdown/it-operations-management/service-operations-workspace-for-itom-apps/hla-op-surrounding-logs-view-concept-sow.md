@@ -2,6 +2,7 @@
 title: Analyzing log lines to identify the root cause of an alert
 description: When Health Log Analytics identifies an anomaly, viewing the logs that surround the anomaly provides clues about the state of faulting systems. This information can help you to identify the root cause of an alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-concept-sow.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -91,8 +92,8 @@ Log message
 The raw log message without the header.
 
 </td></tr></tbody>
-</table>-   **[Analyze log lines that surround an anomaly](../task/hla-op-surrounding-logs-view-sow.md)**  
+</table>-   **[Analyze log lines that surround an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-surrounding-logs-view-sow.md)**  
 View the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 
-**Parent Topic:**[Using Service Operations Workspace for ITOM Log Analytics](hla-op-binder-sow.md)
+**Parent Topic:**[Using Service Operations Workspace for ITOM Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-binder-sow.md)
 

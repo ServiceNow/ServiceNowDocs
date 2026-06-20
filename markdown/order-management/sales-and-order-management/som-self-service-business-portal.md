@@ -2,6 +2,7 @@
 title: Customer self-service for Sales Customer Relationship Management
 description: Support your business-to-business customers by enabling self-service capabilities through the Business Portal to create and manage orders and submit order issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-self-service-business-portal.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -50,7 +51,7 @@ The following topics provide more information about configuring and using the Bu
 
 -   Getting started with the Business Portal: 
 -    \(All features and capabilities\)
--   [Configuring the Business Portal](order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](order-mgt-business-portal.md)
+-   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-management-configure-business-portal.md)
+-   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-mgt-business-portal.md)
 -   
 

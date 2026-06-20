@@ -2,6 +2,7 @@
 title: Import and export content data
 description: Import and export content data to the ServiceNow Hardware Asset Management content service to improve the normalization process. On-premise users can use the Manage Hardware Library module to import or export data via a zip file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/import-export-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -57,5 +58,5 @@ Role required:
     5.  Download and send this zip file to the ServiceNow content service team.
 
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

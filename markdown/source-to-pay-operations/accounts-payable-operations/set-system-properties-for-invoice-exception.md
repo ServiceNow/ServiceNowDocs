@@ -2,6 +2,7 @@
 title: Set system properties for invoice exception
 description: Set the system property sn\_ap\_apm.exception.engine.max\_parallel\_thread\_count which defines the number of parallel threads used by the exception engine scheduler to process invoice exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-invoice-exception.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

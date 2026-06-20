@@ -2,6 +2,7 @@
 title: Allocate subscriptions in Subscription Management
 description: Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/allocate-subscriptions-v2.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,5 +41,5 @@ Role required: admin
 
 Subscriptions are allocated to all group members that grant each member entitlement to use the product. Subscribed users are updated during a daily scheduled job, so it might take up to a day for the changes to be reflected in Subscription Management.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](../concept/managing-user-subscriptions-v2.md)
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md)
 

@@ -2,6 +2,7 @@
 title: Configure Creator Studio using Guided Setup
 description: So you've installed Creator Studio on an instance. Now what? You must configure it before users can start building apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/config-creator-studio-guided-setup.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ So you've installed Creator Studio on an instance. Now what? You must configure 
 
 ## Before you begin
 
-Creator Studio must be installed on the instance before you can configure it. Find out more about that in [Installing Creator Studio from the ServiceNow Store](../concept/installing-creator-studio-from-the-store.md).
+Creator Studio must be installed on the instance before you can configure it. Find out more about that in [Installing Creator Studio from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/installing-creator-studio-from-the-store.md).
 
 To ensure that forms appear correctly for users, the non-production and production instances must have the same Service Catalog and all of its categories.
 
@@ -33,7 +34,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 1.  Let's open Guided Setup. On your instance, select the **All** tab.
 
-    ![The All menu lets you see all the apps on your instance](../image/cs-all-menu.png "All tab")
+    \[Omitted image "cs-all-menu.png"\] Alt text: The All menu lets you see all the apps on your instance
 
     This tab lets you see all the apps installed on your instance.
 
@@ -45,7 +46,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
     The Guided Setup app opens, where you make some basic configurations.
 
-    ![Guided Setup walks you through Creator Studio configuration tasks](../image/cs-guided-setup.png "Guided Setup")
+    \[Omitted image "cs-guided-setup.png"\] Alt text: Guided Setup walks you through Creator Studio configuration tasks
 
 4.  Start the setup process by selecting the **Get Started** button.
 
@@ -65,13 +66,13 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 7.  Set up collaboration descriptors to manage what app Owner and Editor collaboration types can do.
 
-    By default, owners can do anything on an app, while editors are more restricted in what they can do. For more information, see [Collaboration in Creator Studio](../reference/creator-studio-collaboration-roles.md).
+    By default, owners can do anything on an app, while editors are more restricted in what they can do. For more information, see [Collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-collaboration-roles.md).
 
     1.  Select the **Configure** button for the Set up collaboration descriptors to manage your user's capabilities section.
 
     2.  Customize the collaboration roles or add new ones.
 
-        For more information, see [Application collaboration](../../applications/concept/application-collaboration.md).
+        For more information, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
 
     3.  Update the record to save your changes.
 
@@ -81,7 +82,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 9.  Set up who has full access to Creator Studio by selecting the **Get Started** button in the Set up access to Creator Studio section.
 
-    In this section, you decide which users get full access to work on app in Creator Studio, and who has more limited capabilities. For example, restricted users must request that an admin create a new app for them. For more information, see [Creator Studio roles and personas](../reference/roles-creator-studio.md).
+    In this section, you decide which users get full access to work on app in Creator Studio, and who has more limited capabilities. For example, restricted users must request that an admin create a new app for them. For more information, see [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/roles-creator-studio.md).
 
 10. Set up full access for users by selecting the **Configure** button for the Grant full Creator Studio access to users section.
 
@@ -106,7 +107,7 @@ In this Guided Setup, you'll configure user access and collaboration settings to
 
 ## What to do next
 
-After you finish configuring Creator Studio, you can configure Pipelines and Deployments to enable apps built in Creator Studio to be deployed to production. For information on how, see [Configure Pipelines and Deployments](../../pipelines-and-deployments/task/config-p-and-d.md).
+After you finish configuring Creator Studio, you can configure Pipelines and Deployments to enable apps built in Creator Studio to be deployed to production. For information on how, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/config-p-and-d.md).
 
-**Parent Topic:**[Configuring Creator Studio](../concept/configuring-creator-studio.md)
+**Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/configuring-creator-studio.md)
 

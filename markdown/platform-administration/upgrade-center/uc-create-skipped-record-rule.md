@@ -2,6 +2,7 @@
 title: Create a skipped record rule
 description: Create skipped record rules based on your set conditions to define your customizations after an upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-create-skipped-record-rule.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center

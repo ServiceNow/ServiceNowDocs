@@ -2,7 +2,10 @@
 title: Access ServiceNow for Microsoft Teams app
 description: Enables users to interact with the agents from Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-virtual-agent-ms-teams-it.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ To receive notifications from Virtual Agent, users must link their accounts to M
 
 The **ServiceNow for Microsoft Teams** app is successfully installed in your Microsoft Teams application.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](../concept/sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-it.md)
 

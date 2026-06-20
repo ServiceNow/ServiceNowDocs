@@ -2,6 +2,7 @@
 title: Add or edit a knowledge article to an SRM alert
 description: If an alert has a knowledge article associated with it, you can manually add it.REVISE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-alert-kb.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Open the alert.
 
@@ -36,5 +37,5 @@ Role required: Responder, Manager, or Administrator
 5.  Select **Save**.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

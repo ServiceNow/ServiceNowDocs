@@ -2,6 +2,7 @@
 title: Perform a single-line Agent Client Collector installation on macOS by using ITOM Cloud Services
 description: Install Agent Client Collector on a macOS machine without a MID Server by using the ITOM Cloud Services application. When you send information through the cloud, you enable the MID Server to be used for more persistent resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-install-macOS-itom-cloud.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -19,13 +20,13 @@ Install Agent Client Collector on a macOS machine without a MID Server by using 
 
 Install the ITOM Cloud Services plugin.
 
-Create an agent registration key, as described in [Configure an agent registration key](agent-registration-key-configuration.md).
+Create an agent registration key, as described in [Configure an agent registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-registration-key-configuration.md).
 
 Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on working with Cloud Services, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For details on working with Cloud Services, see .
 
 ## Procedure
 
@@ -64,7 +65,7 @@ CONNECT\_WITHOUT\_MID
 
 </td><td>
 
-Specify **true** to enable ITOM Cloud Services. If you don't specify a value, the regular MID Server websocket installation is invoked.For details on configuring a websocket on the MID Server, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+Specify **true** to enable ITOM Cloud Services. If you don't specify a value, the regular MID Server websocket installation is invoked.For details on configuring a websocket on the MID Server, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Optional **ACC\_VALIDATE\_SIG=0** string that you can add to disable the verific
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Agent Client Collector installation on macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

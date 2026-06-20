@@ -2,6 +2,7 @@
 title: CMDB tables descriptions
 description: List of tables in the CMDB in a base system with its name, label, and a description of the type of information that is stored in the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.html
 release: xanadu
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [Exploring CMDB, Configuration Management Database \(CMDB\), Configu
 
 List of tables in the CMDB in a base system with its name, label, and a description of the type of information that is stored in the table.
 
-You can extend tables in a base system by installing a CMDB CI Class Models store app which adds class models that support specific technologies. These extensions include class definitions, identification rules, identifier entries, and dependent relationships if applicable. A CMDB CI Class Models store app can also modify the label of a base class. For more information, see [CMDB CI Class Models](../concept/cmdb-ci-class-models.md).
+You can extend tables in a base system by installing a CMDB CI Class Models store app which adds class models that support specific technologies. These extensions include class definitions, identification rules, identifier entries, and dependent relationships if applicable. A CMDB CI Class Models store app can also modify the label of a base class. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models.md).
 
 <table id="table_jjn_xvp_33b"><thead><tr><th>
 
@@ -5639,10 +5640,10 @@ Service classification
 
 </td><td>
 
-Designates the type of the service. -   Application Service \(For more information, see [Application services](../concept/application-services.md)\)
--   Technical Service \(For more information, see [Application services](../concept/application-services.md) and [Populate an application service using the Dynamic CI Group method](../task/populate-app-service-dynamic-group.md)\)
--   Service Offering \(For more information, see [Service Portfolio Management service offerings](https://www.servicenow.com/docs/access?context=SPM2-service-offerings&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)\)
--   Shared Service \(For more information, see [IT shared services](https://www.servicenow.com/docs/access?context=c_ITSharedService&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US)\)
+Designates the type of the service. -   Application Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/application-services.md)\)
+-   Technical Service \(For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md)\)
+-   Service Offering \(For more information, see Service Portfolio Management service offerings\)
+-   Shared Service \(For more information, see IT shared services\)
 -   Billable Service \(To represents a service that is billed, or that is cost managed\)
 
 </td></tr><tr><td>

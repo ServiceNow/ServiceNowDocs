@@ -2,9 +2,10 @@
 title: Additional requirements for all Xanadu features and products
 description: Cumulative release notes summary on additional requirements for Xanadu features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/rn-summary-addtl-reqs.html
 release: xanadu
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-06-13"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Xanadu features, Release notes for upgrading from Washington DC, Learn about the Xanadu release, Xanadu release notes]
 ---
@@ -80,7 +81,7 @@ Now Assist AI agents
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 Enable the Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -154,7 +155,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
+ requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -164,12 +165,12 @@ Opportunity Marketplace
 
 Required plugins and products
 
--   [Talent Development SKU](https://www.servicenow.com/docs/access?context=egd-employee-growth-developemnt-suite&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Manager Hub](https://www.servicenow.com/docs/access?context=manager-hub-overview&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Proactive Prompts](https://www.servicenow.com/docs/access?context=proactive-prompts-for-hrsd&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Employee Profiles](https://www.servicenow.com/docs/access?context=employee-profile-portal&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
+-   Talent Development SKU
+-   Manager Hub
+-   Proactive Prompts
+-   Skills Intelligence
+-   Employee Profiles
+-   Talent Development Core
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and npm installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+You must have Node.js and npm installed to install the ServiceNow SDK. For more information, see .
 
 </td></tr><tr><td>
 
@@ -293,12 +294,12 @@ Talent Development Core
 
 Talent Development includes a suite of products the work and interact to create a better user experience.
 
--   [Talent Development SKU](https://www.servicenow.com/docs/access?context=egd-employee-growth-developemnt-suite&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Manager Hub](https://www.servicenow.com/docs/access?context=manager-hub-overview&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Proactive Prompts](https://www.servicenow.com/docs/access?context=proactive-prompts-for-hrsd&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Skills Intelligence](https://www.servicenow.com/docs/access?context=skills-intelligence&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Employee Profiles](https://www.servicenow.com/docs/access?context=employee-profile-portal&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
--   [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US)
+-   Talent Development SKU
+-   Manager Hub
+-   Proactive Prompts
+-   Skills Intelligence
+-   Employee Profiles
+-   Talent Development Core
 
 </td></tr><tr><td>
 
@@ -317,5 +318,5 @@ Zero Copy Connector for ERP
 SAP ECC and S/4 HANA are currently the only available systems that integrate with ERP Data Hub.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Xanadu features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Xanadu features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/release-notes-summaries.md)
 

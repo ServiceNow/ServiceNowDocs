@@ -2,6 +2,7 @@
 title: Configure an Agent Client Collector with a MID Server using a single-line command
 description: Use a single-line command to set up an Agent Client Collector with a MID Server. You can also use the single-line command to migrate agents with MID-less configuration to be used with a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/configure-acc-with-mid.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

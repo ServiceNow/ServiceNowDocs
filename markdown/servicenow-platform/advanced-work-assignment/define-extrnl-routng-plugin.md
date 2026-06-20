@@ -2,6 +2,7 @@
 title: Define external routing test implementation
 description: Define the External Routing Test Tools plugin \[com.glide.awa.external.test\_tools\] with a simplified external-routing-provider sample Automated Test Framework \(ATF\) by using the demo data that is available with the plugin installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/define-extrnl-routng-plugin.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -23,7 +24,7 @@ To run the ExternalRoutingConfigurationTestTool, verify that you have:
 
 You must open the ExternalRoutingConfigurationTestTool record and click **Run Test** to complete the actions of the External Routing test.
 
-![Click Run Test after all the configuration and if the tests are successful then the connections and credentials are set up correctly.](../image/run-test-awa-extrnl-route.png "External Routing Configuration Test")
+\[Omitted image "run-test-awa-extrnl-route.png"\] Alt text: Click Run Test after all the configuration and if the tests are successful then the connections and credentials are set up correctly.
 
 ## Functions of the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools\)
 
@@ -54,5 +55,5 @@ When the External Routing Test Tools plugin \(com.glide.awa.external.test\_tools
     **Note:** If the test fails at any step, the detailed information about where the configuration failed is provided to the user along with the solution to fix it.
 
 
-**Parent Topic:**[External routing overview](awa-external-routing-overview.md)
+**Parent Topic:**[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.md)
 

@@ -2,6 +2,7 @@
 title: Enforce credential alias usage \[New in Security Center 1.3 and updated in 1.5\]
 description: Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-enforce-credential-alias-usage.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
 
-The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**. Credential aliases allow an administrator to use specific credentials on Discovery schedules. Credential aliases provide more granular control over which credential a Discovery table is allowed to use. To remediate this security vulnerability, set **alias\_filtering\_behavior** to strict to prevent unnecessary exposure of credentials with elevated privileges. See [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more details.
+The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on your local network. MID Server properties are listed in the \[ecc\_agent\_property\] table. You can access them in your instance by navigating to **MID Server** &gt; **Properties**. Credential aliases allow an administrator to use specific credentials on Discovery schedules. Credential aliases provide more granular control over which credential a Discovery table is allowed to use. To remediate this security vulnerability, set **alias\_filtering\_behavior** to strict to prevent unnecessary exposure of credentials with elevated privileges. See  for more details.
 
 ## More information
 
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -99,9 +100,9 @@ References
 
 </td><td>
 
--   [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Credential aliases for Discovery](../../../product/credentials/concept/discovery-credential-alias.md#)
+-   
+-   [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/connections-and-credentials/discovery-credential-alias.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

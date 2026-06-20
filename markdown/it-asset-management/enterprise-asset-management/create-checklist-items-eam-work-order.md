@@ -2,6 +2,7 @@
 title: Create a checklist for an Enterprise Asset Management work order or work order task
 description: Create a checklist of all items that you must complete for your work order or work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -54,7 +55,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or wm\_agent
 
             The dialog box closes and you return to the **Checklist items** tab.
 
-        4.  Select the Refresh List icon \(![Refresh list icon.](../image/refresh-list-icon.png)\) to populate the list of checklist items that were added based on the selected checklist template.
+        4.  Select the Refresh List icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\) to populate the list of checklist items that were added based on the selected checklist template.
 
-**Parent Topic:**[Create a work order for an enterprise asset](create-eam-work-order.md)
+**Parent Topic:**[Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-work-order.md)
 

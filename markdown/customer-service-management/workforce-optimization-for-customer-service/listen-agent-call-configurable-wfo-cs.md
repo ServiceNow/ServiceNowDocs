@@ -2,6 +2,7 @@
 title: Listen in to an agent call
 description: Monitor your customer service agents' calls when they are resolving issues for external callers by using Workforce Optimization for Customer Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/listen-agent-call-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -29,12 +30,12 @@ When the Amazon Connect application answers a call from an external source, an i
 
 ## Procedure
 
-1.  [Monitor your agent's call](../concept/use-channels-configurable-wfo-cs.md#) queue when an agent is talking to an external caller in Workforce Optimization for Customer Service.
+1.  [Monitor your agent's call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/use-channels-configurable-wfo-cs.md) queue when an agent is talking to an external caller in Workforce Optimization for Customer Service.
 
 2.  Open the active interaction when the phone call is in progress.
 
 3.  Click **Monitor Call** and listen into the call in Amazon Connect.
 
 
-**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](../concept/configurable-servicenow-voice-cs.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/configurable-servicenow-voice-cs.md)
 

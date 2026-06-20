@@ -2,6 +2,7 @@
 title: Create new process start condition
 description: Use the Create new process start condition form to configure custom start condition for your table configuration to define which part of the process should be included in the Process Mining project and made available for analysis. The Create new process end condition form also has the same fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/process-start-condition.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -90,7 +91,7 @@ Field value
 
 </td><td>
 
-The value use along with the predicate to define this condition. If the field is a reference field, you can select values using the reference icon \(![](../image/reference-icon.png)\).
+The value use along with the predicate to define this condition. If the field is a reference field, you can select values using the reference icon \(\[Omitted image "reference-icon.png"\] Alt text:\).
 
 </td></tr><tr><td>
 
@@ -111,5 +112,5 @@ Contextual Condition
 Additional condition that must be true when the current condition is triggered. For example, you configure your condition to trigger when a record is in the New state. If you wanted to also specify that the **Priority** is high, you can do that using the **Contextual Condition** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/process-mining-reference.md)
 

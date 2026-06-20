@@ -2,6 +2,7 @@
 title: Journey Accelerator Model Task fields
 description: Managers create to-do tasks that are saved as templates. The templates are stored as a Journey Accelerator Model Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-accelerator/ja-model-task-fields.html
 release: xanadu
 product: Journey Accelerator
 classification: journey-accelerator
@@ -132,5 +133,5 @@ Task description
 The description of the task that is visible to the users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey Accelerator reference](ja-reference.md)
+</table>**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-accelerator/ja-reference.md)
 

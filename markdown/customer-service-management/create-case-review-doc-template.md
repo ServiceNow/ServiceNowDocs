@@ -2,7 +2,10 @@
 title: Create a document template
 description: Create a template to use for generating case action summaries or post case review documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-case-review-doc-template.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

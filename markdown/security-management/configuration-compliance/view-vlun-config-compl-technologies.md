@@ -2,6 +2,7 @@
 title: View Configuration Compliance technologies
 description: Use this module to view summary information about each authoritative sources and citation \(also known, in Qualys, as a framework\). You can research the source publications that were used to create the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/view-vlun-config-compl-technologies.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -39,5 +40,5 @@ Role required:
     Removes the record from your instance. If it is still in use in your third-party integration, it returns in the next import
 
 
-**Parent Topic:**[Configuration Compliance reference information](../reference/cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

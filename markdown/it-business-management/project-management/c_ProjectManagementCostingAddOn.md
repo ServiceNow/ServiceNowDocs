@@ -2,6 +2,7 @@
 title: Project Management costing add-on
 description: The Project Management costing add-on connects the Project Management application to the Cost Management application to allow for estimating and tracking the costs associated with projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_ProjectManagementCostingAddOn.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -26,7 +27,7 @@ This plugin enables the following project costing features:
 
 The Project and Cost applications work together as shown in the diagram:
 
-![screenshot for Project and Cost applications relationship](../image/project_costing_concepts.png "Project and Cost applications")
+\[Omitted image "project\_costing\_concepts.png"\] Alt text: screenshot for Project and Cost applications relationship
 
 The following properties are available with this plugin:
 
@@ -43,5 +44,5 @@ The following business rules are added or modified with this plugin:
 |Project Cost Rollup|Planned task \[planned\_task\]|Default: **true**. This property is from Cost Management. When an expense line is created against any task of **planned\_tasktype** and this property is true, the system gets a sum of the costs for all the expense lines and sets the total cost in the **work\_cost** field.|
 |Process Top Task Parent|\[fm\_expense\_line\]|Default: **true**|
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

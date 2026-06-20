@@ -2,6 +2,7 @@
 title: Use the While component
 description: Execute a code until a specified condition is true using the While component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-loops-while.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -37,7 +38,7 @@ You can configure the properties for the While component.
 
 2.  Drag the While component to the Design surface.
 
-3.  Double-click the light-yellow colored field \(![Light-yellow-colored-field](../image/expression-field.png)\) under the WHILE component bar.
+3.  Double-click the light-yellow colored field \(\[Omitted image "expression-field.png"\] Alt text: Light-yellow-colored-field\) under the WHILE component bar.
 
 4.  Enter the condition.
 
@@ -119,7 +120,7 @@ Drag Variable component before the While component. Add Expression component and
 
 When you run this automation, the value 1 is incremented to 2 and shows in the output, MessageBox, as 2. When you select **Move next** on the Design tab, the value is incremented until 11. Since the condition matches at this point, i&lt;=10, the loop ends and automation is ended.
 
-![While component with Variable, Expression, and MessageBox components showing an automation.](../image/while-loop-example-rpa.png "While component")
+\[Omitted image "while-loop-example-rpa.png"\] Alt text: While component with Variable, Expression, and MessageBox components showing an automation.
 
-**Parent Topic:**[Loops](../concept/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/loops.md)
 

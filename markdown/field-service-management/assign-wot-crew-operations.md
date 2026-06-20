@@ -2,7 +2,10 @@
 title: Assign work order tasks to crews
 description: Assign crews to work order tasks that require a group of agents to work on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/assign-wot-crew-operations.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Assign crews to work order tasks that require a group of agents to work on them.
 
 ## Before you begin
 
-If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for an agent or technician](../../customer-service-management/task/create-agent-work-schedule.md).
+If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for an agent or technician](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/create-agent-work-schedule.md).
 
 **Note:** If the crew schedule has not been defined and you are auto-assigning a task, the system uses the default schedule.
 
@@ -50,15 +53,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d38941e141">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d40855e141">
 
 Option
 
-</th><th align="left" id="d38941e144">
+</th><th align="left" id="d40855e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38941e150">
+</th></tr></thead><tbody><tr><td id="d40855e150">
 
 **To assign a task manually**
 
@@ -68,7 +71,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d38941e174">
+</td></tr><tr><td id="d40855e174">
 
 **To auto-assign a task**
 
@@ -85,7 +88,7 @@ The Confirm Assignment dialog box is displayed.
 </table>
 ## Result
 
-The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees table is added to the work order task for more information see, [Task assignees table for crew members or equipment](../reference/task-assignees-table.md).
+The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees table is added to the work order task for more information see, [Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/task-assignees-table.md).
 
-**Parent Topic:**[Using Field Service Crew Operations](../concept/Using-crew-operations-fsm.md)
+**Parent Topic:**[Using Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Using-crew-operations-fsm.md)
 

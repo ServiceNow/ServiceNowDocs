@@ -2,6 +2,7 @@
 title: Configure sensor data providers
 description: Configure sensor data providers in Workplace Connectors for retrieving the workplace sensor data from third-party data providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/providers-occupancy.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -32,9 +33,9 @@ Role required: admin \(sn\_wsd\_wc.admin\)
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](../concept/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Install Workplace Connectors](../concept/install-workplace-connectors.md)
+**Previous topic:**[Install Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/install-workplace-connectors.md)
 
-**Next topic:**[Configure data Sources and schedule imports](import-data-connector.md)
+**Next topic:**[Configure data Sources and schedule imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/import-data-connector.md)
 

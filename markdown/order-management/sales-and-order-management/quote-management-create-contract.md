@@ -2,6 +2,7 @@
 title: Initiate a contract request
 description: Initiate a contract request from the Quote Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-create-contract.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,13 +22,13 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Select **Quotes** &gt; **All**.
 
 3.  Select the quote in the Completed state for which you want to create a contract.
 
-4.  Select the **More Actions**![](../image/more-options.png) menu and select **Initiate contract**.
+4.  Select the **More Actions**\[Omitted image "more-options.png"\] Alt text: menu and select **Initiate contract**.
 
 5.  On the form, fill in the fields.
 

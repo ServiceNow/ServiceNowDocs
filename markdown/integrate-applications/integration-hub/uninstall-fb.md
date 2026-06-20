@@ -2,6 +2,7 @@
 title: Uninstall Workplace from Facebook spoke
 description: Log in to Workplace from Facebook account to uninstall the Workplace from Facebook spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/uninstall-fb.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -29,11 +30,11 @@ Role required: admin
 
 4.  Click **ServiceNow Spoke**.
 
-    ![Uninstall Workplace from Facebook spoke.](../image/fb-uninstall.png)
+    \[Omitted image "fb-uninstall.png"\] Alt text: Uninstall Workplace from Facebook spoke.
 
 5.  Click **Uninstall**.
 
-    ![Confirm uninstallation.](../image/fb-uninstall2.png)
+    \[Omitted image "fb-uninstall2.png"\] Alt text: Confirm uninstallation.
 
 6.  In the Uninstall window, confirm your choice by clicking **Uninstall** again.
 

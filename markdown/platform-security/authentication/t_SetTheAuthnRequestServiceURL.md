@@ -2,6 +2,7 @@
 title: Set the AuthnRequest service URL
 description: Using the IdP's metadata, set the request service URLs for the integration's IdP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_SetTheAuthnRequestServiceURL.html
 release: xanadu
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Event payloads in UI Builder
 description: Use event payloads to link additional data to an action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/ui-builder/event-payloads.html
 release: xanadu
 product: UI Builder
 classification: ui-builder
@@ -19,9 +20,9 @@ Event payloads are pieces of data sent by a component when a selected event is t
 
 You can use this payload data when configuring an event handler so that the resulting interaction can be linked to the emitted data. For example, a SysID can be passed to other components on a page to display information related to a specified record.
 
-![Red box containing the available event payloads for the selected component.](../image/event-payloads-avaliable.png)
+\[Omitted image "event-payloads-avaliable.png"\] Alt text: Red box containing the available event payloads for the selected component.
 
 Each component and event has a unique set of payload options. Event payloads may not be properly defined for each component. If that is the case, define a client script so that the console logs payloads such as `console.log(event.payload)`.
 
-**Parent Topic:**[Manage actions in UI Builder pages](work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-events.md)
 

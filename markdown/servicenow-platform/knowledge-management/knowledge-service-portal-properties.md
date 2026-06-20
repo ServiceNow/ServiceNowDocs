@@ -2,6 +2,7 @@
 title: Knowledge Management Service Portal properties
 description: Knowledge Management Service Portal properties determine how information is displayed on the Knowledge portal. You must have the admin role to set configuration properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/knowledge-service-portal-properties.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -51,11 +52,11 @@ Directs users to the desired Knowledge homepage. -   Type: true\|false
 The URL suffix for the Knowledge Management Service Portal. The default is **kb**.
 
 </td></tr></tbody>
-</table>The Knowledge Management Service Portal supports the [Knowledge Management V3 properties](r_KnowledgeProperties.md#). Configuring widget instance options on the portal pages can override these properties.
+</table>The Knowledge Management Service Portal supports the [Knowledge Management V3 properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/r_KnowledgeProperties.md). Configuring widget instance options on the portal pages can override these properties.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in a future release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers beginning with the Madrid release. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in a future release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers beginning with the Madrid release. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
-**Parent Topic:**[Knowledge Management reference](../../../knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 

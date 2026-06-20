@@ -2,6 +2,7 @@
 title: Activate the Advanced Promotion Engine
 description: Before you can use the Advanced Promotion Engine feature, you must activate it from the list of plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/activate-advanced-promotion-engine.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

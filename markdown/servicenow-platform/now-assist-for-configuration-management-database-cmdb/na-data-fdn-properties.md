@@ -2,6 +2,7 @@
 title: Property settings for Now Assist for CMDB agentic workflows
 description: List of sys properties for the agents used by Now Assist for CMDB agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb

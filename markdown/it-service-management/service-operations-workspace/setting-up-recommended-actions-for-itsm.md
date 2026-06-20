@@ -2,6 +2,7 @@
 title: Setting up Recommended Actions for ITSM
 description: Set up recommended actions to display relevant recommendations in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/setting-up-recommended-actions-for-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,20 +24,20 @@ Role required: admin
 
 1.  Create a rule in Recommended Actions for ITSM.
 
-    ITSM enables you to create new rules. For more information, see [Create a rule in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-rules-create&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    ITSM enables you to create new rules. For more information, see .
 
 2.  Create a recommendation.
 
-    ITSM enables you to create new recommendations. For more information, see [Create a recommendation in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-recommendations-create&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    ITSM enables you to create new recommendations. For more information, see .
 
 3.  Create a resource generator.
 
-    ITSM enables you to create new resource generators. For more information, see [Create a resource generator in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-resource-generators-create&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    ITSM enables you to create new resource generators. For more information, see .
 
 4.  Create Guidance and field recommendations.
 
-    ITSM enables you to configure or create guidance and field recommendations. For more information, see [Creating guidance and field recommendation in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-config-recommendations&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    ITSM enables you to configure or create guidance and field recommendations. For more information, see .
 
 
-**Parent Topic:**[Configuring Recommended Actions for ITSM in Service Operations Workspace](configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)
+**Parent Topic:**[Configuring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 

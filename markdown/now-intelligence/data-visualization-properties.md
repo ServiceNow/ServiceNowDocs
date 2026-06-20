@@ -2,6 +2,7 @@
 title: Data Visualization properties
 description: Several properties that limit what can be displayed in data visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/data-visualization-properties.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-11-11"
@@ -66,5 +67,5 @@ Maximum setting recognized for the maxNumberOfGroups property of data visualizat
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+</table>**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

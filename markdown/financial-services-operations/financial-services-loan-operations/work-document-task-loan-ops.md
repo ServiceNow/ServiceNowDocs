@@ -2,6 +2,7 @@
 title: Work on a document task to verify documents
 description: Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a loan service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-loan-operations/work-document-task-loan-ops.html
 release: xanadu
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -32,7 +33,7 @@ For more information, see .
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -48,15 +49,15 @@ For more information, see .
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d45929e162">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d62930e162">
 
 Task
 
-</th><th align="left" id="d45929e165">
+</th><th align="left" id="d62930e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d45929e171">
+</th></tr></thead><tbody><tr><td id="d62930e171">
 
 **Verify an inbound or outbound document**
 
@@ -66,7 +67,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d45929e192">
+</td></tr><tr><td id="d62930e192">
 
 **Defer an inbound document**
 
@@ -76,7 +77,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d45929e216">
+</td></tr><tr><td id="d62930e216">
 
 **Request exception for an inbound document**
 

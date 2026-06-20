@@ -2,6 +2,7 @@
 title: Code reviews
 description: Team Development administrators can require that pushes undergo code review before accepting pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_CodeReview.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -19,7 +20,7 @@ When code review is enabled, pushing a change to the parent instance triggers th
 
 For each change, reviewers can see the following information.
 
--   Which [remote instance](../task/t_DefineARemoteInstance.md) the pushed change comes from.
+-   Which [remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/t_DefineARemoteInstance.md) the pushed change comes from.
 -   Who pushed the change to the parent.
 -   What the change is called.
 -   When the change was created.
@@ -35,5 +36,5 @@ While changes are being reviewed on the parent instance, a child instance cannot
 -   Change the parent instance to another instance.
 -   Delete the remote instance record for the parent instance.
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md)
 

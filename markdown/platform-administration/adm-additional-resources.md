@@ -2,6 +2,7 @@
 title: Additional resources for ServiceNow AI Platform products and solutions
 description: If you’re looking for ServiceNow AI Platform best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/adm-additional-resources.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -97,7 +98,7 @@ Release notes
 
 </td><td>
 
-[AI Search release notes](https://www.servicenow.com/docs/access?context=ai-search-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Release notes
 
 </td><td>
 
-[Application Manager release notes](https://www.servicenow.com/docs/access?context=app-manager-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Release notes
 
 </td><td>
 
-[Core ServiceNow AI Platform release notes](https://www.servicenow.com/docs/access?context=core-platform-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -197,7 +198,7 @@ Release notes
 
 </td><td>
 
-[Data Management release notes](https://www.servicenow.com/docs/access?context=data-management-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -283,7 +284,7 @@ Release notes
 
 </td><td>
 
-[Dynamic Translation release notes](https://www.servicenow.com/docs/access?context=dynamic-translation-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 
@@ -613,7 +614,7 @@ Release notes
 
 </td><td>
 
-[Upgrade Center release notes](https://www.servicenow.com/docs/access?context=upgrade-center-rn&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US)
+
 
 </td></tr><tr><td>
 

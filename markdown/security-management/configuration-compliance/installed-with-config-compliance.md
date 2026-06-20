@@ -2,6 +2,7 @@
 title: Components installed with Configuration Compliance
 description: Several types of components are installed with activation of the Configuration Compliance plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/installed-with-config-compliance.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -17,7 +18,7 @@ Several types of components are installed with activation of the Configuration C
 
 Starting with v15.1.5 of Configuration Compliance, the most frequently used system properties are now accessible within the Configuration Compliance application. To view these system properties, navigate to **All**Configuration Compliance**Properties**.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -804,5 +805,5 @@ V14.7: Watch Topic Test Counts\[sn\_vulc\_wt\_test\_counts\]
 Cache table for the Distinct Configuration Tests tab in the Vulnerability Manager workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+</table>**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

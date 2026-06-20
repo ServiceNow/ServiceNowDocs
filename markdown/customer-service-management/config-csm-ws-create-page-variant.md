@@ -2,7 +2,10 @@
 title: Creating pages and page variants
 description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-ws-create-page-variant.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -29,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Workspace experience](https://www.servicenow.com/docs/access?context=ui-builder-workspace-settings&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Workspace experience
 
 </td><td>
 
@@ -83,7 +86,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a page from scratch](https://www.servicenow.com/docs/access?context=create-page&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Create a page from scratch
 
 </td><td>
 
@@ -91,7 +94,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-[Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Create a page from a template
 
 </td><td>
 
@@ -105,7 +108,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-[Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Create a page variant
 
 </td><td>
 
@@ -117,7 +120,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 ## Determining which page to use
 
@@ -130,5 +133,5 @@ Additionally, the system looks at the page settings in this order:
 
 If a page variant has no assigned user roles, then every role can access it.
 
-For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-csm-ws-set-record-page-order.md).
 

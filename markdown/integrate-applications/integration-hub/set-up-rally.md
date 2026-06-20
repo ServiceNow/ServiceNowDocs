@@ -2,6 +2,7 @@
 title: Setting up the Rally spoke
 description: Integrate the ServiceNow instance and Rally by using Rally credentials to authenticate ServiceNow requests.Register the Rally OAuth application to access the Rally API 2.0 and to receive a Client ID and Client secret.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/set-up-rally.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ Register the Rally OAuth application to access the Rally API 2.0 and to receive 
 
 ### Before you begin
 
--   The Rally Integration Hub spoke must be active. For more information, see [Rally Spoke](rally-spoke.md).
+-   The Rally Integration Hub spoke must be active. For more information, see [Rally Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/rally-spoke.md).
 -   Role required: admin.
 
 ### Procedure

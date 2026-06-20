@@ -2,6 +2,7 @@
 title: Use Response templates in chat
 description: HR agents can use response templates as reusable messages that you can use related to an interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-response-template-chat.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ HR agents can use response templates as reusable messages that you can use relat
 
 Role required: sn\_hr\_core.case\_writer
 
-The Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin must be activated to use response templates in chat. For more information, see [Response templates for HR Service Delivery](../concept/hr-templated-snippets.md#).
+The Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin must be activated to use response templates in chat. For more information, see [Response templates for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 **Note:** Currently, chat is only available for Interactions in HR Service Delivery Agent Workspace.
 
@@ -31,11 +32,11 @@ The Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin must be activat
 
 3.  When a chat routes to you, select Accept.
 
-    ![HR Agent WS - Chat accept button](../image/agent-ws-hr-chat-accept.png)
+    \[Omitted image "agent-ws-hr-chat-accept.png"\] Alt text: HR Agent WS - Chat accept button
 
 4.  An interaction record is automatically created and you can start chatting with the employee.
 
-    To display response templates, enter `a /` in the chat area and a list of response templates appears.![HR Agent WS - Response template command](../image/agent-ws-hr-resp-temp-command.png)
+    To display response templates, enter `a /` in the chat area and a list of response templates appears.\[Omitted image "agent-ws-hr-resp-temp-command.png"\] Alt text: HR Agent WS - Response template command
 
 5.  Select the response template and the text appears in the chat window.
 

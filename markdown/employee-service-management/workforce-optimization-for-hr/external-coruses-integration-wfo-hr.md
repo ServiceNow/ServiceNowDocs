@@ -2,6 +2,7 @@
 title: Access external courses on Workforce Optimization for HR
 description: Add courses from external sources such as Udemy, Pluralsight, or Cornerstone to enable your users to gain skills from external content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/external-coruses-integration-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

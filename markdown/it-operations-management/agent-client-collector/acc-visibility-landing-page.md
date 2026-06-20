@@ -2,6 +2,7 @@
 title: Agent Client Collector for Visibility
 description: Agent Client Collector for Visibility \(ACC-V\) is a ServiceNow Agent installed on your Windows, Linux, or macOS endpoint devices to collect host data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-visibility-landing-page.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,24 +24,24 @@ ACC-V deploys Ruby scripts that execute OS Query commands and OS-specific comman
 
 <table id="table_a4n_y4l_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn the key features and business value that the Agent Client Collector for Visibility application offers.](exploring-accv.md)
+[Explore \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn the key features and business value that the Agent Client Collector for Visibility application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/exploring-accv.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the features and components to enable Agent Client Collector for Visibility.](configuring-accv.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the features and components to enable Agent Client Collector for Visibility.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/configuring-accv.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-customer-happy.svg)Instructions for using Agent Client Collector for Visibility.](acc-v-using-agent-client-collector-for-visibility.md)
+[Use \[Omitted image "bus-customer-happy.svg"\] Alt text:Instructions for using Agent Client Collector for Visibility.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional details about Agent Client Collector for Visibility.](agent-client-collector-for-visibility-references.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get additional details about Agent Client Collector for Visibility.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 
 </td></tr></tbody>
 </table>## Dependencies
 
-For a list of Agent Client Collector for Visibility plugin dependencies, see [Plugins or applications installed with ITOM Visibility](../../it-operations-management/reference/plugin-app-itom-visibility.md) and [Plugins or applications installed with ITOM Health](../../it-operations-management/reference/plugin-app-itom-health.md).
+For a list of Agent Client Collector for Visibility plugin dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/plugin-app-itom-visibility.md) and [Plugins or applications installed with ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/plugin-app-itom-health.md).
 
 ## Troubleshoot and get help
 

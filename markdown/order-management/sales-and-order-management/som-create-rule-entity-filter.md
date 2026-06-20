@@ -2,6 +2,7 @@
 title: Create a rule entity filter
 description: Create a rule filter for the product entity to be used in a product eligibility matrix. The rule filter defines how the rule is applied, for example to a product catalog, category, or offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-create-rule-entity-filter.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Entity Filter**.
 

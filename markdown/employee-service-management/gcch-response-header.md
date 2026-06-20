@@ -2,7 +2,10 @@
 title: Update your Microsoft Teams tenant URL for GCC-H or DoD
 description: Configure your Microsoft Teams tenant URL for Government Community Cloud High \(GCC-H\) or US Department of Defense \(DoD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/gcch-response-header.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,5 +36,5 @@ Role required: security\_admin
 3.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-integration-gcch.md)
+**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ec-teams-integration-gcch.md)
 

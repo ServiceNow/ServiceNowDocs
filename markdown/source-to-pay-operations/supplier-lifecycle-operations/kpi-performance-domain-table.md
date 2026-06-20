@@ -2,6 +2,7 @@
 title: Performance Domain table
 description: The Performance Domain \[sn\_kpi\_domain\] table stores the information about the performance domains created for the KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/kpi-performance-domain-table.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,5 +26,5 @@ The Performance Domain \[sn\_kpi\_domain\] table contains the following fields.
 |Description|String|Brief description of the KPI performance domain.|
 |Active|Boolean|Indicates whether the KPI performance domain record is active. This option is enabled by default.|
 
-**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](primary-data-tables-srpm.md)
+**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)
 

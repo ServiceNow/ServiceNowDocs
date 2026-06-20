@@ -2,6 +2,7 @@
 title: System properties for Cloud Cost Management
 description: Set some property values on the System Properties form, but other lesser-used properties are available only on the System Property \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/sys-pro-ci.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -373,5 +374,5 @@ Defines the chunk size for Azure billing blob in days. By default, each blob con
 -   Location: System properties
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

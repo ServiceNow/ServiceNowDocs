@@ -2,6 +2,7 @@
 title: Next-Generation Juniper Network Firewall discovery
 description: The ServiceNow Discovery application uses the Next-Generation Juniper Network Firewall discovery pattern to find Juniper network firewalls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/juniper-fw-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ You can use this pattern on the ServiceNow AI Platform® using the Madrid releas
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -33,7 +34,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Deploy the pattern as follows:
 
-1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see [Firewall extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-fw&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see Firewall extension classes.
 2.  Download and install the discovery pattern from the ServiceNow Store.
 3.  Sync the pattern with the appropriate MID Server.
 
@@ -99,7 +100,7 @@ The discovered data includes the following tables and fields.
 
 The Dependency Views map on the Juniper Firewall Device CI shows the Juniper Firewall Cluster to which it belongs.
 
-![CIs and connections on a Dependency Views map](../image/juniper-fw-dependency-views.png)
+\[Omitted image "juniper-fw-dependency-views.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -121,5 +122,5 @@ These relationships are created to support Juniper network firewall discovery:
 |Contains::Contained by|Firewall Security Policy \[cmdb\_ci\_firewall\_security\_policy\]|
 |Firewall Security Policy \[cmdb\_ci\_firewall\_security\_policy\]|Extends from|CMDB CI \[cmdb\_ci\]|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

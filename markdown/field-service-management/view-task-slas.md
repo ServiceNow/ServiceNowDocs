@@ -2,7 +2,10 @@
 title: View task SLAs on the Contractor Portal
 description: View the work order SLA timeline in the Field Service Contractor Portal to make sure you complete your task within the SLA time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-task-slas.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 ## About this task
 
-You cannot create and edit SLAs or delete them from work order tasks using the Field Service Contractor Portal. For more information, see [Manage a work order SLA](../../planning-and-policy/task/t_ManageAWorkOrderSLA.md).
+You cannot create and edit SLAs or delete them from work order tasks using the Field Service Contractor Portal. For more information, see [Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md).
 
 ## Procedure
 
@@ -36,5 +39,5 @@ You cannot create and edit SLAs or delete them from work order tasks using the F
     The SLA report details includes the progress of the task SLA over the lifetime of the task.
 
 
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](../concept/work-order-tasks.md)
+**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-tasks.md)
 

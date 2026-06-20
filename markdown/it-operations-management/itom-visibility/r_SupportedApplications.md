@@ -2,6 +2,7 @@
 title: Detailed information on products discovered by ITOM Visibility
 description: Discovery and Service Mapping can discover a wide range of operating systems and applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_SupportedApplications.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,15 +19,15 @@ Discovery and Service Mapping can discover a wide range of operating systems and
 
 Discovery finds computers, servers, printers, a variety of IP-enabled devices, and the applications that run on them. It can then update the configuration items \(CIs\) in your CMDB with the data it collects. This discovery method is referred to as horizontal discovery. Service Mapping maps dependencies, based on a connection between devices and applications. This method is referred to as top-down mapping. The top-down mapping helps you immediately see the impact of a problematic object on the rest of the service instance operation.
 
-On top of hosts and applications supported by default, you can discover additional hosts and applications by deploying patterns available on Store. For reference information on store released patterns, see [Available discovery patterns](../concept/available-patterns.md).
+On top of hosts and applications supported by default, you can discover additional hosts and applications by deploying patterns available on Store. For reference information on store released patterns, see [Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md).
 
-If your organization uses devices or applications, which are not supported by default or using patterns available at ServiceNow Store, you can configure Discovery and Service Mapping to discover them as described in [Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md).
+If your organization uses devices or applications, which are not supported by default or using patterns available at ServiceNow Store, you can configure Discovery and Service Mapping to discover them as described in [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
 Cloud Discovery Patterns find the cloud resources of AWS, Azure, Google Cloud Platform \(GCP\), IBM, and Oracle.
 
-If you want to validate the necessary pattern commands before running discovery, use the Command Validation Tool. For more information, see [Validate commands used in pattern-based discovery](../../it-operations-management/task/validate-discovery-commands.md).
+If you want to validate the necessary pattern commands before running discovery, use the Command Validation Tool. For more information, see [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/validate-discovery-commands.md).
 
-ITOM Content Service Provides visibility to your applications by using AI capabilities that cluster and classify running application processes. For more information, see [ITOM Content Service](../../discovery/concept/discovery-content-services.md).
+ITOM Content Service Provides visibility to your applications by using AI capabilities that cluster and classify running application processes. For more information, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/discovery-content-services.md).
 
 ## Verify the REST API Permissions
 
@@ -84,7 +85,7 @@ Top-down
 
 </td></tr><tr><td>
 
-[A10 load balancer](../../discovery/reference/r_DataCollDiscoA10LoadBalancers.md)
+[A10 load balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DataCollDiscoA10LoadBalancers.md)
 
 </td><td>
 
@@ -108,7 +109,7 @@ A10 Load Balancer
 
 </td></tr><tr><td>
 
-[Adobe JRun](../../discovery/reference/r-AdobeJRun.md)
+[Adobe JRun](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-AdobeJRun.md)
 
 </td><td>
 
@@ -138,7 +139,7 @@ Jrun
 
 </td></tr><tr><td>
 
-[Apache Cassandra database and DataStax](cassandra-discovery.md)
+[Apache Cassandra database and DataStax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/cassandra-discovery.md)
 
 </td><td>
 
@@ -162,7 +163,7 @@ Cassandra
 
 </td></tr><tr><td>
 
-[Apache HBase](../../discovery/reference/r_DiscoverHBaseInstances.md)
+[Apache HBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DiscoverHBaseInstances.md)
 
 </td><td>
 
@@ -218,7 +219,7 @@ Apache
 
 </td></tr><tr><td>
 
-[Apache Kafka and Zookeeper](kafka-zookeeper-discovery.md)
+[Apache Kafka and Zookeeper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/kafka-zookeeper-discovery.md)
 
 </td><td>
 
@@ -244,7 +245,7 @@ Kafka and Zookeeper
 
 </td></tr><tr><td>
 
-[Apache Tomcat Servlet container HTTP web server](../../discovery/reference/r_DataCollDiscoTomcatServers.md)
+[Apache Tomcat Servlet container HTTP web server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DataCollDiscoTomcatServers.md)
 
 </td><td>
 
@@ -274,7 +275,7 @@ Tomcat
 
 </td></tr><tr><td>
 
-[Apigee Edge Enterprise edition](../concept/apigee-edge-discovery.md)
+[Apigee Edge Enterprise edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/apigee-edge-discovery.md)
 
 </td><td>
 
@@ -300,7 +301,7 @@ APIGee
 
 </td></tr><tr><td>
 
-[Avi Vantage load balancer including Avi Controller and GSLB](avi-load-balancer-discovery.md)
+[Avi Vantage load balancer including Avi Controller and GSLB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/avi-load-balancer-discovery.md)
 
 </td><td>
 
@@ -334,7 +335,7 @@ AVI LB - Avi Vantage load balancer
 
 </td></tr><tr><td>
 
-[Alibaba Cloud availability zone](alibaba-availability-zone.md)
+[Alibaba Cloud availability zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-availability-zone.md)
 
 </td><td>
 
@@ -358,7 +359,7 @@ Alibaba - Availability Zone \(LP\)
 
 </td></tr><tr><td>
 
-[Alibaba Cloud cloud hardware type](alibaba-cloud-hardware-type.md)
+[Alibaba Cloud cloud hardware type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-hardware-type.md)
 
 </td><td>
 
@@ -382,7 +383,7 @@ Alibaba - Cloud Hardware Type \(LP\)
 
 </td></tr><tr><td>
 
-[Alibaba Cloud cloud OS images](alibaba-cloud-os-image.md)
+[Alibaba Cloud cloud OS images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-os-image.md)
 
 </td><td>
 
@@ -406,7 +407,7 @@ Alibaba - Cloud OS Image \(LP\)
 
 </td></tr><tr><td>
 
-[Alibaba Cloud datacenters](alibaba-datacenter-discovery.md)
+[Alibaba Cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-datacenter-discovery.md)
 
 </td><td>
 
@@ -430,7 +431,7 @@ Alibaba - Datacenter \(LP\)
 
 </td></tr><tr><td>
 
-[Alibaba Cloud service accounts](alibaba-service-account-discovery.md)
+[Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-service-account-discovery.md)
 
 </td><td>
 
@@ -454,7 +455,7 @@ Alibaba - Service Account Validation
 
 </td></tr><tr><td>
 
-[Alibaba Cloud storage volume](alibaba-storage-volume.md)
+[Alibaba Cloud storage volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-storage-volume.md)
 
 </td><td>
 
@@ -478,7 +479,7 @@ Alibaba - Storage Volume \(LP\)
 
 </td></tr><tr><td>
 
-[Alibaba Cloud virtual machines](alibaba-virtual-machine.md)
+[Alibaba Cloud virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/alibaba-virtual-machine.md)
 
 </td><td>
 
@@ -502,7 +503,7 @@ Alibaba - Virtual Machine \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon API Gateway](../concept/aws-api-gateway-discovery.md)
+[Amazon API Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-discovery.md)
 
 </td><td>
 
@@ -526,7 +527,7 @@ Amazon AWS API Gateway
 
 </td></tr><tr><td>
 
-[Amazon API Gateway Domain Name](../../patterns/aws-api-gateway-domain-name.md)
+[Amazon API Gateway Domain Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-domain-name.md)
 
 </td><td>
 
@@ -574,7 +575,7 @@ Amazon AWS application ELB service - TD
 
 </td></tr><tr><td>
 
-[Amazon Cognito](aws_cognito-discovery-pattern.md)
+[Amazon Cognito](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws_cognito-discovery-pattern.md)
 
 </td><td>
 
@@ -598,7 +599,7 @@ Amazon AWS Cognito
 
 </td></tr><tr><td>
 
-[Amazon DB cluster discovery with Patterns](aws-db-cluster-discovery.md)
+[Amazon DB cluster discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-db-cluster-discovery.md)
 
 </td><td>
 
@@ -622,7 +623,7 @@ Amazon AWS DB Cluster
 
 </td></tr><tr><td>
 
-[Amazon DynamoDB](../concept/aws-dynamoDB-discovery.md)
+[Amazon DynamoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
 
 </td><td>
 
@@ -646,7 +647,7 @@ Amazon AWS DynamoDB \(pattern\)
 
 </td></tr><tr><td>
 
-[Amazon DynamoDB Cluster](../../patterns/aws-dynamodb-cluster.md)
+[Amazon DynamoDB Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamodb-cluster.md)
 
 </td><td>
 
@@ -670,7 +671,7 @@ Amazon AWS - DynamoDB Cluster - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon EC2 Amazon EBS Snapshot](../../patterns/aws-ec2-ebs-snapshot.md)
+[Amazon EC2 Amazon EBS Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ec2-ebs-snapshot.md)
 
 </td><td>
 
@@ -694,7 +695,7 @@ Amazon AWS - Elastic Compute Cloud EBS Snapshot - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon EC2 Reserved Instance](../../patterns/aws-ec2-reserved-instance.md)
+[Amazon EC2 Reserved Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ec2-reserved-instance.md)
 
 </td><td>
 
@@ -718,7 +719,7 @@ Amazon AWS - Elastic Compute Cloud Reserved Instance - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon EC2 VPC Endpoint Service](../../patterns/aws-ec2-vpc-endpoint-service.md)
+[Amazon EC2 VPC Endpoint Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ec2-vpc-endpoint-service.md)
 
 </td><td>
 
@@ -742,7 +743,7 @@ Amazon AWS - Elastic Compute Cloud VPC Endpoint Service - Extended Inventory \(L
 
 </td></tr><tr><td>
 
-[Amazon EC2 VPC Peering Connection](../../patterns/aws-ec2-vpc-peering-connection.md)
+[Amazon EC2 VPC Peering Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ec2-vpc-peering-connection.md)
 
 </td><td>
 
@@ -766,7 +767,7 @@ Amazon AWS - Elastic Compute Cloud VPC Peering Connection - Extended Inventory \
 
 </td></tr><tr><td>
 
-[Amazon ECS resource](aws-ecs-fargate-discovery.md)
+[Amazon ECS resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md)
 
 </td><td>
 
@@ -790,7 +791,7 @@ AWS ECS/Fargate
 
 </td></tr><tr><td>
 
-[Amazon Elastic File System \(Amazon EFS\)](../../patterns/aws-elastic-file-system.md)
+[Amazon Elastic File System \(Amazon EFS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-elastic-file-system.md)
 
 </td><td>
 
@@ -814,7 +815,7 @@ Amazon AWS - Elastic File System - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon ElastiCache](amazon-aws-elasticache-discovery.md)
+[Amazon ElastiCache](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-aws-elasticache-discovery.md)
 
 </td><td>
 
@@ -838,7 +839,7 @@ Amazon ElastiCache discovery
 
 </td></tr><tr><td>
 
-[Amazon ElastiCache Snapshot](../../patterns/aws-elasticache-snapshot.md)
+[Amazon ElastiCache Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-elasticache-snapshot.md)
 
 </td><td>
 
@@ -862,7 +863,7 @@ Amazon AWS - ElastiCache Snapshot - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon MWAA Environment](../../patterns/aws-mwaa-environment.md)
+[Amazon MWAA Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-mwaa-environment.md)
 
 </td><td>
 
@@ -886,7 +887,7 @@ Amazon AWS - Managed Workflows for Apache Airflow Environment - Extended Invento
 
 </td></tr><tr><td>
 
-[Amazon Relational Database Service](aws-rds-discovery.md)
+[Amazon Relational Database Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-rds-discovery.md)
 
 </td><td>
 
@@ -910,7 +911,7 @@ Amazon AWS Relational Database Service
 
 </td></tr><tr><td>
 
-[Amazon RDS DB Snapshot](../../patterns/aws-rds-db-snapshot.md)
+[Amazon RDS DB Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-rds-db-snapshot.md)
 
 </td><td>
 
@@ -934,7 +935,7 @@ Amazon AWS - Relational Database Services DB Snapshot - Extended Inventory \(LP\
 
 </td></tr><tr><td>
 
-[Amazon Redshift](amazon-redshift-discovery.md)
+[Amazon Redshift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-redshift-discovery.md)
 
 </td><td>
 
@@ -958,7 +959,7 @@ Amazon AWS Redshift
 
 </td></tr><tr><td>
 
-[Amazon Redshift Serverless Namespace](../../patterns/aws-redshift-serverless-namespace.md)
+[Amazon Redshift Serverless Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-redshift-serverless-namespace.md)
 
 </td><td>
 
@@ -982,7 +983,7 @@ Amazon AWS - Redshift Serverless Namespace - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon Redshift Serverless Snapshot](../../patterns/aws-redshift-serverless-snapshot.md)
+[Amazon Redshift Serverless Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-redshift-serverless-snapshot.md)
 
 </td><td>
 
@@ -1006,7 +1007,7 @@ Amazon AWS - Redshift Serverless Snapshot - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon Redshift Serverless Workgroup](../../patterns/aws-redshift-serverless-workgroup.md)
+[Amazon Redshift Serverless Workgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-redshift-serverless-workgroup.md)
 
 </td><td>
 
@@ -1030,7 +1031,7 @@ Amazon AWS - Redshift Serverless Workgroup - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon Route 53](aws-route-53-pattern.md)
+[Amazon Route 53](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-route-53-pattern.md)
 
 </td><td>
 
@@ -1054,7 +1055,7 @@ Amazon AWS Route53
 
 </td></tr><tr><td>
 
-[Amazon SageMaker Training Job](../../patterns/aws-sagemaker-training-job.md)
+[Amazon SageMaker Training Job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-sagemaker-training-job.md)
 
 </td><td>
 
@@ -1078,7 +1079,7 @@ Amazon AWS - SageMaker Training Job - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon Simple Storage Service \( AWS S3\)](../concept/aws-s3-discovery.md)
+[Amazon Simple Storage Service \( AWS S3\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-s3-discovery.md)
 
 </td><td>
 
@@ -1102,7 +1103,7 @@ AWS S3
 
 </td></tr><tr><td>
 
-[Amazon Timestream for InfluxDB Database Instance](../../patterns/aws-timestream-influxdb-db-instance.md)
+[Amazon Timestream for InfluxDB Database Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-timestream-influxdb-db-instance.md)
 
 </td><td>
 
@@ -1126,7 +1127,7 @@ Amazon AWS - Timestream for InfluxDB Database Instance - Extended Inventory \(LP
 
 </td></tr><tr><td>
 
-[AWS application ELB Service](aws-application-elb-service-discovery.md)
+[AWS application ELB Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
 
 </td><td>
 
@@ -1150,7 +1151,7 @@ Amazon AWS application ELB Service
 
 </td></tr><tr><td>
 
-[AWS Auto Scaling groups discovery with Patterns](aws-auto-scaling-discovery.md)
+[AWS Auto Scaling groups discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-auto-scaling-discovery.md)
 
 </td><td>
 
@@ -1174,7 +1175,7 @@ AWS Auto Scaling groups \(LP\) \(pattern\)
 
 </td></tr><tr><td>
 
-[AWS Batch Compute Environment](../../patterns/aws-batch-compute-environment.md)
+[AWS Batch Compute Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-batch-compute-environment.md)
 
 </td><td>
 
@@ -1198,7 +1199,7 @@ Amazon AWS - Batch Compute Environment - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS classic ELB Service](aws-classic-elb-service-discovery.md)
+[AWS classic ELB Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-classic-elb-service-discovery.md)
 
 </td><td>
 
@@ -1222,7 +1223,7 @@ Amazon AWS classic ELB Service
 
 </td></tr><tr><td>
 
-[AWS CloudHSM HSM](../../patterns/aws-cloudhsm-hsm.md)
+[AWS CloudHSM HSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-cloudhsm-hsm.md)
 
 </td><td>
 
@@ -1246,7 +1247,7 @@ Amazon AWS - CloudHSM HSM - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS CloudTrail Trail](../../patterns/aws-cloudtrail-trail.md)
+[AWS CloudTrail Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-cloudtrail-trail.md)
 
 </td><td>
 
@@ -1270,7 +1271,7 @@ Amazon AWS - CloudTrail Trail - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS datacenter](aws-datacenter-pattern.md)
+[AWS datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-datacenter-pattern.md)
 
 </td><td>
 
@@ -1294,7 +1295,7 @@ Amazon AWS Datacenter discovery
 
 </td></tr><tr><td>
 
-[AWS DataSync Task](../../patterns/aws-datasync-task.md)
+[AWS DataSync Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-datasync-task.md)
 
 </td><td>
 
@@ -1318,7 +1319,7 @@ Amazon AWS - DataSync Task - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS Elastic Load Balancer Service](aws-application-elb-service-discovery.md)
+[AWS Elastic Load Balancer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
 
 </td><td>
 
@@ -1342,7 +1343,7 @@ Amazon AWS classic ELB Service - TD
 
 </td></tr><tr><td>
 
-[AWS Global Accelerator](../../patterns/aws-global-accelerator.md)
+[AWS Global Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-global-accelerator.md)
 
 </td><td>
 
@@ -1366,7 +1367,7 @@ Amazon AWS - Global Accelerator - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS hardware type](aws-hardware-type-pattern.md)
+[AWS hardware type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-hardware-type-pattern.md)
 
 </td><td>
 
@@ -1391,7 +1392,7 @@ Patterns:-   Amazon AWS - Hardware Type \(LP\)
 
 </td></tr><tr><td>
 
-[AWS Keyspaces](amazon-keyspaces-discovery.md)
+[AWS Keyspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-keyspaces-discovery.md)
 
 </td><td>
 
@@ -1415,7 +1416,7 @@ Amazon AWS Keyspaces
 
 </td></tr><tr><td>
 
-[AWS Kinesis Discovery](amazon-kinesis-discovery.md)
+[AWS Kinesis Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-kinesis-discovery.md)
 
 </td><td>
 
@@ -1442,7 +1443,7 @@ Patterns:-   Amazon AWS - Kinesis Video Stream Services \(LP\)
 
 </td></tr><tr><td>
 
-[AWS Lambda discovery with Patterns](../concept/aws-lambda-discovery.md)
+[AWS Lambda discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-lambda-discovery.md)
 
 </td><td>
 
@@ -1466,7 +1467,7 @@ Amazon AWS Lambda
 
 </td></tr><tr><td>
 
-[AWS MemoryDB for Redis](aws-memorydb-discovery.md)
+[AWS MemoryDB for Redis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-memorydb-discovery.md)
 
 </td><td>
 
@@ -1490,7 +1491,7 @@ AWS MemoryDB \(pattern\)
 
 </td></tr><tr><td>
 
-[AWS Network Firewall](../../patterns/aws-network-firewall.md)
+[AWS Network Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-network-firewall.md)
 
 </td><td>
 
@@ -1514,7 +1515,7 @@ Amazon AWS - Network Firewall - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS OpenSearch](amazon-opensearch-discovery.md)
+[AWS OpenSearch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/amazon-opensearch-discovery.md)
 
 </td><td>
 
@@ -1538,7 +1539,7 @@ Amazon AWS OpenSearch
 
 </td></tr><tr><td>
 
-[AWS Organizations](aws-organizations-pattern.md)
+[AWS Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-organizations-pattern.md)
 
 </td><td>
 
@@ -1562,7 +1563,7 @@ Amazon AWS Organizations
 
 </td></tr><tr><td>
 
-[AWS OS images](aws-os-image-pattern.md)
+[AWS OS images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-os-image-pattern.md)
 
 </td><td>
 
@@ -1589,7 +1590,7 @@ Patterns:-   Amazon AWS - Owned Template \(LP\)
 
 </td></tr><tr><td>
 
-[Amazon Web Services \(AWS\) Resource Inventory](aws-resource-inventory.md)
+[Amazon Web Services \(AWS\) Resource Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-resource-inventory.md)
 
 </td><td>
 
@@ -1613,7 +1614,7 @@ AWS Resource Inventory
 
 </td></tr><tr><td>
 
-[AWS Serverless Database](aws-serverless-database-pattern.md)
+[AWS Serverless Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-serverless-database-pattern.md)
 
 </td><td>
 
@@ -1637,7 +1638,7 @@ Amazon AWS Serverless Database
 
 </td></tr><tr><td>
 
-[AWS Services discovery using patterns](aws-service-discovery-pattern.md)
+[AWS Services discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-service-discovery-pattern.md)
 
 </td><td>
 
@@ -1661,7 +1662,7 @@ See the link
 
 </td></tr><tr><td>
 
-[AWS Storage Gateway File Share](../../patterns/aws-storage-gateway-file-share.md)
+[AWS Storage Gateway File Share](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-gateway-file-share.md)
 
 </td><td>
 
@@ -1685,7 +1686,7 @@ Amazon AWS - Storage Gateway File Share - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS sub accounts](aws-sub-account-pattern.md)
+[AWS sub accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.md)
 
 </td><td>
 
@@ -1709,7 +1710,7 @@ Amazon AWS sub account discovery
 
 </td></tr><tr><td>
 
-[AWS Virtual Server](aws-virtual-server-pattern.md)
+[AWS Virtual Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-virtual-server-pattern.md)
 
 </td><td>
 
@@ -1733,7 +1734,7 @@ Amazon AWS - Virtual Server \(LP\)
 
 </td></tr><tr><td>
 
-[Azure App Configuration store](../../patterns/azure-app-configuration-store.md)
+[Azure App Configuration store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-app-configuration-store.md)
 
 </td><td>
 
@@ -1757,7 +1758,7 @@ Azure - App Configuration Configuration Store - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure App Service App Service Plan](../../patterns/azure-app-service-plan.md)
+[Azure App Service App Service Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-app-service-plan.md)
 
 </td><td>
 
@@ -1781,7 +1782,7 @@ Azure - App Service App Service Plan - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Application Gateway](../concept/azure-application-gateway-discovery.md)
+[Azure Application Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-application-gateway-discovery.md)
 
 </td><td>
 
@@ -1805,7 +1806,7 @@ Azure Application Gateway \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Application Insight Component](../../patterns/azure-app-insight-component.md)
+[Azure Application Insight Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-app-insight-component.md)
 
 </td><td>
 
@@ -1829,7 +1830,7 @@ Azure - Application Insight Component - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Application Insight Data Collection Rule](../../patterns/azure-app-insight-data-collect-rule.md)
+[Azure Application Insight Data Collection Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-app-insight-data-collect-rule.md)
 
 </td><td>
 
@@ -1853,7 +1854,7 @@ Azure - Application Insight Data Collection Rule - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Application Security Group](../../patterns/azure-app-security-group.md)
+[Azure Application Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-app-security-group.md)
 
 </td><td>
 
@@ -1877,7 +1878,7 @@ Azure - Application Security Group - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Automation Account](../../patterns/azure-automation-account.md)
+[Azure Automation Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-automation-account.md)
 
 </td><td>
 
@@ -1901,7 +1902,7 @@ Azure - Automation Account - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure availability sets](azure-availability-sets-patterns.md)
+[Azure availability sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-availability-sets-patterns.md)
 
 </td><td>
 
@@ -1925,7 +1926,7 @@ Azure - Availability Set \(LP\)
 
 </td></tr><tr><td>
 
-[Azure availability zones](azure-availability-zones-patterns.md)
+[Azure availability zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-availability-zones-patterns.md)
 
 </td><td>
 
@@ -1949,7 +1950,7 @@ Azure - Availability Zones \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Blob Storage](azure-blob-storage-pattern.md)
+[Azure Blob Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-blob-storage-pattern.md)
 
 </td><td>
 
@@ -1973,7 +1974,7 @@ Azure - Storage Blobs\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Classic Load Balancer](azure-classic-load-balancer-pattern.md)
+[Azure Classic Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-classic-load-balancer-pattern.md)
 
 </td><td>
 
@@ -1997,7 +1998,7 @@ Azure - Classic LB \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Compute Gallery Image Definition](../../patterns/azure-compute-gallery-img-definition.md)
+[Azure Compute Gallery Image Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-compute-gallery-img-definition.md)
 
 </td><td>
 
@@ -2021,7 +2022,7 @@ Azure - Compute Gallery Image Definition - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Compute Snapshot](../../patterns/azure-compute-snapshot.md)
+[Azure Compute Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-compute-snapshot.md)
 
 </td><td>
 
@@ -2045,7 +2046,7 @@ Azure - Compute Snapshot - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Container Registry](../../patterns/azure-container-registry.md)
+[Azure Container Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-container-registry.md)
 
 </td><td>
 
@@ -2069,7 +2070,7 @@ Azure - Container Registry - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Cosmos DB for PostgreSQL Cluster](../../patterns/azure-cosmos-db-postgresql-cluster.md)
+[Azure Cosmos DB for PostgreSQL Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-cosmos-db-postgresql-cluster.md)
 
 </td><td>
 
@@ -2093,7 +2094,7 @@ Azure - Cosmos DB for PostgreSQL Cluster - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Data Explorer Cluster](../../patterns/azure-data-explorer-cluster.md)
+[Azure Data Explorer Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-data-explorer-cluster.md)
 
 </td><td>
 
@@ -2117,7 +2118,7 @@ Azure - Data Explorer Cluster - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Data Factory](../../patterns/azure-data-factory.md)
+[Azure Data Factory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-data-factory.md)
 
 </td><td>
 
@@ -2141,7 +2142,7 @@ Azure - Data Factory - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Data Protection Backup Vault](../../patterns/azure-data-protection-backup-vault.md)
+[Azure Data Protection Backup Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-data-protection-backup-vault.md)
 
 </td><td>
 
@@ -2165,7 +2166,7 @@ Azure - Data Protection Backup Vault - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Database Service](../../discovery/reference/data-collected-azure-discovery.md)
+[Azure Database Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/data-collected-azure-discovery.md)
 
 </td><td>
 
@@ -2189,7 +2190,7 @@ Azure DataBase \(pattern\)
 
 </td></tr><tr><td>
 
-[Azure Databricks Workspace](../../patterns/azure-databricks-workspace.md)
+[Azure Databricks Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-databricks-workspace.md)
 
 </td><td>
 
@@ -2213,7 +2214,7 @@ Azure - Databricks Workspace - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Datacenter discovery](azure-datacenter-discovery-pattern.md)
+[Azure Datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-datacenter-discovery-pattern.md)
 
 </td><td>
 
@@ -2237,7 +2238,7 @@ Azure Datacenter discovery
 
 </td></tr><tr><td>
 
-[Azure Dev Center](../../patterns/azure-dev-center.md)
+[Azure Dev Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-dev-center.md)
 
 </td><td>
 
@@ -2261,7 +2262,7 @@ Azure - Dev Center - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Disk Encryption Set](../../patterns/azure-disk-encryption-set.md)
+[Azure Disk Encryption Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-disk-encryption-set.md)
 
 </td><td>
 
@@ -2285,7 +2286,7 @@ Azure - Disk Encryption Set - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure DNS zones and record sets discovery using Patterns](azure-dns-discovery.md)
+[Azure DNS zones and record sets discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-dns-discovery.md)
 
 </td><td>
 
@@ -2315,7 +2316,7 @@ Azure DNS Zone Recordsets \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Event Grid System Topic](../../patterns/azure-event-grid-pattern.md)
+[Azure Event Grid System Topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-event-grid-pattern.md)
 
 </td><td>
 
@@ -2339,7 +2340,7 @@ Azure - Event Grid System Topic - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Event Hub Namespace](../../patterns/azure-event-hub-namespace.md)
+[Azure Event Hub Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-event-hub-namespace.md)
 
 </td><td>
 
@@ -2363,7 +2364,7 @@ Azure - Event Hub Namespace - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Express Route Circuit](azure-express-route-circuit-pattern.md)
+[Azure Express Route Circuit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-express-route-circuit-pattern.md)
 
 </td><td>
 
@@ -2387,7 +2388,7 @@ Azure - Express Route Circuit \(LP\)
 
 </td></tr><tr><td>
 
-[Azure File Share](azure-file-share-pattern.md)
+[Azure File Share](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-file-share-pattern.md)
 
 </td><td>
 
@@ -2411,7 +2412,7 @@ Azure - File Share \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Firewall Network Security](../../patterns/azure-firewall-network-security.md)
+[Azure Firewall Network Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-firewall-network-security.md)
 
 </td><td>
 
@@ -2435,7 +2436,7 @@ Azure - Network Security Azure Firewall - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Functions](../concept/azure-function-discovery.md)
+[Azure Functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-function-discovery.md)
 
 </td><td>
 
@@ -2463,7 +2464,7 @@ Azure Functions \(LP\)
 
 </td></tr><tr><td>
 
-[Azure hardware type](azure-hardware-type-pattern.md)
+[Azure hardware type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-hardware-type-pattern.md)
 
 </td><td>
 
@@ -2488,7 +2489,7 @@ Pattens:-   Azure - Hardware Type \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Host](azure-host-pattern.md)
+[Azure Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-host-pattern.md)
 
 </td><td>
 
@@ -2512,7 +2513,7 @@ Azure - Host \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Key Vault](../../patterns/azure-key-vault.md)
+[Azure Key Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-key-vault.md)
 
 </td><td>
 
@@ -2536,7 +2537,7 @@ Azure - Key Vault - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure LoadBalancer Service TD](azure-classic-load-balancer-pattern.md)
+[Azure LoadBalancer Service TD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-classic-load-balancer-pattern.md)
 
 </td><td>
 
@@ -2560,7 +2561,7 @@ Azure LoadBalancer TD
 
 </td></tr><tr><td>
 
-[Azure Local Network Gateway](azure-local-network-gateway-pattern.md)
+[Azure Local Network Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-local-network-gateway-pattern.md)
 
 </td><td>
 
@@ -2584,7 +2585,7 @@ Azure - Local Network Gateway \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Log Analytics Workspace](../../patterns/azure-log-analytics-workspace.md)
+[Azure Log Analytics Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-log-analytics-workspace.md)
 
 </td><td>
 
@@ -2608,7 +2609,7 @@ Azure - Log Analytics Workspace - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Logic App](../../patterns/azure-logic-app.md)
+[Azure Logic App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-logic-app.md)
 
 </td><td>
 
@@ -2632,7 +2633,7 @@ Azure - Logic App - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Managed Identity User Assigned Identity](../../patterns/azure-managed-id-user-assigned-id.md)
+[Azure Managed Identity User Assigned Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-managed-id-user-assigned-id.md)
 
 </td><td>
 
@@ -2656,7 +2657,7 @@ Azure - Managed Identity User Assigned Identity - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure NAT Gateway](azure-nat-gateway-pattern.md)
+[Azure NAT Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-nat-gateway-pattern.md)
 
 </td><td>
 
@@ -2680,7 +2681,7 @@ Azure - NAT Gateway \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Networks IP Group](../../patterns/azure-networks-ip-group.md)
+[Azure Networks IP Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-networks-ip-group.md)
 
 </td><td>
 
@@ -2704,7 +2705,7 @@ Azure - Networks IP Group - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure OS image](azure-os-image-pattern.md)
+[Azure OS image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-os-image-pattern.md)
 
 </td><td>
 
@@ -2729,7 +2730,7 @@ Patterns:-   Azure - Image \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Private DNS Zone](azure-private-dns-zone-pattern.md)
+[Azure Private DNS Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-private-dns-zone-pattern.md)
 
 </td><td>
 
@@ -2753,7 +2754,7 @@ Azure - Private DNS Zone \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Private Link Private Endpoint](../../patterns/azure-private-link-private-endpoint.md)
+[Azure Private Link Private Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-private-link-private-endpoint.md)
 
 </td><td>
 
@@ -2777,7 +2778,7 @@ Azure - Private Link Private Endpoint - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Recovery Services Vault](../../patterns/azure-recovery-services-vault.md)
+[Azure Recovery Services Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-recovery-services-vault.md)
 
 </td><td>
 
@@ -2801,7 +2802,7 @@ Azure - Recovery Services Vault - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Recovery Services Vault Backup Item](../../patterns/azure-recovery-services-vault-backup.md)
+[Azure Recovery Services Vault Backup Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-recovery-services-vault-backup.md)
 
 </td><td>
 
@@ -2825,7 +2826,7 @@ Azure - Recovery Services Vault Backup Item - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Resource Inventory](azure-resource-inventory-pattern.md)
+[Azure Resource Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-resource-inventory-pattern.md)
 
 </td><td>
 
@@ -2849,7 +2850,7 @@ Azure Inventory and tags
 
 </td></tr><tr><td>
 
-[Azure Service Bus Namespace](../../patterns/azure-service-bus-namespace.md)
+[Azure Service Bus Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-service-bus-namespace.md)
 
 </td><td>
 
@@ -2873,7 +2874,7 @@ Azure - Service Bus Namespace - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Service Bus Queue](../../patterns/azure-service-bus-queue.md)
+[Azure Service Bus Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-service-bus-queue.md)
 
 </td><td>
 
@@ -2897,7 +2898,7 @@ Azure - Service Bus Queue - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Service Bus Topic](../../patterns/azure-service-bus-topic.md)
+[Azure Service Bus Topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-service-bus-topic.md)
 
 </td><td>
 
@@ -2921,7 +2922,7 @@ Azure - Service Bus Topic - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Service Endpoint Policy](../../patterns/azure-service-endpoint-policy.md)
+[Azure Service Endpoint Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-service-endpoint-policy.md)
 
 </td><td>
 
@@ -2945,7 +2946,7 @@ Azure - Service Endpoint Policy - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Subscriptions Discovery For Management Group](azure-sub-mgmt-group-pattern.md)
+[Azure Subscriptions Discovery For Management Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-sub-mgmt-group-pattern.md)
 
 </td><td>
 
@@ -2993,7 +2994,7 @@ Cloud Database Instance
 
 </td></tr><tr><td>
 
-[Azure Virtual Machine](azure-vm-pattern.md)
+[Azure Virtual Machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)
 
 </td><td>
 
@@ -3017,7 +3018,7 @@ Azure - Virtual Machine \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](../../discovery/reference/AzureVMScaleSetInstance.md)
+[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.md)
 
 </td><td>
 
@@ -3044,7 +3045,7 @@ Patterns:
 
 </td></tr><tr><td>
 
-[Azure Virtual Network Gateway Connection](azure-vng-connection-pattern.md)
+[Azure Virtual Network Gateway Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-vng-connection-pattern.md)
 
 </td><td>
 
@@ -3068,7 +3069,7 @@ Azure - Virtual Network Gateway Connection \(LP\)
 
 </td></tr><tr><td>
 
-[Azure Web Application Firewall Policy](../../patterns/azure-web-app-firewall-policy.md)
+[Azure Web Application Firewall Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-web-app-firewall-policy.md)
 
 </td><td>
 
@@ -3092,7 +3093,7 @@ Azure - Web Application Firewall Policy - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure WebSite Service and Database](azure-cloud-discovery-patterns.md)
+[Azure WebSite Service and Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 
 </td><td>
 
@@ -3329,7 +3330,7 @@ CA Site Minder Agent
 
 </td></tr><tr><td>
 
-[Cisco Content Services Switch Load balancer](../../discovery/concept/c_LoadBalancerCSS.md)
+[Cisco Content Services Switch Load balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_LoadBalancerCSS.md)
 
 </td><td>
 
@@ -3355,7 +3356,7 @@ Cisco CSS SNMP
 
 </td></tr><tr><td>
 
-[Cisco ACE Application Control Engine](../../discovery/concept/ace-load-balancer-discovery.md)
+[Cisco ACE Application Control Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/ace-load-balancer-discovery.md)
 
 </td><td>
 
@@ -3431,7 +3432,7 @@ Cisco Fibre Connect
 
 </td></tr><tr><td>
 
-[Cisco Global Site Selector Load Balancer](../../discovery/concept/c_LoadBalancerGSS.md)
+[Cisco Global Site Selector Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_LoadBalancerGSS.md)
 
 </td><td>
 
@@ -3457,7 +3458,7 @@ Cisco GSS
 
 </td></tr><tr><td>
 
-[Cisco Unified Computing System](../../discovery/reference/r-CiscoUCSHD.md)
+[Cisco Unified Computing System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-CiscoUCSHD.md)
 
 </td><td>
 
@@ -3481,7 +3482,7 @@ UCS - HD
 
 </td></tr><tr><td>
 
-[Citrix Delivery Controller](../../discovery/concept/citrix-lic-server-deliv-controller.md)
+[Citrix Delivery Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/citrix-lic-server-deliv-controller.md)
 
 </td><td>
 
@@ -3563,7 +3564,7 @@ Citrix Netscaler
 
 </td></tr><tr><td>
 
-[Citrix Netscaler SDX](citrix-netscaler-sdx-discovery.md)
+[Citrix Netscaler SDX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/citrix-netscaler-sdx-discovery.md)
 
 </td><td>
 
@@ -3587,7 +3588,7 @@ Citrix NetScaler SDX
 
 </td></tr><tr><td>
 
-[Citrix License Server](../../discovery/concept/citrix-lic-server-deliv-controller.md)
+[Citrix License Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/citrix-lic-server-deliv-controller.md)
 
 </td><td>
 
@@ -3611,7 +3612,7 @@ License Server
 
 </td></tr><tr><td>
 
-[Citrix Xen Hyper-V](citrix-xen-hyper-v-discovery.md)
+[Citrix Xen Hyper-V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/citrix-xen-hyper-v-discovery.md)
 
 </td><td>
 
@@ -3635,7 +3636,7 @@ Citrix Xen Hyper-V
 
 </td></tr><tr><td>
 
-[Cloudian Storage](cloudian-storage-discovery.md)
+[Cloudian Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/cloudian-storage-discovery.md)
 
 </td><td>
 
@@ -3685,7 +3686,7 @@ Connect-It Service
 
 </td></tr><tr><td>
 
-[Container image scanning for software decomposition](../concept/container-image-concept.md)
+[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/container-image-concept.md)
 
 </td><td>
 
@@ -3711,7 +3712,7 @@ container image scan
 
 </td></tr><tr><td>
 
-[Software Bill of Material \(SBOM\)](generate-sbom-pattern.md)
+[Software Bill of Material \(SBOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/generate-sbom-pattern.md)
 
 </td><td>
 
@@ -3737,7 +3738,7 @@ SBOM is an extension section of the container image scan pattern
 
 </td></tr><tr><td>
 
-[Docker virtualization](../../discovery/concept/c-docker-virtualization.md)
+[Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c-docker-virtualization.md)
 
 </td><td>
 
@@ -3785,7 +3786,7 @@ EPIC Cache
 
 </td></tr><tr><td>
 
-[Database Administrator \(DBA\) report discovery](../../discovery/concept/dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 
 </td><td>
 
@@ -3814,7 +3815,7 @@ DBA is an extension section of the patterns:
 
 </td></tr><tr><td>
 
-[Dell PowerMax storage discovery with Patterns](../../discovery/reference/emc-powermax-discovery-pattern.md)
+[Dell PowerMax storage discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/emc-powermax-discovery-pattern.md)
 
 </td><td>
 
@@ -3840,7 +3841,7 @@ EMC PMAX phase1 \(pattern\)
 
 </td></tr><tr><td>
 
-[Dell Data Domain storage discovery using Patterns](emc-data-domain-pattern.md)
+[Dell Data Domain storage discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/emc-data-domain-pattern.md)
 
 </td><td>
 
@@ -3864,7 +3865,7 @@ DELL EMC Data Domain \(pattern\)
 
 </td></tr><tr><td>
 
-[Dell EMC XtremIO storage array discovery](xtreamio-storage-array-discovery.md)
+[Dell EMC XtremIO storage array discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/xtreamio-storage-array-discovery.md)
 
 </td><td>
 
@@ -3888,7 +3889,7 @@ EMC XtremIO \(pattern\)
 
 </td></tr><tr><td>
 
-[EMC Isilon](../concept/emc-isilon-discovery.md)
+[EMC Isilon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/emc-isilon-discovery.md)
 
 </td><td>
 
@@ -3942,7 +3943,7 @@ F5 Cluster
 
 </td></tr><tr><td>
 
-[F5 BIG-IP](../../discovery/concept/c_LoadBalancerF5BIGIP.md)
+[F5 BIG-IP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md)
 
 </td><td>
 
@@ -3966,7 +3967,7 @@ F5 Load Balancer, F5 Load Balancer SSH
 
 </td></tr><tr><td>
 
-[Fortinet firewalls](fortinet-fw-discovery.md)
+[Fortinet firewalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-discovery.md)
 
 </td><td>
 
@@ -3990,7 +3991,7 @@ Next Generation Fortinet Network Firewall
 
 </td></tr><tr><td>
 
-[Fortinet firewalls and FortiGate VDOMs](fortinet-fw-vdoms-rest-discovery.md)
+[Fortinet firewalls and FortiGate VDOMs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md)
 
 </td><td>
 
@@ -4038,7 +4039,7 @@ APIGee Service
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) AlloyDB for PostgreSQL](gcp-alloydb-postgresql-patterns.md)
+[Google Cloud Platform \(GCP\) AlloyDB for PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-alloydb-postgresql-patterns.md)
 
 </td><td>
 
@@ -4062,7 +4063,7 @@ Google Cloud Platform \(GCP\) - AlloyDB for PostgreSQL
 
 </td></tr><tr><td>
 
-[Google Cloud BigQuery](gcp-bigquery-db-pattern.md)
+[Google Cloud BigQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-bigquery-db-pattern.md)
 
 </td><td>
 
@@ -4086,7 +4087,7 @@ Google Cloud Platform \(GCP\) - BigQuery DB
 
 </td></tr><tr><td>
 
-[Google Cloud Bigtable](gcp-bigtable-db-pattern.md)
+[Google Cloud Bigtable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-bigtable-db-pattern.md)
 
 </td><td>
 
@@ -4110,7 +4111,7 @@ Google Cloud Platform \(GCP\) - Bigtable DB
 
 </td></tr><tr><td>
 
-[Google Cloud FireStore](gcp-firestore-db-pattern.md)
+[Google Cloud FireStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-firestore-db-pattern.md)
 
 </td><td>
 
@@ -4134,7 +4135,7 @@ Google Cloud Platform \(GCP\) - Firestore DB
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Cloud Functions](gcp-cloud-functions-patterns.md)
+[Google Cloud Platform \(GCP\) Cloud Functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-functions-patterns.md)
 
 </td><td>
 
@@ -4158,7 +4159,7 @@ Google Cloud Platform \(GCP\)- Cloud Functions
 
 </td></tr><tr><td>
 
-[Google Cloud SQL](gcp-cloud-sql-db-pattern.md)
+[Google Cloud SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-sql-db-pattern.md)
 
 </td><td>
 
@@ -4182,7 +4183,7 @@ Google Cloud Platform \(GCP\) - Cloud SQL DB
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Disk Types](gcp-disk-types-pattern.md)
+[Google Cloud Platform \(GCP\) Disk Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-disk-types-pattern.md)
 
 </td><td>
 
@@ -4206,7 +4207,7 @@ Google Cloud Platform \(GCP\) - Disk Types
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Events](gcp-events-pattern.md)
+[Google Cloud Platform \(GCP\) Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-events-pattern.md)
 
 </td><td>
 
@@ -4232,7 +4233,7 @@ Horizontal
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) External IP Addresses](gcp-external-ip-addresses-pattern.md)
+[Google Cloud Platform \(GCP\) External IP Addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-external-ip-addresses-pattern.md)
 
 </td><td>
 
@@ -4256,7 +4257,7 @@ Google Cloud Platform \(GCP\) - External IP Addresses
 
 </td></tr><tr><td>
 
-[Google Firebase Realtime DB](gcp-firebase-realtime-db-pattern.md)
+[Google Firebase Realtime DB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-firebase-realtime-db-pattern.md)
 
 </td><td>
 
@@ -4280,7 +4281,7 @@ Google Cloud Platform \(GCP\) - Firebase Realtime DB
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Load Balancer](gcp-load-balancer-pattern.md)
+[Google Cloud Platform \(GCP\) Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-load-balancer-pattern.md)
 
 </td><td>
 
@@ -4305,7 +4306,7 @@ Horizontal
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Memorystore](gcp-memorystore-patterns.md)
+[Google Cloud Platform \(GCP\) Memorystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-memorystore-patterns.md)
 
 </td><td>
 
@@ -4329,7 +4330,7 @@ Google Cloud Platform \(GCP\) - Memorystore DB
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Networking](gcp-networking-pattern.md)
+[Google Cloud Platform \(GCP\) Networking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-networking-pattern.md)
 
 </td><td>
 
@@ -4353,7 +4354,7 @@ Google Cloud Platform \(GCP\) - Networking
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Organization](google-gcp-organization-discovery.md)
+[Google Cloud Platform \(GCP\) Organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/google-gcp-organization-discovery.md)
 
 </td><td>
 
@@ -4377,7 +4378,7 @@ GCP Organization
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) resource inventory](gcp-resource-inventory-discovery.md)
+[Google Cloud Platform \(GCP\) resource inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md)
 
 </td><td>
 
@@ -4401,7 +4402,7 @@ Google Cloud Platform \(GCP\) Resource Inventory
 
 </td></tr><tr><td>
 
-[Google Cloud Spanner](gcp-spanner-db-pattern.md)
+[Google Cloud Spanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-spanner-db-pattern.md)
 
 </td><td>
 
@@ -4425,7 +4426,7 @@ Google Cloud Platform \(GCP\) - Spanner DB
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) SSH Keys](gcp-ssh-keys-pattern.md)
+[Google Cloud Platform \(GCP\) SSH Keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-ssh-keys-pattern.md)
 
 </td><td>
 
@@ -4449,7 +4450,7 @@ Google Cloud Platform \(GCP\) - SSH Keys
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) storage](gcp-storage-pattern.md)
+[Google Cloud Platform \(GCP\) storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-storage-pattern.md)
 
 </td><td>
 
@@ -4473,7 +4474,7 @@ Google Cloud Platform \(GCP\) - Storage
 
 </td></tr><tr><td>
 
-[Google Cloud Platform \(GCP\) Virtual Server](gcp-virtual-server-pattern.md)
+[Google Cloud Platform \(GCP\) Virtual Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-virtual-server-pattern.md)
 
 </td><td>
 
@@ -4497,7 +4498,7 @@ Google Cloud Platform \(GCP\) - Virtual Server
 
 </td></tr><tr><td>
 
-[HAProxy Community edition load balancers](haproxy-lb-discovery-pattern.md)
+[HAProxy Community edition load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/haproxy-lb-discovery-pattern.md)
 
 </td><td>
 
@@ -4521,7 +4522,7 @@ HA Proxy
 
 </td></tr><tr><td>
 
-[HP Operations Manager](../../discovery/reference/r-HPOP.md)
+[HP Operations Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-HPOP.md)
 
 </td><td>
 
@@ -4577,7 +4578,7 @@ HP Quality Center on Windows
 
 </td></tr><tr><td>
 
-[HP Service Manager](../../discovery/reference/r-HPServiceManager.md)
+[HP Service Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-HPServiceManager.md)
 
 </td><td>
 
@@ -4711,7 +4712,7 @@ CTG
 
 </td></tr><tr><td>
 
-[IBM Cloud Platform](google-gcp-discovery-pattern.md)
+[IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 
 </td><td>
 
@@ -4763,7 +4764,7 @@ CICS
 
 </td></tr><tr><td>
 
-[IBM Db2 on Unix](ibm-db2-linux-discovery.md)
+[IBM Db2 on Unix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/ibm-db2-linux-discovery.md)
 
 </td><td>
 
@@ -4791,7 +4792,7 @@ DB2
 
 </td></tr><tr><td>
 
-[IBM Db2 on Windows](ibm-db2-windows-discovery.md)
+[IBM Db2 on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/ibm-db2-windows-discovery.md)
 
 </td><td>
 
@@ -4819,7 +4820,7 @@ DB2
 
 </td></tr><tr><td>
 
-[IBM Virtualization and Hardware Management Console \(HMC\) components](ibm-hmc-discovery.md)
+[IBM Virtualization and Hardware Management Console \(HMC\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
 
 </td><td>
 
@@ -4843,7 +4844,7 @@ IBM HMC Server
 
 </td></tr><tr><td>
 
-[IBM PowerHA Cluster \(HACMP\)](ibm-powerha-hamcp-discovery.md)
+[IBM PowerHA Cluster \(HACMP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.md)
 
 </td><td>
 
@@ -4893,7 +4894,7 @@ ISAM Server
 
 </td></tr><tr><td>
 
-[IBM WebSEAL discovery](ibm_webseal_discovery_patterns.md)
+[IBM WebSEAL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/ibm_webseal_discovery_patterns.md)
 
 </td><td>
 
@@ -5066,7 +5067,7 @@ The following patterns: -   WMQ On Unix
 
 </td></tr><tr><td>
 
-[IBM App Connect Enterprise and HTTP listener discovery](../../discovery/reference/r_IBMWMB.md)
+[IBM App Connect Enterprise and HTTP listener discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_IBMWMB.md)
 
 </td><td>
 
@@ -5144,7 +5145,7 @@ IBM zOS Server
 
 </td></tr><tr><td>
 
-[Infini-Box](infinibox-discovery.md)
+[Infini-Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/infinibox-discovery.md)
 
 </td><td>
 
@@ -5196,7 +5197,7 @@ Inter Connect
 
 </td></tr><tr><td>
 
-[Istio Service Mash](../concept/kubernetes-discovery.md)
+[Istio Service Mash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md)
 
 </td><td>
 
@@ -5220,7 +5221,7 @@ ISTIO Service mesh
 
 </td></tr><tr><td>
 
-[Kubernetes](../concept/kubernetes-discovery.md)
+[Kubernetes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md)
 
 </td><td>
 
@@ -5246,7 +5247,7 @@ Kubernetes
 
 </td></tr><tr><td>
 
-[Linux Server](../../discovery/reference/r_DataCollDiscoLinuxComputers-1.md)
+[Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 
 </td><td>
 
@@ -5270,7 +5271,7 @@ Linux Server
 
 </td></tr><tr><td>
 
-[Linux Pacemaker Cluster](linux-pacemaker-cluster-discovery.md)
+[Linux Pacemaker Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/linux-pacemaker-cluster-discovery.md)
 
 </td><td>
 
@@ -5320,7 +5321,7 @@ BizTalk server
 
 </td></tr><tr><td>
 
-[Microsoft Certificate Authority](microsoft-ca-discovery.md)
+[Microsoft Certificate Authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md)
 
 </td><td>
 
@@ -5396,7 +5397,7 @@ Fast Search
 
 </td></tr><tr><td>
 
-[Microsoft Hyper-V Server](../../discovery/reference/r_DiscoveryForHyperV.md#)
+[Microsoft Hyper-V Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DiscoveryForHyperV.md)
 
 </td><td>
 
@@ -5500,7 +5501,7 @@ MSMQ \(pattern\)
 
 </td></tr><tr><td>
 
-[Microsoft SharePoint](../../discovery/reference/r-MSSharepoint.md)
+[Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-MSSharepoint.md)
 
 </td><td>
 
@@ -5526,7 +5527,7 @@ Microsoft SharePoint
 
 </td></tr><tr><td>
 
-[Microsoft SQL Server and Cluster discovery](../../discovery/reference/mssql-data-collected-pattern.md#)
+[Microsoft SQL Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 </td><td>
 
@@ -5552,7 +5553,7 @@ MSSQL DB On Windows \(pattern\)
 
 </td></tr><tr><td>
 
-[Microsoft SQL Server Analysis Services \(SSAS\)](../../discovery/reference/r-SSAS-MSSQL.md)
+[Microsoft SQL Server Analysis Services \(SSAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-SSAS-MSSQL.md)
 
 </td><td>
 
@@ -5578,7 +5579,7 @@ SSAS \(pattern\)
 
 </td></tr><tr><td>
 
-[Microsoft SQL Server Integration Services \(SSIS\) discovery](../../discovery/reference/ms-ssis-pattern.md)
+[Microsoft SQL Server Integration Services \(SSIS\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/ms-ssis-pattern.md)
 
 </td><td>
 
@@ -5682,7 +5683,7 @@ Windows OS - Servers
 
 </td></tr><tr><td>
 
-[MongoDB](../../discovery/reference/r_DiscoverMongoDBInstances.md)
+[MongoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r_DiscoverMongoDBInstances.md)
 
 </td><td>
 
@@ -5712,7 +5713,7 @@ mongos server
 
 </td></tr><tr><td>
 
-[NetApp Server and Cluster discovery](../../discovery/concept/netapp-discovery.md)
+[NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/netapp-discovery.md)
 
 </td><td>
 
@@ -5738,7 +5739,7 @@ NetApp Cluster SNMP
 
 </td></tr><tr><td>
 
-[NetApp Server and Cluster discovery](../../discovery/concept/netapp-discovery.md)
+[NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/netapp-discovery.md)
 
 </td><td>
 
@@ -5764,7 +5765,7 @@ NetApp Cluster HTTP
 
 </td></tr><tr><td>
 
-[NetApp SolidFire storage system](solidfire-storage-pattern.md)
+[NetApp SolidFire storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/solidfire-storage-pattern.md)
 
 </td><td>
 
@@ -5788,7 +5789,7 @@ NetApp SolidFire storage system
 
 </td></tr><tr><td>
 
-[Network router](network-router-patterns.md)
+[Network router](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/network-router-patterns.md)
 
 </td><td>
 
@@ -5814,7 +5815,7 @@ Network Router
 
 </td></tr><tr><td>
 
-[Network switch](network-switch-patterns.md)
+[Network switch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/network-switch-patterns.md)
 
 </td><td>
 
@@ -5840,7 +5841,7 @@ Network Switch
 
 </td></tr><tr><td>
 
-[NGINX Web Server](../../discovery/concept/c_NGINXWebServerDiscovery.md)
+[NGINX Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_NGINXWebServerDiscovery.md)
 
 </td><td>
 
@@ -5870,7 +5871,7 @@ Nginx Pattern
 
 </td></tr><tr><td>
 
-[Nutanix Acropolis \(AOS\)](nutanix-pattern.md)
+[Nutanix Acropolis \(AOS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 
 </td><td>
 
@@ -5894,7 +5895,7 @@ Nutanix Components
 
 </td></tr><tr><td>
 
-[Nutanix Prism Central](nutanix-pattern.md)
+[Nutanix Prism Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
 
 </td><td>
 
@@ -5948,7 +5949,7 @@ Pattern for license server
 
 </td></tr><tr><td>
 
-[OpenStack resources](openstack-discovery.md)
+[OpenStack resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md)
 
 </td><td>
 
@@ -6032,7 +6033,7 @@ Concurrent Server
 
 </td></tr><tr><td>
 
-[Oracle Cloud Infrastructure](oracle-cloud-infrastructure-discovery.md)
+[Oracle Cloud Infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/oracle-cloud-infrastructure-discovery.md)
 
 </td><td>
 
@@ -6080,7 +6081,7 @@ Oracle CRS
 
 </td></tr><tr><td>
 
-[Oracle Database](../../discovery/concept/c_OracleDatabaseDiscovery.md)
+[Oracle Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 
 </td><td>
 
@@ -6140,7 +6141,7 @@ Advanced Queue Queue
 
 </td></tr><tr><td>
 
-[Oracle Database 12c](oracle-cdb-pdb-discovery.md)
+[Oracle Database 12c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
 
 </td><td>
 
@@ -6290,7 +6291,7 @@ Fulfillment Server
 
 </td></tr><tr><td>
 
-[Oracle GoldenGate](../concept/oracle-golden-gate-discovery.md)
+[Oracle GoldenGate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-golden-gate-discovery.md)
 
 </td><td>
 
@@ -6318,7 +6319,7 @@ Oracle GG
 
 </td></tr><tr><td>
 
-[Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\)](red-hat-virtualization-discovery.md)
+[Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.md)
 
 </td><td>
 
@@ -6346,7 +6347,7 @@ Patterns:-   oVirt Clusters and Hosts
 
 </td></tr><tr><td>
 
-[Oracle Global License Advisory Services \(GLAS\)](oracle-glas-discovery.md)
+[Oracle Global License Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 
 </td><td>
 
@@ -6370,7 +6371,7 @@ Oracle GLAS Data Collection \(pattern\)
 
 </td></tr><tr><td>
 
-[Oracle Java processes](oracle-glas-discovery.md)
+[Oracle Java processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 
 </td><td>
 
@@ -6396,7 +6397,7 @@ Java installation pattern
 
 </td></tr><tr><td>
 
-[Oracle Solaris LDOM](solaris-ldom-discovery.md)
+[Oracle Solaris LDOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md)
 
 </td><td>
 
@@ -6498,7 +6499,7 @@ Sun JES pattern
 
 </td></tr><tr><td>
 
-[Oracle Listener](oracle-listener-hd-discovery.md)
+[Oracle Listener](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-listener-hd-discovery.md)
 
 </td><td>
 
@@ -6756,7 +6757,7 @@ Solaris Server
 
 </td></tr><tr><td>
 
-[Oracle Solaris Logical Domain infrastructure](solaris-ldom-discovery.md)
+[Oracle Solaris Logical Domain infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/solaris-ldom-discovery.md)
 
 </td><td>
 
@@ -6810,7 +6811,7 @@ WebLogic
 
 </td></tr><tr><td>
 
-[Pivotal Cloud Foundry](../concept/pivotal-cloud-foundry.md)
+[Pivotal Cloud Foundry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/pivotal-cloud-foundry.md)
 
 </td><td>
 
@@ -6923,7 +6924,7 @@ Probes: -   Puppet – Master Info
 
 </td></tr><tr><td>
 
-[Pure Storage FlashArray discovery](../../discovery/concept/flasharray-discovery.md)
+[Pure Storage FlashArray discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/flasharray-discovery.md)
 
 </td><td>
 
@@ -6947,7 +6948,7 @@ Pure Flash Array Storage \(pattern\)
 
 </td></tr><tr><td>
 
-[Pure Storage FlashBlade](../concept/pure-storage-discovery.md)
+[Pure Storage FlashBlade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/pure-storage-discovery.md)
 
 </td><td>
 
@@ -6973,7 +6974,7 @@ Pure Storage
 
 </td></tr><tr><td>
 
-[Radware Alteon RadWare ADC](../../discovery/concept/alteon-load-balancer-discovery.md)
+[Radware Alteon RadWare ADC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/alteon-load-balancer-discovery.md)
 
 </td><td>
 
@@ -6997,7 +6998,7 @@ Alteon Load Balancer
 
 </td></tr><tr><td>
 
-[RadWare AppDirector Load Balancer](../../discovery/concept/radware-appdirector.md)
+[RadWare AppDirector Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/radware-appdirector.md)
 
 </td><td>
 
@@ -7045,7 +7046,7 @@ RH Cluster
 
 </td></tr><tr><td>
 
-[Red Hat JBoss Application Server](../../discovery/concept/c_DataCollDiscoJBossServers.md)
+[Red Hat JBoss Application Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_DataCollDiscoJBossServers.md)
 
 </td><td>
 
@@ -7075,7 +7076,7 @@ Jboss \(pattern\)
 
 </td></tr><tr><td>
 
-[Red Hat JBoss Fuse discovery](../concept/jboss-fuse-discovery.md)
+[Red Hat JBoss Fuse discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/jboss-fuse-discovery.md)
 
 </td><td>
 
@@ -7101,7 +7102,7 @@ Jboss Fuse \(pattern\)
 
 </td></tr><tr><td>
 
-[Red Hat OpenShift components of Kubernetes](../concept/kubernetes-discovery.md)
+[Red Hat OpenShift components of Kubernetes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md)
 
 </td><td>
 
@@ -7125,7 +7126,7 @@ Collect OpenShift info library used as an extension section of the Kubernetes pa
 
 </td></tr><tr><td>
 
-[Rubrik cluster](rubrik-discovery.md)
+[Rubrik cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.md)
 
 </td><td>
 
@@ -7201,7 +7202,7 @@ SAP Business Objects CMS Server on Windows
 
 </td></tr><tr><td>
 
-[SAP HANA](../concept/sap-discovery.md#)
+[SAP HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/sap-discovery.md)
 
 </td><td>
 
@@ -7231,7 +7232,7 @@ SAP HANA DB \(pattern\)
 
 </td></tr><tr><td>
 
-[SAP HANA Catalog](../concept/sap-discovery.md#)
+[SAP HANA Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/sap-discovery.md)
 
 </td><td>
 
@@ -7255,7 +7256,7 @@ SAP Hana 2.0 DB Catalog \(pattern\)
 
 </td></tr><tr><td>
 
-[SAP Sybase ASE discovery](../../discovery/reference/r-Sybase.md)
+[SAP Sybase ASE discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-Sybase.md)
 
 </td><td>
 
@@ -7285,7 +7286,7 @@ Sybase \(pattern\)
 
 </td></tr><tr><td>
 
-[SAP Sybase ASE discovery](../../discovery/reference/r-Sybase.md) catalog
+[SAP Sybase ASE discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/r-Sybase.md) catalog
 
 </td><td>
 
@@ -7309,7 +7310,7 @@ Sybase \(pattern extension\)
 
 </td></tr><tr><td>
 
-[Cisco Switch Wireless Access Point \(WAP\)](cisco-waps-discovery.md)
+[Cisco Switch Wireless Access Point \(WAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/cisco-waps-discovery.md)
 
 </td><td>
 
@@ -7429,7 +7430,7 @@ Tibco Adapter
 
 </td></tr><tr><td>
 
-[Tibco BusinessWorks](../concept/mapping-services-tibco.md#)
+[Tibco BusinessWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/mapping-services-tibco.md)
 
 </td><td>
 
@@ -7459,7 +7460,7 @@ ActiveMatrix Business Works
 
 </td></tr><tr><td>
 
-[Tibco Enterprise Message Service \(EMS\)](../concept/mapping-services-tibco.md#)
+[Tibco Enterprise Message Service \(EMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/mapping-services-tibco.md)
 
 </td><td>
 
@@ -7489,7 +7490,7 @@ Enterprise Message Service
 
 </td></tr><tr><td>
 
-[Tibco Enterprise Message Service \(EMS\) Queue](../concept/mapping-services-tibco.md#)
+[Tibco Enterprise Message Service \(EMS\) Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/mapping-services-tibco.md)
 
 </td><td>
 
@@ -7569,7 +7570,7 @@ Enterprise Vault
 
 </td></tr><tr><td>
 
-[Veritas Cluster Server](../concept/veritas-cluster-server-discovery.md)
+[Veritas Cluster Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/veritas-cluster-server-discovery.md)
 
 </td><td>
 
@@ -7593,7 +7594,7 @@ Veritas Cluster
 
 </td></tr><tr><td>
 
-[VMware NSX Advanced Load Balancer](vmware-nsx-lb-discovery.md)
+[VMware NSX Advanced Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/vmware-nsx-lb-discovery.md)
 
 </td><td>
 

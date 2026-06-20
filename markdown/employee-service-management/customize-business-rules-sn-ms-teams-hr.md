@@ -2,7 +2,10 @@
 title: Customize business rules for actionable notifications
 description: Enables you to customize the business rules for actionable notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/customize-business-rules-sn-ms-teams-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -103,5 +106,5 @@ Advanced
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize HR Service Delivery integration with Microsoft Teams](../concept/customize-sn-ms-teams-hr.md)
+**Parent Topic:**[Customize HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/customize-sn-ms-teams-hr.md)
 

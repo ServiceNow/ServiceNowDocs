@@ -2,6 +2,7 @@
 title: Setting up cloud user
 description: Set the credentials for the cloud user to be able to generate and run tests. This is a one time setup after the admin user installs the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-cloud-user-selection.html
 release: xanadu
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -19,7 +20,7 @@ Set the credentials for the cloud user to be able to generate and run tests. Thi
 
 Role required: admin
 
-**Note:** The cloud runner works as expected, even if you have [Multi-factor authentication \(MFA\)](https://www.servicenow.com/docs/access?context=explore-mfa&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) set up for your cloud user.
+**Note:** The cloud runner works as expected, even if you have Multi-factor authentication \(MFA\) set up for your cloud user.
 
 ## Procedure
 
@@ -33,9 +34,9 @@ Role required: admin
 
 3.  Click **Submit**.
 
-    If the admin user is selected successfully, the following message shows up:![Image showing user selection success message](../image/atf-app-credentials-success.png)
+    If the admin user is selected successfully, the following message shows up:\[Omitted image "atf-app-credentials-success.png"\] Alt text: Image showing user selection success message
 
-    If the selected user is not an admin, an error message shows up. The following message is an example of one of the possible error messages. The error messages vary depending on the reason of the error.![Image showing user selection failed message](../image/atf-app-credentials-failed.png)
+    If the selected user is not an admin, an error message shows up. The following message is an example of one of the possible error messages. The error messages vary depending on the reason of the error.\[Omitted image "atf-app-credentials-failed.png"\] Alt text: Image showing user selection failed message
 
     The selection of a cloud user can fail for the following reasons:
 

@@ -2,6 +2,7 @@
 title: Invoice tolerance rule form
 description: Create tolerance rules that can be applied on an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-tolerance-rule-form.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -93,5 +94,5 @@ Invoice filters
 Filter condition to determine the invoices for which the tolerance rule is applicable. For example: **\[Type\]\[is\]\[PO invoice\] AND \[Supplier\]\]is\]\[X\]**. You can concatenate additional filters by using **New Criteria**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

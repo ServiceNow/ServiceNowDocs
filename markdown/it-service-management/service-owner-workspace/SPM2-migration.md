@@ -2,6 +2,7 @@
 title: Service Owner Workspace Migration Dashboard
 description: Service Owner Workspace provides a migration dashboard to support your transition from the legacy Service Portfolio Management structure to the enhanced application structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-migration.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Setting up Service Owner Workspace, Service Owner Workspace, IT Ser
 
 Service Owner Workspace provides a migration dashboard to support your transition from the legacy Service Portfolio Management structure to the enhanced application structure.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 By viewing the **Migration Dashboard**, portfolio managers can quickly determine which existing services and offerings contain a deprecated structure or are considered orphaned in the enhanced Service Portfolio Management taxonomy structure.
 

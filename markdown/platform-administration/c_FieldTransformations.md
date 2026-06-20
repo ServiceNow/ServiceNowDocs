@@ -2,6 +2,7 @@
 title: Transforms
 description: Transforms update field values by applying a transformation definition to the field contents such as replace text, change case, or round value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_FieldTransformations.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -54,10 +55,10 @@ Transformation is a powerful tool that can cause data issues if used incautiousl
 
 All transformation records open in **Test** mode by default, which blocks administrators from running manual data jobs that apply changes to existing data. Only users with the normalization\_tester role can transform data when a record is in the **Test** mode. This is limited to new records opened by the tester or records in which the transformed field is updated by the tester.
 
-To apply transformations to the CMDB after testing, change the mode to **Active** in the transformation record and run the appropriate data job. For information on testing transforms, see [Test a transform](../task/t_TransformAField.md#).
+To apply transformations to the CMDB after testing, change the mode to **Active** in the transformation record and run the appropriate data job. For information on testing transforms, see [Test a transform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_TransformAField.md).
 
--   **[Transform a field](../task/t_TransformAField.md#)**  
+-   **[Transform a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_TransformAField.md)**  
 Transform the contents of field using a set of rules and conditions.
 
-**Parent Topic:**[Field normalization and transformation](c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 

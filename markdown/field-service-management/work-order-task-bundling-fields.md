@@ -2,7 +2,10 @@
 title: Field Service Task Bundling fields
 description: The fields that are included in the details section of work order task bundles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-task-bundling-fields.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -312,5 +315,5 @@ Actual work duration
 Total amount of time spent on the bundle after the agent starts the work and before the agent closes the work on the last subtask. This amount excludes the time paused on the work.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/components-inst-additional-plugin.md)
 

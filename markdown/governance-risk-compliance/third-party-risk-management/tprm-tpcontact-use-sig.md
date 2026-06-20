@@ -2,6 +2,7 @@
 title: Respond using the SIG
 description: Use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation on the third-party portal. You can upload the pre-filled SIG spreadsheet or import a form-based questionnaire.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -39,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d91448e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d94430e92">
 
 Action
 
-</th><th align="left" id="d91448e95">
+</th><th align="left" id="d94430e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91448e101">
+</th></tr></thead><tbody><tr><td id="d94430e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -55,9 +56,9 @@ Steps
 
 Select **Import**, navigate to the file, and then select **Open**.
 
- ![Import SIG questionnaire widget.](../image/import-sig.png)
+ \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d91448e135">
+</td></tr><tr><td id="d94430e135">
 
 **Complete the questionnaire**
 

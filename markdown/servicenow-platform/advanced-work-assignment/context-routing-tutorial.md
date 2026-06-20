@@ -2,6 +2,7 @@
 title: Tutorial: Route interactions by context
 description: Learn how you can configure Advanced Work Assignment to route conversations to agents according to the context of the conversation.Create a queue for the Chat service channel that routes product issues.Create a queue for the Chat service channel that routes billing issues.Create a queue for the Chat service channel that routes order issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/context-routing-tutorial.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -17,7 +18,7 @@ Learn how you can configure Advanced Work Assignment to route conversations to a
 
 Activate the Customer Service Management Demo Data \(com.snc.customerservice.demo\) plugin.
 
-A basic understanding of context variables is required. For more information on context variables, see [Virtual Agent scripts](https://www.servicenow.com/docs/access?context=virtual-agent-scripts&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+A basic understanding of context variables is required. For more information on context variables, see Virtual Agent scripts.
 
 The **What can we help you with?** record producer is available by default with the Customer Service Management Demo Data \(com.snc.customerservice.demo\) plugin. In the record producer, chat requesters can specify one of three issue categories that they need help with:
 
@@ -27,7 +28,7 @@ The **What can we help you with?** record producer is available by default with 
 
 Whichever category they select passes a value through the *liveagent\_csp\_category* context variable. Learn how to create queues that route conversations to agents according to the values passed through this context variable.
 
-**Parent Topic:**[External routing overview](../concept/awa-external-routing-overview.md)
+**Parent Topic:**[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.md)
 
 ## Create a queue for product issues
 

@@ -2,7 +2,10 @@
 title: Install the ServiceNow Add-in for Microsoft 365
 description: You can install the ServiceNow Add-in for Microsoft 365 application \(sn\_outlook\_addin\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/install-sn-addin-for-ms365.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-09-02"
 reading_time_minutes: 1
@@ -30,7 +33,7 @@ The following items are installed with ServiceNow Add-in for Microsoft 365:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with ServiceNow Add-in for Microsoft 365](../reference/installed-with-sn-addin-ms365.md).
+For more information, see [Components installed with ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/installed-with-sn-addin-ms365.md).
 
 ## Procedure
 
@@ -55,5 +58,5 @@ For more information, see [Components installed with ServiceNow Add-in for Micro
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configuring-sn-addin-for-ms365.md)
 

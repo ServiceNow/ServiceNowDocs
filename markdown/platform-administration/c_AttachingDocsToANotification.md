@@ -2,6 +2,7 @@
 title: Document attachments on an email notification
 description: You can attach documents and reports to email notifications by scripting or linking to the sys ID of the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_AttachingDocsToANotification.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Create an email notification, Email and SMS notifications, System n
 
 You can attach documents and reports to email notifications by scripting or linking to the sys ID of the record.
 
-You can include all attachments from the source record with the notification. For example, if an incident update generates a notification, you can include all attachments from the incident record with the notification. To include all attachments from the source record, go to **Advance view** and select the check box for the **Include attachments** under **What will it contain** tab. The email messages, including attachments, cannot exceed the maximum email size. This size includes MIME encoding. For details on MIME encoding, see [Email service size restrictions](../../reference-pages/concept/c_EmailConfiguration.md#EmailService).
+You can include all attachments from the source record with the notification. For example, if an incident update generates a notification, you can include all attachments from the incident record with the notification. To include all attachments from the source record, go to **Advance view** and select the check box for the **Include attachments** under **What will it contain** tab. The email messages, including attachments, cannot exceed the maximum email size. This size includes MIME encoding. For details on MIME encoding, see [Email service size restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailConfiguration.md).
 
 ## Attaching documents with scripting
 
@@ -52,5 +53,5 @@ For example:
 
 **Note:** Multilevel pivot reports can’t attach to email notifications.
 
-**Parent Topic:**[Create an email notification](../task/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md)
 

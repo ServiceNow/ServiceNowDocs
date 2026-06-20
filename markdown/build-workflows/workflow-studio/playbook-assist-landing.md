@@ -2,6 +2,7 @@
 title: Playbook Assist
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/playbook-assist-landing.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,19 +18,19 @@ breadcrumb: [Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Bu
 
 <table id="table_jb4_kgc_r1c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about what Playbook Assist supports](playbook-assist.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about what Playbook Assist supports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable Playbook Assist for an instance](configuring-playbook-assist.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable Playbook Assist for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)
 
 </td></tr><tr><td>
 
-[Generate playbooks![](../../../reuse/icons/brand-icons/bus-workflow.svg)Generate playbooks](../task/generate-a-playbook-outline.md)
+[Generate playbooks\[Omitted image "bus-workflow.svg"\] Alt text:Generate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the roles required to use Playbook Assist](../reference/playbook-assist-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about the roles required to use Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-reference.md)
 
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
@@ -50,20 +51,20 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Playbook Assist](playbook-assist.md)**  
+-   **[Exploring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist.md)**  
 Use Playbook Assist to generate a playbook from text, an image or both. For example, you can upload an image of a business process you've outlined on a whiteboard or in diagramming software, describe more details of the process, and generate a playbook from those combined inputs. Playbook Assist is part of the Now Assist for Creator application.
--   **[Configuring Playbook Assist](configuring-playbook-assist.md)**  
+-   **[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)**  
 Enable Playbook Assist skills in the Now Assist for Creator application so that you can get started with building playbooks faster.
--   **[Generate a playbook](../task/generate-a-playbook-outline.md)**  
+-   **[Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
 Provide an image, text, or both inputs to Now Assist to generate a playbook.
--   **[Playbook recommendations](playbook-recommendations.md#)**  
+-   **[Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-recommendations.md)**  
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
--   **[Playbook Assist reference](../reference/playbook-assist-reference.md)**  
+-   **[Playbook Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Exploring playbooks](process-automation-designer.md)
+**Parent Topic:**[Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/process-automation-designer.md)
 

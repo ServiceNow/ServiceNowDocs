@@ -2,9 +2,10 @@
 title: Create personal notifications
 description: Create personal notifications, which are subscriptions to notifications of importance to you. You can apply conditions that control specific content included in your personal notification, and also enable or disable the channels for delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-personal-notifications.html
 release: xanadu
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Subscription-based notifications, Setting notification preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -58,5 +59,5 @@ A personal notification is a subscribable notification that you can customize by
 7.  Navigate back by selecting the left back arrow \(**&lt;**\) at the top of the form or by selecting the **Notifications** tab.
 
 
-**Parent Topic:**[Subscription-based notifications](../concept/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_SubscriptionBasedNotifications.md)
 

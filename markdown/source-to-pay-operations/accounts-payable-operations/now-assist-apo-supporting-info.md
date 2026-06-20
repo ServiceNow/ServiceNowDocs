@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Accounts Payable Operations \(APO\)
 description: Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -41,5 +42,5 @@ Activate the applications in the following order:
 1.  Now Assist for Platform \(sn\_genai\_platform\)
 2.  Now Assist for APO \(sn\_ap\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](../task/configuring-now-assist-apo.md).
+For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

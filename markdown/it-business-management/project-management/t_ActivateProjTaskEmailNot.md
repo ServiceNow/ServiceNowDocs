@@ -2,6 +2,7 @@
 title: Activate project task email notifications
 description: The following email notifications for the Project Management application are available by default, but are inactive. You must activate them manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ActivateProjTaskEmailNot.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,8 +33,8 @@ Role required: admin
     |Project task commented|pm\_project\_task|Additional comments|Any changes occur|Sends an email notification when the comment field is updated.|
 
 
--   **[Set up project notifications with the workflow tool](t_SetUpProjNotifiWorkflowTool.md)**  
+-   **[Set up project notifications with the workflow tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_SetUpProjNotifiWorkflowTool.md)**  
 Use the workflow tool, for example, to set up a workflow that sends an email notification when the state of a project task becomes **Work in Progress**.
 
-**Parent Topic:**[Project Management](../concept/c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

@@ -2,6 +2,7 @@
 title: Complete the Planning task for an expiring enterprise asset lease contract
 description: Complete the Planning task for an expiring enterprise asset lease contract so that you can proceed with either returning the associated enterprise asset, buying out the associated enterprise asset, or extending the lease contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Complete the Planning task for an expiring enterprise asset lease contract so th
 
 ## Before you begin
 
-To generate the Planning task for an expiring lease contract, you must initiate the lease-end process for that contract. See [Begin the lease-end process for an expiring enterprise asset lease contract](begin-lease-end-process-eam.md) for detailed instructions.
+To generate the Planning task for an expiring lease contract, you must initiate the lease-end process for that contract. See [Begin the lease-end process for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/begin-lease-end-process-eam.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -35,7 +36,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     Alternatively, select the task number that is displayed in the **Current task** field of the lease contract record header.
 
-    ![Current task field.](../image/current-task-lease.png)
+    \[Omitted image "current-task-lease.png"\] Alt text: Current task field.
 
     The Planning task opens.
 
@@ -172,5 +173,5 @@ The Planning task automatically closes with an updated state of Closed Complete.
 
 Based on the action that you selected in the **Lease action** field, complete all necessary tasks to return the associated enterprise asset, buy out the associated enterprise asset, or extend the lease contract.
 
-**Parent Topic:**[Managing expiring contracts for leased enterprise assets](../concept/managing-expiring-contracts-leased-assets.md)
+**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 

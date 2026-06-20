@@ -2,6 +2,7 @@
 title: Search for and delete phishing emails
 description: Deleting phishing emails can help reduce exposure to a specific attack across an organization. You can manage phishing emails on your email server by searching, granting approvals, and deleting them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/search-delete-exchange-emails.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Limitation: When searching the body of emails, you can search a maximum of 1,500
 
 ## About this task
 
-This feature is used by the [Security Operations Integration - Email Search and Delete flow](../../security-operations-common/task/secops-integ-email-search-delete.md) to run a query against your email server. Depending on the search criteria you select, the search identifies all emails within a phishing attack, and returns the total number of emails affected or details from the emails affected.
+This feature is used by the [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-integ-email-search-delete.md) to run a query against your email server. Depending on the search criteria you select, the search identifies all emails within a phishing attack, and returns the total number of emails affected or details from the emails affected.
 
 ## Procedure
 
@@ -41,7 +42,7 @@ This feature is used by the [Security Operations Integration - Email Search and 
 
 4.  Click the **Email Search** related list.
 
-    ![Email Search related list](../image/email-search.png)
+    \[Omitted image "email-search.png"\] Alt text: Email Search related list
 
 5.  Click **New**.
 
@@ -55,7 +56,7 @@ This feature is used by the [Security Operations Integration - Email Search and 
 
 7.  Right-click in the form header and select **Save**.
 
-    ![Email Search Criteria related list](../image/email-search-criteria.png)
+    \[Omitted image "email-search-criteria.png"\] Alt text: Email Search Criteria related list
 
 8.  Click the **Email Search Criteria** tab and click **New**.
 
@@ -166,13 +167,13 @@ The text to search for. Single quotation marks, double quotation marks, and colo
 
 12. You can view the results of the search by clicking the **Email Search Results** tab.
 
-    ![Email Search Results](../image/EmailSearchResults.png)
+    \[Omitted image "EmailSearchResults.png"\] Alt text: Email Search Results
 
     Each line of the Email Search Result Entries form represents a separate email.
 
 13. After you have created a search criteria record, two buttons appear in the Email Search form: **Delete from Email Server\(s\)** and **Search on Email Server\(s\)**.
 
-    ![Email search for phishing threats](../../security-operations-common/image/email-search-phishing.png)
+    \[Omitted image "email-search-phishing.png"\] Alt text: Email search for phishing threats
 
 14. To search for emails in the selected server that meet the search criteria you defined, click **Search on Email Server\(s\)**.
 

@@ -2,6 +2,7 @@
 title: Record time worked on an enterprise asset pick task using the Mobile Agent application
 description: Manage and record time worked on enterprise asset pick tasks by using the Mobile Agent application. After you start working on a task, you can pause and resume work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/record-time-pick-task-mobile-agent-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -15,8 +16,8 @@ breadcrumb: [Manage enterprise asset pick tasks using the Mobile Agent applicati
 
 Manage and record time worked on enterprise asset pick tasks by using the Mobile Agent application. After you start working on a task, you can pause and resume work.
 
--   **[Pause an enterprise asset pick task using the Mobile Agent application](../task/pause-asset-pick-task-eam-mobile-agent.md)**  
+-   **[Pause an enterprise asset pick task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/pause-asset-pick-task-eam-mobile-agent.md)**  
 Record a break from an enterprise asset pick task by using the Mobile Agent application if you’re not continuing to work on it.
 
-**Parent Topic:**[Manage enterprise asset pick tasks using the Mobile Agent application](manage-asset-pick-task-eam-mobile-app.md)
+**Parent Topic:**[Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md)
 

@@ -2,6 +2,7 @@
 title: Update Performance Analytics scripts
 description: Platform Analytics Solutions include Performance Analytics scripts to perform calculations on records. These scripts use the time stamp fields from the indicator sources. If you change the time field stamps in an indicator source, also modify the related scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/update-pa-scripts.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -33,7 +34,7 @@ Role required: pa\_admin, admin
     hours(current.opened_at, current.closed_at);
     ```
 
-3.  In the Source section, click the lock icon next to the list of Fields. ![](../image/update-scripts-fields-lock.png)
+3.  In the Source section, click the lock icon next to the list of Fields. \[Omitted image "update-scripts-fields-lock.png"\] Alt text:
 
     The Fields selector opens.
 
@@ -41,7 +42,7 @@ Role required: pa\_admin, admin
 
     For example, if your organization uses the **Created** time stamp field to define a new change, replace **Opened** with **Created**.
 
-    ![Fields selector after Opened has been removed and Created has been added](../image/update-scripts-select-fields.png)
+    \[Omitted image "update-scripts-select-fields.png"\] Alt text: Fields selector after Opened has been removed and Created has been added
 
 5.  In the **Script** field, replace the references to disused fields with references to the fields you just selected.
 
@@ -56,9 +57,9 @@ Role required: pa\_admin, admin
 6.  Click **Update** to save your changes.
 
 
-**Parent Topic:**[Configure Platform Analytics Solutions](../concept/configure-nowintel-solutions.md)
+**Parent Topic:**[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-nowintel-solutions.md)
 
-**Previous topic:**[Review the indicator sources](review-indicator-sources.md)
+**Previous topic:**[Review the indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/review-indicator-sources.md)
 
-**Next topic:**[Review the breakdown sources](review-breakdown-sources.md)
+**Next topic:**[Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/review-breakdown-sources.md)
 

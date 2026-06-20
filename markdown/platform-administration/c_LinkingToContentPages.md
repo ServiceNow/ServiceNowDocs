@@ -2,6 +2,7 @@
 title: Content page links in email notifications
 description: Links to CMS pages can be put in notifications to make it easy for the reader to access the pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_LinkingToContentPages.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,5 +20,5 @@ For example, to link the email recipient to a page called Incident in the conten
 
 The resulting email URL has this format: `https://<instance name>.service-now.com/ess/incident_detail.do?sysparm_document_key=incident,46e18c0fa9fe19810066a0083f76bd56`
 
-**Parent Topic:**[Links to records in email notifications](c_EnablingLinksToServiceNowRecords.md)
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnablingLinksToServiceNowRecords.md)
 

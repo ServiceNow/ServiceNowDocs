@@ -2,6 +2,7 @@
 title: Create an ad-hoc task on a claim
 description: Create a task in a Individual Life Claims case to help prioritize, check the case progress, and plan your claim work. An example is that you can request additional supporting documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/add-an-adhoc-task.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -29,15 +30,15 @@ You can create additional tasks as needed on a claim by using the **Add task** b
 
 2.  Create a task from the **claim workspace** tab in a case or from the tasks list.
 
-<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d80616e92">
+<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d43984e92">
 
 Option
 
-</th><th align="left" id="d80616e95">
+</th><th align="left" id="d43984e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d80616e101">
+</th></tr></thead><tbody><tr><td id="d43984e101">
 
 **From the claim workspace in a case**
 
@@ -45,13 +46,13 @@ Steps
 
 In the Tasks section, select **Add claim task**. The new task has the case set as the parent record.
 
-</td></tr><tr><td id="d80616e113">
+</td></tr><tr><td id="d43984e113">
 
 **From the tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 2.  On the **Lists** tab, select **Individual death claims tasks**, and then select **All**.
 3.  Select **New**.
 
@@ -59,7 +60,7 @@ In the Tasks section, select **Add claim task**. The new task has the case set a
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Claim Task form fields](../../fso-common/reference/claim-task-form-fields.md).
+    For a description of the field values, see [Claim Task form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/claim-task-form-fields.md).
 
 4.  In the **Work notes** field, enter any necessary comments.
 

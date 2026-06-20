@@ -2,6 +2,7 @@
 title: Talent Feedback
 description: Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is one of the features of Talent Feedback. Skill Feedback allows managers to request feedback on employee skills from the employee’s collaborators,
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-feedback/talent-feedback-landing.html
 release: xanadu
 product: Talent Feedback
 classification: talent-feedback
@@ -19,29 +20,29 @@ Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is
 
 <table id="table_xmr_b2b_y2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Talent Feedback](exploring-talent-feedback.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/exploring-talent-feedback.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the Talent feedback plugin](configuring-talent-feedback.md#)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the Talent feedback plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/configuring-talent-feedback.md)
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn how to use Talent Feedback](using-talent-feedback.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/using-talent-feedback.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Other information about Talent Feedback](../reference/talent-feedback-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Other information about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/talent-feedback-reference.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Talent Feedback](exploring-talent-feedback.md)**  
+</table>-   **[Exploring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/exploring-talent-feedback.md)**  
 Learn about Talent Feedback and its benefits as managers and employees looking to leverage a feedback engine.
--   **[Configuring Talent Feedback](configuring-talent-feedback.md#)**  
+-   **[Configuring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/configuring-talent-feedback.md)**  
 Set up Talent Feedback to be able to use it along with Talent Development.
--   **[Using Talent Feedback](using-talent-feedback.md)**  
+-   **[Using Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/using-talent-feedback.md)**  
 Learn how to use Talent Feedback to request and provide feedback for any skills.
--   **[Talent Feedback reference](../reference/talent-feedback-reference.md)**  
+-   **[Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/talent-feedback-reference.md)**  
 Reference topics provide more information regarding the dependencies, components, and tables installed along with Talent Feedback.
 
-**Parent Topic:**[Talent Development](../../employee-service-management/concept/egd-employee-growth-development-suite.md)
+**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

@@ -2,6 +2,7 @@
 title: Review an app
 description: Use your Now Support credentials to log in to the ServiceNow Store and leave a review on any app or integration you have used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/review-an-app.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -27,7 +28,7 @@ You can review an app after your organization buys or trials it. App reviews pro
 
 The ability to review apps is not currently available to federal customers.
 
-**Note:** Your name and company are visible in any reviews that you leave while logged in to the ServiceNow Store. If you want to leave an anonymous review, follow the steps to submit a guest review. For more information, see [Submit a guest review](submit-a-guest-review.md).
+**Note:** Your name and company are visible in any reviews that you leave while logged in to the ServiceNow Store. If you want to leave an anonymous review, follow the steps to submit a guest review. For more information, see [Submit a guest review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/submit-a-guest-review.md).
 
 ## Procedure
 
@@ -50,5 +51,5 @@ The ability to review apps is not currently available to federal customers.
 
 Your name, company, comment, and rating are visible in the Rating and reviews section of the app details.
 
-**Parent Topic:**[Reviewing apps](../concept/reviewing-apps.md)
+**Parent Topic:**[Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/reviewing-apps.md)
 

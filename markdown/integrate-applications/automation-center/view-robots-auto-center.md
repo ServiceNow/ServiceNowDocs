@@ -2,6 +2,7 @@
 title: View the available robots
 description: View a list of available robots in Automation Center for reference purpose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/view-robots-auto-center.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ You can't create a robot.
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Monitor**, select **All Robots**.
 
@@ -38,5 +39,5 @@ You can't create a robot.
 5.  Review the information on the robot page.
 
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automations.md)
 

@@ -2,7 +2,10 @@
 title: Sign on closed work order on a mobile device
 description: Customers can digitally sign and confirm work order tasks that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/preview-sign-wot-contractor-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,5 +47,5 @@ When a work order is closed, you are notified with a link to the work order. Ope
 8.  Click **Accept and Confirm**.
 
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

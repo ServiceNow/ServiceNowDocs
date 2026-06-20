@@ -2,6 +2,7 @@
 title: Appointment API
 description: The Appointment API provides endpoints for interacting with the appointment booking application. Use this API to book and reschedule appointments, check available appointment slots, and fetch appointment booking configuration details.Returns the time range for which you can book appointments. The return results honor the lead time and maximum future bookable dates configured in the appointment booking service configuration.Returns the configuration defined in a specified Appointment Booking Service Configuration.Returns the sys\_id of the appointment booking service configuration rule that matches a specified task sys\_id or a set of specified catalog item data.Enables you to book and reschedule appointments for a Field Service Management task.Returns the slots that have been configured in the appointment booking service configuration along with their availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/appointment-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,17 +16,17 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Appointment API provides endpoints for interacting with the appointment booking application. Use this API to book and reschedule appointments, check available appointment slots, and fetch appointment booking configuration details.
 
-Before using this API, the Appointment Booking Configuration and Service Configuration must be setup. In addition, a task for which the appointment is being booked must already exist. For additional information, see [Configuring Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+Before using this API, the Appointment Booking Configuration and Service Configuration must be setup. In addition, a task for which the appointment is being booked must already exist. For additional information, see .
 
 The Appointment API requires the Appointment Booking plugin \(com.snc.appointment\_booking\) and is provided within the `sn_apptmnt_booking` namespace. To access this API you must have the snc\_internal role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Appointment - GET /sn\_apptmnt\_booking/appointment/calendar
 
 Returns the time range for which you can book appointments. The return results honor the lead time and maximum future bookable dates configured in the appointment booking service configuration.
 
-For additional information on lead time and maximum future bookable dates configuration, see [Create or modify an appointment booking application configuration](https://www.servicenow.com/docs/access?context=appt-booking-create-app-config&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For additional information on lead time and maximum future bookable dates configuration, see .
 
 You must have either the snc\_internal or snc\_external role to access this endpoint.
 
@@ -93,7 +94,7 @@ Required. Sys\_id of the user for whom the appointment is being booked. Located 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -105,7 +106,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -241,7 +242,7 @@ Required. Sys\_id of the record producer configured with the appointment booking
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -253,7 +254,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -324,7 +325,7 @@ result.advanced\_calendar\_view\_portal
 
 </td><td>
 
-Flag that indicates whether the advanced calendar view displays on the portal or displays the base view. For additional information on the advanced calendar view, see [Create or modify an appointment booking application configuration](https://www.servicenow.com/docs/access?context=appt-booking-create-app-config&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether the advanced calendar view displays on the portal or displays the base view. For additional information on the advanced calendar view, see .Possible values:
 
 -   true: Advanced calendar view displays on the portal.
 -   false: Basic view displays on the portal.
@@ -468,7 +469,7 @@ result.service\_config.​enable\_advanced\_config
 
 </td><td>
 
-Flag that indicates whether appointment booking configurations and appointment booking rules are considered when booking appointments. For additional information, see [Create appointment booking advanced configuration](https://www.servicenow.com/docs/access?context=appintment-booking-day-level-config&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether appointment booking configurations and appointment booking rules are considered when booking appointments. For additional information, see .Possible values:
 
 -   true: Appointment booking configurations and appointment booking rules are considered when booking appointments.
 -   false: Appointment booking configurations and appointment booking rules aren't considered when booking appointments.
@@ -639,7 +640,7 @@ result.service\_config.work\_duration
 
 </td><td>
 
-Amount of time it takes to work on the appointment. Work duration is configured in the appointment booking service configuration. For additional information, see [Create or modify an appointment booking service configuration](https://www.servicenow.com/docs/access?context=appt-booking-create-service-config&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).Data type: String
+Amount of time it takes to work on the appointment. Work duration is configured in the appointment booking service configuration. For additional information, see .Data type: String
 
 Unit: Minutes
 
@@ -1067,7 +1068,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1080,7 +1081,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1121,7 +1122,7 @@ result.dedicatedCapacity
 
 </td><td>
 
-Flag that indicates whether the associated rule has dedicated capacity. For additional information on dedicated capacity, see [Create appointment booking service configuration rules](https://www.servicenow.com/docs/access?context=create-appt-booking-service-config-rules&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).Possible values:
+Flag that indicates whether the associated rule has dedicated capacity. For additional information on dedicated capacity, see .Possible values:
 
 -   true: Rule has dedicated capacity.
 -   false: Capacity is shared between the associated rule and the base configuration. It’s also shared with other rules that don't have dedicated capacity.
@@ -1222,7 +1223,7 @@ Enables you to book and reschedule appointments for a Field Service Management t
 
 **Note:** This endpoint only enables you to book and schedule appointments that have start and end times defined in the associated appointment booking service configuration and have available slots.
 
-For additional information on Field Service Management tasks, see [Configuring Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For additional information on Field Service Management tasks, see .
 
 ### URL format
 
@@ -1375,7 +1376,7 @@ Date type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1388,7 +1389,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1695,7 +1696,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1708,7 +1709,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

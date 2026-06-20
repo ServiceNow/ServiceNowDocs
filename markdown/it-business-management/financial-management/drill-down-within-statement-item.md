@@ -2,11 +2,12 @@
 title: Drill down within a statement item
 description: You can drill down within a statement item to visualize a subset of its data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/drill-down-within-statement-item.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Financial charging application setup, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -59,7 +60,7 @@ Drilldown basis
 
 </td><td>
 
-Lower level access of the item based on the mapped field or the weighted metric method.For more information, see [Allocation metrics](../concept/c_AllocationMetrics.md).
+Lower level access of the item based on the mapped field or the weighted metric method.For more information, see [Allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AllocationMetrics.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Cost model for which the drilldown can be applied.
 
 ## What to do next
 
-After you define the statement items, associate the statement items to the [showback statements](define-showback-statement.md). You can use the showback statement to report consumed services to the business unit head, which displays the detailed service charge lines that the unit has utilized as a part of the business service. For example, Email service is a business service. When a business unit uses the email service, then the service charges for consuming the email services are reported as a showback statement to the business unit head or the department head.
+After you define the statement items, associate the statement items to the [showback statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/define-showback-statement.md). You can use the showback statement to report consumed services to the business unit head, which displays the detailed service charge lines that the unit has utilized as a part of the business service. For example, Email service is a business service. When a business unit uses the email service, then the service charges for consuming the email services are reported as a showback statement to the business unit head or the department head.
 
-**Parent Topic:**[Financial charging application setup](../concept/financial-reporting-appln-setup.md)
+**Parent Topic:**[Financial charging application setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-reporting-appln-setup.md)
 

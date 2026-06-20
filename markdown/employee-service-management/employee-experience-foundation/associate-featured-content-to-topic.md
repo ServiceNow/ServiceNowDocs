@@ -2,6 +2,7 @@
 title: Associate featured content to a topic
 description: You can mark connected content as featured content for a topic. The featured content appears at the top of the topic page, enabling you to easily view content that requires your attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/associate-featured-content-to-topic.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Featured Content form](../reference/featured-content-form.md).
+    For more information on the fields and description, see [Featured Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/featured-content-form.md).
 
     **Note:** You can't add a quick link as a featured item.
 

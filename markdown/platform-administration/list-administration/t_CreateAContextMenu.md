@@ -2,6 +2,7 @@
 title: Customize list context menus
 description: You can customize the content and behavior of list context menus.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_CreateAContextMenu.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -131,7 +132,7 @@ Action script
 
 </td><td>
 
-The action script runs when someone selects the context menu option. For more information, see [Action script for list context menus](../reference/r_ActionScript.md).
+The action script runs when someone selects the context menu option. For more information, see [Action script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ActionScript.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Dynamic actions script
 
 </td><td>
 
-The dynamic actions script populates the context menu with dynamic options, such as filters or views. For more information, see [Dynamic actions script for list context menus](../reference/r_DynamicActionsScript.md).
+The dynamic actions script populates the context menu with dynamic options, such as filters or views. For more information, see [Dynamic actions script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_DynamicActionsScript.md).
 
 </td></tr><tr><td>
 
@@ -147,20 +148,20 @@ onShow script
 
 </td><td>
 
-The onShow script runs before the context menu is displayed, to determine which options appear in the context menu. For more information, see [onShow script for list context menus](../reference/r_OnShowScript.md).
+The onShow script runs before the context menu is displayed, to determine which options appear in the context menu. For more information, see [onShow script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_OnShowScript.md).
 
 </td></tr></tbody>
-</table>    ![Context menu form](../image/ContextMenuForm.png)
+</table>    \[Omitted image "ContextMenuForm.png"\] Alt text: Context menu form
 
 4.  Click **Submit**.
 
 
--   **[Action script for list context menus](../reference/r_ActionScript.md)**  
+-   **[Action script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ActionScript.md)**  
 The **Action script** field, on the Context Menu form, defines a script. The script runs when someone selects the context menu option.
--   **[Dynamic actions script for list context menus](../reference/r_DynamicActionsScript.md)**  
+-   **[Dynamic actions script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_DynamicActionsScript.md)**  
 The **Dynamic actions script** field, on the Context Menu form, defines a script. The script populates a list context menu with dynamic options, such as filters or views.
--   **[onShow script for list context menus](../reference/r_OnShowScript.md)**  
+-   **[onShow script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_OnShowScript.md)**  
 The **onShow script** field defines a script that runs before the context menu is displayed to determine which options appear in the context menu.
 
-**Parent Topic:**[List administration](../../core-configuration/concept/p_ListAdministration.md)
+**Parent Topic:**[List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/p_ListAdministration.md)
 

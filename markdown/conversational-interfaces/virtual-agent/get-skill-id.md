@@ -2,6 +2,7 @@
 title: Get the Alexa skill ID
 description: Get the Alexa Skill ID from your Alexa developer console after configuring the skill. The Skill ID is the Alexa identifier for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/get-skill-id.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

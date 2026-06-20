@@ -2,6 +2,7 @@
 title: GlideSystem - Global
 description: The GlideSystem API, which is referred to by the variable name gs in any server-side JavaScript, provides a number of convenient methods to get information about the system, the current logged in user, and date/time information.Adds an error message for the current session.Adds an info message for the current session.Adds a message for the current session.Gets the date and time for the beginning of last month in GMT.Returns the date and time for the beginning of last week in GMT.Returns the date and time for the beginning of next week in GMT.Returns the date and time for the beginning of next month in GMT.Returns the date and time for the beginning of next year in GMT.Returns the date and time for the beginning of the current month in GMT.Returns the date and time for the beginning of the current quarter in GMT.Returns the date and time for the beginning of this week in GMT.Returns the date and time for the beginning of this year in GMT.Retrieves the date and time for the beginning of today in GMT.Retrieves the \(UTC\) beginning of tomorrow adjusted for the timezone of the current session.Retrieves the date and time for the beginning of yesterday in GMT.Calculate the difference between two dates using the default calendar.Calculates the difference between two dates.Generates a date and time for the specified date in GMT.Returns a date and time for a certain number of days ago.Returns a date and time for the end of the day a specified number of days ago.Returns the date and time of the beginning of the day for the specified number of days ago. The returned date and time reflect the time zone of the current session \(local time\).Returns a date and time for the beginning of the day a specified number of days ago.Returns the date and time for the end of last month in GMT.Returns the date and time for the end of last week in GMT.Returns the date and time for the end of last year in GMT.Returns the date and time for the end of next month in GMT.Returns the date and time for the end of next week in GMT.Returns the date and time for the end of next year in GMT.Returns the date and time for the end of this month in GMT.Returns the date and time for the end of this quarter in GMT.Returns the date and time for the end of this week in GMT.Returns the date and time for the end of this year in GMT.Retrieves the date and time for the end of today in GMT.Retrieves the date and time for the end of tomorrow in GMT.Gets the date and time for the end of yesterday in GMT.Queues an event for the event manager.Queues an event for the event manager at a specified date and time.Clears session messages saved using addErrorMessage\(\) or addInfoMessage\(\).Returns the file path to the user's avatar.Returns the name of the current application scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Retrieves the display column for the table.Returns the display value for a specified field on a specified record.Returns the list of error messages for the session that were added by addErrorMessage\(\).Retrieves the property and escapes it for XML parsing.Returns the display name of the impersonating user.Returns the name of the impersonating user or null if not impersonating.Retrieves the list of info messages for the session that were added by addInfoMessage\(\).Returns the user's initials.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Retrieves translated messages to display in the UI and escapes all ticks \('\).Translates the specified message into the specified language.Returns the node name for the specified index.Returns the node value for the specified index.Returns the specified user preference.Returns the value of a Glide property. If the property is not found, returns the specified alt value.Returns the script error found in the specified script, if there is one.Returns a GlideSession object.Returns the GlideSession session ID.Returns the style defined for the table, field, and field value.Returns the time format associated with the current user.Returns a reference to the user object for the current user.Gets the display name of the current user.Returns the sys\_id of the current user.Returns the user name of the current user.Returns the user display name based on a provided user login name.Constructs an array of all the nodes and values in an XML document.Returns the XML text for the first element in the XML string that matches the XPath query.Determines if the current user has at least one of the passed-in roles.Determines if the current user has the specified role within a specified group.Returns a date and time for the specified number of hours ago. The returned value is adjusted for the time zone of the instance.Returns a date and time for the end of the hour for the specified number of hours ago. The returned value is adjusted for the time zone of the instance.Returns a date and time for the start of the hour for the specified number of hours ago. The returned value is adjusted for the time zone of the instance.Checks whether the date in the specified date object is the first day of the month.Checks whether the date in the specified date object is the first day of the week. This method uses the ISO standard of Monday being the first day of the week.Checks whether the date in the specified date object is the first day of the year.Checks if the current session is interactive.Checks whether the date in the specified date object is the last day of the month.Checks whether the date in the specified date object is the last day of the week. This method uses the ISO standard of Sunday being the last day of the week.Checks whether the date in the specified date object is the last day of the year.Determines if the current user is currently logged in.Determines whether the request came from a mobile device.Returns the date and time one week ago in GMT.Logs a message to the system log and saves it to the syslog table.Logs an error to the system log and saves it to the syslog table.Logs a warning to the system log and saves it to the syslog table.Returns a date and time for the specified number of minutes ago.Returns a date and time for the end of the minute a certain number of minutes ago.Returns a date and time for the start of the minute a certain number of minutes ago.Returns a date and time for a certain number of months ago.Returns a date and time for the last day of the month a certain number of months ago.Returns a date and time for the start of the month a certain number of months ago.Queries an object and returns true if the object is null or contains an empty string.Returns the current date in UTC.Returns the current date and time in UTC format.Returns the current date and time in the user-defined format.Gets a GlideDateTime object with the current date and time.Writes a message to the system log.Returns a date and time for a certain number of quarters ago.Returns a date and time for the last day of the quarter, for a specified number of quarters ago.Returns a date and time for the first day of the quarter, for a specified number of quarters ago.Sets the specified key to the specified value.Sets the redirect URI for this transaction, which then determines the next page the user will see.Sets the return URI for this transaction. This determines what page the user will be directed to when they return from the next form.Determines if a database table exists in the ServiceNow instance.Returns the sys\_id of the user associated with this session. Use getUserID\(\) instead.Deletes any open scheduled job records in the Schedule \(sys\_trigger\) table for the specified GlideRecord.Gets a date and time for a certain number of years ago.Returns yesterday's time \(24 hours ago\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_GlideSystemAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideSystem API, which is referred to by the variable name `gs` in any serve
 
 Many of the GlideSystem methods facilitate the easy inclusion of dates in query ranges, and are most often used in filters and reporting.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## GlideSystem - addErrorMessage\(Object message\)
 
@@ -69,7 +70,7 @@ gs.include("PrototypeServer");
 
 ### Scoped equivalent
 
-To use the addErrorMessage\(\) method in a scoped application, use the corresponding scoped method: [addErrorMessage\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the addErrorMessage\(\) method in a scoped application, use the corresponding scoped method: [addErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - addInfoMessage\(Object message\)
 
@@ -99,7 +100,7 @@ if ((!current.u_date1.nil()) && (!current.u_date2.nil())) {
 
 ### Scoped equivalent
 
-To use the addInfoMessage\(\) method in a scoped application, use the corresponding scoped method: [addInfoMessage\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the addInfoMessage\(\) method in a scoped application, use the corresponding scoped method: [addInfoMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - addMessage\(String type, Object message\)
 
@@ -137,7 +138,7 @@ gs.print(dateasint);
 
 ### Scoped equivalent
 
-To use the beginningOfLastMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfLastMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfLastMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfLastMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfLastWeek\(\)
 
@@ -173,7 +174,7 @@ gdt2.setValue(gs.beginningOfLastWeek());
 
 ### Scoped equivalent
 
-To use the beginningOfLastWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfLastWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfLastWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfLastWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfNextWeek\(\)
 
@@ -209,7 +210,7 @@ gdt2.setValue(gs.beginningOfNextWeek());
 
 ### Scoped equivalent
 
-To use the beginningOfNextWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfNextWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfNextMonth\(\)
 
@@ -245,7 +246,7 @@ gdt2.setValue(gs.beginningOfNextMonth());
 
 ### Scoped equivalent
 
-To use the beginningOfNextMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfNextMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfNextYear\(\)
 
@@ -268,7 +269,7 @@ gdt2.setValue(gs.beginningOfNextYear());
 
 ### Scoped equivalent
 
-To use the beginningOfNextYear\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextYear\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfNextYear\(\) method in a scoped application, use the corresponding scoped method: [beginningOfNextYear\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfThisMonth\(\)
 
@@ -304,7 +305,7 @@ gdt2.setValue(gs.beginningOfThisMonth());
 
 ### Scoped equivalent
 
-To use the beginningOfThisMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfThisMonth\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfThisQuarter\(\)
 
@@ -340,7 +341,7 @@ gdt2.setValue(gs.beginningOfThisQuarter());
 
 ### Scoped equivalent
 
-To use the beginningOfThisQuarter\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisQuarter\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfThisQuarter\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisQuarter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfThisWeek\(\)
 
@@ -376,7 +377,7 @@ gdt2.setValue(gs.beginningOfThisWeek());
 
 ### Scoped equivalent
 
-To use the beginningOfThisWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfThisWeek\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfThisYear\(\)
 
@@ -412,7 +413,7 @@ gdt2.setValue(gs.beginningOfThisYear());
 
 ### Scoped equivalent
 
-To use the beginningOfThisYear\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisYear\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the beginningOfThisYear\(\) method in a scoped application, use the corresponding scoped method: [beginningOfThisYear\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - beginningOfToday\(\)
 
@@ -496,7 +497,7 @@ start.setValue(gs.beginningOfYesterday());
 
 Calculate the difference between two dates using the default calendar.
 
-Calendars are now legacy. If Schedules are being used, see the 'Calculate during a given schedule' section of the topic [Scheduling script use cases](../../../../../script/useful-scripts/concept/c_UsefulSchedulingScripts.md#).
+Calendars are now legacy. If Schedules are being used, see the 'Calculate during a given schedule' section of the topic [Scheduling script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_UsefulSchedulingScripts.md).
 
 <table id="table_ulx_gyv_mt" class="parameters"><thead><tr><th>
 
@@ -691,7 +692,7 @@ Count: 7
 
 ### Scoped equivalent
 
-To use the dateGenerate\(\) method in a scoped application, use the corresponding scoped method: [dateGenerate\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the dateGenerate\(\) method in a scoped application, use the corresponding scoped method: [dateGenerate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - daysAgo\(Number days\)
 
@@ -740,7 +741,7 @@ function contractNoticeDue() {
 
 ### Scoped equivalent
 
-To use the daysAgo\(\) method in a scoped application, use the corresponding scoped method: [daysAgo\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the daysAgo\(\) method in a scoped application, use the corresponding scoped method: [daysAgo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - daysAgoEnd\(Number days\)
 
@@ -765,7 +766,7 @@ gs.addInfoMessage("Count: " +tableData.getRowCount());
 
 ### Scoped equivalent
 
-To use the daysAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [daysAgoEnd\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the daysAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [daysAgoEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - daysAgoLocal\(Number days\)
 
@@ -809,7 +810,7 @@ now_GR.query();
 
 ### Scoped equivalent
 
-To use the daysAgoStart\(\) method in a scoped application, use the corresponding scoped method: [daysAgoStart\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the daysAgoStart\(\) method in a scoped application, use the corresponding scoped method: [daysAgoStart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfLastMonth\(\)
 
@@ -858,7 +859,7 @@ if(queueMtd.next()){
 
 ### Scoped equivalent
 
-To use the endOfLastMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfLastMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfLastMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfLastMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfLastWeek\(\)
 
@@ -899,7 +900,7 @@ while(inc.next())
 
 ### Scoped equivalent
 
-To use the endOfLastWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfLastWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfLastWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfLastWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfLastYear\(\)
 
@@ -927,7 +928,7 @@ while(inc.next()){
 
 ### Scoped equivalent
 
-To use the endOfLastYear\(\) method in a scoped application, use the corresponding scoped method: [endOfLastYear\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfLastYear\(\) method in a scoped application, use the corresponding scoped method: [endOfLastYear\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfNextMonth\(\)
 
@@ -976,7 +977,7 @@ articlesList = articlesList + "</ul>";
 
 ### Scoped equivalent
 
-To use the endOfNextMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfNextMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfNextMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfNextMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfNextWeek\(\)
 
@@ -1012,7 +1013,7 @@ var visitorQuery = 'active=true^category=visitor_request^u_my_start_dateONThis w
 
 ### Scoped equivalent
 
-To use the endOfNextWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfNextWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfNextWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfNextWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfNextYear\(\)
 
@@ -1050,7 +1051,7 @@ setEndDate : function(dt) {
 
 ### Scoped equivalent
 
-To use the endOfNextYear\(\) method in a scoped application, use the corresponding scoped method: [endOfNextYear\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfNextYear\(\) method in a scoped application, use the corresponding scoped method: [endOfNextYear\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfThisMonth\(\)
 
@@ -1088,7 +1089,7 @@ setEndDate : function(dt) {
 
 ### Scoped equivalent
 
-To use the endOfThisMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfThisMonth\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfThisMonth\(\) method in a scoped application, use the corresponding scoped method: [endOfThisMonth\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfThisQuarter\(\)
 
@@ -1126,7 +1127,7 @@ setEndDate : function(dt) {
 
 ### Scoped equivalent
 
-To use the endOfThisQuarter\(\) method in a scoped application, use the corresponding scoped method: [endOfThisQuarter\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfThisQuarter\(\) method in a scoped application, use the corresponding scoped method: [endOfThisQuarter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfThisWeek\(\)
 
@@ -1164,7 +1165,7 @@ setEndDate : function(dt) {
 
 ### Scoped equivalent
 
-To use the endOfThisWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfThisWeek\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfThisWeek\(\) method in a scoped application, use the corresponding scoped method: [endOfThisWeek\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfThisYear\(\)
 
@@ -1202,7 +1203,7 @@ setEndDate : function(dt) {
 
 ### Scoped equivalent
 
-To use the endOfThisYear\(\) method in a scoped application, use the corresponding scoped method: [endOfThisYear\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the endOfThisYear\(\) method in a scoped application, use the corresponding scoped method: [endOfThisYear\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - endOfToday\(\)
 
@@ -1311,7 +1312,7 @@ if (current.operation() != 'insert' && current.comments.changes()) {
 
 ### Scoped equivalent
 
-To use the eventQueue\(\) method in a scoped application, use the corresponding scoped method: [eventQueue\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the eventQueue\(\) method in a scoped application, use the corresponding scoped method: [eventQueue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - eventQueueScheduled\(String name, Object glideRecord, String parm1, String parm2, Object expiration\)
 
@@ -1337,7 +1338,7 @@ if (current.operation() != 'insert' && current.comments.changes()) {
 
 ### Scoped equivalent
 
-To use the eventQueueScheduled\(\) method in a scoped application, use the corresponding scoped method: [eventQueueScheduled\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the eventQueueScheduled\(\) method in a scoped application, use the corresponding scoped method: [eventQueueScheduled\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - flushMessages\(\)
 
@@ -1417,7 +1418,7 @@ if (incident_GR.get("2e3f6baddb9ad600added8fdbf9618cb")) {
 
 ### Scoped equivalent
 
-To use the getCurrentScopeName\(\) method in a scoped application, use the corresponding scoped method: [getCurrentScopeName\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getCurrentScopeName\(\) method in a scoped application, use the corresponding scoped method: [getCurrentScopeName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getDateFormat\(\)
 
@@ -1545,7 +1546,7 @@ MySessionUtil.getSessionError = function() {
 
 ### Scoped equivalent
 
-To use the getErrorMessages\(\) method in a scoped application, use the corresponding scoped method: [getErrorMessages\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getErrorMessages\(\) method in a scoped application, use the corresponding scoped method: [getErrorMessages\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getEscapedProperty\(String key, Object substituteObject\)
 
@@ -1669,7 +1670,7 @@ Retrieves translated messages from the Message \[sys\_ui\_message\] table to dis
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message. If the specified message identifier does not exist for the current language, the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For additional information about the Message table, see Message table.
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1762,7 +1763,7 @@ Abort adding action update record, same subflow can't be added twice in schedule
 
 ### Scoped equivalent
 
-To use the getMessage\(\) method in a scoped application, use the corresponding scoped method: [getMessage\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getMessage\(\) method in a scoped application, use the corresponding scoped method: [getMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getMessageS\(String messageID, Object args\)
 
@@ -1770,7 +1771,7 @@ Retrieves translated messages to display in the UI and escapes all ticks \('\).
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message. If the specified message identifier does not exist for the current language, the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For additional information about the Message table, see Message table.
 
 Useful if you are inserting into a JavaScript expression from Jelly.
 
@@ -2092,7 +2093,7 @@ if(!gs.hasRole("admin") && gs.getSession().isInteractive() && gs.getUserName() !
 
 ### Scoped equivalent
 
-To use the getSession\(\) method in a scoped application, use the corresponding scoped method: [getSession\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getSession\(\) method in a scoped application, use the corresponding scoped method: [getSession\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getSessionID\(\)
 
@@ -2120,7 +2121,7 @@ Session ID is: FEE589B3DB7EE4103DD9C39D139619D7
 
 ### Scoped equivalent
 
-To use the getSessionID\(\) method in a scoped application, use the corresponding scoped method: [getSessionID](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getSessionID\(\) method in a scoped application, use the corresponding scoped method: [getSessionID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getStyle\(String tableName, String fieldName, String fieldValue\)
 
@@ -2205,7 +2206,7 @@ Does the current user have the workflow_admin role: true
 
 ### Scoped equivalent
 
-To use the getUser\(\) method in a scoped application, use the corresponding scoped method: [getUser\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getUser\(\) method in a scoped application, use the corresponding scoped method: [getUser\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getUserDisplayName\(\)
 
@@ -2246,7 +2247,7 @@ System Administrator
 
 ### Scoped equivalent
 
-To use the getUserDisplayName\(\) method in a scoped application, use the corresponding scoped method: [getUserDisplayName\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getUserDisplayName\(\) method in a scoped application, use the corresponding scoped method: [getUserDisplayName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getUserID\(\)
 
@@ -2275,7 +2276,7 @@ Current user ID: 6816f79cc0a8016401c5a33be04be441
 
 ### Scoped equivalent
 
-To use the getUserID\(\) method in a scoped application, use the corresponding scoped method: [getUserID\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getUserID\(\) method in a scoped application, use the corresponding scoped method: [getUserID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getUserName\(\)
 
@@ -2323,7 +2324,7 @@ The impersonated user name is: abel.tuter
 
 ### Scoped equivalent
 
-To use the getUserName\(\) method in a scoped application, use the corresponding scoped method: [getUserName\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the getUserName\(\) method in a scoped application, use the corresponding scoped method: [getUserName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - getUserNameByUserID\(String user\_id\)
 
@@ -2455,7 +2456,7 @@ if (!gs.hasRole("admin, groups_admin") && gs.getSession().isInteractive()) {
 
 ### Scoped equivalent
 
-To use the hasRole\(\) method in a scoped application, use the corresponding scoped method: [hasRole\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the hasRole\(\) method in a scoped application, use the corresponding scoped method: [hasRole\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - hasRoleInGroup\(Object roleName, Object group\)
 
@@ -2544,7 +2545,7 @@ Ago date/time: 2021-03-17 19:53:25
 
 ### Scoped equivalent
 
-To use the hoursAgo\(\) method in a scoped application, use the corresponding scoped method: [hoursAgo\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the hoursAgo\(\) method in a scoped application, use the corresponding scoped method: [hoursAgo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - hoursAgoEnd\(Number hours\)
 
@@ -2588,7 +2589,7 @@ Ago date/time: 2021-03-17 19:59:59
 
 ### Scoped equivalent
 
-To use the hoursAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [hoursAgoEnd\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the hoursAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [hoursAgoEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - hoursAgoStart\(Number hours\)
 
@@ -2632,7 +2633,7 @@ Ago date/time: 2021-03-17 19:00:00
 
 ### Scoped equivalent
 
-To use the hoursAgoStart\(\) method in a scoped application, use the corresponding scoped method: [hoursAgoStart\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the hoursAgoStart\(\) method in a scoped application, use the corresponding scoped method: [hoursAgoStart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - isFirstDayOfMonth\(Object date\)
 
@@ -2822,7 +2823,7 @@ if (!gs.hasRole('admin') && gs.isInteractive()) {
 
 ### Scoped equivalent
 
-To use the isInteractive\(\) method in a scoped application, use the corresponding scoped method: [isInteractive\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the isInteractive\(\) method in a scoped application, use the corresponding scoped method: [isInteractive\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - isLastDayofMonth\(Object date\)
 
@@ -3013,7 +3014,7 @@ Current user is logged in
 
 ### Scoped equivalent
 
-To use the isLoggedIn\(\) method in a scoped application, use the corresponding scoped method: [isLoggedIn\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the isLoggedIn\(\) method in a scoped application, use the corresponding scoped method: [isLoggedIn\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - isMobile\(\)
 
@@ -3062,7 +3063,7 @@ Submitted from mobile UI
 
 ### Scoped equivalent
 
-To use the isMobile\(\) method in a scoped application, use the corresponding scoped method: [isMobile\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the isMobile\(\) method in a scoped application, use the corresponding scoped method: [isMobile\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - lastWeek\(\)
 
@@ -3273,7 +3274,7 @@ Thirty minutes ago end time: 2021-10-20 14:52:59
 
 ### Scoped equivalent
 
-To use the minutesAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [minutesAgoEnd\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the minutesAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [minutesAgoEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - minutesAgoStart\(Number minutes\)
 
@@ -3318,7 +3319,7 @@ Thirty minutes ago: 2021-10-20 14:26:00
 
 ### Scoped equivalent
 
-To use the minutesAgoStart\(\) method in a scoped application, use the corresponding scoped method: [minutesAgoStart\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the minutesAgoStart\(\) method in a scoped application, use the corresponding scoped method: [minutesAgoStart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - monthsAgo\(Number months\)
 
@@ -3363,7 +3364,7 @@ One month ago: 2021-09-20 15:29:15
 
 ### Scoped equivalent
 
-To use the monthsAgo\(\) method in a scoped application, use the corresponding scoped method: [monthsAgo\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the monthsAgo\(\) method in a scoped application, use the corresponding scoped method: [monthsAgo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - monthsAgoEnd\(Number months\)
 
@@ -3449,7 +3450,7 @@ Three months ago start date and time: 2021-07-01 07:00:00
 
 ### Scoped equivalent
 
-To use the monthsAgoStart\(\) method in a scoped application, use the corresponding scoped method: [monthsAgoStart\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the monthsAgoStart\(\) method in a scoped application, use the corresponding scoped method: [monthsAgoStart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - nil\(Object obj\)
 
@@ -3477,7 +3478,7 @@ if ((!current.u_date1.nil()) && (!current.u_date2.nil())) {
 
 ### Scoped equivalent
 
-To use the nil\(\) method in a scoped application, use the corresponding scoped method: [nil\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the nil\(\) method in a scoped application, use the corresponding scoped method: [nil\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - now\(\)
 
@@ -3539,7 +3540,7 @@ Returns the current date and time in the user-defined format.
 
 |Type|Description|
 |----|-----------|
-|String|Current date and time in the user-defined format. For more information on setting the system date and time format, see [Date and Date/Time fields](https://www.servicenow.com/docs/access?context=r_UseDateAndTimeFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).|
+|String|Current date and time in the user-defined format. For more information on setting the system date and time format, see Date and Date/Time fields.|
 
 ```
 var currentDateTime = gs.nowDateTime();
@@ -3657,7 +3658,7 @@ Returns a date and time for the last day of the quarter, for a specified number 
 
 ### Scoped equivalent
 
-To use the quartersAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [quartersAgoEnd\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the quartersAgoEnd\(\) method in a scoped application, use the corresponding scoped method: [quartersAgoEnd\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - quartersAgoStart\(Number quarters\)
 
@@ -3673,7 +3674,7 @@ Returns a date and time for the first day of the quarter, for a specified number
 
 ### Scoped equivalent
 
-To use the quartersAgoStart\(\) method in a scoped application, use the corresponding scoped method: [quartersAgoStart\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the quartersAgoStart\(\) method in a scoped application, use the corresponding scoped method: [quartersAgoStart\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - setProperty\(String key, String value, String description\)
 
@@ -3700,7 +3701,7 @@ Output: bar
 
 ### Scoped equivalent
 
-To use the setProperty\(\) method in a scoped application, use the corresponding scoped method: [setProperty\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the setProperty\(\) method in a scoped application, use the corresponding scoped method: [setProperty\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - setRedirect\(Object URI\)
 
@@ -3723,7 +3724,7 @@ gs.setRedirect("com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=d41ce5ba
 
 ### Scoped equivalent
 
-To use the setRedirect\(\) method in a scoped application, use the corresponding scoped method: [setRedirect\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the setRedirect\(\) method in a scoped application, use the corresponding scoped method: [setRedirect\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - setReturn\(Object URI\)
 
@@ -3788,7 +3789,7 @@ Does the foo table exist? false
 
 ### Scoped equivalent
 
-To use the tableExists\(\) method in a scoped application, use the corresponding scoped method: [tableExists\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the tableExists\(\) method in a scoped application, use the corresponding scoped method: [tableExists\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - userID\(\)
 
@@ -3858,7 +3859,7 @@ Gets a date and time for a certain number of years ago.
 
 ### Scoped equivalent
 
-To use the yearsAgo\(Number years\) method in a scoped application, use the corresponding scoped method: [yearsAgo\(Number years\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the yearsAgo\(Number years\) method in a scoped application, use the corresponding scoped method: [yearsAgo\(Number years\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 
 ## GlideSystem - yesterday\(\)
 
@@ -3874,5 +3875,5 @@ Returns yesterday's time \(24 hours ago\).
 
 ### Scoped equivalent
 
-To use the yesterday\(\) method in a scoped application, use the corresponding scoped method: [yesterday\(\)](../../glideSystemScoped/concept/c_GlideSystemScopedAPI.md#).
+To use the yesterday\(\) method in a scoped application, use the corresponding scoped method: [yesterday\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideSystemScopedAPI.md).
 

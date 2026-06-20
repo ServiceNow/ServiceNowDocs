@@ -2,6 +2,7 @@
 title: Using Opportunity Management
 description: Use the Opportunity Management to create your opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-mgmt-using.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

@@ -2,6 +2,7 @@
 title: Create API credentials for Google Vertex AI
 description: Configure your API credentials to use Google Vertex AI in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use Google Vertex AI as your LLM provider for Generative AI Controll
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-vertex.png)
+    \[Omitted image "gai-create-new-connection-vertex.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  Fill in the required fields.
 
@@ -97,9 +98,9 @@ Client secret from your OAuth Client ID found in the Google Cloud console
 
 You can now use Completions – Vertex AI and Chat Completions – Vertex AI in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
-![Complete connection for Google Bard Vertex AI.](../image/gai-created-connection-vertex.png)
+\[Omitted image "gai-created-connection-vertex.png"\] Alt text: Complete connection for Google Bard Vertex AI.
 
 ## What to do next
 
-Use your LLM provider to [create flows](use-generative-ai-controller-with-flow-designer.md) with Flow Designer, [topics](use-generative-ai-controller-with-virtual-agent-designer.md) with Virtual Agent Designer, or [scripts](script-with-generative-ai.md) to provide the benefits of generative AI to your users.
+Use your LLM provider to [create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/use-generative-ai-controller-with-flow-designer.md) with Flow Designer, [topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/use-generative-ai-controller-with-virtual-agent-designer.md) with Virtual Agent Designer, or [scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/script-with-generative-ai.md) to provide the benefits of generative AI to your users.
 

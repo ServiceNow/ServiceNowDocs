@@ -2,7 +2,10 @@
 title: Entity configuration and mapping
 description: Use the Entity Configuration tables and forms to configure and map an entity that defines a structure and transfers the data from the source entity to the target entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/entity-configuration-and-mapping.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4

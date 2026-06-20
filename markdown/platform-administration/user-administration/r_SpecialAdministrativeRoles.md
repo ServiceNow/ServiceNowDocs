@@ -1,7 +1,8 @@
 ---
 title: Special administrative roles
-description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete Classic Business rules.Create, modify, and delete Client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script includes.Create, modify, and delete UI actionsUI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities..Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete UI policiesUI policies dynamically change the behavior of information on a form and control custom process flows for tasks..Create, modify, and delete UI scripts.
+description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete .Create, modify, and delete .Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete .Create, modify, and delete UI actionsUI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities..Create, modify, and delete .Create, modify, and delete .Create, modify, and delete UI policiesUI policies dynamically change the behavior of information on a form and control custom process flows for tasks..Create, modify, and delete .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/user-administration/r\_SpecialAdministrativeRoles.html
 release: xanadu
 product: User Administration
 classification: user-administration
@@ -15,17 +16,17 @@ breadcrumb: [Base system roles, Managing roles, User administration, Configure c
 
 Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 These roles don’t change the behavior of the admin role, which grants full administrative privileges.
 
 **Important:** You can’t rename roles of any kind in the ServiceNow AI Platform
 
-**Parent Topic:**[Base system roles](r_BaseSystemRoles.md)
+**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 ## Assignment rule administrator \[assignment\_rule\_admin\]
 
-Create, modify, and delete [assignment rules](../../task-table/concept/c_DefineAssignmentRules.md).
+Create, modify, and delete [assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
 
 ### Contains Roles
 
@@ -45,7 +46,7 @@ None.
 
 ## Business rule administrator \[business\_rule\_admin\]
 
-Create, modify, and delete [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 
@@ -65,7 +66,7 @@ None.
 
 ## Client script administrator \[client\_script\_admin\]
 
-Create, modify, and delete [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 
@@ -131,7 +132,7 @@ None.
 
 ## Script include administrator \[script\_include\_admin\]
 
-Create, modify, and delete [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 
@@ -151,7 +152,7 @@ None.
 
 ## UI action administrator \[ui\_action\_admin\]
 
-Create, modify, and delete [UI actions](../../list-administration/concept/c_UIActions.md).
+Create, modify, and delete [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UIActions.md).
 
 ### Contains Roles
 
@@ -171,7 +172,7 @@ None.
 
 ## UI macro administrator \[ui\_macro\_admin\]
 
-Create, modify, and delete [UI macros](https://www.servicenow.com/docs/access?context=c_UIMacros&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 
@@ -191,7 +192,7 @@ None.
 
 ## UI page administrator \[ui\_page\_admin\]
 
-Create, modify, and delete [UI pages](https://www.servicenow.com/docs/access?context=r_UIPages&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 
@@ -211,7 +212,7 @@ None.
 
 ## UI policy administrator \[ui\_policy\_admin\]
 
-Create, modify, and delete [UI policies](../../form-administration/task/t_CreateAUIPolicy.md#).
+Create, modify, and delete [UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAUIPolicy.md).
 
 ### Contains Roles
 
@@ -231,7 +232,7 @@ None.
 
 ## UI script administrator \[ui\_script\_admin\]
 
-Create, modify, and delete [UI scripts](https://www.servicenow.com/docs/access?context=c_UIScripts&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+Create, modify, and delete .
 
 ### Contains Roles
 

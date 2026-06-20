@@ -2,6 +2,7 @@
 title: Create group filter criteria
 description: Group filter criteria allows or denies user access based on the user group to which the user belongs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/create-group-filter-criteria.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -33,12 +34,12 @@ Role required: admin
     |Description|Short description of the group.|
     |Application|Scope of the application.|
 
-    ![Group filter criteria form](../images/group-filter-criteria-2.png "Example group filter criteria record")
+    \[Omitted image "group-filter-criteria-2.png"\] Alt text: Group filter criteria form
 
 4.  From the **Groups for criteria** tab, double-click **Insert a new row**.
 
-5.  Click the search icon ![search icon](../images/search.png), look up, and select a user group.
+5.  Click the search icon \[Omitted image "search.png"\] Alt text: search icon, look up, and select a user group.
 
-6.  Click the save icon ![save icon](../images/green-checkmark.png).
+6.  Click the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
 

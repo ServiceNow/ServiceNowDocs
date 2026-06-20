@@ -2,6 +2,7 @@
 title: Load data structure
 description: Load a data structure of child variables within an Object variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/load-data-structure.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -18,8 +19,8 @@ Load a data structure of child variables within an Object variable.
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   [Set up an application in Guided Application Creator](https://www.servicenow.com/docs/access?context=set-up-app&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) to store Workflow Studio content.
--   [Create an action in Workflow Studio](create-action.md) or [Create a subflow in Workflow Studio](create-subflow.md)
+-   Set up an application in Guided Application Creator to store Workflow Studio content.
+-   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-subflow.md)
 
 ## Procedure
 
@@ -38,5 +39,5 @@ Load a data structure of child variables within an Object variable.
     If the Object variable has no existing data structure, Workflow Studio loads the data structure into it. If the Object variable has an existing data structure, Workflow Studio displays a confirmation dialog to replace the existing structure.
 
 
-**Parent Topic:**[Complex data](../concept/complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/complex-data.md)
 

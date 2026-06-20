@@ -2,7 +2,10 @@
 title: Assign tasks to yourself based on Intelligent Task Recommendation
 description: Assign the best available recommended task to yourself so that you can fill a gap in your schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/recommend-task-fsm-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: wm\_agent
 
 ## About this task
 
-The Intelligent Task Recommendation feature automatically recommends you the task with highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](activate-intelligent-task-recommendation.md).
+The Intelligent Task Recommendation feature automatically recommends you the task with highest recommendation score only when your administrator activates the Field Service Intelligent Task Recommendation plugin. For more information, see [Activate Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/activate-intelligent-task-recommendation.md).
 
 As an agent, you can login to the Now® Mobile Agent application to view the recommended task and assign the task to yourself.
 
@@ -31,7 +34,7 @@ As an agent, you can login to the Now® Mobile Agent application to view the rec
 
 2.  Tap **My Work**.
 
-3.  In the My Tasks section, tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Recommend Task**.
+3.  In the My Tasks section, tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Recommend Task**.
 
 4.  Indicate your free time in the **Start time** and **End time** fields.
 
@@ -44,5 +47,5 @@ As an agent, you can login to the Now® Mobile Agent application to view the rec
 
 The task with highest recommendation score is automatically assigned to you.
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

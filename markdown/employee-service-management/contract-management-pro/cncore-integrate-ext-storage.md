@@ -2,6 +2,7 @@
 title: Configure an external storage system
 description: As a contract configurator, configure an external storage system to store signed contract documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,13 +20,13 @@ As a contract configurator, configure an external storage system to store signed
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure.
 
--   **[Google Drive spoke](https://www.servicenow.com/docs/access?context=googledrive-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) v1.3.0 or later version**
+-   **Google Drive spoke v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://www.servicenow.com/docs/access?context=setup-gdrive&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Google Drive account, see Set up Google Drive spoke.
 
--   **[Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) v2.1.0 or later version**
+-   **Microsoft OneDrive spoke v2.1.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=setup-msonedrive&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) .
+    For more information on the setup and creating the Google Drive account, see Set up Microsoft OneDrive spoke .
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -151,5 +152,5 @@ The configuration for the external storage system is ready to be used for storin
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](../concept/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 

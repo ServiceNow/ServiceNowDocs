@@ -2,6 +2,7 @@
 title: Domain separation and Health and Safety Risk Management
 description: Domain separation is supported for Health and Safety Risk Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-domain-separation.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -25,7 +26,7 @@ Domain separation is supported for Health and Safety Risk Management. Domain sep
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain-separated tables overview
 
@@ -36,10 +37,10 @@ All tables in the Health and Safety Risk Management can be domain-separated and 
 -   Each table in Health and Safety Risk Management includes the domain separation fields **Domain** and **Domain path**.
 -   Customers can use these fields to configure domain separation in their implementation of Health and Safety Risk Management.
 
-**Parent Topic:**[Health and Safety Risk Management reference](hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

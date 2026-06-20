@@ -2,6 +2,7 @@
 title: Create a quote from an opportunity line item
 description: Create a quote from the selected line items in an opportunity record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-create-quote-line-items.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -32,5 +33,5 @@ Role required: sales\_agent
 
 ## What to do next
 
-To learn more about using the Quote Management workspace, see [Using Quote Management](quote-mgmt-using.md).
+To learn more about using the Quote Management workspace, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-mgmt-using.md).
 

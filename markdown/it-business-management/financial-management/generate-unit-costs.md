@@ -2,6 +2,7 @@
 title: Generate unit costs
 description: Associate a unit cost metric with a segment of a cost model hierarchy to generate unit costs. The mapping helps to derive unit cost based on the allocation lines from the Financial Modeling application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/generate-unit-costs.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -115,5 +116,5 @@ Accounts filtered based on a criteria.Unit costs are generated only for the filt
     The table also shows the total cost and quantity. Based on the enforced relationship of the metric, you can further drill down from the account unit cost.
 
 
-**Parent Topic:**[Create a cost model from Cost Model form](t_CreateACostModel.md)
+**Parent Topic:**[Create a cost model from Cost Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateACostModel.md)
 

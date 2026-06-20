@@ -2,6 +2,7 @@
 title: Coaching troubleshooting
 description: Troubleshooting actions can help resolve common issues when setting up or running Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/coaching/coaching-troubleshooting.html
 release: xanadu
 product: Coaching
 classification: coaching
@@ -55,20 +56,20 @@ I need to override ACLs and trainings for the Assigned Training related list on 
 
 </td><td>
 
-Implement Coaching [extension points](https://www.servicenow.com/docs/access?context=extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US):-   CoachingExtensionPoint
+Implement Coaching extension points:-   CoachingExtensionPoint
 -   CoachingACLExtensionPoint
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/coaching-reference.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

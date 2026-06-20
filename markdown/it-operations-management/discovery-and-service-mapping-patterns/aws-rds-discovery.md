@@ -2,6 +2,7 @@
 title: Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns
 description: Discovery and Service Mapping Patterns uses the Amazon AWS Relational Database Service pattern to find Amazon RDS components in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-rds-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -24,14 +25,14 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
 
 -   Install the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   On the ServiceNow AI Platform, configure AWS credentials, using a secret key and an access key.
--   [Create a service account](../../cloud-management-v2-setup/task/aws-first-cld-and-srvc-accts.md). Set the **Account ID** to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
+-   [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the **Account ID** to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
 -   Set read-only permissions for these REST APIs:
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances&amp;DBInstanceIdentifier=&lt;input\_object\_id&gt; for events discovery
     -   https://tagging.&lt;REGION&gt;.amazonaws.com/ for tags discovery
 -   Ensure to place the MID Server inside the Amazon cloud.
 -   For Cloud Discovery, download the Discovery and Service Mapping pattern from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 
@@ -264,5 +265,5 @@ The Amazon AWS Relational Database Service pattern collects tags and populates t
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

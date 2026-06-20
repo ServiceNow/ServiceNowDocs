@@ -2,6 +2,7 @@
 title: AP Invoice API
 description: Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.Processes an automated invoice in commerce XML \(cXML\) format.Processes an automated invoice in JSON format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/ap-invoice-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://www.servicenow.com/docs/access?context=acc-pay-invoice-processing&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US).
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see .
 
-Refer to [AP Invoice API Developer Guide](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#) for help with the following tasks:
+Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
 -   Define a custom field for invoices, invoice lines, and invoice tax lines.
 -   Map the custom field between source and target tables.
@@ -26,7 +27,7 @@ Refer to [AP Invoice API Developer Guide](../../guides/APInvoiceAPI/concept/apIn
 
 **Note:** The maximum default payload size is 100 records. This value is configurable in the **sn\_spend\_intg.ap.invoice.create.api.record\_limit** system property.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml
 
@@ -36,13 +37,13 @@ Use the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_fie
 
 For additional cXML resources, refer to the **cXML Reference Guide** at [https://xml.cxml.org](https://xml.cxml.org/current/cXMLReferenceGuide.pdf).
 
-Credentials for this API are included in the payload. You can set up credentials in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#).
+Credentials for this API are included in the payload. You can set up credentials in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md).
 
 You can define custom invoice fields for the request body. Use the following flow to add custom fields, map them to target tables, and format them for availability in the payload:
 
-1.  [Add custom fields for invoice import](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-2.  [Map custom fields between source and target tables](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-3.  [Map custom fields to a payload source format](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
+1.  [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
+2.  [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
+3.  [Map custom fields to a payload source format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
 
 ### URL format
 
@@ -321,8 +322,8 @@ Account number of the general ledger \(GL\) used to generate the invoice.Target 
 
 See also:
 
--   [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US)
--   [Ledger account](https://www.servicenow.com/docs/access?context=ledger-account&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -529,7 +530,7 @@ Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -566,7 +567,7 @@ This setting is also used to fetch credentials from the Source system credential
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -731,9 +732,9 @@ Role required: sn\_spend\_intg.procurement\_integrator
 
 You can define custom invoice fields for the request body. Use the following flow to add custom fields, map them to target tables, and format them for availability in the payload:
 
-1.  [Add custom fields for invoice import](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-2.  [Map custom fields between source and target tables](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
-3.  [Map custom fields to a payload source format](../../guides/APInvoiceAPI/concept/apInvoice-dev-guide.md#)
+1.  [Add custom fields for invoice import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
+2.  [Map custom fields between source and target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
+3.  [Map custom fields to a payload source format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/developer-guides/apInvoice-dev-guide.md)
 
 ### URL format
 
@@ -884,7 +885,7 @@ invoices.erp\_number
 
 </td><td>
 
-Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see [Purchase order integration](https://www.servicenow.com/docs/access?context=purchase-order-integration-2&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US).Target field: u\_erp\_number
+Unique number generated within the ERP \(Enterprise Resource Planning\) system for the purchase order. For information, see .Target field: u\_erp\_number
 
 Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
@@ -1029,8 +1030,8 @@ Maximum length: 40
 
 See also:
 
--   [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US)
--   [Ledger account](https://www.servicenow.com/docs/access?context=ledger-account&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US)
+-   
+-   
 
 </td></tr><tr><td>
 
@@ -1658,12 +1659,12 @@ invoices.target\_erp
 
 </td><td>
 
-ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See [ERP source](https://www.servicenow.com/docs/access?context=erp-source&version=xanadu&pubname=xanadu-source-to-pay-operations&ft:locale=en-US).Data type: String
+ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See .Data type: String
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1696,7 +1697,7 @@ Specifies the source system from which the request is coming from.This setting h
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

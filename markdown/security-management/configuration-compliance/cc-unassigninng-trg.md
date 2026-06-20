@@ -2,6 +2,7 @@
 title: Removing assignments from Configuration Compliance remediation tasks
 description: You can clear the Assigned to and Assignment group fields on remediation tasks and their associated test results directly from the test result records and remediation tasks that you determine might be incorrectly assigned to you or your groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-unassigninng-trg.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -33,7 +34,7 @@ If you select **Unassign**, you are prompted that all the associated test result
 
 Any records that you update with either the UI button or manually, are displayed on the Unassigned module under Configuration Compliance.
 
-For the steps to reassign records using the **Unassigned** UI action, see [Remove assignments from remediation tasks for you or your groups](../task/cc-unassign-trg.md).
+For the steps to reassign records using the **Unassigned** UI action, see [Remove assignments from remediation tasks for you or your groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-unassign-trg.md).
 
 ## System property and notifications
 
@@ -56,11 +57,11 @@ The **Reassignment count for assignment rules** scheduled job runs daily and pos
 
 The job also counts any records that are manually unassigned. Both the manual counts and the counts that are gathered by this feature are posted on the Vulnerability Assignment Rules list in two columns: **Reassignment count - manual items** and **Reassignment count - unassigned items**.
 
-![Reassignment count for an assignment rule for remediation task.](../image/cc-unassigned-count.png)
+\[Omitted image "cc-unassigned-count.png"\] Alt text: Reassignment count for an assignment rule for remediation task.
 
 1.  As a vulnerability administrator, you can view these counts by navigating to **Configuration Compliance** &gt; **Administration** &gt; **Assignment Rules**.
 2.  Select the gear icon in the upper right of the list and select the **Reassignment count - manual items**, and **Reassignment count - unassigned items** for display.
 3.  Any RT that was originally assigned by a rule but later was automatically or manually reassigned, contains a reference to the original rule in the list view.
 
-**Parent Topic:**[Configuration Compliance assignment rules overview](cc-assignment-rules.md)
+**Parent Topic:**[Configuration Compliance assignment rules overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-assignment-rules.md)
 

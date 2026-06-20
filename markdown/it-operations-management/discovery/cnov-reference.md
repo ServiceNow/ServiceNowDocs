@@ -2,6 +2,7 @@
 title: Agent Client Collector for Kubernetes – Visibility Reference
 description: Reference information about Agent Client Collector for Kubernetes – Visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-reference.html
 release: xanadu
 product: Discovery
 classification: discovery

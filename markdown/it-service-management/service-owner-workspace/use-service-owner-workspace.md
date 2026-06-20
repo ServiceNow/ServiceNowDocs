@@ -2,6 +2,7 @@
 title: Using Service Owner Workspace
 description: Use Service Owner Workspace to monitor the health of your services and your customer satisfaction. View outages, critical incidents, and change requests associated with services and offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/use-service-owner-workspace.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,11 +16,11 @@ breadcrumb: [Service Owner Workspace, IT Service Management]
 
 Use Service Owner Workspace to monitor the health of your services and your customer satisfaction. View outages, critical incidents, and change requests associated with services and offerings.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Use Service Owner Workspace](../image/SOWUseBanner2.png "Navigate")
+\[Omitted image "SOWUseBanner2.png"\] Alt text: Use Service Owner Workspace
 
 </td></tr></tbody>
 </table>With Service Owner Workspace you can monitor metrics and analyze the health of your services from a single user interface. Get to know how metric models are created and configured for service offerings and how they are used in Service Owner Workspace.
@@ -54,5 +55,5 @@ System administrators can configure the workspace according to the specific need
 -   Configure the metric weights that contribute to performance scores within the workspace.
 -   Configure the metric thresholds for each metric that displays in the workspace.
 
-Start here: [Access Service Owner Workspace](../task/access-service-owner-workspace.md).
+Start here: [Access Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/access-service-owner-workspace.md).
 

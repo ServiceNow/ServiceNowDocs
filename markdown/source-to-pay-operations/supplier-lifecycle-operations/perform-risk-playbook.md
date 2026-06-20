@@ -2,6 +2,7 @@
 title: Perform risk assessment playbook
 description: The Perform risk assessment playbook includes activities that enable you to conduct risk assessments for the supplier that you are onboarding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/perform-risk-playbook.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ The Perform risk assessment playbook includes activities that enable you to cond
 
 The type of flow that is triggered in the Perform risk assessment playbook depends on the plugins that you have installed.
 
-![Perform risk assessment playbook](../image/perform-risk-playbook.png "Perform risk assessment playbook")
+\[Omitted image "perform-risk-playbook.png"\] Alt text: Perform risk assessment playbook
 
 <table id="table_ohx_dmp_11c"><thead><tr><th>
 
@@ -33,7 +34,7 @@ Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_sup
 
 </td><td>
 
-The Perform risk assessment playbook flow creates risk and tiering assessments to verify the eligibility of the supplier. For more information, see [Risk assessment flow when only Vendor Risk Management is installed](risk-flow-slo-vrm.md).
+The Perform risk assessment playbook flow creates risk and tiering assessments to verify the eligibility of the supplier. For more information, see [Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-vrm.md).
 
 </td></tr><tr><td>
 
@@ -48,13 +49,13 @@ The Perform risk assessment playbook flow creates risk and tiering assessments t
 
 </td><td>
 
-The Perform risk assessment playbook flow create a due diligence request to verify the eligibility of the supplier. For more information, see [Risk assessment flow when Third-party Risk Due Diligence is installed](risk-flow-slo-tprm.md).
+The Perform risk assessment playbook flow create a due diligence request to verify the eligibility of the supplier. For more information, see [Risk assessment flow when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.md).
 
 </td></tr></tbody>
-</table>-   **[Risk assessment flow when only Vendor Risk Management is installed](risk-flow-slo-vrm.md)**  
+</table>-   **[Risk assessment flow when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-vrm.md)**  
 If you have installed only the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin, the Perform risk assessment playbook triggers the flow that includes activities to verify the eligibility of the supplier by creating risk assessments.
--   **[Risk assessment flow when Third-party Risk Due Diligence is installed](risk-flow-slo-tprm.md)**  
+-   **[Risk assessment flow when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-slo-tprm.md)**  
 If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement.
 
-**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](../task/new-supplier.md)
+**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.md)
 

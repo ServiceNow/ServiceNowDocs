@@ -2,6 +2,7 @@
 title: Capabilities maps
 description: See the applications, or capabilities, at your disposal for achieving your business objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-product-adoption-roadmap/capabilities-map.html
 release: xanadu
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -23,13 +24,13 @@ You obtain separate capabilities maps for each instance, as when more than one i
 
 The status of the capabilities can be managed to identify which capabilities are being used, which aren’t in use, which are planned, and which are in the process of implementation. In addition, you’ll also see recommendations from your Impact squad for you to consider implementing.
 
-**Note:** If a stakeholder group has been enabled, the capabilities map only displays those instances that are associated with a stakeholder group. In case there’s an instance that isn't displayed in the capabilities map, confirm it’s associated with a stakeholder group. See [Group Views](group-views.md) for more information on stakeholder groups.
+**Note:** If a stakeholder group has been enabled, the capabilities map only displays those instances that are associated with a stakeholder group. In case there’s an instance that isn't displayed in the capabilities map, confirm it’s associated with a stakeholder group. See [Group Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/group-views.md) for more information on stakeholder groups.
 
 ## Homepage
 
 Capabilities maps are available in Impact from the **Product Adoption** menu. Capabilities maps provide a reference point into which applications you’re entitled to.
 
-![Shows the capabilities maps based on the selected filters on the Product Adoption page.](../image/cap-map-par.png)
+\[Omitted image "cap-map-par.png"\] Alt text: Shows the capabilities maps based on the selected filters on the Product Adoption page.
 
 If you have more than one instance, select an instance from the drop-down selection menu. The summary information displayed references the selected instance.
 

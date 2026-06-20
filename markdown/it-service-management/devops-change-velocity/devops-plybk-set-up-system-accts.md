@@ -2,6 +2,7 @@
 title: Set up integration user account in DevOps Change Velocity
 description: Set up the integration user account to enable integrating with your third-party tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/devops-plybk-set-up-system-accts.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -33,15 +34,15 @@ The default integration user credential will be applicable for all the tools. Ho
 
 1.  Set the integration user password in one of the following ways.
 
-<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d412315e88">
+<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d43337e88">
 
 Option
 
-</th><th align="left" id="d412315e91">
+</th><th align="left" id="d43337e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d412315e97">
+</th></tr></thead><tbody><tr><td id="d43337e97">
 
 **Using workspace**
 
@@ -51,30 +52,30 @@ Steps
 2.  From the Accounts and users widget on the Home page, select **Set up system accounts**. You’ll be redirected to **Administration &gt; Set up system accounts**.
 3.  In the DevOps integration user account section, select **Set new password**.
 
-![Setting up new integration user password through workspace.](../image/setupsystemaccountwrk1.png)
+\[Omitted image "setupsystemaccountwrk1.png"\] Alt text: Setting up new integration user password through workspace.
 
 4.  By default, the DevOps integration user is selected. You can also select another user from the list.
 
-![Selecting a DevOps integration user through workspace.](../image/setupsystemaccount-2.png)
+\[Omitted image "setupsystemaccount-2.png"\] Alt text: Selecting a DevOps integration user through workspace.
 
 **Note:** The **Username** field will only list the users that have the sn\_devops.integration role.
 
 5.  Enter a password for the user and select **Set password**.
 
-![Selecting Set password for DevOps integration user account through workspace.](../image/setupsystemaccount-3.png)
+\[Omitted image "setupsystemaccount-3.png"\] Alt text: Selecting Set password for DevOps integration user account through workspace.
 
-</td></tr><tr><td id="d412315e177">
+</td></tr><tr><td id="d43337e177">
 
 **Using Classic UI**
 
 </td><td>
 
-Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see [Set password for a user](https://www.servicenow.com/docs/access?context=reset-your-password&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Set a password for the DevOps integration user by navigating to **All** &gt; **User Administration** &gt; **Users**. For more information, see Set password for a user.
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
--   [Onboard to DevOps Change Velocity using Workspace](onboarding-using-devops-change-workspace.md)
--   [Start integrating DevOps Change Velocity with third-party tools](../concept/integrating-devops-change-with-third-party-tools.md).
+-   [Onboard to DevOps Change Velocity using Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/onboarding-using-devops-change-workspace.md)
+-   [Start integrating DevOps Change Velocity with third-party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 

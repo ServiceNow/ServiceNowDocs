@@ -2,6 +2,7 @@
 title: Copy an image from the clipboard
 description: In addition to adding files to a message, you can also copy images to the clipboard and paste them into a message or reply.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_CopyAnImageFromTheClipboard.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -23,7 +24,7 @@ Role required: none
 
 1.  Click into the **Comment** box and add a comment.
 
-    ![Copy paste](../image/CopyPaste.png "Copy paste")
+    \[Omitted image "CopyPaste.png"\] Alt text: Copy paste
 
 2.  Click the **Add an image** button.
 
@@ -31,7 +32,7 @@ Role required: none
 
 3.  Right-click the **Paste an image here** box and select **Paste** to paste the image from the clipboard.
 
-    ![Copy pasted](../image/CopyPasted.png "Copy pasted")
+    \[Omitted image "CopyPasted.png"\] Alt text: Copy pasted
 
 4.  To add another image, repeat the previous steps.
 
@@ -43,10 +44,10 @@ Role required: none
 
 8.  To remove an image, click the trash can icon adjacent to the link.
 
-9.  To make changes to an existing image, click the edit icon \(![Pencil](../image/Pencil.png)\).
+9.  To make changes to an existing image, click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: Pencil\).
 
     **Note:** The copy/paste functionality is supported in Chrome, Firefox, and Internet Explorer 11.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

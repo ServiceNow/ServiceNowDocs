@@ -2,7 +2,10 @@
 title: Apply a work order template
 description: Work order templates enable users with the proper roles to automatically create work orders, tasks, and part requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_UseTheWorkOrderTemplate.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,12 +28,12 @@ Role required: wm\_admin or model\_manager
 
     The template information is used to:
 
-    -   Copy the short description, priority, and billable status to the work order. The system also copies the qualification group to the work order form if this field is present. Qualification groups are not required when [automatic qualification](../../planning-and-policy/concept/c_QualifyWorkOrders.md#AutomaticConfiguration) is configured. Work orders created from an incident, problem, or change request display the short description from the source task, even when a template is selected. Tasks for work orders created from templates always display the short description from the task template.
+    -   Copy the short description, priority, and billable status to the work order. The system also copies the qualification group to the work order form if this field is present. Qualification groups are not required when [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_QualifyWorkOrders.md) is configured. Work orders created from an incident, problem, or change request display the short description from the source task, even when a template is selected. Tasks for work orders created from templates always display the short description from the task template.
     -   Create work orders tasks, using the information from the work task templates.
 
-        **Note:** The fields such as **Territory** and **Dispatch Group** are automatically populated based on the selected **Location** irrespective of the work order template or state only if the **Field\_Service\_Territories** territory model is enabled. For more information, see [Enable the Field Service territory model](../../field-service-management/task/enable-territory-model.md).
+        **Note:** The fields such as **Territory** and **Dispatch Group** are automatically populated based on the selected **Location** irrespective of the work order template or state only if the **Field\_Service\_Territories** territory model is enabled. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
     -   Create the parts requirements. If a part specified is out of stock, the system displays a message naming the part.
 
-**Parent Topic:**[Managing work orders and work order tasks](../../field-service-management/concept/managing-work-orders.md)
+**Parent Topic:**[Managing work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/managing-work-orders.md)
 

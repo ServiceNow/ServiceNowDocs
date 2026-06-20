@@ -2,13 +2,14 @@
 title: Manual and Automated Sharing using flows
 description: This section describes how to configure manual sharing via GUI and automated intelligence sharing between TISC instances. It outlines the setup of inbound and outbound intelligence profiles, required roles, authentication configuration, and exclusion rules in both the source and target instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-manual-automated-sharing.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-02-24"
 reading_time_minutes: 2
-breadcrumb: [Share Threat Intelligence data between TISC instances, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Manual and Automated Sharing using flows

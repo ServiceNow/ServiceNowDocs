@@ -2,6 +2,7 @@
 title: Add signatories in self-served contract request
 description: Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d400155e91">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d373605e91">
 
 Option
 
-</th><th align="left" id="d400155e94">
+</th><th align="left" id="d373605e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d400155e100">
+</th></tr></thead><tbody><tr><td id="d373605e100">
 
 **Internal**
 
@@ -53,7 +54,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d400155e141">
+</td></tr><tr><td id="d373605e141">
 
 **External**
 
@@ -68,5 +69,5 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a self-served contract request](../concept/cncore-request-ss-contract-1.md)
+**Parent Topic:**[Use a self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

@@ -2,6 +2,7 @@
 title: View a remediation task
 description: You can view, or, alternatively, create a remediation task and perform remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/view-cc-tr-group.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Configuration Compliance reference information, Configuration Compl
 
 You can view, or, alternatively, create a remediation task and perform remediation.
 
-**Important:** You can view the remediation tasks in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/concept/vmws-list-page.md).
+**Important:** You can view the remediation tasks in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-manager-workspace/vmws-list-page.md).
 
 ## Before you begin
 
@@ -266,5 +267,5 @@ Status and states of change request approvals associated with this remediation t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuration Compliance reference information](../reference/cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

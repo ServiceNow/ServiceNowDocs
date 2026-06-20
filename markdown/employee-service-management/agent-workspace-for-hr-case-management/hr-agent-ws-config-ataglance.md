@@ -2,6 +2,7 @@
 title: Configure the At a Glance panel
 description: You can configure the At a Glance panel by adding or removing HR profile fields for the Employee Details and Contacts sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-config-ataglance.html
 release: xanadu
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -29,7 +30,7 @@ Role required: sn\_hr\_core.admin
 
 4.  In the **Form view and section**, click the **View name** dropdown and select the **At a Glance** field.
 
-    ![Configuring At a Glance](../image/hr-agent-workspace-at-a-glance-3.png)
+    \[Omitted image "hr-agent-workspace-at-a-glance-3.png"\] Alt text: Configuring At a Glance
 
 5.  Select the fields that you want to configure from Employee details and Contacts sections.
 

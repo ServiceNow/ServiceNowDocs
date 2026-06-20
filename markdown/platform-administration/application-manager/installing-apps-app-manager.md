@@ -2,6 +2,7 @@
 title: Installing applications, plugins, and products
 description: Application Manager enables you to install any applications, plugins, or products that are included in your license or that have been procured from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/installing-apps-app-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager

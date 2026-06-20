@@ -2,6 +2,7 @@
 title: Create New Branch form
 description: On the Create New Branch form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-create-new-branch-form.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

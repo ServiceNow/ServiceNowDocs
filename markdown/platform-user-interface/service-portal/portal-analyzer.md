@@ -2,6 +2,7 @@
 title: Portal Analyzer
 description: Get a summary of all widgets that appear on Service Portal pages. Use this data to better understand widget customizations and page usage.Run a scheduled job to get a summary of all widgets that appear on pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/portal-analyzer.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -27,12 +28,12 @@ You can export the list as a CSV, Excel, XML, JSON, or PDF file. Use the exporte
 
 The Portal Analyzer is active by default on your instance.
 
-**Parent Topic:**[Using portal analytics](using-portal-analytics.md)
+**Parent Topic:**[Using portal analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/using-portal-analytics.md)
 
 **Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduledJobs]
 
 ## Run the Portal Analyzer
 
@@ -57,5 +58,5 @@ The system creates a list of all the widgets on each page in your instance. You 
 
 ### What to do next
 
-Export the list as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade. For more information on exporting list data, see [List export](https://www.servicenow.com/docs/access?context=export-list-data&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Export the list as a CSV, Excel, XML, JSON, or PDF file to reference during a system upgrade. For more information on exporting list data, see List export.
 

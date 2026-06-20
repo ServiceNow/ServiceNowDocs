@@ -2,7 +2,10 @@
 title: Search for information using the customer portal
 description: Use the search feature on the customer portal to find information about a question or an issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_SearchForInfoUsingThePortal.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

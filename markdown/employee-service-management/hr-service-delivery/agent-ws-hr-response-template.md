@@ -2,6 +2,7 @@
 title: Use Response templates on an HR case
 description: Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-response-template.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,15 +24,15 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
 
-2.  Click the Lists icon \(![Lists icon](../reference/images/IconList.png)\) and select an HR case.
+2.  Click the Lists icon \(\[Omitted image "IconList.png"\] Alt text: Lists icon\) and select an HR case.
 
-3.  From the contextual sidebar, click the **Response Templates** icon \(![Response template icon](../reference/images/response-template-icon.png)\).
+3.  From the contextual sidebar, click the **Response Templates** icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\).
 
-    ![HR Agent WS response template](../reference/images/agent-ws-hr-response-template.png)
+    \[Omitted image "agent-ws-hr-response-template.png"\] Alt text: HR Agent WS response template
 
 4.  Select the Copy to clipboard button to copy all text and paste into the **Comments** or **Work notes** area.
 
-    **Note:** Use the space next to the **Search for Record** icon \(![Search for record icon](../image/agent-ws-hr-search-icon.png)\) to search for a specific response template.
+    **Note:** Use the space next to the **Search for Record** icon \(\[Omitted image "agent-ws-hr-search-icon.png"\] Alt text: Search for record icon\) to search for a specific response template.
 
 5.  Click **Post Comments**.
 

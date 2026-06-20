@@ -2,6 +2,7 @@
 title: Create a remote table
 description: Create a remote table so that you can see the data that you retrieved from an external source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/remote-tables/create-remote-table.html
 release: xanadu
 product: Remote Tables
 classification: remote-tables
@@ -25,7 +26,7 @@ When you designate a table as a remote table, keep the following points in mind:
 
 -   You can create a remote table using this form, or by using the standard Create Tables form that you access from **System Definition** &gt; **Tables**.
 
-    **Note:** To learn more about creating tables in an instance, see [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    **Note:** To learn more about creating tables in an instance, see Create a table.
 
 -   Before you create a remote table, you must have a good understanding of external data sources.
 
@@ -78,7 +79,7 @@ Remote Table
 
 </td><td>
 
-Option to designate this table as a remote table. A remote table is a table to which you can associate a script definition for retrieval of data from an external data source. Unlike a standard internal table, the data does not come from records in the current instance. To learn more about remote tables, see [Remote tables](../concept/remote-tables.md).
+Option to designate this table as a remote table. A remote table is a table to which you can associate a script definition for retrieval of data from an external data source. Unlike a standard internal table, the data does not come from records in the current instance. To learn more about remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/remote-tables.md).
 
 </td></tr></tbody>
 </table>4.  In the Columns section, use the **Table Columns** embedded list to add columns to the remote table like you do when you create columns for a standard internal table.
@@ -87,7 +88,7 @@ Option to designate this table as a remote table. A remote table is a table to w
 
 6.  In the Application Access section, define the scope protection for the remote table like you do when you define additional table options for a normal table.
 
-    For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+    For more information, see Application access settings.
 
 7.  Click **Submit**.
 
@@ -96,5 +97,5 @@ Option to designate this table as a remote table. A remote table is a table to w
 
 A remote table is created in the instance.
 
-**Parent Topic:**[Remote tables](../concept/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/remote-tables.md)
 

@@ -2,7 +2,10 @@
 title: Configure Pre-chat after upgrading
 description: If you have upgraded, some settings need to be configured to use Pre-chat effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-configure-pre-chat-upgrade.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For information about using pre-chat surveys to capture preliminary information from a customer, see [Pre-chat surveys](../concept/csm-pre-chat-overview.md). If you have upgraded, you must manually adjust some settings to use Pre-chat most effectively.
+For information about using pre-chat surveys to capture preliminary information from a customer, see [Pre-chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-pre-chat-overview.md). If you have upgraded, you must manually adjust some settings to use Pre-chat most effectively.
 
 ## Procedure
 

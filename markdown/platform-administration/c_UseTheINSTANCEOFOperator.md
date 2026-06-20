@@ -2,6 +2,7 @@
 title: The INSTANCEOF operator in reference qualifiers
 description: You can use the INSTANCEOF operator in a reference qualifier to shorten or simplify a complex class qualifier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_UseTheINSTANCEOFOperator.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -41,5 +42,5 @@ Using the INSTANCEOF operator, the reference qualifier is rewritten as follows b
 ^ORsys_class_name=cmdb_ci_netgear
 ```
 
-**Parent Topic:**[Reference qualifiers](c_ReferenceQualifiers.md)
+**Parent Topic:**[Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ReferenceQualifiers.md)
 

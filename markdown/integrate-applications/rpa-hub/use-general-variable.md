@@ -2,6 +2,7 @@
 title: Use the Variable component
 description: Create a variable in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-general-variable.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,12 +22,12 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Variable component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Variable component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
-1.  To use the Variable component, see [Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md).
+1.  To use the Variable component, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-variables-rpa-studio.md).
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/general-component.md)
 

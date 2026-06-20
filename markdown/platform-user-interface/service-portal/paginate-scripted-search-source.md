@@ -2,6 +2,7 @@
 title: Paginate search source results
 description: Limit the number of results that a search source displays at one time to improve performance. End users can load more results as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/paginate-scripted-search-source.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -41,8 +42,8 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
     |Scope|Method|
     |-----|------|
-    |Global|setLocation\(\) in [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
-    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)|
+    |Global|setLocation\(\) in GlideRecord - Global|
+    |Scoped application|chooseWindow\(\) in GlideRecord - Scoped|
 
     The following is an example data fetch script for a global search source that queries the incident table and paginates results.
 
@@ -103,7 +104,7 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
 The search page only returns the defined number of results at one time. When a user selects **Load more results**, the search source re-executes the query or data fetch script.
 
-![Paginated results](../image/load-more-results.png)
+\[Omitted image "load-more-results.png"\] Alt text: Paginated results
 
-**Parent Topic:**[Define a search source](add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/add-table-search-source.md)
 

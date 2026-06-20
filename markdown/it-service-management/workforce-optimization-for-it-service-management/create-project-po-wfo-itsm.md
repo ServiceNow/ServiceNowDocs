@@ -2,6 +2,7 @@
 title: Create a Process Mining project for a KPI group
 description: Create Process Mining projects for each KPI group and its assignment groups. One project is created per KPI group per table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/create-project-po-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -19,10 +20,10 @@ Create Process Mining projects for each KPI group and its assignment groups. One
 
 Your administrator:
 
--   Must have created templates on tables that you want to create the process projects for. For information on creating templates, see [Create Process Mining templates](create-template-po-wfo-itsm.md).
+-   Must have created templates on tables that you want to create the process projects for. For information on creating templates, see [Create Process Mining templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/create-template-po-wfo-itsm.md).
 -   Must run the **Process Mining - WFO Remine Projects** on-demand scheduled job when additional data is added to the projects so that you get the up-to-date process insights into your projects. The job is run on all projects that meet set criteria such as the frequency to remine that is set using the **promin.wfo.run\_frequency** system property. Also, the scheduled job updates the project and remine when there are any changes to the assignment groups.
 
-    For more information, see [Workforce Optimization for ITSM integration with Process Mining](../reference/configurable-wfo-itsm-process-optimization.md).
+    For more information, see [Workforce Optimization for ITSM integration with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-process-optimization.md).
 
 
 Role required: sn\_process\_optimization\_analyst
@@ -63,10 +64,10 @@ After you mine the project, the Project Definition for Process Minings \(sn\_tea
 
     All the assignment groups associated with the KPI group for which you’ve created the project are updated in the filter condition of the table configuration.
 
-    For more information on mining data, see [Generate a model](https://www.servicenow.com/docs/access?context=generate-process-map&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+    For more information on mining data, see Generate a model.
 
     After any previous versions of Team Performance are upgraded to the latest version \(Team Performance App Version: 7.0.1\), all the previous projects will be removed for KPI groups that had multiple projects for assignment groups and new projects will be created for each of them.
 
 
-**Parent Topic:**[Identifying bottlenecks using Process Mining integration with Workforce Optimization for ITSM](../concept/use-process-optimization-wfo-itsm.md)
+**Parent Topic:**[Identifying bottlenecks using Process Mining integration with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/use-process-optimization-wfo-itsm.md)
 

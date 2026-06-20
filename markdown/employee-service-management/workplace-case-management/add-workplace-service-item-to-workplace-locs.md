@@ -2,6 +2,7 @@
 title: Make a workplace service item available to a workplace location
 description: Make a workplace service item available to specific workplace locations. Select any workplace location such as a region, site, campus, building, floor, area, or a space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.html
 release: xanadu
 product: Workplace Case Management
 classification: workplace-case-management
@@ -62,7 +63,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     3.  To move the workplace location to the **Workplace location List** column on the right, use the add-remove icon.
 
-        Select the add-remove icon \(![Add-remove icon.](../../wsd-reservation-management/image/add-remove-icon.png)\).
+        Select the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.\).
 
 8.  Click **Save**.
 
@@ -72,7 +73,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     2.  To change the cost, select the preview icon next to the workplace location.
 
-        Select the preview icon \(**Open record**![Preview icon.](../image/preview-icon.png)\).
+        Select the preview icon \(**Open record**\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\).
 
     3.  In the preview dialog box, click.
 
@@ -85,5 +86,5 @@ Select workplace locations where the workplace item must be available. Employees
 
 The workplace service item will now be available to order at the specified locations. The cost of the workplace item at a location depends on the cost specified on its nearest workplace location in the workplace location hierarchy. For example, if a cost is specified for a campus and also for its building, then the cost that is specified on the building is applied.
 
-**Parent Topic:**[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+**Parent Topic:**[Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-case-management/add-workplace-service-items.md)
 

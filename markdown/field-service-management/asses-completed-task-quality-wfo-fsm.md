@@ -2,7 +2,10 @@
 title: Assess the quality of completed tasks
 description: Assess the ability of your agents to resolve tasks or the quality of their completed tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/asses-completed-task-quality-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -23,7 +26,7 @@ You can create an assessment from an interaction or any task type.
 
 When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
-If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score. For more information, see [Assess a trainee](https://www.servicenow.com/docs/access?context=assess-trainee&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score. For more information, see Assess a trainee.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -35,40 +38,40 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Coaching \(![Coaching icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-new.png)\) icon.
+2.  Click the Coaching \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\) icon.
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d92027e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d38837e109">
 
 To
 
-</th><th align="left" id="d92027e112">
+</th><th align="left" id="d38837e112">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d92027e118">
+</th></tr></thead><tbody><tr><td id="d38837e118">
 
 **Perform adhoc assessments**
 
 </td><td>
 
-1.  Click the Lists icon \(![Lists icon.](../../workforce-optimization-for-customer-service-configurable/image/list-new.png)\).
+1.  Click the Lists icon \(\[Omitted image "list-new.png"\] Alt text: Lists icon.\).
 2.  Select any record, such as a work order task, for which you want to create an assessment.
-3.  Select the Assessments icon \(![Coaching Assessment icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-assessment-new.png)\).
+3.  Select the Assessments icon \(\[Omitted image "coaching-assessment-new.png"\] Alt text: Coaching Assessment icon.\).
 
 The assessment screen appears in the right panel.
 
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d92027e158">
+</td></tr><tr><td id="d38837e158">
 
 **Use assessments triggered by coaching opportunities**
 
 </td><td>
 
-1.  Click the Coaching icon \(![Coaching icon.](../../workforce-optimization-for-customer-service-configurable/image/coaching-new.png)\).
+1.  Click the Coaching icon \(\[Omitted image "coaching-new.png"\] Alt text: Coaching icon.\).
 2.  Select any record for which you want to create an assessment.
 
 **Note:** Click the **Active Assessments** tab to view assessments of all teams for which you are a manager or an additional manager.
@@ -172,5 +175,5 @@ Training to assign to the trainee.You can also assign learning tasks from course
     -   To complete the ad hoc assessment, click **Save**.
     -   To complete assessments creating using coaching opportunities, click **Complete assessment**.
 
-**Parent Topic:**[Coaching in Workforce Optimization for Field Service](../concept/coaching-wfo-fsm.md)
+**Parent Topic:**[Coaching in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/coaching-wfo-fsm.md)
 

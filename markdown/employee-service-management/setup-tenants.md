@@ -2,7 +2,10 @@
 title: Setting up the ServiceNow instance for Microsoft Teams integration
 description: Set up your ServiceNow instance for the Microsoft Teams integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/setup-tenants.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -23,10 +26,10 @@ Use the self-configured app or pre-published app configuration based on the foll
 
 For best practices and guidelines, refer to the Knowledge base article: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1586849](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1586849).
 
--   **[Setup for integrating pre-published apps with Microsoft Teams](setup-multi-tenant.md)**  
+-   **[Setup for integrating pre-published apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-multi-tenant.md)**  
 Prepare your environment to set up and configure your ServiceNow instance for Microsoft Teams integrations using the pre-published app configuration.
--   **[Setup for integrating self-configured apps with Microsoft Teams](setup-single-tenant.md)**  
+-   **[Setup for integrating self-configured apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-single-tenant.md)**  
 Prepare your environment to set up and configure ServiceNow for Microsoft Teams integrations using the self-configured app.
 
-**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](setup-sn-ms-teams.md)
+**Parent Topic:**[Integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-sn-ms-teams.md)
 

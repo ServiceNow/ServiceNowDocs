@@ -2,6 +2,7 @@
 title: Syntax editor macros
 description: Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/r\_SyntaxEditorMacros.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Syntax editor plugin, JavaScript syntax editor, Scripting, Building
 
 Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 
-Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create or modify a script macro](../task/t_ManageScriptMacros.md).
+Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create or modify a script macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/t_ManageScriptMacros.md).
 
 -   **vargr**
     -   Inserts a standard GlideRecord query for a single value.
@@ -98,5 +99,5 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
         ```
 
 
-**Parent Topic:**[Syntax editor plugin](../concept/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_SyntaxEditorPlugin.md)
 

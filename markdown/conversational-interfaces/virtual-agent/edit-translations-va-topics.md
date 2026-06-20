@@ -2,6 +2,7 @@
 title: Edit translations for Virtual Agent topics
 description: A Virtual Agent admin user can edit and publish translations directly in Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/edit-translations-va-topics.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -29,14 +30,14 @@ Role required: virtual\_agent\_admin or admin
 
     The Edit Translations form opens.
 
-    ![Virtual Agent Designer Languages page Translations tab. Lock/unlock and Machine Translate controls, highlighted here, are visible when configured.](../images/edit-languages-va-topic-new.png)
+    \[Omitted image "edit-languages-va-topic-new.png"\] Alt text: Virtual Agent Designer Languages page Translations tab. Lock/unlock and Machine Translate controls, highlighted here, are visible when configured.
 
 3.  On the Edit Translations form, you can do any of the following:
 
     -   Unlock fields and enter translations directly on the form.
     -   If it is configured in the Localization Framework, use machine translation to fill in the fields.
 
-        To set up machine translation, see [Create a translator configuration](https://www.servicenow.com/docs/access?context=create-custom-translator&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+        To set up machine translation, see Create a translator configuration.
 
     -   Export files to send to a third party for translation.
 
@@ -53,7 +54,7 @@ Role required: virtual\_agent\_admin or admin
 
 Once translations are published, they are made available to Virtual Agent topics that use keywords dynamically.
 
-If your topic uses Natural Language Understanding \(NLU\), train your localized models. You may also need to map them to the topic. Then test and publish your localized models to ensure that native speakers can access localized intents. For more information, see [Map a topic to a secondary NLU model](map-nlu-language-model.md) and [Test topic and NLU model translations](test-nlu-language-model.md).
+If your topic uses Natural Language Understanding \(NLU\), train your localized models. You may also need to map them to the topic. Then test and publish your localized models to ensure that native speakers can access localized intents. For more information, see [Map a topic to a secondary NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/map-nlu-language-model.md) and [Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/test-nlu-language-model.md).
 
-**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

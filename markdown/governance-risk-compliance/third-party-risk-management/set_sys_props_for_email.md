@@ -2,6 +2,7 @@
 title: Enable email with third-party contacts
 description: Configure email communication with third-party contacts to enable email notification of assessments and issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/set\_sys\_props\_for\_email.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** Third-party contacts see your organization's name in all references on the Third-party portal. You specify the name in the `sn_vdr_risk_asmt.company.name` property setting. See [Configure TPRM properties](tprm-properties-configure.md).
+**Note:** Third-party contacts see your organization's name in all references on the Third-party portal. You specify the name in the `sn_vdr_risk_asmt.company.name` property setting. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Procedure
 
@@ -29,6 +30,6 @@ Role required: admin
 
 2.  Select both the **Email sending enabled** and **Email receiving enabled** check boxes and then select **Save**.
 
-    ![Enable both outbound and inbound email.](../../grc-vendor-risk/image/email-props.png)
+    \[Omitted image "email-props.png"\] Alt text: Enable both outbound and inbound email.
 
 

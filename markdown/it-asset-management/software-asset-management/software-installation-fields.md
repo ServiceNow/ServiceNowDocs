@@ -2,6 +2,7 @@
 title: Software installation fields
 description: Software Installation form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/software-installation-fields.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -166,5 +167,5 @@ Omit from suites
 Check box for not counting the software install as a component of a suite during reconciliation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/references.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with EMR Help
 description: Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/emr-help/components-installed-emr-help.html
 release: xanadu
 product: EMR Help
 classification: emr-help
@@ -15,7 +16,7 @@ breadcrumb: [EMR Help reference, EMR Help, Healthcare and Life Sciences Service 
 
 Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

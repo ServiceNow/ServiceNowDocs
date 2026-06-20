@@ -2,6 +2,7 @@
 title: Enhanced Requests Experience
 description: Improve your request management on Employee Center with the Enhanced Requests Experience that enables you to find and manage requests effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/my-requests-update-intro.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ You can edit the default filters **Status** and **Updated** available with the d
 
 **Note:** You must be on the Zurich release or the Employee Center version 38.0 release to use the Enhanced Requests Experience.
 
-![Enhanced Requests Experience page displays the request items on the Created for others.](../images/ereq-dec25.png "Enhanced Requests Experience")
+\[Omitted image "ereq-dec25.png"\] Alt text: Enhanced Requests Experience page displays the request items on the Created for others.
 
 The default number of requests shown on one page is 15. If it exceeds 15, pagination comes into effect.
 
@@ -35,8 +36,8 @@ Enhance the visibility of requests by using the **Filter by** option. You can on
 
 The multiple tab interface and the filter options are configurable. For more information, see:
 
--   [Set up request sources](../task/config-request-sources.md)
--   [Set up the Requests filter definition](../task/request-filter-def.md)
+-   [Set up request sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-request-sources.md)
+-   [Set up the Requests filter definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/request-filter-def.md)
 
 The **Requests** page is available on responsive view too. The filters are displayed with a **Show more** option when it exceeds the page length.
 

@@ -2,6 +2,7 @@
 title: Create a Mentoring program
 description: Create a customized mentoring program that can be adopted by a mentee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/create-mentoring-pgm.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -38,5 +39,5 @@ Role required: sn\_ecn.mentoring\_admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Configuring mentoring](../concept/configuring-mentoring-egd.md)
+**Parent Topic:**[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/configuring-mentoring-egd.md)
 

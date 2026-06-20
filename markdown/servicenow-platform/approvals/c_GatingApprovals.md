@@ -2,6 +2,7 @@
 title: Gating approvals
 description: A gating approval acts as a gate through which a request must pass before it can start.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/approvals/c\_GatingApprovals.html
 release: xanadu
 product: Approvals
 classification: approvals
@@ -24,10 +25,10 @@ Generate gating approvals with:
 |Approval rules|Can apply to the service catalog as well as any other task table.|
 |Item-based approvals|Flag specific catalog items as requiring specific approvals. Any requests for these items automatically require these approvals.|
 
--   **[Set up a gating approval via an approval rule](../task/t_SetUpAGatingApprViaApprovalRule.md)**  
+-   **[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)**  
 You can set up a gating approval via an approval rule.
--   **[Set up a gating approval based on the item being ordered](c_SetUpGatingApprBasedOnOrdItem.md)**  
+-   **[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)**  
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 
-**Parent Topic:**[Approval rules](c_ApprovalRules.md)
+**Parent Topic:**[Approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/approvals/c_ApprovalRules.md)
 

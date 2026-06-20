@@ -2,6 +2,7 @@
 title: Understanding investigation canvas actions
 description: This section describes the various actions that you can perform on the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-canvas-actions.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,7 +24,7 @@ Investigation canvas includes:
 4.  Edge actions
 5.  Map actions
 
-![TISC Investigation canvas view.](../image/tisc-investigation-canvas-view.png "Investigation Canvas")
+\[Omitted image "tisc-investigation-canvas-view.png"\] Alt text: TISC Investigation canvas view.
 
 |Action|Operation|
 |------|---------|
@@ -62,5 +63,5 @@ Investigation canvas includes:
 |Switch to unified vertical layout|Option to switch the investigation canvas view to unified vertical layout to enhance the clarity between the nodes.|
 |Switch to unified force layout|Option to switch the investigation canvas view to unified force layout to enhance the visualization of complex relationships between the nodes.|
 
-**Parent Topic:**[Working with Investigation Canvases](tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

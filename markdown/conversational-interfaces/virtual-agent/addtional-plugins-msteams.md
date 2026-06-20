@@ -2,6 +2,7 @@
 title: Plugins for Conversational Integration with Microsoft Teams
 description: Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin, and verify its additional plugins to enable other features for conversation design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/addtional-plugins-msteams.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -15,21 +16,21 @@ breadcrumb: [Integrating Virtual Agent with Microsoft Teams using the self-confi
 
 Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin, and verify its additional plugins to enable other features for conversation design.
 
-You must have either the virtual\_agent\_admin or admin role and the external\_app\_install\_admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+You must have either the virtual\_agent\_admin or admin role and the external\_app\_install\_admin role to activate these additional plugins. For details, see Activate a plugin.
 
 **Note:** Ensure that you have performed the following steps before verifying the activation of additional plugins required for Microsoft Teams.
 
 -   Installing of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
 
-    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](../task/activate-virtual-agent.md).
+    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 -   Downloading the Conversational Integration with Microsoft Teams app from the ServiceNow® Store.
 
-    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 -   Installing the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin in your ServiceNow instance.
 
-    For more information about installing Conversational Integration with Microsoft Teams, see [Install Conversational Integration with Microsoft Teams](../task/teams-install.md).
+    For more information about installing Conversational Integration with Microsoft Teams, see [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/teams-install.md).
 
 
 Verify the following plugins for Conversational Integration with Microsoft Teams.

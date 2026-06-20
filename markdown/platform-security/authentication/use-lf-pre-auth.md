@@ -2,6 +2,7 @@
 title: Use Location Filter in Pre Authentication Context
 description: Use the location filter criteria created in the Pre Authentication Context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/use-lf-pre-auth.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: admin
 
 Plugin required: **Zero Trust - Location Based Access** \(`com.snc.zero_trust_location_access`\).
 
-Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create location filter criteria](create-location-filter-criteria.md).
+Create a Location Filter with the countries that you want restrict access to the users based on the location. For more information, see [Create location filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/create-location-filter-criteria.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Create a Location Filter with the countries that you want restrict access to the
     -   Selecting the Allow access policy as the default policy denies the access to all users by default and only allows access when the policy conditions defined in the allow access policy evaluates to true.
     The example shows how you can restrict the logins from the specified locations. You can choose the Deny Access and the associated policy \(Deny Access\) as the Pre Authentication policy and specify the policy inputs and conditions.
 
-    ![Deny Policy Location](../images/deny-policy-location.png)
+    \[Omitted image "deny-policy-location.png"\] Alt text: Deny Policy Location
 
 2.  Select the information icon to open the **Deny Policy** record.
 
@@ -41,23 +42,23 @@ Create a Location Filter with the countries that you want restrict access to the
 
 3.  In the Deny Access Policy, under the Policy Inputs section, select **New**.
 
-    ![Deny Access Policy](../images/deny-policy-location-filter.png)
+    \[Omitted image "deny-policy-location-filter.png"\] Alt text: Deny Access Policy
 
 4.  Add the Location Filter input and **Save**.
 
     For example, APAC Region.
 
-    ![APAC Region Filter](../images/location-filter-criteria-input.png)
+    \[Omitted image "location-filter-criteria-input.png"\] Alt text: APAC Region Filter
 
     The filter is added as **Policy Inputs**.
 
 5.  Select the Policy Conditions tab and select **New**.
 
-    ![New policy condition for location filter](../images/new-policy-condition-location.png)
+    \[Omitted image "new-policy-condition-location.png"\] Alt text: New policy condition for location filter
 
 6.  In the Conditions page, provide the label, conditions, and set it to true.
 
-    ![Condition](../images/condition-location-filter.png)
+    \[Omitted image "condition-location-filter.png"\] Alt text: Condition
 
     **Note:**
 

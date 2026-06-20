@@ -2,6 +2,7 @@
 title: Create participants for a PDF document template
 description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/create-participant.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Define actions and the order of actions for participants. The type of action and
 
 -   Role required: sn\_hr\_core.admin
 -   You need to define participants only when you want to use the document template flow. If you only want to generate a PDF document, defining participants is not mandatory.
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](../concept/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
 
 ## Procedure
 

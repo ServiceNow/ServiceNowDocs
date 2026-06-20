@@ -2,6 +2,7 @@
 title: Install Unattended Robot Login Agent
 description: You can install the Unattended Robot Login Agent application in your Windows machine if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/install-rpa-runtime-login-agent.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -26,7 +27,7 @@ Ensure that you meet the following set up requirements:
 -   The idle timeout setting is turned off for the VDI pool.
 -   Communication with the ServiceNow instance host is enabled.
 
-Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](../../rpa-hub/task/download-installer-rpa.md).
+Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/download-installer-rpa.md).
 
 Role required: admin
 
@@ -51,9 +52,9 @@ Unattended Robot Login Agent does not support Multi-Factor Authentication \(MFA\
 
 You can see the following image on your Windows lock screen after installation.
 
-![Snapshot of the Unattended Robot Login Agent icon that appears on your Windows lock screen.](../image/login-agent-rpa-runtime.png "Unattended Robot Login Agent icon that appears on your Windows lock screen")
+\[Omitted image "login-agent-rpa-runtime.png"\] Alt text: Snapshot of the Unattended Robot Login Agent icon that appears on your Windows lock screen.
 
 ## What to do next
 
-Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](set-up-rpa-runtime.md).
+Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/set-up-rpa-runtime.md).
 

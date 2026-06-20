@@ -2,6 +2,7 @@
 title: Journeys on Now Mobile
 description: Journeys are created in the ServiceNow Journey designer application to help employees navigate multi-step transitions, such as onboarding, maternity leave, or an interdepartmental transfer. The Now Mobile application enables users to perform journey-related tasks from the convenience of their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery-for-mobile/journeys-mobile-now.html
 release: xanadu
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -39,5 +40,5 @@ Journeys are created in the ServiceNow® Journey designer application to help em
 -   Complete learning courses added by the organization or their manager.
 -   Receive notifications when a journey is created for them.
 
-**Parent Topic:**[HR Service Delivery for mobile](mobile-employee-experience-for-hr-service-delivery-1.md)
+**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

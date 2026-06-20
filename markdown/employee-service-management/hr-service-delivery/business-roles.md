@@ -2,6 +2,7 @@
 title: Business roles
 description: Business roles enable you to automatically provision applications to employees through licensed identity provider \(IDP\) services. If you are subscribed to HR Service Delivery, preconfigured integrations for select systems may be available to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/business-roles.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,17 +22,17 @@ The following integrations are available to use with new hire onboarding. These 
 
 **Note:** The lifecycle event for new hire onboarding is included as demo data with the Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 
--   [Okta integration for new hire onboarding](integrating-with-okta-service.md)
--   [Microsoft Azure AD integration for new hire onboarding](azure-active-directory-integration-for-new-hire-onboarding.md)
+-   [Okta integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrating-with-okta-service.md)
+-   [Microsoft Azure AD integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/azure-active-directory-integration-for-new-hire-onboarding.md)
 
 ## Activation information
 
 The Business Roles \[com.snc.businessroles\] plugin is automatically activated with the Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 
--   **[Configure a business role](../task/configure-business-role.md)**  
+-   **[Configure a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/configure-business-role.md)**  
 Create or modify a business role based on job function, geography, and so on.
--   **[Update the assign\_business\_roles\_catalog system property](../task/update-assign-business-roles-catalog-item-system-property.md)**  
+-   **[Update the assign\_business\_roles\_catalog system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/update-assign-business-roles-catalog-item-system-property.md)**  
 The **assign\_business\_roles\_catalog** system property enables you to assign business roles to users through a catalog item as part of a lifecycle event, and is included with the Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin. If you are using a custom catalog item with your lifecycle event, you must update the system property with the sys id of that item.
 
-**Parent Topic:**[Lifecyle events for enterprise](../reference/enterprise-onboarding-transitions-landing-page.md)
+**Parent Topic:**[Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/enterprise-onboarding-transitions-landing-page.md)
 

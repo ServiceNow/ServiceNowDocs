@@ -2,11 +2,12 @@
 title: Assignment Configuration New Record
 description: Use the Assignment Configuration new record form to create auto-assignments for regulatory events of the type regulatory alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Set up an approval configuration record, Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -141,5 +142,5 @@ Assignee \(group\)
 User group to which you want to assign the configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up an approval configuration record](../task/set-up-approval-configurator.md)
+</table>**Parent Topic:**[Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md)
 

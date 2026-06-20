@@ -2,6 +2,7 @@
 title: Exploring Federated ID
 description: Determine the users across multiple instances based on user name and email and provide a unique ID \(Federated ID\) to the user across instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/federated-id.html
 release: xanadu
 product: Identity
 classification: identity
@@ -15,7 +16,7 @@ breadcrumb: [Global Identity, Identity]
 
 Determine the users across multiple instances based on user name and email and provide a unique ID \(Federated ID\) to the user across instances.
 
-Federated ID is used to identity users across the multiple ServiceNow® instance. Based on the federated id the user can be identified and the accurate number of users across multiple instances can be determined. For more information, see [Federated ID](federated-id.md).
+Federated ID is used to identity users across the multiple ServiceNow® instance. Based on the federated id the user can be identified and the accurate number of users across multiple instances can be determined. For more information, see [Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/federated-id.md).
 
 **Note:** User name is required for generating Federated IDs.
 
@@ -28,11 +29,11 @@ After upgrading to the Xanadu release, the Federated ID Generation \(`com.glide.
 **Note:**
 
 -   User name is required for generating Federated IDs.
--   User name and email are used to generate Federated IDs by default. To update the fields for generating Federated IDs based on your requirement, see [Updating ID fields](../task/updating-id-fields.md).
+-   User name and email are used to generate Federated IDs by default. To update the fields for generating Federated IDs based on your requirement, see [Updating ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/identity/updating-id-fields.md).
 -   **Iamsync\_admin** role is required to update the configuration.
 -   If there are users with duplicate user names and email, then the Federated ID is generated only for one user. If the user name is null or empty, then the Federated ID is null.
 
-![Federated ID in sys_user table](../images/federated-id-sys.png)
+\[Omitted image "federated-id-sys.png"\] Alt text: Federated ID in sys\_user table
 
 Schema changes after the plugin installed are as follows:
 

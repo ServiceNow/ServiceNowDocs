@@ -2,6 +2,7 @@
 title: Use MID Server guided setup
 description: MID Server guided setup provides a sequence of tasks that help you install a MID Server with the proper user account and validate the MID Server. If you are setting up a MID Server for the first time, this is a good way to get one up and running in your environment quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/mid-server/use-mid-server-guidedsetup.html
 release: xanadu
 product: MID Server
 classification: mid-server
@@ -47,19 +48,19 @@ Each configuration activity provides the following resources to help you:
     -   If you have completed any of the MID Server installation and configuration tasks, click **Continue** to return to the task list.
     -   Select the MID Server icon in the progress bar on the left side of the category screen to display the MID Server category pane at any time.
 
-        ![MID Server installation progress indicator](../image/SelectMIDGuidedSetup.png "Continuing MID Server guided setup from the progress bar")
+        \[Omitted image "SelectMIDGuidedSetup.png"\] Alt text: MID Server installation progress indicator
 
 3.  Click **Continue**.
 
     The IT Operations Management Guided Setup category screen appears. The controls for starting the MID Server tasks are at the top of the list. These task must be completed before you can set up the other applications that rely on the MID Server.
 
-    ![MID Server Guided Setup category](../image/MIDServerGuidedSetupCategory.png)
+    \[Omitted image "MIDServerGuidedSetupCategory.png"\] Alt text: MID Server Guided Setup category
 
 4.  In the MID Server pane, click **Get Started**.
 
     The MID Server task list appears with a description of each task.
 
-    ![MID Server Guided Setup task list](../image/MIDServerGuidedSetupList.png)
+    \[Omitted image "MIDServerGuidedSetupList.png"\] Alt text: MID Server Guided Setup task list
 
 5.  Click **Configure** to create the MID Server user and follow the instructions in the help pane that appears on the right side of the screen.
 
@@ -69,7 +70,7 @@ Each configuration activity provides the following resources to help you:
 
     The view returns to the task list. Notice that the circular progress indicator for the category shows 33% of the MID Server configuration complete. The progress indicator on the left side of the screen shows the completion percentage for all the IT Operations Management tasks.
 
-    ![MID Server Guided Setup completion percentage](../image/MIDServerGuidedInProgress.png)
+    \[Omitted image "MIDServerGuidedInProgress.png"\] Alt text: MID Server Guided Setup completion percentage
 
 7.  Click **Configure** for the next task, **Download &amp; Install MID**.
 
@@ -80,5 +81,5 @@ Each configuration activity provides the following resources to help you:
 
 ## What to do next
 
-If necessary, [deploy multiple MID Servers from a single host](t_InstallMultplMIDSvrOnASingleSys.md#) in your network. Otherwise, proceed to [configure your MID Server](../concept/c_MIDServerConfiguration.md).
+If necessary, [deploy multiple MID Servers from a single host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/mid-server/t_InstallMultplMIDSvrOnASingleSys.md) in your network. Otherwise, proceed to [configure your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 

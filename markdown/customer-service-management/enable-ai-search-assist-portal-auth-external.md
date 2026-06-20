@@ -2,7 +2,10 @@
 title: Configure AI Search Assist in the for authenticated external users
 description: Enable the AI Search Assist to search knowledge articles in the Customer and Consumer Service Portals. It applies for authenticated external users with snc\_external role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/enable-ai-search-assist-portal-auth-external.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,11 +18,11 @@ Enable the AI Search Assist to search knowledge articles in the Customer and Con
 
 ## Before you begin
 
-[Activate Customer Service Management](t_ActivateCustomerService.md)
+[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/t_ActivateCustomerService.md)
 
-You must configure AI Search for the Customer and Consumer Service Portals. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+You must configure AI Search for the Customer and Consumer Service Portals. For more information, see Enable and configure AI Search in Service Portal.
 
-You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI Search feature. For more information on the widgets, see [Typeahead Search widget](https://www.servicenow.com/docs/access?context=typeahead-search-widget&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) and [AI Search Assist widget](https://www.servicenow.com/docs/access?context=ais-assist-widget&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI Search feature. For more information on the widgets, see Typeahead Search widget and AI Search Assist widget.
 
 Role required: admin
 
@@ -39,5 +42,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[AI Search Assist for authenticated external users](../concept/enable-ai-search-for-portal-auth-external.md)
+**Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/enable-ai-search-for-portal-auth-external.md)
 

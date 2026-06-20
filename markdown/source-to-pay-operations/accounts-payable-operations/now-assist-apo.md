@@ -2,6 +2,7 @@
 title: Now Assist for Accounts Payable Operations \(APO\)
 description: Use the ServiceNow Now Assist for APO application to help your fulfillers become more productive and efficient as they work. Through generative AI, you can enable your fulfillers to automatically create cases, summarize and ingest the invoices, and then use workflows to perform end-to-end invoice processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/now-assist-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -19,15 +20,15 @@ Use the ServiceNow® Now Assist for APO application to help your fulfillers beco
 
 <table id="table_yd4_xmc_wcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for APO](exploring-now-assist-apo.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/exploring-now-assist-apo.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for APO application to get started](../task/configuring-now-assist-apo.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for APO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use the generative AI capabilities that are offered by Now Assist for APO](using-now-assist-apo.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities that are offered by Now Assist for APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -53,7 +54,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Accounts Payable fulfillers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Accounts Payable fulfillers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

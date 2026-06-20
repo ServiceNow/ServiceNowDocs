@@ -2,6 +2,7 @@
 title: Supplier Information tab
 description: The Supplier Information tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-workspace/supp-info-tab.html
 release: xanadu
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Source-to-Pay Workspace Case Details page, SLO landing page, Source
 
 The **Supplier Information** tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 
-![Supplier Information tab.](../image/supp-info-tab.png "Supplier Information tab")
+\[Omitted image "supp-info-tab.png"\] Alt text: Supplier Information tab.
 
 ## Sections
 

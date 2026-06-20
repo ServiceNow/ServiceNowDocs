@@ -2,6 +2,7 @@
 title: Session debug
 description: Enable session debugging to display debugging messages in the user interface.Display session debug logs to help diagnose script and application problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/c\_SessionDebug.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,9 +16,7 @@ breadcrumb: [Debugging scripts, Scripting, API implementation, API implementatio
 
 Enable session debugging to display debugging messages in the user interface.
 
-Troubleshooting slow performance with the Session Debug feature.
-
-You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see [Display debugging logs](c_SessionDebug.md#).
+You can enable all areas for abundant logging on the bottom of each page load, or you can enable each module one by one, for more specific information about what is happening during this session, and specifically, for the previous transaction. Select session debug options under **System Diagnostics** &gt; **Session Debug**. When enabled, session debugging is active during the user session or until disabled. To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_SessionDebug.md).
 
 The system provides the following session debugging options.
 
@@ -26,7 +25,7 @@ The system provides the following session debugging options.
 |Enable All|Displays all available debugging messages.|
 |Disable All|Stops displaying all debugging messages.|
 |Debug Business Rule|Displays debugging messages for business rules. If there are business rules from multiple applications affecting a table or record, the system displays which application the business rule comes from.|
-|Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session. See [Debug Upgrade](https://www.servicenow.com/docs/access?context=debug-upgrade&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) .|
+|Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session. See Debug Upgrade .|
 |Debug Business Rule \(Details\)|Displays debugging messages for business rules and any changes made by business rules. If there are business rules from multiple applications affecting a table or record, the system displays which application the business rule comes from.|
 |Debug Log|Displays all log entries.|
 |Debug NLQ|Displays debugging messages for Natural Language Query \(NLQ\) queries.|
@@ -47,7 +46,7 @@ The system provides the following session debugging options.
 |Debug Homepage Render|Displays debugging messages for homepages.|
 |Debug Scopes|Displays debugging messages for entering or exiting application scopes when running script objects.|
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/script-debug-overview.md)
 
 ## Display debugging logs
 

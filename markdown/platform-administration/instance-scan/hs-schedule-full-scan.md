@@ -2,6 +2,7 @@
 title: Schedule a full scan
 description: Create a schedule to regularly trigger a full scan even when you don’t have an active session. A schedule creates an established baseline for the health of the instance and provides a comparison to configuration and instance health over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-schedule-full-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

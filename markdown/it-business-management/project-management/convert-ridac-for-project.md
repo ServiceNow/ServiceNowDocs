@@ -2,6 +2,7 @@
 title: Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project
 description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/convert-ridac-for-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -43,7 +44,7 @@ You can also view the consolidated list of all converted RIDAC records using the
 
 6.  Modify the text in the **Short description** field, which is copied from the parent record.
 
-7.  Change the default assignment copied from the parent record in the **Assigned to** field by clicking the lookup icon \(![Lookup icon](../../project-workspace/image/lookup_icon.png)\) and selecting a different user.
+7.  Change the default assignment copied from the parent record in the **Assigned to** field by clicking the lookup icon \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) and selecting a different user.
 
 8.  If you want to close the parent RIDAC record on creation of the new record, select the close parent record option.
 
@@ -52,5 +53,5 @@ You can also view the consolidated list of all converted RIDAC records using the
 9.  Click **OK**.
 
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

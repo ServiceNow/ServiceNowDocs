@@ -2,6 +2,7 @@
 title: Configure variable in service catalog record producer for appointment booking
 description: Create variables for the catalog item attributes within the appointment booking service configuration. Configuring distinct variables for location and user contact, enables you to specify both the location and contact details when booking an appointment on the calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-variable-in-catalog-record-producer-for-appoinment-booking.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -142,7 +143,7 @@ The service catalog record producer creates the variable record in the selected 
 
 ## What to do next
 
-Add this variable entry in the Appointment booking table to ensure that it’s visible on the calendar for users when booking an appointment. For more information, see [Create business rules to automatically create an appointment record for the catalog item variable](create-business-rules-to-automatically-create-appointment-record.md)
+Add this variable entry in the Appointment booking table to ensure that it’s visible on the calendar for users when booking an appointment. For more information, see [Create business rules to automatically create an appointment record for the catalog item variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-business-rules-to-automatically-create-appointment-record.md)
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

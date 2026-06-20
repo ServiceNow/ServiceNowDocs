@@ -2,6 +2,7 @@
 title: Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project
 description: Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your project. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at project closure and planning. It also helps to track the risks and issues throughout the project life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/reassociate-ridac-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -44,5 +45,5 @@ You can associate one record with multiple different records. For example, you c
 7.  Click **OK**.
 
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

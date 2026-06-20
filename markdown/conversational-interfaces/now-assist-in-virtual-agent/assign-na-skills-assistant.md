@@ -2,6 +2,7 @@
 title: Assign Now Assist skills to an assistant
 description: Turn on and assign Now Assist skills to your assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/now-assist-in-virtual-agent/assign-na-skills-assistant.html
 release: xanadu
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Turn on and assign Now Assist skills to your assistant.
 
 ## Before you begin
 
-[Create an assistant](create-assistant.md).
+[Create an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -27,19 +28,19 @@ Role required: virtual\_agent\_admin or admin
 
     **Note:** For Now Assist panel assistant \(Platform\), Now Assist Mult-Turn Catalog Ordering skill isn't available. For Now Assist panel assistant \(Developer\), only Now Assist Topic skill is available.
 
-    ![Activate Now Assist skills for the Virtual Agent.](../image/NAinVA-skills3-052025.png "Conversational skill status")
+    \[Omitted image "NAinVA-skills3-052025.png"\] Alt text: Activate Now Assist skills for the Virtual Agent.
 
     At the top of the page, the name of your Virtual Agent assistant appears. The table shows the following columns: Skill name, LLM service provider, and Alert.
 
     By default, all global skill types, except subflows and actions, are turned on in the Now Assist Admin console. If a global skill type is turned off, an alert appears in the Alert column at the assistant level. The alert indicates that a global skill type must be activated in the Now Assist Admin console.
 
-    To turn a global skill type on or off, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US). To deactivate a skill across the entire instance, select **Manage skills**. One or more skills must be active.
+    To turn a global skill type on or off, see . To deactivate a skill across the entire instance, select **Manage skills**. One or more skills must be active.
 
     The default Now Assist in Virtual Agent assistant is assigned Now Assist Q&amp;A, Now Assist Multi-Turn Catalog Ordering, Now Assist Topics, and AI agent skills. When a new assistant is created, all corresponding global skill types that are enabled are assigned to the assistant. By assigning a skill type to an assistant, the corresponding search sources get linked to the assistant's search profile. For example, if you want knowledge articles or external content to be enabled for an assistant, the Now Assist Q&amp;A skill must be assigned to the assistant.
 
     You can deselect assistant skill types at the assistant level to unassign them from an assistant.
 
-    If Now Assist Q&amp;A isn't selected as a skill for the assistant, a check is performed to see if any portals or mobile apps have selected enhanced chat. An alert is shown if a portal or mobile app has enhanced chat. For more information about the enhanced chat experience, see [Enhanced chat](../concept/nava-enhanced-chat.md).
+    If Now Assist Q&amp;A isn't selected as a skill for the assistant, a check is performed to see if any portals or mobile apps have selected enhanced chat. An alert is shown if a portal or mobile app has enhanced chat. For more information about the enhanced chat experience, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
     **Note:** In this admin configuration, no matter which skills you choose, all responses are Synthesized Response with Multi-turn Q&amp;A for all portals, mobile applications, and Microsoft Teams.
 
@@ -52,5 +53,5 @@ Role required: virtual\_agent\_admin or admin
 
 ## What to do next
 
-[Display your assistant on a portal or channel](display-assistant-portal-channel.md).
+[Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
 

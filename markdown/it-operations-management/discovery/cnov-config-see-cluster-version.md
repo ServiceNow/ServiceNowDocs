@@ -2,6 +2,7 @@
 title: Display the Kubernetes cluster version in the CMDB
 description: Make the Agent Client Collector for Kubernetes – Visibility Informer populate the relevant field in the cmdb\_ci\_kubernetes\_cluster CI to display the Kubernetes cluster version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-see-cluster-version.html
 release: xanadu
 product: Discovery
 classification: discovery

@@ -2,7 +2,10 @@
 title: Field Service Capacity and Reservations Management components
 description: Several types of components are installed with the Field Service Capacity and Reservations Management feature, including tables, business rules, scheduled jobs, and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/capacity-management-components.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 9
@@ -13,7 +16,7 @@ breadcrumb: [Components installed with additional plugins for Field Service Mana
 
 Several types of components are installed with the Field Service Capacity and Reservations Management feature, including tables, business rules, scheduled jobs, and script includes.
 
-Install the Field Service Contractor Management plugin \(com.snc.fsm\_contractor\_management\) to take the external groups into account while reserving, defining, and assigning the work capacity. For more information, see [Activate Field Service Contractor Management](../task/activate-contractor-management-plugin.md).
+Install the Field Service Contractor Management plugin \(com.snc.fsm\_contractor\_management\) to take the external groups into account while reserving, defining, and assigning the work capacity. For more information, see [Activate Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/activate-contractor-management-plugin.md).
 
 Activation of Field Service Capacity and Reservations Management adds the Capacity Management menu to the application navigator and the following modules:
 
@@ -636,5 +639,5 @@ The Capacity and Reservations Management adds the following scheduled jobs. To f
 |FSMDemandManagementQueryUtil|Contains all queries for generating data for the Field Service Territory Capacity Analytics dashboard.|
 |FSMDemandManagementUtil|Calculates and generates data for the `Compute Capacity Demand Metrics Data` scheduled job.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/components-inst-additional-plugin.md)
 

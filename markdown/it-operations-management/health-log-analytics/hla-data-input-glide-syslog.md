@@ -2,6 +2,7 @@
 title: Configure data inputs \(Glide Syslog\)
 description: Configure a data input for streaming log data from the System Log table \(Glide Syslog\) in Glide to the Health Log Analytics AI engine \(Occultus\). Data input configuration is an essential step in setting up the Health Log Analytics \(HLA\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -20,7 +21,7 @@ Configure a data input for streaming log data from the System Log table \(Glide 
 
 **Note:** This data input doesn't run on a MID Server. Only a single Glide Syslog connector or data input can exist in the system.
 
--   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](install-health-log-analytics.md).
+-   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/install-health-log-analytics.md).
 -   Ensure that a service instance is available.
 -   Ensure that the Health Log Analytics AI Engine is up and running.
 
@@ -36,7 +37,7 @@ Role required: admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Glide Syslog data input configuration fields](../reference/hla-data-input-glide-syslog-ref.md).
+    For a description of the fields, see [Glide Syslog data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.md).
 
 5.  Select **Save**.
 
@@ -51,10 +52,10 @@ The data input starts streaming Glide log data from the System Log table to the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
--   **[Glide Syslog data input configuration fields](../reference/hla-data-input-glide-syslog-ref.md)**  
+-   **[Glide Syslog data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.md)**  
 Description of the fields on the Glide Syslog data input configuration form.
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

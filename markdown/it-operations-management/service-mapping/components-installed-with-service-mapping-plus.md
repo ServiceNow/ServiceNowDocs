@@ -2,6 +2,7 @@
 title: Components installed with Service Mapping Plus
 description: Several types of components are installed with activation of the Service Mapping Plus plugin, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-mapping/components-installed-with-service-mapping-plus.html
 release: xanadu
 product: Service Mapping
 classification: service-mapping
@@ -21,7 +22,7 @@ Several types of components are installed with activation of the Service Mapping
 
 |Scheduled job|Description|
 |-------------|-----------|
-|Update statistics for application service readiness dashboard|Refreshes the information displayed on the [Application service readiness dashboard](readiness-dashboard-ml.md). Runs hourly. In addition, runs when the **Check Readiness** button is selected on the **Application service readiness dashboard**. The system doesn't trigger this scheduled job sooner than five minutes since the last run.|
+|Update statistics for application service readiness dashboard|Refreshes the information displayed on the [Application service readiness dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/readiness-dashboard-ml.md). Runs hourly. In addition, runs when the **Check Readiness** button is selected on the **Application service readiness dashboard**. The system doesn't trigger this scheduled job sooner than five minutes since the last run.|
 
 ## Tables installed
 
@@ -88,5 +89,5 @@ To limit performance, this property sets the limit for the connections included 
 **Note:** Values exceeding the default amount might cause performance issues \(because Unified Map loads all elements and related details when opened\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-mapping/service-mapping-reference.md)
 

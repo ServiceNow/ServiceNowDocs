@@ -2,7 +2,10 @@
 title: Tech Product Support Case table
 description: The Technology Product Support Case application adds the Tech Product Support Case \(sn\_tech\_product\_support\_case\) table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/tech-product-support-case-table.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4

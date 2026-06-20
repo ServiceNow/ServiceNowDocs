@@ -2,6 +2,7 @@
 title: Source type structure adjustment
 description: Health Log Analytics enables you to reclassify auto-classified properties and change auto-mapped labels. These adjustments help Health Log Analytics machine learning to better understand your priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -52,8 +53,8 @@ For more information about the source type structure, see the [Source Type Struc
 
 **Note:** You can reactivate the learning mode for a source type structure if you'd like to use the AI Engine's learning functionality again after the initial learning period has become outdated. On the **Source Type Structure** form, select **Relearn** to reset parsing, extraction, classification, and labeling for the source type structure and start the learning process anew.
 
--   **[Refine the source type structure](../task/hla-source-type-structure-refine.md)**  
+-   **[Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md)**  
 Fine-tune how Health Log Analytics reads your inner log messages and detects anomalies by customizing the extracted properties in the source type structure.
 
-**Parent Topic:**[Set up data inputs for Health Log Analytics manually](../task/hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

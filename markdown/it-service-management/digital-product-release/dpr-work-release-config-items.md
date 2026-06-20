@@ -2,6 +2,7 @@
 title: Manage configuration items in a release
 description: View and manage the configuration items \(CIs\) in a release phase to manage the release effectively. These associated CIs can be used for managing change requests and future tasks through the release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-product-release/dpr-work-release-config-items.html
 release: xanadu
 product: Digital Product Release
 classification: digital-product-release
@@ -27,7 +28,7 @@ You can add a specific configuration item to a phase only once, although it can 
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -37,15 +38,15 @@ You can add a specific configuration item to a phase only once, although it can 
 
 5.  Select a phase from the **Phase** list to add or remove configuration items of any CI class.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d102959e104">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d49780e104">
 
 Option
 
-</th><th align="left" id="d102959e107">
+</th><th align="left" id="d49780e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102959e113">
+</th></tr></thead><tbody><tr><td id="d49780e113">
 
 **Add existing CIs to the release phase**
 
@@ -56,7 +57,7 @@ Steps
 3.  Select **Add**.
  The selected configuration items are added to the phase.
 
-</td></tr><tr><td id="d102959e143">
+</td></tr><tr><td id="d49780e143">
 
 **Remove associated CIs from a phase**
 
@@ -68,5 +69,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-product-release/dpr-manage-releases.md)
 

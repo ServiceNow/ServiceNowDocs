@@ -2,6 +2,7 @@
 title: Create connection with Microsoft Exchange Online Spoke in strict mode
 description: Configure a strict mode connection with the Microsoft Exchange Online spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-with-msspoke-strict-mode.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -19,12 +20,12 @@ Configure a strict mode connection with the Microsoft Exchange Online spoke.
 
 Ensure the following:
 
-1.  Install Microsoft Exchange Online spoke from the ServiceNow Store. For more information, refer to [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+1.  Install Microsoft Exchange Online spoke from the ServiceNow Store. For more information, refer to Microsoft Exchange Online spoke.
 
     **Important:** After installing Microsoft Exchange Online spoke, check that the **Data Stream action** field of the Data source **Exchange Online Calendar** is not set to empty. Otherwise, repair the Microsoft Exchange Online spoke plugin.
 
 2.  After installing Microsoft Exchange Online spoke, depending on what type of customer you are, perform the following actions:
-    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](install-workplace-calendar-synchronization.md).
+    -   If you are a new customer, to install the applications, refer to [Install Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/install-workplace-calendar-synchronization.md).
     -   If you are an existing customer, upgrade to the latest versions of the following applications:
         -   Workplace Reservation Management.
         -   Workplace Calendar Synchronization.
@@ -45,7 +46,7 @@ Synchronize reservations using a connection with the Microsoft Exchange Online s
 
     Refer to the **Before you begin** section.
 
-2.  [Set up Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+2.  Set up Microsoft Exchange Online spoke.
 
     If you are a new customer, in the **Create Connection records for the Microsoft Exchange Online spoke** procedure, perform the following actions:
 
@@ -64,13 +65,13 @@ Synchronize reservations using a connection with the Microsoft Exchange Online s
 
 ## What to do next
 
-[Create a strict mode configuration in Microsoft Exchange Online](strict-mode-configuration-in-msex.md)
+[Create a strict mode configuration in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/strict-mode-configuration-in-msex.md)
 
-[Setup strict mode OAuth connectivity with Microsoft Exchange Online](setup-strict-mode-oauth-connectivity-with-msex.md)
+[Setup strict mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.md)
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](../concept/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
-**Previous topic:**[Configure Microsoft Azure](auth-mxex-with-azure-strict-mode.md)
+**Previous topic:**[Configure Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/auth-mxex-with-azure-strict-mode.md)
 
-**Next topic:**[Create a strict mode configuration in Microsoft Exchange Online](strict-mode-configuration-in-msex.md)
+**Next topic:**[Create a strict mode configuration in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/strict-mode-configuration-in-msex.md)
 

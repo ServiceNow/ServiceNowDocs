@@ -2,6 +2,7 @@
 title: Dynamic Translation properties
 description: Use the Dynamic Translation properties to customize, configure, and control the translation features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-translation/dynamic-translation-properties.html
 release: xanadu
 product: Dynamic Translation
 classification: dynamic-translation
@@ -57,7 +58,7 @@ Exclusion Frameworksn\_dt.dynamic\_framework.enable\_exclusion\_framework
 
 </td><td>
 
-Enables [Exclusion Framework](../concept/dyn-translation-exclusion-framework.md) on the instance. Defaults to enabled when Dynamic Translation is activated.
+Enables [Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) on the instance. Defaults to enabled when Dynamic Translation is activated.
 
 On a domain-separated instance, this property applies to all of the domains. It is not possible to enable Exclusion Framework on a per-domain basis.
 

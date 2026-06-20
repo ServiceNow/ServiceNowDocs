@@ -2,6 +2,7 @@
 title: Providing a script for custom task recommendation criteria
 description: Guidelines for creating scripts in recommendation criteria for an Intelligent Task Recommendation policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/script-guidelines-recommendation-criteria.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -88,5 +89,5 @@ ruleResult = TaskRecommendationFSMUtil.parseRuleResult(ruleProcessResult, "Dista
 
 **Note:** Do not replace the task recommendation application keyword `ruleResult` in the script with any other words. Otherwise, the application will not be able to process the rule execution result.
 
-**Parent Topic:**[Setting up Intelligent Task Recommendations](../concept/administer-task-recommendations.md)
+**Parent Topic:**[Setting up Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/administer-task-recommendations.md)
 

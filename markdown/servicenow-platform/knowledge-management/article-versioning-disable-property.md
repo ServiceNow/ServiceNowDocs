@@ -2,6 +2,7 @@
 title: Disable the article versioning feature
 description: Users with the system administrator role can disable the article versioning feature by setting a property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/article-versioning-disable-property.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -44,5 +45,5 @@ Users can still access outdated articles that have been attached to incidents. O
 4.  Click **Save**.
 
 
-**Parent Topic:**[Use article versioning](../../../use-article-versioning_0.md)
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

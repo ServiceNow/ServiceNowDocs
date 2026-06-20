@@ -2,6 +2,7 @@
 title: Apply Upgrade Plan on your upgrade
 description: Apply the selected upgrade plan to your instance upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-apply-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -25,7 +26,7 @@ Role required: admin
 
     If the upgrade plan has been implemented on the ongoing upgrade, the Review upgrade plan link shows up on the Target version card.
 
-    See Upgrade Plan background operations section in [Upgrade Plan overview](../concept/uc-upgrade-plan.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
 
 2.  Check on the date and time of the implemented upgrade plan in the Upgrade duration card once the upgrade completes.
 
@@ -38,6 +39,6 @@ Role required: admin
     -   To review: Total records left to be reviewed manually
 4.  Click **Review upgrade plan** on the Upgrade duration card if you want to check the summary of your upgrade plan history.
 
-    ![](../image/uc-upgrade-plan-history.png)
+    \[Omitted image "uc-upgrade-plan-history.png"\] Alt text:
 
 

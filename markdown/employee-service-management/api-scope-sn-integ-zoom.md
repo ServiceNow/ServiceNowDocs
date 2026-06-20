@@ -2,7 +2,10 @@
 title: API permissions/scope for ServiceNow integration with Zoom
 description: The list of the API permissions/scope requested by the ServiceNow Collaboration services for Zoom are as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/api-scope-sn-integ-zoom.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,5 +28,5 @@ The list of the API permissions/scope requested by the ServiceNow Collaboration 
 |imchat:read:admin|View all users’ history and channels.|
 |imchat:bot|Enable chatbot within Zoom Chat Client.|
 
-**Parent Topic:**[Collaboration services for Zoom reference](reference-sn-zoom.md)
+**Parent Topic:**[Collaboration services for Zoom reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-sn-zoom.md)
 

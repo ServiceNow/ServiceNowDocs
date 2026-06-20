@@ -2,6 +2,7 @@
 title: Activate Performance Analytics for Configuration Compliance
 description: Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/configuration-compliance-install.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -17,7 +18,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 You need a Now Support account and permission to request applications for the instances under consideration. The Now Support account and the instance must be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
 
@@ -40,5 +41,5 @@ Use Performance Analytics for the Configuration Compliance dashboard to generate
     When you install this application, you also activate the Configuration Compliance application.
 
 
-**Parent Topic:**[Configuration Compliance dashboard](cc-content-pack.md)
+**Parent Topic:**[Configuration Compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-content-pack.md)
 

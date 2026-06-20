@@ -2,6 +2,7 @@
 title: NotifyUtil - Global
 description: The NotifyUtil script include provides utility methods to use when interacting with Notify calls and SMS messages using server-side scripts.Instantiates a NotifyUtil class object.Returns all of the Notify telephone numbers and related Notify information from a specified source record, such as an incident.Returns the SMS-capable number associated with the specified Notify user.Returns a list of unique Notify telephone numbers.Determines whether there are any active conference calls for the specified source record.Validates a specified Notify telephone number.Verifies that the specified number is a valid E.164 telephone number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/NotifyUtilAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +26,7 @@ Using the NotifyUtil script include you can:
 -   Obtain the SMS-capable number associated with the specified Notify user.
 -   Validate a specified Notify telephone number.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## NotifyUtil - NotifyUtil\(\)
 
@@ -46,7 +47,7 @@ notifyUtil.getTelephonyProviers();
 
 Returns all of the Notify telephone numbers and related Notify information from a specified source record, such as an incident.
 
-You can use this information to initiate a call or send an SMS message on a particular source record. The information that is returned is based on the configuration of the Notify Provider Selector framework. For additional information, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+You can use this information to initiate a call or send an SMS message on a particular source record. The information that is returned is based on the configuration of the Notify Provider Selector framework. For additional information, see Notify
 
 <table id="table_pmg_pyt_kmb" class="parameters"><thead><tr><th>
 
@@ -226,7 +227,7 @@ Returns the SMS-capable number associated with the specified Notify user.
 
 |Name|Type|Description|
 |----|----|-----------|
-|userGROrId|String or [GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)|Sys\_id of the user record, located in the User \[sys\_user\] table, or the sys\_user GlideRecord of the user for whom to return the SMS-capable telephone number.|
+|userGROrId|String or [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideRecordAPI.md)|Sys\_id of the user record, located in the User \[sys\_user\] table, or the sys\_user GlideRecord of the user for whom to return the SMS-capable telephone number.|
 
 |Type|Description|
 |----|-----------|

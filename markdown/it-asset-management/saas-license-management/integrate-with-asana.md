@@ -2,6 +2,7 @@
 title: Integrating with Asana
 description: Integrating your Software Asset Management application with the Asana application enables you to track your software subscriptions and to reclaim unused licenses.Register an Asana OAuth application to access the Asana API 1.0 and to receive a Client ID and Client secret.Create an Asana integration profile to track software subscriptions and optimize licensing for your Asana solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-asana.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -76,15 +77,15 @@ Role required: admin or sam\_integrator
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d127797e377">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113903e377">
 
 Interface
 
-</th><th align="left" id="d127797e380">
+</th><th align="left" id="d113903e380">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d127797e386">
+</th></tr></thead><tbody><tr><td id="d113903e386">
 
 **Core UI**
 
@@ -95,7 +96,7 @@ Action
 3.  Select **Asana Integration Profile**.
 
 
-</td></tr><tr><td id="d127797e428">
+</td></tr><tr><td id="d113903e428">
 
 **Software Asset Workspace**
 
@@ -163,7 +164,7 @@ Type of integration profile. This field is automatically set to Asana Subscripti
 
     **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 6.  On the **Reclaim Subscription Subflow** tab, verify that the **Subflow** field is set to Asana Reclaim Subscriptions.
 
@@ -171,7 +172,7 @@ Type of integration profile. This field is automatically set to Asana Subscripti
 
     A draft integration profile is created. The integration profile uses the Asana Download Subscriptions, Asana Update User Activity, and Asana Reclaim Subscription subflows to retrieve user data from the Asana application.
 
-8.  Open the connection &amp; credential aliases record by selecting the preview icon \(![Preview icon](../../../common/image/Form_ReferenceLookupIcon.png)\) beside the **Connection &amp; Credential** field.
+8.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Preview icon\) beside the **Connection &amp; Credential** field.
 
 9.  Select **Open Record** in the record preview.
 
@@ -196,18 +197,18 @@ Type of integration profile. This field is automatically set to Asana Subscripti
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

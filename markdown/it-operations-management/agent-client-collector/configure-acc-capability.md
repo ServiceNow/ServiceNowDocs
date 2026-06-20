@@ -2,6 +2,7 @@
 title: Configure the Agent Client Collector capabilities for MID Servers
 description: Configure the MID Servers with Agent Client Collector capabilities to enable the MID Servers to work with agents. Agents that have identical MID Server capabilities are eligible for automatic MID Server selection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/configure-acc-capability.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=mid-server-capabilities&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see .
 
 ## Procedure
 

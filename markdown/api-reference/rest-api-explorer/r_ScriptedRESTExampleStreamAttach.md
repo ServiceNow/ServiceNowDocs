@@ -2,6 +2,7 @@
 title: Scripted REST API example - streaming file attachments
 description: This example demonstrates how to send an image attachment to a requesting user as a binary stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-api-explorer/r\_ScriptedRESTExampleStreamAttach.html
 release: xanadu
 product: REST API Explorer
 classification: rest-api-explorer
@@ -52,5 +53,5 @@ A request to this resource returns the following response.
  */
 ```
 
-**Parent Topic:**[Scripted REST API examples](../concept/c_ScriptedRESTAPIExamples.md)
+**Parent Topic:**[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)
 

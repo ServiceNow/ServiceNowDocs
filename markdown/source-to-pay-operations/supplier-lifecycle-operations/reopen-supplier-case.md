@@ -2,6 +2,7 @@
 title: Reopen a supplier case from the Source-to-Pay Workspace
 description: Reopen a closed supplier case if you are not satisfied with the case resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/reopen-supplier-case.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,7 +41,7 @@ The **Re-open** option is not available for the auto-closing supplier cases of t
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Lists** &gt; **Cases**.
 
@@ -59,5 +60,5 @@ The **Re-open** option is not available for the auto-closing supplier cases of t
     -   The previous comments that were made on the case are retained and displayed in the Activity section.
     -   The **Actual end** field becomes empty.
 
-**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

@@ -2,6 +2,7 @@
 title: Configure the memory limit of the Informer pod
 description: Set the memory limit of the Agent Client Collector for Kubernetes – Visibility Informer pod.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-config-informer-memory.html
 release: xanadu
 product: Discovery
 classification: discovery

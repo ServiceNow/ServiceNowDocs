@@ -2,6 +2,7 @@
 title: Configuring Enterprise Asset Management
 description: Configure the Enterprise Asset Management application to manage the life cycle of your enterprise connected and non connected assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/configuring-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,14 +18,14 @@ Configure the Enterprise Asset Management application to manage the life cycle o
 
 Based on your role, you can configure the Enterprise Asset Management application.
 
--   **[Configuring Enterprise Asset Management by system administrators](config-eam-sysadmins.md)**  
+-   **[Configuring Enterprise Asset Management by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-sysadmins.md)**  
 The system administrator role installs and sets up the Enterprise Asset Management application.
--   **[Configuring Enterprise Asset Management by enterprise administrators](config-eam-enterrpriseadmins.md)**  
+-   **[Configuring Enterprise Asset Management by enterprise administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterrpriseadmins.md)**  
 The enterprise administrator role has complete access to the Enterprise Asset Management application thereby allowing this role to create multi-component assets and models along with other related configurations.
--   **[Configuring Enterprise Asset Management by enterprise asset managers](config-eam-enterprise-asset-managers.md)**  
+-   **[Configuring Enterprise Asset Management by enterprise asset managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-enterprise-asset-managers.md)**  
 The enterprise asset manager role can configure your Total Cost of Ownership \(TCO\) to track your assets.
--   **[Configuring Enterprise Asset Management by incident managers](config-eam-itil.md)**  
+-   **[Configuring Enterprise Asset Management by incident managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/config-eam-itil.md)**  
 Incident managers or users with the itil role can configure the Enterprise Asset Management application by creating, updating, and resolving IT incidents for enterprise assets.
 
-**Parent Topic:**[Enterprise Asset Management](enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/enterprise-asset-management.md)
 

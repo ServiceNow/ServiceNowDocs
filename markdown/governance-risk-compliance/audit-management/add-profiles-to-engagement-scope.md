@@ -2,6 +2,7 @@
 title: Add entities to an engagement scope
 description: Audit managers can define which entities are involved in the audit engagement. When you add an entity to an engagement, the corresponding risks, controls, test plans, and indicator results of the entity are also added to the engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/audit-management/add-profiles-to-engagement-scope.html
 release: xanadu
 product: Audit Management
 classification: audit-management
@@ -34,5 +35,5 @@ Role required: sn\_audit.manager or sn\_audit.admin
     If there are risks and controls, test plans, and indicator results associated with an entity then they appear in their respective sections.
 
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/audit-management/c_Engagements.md)
 

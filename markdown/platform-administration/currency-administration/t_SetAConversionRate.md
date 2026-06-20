@@ -2,6 +2,7 @@
 title: Schedule the rate update job
 description: Schedule the ECB Exchange Rate Load to perform a nightly download of currency-conversion tables from the European Central Bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/currency-administration/t\_SetAConversionRate.html
 release: xanadu
 product: Currency Administration
 classification: currency-administration
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can adjust the frequency of this behavior or disable it entirely. For information about turning off the regularly scheduled update and maintaining the Exchange Rate table manually, see [Use your own currency-conversion rates](t_UseYourOwnConversionTable.md) and [FX Currency fields](../../currency/concept/fx-currency.md).
+You can adjust the frequency of this behavior or disable it entirely. For information about turning off the regularly scheduled update and maintaining the Exchange Rate table manually, see [Use your own currency-conversion rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/t_UseYourOwnConversionTable.md) and [FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/fx-currency.md).
 
 ## Procedure
 
@@ -34,5 +35,5 @@ You can adjust the frequency of this behavior or disable it entirely. For inform
     After the job runs, it stores and loads the rates from the Exchange Rate \[fx\_rate\] table. Navigate to **System Localization** &gt; **Exchange Rates** to see them.
 
 
-**Parent Topic:**[Default currency conversions](../../currency/concept/currency-conversions.md)
+**Parent Topic:**[Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/currency-administration/currency-conversions.md)
 

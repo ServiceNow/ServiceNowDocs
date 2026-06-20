@@ -2,6 +2,7 @@
 title: Retail Core data model tables
 description: Tables configured within the Retail Operations application enable you to determine the data model, tasks, and product offerings for your Retail Operations workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-operations-data-model-tables.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -98,5 +99,5 @@ This table can be extended to further expand the flow and logic for retail use c
 |Assignment Group|The associated assignment group responsible for working on this request.|
 |Assigned to|Person primarily responsible for working on this request.|
 
-**Parent Topic:**[Retail Core data model](rahi-retail-data-model.md)
+**Parent Topic:**[Retail Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-data-model.md)
 

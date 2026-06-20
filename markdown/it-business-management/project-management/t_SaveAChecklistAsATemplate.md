@@ -2,6 +2,7 @@
 title: Save a checklist as a template
 description: After you create a checklist on a project task, you can save it as a template and reuse it on other tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_SaveAChecklistAsATemplate.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -32,5 +33,5 @@ Role required: it\_project\_manager
 5.  Click **Save**.
 
 
-**Parent Topic:**[Project task checklists](../concept/c_project-task-checklists.md)
+**Parent Topic:**[Project task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_project-task-checklists.md)
 

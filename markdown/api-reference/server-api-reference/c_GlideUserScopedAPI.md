@@ -2,6 +2,7 @@
 title: GlideUser - Scoped
 description: The GlideUser API provides methods to access information about the current user and current user roles.Returns the current user's company sys\_id.Returns the current user's display name.Returns the user's email address.Returns the user's first name.Gets the sys\_id of the current user.Returns the user's last name.Returns the user ID, or login name, of the current user.Gets the specified user preference value for the current user.Returns a list of roles that includes explicitly granted roles, inherited roles, and roles acquired by group membership.Returns the list of roles explicitly granted to the user.Returns true if the user has the specified role.Returns true if the user has the specified role or the admin role.Determines if the current user is a member of the specified group.Saves a user preference value to the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_GlideUserScopedAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideUser API provides methods to access information about the current user 
 
 Using the GlideUser API avoids the need to use the slower GlideRecord queries to get user information.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideUser - getCompanyID\(\)
 
@@ -218,7 +219,7 @@ String
 
 </td><td>
 
-Checks if the user has this role.**Note:** For the current user, this method checks for the role in their [elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) only if they elevated to that role in the current session. For non current users, this method checks for the role in all of their elevated privilege roles.
+Checks if the user has this role.**Note:** For the current user, this method checks for the role in their elevated privilege roles only if they elevated to that role in the current session. For non current users, this method checks for the role in all of their elevated privilege roles.
 
 </td></tr></tbody>
 </table><table id="table_p2s_mlp_ldc" class="returns"><thead><tr><th>

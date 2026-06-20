@@ -2,6 +2,7 @@
 title: Review record counts for indexed sources
 description: Understand where your indexed content originates by viewing record counts for your indexed sources in the AI Search Indexed Source Statistics table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/record-counts-indexed-sources-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -33,14 +34,14 @@ The AI Search Indexed Source Statistics \[ais\_datasource\_stats\] table contain
 
     3.  Press Enter.
 
-2.  If the Updated field doesn't appear, select the Personalize List icon ![](../../../common/image/gear.png) and use the slushbucket to add the Updated field to the list view.
+2.  If the Updated field doesn't appear, select the Personalize List icon \[Omitted image "gear.png"\] Alt text: and use the slushbucket to add the Updated field to the list view.
 
-3.  To display the most recent indexed record-count entries first, select the Updated field's column options icon ![](../image/polaris-ui-column-options-header.png) in Next Experience UI or ![](../image/ui16-column-options-header.png), then select **Sort \(z to a\)**.
+3.  To display the most recent indexed record-count entries first, select the Updated field's column options icon \[Omitted image "polaris-ui-column-options-header.png"\] Alt text: in Next Experience UI or \[Omitted image "ui16-column-options-header.png"\] Alt text:, then select **Sort \(z to a\)**.
 
 4.  Review the indexed record-count entries for each of your indexed sources.
 
     **Note:** The entry for an indexed source indicates the number of indexed records from that source when the **AIS Collect Ingestion Stats** scheduled job ran at the time listed in the Updated field.
 
 
-**Parent Topic:**[Administering AI Search](../concept/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/administer-ais.md)
 

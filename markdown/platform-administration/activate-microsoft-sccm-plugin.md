@@ -2,6 +2,7 @@
 title: Activate a supported Microsoft SCCM plugin
 description: The SCCM plugins can be activated by an administrator and requires the Integration - JDBC and CI Identification plugins. These dependent plugins are activated automatically with SCCM activation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/activate-microsoft-sccm-plugin.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The SCCM plugins can be activated by an administrator and requires the Integrati
 
 ## Before you begin
 
-For a complete listing of the plugins that need to be activated, see [Activate SCCM Asset Intelligence scheduled imports](activate-ai-scheduled-imports.md).
+For a complete listing of the plugins that need to be activated, see [Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-ai-scheduled-imports.md).
 
 Role required: admin
 
@@ -31,8 +32,8 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Microsoft SCCM integration](../concept/c_MicrosoftSCCMIntegration.md)
+**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_MicrosoftSCCMIntegration.md)
 

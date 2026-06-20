@@ -2,6 +2,7 @@
 title: Additional plugins for Supplier Collaboration Portal
 description: After installing the Supplier Collaboration Portal application, you can activate additional plugins to enable additional features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Install Supplier Collaboration Portal, Configuring Supplier Lifecyc
 
 After installing the Supplier Collaboration Portal application, you can activate additional plugins to enable additional features.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
 
 <table id="table_dk2_j2q_ssb"><thead><tr><th>
 
@@ -42,5 +43,5 @@ GRC: Vendor Portal \[sn\_grc\_vendor\_portal\]
 Enables Supplier Contacts to view a list of open and closed risk assessments on the Vendor Risk page in the Vendor Assessment Portal \(Governance, Risk, and Compliance \(GRC\): Vendor Portal\).**Note:** The GRC: Vendor Portal is installed as a dependent plugin with GRC: Vendor Risk Management.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Supplier Collaboration Portal](../task/install-supp-central.md)
+</table>**Parent Topic:**[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)
 

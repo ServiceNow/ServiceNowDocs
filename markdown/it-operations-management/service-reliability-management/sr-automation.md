@@ -2,6 +2,7 @@
 title: Working with SRM alert automations
 description: Alert automations contain alert grouping and management conditional triggers that execute response actions automatically, based on the contents of the alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-automation.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Alert automations contain alert grouping and management conditional triggers tha
 
 An alert is created in SRM when a third-party monitoring tool has an event. The system analyzes incoming alerts, once a minute, and runs automations accordingly.
 
-**Note:** Prior to creating alert automations, you should have installed and configured the Service Reliability Management application, available in the ServiceNow Store. See [Service Reliability Management](../reference/sr-landing-page.md) for more information.
+**Note:** Prior to creating alert automations, you should have installed and configured the Service Reliability Management application, available in the ServiceNow Store. See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-landing-page.md) for more information.
 
 ## Grouping automations
 
@@ -45,7 +46,7 @@ Grouping automations run in the order chosen, from lowest to highest.
 
 **Note:** Administrators can update, reorder or delete any SRM automation. Responders and managers can update and reorder only their own or their team's automations. Only system administrators \[admin\] can delete global automations.
 
-![This is the alert automation rules homepage.](../image/sr-alert-group-rules-reorder.png)
+\[Omitted image "sr-alert-group-rules-reorder.png"\] Alt text: This is the alert automation rules homepage.
 
 **Note:**
 
@@ -76,7 +77,7 @@ System administrators \[admin\] can activate or deactivate any automation, inclu
 
 When a Service is deleted, its integrations, alerts, incidents, and automations are removed. This is not a recoverable action so consider deactivating the service instead.
 
-A grouped, related alert contains a **Grouped by** field. This field indicates how the related alert was grouped. For more information, see [SRM alert workspace](../reference/sr-alerts-workspace.md).
+A grouped, related alert contains a **Grouped by** field. This field indicates how the related alert was grouped. For more information, see [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md).
 
 ## Alert management automations
 
@@ -100,7 +101,7 @@ If you change an existing automation and an existing alert would have been captu
 
 Management automations run in the order chosen, from lowest to highest.
 
-![This is the respond to alert rules page.](../image/sr-alert-rules-reorder.png)
+\[Omitted image "sr-alert-rules-reorder.png"\] Alt text: This is the respond to alert rules page.
 
 **Note:** None of the filters or sorting features for the list view change the order in which the automations are run.
 
@@ -129,9 +130,9 @@ Administrators and system administrators \[admin\] can activate, deactivate or d
 
 When a Team is deleted, its automation rules are removed. This is not a recoverable action so consider deactivating the team instead.
 
-**Parent Topic:**[Using Service Reliability Management](using-service-reliability-management.md)
+**Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Previous topic:**[Manually create an SRM change task](../task/sr-create-change.md)
+**Previous topic:**[Manually create an SRM change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-change.md)
 
-**Next topic:**[Service Reliability Management reference](../reference/service-reliability-management-reference.md)
+**Next topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Enable the text field character counter
 description: By default, multi-line text fields have a 4000 character limit. To help users see how many characters remain before they reach the limit, you can enable the glide.ui.textarea.character\_counter property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_TextFieldCharacterCounter.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,8 +30,8 @@ This property adds a counter under text fields, such as the **Additional Comment
 
 3.  Select **Save**.
 
-    ![Callout for the location of character counter after the check box has been selected.](../image/CharactersLeft.png)
+    \[Omitted image "CharactersLeft.png"\] Alt text: Callout for the location of character counter after the check box has been selected.
 
 
-**Parent Topic:**[Journal field type](../../field-administration/concept/c_JournalFields.md)
+**Parent Topic:**[Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_JournalFields.md)
 

@@ -2,6 +2,7 @@
 title: Define groups as WFO assignment groups in the Admin Console in Workforce Optimization for ITSM
 description: Identify existing groups relevant to WFO and add them to the Admin Console so that you can configure them easily based on your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/manage-assignment-groups-admin-console-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -42,5 +43,5 @@ Role required: admin
 
 All the selected groups are now defined as **WFO assignment groups**.
 
-**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](../concept/admin-console-wfo-itsm.md)
+**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/admin-console-wfo-itsm.md)
 

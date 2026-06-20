@@ -2,6 +2,7 @@
 title: Create a connection Alias for third-party provider
 description: Create a connection Alias for your third-party provider to enable external routing on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/create-cnctn-alias.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -42,5 +43,5 @@ Role required: admin
     -   For the Connection URL, provide an active URL \(of any third-party provider\).
     -   Select **Save**.
 
-**Parent Topic:**[External routing overview](../concept/awa-external-routing-overview.md)
+**Parent Topic:**[External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-external-routing-overview.md)
 

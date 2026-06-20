@@ -2,11 +2,12 @@
 title: Set up OAuth integration via MID Server
 description: Create a connection record that enables the sending of an OAuth token request to a third-party server via a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/connections-and-credentials/create-conn-alias-oauth-integration-via-mid-server.html
 release: xanadu
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
 ---
@@ -33,7 +34,7 @@ Role required: Admin
 
     4.  Update the form, as required.
 
-        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](create-template.md).
+        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/connections-and-credentials/create-template.md).
 
     5.  Select **Submit**.
 
@@ -75,7 +76,7 @@ Parent Alias
 
 </td><td>
 
-Option to select the alias under which you're creating this connection and credential alias. The connection and credential alias that you're creating is a child alias. A child alias is listed under the **Child Aliases** tab on the parent connection and credential alias page.![Child alias under the Child Aliases tab.](../image/child-alias-location.png)
+Option to select the alias under which you're creating this connection and credential alias. The connection and credential alias that you're creating is a child alias. A child alias is listed under the **Child Aliases** tab on the parent connection and credential alias page.\[Omitted image "child-alias-location.png"\] Alt text: Child alias under the Child Aliases tab.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see [Retry policy](https://www.servicenow.com/docs/access?context=retry-policy&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+Retry policy for the alias. For more information, see Retry policy.
 
 </td></tr><tr><td>
 

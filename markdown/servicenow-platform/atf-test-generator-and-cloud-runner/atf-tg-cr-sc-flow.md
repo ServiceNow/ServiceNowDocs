@@ -2,6 +2,7 @@
 title: Tests generation for flow and flow logic
 description: Use the ATF Test Generator and Cloud Runner store application to auto-generate tests that drive a ServiceNow flow for the available trigger types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-sc-flow.html
 release: xanadu
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner

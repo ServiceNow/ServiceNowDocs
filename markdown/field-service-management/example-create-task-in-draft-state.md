@@ -2,7 +2,10 @@
 title: Example - Create task without qualifying a work order
 description: Create work order tasks and part requirements for a work order without qualifying a work order, when it is in the draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/example-create-task-in-draft-state.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,7 +41,7 @@ Role required: wm\_task\_initiator
 
     3.  Go to the Template field and click **Preview this record** to edit the work order template.
 
-        For more information about editing work order template, see [Create a work order template](../../it-services/task/t_CreateAWorkOrderTemplate.md).
+        For more information about editing work order template, see [Create a work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/t_CreateAWorkOrderTemplate.md).
 
 5.  Create adhoc work order tasks.
 
@@ -46,10 +49,10 @@ Role required: wm\_task\_initiator
 
     2.  Fill in the required fields.
 
-        For more information, see [Create a work order task](../../planning-and-policy/task/t_CreateAWorkOrderTask.md).
+        For more information, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_CreateAWorkOrderTask.md).
 
     3.  Click **Submit**.
 
 
-**Parent Topic:**[Managing work orders](../../planning-and-policy/concept/c_ManageWorkOrders.md)
+**Parent Topic:**[Managing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageWorkOrders.md)
 

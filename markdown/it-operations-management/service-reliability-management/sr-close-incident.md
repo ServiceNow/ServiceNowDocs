@@ -2,6 +2,7 @@
 title: Close an SRM incident
 description: Close an incident, if you think it is not an issue, or if it has already been handled.REVISE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-close-incident.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,19 +28,19 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d470745e94">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d383925e94">
 
 Option
 
-</th><th align="left" id="d470745e97">
+</th><th align="left" id="d383925e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d470745e103">
+</th></tr></thead><tbody><tr><td id="d383925e103">
 
 **In the incident list view**
 
@@ -49,7 +50,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d470745e127">
+</td></tr><tr><td id="d383925e127">
 
 **In the incident form**
 
@@ -60,7 +61,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incident workspace](../reference/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incident workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view and incident form and form header.
 
@@ -73,5 +74,5 @@ Closed incidents remain in the Incidents list view. Check your filters if you do
 
 When you close an incident, any related alerts are closed.
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

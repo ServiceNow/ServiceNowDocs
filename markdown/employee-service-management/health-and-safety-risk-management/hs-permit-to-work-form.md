@@ -2,6 +2,7 @@
 title: Permit-to-work form
 description: Field descriptions on the form to request a permit-to-work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-permit-to-work-form.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -36,7 +37,7 @@ Field descriptions on the form to request a permit-to-work.
 |Requested for|Individuals the permit is requested for.|
 |Description|A brief summary of the permit.|
 |Comments|Field to add any comments if needed.|
-|Attachment|Option to add attachments related to this permit. Select the attachment icon \( ![Attachment icon](../../legal-request-management/image/add-attachment-icon.png)\) to add the attachment.|
+|Attachment|Option to add attachments related to this permit. Select the attachment icon \( \[Omitted image "add-attachment-icon.png"\] Alt text: Attachment icon\) to add the attachment.|
 
-**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

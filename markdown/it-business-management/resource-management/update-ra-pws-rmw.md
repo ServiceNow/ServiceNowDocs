@@ -2,6 +2,7 @@
 title: Update resource assignment using Project Workspace
 description: Update a resource assignment that is associated with a project or project task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/update-ra-pws-rmw.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -29,7 +30,7 @@ In resource assignments, any changes made to the status of group resource assign
 
 3.  On the resource assignment pane, double-click any cell to edit the entire row.
 
-    Alternatively, you can edit the resource assignment from the row context menu. From the resource assignment pane, select the row context menu \(![Row context menu.](../../project-workspace/image/icon-row-context-menu.png)\) of resource assignment record and then select **Edit**.
+    Alternatively, you can edit the resource assignment from the row context menu. From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) of resource assignment record and then select **Edit**.
 
 4.  Edit the desired field, and select anywhere on the data grid to save the details.
 
@@ -40,5 +41,5 @@ In resource assignments, any changes made to the status of group resource assign
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 
 
-**Parent Topic:**[Managing resource assignments from Project Workspace](../concept/use-ra-rmw.md)
+**Parent Topic:**[Managing resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/use-ra-rmw.md)
 

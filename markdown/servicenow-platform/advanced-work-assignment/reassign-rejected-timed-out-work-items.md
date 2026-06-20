@@ -2,6 +2,7 @@
 title: Configure reassignable settings
 description: Configure whether an agent who rejected a work item is eligible to be offered the same work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/reassign-rejected-timed-out-work-items.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -35,5 +36,5 @@ Role required: admin
     -   If you want to have an agent who rejected a work item be eligible to be offered the same work item, select the **Reassignable** field.
     -   If you don’t want to have an agent who rejected a work item be eligible to be offered the same work item, unselect the **Reassignable** field.
 
-**Parent Topic:**[Agent Inbox controls](../../advanced-work-assignment/concept/agent-experience.md)
+**Parent Topic:**[Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/agent-experience.md)
 

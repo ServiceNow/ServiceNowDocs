@@ -2,7 +2,10 @@
 title: pick up parts using the Field Service Contractor for mobile application
 description: Pick up the part by transferring it from an available stockroom when you are at a task site and need a missing part to complete your job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/pick-up-parts-fsm-contrator-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 The sourcing stage moves to Delivered and the part is added to your inventory and is marked as available.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

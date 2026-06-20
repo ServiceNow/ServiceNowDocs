@@ -2,6 +2,7 @@
 title: Active major incidents
 description: View a list of related incidents, details of a major incident and activities on an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-mobile-agent/process-misingle.html
 release: xanadu
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,11 +26,11 @@ Role required: major incident manager
 
     The **Active major incidents** screen opens with a list of major incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Active major incidents** screen with the list of incidents, swipe left on an incident to open the menu.
 
-4.  Tap **Add comments** to add any additional comments or work notes about the incident in this field and tap the send icon \(![Send icon.](../image/mobile_instances_send_droid.png)\).
+4.  Tap **Add comments** to add any additional comments or work notes about the incident in this field and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\).
 
 5.  Tap **Resolve** to resolve the major incident by adding the **Resolution code** and **Resolution notes**.
 
@@ -40,8 +41,8 @@ Role required: major incident manager
     The quick actions available for an active major incident are as follows:
 
     -   Assign to someone: Assign the major incident to someone in an appropriate assignment group.
-    -   Resolve: Add a resolution code and resolution notes and tap the send icon \(![Send icon.](../image/mobile_instances_send_droid.png)\) to resolve the incident.
-    -   Add comments: Add any additional comments or work notes for the major incident and tap the send icon \(![Send icon.](../image/mobile_instances_send_droid.png)\) to add these comments to the record.
+    -   Resolve: Add a resolution code and resolution notes and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to resolve the incident.
+    -   Add comments: Add any additional comments or work notes for the major incident and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to add these comments to the record.
 8.  On the **Active major incident** screen, choose one of the actions in the table as appropriate.
 
 <table id="table_mcr_qj5_gmb"><thead><tr><th align="left">
@@ -66,7 +67,7 @@ ACTIVITY tab
 
 </td><td>
 
-View the activity on the incident like field changes or assignment changes. Tap the add icon \(![Add icon](../image/add_icon.png)\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
+View the activity on the incident like field changes or assignment changes. Tap the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
 2.  **Open Gallery**: Open your photo gallery to attach an existing image or a video to the incident.
 3.  **Take Photo**: Take a picture and attach it to the incident
 4.  **Attach File**: Attach a file from another application to the incident.

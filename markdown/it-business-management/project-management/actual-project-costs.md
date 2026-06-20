@@ -2,6 +2,7 @@
 title: Actual project costs
 description: Actual project costs come after you create expense lines for cost plans or after human resources use time cards to create expense lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/actual-project-costs.html
 release: xanadu
 product: Project Management
 classification: project-management

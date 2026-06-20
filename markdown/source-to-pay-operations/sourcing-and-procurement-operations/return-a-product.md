@@ -2,6 +2,7 @@
 title: Return a product
 description: You can request a return for a product that has been fully or partially delivered to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/return-a-product.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -100,5 +101,5 @@ The step creates a procurement case with the details of the return request, and 
 -   Shoppers can review the request details from **ShoppingHub** &gt; **My requests** or **My requests** from the footer.
 -   Buyers can track the progress of the procurement case and procurement case line requests from **Procurement Workspace**.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

@@ -2,6 +2,7 @@
 title: Record numbering
 description: In the base system, several tables are numbered, including Incident, Problem, Change Request, and Knowledge. You can also use these numbers anywhere that script is present, for example to generate watermarks for emails. Records in tables can be numbered automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_ManagingRecordNumbering.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,20 +16,20 @@ In the base system, several tables are numbered, including Incident, Problem, Ch
 
 Administrators can manage record numbering by navigating to **System Definition** &gt; **Number Maintenance**. The current number format for a table, including the prefix \(such as **INC** for incidents or **CHG** for changes\), is stored in a record on the Number \[sys\_number\] table.
 
-![](../image/Number1.png "Number table")
+\[Omitted image "Number1.png"\] Alt text:
 
 You can renumber auto-incremented tables that extend the task table or manage numbering with a database field named **Number this field**.
 
 **Note:** If you reset numbering in Number Maintenance, it only renumbers new records. It leaves the numbering as-is for existing records in system tables.
 
--   **[Add auto-numbering records in a table](../task/t_AutoNumberingRecordsInATable.md)**  
+-   **[Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_AutoNumberingRecordsInATable.md)**  
 You can define one number format per table in the system.
--   **[Prepare to left-pad number fields in custom tables](../task/t_PrepToLeftPadNumFldsInCustmTbls.md)**  
+-   **[Prepare to left-pad number fields in custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_PrepToLeftPadNumFldsInCustmTbls.md)**  
 Before you configure left padding of number fields on a custom table or a table that does not extend the task table, you must prepare business rules and script includes.
--   **[Prevent numbering gaps](../task/t_PreventNumberingGaps.md)**  
+-   **[Prevent numbering gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_PreventNumberingGaps.md)**  
 By default, numbers are generated every time a new record is created.
--   **[Enforcing unique numbering](c_EnforcingUniqueNumbering.md)**  
+-   **[Enforcing unique numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnforcingUniqueNumbering.md)**  
 Although duplicate numbers are rare, numbering does not enforce uniqueness, by default.
 
-**Parent Topic:**[Add and customize a field in a table](../task/t_CreatingNewFields.md)
+**Parent Topic:**[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingNewFields.md)
 

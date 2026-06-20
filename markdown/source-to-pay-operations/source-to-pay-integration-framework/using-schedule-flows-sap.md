@@ -2,6 +2,7 @@
 title: Use schedule flows in SAP ECC and SAP S4 HANA
 description: Use the schedule flows that interact with SAP ECC and SAP S4 HANA to pull information on purchase requisition, purchase order, receipt, invoice, and sourcing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -74,10 +75,10 @@ The Accounts Payable Operations Integration with SAP ECC and SAP S4 HANA support
 |Create Invoice|Creates invoice in SAP ECC and SAP S4 HANA.|
 |Create Non-Purchase Order Invoice|Create Non-Purchase Order Invoice in in SAP ECC and SAP S4 HANA.|
 
--   **[Use a flow or subflow in SAP ECC and SAP S4 HANA \(Outbound\)](../task/use-flow-or-subflow-sap.md)**  
+-   **[Use a flow or subflow in SAP ECC and SAP S4 HANA \(Outbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-sap.md)**  
 A flow or subflow can be executed in SAP ECC and SAP S4 HANA using the Workflow Studio. Follow these steps to run a flow or subflow.
--   **[Copy a flow or subflow in SAP ECC and SAP S4 HANA](../task/copy-flow-or-subflow-sap.md)**  
+-   **[Copy a flow or subflow in SAP ECC and SAP S4 HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-or-subflow-sap.md)**  
 You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 
-**Parent Topic:**[Using Source-to-Pay integration with SAP ECC and SAP S4 HANA](using-source-to-pay-sap-integration.md)
+**Parent Topic:**[Using Source-to-Pay integration with SAP ECC and SAP S4 HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-sap-integration.md)
 

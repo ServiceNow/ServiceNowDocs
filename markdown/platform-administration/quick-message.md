@@ -2,6 +2,7 @@
 title: Composing emails with quick messages
 description: Insert predefined content into the message body of emails that you send from the email client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/quick-message.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ By default, the quick message content is inserted at the place of the cursor. It
 
 **Note:** To instead have quick message content replace all existing content in an email draft, set the **glide.email\_client.quick\_message.insert** property to **false**.
 
-![Adding quick messages](../image/quick-message-demo.gif "Adding quick messages to an email")
+\[Omitted image "quick-message-demo.gif"\] Alt text: Adding quick messages
 
 ## Creating quick message content
 
@@ -54,8 +55,8 @@ For example, if you designate Beth Anglin as the user for a certain quick messag
 
 If you associate a quick message to the Incident \[incident\] table, the quick message is available in the email client only after you launch from an incident record. If you specify a target record from the Incident table for the quick message, the quick message becomes available in the email client only for matching incident records.
 
--   **[Define a quick message](../task/t_QuickMessages.md)**  
+-   **[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_QuickMessages.md)**  
 Create predefined content to add in the email client so that users can write emails consistently and efficiently.
 
-**Parent Topic:**[Configure email client](configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configuring-email-client.md)
 

@@ -2,6 +2,7 @@
 title: Assign user roles in Sales Customer Relationship Management applications
 description: The Sales Customer Relationship Management applications use roles to control access to features and capabilities. Roles also determine access to information for data security, identify users, and define the work that users perform in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/configure-SOM-roles.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -29,8 +30,8 @@ Roles define the functions available to users of the Sales Customer Relationship
 
 Assign roles to users and groups by using the ServiceNow AI Platform user administration feature.
 
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   To assign a role to a user, see Assign a role to a user.
+-   To assign a role to a group, see Assign a role to a group.
 
 ## Lead Management roles
 
@@ -46,7 +47,7 @@ The roles in the following table apply to Lead Management.
 
 ## Opportunity Management roles
 
-The roles in the following table apply to Opportunity Management. To learn more about these roles, see [Opportunity Management](opportunity-management.md).
+The roles in the following table apply to Opportunity Management. To learn more about these roles, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management.md).
 
 |Role|Description|
 |----|-----------|
@@ -165,7 +166,7 @@ Order Viewer \[order\_viewer\]
 
 View access to customer orders, product orders, product order tasks, service orders, and resource orders. You should also grant an order viewer with the sn\_prd\_pm.product\_catalog\_viewer role to access the product catalog data.
 
- **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see [Activate Business Stakeholder](https://www.servicenow.com/docs/access?context=activate-business-stakeholders&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+ **Note:** The order approver and order viewer roles are included in the Order Management Business Stakeholder role, which has a fee associated with it. Don’t assign these roles to users without confirming that your organization has the appropriate entitlement. To learn more, see 
 
 </td></tr><tr><td>
 

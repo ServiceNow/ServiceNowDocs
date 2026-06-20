@@ -2,6 +2,7 @@
 title: Activate the Exceptions Monitoring Scheduler
 description: Activate the Exception Monitoring Scheduler to run the exception engine on a regular schedule to identify invoice exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/activate-exception-flow.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -36,5 +37,5 @@ The default automatically runs every 5 minutes after you activate it.
 4.  Select **Update**.
 
 
-**Parent Topic:**[Invoice exceptions](../concept/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

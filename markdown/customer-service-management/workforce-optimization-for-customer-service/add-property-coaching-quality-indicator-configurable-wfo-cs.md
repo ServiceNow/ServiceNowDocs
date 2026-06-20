@@ -2,6 +2,7 @@
 title: Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for Customer Service
 description: Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/add-property-coaching-quality-indicator-configurable-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -19,9 +20,9 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 **Important:** Starting with the Tokyo release, Legacy Workforce Optimization is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](request-configurable-wfo-cs.md).
+**Important:** This feature is available with the Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for CS configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/request-configurable-wfo-cs.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
 
 Role required: admin
 
@@ -75,7 +76,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) \(sys\_id\) of the indicator.
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator.
 
  Example:
 
@@ -97,5 +98,5 @@ sn\_coaching.coach
     The configured indicator replaces the existing indicator in the Overview tab in the Coaching application in Workforce Optimization for Customer Service.
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](../concept/setup-coaching-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/setup-coaching-configurable-wfo-cs.md)
 

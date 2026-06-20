@@ -2,6 +2,7 @@
 title: Create an export target
 description: Define where to export data to by creating an export target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/system-export-sets/t\_CreateAnExportTarget.html
 release: xanadu
 product: System Export Sets
 classification: system-export-sets
@@ -21,7 +22,7 @@ Role required: export\_set\_admin
 
 ## About this task
 
-You must use a MID Server as the export destination. For more information on MID Server configuration, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+You must use a MID Server as the export destination. For more information on MID Server configuration, see .
 
 ## Procedure
 

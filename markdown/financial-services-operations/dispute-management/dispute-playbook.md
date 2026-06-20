@@ -2,6 +2,7 @@
 title: Dispute playbook
 description: Dispute agents use the dispute playbook to review and work on their cases and tasks. The playbook provides the end-to-end life cycle for the tasks performed during the dispute handling process, from the time a dispute is logged to the final resolution and communication to the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-playbook.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -15,5 +16,5 @@ breadcrumb: [About Dispute Management, Dispute Management, Banking applications,
 
 Dispute agents use the dispute playbook to review and work on their cases and tasks. The playbook provides the end-to-end life cycle for the tasks performed during the dispute handling process, from the time a dispute is logged to the final resolution and communication to the customer.
 
-**Parent Topic:**[About Dispute Management](disputes-overview.md)
+**Parent Topic:**[About Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/disputes-overview.md)
 

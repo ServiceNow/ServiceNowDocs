@@ -2,7 +2,10 @@
 title: Optimization features used with Schedule Optimization
 description: Objectives and constraints are optimization features that determine how tasks are assigned to agents in Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/hard-soft-constraints.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -251,7 +254,7 @@ Enable flexible breaks
 
 </td><td>
 
-Agents can be assigned flexible breaks.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).
+Agents can be assigned flexible breaks.**Note:** The Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\) plugin must be installed and Workforce Optimization for Field Service must be activated to use the flexible breaks feature. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 
@@ -302,5 +305,5 @@ Enable travel time limits between locations
 Agents must travel between locations within their travel time limit.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule Optimization components](schedule-optimization-components.md)
+</table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/schedule-optimization-components.md)
 

@@ -2,6 +2,7 @@
 title: Edit web or installed application form
 description: Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -77,7 +78,7 @@ Toggle switch to enable or disable monitoring for the application performance an
 -   **Compliance**: Enables reporting on whether this application is running on your organization's devices.
 -   **Metrics**: Enables performance reporting for this application.
 
-Move the monitoring toggle switch \(![Use the toggle switch to activate monitoring for the application.](../image/icon-toggle-button-enabled.png)\) to turn the reporting on or off.
+Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate monitoring for the application.\) to turn the reporting on or off.
 
 **Note:** You can also enable monitoring for multiple applications simultaneously. From the Application management page, use the bulk check box to select multiple applications, and adjust your selection as needed with the individual check boxes for each app.
 
@@ -86,5 +87,5 @@ This field appears only if you select an installed application to edit.
 This field doesn't appear when you're onboarding Application and Device Health.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

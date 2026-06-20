@@ -2,6 +2,7 @@
 title: ERP Data Hub custom field example
 description: ERP Data Hub helps you identify custom ERP \(Enterprise Resource Planning\) apps and fields in the system of record to access their data on the ServiceNow AI Platform. The ERP system can have both standard and custom fields that are accessed by ERP Data Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/ecm-example-case.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,5 +26,5 @@ The farmer can use ERP Data Hub to connect to the legacy system of record and id
 
 After they have the ERP model with custom data, they can use App Engine Studio or other ServiceNow products to quickly build an app that tracks their grain sales. The data that the grain sale app consumes still lives on the legacy system of record.
 
-**Parent Topic:**[Exploring ERP Data Hub](exploring-erp-integration.md)
+**Parent Topic:**[Exploring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/exploring-erp-integration.md)
 

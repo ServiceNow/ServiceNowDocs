@@ -2,6 +2,7 @@
 title: Install Legal Simple Compliance
 description: Install the Legal Simple Compliance application to offer prebuilt workflows for various legal compliance needs. It enables you to manage legal compliance requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-simple-compliance/install-legal-simple-compliance.html
 release: xanadu
 product: Legal Simple Compliance
 classification: legal-simple-compliance
@@ -27,9 +28,9 @@ When you install the Legal Simple Compliance application, the following applicat
 
 **Note:** You can also install these applications separately.
 
--   [Gifts and Entertainment Compliance](../../legal-gifts-entertainment/reference/lsd-ge-landing-page.md)
--   [Legal Conflict of Interest](../../legal-conflict-of-interest/reference/legal-conflict-of-interest-landing-page.md)
--   [Legal Stock Preclearance](../../legal-stock-preclearance/reference/legal-stock-preclearance-landing-page.md)
+-   [Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.md)
+-   [Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.md)
+-   [Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 
 **Note:** You can also install these applications separately.
 

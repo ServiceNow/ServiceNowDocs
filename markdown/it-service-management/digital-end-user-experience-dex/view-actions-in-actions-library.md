@@ -2,6 +2,7 @@
 title: View actions in the Digital End-User Experience Action Library
 description: View and use various pre-installed services available for a device in the Digital End-User Experience Action Library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/view-actions-in-actions-library.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,11 +28,11 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(![Devices icon](../image/icon-devices.png)\) from the primary navigation pane.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\) from the primary navigation pane.
 
 2.  Select a device from the list.
 
-3.  On the contextual side panel, select the Action Library icon \(![Action library icon](../image/icon-action-library.png)\) and view the following actions:
+3.  On the contextual side panel, select the Action Library icon \(\[Omitted image "icon-action-library.png"\] Alt text: Action library icon\) and view the following actions:
 
 <table id="table_tfz_qq3_ggc"><thead><tr><th>
 

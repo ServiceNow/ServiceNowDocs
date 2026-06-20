@@ -2,6 +2,7 @@
 title: Add a custom validation for devices
 description: Customize the validation for your OT devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/add-custom-validation-for-devices.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -31,10 +32,10 @@ Role required: cmdb\_inst\_admin, admin
 
     A script include is created where you can add your custom validation.
 
-4.  To add a custom validation, refer to the following validation scenario.![Validation scenario for creating custom validations.](../image/validation-scenario.png)
+4.  To add a custom validation, refer to the following validation scenario.\[Omitted image "validation-scenario.png"\] Alt text: Validation scenario for creating custom validations.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

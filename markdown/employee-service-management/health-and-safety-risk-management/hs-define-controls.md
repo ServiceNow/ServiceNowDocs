@@ -2,6 +2,7 @@
 title: Define Health and Safety control measures
 description: Define effective control measures to eliminate or minimize the risks associated with each workplace hazard to help prevent workplace accidents and injuries. Maintain a list of all the controls in place in your organization for every type of job and the associated risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-define-controls.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,7 +28,7 @@ Review and update your list of control measures regularly to ensure its continue
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **control measures** and then **All**.
 
@@ -51,7 +52,7 @@ Control measure category
 
 </td><td>
 
-Category under which this control measure is organized. The list in this field displays items from the Hierarchy of controls \[sn\_hs\_rm\_hierarchy\_of\_controls\] table.For more information on control measure categories, see [Create a safety control measure category](hs-create-safety-hierarchy-controls.md).
+Category under which this control measure is organized. The list in this field displays items from the Hierarchy of controls \[sn\_hs\_rm\_hierarchy\_of\_controls\] table.For more information on control measure categories, see [Create a safety control measure category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-create-safety-hierarchy-controls.md).
 
 </td></tr><tr><td>
 
@@ -83,5 +84,5 @@ Option to mark this control measure available for use. A control measure must be
     -   **Add control measures** window on a JSA form.
     -   **Control measures** field on the Risk and controls form when conducting a risk assessment.
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

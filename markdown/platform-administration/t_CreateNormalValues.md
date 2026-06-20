@@ -2,6 +2,7 @@
 title: Create a normal value
 description: A normal value is a simplified, generic value for a field that replaces all the possible variants of that value that exist in the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateNormalValues.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -23,7 +24,7 @@ Normal values should be clear and unambiguous.
 
 After the platform runs the data job, the **Pending Values** related list on the Data normalization jobs form is populated with all the unique values for the field in the database. Examine the values in the list and decide which normalizing method is best for the existing data. For example, define an alias for a small pool of values and a rule for a large pool of values. The following screenshot shows the pending values for CPU types in Linux servers in a network. The list contains several choices for Intel Xeon CPUs, which might be normalized as **Xeon**.
 
-![](../image/NormalizationPendingValues2.png "Normalization pending values 2")
+\[Omitted image "NormalizationPendingValues2.png"\] Alt text:
 
 ## Procedure
 
@@ -39,8 +40,8 @@ After the platform runs the data job, the **Pending Values** related list on the
 
     These are the values the platform uses to replace the variants configured as aliases.
 
-    ![Normalization normal values](../image/NormalizationNormalValues1.png)
+    \[Omitted image "NormalizationNormalValues1.png"\] Alt text: Normalization normal values
 
 
-**Parent Topic:**[Normal values](../concept/c_WhatFieldNormalizationDoes.md)
+**Parent Topic:**[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)
 

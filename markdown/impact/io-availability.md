@@ -2,9 +2,12 @@
 title: Availability
 description: The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/io-availability.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Impact Instance Observer, Platform Health, Impact Digital Experience, Impact]
 ---
@@ -27,9 +30,9 @@ The Availability section shows instance level availability on a geographic map a
 
     **Note:** All alerts generated for your instance are consolidated and listed in the Alert Console. To monitor the alerts, navigate to **Alerts** &gt; **Alert Console** and filter the **Alert Type** column with the value **Monitoring** to see the instance's Up/Down time.
 
-    ![Instance up or down time filtered by Monitoring alert type.](../image/monitoring-alerts-up-down.png)
+    \[Omitted image "monitoring-alerts-up-down.png"\] Alt text: Instance up or down time filtered by Monitoring alert type.
 
-    ![Instance availability in a geographical map.](../image/io-instance-availability.png "Instance availability in a geographical map")
+    \[Omitted image "io-instance-availability.png"\] Alt text: Instance availability in a geographical map.
 
 4.  Select **Detailed Instance Availability** to navigate to the Instances Dashboard
 

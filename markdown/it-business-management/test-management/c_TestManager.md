@@ -2,6 +2,7 @@
 title: Setting up the manual testing process
 description: Set up and monitor the test suites, test cases, and test plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/test-management/c\_TestManager.html
 release: xanadu
 product: Test Management
 classification: test-management

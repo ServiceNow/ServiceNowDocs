@@ -2,7 +2,10 @@
 title: View inventory details using the Field Service Contractor for mobile application
 description: View details of available and defective parts in your inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-inventory-detail-fsm-contractor-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
     -   To view details of the available parts, tap **Available** and select a part to view its details.
     -   To view details of the defective parts, tap **Defective** and select a part to view its details.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

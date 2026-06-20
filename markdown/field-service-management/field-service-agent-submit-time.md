@@ -2,7 +2,10 @@
 title: Review and submit a time sheet
 description: Agents can review and submit time sheets to managers for review and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-agent-submit-time.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ The total hours worked for each category are recorded on the time card and on th
     The time sheet is submitted to the manager for approval. The state of the time sheet changes from **Pending** to **Submitted** and the form becomes read-only.
 
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

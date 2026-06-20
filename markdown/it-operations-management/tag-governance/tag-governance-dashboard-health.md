@@ -2,6 +2,7 @@
 title: Tag Governance dashboard – Overview tab
 description: The Overview tab tracks the health and compliance of CIs based on tag audits. Interactive widgets provide information that enables you to view and analyze tag compliance status and the most-used and least-used tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/tag-governance/tag-governance-dashboard-health.html
 release: xanadu
 product: Tag Governance
 classification: tag-governance
@@ -19,7 +20,7 @@ The **Overview** tab tracks the health and compliance of CIs based on tag audits
 
 Log in as a Tag Governance administrator \(sn\_itom\_tag.tag\_governance\_admin\) to configure reports and Tag Governance Viewer \(sn\_itom\_tag.tag\_reports\_viewer\) view the reports. To access the dashboard, navigate to **Tag Governance** &gt; **Dashboard**.
 
-![Overview tab](../image/tag-health-dashboard.png "Overview tab")
+\[Omitted image "tag-health-dashboard.png"\] Alt text: Overview tab
 
 ## Applying filters
 

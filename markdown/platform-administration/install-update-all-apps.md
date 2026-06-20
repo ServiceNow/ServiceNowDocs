@@ -2,6 +2,7 @@
 title: Install or update all applications in a ServiceNow product
 description: Install or update all applications that are part of a ServiceNow product from your ServiceNow instance at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/install-update-all-apps.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -48,5 +49,5 @@ Role required: admin
 
 A confirmation message is displayed if all the applications are installed. Otherwise, the number of successful and unsuccessful installations are displayed.
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 

@@ -2,6 +2,7 @@
 title: Bubble visualization example
 description: The bubble data visualization is used to do compare fields and see their relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/dv-example-bubble.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The bubble data visualization is used to do compare fields and see their relatio
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -25,15 +26,15 @@ In this example, you create a bubble visualization that shows the number of open
 
 ## Procedure
 
-1.  Follow the first steps to [Create a bubble visualization in the Visualization Designer](../../reporting/task/create-dv-bubble-ac.md):
+1.  Follow the first steps to [Create a bubble visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-bubble-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the Bubble \(![bubble chart icon](../../reporting/image/inline-data-vis-bubble.png)\) visualization type.
+    3.  Select the Bubble \(\[Omitted image "inline-data-vis-bubble.png"\] Alt text: bubble chart icon\) visualization type.
 
-        ![Animation showing workspace and visualization designer selection, and choosing to create a bubble visualization](../../reporting/image/dv-ex-bubble-select.gif)
+        \[Omitted image "dv-ex-bubble-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a bubble visualization
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -51,7 +52,7 @@ In this example, you create a bubble visualization that shows the number of open
 
     A bubble visualization with the current values of the selected data appears in the Visualization Designer.
 
-    ![Animation showing selection of data source, application of filter and result](../../reporting/image/dv-ex-bubble-data-source.gif)
+    \[Omitted image "dv-ex-bubble-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -71,7 +72,7 @@ In this example, you create a bubble visualization that shows the number of open
 
 5.  In the Dimensions section, keep the X axis field, Business resolve time and select State for the Y axis field.
 
-    ![Bubble report with X axis set to Business resolve time and Y axis set to State](../../reporting/image/dv-ex-bubble-dimensions.png)
+    \[Omitted image "dv-ex-bubble-dimensions.png"\] Alt text: Bubble report with X axis set to Business resolve time and Y axis set to State
 
 6.  Under Data update, configure how the audience interacts with the visualization.
 

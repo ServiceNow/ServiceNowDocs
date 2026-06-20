@@ -2,7 +2,10 @@
 title: Portal Taxonomy Topic widget instance options form
 description: Instance options enable you to configure the Portal Taxonomy Topic widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/port-taxo-topic-inst-optns.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Activate a disabled pattern
 description: If you want to use a pattern for discovery that's disabled by default, activate it manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -36,9 +37,9 @@ Starting with Visibility Content version 6.28.0, activating or deactivating a pa
 5.  Select **Update**.
 
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Compare pattern versions](compare-pattern-versions.md)
+**Previous topic:**[Compare pattern versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.md)
 
-**Next topic:**[ITOM Content Service](../../discovery/concept/discovery-content-services.md)
+**Next topic:**[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/discovery-content-services.md)
 

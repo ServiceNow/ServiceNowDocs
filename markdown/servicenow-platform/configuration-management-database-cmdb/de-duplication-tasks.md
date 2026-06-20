@@ -1,0 +1,262 @@
+---
+title: Duplicate CIs remediation
+description: When the instance encounters duplicate CIs during identification and reconciliation \(IRE\), it groups each set of duplicate CIs into a de-duplication task for review and remediation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.html
+release: xanadu
+product: Configuration Management Database \(CMDB\)
+classification: configuration-management-database-cmdb
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 13
+breadcrumb: [CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+---
+
+# Duplicate CIs remediation
+
+When the instance encounters duplicate CIs during identification and reconciliation \(IRE\), it groups each set of duplicate CIs into a de-duplication task for review and remediation.
+
+## De-duplication tasks
+
+De-duplication tasks provide details about the duplication, including a list of all the duplicate CIs. Review the details of each duplicate CI in the task and the data that was used to determine that the CI is a duplicate.
+
+To remediate a de-duplication task, you need to reconcile its set of duplicate CIs into a single CI, eliminating the duplication. From a de-duplication task, you can run the Duplicate CI Remediator wizard to remediate a single de-duplication task.Or, you can access the [De-duplication dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) to create de-duplication templates that remediate de-duplication tasks in bulk.
+
+For more information about IRE processes that detect duplicate CIs and generate de-duplication tasks, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
+
+## Main CI
+
+The main CI plays an important role in the remediation of duplicate CIs. The main CI is one of the duplicate CIs that you want to retain as an active CI after reconciling the rest of the duplicate CIs into that main CI. You can then potentially retire or delete the rest of the duplicate CIs, or assign custom values to their attributes. The first step during remediation is to select a main CI for the remediation process. During remediation, you choose which attribute values, relationships, and related items from the duplicate CIs to reconcile into the main CI. Alternatively, you can choose not to consolidate any data and retain the main CI as it is.
+
+The **duplicate\_of** attribute in duplicate CIs, is used to store a reference to the main CI. For duplicate CIs which existed in an instance that was upgraded to the New York release or later, the main CI is unknown. After upgrade, **duplicate\_of** for those duplicate CIs is set to 'Unknown', indicating that the CI is a duplicate but the main CI is unknown.
+
+Before remediation, the CIs in a duplicate CIs set are all duplicates of each other. After remediation, a set of duplicate CIs consists of one main CI, and any number of CIs, each considered a duplicate of the main CI. The **duplicate\_of** attribute of the main CI is empty. The **duplicate\_of** attribute for all the rest of the duplicate CIs in the set, is a reference to the main CI of the set.
+
+## Default related items list
+
+A list of related items that is used globally in the remediation of duplicate CIs, with all de-duplication tasks. During remediation, all items from the default related items list are selected by default to be merged to the main CI. During remediation, adding or removing related items to be merged doesn't affect the default related items list. See [Manage default related items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.md) for more information.
+
+**Note:**
+
+-   Merging of attributes and related items that are associated with assets is not supported. Asset related tables are not included in the default related items list and therefore they are not available for merge.
+-   If a scenario involves an inactive change request, the **Configuration item** field on the Change Request form is cleared. If the current value is a duplicate CI, then it isn’t merged with the main CI.
+
+## De-duplication dashboard
+
+[CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides a de-duplication remediation solution letting you remediate de-duplication tasks, in bulk. The De-duplication dashboard, and the de-duplication templates and libraries, let you remediate multiple de-duplication tasks, consistently, in a single operation. The De-duplication Template Library in CMDB Workspace lets you create a preconfigured de-duplication template with the remediation settings for a class. The De-duplication dashboard in CMDB Workspace lets you then run the preconfigured template on multiple de-duplication tasks for the class that is set in the template. The remediation settings in the template, are then consistently applied to the duplicate CIs of the de-duplication tasks, to remediate CI duplication.
+
+For more information about remediating duplicate CIs in CMDB Workspace, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
+
+## Duplicate CI Remediator
+
+A de-duplication remediation tool, that is wizard-like and that lets you reconcile a set of duplicate CIs associated with a single de-duplication task. You can choose one of the duplicate CIs to retain as an active CI, and then decide how to process the rest of the duplicate CIs. The Duplicate CI Remediator lets you set reconciliation options for attributes, relationships, and related items.
+
+For information about using the Duplicate CI Remediator, see [Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+
+## Effects on related tasks \(change, problem, incident\)
+
+Effect on change requests:
+
+-   When a CI is associated with a change request whose state isn’t **New**, then when duplicate CI remediation processes delete the CI, the CI is removed from the change request.
+-   When a CI is associated with a change request whose state is **New**, then when duplicate CI remediation processes delete the CI, the CI in the change request is updated to the main CI.
+
+The business rule **Ready only CI when not New** prevents change requests that aren't in the New state, from getting updated. This behavior ensures the validity and the continued processing of a change request when change request CIs are affected by duplicate remediation processing.
+
+When a CI is associated with a problem or an incident task, those tasks remain valid after duplicate CI remediation processes run as the system merges the main CI in those tasks even if the remediation processes deleted the associated CI.
+
+## Properties that affect processing of duplicate CIs
+
+During CMDB Identification, processing of sets of duplicate CIs is determined by:
+
+-   Property **glide.identification\_engine.skip\_duplicates** \(true by default\).
+-   Property **glide.identification\_engine.skip\_duplicates.threshold** \(5 by default\).
+-   Number of duplicate CIs in a set.
+
+For information about how these properties affect the management of duplicate CIs, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
+
+## Special remediation scenarios
+
+There are a few special remediation scenarios in which the remediation of duplicate CIs behaves differently:
+
+-   **Large number of duplicate CIs**
+
+    Support for reconciliation of duplicate CIs is limited when the number of duplicate CIs exceeds a certain threshold. This threshold is based on the value of the **glide.duplicate\_ci\_remediator.max.cis** property, which is 1,000 by default. You can update this property to increase the threshold. However, this threshold never exceeds 5,000, even if you set the property to a value greater than 5,000.
+
+    When the number of duplicate CIs for a de-duplication task exceeds the threshold, the options available in the wizard are limited:
+
+    -   On the **Select Main CI** tab, only the **Recommended** list of main CIs appears, and only the **Use Main CI** option is available.
+    -   Recommendations are based only on the oldest created, newest updated, and most recently discovered CIs.
+    -   Reconciliation of attribute conflicts and CI relationships is not supported, and only default related items are reconciled.
+-   **Duplicate serial numbers**
+
+    Duplicate CI remediation is usually applied to duplicate CMDB CIs. However, in some situations de-duplication tasks might be created for duplicate serial numbers. When remediation is applied to duplicate serial numbers, the merge of relationships from duplicate records, is not referenced and is not applied.
+
+-   **Large number of related items**
+
+    A de-duplication task might be associated with a large number of related items which might block the remediation process as loading the task times out. To continue the remediation process in this case, you can try running remediation in a restricted mode. Add the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode** system property, and set its value to **true** to show the **Use the Duplicate CI Remediator \(Restricted Mode\)** option in the Remediate dialog box. For more information about using this option to restrict the use of related items in de-duplication remediation and allow remediation to proceed, see [Using restricted mode within the Duplicate CI Remediator \[KB1542272\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB1542272).
+
+
+## Restrictions
+
+IRE uses the **duplicate\_of** field internally by populating it as part of the skip duplicate mechanism, and you should restrict manual updates of that field. For more details, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
+
+If you do attempt to modify the value of **duplicate\_of** directly on a CI form or by using a script, the following restrictions are enforced to ensure data integrity:
+
+-   A CI cannot be its own main CI \(you cannot set a CI as a duplicate of itself\).
+-   A CI and its main CI cannot be from different domains.
+-   The **duplicate\_of** attribute of the main CI cannot reference any CI as its main CI \(you cannot set a CI as a duplicate of another duplicate CI to create a chain of duplicate CIs\).
+
+    -   If you attempt to set a CI as a duplicate of another duplicate CI, then the CI is set as a duplicate of the main CI of the duplicate CI you are trying to set. If the main CI of the duplicate CI you are trying to set is 'Unknown', the operation fails.
+
+<table id="table_rsd_stp_b3b"><thead><tr><th>
+
+CIs
+
+</th><th>
+
+Attempted setting
+
+</th><th>
+
+Result \(System enforced\)
+
+</th></tr></thead><tbody><tr><td>
+
+CI1: **duplicate\_of** = empty
+
+ CI2: **duplicate\_of** = **CI3**
+
+ CI3: Main CI
+
+</td><td>
+
+CI1: **duplicate\_of** = **CI2**
+
+</td><td>
+
+CI1: **duplicate\_of** = **CI3**
+
+ CI2: **duplicate\_of** = **CI3**
+
+ CI3: Main CI
+
+</td></tr></tbody>
+</table>        If CI2 is a duplicate of 'Unknown', the operation fails.
+
+    -   If a main CI becomes a duplicate of another CI, then it can no longer be a main CI. All CIs that were duplicates of that main CI are set as duplicates of the new main CI.
+
+<table id="table_bcd_ld5_b3b"><thead><tr><th>
+
+CIs
+
+</th><th>
+
+Attempted setting
+
+</th><th>
+
+Result \(System enforced\)
+
+</th></tr></thead><tbody><tr><td>
+
+CI1: **duplicate\_of** = **CI4**
+
+ CI2: **duplicate\_of** = **CI4**
+
+ CI3: **duplicate\_of** = **CI4**
+
+ CI4: Main CI
+
+ CI5: **duplicate\_of** = empty
+
+</td><td>
+
+CI4: **duplicate\_of** = **CI5**
+
+</td><td>
+
+CI1: **duplicate\_of** = **CI5**
+
+ CI2: **duplicate\_of** = **CI5**
+
+ CI3: **duplicate\_of** = **CI5**
+
+ CI4: **duplicate\_of** = **CI5**
+
+ CI5: Main CI
+
+</td></tr></tbody>
+</table>    -   If a main CI becomes a duplicate of a CI within the same duplicate CI set, then the selected duplicate becomes the main CI in the duplicate CI set. The rest of the duplicate CIs in the set are set as duplicates of the new main CI.
+
+<table id="table_hry_ntw_b3b"><thead><tr><th>
+
+CIs
+
+</th><th>
+
+Attempted setting
+
+</th><th>
+
+Result \(System enforced\)
+
+</th></tr></thead><tbody><tr><td>
+
+CI1: **duplicate\_of** = **CI4**
+
+ CI2: **duplicate\_of** = **CI4**
+
+ CI3: **duplicate\_of** = **CI4**
+
+ CI4: Main CI
+
+</td><td>
+
+CI4: **duplicate\_of** = **CI1**
+
+</td><td>
+
+CI1: Main CI
+
+ CI2: **duplicate\_of** = **CI1**
+
+ CI3: **duplicate\_of** = **CI1**
+
+ CI4: **duplicate\_of** = **CI1**
+
+</td></tr></tbody>
+</table>-   You can't delete a CI that is the main CI for a set of duplicate CIs. To delete a main CI, you must first disassociate that main CI with all of its duplicate CIs. Either delete all duplicate CIs that are associated with that main CI, or remove the reference to that main CI from all **duplicate\_of** attributes in any duplicate CIs that have it.
+
+-   **[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)**  
+Create libraries of de-duplication templates in CMDB Workspace, to remediate de-duplication tasks in a consistent manner, and in bulk. De-duplication templates are pre-configured with all necessary settings for remediating duplicate CIs in de-duplication tasks, per class.
+-   **[Review de-duplication tasks \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/t_ResolveDeDuplicationTask.md)**  
+Review details of de-duplication tasks, and then potentially remediate a de-duplication task.
+-   **[Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)**  
+Remediate a single de-duplication task by using the Duplicate CI Remediator wizard. Use the wizard to guide you through the duplicate CI reconciliation process or to apply a custom workflow.
+-   **[Manually create a de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/manual-create-dedup-task.md)**  
+Manually create a de-duplication task when it is not automatically created. You can then use the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace to remediate the manually created task.
+-   **[Manage default related items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.md)**  
+You can add or remove items from the default list of related items which is used in duplicate CI remediation for all de-duplication tasks.
+-   **[Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md)**  
+Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediatoror the De-duplication dashboard in CMDB Workspace.
+-   **[Components installed for duplicate CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/components-installed-with-dup-ci.md)**  
+Tables installed to support duplicate CI remediation \(included in the com.snc.cmdb plugin\).
+-   **[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)**  
+Create libraries of de-duplication templates in CMDB Workspace, to remediate de-duplication tasks in a consistent manner, and in bulk. De-duplication templates are pre-configured with all necessary settings for remediating duplicate CIs in de-duplication tasks, per class.
+-   **[Review de-duplication tasks \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/t_ResolveDeDuplicationTask.md)**  
+Review details of de-duplication tasks, and then potentially remediate a de-duplication task.
+-   **[Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md)**  
+Remediate a single de-duplication task by using the Duplicate CI Remediator wizard. Use the wizard to guide you through the duplicate CI reconciliation process or to apply a custom workflow.
+-   **[Manually create a de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/manual-create-dedup-task.md)**  
+Manually create a de-duplication task when it is not automatically created. You can then use the Duplicate CI Remediator or the De-duplication dashboard in CMDB Workspace to remediate the manually created task.
+-   **[Manage default related items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.md)**  
+You can add or remove items from the default list of related items which is used in duplicate CI remediation for all de-duplication tasks.
+-   **[Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md)**  
+Use de-duplication properties to configure how remediation of duplicate CIs works when using the Duplicate CI Remediatoror the De-duplication dashboard in CMDB Workspace.
+-   **[Components installed for duplicate CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/components-installed-with-dup-ci.md)**  
+Tables installed to support duplicate CI remediation \(included in the com.snc.cmdb plugin\).
+
+**Parent Topic:**[CMDB data management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management-landing.md)
+
+**Parent Topic:**[CMDB data management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management-landing.md)
+

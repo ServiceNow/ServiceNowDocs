@@ -2,6 +2,7 @@
 title: Commits and task executions in DevOps
 description: Run commits in DevOps are associated to a task execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/commits-and-task-executions-in-devops.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -60,5 +61,5 @@ GitLab
 20
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+</table>**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

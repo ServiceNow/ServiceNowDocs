@@ -2,6 +2,7 @@
 title: Perform Due Diligence
 description: Complete due diligence tasks to evaluate the eligibility of new account applications. Multiple agents can complete separate tasks concurrently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.html
 release: xanadu
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -28,7 +29,7 @@ This stage requires multiple agents to complete. KYC, Credit, Tax, and Legal age
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  On the **Lists**, tab, select a case.
 
@@ -43,5 +44,5 @@ Once all agents have completed their assigned tasks, the Due Diligence stage sho
 
 ## What to do next
 
-Continue to the [Fulfillment](activate-account.md) stage.
+Continue to the [Fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/activate-account.md) stage.
 

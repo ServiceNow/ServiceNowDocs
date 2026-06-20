@@ -2,7 +2,10 @@
 title: Add a time card to log your work time
 description: Create time cards to log your work time through the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-timecard-fsm-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d100071e79">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d44124e79">
 
 Time card type
 
-</th><th align="left" id="d100071e82">
+</th><th align="left" id="d44124e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d100071e88">
+</th></tr></thead><tbody><tr><td id="d44124e88">
 
 **Copy from previous time sheet**
 
@@ -43,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d100071e103">
+</td></tr><tr><td id="d44124e103">
 
 **Add assigned task**
 
@@ -54,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d100071e130">
+</td></tr><tr><td id="d44124e130">
 
 **Add unassigned task**
 
@@ -64,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d100071e151">
+</td></tr><tr><td id="d44124e151">
 
 **Add from category**
 
@@ -80,5 +83,5 @@ Tap **Copy** from a previous time sheet.
 6.  Tap **Submit time sheet**.
 
 
-**Parent Topic:**[Use Time Sheets in the Now Mobile Agent application](../concept/timesheet-fsm-mobile.md)
+**Parent Topic:**[Use Time Sheets in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/timesheet-fsm-mobile.md)
 

@@ -2,6 +2,7 @@
 title: GlideAgentWorkspace \(g\_aw\) - Client
 description: The g\_aw API provides methods that enable a UI action or client script to open a specified record in an Agent Workspace tab.Closes the currently open record, such as a form, in a subtab within Agent Workspace.Opens a specified record, such as a form, in a subtab within Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/GlideAgentWorkspaceAPI.html
 release: xanadu
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The g\_aw API provides methods that enable a UI action or client script to open 
 
 There is no constructor for this class. Access GlideAgentWorkspace methods using the `g_aw` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/api-client.md)
 
 ## GlideAgentWorkspace - closeRecord\(\)
 
@@ -132,7 +133,7 @@ String
 
 Name of the initial tab to display in the workspace. You can only specify related items or related lists.If not specified, the details tab appears unless **hideDetails** is set to true.
 
- For more information on the method to use to obtain a related list name, see [getRelatedListNames\(\)](../../GlideForm/concept/c_GlideFormAPI.md#).
+ For more information on the method to use to obtain a related list name, see [getRelatedListNames\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideFormAPI.md).
 
 </td></tr><tr><td>
 

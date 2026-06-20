@@ -2,6 +2,7 @@
 title: Manage applications
 description: Learn how to manage the applications you publish to the ServiceNow application repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/application-repository-self-hosted/manage-apps.html
 release: xanadu
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted

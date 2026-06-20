@@ -2,6 +2,7 @@
 title: Summarize a Sidebar discussion by using Now Assist for Customer Service Management \(CSM\)
 description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -27,7 +28,7 @@ You can do these actions by using Sidebar discussion summarization:
 -   Share the Sidebar discussion to the work notes.
 -   Provide feedback for the summary.
 
-**Note:** The Sidebar discussion summarization skill is on the chat skill card in the Customer group. For more information, see [Sidebar discussion summarization](https://www.servicenow.com/docs/access?context=now-assist-sidebar-discussion-summarization&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+**Note:** The Sidebar discussion summarization skill is on the chat skill card in the Customer group. For more information, see Sidebar discussion summarization.
 
 ## Procedure
 
@@ -43,21 +44,21 @@ You can do these actions by using Sidebar discussion summarization:
 
     3.  Select **Start Discussion**.
 
-    ![Modal to add participants for discussion.](../image/now-assist-sidebar-discussion.png "Sidebar discussion modal")
+    \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Modal to add participants for discussion.
 
-3.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon ![Quick action icon.](../image/now-assist-sidebar-lightning-bolt-icon.png).
+3.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d32475e210">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d32889e210">
 
 Option
 
-</th><th align="left" id="d32475e213">
+</th><th align="left" id="d32889e213">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d32475e219">
+</th></tr></thead><tbody><tr><td id="d32889e219">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -68,15 +69,15 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d32475e246">
+</td></tr><tr><td id="d32889e246">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you'd like to provide feedback, select either the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\) or the not helpful icon ![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you'd like to provide feedback, select either the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

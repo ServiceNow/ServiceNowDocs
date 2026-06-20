@@ -2,6 +2,7 @@
 title: Configure non-task tables for contract templates
 description: Add non-task tables in the script of an extension point implementation so you can select them while creating contract templates. A non-task table does not extend task tables, and stores records, reference data, or configuration information used across the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-config-non-tsk-tbl-cn-tmplt.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
-    For a description of the field values, see [Scripted Extension Point form fields](../../legal-request-management/reference/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, enter the name of non-task tables that you want to configure for contract templates.
 
@@ -64,5 +65,5 @@ Role required: admin
 
 The non-task tables are available for selection in the **table** drop-down list in the Contract templates view of the Word Templates page of the Contract Administration application.
 
-For more information, see [Create a contract template](cncore-create-contract-template.md).
+For more information, see [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
 

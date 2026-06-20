@@ -2,6 +2,7 @@
 title: Use knowledge subscriptions
 description: Use knowledge subscriptions to receive email notifications about new articles and article revisions or comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/use-knowledge-subscriptions.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -15,16 +16,16 @@ breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content ca
 
 Use knowledge subscriptions to receive email notifications about new articles and article revisions or comments.
 
--   **[Subscribe to a knowledge base](product/knowledge-management/task/subscribe-to-knowledge-base.md)**  
+-   **[Subscribe to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/subscribe-to-knowledge-base.md)**  
 Subscribe to a knowledge base and receive notifications when articles are added to that knowledge base.
--   **[Unsubscribe from a knowledge base](product/knowledge-management/task/unsubscribe-from-knowledge-base.md)**  
+-   **[Unsubscribe from a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/unsubscribe-from-knowledge-base.md)**  
 Unsubscribe from a knowledge base.
--   **[Subscribe to a knowledge article](product/knowledge-management/task/subscribe-to-knowledge-article.md)**  
+-   **[Subscribe to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/subscribe-to-knowledge-article.md)**  
 Subscribe to a knowledge article within a knowledge base to receive email notifications about new articles and article revisions or comments.
--   **[Unsubscribe from a knowledge article](product/knowledge-management/task/unsubscribe-from-knowledge-article.md)**  
+-   **[Unsubscribe from a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/unsubscribe-from-knowledge-article.md)**  
 Unsubscribe from a knowledge article.
--   **[Manage knowledge subscriptions](product/knowledge-management/task/manage-knowledge-subscriptions.md)**  
+-   **[Manage knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/manage-knowledge-subscriptions.md)**  
 Manage knowledge base and knowledge article subscriptions from the Notification Settings page.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

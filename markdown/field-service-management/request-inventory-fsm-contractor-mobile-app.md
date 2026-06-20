@@ -2,7 +2,10 @@
 title: Request inventory using the Field Service Contractor for mobile application
 description: Request inventory to receive parts when your stock gets low or you need a part for a particular work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/request-inventory-fsm-contractor-mobile-app.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -70,5 +73,5 @@ You can request the required parts from your group or personal stockroom. If you
 
 The Part Requirements and Transfer Orders related lists are updated automatically in the work order task form.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

@@ -2,6 +2,7 @@
 title: Use the GetProperties component
 description: Get the values of multiple properties from a JSON object by using the GetProperties component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-utilities-json-getproperties.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties of the GetProperties component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties of the GetProperties component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/properties-utilities-json.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ To configure the properties of the GetProperties component, see [Properties of t
 
 2.  Drag the GetProperties component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-4.  Click the Add property icon \(![Add keys icon.](../image/add-image-icon.png)\).
+4.  Click the Add property icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 
 5.  Enter a property name.
 
@@ -41,7 +42,7 @@ To configure the properties of the GetProperties component, see [Properties of t
 
 7.  Click **OK**.
 
-8.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+8.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 9.  Connect the data and control ports of the GetProperties component to the corresponding ports of the other components as described in the following table.
 
@@ -127,5 +128,5 @@ Returns the values of the properties.If no property value is found, the port ret
 </table>10. To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/json.md)
 

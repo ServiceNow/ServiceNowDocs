@@ -2,13 +2,14 @@
 title: Install and configure Microsoft Defender for EDR Integration
 description: Install and configure the Microsoft Defender for EDR integration from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-ms-defender-configure.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-04-13"
 reading_time_minutes: 2
-breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Install and configure Microsoft Defender for EDR Integration
@@ -28,7 +29,7 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Using your instance, access **Threat Intelligence Security Center**.
 
-3.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+3.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md).
 
 4.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
@@ -184,5 +185,5 @@ The expiry period in days that are applied for the Hash type of observable when 
 
 After the integration is configured, You can select the required any type of observable that supports Microsoft Defender EDR from Threat Intel Library.
 
-**Parent Topic:**[Microsoft Defender for EDR Integration](../concept/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

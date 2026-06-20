@@ -2,6 +2,7 @@
 title: Datadog considerations
 description: Read this topic to understand how to correctly configure your data mappings for a Datadog integration with Service Observability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/datadog-considerations.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -21,7 +22,7 @@ Services are matched to APM data using the key/value pairs on the APM metadata. 
 
 For example, say you have a service named `internet-banking-4` that you want to use in a mapping and it doesn't contain metadata. You set up the mapping as shown in this screen shot.
 
-![How to map a service that doesn't contain metadata](../image/so_dd_mapping.png "Datadog mapping when no metadata is present")
+\[Omitted image "so\_dd\_mapping.png"\] Alt text: How to map a service that doesn't contain metadata
 
 ## Host discovery
 
@@ -38,7 +39,7 @@ If your databases don't emit these metrics, they will not be mapped.
 
 ## Default dashboard templates
 
-The Requests, Errors, and Latency charts on the Overview and Observability dashboard templates are created using the Datadog `trace.http.request` trace metric. If a service is not emitting that metric, no data will be found. You can customize the template to use a different trace metric query. See [Customize Service Observability dashboard templates](customize-service-observability-dashboards.md) for more information.
+The Requests, Errors, and Latency charts on the Overview and Observability dashboard templates are created using the Datadog `trace.http.request` trace metric. If a service is not emitting that metric, no data will be found. You can customize the template to use a different trace metric query. See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/customize-service-observability-dashboards.md) for more information.
 
-**Parent Topic:**[Create and manage observability data mappings](create-and-manage-observability-data-mappings.md)
+**Parent Topic:**[Create and manage observability data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)
 

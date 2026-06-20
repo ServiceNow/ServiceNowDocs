@@ -2,6 +2,7 @@
 title: Python connector methods
 description: Execute custom Python scripts or files as part of an automation workflow by using the methods of Python connector in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/python-connector-methods-rpa.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,17 +18,17 @@ Execute custom Python scripts or files as part of an automation workflow by usin
 
 ## Prerequisites for using the Python connector methods
 
-Configure the Python connector. For more information, see [Configure the Python connector](../task/configure-python-connector.md).
+Configure the Python connector. For more information, see [Configure the Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-python-connector.md).
 
-Familiarize yourself with the limitations of Python script. For more information, see [Limitations of Python script in Python connector](python-script-limitations-rpa.md).
+Familiarize yourself with the limitations of Python script. For more information, see [Limitations of Python script in Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/python-script-limitations-rpa.md).
 
 ## Execute
 
-Executes Python scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the Python connector](../task/configure-python-connector.md).
+Executes Python scripts set up in the configuration window. Before executing the method, you must configure the connector. See [Configure the Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-python-connector.md).
 
 To execute, do the following steps.
 
-1.  Select the component and click the method settings icon \(![Method settings icon](../image/component-settings-icon.png)\) or double-click the component head bar.
+1.  Select the component and click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon\) or double-click the component head bar.
 2.  From the **Classes** list, select the class defined during the configuration of the Python connector.
 
     For example, **Math**.
@@ -40,9 +41,9 @@ To execute, do the following steps.
 
     Functions are those methods that are not written within a class. For example, banner.
 
-    ![Banner function is selected from the Functions list.](../image/show-functions-python-rpa.png "Show Functions check box")
+    \[Omitted image "show-functions-python-rpa.png"\] Alt text: Banner function is selected from the Functions list.
 
-    ![Function in Execute Method.](../image/execute-python-script.png "Function in Execute Method")
+    \[Omitted image "execute-python-script.png"\] Alt text: Function in Execute Method.
 
 5.  Click **Validate**.
 6.  Click **OK**.
@@ -73,7 +74,7 @@ Result
 
 </td><td>
 
-Returns the output of the script.!["Welcome Abel Tutor" is displayed in the Data Out port of the Execute method.](../image/execute-method-result-rpa.png "Result of the Execute method")
+Returns the output of the script.\[Omitted image "execute-method-result-rpa.png"\] Alt text: "Welcome Abel Tutor" is displayed in the Data Out port of the Execute method.
 
 </td><td>
 
@@ -90,7 +91,7 @@ Runs the Python script on local computers and gets the output. Ensure that the P
 
 Ensure that a Python version is installed on your machine. You must ensure that the Python script is running without errors.
 
-![InvokeScript method.](../image/invokescript-python-connector.png "InvokeScript method")
+\[Omitted image "invokescript-python-connector.png"\] Alt text: InvokeScript method.
 
 <table id="table_a3f_lbn_jgc"><thead><tr><th>
 
@@ -175,7 +176,7 @@ Return
 
 </td><td>
 
-Output of the script that is returned.![Result is displayed in the Data Out port of the InvokeScript method.](../image/invokescript-method-result-rpa.png "Result of the InvokeScript method")
+Output of the script that is returned.\[Omitted image "invokescript-method-result-rpa.png"\] Alt text: Result is displayed in the Data Out port of the InvokeScript method.
 
 </td><td>
 
@@ -186,5 +187,5 @@ Data Out
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Python connector](../concept/python-connector-rpa.md)
+</table>**Parent Topic:**[Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/python-connector-rpa.md)
 

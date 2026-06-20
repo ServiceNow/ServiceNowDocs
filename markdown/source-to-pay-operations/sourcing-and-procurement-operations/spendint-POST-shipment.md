@@ -2,6 +2,7 @@
 title: Spendint API - POST /sn\_spend\_intg/spendint/shipment
 description: Use this endpoint to accept updates on purchases from third parties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/spendint-POST-shipment.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -537,5 +538,5 @@ Possible responses:
 }
 ```
 
-**Parent Topic:**[Spendint API](../concept/spendint-api.md)
+**Parent Topic:**[Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)
 

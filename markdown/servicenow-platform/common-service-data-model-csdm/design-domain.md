@@ -2,6 +2,7 @@
 title: Design domain of the CSDM framework
 description: The Design domain supports the design and planning of digital products. CIs in the Design domain aren’t operational, so you can’t select them for Incident Management, Problem Management, or Change Management. Enterprise architects and application owners are the typical users of tables in this domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/design-domain.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -23,7 +24,7 @@ The Design domain includes the tables used by Application Portfolio Management \
 -   Business application table \[cmdb\_ci\_business\_app\]
 -   Information object table \[cmdb\_ci\_information\_object\]
 
-![Design domain of the CSDM framework.](../image/design-domain.png)
+\[Omitted image "design-domain.png"\] Alt text: Design domain of the CSDM framework.
 
 ## Relationships between CIs that support decision making
 
@@ -49,7 +50,7 @@ You can represent business capabilities in a hierarchy of a parent business capa
 
 Use the Business Capability form to create, modify, and extend business capabilities.
 
-![Business capability form.](../image/business-capability-form.png)
+\[Omitted image "business-capability-form.png"\] Alt text: Business capability form.
 
 To update capabilities, select the **Update Capability Level and HierarchyID** related link. Follow these guidelines when you update capabilities to ensure that the capability map reflects the change:
 
@@ -75,7 +76,7 @@ Use either of the following methods to add a business application:
 
 -   Use the Business Application form.
 
-    ![Business Application form.](../image/business-application-form.png)
+    \[Omitted image "business-application-form.png"\] Alt text: Business Application form.
 
 
 ## Information object
@@ -91,5 +92,5 @@ Use either of the following methods to add a business application:
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model — conceptual model](csdm-conceptual-model.md)
+**Parent Topic:**[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

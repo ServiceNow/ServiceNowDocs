@@ -2,6 +2,7 @@
 title: Mute or unmute all participants
 description: As a communications manager or a conference call host, mute/unmute all the conference participants from the workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/notify/t\_MuteOrUnmuteAll.html
 release: xanadu
 product: Notify
 classification: notify
@@ -31,7 +32,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 4.  In the **Conferences** tab, select a conference
 
-<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d345797e95">
+<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d361636e92">
 
 **__Mute All__**
 
@@ -39,7 +40,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 Click this button to mute all the participants in the conference
 
-</td></tr><tr><td id="d345797e107">
+</td></tr><tr><td id="d361636e104">
 
 **__Unmute All__**
 
@@ -50,12 +51,12 @@ Click this button to unmute all the participants in the conference
 </td></tr></tbody>
 </table>
 
-    ![Screenshot for mute All](../image/MuteAll.png)
+    \[Omitted image "MuteAll.png"\] Alt text: Screenshot for mute All
 
 
 
-    ![Screenshot for Unmute All](../image/UnmuteAll.png)
+    \[Omitted image "UnmuteAll.png"\] Alt text: Screenshot for Unmute All
 
 
-**Parent Topic:**[Using Notify for making conference calls](../concept/c_NotifyConferenceCalls.md)
+**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

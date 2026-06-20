@@ -2,6 +2,7 @@
 title: Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]
 description: Verify that you're using v2 of the MultiSSO plugin and that it's set to true to reduce security vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-updated-version-of-multi-sso-plugin-is-enabled.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -102,5 +103,5 @@ References
 [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0756504](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0756504)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

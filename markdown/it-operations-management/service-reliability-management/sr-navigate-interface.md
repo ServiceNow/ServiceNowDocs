@@ -2,6 +2,7 @@
 title: SRM interface
 description: The different components on the SRM interface provide easy access to different functions. The features and functions that appear depend on your role and permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-navigate-interface.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -21,7 +22,7 @@ The SRM interface has the following different sections:
 
 In that case, to view SRM specific areas, select an SRM module.
 
-![Alerts, incidents, and changes](../image/sr-ui.png "Interface sections")
+\[Omitted image "sr-ui.png"\] Alt text: Alerts, incidents, and changes
 
 The SRM interface includes the following sections:
 
@@ -58,9 +59,9 @@ A home for your organization logo and system-level utilities that are present ev
 
 Easy access to specific modules in SRM. The left navigation is in icons. Use tool tips to identify them.
 
-![Left navigation panel: home, services, reliability tasks, and teams](../image/sr-navigation-pane.png)
+\[Omitted image "sr-navigation-pane.png"\] Alt text: Left navigation panel: home, services, reliability tasks, and teams
 
-**Note:** The Alert automation icon ![Alert automation icon](../image/icon-sr-alert-rules.png) is only available if you have installed the Alert automation application, available upon request, from the ServiceNow Store.
+**Note:** The Alert automation icon \[Omitted image "icon-sr-alert-rules.png"\] Alt text: Alert automation icon is only available if you have installed the Alert automation application, available upon request, from the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -68,7 +69,7 @@ Easy access to specific modules in SRM. The left navigation is in icons. Use too
 
 </td><td>
 
-Tabs, cards, or buttons that provide the means to accomplish product-level tasks. The elements in the content header differ from one section to another. See [SRM home page](../reference/sr-home-page.md) and SRM landing pages for more detailed information on these sections.
+Tabs, cards, or buttons that provide the means to accomplish product-level tasks. The elements in the content header differ from one section to another. See [SRM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-home-page.md) and SRM landing pages for more detailed information on these sections.
 
 </td></tr><tr><td>
 
@@ -83,14 +84,14 @@ If you want to minimize the far right side panel on forms, by default, navigate 
 Be aware that this disables it for all of Service Operations Workspace, not just SRM.
 
 </td></tr></tbody>
-</table>-   **[Search, filters, lists, forms, and guides](sr-visualize-content.md)**  
+</table>-   **[Search, filters, lists, forms, and guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-visualize-content.md)**  
 An overview of the additional elements in the SRM interface that help you find items, view available forms and lists, and follow set up processes.
--   **[Export list information to a file](../task/sr-export-to-file.md)**  
+-   **[Export list information to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-export-to-file.md)**  
 You can export live information to a file in SRM.
--   **[Manually create SRM tags](../task/sr-create-tags.md)**  
+-   **[Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-tags.md)**  
 Tags help you classify and categorize data, or otherwise add information there isn't a field for. SRM imports tags and attaches them to services, alerts, and incidents. However, you can also create tags manually.
--   **[Manually create an SRM template](../task/sr-create-template.md)**  
+-   **[Manually create an SRM template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-template.md)**  
 Templates help you quickly create SRM services, alerts, incidents, or teams from existing forms.
 
-**Parent Topic:**[Get started with Service Reliability Management](sr-get-started.md)
+**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-get-started.md)
 

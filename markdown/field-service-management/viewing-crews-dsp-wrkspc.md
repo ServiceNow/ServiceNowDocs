@@ -2,7 +2,10 @@
 title: Viewing crews in the Dispatcher Workspace calendar
 description: You can view the crew's schedule, availability, and tasks that are assigned to the crew or their work in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/viewing-crews-dsp-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -20,5 +23,5 @@ In Dispatcher Workspace, the calendar displays crew information for a selected d
 
 **Note:** No visual indicator appears for tasks that don't have a specified travel start time.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

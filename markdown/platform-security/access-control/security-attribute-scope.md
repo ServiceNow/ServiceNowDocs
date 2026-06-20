@@ -2,6 +2,7 @@
 title: Security Attribute Scope
 description: Security Attributes supports scoping capabilities.Existing and Local Security Attributes enable customers to reuse Security Attribute condition sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/access-control/security-attribute-scope.html
 release: xanadu
 product: Access Control
 classification: access-control

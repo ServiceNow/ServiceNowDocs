@@ -2,6 +2,7 @@
 title: Skills Overview in Workforce Optimization for HR
 description: Use Skills Overview to analyze skill data such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/skills-overview-report-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -125,7 +126,7 @@ Displays the percentage as well as the number of users with different levels of 
 </td></tr></tbody>
 </table>## Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for HR](configure-wfo-hr.md#).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md).
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|

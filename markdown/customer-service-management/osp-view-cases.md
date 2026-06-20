@@ -2,7 +2,10 @@
 title: View cases
 description: As an OSP manager or agent, you can view all application modules with the list of cases for customers, consumers, and products served by your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/osp-view-cases.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

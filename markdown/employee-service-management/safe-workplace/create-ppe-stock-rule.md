@@ -2,6 +2,7 @@
 title: Create stock rules for PPE
 description: Create a stock rule to automatically resupply a stockroom with an item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/safe-workplace/create-ppe-stock-rule.html
 release: xanadu
 product: Safe Workplace
 classification: safe-workplace
@@ -21,7 +22,7 @@ Role required: sn\_imt\_ppe.ppe\_admin
 
 ## About this task
 
-When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom. For more information about transfer orders, see [Transfer orders](https://www.servicenow.com/docs/access?context=transfer-orders-asset&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+When an item drops below a specified quantity, the stock rule automatically creates a transfer order. The transfer order resupplies the stockroom by transferring the required items from another stockroom. For more information about transfer orders, see Transfer orders.
 
 ## Procedure
 
@@ -44,9 +45,9 @@ When an item drops below a specified quantity, the stock rule automatically crea
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Set up Workplace PPE Inventory Management](set-up-ppe.md)
+**Parent Topic:**[Set up Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/set-up-ppe.md)
 
-**Previous topic:**[Reduce PPE stock](reduce-ppe-stock.md)
+**Previous topic:**[Reduce PPE stock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/reduce-ppe-stock.md)
 
-**Next topic:**[PPE Inventory Overview dashboard](../concept/ppe-overview-dashboard.md)
+**Next topic:**[PPE Inventory Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/safe-workplace/ppe-overview-dashboard.md)
 

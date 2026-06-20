@@ -2,6 +2,7 @@
 title: Monitor the integration status of the SLO inbound data import
 description: Monitor the status of the integration after a transform runs and completes successfully.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/monitor-integration-status.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -28,7 +29,7 @@ Role required: admin
         Transform History: Select this option to view the transform history, related errors, and log.
 
     -   Import log: Select this option to view the import log.
-    ![This page shows you that the transform run was successful.](../image/integration-status.png)
+    \[Omitted image "integration-status.png"\] Alt text: This page shows you that the transform run was successful.
 
 2.  Select **All**.
 
@@ -38,7 +39,7 @@ Role required: admin
 
     The Supplier location inbounds page appears.
 
-    ![Page showing the Supplier location inbounds.](../image/slo-staging-inbound.png)
+    \[Omitted image "slo-staging-inbound.png"\] Alt text: Page showing the Supplier location inbounds.
 
 4.  Verify the following:
 
@@ -47,5 +48,5 @@ Role required: admin
         -   The Integration status column displays **Failed** for the import set.
         -   The Processing message column displays the issue that occurred during the transformation. You must fix the error and run the transform again. For example, if any of the mandatory fields are missing, the integration fails and displays the missing data to aid you in fixing the error.
 
-**Parent Topic:**[Load supplier data](load-supplier-data.md)
+**Parent Topic:**[Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)
 

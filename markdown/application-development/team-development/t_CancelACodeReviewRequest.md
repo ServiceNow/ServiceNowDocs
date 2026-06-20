@@ -2,6 +2,7 @@
 title: Cancel a code review request
 description: Developers can cancel any push they submitted that is in the Awaiting Code Review stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/t\_CancelACodeReviewRequest.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -34,5 +35,5 @@ Canceling a request sets the push to the **Code Review Request Cancelled** stage
 5.  Click **Cancel Code Review**.
 
 
-**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

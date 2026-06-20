@@ -2,7 +2,10 @@
 title: Record the assets used during a work task
 description: Record any assets that you use during the execution of a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_RecordAssetUsageUseAsset.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Role required: wm\_agent
 
 The asset that was used is added to the **Asset Usages** related list.
 
-**Parent Topic:**[View asset usage](t_RecordAssetUsage.md)
+**Parent Topic:**[View asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_RecordAssetUsage.md)
 

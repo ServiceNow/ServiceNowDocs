@@ -2,6 +2,7 @@
 title: Tracking your ServiceNow Store activity
 description: The My Store Activity page lets you view important information related to apps and products that you have purchased, trialed, or requested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/tracking-store-activity.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -61,5 +62,5 @@ ServiceNow Products
 A searchable list that provides details of all products that your organization has procured.
 
 </td></tr></tbody>
-</table>For more information about apps and products, see [Understanding plugins, apps, integrations, and products](plugins-apps-products-integrations.md#).
+</table>For more information about apps and products, see [Understanding plugins, apps, integrations, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/plugins-apps-products-integrations.md).
 

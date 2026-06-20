@@ -2,6 +2,7 @@
 title: CdmChangesetsApi
 description: The CdmChangesetsApi provides endpoints that enable you to manage changesets.Deletes a specified changeset.Retrieves all changesets associated with a Configuration Data Management \(CDM\) application or a specified changeset record.Retrieves the node changes within a specified changeset.Returns the current status of the specified changeset commit request.Returns the list of deployables that are associated with a specified changeset.Returns a list of shared components that are associated with a specified changeset.Returns the list of deployables that are associated with a specified changeset.Commits the specified changeset. Once committed, the changeset is persisted into the CDM tables within the associated instance.Creates a new changeset in the open state for a specified CDM application or shared library.Updates and commits a specified changeset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/changesets-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -34,9 +35,9 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on changesets, see [Changesets and version control in CDM](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on changesets, see Changesets and version control in CDM.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## CdmChangesetsApi - DELETE /sn\_cdm/changesets
 
@@ -94,7 +95,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -106,7 +107,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -220,7 +221,7 @@ State of the changesets to return. Only return the changesets associated with th
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -232,7 +233,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -415,7 +416,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -599,7 +600,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -611,7 +612,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -887,7 +888,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id for the commit request whose status to return. This value is returned by the [CdmChangesetsApi - POST /sn\_cdm/changesets/\{changeset\_id\}/commit](changesets-api.md#) endpoint.
+Sys\_id for the commit request whose status to return. This value is returned by the [CdmChangesetsApi - POST /sn\_cdm/changesets/\{changeset\_id\}/commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/changesets-api.md) endpoint.
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -900,7 +901,7 @@ Sys\_id for the commit request whose status to return. This value is returned by
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -912,7 +913,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1042,7 +1043,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -1280,7 +1281,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1292,7 +1293,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1658,7 +1659,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1670,7 +1671,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1949,7 +1950,7 @@ Sys\_id of the changeset record to process. Located in the CDM Changeset \[sn\_c
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1961,7 +1962,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2337,7 +2338,7 @@ Commits the specified changeset. Once committed, the changeset is persisted into
 
 The system updates the application to persist the changes to the configuration data within the changeset. The changeset state changes to **Committed**. The system then generates a snapshot of each deployable that is affected by the changeset.
 
-This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to obtain the current status of the changeset commit.
+This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/changesets-api.md) endpoint to obtain the current status of the changeset commit.
 
 ### URL format
 
@@ -2406,7 +2407,7 @@ Publish option for the associated configuration snapshots. Valid values:
 
 **Note:** This option is only available if the value for the **autoCommit** parameter is true.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -2419,7 +2420,7 @@ Default: publish\_none
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2432,7 +2433,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2485,7 +2486,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to check the status of the commit request.
+Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/changesets-api.md) endpoint to check the status of the commit request.
 
 Data type: String
 
@@ -2635,7 +2636,7 @@ Comma separated list of fields in the CDM Changeset \[sn\_cdm\_changeset\] table
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2648,7 +2649,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2827,7 +2828,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -2960,7 +2961,7 @@ Updates and commits a specified changeset.
 
 The system updates the application to persist the changes to the configuration data within the changeset. The changeset state changes to **Committed**. The system then generates a snapshot of each deployable that is affected by the changeset.
 
-This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to obtain the current status of the changeset commit.
+This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/changesets-api.md) endpoint to obtain the current status of the changeset commit.
 
 ### URL format
 
@@ -3033,7 +3034,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -3046,7 +3047,7 @@ Default: publish\_none
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3059,7 +3060,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3112,7 +3113,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to check the status of the commit request.
+Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/changesets-api.md) endpoint to check the status of the commit request.
 
 Data type: String
 

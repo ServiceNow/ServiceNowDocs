@@ -2,6 +2,7 @@
 title: Segments
 description: Segments define the transaction table used in cost model hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/segments.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -116,8 +117,8 @@ IT Shared Service \[itfm\_shared\_service\]
 </td></tr></tbody>
 </table>**Note:** You cannot delete a segment that is allocated to a cost model.
 
--   **[Create a segment definition](../task/create-segment-definition.md)**  
+-   **[Create a segment definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-segment-definition.md)**  
 Define segments to be used with cost and budget models.
 
-**Parent Topic:**[Financial Modeling](cost-transparency-setup.md)
+**Parent Topic:**[Financial Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/cost-transparency-setup.md)
 

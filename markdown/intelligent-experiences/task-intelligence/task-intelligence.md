@@ -2,6 +2,7 @@
 title: Task Intelligence
 description: Task Intelligence uses machine learning to train solutions with your data and achieve important outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/task-intelligence/task-intelligence.html
 release: xanadu
 product: Task Intelligence
 classification: task-intelligence
@@ -23,27 +24,27 @@ Task Intelligence enables you to set up machine learning models to automate task
 
 <table id="table_ykl_1dr_dyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../predictive-intelligence/images/icon-explore-pi.png)Explore Task Intelligence and machine learning models.](exploring-task-intelligence.md)
+[Explore\[Omitted image "icon-explore-pi.png"\] Alt text:Explore Task Intelligence and machine learning models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/exploring-task-intelligence.md)
 
 </td><td>
 
-[Install ![](../../predictive-intelligence/images/icon-install-pi.png)Install Task Intelligence and related applications.](../task/install-task-intelligence.md)
+[Install \[Omitted image "icon-install-pi.png"\] Alt text:Install Task Intelligence and related applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/install-task-intelligence.md)
 
 </td><td>
 
-[Configure![](../../predictive-intelligence/images/icon-configure-pi.png)Configure machine learning models.](configure-task-intelligence.md)
+[Configure\[Omitted image "icon-configure-pi.png"\] Alt text:Configure machine learning models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/configure-task-intelligence.md)
 
 </td></tr><tr><td>
 
-[Create models![](../images/icon-task-intel-create-models.png)Create and edit Task Intelligence models.](create-a-task-intelligence-model.md)
+[Create models\[Omitted image "icon-task-intel-create-models.png"\] Alt text:Create and edit Task Intelligence models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/create-a-task-intelligence-model.md)
 
 </td><td>
 
-[Analyze models![](../images/icon-analyze-ti.png)Monitor and analyze model performance.](task-intelligence-analytics-and-monitoring.md)
+[Analyze models\[Omitted image "icon-analyze-ti.png"\] Alt text:Monitor and analyze model performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.md)
 
 </td><td>
 
-[References![](../../document-intelligence/image/icon-docintel-references.png)References for components installed with Task Intelligence and language support.](../reference/reference-for-task-intelligence.md)
+[References\[Omitted image "icon-docintel-references.png"\] Alt text:References for components installed with Task Intelligence and language support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/task-intelligence/reference-for-task-intelligence.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

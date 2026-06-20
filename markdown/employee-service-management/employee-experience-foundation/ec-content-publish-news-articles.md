@@ -2,6 +2,7 @@
 title: Publishing news articles
 description: News articles can be published via a publish plan or using Content templates to auto-generate publish plans. These auto-generated publish plans are inactive by default and must be activated for News articles to appear in the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-content-publish-news-articles.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +19,7 @@ News articles can be published via a publish plan or using Content templates to 
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   Complete the steps to [Create a news article](ec-content-library-news-article.md)
+-   Complete the steps to [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md)
 
 ## About this task
 
@@ -26,7 +27,7 @@ If you selected a Content template when you created the News article, the system
 
 **Note:** If the Content template is edited after the system auto-generated the publish plans, those changes are not reflected in existing publish plans.
 
-You can manually add publish plans, just like for other content types. For more information, see [Create a publish plan for your content](ec-content-library-publish2.md).
+You can manually add publish plans, just like for other content types. For more information, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Update the contracts AI agents handler script include
 description: Update the ContractsAIAgentsHelper script include to add the sys\_id of a customized Manage contract repository agentic workflow to run the agentic workflow autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

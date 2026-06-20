@@ -2,6 +2,7 @@
 title: Populate Azure DevOps identifier reference fields for a custom table
 description: Enable Azure DevOps project identifier reference fields for an Agile Development 2.0 table that you added to the map configuration of a process type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/microsoft-azure-devops-integrations-comm/populate-external-identifier-reference-fields-on-a-custom-table.html
 release: xanadu
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -49,12 +50,12 @@ Configure the form layout or personalize the list layout of your custom table to
 -   External Project
 -   External URL
 
-**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](../reference/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 
 **Related topics**  
 
 
-[Personalise a v2 list](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=xanadu&pubname=xanadu-platform-user-interface&section=t_PersonalizeAList&ft:locale=en-US)
+[bundle-platux.t_PersonalizeAList]
 
-[Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.configure-form-layout]
 

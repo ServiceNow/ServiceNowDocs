@@ -2,6 +2,7 @@
 title: License usage view
 description: Use the license usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ The License usage view enables you to view the license usage trends for your org
 
 Access the License usage view by navigating to **Software Asset Workspace** &gt; **License usage**.
 
-![License usage view](../image/license-usage-view.png "License usage view")
+\[Omitted image "license-usage-view.png"\] Alt text: License usage view
 
 Use the License usage view to:
 
@@ -31,7 +32,7 @@ Use the License usage view to:
 -   be informed about the last reconciliation run.
 -   view and add new removal candidates.
 -   view and export reports.
--   view publisher cards specific to the software products that you published as part of the phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](../task/add-published-products.md).
+-   view publisher cards specific to the software products that you published as part of the phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/add-published-products.md).
 
     **Note:** The filter for published status is automatically applied.
 
@@ -43,7 +44,7 @@ View the compliance status of all your publishers. Each publisher card displays 
 -   compliant: Indicated by the color green. All products under the publisher are compliant.
 -   non-compliant: Indicated by the color red. All products under the publisher aren’t compliant.
 
-A red icon ![Reconciliation failure icon](../image/recon-info-icon.png) on a publisher card indicates that reconciliation failed for that publisher. Open the card to read the details. For details on which specific products failed, refer to the navigation tree on the Publisher details page.
+A red icon \[Omitted image "recon-info-icon.png"\] Alt text: Reconciliation failure icon on a publisher card indicates that reconciliation failed for that publisher. Open the card to read the details. For details on which specific products failed, refer to the navigation tree on the Publisher details page.
 
 **Note:** Even though a publisher card may display a red icon, you may not notice any failed products on the navigation tree because the failure may have occurred before the product results were generated.
 
@@ -57,7 +58,7 @@ View publisher cards related to the software products that you manage in a phase
 
 To view compliance details about a publisher, select a publisher card. A summary of that publisher's compliance appears in the Publisher details page.
 
-![Publisher details page](../image/publisher-details-workspace.png "Publisher details page")
+\[Omitted image "publisher-details-workspace.png"\] Alt text: Publisher details page
 
 The navigation tree for the publisher appears on the Publisher details page with one of the following compliant statuses:
 
@@ -69,7 +70,7 @@ The navigation view shows license compliance details of products that were publi
 
 In the navigation view, a non-consumption icon is displayed next to a software model that has not utilized any licenses. Such software models are always positioned at the bottom of the tree and no software model results are shown for that software model.
 
-A brief summary of metrics appears along with related lists pertaining to that publisher. For details on the metrics, refer to the Publisher metrics table. For details on the related lists, refer to [License usage publisher fields in workspace](../reference/workbench-publisherfields-workspace.md).
+A brief summary of metrics appears along with related lists pertaining to that publisher. For details on the metrics, refer to the Publisher metrics table. For details on the related lists, refer to [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
 The navigation tree enables you to perform the following actions:
 
@@ -187,26 +188,26 @@ You can view all the historical reconciliation results in this tab along with th
 -   **Failed**: If all the products and publishers failed reconciliation.
 -   **Partially Completed**: If only some products or publishers completed reconciliation successfully.
 
-Results of the latest reconciliation run are shown in the License usage view. For more details, see [Software reconciliation for compliance](c_SAMReconciliation.md).
+Results of the latest reconciliation run are shown in the License usage view. For more details, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMReconciliation.md).
 
 ## Removal candidates tab
 
 View a list of all removal candidates in this tab. Removal candidates are used to reclaim software installations that aren’t being used.
 
-You can also create removal candidates. For more details, see [Add a software removal candidate in workspace](../task/add-sw-removal-workspace.md).
+You can also create removal candidates. For more details, see [Add a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
 
 ## Reports tab
 
 You can create, view, and run reports from this tab. All the following base system reports are available in this tab:
 
--   [Software product lifecycle report](software-models-and-entitlements.md)
--   [Software license compliance position](sam-license-position-report.md)
--   [Azure BYOL realized savings report](../reference/azure-byol-realized-savings-report.md)
--   [Software models with deactivated discovery maps](sam-content-updates.md)
--   [Oracle DB Server Deployments per Agreement report](../reference/oracle-server-agreement.md)
--   [Oracle Infrastructure report](../reference/oracle-infrastructure-report.md)
--   [Microsoft Windows and SQL Server infrastructure details reports](../reference/azure-byol-realized-savings-report.md)
--   [SaaS detection report](../reference/shadow-saas-analytics.md)
+-   [Software product lifecycle report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+-   [Software license compliance position](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-position-report.md)
+-   [Azure BYOL realized savings report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
+-   [Software models with deactivated discovery maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-content-updates.md)
+-   [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/oracle-server-agreement.md)
+-   [Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/oracle-infrastructure-report.md)
+-   [Microsoft Windows and SQL Server infrastructure details reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
+-   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/shadow-saas-analytics.md)
 
-To create and manage reports, see [Create and manage reports in workspace](../task/create-new-report-workspace.md).
+To create and manage reports, see [Create and manage reports in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-new-report-workspace.md).
 

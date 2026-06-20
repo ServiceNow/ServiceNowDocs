@@ -2,6 +2,7 @@
 title: Create a user criteria record for Change Management
 description: Create a user criteria record to control user access to widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/create-user-criteria.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -131,5 +132,5 @@ Defines any additional criteria, and returns true or false. This field is availa
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Change models](../concept/change-models.md)
+**Parent Topic:**[Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/change-models.md)
 

@@ -2,6 +2,7 @@
 title: Configure auto-remediation tag policies
 description: Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/tag-governance/configure-remediation-tag-governance-.html
 release: xanadu
 product: Tag Governance
 classification: tag-governance
@@ -47,14 +48,14 @@ The list of CMDB classes for which you can update tags on CIs in the CMDB as wel
 
 3.  In the **Name** field, provide a unique descriptive name.
 
-4.  In the **Policy** field, select the ![Lookup icon](../image/IconUI16ReferenceLookup.png) lookup icon.
+4.  In the **Policy** field, select the \[Omitted image "IconUI16ReferenceLookup.png"\] Alt text: Lookup icon lookup icon.
 
     **Note:** The **Policy Type** field is automatically populated after you select a policy from the lookup list.
 
 5.  In the Tag Policies list, configure a remediation policy in one of the following ways:
 
     -   Select an existing tag policy from the lookup list.
-    -   Select **New**. Fill in fields on the Tag Policies form \(the fields are described in [Tag Policies form](../../itom-governance/reference/tag-gov-tag-policies-form.md).
+    -   Select **New**. Fill in fields on the Tag Policies form \(the fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
 
         **Note:** If you are creating a new tag policy, you must run an audit before you can run remediation flows.
 
@@ -66,7 +67,7 @@ The list of CMDB classes for which you can update tags on CIs in the CMDB as wel
 
 7.  Select the **Update Tags in Cloud** check box to apply remediation and update the tags in the relevant cloud provider environment for supported CMDB CI classes.
 
-    **Important:** The **Update Tags in Cloud** feature works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form. See [Performing real-time updates to tags for cloud resources](../concept/tag-governance-real-time-updates.md).
+    **Important:** The **Update Tags in Cloud** feature works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form. See [Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/tag-governance/tag-governance-real-time-updates.md).
 
 8.  On the Tag Remediation form, select **Submit**.
 

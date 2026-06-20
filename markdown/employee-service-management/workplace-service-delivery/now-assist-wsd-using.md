@@ -2,6 +2,7 @@
 title: Using Now Assist for WSD
 description: Using Now Assist for Workplace Service Delivery \(WSD\) for creating a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-using.html
 release: xanadu
 product: Workplace Service Delivery
 classification: workplace-service-delivery

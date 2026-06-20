@@ -2,6 +2,7 @@
 title: Submit Invoice Inquiry
 description: Supplier uses the Supplier Collaboration Portal to create an inquiry related to an invoice and submits it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,15 +26,15 @@ Role required: Supplier
 
 2.  On the **Submit an invoice inquiry** form, enter the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d91943e77">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d53379e77">
 
 Question
 
-</th><th align="left" id="d91943e80">
+</th><th align="left" id="d53379e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91943e86">
+</th></tr></thead><tbody><tr><td id="d53379e86">
 
 **What invoice would you like to inquire about?**
 
@@ -41,7 +42,7 @@ Description
 
 Invoice number- Choose the invoice number on which you need to inquire from the drop-down list.
 
-</td></tr><tr><td id="d91943e95">
+</td></tr><tr><td id="d53379e95">
 
 **What kind of invoice inquiry would you like to make?**
 
@@ -52,9 +53,9 @@ Inquiry type- Choose the type of inquiry that you would like to ask an Account P
 -   Expedite payment request
 -   Payment term issue
 -   Invoice entry assistance
-For more information on invoice inquiry, see[Invoice inquiry cases](../concept/work-with-inquiry-cases.md).
+For more information on invoice inquiry, see[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
-</td></tr><tr><td id="d91943e129">
+</td></tr><tr><td id="d53379e129">
 
 **Please describe your inquiry below in detail:**
 
@@ -74,5 +75,5 @@ Description- Detailed description about the invoice inquiry.
     Invoice inquiry case is created.
 
 
-**Parent Topic:**[Working with Supplier Catalog](../concept/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

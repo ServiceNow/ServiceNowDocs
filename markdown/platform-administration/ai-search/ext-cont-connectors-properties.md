@@ -2,6 +2,7 @@
 title: External Content Connectors properties
 description: A system property supports configuration of the Microsoft cloud service endpoint URL used by the Microsoft SharePoint Online and Microsoft Teams external content connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ext-cont-connectors-properties.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -46,8 +47,8 @@ Microsoft cloud service endpoint URL used for integrations and API calls. This p
 **Important:** The URL specified as the property value must include a trailing slash, as shown for the listed values.
 
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure the Microsoft cloud service endpoint URL](../task/configure-ms-cloud-service-endpoint-url.md)
+-   Learn more: [Configure the Microsoft cloud service endpoint URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-ms-cloud-service-endpoint-url.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[External Content Connectors reference](../concept/reference-ext-cont-connectors.md)
+</table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ext-cont-connectors.md)
 

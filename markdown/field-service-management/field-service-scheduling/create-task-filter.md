@@ -2,11 +2,12 @@
 title: Create a task filter for dynamic scheduling
 description: Task filters allow you to define criteria for selecting and assigning tasks to the most suitable agents using dynamic scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-task-filter.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 3
 breadcrumb: [Configure dynamic scheduling, Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
 ---
@@ -134,7 +135,7 @@ Set the interval \(in minutes\) for how often tasks should be auto-assigned. The
 
         **Note:** Use **More is Better** for agent availability as more availability is preferred. Use **Less is Better** when selecting an agent based on the number of assigned tasks as fewer tasks are preferred
 
-    For more information, see [Matching criteria for task filters](../concept/task-assignment-matching-criteria.md).
+    For more information, see [Matching criteria for task filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/task-assignment-matching-criteria.md).
 
 5.  Click **Save**.
 
@@ -151,5 +152,5 @@ The task filter is ready for use in the dynamic scheduling process, optimizing t
 
 ## What to do next
 
-[Create a task ordering rule](create-task-ordering-rule.md)
+[Create a task ordering rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-task-ordering-rule.md)
 

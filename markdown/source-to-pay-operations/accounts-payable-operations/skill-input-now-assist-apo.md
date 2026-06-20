@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

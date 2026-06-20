@@ -2,6 +2,7 @@
 title: Determining license compliance through Virtualization Adapter
 description: Software Asset Management Virtualization Adapter determines the license compliance of Microsoft SQL Server, Windows Server, and Red Hat Enterprise Linux Server \(RHEL\) deployed on virtualization technologies by applying license compliance rules. This feature is activated and installed with the base system in Software Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/software-recon-virt-tech.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -28,5 +29,5 @@ Software Asset Management Virtualization Adapter standardizes the relationship a
 
 Software Asset Management considers the architecture of the virtualization technology while applying the licensing rules. For example, Microsoft Hyper-V architecture permits Windows Server Standard edition to use one running instance of the server software in the physical OSE on the licensed server in addition to two virtual OSEs if the physical OSE is used only to host and manage the virtual OSEs. Software Asset Management Virtualization Adapter automatically applies this rule set.
 
-**Parent Topic:**[Software reconciliation for compliance](c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

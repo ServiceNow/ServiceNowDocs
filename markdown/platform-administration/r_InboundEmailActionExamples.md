@@ -2,6 +2,7 @@
 title: Inbound email action examples
 description: Various examples of inbound email actions are available to help you build your own inbound email actions. These examples show how to set up inbound email actions to handle email replies, create \(log\) a problem record, request a change, and update an incident.This example shows you how to set up inbound email actions to handle replies that users send back to the instance.This example shows you how to set up inbound email actions to a create a problem record.This example shows you how to set up inbound email actions to create a change request record.The default inbound action for the Incident table automatically sets the following field values when it receives an incoming email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_InboundEmailActionExamples.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [References for Inbound email, Inbound email, Notifications, Configu
 
 Various examples of inbound email actions are available to help you build your own inbound email actions. These examples show how to set up inbound email actions to handle email replies, create \(log\) a problem record, request a change, and update an incident.
 
-**Parent Topic:**[References for Inbound email](../concept/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 
 ## Inbound email action example: handling email replies
 

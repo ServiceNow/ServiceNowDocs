@@ -2,6 +2,7 @@
 title: Activate a predefined alert clustering definition
 description: Activate predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application before use. Using these preconfigured definitions minimizes setup time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/alert-clustering-predefined-definition.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 2.  Select a predefined definition.
 
-    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert clustering definitions](../reference/alert-clustering-predefined-definition-list.md).
+    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert clustering definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/alert-clustering-predefined-definition-list.md).
 
 3.  On the Tag Based Alert Clustering Definition form, select the **Active** check box.
 

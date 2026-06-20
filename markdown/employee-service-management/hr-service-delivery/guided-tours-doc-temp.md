@@ -2,6 +2,7 @@
 title: Use Guided Tours in Document Templates
 description: Use Guided Tours in Document Templates to get instructions on how to create a document template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/guided-tours-doc-temp.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_doc.admin or sn\_doc.writer
 
 ## About this task
 
-Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see [Guided tours](https://www.servicenow.com/docs/access?context=guided-tours&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see .
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour. The tour can be revisited from the Help Center menu.
 
@@ -35,9 +36,9 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 
     -   **HTML Document Template**
     -   **PDF Document Template**
-4.  Select the **Show help** icon \(![Show help icon](../../wsd-indoor-mapping/images/help_question_mark_icon.png)\).​
+4.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
 
-5.  Select the **Pin Help Center menu** icon ![Pin Help Center menu](../image/pol-nav-pin.png) to pin the Help Center side panel on the page.
+5.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
 
 6.  Select **Take a Tour**​.
 

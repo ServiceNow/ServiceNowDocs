@@ -2,6 +2,7 @@
 title: Create a financial data source
 description: Database columns referring to raw expense details must be identified to create a new data source in Financial Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-data-sources.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -103,5 +104,5 @@ Apply conditions to filter records.
 
 Create field maps for the data source.
 
-**Parent Topic:**[Financial data import](../concept/c_FinancialManagementImport.md)
+**Parent Topic:**[Financial data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_FinancialManagementImport.md)
 

@@ -2,6 +2,7 @@
 title: Create processes for MSIM playbook
 description: Use these steps to create processes for Legal MSIM playbook in the Process Automation Designer \(PAD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/playbook-create-processes-legal-request.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

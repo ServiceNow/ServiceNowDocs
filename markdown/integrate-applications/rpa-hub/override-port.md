@@ -2,6 +2,7 @@
 title: Override a data port
 description: Override a data port of a component in RPA Desktop Design Studio so that you can change the default behavior of the Data In and Data Out ports. By overriding a data port, you can simplify the automation workflow development and testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/override-port.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -17,7 +18,7 @@ Override a data port of a component in RPA Desktop Design Studio so that you can
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-components.md).
 
 Role required: none
 
@@ -83,7 +84,7 @@ Read Data From
 
 Field that appears for the Data In ports only. There are three options:-   **Connection**: Pass the data from another component.
 -   **Static**: Define a static value or select a static option that is associated with the component. If you select this option, the Data In port on the component disappears.
--   **Variable**: Map a global or a local variable from where the data must be read. If you select this option, the Data In port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md).
+-   **Variable**: Map a global or a local variable from where the data must be read. If you select this option, the Data In port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-variables-rpa-studio.md).
 
 
 </td></tr><tr><td>
@@ -93,7 +94,7 @@ Write Data From
 </td><td>
 
 Field that appears for Data Out ports only. There are two options:-   **Connection**: Pass the data to another component.
--   **Variable**: Map a global or a local variable from where the data must be written. If you select this option, the Data Out port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md).
+-   **Variable**: Map a global or a local variable from where the data must be written. If you select this option, the Data Out port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-variables-rpa-studio.md).
 
 
 </td></tr><tr><td>
@@ -108,5 +109,5 @@ Value of the specific Data port.This field appears when you select **Static** in
 </table>3.  Click **OK**.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-use.md)
 

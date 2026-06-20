@@ -2,6 +2,7 @@
 title: Test Results fields
 description: Test results are automatically created during third-part vulnerability integration imports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/test-results-fields.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -81,7 +82,7 @@ Result
 
 </td><td>
 
-Status of the scan. Pass or Fail. If this test belongs to multiple remediation tasks, then its state is determined following an [order of precedence](../concept/vuln-config-compl-correlation.md#TRGOrderPrecedence).
+Status of the scan. Pass or Fail. If this test belongs to multiple remediation tasks, then its state is determined following an [order of precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-correlation.md).
 
 </td></tr><tr><td>
 
@@ -221,5 +222,5 @@ Remediation action as defined in the third-party scanner application.
 |Remediation Tasks|Remediation tasks associated with this test result.|
 |Test Result History|List of past records containing different results.|
 
-**Parent Topic:**[Configuration Compliance reference information](cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

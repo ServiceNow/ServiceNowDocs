@@ -2,6 +2,7 @@
 title: Getting notifications for ERP Customization Mining connection updates
 description: ERP Customization Mining \(ERP-CM\) can email you about the success and failures of ERP \(Enterprise Resource Planning\) system connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-notifications.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -26,9 +27,9 @@ The notification email you receive contains a link that takes you to the record 
 
 ## Selecting your email notifications
 
-Notification emails aren’t enabled by default, and you must configure them for yourself in your ServiceNow AI Platform preferences. For details on configuring notifications, see [Configure notifications for ERP-CM tasks](../task/erpcm-enable-notifications.md).
+Notification emails aren’t enabled by default, and you must configure them for yourself in your ServiceNow AI Platform preferences. For details on configuring notifications, see [Configure notifications for ERP-CM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-enable-notifications.md).
 
-Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Before you can set up notifications for yourself, your admin must add you to the ERP Customization Mining Notification group. For more information, see .
 
 ## Notifications also appear in the Notifications table
 
@@ -36,7 +37,7 @@ Notifications appear in the Notifications table, which you can access by navigat
 
 ## Flow that runs notifications
 
-The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You don't need to do anything to activate the flow, but you can customize it in Workflow Studio. For more information, see [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You don't need to do anything to activate the flow, but you can customize it in Workflow Studio. For more information, see .
 
-**Parent Topic:**[Configuring ERP Customization Mining](configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

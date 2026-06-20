@@ -2,6 +2,7 @@
 title: Generate tasks from Docs in Collaborative Work Management \(CWM\)
 description: Use the generative AI capabilities of Now Assist to create tasks from the content of your Docs and help you add them to the required Board in CWM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/generate-tasks-cwm-docs-now-assist.html
 release: xanadu
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -17,7 +18,7 @@ Use the generative AI capabilities of Now Assist to create tasks from the conten
 
 ## Before you begin
 
-[Create a Doc in CWM](../../collab-work-mgmt/task/create-a-doc-in-cwm.md)
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user
 
@@ -31,13 +32,13 @@ Generate tasks from Docs using Now Assist for CWM
 
 2.  From the Spaces menu, navigate to the Space where your Doc is located and open it.
 
-    ![Spaces menu in CWM.](../../collab-work-mgmt/images/cwm-spaces-navigation-doc.png)
+    \[Omitted image "cwm-spaces-navigation-doc.png"\] Alt text: Spaces menu in CWM.
 
-3.  From the header of your ServiceNow instance, select **Now Assist** \(![](../images/cwm-icon-now-assist.png)\).
+3.  From the header of your ServiceNow instance, select **Now Assist** \(\[Omitted image "cwm-icon-now-assist.png"\] Alt text:\).
 
     The Now Assist panel opens up. The next steps are performed within the panel. So, to experience an easier interaction within the panel, you can pin it.
 
-4.  Select **New chat** \(![](../images/cwm-icon-na-new-chat.png)\) to start a new conversation within the Now Assist panel.
+4.  Select **New chat** \(\[Omitted image "cwm-icon-na-new-chat.png"\] Alt text:\) to start a new conversation within the Now Assist panel.
 
     Perform this step if you want to end an already open conversation or if you're unable to see the **Create tasks in CWM** option within the panel.
 
@@ -57,6 +58,6 @@ Generate tasks from Docs using Now Assist for CWM
 
     **Note:** If the Space you selected in Step 8 has just one Board, then you won't be asked to select a Board. The tasks are added to the Board directly.
 
-    ![Automatic task generation from CWM Docs using Now Assist for CWM.](../images/cwm-task-generation-now-assist.png)
+    \[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using Now Assist for CWM.
 
 

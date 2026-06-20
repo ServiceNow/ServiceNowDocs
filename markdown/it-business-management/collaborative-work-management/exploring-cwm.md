@@ -2,6 +2,7 @@
 title: Exploring Collaborative Work Management
 description: Learn more about Collaborative Work Management \(CWM\) and review the benefits it can provide for your team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/collaborative-work-management/exploring-cwm.html
 release: xanadu
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -48,7 +49,7 @@ Create Spaces and share with others on your team to organize and manage the team
 
 </td><td>
 
-[Spaces](cwm-spaces.md)
+[Spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/cwm-spaces.md)
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Configure a flexible workspace without the involvement of an admin user. Define 
 
 </td><td>
 
-[Boards](cwm-boards.md)
+[Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/cwm-boards.md)
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Boost efficiency and save time by automating processes such as sending notificat
 
 </td><td>
 
-[Automations](implementing-automations-in-collaborative-work-management.md)
+[Automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ Manage different types of documentation such as meeting notes, technical specifi
 
 </td><td>
 
-[Docs](cwm-docs.md)
+[Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/cwm-docs.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Save your preferred data views for a Board or create shared views to ensure a co
 
 </td><td>
 
-[Board views](board-views-in-cwm.md)
+[Board views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/board-views-in-cwm.md)
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Save time, reduce inconsistencies in format, and avoid creating repeatable Board
 
 </td><td>
 
-[Templates for Boards and Docs](templates-in-cwm-for-spaces-boards-and-docs.md)
+[Templates for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Plan, track, and manage Stories and other work items for your teams in the Agile
 
 </td><td>
 
-[Sprint planning in CWM](agile-sprint-planning-in-cwm.md)
+[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Enable a centralized view to plan and manage all work by connecting work items f
 
 </td><td>
 
-[Connected work in CWM](unified-boards-for-connected-work-in-cwm.md)
+[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
 </td></tr><tr><td>
 
@@ -120,7 +121,7 @@ Use tasks data offline to obtain insights, share with stakeholders, and prepare 
 
 </td><td>
 
-[Export Board as CSV or Excel](../task/export-a-board-in-cwm-to-csv-or-excel.md)
+[Export Board as CSV or Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.md)
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ Use the Docs offline, and share with teams or stakeholders outside CWM by export
 
 </td><td>
 
-[Export Doc as PDF](../task/export-a-doc-in-cwm-to-a-pdf-file.md)
+[Export Doc as PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Prioritize and roadmap Boards in Strategic Planning workspace's portfolio plans.
 
 </td><td>
 
-[Connecting CWM with Strategic Planning or Portfolio Planning](connect-cwm-spw.md#)
+[Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/connect-cwm-spw.md)
 
 </td></tr><tr><td>
 
@@ -146,7 +147,7 @@ Add a reference to other ServiceNow AI Platform records such as Incidents, Risks
 
 </td><td>
 
-[Integration with other ServiceNow AI Platform records.](../reference/properties-installed-with-cwm.md)
+[Integration with other ServiceNow AI Platform records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/properties-installed-with-cwm.md)
 
 </td></tr></tbody>
 </table>

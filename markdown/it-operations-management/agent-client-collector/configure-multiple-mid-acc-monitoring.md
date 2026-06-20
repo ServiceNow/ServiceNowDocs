@@ -2,6 +2,7 @@
 title: Configure multiple MID Servers to work with Agent Client Collector Monitoring
 description: Connect agents to multiple MID Servers to enable Agent Client Collector Monitoring functionality. Multiple MID Servers can support each other with load balancing and domain separation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/configure-multiple-mid-acc-monitoring.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-When configuring multiple MID Servers, use the same port for all MID Servers. Using different ports requires you to add each MID Server individually, as described in [Configure a MID Server to work with Agent Client Collector Monitoring](configure-mid-acc-monitoring.md).
+When configuring multiple MID Servers, use the same port for all MID Servers. Using different ports requires you to add each MID Server individually, as described in [Configure a MID Server to work with Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/configure-mid-acc-monitoring.md).
 
 ## Procedure
 

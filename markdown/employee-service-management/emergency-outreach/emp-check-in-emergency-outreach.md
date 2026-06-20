@@ -2,6 +2,7 @@
 title: Report your health status
 description: If you receive an email, mobile push notification, or SMS notification to report your health status, you can update your status from the message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/emergency-outreach/emp-check-in-emergency-outreach.html
 release: xanadu
 product: Emergency Outreach
 classification: emergency-outreach
@@ -17,7 +18,7 @@ If you receive an email, mobile push notification, or SMS notification to report
 
 ## Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: none
 
@@ -25,7 +26,7 @@ Role required: none
 
 -   To reply to an email notification, select a response from the message and email it.
 
-    ![Email notification with choices that the user can select to report status.](../image/voluntary_health_checkin_email.png)
+    \[Omitted image "voluntary\_health\_checkin\_email.png"\] Alt text: Email notification with choices that the user can select to report status.
 
 -   To reply to a mobile push notification:
 
@@ -37,7 +38,7 @@ Role required: none
 
     4.  Tap **Status** and then select a response.
 
-    ![Set of screens displayed on the mobile app to respond with health status.](../image/mobile-checkin.png)
+    \[Omitted image "mobile-checkin.png"\] Alt text: Set of screens displayed on the mobile app to respond with health status.
 
 -   To reply to an SMS notification:
 
@@ -50,5 +51,5 @@ Role required: none
 
 After you reply to the notification, your response is sent to you and your employer. A record for your response is also updated. Your personal information is secure. Only the staff managing the health situation have access to your response.
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/emergency-outreach/emergency-outreach.md)
 

@@ -2,7 +2,10 @@
 title: Quick start tests for Customer Service Management
 description: Quick start tests are part of the Automated Test Framework \(ATF\). Use these tests to validate that the Customer Service Management application still works after you make any configuration change, such as applying an upgrade or developing an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/quick-start-tests-csm.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-10-28"
 reading_time_minutes: 12
@@ -17,8 +20,8 @@ A quick start test is a test or test suite installed with the demo data of an ap
 
 For more information about using quick start tests, see the following topics:
 
--   [Test your apps with the ATF](https://www.servicenow.com/docs/access?context=automated-test-framework&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
--   [Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+-   Test your apps with the ATF
+-   
 -   [Getting started with quick start tests](https://www.youtube.com/watch?v=wV0SjY5gq8M)
 
 ## CSM test suites and tests

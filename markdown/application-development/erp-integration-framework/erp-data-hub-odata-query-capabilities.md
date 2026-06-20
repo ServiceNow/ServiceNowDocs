@@ -2,6 +2,7 @@
 title: OData capabilities supported by ERP Data Hub
 description: Details about the OData query capabilities supported in ERP Data Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-data-hub-odata-query-capabilities.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,7 +16,7 @@ breadcrumb: [Connect ERP Data Hub to SAP using OData and HTTP, Using ERP models,
 
 Details about the OData query capabilities supported in ERP Data Hub.
 
-For information about OData connections in ERP Data Hub, see [Connect ERP Data Hub to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in ERP Data Hub](../task/create-an-odata-connection.md).
+For information about OData connections in ERP Data Hub, see [Connect ERP Data Hub to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-odata-connection.md).
 
 <table id="table_obv_yvk_fdc"><thead><tr><th>
 
@@ -56,5 +57,5 @@ When doing the internal operations, $top and $skip are supported only while pagi
  Cannot send $top and $skip via any flow.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Connect ERP Data Hub to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md)
+</table>**Parent Topic:**[Connect ERP Data Hub to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

@@ -2,6 +2,7 @@
 title: Types of anomalous behavior
 description: Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -43,11 +44,11 @@ The Anomaly card illustrates the anomalous activity that led to the alert.
 
     A peach-shaded area represents the baseline values for the same hour one day earlier. A pink-shaded area shows the values for the same period in the previous week.
 
--   Click the information icon to see how the anomaly was identified: ![Information icon](../../agent-client-collector/image/icon-info.png).
+-   Click the information icon to see how the anomaly was identified: \[Omitted image "icon-info.png"\] Alt text: Information icon.
 
 In this example, the peach-shaded area shows the same data for the same hour one day earlier. The spike in the metric value \(events per minute\) is clearly visible.
 
-![Anomaly card identifies and illustrates anomalous behavior.](../image/anomaly-spike.png "Anomaly card")
+\[Omitted image "anomaly-spike.png"\] Alt text: Anomaly card identifies and illustrates anomalous behavior.
 
 ## Kinds of anomalies
 
@@ -60,5 +61,5 @@ In this example, the peach-shaded area shows the same data for the same hour one
 |Baseline reference​ increase or decrease|An increase or decrease in the value or volume of a log property as compared to the one-hour or one-week baseline.|
 |Correlation of severity and keyword alerts|An increase in the volume of a severity level or keyword.|
 
-**Parent Topic:**[Health Log Analytics reference](../../health-log-analytics-admin/concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-reference.md)
 

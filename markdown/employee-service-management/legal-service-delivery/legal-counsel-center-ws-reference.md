@@ -2,6 +2,7 @@
 title: Legal Counsel Center reference
 description: The reference topic provides additional information about Legal Counsel Center notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/legal-counsel-center-ws-reference.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery

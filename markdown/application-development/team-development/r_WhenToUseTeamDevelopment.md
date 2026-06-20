@@ -2,6 +2,7 @@
 title: When to use Team Development
 description: Team Development allows multiple developers to work on applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/r\_WhenToUseTeamDevelopment.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -66,5 +67,5 @@ Consider uploading an application to the ServiceNow Store to share it with other
  **Note:** If used with team development, publish applications only from a parent instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+</table>**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

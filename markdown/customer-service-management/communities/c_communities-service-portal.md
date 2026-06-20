@@ -2,6 +2,7 @@
 title: Community homepage features for logged in users
 description: Your community activity usually begins on the community homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/c\_communities-service-portal.html
 release: xanadu
 product: Communities
 classification: communities
@@ -15,7 +16,7 @@ breadcrumb: [Use a community, Communities, Customer Service Management]
 
 Your community activity usually begins on the community homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
 
-**Note:** The Community Service Portal header menu is not enabled by default. For more information, see [Configure Community Service Portal header menus](../task/configure-unified-theme-portal.md).
+**Note:** The Community Service Portal header menu is not enabled by default. For more information, see [Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/configure-unified-theme-portal.md).
 
 From the community homepage, you can access and use the following features:
 
@@ -119,5 +120,5 @@ Toggle between the Content List and Activity Feed. You can filter according to c
     -   To view all activity associated with a content item, click the content item. All activities, regardless of your subscriptions, are displayed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use a community](../task/use-community-forums.md)
+</table>**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/use-community-forums.md)
 

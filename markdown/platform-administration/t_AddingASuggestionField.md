@@ -2,6 +2,7 @@
 title: Suggestion field type
 description: To help users find what they are looking for, you can add a suggestion field to any form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_AddingASuggestionField.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -31,13 +32,13 @@ Role required: personalize\_dictionary
 
     Suggestions are presented to the user.
 
-    ![Suggestion window with suggestions for "Issue with"](../image/SuggestionShort.png)
+    \[Omitted image "SuggestionShort.png"\] Alt text: Suggestion window with suggestions for "Issue with"
 
 
--   **[Configure suggested text for string fields](t_ConfigSuggestTxtForStringFields.md)**  
+-   **[Configure suggested text for string fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigSuggestTxtForStringFields.md)**  
 You can configure the suggested text options for string fields.
--   **[Configure suggested text for journal fields](t_ConfigSuggestTxtForJournalFields.md)**  
+-   **[Configure suggested text for journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfigSuggestTxtForJournalFields.md)**  
 You can configure the suggested text options for journal fields, such as work notes or the activity stream. Suggested text options for journal fields are unavailable in Core UI.
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

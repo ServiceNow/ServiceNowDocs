@@ -2,6 +2,7 @@
 title: Service Catalog use case
 description: You can create customized catalogs where you can request items such as a specific service or product. With this use case, CSDM provides Service Catalog connection to the service offerings and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/request-cat-use-case-example.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -40,7 +41,7 @@ The Catalog Item form includes the following tabs.
 -   Pricing: Pricing details for the catalog item.
 -   Portal Settings: Provides specific settings on how you interact with the catalog item in the catalog portal.
 
-![Catalog Item form with numbered fields.](../image/catalog-items.png "Catalog Item form")
+\[Omitted image "catalog-items.png"\] Alt text: Catalog Item form with numbered fields.
 
 ## Product Catalog use case
 
@@ -52,11 +53,11 @@ A detailed and well-maintained Product Catalog can coordinate with the Service C
 
 This use case lets you include hardware and software product information as items in the Product Catalog.
 
-![Product Catalog items.](../image/product-cat-items.png "Product Catalog items")
+\[Omitted image "product-cat-items.png"\] Alt text: Product Catalog items.
 
 ## Results of Product Catalog use case
 
 The CSDM framework ensures that product models are available in the catalog and that there are processes defined to consume the models.
 
-**Parent Topic:**[Service Catalog product view](request-cat-use-case-product-view.md)
+**Parent Topic:**[Service Catalog product view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/request-cat-use-case-product-view.md)
 

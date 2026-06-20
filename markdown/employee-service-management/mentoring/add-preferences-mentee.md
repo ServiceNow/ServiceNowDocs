@@ -2,6 +2,7 @@
 title: Add mentee preferences
 description: As a mentee, add your preferences to find the right mentor to guide you through your career.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/add-preferences-mentee.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -17,7 +18,7 @@ As a mentee, add your preferences to find the right mentor to guide you through 
 
 ## Before you begin
 
-Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](enroll-mentoring.md)
+Enroll as a mentee. For more information, see [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/enroll-mentoring.md)
 
 Role required: none
 
@@ -27,7 +28,7 @@ Role required: none
 
 2.  Use the **Search skills** option to add skills that a mentor can help you with.
 
-    To add skills, see [Search and add skills](search-add-skills-mentoring.md).
+    To add skills, see [Search and add skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/search-add-skills-mentoring.md).
 
 3.  Select **Next**.
 
@@ -105,5 +106,5 @@ Options available are:-   Women in the workspace
     **Note:** You can also save your preferences by select **Save as draft**, if you are not ready to enroll as a mentee yet.
 
 
-**Parent Topic:**[Enroll as a mentor or mentee](enroll-mentoring.md)
+**Parent Topic:**[Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/enroll-mentoring.md)
 

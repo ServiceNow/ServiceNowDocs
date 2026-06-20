@@ -2,13 +2,14 @@
 title: MITRE ATT&amp;CK Technique Extraction method
 description: MITRE ATT&amp;CK Technique Extraction method describes how the extraction methods are performed and associated techniques are verified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/mitre-extraction-method.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2024-10-21"
 reading_time_minutes: 2
-breadcrumb: [MITRE ATT&amp;CK Technique Extraction Rules, About Rules Engine in TISC, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [MITRE ATT&amp;CK Technique Extraction Rules, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # MITRE ATT&amp;CK Technique Extraction method

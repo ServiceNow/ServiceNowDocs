@@ -2,6 +2,7 @@
 title: Now Assist for app generation in AES
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/now-assist-app-landing.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -13,7 +14,7 @@ breadcrumb: [Create your app, Building apps in App Engine Studio, Build apps usi
 
 # Now Assist for app generation in AES
 
-**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](../../now-assist-app-gen/concept/sns-now-assist-app-gen-landing.md).
+**Note:** If you using a Xanadu Store Release 2 instance, Now Assist for app generation works with ServiceNow Studio \(not App Engine Studio\). For detailed information, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
 
 ## Get started
 
@@ -36,16 +37,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring app generation in AES](exploring-now-assist-app.md)**  
+-   **[Exploring app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/exploring-now-assist-app.md)**  
 
--   **[Configuring app generation in AES](configuring-now-assist-app.md)**  
+-   **[Configuring app generation in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/configuring-now-assist-app.md)**  
 
--   **[Generate apps with Now Assist for Creator for use with AES](../task/generate-apps-from-prompts.md)**  
+-   **[Generate apps with Now Assist for Creator for use with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/generate-apps-from-prompts.md)**  
 Have a conversation with the Now Assist for Creator application to start building applications.
--   **[App generation in AES reference](../reference/now-assist-app-reference.md)**  
+-   **[App generation in AES reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/now-assist-app-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Create your app](create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/create-application.md)
 

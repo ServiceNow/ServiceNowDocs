@@ -2,6 +2,7 @@
 title: View and track third-party contract review request as a legal user
 description: View the details of a third-party contract review request after it has been submitted and track the activities in the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-tpc-view-request.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d209867e59">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d199945e59">
 
 Method
 
-</th><th align="left" id="d209867e62">
+</th><th align="left" id="d199945e62">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d209867e68">
+</th></tr></thead><tbody><tr><td id="d199945e68">
 
 **__Employee Center__**
 
@@ -42,7 +43,7 @@ Actions
 3.  Open your submitted third-party contract review request.
 
 
-</td></tr><tr><td id="d209867e101">
+</td></tr><tr><td id="d199945e101">
 
 **__Legal Service Portal__**
 
@@ -67,5 +68,5 @@ Actions
 
     -   View the final contract documents by accessing the **Legal Contract** tab. When multiple contract documents are attached, a separate record is created for each contract type.
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

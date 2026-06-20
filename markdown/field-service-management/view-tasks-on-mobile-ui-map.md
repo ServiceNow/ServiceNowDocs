@@ -2,7 +2,10 @@
 title: View task information on the classic mobile UI map
 description: The agent map on the classic mobile interface displays the agent's location, tasks assigned to the agent for the current day, accepted tasks, and unassigned tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-tasks-on-mobile-ui-map.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d114668e95">
+<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d55543e95">
 
 **On**
 
@@ -37,7 +40,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 Displays the current date. Click the arrow to display the calendar and select a different date.
 
-</td></tr><tr><td id="d114668e104">
+</td></tr><tr><td id="d55543e104">
 
 **Show Assigned Tasks**
 
@@ -45,7 +48,7 @@ Displays the current date. Click the arrow to display the calendar and select a 
 
 All assigned tasks are displayed by default. Disable the switch to hide assigned tasks.
 
-</td></tr><tr><td id="d114668e113">
+</td></tr><tr><td id="d55543e113">
 
 **Show My Location**
 
@@ -53,7 +56,7 @@ All assigned tasks are displayed by default. Disable the switch to hide assigned
 
 Displays your current position on the map with the agent location icon. Disable the switch to remove this icon from the map.If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d114668e125">
+</td></tr><tr><td id="d55543e125">
 
 **Show Routing Numbers**
 
@@ -61,7 +64,7 @@ Displays your current position on the map with the agent location icon. Disable 
 
 Displays the routing numbers on tasks dispatched for the date selected in the calendar. Disable the switch to hide the routing numbers.
 
-</td></tr><tr><td id="d114668e134">
+</td></tr><tr><td id="d55543e134">
 
 **Show Unassigned Tasks**
 
@@ -73,5 +76,5 @@ All unassigned tasks are displayed by default. Disable the switch to hide unassi
 </table>4.  Click **Save** and then click the left arrow to return to the map.
 
 
-**Parent Topic:**[Manage tasks on the map](../../planning-and-policy/concept/c_ManageTasksOnTheMap.md)
+**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ManageTasksOnTheMap.md)
 

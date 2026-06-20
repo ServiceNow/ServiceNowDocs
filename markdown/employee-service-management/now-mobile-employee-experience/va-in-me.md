@@ -2,6 +2,7 @@
 title: Enable Live Agent in the Now Mobile app
 description: Activate the Chat quick action to allow your users to ask for help from a virtual or live agent from the Now Mobile home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/va-in-me.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -44,7 +45,7 @@ Chat is enabled from the Requests and Knowledge Articles pages by default.
 
 Users can select Chat in the Homepage quick actions menu to ask for help from a live or virtual agent.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 **Related topics**  
 

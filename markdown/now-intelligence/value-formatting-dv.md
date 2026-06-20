@@ -2,6 +2,7 @@
 title: Value formatting in data visualizations
 description: In most data visualizations, you can configure how numerical values look when you publish the report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/value-formatting-dv.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-05-06"
@@ -100,5 +101,5 @@ Summary of rounding options:
 |-2.5|-3|-2|-2|-3|-3|-2|-2|
 |-5.5|-6|-5|-5|-6|-6|-5|-6|
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

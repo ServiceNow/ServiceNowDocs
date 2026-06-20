@@ -2,6 +2,7 @@
 title: Create Spotlight criteria
 description: Create Spotlight criteria to define when to weight a record, and the weight to assign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/spotlight/create-spotlight-criteria.html
 release: xanadu
 product: Spotlight
 classification: spotlight
@@ -17,7 +18,7 @@ Create Spotlight criteria to define when to weight a record, and the weight to a
 
 ## Before you begin
 
-[Create a Spotlight group](create-spotlight-group.md#)
+[Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/create-spotlight-group.md)
 
 Role required: pa\_spotlight or admin
 
@@ -32,7 +33,7 @@ Spotlight criteria can refer to an indicator or can use a direct query to the fa
 -   It must be based on the same table that the indicator source of the main indicator is based on. This table cannot be a database view.
 -   If the Spotlight group evaluates platform data, the indicator cannot use a scripted breakdown.
 
-A query-based criterion queries the same table that the indicator source of the main indicator is based on. The suitability of indicator-based and query-based criteria depends also on whether the Spotlight group evaluates platform data or snapshots of records. For more information, see [Evaluating a snapshot or platform data](create-spotlight-group.md#).
+A query-based criterion queries the same table that the indicator source of the main indicator is based on. The suitability of indicator-based and query-based criteria depends also on whether the Spotlight group evaluates platform data or snapshots of records. For more information, see [Evaluating a snapshot or platform data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/create-spotlight-group.md).
 
 Some criteria may be more important than others and have a higher weight. Weight from multiple criteria is cumulative within a Spotlight Group. The score of a record is the total weight from all applicable Spotlight criteria in the Spotlight Group.
 
@@ -41,7 +42,7 @@ If you have domain separation enabled:
 -   When you create Spotlight criteria for a global Spotlight group, the criteria are created in the domain of the logged-in user.
 -   When you create Spotlight criteria for a Spotlight group that is in a specific domain, the Spotlight criteria are created in that domain.
 
-Messages appear to inform you of the domain situation when you create Spotlight criteria. For more information, see [Domain separation with Spotlight](../concept/domain-separation-spotlight.md).
+Messages appear to inform you of the domain situation when you create Spotlight criteria. For more information, see [Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/domain-separation-spotlight.md).
 
 ## Procedure
 
@@ -53,7 +54,7 @@ Messages appear to inform you of the domain situation when you create Spotlight 
 
 3.  Select the **Criteria Type** to determine which records are assigned the specified weight.
 
-<table id="choicetable_gw3_tvp_bx"><tbody><tr><td id="d92187e157">
+<table id="choicetable_gw3_tvp_bx"><tbody><tr><td id="d88420e157">
 
 **Indicator**
 
@@ -61,7 +62,7 @@ Messages appear to inform you of the domain situation when you create Spotlight 
 
 Select an **Indicator** to assign the weight to all records included in that indicator. Optionally, select one or two breakdowns and elements to limit the records to only those records with the specified breakdown element values.
 
-</td></tr><tr><td id="d92187e169">
+</td></tr><tr><td id="d88420e169">
 
 **Query**
 
@@ -89,7 +90,7 @@ In this example, an open incident that has been reassigned 4 times and has an em
 
 ## What to do next
 
-Repeat the procedure to create as many criteria as are necessary. Then collect scores. See [Collect Spotlight scores](../concept/collect-spotlight-scores.md).
+Repeat the procedure to create as many criteria as are necessary. Then collect scores. See [Collect Spotlight scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/collect-spotlight-scores.md).
 
-**Parent Topic:**[Setting up Spotlight](../concept/setting-up-spotlight.md)
+**Parent Topic:**[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/spotlight/setting-up-spotlight.md)
 

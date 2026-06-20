@@ -2,6 +2,7 @@
 title: Create a column type check
 description: Retrieve all records containing a specific column field type from all tables in an instance by selecting Create a new Column Type Check. The Column Type Check type implements the rule you created to iterate all records matching the target column field type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-create-column-health-check.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -20,7 +21,7 @@ Retrieve all records containing a specific column field type from all tables in 
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## Procedure

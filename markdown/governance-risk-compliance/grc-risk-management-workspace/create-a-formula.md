@@ -2,6 +2,7 @@
 title: Create a formula
 description: Build your own formula using either entities or metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-a-formula.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

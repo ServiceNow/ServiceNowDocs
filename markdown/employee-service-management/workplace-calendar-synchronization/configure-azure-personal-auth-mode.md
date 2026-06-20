@@ -2,6 +2,7 @@
 title: Configure Microsoft Azure
 description: Set up a personal mode authentication with Microsoft Azure to connect Microsoft Exchange Online with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/configure-azure-personal-auth-mode.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -89,7 +90,7 @@ The Microsoft Exchange Online is set up with Microsoft Azure.
 
 ## What to do next
 
-[Configure resource rooms in Microsoft Exchange Online](configure-resource-rooms-in-msex.md)
+[Configure resource rooms in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.md)
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 

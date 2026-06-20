@@ -2,11 +2,12 @@
 title: Add statement expense line
 description: At the statement item breakdown level, add the number of units consumed, unit rate of the item, and the total cost of all items. Just as an invoice has printed line items, detailing the expense list, the statement item also has the expense details reported as statement expense lines in the showback statement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/add-statement-expense-line.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [View all showback statements, Showback statements, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -99,7 +100,7 @@ Rate at which the reporting entity is charged for one unit of the item.
 
 ## What to do next
 
-[Add expense line details for the statement](add-statement-expense-line-details.md) expense line of the statement item.
+[Add expense line details for the statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/add-statement-expense-line-details.md) expense line of the statement item.
 
-**Parent Topic:**[View all showback statements](view-all-showback-statements.md)
+**Parent Topic:**[View all showback statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/view-all-showback-statements.md)
 

@@ -2,7 +2,10 @@
 title: Configure email notifications for unread chat messages
 description: Send email summaries with all unread messages when the user isn’t active during a chat conversation for a specified duration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/setup-email-notification-unread-message.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Jumpstart Your Multi-lingual Virtual Agent - US Public Sector
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent-usps.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Multi-lingual Virtual Agent Accelerator - US Public Sector provides Impact customers with a demonstration of the possibilities and capabilities of Dynamic Translation. A demonstration of how Dynamic Translation works using Virtual Agent conversations, within AI Search, and hand-offs to Live Agent are included. Leading practices to get started are also incorporated.
 
-For more information on on Dynamic Translation, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on on Dynamic Translation, see .
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
 

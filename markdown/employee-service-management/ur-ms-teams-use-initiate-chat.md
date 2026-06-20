@@ -2,7 +2,10 @@
 title: Initiate chat with an employee from a record
 description: As an agent, initiate chats with the requester or an employee from the watchlist of a universal request using Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-use-initiate-chat.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -41,5 +44,5 @@ Role required: agent
 
 The Microsoft Teams application opens the tab where you can chat with the selected employee.
 
-**Parent Topic:**[Manage chat messages from a record](../concept/ur-mst-use-start-import-chat.md)
+**Parent Topic:**[Manage chat messages from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-mst-use-start-import-chat.md)
 

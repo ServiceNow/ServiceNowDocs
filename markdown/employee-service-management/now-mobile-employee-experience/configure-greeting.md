@@ -2,6 +2,7 @@
 title: Configure a personalized greeting
 description: Configure the greeting that your users see when they log in to the Now Mobile app. For example, you can add a hello message that includes the user's first and last name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/configure-greeting.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -42,5 +43,5 @@ Role required: admin
 
 When a user logs in to the Now Mobile app, they see your personalized greeting.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

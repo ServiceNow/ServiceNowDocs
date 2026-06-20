@@ -2,6 +2,7 @@
 title: Manage input parameters for an ERP Data Hub model operation
 description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads or updates the system of record from ERP Data Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-manage-model-inputs.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +28,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model with the operation that you want to add inputs to.
 
@@ -35,11 +36,11 @@ If you're already in the process of managing a model and ready to specify inputs
 
 5.  Open a model operation.
 
-    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in ERP Data Hub](erpc-manage-models-read-op.md).
+    If you do not have a model operation, add one to the model. For more information, see [Add an operation to a model in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Open an entity.
 
-    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Data Hub](erpc-add-entity-to-model-op.md)
+    If you do not have an entity, add one to the operation. For more information, see [Add a read, update, or create entity to a model in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-add-entity-to-model-op.md)
 
 7.  Select **Specify inputs**.
 
@@ -47,7 +48,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
     -   The Operation parameters section, where you define any default values to use if the operation fails.
     -   The Tables/Function call section, where you define the parameters the operation uses. The Table section appears for read operations, and the Function call section appears for BAPI \(Business Application Programming Interface\) operations.
-    ![Specify input parameters](../image/erpc-specify-inputs-manager.png "Manage inputs")
+    \[Omitted image "erpc-specify-inputs-manager.png"\] Alt text: Specify input parameters
 
 8.  Define whether the operation inputs are required in the **Query validation rule** field.
 
@@ -98,7 +99,7 @@ Type
 
 Definition of how the parameter is sent.-   **Input** parameters have their **Mapped value** automatically populated.
 -   **Constant** defines a parameter whose value never changes, for example, to use as filter criteria. You must specify the value in the parameter's **Mapped value** field.
--   **Join** \(Table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   **Join** \(Table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr><tr><td>
@@ -109,13 +110,13 @@ Mapped value
 
 Specific value of the parameter.-   For **Input** parameters, accept the system-generated name.
 -   For **Constant** parameters, enter a set value that's always sent for the parameter.
--   For **Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   For **Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr></tbody>
 </table>    If you're adding a complex, nested parameter, such as an address that includes several other parameters \(one for street, one for city, one for country\), ERP Data Hub automatically identifies that it needs additional related parameters and creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
 
-11. Include the newly defined parameter in the Output parameters section by selecting the automap icon \(![Automap icon](../image/erpc-automap-icon.png)\).
+11. Include the newly defined parameter in the Output parameters section by selecting the automap icon \(\[Omitted image "erpc-automap-icon.png"\] Alt text: Automap icon\).
 
     ERP Data Hub automatically updates the **Mapped value** for the Tables/Function call parameter, and adds a row for the parameter to the Output parameters section.
 
@@ -134,7 +135,7 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 
 ## What to do next
 
-Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for an ERP model](erp-canvas-manage-outputs.md).
+Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for an ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

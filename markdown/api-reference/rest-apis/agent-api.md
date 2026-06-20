@@ -2,6 +2,7 @@
 title: AWA Agent API
 description: The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.Returns the current agent presence state and channel availability.Returns an agent's channel capacities, universal capacity, and the current workload to see if the agent can handle a case.Returns an agent's presence states and indicates whether the agent is available or in another presence state.Sets the state of a specified agent’s presence and, if provided, sets the agent’s channel availability for that state.Enables updating an agent's maximum capacity \(workload\) for channel capacities and universal capacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/agent-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## AWA Agent - GET /now/awa/agents/\{user\_id\}
 
@@ -111,7 +112,7 @@ Table: Presence States \[awa\_presence\_state\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -144,7 +145,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -187,7 +188,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -304,7 +305,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d2955e337">
+</td><td id="d4998e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -346,7 +347,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d2955e405">
+</td><td id="d4998e405">
 
 Channel sys\_id. Data type: String
 
@@ -382,7 +383,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d2955e467">
+</td><td id="d4998e467">
 
 Presence state sys\_id. Data type: String
 
@@ -494,7 +495,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -539,13 +540,13 @@ https://instance.servicenow.com/api/now/awa/agents/46d44a23a9fe19810012d100cca80
 
 Returns an agent's channel capacities, universal capacity, and the current workload to see if the agent can handle a case.
 
-Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](agent-api.md#) method to modify the channel and universal capacities of an agent.
+Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/agent-api.md) method to modify the channel and universal capacities of an agent.
 
 See also:
 
--   [Service channel capacity and utilization](https://www.servicenow.com/docs/access?context=awa-service-channel-capacity&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Configure an agent's maximum universal capacity](https://www.servicenow.com/docs/access?context=awa-universal-capacity&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -592,7 +593,7 @@ Table: User \[sys\_user\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_ah3_ydq_htb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -617,7 +618,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_dh3_ydq_htb"><thead><tr><th>
 
@@ -660,7 +661,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -873,7 +874,7 @@ Table: User \[sys\_user\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -898,7 +899,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -941,7 +942,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1099,7 +1100,7 @@ Flag that indicates whether to check for inactivity of this presence state.Valid
 
  Default: false
 
- For information on how to modify this setting, see [Configure agent presence states](https://www.servicenow.com/docs/access?context=awa-configure-agent-presence&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+ For information on how to modify this setting, see Configure agent presence states.
 
 </td></tr><tr><td>
 
@@ -1312,7 +1313,7 @@ Table: Presence States \[awa\_presence\_state\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1345,7 +1346,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1388,7 +1389,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1545,7 +1546,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d2955e405">
+</td><td id="d4998e405">
 
 Channel sys\_id. Data type: String
 
@@ -1581,7 +1582,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d2955e467">
+</td><td id="d4998e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1693,7 +1694,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://www.servicenow.com/docs/access?context=transfer-chat-queue&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1743,13 +1744,13 @@ curl -X PUT \
 
 Enables updating an agent's maximum capacity \(workload\) for channel capacities and universal capacity.
 
-Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](agent-api.md#) method to retrieve the current channel and universal capacities of an agent.
+Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/agent-api.md) method to retrieve the current channel and universal capacities of an agent.
 
 See also:
 
--   [Service channel capacity and utilization](https://www.servicenow.com/docs/access?context=awa-service-channel-capacity&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Configure an agent's maximum universal capacity](https://www.servicenow.com/docs/access?context=awa-universal-capacity&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -1832,7 +1833,7 @@ Mandatory if universal capacity is being updated. Maximum capacity for the agent
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1857,7 +1858,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

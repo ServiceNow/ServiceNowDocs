@@ -2,6 +2,7 @@
 title: Now Assist for Financial Services Operations \(FSO\)
 description: Use the Now Assist for Financial Services Operations \(FSO\) application to summarize the case information for insurance claims and card disputes. You can enable your agents to understand the case context so that they can propose quicker resolutions to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.html
 release: xanadu
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -20,15 +21,15 @@ Use the Now Assist for Financial Services Operations \(FSO\) application to summ
 
 <table id="table_vqd_fm5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for FSO](exploring-now-assist-for-financial-services-operations-fso.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/exploring-now-assist-for-financial-services-operations-fso.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for FSO application to get started](../task/configure-now-assist-for-fso.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for FSO](using-now-assist-for-financial-services-operations-fso.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
 </td></tr></tbody>
 </table>## Federal exclusion notice
@@ -56,7 +57,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

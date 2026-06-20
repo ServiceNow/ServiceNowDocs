@@ -2,6 +2,7 @@
 title: Supplier
 description: You can add a supplier to the primary data and add products related to that supplier. The supplier data is managed effortlessly and enhance productivity of the teams that engage with suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/supplier.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,5 +24,5 @@ You can add suppliers and their products to populate your primary data.
 |-----|---------|-----------|
 |Legal name|String|Legal name of the supplier that corresponds to its operating location.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

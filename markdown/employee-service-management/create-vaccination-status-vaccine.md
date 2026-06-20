@@ -2,6 +2,7 @@
 title: Configure vaccine or vaccine booster types for Vaccination Status
 description: Create or modify vaccine or vaccine booster types that people can use to report their vaccination status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-vaccination-status-vaccine.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -89,5 +90,5 @@ Number of days since vaccination before a booster is required. This field is vis
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/vaccination-status.md)
 

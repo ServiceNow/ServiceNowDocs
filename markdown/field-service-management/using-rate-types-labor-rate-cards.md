@@ -2,7 +2,10 @@
 title: Using rate types and labor rate cards
 description: Use rate types and labor rate cards to define different cost rates for different activities recorded by field service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/using-rate-types-labor-rate-cards.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -53,5 +56,5 @@ To enable multiple rate types for Field Service Management:
 6.  Enable the **Auto fill time card with time worked entries** field.
 7.  Click **Update**.
 
-**Parent Topic:**[Record the time worked on a work order task](Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

@@ -2,6 +2,7 @@
 title: New Relic Observability tab for Service Observability
 description: Dashboard and charts on the New Relic Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-observability/new-relic-observability-tab-for-service-observability.html
 release: xanadu
 product: Service Observability
 classification: service-observability
@@ -74,5 +75,5 @@ This dashboard displays metrics for PostgreSQL databases related to the service.
 |Checkpoint Write Time|Time in milliseconds spent writing files to disk.|APM instance|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[New Relic templates](new-relic-templates.md)
+**Parent Topic:**[New Relic templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-observability/new-relic-templates.md)
 

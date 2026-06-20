@@ -2,6 +2,7 @@
 title: Run the DataSummarization on-demand job
 description: Use the ad-hoc OnDemandDataSummarization schedule job to retrieve summary data for the required connector type if the DataSummarization schedule job fails to populate the occupancy, environmental, or Wi-Fi summary reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/run-the-datasummarization-on-demand-job.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Workplace Connectors Data Summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors Data Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/data-summarization.md)
 

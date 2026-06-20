@@ -2,6 +2,7 @@
 title: Scan container images
 description: Enable container image scanning using the Aqua Trivy tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/container-image-task.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -24,18 +25,18 @@ Verify the following setup:
 -   Discovery and Service Mapping Patterns, starting 1.7.0 \(August 2023 store release\).
 -   CMDB CI Class Models, starting 1.43.0.
 -   Visibility Content, starting 6.7.2.
--   For the container images scan to run successfully, verify that all the MID Servers in your environment are configured for specific capabilities and are not set to **All**. For more information on configuring capabilities, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=mid-server-capabilities&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+-   For the container images scan to run successfully, verify that all the MID Servers in your environment are configured for specific capabilities and are not set to **All**. For more information on configuring capabilities, see .
 -   MID Server requirements:
     -   8GB RAM with 4GB JVM
     -   MID Server **Capability** configured to **Scan Container Images**
     -   Can access the image repository
 -   Aqua Trivy starting 0.44.0 is installed on the MID Server. The last version validated is 0.68.2. For more information on installing Aqua Trivy, see the [Container Image scan feature overview \[KB1218504\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1218504) article in the Now Support Knowledge Base.
--   To collect Docker or Kubernetes container image and environment records, you must first run the Docker or Kubernetes discovery before enabling the Container Image Scan feature. For more information, see [Kubernetes discovery using patterns](../concept/kubernetes-discovery.md) and [Docker virtualization](../../discovery/concept/c-docker-virtualization.md).
+-   To collect Docker or Kubernetes container image and environment records, you must first run the Docker or Kubernetes discovery before enabling the Container Image Scan feature. For more information, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/kubernetes-discovery.md) and [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c-docker-virtualization.md).
 -   Starting with Discovery and Service Mapping Patterns version 1.18.0, the Container Image Scan feature also supports the following:
-    -   Using a proxy MID Server to scan the container images in the following repositories: public, self-hosted private, and Amazon Elastic Container Registry \(Amazon ECR\) repositories. To use a proxy MID Server, ensure the MID Server proxy parameters are correctly configured. For more information, see [MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
-    -   Scanning container images in self-hosted private repositories. To scan these repositories, you must create container image repository credentials. For more information, see [Create and test your credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) and [Container image repository credentials](https://www.servicenow.com/docs/access?context=container-image-repo-credential&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
-    -   Collecting image records from Amazon ECR in both public and private repositories. To collect these Amazon ECR image records, you must first run the Amazon ECS resource discovery before enabling the Container Image Scan. The AWS cloud service account created for the Amazon ECS resource discovery is also used for the container image scan. For more information about Amazon ECS resource discovery, see [Amazon ECS resource discovery](../reference/aws-ecs-fargate-discovery.md).
--   Starting with version 1.27.0, Discovery and Service Mapping Patterns enables you to control whether to link software packages to containers or only to images. For more information, see [Link software package information to images only](link-software-package-only-image.md).
+    -   Using a proxy MID Server to scan the container images in the following repositories: public, self-hosted private, and Amazon Elastic Container Registry \(Amazon ECR\) repositories. To use a proxy MID Server, ensure the MID Server proxy parameters are correctly configured. For more information, see .
+    -   Scanning container images in self-hosted private repositories. To scan these repositories, you must create container image repository credentials. For more information, see  and .
+    -   Collecting image records from Amazon ECR in both public and private repositories. To collect these Amazon ECR image records, you must first run the Amazon ECS resource discovery before enabling the Container Image Scan. The AWS cloud service account created for the Amazon ECS resource discovery is also used for the container image scan. For more information about Amazon ECS resource discovery, see [Amazon ECS resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
+-   Starting with version 1.27.0, Discovery and Service Mapping Patterns enables you to control whether to link software packages to containers or only to images. For more information, see [Link software package information to images only](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/link-software-package-only-image.md).
 
 Role required: admin
 
@@ -53,5 +54,5 @@ Role required: admin
 
 ## Result
 
-The Scan Container Image pattern finds the image OS packages and creates application records based on the image CI class. The Container Image OS Packages table is located in the image record. The pattern also creates relationships between the configuration items. For more information on the data collected, see [Container image discovery](../reference/container_image_scan_pattern.md).
+The Scan Container Image pattern finds the image OS packages and creates application records based on the image CI class. The Container Image OS Packages table is located in the image record. The pattern also creates relationships between the configuration items. For more information on the data collected, see [Container image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/container_image_scan_pattern.md).
 

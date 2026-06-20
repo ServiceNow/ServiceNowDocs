@@ -2,6 +2,7 @@
 title: Search Application Configuration form
 description: The Search Application Configuration form contains information about search application configurations defined for AI Search. Use this form when creating or modifying a search application configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/search-app-config-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Search Application Configuration form contains information about search application configurations defined for AI Search. Use this form when creating or modifying a search application configuration.
 
-For details on creating or modifying a search application configuration for use with AI Search, see [Create a search application configuration for AI Search](../task/create-search-app-config-ais.md).
+For details on creating or modifying a search application configuration for use with AI Search, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/create-search-app-config-ais.md).
 
 <table id="search-app-config-table"><thead><tr><th>
 
@@ -72,7 +73,7 @@ Search Results Limit
 
 Maximum number of search results the application should display on each search results page.
 
- This limit also specifies the minimum number of search results each query should return. When a search query returns less than this number of results, AI Search attempts to broaden the result set by automatically resubmitting the query with modified parameters. For more details on query resubmission, see [Automatic search query resubmission](../concept/auto-query-resubmission-ais.md).
+ This limit also specifies the minimum number of search results each query should return. When a search query returns less than this number of results, AI Search attempts to broaden the result set by automatically resubmitting the query with modified parameters. For more details on query resubmission, see [Automatic search query resubmission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/auto-query-resubmission-ais.md).
 
  Type: integer
 
@@ -96,7 +97,7 @@ Maximum number of Genius Result answer cards the application should display on t
 
  **Note:** Search applications display a maximum of 10 answer cards per search query. If you set this limit to 11 or more, the search application still displays a maximum of 10 answer cards.
 
- Starting with version 6 of [Now Assist in AI Search](now-assist-ais.md), installing Now Assist in AI Search makes the value of this field default to 10 instead of 1 when you create a new search application configuration or edit an existing one.
+ Starting with version 6 of [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/now-assist-ais.md), installing Now Assist in AI Search makes the value of this field default to 10 instead of 1 when you create a new search application configuration or edit an existing one.
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Enable Typo Handling
 
 Option to auto-correct search query terms to match terms found in the search profile's typo handling dictionary. This field appears only when you select **AI Search** as the application's search engine.
 
- For more details on typo handling auto-correction configuration and behavior, see [Typo handling](../concept/typo-handling-ais.md).
+ For more details on typo handling auto-correction configuration and behavior, see [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/typo-handling-ais.md).
 
  Type: true \| false
 
@@ -146,7 +147,7 @@ Show parent for results that are attachments
 
 Option to display attachment search results inline with their parent results on the search application's results page. If cleared, attachment search results display separately from their parent results.
 
- For more details on the effects of attachment grouping, see [Group attachment search results with their parent results](../task/group-attachment-srch-results-ais.md).
+ For more details on the effects of attachment grouping, see [Group attachment search results with their parent results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/group-attachment-srch-results-ais.md).
 
  Type: true \| false
 
@@ -165,7 +166,7 @@ Show Search Results Count
 
 Option to display the count of search results on the search application's results page.
 
- For more details on this option, see [Display search result counts on the results page for a search application](../task/display-result-counts-ais.md).
+ For more details on this option, see [Display search result counts on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/display-result-counts-ais.md).
 
  Type: true \| false
 
@@ -177,5 +178,5 @@ Option to display the count of search results on the search application's result
 -   **false**: Don't display the count of search results on the search application's results page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

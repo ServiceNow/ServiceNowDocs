@@ -2,6 +2,7 @@
 title: Cancel a legal matter task
 description: You can cancel a matter task if it no longer requires any action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/cancel-matter-task.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Legal Matters**, click **Assigned to Me**.
 

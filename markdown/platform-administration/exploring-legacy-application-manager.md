@@ -2,6 +2,7 @@
 title: Exploring Legacy Application Manager
 description: The information in this section describes using the legacy or classic application manager experience. A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see Application Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/exploring-legacy-application-manager.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-12-06"
@@ -19,10 +20,10 @@ Before you can use any ServiceNow application, you must verify that you have ent
 
 ## What to explore next
 
-To learn more about using Legacy Application Manager, see [Using Legacy Application Manager](../task/using-legacy-application-manager.md)
+To learn more about using Legacy Application Manager, see [Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/using-legacy-application-manager.md)
 
--   **[Available actions](app-installation.md)**  
+-   **[Available actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/app-installation.md)**  
 Before you can use any ServiceNow application, you must verify that you have entitlement to it, meaning that you have valid licenses to use it. Then, you can install the application and its plugins from the ServiceNow Store.
 
-**Parent Topic:**[Legacy Application Manager](../reference/legacy-application-manager-landing.md)
+**Parent Topic:**[Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/legacy-application-manager-landing.md)
 

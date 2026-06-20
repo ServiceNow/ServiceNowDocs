@@ -2,6 +2,7 @@
 title: Upgrade Preview module
 description: The Upgrade Preview module enables you to have an unprecedented insight to an instance prior to an actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations. The Upgrade Preview utility helps you to plan, schedule, and prepare for an upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-preview-module.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the S
 
 The Upgrade Preview module enables you to have an unprecedented insight to an instance prior to an actual upgrade. You can explore and preview upgrades to different ServiceNow release versions and see how your instance might be impacted with your current configurations. The Upgrade Preview utility helps you to plan, schedule, and prepare for an upgrade.
 
-![Image showing the preview screen](../image/uc-preview-screen.png)
+\[Omitted image "uc-preview-screen.png"\] Alt text: Image showing the preview screen
 
 **Note:** Depending on the eligibility of your instance, the list of available target versions for preview varies. Only versions that are allowed for a particular instance to be upgraded to, show up on the list. If your instance is not eligible to be upgraded to any version, the drop-down menu is empty.
 
@@ -83,7 +84,7 @@ Skipped list prediction**Note:** If you are using Upgrade Plan, the card name ch
 
 </td><td>
 
-Information about the predicted skipped records. See [Preview predicted changes](../reference/uc-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
+Information about the predicted skipped records. See [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
 
 Review changes: Link to the list of records that have changed and can be reviewed
 
@@ -96,7 +97,7 @@ Review changes: Link to the list of records that have changed and can be reviewe
 
 **Note:** This entry shows up on the card only when rules are executed on the skipped records. You will also see a link to create a skipped record rule if either there are no existing rules or the existing rules aren't executed.
 
-**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](../task/uc-execute-skipped-record-rule.md#) for more information.
+**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md) for more information.
 
 -   Predicted skipped records by priority: Pie chart to represent the predicted skipped records by priority.
 
@@ -116,7 +117,7 @@ Predicted skipped records by product
 
 </td><td>
 
-Records that have been predicted to be skipped and are sorted as per their product families.![](../image/uc-skipped_records_product.png)
+Records that have been predicted to be skipped and are sorted as per their product families.\[Omitted image "uc-skipped\_records\_product.png"\] Alt text:
 
  **Note:** The products sorted under the Other category don't have any specific product family.
 

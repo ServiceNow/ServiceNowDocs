@@ -2,6 +2,7 @@
 title: Reopen an SRM incident
 description: Reopen a closed incident if you think the issue is not yet resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-reopen-incident.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Find and open the incident you want to reopen.
 
@@ -35,15 +36,15 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d515017e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d384007e101">
 
 Option
 
-</th><th align="left" id="d515017e104">
+</th><th align="left" id="d384007e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d515017e110">
+</th></tr></thead><tbody><tr><td id="d384007e110">
 
 **In the incident list view**
 
@@ -53,7 +54,7 @@ Steps
 2.  Select **OK**.
 
 
-</td></tr><tr><td id="d515017e134">
+</td></tr><tr><td id="d384007e134">
 
 **In the incident form**
 
@@ -64,10 +65,10 @@ Steps
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM incident workspace](../reference/sr-incidents-workspace.md).
+</table>    For value choices, see [SRM incident workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
     The new state is displayed in the incident list view and incident form and form header.
 
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

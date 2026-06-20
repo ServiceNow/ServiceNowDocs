@@ -2,6 +2,7 @@
 title: Enable Virtual Agent for Sourcing and Procurement Operations
 description: Enable Virtual Agent for Sourcing and Procurement Operations to start chatting with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/enable-virtual-agent-for-shoppinghub.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,7 +20,7 @@ Enable Virtual Agent for Sourcing and Procurement Operations to start chatting w
 
 Role required: admin, virtual\_agent\_admin
 
-The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize, duplicate, and edit a topic, see [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
+The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize, duplicate, and edit a topic, see Virtual Agent Designer
 
 ## Procedure
 
@@ -37,5 +38,5 @@ The base system provides predefined Virtual Agent topics \(chatbot conversations
     **Note:** It is recommended that you use the conversation flow as delivered for optimum results.
 
 
-**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](../concept/virtual-agent-for-psm.md)
+**Parent Topic:**[Virtual Agent for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/virtual-agent-for-psm.md)
 

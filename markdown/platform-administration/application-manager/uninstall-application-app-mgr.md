@@ -2,6 +2,7 @@
 title: Uninstall an application
 description: Uninstall an unused application to remove unnecessary or conflicting scripts, background jobs, and roles from your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/uninstall-application-app-mgr.html
 release: xanadu
 product: Application Manager
 classification: application-manager

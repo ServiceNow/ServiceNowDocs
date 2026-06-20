@@ -2,6 +2,7 @@
 title: Request a hardware asset through the Zero Touch request flow
 description: Request a hardware asset directly with the external provider through the Zero Touch request flow by ordering the asset from the Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/request-hardware-assets-ztr-catalog.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management

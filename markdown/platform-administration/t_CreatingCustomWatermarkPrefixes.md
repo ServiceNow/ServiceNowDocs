@@ -2,6 +2,7 @@
 title: Create a custom watermark prefix for email notifications
 description: By default, email notifications use the watermark prefix MSG, but you can create a custom watermark prefix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreatingCustomWatermarkPrefixes.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -38,5 +39,5 @@ Any email notifications that are forwarded from one instance to another might be
 
 Your custom watermark applies to all new email notifications. Email notifications that existed before you created a custom watermark keep the same watermarks as before.
 
-**Parent Topic:**[Watermarks on notification emails](../concept/c_WorkingWithWatermarks.md)
+**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WorkingWithWatermarks.md)
 

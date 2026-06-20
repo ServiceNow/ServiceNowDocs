@@ -2,6 +2,7 @@
 title: Edit delivery channel
 description: Edit rules and delivery channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -34,5 +35,5 @@ Role required: rota\_manager, rota\_admin
 6.  Select **Save** to apply your changes.
 
 
-**Parent Topic:**[Create notification preference rule](create-notification-preference-rule.md)
+**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
 

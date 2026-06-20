@@ -2,6 +2,7 @@
 title: Using the Personal Authentication dashboard
 description: Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/personal-auth-dashboard.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +27,7 @@ The Personal Authentication dashboard has two main sections.
 -   The My Integrations section at the top of the page, which shows your authenticated integrations.
 -   The Integrations I can use section at the bottom of the page, which shows the integrations available to you.
 
-![The Personal Authentication dashboard with two sections: The My Integrations section, and the Integrations I can use section.](../images/personal-auth-dashboard.png "Personal Authentication dashboard")
+\[Omitted image "personal-auth-dashboard.png"\] Alt text: The Personal Authentication dashboard with two sections: The My Integrations section, and the Integrations I can use section.
 
 -   **My Integrations section**
 
@@ -54,7 +55,7 @@ The integrations on the dashboard all come from the Connection &amp; Credential 
 -   If the credential currently has a valid token, it's listed in the My Integrations section of the dashboard.
 -   If the credential doesn't currently have a valid token, it's listed in the Integrations I can use section of the dashboard.
 
-If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see .
 
 ## Token revocation URL
 
@@ -70,5 +71,5 @@ To enable authentication revocation at the OAuth Server, fill in the **Token Rev
 
 The Personal Authentication dashboard requires the sn\_personal\_auth.personal\_auth\_user role.
 
-**Parent Topic:**[Managing connections in Integration Hub](managing-connections-integration-hub.md)
+**Parent Topic:**[Managing connections in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/managing-connections-integration-hub.md)
 

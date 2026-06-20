@@ -2,11 +2,12 @@
 title: Deleted hardening settings for baseline version 4.0
 description: This list contains the hardening settings which have been removed in Security Center baseline version 4.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-version-four.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Deleted hardening settings for baseline version 5, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -45,8 +46,8 @@ This list contains the hardening settings which have been removed in Security Ce
 -   Convert Inbound Email Images to Attachments
 -   Review Extraneous Explicit Role Access Control Condition
 
--   **[Deleted hardening settings](deleted-hardening-settings.md)**  
+-   **[Deleted hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings.md)**  
 This list contains the hardening settings which have been removed in Security Center baseline version 2.0.
 
-**Parent Topic:**[Deleted hardening settings for baseline version 5](deleted-hardening-settings-for-baseline-version-five.md)
+**Parent Topic:**[Deleted hardening settings for baseline version 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-five.md)
 

@@ -2,6 +2,7 @@
 title: Exclusion policies
 description: You can exclude certain files from change tracking by creating an exclusion policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_ExclusionPolicies.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -15,9 +16,9 @@ breadcrumb: [Team Development, Planning your application, Building applications]
 
 You can exclude certain files from change tracking by creating an exclusion policy.
 
-When a change matches an exclusion policy, the change does not generate records in the local changes list. The change still generates local version records and Update Set records as normal. See [Creating an Exclusion Policy](../task/t_CreateAnExclusionPolicy.md).
+When a change matches an exclusion policy, the change does not generate records in the local changes list. The change still generates local version records and Update Set records as normal. See [Creating an Exclusion Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/t_CreateAnExclusionPolicy.md).
 
 **Note:** The exclusion policy applies to changes identified during a reconciliation operation. If you create an exclusion policy after a reconciliation, Team Development still tracks the changes until the next reconciliation.
 
-**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md)
 

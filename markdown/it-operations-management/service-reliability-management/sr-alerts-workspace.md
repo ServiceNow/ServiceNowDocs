@@ -2,6 +2,7 @@
 title: SRM alert workspace
 description: The alert workspace contains various areas containing alert details and possible actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -23,7 +24,7 @@ The base state of an alert in a configured system is open and unacknowledged.
 
 The header contains the alert description and any tags as well as the **Save** button.
 
-**Note:** Tags are imported from third-party integrations, such as Datadog, and attached to alerts. However, you can also create tags to categorize data and drive system logic in response or grouping rules or using the tag icon ![tag icon](../image/icon-sr-tag.png). For more information on creating and viewing tags, see [Manually create SRM tags](../task/sr-create-tags.md).
+**Note:** Tags are imported from third-party integrations, such as Datadog, and attached to alerts. However, you can also create tags to categorize data and drive system logic in response or grouping rules or using the tag icon \[Omitted image "icon-sr-tag.png"\] Alt text: tag icon. For more information on creating and viewing tags, see [Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-tags.md).
 
 **Details tab**
 
@@ -349,7 +350,7 @@ Each record contains the following fields: \(You can refresh, edit columns, and 
 
 With the itil role, you can add a change request to this alert using the **New** button. This is not implemented in SRM alone.
 
-**Note:** For more detailed information on change requests, see [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+**Note:** For more detailed information on change requests, see .
 
 |Field|Description|
 |-----|-----------|
@@ -367,40 +368,40 @@ Work notes are added to the Activity timeline automatically. Add comments using 
 
 **Activity** panel
 
-Activity stream that contains all the system activity, comments, and work notes. You can filter, sort, expand or collapse all posts using the header icons. ![These are the buttons to filter, sort, expand, collapse, or select more actions.](../image/icon-sr-activity-header.png)
+Activity stream that contains all the system activity, comments, and work notes. You can filter, sort, expand or collapse all posts using the header icons. \[Omitted image "icon-sr-activity-header.png"\] Alt text: These are the buttons to filter, sort, expand, collapse, or select more actions.
 
 **Note:** The filter option includes **Post types**, **Field changes**, **Filter sets**, and **Flagged**. All choices are selected by default. Flagged entries are either all or none.
 
 **Actions** panel
 
-**Attachments** section is open by default. Click the ![Paper clip icon used for attachments.](../image/icon-sr-attachment.png) attachment icon to close.
+**Attachments** section is open by default. Click the \[Omitted image "icon-sr-attachment.png"\] Alt text: Paper clip icon used for attachments. attachment icon to close.
 
 On the **Attachments** panel, you can initially **Browse** your local hard drive for files.
 
 Once you have added attachments, you can:
 
--   Sort attachments from newest to oldest, or vice versa using the Sort icon ![Sort icon.](../image/icon-sr-sort-attach.png).
+-   Sort attachments from newest to oldest, or vice versa using the Sort icon \[Omitted image "icon-sr-sort-attach.png"\] Alt text: Sort icon..
 -   Search for an attachment based on its name or extension
 
     **Note:** You must have two or more attachments to search.
 
-    ![An image showing the search bar for attachments.](../image/sr-search-attach-field.png)
+    \[Omitted image "sr-search-attach-field.png"\] Alt text: An image showing the search bar for attachments.
 
--   Upload a new attachment using the \(![Add icon](../image/icon-sr-add.png)\) icon
--   Download an existing attachment using the More actions icon \(![More actions icon](../image/icon-sr-more-actions-vertical.png)\) to the right of the attachment.
+-   Upload a new attachment using the \(\[Omitted image "icon-sr-add.png"\] Alt text: Add icon\) icon
+-   Download an existing attachment using the More actions icon \(\[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More actions icon\) to the right of the attachment.
 -   Remove an existing attachment using the More actions icon to the right of the attachment.
 -   Rename an existing attachment using the More actions icon to the right of the attachment.
 
-    ![When selecting More actions, you can select download, remove, or rename.](../image/sr-attach-menu.png)
+    \[Omitted image "sr-attach-menu.png"\] Alt text: When selecting More actions, you can select download, remove, or rename.
 
 
 **Template** panel
 
-Open the Template panel using the Template icon ![Template icon.](../image/icon-sr-template.png).
+Open the Template panel using the Template icon \[Omitted image "icon-sr-template.png"\] Alt text: Template icon..
 
 **Note:** If there are existing templates, they are displayed but creating templates is not available in SRM.
 
-See [Manually create an SRM template](../task/sr-create-template.md) to create your own templates.
+See [Manually create an SRM template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-template.md) to create your own templates.
 
 **Collaboration** panel
 
@@ -462,5 +463,5 @@ Start or join a Slack channel:
 
 Add responders from the list menu and select the Add icon. Responders are notified based on their notification preferences.
 
-**Parent Topic:**[Exploring Service Reliability Management](../concept/exploring-service-reliability-management.md)
+**Parent Topic:**[Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
 

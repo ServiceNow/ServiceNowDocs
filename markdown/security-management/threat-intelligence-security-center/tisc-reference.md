@@ -2,6 +2,7 @@
 title: Threat Intelligence Security Center reference
 description: Reference topics provide additional information about the Threat Intelligence Security Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-reference.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -17,6 +18,6 @@ Reference topics provide additional information about the Threat Intelligence Se
 
 |Reference information|Links to topics|
 |---------------------|---------------|
-|Domain Separation and Threat Intelligence Security Center|[Domain separation and Threat Intelligence Security Center](../task/tisc-domain-separation.md)|
-|Components installed with Threat Intelligence Security Center application|[Components installed with Threat Intelligence Security Center](tisc-components-installed.md)|
+|Domain Separation and Threat Intelligence Security Center|[Domain separation and Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-domain-separation.md)|
+|Components installed with Threat Intelligence Security Center application|[Components installed with Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-components-installed.md)|
 

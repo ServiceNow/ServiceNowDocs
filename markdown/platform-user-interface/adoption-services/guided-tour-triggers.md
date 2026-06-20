@@ -2,6 +2,7 @@
 title: Guided tour triggers
 description: Each callout in a guided tour step has a defined action that triggers the next step to occur. You specify the trigger for each callout. Only applicable triggers appear based on the UI element the callout points to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-tour-triggers.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services

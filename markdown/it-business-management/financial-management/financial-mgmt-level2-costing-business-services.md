@@ -2,6 +2,7 @@
 title: Financial Management Level 2 Costing – Business Services dashboard
 description: The Level 2 Costing – Business Services dashboard provides an executive view into the cost of enabling a business service and aligning it to the business capabilities of an enterprise. The dashboard provides visibility on the cost of supporting a business service and helps understand the cost of the business services driven by the business units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-mgmt-level2-costing-business-services.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -21,7 +22,7 @@ This feature is available only when you own an ITBM Analyst license.
 
 The dashboard is based on Level 2 Costing – Business Services cost model that aligns business services to business units. Therefore, you can track the service cost for each business unit.
 
-![Screenshot showing the Level 2 Costing – Business Services dashboard.](../image/Level2CostingBusinessServiceDashboard.png "Level 2 Costing – Business Services dashboard")
+\[Omitted image "Level2CostingBusinessServiceDashboard.png"\] Alt text: Screenshot showing the Level 2 Costing – Business Services dashboard.
 
 ## End user and roles
 
@@ -50,10 +51,10 @@ The dashboard is based on Level 2 Costing – Business Services cost model that 
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Business Services with Drivers|Bar![Bar stacked report](../../../reuse/reporting/image/bar-stacked.svg)|Displays the total amount spent on business services stacked by buckets from which the amount is allocated.|
-|Average Enterprise Cost per Workstation|Spline![Spline chart](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per workstation for the last four quarters.|
-|Average Enterprise Cost per CPU|Spline![Spline chart](../../../reuse/reporting/image/spline.svg)|Displays the trend of average unit cost per CPU.|
-|Business Unit – Business Service|Pivot![Pivot report](../../../reuse/reporting/image/pivot.svg)|Gives a tabular view of the amount breakup spent by the business units on the business services for the last four quarters.|
+|Business Services with Drivers|Bar\[Omitted image "bar-stacked.svg"\] Alt text: Bar stacked report|Displays the total amount spent on business services stacked by buckets from which the amount is allocated.|
+|Average Enterprise Cost per Workstation|Spline\[Omitted image "spline.svg"\] Alt text: Spline chart|Displays the trend of average unit cost per workstation for the last four quarters.|
+|Average Enterprise Cost per CPU|Spline\[Omitted image "spline.svg"\] Alt text: Spline chart|Displays the trend of average unit cost per CPU.|
+|Business Unit – Business Service|Pivot\[Omitted image "pivot.svg"\] Alt text: Pivot report|Gives a tabular view of the amount breakup spent by the business units on the business services for the last four quarters.|
 
-**Parent Topic:**[Financial Management Platform Analytics Solutions](financial-content-pack.md)
+**Parent Topic:**[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)
 

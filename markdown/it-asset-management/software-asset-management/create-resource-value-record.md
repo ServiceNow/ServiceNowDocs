@@ -2,6 +2,7 @@
 title: Create a resource value record
 description: Create a resource value record for each software model for which you want to calculate licensing requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-resource-value-record.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

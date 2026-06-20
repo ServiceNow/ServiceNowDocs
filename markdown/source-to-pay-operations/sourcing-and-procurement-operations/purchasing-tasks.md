@@ -2,6 +2,7 @@
 title: Purchasing tasks and procurement cases
 description: All automated purchasing tasks and procurement cases are created using flow designer from the Service Delivery Common \(SDC\) application. Flow designer uses the underlying task and case generation decision tables, and purchasing tasks and procurement cases are created based on the conditions defined in the decision tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -35,7 +36,7 @@ Here’s a list of the types and subtypes of procurement cases:
     -   Conduct a Supplier Risk Assessment: Conduct a risk assessment for a supplier.
     -   Onboard a Supplier: Onboard a supplier for a purchase.
     -   Conduct a Supplier Tiering Assessment: Conduct a tiering assessment for a supplier.
-    **Note:** For these supplier cases, the decision templates are available only when you have the Supplier Lifecycle Operations application installed. You must also enable the Risk Assessments Integration for Sourcing and Procurement Operations application and have the GRC Vendor Risk Management license if you want the Conduct a Supplier Tiering Assessment case to be generated. For information on how a supplier tiering assessment task influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](../concept/better-together-with-vrm.md).
+    **Note:** For these supplier cases, the decision templates are available only when you have the Supplier Lifecycle Operations application installed. You must also enable the Risk Assessments Integration for Sourcing and Procurement Operations application and have the GRC Vendor Risk Management license if you want the Conduct a Supplier Tiering Assessment case to be generated. For information on how a supplier tiering assessment task influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.md).
 
 -   Contract cases​:
     -   Contract Review: Review contracts for a purchase.
@@ -267,8 +268,8 @@ Question &amp; Answer
 This section contains the information of the questions posed to the shopper and the responses that the shopper provides.
 
 </td></tr></tbody>
-</table>-   **[Purchasing task and procurement case creation](../concept/automated-purchasing-task-creation-from-flow-designer.md)**  
+</table>-   **[Purchasing task and procurement case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/automated-purchasing-task-creation-from-flow-designer.md)**  
 Create purchasing tasks and procurement cases in sourcing requests and purchase requisitions.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

@@ -2,7 +2,10 @@
 title: Configuring AI search in Recommended Actions
 description: As an admin, configure AI search in Recommended Actions to enable agents to perform an AI search to find relevant resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-configuring-ai-search.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -33,7 +36,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Create a context and select a search application configuration](../task/ra-csm-contexts-create.md)
+[Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-csm-contexts-create.md)
 
 </td><td>
 
@@ -42,7 +45,7 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
-[Map AI search results with guidance inputs in Recommended Actions](../task/ra-create-search-result-mapping-for-ai-search.md)
+[Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
 
 </td><td>
 
@@ -51,7 +54,7 @@ Map AI search results with guidance inputs to enable the AI search results to be
 </td></tr></tbody>
 </table>## Configuring genius results
 
-In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see [Link a Genius Result configuration to a search profile](https://www.servicenow.com/docs/access?context=link-gr-search-profile-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see .
 
 <table id="table_jry_4cb_1zb"><thead><tr><th>
 
@@ -91,7 +94,7 @@ Now Assist Q&amp;A
 
 </td><td>
 
-Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see [Now Assist in AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see .
 
 </td></tr></tbody>
 </table>## Customizing Recommended Actions UIB component for AI search
@@ -103,5 +106,5 @@ Displays the top search results extracted from the HTML fields of the records on
     -   Hide or show Recommended Actions and Search tabs.
     For more information, see [Recommended Actions UIB setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/sn-next-best-action-list-connected/uib-setup).
 
--   Explore advanced customization options, such as adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   Explore advanced customization options, such as adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see .
 

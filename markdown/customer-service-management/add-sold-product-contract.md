@@ -2,7 +2,10 @@
 title: Associate sold products with contracts
 description: Capture complete information on a customer’s install base by associating sold products to contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/add-sold-product-contract.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

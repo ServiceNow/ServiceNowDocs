@@ -2,6 +2,7 @@
 title: Submit a time off balance query in HR Service Delivery Advanced Integration with Oracle HCM
 description: Submit a query related to your time off balance in the Oracle HCM system from a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/time-off-query-adm.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

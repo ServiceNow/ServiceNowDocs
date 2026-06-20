@@ -2,6 +2,7 @@
 title: Approve an unassign request in Configuration Compliance
 description: Approve requests for the removal of remediation tasks from an assignment group or an individual user in the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/approve-an-unassign-request-in-configuration-compliance.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -32,5 +33,5 @@ By default, an approval configuration is provided. For unassign approvals, one a
 3.  Approve or reject the request by adding the appropriate comments.
 
 
-**Parent Topic:**[Configuration Compliance remediation](../concept/vuln-config-compl-remediation.md)
+**Parent Topic:**[Configuration Compliance remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-remediation.md)
 

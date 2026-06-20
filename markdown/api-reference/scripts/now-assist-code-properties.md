@@ -2,6 +2,7 @@
 title: Code generation properties
 description: You can adjust how code generation functions on an instance using several advanced properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/now-assist-code-properties.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -36,7 +37,7 @@ Enables using code generation in supported script editors.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: You can also enable code generation from Now Assist Admin. For more information, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   Learn more: You can also enable code generation from Now Assist Admin. For more information, see .
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Generate scripts from text](../concept/generate-code.md#)
+-   Learn more: [Generate scripts from text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/generate-code.md)
 
 </td></tr><tr><td>
 
@@ -62,7 +63,7 @@ Enables editing code with Now Assist.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Edit code with Now Assist](../concept/edit-code-now-assist.md)
+-   Learn more: [Edit code with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/edit-code-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Enables tracking which lines of code are AI-generated. This code is indicated by
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Tracking AI-generated code](../concept/tracking-ai-generated-code.md#)
+-   Learn more: [Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/tracking-ai-generated-code.md)
 
 </td></tr><tr><td>
 
@@ -90,5 +91,5 @@ Specifies whether to collect the data schema of the table a business rule or cli
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code generation reference](../concept/now-assist-code-reference.md)
+</table>**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/now-assist-code-reference.md)
 

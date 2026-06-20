@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard roles
 description: Platform Analytics dashboards have few role restrictions. Editing rights are granted by sharing, independent of role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/pa-dashboard-roles.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-01-30"
@@ -21,7 +22,7 @@ Tasks that integrate dashboards with Process Mining require the sn\_process\_opt
 
 Users with the analytics\_categories\_admin role can create, edit, or delete dashboard categories.
 
-For a full guide to roles connected to Platform Analytics dashboards, see [Platform Analytics roles](../reference/platform-analytics-roles.md).
+For a full guide to roles connected to Platform Analytics dashboards, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 <table id="table_d1r_2vc_k2c"><thead><tr><th>
 
@@ -109,7 +110,7 @@ Any role, if you created the dashboard.dashboard\_admin or higher for any dashbo
 
 </td></tr><tr><td>
 
-[Configure dashboard details](../../dashboards/task/config-db-in-ac.md)
+[Configure dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-db-in-ac.md)
 
 </td><td>
 
@@ -117,7 +118,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td></tr><tr><td>
 
-[Configure dashboard settings](../../dashboards/task/configure-ac-db-settings.md#)
+[Configure dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-ac-db-settings.md)
 
 </td><td>
 
@@ -125,7 +126,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td></tr><tr><td>
 
-[Configure dashboard tab cache timeout](../../dashboards/task/configure-ac-db-settings.md#)
+[Configure dashboard tab cache timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-ac-db-settings.md)
 
 </td><td>
 

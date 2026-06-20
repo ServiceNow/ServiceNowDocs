@@ -2,6 +2,7 @@
 title: Retain inactive namespace CIs for audits
 description: If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/remove-inactive-cis.html
 release: xanadu
 product: Discovery
 classification: discovery

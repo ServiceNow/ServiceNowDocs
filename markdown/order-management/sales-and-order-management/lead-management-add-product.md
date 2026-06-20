@@ -2,6 +2,7 @@
 title: Add products to a lead
 description: Use the Catalog tab in the Lead Management to add products to your lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/lead-management-add-product.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  In the **Leads - All** list, select the lead that you’re working with.
 
@@ -46,5 +47,5 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## What to do next
 
-[Add line items to a lead](lead-management-use-line-items-tab.md).
+[Add line items to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/lead-management-use-line-items-tab.md).
 

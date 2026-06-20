@@ -2,6 +2,7 @@
 title: Supplier Common Architecture
 description: The Supplier Common Architecture application \(com.snc.sn\_slm\) contains tables of the Supplier Lifecycle Operations application that can be commonly used and extended by other products. The Supplier Common Architecture application also contains the roles required for the Supplier Lifecycle Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-common.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

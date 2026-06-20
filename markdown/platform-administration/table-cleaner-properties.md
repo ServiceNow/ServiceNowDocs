@@ -2,6 +2,7 @@
 title: Table cleaner properties
 description: These system properties control table cleaner behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/table-cleaner-properties.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -50,5 +51,5 @@ Limits how long the cleaner spends trying to batch-delete records per rule durin
 -   Default value: 1200
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data Management reference](data-management-reference.md)
+</table>**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-management-reference.md)
 

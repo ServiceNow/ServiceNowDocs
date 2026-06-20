@@ -2,6 +2,7 @@
 title: Testing a guided tour
 description: Test your guided tour to ensure that it meets your intended objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/testing-guided-tours.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -21,7 +22,7 @@ Impersonate a role to verify the tour through the eyes of the intended user. By 
 
 ## Guided Tour feedback
 
-Send the tour URL link to your colleagues to review the tour and provide feedback. If the feedback is valuable, modify your tour accordingly. For more information about tour feedback, see [Create a guided tour](../task/add-guided-tour.md).
+Send the tour URL link to your colleagues to review the tour and provide feedback. If the feedback is valuable, modify your tour accordingly. For more information about tour feedback, see [Create a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/add-guided-tour.md).
 
 ## Guided Tour review
 

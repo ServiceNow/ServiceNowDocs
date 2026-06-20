@@ -2,6 +2,7 @@
 title: Configuring metrics
 description: You can configure GRC: Metrics to meet the needs of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,11 +18,11 @@ You can configure GRC: Metrics to meet the needs of your organization.
 
 As a metrics administrator, you can do the following:
 
--   [Create a manual metric definition](../task/t_create-manual-metric-definition.md)
--   [Create a calculated metric definition](../task/t_create-composite-metric-definition.md)
--   [Create an automated metric definition](../task/t_create-metric-definition.md)
--   [Update a metric](../task/t_update-a-metric.md)
--   [Create a metric unit](../task/t_create-a-unit.md)
--   [Create a metric](../task/create-a-metric-risk.md)
--   [Create a threshold for a metric definition](../task/t_create-threshold-for-metrics.md)
+-   [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_create-manual-metric-definition.md)
+-   [Create a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_create-composite-metric-definition.md)
+-   [Create an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_create-metric-definition.md)
+-   [Update a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_update-a-metric.md)
+-   [Create a metric unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_create-a-unit.md)
+-   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-a-metric-risk.md)
+-   [Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)
 

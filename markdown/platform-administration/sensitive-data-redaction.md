@@ -2,6 +2,7 @@
 title: Sensitive data redaction
 description: Redact sensitive data such as Social Security number, credit card details, email address, phone number, and other personal information from inbound emails to help protect data and privacy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/sensitive-data-redaction.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,20 +20,20 @@ When an inbound email is received, the sensitive data is masked. The sensitive d
 
 Redact sensitive data option is available in inbound email actions once the following is activated:
 
--   [Sensitive Data Redaction for Inbound Emails plugin](../task/activate-data-redaction-emails-plugin.md)
--   [Data Discovery application](https://www.servicenow.com/docs/access?context=activate-data-discovery&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+-   [Sensitive Data Redaction for Inbound Emails plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-data-redaction-emails-plugin.md)
+-   Data Discovery application
 
     **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 
 
-To create inbound email actions, see [Create an inbound email action](../task/t_CreatingAnInboundEmailAction.md).
+To create inbound email actions, see [Create an inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreatingAnInboundEmailAction.md).
 
-Redaction time for the record can be viewed by checking the **Email Log**. For more information, see [System email log and mailboxes](https://www.servicenow.com/docs/access?context=r_EmailLogs&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Redaction time for the record can be viewed by checking the **Email Log**. For more information, see .
 
--   **[Activate sensitive data redaction for inbound emails plugin](../task/activate-data-redaction-emails-plugin.md)**  
+-   **[Activate sensitive data redaction for inbound emails plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-data-redaction-emails-plugin.md)**  
 You can activate the Sensitive Data Redaction for Inbound Emails plugin \(com.glide.email\_inbound.redaction\) for Notifications if you have the admin role. The application installs related plugins if they are not already installed.
--   **[Customize behavior for sensitive data redaction](../task/customize-data-redaction.md)**  
+-   **[Customize behavior for sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/customize-data-redaction.md)**  
 Customize sensitive data redaction behavior by creating system properties for flows that are triggered by inbound emails, sys\_email record, and inbound actions.
 
-**Parent Topic:**[Use Inbound email actions](use-inbound-email-action.md)
+**Parent Topic:**[Use Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/use-inbound-email-action.md)
 

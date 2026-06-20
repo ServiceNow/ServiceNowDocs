@@ -2,6 +2,7 @@
 title: Configuring notification using Proactive Engagement
 description: Notification is a type of engagement where you can notify the user and do not need any user interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/proactive-engagement/configure-notification-metric-rule.html
 release: xanadu
 product: Proactive Engagement
 classification: proactive-engagement
@@ -21,7 +22,7 @@ Role required: admin
 
 Notification type of engagement is available only for self-help instructions and URL type of resolution currently. The user is notified through the Virtual agent integrated with the messaging application. The experience issue is closed once the notification is sent to the user.
 
-To create the **Notification** metric rule, follow the instructions \(step 1 to step 8\) listed in the [Configuring Proactive Engagement resolutions with DEX](../configuring-metric-rule.md).
+To create the **Notification** metric rule, follow the instructions \(step 1 to step 8\) listed in the [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
 ## Procedure
 
@@ -38,5 +39,5 @@ To create the **Notification** metric rule, follow the instructions \(step 1 to 
 4.  Select **Add Resolution**.
 
 
-**Parent Topic:**[Configuring Proactive Engagement](../configuring-proactive-engagement.md)
+**Parent Topic:**[Configuring Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
 

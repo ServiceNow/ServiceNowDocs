@@ -2,6 +2,7 @@
 title: Manage knowledge subscriptions
 description: Manage knowledge base and knowledge article subscriptions from the Notification Settings page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/manage-knowledge-subscriptions.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -27,15 +28,15 @@ Users can manage knowledge subscriptions from the Knowledge application or from 
 
 1.  Navigate to the Notification Settings page.
 
-<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d443751e66">
+<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d180364e66">
 
 Location
 
-</th><th align="left" id="d443751e69">
+</th><th align="left" id="d180364e69">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d443751e75">
+</th></tr></thead><tbody><tr><td id="d180364e75">
 
 **From the Knowledge application**
 
@@ -43,7 +44,7 @@ Description
 
 Click the **Notification Settings** module.**Note:** Activate Knowledge Management Core plugin \(com.glideapp.knowledge\).
 
-</td></tr><tr><td id="d443751e90">
+</td></tr><tr><td id="d180364e90">
 
 **From the Knowledge Management Service Portal**
 
@@ -61,5 +62,5 @@ Click the user name in the portal header and then click **Notification Settings*
     The link toggles to **Unsubscribed**.
 
 
-**Parent Topic:**[Use knowledge subscriptions](../../../use-knowledge-subscriptions.md)
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

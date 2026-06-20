@@ -2,6 +2,7 @@
 title: Create a scriptable notification action
 description: Select Scriptable Action from the Notification Action wizard to create a scriptable notification action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/noti-scriptable-action.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -18,7 +19,7 @@ Select **Scriptable Action** from the Notification Action wizard to create a scr
 Role required: admin
 
 ```
-Before performing this task, you must complete [Select provider notification action capabilities](noti-provider-action-capabilities.md).
+Before performing this task, you must complete [Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-provider-action-capabilities.md).
 ```
 
 ## Procedure
@@ -39,5 +40,5 @@ Before performing this task, you must complete [Select provider notification act
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Select provider notification action capabilities](noti-provider-action-capabilities.md)
+**Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/noti-provider-action-capabilities.md)
 

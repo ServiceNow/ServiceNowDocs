@@ -2,6 +2,7 @@
 title: Turn on the playbook generation skill
 description: Turn on the Now Assist for Creator playbook generation skill to use generative AI to create playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/turn-on-playbook-generation-skill.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -45,5 +46,5 @@ Playbook Assist skills are active on your instance.
 
 Grant the now.assist.creator role to users who have permission to use the playbook generation skill.
 
-**Parent Topic:**[Configuring Playbook Assist](../concept/configuring-playbook-assist.md)
+**Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)
 

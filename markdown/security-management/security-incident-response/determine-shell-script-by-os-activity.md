@@ -2,6 +2,7 @@
 title: Determine Shell Script by OS Flow Action
 description: The Determine Shell Script by OS flow action determines which operating system to use in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/determine-shell-script-by-os-activity.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -45,5 +46,5 @@ The output variables contain data that can be used in subsequent activities.
 |executionTemplate|Determines whether the script is run through a probe or using PowerShell.|
 |enrichmentMappingId|System identifier of the enrichment mapping used to transform the response data.|
 
-**Parent Topic:**[Security Incident Response - Get Running Services Flow](../../security-incident-response-orchestration/task/get-running-services-workflow.md)
+**Parent Topic:**[Security Incident Response - Get Running Services Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/get-running-services-workflow.md)
 

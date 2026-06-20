@@ -2,6 +2,7 @@
 title: How Discovery identifiers work
 description: When Discovery has determined the device's class, it launches an identity probe that is configured to run one or more commands with a single authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/c\_HowDiscoveryIdentifiersWork.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -21,7 +22,7 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 This diagram shows the processing flow for classifying and probing devices with identifiers configured.
 
-![Discovery identifiers](../image/DiscoveryIdentifiersDiagram.png "Discovery identifiers")
+\[Omitted image "DiscoveryIdentifiersDiagram.png"\] Alt text: Discovery identifiers
 
-**Parent Topic:**[Discovery identifiers](c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

@@ -2,6 +2,7 @@
 title: Edit an app's settings in Creator Studio
 description: Maybe you want to jazz up your app a bit, for example by giving it a new name, tweaking the description, or swapping in a new image. All it takes is just a few clicks in the settings! Let's dive into how you can do it, even if you're not a tech whiz.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-edit-app-settings.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -41,23 +42,23 @@ There are some things you can't change after you've created the app, like its ta
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
-4.  Select the more options icon \(![](../image/cs-more-options-icon.png)\) and select **App settings** from the menu that pops up.
+4.  Select the more options icon \(\[Omitted image "cs-more-options-icon.png"\] Alt text:\) and select **App settings** from the menu that pops up.
 
-    ![Select the options to get to app settings](../image/cs-app-settings.png)
+    \[Omitted image "cs-app-settings.png"\] Alt text: Select the options to get to app settings
 
 5.  Now it's time to make those changes on the **General** tab, including updating the app's image.
 
     You can't make changes to security settings on the **Access** tab after the app has been created.
 
-    ![Edit the app's general settings](../image/cs-app-settings-2.png "App settings")
+    \[Omitted image "cs-app-settings-2.png"\] Alt text: Edit the app's general settings
 
 6.  Once you're happy with everything, select the **Save** button.
 
@@ -66,5 +67,5 @@ There are some things you can't change after you've created the app, like its ta
 
 And there you have it: With just a few simple steps, you gave your app a whole new vibe. So go ahead, get creative, and make it yours!
 
-**Parent Topic:**[App creation in Creator Studio](../concept/creator-studio-creating-apps.md)
+**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-creating-apps.md)
 

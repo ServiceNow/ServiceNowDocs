@@ -2,6 +2,7 @@
 title: Create a Drop off task for enterprise assets using the Mobile Agent application
 description: Create a Drop off task using the Mobile Agent to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-dropoff-task-eam-mobile.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -29,7 +30,7 @@ Role required: sn\_eam.asset\_technician
 
     -   **My group task**
     -   **My Tasks** with the list of tasks assigned to you
-3.  In the My group task section, tap the **Create Drop Off Task** \(![create drop off task](../image/create-drop-off-icon.png)\) icon.
+3.  In the My group task section, tap the **Create Drop Off Task** \(\[Omitted image "create-drop-off-icon.png"\] Alt text: create drop off task\) icon.
 
 4.  On the Get Drop-Off Task Details screen, fill in the schedule details to create the drop off task.
 
@@ -45,15 +46,15 @@ Role required: sn\_eam.asset\_technician
 
     You can only add enterprise assets that are in your personal stockroom and that aren't reserved and aren't part of any workflows.
 
-<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d169269e154">
+<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d161964e154">
 
 UI option
 
-</th><th align="left" id="d169269e157">
+</th><th align="left" id="d161964e157">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d169269e163">
+</th></tr></thead><tbody><tr><td id="d161964e163">
 
 **Add assets button**
 
@@ -66,7 +67,7 @@ Action
 3.  Tap **Submit**.
 
 
-</td></tr><tr><td id="d169269e204">
+</td></tr><tr><td id="d161964e204">
 
 **Assets tab**
 
@@ -96,5 +97,5 @@ Action
 -   A Receive task is created and assigned to the asset manager of the stockroom where you dropped off the assets.
 -   The state of the Drop off task changes to Work in Progress.
 
-**Parent Topic:**[Manage Drop off tasks for enterprise assets using the Mobile Agent application](../concept/manage-dropoff-mobile-agent.md)
+**Parent Topic:**[Manage Drop off tasks for enterprise assets using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-dropoff-mobile-agent.md)
 

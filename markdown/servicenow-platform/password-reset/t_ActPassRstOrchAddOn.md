@@ -2,6 +2,7 @@
 title: Request the Password Reset Windows App plugin
 description: Request the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin that enables connections to the Active Directory \(AD\) credential store types. No other components are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/t\_ActPassRstOrchAddOn.html
 release: xanadu
 product: Password Reset
 classification: password-reset
@@ -23,7 +24,7 @@ Role required: admin
 
 There are two ways to request a plugin:
 
--   Access the Now Support Service Catalog directly by selecting **All** &gt; **Service Catalog** &gt; **Activate Plugin** on Now Support. For more information about the list of plugins, see [List of Plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+-   Access the Now Support Service Catalog directly by selecting **All** &gt; **Service Catalog** &gt; **Activate Plugin** on Now Support. For more information about the list of plugins, see List of Plugins.
 -   Access the Now Support Service Catalog through the All Applications page on your instance by following these steps.
 
 ## Procedure
@@ -32,11 +33,11 @@ There are two ways to request a plugin:
 
 2.  On the All Applications page, select **Request Plugin** to open the Request form on HI.
 
-    ![Request Plugin button on the All Applications page.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Request Plugin button on the All Applications page.
 
 3.  On Now Support, select the redirect link to access the Now Support Service Portal Service Catalog.
 
-    ![HI redirect to Service Catalog..](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: HI redirect to Service Catalog..
 
 4.  Select your instance.
 
@@ -88,5 +89,5 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Installing and configuring Password Reset Windows Application](../concept/install-configure-password-reset-windows-app.md)
+**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

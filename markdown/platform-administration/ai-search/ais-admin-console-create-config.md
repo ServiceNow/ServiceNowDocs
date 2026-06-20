@@ -2,6 +2,7 @@
 title: Create an AI Search configuration
 description: Create search profiles, search sources, and other configurations for any of your applications that use AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ais-admin-console-create-config.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -33,16 +34,16 @@ Role required: admin or ais\_admin
 
     |Table|Form|
     |-----|----|
-    |**Search profiles**|[Search Profile form](../reference/search-profile-form-ais.md)|
-    |**Search sources**|[Search Source form](../reference/search-source-form-ais.md)|
-    |**Search indexes**|[Indexed Source form](../reference/indexed-source-form-ais.md)|
-    |**Dictionaries**|[Dictionary and AI Search Dictionary forms](../reference/dictionary-form-ais.md)|
-    |**Genius Results**|[AI Search Genius Result Configuration form](../reference/genius-result-cfg-form-ais.md)|
-    |**Search application configurations**|[Search Application Configuration form](../reference/search-app-config-form-ais.md)|
-    |**Result-card interfaces**|[Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)|
+    |**Search profiles**|[Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-profile-form-ais.md)|
+    |**Search sources**|[Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-source-form-ais.md)|
+    |**Search indexes**|[Indexed Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-source-form-ais.md)|
+    |**Dictionaries**|[Dictionary and AI Search Dictionary forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/dictionary-form-ais.md)|
+    |**Genius Results**|[AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/genius-result-cfg-form-ais.md)|
+    |**Search application configurations**|[Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-app-config-form-ais.md)|
+    |**Result-card interfaces**||
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using the AI Search Admin console](../concept/using-ais-admin-console.md)
+**Parent Topic:**[Using the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ais-admin-console.md)
 

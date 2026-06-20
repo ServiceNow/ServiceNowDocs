@@ -2,6 +2,7 @@
 title: Launch the Script Debugger
 description: Developers can launch the Script Debugger from the application navigator, Studio, or from the syntax editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/launch-script-debugger.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -35,5 +36,5 @@ Role required:
     The system opens the Script Debugger in a new window.
 
 
-**Parent Topic:**[Script Debugger and Session Log](../concept/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/script-debugger.md)
 

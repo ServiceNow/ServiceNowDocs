@@ -2,6 +2,7 @@
 title: Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]
 description: The glide.attachment.enforce\_security\_validation property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -110,5 +111,5 @@ Functional impact
 Set this hardening setting to true to run mime-type and file extension validations on uploaded file attachments. No validations are run if this property is set to false. This property is set to true by default.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

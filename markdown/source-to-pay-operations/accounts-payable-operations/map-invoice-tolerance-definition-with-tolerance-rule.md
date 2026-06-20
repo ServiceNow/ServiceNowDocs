@@ -2,6 +2,7 @@
 title: Associate invoice tolerance type with invoice exception definition
 description: Define a new tolerance type and associate it with an invoice exception definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/map-invoice-tolerance-definition-with-tolerance-rule.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,11 +24,11 @@ Role required: sn\_ap\_apm.admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Administration** &gt; **Invoice exception definition**.
 
-    For more information on configuring **invoice exception definition**, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md).
+    For more information on configuring **invoice exception definition**, see [Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md).
 
 2.  Populate the tolerance type on the invoice exception definition form.
 
-    For more information on the tolerance type, see [Define a custom invoice tolerance type](define-a-new-tolerance-type-definition.md).
+    For more information on the tolerance type, see [Define a custom invoice tolerance type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.md).
 
 3.  You must update the **Subflow** logic to include associated tolerance type logic.
 
@@ -36,7 +37,7 @@ Role required: sn\_ap\_apm.admin
 
 ## What to do next
 
-Associate the invoice tolerance type with invoice exception. For more information, see [Define an invoice tolerance rule](define-a-new-tolerance-rule.md).
+Associate the invoice tolerance type with invoice exception. For more information, see [Define an invoice tolerance rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.md).
 
-**Parent Topic:**[Tolerance Rules and Variances for invoices](../concept/tolerance-rules-and-variance.md)
+**Parent Topic:**[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)
 

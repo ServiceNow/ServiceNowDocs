@@ -2,6 +2,7 @@
 title: Discovery Admin Workspace Insights
 description: The Discovery Admin Workspace Insights tab provides access to specialized widgets, dashboards, and reports to leverage your organization's IT operations management and infrastructure monitoring, taking advantage of Discovery's capabilities for improved operational visibility and infrastructure health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/discovery-admin-workspace-insights.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -32,12 +33,12 @@ You must have the admin or discover\_admin role to access the Discovery Admin Wo
 
 You can access the following information through the Insights tab:
 
--   [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../../service-mapping/reference/oracle-glas-discovery.md)
--   [Kubernetes Explorer](../../../use/dashboards/application-content-packs/cloud-operations-workspace-kubernetes-dashboard.md)
--   [Nutanix Dashboard](../../service-mapping/reference/nutanix-pattern.md)
--   [MID Server dashboard](https://www.servicenow.com/docs/access?context=c_MIDServerDashboard&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
--   [Agent Health dashboard](../../service-operations-workspace-itom/concept/agent-health-dashboard.md)
--   [Discover missing compute resources](../task/discover-missing-compute-resources.md)
--   [Shazzam Insights](shazzam-insights.md)
--   [Virtual Machine Explorer](vm-explorer.md)
+-   [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
+-   [Kubernetes Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-discovery-workspace/cloud-operations-workspace-kubernetes-dashboard.md)
+-   [Nutanix Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
+-   
+-   [Agent Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/agent-health-dashboard.md)
+-   [Discover missing compute resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discover-missing-compute-resources.md)
+-   [Shazzam Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/shazzam-insights.md)
+-   [Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/vm-explorer.md)
 

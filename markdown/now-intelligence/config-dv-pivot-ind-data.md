@@ -2,6 +2,7 @@
 title: Indicator data options for pivot table visualizations
 description: When you select an indicator data source for a pivot table visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-pivot-ind-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected an Indicator data source in [Create a pivot table visualization in the Visualization Designer](../task/create-dv-pivot-ac.md).
+You have selected an Indicator data source in [Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-pivot-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -51,7 +52,7 @@ Time aggregation
 
 </td><td>
 
-Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](../../performance-analytics/concept/applying-time-series-aggregations.md#).
+Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

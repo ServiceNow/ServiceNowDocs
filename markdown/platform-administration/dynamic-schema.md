@@ -2,10 +2,11 @@
 title: Dynamic Schema
 description: Define a hierarchy of categories, groups, and attributes and enable users to select groups of attributes on a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/dynamic-schema.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -40,60 +41,60 @@ Define a hierarchy of categories, groups, and attributes and enable users to sel
 
 Dynamic schema also provides global APIs that enable you to access and manage dynamic attributes in your tables using JavaScripts. The following lists the APIs and methods that support dynamic attributes.
 
--   [DynamicSchemaAPI - Global](https://www.servicenow.com/docs/access?context=DynamicSchemaAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
--   [GlideAggregate - Global](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+-   
+-   
 
     Only the following GlideAggregate methods support the usage of dynamic attributes:
 
-    -   [GlideAggregate - addAggregate\(String agg, String name\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideAggregate-addAggregate_String_String&ft:locale=en-US)
-    -   [GlideAggregate - addHaving\(String aggName, String fieldName, String operator, String value\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=GlideAgg-addHaving_S_S_S_S&ft:locale=en-US)
-    -   [GlideAggregate - getDynamicAttributeValue\(String fullPath\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=GA-getDynamicAttributeValue_S&ft:locale=en-US)
-    -   [GlideAggregate - getDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=GA-getDynamicAttributeValue_S_S&ft:locale=en-US)
-    -   [GlideAggregate - getDynamicAttributeDisplayValue\(String fullPath\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=GA-getDynAttributeDisplayValue_S&ft:locale=en-US)
-    -   [GlideAggregate - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=GA-getDynAttributeDisplayValue_S_S&ft:locale=en-US)
-    -   [GlideAggregate - getValue\(String name\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideAggregate-getValue_String&ft:locale=en-US)
-    -   [GlideAggregate - groupBy\(String name\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideAggregate-groupBy_String&ft:locale=en-US)
-    -   [GlideAggregate - orderBy\(String name\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideAggregate-orderBy_String&ft:locale=en-US)
-    -   [GlideAggregate - orderByAggregate\(String agg, String fieldName\)](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideAggregate-orderByAggregate_String_String&ft:locale=en-US)
--   [GlideDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
--   [GlideElementDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideElementDynamicAttStoreAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
--   [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+-   
+-   
+-   
 
     Only the following GlideRecord methods support dynamic attributes:
 
-    -   [GlideRecord - addQuery\(String name, Object operator, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-AddQuery_String_Object_Object&ft:locale=en-US)
-    -   [GlideRecord - getDisplayValue\(String name\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-getDisplayValue&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttribute\(String fullPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynamicAttribute_S&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttribute\(String dynamicAttributeField, String groupAttrPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynamicAttribute_S_S&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttributeDisplayValue\(String fullPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynAttributeDisplayValue_S&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynAttributeDisplayValue_S_S&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttributeValue\(String fullPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynamicAttributeValue_S&ft:locale=en-US)
-    -   [GlideRecord - getDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-getDynamicAttributeValue_S_S&ft:locale=en-US)
-    -   [GlideRecord - getValue\(String fieldName\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-getValue_String&ft:locale=en-US)
-    -   [GlideRecord - orderBy\(String fieldName\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-orderBy_String&ft:locale=en-US)
-    -   [GlideRecord - orderByDesc\(String fieldName\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-orderByDesc_String&ft:locale=en-US)
-    -   [GlideRecord - setDisplayValue\(String name, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-setDisplayValue_String_Object&ft:locale=en-US)
-    -   [GlideRecord - setDynamicAttributeDisplayValue\(String fullPath, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-setDynAttributeDisplayValue_S_O&ft:locale=en-US)
-    -   [GlideRecord - setDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-setDynAttributeDisplayValue_S_S_O&ft:locale=en-US)
-    -   [GlideRecord - setDynamicAttributeValue\(String fullPath, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-setDynamicAttributeValue_S_O&ft:locale=en-US)
-    -   [GlideRecord - setDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-setDynamicAttributeValue_S_S_O&ft:locale=en-US)
-    -   [GlideRecord - setDynamicAttributeValues\(String dynamicAttributeField, GlideDynamicAttributeStore values\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=GR-setDynAttributeValues_S_O&ft:locale=en-US)
-    -   [GlideRecord - setValue\(String name, Object value\)](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&section=r_GlideRecord-setValue_String_Object&ft:locale=en-US)
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
 
--   **[Create a dynamic attribute group](../task/create-dynamic-attribute-group.md)**  
+-   **[Create a dynamic attribute group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-dynamic-attribute-group.md)**  
 Organize related attributes into a dynamic attribute group.
--   **[Add dynamic attributes to a dynamic group](../task/add-dynamic-attributes.md)**  
+-   **[Add dynamic attributes to a dynamic group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-dynamic-attributes.md)**  
 Define the dynamic attributes that describe a record.
--   **[Create a dynamic choice set](../task/create-choice-set.md)**  
+-   **[Create a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-choice-set.md)**  
 Define a fixed set of values for an attribute.
--   **[Add choices to a dynamic choice set](../task/add-choices-choice-set.md)**  
+-   **[Add choices to a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-choices-choice-set.md)**  
 Build out a dynamic choice set by defining the choices that belong to it.
--   **[Create a dynamic category](../task/create-dynamic-category.md)**  
+-   **[Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-dynamic-category.md)**  
 Create a container for organizing dynamic attribute groups.
--   **[Include dynamic attribute groups in a dynamic category](../task/add-dynamic-attribute-groups-dynamic-category.md)**  
+-   **[Include dynamic attribute groups in a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-dynamic-attribute-groups-dynamic-category.md)**  
 Organize your dynamic attribute groups by relating a dynamic attribute group to a dynamic category.
--   **[Storing dynamic attributes on a record](storing-dynamic-attributes.md)**  
+-   **[Storing dynamic attributes on a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/storing-dynamic-attributes.md)**  
 After you define the categories, groups, and attributes in your dynamic schema, enable users to store the attributes and their values on a record.
 
-**Parent Topic:**[Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
+**Parent Topic:**[Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
 

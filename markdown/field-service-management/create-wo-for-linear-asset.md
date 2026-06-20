@@ -2,7 +2,10 @@
 title: Create work order for a linear asset using a map
 description: Create a work order for tracking and managing work on a linear asset and its corresponding segments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-wo-for-linear-asset.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Creation of work order for a linear asset enables you to leverage the linear ass
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
 
-2.  Select the List icon \(![List icon.](../image/ListIcon.png)\).
+2.  Select the List icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\).
 
 3.  Select **Work Orders** &gt; **Created by me** and then select **New**.
 
@@ -33,7 +36,7 @@ Creation of work order for a linear asset enables you to leverage the linear ass
 
 5.  Define the location for the affected linear assets.
 
-    1.  Search for the affected linear assets segments on the map by selecting the Select an asset icon \(![Select an asset icon.](../image/EditWidgetButton.png)\) in the **Asset** field.
+    1.  Search for the affected linear assets segments on the map by selecting the Select an asset icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Select an asset icon.\) in the **Asset** field.
 
     2.  Display linear assets only of a specified type on the map by selecting an overlay.
 
@@ -70,7 +73,7 @@ Creation of work order for a linear asset enables you to leverage the linear ass
 
 ## What to do next
 
-Create a work order task for the new work order. For more information, see [Qualify a work order](../../planning-and-policy/task/t_QualifyATask.md). You can create multiple work order tasks to track and manage an individual task for your linear asset work order.
+Create a work order task for the new work order. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_QualifyATask.md). You can create multiple work order tasks to track and manage an individual task for your linear asset work order.
 
-**Parent Topic:**[Managing linear assets in Field Service Management](../concept/managing-linear-assets-fsm.md)
+**Parent Topic:**[Managing linear assets in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/managing-linear-assets-fsm.md)
 

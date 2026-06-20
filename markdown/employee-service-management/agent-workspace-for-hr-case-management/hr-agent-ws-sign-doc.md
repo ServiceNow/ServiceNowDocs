@@ -2,6 +2,7 @@
 title: Sign and generate a document in Agent Workspace for HR Case Management
 description: Electronically sign a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-sign-doc.html
 release: xanadu
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -37,6 +38,6 @@ Role required: sn\_hr\_core.case\_writer
 
 6.  Select Generate to attach your signature to the document.
 
-    The generated document is displayed under the Attachments in the contextual side panel. If your company uses Employee Document Management \(EDM\), you can move the document to the EDM repository. For more information on EDM, see [Create or upload employee documents using HR Service Delivery Agent Workspace](../concept/agent-ws-hr-edm.md#).
+    The generated document is displayed under the Attachments in the contextual side panel. If your company uses Employee Document Management \(EDM\), you can move the document to the EDM repository. For more information on EDM, see [Create or upload employee documents using HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-edm.md).
 
 

@@ -2,6 +2,7 @@
 title: Regulatory Change Management dashboard
 description: The  Regulatory Change Management dashboard provides the current view of the regulatory landscape.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/rcm-dashboard.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -17,7 +18,7 @@ The  Regulatory Change Management dashboard provides the current view of the re
 
 **Note:** The Overview Dashboard in the Classic UI is no longer available from the Xanadu release.
 
-![Regulatory Change Management dashboard](../image/rcm-overview-dashboard.png "Regulatory Change Management dashboard")
+\[Omitted image "rcm-overview-dashboard.png"\] Alt text: Regulatory Change Management dashboard
 
 ## Overview of regulatory changes
 

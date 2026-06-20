@@ -2,6 +2,7 @@
 title: Integrating SAML 2.0 with other features
 description: You can integration your SAML 2.0 solution with other features like E-Signature, deep linking, and ADFS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_AddSupportForIntegrations.html
 release: xanadu
 product: Authentication
 classification: authentication

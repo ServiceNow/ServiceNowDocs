@@ -2,6 +2,7 @@
 title: Workplace Service Delivery for Mobile
 description: Access your workplace-related services and other information on your mobile device using the ServiceNow Workplace Service Delivery for Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-overview.html
 release: xanadu
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -19,19 +20,19 @@ Access your workplace-related services and other information on your mobile devi
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Service Delivery for Mobile concepts and features.](explore-wsd-mobile.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Service Delivery for Mobile concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/explore-wsd-mobile.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Configuration required for Workplace Service Delivery for Mobile.](configure-wsd-mobile.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Configuration required for Workplace Service Delivery for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
 </td></tr><tr><td>
 
-[Using ![using](../../../common/image/icon-managing.png) Use Workplace Service Delivery for Mobile to make a reservation, get directions to a workplace and more.](using-wsd-mobile.md)
+[Using \[Omitted image "icon-managing.png"\] Alt text: using Use Workplace Service Delivery for Mobile to make a reservation, get directions to a workplace and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](wsd-mobile-references.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-references.md)
 
 </td></tr></tbody>
 </table>

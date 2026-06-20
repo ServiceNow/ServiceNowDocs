@@ -2,6 +2,7 @@
 title: View ERP extraction tables
 description: Work with ETL \(extract, transform, and load\) processes in ERP Data Hub to extract large amounts of ERP \(Enterprise Resource Planning\) data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/view-etl-data-sources.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,9 +28,9 @@ ERP extraction tables extract and save data to a transform table on the ServiceN
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(![ERP extraction tables navigation icon](../image/erpc-extraction-table-icon.png)\) in the side panel.
+2.  Open the ERP extraction tables page by selecting the ERP extraction tables icon \(\[Omitted image "erpc-extraction-table-icon.png"\] Alt text: ERP extraction tables navigation icon\) in the side panel.
 
-    ![ERP extraction tables list](../image/erpc-extraction-tables.png "Extraction tables in ERP Data Hub")
+    \[Omitted image "erpc-extraction-tables.png"\] Alt text: ERP extraction tables list
 
 3.  View the list of ERP extraction tables and note of the tables that you can use to build your ERP model.
 
@@ -65,7 +66,7 @@ Tables transform map link
 
 Table that the extracted data is cached and stored in.Select the table name to view the table on the ServiceNow AI Platform in a new browser tab.
 
-For more information on creating table transform maps, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+For more information on creating table transform maps, see .
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ ERP model
 
 </td><td>
 
-ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit the foundation of ERP models](view-and-work-with-erp-data-models.md).
+ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 </td></tr></tbody>
 </table>4.  View the details for an extraction table by selecting the table name.
@@ -81,7 +82,7 @@ ERP model used in the ETL extraction.Select the ERP model name to view the detai
 
 ## What to do next
 
-After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see .
 
-**Parent Topic:**[Extracting and transforming data in ERP Data Hub](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[Extracting and transforming data in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-extraction-tables.md)
 

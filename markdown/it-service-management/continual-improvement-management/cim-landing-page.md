@@ -2,6 +2,7 @@
 title: Continual Improvement Management
 description: Use the ServiceNow Continual Improvement Management \(CIM\) application to request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/continual-improvement-management/cim-landing-page.html
 release: xanadu
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -21,20 +22,20 @@ An improvement initiative consists of:
 -   Phases to organize work effort
 -   Tasks with specific actions to complete
 
-To learn more about how your ServiceNow instance supports Continual Improvement Management, see [Continual Improvement Management overview](get-started-cim.md) for a general understanding of the application and how it is used.
+To learn more about how your ServiceNow instance supports Continual Improvement Management, see [Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/get-started-cim.md) for a general understanding of the application and how it is used.
 
 ## Start an improvement
 
 For continual improvement in your environment, select an activity.
 
-![CIM Landing](../image/continual-improvement-landing.png "Improvement Process")
+\[Omitted image "continual-improvement-landing.png"\] Alt text: CIM Landing
 
 ## Understand Continual Improvement Management concepts
 
--   [Continual Improvement Management overview](get-started-cim.md)
--   [Requesting improvements](cim-improvement-request.md)
--   [Managing improvements](cim-improvement-initiative-mgmt.md)
--   [Domain separation and Continual Improvement Management](cim-domain-separation.md)
+-   [Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/get-started-cim.md)
+-   [Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-improvement-request.md)
+-   [Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
+-   [Domain separation and Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-domain-separation.md)
 
 ## Get help from ServiceNow resources
 

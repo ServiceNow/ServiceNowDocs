@@ -2,6 +2,7 @@
 title: Configure Windows connector
 description: Configure the Windows connector to access its methods and build automation on a Windows application. It provides methods at different levels and you must first configure it to expose methods at all levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/configure-windows-connector.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -33,7 +34,7 @@ Role required: none
 
 5.  In the **AVAILABLE WINDOWS** list, select the required application window.
 
-    **Tip:** If the window doesn't appear in the list, click the refresh icon \(![Refresh icon.](../image/refresh-jav-program.png)\).
+    **Tip:** If the window doesn't appear in the list, click the refresh icon \(\[Omitted image "refresh-jav-program.png"\] Alt text: Refresh icon.\).
 
 6.  Click **Add Window**.
 
@@ -43,10 +44,10 @@ Role required: none
 
 9.  Use the context dialog to capture elements.
 
-    To use the context dialog, see [Use the Capture element dialog](use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/use-context-dialog.md).
 
     **Important:** If the language of your Microsoft Windows machine is non-english, then an unhandled exception error message is displayed when you click the Target Objects Preview pane. Click **Ok** on the error message box to proceed configuring the connector.
 
 
-**Parent Topic:**[Windows connector](../concept/windows-connector.md)
+**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/windows-connector.md)
 

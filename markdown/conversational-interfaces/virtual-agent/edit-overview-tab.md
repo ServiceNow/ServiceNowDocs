@@ -2,6 +2,7 @@
 title: Edit the Overview page
 description: Add or subtract the widgets on the Overview page to suit your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/edit-overview-tab.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -29,12 +30,12 @@ The **Overview** page displays widgets with links to all the dashboard data. You
 
 2.  To add or remove widgets from the **Overview** page, select **Edit page**.
 
-    ![Virtual Agent Analytics overview page, with Edit page option selected.](../images/dashboard-edit-page.png "Edit Overview page")
+    \[Omitted image "dashboard-edit-page.png"\] Alt text: Virtual Agent Analytics overview page, with Edit page option selected.
 
     The UI Builder opens.
 
-3.  To add or remove components in the Conversational Analytics Dashboard, use the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+3.  To add or remove components in the Conversational Analytics Dashboard, use the UI Builder.
 
 
-**Parent Topic:**[Legacy - Overview tab](../concept/overview-tab.md)
+**Parent Topic:**[Legacy - Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/overview-tab.md)
 

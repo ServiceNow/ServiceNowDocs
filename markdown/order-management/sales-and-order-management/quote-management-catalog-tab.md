@@ -2,6 +2,7 @@
 title: Add products to a quote
 description: Use the Catalog tab in Quote Management to add products to your quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-management-catalog-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -27,7 +28,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## Procedure
 
-1.  In the Configurable Workspace, select the **List** view ![](../image/Lists.png).
+1.  In the Configurable Workspace, select the **List** view \[Omitted image "Lists.png"\] Alt text:.
 
 2.  Navigate to **Quotes****All** and select the quote that you want to work with.
 

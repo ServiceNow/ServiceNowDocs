@@ -2,7 +2,10 @@
 title: Request-based chat access for a guest user
 description: Request-based self-configured app chat access enables a guest user to start and import chats in a single ServiceNow for Microsoft Teams instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/guest-user-chat-access-st.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,12 +38,12 @@ Guest access configuration is applicable to the following tables in both IT Serv
 
 The ServiceNow system admin can extend guest access to other tables.
 
--   **[Authenticate guest users to initiate and import chat from Microsoft Teams](../task/authenticate-guest-start-import-chat.md)**  
+-   **[Authenticate guest users to initiate and import chat from Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/authenticate-guest-start-import-chat.md)**  
 Assign permissions to guest users to initiate and import chat conversations with employees from Microsoft Teams to a ServiceNow® instance for a self-configured app.
--   **[Enable authentication of guest users](../task/update-verify-app-registry-guest.md)**  
+-   **[Enable authentication of guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/update-verify-app-registry-guest.md)**  
 Verify and update application registry values to authenticate guest users in the Microsoft Teams application to start and import chats for a self-configured app.
--   **[Enable chat access for guest users](../task/enable-guest-chat-access-st.md)**  
+-   **[Enable chat access for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/enable-guest-chat-access-st.md)**  
 Enable chat access for a guest user while configuring ServiceNow® for Microsoft Teams settings for a self-configured app.
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c_employee_ex_s_tnt.md)
 

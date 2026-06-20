@@ -2,6 +2,7 @@
 title: Create the API account role for Palo Alto Networks Next-Generation Firewall
 description: An API account role is required in your ServiceNow AI Platform instance for this integration. The Username and Password associated with this account are created in the ServiceNow AI Platform and entered in Palo Alto Networks so the Palo Alto Networks Next-Generation Firewall authenticates with the ServiceNow AI Platform when retrieving EDL entries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/paloalto-create-snrole.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,11 +30,11 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
 
 2.  Click the **Users** module.
 
-    ![Select the Users module.](../image/4-30-user-nav.png)
+    \[Omitted image "4-30-user-nav.png"\] Alt text: Select the Users module.
 
 3.  On the Users list that is displayed, click **New**.
 
-    ![New User record.](../image/4-30-user-nav-new.png)
+    \[Omitted image "4-30-user-nav-new.png"\] Alt text: New User record.
 
     A new user form is displayed.
 
@@ -50,7 +51,7 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
     |Password|Unique password created for this role. This password is entered in the **Password** field in the **Client Authentication** section of the External Dynamic Lists dialog on the Palo Alto Networks site.|
     |Email|Unique email address.|
 
-    ![User record completed.](../image/4-30-user-listed.png)
+    \[Omitted image "4-30-user-listed.png"\] Alt text: User record completed.
 
 5.  Click **Submit**.
 
@@ -58,34 +59,34 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
 
 6.  On the Users list in the **User ID** column, click the name of the user ID you entered, `API account SN`, for example.
 
-    ![New User ID listed.](../image/4-30-user-listed-callout.png)
+    \[Omitted image "4-30-user-listed-callout.png"\] Alt text: New User ID listed.
 
 7.  On the open record in the Roles section, click **Edit**.
 
-    ![Click Edit to open the record.](../image/4-30-user-form-callout.png)
+    \[Omitted image "4-30-user-form-callout.png"\] Alt text: Click Edit to open the record.
 
 8.  On the **Edit Members**form that is displayed, enter `sn_sec_panfw.api_account_access` in the **Collection** field.
 
     Below the **Collection** field, the role is displayed in the column.
 
-    ![Enter new role in Collection column.](../image/4-30-user-add-enter.png)
+    \[Omitted image "4-30-user-add-enter.png"\] Alt text: Enter new role in Collection column.
 
 9.  In the **Collection** column, select then move `sn_sec_panfw.api_account_access` to the **Roles List**.
 
-    ![Move new role to Roles List.](../image/4-30-add-role.png)
+    \[Omitted image "4-30-add-role.png"\] Alt text: Move new role to Roles List.
 
 10. Click **Save**.
 
 11. Navigate to **Users**, and in the **User** column on the list, click the ID name that you created for the role \(`API account SN`\).
 
-    ![New role displayed on Users list.](../image/4-30-user-role-section.png)
+    \[Omitted image "4-30-user-role-section.png"\] Alt text: New role displayed on Users list.
 
     The user record is displayed. This record verifies that the user account has been assigned. The **State** is active, and the role is not inherited.
 
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](../concept/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](paloalto_install.md)
+**Previous topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto_install.md)
 
-**Next topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](../reference/paloalto_supported_edls.md)
+**Next topic:**[Supported External Dynamic Lists for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/paloalto_supported_edls.md)
 

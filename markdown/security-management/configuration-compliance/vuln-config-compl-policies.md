@@ -2,6 +2,7 @@
 title: Configuration Compliance imported data
 description: The Configuration Compliance application imports policies, tests, authoritative sources, and test results from third-party integrations and stores them in modules for viewing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/vuln-config-compl-policies.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -27,7 +28,7 @@ The Configuration Compliance application imports policies, tests, authoritative 
 
 Third-party integrations import configuration assessment findings, test groups, tests, technologies, authoritative sources, and test results into the Configuration Compliance application. Vulnerability managers or vulnerability analysts can use this data to identify and respond to the configuration-related vulnerabilities on your assets.
 
-For more information about supported integrations, see [Configuration Compliance integrations](vuln-config-compl-integrations.md).
+For more information about supported integrations, see [Configuration Compliance integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-integrations.md).
 
 ## Test groups
 
@@ -115,7 +116,7 @@ The scheduled job Tenable.io Compliance Results Integration imports configuratio
 
 One of the techniques used by third-party vulnerability scanners to create test groups of software and hardware configuration items for analysis is to organize them by technology. Technologies are an imported library of OSes, network devices, databases, and apps that are associated with policies. Tests have multiple implementations for different technologies. Remediation is technology-specific, as well.
 
-You can [view the applicable technologies](../task/view-vlun-config-compl-technologies.md) for a test, to better understand what kinds of software or hardware assets the control can be applied to. Examples of technologies that can be applied to controls include CentOS 7.x, Windows 8.1, Windows 2016 Server, and so on. The list of technologies is read-only and match the technologies defined in the Qualys Cloud Platform application.
+You can [view the applicable technologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/view-vlun-config-compl-technologies.md) for a test, to better understand what kinds of software or hardware assets the control can be applied to. Examples of technologies that can be applied to controls include CentOS 7.x, Windows 8.1, Windows 2016 Server, and so on. The list of technologies is read-only and match the technologies defined in the Qualys Cloud Platform application.
 
 Technologies are imported for database-related configuration assessments only. The **db\_type** \(if not empty\) in the import is used to create a technology. View technologies populated on the Technologies section on configuration test records, test result records, policy records and at **Configuration Compliance** &gt; **Supporting Data** &gt; **Technologies**.
 
@@ -164,7 +165,7 @@ The scheduled job Tenable.io Compliance Results Integration imports authoritativ
 </td></tr></tbody>
 </table>## Test results
 
-Configuration Compliance does not calculate the test results, but imports them as part of a third-party integration. Once they are viewable in Configuration Compliance, they are remediated using **Remediation Tasks**. See [Configuration Compliance correlation](vuln-config-compl-correlation.md) for more information.
+Configuration Compliance does not calculate the test results, but imports them as part of a third-party integration. Once they are viewable in Configuration Compliance, they are remediated using **Remediation Tasks**. See [Configuration Compliance correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-correlation.md) for more information.
 
 <table id="table_e5z_grp_kqb"><thead><tr><th>
 
@@ -188,7 +189,7 @@ You can retrieve the test results in one of the following ways:
 
  The **Qualys PC Results** import uses the **Start Time** parameter in the **Integration Details** tab. All other Configuration Compliance imports bring in all available data regardless of **Start Time**.
 
- When the **Qualys PC Results** import is complete, an event is fired to trigger end-of-import calculations. For more information see, [Configuration Compliance states](vuln-config-compl-states.md).
+ When the **Qualys PC Results** import is complete, an event is fired to trigger end-of-import calculations. For more information see, [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-states.md).
 
  Alternatively, starting from V14.5, you can also run the following integrations to retrieve the test results:
 
@@ -222,14 +223,14 @@ The scheduled job Tenable.io Compliance Results Integration imports Test Results
  To view the Configuration Test record, navigate to **Configuration Compliance** &gt; **Tests Results**. On the record, imported data is displayed in the**Test**, and **Configuration Item** fields. Data is also displayed on the **Expected Values**, **Actual Values**, and **Remediation** tabs. The **Remediation Tasks** and **Test Result History** Related Links are populated.
 
 </td></tr></tbody>
-</table>-   **[Configuration Compliance discovery](vuln-config-compl-discovery.md)**  
+</table>-   **[Configuration Compliance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-discovery.md)**  
 Configuration Compliance data is imported from third-party SCA scanner applications. They structure groups of software and hardware tests into data records to expedite conducting assessments.
--   **[Configuration Compliance correlation](vuln-config-compl-correlation.md)**  
+-   **[Configuration Compliance correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-correlation.md)**  
 Configuration Compliance provides prioritization and test result grouping \(into remediation task\) to aid remediation of non-compliance issues.
--   **[Discovered Items for Configuration Compliance](cc-cj-discovered-items.md)**  
+-   **[Discovered Items for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-cj-discovered-items.md)**  
 Assets are automatically matched to configuration items \(CIs\) using CI lookup rules, when they are imported using the host and test results integrations. Discovered Items give you visibility into how asset identification is mapped to CIs in the CMDB.
--   **[The Tenable Vulnerability Integration with Configuration Compliance](cc-tenable-integration-overview.md)**  
+-   **[The Tenable Vulnerability Integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-tenable-integration-overview.md)**  
 The Tenable.io product of the Tenable Vulnerability Integration imports policies, controls \(test results\), and configuration tests for processing in the Configuration Compliance application.
 
-**Parent Topic:**[Exploring Configuration Compliance](vuln-config-compl.md)
+**Parent Topic:**[Exploring Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl.md)
 

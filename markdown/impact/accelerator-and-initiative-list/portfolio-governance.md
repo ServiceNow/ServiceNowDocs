@@ -2,6 +2,7 @@
 title: Portfolio Governance
 description: Guidance on building a strategic portfolio management process
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/portfolio-governance.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

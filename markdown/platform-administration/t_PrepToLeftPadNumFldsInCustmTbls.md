@@ -2,6 +2,7 @@
 title: Prepare to left-pad number fields in custom tables
 description: Before you configure left padding of number fields on a custom table or a table that does not extend the task table, you must prepare business rules and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_PrepToLeftPadNumFldsInCustmTbls.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -51,8 +52,8 @@ Role required: admin
     You can now continue with the process of configuring left-padding and renumbering records.
 
 
--   **[Configure left padding of a system number in a table](t_RenumberingRecords.md)**  
+-   **[Configure left padding of a system number in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_RenumberingRecords.md)**  
 You can configure the left padding of the system numbers on a table. For example, pad the **Number** field on an Incident, Problem, or Change Request.
 
-**Parent Topic:**[Record numbering](../concept/c_ManagingRecordNumbering.md)
+**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ManagingRecordNumbering.md)
 

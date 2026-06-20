@@ -2,6 +2,7 @@
 title: Clear facet filters when selecting a new navigation tab
 description: Specify whether AI Search applications should preserve existing facet filters when you select a new navigation tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/persist-facets-nav-tabs-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ Administrators can override this default behavior by setting the value of the **
 
 This option is global and applies to all AI Search applications on your instance.
 
-**Note:** If an existing facet filter cannot be applied to search results from a selected navigation tab, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts. For more details on search result counts, see [Display search result counts on the results page for a search application](display-result-counts-ais.md).
+**Note:** If an existing facet filter cannot be applied to search results from a selected navigation tab, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts. For more details on search result counts, see [Display search result counts on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/display-result-counts-ais.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ This option is global and applies to all AI Search applications on your instance
 
 All AI Search applications preserve or discard existing facet filters when a new navigation tab is selected.
 
-**Parent Topic:**[Search application configurations](../concept/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

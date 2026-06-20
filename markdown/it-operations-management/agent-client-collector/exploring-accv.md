@@ -2,6 +2,7 @@
 title: Exploring Agent Client Collector for Visibility
 description: Learn how you can use Agent Client Collector for Visibility \(ACC-V\) to discover data on your target hosts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/exploring-accv.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -44,7 +45,7 @@ You can register and manage your target systems in the ServiceNow Configuration 
 
 The following illustration describes the high-level architecture of Agent Client Collector for Visibility.
 
-![This block diagram shows the components that work together](../image/acc-v_arch.png "ACC-V architecture")
+\[Omitted image "acc-v\_arch.png"\] Alt text: This block diagram shows the components that work together
 
 ACC-V works with the following components:
 

@@ -2,6 +2,7 @@
 title: Add time savings
 description: Add new time savings as a contributing indicator based on your organizational preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/itsm-success-dashboard-indicators/add-time-savings.html
 release: xanadu
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -34,5 +35,5 @@ Role required: sn\_sd.success\_dashboard\_admin
     **Note:** You can update the record only in the application scope.
 
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](config-kpis-sdb.md)
+**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

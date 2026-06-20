@@ -2,6 +2,7 @@
 title: Cloud Provisioning and Governance: Terraform Connector
 description: Use the ServiceNow Cloud Provisioning and Governance: Terraform Connector to generate catalog items from the Terraform templates and use them to provision and manage resources in various clouds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-landing-page.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,19 +20,19 @@ Use the ServiceNow® Cloud Provisioning and Governance: Terraform Connector to g
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore the Cloud Provisioning and Governance: Terraform Connector app.](../../../common/image/icon-explore.png) Learn about the Cloud Provisioning and Governance: Terraform Connector application.](../concept/exploring-cpg-terraform-connector.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore the Cloud Provisioning and Governance: Terraform Connector app. Learn about the Cloud Provisioning and Governance: Terraform Connector application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)
 
 </td><td>
 
-[Configure ![Configure the Cloud Provisioning and Governance: Terraform Connector app.](../../../common/image/icon-set-up.png) Plan and configure your implementation.](../concept/configure-cpg-terraform-connector.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure the Cloud Provisioning and Governance: Terraform Connector app. Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/configure-cpg-terraform-connector.md)
 
 </td></tr><tr><td>
 
-[Use ![Use the Cloud Provisioning and Governance: Terraform Connector app.](../../../common/image/icon-workspace.png) Use the Cloud Provisioning and Governance: Terraform Connector app to discover resources from the Terraform environment, create catalog items, and maintain them.](../concept/using-ccg-terraform-connector.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use the Cloud Provisioning and Governance: Terraform Connector app. Use the Cloud Provisioning and Governance: Terraform Connector app to discover resources from the Terraform environment, create catalog items, and maintain them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 
 </td><td>
 
-[Reference ![Reference information.](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](cpg-terraform-connector-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference information. Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

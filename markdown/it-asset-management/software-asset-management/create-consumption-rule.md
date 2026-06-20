@@ -2,6 +2,7 @@
 title: Create consumption rules
 description: Create consumption rules to restrict license consumption to certain entities within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-consumption-rule.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -43,6 +44,6 @@ Role required: sam\_user
 
 4.  Select **Save**.
 
-    The new consumption rule appears in the Consumption rules list view. You must [link this rule](link-consumption-rules.md) to one or many entitlements.
+    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements.
 
 

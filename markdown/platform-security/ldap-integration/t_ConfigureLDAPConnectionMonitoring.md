@@ -2,6 +2,7 @@
 title: Configure LDAP connection monitoring
 description: Change or disable LDAP connection monitoring and notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/ldap-integration/t\_ConfigureLDAPConnectionMonitoring.html
 release: xanadu
 product: LDAP integration
 classification: ldap-integration

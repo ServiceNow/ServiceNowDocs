@@ -2,6 +2,7 @@
 title: Create a retail case support request in CSM/FSM Configurable Workspace
 description: Use the CSM/FSM Configurable Workspace to create a retail case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-create-case-workspace.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

@@ -2,6 +2,7 @@
 title: Run a glide fix script to migrate existing data
 description: When you update the instance from Washington DC to Xanadu release, you must manually run the glide fix to update the invoice and invoice line tables to their respective base tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/run-fix-script-to-migrate-existing-data.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

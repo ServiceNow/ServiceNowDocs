@@ -2,6 +2,7 @@
 title: Legal Mobile
 description: The ServiceNow Legal Mobile application enables your employees to submit and track legal requests and lawyers to work on these requests on their mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-mobile/legal-mobile-overview.html
 release: xanadu
 product: Legal Mobile
 classification: legal-mobile
@@ -33,5 +34,5 @@ These apps run on the ServiceNow® mobile platform. You can download these mobil
 
 ## Default style for the Legal Mobile app
 
-Legal Mobile app interfaces now match the ServiceNow AI Platform application. For more information on Next Experience in Mobile, see [Next Experience in Mobile](https://www.servicenow.com/docs/access?context=next-experience-mobile&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+Legal Mobile app interfaces now match the ServiceNow AI Platform application. For more information on Next Experience in Mobile, see Next Experience in Mobile.
 

@@ -2,6 +2,7 @@
 title: Create an assignment configuration
 description: Create an assignment configuration for a manual metric definition to have data owners dynamically assigned to metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/create-assign-config-mmd.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: admin, sn\_esg.admin, or sn\_risk.admin
 
 ## About this task
 
-In the manual metric definition, you can choose between a simple or advanced option for the assignment of data owners. For the advanced option, you must configure how the data owner is assigned by creating a new assignment configuration record. For more information, on the manual metric definition form and fields, see [Manual metric definition fields](../reuse/manual-md-reuse.md).
+In the manual metric definition, you can choose between a simple or advanced option for the assignment of data owners. For the advanced option, you must configure how the data owner is assigned by creating a new assignment configuration record. For more information, on the manual metric definition form and fields, see [Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ In the manual metric definition, you can choose between a simple or advanced opt
 
 3.  On the form, fill in the fields.
 
-    For information about the fields, refer to [Assignment Configuration New Record](../../grc-common/reference/assignment-configuration-new-record.md).
+    For information about the fields, refer to [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 

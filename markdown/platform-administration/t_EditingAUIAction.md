@@ -2,6 +2,7 @@
 title: Create a UI action
 description: You can create a new UI action or edit an existing one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_EditingAUIAction.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -335,11 +336,11 @@ As part of a UI action script, you can redirect a user to a URL. For example, yo
 action.setRedirectURL ( '[http://www.mysite.com/mypage.htm](http://www.mysite.com/mypage.htm)' );
 ```
 
-To direct a user to a record, use this syntax, where **new\_record** is the variable name for the [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US):
+To direct a user to a record, use this syntax, where **new\_record** is the variable name for the GlideRecord:
 
 ```javascript
 action.setRedirectURL (new_record );
 ```
 
-**Parent Topic:**[UI actions](../concept/c_UIActions.md)
+**Parent Topic:**[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UIActions.md)
 

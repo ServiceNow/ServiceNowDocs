@@ -2,6 +2,7 @@
 title: Review and mine your project
 description: After you’ve created the project by setting the objectives, scoping the analysis, and adding improvement opportunities, it’s time to mine the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/review-mine.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -33,7 +34,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
     You can do some additional steps on this page.
 
-    ![Additional tasks](../image/mine-extra-steps.png)
+    \[Omitted image "mine-extra-steps.png"\] Alt text: Additional tasks
 
     -   Select **Manage watchlist** to add users who receive notifications regarding the status of the mined project.
     -   Select **Copy project definition** to copy the project.
@@ -48,7 +49,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 The **Mining Progress** page is displayed. After the mining is completed, a **Mining Summary** page is displayed. This page provides additional details about the mining. It also lists any finding definition that wasn’t included in the mining and provides a link to understand the actual cause. You can also view the logs or go to the Process Mining Workspace and view the graph.
 
-![](../image/mining-summary.png)
+\[Omitted image "mining-summary.png"\] Alt text:
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/define-workflow-model.md)
 

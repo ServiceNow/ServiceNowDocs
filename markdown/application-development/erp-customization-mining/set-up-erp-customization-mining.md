@@ -2,6 +2,7 @@
 title: Configure a new ERP Customization Mining connection
 description: Specify the Connections and Credentials alias for ERP Customization Mining \(ERP-CM\) to connect to the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/set-up-erp-customization-mining.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,7 +18,7 @@ Specify the Connections and Credentials alias for ERP Customization Mining \(ERP
 
 ## Before you begin
 
-You should install ERP Data Hub and add credentials there before you install and configure ERP-CM. For more information, see [Configure the ERP Data Hub credentials and connection](../../erp-integration/task/set-up-erp-integration-connection.md).
+You should install ERP Data Hub and add credentials there before you install and configure ERP-CM. For more information, see [Configure the ERP Data Hub credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/set-up-erp-integration-connection.md).
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
@@ -25,11 +26,11 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 1.  Navigate to **All** &gt; **ERP Foundation** &gt; **ERP Customization Mining**.
 
-2.  Select the connection status icon \(![Credential alias page link](../image/credential-alias-icon.png)\) in the side panel.
+2.  Select the connection status icon \(\[Omitted image "credential-alias-icon.png"\] Alt text: Credential alias page link\) in the side panel.
 
 3.  Select the **Select connection** button.
 
-    If you have already configured a system connection and want to use a different connection and credential, see [Update an ERP-CM connection](update-ecm-connection.md).
+    If you have already configured a system connection and want to use a different connection and credential, see [Update an ERP-CM connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/update-ecm-connection.md).
 
 4.  In the Connections and Credentials alias box, choose the credentials you configured in ERP Data Hub from the **Select connection &amp; credential alias** field.
 
@@ -37,14 +38,14 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
     ERP-CM begins extracting data from the connection.
 
-6.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(![Refresh the Executed tasks list](../image/refresh-icon.png)\).
+6.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh the Executed tasks list\).
 
-    ![Refresh the issues list or active connection tasks](../image/ecm-connection-status-page.png)
+    \[Omitted image "ecm-connection-status-page.png"\] Alt text: Refresh the issues list or active connection tasks
 
 
 ## What to do next
 
-After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Customization Mining](erpcm-check-data-connection.md).
+After the system is connected, you can check the connection status and investigate errors at any time on the Connection status page. For more information, see [Check and troubleshoot the data refresh status for ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-check-data-connection.md).
 
-**Parent Topic:**[Configuring ERP Customization Mining](../concept/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/configuring-ecm.md)
 

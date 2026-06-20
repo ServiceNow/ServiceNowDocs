@@ -2,11 +2,12 @@
 title: View all showback statements
 description: As a service charging analyst, you can view the list of all showback statements that are generated. You can determine the reporting entity or the user group that the report is intended for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/view-all-showback-statements.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Showback statements, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -136,10 +137,10 @@ Add statement expense lines and statement expense line details to the showback s
 |||
 |||
 
--   **[Add statement expense line](add-statement-expense-line.md)**  
+-   **[Add statement expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/add-statement-expense-line.md)**  
 At the statement item breakdown level, add the number of units consumed, unit rate of the item, and the total cost of all items. Just as an invoice has printed line items, detailing the expense list, the statement item also has the expense details reported as statement expense lines in the showback statement.
--   **[Add statement expense line details](add-statement-expense-line-details.md)**  
+-   **[Add statement expense line details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/add-statement-expense-line-details.md)**  
 Adding expense line details is drilling down to one more level of the statement expense line. Add the number of units consumed, the unit rate at which the item is charged, and the total amount of the expense line at the item level, catalog item level, or account level.
 
-**Parent Topic:**[Showback statements](../concept/showback-statements.md)
+**Parent Topic:**[Showback statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/showback-statements.md)
 

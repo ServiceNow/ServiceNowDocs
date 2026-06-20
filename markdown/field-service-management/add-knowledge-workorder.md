@@ -2,7 +2,10 @@
 title: Add a knowledge article to a work order or work order task
 description: Add additional information to complete tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-knowledge-workorder.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -47,10 +50,10 @@ As you enter a short description for a work order or work order task, a list of 
 
 The articles are added and appear under the **Attached Articles** tab.
 
-**Parent Topic:**[Managing work orders and work order tasks](../concept/managing-work-orders.md)
+**Parent Topic:**[Managing work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/managing-work-orders.md)
 
 **Related topics**  
 
 
-[Knowledge properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_KnowledgeProperties]
 

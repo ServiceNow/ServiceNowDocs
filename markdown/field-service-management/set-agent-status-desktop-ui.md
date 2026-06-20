@@ -2,7 +2,10 @@
 title: Set agent status from the desktop
 description: Field service agents can indicate their status from the desktop and let dispatchers know if they are ahead of schedule, behind schedule, or on time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/set-agent-status-desktop-ui.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,5 +40,5 @@ The system administrator must enable the FSM Profile view before field service a
     The status is updated on the agent's User form. The dispatcher can see this status update in Dispatcher Workspace.
 
 
-**Parent Topic:**[Using dynamic scheduling](../concept/using-dynamic-scheduling.md)
+**Parent Topic:**[Using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-dynamic-scheduling.md)
 

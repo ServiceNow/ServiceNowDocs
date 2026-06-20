@@ -2,6 +2,7 @@
 title: Install Playbook Assist
 description: Install the Now Assist for Creator application to add the Playbook Assist generative AI capability to your playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/install-playbook-assist.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -18,8 +19,8 @@ Install the Now Assist for Creator application to add the Playbook Assist genera
 ## Before you begin
 
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to [Process Automation Designer](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1293c996ad48c7d88400c13afef3cdff) 25.2 or later. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
--   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Upgrade to [Process Automation Designer](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1293c996ad48c7d88400c13afef3cdff) 25.2 or later. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+-   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
 -   Role required: admin
 
 ## Procedure
@@ -45,5 +46,5 @@ Now Assist for Creator is installed on the instance.
 
 Configure Now Assist for Creator to turn on the Playbook Assist skills. Grant the now.assist.creator role to each user that you want to use Playbook Assist skills.
 
-**Parent Topic:**[Configuring Playbook Assist](../concept/configuring-playbook-assist.md)
+**Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-playbook-assist.md)
 

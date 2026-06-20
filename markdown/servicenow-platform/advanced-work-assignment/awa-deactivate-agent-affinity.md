@@ -2,6 +2,7 @@
 title: Deactivate Agent Affinity
 description: Deactivate Agent Affinity if you do not want Agent Affinity to assign work assignments to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/advanced-work-assignment/awa-deactivate-agent-affinity.html
 release: xanadu
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -34,5 +35,5 @@ Role required: awa\_admin or admin
     Agent Affinity is now deactivated.
 
 
-**Parent Topic:**[Using Agent Affinity](../concept/awa-agent-affinity-concept.md)
+**Parent Topic:**[Using Agent Affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/advanced-work-assignment/awa-agent-affinity-concept.md)
 

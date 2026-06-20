@@ -2,6 +2,7 @@
 title: Archive TISC related records
 description: Use the Archive Related Records related list for TISC to add the related records to the archive rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-releated-records.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,6 +2,7 @@
 title: Financial Management for Service Owner Workspace
 description: Integrate Service Owner Workspace with Financial Management to access preconfigured service offering cost models. You can use these cost models to evaluate expenses and generate cost lines based on the level of service offering for a defined cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/financial-management-SPM2.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,11 +16,11 @@ breadcrumb: [Using Service Owner Workspace, Service Owner Workspace, IT Service 
 
 Integrate Service Owner Workspace with Financial Management to access preconfigured service offering cost models. You can use these cost models to evaluate expenses and generate cost lines based on the level of service offering for a defined cost.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Use Service Owner Workspace](../image/SOWUseBanner2.png "Navigate")
+\[Omitted image "SOWUseBanner2.png"\] Alt text: Use Service Owner Workspace
 
 </td></tr></tbody>
 </table>## Activation and features
@@ -34,7 +35,7 @@ When Service Owner Workspace \(com.spm\_owner\_workspace\) and Financial Managem
 
 When you choose to use the cost models offered via the Financial Management application, calculated spend per service offering is displayed as a single score widget in Service Owner Workspace. View **Estimated Spend** as part of the **Overview** dashboard displaying associated service offering health and performance metrics.
 
-![Estimated spend](../image/EstimatedSpend.png "Estimated spend")
+\[Omitted image "EstimatedSpend.png"\] Alt text: Estimated spend
 
 Service offering spend estimates are combined and summed up per period to the service and portfolio levels within your portfolio taxonomy. Estimated spend at the service and portfolio level enables you to better understand costs and how this aligns with performance throughout your service portfolio. With the estimated spend feature, you can:
 
@@ -54,5 +55,5 @@ When the system property **sn\_spm\_spend.offering\_cost\_source** = **Financial
 
 For each node, determine the Financial Management estimated spend for the currently selected Financial Management period by adding all the child entity estimated spends. This happens recursively up the entire taxonomy structure, starting with the service offering, to the service, to the taxonomy.
 
-For detailed information about integrating with Financial Management and configuring costing for a service offering, refer to [Financial Management for licensed SPM users](https://www.servicenow.com/docs/access?context=financial-management-spm&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US).
+For detailed information about integrating with Financial Management and configuring costing for a service offering, refer to Financial Management for licensed SPM users.
 

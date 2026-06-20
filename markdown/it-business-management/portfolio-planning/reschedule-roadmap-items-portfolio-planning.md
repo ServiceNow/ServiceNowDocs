@@ -2,6 +2,7 @@
 title: Reschedule roadmap items in Portfolio Planning Workspace
 description: Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/portfolio-planning/reschedule-roadmap-items-portfolio-planning.html
 release: xanadu
 product: Portfolio Planning
 classification: portfolio-planning
@@ -24,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d74739e87">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d55453e87">
 
 Roadmap type
 
-</th><th align="left" id="d74739e90">
+</th><th align="left" id="d55453e90">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d74739e96">
+</th></tr></thead><tbody><tr><td id="d55453e96">
 
 **Portfolio plan roadmap**
 
@@ -42,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d74739e117">
+</td></tr><tr><td id="d55453e117">
 
 **Free-form roadmap**
 
@@ -55,8 +56,8 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 3.  To reschedule the roadmap item, drag and drop the item to a timeline area of your choice.
 
-    ![Update planned dates of a roadmap item.](../../spw-roadmap/images/update-roadmap-item.gif)
+    \[Omitted image "update-roadmap-item.gif"\] Alt text: Update planned dates of a roadmap item.
 
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

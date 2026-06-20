@@ -2,7 +2,10 @@
 title: Components installed with Recommended Actions
 description: Several types of components are installed with the Recommended Actions application, including tables, roles, guidances, resource generators, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ra-csm-installed-components.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 4
@@ -373,7 +376,7 @@ sn\_nb\_action\_detail
 
 </td><td>
 
-This scheduled job helps prevent the Recommendation table from growing exponentially by using [Table cleaner](https://www.servicenow.com/docs/access?context=table-cleaner&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+This scheduled job helps prevent the Recommendation table from growing exponentially by using Table cleaner.
 
  The table cleaner job runs every hour to delete older, expired, or unwanted records from tables.
 

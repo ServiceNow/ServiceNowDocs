@@ -2,6 +2,7 @@
 title: Table data options for horizontal and vertical bar visualizations
 description: When you select a table data source for a horizontal or vertical bar visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/config-dv-bar-table-data.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -31,11 +32,11 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a horizontal or vertical bar data visualization](../task/create-dv-bar-ac.md).
+You have selected a Table data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-bar-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricYou can set multiple metrics. If you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](../concept/chart-options-multi-metrics.md).
+MetricYou can set multiple metrics. If you have the latest version of the Data Visualizations application from the ServiceNow Store, you can set dashboard filters to apply only to specific metrics. For more information, see [Chart options for multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Field
 
 Field to apply the metric to, for **Average**, **Sum**, or **Count Distinct** aggregations. You may further be able to aggregate on fields from extended tables.The data is shown in a format that matches the field type. For example, if you select an integer field, such as the **Priority** field, the data is expressed as a number. If you select a duration field, such as **Business duration** on the Incident table, the aggregated data is expressed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](../concept/function-fields-reporting.md).
+If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/function-fields-reporting.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -146,7 +147,7 @@ The field to group by. For example, in an incident report grouped by **Assignmen
 **Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If the field contains a continuous value, such as a date or integer field, report ranges for the field are used automatically if available. For more information, see [Report ranges](../concept/c_ReportRanges.md#).
+-   If the field contains a continuous value, such as a date or integer field, report ranges for the field are used automatically if available. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/select-group-runtime.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -2,6 +2,7 @@
 title: Automation execution form
 description: Use the Automation execution form to view an automation execution from Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/automation-execution-form.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -154,5 +155,5 @@ Message
 Any information or error message returned by the robot.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automation-center-reference.md)
 

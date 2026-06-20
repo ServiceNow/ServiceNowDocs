@@ -2,6 +2,7 @@
 title: Update to the latest version of Workflow Studio
 description: Workflow Studio is automatically installed on your instance. However, Workflow Studio is a ServiceNow Store application, so to get the latest features, you must update your version manually to the most recent version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -25,7 +26,7 @@ As of Washington DC Patch 3, updating Workflow Studio automatically updates all 
 
 As of Xanadu Patch 3, you can also find and update each individual Workflow Studio application dependency from the ServiceNow® Store or the list of plugins.
 
-![Workflow Studio information banner indicating that a new version is available](../images/workflow-studio-new-version-available.png "New version available information banner")
+\[Omitted image "workflow-studio-new-version-available.png"\] Alt text: Workflow Studio information banner indicating that a new version is available
 
 Beginning with the Xanadu release, Workflow Studio displays an information banner when a new version is available.
 
@@ -44,5 +45,5 @@ Beginning with the Xanadu release, Workflow Studio displays an information banne
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Workflow Studio](../concept/configuring-workflow-studio.md)
+**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-workflow-studio.md)
 

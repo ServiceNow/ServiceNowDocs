@@ -2,7 +2,10 @@
 title: Cloud Configuration Governance Scan configuration form
 description: The Cloud Configuration Governance Scan configuration form displays detailed information about the scan configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-scan-configuration-form.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -58,7 +61,7 @@ You can select an Amazon Web Services \(AWS\) management account, and then add a
 
     -   An assume role configuration exists for the management account.
     -   Cloud Discovery has completed the datacenter discovery for the member accounts.
-For more information on creating assume role configurations, see [Configure access using temporary credentials based on trusted AWS accounts with AWS credentials](../../it-operations-management/task/configure-iam-role-aws-account.md).
+For more information on creating assume role configurations, see [Configure access using temporary credentials based on trusted AWS accounts with AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/configure-iam-role-aws-account.md).
 
 2.  Save the form.
 3.  In the empty row of the Datacenter Filters list, double-click the datacenter cell, and then select a datacenter.
@@ -107,5 +110,5 @@ Resources
 Comma-separated list of the cloud identifiers.This field appears only when the **Freeform** option is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-reference.md)
 

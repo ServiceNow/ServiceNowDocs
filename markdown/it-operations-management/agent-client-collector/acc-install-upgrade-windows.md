@@ -2,6 +2,7 @@
 title: Upgrade the Agent Client Collector manually on a Windows system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Windows OS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-install-upgrade-windows.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -37,7 +38,7 @@ Role required: agent\_client\_collector\_admin
 
 6.  Navigate to **Agent Client Collector** &gt; **Agent Downloads** and download the MSI Installer in the **Windows Downloads** section.
 
-7.  Install the new agent, as described in [Install the Agent Client Collector on a Windows machine manually](acc-install-windows.md).
+7.  Install the new agent, as described in [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-windows.md).
 
     You can use either the manual or single-line procedure. When restoring backup files, the system replaces the configuration file values.
 
@@ -48,5 +49,5 @@ Role required: agent\_client\_collector\_admin
 10. Restart the Agent Client Collector service.
 
 
-**Parent Topic:**[Install the Agent Client Collector on a Windows machine manually](acc-install-windows.md)
+**Parent Topic:**[Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-windows.md)
 

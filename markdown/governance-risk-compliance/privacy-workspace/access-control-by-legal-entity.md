@@ -2,6 +2,7 @@
 title: Access control through organizational structure
 description: Describes how access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -24,7 +25,7 @@ Entity-Based Access \(EBA\) implements this control by enforcing data segregatio
 -   Dynamic segmentation: Access can be assigned based on the organizational structure, such as legal entity, jurisdiction, business unit, or any defined grouping. So processing activity records are only visible to the appropriate teams.
 -   Regulatory alignment: Access controls can be mapped to organizational structures, helping organizations meet local regulatory requirements and maintain clear audit trails.
 
-For information about configuring access control, see [Configure access control](configure-access-control-by-legal-entity.md).
+For information about configuring access control, see [Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md).
 
 ## UI impact
 
@@ -78,8 +79,8 @@ Access records for configured entities and their associated downstream entities
 </td></tr></tbody>
 </table>**Note:** Assigned roles such as assignee, reviewer, and analyst retain access to their assigned records even if those records fall outside the configured entity.
 
--   **[Configure access control](configure-access-control-by-legal-entity.md)**  
+-   **[Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)**  
 Describes the step-by-step process for configuring Entity-based access control in Privacy Management, including property activation, hierarchy setup, record mapping, user assignment, bulk updates, and activating entity-based record access rules.
 
-**Parent Topic:**[Using Privacy Management](concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Using the Manual Phishing playbook
 description: Use these steps to learn how you can use the Manual Phishing playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/using-manual-phishing-playbook.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 
 5.  Click **Analysis** to see the list of activities performed in the Analysis phase.
 
-    You have the option to change it as per your requirements.![Manual Phishing workspace](../image/manual-phishing-workspace.gif)
+    You have the option to change it as per your requirements.\[Omitted image "manual-phishing-workspace.gif"\] Alt text: Manual Phishing workspace
 
 6.  Similarly, you can click Contain, Eradicate, and Review to view the list of activities that have been performed in the respective phase.
 
@@ -44,5 +45,5 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 7.  If there’s any remaining activity or user action required in any of the phases, click the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Manual Phishing](../concept/playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/playbook-manual-phishing.md)
 

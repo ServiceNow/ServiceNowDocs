@@ -2,6 +2,7 @@
 title: Install Agent Client Collector on a Linux system
 description: Install Agent Client Collector using a package distribution tool. Prior to installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/install-acc-linux.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +19,7 @@ Install Agent Client Collector using a package distribution tool. Prior to insta
 ## Before you begin
 
 -   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts.
--   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [Agent Client Collector installation](../concept/acc-installation.md).
+-   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-installation.md).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
 -   Retrieve the MID Server ACC Listener information to be specified in the agent's **backend-url** parameter.
@@ -289,5 +290,5 @@ SLES
         `# systemctl start acc`
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

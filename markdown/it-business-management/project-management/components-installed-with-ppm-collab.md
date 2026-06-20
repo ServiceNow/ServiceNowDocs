@@ -2,6 +2,7 @@
 title: Components installed with PPM Collaboration
 description: Roles and tables are installed with activation of the PPM Collaboration application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/components-installed-with-ppm-collab.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -15,7 +16,7 @@ breadcrumb: [Install PPM Collaboration, PPM Collaboration, Project Management, P
 
 Roles and tables are installed with activation of the PPM Collaboration application.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -63,5 +64,5 @@ Entity Channel\[sn\_collab\_common\_entity\_channel\]
 Stores the list of IDs and names of the Slack channels that are created for the projects.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+</table>**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

@@ -2,6 +2,7 @@
 title: Look Up Record action
 description: Look up a record from any table based on defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/lookup-record-flow-designer.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Conditions**
 
-    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US) and [GlideQueryCondition - Global](https://www.servicenow.com/docs/access?context=c_GlideQueryConditionAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See  and .
 
 -   **Order by**
 
@@ -95,7 +96,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Example
 
-![Example Look Up Record action in a flow.](../images/flow-example-look-up-record.png)
+\[Omitted image "flow-example-look-up-record.png"\] Alt text: Example Look Up Record action in a flow.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-actions.md)
 

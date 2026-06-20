@@ -2,6 +2,7 @@
 title: Configure My items
 description: Set up My items on the Now Mobile application to access all your tasks, requests, and other personal resources like assets and purchases from one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-myitems-mobile.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,12 +32,12 @@ Role required: sn\_hr\_sp.esc\_admin
 
 5.  In the Icon section page, go to the **Icon section destinations** tab, select **New**, and create as many items you would like to display to on the My items section.
 
-    Set up the icon sections, colors, destinations from the **Icon section destinations** tab. You can also use the Mobile App Builder to get a more holistic view while configuring. For more information, see [Configure an icon UI section](https://www.servicenow.com/docs/access?context=sg-ui-section-config-navig&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+    Set up the icon sections, colors, destinations from the **Icon section destinations** tab. You can also use the Mobile App Builder to get a more holistic view while configuring. For more information, see .
 
 
 ## Result
 
 You have set up My items on your Now Mobile® application.
 
-**Parent Topic:**[Configure Now Mobile Home page](../concept/nm-home.md)
+**Parent Topic:**[Configure Now Mobile Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/nm-home.md)
 

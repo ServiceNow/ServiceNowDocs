@@ -2,6 +2,7 @@
 title: Configure application visibility and access
 description: Enhance application discovery and navigation on the App launcher by configuring the access and visibility settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/applauncher-enable-availability.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,8 +22,8 @@ Role required: Admin, ESC admin, and taxonomy manager.
 
 Ensure you configure and enable AI search capabilities, see the following AI Search topics:
 
--   [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
--   [Configuring navigation tabs in AI Search](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and tag **ESC Portal Default Search Application**
+-   Configuring AI Search
+-   Configuring navigation tabs in AI Search and tag **ESC Portal Default Search Application**
 
 ## About this task
 
@@ -43,7 +44,7 @@ Administrators can control user access by specifying who can and cannot use the 
 
 2.  Click **New**.
 
-3.  Configure the **Application** form as explained in [Register custom web applications](web-applications-custom.md).
+3.  Configure the **Application** form as explained in [Register custom web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/web-applications-custom.md).
 
 4.  Configure the user access control options for application visibility and access.
 
@@ -60,7 +61,7 @@ When an application is **Available for** a user, the search results show the app
 
 **Note:** When the app doesn't have a configured brand icon, a default icon appears.
 
-![Authorised application on AI Search results page](../images/app-launcher-search-results.png "App Launcher and AI search results")
+\[Omitted image "app-launcher-search-results.png"\] Alt text: Authorised application on AI Search results page
 
 **Note:** When you mark an application as **Not Available for** a user, the application tab on the search results indicates the count. However, the user can’t see or navigate to the application due to user permissions.
 

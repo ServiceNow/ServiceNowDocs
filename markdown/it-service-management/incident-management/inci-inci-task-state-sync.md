@@ -2,6 +2,7 @@
 title: Synchronization between an incident and its incident tasks
 description: Use incident tasks to collaborate with and request work from other stakeholders. An incident and its tasks are synchronized such that the state of incident tasks changes depending on the state of the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/inci-inci-task-state-sync.html
 release: xanadu
 product: Incident Management
 classification: incident-management

@@ -2,6 +2,7 @@
 title: Track User Experience Analytics in Service Portal
 description: Track User Experience Analytics for Service Portal to monitor key performance indicators with the User Experience Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/create-sp-analytics-settings.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -23,7 +24,7 @@ Role required: portal\_analytics\_admin
 
 By default, tracking is enabled for all portals. Beginning with the Tokyo release, you need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
 
-Portals that have been configured for tracking are listed in the User Experience Analytics Settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure User Experience Analytics Settings](https://www.servicenow.com/docs/access?context=config-analytics-settings&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+Portals that have been configured for tracking are listed in the User Experience Analytics Settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see Configure User Experience Analytics Settings.
 
 ## Procedure
 
@@ -39,19 +40,19 @@ Portals that have been configured for tracking are listed in the User Experience
 
     -   To track analytics only for authenticated users, clear the **Enable Unauthenticated User Tracking** check box.
     -   To track analytics for both unauthenticated and authenticated users, select the **Enable Unauthenticated User Tracking** check box.
-    **Note:** If you enabled unauthenticated user tracking, you might be required by law to notify unauthenticated users that you are tracking their usage for analysis. To display a legal notice, activate the Privacy Notice announcement, which is inactive by default. For more information, see [Activate the privacy notice for unauthenticated users](activate-privacy-notice.md).
+    **Note:** If you enabled unauthenticated user tracking, you might be required by law to notify unauthenticated users that you are tracking their usage for analysis. To display a legal notice, activate the Privacy Notice announcement, which is inactive by default. For more information, see [Activate the privacy notice for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/activate-privacy-notice.md).
 
 5.  Select **Update**.
 
 
 ## Result
 
-You can now view user analytics tracking for the selected portal by navigating to **User Experience Analytics** &gt; **Dashboard**. For more information on using the dashboard, see [Overview of the Dashboard](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+You can now view user analytics tracking for the selected portal by navigating to **User Experience Analytics** &gt; **Dashboard**. For more information on using the dashboard, see Overview of the Dashboard.
 
-**Parent Topic:**[User Experience Analytics for Service Portal](../concept/sp-analytics.md)
+**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[Disable User Experience Analytics tracking](https://www.servicenow.com/docs/access?context=disable-tracking-mobile-app&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.disable-tracking-mobile-app]
 

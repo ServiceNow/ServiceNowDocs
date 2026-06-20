@@ -2,6 +2,7 @@
 title: Create a product recommendation
 description: Set the product offering to be used as a product recommendation for a needs template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-product-recommendations.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -42,5 +43,5 @@ Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product-catalog
 
 ## What to do next
 
-[Create a decision tree for a needs template](configure-needs-decision-tree.md).
+[Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configure-needs-decision-tree.md).
 

@@ -2,6 +2,7 @@
 title: View actual project costs
 description: When you are using Project Portfolio Management with Financials, you can view actual project costs on cost plans and projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ViewActualProjectCosts.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -34,5 +35,5 @@ Actual costs for projects also roll up to portfolios in the same way.
 3.  Click the **Cost Plans** related list.
 
 
-**Parent Topic:**[Close a project](../../project-management/task/t_CloseAProject.md)
+**Parent Topic:**[Close a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CloseAProject.md)
 

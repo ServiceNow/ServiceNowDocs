@@ -2,6 +2,7 @@
 title: Request external credential storage for Discovery and Orchestration
 description: The External Credential Storage plugin is available by request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/connections-and-credentials/t\_ActivateExtrnlCredStoragePlugIn.html
 release: xanadu
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -32,11 +33,11 @@ There are two ways to request a plugin:
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -83,12 +84,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[External credential storage](../concept/c_ExternalCredentialStorage.md)
+**Parent Topic:**[External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
 

@@ -2,7 +2,10 @@
 title: Display the integer values of all case states
 description: Display the integer values of all of the states associated with cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/integer-value-case-states.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

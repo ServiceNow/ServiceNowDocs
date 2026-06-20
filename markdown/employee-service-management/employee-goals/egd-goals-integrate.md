@@ -2,6 +2,7 @@
 title: Integrations for Employee Goals
 description: Extend the Employee Goals application's capabilities by integrating with your organization's human capital management \(HCM\) system to make employee goals accessible while using the Talent Development suite of applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-goals/egd-goals-integrate.html
 release: xanadu
 product: Employee Goals
 classification: employee-goals
@@ -21,16 +22,16 @@ The Employee Goals app provides an integration with the following HCM systems:
 
 -   **Oracle Cloud HCM**
 
-    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to [Oracle HCM Cloud Spoke](https://www.servicenow.com/docs/access?context=oracle-hcm&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to .
 
 -   **SAP SuccessFactors**
 
-    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to [SuccessFactors Spoke](https://www.servicenow.com/docs/access?context=successfactors-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to .
 
 -   **Workday**
 
-    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to .
 
 
-**Parent Topic:**[Employee Goals](egd-goals-landing.md)
+**Parent Topic:**[Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-goals/egd-goals-landing.md)
 

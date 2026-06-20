@@ -2,6 +2,7 @@
 title: Manually override edition value in workspace
 description: If the edition of a software installation is not automatically discovered, you can specify the edition on the Software Installation form \(if known\) so the software can be successfully reconciled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/manually-override-edvalue-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

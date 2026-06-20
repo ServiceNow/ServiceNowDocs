@@ -2,6 +2,7 @@
 title: Create a document revision
 description: As a contract fulfiller, create a document revision to upload an updated version of the contract that contains the latest changes in the contract request, corrections, or suggestions from a third party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-create-doc-rev.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,27 +30,27 @@ You can create document revisions only when the State is Work in progress.
 
 1.  Open a contract request from the workspace you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d235750e62">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d219712e62">
 
 Method
 
-</th><th align="left" id="d235750e65">
+</th><th align="left" id="d219712e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235750e71">
+</th></tr></thead><tbody><tr><td id="d219712e71">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d235750e118">
+</td></tr><tr><td id="d219712e118">
 
 **Workspace used by your application**
 
@@ -111,5 +112,5 @@ If external storage is configured, in the **Document** field, select the documen
 5.  Select **Save**.
 
 
-**Parent Topic:**[Use Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Use Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

@@ -2,6 +2,7 @@
 title: Activate location-based transactions
 description: Turn on location-based transactions for opportunities, quotes, and orders by using the sn\_sales\_common.enable\_location\_based\_transactions system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-activate-location-filter.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -38,5 +39,5 @@ The **sn\_sales\_common.enable\_location\_based\_transactions** system property 
 
 ## What to do next
 
-Define the [product eligibility rule filters](som-create-rule-entity-filter.md) and [matrices](som-define-eligibility-rules.md) that control the product offerings displayed by location.
+Define the [product eligibility rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-rule-entity-filter.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-define-eligibility-rules.md) that control the product offerings displayed by location.
 

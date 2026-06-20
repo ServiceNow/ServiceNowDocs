@@ -2,6 +2,7 @@
 title: Oracle Database and WebLogic Server licensing in soft-partitioned environments
 description: The Software Asset Management application supports Oracle Database and WebLogic Server licensing rules in soft-partitioned environments, such as VMware virtualization technology.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/oracle-licensing-soft-partitioned-environments.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -31,11 +32,11 @@ The Oracle publisher pack supports the following Oracle licensing models on VMwa
 |VMware vSphere ESXi 5.1-5.5|VMs can migrate to any physical ESXi host within the same VMware vCenter Server instance.|You must license the processors on all physical ESXi hosts within the same VMware vCenter Server instance.|
 |VMware vCenter Server 6.0 and later|VMs can migrate to physical ESXi hosts within any VMware vCenter Server instance across your network. Migration is supported only on physical hosts that run VMware vSphere ESXi 5.1 or later on VMware vCenter Server 6.0 and later instances.|You must license the processors on all physical hosts that run VMware vSphere ESXi 5.1 or later within all VMware vCenter Server 6.0 and later instances across your network.|
 
-**Important:** If you enable the **Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation level** option in your [Software Asset Management properties](../reference/sam-properties.md), the Software Asset Management application honors all VM-Host affinity rules when reconciling Oracle licenses within your VMware vCenter Server instances. In this scenario, licensing is based on the sum of all physical ESXi hosts that the VMs can reside on, as specified in your VM-Host affinity rules.
+**Important:** If you enable the **Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation level** option in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-properties.md), the Software Asset Management application honors all VM-Host affinity rules when reconciling Oracle licenses within your VMware vCenter Server instances. In this scenario, licensing is based on the sum of all physical ESXi hosts that the VMs can reside on, as specified in your VM-Host affinity rules.
 
-![Oracle database licensing on VMware vSphere.](../image/oracle-vmware-licensing.png)
+\[Omitted image "oracle-vmware-licensing.png"\] Alt text: Oracle database licensing on VMware vSphere.
 
 For more information about Oracle licensing on VMware, see [Understanding Oracle Certification, Support and Licensing for VMware Environments](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/solutions/oracle/understanding_oracle_certification_support_licensing_vmware_environments-white-paper.pdf).
 
-**Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](oracle-licensing-partitioned-environments.md)
+**Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)
 

@@ -2,7 +2,10 @@
 title: Install the CCG Content Pack
 description: You can install the CCG Content Pack application \(sn\_itom\_ccg\_cp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/install-ccg-content-pack.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -39,5 +42,5 @@ The CCG Content Pack provides the base system contents such as policies, resourc
 4.  Select **Install**.
 
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/exploring-cloud-configuration-governance.md)
 

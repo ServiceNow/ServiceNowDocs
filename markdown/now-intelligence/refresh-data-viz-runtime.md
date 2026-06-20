@@ -2,6 +2,7 @@
 title: Refresh a data visualization as a viewer
 description: A viewer of a data visualization can refresh that data visualization without refreshing the page or having editing rights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/refresh-data-viz-runtime.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ A viewer of a data visualization can refresh that data visualization without ref
 
 Anyone viewing a data visualization can refresh that visualization through the visualization's More actions menu.
 
-![Refresh option in the More options menu of a data visualization.](../image/refresh-viz.png)
+\[Omitted image "refresh-viz.png"\] Alt text: Refresh option in the More options menu of a data visualization.
 
-**Parent Topic:**[Platform Analytics](c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

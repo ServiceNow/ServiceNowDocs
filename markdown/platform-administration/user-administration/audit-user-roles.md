@@ -1,25 +1,26 @@
 ---
 title: Audit user roles
-description: Changes to user roles are automatically tracked in the Audit Roles \[sys\_audit\_role\] table.
+description: Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/user-administration/audit-user-roles.html
 release: xanadu
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Audit user roles
 
-Changes to user roles are automatically tracked in the Audit Roles \[sys\_audit\_role\] table.
+Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** If the [Prevent duplicate entries with Contextual Security: Role Management V2](https://www.servicenow.com/docs/access?context=Role-Mgmt-V2&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) plugin is installed, you must [Enable role auditing with Contextual Security: Role Management V2](https://www.servicenow.com/docs/access?context=enable-audit-roles&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+**Note:** If the Prevent duplicate entries with Contextual Security: Role Management V2 plugin is installed, you must Enable role auditing with Contextual Security: Role Management V2.
 
 ## Procedure
 
@@ -89,5 +90,5 @@ The affected user.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing roles](../concept/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-administration/ua-creating-roles.md)
 

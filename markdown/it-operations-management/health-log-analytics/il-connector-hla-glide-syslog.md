@@ -2,6 +2,7 @@
 title: Configure a ServiceNow System Logs connector
 description: Configure a push connector for streaming log data from the ServiceNow System Log table to the Health Log Analytics AI engine. Integrating with a connector is an essential step in setting up the Health Log Analytics \(HLA\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-glide-syslog.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +20,7 @@ Configure a push connector for streaming log data from the ServiceNow System Log
 
 **Note:** This integration doesn't run on a MID Server. Only a single ServiceNow System Logs Retriever integration or data input can exist in the system.
 
--   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](install-health-log-analytics.md).
+-   Ensure that the Health Log Analytics application is installed and provisioned on your instance. For more information, see [Health Log Analytics \(HLA\) installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/install-health-log-analytics.md).
 -   Ensure that a service instance is available.
 -   Ensure that the HLA Engine is up and running.
 
@@ -29,7 +30,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon \(![Integration Launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\)
+2.  From the left pane, select the Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integration Launchpad icon\)
 
 3.  In the **Browse integrations** tab, enter `System Logs` in the search field.
 
@@ -39,7 +40,7 @@ Role required: evt\_mgmt\_admin
 
 5.  On the **Provide details** form, fill in the fields.
 
-    These fields are auto-populated, because only one ServiceNow System Logs Retriever integration or data input can exist in the system. For a description of the fields, see the **Provide details** table in [ServiceNow System Logs Retriever integration configuration fields](../reference/il-connector-hla-glidesyslog-fields.md).
+    These fields are auto-populated, because only one ServiceNow System Logs Retriever integration or data input can exist in the system. For a description of the fields, see the **Provide details** table in [ServiceNow System Logs Retriever integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-glidesyslog-fields.md).
 
 6.  Select **Next**.
 
@@ -64,7 +65,7 @@ Log data starts streaming from the ServiceNow System Log table to the Health Log
 
 ## What to do next
 
-Leverage the information in the **Overview** tab to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status and sources of an integration](il-connector-overview-tab.md).
+Leverage the information in the **Overview** tab to refine how HLA reads the log data by adjusting your integration configuration. For more information, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
 The MID Server streaming status and the **Log streaming sources** table do not appear on the **Overview** tab for this integration, because it doesn't run on a MID Server. When the integration is first configured, it may take up to 24 hours for the first alerts to appear. Once the data is populated, you can refresh the screen to see real-time metrics.
 
@@ -79,8 +80,8 @@ If you saved the integration as a draft, perform these steps to activate it late
     The integration is activated and the **Overview** tab is displayed. The integration tile is available in the **Installed integrations** tab on the Integrations Launchpad.
 
 
--   **[ServiceNow System Logs Retriever integration configuration fields](../reference/il-connector-hla-glidesyslog-fields.md)**  
+-   **[ServiceNow System Logs Retriever integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-glidesyslog-fields.md)**  
 Description of the fields on the ServiceNow System Logs Retriever integration configuration form for Health Log Analytics.
 
-**Parent Topic:**[Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md)
+**Parent Topic:**[Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)
 

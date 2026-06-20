@@ -2,6 +2,7 @@
 title: Post-clone cleanup scripts
 description: Cleanup scripts automatically run on the target instance after the cloning process finishes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/post-clone-cleanup-scripts.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ You can add new post-cloning scripts on the source instance to perform any actio
 
 You can make post-clone scripts active or inactive to control whether these scripts run or do not run. You can also set an order number on each script, which enables you to set the order that the active scripts run, with lower numbers having a higher priority.
 
-![Cleanup script active order](../image/clone-cleanup-active-order.png)
+\[Omitted image "clone-cleanup-active-order.png"\] Alt text: Cleanup script active order
 
 **Note:** All cleanup scripts run in the global scope irrespective of the scope in which you have configured the cleanup script. An example of how to run a scoped script is to
 
@@ -44,7 +45,7 @@ The following post-clone cleanup scripts perform various actions on the target i
 
 |Script|Description|
 |------|-----------|
-|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://www.servicenow.com/docs/access?context=mid-post-clone-issue-resolution&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
+|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect bad MID Server user credentials. This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
 |Clear scheduled job node association|Resets any scheduled jobs that were active on the source instance to the **Ready** state. This script also clears the value of the **System ID** and **Claimed by** fields on all scheduled jobs.|
 |Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they are not enabled there. This script also migrates the email properties to the target instance.|
 |Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|

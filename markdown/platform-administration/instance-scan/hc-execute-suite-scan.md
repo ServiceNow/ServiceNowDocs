@@ -2,6 +2,7 @@
 title: Execute a suite scan
 description: Execute suites of available checks against a specific target to have targeted scan results by selecting Execute Suite Scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hc-execute-suite-scan.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -35,7 +36,7 @@ Role required: admin.
 
 4.  Select a target for the scan.
 
-    ![Image showing the Scan Suites Now modal.](../image/hc-scan-suites-modal.png)
+    \[Omitted image "hc-scan-suites-modal.png"\] Alt text: Image showing the Scan Suites Now modal.
 
     -   **Full Instance**: Scans all the available records in the instance.
     -   **Scoped App**: Scans selected scoped apps. You can select multiple scoped apps.

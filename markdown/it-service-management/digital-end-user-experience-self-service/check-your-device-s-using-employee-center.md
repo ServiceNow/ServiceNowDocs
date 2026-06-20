@@ -2,6 +2,7 @@
 title: Check your device's health using Employee Center
 description: The employees can monitor and resolve common performance issues on their devices independently using Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.html
 release: xanadu
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -27,15 +28,15 @@ Using Device health check you can check the device health on demand and resolve 
 
 1.  Open Device health check from Employee center using any of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d409483e65">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d216658e65">
 
 Option
 
-</th><th align="left" id="d409483e68">
+</th><th align="left" id="d216658e68">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d409483e74">
+</th></tr></thead><tbody><tr><td id="d216658e74">
 
 **Access the Device health check widget by navigating to Hardware or Software topics pages to view the Device health check widget.**
 
@@ -51,7 +52,7 @@ Follow the steps to access the widget:
 3.  Select the category to see more details in Device health check page.
 
 
-</td></tr><tr><td id="d409483e123">
+</td></tr><tr><td id="d216658e123">
 
 **Access Device health check from Quick links.**
 
@@ -62,11 +63,11 @@ Navigate to **Technology Services** &gt; **Quick links** &gt; **Device health ch
 </td></tr></tbody>
 </table>    **Note:**
 
-    -   On the Device health check page, you can select the **Favorite** \(![Favorite icon](../image/DHC_favorite_icon.png)\) icon to add Device health check card in **My Favorites** section. 
+    -   On the Device health check page, you can select the **Favorite** \(\[Omitted image "DHC\_favorite\_icon.png"\] Alt text: Favorite icon\) icon to add Device health check card in **My Favorites** section. 
     -   In the search box, if you search for Device Health Check, one result appears under **Catalog** &gt; **Hardware** when AI search is disabled. If AI search is enabled, multiple results appear for Device Health Check in both Hardware and Software.
 2.  To check the device performance, click the **Diagnose** tab.
 
-    ![Diagnose_tab_in_Device_health_check_home_page](../image/DHC_Diagnose_tab.png)
+    \[Omitted image "DHC\_Diagnose\_tab.png"\] Alt text: Diagnose\_tab\_in\_Device\_health\_check\_home\_page
 
 3.  Select the poor performing categories in the **Diagnose** tab.
 
@@ -76,13 +77,13 @@ Navigate to **Technology Services** &gt; **Quick links** &gt; **Device health ch
 
     **Note:**
 
-    -   The resolution can be remedial action button, a Self-help instruction, or an URL. For more information, see [Resolution for Proactive Engagement](../../proactive-engagement/reference/resolutions.md).
+    -   The resolution can be remedial action button, a Self-help instruction, or an URL. For more information, see [Resolution for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/resolutions.md).
     -   If a remedial action has already been triggered in the last 24 hours either from the **Diagnose** or **Device actions** tab, the remedial action button will be disabled. It will be reactivated after 24hours post action trigger.
     For resolutions of type remedial action, if the resolution is successful \(if there is improvement in evaluation metric\) or for resolution of type URL, self-help instructions, a feedback question appears. You can select **Yes** or **No** to confirm if this process was helpful is resolving the issue.
 
     In case the answer is **No**, the fallback option to open an IT ticket appears based on configuration. After you open a ticket, the ticket Id is visible for employees to access the details and status of the ticket. For resolutions of type remedial action, If the resolution fails, then automatically the fallback option to open an IT ticket appears based on configuration. After you open a ticket, the ticket Id is visible for employees to access the details and status of the ticket.
 
-5.  To trigger any device actions independent of the device performance, select the **Device actions** tab.![Device_actions_tab_in_Device_health_check_home_page](../image/DHC_Diagnose_tab.png)
+5.  To trigger any device actions independent of the device performance, select the **Device actions** tab.\[Omitted image "DHC\_Diagnose\_tab.png"\] Alt text: Device\_actions\_tab\_in\_Device\_health\_check\_home\_page
 
     **Note:**
 

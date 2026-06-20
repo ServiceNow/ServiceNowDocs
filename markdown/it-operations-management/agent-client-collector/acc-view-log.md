@@ -2,6 +2,7 @@
 title: View the Agent Client Collector logs
 description: You can view the activity logs for an Agent Client Collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-view-log.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -36,9 +37,9 @@ Role required: agent\_client\_collector\_admin
 
     The **Agent Client Collectors** page opens.
 
-    ![Agent Client Collectors page](../image/ACC-Agent-Client-Collectors.png "Agent Client Collectors page")
+    \[Omitted image "ACC-Agent-Client-Collectors.png"\] Alt text: Agent Client Collectors page
 
-    The displayed columns are those selected when clicking the Settings icon ![Settings icon](../../event-management/image/search-icon.png).
+    The displayed columns are those selected when clicking the Settings icon \[Omitted image "search-icon.png"\] Alt text: Settings icon.
 
     The **Host** column indicates the host name of the agent.
 
@@ -57,5 +58,5 @@ Role required: agent\_client\_collector\_admin
     The **Payload** section on the **Queue** form displays the log for the Agent Client Collector.
 
 
-**Parent Topic:**[Using Agent Client Collector logs](../concept/logs-acc.md)
+**Parent Topic:**[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/logs-acc.md)
 

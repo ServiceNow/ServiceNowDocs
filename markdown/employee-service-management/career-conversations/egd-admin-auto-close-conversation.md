@@ -2,6 +2,7 @@
 title: Configure automatic closure of past conversations
 description: Use a system property to define whether a batch job can automatically close conversations that have transpired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/career-conversations/egd-admin-auto-close-conversation.html
 release: xanadu
 product: Career Conversations
 classification: career-conversations
@@ -41,5 +42,5 @@ Role required: admin \[sn\_egd\_act.admin\]
 5.  Select **Update**.
 
 
-**Parent Topic:**[Administer and maintain Career Conversations](../concept/egd-activities-administration.md)
+**Parent Topic:**[Administer and maintain Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/career-conversations/egd-activities-administration.md)
 

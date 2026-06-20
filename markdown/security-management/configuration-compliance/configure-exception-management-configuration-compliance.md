@@ -2,6 +2,7 @@
 title: Configure Exception Management for Configuration Compliance
 description: Limit the duration of an exception requested and add a questionnaire to the exception using the Configuration Compliance module. By default, an exception is requested using the ServiceNow Vulnerability Response module. You can also request an exception using the GRC: Policy and Compliance Management integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/configure-exception-management-configuration-compliance.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -57,5 +58,5 @@ It’s useful for the exception approver to understand the reason for requesting
 4.  Select **Save**.
 
 
-**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md)
+**Parent Topic:**[Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-configuring.md)
 

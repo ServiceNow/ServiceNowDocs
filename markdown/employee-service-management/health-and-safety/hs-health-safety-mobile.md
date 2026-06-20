@@ -2,6 +2,7 @@
 title: Mobile experience for Health and Safety
 description: Enable your employees to submit health and safety incidents and observations, Job safety analyses \(JSAs\), access safety knowledge base, and more on their mobile device using the ServiceNow mobile applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety/hs-health-safety-mobile.html
 release: xanadu
 product: Health and Safety
 classification: health-and-safety
@@ -30,7 +31,7 @@ These apps run on the ServiceNow mobile platform. You can download these mobile 
 
 ## Offline mode for mobile
 
-Use the offline mode of the Mobile Agent and the Now Mobile app to work in areas without an internet connection. You can turn on the offline mode and complete your tasks. Once you go online, the changes are all synchronized automatically. For more information, see [Offline mode](https://www.servicenow.com/docs/access?context=mobile-offline-mode&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+Use the offline mode of the Mobile Agent and the Now Mobile app to work in areas without an internet connection. You can turn on the offline mode and complete your tasks. Once you go online, the changes are all synchronized automatically. For more information, see .
 
 To turn on offline mode on your mobile, do the following:
 
@@ -38,36 +39,36 @@ To turn on offline mode on your mobile, do the following:
 -   Tap **Download Cache**.
 -   Enable the **Offline Mode** option.
 
-**Tip:** To schedule a periodic download of cache, configure the **glide.sg.offline.scheduled\_download.enabled** system property on your instance. For more information, see [Configure offline mode behavior](https://www.servicenow.com/docs/access?context=sg-configure-offline-mode&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+**Tip:** To schedule a periodic download of cache, configure the **glide.sg.offline.scheduled\_download.enabled** system property on your instance. For more information, see .
 
-![Health and Safety Incident Management on an Android device.](../image/hs-health-safety-mobile.png "Health and Safety Incident Management on an Android device")
+\[Omitted image "hs-health-safety-mobile.png"\] Alt text: Health and Safety Incident Management on an Android device.
 
--   **[Configure mobile apps to access Health and Safety applications](../task/configure-now-mobile-health-safety.md)**  
+-   **[Configure mobile apps to access Health and Safety applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/configure-now-mobile-health-safety.md)**  
 Configure the ServiceNow mobile apps to access Health and Safety applications for submitting safety incidents, observations, and job safety analyses \(JSAs\).
--   **[Add Health and Safety launcher tab to Now Mobile app configuration](../task/add-health-safety-launcher-mobile.md)**  
+-   **[Add Health and Safety launcher tab to Now Mobile app configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/add-health-safety-launcher-mobile.md)**  
 Add a Health and Safety launcher screen tab to your Now Mobile app configuration. With this launcher tab, your employees can open the Health and Safety Incident Management application in the Now Mobile app on their mobile device.
--   **[Configure offline mode in the Now Mobile app for Health and Safety](../task/hs-configure-offline-mode-health-safety.md)**  
+-   **[Configure offline mode in the Now Mobile app for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-configure-offline-mode-health-safety.md)**  
 Setup offline mode in the Now Mobile app for Health and Safety so that users can access it even without an internet connection.
--   **[Submit a safety incident or observation through the Now Mobile app](../task/submit-hs-safety-incident-mobile.md)**  
+-   **[Submit a safety incident or observation through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/submit-hs-safety-incident-mobile.md)**  
 Submit a safety incident or observation to report it your organization's safety department.
--   **[Report a safety incident or observation in the offline mode](../task/hs-report-safety-incident-observation-offline-mode.md)**  
+-   **[Report a safety incident or observation in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-report-safety-incident-observation-offline-mode.md)**  
 Report a safety incident or observation in the offline mode-without an internet connection- through the Now Mobile app. Once you go online, the incidents or observations reported offline are synchronized automatically.
--   **[Access safety knowledge articles through the Now Mobile app](../task/access-hs-safety-articles-mobile.md)**  
+-   **[Access safety knowledge articles through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/access-hs-safety-articles-mobile.md)**  
 Access your company's health and safety knowledge base on your mobile device using the ServiceNow Now Mobile app.
--   **[Submit a JSA through the Now Mobile app](../task/submit-jsa-mobile.md)**  
+-   **[Submit a JSA through the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/submit-jsa-mobile.md)**  
 Submit a job safety analysis \(JSA\) to identify hazards related to your job and identify control measures that should be in place at your point-of-work.
--   **[View a safety register document in the Now Mobile app](../task/access-safety-register-docs-mobile.md)**  
+-   **[View a safety register document in the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/access-safety-register-docs-mobile.md)**  
 View safety register documents for hazardous material on your mobile device using the ServiceNow Now Mobile app.
--   **[Complete a safety inspection or audit survey in the offline mode](../task/complete-safety-inspection-survey-offline-mode.md)**  
+-   **[Complete a safety inspection or audit survey in the offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.md)**  
 Complete a safety inspection or audit survey assigned to you in the offline mode-without an internet connection- through the Mobile Agent app.
--   **[Configure the create action check box for safety inspection survey in the Mobile Agent app](../task/hs-configure-create-action-checkbox-mobile-survey.md)**  
+-   **[Configure the create action check box for safety inspection survey in the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.md)**  
 Determine the survey field types that should display the **Create action** option when inspection agents complete the survey in the Mobile Agent app.
--   **[Add actions for safety inspections survey in Mobile Agent app](../task/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md)**  
+-   **[Add actions for safety inspections survey in Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md)**  
 Learn how to use the Mobile Agent app to create actions for an inspection survey in online or offline mode.
--   **[Create and manage a safety inspection in Mobile Agent app](../task/create-and-manage-safety-inspection-mobile-agent.md)**  
+-   **[Create and manage a safety inspection in Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/create-and-manage-safety-inspection-mobile-agent.md)**  
 Create a safety inspection using the Mobile Agent app without scheduling an inspection to manage your workplace inspection.
--   **[Manage Health and Safety incident using the Mobile Agent app](hs-manage-safety-incident-mobile-agent.md)**  
+-   **[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)**  
 As a safety agent, you can create or manage a safety incident using the Mobile Agent app.
 
-**Parent Topic:**[Health and Safety](../../ohs-incident-management/concept/health-safety-overview.md)
+**Parent Topic:**[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety/health-safety-overview.md)
 

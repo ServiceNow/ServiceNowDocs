@@ -2,6 +2,7 @@
 title: Map custom tables to a product subscription in Subscription Management
 description: Maintain accurate entitlement for custom tables in the global scope and stay in compliance by mapping the tables to a product subscription in Subscription Management. Mapping your custom tables keeps your custom table allotment updated and helps you avoid running out of custom table entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/allocate-custom-table-subsc-app-v2.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,15 +30,15 @@ Role required: usage\_admin or admin
 
     Subscription Management recommends product subscriptions with available custom table entitlements in the **Recommended Product** column.
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d131125e122">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d38130e122">
 
 Option
 
-</th><th align="left" id="d131125e125">
+</th><th align="left" id="d38130e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131125e131">
+</th></tr></thead><tbody><tr><td id="d38130e131">
 
 **Map to a recommended product**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d131125e158">
+</td></tr><tr><td id="d38130e158">
 
 **Map to a product of your choice**
 
@@ -66,5 +67,5 @@ Description
 
 One or more custom tables are mapped to a product subscription and your custom table entitlement count is updated.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

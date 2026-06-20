@@ -2,7 +2,10 @@
 title: Customize Start Microsoft Teams chat UI action
 description: Enables you to extend the Start Microsoft Teams chat UI actions to the tables you require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/start-chat-hr.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -111,5 +114,5 @@ Check this box.Copy and paste the **Workspace Client Script**of the existing Sta
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize UI actions for HR Service Delivery integration with Microsoft Teams](../concept/ui-actions-ms-teams-hr.md)
+**Parent Topic:**[Customize UI actions for HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ui-actions-ms-teams-hr.md)
 

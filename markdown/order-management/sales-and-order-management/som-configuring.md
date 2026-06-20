@@ -2,6 +2,7 @@
 title: Configuring Sales Customer Relationship Management applications
 description: Set up the Sales Customer Relationship Management \(Sales CRM\) applications so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-configuring.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -58,7 +59,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td></tr><tr><td>
 
-[Configuring the Business Portal](order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-management-configure-business-portal.md)
 
 </td><td>
 
@@ -66,7 +67,7 @@ Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer ca
 
 </td></tr><tr><td>
 
-[Configuring Lead-to-Cash Process Management](configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configuring-lead-cash-process-management.md)
 
 </td><td>
 
@@ -74,7 +75,7 @@ Admins can install the Lead-to-Cash Process Management application and Business 
 
 </td></tr><tr><td>
 
-[Configuring Customer Engagement Sequences](configuring-customer-engagement-sequences.md)
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configuring-customer-engagement-sequences.md)
 
 </td><td>
 

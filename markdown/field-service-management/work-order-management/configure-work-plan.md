@@ -2,6 +2,7 @@
 title: Configure a work schedule
 description: After creating a work plan, it’s important to define specific criteria to determine when the plan should be executed. This includes defining the start date and end date for the plan's execution. To create a flexible work schedule for the plan, you can configure multiple work schedules for it and assign them accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/configure-work-plan.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
@@ -35,7 +36,7 @@ When the scheduled job runs, it checks whether the value in the **Next run time*
 
 A flexible work schedule can be created for multiple assets that belong to the same work plan based on their installation date. For example, on the Planned Work Schedule form, select **Field Value** as the start planned schedule based on, for multiple assets and then select **Installed** as the effective start reference. The schedule identifies the starting date of the planned work record based on the installation date of the assets that are associated with the work plan. With the **Field Value** start planned schedule based on selected, the **Next run time** field is populated in the **Planned Work Records** related list on the Work Plan form.
 
-You can also create planned work schedules through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(![List icon.](../image/ListIcon.png)\).
+You can also create planned work schedules through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\).
 
 ## Procedure
 

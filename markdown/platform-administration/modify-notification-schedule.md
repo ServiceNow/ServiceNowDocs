@@ -2,6 +2,7 @@
 title: Modify a notification
 description: Modify a notification by establishing a schedule or setting conditions to control the notifications you receive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/modify-notification-schedule.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,5 +41,5 @@ Role required: none
 6.  Select **Save**.
 
 
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](../concept/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/advanced-notification-prefrences.md)
 

@@ -2,6 +2,7 @@
 title: Configuring Career Assessment
 description: Configure Career Assessment by setting up the following.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/configuring-exam-engine.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -23,5 +24,5 @@ After you install Career Assessment, you might encounter Restricted Caller Acces
 -   Target Journey Accelerator
 -   Target Journey Designer
 
-**Parent Topic:**[Career Assessment](exam-engine.md)
+**Parent Topic:**[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/exam-engine.md)
 

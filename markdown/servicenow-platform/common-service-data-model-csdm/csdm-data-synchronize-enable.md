@@ -2,6 +2,7 @@
 title: Set the group for a CI or an entire class of CIs
 description: Synchronize group assignment attributes on entire CI classes and individual CIs using the CI Class Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -44,5 +45,5 @@ As an itil\_admin, you can define a user group that can manage all CIs belonging
 2.  Select **Basic Info** and, in the Managed By Group attribute, select **sys\_user\_group** and then select **Save**.
 3.  To verify that the attribute was updated, select **CI List** and navigate to the Linux Server class. You will see that the **Managed By Group** attribute has been updated to **sys\_user\_group**.
 
-**Parent Topic:**[Synchronizing group assignment attributes](../concept/csdm-data-synchronize.md)
+**Parent Topic:**[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)
 

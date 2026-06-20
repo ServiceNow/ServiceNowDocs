@@ -2,7 +2,10 @@
 title: Manage Developer Support user access
 description: Add designated users to enter a support case for Developer Support. The named contacts are responsible for entering details about a specific issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/manage-developer-support-user-access.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: Impact admin
 
 2.  From the **Actions** menu, select **Update role/access**.
 
-    If the user is not listed in the table, create a new user. See [Impact User Management](ide-user-management.md) for details.
+    If the user is not listed in the table, create a new user. See [Impact User Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/ide-user-management.md) for details.
 
 3.  Select the **Action** icon on the right of the user.
 

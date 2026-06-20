@@ -2,6 +2,7 @@
 title: Change Models properties
 description: Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/change-management/change-models-properties.html
 release: xanadu
 product: Change Management
 classification: change-management
@@ -25,5 +26,5 @@ Enter `sys_properties.list` in the navigation filter and enter `*change_model` i
 |com.snc.change\_management.change\_model.manage\_workflow|Enables Workflow management support for ChangeRequest API if the **com.snc.change\_management.state\_model** plugin is installed. This will call the 'deleteDefaultWorkflowContext' method to be called on specific state and type changes.|
 |com.snc.change\_management.change\_model.type\_compatibility|Enables Change Type Compatibility for Change models if the **com.snc.change\_management.state\_model** plugin is installed. When true allows changes to be created with both the type based workflow and Change models.|
 
-**Parent Topic:**[Change models](../concept/change-models.md)
+**Parent Topic:**[Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/change-management/change-models.md)
 

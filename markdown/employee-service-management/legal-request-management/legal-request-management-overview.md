@@ -2,6 +2,7 @@
 title: Exploring Legal Request Management
 description: Legal Request Management enables authorized employees in the organization to submit legal requests and to track their progress while users in the legal department with appropriate roles can work to resolve these requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-request-management/legal-request-management-overview.html
 release: xanadu
 product: Legal Request Management
 classification: legal-request-management
@@ -15,9 +16,9 @@ breadcrumb: [Legal Request Management, Legal Service Delivery, Employee Service 
 
 Legal Request Management enables authorized employees in the organization to submit legal requests and to track their progress while users in the legal department with appropriate roles can work to resolve these requests.
 
-Employees can read legal knowledge base articles, submit legal requests, monitor the progress of submitted requests, and interact through [Virtual Agent](legal-va-conversations.md).
+Employees can read legal knowledge base articles, submit legal requests, monitor the progress of submitted requests, and interact through [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legal-va-conversations.md).
 
-![Transform and modernize your internal Legal operations through Legal Service Delivery applications.](../image/legal-service-delivery-info.png "Legal Service Delivery")
+\[Omitted image "legal-service-delivery-info.png"\] Alt text: Transform and modernize your internal Legal operations through Legal Service Delivery applications.
 
 ## Features
 
@@ -36,5 +37,5 @@ The benefits of this application include:
 -   Make meaningful decisions by gaining real-time visibility on legal service demands
 -   Track, prioritize, and work on multiple requests concurrently with an optimized Legal Counsel Center
 
-**Parent Topic:**[Legal Request Management](../reference/legal-request-management-landing-page.md)
+**Parent Topic:**[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 

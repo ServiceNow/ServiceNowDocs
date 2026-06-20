@@ -2,6 +2,7 @@
 title: Configure business application costing cost model
 description: Configure the business application costing cost model to allocate expenses and generate bucket cost lines for the fiscal periods to suit your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/modify-bus-app-costing-cost-model.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -112,14 +113,14 @@ Option to show sub-bucket information. If selected, the generated cost lines and
 
 6.  To view the bucket amounts, navigate to **Financial Modeling for APM** &gt; **Bucket Amounts**.
 
-    For more information, see [Create groomed lines for cost models with no data source](create-groomed-lines-costmodel-nodatasource.md).
+    For more information, see [Create groomed lines for cost models with no data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-groomed-lines-costmodel-nodatasource.md).
 
 7.  To view the buckets associated to this cost model, navigate to **Financial Modeling for APM** &gt; **Buckets**.
 
-    For more information, see [Create an account bucket](t_CreateBuckets.md).
+    For more information, see [Create an account bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateBuckets.md).
 
 8.  To access the dashboards available for this cost model, navigate to **Financial Modeling for APM** &gt; **Financial Modeling for APM Dashboards**.
 
 
-**Parent Topic:**[Financial Management for licensed APM users](../concept/financial-management-apm.md)
+**Parent Topic:**[Financial Management for licensed APM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-apm.md)
 

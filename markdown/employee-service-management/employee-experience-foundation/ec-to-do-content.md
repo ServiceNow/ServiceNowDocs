@@ -2,6 +2,7 @@
 title: To-do content
 description: You can assign tasks to your employees that prompts them to take action.You can assign tasks to your employees that prompts your employees to take action. You can also have the to-do as part of a campagin or trigger additional content once a task is completed. To-dos can also be sent via email.Use Content Publishing to create links between a banner or styled content items and to-dos content items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-to-do-content.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,9 +23,9 @@ The types of to-do content you can create are:
 -   Play Video
 -   View Link
 
-For more information on creating to-do content, see [To-do content form](../reference/to-do-content-form.md).
+For more information on creating to-do content, see [To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/to-do-content-form.md).
 
-You can also create to-do content that appears in a banner or styled content. For more information, see [Creating to-do content](ec-to-do-content.md#).
+You can also create to-do content that appears in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-to-do-content.md).
 
 ## Create to-do content
 
@@ -50,15 +51,15 @@ For example, an Open Enrollment for Benefits campaign can have tasks that appear
 
 5.  Fill in the form.
 
-    For more information on each field, see [To-do content form](../reference/to-do-content-form.md).
+    For more information on each field, see [To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/to-do-content-form.md).
 
 6.  Select **Submit** or **Save**.
 
-    The Schedule Content related list appears. For more information on scheduling your content, see [Scheduling the delivery of content](../task/ecpro-schedule-content.md).
+    The Schedule Content related list appears. For more information on scheduling your content, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
-    If you want your to-do content to be a link you can add to a banner or styled content, see [Add or modify links to other content sources](../task/ecpro-manage-link-content.md).
+    If you want your to-do content to be a link you can add to a banner or styled content, see [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md).
 
-    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 
 ## Creating to-do content
@@ -76,8 +77,8 @@ Create to-do links for your banner or styled content items to make it easier to 
 
 To create to-do links for a banner or styled content, do the following:
 
--   Create to-do content: For more information, see [Create to-do content](ec-to-do-content.md#).
--   Create link content referencing your to-do content: For details, see [Add or modify links to other content sources](../task/ecpro-manage-link-content.md)
+-   Create to-do content: For more information, see [Create to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-to-do-content.md).
+-   Create link content referencing your to-do content: For details, see [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
     **Note:** Select **To-do** in the **Type** field. And, select the to-do content you created previously from the **To-do content** list.
 
@@ -91,24 +92,24 @@ To create to-do links for a banner or styled content, do the following:
 
     -   The to-do scheduled content appears in the **To-do scheduled content** field after you select **Save**. Your to-do content also aligns with the schedule of your portal content.
     -   The to-do content is automatically scheduled separately when the link content is scheduled.
-    -   For more information, see [Scheduling the delivery of content](../task/ecpro-schedule-content.md).
+    -   For more information, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
     -   The Content Publishing: Create To-dos scheduled job must run before the content becomes available.
 
 ### Process for Content Experiences \(campaigns\)
 
-To create to-do links for a banner or styled content within a campaign, you must first have a campaign with stages and content. For more information, see [Creating campaigns with Content Experiences](ecpro-campaigns.md). Use the same steps in Content Publishing, but instead of scheduling your content, add it to a campaign stage.
+To create to-do links for a banner or styled content within a campaign, you must first have a campaign with stages and content. For more information, see [Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md). Use the same steps in Content Publishing, but instead of scheduling your content, add it to a campaign stage.
 
 -   Create to-do content.
 -   Create link content referencing your to-do link content.
 -   Create portal content that references your link content.
 -   Add your portal content to a stage/bundle as an activity in your campaign.
     -   You can use the legacy lists and forms or the campaign builder UI to add your portal content.
-    -   For more information, see [Create a campaign](../task/ecpro-manage-campaigns.md).
+    -   For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-manage-campaigns.md).
 -   If you use the campaign builder UI, you will see the banner and link content.
 
-    ![Schedule of content view: Portal content and linked content](../images/content-exps-to-do-link.png)
+    \[Omitted image "content-exps-to-do-link.png"\] Alt text: Schedule of content view: Portal content and linked content
 
--   Use Portal preview to view your content. For details, see [Campaign preview](ecpro-campaign-preview.md).
+-   Use Portal preview to view your content. For details, see [Campaign preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaign-preview.md).
 -   After verifying your content, publish it.
 
     **Note:** You cannot delete the link content without deleting the banner \(parent\) content. You also cannot move the link content to another stage \(bundle\) without moving the banner \(parent\) content.

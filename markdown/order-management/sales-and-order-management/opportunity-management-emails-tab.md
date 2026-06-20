@@ -2,6 +2,7 @@
 title: Compose emails
 description: Create an email to communicate to your customer the product information that meets their business requirements or the product demo as required by your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-emails-tab.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../image/Lists.png)and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "Lists.png"\] Alt text:and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Emails** tab.
 

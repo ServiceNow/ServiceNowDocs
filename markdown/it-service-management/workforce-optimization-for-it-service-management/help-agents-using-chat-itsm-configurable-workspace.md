@@ -2,6 +2,7 @@
 title: Assist agents by joining their chat conversation
 description: Assist agents in real time by joining their chat conversation and collaborate on any record by connecting with the right people instantly to achieve faster resolution​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/help-agents-using-chat-itsm-configurable-workspace.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -39,5 +40,5 @@ View the work-in-progress chat interactions and​ see if any of the agents has 
     The chat conversation is established.
 
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

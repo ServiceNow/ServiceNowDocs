@@ -2,6 +2,7 @@
 title: Use the SetProperty component
 description: Set the properties of an object instance by using the SetProperty component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-utility-reflection-setproperty.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the SetProperty component. For more information about these properties, see [Properties of the Reflection components](../reference/util-reflection-prop.md).
+You can configure the properties for the SetProperty component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-reflection-prop.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ You can configure the properties for the SetProperty component. For more informa
 
 2.  Drag the SetProperty component to the Design surface.
 
-3.  On the SetProperty component bar, click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  On the SetProperty component bar, click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-4.  To add a property, click the add property icon \(![Add property icon.](../image/add-image-icon.png)\).
+4.  To add a property, click the add property icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add property icon.\).
 
 5.  In the **Property Name** box, enter the property name.
 
 6.  Update the property data type from the list.
 
-7.  To configure input fields, see [Configure port properties](configure-input-port-properties.md).
+7.  To configure input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 8.  Connect the data and control ports of the SetProperty component to the corresponding ports of the other components as described in the following table.
 
@@ -51,5 +52,5 @@ You can configure the properties for the SetProperty component. For more informa
 9.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Reflection](../concept/reflection-utility.md)
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/reflection-utility.md)
 

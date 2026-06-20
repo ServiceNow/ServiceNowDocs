@@ -2,6 +2,7 @@
 title: Create a check suite
 description: Create a check suite to bundle a group of checks into a suite and execute it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hc-create-check-suite.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan

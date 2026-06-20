@@ -2,6 +2,7 @@
 title: Compose post incident review questions
 description: You can use the questions that come with the base system or create your own questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/t\_CmpsPstIncdRvwQtns.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

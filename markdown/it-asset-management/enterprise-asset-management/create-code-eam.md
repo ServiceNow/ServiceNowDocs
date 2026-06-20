@@ -2,6 +2,7 @@
 title: Create a failure or resolution code
 description: Create a failure or resolution code to help enterprise asset technicians identify either the asset failure or the solution to the asset problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-code-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Create a failure or resolution code to help enterprise asset technicians identif
 
 The creation of a failure or resolution code is supported in Enterprise Asset Management version 9.0 and later.
 
-The source for the code that you want to create should already be available. For more details, see [Create a source for failure and resolution codes](create-source-failure-res-code.md).
+The source for the code that you want to create should already be available. For more details, see [Create a source for failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-source-failure-res-code.md).
 
 Role required: sn\_eam.enterprise\_admin or inventory\_admin
 
@@ -117,5 +118,5 @@ Source of the code. This field is required.
 
 The code that you created is shown in the Codes list.
 
-**Parent Topic:**[Manage failure and resolution codes](../concept/manage-failure-res-codes-eam.md)
+**Parent Topic:**[Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md)
 

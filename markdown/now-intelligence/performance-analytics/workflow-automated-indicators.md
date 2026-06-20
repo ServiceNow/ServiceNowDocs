@@ -2,6 +2,7 @@
 title: Workflow for creating indicators
 description: Start with ServiceNow AI Platform tables and work your way up to a completed indicator with score collection that you can share on a dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/workflow-automated-indicators.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -17,9 +18,9 @@ Start with ServiceNow AI Platform tables and work your way up to a completed ind
 
 ## Before you begin
 
-Design your KPIs before trying to create them. Using KPI Composer, start by deciding on the business goals you want to achieve with Performance Analytics. For each business goal, determine the critical success factors for that goal. Finally, decide what measurements you need to make to see your progress on those critical success factors. These measurements correspond to the KPIs you need to implement. For more information about designing your Performance Analytics Solution, see [Design your Performance Analytics solution with KPI Composer](../concept/designing-pa-solution.md).
+Design your KPIs before trying to create them. Using KPI Composer, start by deciding on the business goals you want to achieve with Performance Analytics. For each business goal, determine the critical success factors for that goal. Finally, decide what measurements you need to make to see your progress on those critical success factors. These measurements correspond to the KPIs you need to implement. For more information about designing your Performance Analytics Solution, see [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/designing-pa-solution.md).
 
-Once you have your PA indicators designed, check whether one of the prepackaged Platform Analytics Solutions available from ServiceNow meets your needs. Generally speaking, it is a lot easier to customize one of these prepackaged Solutions than to build one from scratch. For more information, see [Analytics solutions](../../dashboards/concept/content-packs-in-form-analytics.md).
+Once you have your PA indicators designed, check whether one of the prepackaged Platform Analytics Solutions available from ServiceNow meets your needs. Generally speaking, it is a lot easier to customize one of these prepackaged Solutions than to build one from scratch. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/content-packs-in-form-analytics.md).
 
 Role required: none
 

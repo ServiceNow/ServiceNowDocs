@@ -2,6 +2,7 @@
 title: Create a work plan for your enterprise assets
 description: Create and manage work plans to specify how and when the work should be performed for any activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-work-plan-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -43,19 +44,19 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 6.  On the Create New Work Plan page, fill in the details.
 
-    For a detailed description of all the work plan fields, see [Work plan fields for Enterprise Asset Management](../reference/wp-fields-eam.md).
+    For a detailed description of all the work plan fields, see [Work plan fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/wp-fields-eam.md).
 
 7.  Select **Save**.
 
     The page closes and you’re automatically redirected to the new work plan record.
 
-    You can further configure your work plan by creating [planned work schedules](create-eam-planned-work-schedule.md), planned work records, and work orders.
+    You can further configure your work plan by creating [planned work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-planned-work-schedule.md), planned work records, and work orders.
 
     You can view all your work plan records in the list view in the **Maintenance plans** tab. Every work plan record is prefixed with **WP**.
 
 
--   **[Create a planned work schedule for your work plan](create-eam-planned-work-schedule.md)**  
+-   **[Create a planned work schedule for your work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-eam-planned-work-schedule.md)**  
 Create a planned work schedule to specify when you want the work plan to run and how frequently the schedule should run. You can apply one or more planned work schedules to a single work plan.
 
-**Parent Topic:**[Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md)
+**Parent Topic:**[Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Now Support administration
 description: The Now Support portal is where you can access self-help, get technical support, and manage your ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/now-support-administration.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,12 +20,12 @@ If you are responsible for managing, monitoring, or maintaining your company's S
 
 **Note:** For information about the types of notifications different Now Support users may receive, see [KB0547262: Company Key Contacts and Notification List Overview on Now Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0547262).
 
--   **[View Now Support users](view-now-support-users.md)**  
+-   **[View Now Support users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/view-now-support-users.md)**  
 As a Now Support admin, you can view active and inactive users and their roles.
--   **[Create a user in Now Support](create-a-user-in-now-support.md)**  
+-   **[Create a user in Now Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-a-user-in-now-support.md)**  
 You can create users in Now Support and assign them access roles.
--   **[Manage user access in Now Support](manage-user-access-in-now-support.md)**  
+-   **[Manage user access in Now Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/manage-user-access-in-now-support.md)**  
 You can manage users in Now Support and change their access roles.
 
-**Parent Topic:**[Getting started on the ServiceNow AI Platform](get-started-now-platform.md)
+**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/get-started-now-platform.md)
 

@@ -2,6 +2,7 @@
 title: Related feeds table notification
 description: This example demonstrates table notifications to be sent out to related feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/c\_Example4RelatedFeeds.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -31,5 +32,5 @@ For this example, whenever the status of a story changes to **Complete**, a tabl
     ```
 
 
-**Parent Topic:**[Live Feed table notification examples](c_LFTableNotifiExamples.md)
+**Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)
 

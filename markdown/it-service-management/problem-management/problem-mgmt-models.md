@@ -2,6 +2,7 @@
 title: Problem Management models
 description: You can use Problem Management models to tailor processes for specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/problem-management/problem-mgmt-models.html
 release: xanadu
 product: Problem Management
 classification: problem-management
@@ -40,9 +41,9 @@ Test Problem Management models in a non-production instance first. If you have c
 
 To begin working with custom models, see the following topics:
 
--   [Enable Problem Management models](../task/enable-problem-mgmt-models.md)
--   [Create a problem model](../task/create-problem-model.md)
--   [Create a problem task model](../task/create-problem-task-model.md)
+-   [Enable Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/enable-problem-mgmt-models.md)
+-   [Create a problem model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/create-problem-model.md)
+-   [Create a problem task model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/create-problem-task-model.md)
 
 **Note:** Any problems or problem tasks that were created before you enable Problem Management models will continue to use the non-model life cycle.
 
@@ -58,5 +59,5 @@ Service Operations Workspace 5.x is based on the Washington DC release and it do
 
 If you are using Service Operations Workspace 5.x and you enable Problem Management models, you will manage problems and problem tasks in the classic UI16 experience, rather than in Service Operations Workspace.
 
-**Parent Topic:**[Exploring Problem Management](exploring-problem-management.md)
+**Parent Topic:**[Exploring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/problem-management/exploring-problem-management.md)
 

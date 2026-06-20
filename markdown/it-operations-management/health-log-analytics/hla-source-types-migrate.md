@@ -2,6 +2,7 @@
 title: Export source types to an update set
 description: Export source types to an update set separate from the Health Log Analytics data input configuration. You can then import the update set to the target environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-source-types-migrate.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,7 +19,7 @@ Export source types to an update set separate from the Health Log Analytics data
 
 ## Before you begin
 
-For an overview of this feature, see [Migrating Health Log Analytics data input configurations between instances](../concept/hla-data-input-migration.md).
+For an overview of this feature, see [Migrating Health Log Analytics data input configurations between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-migration.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -41,7 +42,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-Import the update set to the required ServiceNow instance. For more information, see [Import source types to a target instance](hla-source-types-import.md).
+Import the update set to the required ServiceNow instance. For more information, see [Import source types to a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-types-import.md).
 
-**Parent Topic:**[Migrating Health Log Analytics data input configurations between instances](../concept/hla-data-input-migration.md)
+**Parent Topic:**[Migrating Health Log Analytics data input configurations between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-migration.md)
 

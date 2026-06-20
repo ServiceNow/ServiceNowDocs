@@ -2,6 +2,7 @@
 title: Components installed with Document Template integration with AdobeSign
 description: Several types of components are installed with activation of the Document Template Integration with AdobeSign \[sn\_dt\_adobesign\] plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/installed-with-adodoc.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,5 +50,5 @@ None
 
 |Table|Description|
 |-----|-----------|
-|Document Template Adobe Sign Groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign Groups. For more information, see [Create adobe sign groups](../task/create-adobe-groups.md).|
+|Document Template Adobe Sign Groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign Groups. For more information, see [Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/create-adobe-groups.md).|
 

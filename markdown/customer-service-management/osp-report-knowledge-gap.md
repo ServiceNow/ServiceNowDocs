@@ -2,7 +2,10 @@
 title: Report knowledge gap from a case
 description: When an OSP agent has a knowledge gap which impacts the ability to resolve a case, the agent can report the knowledge gap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/osp-report-knowledge-gap.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Legal Service Delivery \(LSD\)
 description: With the Now Assist for Legal Service Delivery \(LSD\) application, request fulfillers can use generative AI to summarize a legal request or legal matter. Request fulfillers or legal users can also generate actionable answers from knowledge article search results in Employee Center, Legal Counsel Center, and global search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.html
 release: xanadu
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -29,22 +30,22 @@ The Now Assist for Legal Service Delivery \(LSD\) application provides an AI-gen
 
 The summary is displayed above the activity stream and includes the information from the fields and variablesconfigured as inputs.
 
-For more information on the fields and variables that are considered for summarization, see [Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-skill-inputs.md) and [Configure variables for Now Assist summarization](../task/configure-variables-for-now-assist-summarization.md).
+For more information on the fields and variables that are considered for summarization, see [Skill inputs for Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-skill-inputs.md) and [Configure variables for Now Assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/configure-variables-for-now-assist-summarization.md).
 
-For information on activating the Legal Request summarization skill or the Legal Matter summarization skill, see [Configure Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-configuring.md). For information on how to use the skills on Legal Counsel Center, see [Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](../task/now-assist-lsd-summarize-case.md).
+For information on activating the Legal Request summarization skill or the Legal Matter summarization skill, see [Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md). For information on how to use the skills on Legal Counsel Center, see [Summarize a legal request or matter by using Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md).
 
 ## Q&amp;A Genius Results
 
 Q&amp;A Genius Results use the Now LLM Service to generate search results from knowledge article results in Employee Center, Legal Counsel Center, and global search.
 
-The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see [Genius Results](https://www.servicenow.com/docs/access?context=genius-results-ais&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+The Q&amp;A Genius Result answer card shows a topic snippet and an answer snippet that was extracted from a knowledge article. You can view the full article directly from the answer card. For more information, see .
 
 It is enabled when both AI Search and Now Assist for Legal Service Delivery \(LSD\) are activated.
 
-![Q&A Genius search results in Legal Counsel Center.](../image/lsd-na-genius-result.png)
+\[Omitted image "lsd-na-genius-result.png"\] Alt text: Q&amp;A Genius search results in Legal Counsel Center.
 
--   **[Supporting information for Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-support-info.md)**  
+-   **[Supporting information for Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Legal Service Delivery \(LSD\) application.
 
-**Parent Topic:**[Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-landing.md)
+**Parent Topic:**[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

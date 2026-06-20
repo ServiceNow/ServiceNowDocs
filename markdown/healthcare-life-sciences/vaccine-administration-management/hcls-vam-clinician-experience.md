@@ -2,6 +2,7 @@
 title: Using Clinician Portal to find and manage vaccination appointments for users
 description: As a user with the sn\_vaccine\_sm.clinician role, you can find vaccination appointments for users, view all of their upcoming appointments for a particular location, view, and work on a vaccination record, mark an appointment as a no-show, cancel an appointment, and more, all from within a single portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -15,7 +16,7 @@ breadcrumb: [Using Vaccine Administration Management, Vaccine Administration Man
 
 As a user with the sn\_vaccine\_sm.clinician role, you can find vaccination appointments for users, view all of their upcoming appointments for a particular location, view, and work on a vaccination record, mark an appointment as a no-show, cancel an appointment, and more, all from within a single portal.
 
-![Vaccine Administration Management clinician portal landing page where users can manage appointments, scan QR codes to find appointments, and view a calendar of all appointments.](../image/vam-clinician-portal-landing-page-v5.1.png "Clinician portal")
+\[Omitted image "vam-clinician-portal-landing-page-v5.1.png"\] Alt text: Vaccine Administration Management clinician portal landing page where users can manage appointments, scan QR codes to find appointments, and view a calendar of all appointments.
 
 **Note:** The clinician portal is optimized for both tablet and mobile. However, the mobile view does not currently support the selection of more than one appointment at a time for bulk updates.
 
@@ -39,7 +40,7 @@ Clinicians can find vaccination appointments by scanning the user's QR code, ent
 
 </td><td>
 
-![The Manage your appointments view which displays the user's upcoming appointments.](../image/vam-clinician-portal-find-appointments-v5.1.png)
+\[Omitted image "vam-clinician-portal-find-appointments-v5.1.png"\] Alt text: The Manage your appointments view which displays the user's upcoming appointments.
 
 </td></tr></tbody>
 </table>## View and search appointments
@@ -60,7 +61,7 @@ From the list view, clinicians can view all appointments for a particular locati
 
 </td><td>
 
-![List view of appointments, filtered by date range and organized by name, appointment date and time, code, vaccine, and status.](../image/vam-clinician-portal-appointment-list-view-v6.png)
+\[Omitted image "vam-clinician-portal-appointment-list-view-v6.png"\] Alt text: List view of appointments, filtered by date range and organized by name, appointment date and time, code, vaccine, and status.
 
 </td></tr></tbody>
 </table>## View and work on an appointment
@@ -97,8 +98,8 @@ If there are multiple vaccines booked under the same appointment and if the clin
 
 </td><td>
 
-![The appointment details view which displays patient information and vaccination appointment cases.](../image/vam-clinician-portal-appointment-details-v5.png) ![The appointment details view which displays patient information and vaccination appointment cases.](../image/vam-clinician-portal-appointment-details-02:22.png)
+\[Omitted image "vam-clinician-portal-appointment-details-v5.png"\] Alt text: The appointment details view which displays patient information and vaccination appointment cases. \[Omitted image "vam-clinician-portal-appointment-details-02:22.png"\] Alt text: The appointment details view which displays patient information and vaccination appointment cases.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Vaccine Administration Management](using-vaccine-administration-management.md)
+</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
 

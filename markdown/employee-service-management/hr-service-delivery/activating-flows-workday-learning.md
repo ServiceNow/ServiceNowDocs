@@ -2,6 +2,7 @@
 title: Activate schedule flows
 description: Activate the schedule flow that interacts with Workday Learning to pull user profile information and tasks into a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/activating-flows-workday-learning.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,6 +44,6 @@ Role required: sn\_lrn\_workday.admin
 
     **Note:** These subflows are editable. If you want to make changes to the configurations that are shipped along with HR Service Delivery Integration with Workday Learning
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](../concept/use-transform-maps-wd-learning.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/use-transform-maps-wd-learning.md).
 
 

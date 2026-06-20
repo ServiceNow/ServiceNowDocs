@@ -2,6 +2,7 @@
 title: List method properties
 description: View or update the List method properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/list-method-properties.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ View or update the List method properties.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[List](list-connector.md)
+**Parent Topic:**[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/list-connector.md)
 

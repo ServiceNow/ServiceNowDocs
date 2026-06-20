@@ -2,6 +2,7 @@
 title: Testing and sending events
 description: You can manually test and send events to confirm that Event Management properly manages events and generates alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/t\_EMCreateEventManually.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -169,5 +170,5 @@ A JSON string that gives more information about the event. The JSON data is supp
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Processing Events](../concept/processing-events.md)
+**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/processing-events.md)
 

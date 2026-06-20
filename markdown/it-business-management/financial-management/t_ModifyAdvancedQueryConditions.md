@@ -2,6 +2,7 @@
 title: Modify advanced query conditions
 description: You can modify existing advanced query conditions, which define how expenses are added to buckets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_ModifyAdvancedQueryConditions.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -35,7 +36,7 @@ Role required: cost\_transparency\_admin
 
 4.  Click **Update**.
 
-    ![Example grooming condition](../image/Advanced_query_condition.png "Example grooming condition")
+    \[Omitted image "Advanced\_query\_condition.png"\] Alt text: Example grooming condition
 
     |Field|Description|
     |-----|-----------|
@@ -49,5 +50,5 @@ Role required: cost\_transparency\_admin
     |Advanced bucketing condition|The condition that determines the financial data that must meet the advanced query condition. Use the condition builder to create the filter.|
 
 
-**Parent Topic:**[Grooming and cleansing conditions](../concept/c_GroomingConditions.md)
+**Parent Topic:**[Grooming and cleansing conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_GroomingConditions.md)
 

@@ -2,6 +2,7 @@
 title: Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration
 description: Configure your profile settings so that the profile triggers only under the conditions that you set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/mcafee-epo-configure-profile.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,15 +30,15 @@ Define the conditions that automatically trigger the McAfee ePO capabilities tha
 
 2.  On the form, fill the fields
 
-<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d179250e79">
+<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d173928e79">
 
 Option
 
-</th><th align="left" id="d179250e82">
+</th><th align="left" id="d173928e82">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d179250e88">
+</th></tr></thead><tbody><tr><td id="d173928e88">
 
 **Enable alternate CI trigger field**
 
@@ -47,9 +48,9 @@ Alternate configuration item \(CI\) trigger field. Default is cleared. When this
 
 Select this check box if you believe the CI field will not be populated upon incident creation, but CI information will be populated in another field on the security incident. When this option is enabled, the Alternate CI trigger field choice list is displayed. Choose an alternate field from the choice list to check for your CI search criteria.
 
-For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](../concept/mcafee-epo-alternate-ci.md).
+For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
-</td></tr><tr><td id="d179250e120">
+</td></tr><tr><td id="d173928e120">
 
 **Display Tags**
 
@@ -57,7 +58,7 @@ For more information on the alternate CI trigger field, see [Defining triggering
 
 Security tags are displayed on security incidents. Default is cleared.When this check box is cleared, and the tagging option is disabled, no security tag names are displayed on the configuration form, and tags are not displayed on related security incidents. For this example, the security tags option is disabled.
 
-</td></tr><tr><td id="d179250e132">
+</td></tr><tr><td id="d173928e132">
 
 **Auto trigger based on incident**
 
@@ -71,7 +72,7 @@ A common example of a filter for a profile that runs enrichment queries is `Cate
 
 These filter settings remain saved until you change them, and they are available for editing during the preview and test incident step of the configuration.
 
-</td></tr><tr><td id="d179250e154">
+</td></tr><tr><td id="d173928e154">
 
 **Require approval**
 
@@ -82,7 +83,7 @@ Request approval option. Default is cleared.This approval option is available fo
 When the check box is cleared, and this option is disabled, no approval requests are submitted. For this example, no prior permission is required for system enrichment queries.
 
 </td></tr></tbody>
-</table>    ![Configure McAfee capability profile](../image/mcafee-epo-profile-config.png)
+</table>    \[Omitted image "mcafee-epo-profile-config.png"\] Alt text: Configure McAfee capability profile
 
 3.  To enable the alternate CI field option and set the filtering conditions that automatically invoke this profile, follow these steps.
 
@@ -111,5 +112,5 @@ When the check box is cleared, and this option is disabled, no approval requests
     You have successfully configured the profile so it is triggered automatically upon incident creation, and an alternate field is used to populate matching CI results.
 
 
-**Parent Topic:**[Configuring profiles for the McAfee ePO integration](../concept/mcafee-epo-configuring-profile.md)
+**Parent Topic:**[Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
 

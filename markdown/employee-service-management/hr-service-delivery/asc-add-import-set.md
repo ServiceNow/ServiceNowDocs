@@ -2,6 +2,7 @@
 title: Add an import set of alumni for Alumni Service Center
 description: Use System Import Sets to upload your file of alumni.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/asc-add-import-set.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,6 +44,6 @@ Role required: import\_set\_loader
 
 11. To view the import set, click the import \(ISET\) set number link.
 
-    To view a list of staged alumni, see [Edit staged users for Alumni Service Center](asc-staged-users.md)
+    To view a list of staged alumni, see [Edit staged users for Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/asc-staged-users.md)
 
 

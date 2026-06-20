@@ -2,6 +2,7 @@
 title: View details in Relationship Graph
 description: Relationship Graph for observables, indicators, and various other entities in TISC has associated relationship graphs. Using the Visualizer, you can view the relationships between observables, indicators, and entities which provides context for you to further investigate. The Visualizer uses colors and icons to illustrate various information about the objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/objects-visualizer.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,7 +20,7 @@ Role required: sn\_sec\_tisc.analyst
 
 The relationship graphs displays two different levels of nodes association as part of its related records.
 
-![Objects Visualizer](../image/tisc-visualizer.png "Two levels of Relationship Graph")
+\[Omitted image "tisc-visualizer.png"\] Alt text: Objects Visualizer
 
 You can do the following:
 
@@ -30,8 +31,8 @@ You can do the following:
 
 -   You can also click on the pop out icon to view the graph in a much larger window.
 
--   **[Link node actions in Relationship Graph](../task/tisc-link-nodes.md)**  
+-   **[Link node actions in Relationship Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-link-nodes.md)**  
 Add new related records to link the nodes.
 
-**Parent Topic:**[Observables](observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/observables.md)
 

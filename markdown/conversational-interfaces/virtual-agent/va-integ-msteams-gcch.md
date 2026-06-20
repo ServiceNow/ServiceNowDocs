@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD
 description: You can integrate Virtual Agent with Microsoft Teams for GCC-H \(Government Community Cloud - High\) or DoD \(Department of Defense\) customers by configuring your own bots. The self-configured method provides another way for customers to enable the integration without installing the default Now Virtual Agent app that is published on the Microsoft Store. The self-configured bot bypasses the collaboration proxy architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -15,9 +16,9 @@ breadcrumb: [Conversational Integration with Microsoft Teams, Integrating Virtua
 
 You can integrate Virtual Agent with Microsoft Teams for GCC-H \(Government Community Cloud - High\) or DoD \(Department of Defense\)customers by configuring your own bots. The self-configured method provides another way for customers to enable the integration without installing the default Now Virtual Agent app that is published on the Microsoft Store. The self-configured bot bypasses the collaboration proxy architecture.
 
-If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your Self-configured bot with single Microsoft Teams tenant](../task/teams-install-custom-app.md).
+If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your Self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 
-If you are aMicrosoft GCC \(GovtCommunityCloud\) customer, do not follow this step. Instead, refer to [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](va-integ-teams-self-configured-bot.md).
+If you are aMicrosoft GCC \(GovtCommunityCloud\) customer, do not follow this step. Instead, refer to [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).
 
 ## Prerequisites
 
@@ -34,8 +35,8 @@ Before integrating Virtual Agent with your Microsoft Teams tenant, ensure that t
 
 ## What to do next
 
-1.  [Plugins for Conversational Integration with Microsoft Teams](../reference/addtional-plugins-msteams.md).
-2.  [Create a bot in Microsoft Teams for GCC-H or DoD](../task/create-msteams-bot-gcch.md).
-3.  [Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD](../task/link-msteams-bot-snow.md).
-4.  [Auto-generate the manifest file and upload it into Microsoft Teams for GCC-H or DoD](../task/upload-app-package-msteams.md).
+1.  [Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md).
+2.  [Create a bot in Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.md).
+3.  [Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md).
+4.  [Auto-generate the manifest file and upload it into Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/upload-app-package-msteams.md).
 

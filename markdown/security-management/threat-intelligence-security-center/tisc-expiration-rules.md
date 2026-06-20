@@ -2,13 +2,14 @@
 title: Defining Expiration Rules
 description: Define expiration rules for various observables or a combination of various source objects or indicators source that are created in TISC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-expiration-rules.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
-breadcrumb: [About Rules Engine in TISC, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Defining Expiration Rules
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d371699e97">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d180272e97">
 
 Field
 
-</th><th align="left" id="d371699e100">
+</th><th align="left" id="d180272e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d371699e106">
+</th></tr></thead><tbody><tr><td id="d180272e106">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Enter a name for the expiration rule.
 
-</td></tr><tr><td id="d371699e115">
+</td></tr><tr><td id="d180272e115">
 
 **Description**
 
@@ -55,7 +56,7 @@ Enter a name for the expiration rule.
 
 Enter a description for the expiration rule.
 
-</td></tr><tr><td id="d371699e124">
+</td></tr><tr><td id="d180272e124">
 
 **Expiry period \(days\)**
 
@@ -65,7 +66,7 @@ Specify the time duration after which the data ingested should expire or conside
 
 **Note:** Whatever the data that is ingested from the source will be expired 100 days after the ingestion.
 
-</td></tr><tr><td id="d371699e137">
+</td></tr><tr><td id="d180272e137">
 
 **Data Sources**
 
@@ -77,7 +78,7 @@ If you want to select indicator as an object you must select the object and then
 
 **Note:** By default, a sample expiration rule sn\_sec\_tisc\_m2m\_entity\_rules is provisioned for the users within the base system. For Observables, this sample expiration rule will be in disabled state. You must enable and activate the rule. To apply the rule on the source records, you must enable the rule.
 
-</td></tr><tr><td id="d371699e159">
+</td></tr><tr><td id="d180272e159">
 
 **Category**
 
@@ -85,7 +86,7 @@ If you want to select indicator as an object you must select the object and then
 
 Indicates the expiration rule category type for the current data source. Select the category type from the drop-down list such as observable or object.
 
-</td></tr><tr><td id="d371699e168">
+</td></tr><tr><td id="d180272e168">
 
 **Type of Records**
 
@@ -107,6 +108,6 @@ Select the type of records.
 6.  Click **Delete** if you wish to delete any expiration rule.
 
 
--   **[Expiration rules for source records](../concept/tisc-expiration-source.md)**  
+-   **[Expiration rules for source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-expiration-source.md)**  
 Expiration rules are basically helpful to set the expiration time for the source records. The aggregate record inherits the highest expiration time from its corresponding sources records.
 

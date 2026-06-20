@@ -2,6 +2,7 @@
 title: Indexed Source History form
 description: The Indexed Source History form records details of content and metadata ingestion and indexing for an AI Search indexed source. Use this form when reviewing the ingestion history for an indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/indexed-source-history-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Indexed Source History form records details of content and metadata ingestion and indexing for an AI Search indexed source. Use this form when reviewing the ingestion history for an indexed source.
 
-To learn how to review the ingestion history for an indexed source, see [Review ingestion history for an indexed source](../task/review-history-indexed-source-ais.md).
+To learn how to review the ingestion history for an indexed source, see [Review ingestion history for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/review-history-indexed-source-ais.md).
 
 <table id="table_nds_jcb_5nb"><thead><tr><th>
 
@@ -146,5 +147,5 @@ Documents Processed per Second \(DPS\)
 Average number of source records and attachments processed per second for the ingestion event.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

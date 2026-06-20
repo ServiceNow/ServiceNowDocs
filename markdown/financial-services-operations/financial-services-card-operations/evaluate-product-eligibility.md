@@ -2,6 +2,7 @@
 title: Evaluate the product eligibility for a customer
 description: Evaluate the eligibility of the requested product for the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-card-operations/evaluate-product-eligibility.html
 release: xanadu
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,7 +20,7 @@ Evaluate the eligibility of the requested product for the customer.
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,19 +30,19 @@ A credit card task to evaluate the product eligibility is automatically created 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d62584e105">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d27513e105">
 
 Option
 
-</th><th align="left" id="d62584e108">
+</th><th align="left" id="d27513e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62584e114">
+</th></tr></thead><tbody><tr><td id="d27513e114">
 
 **From a credit card service case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d62584e147">
+</td></tr><tr><td id="d27513e147">
 
 **From the Credit Card Task list**
 

@@ -2,13 +2,14 @@
 title: Add to TAXII Collections from Library List View
 description: Add to TAXII Collections feature enables analysts to add the selected threat intelligence including observables, indicators, and objects such as attack patterns, threat actors and so on directly to TAXII collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-obs-add-taxii-collects.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-11-17"
 reading_time_minutes: 3
-breadcrumb: [Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Add to TAXII Collections from Library List View
@@ -37,7 +38,7 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
     All the templates configured on the Outbound Intel Sharing page appear here, allowing you to select the one you need. For more information, see .
 
-    ![Add to TAXII Collections](../image/tisc-add-taxii-collection-lib.png)
+    \[Omitted image "tisc-add-taxii-collection-lib.png"\] Alt text: Add to TAXII Collections
 
 5.  Select **Add**.
 
@@ -69,7 +70,7 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
     When you attempt to add such records to a TAXII Collection, the application will indicate that they have been excluded \(see the screenshot below\), ensuring that only the intended and allowed intelligence is shared. For more information on the exclusion rules, see .
 
-    ![Excluded records on Add to TAXII Collections](../image/tisc-excluded-records-taxii-collect.png)
+    \[Omitted image "tisc-excluded-records-taxii-collect.png"\] Alt text: Excluded records on Add to TAXII Collections
 
 
 ## What to do next

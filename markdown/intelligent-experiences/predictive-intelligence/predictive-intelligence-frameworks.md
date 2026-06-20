@@ -2,6 +2,7 @@
 title: Predictive Intelligence frameworks
 description: Predictive Intelligence provides three different model frameworks in the Xanadu release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/predictive-intelligence/predictive-intelligence-frameworks.html
 release: xanadu
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -25,7 +26,7 @@ Enable Predictive Intelligence to handle volumes of incoming requests at lower c
 -   The number of interactions required to resolve tasks.
 -   The error rates of categorizing and assigning work.
 
-For more information, see [Create and train a classification solution](../task/create-solution-definition.md).
+For more information, see [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 ## Predictive Intelligence similarity framework
 
@@ -33,13 +34,13 @@ The Predictive Intelligence similarity framework identifies existing records tha
 
 The similarity framework doesn't need an exact match of keywords for its text comparisons because its algorithms identify similar words and synonyms based on similar contexts. For example, the phrases printer not working and printer broken are both recognized as similar. The framework also collects, learns, and applies your industry-specific context. For example, the phrase unable to join network has a different context in a computer networking company than it does in a healthcare insurance company.
 
-The similarity framework uses a workflow similarity solution. For more information, see [Create and train a similarity solution](../task/create-similarity-solution.md).
+The similarity framework uses a workflow similarity solution. For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-similarity-solution.md).
 
 ## Predictive Intelligence clustering framework
 
 Clustering divides data into groups that can then be used to identify patterns. You can then address records collectively or find gaps in existing data. For example, you can group similar new incidents to identify a major outage.
 
-The clustering framework uses a workflow clustering solution. For more information, see [Create and train a clustering solution](../task/create-clustering-solution.md).
+The clustering framework uses a workflow clustering solution. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
 
 ## Deprecated in the Washington DC release: Predictive Intelligence regression framework
 
@@ -47,5 +48,5 @@ The clustering framework uses a workflow clustering solution. For more informati
 
 Regression is a machine-learning framework that uses historic data to predict numeric outputs, such as a temperature or a stock price.
 
-For more information, see [Create and train a regression solution](../task/create-regression-solution.md).
+For more information, see [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/create-regression-solution.md).
 

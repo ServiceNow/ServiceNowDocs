@@ -2,6 +2,7 @@
 title: Link node actions in Relationship Graph
 description: Add new related records to link the nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-link-nodes.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -33,7 +34,7 @@ Role required: sn\_sec\_tisc.analyst
 
     **Note:** This action is only available at a home node level.
 
-    ![TISC link nodes](../image/tisc-link-node-actions.png)
+    \[Omitted image "tisc-link-node-actions.png"\] Alt text: TISC link nodes
 
 6.  Select the entity type such as observable.
 
@@ -43,7 +44,7 @@ Role required: sn\_sec\_tisc.analyst
 
     The observables are added to the parent node.
 
-    ![Add observables](../image/tisc-link-add-observables.png)
+    \[Omitted image "tisc-link-add-observables.png"\] Alt text: Add observables
 
 9.  Select **Unlink** to unlink the related records from the nodes.
 
@@ -52,5 +53,5 @@ Role required: sn\_sec\_tisc.analyst
 10. Select **Show details** to see the associated observables data.
 
 
-**Parent Topic:**[View details in Relationship Graph](../concept/objects-visualizer.md)
+**Parent Topic:**[View details in Relationship Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/objects-visualizer.md)
 

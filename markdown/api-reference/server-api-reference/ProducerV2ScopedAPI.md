@@ -2,6 +2,7 @@
 title: ProducerV2 - Scoped
 description: The ProducerV2 API provides methods to publish messages from your ServiceNow instance to a Kafka topic.Sends the specified message to the specified Kafka topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/ProducerV2ScopedAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ The ProducerV2 API provides methods to publish messages from your ServiceNow ins
 
 This API requires the ServiceNow Stream Connect Installer plugin \(com.glide.hub.stream\_connect.installer\) and runs in the `sn_ih_kafka` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## ProducerV2 - send\(String topicSysID, String key, String message, Boolean isSync, Object headers, String schemaID\)
 
@@ -119,7 +120,7 @@ String
 
 Sys\_id of the schema record.
 
- Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see [Schema management in Stream Connect](https://www.servicenow.com/docs/access?context=schema-management&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US).
+ Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see .
 
 </td></tr></tbody>
 </table>|Type|Description|

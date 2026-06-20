@@ -2,7 +2,10 @@
 title: Service Catalog dashboard
 description: Dashboard providing a view into metrics for catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-catalog.html
 release: xanadu
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2024-09-02"
 reading_time_minutes: 1

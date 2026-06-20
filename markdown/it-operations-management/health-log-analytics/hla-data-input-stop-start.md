@@ -2,6 +2,7 @@
 title: Stop or restart using a data input in Health Log Analytics
 description: You can stop using a data input for streaming log messages to your ServiceNow instance. Restart the data input if you want it to resume streaming data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-stop-start.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -35,5 +36,5 @@ Role required: evt\_mgmt\_admin
 4.  To start using the data input again, select **Start Data Input**.
 
 
-**Parent Topic:**[Health Log Analytics data input setup](../concept/hla-implement.md)
+**Parent Topic:**[Health Log Analytics data input setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-implement.md)
 

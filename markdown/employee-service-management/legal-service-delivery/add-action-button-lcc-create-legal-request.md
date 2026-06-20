@@ -2,6 +2,7 @@
 title: Add action button in Legal Counsel Center Classic to create legal request
 description: Add a declarative action button in the Legal Counsel Center Classic to easily create a legal request from the workspace and resolve a request without navigating to the Legal Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/add-action-button-lcc-create-legal-request.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -20,7 +21,7 @@ Add a declarative action button in the Legal Counsel Center Classic to easily cr
 **Important:**
 
 -   The legacy Legal Counsel Center was renamed as Legal Counsel Center Classic.
--   Legal Counsel Center Classic is being prepared for deprecation. It will be hidden and no longer available for activation for new customers but will continue to work and be supported for existing customers. For enhanced workspace experience, use [Legal Counsel Center](../concept/legal-counsel-center-landing.md). For details, see the Deprecation Process \[KB0867184\] article in the Now Support knowledge base.
+-   Legal Counsel Center Classic is being prepared for deprecation. It will be hidden and no longer available for activation for new customers but will continue to work and be supported for existing customers. For enhanced workspace experience, use [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md). For details, see the Deprecation Process \[KB0867184\] article in the Now Support knowledge base.
 -   If you are upgrading Legal Counsel Center Classic to the latest Xanadu release versions, make sure you have first upgraded it to the Washington DC release version of 6.3.8 or 6.4.1.
 -   If you are using Legal Counsel Center Classic and want to upgrade to the Xanadu family release, ensure you upgrade to the Washington DC release first.
 
@@ -42,7 +43,7 @@ A legal fulfiller adds a declarative button in the Legal Counsel Center Classic 
 
 4.  Set the **Implemented as** field to **Client Action**.
 
-5.  In the **Specify client action** field, select the **Lookup using list** icon \(![Lookup using list icon](../image/lookup-using-list.png)\).
+5.  In the **Specify client action** field, select the **Lookup using list** icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
 6.  In the Action Payload Definition form, fill in the details to create a record.
 
@@ -50,7 +51,7 @@ A legal fulfiller adds a declarative button in the Legal Counsel Center Classic 
 
     2.  Enter `ITEM_SELECTED` in the **Key** field.
 
-    3.  Select the **Lock** icon \(![Lock icon](../image/lock.png)\) to unlock the **Applicable To** field.
+    3.  Select the **Lock** icon \(\[Omitted image "lock.png"\] Alt text: Lock icon\) to unlock the **Applicable To** field.
 
         Enter the details in the **Applicable To** field to define the location where the action payload is applicable.
 
@@ -82,7 +83,7 @@ A legal fulfiller adds a declarative button in the Legal Counsel Center Classic 
 
     1.  Select **Advanced View**.
 
-    2.  In the **Group** field, select the Lookup using list icon \(![Lookup using list icon](../image/lookup-using-list.png)\) and select the **Group By** check box.
+    2.  In the **Group** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\) and select the **Group By** check box.
 
     3.  Select **Legal Request Types**
 

@@ -2,6 +2,7 @@
 title: Unsupported Virtual Agent features for Conversational IVR
 description: Refer to the unsupported features of Virtual Agent in Conversational IVR with Amazon Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/limited-ivr-features.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

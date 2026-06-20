@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Customer Service Management \(CSM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -73,7 +74,7 @@ Now Assist for CSM supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Enable translation for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+For more info, see 
 
 ## Application information
 
@@ -90,7 +91,7 @@ Activate the applications in the following order:
 2.  UXC Generative AI
 3.  Now Assist for CSM
 
-For more information, see [Configure Now Assist for Customer Service Management \(CSM\)](now-assist-csm-configuring.md).
+For more information, see [Configure Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
-**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](now-assist-csm-exploring.md)
+**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 

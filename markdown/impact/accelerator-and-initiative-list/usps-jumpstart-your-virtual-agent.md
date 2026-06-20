@@ -2,6 +2,7 @@
 title: Jumpstart Your Virtual Agent- US Public Accelerator
 description: Guidance on realizing the benefits from ITSM Virtual Agent
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/usps-jumpstart-your-virtual-agent.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

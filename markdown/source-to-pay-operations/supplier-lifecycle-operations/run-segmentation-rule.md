@@ -2,6 +2,7 @@
 title: Run segmentation rule
 description: Run a segmentation rule to create and activate KPIs corresponding to the KPI templates and suppliers in that segment. This action also creates new collection tasks and assigns them to suppliers to collect their KPI data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**.
 
 3.  In the Name column, select the link to the segmentation rule.
 
@@ -37,5 +38,5 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
     **Note:** If the number of suppliers to be processed in the segmentation rule is too large, it may lead to a risk of a timeout.
 
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

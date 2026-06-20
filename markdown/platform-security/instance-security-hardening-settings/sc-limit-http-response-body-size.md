@@ -2,6 +2,7 @@
 title: Limit HTTP response body size \[New in Security Center 1.3 and updated in 1.5\]
 description: Configure the glide.http.response.get\_body.limit.enabled and glide.http.response.get\_body.limit properties to protect your instance against OutOfMemoryExceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-limit-http-response-body-size.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Functional impact
 This property reduces the chances of anOutOfMemoryException due to a customer accidentally loading a large file into memory.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

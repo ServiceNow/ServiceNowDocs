@@ -2,6 +2,7 @@
 title: Data lookup and record matching support
 description: The data lookup and record matching feature enables administrators to define rules that automatically set one or more field values when certain conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_DataLookRecMatchSupport.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -26,8 +27,8 @@ The following codes will be removed by manually activating the **com.glide.data\
 -   ys\_script\_d1b7d4af4655e7c2001be4c18b99215a
 -   sys\_script\_include\_9e1904840a0a0b7d00d5ee8d0e2d89ef
 
--   **[Create custom data lookups](../reference/r_CreateCustomDataLookups.md#)**  
+-   **[Create custom data lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_CreateCustomDataLookups.md)**  
 Creating custom data lookups involves adding a lookup value, creating the definition, and activating data lookup.
 
-**Parent Topic:**[Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
+**Parent Topic:**[Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
 

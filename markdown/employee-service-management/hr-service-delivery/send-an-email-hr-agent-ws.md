@@ -2,6 +2,7 @@
 title: Sending an email in HR Agent Workspace
 description: Send an email with attached documents or communicate about the HR case from the HR Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/send-an-email-hr-agent-ws.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Role required: admin
 
     **Note:** If you want to directly send the attachment in a case as an email, click the **Send Email** button on the case tab.
 
-3.  Click the ![More Actions icon](../reference/images/more-icon.png) icon at the top right hand corner of the tab.
+3.  Click the \[Omitted image "more-icon.png"\] Alt text: More Actions icon icon at the top right hand corner of the tab.
 
 4.  Select **Compose Email**.
 
@@ -43,6 +44,6 @@ Role required: admin
 
 8.  Click **Save as draft**, if you are not ready to send the email yet.
 
-    Use the **Quick Messages** or the **Response Templates** on the contextual side panel to help you compose the email swiftly. For more information, see [Use Response templates in an email](agent-ws-response-template-email.md).
+    Use the **Quick Messages** or the **Response Templates** on the contextual side panel to help you compose the email swiftly. For more information, see [Use Response templates in an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-response-template-email.md).
 
 

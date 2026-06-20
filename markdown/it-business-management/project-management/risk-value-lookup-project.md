@@ -2,6 +2,7 @@
 title: Configure custom Risk rank and Risk value for a project
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/risk-value-lookup-project.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -40,7 +41,7 @@ For example, a risk might have high probability and medium impact but you might 
 -   Probability Number = 1
 -   Risk Value = 3 Low
 
-The following image illustrates the results of this example on the Risk form.![Risk rank and risk value in the Risk form](../image/risk-value-matcher.png)
+The following image illustrates the results of this example on the Risk form.\[Omitted image "risk-value-matcher.png"\] Alt text: Risk rank and risk value in the Risk form
 
 ## Procedure
 
@@ -123,5 +124,5 @@ Numerical value to indicate the probability. This value is multiplied by the val
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Add risks for a project](add-risks-for-project.md)
+**Parent Topic:**[Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/add-risks-for-project.md)
 

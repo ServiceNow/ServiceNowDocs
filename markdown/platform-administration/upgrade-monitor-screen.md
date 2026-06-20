@@ -2,6 +2,7 @@
 title: Upgrade Monitor
 description: When an upgrade is not running, the Upgrade Monitor displays information about the next check for an available upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-monitor-screen.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -16,7 +17,7 @@ When an upgrade is not running, the Upgrade Monitor displays information about t
 
 The Upgrade Monitor displays the next date and time when the system will check for an available upgrade.
 
-![Upgrade Monitor Check Now Screenshot](../image/upgrade-mon-check-now.png "Upgrade Monitor")
+\[Omitted image "upgrade-mon-check-now.png"\] Alt text: Upgrade Monitor Check Now Screenshot
 
 To check immediately for an available upgrade, click **Check Now**.
 
@@ -24,7 +25,7 @@ If one or both of the triggers for upgrading the system \('Check distribution fo
 
 **Note:** If your instance is self-hosted \(not hosted by ServiceNow\) this message may not necessarily indicate a problem. If you have customized or disabled the upgrade job and want to keep that customization or disabled state, do not click the button to fix the upgrade issue.
 
-![Upgrade Monitor with issue detected](../image/upgrade-mon-fix.png "Upgrade Monitor with Issue Detected")
+\[Omitted image "upgrade-mon-fix.png"\] Alt text: Upgrade Monitor with issue detected
 
 To resolve the issues with the upgrade jobs, click **Fix Upgrade Jobs**. This action reverts both upgrade triggers \('Check distribution for possible upgrade' and 'Check database for possible upgrade'\) to their base versions.
 

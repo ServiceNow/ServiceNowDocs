@@ -2,7 +2,10 @@
 title: Cloud Action Library actions reference
 description: Cloud Action Library \(CAL\) offers various actions that you can use to build the Integration Hub subflows for Cloud Configuration Governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-cal-actions.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Cloud Action Library offers the following actions:
 
 The Cloud Action Library actions are available under the **Default** and **External** categories.
 
-**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-reference.md)
 

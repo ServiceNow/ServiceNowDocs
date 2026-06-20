@@ -2,6 +2,7 @@
 title: HR Service Delivery Agent Workspace Guided Setup
 description: Use HR Agent Workspace Guided Setup to step through the initial configuration of HR Service Delivery Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-guided-setup.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,13 +25,13 @@ Use **HR Agent Workspace Guided Setup** to step through the initial configuratio
 
 To access **HR Agent Workspace Guided Setup**, navigate to **HR Case Management** &gt; **HR Agent Workspace Guided Setup**.
 
-![HR Agent WS Guided Setup - Landing page](../image/hr-agent-ws-guided-setup-home.png)
+\[Omitted image "hr-agent-ws-guided-setup-home.png"\] Alt text: HR Agent WS Guided Setup - Landing page
 
 The landing page provides information on the different categories, roles, and Update sets. Select the **Get Started** button in the top, right corner to start your configuration.
 
-![HR Agent WS - Configuration form](../image/hr-agent-ws-guided-setup.png)
+\[Omitted image "hr-agent-ws-guided-setup.png"\] Alt text: HR Agent WS - Configuration form
 
 The HR Agent Workspace Guided Setup page provides a list of different categories. Select the **Get Started** button under each category to start configuring HR Service Delivery Agent Workspace.
 
-For more information on **Guided Setup**, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information on **Guided Setup**, see Using guided setup.
 

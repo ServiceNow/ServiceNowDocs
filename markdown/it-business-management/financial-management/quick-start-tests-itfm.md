@@ -2,6 +2,7 @@
 title: Quick start test for Financial Management
 description: Validate that Financial Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/quick-start-tests-itfm.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -23,12 +24,12 @@ Financial Management quick start tests require activating the Financial Manageme
 |----|-----------|---------------|
 |Verify FM Cost Allocation Flow|Verify the cost allocation flow in financial modeling.|Madrid|
 
-To learn more about Financial Management, see [Financial Management](../../../product/it-finance/concept/c_ITFinance.md).
+To learn more about Financial Management, see [Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_ITFinance.md).
 
-**Parent Topic:**[Financial Management](../../../product/it-finance/concept/c_ITFinance.md)
+**Parent Topic:**[Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_ITFinance.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

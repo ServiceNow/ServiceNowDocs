@@ -2,6 +2,7 @@
 title: Events related to the Listening Posts surveys on User Experience Analytics dashboard
 description: The User Experience Analytics dashboard displays events to understand the users behavior when interacting with the Listening Posts survey widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/lp-user-exp-analytics-events.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ You can evaluate the successful and unsuccessful attempts of an employee related
 
 On Listening Posts survey widgets, the Successful submissions event indicates that the users have attempted the survey and were able submit it without any difficulty. The following image shows the dashboard charts that display employee interactions on the widgets as actions on the associated properties.
 
-![User Experience Analytics dashboard - Successful submission.](../image/lp-analytics-appsee-succ-submit.png "User Experience Analytics dashboard")
+\[Omitted image "lp-analytics-appsee-succ-submit.png"\] Alt text: User Experience Analytics dashboard - Successful submission.
 
 -   Distribution of time spent.
 
@@ -52,7 +53,7 @@ On Listening Posts survey widgets, the Successful submissions event indicates th
 
 On Listening Posts survey widgets, the Unsuccessful attempts event indicates that the users have attempted the survey but were not able complete it or submit it. The following image shows the dashboard charts that display employee interactions on the widgets as actions on the associated properties.
 
-![User Experience Analytics dashboard - Unsuccessful attempts.](../image/lp-analytics-appsee-unsucc-attempt.png "User Experience Analytics dashboard")
+\[Omitted image "lp-analytics-appsee-unsucc-attempt.png"\] Alt text: User Experience Analytics dashboard - Unsuccessful attempts.
 
 An attempt is defined by the actions performed in any of the following three properties: Distribution of time spent, Attempts to rate, and Attempts to comment.
 
@@ -77,5 +78,5 @@ An attempt is defined by the actions performed in any of the following three pro
     The percentage of unsuccessful attempts distributed across the Listening Posts My survey and Take survey widgets.
 
 
-**Parent Topic:**[User Experience for HR Service Delivery](user-exp-hrser.md)
+**Parent Topic:**[User Experience for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/user-exp-hrser.md)
 

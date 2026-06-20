@@ -2,6 +2,7 @@
 title: Parent-child task relationships
 description: If a task is relatively large and requires several users with different skills to manage, break the task into subtasks and create parent-child relationships. A child task is a relatively smaller, manageable size of work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_Parent-ChildTaskRelationships.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -25,10 +26,10 @@ You can create predecessor-successor relationships between child tasks with diff
 
 **Note:** On the Gantt chart, you can drag-and-drop the parent task to move the entire hierarchy to a new location on the schedule.
 
--   **[Create a parent-child relationship on the Project Task form](../task/t_CreateParentChildRelationship.md)**  
+-   **[Create a parent-child relationship on the Project Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateParentChildRelationship.md)**  
 You can create a child task from any project task form.
--   **[Time constraints in parent-child relationships](../reference/r_TimeConstraintsParent-ChildRels.md)**  
+-   **[Time constraints in parent-child relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/r_TimeConstraintsParent-ChildRels.md)**  
 Parent-child task relationships have several effects on task time constraints.
 
-**Parent Topic:**[Project task relationships and dependencies](c_ProjectTaskRelationDepend.md)
+**Parent Topic:**[Project task relationships and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectTaskRelationDepend.md)
 

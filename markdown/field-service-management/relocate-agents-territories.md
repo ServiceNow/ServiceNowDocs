@@ -2,7 +2,10 @@
 title: Move agents between territories in the Territory Planning console
 description: Relocate agents between territories to add flexibility to their work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/relocate-agents-territories.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ This video shows the agent relocation process.Agent relocation procedure
 
 2.  Select the territory and open the record.
 
-3.  Select the Agent Relocation \(![Agent Relocation icon.](../image/agent-relocation.jpg)\) icon.
+3.  Select the Agent Relocation \(\[Omitted image "agent-relocation.jpg"\] Alt text: Agent Relocation icon.\) icon.
 
     The **Relocate agents** form appears in the contextual side panel.
 
@@ -77,5 +80,5 @@ This video shows the agent relocation process.Agent relocation procedure
 -   Agent memberships are updated for the specified source and destination territories based on the form selections.
 -   Agent schedule attribute plans related list in the agent's user profile is updated.
 
-**Parent Topic:**[Using Field Service Territory Planning Console](../concept/using-territory-planning-console.md)
+**Parent Topic:**[Using Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-territory-planning-console.md)
 

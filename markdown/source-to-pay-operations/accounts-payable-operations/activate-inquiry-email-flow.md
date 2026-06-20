@@ -2,6 +2,7 @@
 title: Activate the Create Inquiry Case on Invoice email flow
 description: Activate the Create Inquiry Case on Invoice email flow to automatically create an invoice inquiry case based on the information in an inbound email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search for and select the **Create Inquiry Case on Invoice email** flow to open it.
 
-3.  Select the more actions icon \(![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.
 
     The Create a copy of this flow dialog box is displayed.
 
@@ -44,5 +45,5 @@ Role required: admin
 9.  Select **Activate**.
 
 
-**Parent Topic:**[Components installed with Invoice Case Management](../reference/installed-with-invoice-case-mgmt.md)
+**Parent Topic:**[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)
 

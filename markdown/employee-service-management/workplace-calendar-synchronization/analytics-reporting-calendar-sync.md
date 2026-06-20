@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Workplace Calendar Synchronization
 description: Monitor the status of reservation synchronizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/analytics-reporting-calendar-sync.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -15,8 +16,8 @@ breadcrumb: [Workplace Calendar Synchronization, Workplace Service Delivery, Emp
 
 Monitor the status of reservation synchronizations.
 
--   **[Synchronization Health Dashboard](../../../use/dashboards/application-content-packs/workplace-calendar-synchronization-dashboard.md)**  
+-   **[Synchronization Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-dashboard.md)**  
 Use this dashboard to track the reservation synchronization. Monitor number of events and calendar items created in the application and other details related to them.
 
-**Parent Topic:**[Workplace Calendar Synchronization](workplace-calendar-sync-feat.md)
+**Parent Topic:**[Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-feat.md)
 

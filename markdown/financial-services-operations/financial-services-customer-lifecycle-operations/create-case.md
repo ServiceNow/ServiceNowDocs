@@ -2,6 +2,7 @@
 title: Create a CLO case
 description: Begin the Customer Lifecycle Operations application process by creating a CLO case for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/create-case.html
 release: xanadu
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -26,7 +27,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **Financial services operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  In the upper right-hand corner, click **New**.
 
@@ -51,5 +52,5 @@ A Customer Lifecycle Operations case is created and assigned to an available age
 
 ## What to do next
 
-Continue to [Add contacts](create-contact.md).
+Continue to [Add contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-customer-lifecycle-operations/create-contact.md).
 

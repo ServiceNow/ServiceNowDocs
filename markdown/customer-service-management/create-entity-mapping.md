@@ -2,7 +2,10 @@
 title: Create an entity mapping
 description: Create an entity mapping to compose a workflow between two entities so that you can update their existing configurations and perform a set of declarative actions like suspend, resume, or disconnect a sold product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-entity-mapping.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/entity-configuration-and-mapping.md).
 
 4.  Select **Submit**.
 
@@ -35,7 +38,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/entity-configuration-and-mapping.md).
 
 7.  Select **Submit**.
 
@@ -43,7 +46,7 @@ Role required: admin
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values, see [Entity configuration and mapping](../reference/entity-configuration-and-mapping.md).
+    For a description of the field values, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/entity-configuration-and-mapping.md).
 
 10. Select **Submit**.
 

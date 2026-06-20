@@ -2,6 +2,7 @@
 title: Add a reusable topic block to a calling topic or topic block
 description: Add a reusable topic block to a calling \(parent\) topic or topic block to run a specific function or task in the calling topic. You specify input parameters used in the topic block, and you specify output parameters that are used by the calling topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Add a reusable topic block to a calling \(parent\) topic or topic block to run a
 
 ## Before you begin
 
-Review the topic blocks available in the Topics page in Virtual Agent. You can [create a new topic block](create-topic-blocks.md). You can also use a pre-built topic block, duplicate it, and customize it. Pre-built topic blocks are installed automatically with the Glide Virtual Agent plugin, as well as the [Virtual Agent conversation plugins](../reference/prebuilt-topics-ITSM.md#table_rmj_1s5_mhb) for Customer Service Management, HR Service Delivery, and ITSM.
+Review the topic blocks available in the Topics page in Virtual Agent. You can [create a new topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/create-topic-blocks.md). You can also use a pre-built topic block, duplicate it, and customize it. Pre-built topic blocks are installed automatically with the Glide Virtual Agent plugin, as well as the [Virtual Agent conversation plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md) for Customer Service Management, HR Service Delivery, and ITSM.
 
 Verify that the topic block you want to use is published and active.
 
@@ -56,7 +57,7 @@ You can specify the following types of variables:
 
     You can see how the calling topic runs in the chat window.
 
-    If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments. For more information, see [Integrating Virtual Agent with enterprise messaging apps](integ-va-enterprise-apps.md).
+    If the Now Assist panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Now Assist panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments. For more information, see [Integrating Virtual Agent with enterprise messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/integ-va-enterprise-apps.md).
 
 9.  If no further changes are needed, select **Publish** in the header bar.
 

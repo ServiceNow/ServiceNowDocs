@@ -2,6 +2,7 @@
 title: Compose an email in Compliance Workspace
 description: Compose and send an email for cases and requests by using the Compliance Workspace. This feature helps you to communicate with different stakeholders within or outside your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/compose-emails.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -27,11 +28,11 @@ You can compose and send emails regarding your cases and requests to multiple st
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png)and then complete one of the following.
+2.  Select the list icon \[Omitted image "ws-list-icon.png"\] Alt text:and then complete one of the following.
 
     -   Navigate to **Cases** &gt; **All cases** and select the case you want.
     -   Navigate to **Requests** &gt; **All requests** and select the request you want.
-3.  Select the More actions ![More actions icon.](../../grc-workspace-audit/image/MoreActionsIcon.jpg) icon.
+3.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
 
 4.  On the form, fill in the fields.
 

@@ -2,6 +2,7 @@
 title: Upgrade Details form
 description: From the Upgrade Details form, you can review an individual record affected by the upgrade and reconcile conflicts between the upgrade and customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrademon-upgrade-details-form.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Resolve conflicts for an individual record, Upgrade Monitor module:
 
 From the Upgrade Details form, you can review an individual record affected by the upgrade and reconcile conflicts between the upgrade and customizations.
 
-![Upgrade Details form](../image/upgrade-details-form-small.png "Upgrade Details form")
+\[Omitted image "upgrade-details-form-small.png"\] Alt text: Upgrade Details form
 
 <table><thead><tr><th>
 
@@ -59,7 +60,7 @@ How you elected to resolve this conflict:-   **Not Reviewed**
 -   **Reviewed and Retained** - left customizations in place without update from upgrade
 -   **Reviewed and Reverted** - customizations discarded, record updated according to upgrade
 
-For more information, see [Process the skipped records list](../task/upgrademon-process-skip-list.md).
+For more information, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-process-skip-list.md).
 
 </td></tr><tr><td>
 
@@ -119,5 +120,5 @@ Table
 The table containing this record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resolve conflicts for an individual record](../task/upgrademon-resolve_conflicts.md)
+</table>**Parent Topic:**[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-resolve_conflicts.md)
 

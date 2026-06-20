@@ -2,6 +2,7 @@
 title: Reference for Generative AI Controller
 description: Reference topics provide information about Generative AI Controller flow actions, tables, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller

@@ -2,6 +2,7 @@
 title: Channel Management extension point in Workforce Optimization for ITSM
 description: Use extension points to call scripts to configure the list sort order in Channel Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/extension-points-channels-sort-order-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,7 +16,7 @@ breadcrumb: [Setting up Channels in Workforce Optimization for ITSM, Channels in
 
 Use extension points to call scripts to configure the list sort order in Channel Management.
 
-To see a list of extension points that you can use for Workforce Optimization for ITSM, navigate to **System Extension Points** &gt; **Scripted Extension Points**. Use scripted extension points to integrate customizations without altering the core components in the application code. When customizing a base application, you implement the scripted extension points by creating the custom script includes and registering them against the scripted extension points. For detailed information on implementing extension points, see [Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+To see a list of extension points that you can use for Workforce Optimization for ITSM, navigate to **System Extension Points** &gt; **Scripted Extension Points**. Use scripted extension points to integrate customizations without altering the core components in the application code. When customizing a base application, you implement the scripted extension points by creating the custom script includes and registering them against the scripted extension points. For detailed information on implementing extension points, see .
 
 <table id="table_lm4_cr2_wwb"><thead><tr><th>
 
@@ -52,5 +53,5 @@ Add or update the `getColumns` to modify the current implementation to configure
 Add or update the `getColumns` to configure the columns in the All queues list for Channel Management.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+</table>**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

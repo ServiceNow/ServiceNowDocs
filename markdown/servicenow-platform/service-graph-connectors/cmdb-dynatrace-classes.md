@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Observability - Dynatrace
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Dynatrace. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.html
 release: xanadu
 product: Service Graph Connectors
 classification: service-graph-connectors

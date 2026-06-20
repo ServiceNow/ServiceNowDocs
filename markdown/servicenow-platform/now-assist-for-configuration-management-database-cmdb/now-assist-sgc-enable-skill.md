@@ -2,6 +2,7 @@
 title: Enable a Now Assist for Service Graph Connectors \(SGC\) skill
 description: Enable a Now Assist for Service Graph Connectors \(SGC\) skill to start using generative AI capabilities for diagnosing Service Graph Connector issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-enable-skill.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Enable a Now Assist for Service Graph Connectors \(SGC\) skill to start using ge
 
 ## Before you begin
 
-Install the Now Assist for SGC application. For more information, see [Install Now Assist for Service Graph Connectors \(SGC\)](now-assist-sgc-install.md).
+Install the Now Assist for SGC application. For more information, see [Install Now Assist for Service Graph Connectors \(SGC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-install.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ Role required: admin
 
 4.  On the Service Graph Connector card, select **View details**.
 
-    ![The Service Graph Connector card describes the skill and enables you to view its details.](../image/now-assist-sgc-card.png)
+    \[Omitted image "now-assist-sgc-card.png"\] Alt text: The Service Graph Connector card describes the skill and enables you to view its details.
 
 5.  Select **Activate skill** for the Service Graph Connector diagnosis skill.
 
@@ -49,6 +50,6 @@ Role required: admin
 
 11. In the Active skills section of the Service Graph Connector page, see the **Status** column to verify that the skill is active.
 
-    ![Active skills section displaying that theService Graph Connector diagnosis skill is active.](../image/now-assist-sgc-active.png "Active skills section")
+    \[Omitted image "now-assist-sgc-active.png"\] Alt text: Active skills section displaying that theService Graph Connector diagnosis skill is active.
 
 

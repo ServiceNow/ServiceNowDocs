@@ -2,6 +2,7 @@
 title: Reclassify contract documents in third-party contract review request as a legal fulfiller
 description: As a legal fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Open the legal request for which you want to reclassify the documents.
 
@@ -46,5 +47,5 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 10. Select **Save** to save the record.
 
 
-**Parent Topic:**[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

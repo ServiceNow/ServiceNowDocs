@@ -2,6 +2,7 @@
 title: Checklist for the Splunk Enterprise Security Notable Event Ingestion integration
 description: Use this checklist to guide you through all the tasks of the integration. The following checklist includes setup and installation tasks and examples of use cases that include expected results for the integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/splunk-event-ingest-checklist-security.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +46,7 @@ Roles required for each task are listed with each step in the following table.
 
 </th></tr></thead><tbody><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -55,11 +56,11 @@ As a user with the ServiceNow AI Platform admin role, set up your ServiceNow AI 
 -   Install and configure a MID Server if the Splunk server is deployed within your corporate network.
 -   Verify that the ServiceNow Security Incident Response plugins are activated for your release of the ServiceNow AI Platform.
 -   \(Optional\) If you want to forward events manually from your Splunk Enterprise Security console into your ServiceNow AI Platform instance, verify that you have assigned the \(sn\_sec\_splunkes.api\_account\_access\) role to a user with the Splunk Enterprise Security administrator permission.
- For more information, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Security integration](../reference/splunk-event-ingest-setup-sn-security.md).
+ For more information, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Security integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-setup-sn-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -67,11 +68,11 @@ As a user with the ServiceNow AI Platform admin role, install and configure the 
 
  1.  Download and install the application on your ServiceNow AI Platform instance.
 2.  Configure the application and connect to your Splunk Enterprise Security console.
- For more information, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](splunk-event-ingest-install-and-configure-security.md).
+ For more information, see [Install and configure Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-install-and-configure-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -79,11 +80,11 @@ As a user with the ServiceNow AI Platform admin role, install and configure the 
 
  -   As a Splunk Enterprise Security administrator, install, set up, and enable the ServiceNow Security Operations Event Ingestion Addon for Splunk Enterprise Security from splunkbase in your Splunk Enterprise Security console.
 -   As a Splunk Enterprise Security administrator, if not already configured, save searches as notable events in your Splunk Enterprise Security console.
- For more information, see [Set up your Splunk environment for manual event ingestion for the Splunk Enterprise Security Notable Event Ingestion integration](splunk-event-ingest-create-profile-security.md#).
+ For more information, see [Set up your Splunk environment for manual event ingestion for the Splunk Enterprise Security Notable Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -93,11 +94,11 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
 
  -   For a scheduled alert, select an available alert.
 -   For profile for manually exported data, create a new map or copy an existing map.
- For more information, see [Create and name an event profile for the Splunk Enterprise Security event ingestion integration](splunk-event-ingest-create-profile-security.md#).
+ For more information, see [Create and name an event profile for the Splunk Enterprise Security event ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
@@ -107,27 +108,27 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
 2.  \(Optional\) Export attachment data manually from Splunk Enterprise Security for an event.
 3.  Edit the default mapping configuration.
 4.  Optionally add filtering criteria, append an alert to an existing security incident, and use the script editor.
- For more information, see [Mapping notable event fields for the Splunk Enterprise Security integration](splunk-event-ingest-create-profile-security.md#) and [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](splunk-event-ingest-create-profile-security.md#).
+ For more information, see [Mapping notable event fields for the Splunk Enterprise Security integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md) and [Create mappings for Splunk ES notable event incident review and contributing event details \(scheduled ingestion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
 -   As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** role, preview the data from Splunk Enterprise that is displayed on a ServiceNow AI Platform security incident.
 -   Fix any errors or add any missing data so that no error messages are displayed.
- For more information, see [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](splunk-event-ingest-create-profile-security.md#).
+ For more information, see [Preview the security incident for the Splunk Enterprise Security Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 </td></tr><tr><td>
 
-![Checkbox](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox
 
 </td><td>
 
 As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** role, schedule alert retrieval for a profile with a scheduled alert.
 
- For more information, see [Schedule and retrieve new and updated notable events for the Splunk Enterprise Security Event Ingestion integration](splunk-event-ingest-create-profile-security.md#).
+ For more information, see [Schedule and retrieve new and updated notable events for the Splunk Enterprise Security Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/splunk-event-ingest-create-profile-security.md).
 
 </td></tr></tbody>
 </table>    You have successfully completed the set up steps and verified expected results for the integration.

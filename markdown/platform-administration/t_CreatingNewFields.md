@@ -2,6 +2,7 @@
 title: Add and customize a field in a table
 description: Administrators can add new fields to a table to store and display data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreatingNewFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](../../subscription-management/task/allocate-custom-table-subsc-app-v2.md).
+**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 Be aware of these database limitations:
 
@@ -38,7 +39,7 @@ For more information on database limitations and general questions on tables in 
 
 3.  In the **Create new field** section, fill in the following fields
 
-<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d96251e158">
+<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d49023e158">
 
 **Name**
 
@@ -46,7 +47,7 @@ For more information on database limitations and general questions on tables in 
 
 Enter the name of the field as you want it to appear on forms and lists.
 
-</td></tr><tr><td id="d96251e167">
+</td></tr><tr><td id="d49023e167">
 
 **Type**
 
@@ -54,7 +55,7 @@ Enter the name of the field as you want it to appear on forms and lists.
 
 Select a field type.
 
-</td></tr><tr><td id="d96251e176">
+</td></tr><tr><td id="d49023e176">
 
 **Field length**
 
@@ -72,28 +73,28 @@ Select a field length. This field is visible only for certain field types.
     The field now appears on the form in the designated location.
 
 
--   **[Make a field mandatory](t_MakingAFieldMandatory.md)**  
+-   **[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_MakingAFieldMandatory.md)**  
 Fields can be marked as mandatory, meaning they must contain a value before the record can be saved. Mandatory fields are marked with a field status indicator before the label.
--   **[Change the field label or hint](../../reference-pages/task/t_ChangeFieldLabelOrHint.md)**  
+-   **[Change the field label or hint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ChangeFieldLabelOrHint.md)**  
 You can change a field's label or the text that appears as a hint when you point your mouse device to the field.
--   **[Delete a field from a table](../../reference-pages/task/t_DeleteFields.md)**  
+-   **[Delete a field from a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_DeleteFields.md)**  
 You can delete custom fields that you created. Custom fields begin with **u\_**. It is recommended that you remove the field from forms and lists instead of deleting it.
--   **[Add users to a watch list](../../../use/using-forms/task/t_UseAWatchList.md)**  
+-   **[Add users to a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_UseAWatchList.md)**  
 Watch lists enable you and others to subscribe to notifications of a task.
--   **[Highlight list fields](../../navigation-and-ui/task/highlight-list-fields-platform.md)**  
+-   **[Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/highlight-list-fields-platform.md)**  
 Color fields in lists to call an agent's attention to them.
--   **[Modify string field length](../../reference-pages/task/t_ModifyingStringFieldLength.md)**  
+-   **[Modify string field length](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ModifyingStringFieldLength.md)**  
 You can modify the maximum character limit for a string field.
--   **[Specify a default field value](t_SpecifyingADefaultValue.md#)**  
+-   **[Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_SpecifyingADefaultValue.md)**  
 A default value populates a value in a field when a new record is created.
--   **[Make a field dependent](t_MakingAFieldDependent.md)**  
+-   **[Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_MakingAFieldDependent.md)**  
 A choice or reference field can be declared dependent on another field on the same table to limit the values available to select based on the value of the dependent field.
--   **[Require unique values for a field](t_RequiringUniqueValuesForAField.md)**  
+-   **[Require unique values for a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_RequiringUniqueValuesForAField.md)**  
 The system allows you to require that a field's values be unique. When this is done, the system will not let two records have the same value for that field.
--   **[Define field styles](../../navigation-and-ui/task/t_DefineFieldStyles.md)**  
+-   **[Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_DefineFieldStyles.md)**  
 Field styles enable you to declare individual CSS styles for a field in a list or form.
--   **[Record numbering](../concept/c_ManagingRecordNumbering.md)**  
+-   **[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ManagingRecordNumbering.md)**  
 In the base system, several tables are numbered, including Incident, Problem, Change Request, and Knowledge. You can also use these numbers anywhere that script is present, for example to generate watermarks for emails. Records in tables can be numbered automatically.
 
-**Parent Topic:**[Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
+**Parent Topic:**[Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
 

@@ -2,7 +2,10 @@
 title: Create an on-call shift plan in Workforce Optimization for Field Service
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-oncall-shift-plan-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -21,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Click the **Shifts** tab.
 
-4.  In the contextual side panel, click the Show Shifts Plans \(![Show Shift Plans icon.](../image/show-schedule-new.png)\) icon to display the schedules.
+4.  In the contextual side panel, click the Show Shifts Plans \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Shift Plans icon.\) icon to display the schedules.
 
-5.  Click the Create Work shift plans or On-call shifts \(![Add Shift Plan icon.](../image/add.png)\) icon.
+5.  Click the Create Work shift plans or On-call shifts \(\[Omitted image "add.png"\] Alt text: Add Shift Plan icon.\) icon.
 
 6.  Create the on-call shift.
 
@@ -68,5 +71,5 @@ Role required: admin
     When you add new agents to the on-call rotation, it might take some time to refresh the data on the team calendar.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](../concept/scheduling-wfo-fsm.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-wfo-fsm.md)
 

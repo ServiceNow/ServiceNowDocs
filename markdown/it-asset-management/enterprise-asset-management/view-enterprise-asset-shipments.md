@@ -2,6 +2,7 @@
 title: View and add enterprise asset shipments
 description: Use the Shipments list to view all active enterprise asset shipments from a central location. If an existing shipment doesn’t appear on the list, you can add it manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/view-enterprise-asset-shipments.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -137,5 +138,5 @@ Option to ignore stale checks for the shipment.
 </table>    3.  Select **Save**.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

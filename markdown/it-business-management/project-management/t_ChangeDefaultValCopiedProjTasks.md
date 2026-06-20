@@ -2,6 +2,7 @@
 title: Change default values of copied fields
 description: Change the default values of in the new partial project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_ChangeDefaultValCopiedProjTasks.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -41,5 +42,5 @@ Actual duration and the actual start and end dates are reset to null values. The
     ```
 
 
-**Parent Topic:**[Copy an existing task or project](t_CopyExistingTaskorProject.md)
+**Parent Topic:**[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CopyExistingTaskorProject.md)
 

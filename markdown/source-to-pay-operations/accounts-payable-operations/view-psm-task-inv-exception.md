@@ -2,6 +2,7 @@
 title: View related tasks for an Insufficient Goods Receipt invoice exception
 description: As an Accounts Payable specialist, view tasks related to Sourcing and Procurement Operations to understand why an Insufficient Goods Receipt invoice exception has been raised for an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/view-psm-task-inv-exception.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -35,11 +36,11 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
     If Sourcing and Procurement Operations is installed, then this tab shows the following tasks:
 
-    -   Receipt. For more information, see [Receipt tasks](../../sourcing-procurement-operations/reference/receipt-tasks.md).
-    -   Milestone. For more information, see [Milestones](../../sourcing-procurement-operations/reference/milestones.md).
-    -   Invoice acknowledgment. For more information, see [Invoice tasks](../../sourcing-procurement-operations/reference/invoice-tasks.md).
+    -   Receipt. For more information, see [Receipt tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/receipt-tasks.md).
+    -   Milestone. For more information, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).
+    -   Invoice acknowledgment. For more information, see [Invoice tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/invoice-tasks.md).
     If Sourcing and Procurement Operations is not installed, then this tab shows only the Milestone task.
 
 
-**Parent Topic:**[Invoice exceptions](../concept/work-with-invoice-exceptions.md)
+**Parent Topic:**[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)
 

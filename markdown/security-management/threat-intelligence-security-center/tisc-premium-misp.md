@@ -2,13 +2,14 @@
 title: Configure custom MISP feed
 description: The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-premium-misp.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-05"
 reading_time_minutes: 3
-breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure custom MISP feed
@@ -27,7 +28,7 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** By default, the MISP feed is disabled, you must edit the configuration to enable the feed.
 
-    ![Premium feed - MISP.](../image/tisc-misp-premium-feed.png)
+    \[Omitted image "tisc-misp-premium-feed.png"\] Alt text: Premium feed - MISP.
 
 3.  Select the **Edit** button on the **MISP Feed** card.
 
@@ -39,13 +40,13 @@ Role required: sn\_sec\_tisc.admin
 
 7.  Navigate to **Additional Settings** to configure the filters to fetch the data from MISP.
 
-    ![MISP feed- additional settings](../image/tisc-misp-additional-settings.png)
+    \[Omitted image "tisc-misp-additional-settings.png"\] Alt text: MISP feed- additional settings
 
     The **Additional Settings** tab is used to set up filters that determine which MISP events are ingested.
 
 8.  Select **Edit Settings**.
 
-    ![MISP edit additional settings.](../image/tisc-misp-additional-settings-edit.png)
+    \[Omitted image "tisc-misp-additional-settings-edit.png"\] Alt text: MISP edit additional settings.
 
 9.  Select the required filters.
 
@@ -128,7 +129,7 @@ Select a distribution level to limit events. Leaving this field empty includes e
 
 13. Select **Duplicate** to duplicate the feed.
 
-    For more information, see [Duplicate threat intelligence feeds](tisc-duplicate-feeds.md).
+    For more information, see [Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md).
 
     **Note:**
 
@@ -137,5 +138,5 @@ Select a distribution level to limit events. Leaving this field empty includes e
     -   For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
     -   Entity types that aren’t included in the mapping described in the KB article aren't ingested into the TISC Library.
 
-**Parent Topic:**[View Custom Feed](view-oob-custom-feeds.md)
+**Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
 

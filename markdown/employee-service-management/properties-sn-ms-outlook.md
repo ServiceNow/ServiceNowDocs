@@ -2,7 +2,10 @@
 title: Properties installed with ServiceNow for Microsoft Outlook
 description: The following properties are installed with the Outlook Actionable Messages plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/properties-sn-ms-outlook.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -42,5 +45,5 @@ Use this property to set the portal in which the survey opens if the questions e
 -   Default value: esc
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Outlook reference](sn-ms-outlook-reference.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Outlook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-outlook-reference.md)
 

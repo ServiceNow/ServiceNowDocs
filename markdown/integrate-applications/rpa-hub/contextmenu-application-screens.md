@@ -2,6 +2,7 @@
 title: Additional options for application screens and elements in Universal App Connector
 description: Validate and perform additional operations for the added application screens and their captured elements. The additional options for the application screens are categorized based on the application type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/contextmenu-application-screens.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -82,5 +83,5 @@ Google Chrome or Microsoft Edge
 |Get text|Retrieves text from the element if applicable.|
 |Click|Clicks the elements if applicable.|
 
-**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/universal-app-connector.md)
 

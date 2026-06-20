@@ -2,6 +2,7 @@
 title: Start a project
 description: Starting a project is the next step after setting up the project, populating it with tasks, and assigning resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_StartAProject.html
 release: xanadu
 product: Project Management
 classification: project-management

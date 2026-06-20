@@ -2,6 +2,7 @@
 title: Authorize access to an OAuth endpoint using auth code flow
 description: End users who own a protected resource on the ServiceNow instance must authorize access to the resource before the instance can provide the access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_AuthorizeAccessEndpiont.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -37,7 +38,7 @@ Role required: none. You must already be logged in to the instance that holds th
 
     If you click **Deny**, the authorization is not allowed, but you are not logged out of the instance.
 
-    ![Allow access](../image/allow_access.png)
+    \[Omitted image "allow\_access.png"\] Alt text: Allow access
 
     A message that confirms access should appear. If you are requesting access from the REST Message form on an instance, the following message appears at the top of the form: OAuth Refresh token is available and will expire at \{date\}.
 

@@ -2,7 +2,10 @@
 title: Access stockroom information on the Field Service Contractor Portal
 description: As a manager or agent of contractor companies, you can access and view the availability of assets in your stockrooms using the Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/access-stockroom.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Agents can access only information for their personal stockrooms and group stock
     -   To check the status of hardware items available in the stockroom, such as model, quantity, state, and sub state, click the Hardware related list.
     -   To check the status of consumable items available in the stockroom, such as quantity, state, and sub state, click the Consumable related list.
 
-**Parent Topic:**[Requesting and receiving required parts](../concept/requesting-and-receiving-parts.md)
+**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/requesting-and-receiving-parts.md)
 

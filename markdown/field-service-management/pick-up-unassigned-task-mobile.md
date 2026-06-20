@@ -2,7 +2,10 @@
 title: Pick up an unassigned task
 description: If you are available, you can assign a task to yourself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/pick-up-unassigned-task-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,12 +32,12 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Select the desired work order task.
 
-5.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Assign To Me**.
+5.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Assign To Me**.
 
 
 ## Result
 
 You receive a notification that the task has been assigned to you.
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

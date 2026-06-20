@@ -2,6 +2,7 @@
 title: Explore Performance Analytics
 description: Review the Performance Analytics use cases, components, and architecture and begin to implement the product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/c\_GetStartedwithPA.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -19,7 +20,7 @@ Performance Analytics drives business transformation by enabling businesses to s
 
 Explanation of Performance Analytics with an example of a business scenario. 
 
-For a video about how different dashboards with Performance Analytics content can help different personas in the ITSM department of your organization, see [ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-indicator-landing&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+For a video about how different dashboards with Performance Analytics content can help different personas in the ITSM department of your organization, see .
 
 Performance Analytics improves performance and accelerates continual service improvement by:
 
@@ -49,12 +50,12 @@ Benefits of using Performance Analytics can include:
 
 **Tip:** For an introduction to using Performance Analytics, take the [Platform Analytics Overview](https://learning.servicenow.com/lxp/en/now-intelligence/platform-analytics-pa-overview?id=learning_course_prev&course_id=fb9decf8932f06905402393d6cba10f6) course.
 
--   **[Performance Analytics concepts](c_PerformanceAnalytics.md)**  
+-   **[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)**  
 Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
--   **[Performance Analytics compared to Reporting](pa-vs-reporting-pa.md)**  
+-   **[Performance Analytics compared to Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/pa-vs-reporting-pa.md)**  
 Performance Analytics and Reporting are two distinct applications. They address different use cases and are complementary to each other.
--   **[Implement Performance Analytics](implementing-pa.md)**  
+-   **[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/implementing-pa.md)**  
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-**Parent Topic:**[Performance Analytics \(Indicator data sources\)](r_PALandingPage.md)
+**Parent Topic:**[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

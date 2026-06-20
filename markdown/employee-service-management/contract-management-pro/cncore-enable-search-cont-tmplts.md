@@ -2,6 +2,7 @@
 title: Enable keyword search for contract templates
 description: Enable keyword search in contract templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -32,5 +33,5 @@ Role required: sn\_cm\_core.contract\_config
 
 ## Result
 
-The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](cncore-search-in-doct.md)
+The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-search-in-doct.md)
 

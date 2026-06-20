@@ -2,6 +2,7 @@
 title: Business value reports
 description: At the end of the year, or your alternative reporting period, your Impact squad performs a Value Realization Assessment and capture the data in a Value Report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/value-library/business-value-reports.html
 release: xanadu
 product: Value Library
 classification: value-library

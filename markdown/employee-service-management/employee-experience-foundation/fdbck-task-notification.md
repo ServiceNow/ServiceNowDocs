@@ -2,6 +2,7 @@
 title: Feedback task notification
 description: Feedback task notification is sent to the feedback provider once the resolution is provided.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/fdbck-task-notification.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,9 +18,9 @@ Feedback task notification is sent to the feedback provider once the resolution 
 
 A notification email is sent to the feedback provider when a feedback task is marked as **Resolved and completed**.
 
-![Feedback email displays the feedback response and the resolution provided.](../images/feedback_notice.png "Feedback email notification")
+\[Omitted image "feedback\_notice.png"\] Alt text: Feedback email displays the feedback response and the resolution provided.
 
 The notification email contains the date and time of the feedback provided, any feedback response added with it, and the resolution details.
 
-**Parent Topic:**[Use the integrated service and experience feedback](using-ex-fdback.md)
+**Parent Topic:**[Use the integrated service and experience feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/using-ex-fdback.md)
 

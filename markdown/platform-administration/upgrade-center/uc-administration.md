@@ -2,6 +2,7 @@
 title: Administration
 description: The Administration module contains properties for managing Upgrade Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-administration.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center

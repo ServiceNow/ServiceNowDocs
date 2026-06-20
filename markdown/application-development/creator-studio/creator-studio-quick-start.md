@@ -2,12 +2,13 @@
 title: Creator Studio quick start
 description: This quick start guides you through the process of building your first app in Creator Studio and requesting its deployment.Create your app’s foundation before building it out.Associate your app with catalogs and topics to determine and categorize their content.Check out how your app will appear and then make adjustments to how it looks.Add questions to the form to gather the information that your fulfiller needs to evaluate the request, and then publish it to make its catalog items available.Add a playbook to create automation for your app, for example, to automatically assign a record to a manager for approval.Add an activity to your playbook to define what the automation does.Now that you've made an app, it's time to submit it for review so admins can approve and deploy it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-quick-start.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
 last_updated: "2024-08-01"
-reading_time_minutes: 17
+reading_time_minutes: 16
 breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
@@ -33,19 +34,19 @@ Your system administrator must add you to the Creator Studio Users group.
 
 1.  Head over to the Creator Studio home page by going to **All** &gt; **App Engine** &gt; **Creator Studio**.
 
-    ![Select the All menu and search for Creator Studio](../image/crs-all-menu-gif.gif "Start Creator Studio")
+    \[Omitted image "crs-all-menu-gif.gif"\] Alt text: Select the All menu and search for Creator Studio
 
-    The Creator Studio home page appears. To learn more about working in the home page, check out [Find existing apps in Creator Studio](view-apps-creator-studio-home-page.md).
+    The Creator Studio home page appears. To learn more about working in the home page, check out [Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/view-apps-creator-studio-home-page.md).
 
 2.  Select the **Create app** button to start the process of creating an app.
 
-    ![Select the Create app button](../image/crs-create-app-button.png "Create app button")
+    \[Omitted image "crs-create-app-button.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](../../applications/concept/application-collaboration.md).
-    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](creator-studio-request-app-added.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  On the modal that pops up, enter a **Name** and brief **Description** of the app's purpose.
 
-    ![Enter details to create the app](../image/cs-create-app-modal.png "Create an app")
+    \[Omitted image "cs-create-app-modal.png"\] Alt text: Enter details to create the app
 
 4.  Select **Create app** to finish building the foundation of the app.
 
@@ -78,27 +79,27 @@ Your system administrator must add you to the Creator Studio Users group.
 
     The available catalogs are configured by your admin, contact them if you don't see the one you want.
 
-    1.  Select the **Edit button** \(![](../image/cs-edit-form-location.png)\) for the Catalogs and categories card.
+    1.  Select the **Edit button** \(\[Omitted image "cs-edit-form-location.png"\]\) for the Catalogs and categories card.
 
     2.  Select the catalog that represents the business area the app will use.
 
         For example, choose a service catalog that contains software and laptop cables. Expand the carat for each catalog to see its sub-catalogs.
 
-        ![Select the catalogs your app will use](../image/crs-add-form-to-cat.png "Select the catalog")
+        \[Omitted image "crs-add-form-to-cat.png"\] Alt text: Select the catalogs your app will use
 
     3.  Select as many items in the catalogs as you need.
 
     4.  Select **Apply**.
 
-    You can edit any of the app's basic settings any time after you finish creating the app. For more information, see [Creator Studio form settings](../reference/creator-studio-form-settings.md).
+    You can edit any of the app's basic settings any time after you finish creating the app. For more information, see [Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-settings.md).
 
 3.  Next, choose one or more topics to specify where the form will appear.
 
-    Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+    Find out more about topics in , and more about taxonomy, which is a categorization method, in .
 
     **Note:** You can skip this step for now and revisit it later when you have a better idea of where it fits.
 
-    1.  Select the **Edit button** \(![](../image/cs-edit-form-location.png)\) for the Topics card.
+    1.  Select the **Edit button** \(\[Omitted image "cs-edit-form-location.png"\]\) for the Topics card.
 
     2.  Choose the **Taxonomy** page where you want the form to appear, such as **Employee**.
 
@@ -108,7 +109,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
         For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics.
 
-        ![Select one or more topics for your form](../image/crs-topic-taxo.png "Select the topics where your form will appear")
+        \[Omitted image "crs-topic-taxo.png"\] Alt text: Select one or more topics for your form
 
     4.  Select the topics where you want the form to appear, as many as you need.
 
@@ -139,17 +140,17 @@ Your system administrator must add you to the Creator Studio Users group.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/cs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "cs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 2.  Next, you can customize the form's look and feel on the **Request forms** tab by completing one of the following steps.
 
-    1.  Add or modify the image that appears on your form by selecting the add image icon \(![Select an image to accompany your form](../image/cs-add-form-image.png)\) and then selecting an image.
+    1.  Add or modify the image that appears on your form by selecting the add image icon \(\[Omitted image "cs-add-form-image.png"\] Alt text: Select an image to accompany your form\) and then selecting an image.
 
     2.  Change the form’s title, short description, and other text by selecting those parts of the form and typing in your changes.
 
@@ -158,7 +159,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 ### Result
 
-Get more details on customizing your form in [Customize your form for an app in Creator Studio](creator-studio-edit-form.md).
+Get more details on customizing your form in [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-edit-form.md).
 
 Next, we'll build and publish a form.
 
@@ -176,7 +177,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
     If you're adding a pre-configured **Question set**, you must select the question set from the modal that appears when you drag it onto the form.
 
-    For a description of question types and how they're used, see [Available question types in Creator Studio](../reference/creator-studio-form-elements-ref.md).
+    For a description of question types and how they're used, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-elements-ref.md).
 
 2.  Select the question.
 
@@ -186,11 +187,11 @@ Your system administrator must add you to the Creator Studio Users group.
 
     The details vary by question type. For example, if you add a **Dropdown** question, you must supply the options to choose from.
 
-    ![Entering details for a question on a form](../image/crs-form-questions-sets-dynamic.png "Form question details")
+    \[Omitted image "crs-form-questions-sets-dynamic.png"\] Alt text: Entering details for a question on a form
 
-4.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](../concept/creator-studio-glossary.md#) to it on the **Behaviors** tab.
+4.  Make the form's appearance change based on how users answer questions by adding [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) to it on the **Behaviors** tab.
 
-    For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](creator-studio-dynamic-behavior.md).
+    For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required. Get the details on adding dynamic in [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-dynamic-behavior.md).
 
 5.  Select **Save and close** when you finish modifying the question.
 
@@ -210,9 +211,9 @@ Your system administrator must add you to the Creator Studio Users group.
 
         **Note:** To edit or delete a section, you must hover over the section name and then select **Section** to see the section details in the properties panel, as well as the delete icon.
 
-        ![Hover over the section name to edit it](../image/crs-section-edit-hover.png "Selecting a section")
+        \[Omitted image "crs-section-edit-hover.png"\] Alt text: Hover over the section name to edit it
 
-        For more information, see [Layout options for forms in Creator Studio](../reference/creator-studio-form-layout-options.md).
+        For more information, see [Layout options for forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-layout-options.md).
 
     3.  Select **Save** in the Section details/Question details panel when you’re done revising the form’s layout.
 
@@ -220,7 +221,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
     Publishing forms makes them available as catalog items in the production instance for published apps.
 
-    ![Mark your app as ready](../image/cs-mark-as-ready.png)
+    \[Omitted image "cs-mark-as-ready.png"\] Alt text: Mark your app as ready
 
 
 ### Result
@@ -239,7 +240,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 1.  Select the **Automations** tab in the application header.
 
-    ![Select the Automations tab](../image/cs-automations-tab.png)
+    \[Omitted image "cs-automations-tab.png"\] Alt text: Select the Automations tab
 
 2.  Select the **Create a playbook** button.
 
@@ -250,7 +251,7 @@ Your system administrator must add you to the Creator Studio Users group.
     |Playbook name|Descriptive name for the playbook you're creating.|
     |Description|Brief explanation of what the playbook does, for example, the end goal for the record type.|
 
-    ![Settings for creating a playbook](../image/cs-create-playbook-modal.png "Create a playbook")
+    \[Omitted image "cs-create-playbook-modal.png"\] Alt text: Settings for creating a playbook
 
 4.  Specify the Schedule for the playbook.
 
@@ -268,7 +269,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
         **Note:** You can't change an playbook's trigger type after you finish creating the playbook. Instead, create a new playbook with a different trigger.
 
-        However, you can edit the trigger condition, such as making the playbook run conditionally based on a specific answer to a question. For more information, see [Edit the trigger for a playbook in Creator Studio](creator-studio-add-trigger-automation.md).
+        However, you can edit the trigger condition, such as making the playbook run conditionally based on a specific answer to a question. For more information, see [Edit the trigger for a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-trigger-automation.md).
 
     3.  If you chose a trigger that includes a form being updated, specify how often that app should **Run your playbook**.
 
@@ -280,12 +281,12 @@ Your system administrator must add you to the Creator Studio Users group.
         -   **For every update**
     4.  Specify the conditions that must be met for the playbook to begin running by selecting **Add condition set**.
 
-        -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](../concept/creator-studio-glossary.md#)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
+        -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
         -   If you want to trigger the playbook based on the response from a form, select **Questions** as the trigger **Field**. Then select the question you want in the **Question** field, the condition **Operator** and the answer's **Value**.
 
-            ![Use a specific answer to a form's question as trigger](../image/crs-trigger-question-answer.png "Question answer as trigger for an automation")
+            \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-        Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+        Add as many conditions as you need. For more information, see .
 
 5.  Select **Save** before moving on to add an activity.
 
@@ -304,15 +305,15 @@ Your system administrator must add you to the Creator Studio Users group.
 
 ### About this task
 
-If you want to include an if/then statement to define circumstances for the [activity](../concept/creator-studio-glossary.md#), add a decision. See [Add a decision to an app's playbook in Creator Studio](creator-studio-add-decision-automation.md) for details.
+If you want to include an if/then statement to define circumstances for the [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md), add a decision. See [Add a decision to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-decision-automation.md) for details.
 
 ### Procedure
 
 1.  Select the **Automations** tab in the application header.
 
-    ![Select the Automations tab](../image/cs-automations-tab.png)
+    \[Omitted image "cs-automations-tab.png"\] Alt text: Select the Automations tab
 
-2.  Select the add icon ![](../image/cs-add-icon.png) on the connector where you want to add an activity and choose the square **Add an activity** icon \(![](../image/cs-add-activity-icon.png)\) in the menu that pops up.
+2.  Select the add icon \[Omitted image "cs-add-icon.png"\] Alt text: on the connector where you want to add an activity and choose the square **Add an activity** icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) in the menu that pops up.
 
 3.  Choose the type of activity that you want from the Activity library pop-up.
 
@@ -367,7 +368,7 @@ Placeholder
 Set an undefined activity to be specified later, or a more advanced activity such as an email notification, when an activity is completed.Placeholder activities don't have any logic assigned to them yet, and must be edited in Workflow Studio. Or, you can swap them out later for another type of activity in Creator Studio.
 
 </td></tr></tbody>
-</table>    ![Select which type of activity to add](../image/cs-add-activity-email.png "Activity library for a playbook")
+</table>    \[Omitted image "cs-add-activity-email.png"\] Alt text: Select which type of activity to add
 
 4.  Enter the basic details for the activity.
 
@@ -376,9 +377,9 @@ Set an undefined activity to be specified later, or a more advanced activity suc
     |Name|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the activity accomplishes.|
 
-    ![Activity details panel](../image/cs-assign-to-properties.png "Activity details panel")
+    \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel
 
-5.  Complete the details for the activity, using [Add activities to an app's playbook in Creator Studio](creator-studio-add-activities-automation.md) for information on how to finish creating the activity.
+5.  Complete the details for the activity, using [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-add-activities-automation.md) for information on how to finish creating the activity.
 
 6.  Select the **Save and close** button to finish setting up your activity.
 
@@ -386,7 +387,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
 
     Activating a playbook makes it available to run when its related form is created or updated on your non-production, development instance.
 
-    ![Select the button to activate the playbook](../image/cs-playbook-activate-button.png "Activate the playbook")
+    \[Omitted image "cs-playbook-activate-button.png"\] Alt text: Select the button to activate the playbook
 
 
 ### Result
@@ -405,19 +406,19 @@ Your system administrator must add you to the Creator Studio Users group.
 
 1.  In the application header, select **Submit for review**.
 
-    ![Select Submit for review to request deployment](../image/cs-submit-review-button.png "Submit for review")
+    \[Omitted image "cs-submit-review-button.png"\] Alt text: Select Submit for review to request deployment
 
 2.  Select **Continue** on the Submit app for review modal.
 
 3.  Now you need to choose which published forms are visible to users in the catalog. In the Ready for review section of the Review request forms modal, select which of the app's published forms that you want to be available after the app is deployed selecting the **Visible to others** option.
 
-    ![Select which forms to deploy](../image/cs-submit-request-forms.png "Review request forms for deployment")
+    \[Omitted image "cs-submit-request-forms.png"\] Alt text: Select which forms to deploy
 
 4.  Select **Continue** when you're happy with the forms being deployed to production.
 
 5.  Next, you must decide which of the app's activated playbooks will run on production after the app is deployed. In the Review playbooks modal, select the **Run on production** option for each playbook that you want to run on records that the app generates.
 
-    **Note:** If you can't select a playbook, you need to go back to the **Automations** tab of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](creator-studio-activate-automation.md).
+    **Note:** If you can't select a playbook, you need to go back to the **Automations** tab of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-activate-automation.md).
 
 6.  Select **Continue** when you're happy with the playbooks being deployed to run on production.
 
@@ -437,20 +438,20 @@ New version
 
 </td><td>
 
-[Version number](../concept/creator-studio-glossary.md#) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
+[Version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
 
 </td></tr><tr><td>
 
-[Release notes](../concept/creator-studio-glossary.md#)
+[Release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md)
 
 </td><td>
 
 Details on what's changed in this new version of the app, or a general description of what the app does if this is its first version.
 
 </td></tr></tbody>
-</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](../concept/creator-studio-app-release-versioning.md).
+</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-app-release-versioning.md).
 
-    ![Versioning info on deployment request](../image/cs-deploy-versioning.png "App versioning info")
+    \[Omitted image "cs-deploy-versioning.png"\] Alt text: Versioning info on deployment request
 
 8.  Select **Submit for review** when everything is correct and ready for your admin to review and deploy.
 

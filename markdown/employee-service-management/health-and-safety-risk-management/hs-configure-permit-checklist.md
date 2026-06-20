@@ -2,6 +2,7 @@
 title: Configure a permit checklist
 description: Create a permit checklist and link it to the permit type of a permit-to-work request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-checklist.html
 release: xanadu
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -21,7 +22,7 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 ## About this task
 
-The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](../concept/hs-configure-permit-to-work.md).
+The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role to enable the permit coordinator to perform this configuration. For more information, see [Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
 5.  On the form, fill in the fields.
 
-    For more information on the field description, see [Variable set new record form](../reference/hs-variable-set-new-record-form.md).
+    For more information on the field description, see [Variable set new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-set-new-record-form.md).
 
 6.  Select **Submit**.
 
@@ -45,7 +46,7 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
 7.  Open the new variable set and on the form fill in the fields.
 
-    For more information on the field description, see [Variable new record form](../reference/hs-variable-new-record.md).
+    For more information on the field description, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
 
 8.  Select **Submit**.
 
@@ -63,7 +64,7 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
     4.  On the form, fill in the fields.
 
-        For more information on the field description, see [Choice new record form](../reference/hs-choice-new-record-form.md).
+        For more information on the field description, see [Choice new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.md).
 
     5.  Select **Submit**.
 
@@ -91,9 +92,9 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
     3.  Select **Duplicate action** for the existing **Create permit checklist record** action.
 
-        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer-home-landing-page&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) basics.
+        The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Flow Designer basics.
 
-        For information on how to create or modify flows, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+        For information on how to create or modify flows, see Create a flow.
 
     4.  Select the new checklist type in the **Checklist type** field.
 
@@ -104,5 +105,5 @@ The admins must assign specific roles to the sn\_hs\_rm.permit\_coordinator role
 
 The checklist is configured and displayed in the checklist tab of the permit-to-work request form when the permit type is selected.
 
-**Parent Topic:**[Configure permit-to-work](../concept/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

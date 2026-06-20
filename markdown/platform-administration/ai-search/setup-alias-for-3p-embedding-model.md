@@ -2,6 +2,7 @@
 title: Set up a connection and credential alias for a third-party embedding model
 description: Set up a connection and credential alias to authenticate an integration between your ServiceNow instance and a third-party embedding model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/setup-alias-for-3p-embedding-model.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -37,7 +38,7 @@ The system provides the default connection and credential alias for the Azure Op
 
     2.  On the form, fill in the fields.
 
-        For a description of the field values, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+        For a description of the field values, see .
 
     3.  Select **Submit**.
 
@@ -49,7 +50,7 @@ The system provides the default connection and credential alias for the Azure Op
 
         -   Select the connection record that you created in step 3 for the Azure OpenAI alias.
         -   Select the connection record that you created in step 3 for the Google Gemini API alias.
-    2.  In the Credentials field, select the search icon \(![Lookup using list.](../../../common/image/Banner_GlobalTextSearchIcon.png)\) and then select **New**.
+    2.  In the Credentials field, select the search icon \(\[Omitted image "Banner\_GlobalTextSearchIcon.png"\] Alt text: Lookup using list.\) and then select **New**.
 
     3.  From the list of credentials, select a credential type.
 
@@ -57,7 +58,7 @@ The system provides the default connection and credential alias for the Azure Op
         -   To create a credential record for the Google Gemini API alias, select **OAuth 2.0 Credentials**.
     4.  On the form, fill in the fields.
 
-        For a description of the field values, see [API key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) for the Azure OpenAI alias or [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) for the Google Gemini API alias.
+        For a description of the field values, see  for the Azure OpenAI alias or  for the Google Gemini API alias.
 
     5.  Select **Submit**.
 
@@ -68,7 +69,7 @@ The system provides the default connection and credential alias for the Azure Op
 
 ## What to do next
 
-Activate the embedding model to start using it. For more information, see [Activate a third-party embedding model](activate-3p-embedding-model.md).
+Activate the embedding model to start using it. For more information, see [Activate a third-party embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/activate-3p-embedding-model.md).
 
-**Parent Topic:**[Configuring an external or custom embedding model](../concept/setting-up-3p-embedding-models.md)
+**Parent Topic:**[Configuring an external or custom embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/setting-up-3p-embedding-models.md)
 

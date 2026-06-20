@@ -2,13 +2,14 @@
 title: Delete a changeset
 description: Select the changeset on the Activity tab and then select Delete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-family/cdm-changeset-delete.html
 release: xanadu
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Changesets and version control in CDM, Use, DevOps Config, IT Service Management]
+breadcrumb: [Changesets and version control in CDM, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Delete a changeset

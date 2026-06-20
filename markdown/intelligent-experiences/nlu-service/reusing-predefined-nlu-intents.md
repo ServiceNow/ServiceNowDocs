@@ -2,6 +2,7 @@
 title: Reusing intents from prebuilt NLU models
 description: Reuse Natural Language Understanding \(NLU\) intents by importing them from a prebuilt NLU model to other models. Reusing intents saves time when building your models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.html
 release: xanadu
 product: NLU Service
 classification: nlu-service
@@ -23,17 +24,17 @@ The prebuilt models are read-only, but contain validated intents that you can re
 
 Each of the prebuilt Virtual Agent models uses language that's pertinent to their respective business unit \(BU\). The NLU that processes this language, built from a word corpus of 3 million words, is context-aware of general linguistic patterns and both ServiceNow and user-defined vocabularies.
 
-![Examples of how Virtual Agent NLU is context-aware of general linguistic patterns and both ServiceNow and user-defined vocabularies.](../images/prebuilt-va-model-nlu-vocabulary.png)
+\[Omitted image "prebuilt-va-model-nlu-vocabulary.png"\] Alt text: Examples of how Virtual Agent NLU is context-aware of general linguistic patterns and both ServiceNow and user-defined vocabularies.
 
 The prebuilt models map to common conversation topics used by Virtual Agent chatbots across each of the three BUs. Those topics correspond with intents that perform BU-specific actions.
 
-![The prebuilt Virtual Agent NLU models map their intents to common conversation topics used by Virtual Agent chatbots across each of the three business units.](../images/prebuilt-va-model-convo-flows.png)
+\[Omitted image "prebuilt-va-model-convo-flows.png"\] Alt text: The prebuilt Virtual Agent NLU models map their intents to common conversation topics used by Virtual Agent chatbots across each of the three business units.
 
 For more NLU and Virtual Agent context, refer to the following product documentation:
 
--   For ITSM context, see [ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-virtual-agent&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
--   For HR context, see [Virtual Agent for HR Service Delivery](https://www.servicenow.com/docs/access?context=hr-virtual-agent-conversations&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
--   For CSM context, see [Customer Service Virtual Agent conversations](https://www.servicenow.com/docs/access?context=csm-virtual-agent-chatbot&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+-   For ITSM context, see ITSM Virtual Agent.
+-   For HR context, see Virtual Agent for HR Service Delivery.
+-   For CSM context, see Customer Service Virtual Agent conversations.
 
 ## Virtual Agent and NLU plugins and roles
 
@@ -55,7 +56,7 @@ Descriptions
 
 </td><td>
 
-Enables [Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://www.servicenow.com/docs/access?context=prebuilt-topics-ITSM&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US) for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
+Enables Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models for the Customer Service Management, HR Service Delivery, and IT Service Management applications.
 
  -   Requires the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin to be activated.
 -   Automatically activates the NLU Workbench \(com.snc.nlu\_studio\) plugin.
@@ -65,9 +66,9 @@ Enables [Pre-built Virtual Agent topics, topic blocks, and ServiceNow NLU models
 
 The prebuilt Virtual Agent models are set to read-only and can't be edited. However, the intents in these models can be imported into your new model, alongside any new intents you've created in your model. You can also copy the prebuilt model and use the intents as a foundation for a new model.
 
-To reuse the intents from a prebuilt Virtual Agent model, choose the prebuilt model when importing intents. See [Import an NLU intent](../task/import-nlu-intent.md).
+To reuse the intents from a prebuilt Virtual Agent model, choose the prebuilt model when importing intents. See [Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/nlu-service/import-nlu-intent.md).
 
 NLU models and their intents and entities are associated to an application scope. The scope can't be changed later, so verify your target application scope before you begin.
 
-**Parent Topic:**[NLU intents](intents.md)
+**Parent Topic:**[NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/nlu-service/intents.md)
 

@@ -2,6 +2,7 @@
 title: Monitor an upgrade to an instance
 description: While the system is upgrading an instance, you can monitor its progress with the Upgrade Monitor. When the upgrade is done, you can view a summary of the results on the Upgrade Summary Report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/monitor-upgrade-apply-upgrade.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,12 +31,12 @@ Role required: Admin.
 
 ## What to do next
 
-From the Upgrade Summary Report, [Resolve Conflicts form](../reference/upgrademon-resolve-conflicts-form.md) that prevented the system from upgrading records.
+From the Upgrade Summary Report, [Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-resolve-conflicts-form.md) that prevented the system from upgrading records.
 
--   **[Upgrade Progress](../reference/upgrademon-upgrade-progress-scrn.md)**  
+-   **[Upgrade Progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-upgrade-progress-scrn.md)**  
 When an upgrade is underway, Upgrade Progress displays progress bars and other information to help monitor the process.
--   **[Upgrade Summary Report](../reference/upgrademon-upgrade-summary-rpt.md)**  
+-   **[Upgrade Summary Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-upgrade-summary-rpt.md)**  
 This report summarizes the actions taken, provides tools to resolve conflicts between customizations and the upgrade, and provides information to help estimate time for upgrades to other instances.
 
-**Parent Topic:**[Upgrade Monitor module: Upgrade an individual instance](../reference/upgrademon-landing-page.md)
+**Parent Topic:**[Upgrade Monitor module: Upgrade an individual instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-landing-page.md)
 

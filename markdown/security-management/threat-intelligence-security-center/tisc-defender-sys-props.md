@@ -2,13 +2,14 @@
 title: System properties for Microsoft Defender EDR
 description: The following details the system properties for Microsoft Defender EDR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-defender-sys-props.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-04-18"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Microsoft Defender for EDR Integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System properties for Microsoft Defender EDR
@@ -55,5 +56,5 @@ This allows users to limit the rate of sending EDR to MS Defender on an hourly b
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Microsoft Defender for EDR Integration](../concept/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

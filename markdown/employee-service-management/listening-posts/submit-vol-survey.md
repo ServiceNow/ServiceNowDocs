@@ -2,6 +2,7 @@
 title: Enable a Listening Posts voluntary survey
 description: Enable users to share their feedback anytime by letting them access the voluntary feedback survey on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/submit-vol-survey.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts

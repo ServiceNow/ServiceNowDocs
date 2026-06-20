@@ -2,6 +2,7 @@
 title: Monitoring event queue efficiency through Application Insights
 description: You can monitor event queue performance in Application Insights by comparing and analyzing the rate at which events are logged and processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/monitoring-event-processing.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -44,5 +45,5 @@ Dig deeper into potential performance issues by drilling down to analyze issues 
     -   Identify which queue processed the most events in the selected day range by sorting on the **Processed events in range** column.
     -   Identify which queue took the most amount of time processing events on average in the selected day range by sorting on the **Average processing duration in range** column.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

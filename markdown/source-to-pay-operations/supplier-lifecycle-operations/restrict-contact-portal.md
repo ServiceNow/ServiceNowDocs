@@ -2,6 +2,7 @@
 title: Restrict the primary contact role for a contact from the Supplier Collaboration Portal
 description: Restrict the primary contact role for a contact to prevent them from accessing all the contacts and tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -42,5 +43,5 @@ The **Restrict access** option is available only to the primary supplier contact
     The Primary contact column is set to **false** for this contact on the Vendor Contacts page, and the contact no longer has the primary contact role.
 
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 

@@ -2,6 +2,7 @@
 title: Indexed source retention policies and filter conditions
 description: AI Search uses settings to automatically purge stale records from the index and optimize search performance. To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/retention-policies-conditions-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -31,10 +32,10 @@ When a source record no longer satisfies the indexed source's filter conditions,
 
 ## Purging stale records
 
-AI Search automatically purges stale records from the index daily. Users with the admin role can manually purge stale records. For details on this procedure, see [Purge stale records from the AI Search index](../task/purge-stale-records-ais-index.md).
+AI Search automatically purges stale records from the index daily. Users with the admin role can manually purge stale records. For details on this procedure, see [Purge stale records from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/purge-stale-records-ais-index.md).
 
--   **[Purge stale records from the AI Search index](../task/purge-stale-records-ais-index.md)**  
+-   **[Purge stale records from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/purge-stale-records-ais-index.md)**  
 Execute a scheduled job to delete stale records from the AI Search index.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md)
 

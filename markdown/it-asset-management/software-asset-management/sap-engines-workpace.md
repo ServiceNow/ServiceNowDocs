@@ -2,6 +2,7 @@
 title: View SAP engines in workspace
 description: View the monthly engine usage measurements for SAP clients based on the license metric for each engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sap-engines-workpace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

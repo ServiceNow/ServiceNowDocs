@@ -2,6 +2,7 @@
 title: Configure Conversational Integration with WhatsApp \(powered by Twilio\)
 description: Install and set up the Conversational Integration with WhatsApp \(powered by Twilio\) application to enable requesters to interact with virtual and live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-configure.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -25,14 +26,14 @@ This task provides the general steps to integrate the WhatsApp messaging app wit
 
 ## Procedure
 
-1.  [Install Conversational Integration with WhatsApp \(powered by Twilio\)](messg-whatsapp-install.md).
+1.  [Install Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-install.md).
 
-2.  [Set up Conversational Integration with WhatsApp \(powered by Twilio\)](messg-whatsapp-setup.md).
+2.  [Set up Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-setup.md).
 
-3.  [Design virtual agent topics to capture information from a WhatsApp chat conversation](../concept/messg-whatsapp-capture-info.md).
+3.  [Design virtual agent topics to capture information from a WhatsApp chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-capture-info.md).
 
-4.  [Close idle WhatsApp chat conversations](../concept/messg-whatsapp-open-conv.md).
+4.  [Close idle WhatsApp chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-open-conv.md).
 
-5.  [Transfer WhatsApp chat conversations to live agents](messg-whatsapp-live-agent-conv.md).
+5.  [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md).
 
 

@@ -2,6 +2,7 @@
 title: Deactivate, reactivate, or delete an external content connector
 description: Deactivate an external connector to pause its scheduled crawls while retaining all of the content and metadata that it has already crawled. Reactivate a deactivated connector to resume its scheduled crawls. Delete an external content connector to remove the connector's definition along with all content and metadata that it has crawled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/deactivate-del-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -30,13 +31,13 @@ You can delete an external content connector to remove its definition. When you 
 
 1.  Use the application picker to switch to the External Content Connectors Admin application scope.
 
-    For details on selecting an application scope using the application picker, see [Select an application from the application picker](../../../build/applications/task/t_SelectAnAppFromTheAppPicker.md).
+    For details on selecting an application scope using the application picker, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
 3.  In the Connectors pane, find the record for the connector you want to deactivate or delete, and open its context menu in one of the following ways:
 
-    -   Select the connector record's Overflow icon ![](../image/icon-action-menu-ext-cont-conn.png).
+    -   Select the connector record's Overflow icon \[Omitted image "icon-action-menu-ext-cont-conn.png"\] Alt text:.
     -   Right-select the connector record.
 4.  In the context menu, select one of the following options:
 
@@ -56,7 +57,7 @@ The result depends on which selection you made:
 
 ## What to do next
 
-If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions on demand. For details on running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](run-umap-crawl-ext-cont-connector.md).
+If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions on demand. For details on running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md) and [Run a one-time user mapping crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-umap-crawl-ext-cont-connector.md).
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ext-cont-connectors.md)
 

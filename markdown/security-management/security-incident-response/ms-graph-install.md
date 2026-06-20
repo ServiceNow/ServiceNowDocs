@@ -2,6 +2,7 @@
 title: Install and configure the Servicenow application for Microsoft Graph Security API alert ingestion integration
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/ms-graph-install.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -21,25 +22,25 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the Microsoft Graph Security API application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Microsoft Graph Security API application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Microsoft Graph Security API - Alert Ingestion tile.
 
-    ![Microsoft Graph Security API: configure](../image/ms-graph-config-tile.png)
+    \[Omitted image "ms-graph-config-tile.png"\] Alt text: Microsoft Graph Security API: configure
 
 3.  To configure the application, click **Configure**.
 
 4.  In the Alert Ingestions Configuration dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d62648e129">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d63840e129">
 
 Field
 
-</th><th align="left" id="d62648e132">
+</th><th align="left" id="d63840e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62648e138">
+</th></tr></thead><tbody><tr><td id="d63840e138">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d62648e153">
+</td></tr><tr><td id="d63840e153">
 
 **Tenant ID**
 
@@ -55,15 +56,15 @@ Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric valu
 
 The Microsoft Azure Tenant ID. This is the instance from which all the alerts in the Microsoft Azure portal are retrieved.
 
-</td></tr><tr><td id="d62648e168">
+</td></tr><tr><td id="d63840e168">
 
 **Client ID**
 
 </td><td>
 
-The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](ms-graph-configure-azure.md) for details.
+The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/ms-graph-configure-azure.md) for details.
 
-</td></tr><tr><td id="d62648e193">
+</td></tr><tr><td id="d63840e193">
 
 **Client Secret**
 

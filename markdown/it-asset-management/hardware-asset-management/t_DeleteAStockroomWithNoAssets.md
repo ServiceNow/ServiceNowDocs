@@ -2,6 +2,7 @@
 title: Delete a stockroom with no assets
 description: You can delete a stockroom that has no assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/t\_DeleteAStockroomWithNoAssets.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -32,5 +33,5 @@ Role required: inventory\_admin
     **Note:** Transfer order history is deleted when you delete the stockroom.
 
 
-**Parent Topic:**[Manage stockrooms](../../hardware-asset-management/concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

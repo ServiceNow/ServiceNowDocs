@@ -2,6 +2,7 @@
 title: Configure your organizational structure
 description: Configure the structure of your retail organization within Retail Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-configure-organizational-structure.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

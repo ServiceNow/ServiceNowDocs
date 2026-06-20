@@ -2,6 +2,7 @@
 title: Diagnose search result access issues using the Search Preview UI
 description: Use the Search Preview UI and the AI Search High Security administrator elevated privilege role to determine whether filters prevent a search user from viewing a specific search result in the AI Search index.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/diagnose-srch-result-access-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -29,13 +30,13 @@ Use the Search Preview UI to diagnose filter configurations that prevent a searc
 
 1.  Navigate to **AI Search** &gt; **Preview** &gt; **Search Preview \(New\)**.
 
-2.  Select the Search Preview UI's User tool ![](../image/search-preview-new-icon-user.png) and enter the affected user's name into the **Search as User** field.
+2.  Select the Search Preview UI's User tool \[Omitted image "search-preview-new-icon-user.png"\] Alt text: and enter the affected user's name into the **Search as User** field.
 
-    **Note:** For more details on the **Search as User** field, see [Search Preview admin tools](../reference/search-preview-ui-new-admin-tools.md).
+    **Note:** For more details on the **Search as User** field, see [Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-preview-ui-new-admin-tools.md).
 
 3.  In the Search Application list, select the search application configuration for the portal or search application where the affected user is unable to see the search result in question.
 
-4.  Enter the search query of interest into the search input field and press Enter or select the Submit search icon ![](../image/search-preview-new-icon-submit-search.png) to search as the affected user.
+4.  Enter the search query of interest into the search input field and press Enter or select the Submit search icon \[Omitted image "search-preview-new-icon-submit-search.png"\] Alt text: to search as the affected user.
 
     Search results appear, matching those seen by the affected user for the search query of interest in the selected portal or search application. Some results that match your search terms may be hidden by search source or content security filters.
 
@@ -59,7 +60,7 @@ Next Experience UI
 
 In the banner frame, select the icon for your account to open the user menu, then select **Elevate role**.
 
-![User menu with Elevate role action highlighted in Next Experience UI.](../image/elevate-role-polaris-ui.png)
+\[Omitted image "elevate-role-polaris-ui.png"\] Alt text: User menu with Elevate role action highlighted in Next Experience UI.
 
 </td></tr><tr><td>
 
@@ -67,18 +68,18 @@ Core UI
 
 </td><td>
 
-In the banner frame, select your name to open the user menu, then select **Elevate Roles**.![User menu with Elevate Roles action highlighted in Core UI.](../../../use/dashboards/image/adv-ais-tools-user-menu-before.png)
+In the banner frame, select your name to open the user menu, then select **Elevate Roles**.\[Omitted image "adv-ais-tools-user-menu-before.png"\] Alt text: User menu with Elevate Roles action highlighted in Core UI.
 
 </td></tr></tbody>
 </table>        A dialog box appears, displaying a checklist of your available privileged roles.
 
-        ![Dialog box displaying privileged roles in Next Experience UI.](../image/elevate-role-dialog-polaris-ui-ais.png)
+        \[Omitted image "elevate-role-dialog-polaris-ui-ais.png"\] Alt text: Dialog box displaying privileged roles in Next Experience UI.
 
     2.  In the dialog box, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK**.
 
-        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon ![](../../security/image/icon-elevated-role-ui16.png).
+        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon \[Omitted image "icon-elevated-role-ui16.png"\] Alt text:.
 
-        ![User menu showing elevated role indicator in Next Experience UI.](../image/elevated-polaris-ui.png)
+        \[Omitted image "elevated-polaris-ui.png"\] Alt text: User menu showing elevated role indicator in Next Experience UI.
 
         **Note:** When the page reloads, any unsaved edits are lost.
 
@@ -91,7 +92,7 @@ In the banner frame, select your name to open the user menu, then select **Eleva
 
 Compare the two search result sets. If the search result in question appears only in the elevated search, a search source or content security filter prevents the affected user from viewing that result. If the search result doesn't appear in either search, it's not present in the AI Search index.
 
-If the search result in question is indexed from an external document, you can debug the external content security access permission filter for the affected user to see whether it prevents access to the search result. For details on this procedure, see [Debug external content security filters for a ServiceNow AI Platform user](debug-ext-security-perms-user-ais.md).
+If the search result in question is indexed from an external document, you can debug the external content security access permission filter for the affected user to see whether it prevents access to the search result. For details on this procedure, see [Debug external content security filters for a ServiceNow AI Platform user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/debug-ext-security-perms-user-ais.md).
 
-**Parent Topic:**[Administering AI Search](../concept/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/administer-ais.md)
 

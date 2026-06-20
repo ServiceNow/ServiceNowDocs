@@ -2,6 +2,7 @@
 title: Customize behavior for sensitive data redaction
 description: Customize sensitive data redaction behavior by creating system properties for flows that are triggered by inbound emails, sys\_email record, and inbound actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/customize-data-redaction.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -73,5 +74,5 @@ Role required: admin
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Sensitive data redaction](../concept/sensitive-data-redaction.md)
+**Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/sensitive-data-redaction.md)
 

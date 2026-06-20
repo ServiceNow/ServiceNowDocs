@@ -2,6 +2,7 @@
 title: Block event creation for non-existent entities
 description: Invoke the skip\_events\_for\_nonexistent parameter to block event creation when specific process, service, or log does not exist. Invoke this parameter if you do not want to be notified about these non-existent entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

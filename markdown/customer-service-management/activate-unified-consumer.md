@@ -2,7 +2,10 @@
 title: Activate a Unified Consumer user
 description: Activate a user as a Unified Consumer user within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-unified-consumer.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -48,5 +51,5 @@ To enable access to sys\_users \(internal users\), add the sys\_user to the user
 
 ## What to do next
 
-Add a user to your instance. For more information, see [Create a user](../../../administer/users-and-groups/task/t_CreateAUser.md).
+Add a user to your instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/t_CreateAUser.md).
 

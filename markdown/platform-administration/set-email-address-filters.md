@@ -2,6 +2,7 @@
 title: Set email address filters
 description: Specify which domains and email addresses are allowed or disallowed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/set-email-address-filters.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -73,23 +74,23 @@ You can also specify exceptions to the allowed or disallowed domains and email a
 
 ## Email address filter
 
-**Note:** After the email address filter is added to the Email Address Filters \[sys\_email\_address\_filter\] table, [Create an email client configuration](create-email-client-config.md).
+**Note:** After the email address filter is added to the Email Address Filters \[sys\_email\_address\_filter\] table, [Create an email client configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-email-client-config.md).
 
-![Allowed exception in the email address filter and how it appears in the email client.](../image/whitelist-example.png "Email address filter — allowed exception example")
+\[Omitted image "whitelist-example.png"\] Alt text: Allowed exception in the email address filter and how it appears in the email client.
 
 **Note:** Domain name should not contain @ symbol.
 
-![Disallowed exception in the email address filter and how it appears in the email client.](../image/blacklist-example.png "Email address filter — disallowed exception example")
+\[Omitted image "blacklist-example.png"\] Alt text: Disallowed exception in the email address filter and how it appears in the email client.
 
 ## Example
 
-![Allowed exception in the email address filter and how it appears in the email client.](../image/whitelist-example.png "Email address filter — allowed exception example")
+\[Omitted image "whitelist-example.png"\] Alt text: Allowed exception in the email address filter and how it appears in the email client.
 
-![Disallowed exception in the email address filter and how it appears in the email client.](../image/blacklist-example.png "Email address filter — disallowed exception example")
+\[Omitted image "blacklist-example.png"\] Alt text: Disallowed exception in the email address filter and how it appears in the email client.
 
 ## What to do next
 
-Apply the email address filter to a system address filter. For more information, see [Create a system address filter](create-system-address-filter.md).
+Apply the email address filter to a system address filter. For more information, see [Create a system address filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-system-address-filter.md).
 
-**Parent Topic:**[System address filters](../concept/system-address-filters.md)
+**Parent Topic:**[System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-address-filters.md)
 

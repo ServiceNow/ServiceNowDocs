@@ -2,6 +2,7 @@
 title: Managing Mastercard disputes
 description: The Dispute Rules Content Pack for Mastercard leverages guided data collection and maps the data entered to a dispute reason code to ensure the proper categorization and processing of disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/managing-mastercard-disputes.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -17,9 +18,9 @@ The Dispute Rules Content Pack for Mastercard leverages guided data collection a
 
 ## Creating card dispute case
 
-Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see[Create a card dispute service case](../task/create-dispute-service-case.md).
+Agents can manage dispute cases for their customers by using the dispute service case and its tasks. To learn on how to create a card dispute case, see[Create a card dispute service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/create-dispute-service-case.md).
 
-This process includes various stages. For more details on these stages, see [Dispute workflows](dispute-management-workflows.md).
+This process includes various stages. For more details on these stages, see [Dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.md).
 
 ## Dispute categories
 
@@ -44,11 +45,11 @@ Dispute categories include Fraud, Authorization, Processing Error, and Consumer 
 
 ## Dispute reason
 
-Reason codes indicate the reason for a dispute. For a list, see, [Reason codes supported in Dispute Rules Content Pack for Mastercard](../../dispute-content-pack-for-mastercard/reference/reason-codes-supported-in-dispute-rules-content-pack-for-mastercard.md).
+Reason codes indicate the reason for a dispute. For a list, see, [Reason codes supported in Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/reason-codes-supported-in-dispute-rules-content-pack-for-mastercard.md).
 
 ## Dispute questionnaire
 
-When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Dispute intake](dispute-questionnaire.md).
+When a dispute agent or cardholder opens a dispute, they are presented with a corresponding set of questions. Designing clear, simple questions streamlines information gathering, helping customers or front-office agents understand and respond easily. For more details on configuring the questionnaire, see [Dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-questionnaire.md).
 
 ## Dispute decision tables
 
@@ -59,7 +60,7 @@ The following table lists the decision tables used in Dispute Rules Content Pack
 |Mastercard Chargeback Eligibility Rules Subflow Mapping|Determines which chargeback eligibility subflow to call.|
 |Determine Mastercard chargeback dispute reason code message|Determines the chargeback reason code for Mastercard disputes.|
 
-For more information on the Decision tables that provide the logic for processing card disputes, see [Dispute decision tables](dispute-decision-tables.md)
+For more information on the Decision tables that provide the logic for processing card disputes, see [Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-decision-tables.md)
 
 ## Chargeback reason code
 
@@ -69,14 +70,14 @@ Reason codes are sent to Mastercard, which uses this information to process disp
 
 Using ServiceNow to access all dispute details allows for more efficient management of disputes with Visa, saving time and money by reducing incorrectly processed cases.
 
-For more information on the reason codes supported in Dispute Management, see [Reason codes supported in Dispute Rules Content Pack for Mastercard](../../dispute-content-pack-for-mastercard/reference/reason-codes-supported-in-dispute-rules-content-pack-for-mastercard.md).
+For more information on the reason codes supported in Dispute Management, see [Reason codes supported in Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/reason-codes-supported-in-dispute-rules-content-pack-for-mastercard.md).
 
 ## About the Dispute Rules Content Pack for Mastercard
 
 The Dispute Rules Content Pack for Mastercard provides your agents with questionnaires that they can use to intake dispute-related information for various dispute categories as per the Mastercard guidelines.
 
--   **[Dispute Rules Content Pack for Mastercard](../../dispute-content-pack-for-mastercard/concept/dispute-rules-content-pack-for-mastercard-landing-page.md)**  
+-   **[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**  
 The ServiceNow® Dispute Rules Content Pack for Mastercard application provides your agents with questionnaires that they can use to intake dispute-related information for various dispute categories as per the Mastercard guidelines.
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

@@ -2,7 +2,10 @@
 title: Portal Polaris Footer widget
 description: The Portal Polaris Footer widget displays contact information, social media links, and other common links at the bottom of the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/portal-footer-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -22,7 +25,7 @@ Include the Portal Polaris Footer widget on your portal page to display informat
 -   Social media at the bottom right of the footer
 -   Copyright text on the bottom-right corner of the footer
 
-![Portal Polaris Footer widget displaying sitemap links in different categories.](../image/portal-footer-widget.png "Portal Footer widget")
+\[Omitted image "portal-footer-widget.png"\] Alt text: Portal Polaris Footer widget displaying sitemap links in different categories.
 
-For more information, see [Configure the Portal Polaris Footer widget](../task/config-portal-footer-widget.md).
+For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-portal-footer-widget.md).
 

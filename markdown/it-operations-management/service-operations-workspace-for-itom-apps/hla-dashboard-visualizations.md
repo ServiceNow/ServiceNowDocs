@@ -2,6 +2,7 @@
 title: Dashboards for real-time visualization of log data
 description: Health Log Analytics enables you to create log data dashboards and visualizations in real time for enhanced data monitoring and faster identification of deviations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-dashboard-visualizations.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -21,14 +22,14 @@ The data can be presented in various types of graphs and charts. You can adjust 
 
 This functionality is supported in the Service Operations Workspace Log Analytics application, Version 21.2.7 - November 2022 and later, and has a dependency on the Platform Analytics Workspace, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](../../service-operations-workspace-itom/concept/aiops-dashboards-sow-itom.md).
+As an alternative to defining your own dashboard, you can use the AIOps dashboards, which offer comprehensive visualizations of critical operational data. For more information, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md).
 
-![Log data dashboard sample.](../image/hla-log-dashboard-sample.png "Example of a log data dashboard")
+\[Omitted image "hla-log-dashboard-sample.png"\] Alt text: Log data dashboard sample.
 
--   **[Create log data dashboards and visualizations](../task/hla-log-data-dashboard-create.md)**  
+-   **[Create log data dashboards and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-log-data-dashboard-create.md)**  
 Build Health Log Analytics log data dashboards and visualizations in real time for easier identification and understanding of issues.
--   **[../../health-log-analytics-operator/task/hla-op-log-dashboard-default.md](../../health-log-analytics-operator/task/hla-op-log-dashboard-default.md)**  
+-   **[]()**  
 
 
-**Parent Topic:**[Using Service Operations Workspace for ITOM Log Analytics](../../health-log-analytics-operator/concept/hla-op-binder-sow.md)
+**Parent Topic:**[Using Service Operations Workspace for ITOM Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-binder-sow.md)
 

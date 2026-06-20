@@ -2,6 +2,7 @@
 title: Allocate work items manually to agents
 description: Allocate pending work items to agents to complete the work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/assign-workitems-manually-itsm-configurable-workspace.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -37,15 +38,15 @@ The active work items remain in the queue pending manual allocation for one of t
 
 3.  Do any of the following to manually allocate the work items.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d264590e102">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d258789e102">
 
 Navigate To
 
-</th><th align="left" id="d264590e105">
+</th><th align="left" id="d258789e105">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d264590e111">
+</th></tr></thead><tbody><tr><td id="d258789e111">
 
 **Active Work Items tab**
 
@@ -53,7 +54,7 @@ Do this
 
 Select the work item and click **Allocate**.
 
-</td></tr><tr><td id="d264590e123">
+</td></tr><tr><td id="d258789e123">
 
 **Service Channel page**
 
@@ -65,7 +66,7 @@ Select the work item and click **Allocate**.
 4.  Click **Allocate**.
 
 
-</td></tr><tr><td id="d264590e153">
+</td></tr><tr><td id="d258789e153">
 
 **All Queues tab**
 
@@ -94,5 +95,5 @@ Select the work item and click **Allocate**.
     -   If the agent rejects the work item and the status moves to **Queued** state.
     -   If the agent does not accept the work item for a long time, with the status as **Pending Accept** and you must allocate it again.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

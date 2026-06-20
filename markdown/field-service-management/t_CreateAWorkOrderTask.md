@@ -2,7 +2,10 @@
 title: Create a work order task
 description: Create a work order task from a work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CreateAWorkOrderTask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 12
@@ -15,7 +18,7 @@ Create a work order task from a work order.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](../reference/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 ## About this task
 
@@ -28,7 +31,7 @@ These users can edit schedule times, including task windows and planned duration
 |wm\_admin|Tasks in **Draft** or **Pending Dispatch** state.|
 |wm\_task\_initiator|Tasks in the **Draft** state.|
 
-**Note:** You must enable the **Apply Work Order template in draft status** option and **wm\_task\_initiator** role to create tasks for the work order based on the applied template, without qualifying the work order when it is in the draft state. For more information about these configurations, see [Global domain configurations](t_ConfigureFieldService.md) and [Roles installed with Field Service Management](../reference/r_UserRoleInstallWFieldSrvMgmnt.md).
+**Note:** You must enable the **Apply Work Order template in draft status** option and **wm\_task\_initiator** role to create tasks for the work order based on the applied template, without qualifying the work order when it is in the draft state. For more information about these configurations, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_ConfigureFieldService.md) and [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
 ## Procedure
 
@@ -104,7 +107,7 @@ Location
 
 </td><td>
 
-Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you do not want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad hoc locations in work orders and work order tasks](../../field-service-management/concept/service-locations-work-orders.md).
+Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you do not want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +123,7 @@ Skills
 
 </td><td>
 
-Abilities necessary to execute the task. This field is automatically set based on the values in the **Affected CI** field on the parent work order. If you change the affected CI on the work order,then any skills required by the new CI are added here.If you want to [identify mandatory skills](../../customer-service-management/concept/configure-mandatory-skills-feature.md) for agents executing the tasks, you must confirm the form to display the Task-Skill table.
+Abilities necessary to execute the task. This field is automatically set based on the values in the **Affected CI** field on the parent work order. If you change the affected CI on the work order,then any skills required by the new CI are added here.If you want to [identify mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md) for agents executing the tasks, you must confirm the form to display the Task-Skill table.
 
 </td></tr><tr><td>
 
@@ -163,7 +166,7 @@ Dispatch Group
 </td><td>
 
 -   Group that can select an agent to complete the task. By default, you can only select groups that belong to the location of the task. If no dispatch groups exist for the location, all dispatch groups are listed for assignment of the tasks.
--   The best match dispatch group is automatically populated based on the territory mentioned in the task only if the **Field\_Service\_Territories** territory model is enabled. For more information, see [Enable the Field Service territory model](../../field-service-management/task/enable-territory-model.md).
+-   The best match dispatch group is automatically populated based on the territory mentioned in the task only if the **Field\_Service\_Territories** territory model is enabled. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 **Note:** If multiple dispatch groups are populated based on the territory, then you have to select the dispatch group manually from the list.
 
@@ -175,7 +178,7 @@ Assignment group
 
 Group that has the individual agent or vendor who will complete the task. By default, this field shows the recommended assignment groups based on the location, asset, and skills for the task. If the field is empty, the system searches for the group covering the territory that includes the location of the task.**Note:** If there are multiple assignment groups that can be serviced for a work order task, then the potential assignment groups are calculated and automatically populated based on the location and assignment groups if there are more than one that can be serviced for a work order task. Applicable only when:
 
--   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](../reference/r_PropInstallWFieldServMgmnt.md) is set to true.
+-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   Territory model is inactive.
 
@@ -231,7 +234,7 @@ Schedule lock
 
 </td><td>
 
-Locks the task from getting scheduled by any scheduling mechanism. Tasks that are locked are excluded from automated scheduling mechanisms such as Dynamic scheduling, Intelligent task recommendations. However, dispatchers can manually assign the task to agent.**Note:** Work order tasks that are marked for **Multi day**\), **Needs crew**, or **Assigned/Accepted** state in sn\_fsm.set\_schedule\_lock\_by\_state [property](../reference/r_PropInstallWFieldServMgmnt.md) are locked automatically for all scheduling mechanisms.
+Locks the task from getting scheduled by any scheduling mechanism. Tasks that are locked are excluded from automated scheduling mechanisms such as Dynamic scheduling, Intelligent task recommendations. However, dispatchers can manually assign the task to agent.**Note:** Work order tasks that are marked for **Multi day**\), **Needs crew**, or **Assigned/Accepted** state in sn\_fsm.set\_schedule\_lock\_by\_state [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_PropInstallWFieldServMgmnt.md) are locked automatically for all scheduling mechanisms.
 
 </td></tr><tr><td>
 
@@ -413,7 +416,7 @@ Onsite arrival geofence distance unit
 
 </td><td>
 
-The unit used to measure the distance between an agent's current location and the work site location within a geofence. Indicates the unit of measurement utilized to quantify the distance between an agent's current position and the work site location within the geofence. Units are measured in kilometers and miles.**Note:** The **Onsite arrival geofence radius** and **Onsite arrival geofence distance unit** fields in the work order task are automatically populated with default values based on the configuration set in the OnsiteGeofenceConfig extension point. For more information, see [Extension points in Field Service Management](../../field-service-management/reference/extension-points-field-service.md).
+The unit used to measure the distance between an agent's current location and the work site location within a geofence. Indicates the unit of measurement utilized to quantify the distance between an agent's current position and the work site location within the geofence. Units are measured in kilometers and miles.**Note:** The **Onsite arrival geofence radius** and **Onsite arrival geofence distance unit** fields in the work order task are automatically populated with default values based on the configuration set in the OnsiteGeofenceConfig extension point. For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/extension-points-field-service.md).
 
 </td></tr><tr><td>
 
@@ -574,5 +577,5 @@ Penalty cost incurred every minute after penalty due date has passed. The penalt
 
 When a work order task is created, customers receive SMS and email notifications. If the task is in a territory and **sn\_fsm.use\_query\_rules** is enabled, only linked agents, dispatchers, and qualifiers can see it. Access is based on entitlement, controlled by administrators through **sn\_fsm.use\_query\_rules** system property.
 
-**Parent Topic:**[Managing work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

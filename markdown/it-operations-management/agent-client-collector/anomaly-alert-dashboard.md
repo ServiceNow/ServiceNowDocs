@@ -2,6 +2,7 @@
 title: Anomaly Alert Dashboard
 description: View important anomaly alert reports in a single dashboard. Anomaly Alert Dashboard provides summaries about anomaly alerts and promoted alerts, in relation to Event Management alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/anomaly-alert-dashboard.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -48,10 +49,10 @@ To view further details:
 
 [What is anomaly detection?](https://www.servicenow.com/products/it-operations-management/what-is-anomaly-detection.html)
 
-**Parent Topic:**[Metric Intelligence](operational-metrics.md)
+**Parent Topic:**[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/operational-metrics.md)
 
 **Related topics**  
 
 
-[Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.pa-overview]
 

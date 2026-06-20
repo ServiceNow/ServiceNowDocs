@@ -2,6 +2,7 @@
 title: Expense Pre-Approval template
 description: Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval template to create, track, and manage planned expenses in your organization.The following tables, experiences, automated workflows, and roles are included in the Expense Pre-Approval template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/cost-approval-template.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,15 +18,15 @@ Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval
 
 To use the Expense Pre-Approval template, install this application from the ServiceNow Store.
 
-![Expense Pre-Approval template](../image/template-expense-pre-approval.png)
+\[Omitted image "template-expense-pre-approval.png"\] Alt text: Expense Pre-Approval template
 
 Employees can easily submit their planned expenses for multiple levels of approval using the Expense Pre-Approval application. Managers can then review every submitted request. Approved requests are assigned to the budget review group, which can approve or reject the request. The employee receives a notification with the final status of the request.
 
-To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see [Exploring decision tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see .
 
-For more information on creating an application using a template, see [Create your app using an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/template-library.md)
 
 ## Expense Pre-Approval template contents
 

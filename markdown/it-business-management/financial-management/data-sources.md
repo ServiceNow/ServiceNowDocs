@@ -2,6 +2,7 @@
 title: Financial data sources and field maps
 description: Financial data sources point to the actual raw expense data table used by financial modeling and financial planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/data-sources.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -36,7 +37,7 @@ The following table lists the default field maps provided with each data source.
 |Department|Department \[cmn\_department\]|
 |Project|Project \[pm\_project\]|
 
-![Financial data source field mappings.](../image/DataSourceFieldMaps.png "Financial data source and its field maps")
+\[Omitted image "DataSourceFieldMaps.png"\] Alt text: Financial data source field mappings.
 
-**Parent Topic:**[Financial data import](c_FinancialManagementImport.md)
+**Parent Topic:**[Financial data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_FinancialManagementImport.md)
 

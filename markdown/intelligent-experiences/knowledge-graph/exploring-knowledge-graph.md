@@ -2,6 +2,7 @@
 title: Exploring Knowledge Graph
 description: Knowledge Graph provides a customized user experience for enterprises by creating and managing Knowledge Graph schemas that are represented by nodes, node properties, and edges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -63,7 +64,7 @@ In this release, the available prebuilt integrations are:
 
 To learn more about configuring and using Knowledge Graph, see:
 
--   [Configuring Knowledge Graph](../Task/configuring-knowledge-graph.md)
--   [Using Knowledge Graph Designer](../Task/using-knowledge-graph-designer.md)
--   [Reference for Knowledge Graph](../Reference/reference-for-knowledge-graph.md)
+-   [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/configuring-knowledge-graph.md)
+-   [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md)
+-   [Reference for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.md)
 

@@ -2,6 +2,7 @@
 title: Roles in Service Operations Workspace for ITSM
 description: You can configure the user access for Service Operations Workspace \(SOW\) pages using various roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/roles-in-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

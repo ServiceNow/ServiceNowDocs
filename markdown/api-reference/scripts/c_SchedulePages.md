@@ -2,6 +2,7 @@
 title: Schedule Pages
 description: A schedule page is a record that contains a collection of scripts that allow for custom generation of a calendar or timeline display.To access schedule pages, navigate to System Scheduler Schedules Schedule Pages .A Timeline Schedule Page is a specific record that contains configuration information for displaying time based points and spans in a "timeline" like fashion.The following example demonstrates how to create a timeline schedule page with corresponding script include utilizing a majority of the API described above.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/c\_SchedulePages.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ A schedule page is a record that contains a collection of scripts that allow for
 
 Creation of timeline schedule pages requires understanding of the page/event flow and the ability to write client and server side JavaScript.
 
-**Parent Topic:**[Server-side scripting](../../server-scripting/concept/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_ServerScripting.md)
 
 ## Schedule pages form
 
@@ -151,7 +152,7 @@ The timeline schedule page references a script include that extends from Abstrac
 
 The following diagram shows the series of events that occur when a timeline schedule page is accessed. Once the timeline has been loaded, all subsequent events, such as events resulting from timeline interaction \(e.g. moving a timeline span\), follow the same logic flow shown in the gray event box.
 
-![](../image/TimelineFlow.png "Timeline Flow")
+\[Omitted image "TimelineFlow.png"\] Alt text:
 
 ### Applications that use schedule pages to generate time lines
 
@@ -351,22 +352,22 @@ IncidentTimelineScriptInclude.prototype = Object.extendsObject(AbstractTimelineS
 
 2.  The page displays a timeline as specified by the schedule page and script include created. A link to this page can be created and placed as a module or UI action as necessary.
 
-    ![](../image/TimelineExampleIncidentPreview.png "Timeline Example Incident Preview")
+    \[Omitted image "TimelineExampleIncidentPreview.png"\] Alt text:
 
 3.  Attempting to move a closed incident anywhere displays the expected error message.
 
-    ![](../image/TimelineExampleErrorMoving.png "Timeline Example Error Moving")
+    \[Omitted image "TimelineExampleErrorMoving.png"\] Alt text:
 
 4.  Moving the incident: I need more memory displays the following confirmation box.
 
-    ![](../image/TimelineExampleConfirmClose.png "Timeline Example Confirm Close")
+    \[Omitted image "TimelineExampleConfirmClose.png"\] Alt text:
 
 5.  Clicking the **Cancel** button closes the overlay. Clicking the **OK** button actually updates the incident\_state of the record and then displays the following success box.
 
-    ![](../image/TimelineExampleCloseSuccess.png "Timeline Example Close Success")
+    \[Omitted image "TimelineExampleCloseSuccess.png"\] Alt text:
 
 6.  After clicking **OK**, it is clear the incident is now listed in the **Closed Incidents** group.
 
-    ![Timeline of an example incident](../image/TimelineExampleIncidentUpdated.png "Timeline Example Incident Updated")
+    \[Omitted image "TimelineExampleIncidentUpdated.png"\] Alt text: Timeline of an example incident
 
 

@@ -2,6 +2,7 @@
 title: Request skill feedback from skill expectations
 description: You can request skill feedback from the skill expectations widget on the Skills tab in Employee center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-feedback/request-fdbk-skill-expectations.html
 release: xanadu
 product: Talent Feedback
 classification: talent-feedback
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  On the skill expectations widget, select **Score analysis** of the employee you want to request feedback from.
 
-3.  On the skill score analysis fly out, click ![View menu icon](../../human-resources/image/viewmenu.png) on any skill pill and select **Request skill feedback**.
+3.  On the skill score analysis fly out, click \[Omitted image "viewmenu.png"\] Alt text: View menu icon on any skill pill and select **Request skill feedback**.
 
 4.  On the **Request skill feedback** form, fill in the information.
 
@@ -73,5 +74,5 @@ This is an optional entry for you to add any other information that you'd like t
 </table>5.  Select **Send request**.
 
 
-**Parent Topic:**[Request skill feedback](request-skill-feedback.md)
+**Parent Topic:**[Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-feedback/request-skill-feedback.md)
 

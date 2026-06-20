@@ -2,7 +2,10 @@
 title: Service contract life cycle
 description: A service contract goes through the various states in each phase of its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/life-cycle-management.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2

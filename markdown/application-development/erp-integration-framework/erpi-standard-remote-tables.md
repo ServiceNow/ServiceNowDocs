@@ -2,6 +2,7 @@
 title: Standard remote tables for ERP Data Hub
 description: ERP Data Hub accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpi-standard-remote-tables.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -38,16 +39,16 @@ The following remote tables are available through ERP Data Hub and ERP-CM.
 |SAP Vendor Invoice|sn\_erp\_integration\_st\_sap\_vendor\_invoice|Sales|
 |SAP Transport|sn\_erp\_integration\_st\_sap\_transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more details on working with remote tables, see .
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   [App Engine Studio](../../app-engine-studio/concept/aes-overview.md)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
--   [Table Builder](../../../administer/form-builder/concept/tb-landing-page.md)
--   [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)
--   [Workspace Builder](../../app-engine-studio/task/add-workspace.md)
+-   [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/aes-overview.md)
+-   Flows in Workflow Studio
+-   Playbooks in Workflow Studio
+-   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/form-builder-glide-family-release/tb-landing-page.md)
+-   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/ui-builder-overview.md)
+-   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/workspace-builder/add-workspace.md)
 
 You can also access data from the system of record through the Glide API.
 
@@ -61,5 +62,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[ERP Data Hub standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[ERP Data Hub standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

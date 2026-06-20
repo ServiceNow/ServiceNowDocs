@@ -2,6 +2,7 @@
 title: Set the date range of the data
 description: Set the Start date and End date fields at the top of the Overview tab to specify the date range of the data visualizations on the page. The date range set on this tab applies to all the other tabs on the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/use-the-dashboad-pae.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +22,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
 ## About this task
 
-![Virtual Agent chat data ranges shown by start and end dates in year-month-day format.](../images/dashboard-top-dates-pae.png)
+\[Omitted image "dashboard-top-dates-pae.png"\] Alt text: Virtual Agent chat data ranges shown by start and end dates in year-month-day format.
 
 You can set the date range in two ways.
 
@@ -31,13 +32,13 @@ You can set the date range in two ways.
 
 2.  Use the **Start date** and **End date** fields to set the date range.
 
-    1.  Select the **Start date** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    1.  Select the **Start date** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     2.  Double-select the start date on the calendar.
 
     3.  Select **OK**.
 
-    4.  Select the **End date** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    4.  Select the **End date** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     5.  Double-select the end date on the calendar.
 
@@ -47,7 +48,7 @@ You can set the date range in two ways.
 
 3.  Use the **Start date** date calendar to set the date range.
 
-    1.  Select the **Start date** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    1.  Select the **Start date** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     2.  Double-select the start date of the date range.
 
@@ -55,12 +56,12 @@ You can set the date range in two ways.
 
         The dashboard highlights the range of dates.
 
-        ![Calendar showing highlighted start-to-end dates.](../images/dashboard-calendar-start-drag-pae.png)
+        \[Omitted image "dashboard-calendar-start-drag-pae.png"\] Alt text: Calendar showing highlighted start-to-end dates.
 
     4.  Select **OK**.
 
     The data displayed on the dashboard adjusts according to the new date range.
 
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](../concept/use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

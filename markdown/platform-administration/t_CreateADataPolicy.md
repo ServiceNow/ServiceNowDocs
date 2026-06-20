@@ -2,6 +2,7 @@
 title: Create a data policy
 description: You can create a new data policy to define data rules for a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateADataPolicy.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -39,19 +40,19 @@ Create data policies to enforce consistency. You can create data policies only f
 
 6.  Click **New** in the related list and create the record that identifies the field and the policy to apply.
 
-    ![Data policy action](../image/DataPolicyAction2.png)
+    \[Omitted image "DataPolicyAction2.png"\] Alt text: Data policy action
 
     It is possible to have multiple rules on a single field, but it is not recommended.
 
 7.  Click **Submit**.
 
-    ![Data policy data](../image/DataPolicyData2.png)
+    \[Omitted image "DataPolicyData2.png"\] Alt text: Data policy data
 
 8.  Add more rules by repeating steps 6 and 7.
 
 
--   **[Data policy fields](../reference/r_DataPolicyFields.md)**  
+-   **[Data policy fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DataPolicyFields.md)**  
 These fields appear on the Data Policy form and related forms.
 
-**Parent Topic:**[Data policy](../concept/c_DataPolicy.md)
+**Parent Topic:**[Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataPolicy.md)
 

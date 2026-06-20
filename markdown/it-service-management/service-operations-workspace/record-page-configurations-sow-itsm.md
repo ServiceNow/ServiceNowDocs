@@ -2,6 +2,7 @@
 title: Record page configurations in SOW for ITSM
 description: You can configure the data available in record pages in Service Operations Workspace for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

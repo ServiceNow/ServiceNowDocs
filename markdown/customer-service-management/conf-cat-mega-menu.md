@@ -2,7 +2,10 @@
 title: Configure the category of a Portal Mega Menu widget
 description: Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to easily navigate to different pages from the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/conf-cat-mega-menu.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Configure a Portal Mega Menu widget to define a menu category and associate page
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md).
 
 Role required: sp\_admin or admin
 
@@ -27,7 +30,7 @@ Role required: sp\_admin or admin
 
 3.  Select **Customer Service**.
 
-4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(![Preview this record icon](../image/preview-record.png)\).
+4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record icon\).
 
     If a message appears about the application scope, select **here** to be able to edit the record.
 
@@ -41,7 +44,7 @@ Role required: sp\_admin or admin
 
 9.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+    For a description of the field values, see .
 
 10. Select **Update**.
 

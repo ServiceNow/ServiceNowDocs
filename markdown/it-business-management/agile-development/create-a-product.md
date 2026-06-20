@@ -2,11 +2,12 @@
 title: Create a product in Agile Development 2.0
 description: Create a product to represent a feature or functionality important to customers. A product can contain themes, epics, and stories that describe these enhancements from the perspective of a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/create-a-product.html
 release: xanadu
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -40,7 +41,7 @@ Role required: scrum\_product\_owner, scrum\_release\_planner, scrum\_admin
 
 ## What to do next
 
-Use the related lists of the Product record to associate releases, themes, epics, stories, and assignment groups with it. For more information, see [Related lists for a Product in Agile Development 2.0](../reference/related-links-lists-product-agile-2.md).
+Use the related lists of the Product record to associate releases, themes, epics, stories, and assignment groups with it. For more information, see [Related lists for a Product in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/related-links-lists-product-agile-2.md).
 
-**Parent Topic:**[Using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/using-agile-development-2-0.md)
 

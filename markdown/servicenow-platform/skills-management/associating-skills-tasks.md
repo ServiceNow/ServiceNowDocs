@@ -2,6 +2,7 @@
 title: Associating skills with work items
 description: Assign skills to tasks manually or use rules to associate them automatically to work items such as cases, tasks, or chat interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/skills-management/associating-skills-tasks.html
 release: xanadu
 product: Skills Management
 classification: skills-management
@@ -16,6 +17,4 @@ breadcrumb: [Using Skills Management, Skills Management, Manage people and work 
 Assign skills to tasks manually or use rules to associate them automatically to work items such as cases, tasks, or chat interactions.
 
 The video below shows an overview of how skills are automatically added to work items.
-
-Skill-based routing
 

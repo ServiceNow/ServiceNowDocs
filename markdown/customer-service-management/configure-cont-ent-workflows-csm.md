@@ -2,7 +2,10 @@
 title: Configuring Contracts and Entitlement Workflows
 description: Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/configure-cont-ent-workflows-csm.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up
 
 Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 
-As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see .
 
 The following plugins are prerequisites for activating the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\):
 

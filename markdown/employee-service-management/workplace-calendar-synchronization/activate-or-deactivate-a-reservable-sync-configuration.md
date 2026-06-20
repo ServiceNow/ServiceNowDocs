@@ -2,6 +2,7 @@
 title: Activate or deactivate a Reservable sync configuration
 description: You can activate or deactivate a reservable sync configuration if it is not required at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/activate-or-deactivate-a-reservable-sync-configuration.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -51,5 +52,5 @@ When you configure a reservable sync config record for Microsoft Exchange Online
 
 The selected reservation sync configurations is activated or deactivated.
 
-**Parent Topic:**[Add a Reservable Sync Configuration](add-reservable-sync-config.md)
+**Parent Topic:**[Add a Reservable Sync Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
 

@@ -2,6 +2,7 @@
 title: Create a work order template
 description: Field Service Management uses the work order template as a source of information for populating fields in a work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/t\_CreateAWorkOrderTemplate.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
@@ -78,7 +79,7 @@ Checklist template
 
 </td><td>
 
-Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see [Checklists](https://www.servicenow.com/docs/access?context=c_Checklists&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see Checklists.
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Work configuration
 
 </td><td>
 
-The Work configuration for this task. Selecting a work configuration will automatically populate the **Task type** and **Work type** fields. Work configurations must be configured for this field to appear. For more information, see [Configuring Field Service Work Configurations](../../field-service-management/concept/configuring-work-configs.md).
+The Work configuration for this task. Selecting a work configuration will automatically populate the **Task type** and **Work type** fields. Work configurations must be configured for this field to appear. For more information, see [Configuring Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/configuring-work-configs.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +182,7 @@ Work Type
 The type of work to be performed by an agent or crew to complete the task. -   Break Fix
 -   Install
 -   Planned Maintenance
- For more information, see [Create work types for a work order task](../../field-service-management/task/create-work-type-fsm.md).
+ For more information, see [Create work types for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/create-work-type-fsm.md).
 
 </td></tr><tr><td>
 

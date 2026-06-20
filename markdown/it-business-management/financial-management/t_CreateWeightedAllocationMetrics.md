@@ -2,6 +2,7 @@
 title: Create weighted allocation metrics
 description: You can create weighted metrics using an enhanced form or a standard form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/t\_CreateWeightedAllocationMetrics.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -31,7 +32,7 @@ The enhanced form provides a visualization that helps you understand the relatio
 
     A graphical representation of the weighted allocation appears in the **Metric Visualization** section. When you make changes to the form the graphic updates dynamically.
 
-    ![Metric weight builder](../image/MetricWeightMapReview.png "Weighted metric builder")
+    \[Omitted image "MetricWeightMapReview.png"\] Alt text: Metric weight builder
 
     |Field|Description|
     |-----|-----------|
@@ -279,7 +280,7 @@ The account in the rollup segment.
 
     **Enforce allocation from total weight** is an allocation metric based on capacity. As an IT financial analyst, you can also allocate cost where the total capacity of a service is greater than the sum of what is consumed. To enable this option, you must select the **Enforce allocation from total weight** check box in the **Total weight table** section. Select a total weight table to calculate the total weight of metric based on the total consumption capacity. The weighted metric allocates cost based on the total number of available units of consumption.
 
-    **Note:** You can either enforce allocation relationship or enforce allocation from total weight. Enforce total weight if the total allocation is greater than the sum of the consumed values. Whereas, enforce allocation relationship works when the sum of all consumption values \(of all individual entities\) in the weight table adds up to a total capacity of 100%. For more information, see [Total weight support for allocations using weighted metric](../concept/c_RollupsForAllocations.md#total-weight-support-allocation).
+    **Note:** You can either enforce allocation relationship or enforce allocation from total weight. Enforce total weight if the total allocation is greater than the sum of the consumed values. Whereas, enforce allocation relationship works when the sum of all consumption values \(of all individual entities\) in the weight table adds up to a total capacity of 100%. For more information, see [Total weight support for allocations using weighted metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_RollupsForAllocations.md).
 
     **Intermediary Segment** option: Use this option when you have a segment with large number of accounts that add to numerous allocation lines. Nevertheless, the intermediary segment is still considered for the amount to rollup through it for proper allocation. However, the segment identified as intermediary is not included in the hierarchy of cost model and its allocation lines are not generated.
 
@@ -292,7 +293,7 @@ The account in the rollup segment.
 
 ## What to do next
 
-To [preview the weight map](preview-weight-map.md) that you created, click the **Preview Weight Map** button.
+To [preview the weight map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/preview-weight-map.md) that you created, click the **Preview Weight Map** button.
 
-**Parent Topic:**[Allocation metrics](../concept/c_AllocationMetrics.md)
+**Parent Topic:**[Allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AllocationMetrics.md)
 

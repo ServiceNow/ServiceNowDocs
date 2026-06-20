@@ -2,6 +2,7 @@
 title: Activate Virtual Agent
 description: You can activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. This plugin automatically activates other necessary plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/activate-virtual-agent.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -120,7 +121,7 @@ Enables ServiceNow actionable notifications on Virtual Agent channels.
 
 2.  Find the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) using the filter criteria and search bar.
 
-    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see Request a plugin.
 
 3.  Select **Install**, and then in the Activate Plugin dialog box, select **Activate**.
 
@@ -129,14 +130,14 @@ Enables ServiceNow actionable notifications on Virtual Agent channels.
 
 ## What to do next
 
-Activate [additional Virtual Agent plugins](../reference/additional-va-plugins.md) for related features, such as the plugins for predefined Virtual Agent topics.
+Activate [additional Virtual Agent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/additional-va-plugins.md) for related features, such as the plugins for predefined Virtual Agent topics.
 
--   **[Installed with Virtual Agent](../reference/installed-wth-virtual-agent.md)**  
+-   **[Installed with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/installed-wth-virtual-agent.md)**  
 Various types of components are installed with activation of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, including tables and user roles.
--   **[Additional plugins for Virtual Agent](../reference/additional-va-plugins.md)**  
+-   **[Additional plugins for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/additional-va-plugins.md)**  
 After activating Virtual Agent, you can activate additional plugins to enable other features for conversation design.
--   **[Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](../reference/prebuilt-topics-ITSM.md)**  
+-   **[Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md)**  
 Prebuilt Virtual Agent conversations \(topics\), reusable topic blocks, and ServiceNow NLU models are available for the Virtual Agent platform and various business applications, such as Customer Service Management, HR Service Delivery, IT Service Management, and more.
 
-**Parent Topic:**[Configuring Virtual Agent](../concept/configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

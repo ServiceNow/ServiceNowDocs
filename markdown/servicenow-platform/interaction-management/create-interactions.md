@@ -2,6 +2,7 @@
 title: Create an interaction
 description: Most interaction creation takes place in other applications as interactions are merely a method of controlling channels. However, if needed you can create an interaction from the Interaction application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/interaction-management/create-interactions.html
 release: xanadu
 product: Interaction Management
 classification: interaction-management
@@ -40,5 +41,5 @@ Role required: interaction\_agent
 
 View any incidents opened by the same user by clicking the Use the Incidents by Same Caller related list.
 
-**Parent Topic:**[Using Interaction Management](../concept/using-interaction-management.md)
+**Parent Topic:**[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/interaction-management/using-interaction-management.md)
 

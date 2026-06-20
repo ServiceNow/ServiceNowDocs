@@ -2,6 +2,7 @@
 title: Register of information regulatory packages
 description: The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -42,5 +43,5 @@ The Digital Resilience Third-party Information Register provides the following c
 
 All RoI-related actions are performed in the **Digital resilience third-party registers** section of the Vendor Management Workspace. This workspace provides access to download/upload requests, validation tools, and master templates.
 
-For more information, see [Generate a register of information package](../task/tprm-drtp-roi-packages.md)
+For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
 

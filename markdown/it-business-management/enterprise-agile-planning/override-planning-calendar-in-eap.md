@@ -2,6 +2,7 @@
 title: Override planning calendar in EAP
 description: Flexibly change the planning calendar for your Agile Release Train \(ART\) or Agile Team by overriding the default calendar that is set during configuration of Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/enterprise-agile-planning/override-planning-calendar-in-eap.html
 release: xanadu
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -49,7 +50,7 @@ This change is applied to only those ARTs that you update.
 
     -   Before 2024-07-30, clear the **Override planning calendar** field.
     -   After 2024-07-30, set your old calendar as the value for the **Override planning calendar** field.
-    ![Override planning calendar for ART.](../images/eap-override-planning-calendar.png)
+    \[Omitted image "eap-override-planning-calendar.png"\] Alt text: Override planning calendar for ART.
 
     Once the new calendar comes into effect, the child teams will inherit it for all their future iterations. For Agile Teams, the **Override planning calendar** field is read-only and can't be changed independently of its parent ART.
 

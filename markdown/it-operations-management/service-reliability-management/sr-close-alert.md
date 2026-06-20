@@ -2,6 +2,7 @@
 title: Close an SRM alert
 description: Close an alert, if you think it is not an issue, or if it has already been handled.REIVSE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-close-alert.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,11 +28,11 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  You can close an alert in one of two ways.
 
-<table id="choicetable_yqn_5fs_bpb"><tbody><tr><td id="d271217e94">
+<table id="choicetable_yqn_5fs_bpb"><tbody><tr><td id="d252934e94">
 
 **From the Alerts list view**
 
@@ -49,7 +50,7 @@ Select **Update**.
 
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d271217e132">
+</td></tr><tr><td id="d252934e132">
 
 **From the Alert header**
 
@@ -61,5 +62,5 @@ Open an alert and set the **State** field to **Closed**.
 </table>    Closed alerts remain available in the Alerts list view. If you don't see it, check your filter settings.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

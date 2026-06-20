@@ -2,6 +2,7 @@
 title: Extend hardware inventory
 description: Extend the hardware inventory to add the CMPivot entity on the CMPivot entity list in the Microsoft Endpoint Configuration Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/extend-hardware-entity.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -41,14 +42,14 @@ Role required: admin
 
 7.  On the Hardware Inventory Classes window, select the entity and required attributes from the list.
 
-    ![Add hardware inventory](../image/add-hardware-inventory.png)
+    \[Omitted image "add-hardware-inventory.png"\] Alt text: Add hardware inventory
 
 8.  Click **OK**.
 
 
 ## Result
 
-The added hardware inventory is displayed in the CMPivot entity list to verify the required attributes. For more information on verifying the CMPivot entity and the required attributes, see [Verify a CMPivot entity](verify-cmpivot-entity.md).
+The added hardware inventory is displayed in the CMPivot entity list to verify the required attributes. For more information on verifying the CMPivot entity and the required attributes, see [Verify a CMPivot entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/verify-cmpivot-entity.md).
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](../concept/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

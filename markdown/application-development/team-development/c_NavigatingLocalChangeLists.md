@@ -2,6 +2,7 @@
 title: Local change lists
 description: On the team dashboard, the Local Changes list shows the local changes that have not been queued for the next push or ignored for all pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_NavigatingLocalChangeLists.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -25,5 +26,5 @@ The Ready to Push list shows the changes that are queued, and the Ignored list s
 |Right-click the row and select **Show Application File**|To open the application file for the customized record.|
 |Right-click the row and select **Show Version**|To open the current version record.|
 
-**Parent Topic:**[Team Development overview](c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

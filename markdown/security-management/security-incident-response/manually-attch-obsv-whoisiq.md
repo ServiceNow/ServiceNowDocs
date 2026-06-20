@@ -2,6 +2,7 @@
 title: Create an observable for manual WHOISIQ lookups
 description: Security incident analysts use information from observable enrichment with the WHOISIQ API to learn more about the email addresses, names, and phone numbers of organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/manually-attch-obsv-whoisiq.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -23,15 +24,15 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **All** &gt; **IoC Repository** &gt; **Observables**.
 
-    ![Enter Observables in the navigation panel.](../image/riskiq-obs-enter.png "Enter Observables in navigation filter")
+    \[Omitted image "riskiq-obs-enter.png"\] Alt text: Enter Observables in the navigation panel.
 
     Under the navigation panel, the Observables module is displayed.
 
-    ![Observables module.](../image/riskiq-obsv-navfilter.png "Observables module")
+    \[Omitted image "riskiq-obsv-navfilter.png"\] Alt text: Observables module.
 
 2.  Click the **Observables** module to display the Observables list.
 
-    ![Observables list](../image/riskiq-o-list.png "Observables list")
+    \[Omitted image "riskiq-o-list.png"\] Alt text: Observables list
 
 3.  Click **New** to create a new observable.
 
@@ -43,7 +44,7 @@ Role required: sn\_si.analyst
     |**Observable type**|The field is automatically cleared.|
     |**Finding**|The field is automatically set to **Unknown**.|
 
-    ![Enter a value in the field.](../image/riskiq-testmail-new.png "Create a new observable")
+    \[Omitted image "riskiq-testmail-new.png"\] Alt text: Enter a value in the field.
 
 5.  Click **Submit**.
 
@@ -55,7 +56,7 @@ Role required: sn\_si.analyst
 
     1.  In the **Observable type** column, single-click to the right of the **Unknown** text to select it.
 
-        ![Click off of the text and in the column to select the field.](../image/riskiq-test1email-unknown.png "Select the Observable type field")
+        \[Omitted image "riskiq-test1email-unknown.png"\] Alt text: Click off of the text and in the column to select the field.
 
         The selected field is outlined in blue.
 
@@ -63,20 +64,20 @@ Role required: sn\_si.analyst
 
     3.  In the field that is displayed, enter the observable type \(`Email address`\) and click the green check mark to save the value.
 
-        ![Enter the observable type in the editor and click the green check to save it.](../image/riskiq-test1email-edit.png "Edit the Observable type field")
+        \[Omitted image "riskiq-test1email-edit.png"\] Alt text: Enter the observable type in the editor and click the green check to save it.
 
         In the **Observable type** column on the list, `Email Address` is displayed for your new observable.
 
-        ![Observable type field updated with new observable.](../image/riskiq-test1email-edited.png "Updated Observable type field")
+        \[Omitted image "riskiq-test1email-edited.png"\] Alt text: Observable type field updated with new observable.
 
 
 ## What to do next
 
 If you have created and edited an observable for lookup, run the observable enrichment lookup from the Observable record with the WHOISIQ API.
 
-**Parent Topic:**[RISKIQ and WHOISIQ integration](../concept/riskiq-lookups.md)
+**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/riskiq-lookups.md)
 
-**Previous topic:**[Verify expected results for WHOISIQ URL lookups](verify-expctd-rslts-url-lookups-riskiq.md)
+**Previous topic:**[Verify expected results for WHOISIQ URL lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/verify-expctd-rslts-url-lookups-riskiq.md)
 
-**Next topic:**[Verify expected results for manual WHOISIQ lookups](verify-expected-rslts-whoisiq.md)
+**Next topic:**[Verify expected results for manual WHOISIQ lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/verify-expected-rslts-whoisiq.md)
 

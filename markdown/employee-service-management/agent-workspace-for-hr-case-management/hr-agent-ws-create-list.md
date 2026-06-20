@@ -2,6 +2,7 @@
 title: Create My Lists
 description: Use My Lists to create a custom list of HR cases that you can readily access and start working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.html
 release: xanadu
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,7 +24,7 @@ Role required: sn\_hr\_core.case\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Click the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Click **My Lists**.
 
@@ -122,7 +123,7 @@ Add filters to further define what cases appear in your **My Lists**. **Note:** 
 
 ## Result
 
-A new list is created for you. Change the order of your lists using the **Reorder** button. For more information, see [Create My Lists in workspace](https://www.servicenow.com/docs/access?context=create-filtered-list-agent-workspace&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US). You can also use this keyboard shortcut **Ctrl + Shift + Left/Right Arrow** to reorder tabs on lists.
+A new list is created for you. Change the order of your lists using the **Reorder** button. For more information, see . You can also use this keyboard shortcut **Ctrl + Shift + Left/Right Arrow** to reorder tabs on lists.
 
 **Note:** Some users \(especially non-admins\) may not have access/visibility to the lists in the workspaces. For information on troubleshooting, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1325208](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1325208).
 

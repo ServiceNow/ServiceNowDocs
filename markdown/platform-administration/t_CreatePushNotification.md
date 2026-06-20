@@ -2,6 +2,7 @@
 title: Create a notification using a push message
 description: Email administrators can create a notification that specifically sends a push notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreatePushNotification.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Email administrators can create a notification that specifically sends a push no
 
 ## Before you begin
 
-Configure the [push message](t_CreateAPushMessage.md) before performing these steps.
+Configure the [push message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAPushMessage.md) before performing these steps.
 
 Role required: admin
 
@@ -27,7 +28,7 @@ You can associate a push message with a standard notification. A push message sp
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Create Push Notification**.
 
-2.  Fill out the notification form as necessary \(see [Create an email notification](t_CreateANotification.md) for descriptions of the form fields.
+2.  Fill out the notification form as necessary \(see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateANotification.md) for descriptions of the form fields.
 
 3.  Select the **What it will contain** tab.
 
@@ -42,5 +43,5 @@ You can associate a push message with a standard notification. A push message sp
 
 ## What to do next
 
-[Add the push notification to the Push Defaults Registrations table](add-push-notif-reg-table.md) so that the push notification is listed in the notification preferences for users. Users can then select which notifications they want to receive for the ServiceNow mobile app.
+[Add the push notification to the Push Defaults Registrations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-push-notif-reg-table.md) so that the push notification is listed in the notification preferences for users. Users can then select which notifications they want to receive for the ServiceNow mobile app.
 

@@ -2,11 +2,12 @@
 title: Reschedule the planned work order
 description: Reschedule planned work orders by advancing or delaying the occurrence date of the schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/modify\_so\_pwm.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Configuring work plans, Configuring Planned Work Management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
 ---

@@ -2,6 +2,7 @@
 title: Configure evidence file storage
 description: Configure evidence file storage to securely store the evidence file for the DLP Incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/data-loss-prevention/config-evidence-file.html
 release: xanadu
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -21,11 +22,11 @@ Role required: sn\_dlir.admin
 
 Verify that the Symantec user that you are configuring for ServiceNow Symantec DLP integration must have Body, Attachments and Original Message options enabled from Roles configuration page on Symantec DLP portal. For more information, see Display Attributes section available on [Configuring Roles](https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/data-loss-prevention/16-0-1/Manage-the-Enforce-Server/managing-users-and-rules/configuring-roles-id-sf0b0167317a-d297e3139.html) document for more information.
 
-![DLP Symantec - managing user roles.](../image/dlp-evidence-file-storage.png)
+\[Omitted image "dlp-evidence-file-storage.png"\] Alt text: DLP Symantec - managing user roles.
 
 ## About this task
 
-You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Column Level Encryption. For more information, see [Field Encryption](https://servicenow.com/docs/bundle/washingtondc-platform-security/page/administer/encryption/concept/c_EncryptionSupport.html) on NowPlatform documentation.
+You can configure the evidence file storage to securely store files. This provides an option for internal storage in ServiceNow instance, ensuring that files are stored and encrypted using ServiceNow's Column Level Encryption. For more information, see Field Encryption on NowPlatform documentation.
 
 When DLP analyst performs the Download evidence files for DLP Incidents action from analyst workspace, the file will be downloaded from the selected storage if evidence file storage option is enabled. Otherwise, the file will be downloaded directly from the Symantec source and will not be persisted in ServiceNow instance.
 
@@ -41,15 +42,15 @@ When DLP analyst performs the Download evidence files for DLP Incidents action f
 
 4.  Select the preferred storage type.
 
-<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d420287e126">
+<table id="choicetable_hl4_mjf_jcc"><thead><tr><th align="left" id="d374991e126">
 
 Type
 
-</th><th align="left" id="d420287e129">
+</th><th align="left" id="d374991e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d420287e135">
+</th></tr></thead><tbody><tr><td id="d374991e135">
 
 **Evidence File Storage**
 
@@ -57,7 +58,7 @@ Description
 
 Option to enable the Evidence file storage.
 
-</td></tr><tr><td id="d420287e144">
+</td></tr><tr><td id="d374991e144">
 
 **Storage Type**
 
@@ -73,5 +74,5 @@ Option to select the preferred storage type.**Note:** **ServiceNow Storage**: Th
 
 The evidence files are stored as per the configuration, after the incident ingestion is completed.
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

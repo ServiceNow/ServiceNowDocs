@@ -2,7 +2,10 @@
 title: Create a slide for the Portal Banner Carousel widget
 description: Create a slide to include images in the Portal Banner Carousel widget that a user can scroll through.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-carousel-slides.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Create a slide to include images in the Portal Banner Carousel widget that a use
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md).
 
 Role required: sp\_admin or admin
 
@@ -51,7 +54,7 @@ HREF/URL
 
 </td><td>
 
-The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see [Page navigation in Service Portal by URL](https://www.servicenow.com/docs/access?context=navigate-by-portal-url&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+The URL that opens an internal web page or a portal page in the same tab and an external page or a portal in a new tab.**Note:** For more information about linking to a page within a portal, see .
 
 </td></tr><tr><td>
 

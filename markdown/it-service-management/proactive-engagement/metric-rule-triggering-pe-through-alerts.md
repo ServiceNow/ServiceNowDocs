@@ -2,6 +2,7 @@
 title: Metric rule triggering Proactive Engagement through alerts
 description: Metric rules create an alert based on its trigger criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/proactive-engagement/metric-rule-triggering-pe-through-alerts.html
 release: xanadu
 product: Proactive Engagement
 classification: proactive-engagement
@@ -28,7 +29,7 @@ Alert actions are triggered when an alert is created in the specified criteria. 
 |sn\_pren.application\_resolution.user\_limit\_per\_throttling\_window|Fewer than 100 users impacted|Maximum number of users for which a Proactive Engagement application-related resolution is triggered. This resolution is triggered within a defined time period \(value of the time period configured in property sn\_pren.application\_resolution.throttling\_window\_duration\).|string|
 |sn\_pren.application\_resolution.throttling\_window\_duration|Within an hour window|The time period in minutes within which a Proactive Engagement application-related resolution is throttled. This resolution is throttled when the impacted number of users exceed the value in property sn\_pren.application\_resolution.user\_limit\_per\_throttling\_window.|integer|
 
-![Metric rule triggering Proactive Engagement through alerts](../images/pe_dexint.png)
+\[Omitted image "pe\_dexint.png"\] Alt text: Metric rule triggering Proactive Engagement through alerts
 
 ## Alert closure in Proactive Engagement
 
@@ -37,5 +38,5 @@ There are different methods followed for closing the alerts in Proactive Engagem
 -   Devices: Alerts generated from Metric rule triggered for devices, are closed once Proactive Engagement helps the impacted users to successfully resolve their issue.
 -   Applications: Alerts generated from Metric rule triggered for applications are not closed.
 
-**Parent Topic:**[Using Proactive Engagement](../using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

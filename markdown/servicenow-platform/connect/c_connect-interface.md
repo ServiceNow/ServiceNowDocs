@@ -2,6 +2,7 @@
 title: Connect interface
 description: Users can work in a compact view of Connect, which overlays the standard user interface, or in a full-screen workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/connect/c\_connect-interface.html
 release: xanadu
 product: Connect
 classification: connect

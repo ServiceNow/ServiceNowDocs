@@ -2,6 +2,7 @@
 title: Configure dynamic clauses for contract templates
 description: Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-clause-and-cv.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +30,7 @@ The benefits of using clause variations in document templates are:
 
 ## Related information
 
--   [Create or edit a contract clause](../task/cncore-create-clause-library.md)
--   [Create a clause variation](../task/cncore-add-clauses-doc-tmplt.md)
--   [Add metadata to a clause using add-in](cncore-add-meta-cls-addin.md)
+-   [Create or edit a contract clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-create-clause-library.md)
+-   [Create a clause variation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-clauses-doc-tmplt.md)
+-   [Add metadata to a clause using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.md)
 

@@ -2,6 +2,7 @@
 title: Restrict Downloadable MIME types \[Updated in Security Center 1.3 and 2.0\]
 description: The glide.ui.attachment.download\_mime\_types property will force the specified list of dangerous file types to be downloaded to the client and not viewed inline in the browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -53,7 +54,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -129,5 +130,5 @@ References
 Force download MIME types.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

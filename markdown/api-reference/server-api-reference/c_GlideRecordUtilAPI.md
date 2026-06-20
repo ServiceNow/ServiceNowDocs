@@ -2,6 +2,7 @@
 title: GlideRecordUtil - Global
 description: The GlideRecordUtil script include is a utility class for working with GlideRecords.Returns the GlideRecord object for the specified configuration item \(CI\) using just the sys\_id of the CI.Returns an array of all the fields in the specified GlideRecord.Returns a GlideRecord instance for the given table, positioned to the given sys\_id, and of the right class \(table\).Returns a Java ArrayList of the ancestors of the specified table name.Sets the fields in the specified GlideRecord with the field values contained in the specified hashmap, unless that field name is in the ignore hashmap.Populates the given hashmap from the given GlideRecord instance. Each field in the GlideRecord becomes a property in the hashmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_GlideRecordUtilAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideRecordUtil script include is a utility class for working with GlideRecords.
 
-This script include is available in server-side scripts. For use cases, see [Using discovery script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+This script include is available in server-side scripts. For use cases, see Using discovery script includes.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## GlideRecordUtil - getCIGR\(String sys\_id\)
 

@@ -2,6 +2,7 @@
 title: View security incident to customer service case mapping
 description: Security Incident Response ships with a default field mapping that maps a security incident to a Customer Service case. You can view the security incident to CS case default map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/view-cs-field-mapping.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sec\_cmn.read
 
 2.  Click **Security Incident to CSM Case Field Mapping** to view the default map.
 
-    ![Default security incident to Case Management case](../image/cs-mapping.png)
+    \[Omitted image "cs-mapping.png"\] Alt text: Default security incident to Case Management case
 
 3.  You can edit the mapping, as needed.
 

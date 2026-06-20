@@ -2,6 +2,7 @@
 title: When to use flows and playbooks
 description: Use these general guidelines to determine when to create a flow or a playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -53,5 +54,5 @@ A playbook is a good fit for process automations that met these criteria.
     Playbooks offer a better user experience for running a sequence of subflows.
 
 
-**Parent Topic:**[Exploring playbooks](../../process-automation-designer/concept/process-automation-designer.md)
+**Parent Topic:**[Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/process-automation-designer.md)
 

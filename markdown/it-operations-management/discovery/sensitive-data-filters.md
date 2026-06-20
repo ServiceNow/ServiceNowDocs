@@ -2,11 +2,12 @@
 title: Sensitive data filters
 description: The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/sensitive-data-filters.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -50,5 +51,5 @@ Examples of data you can protect with sensitive data filters include:
 -   Tracked configuration files: A MySQL configuration file may contain a password. A regex filter can detect the password and redact it.
 -   Process parameters: Linux server process arguments may include sensitive tokens. Filters can identify and redact these values.
 
-**Parent Topic:**[Advanced Discovery configuration](c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

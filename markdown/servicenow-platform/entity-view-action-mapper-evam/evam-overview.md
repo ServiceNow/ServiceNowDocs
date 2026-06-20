@@ -2,6 +2,7 @@
 title: Entity View Action Mapper
 description: Entity View Action Mapper \(EVAM\) is an application that standardizes how different data sources display in cards and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/entity-view-action-mapper-evam/evam-overview.html
 release: xanadu
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -19,7 +20,7 @@ EVAM enables you to show information as a card grid view or as a list of informa
 
 Prior to EVAM, lists were restricted to a single type of data source. If there were more data sources, you would have to write a custom implementation. EVAM enables you ingest multiple lists from different data sources, and then configure specific views without the need for customization.
 
-![Different Platform card displays](../images/card-dispaly-legacy.png)
+\[Omitted image "card-dispaly-legacy.png"\] Alt text: Different Platform card displays
 
 ## EVAM flow
 
@@ -30,7 +31,7 @@ EVAM consists of the following:
 -   View – A view is how a card displays data and actions.
 -   Actions – An entity can have an action that performs on the card. For example, you can activate a user into your system.
 
-![EVAM overview](../images/evam-mapping-overview.png)
+\[Omitted image "evam-mapping-overview.png"\] Alt text: EVAM overview
 
 ## Features of EVAM
 
@@ -53,9 +54,9 @@ EVAM consists of the following:
 
 ## What to do
 
--   [Define a datasource](../task/define-evam-datasource.md)
--   [Create an EVAM definition](../task/define-composite-dataset.md)
--   [Associate a view configuration, view template, and action.](use-configuration-bundle.md)
+-   [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md)
+-   [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
+-   [Associate a view configuration, view template, and action.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/entity-view-action-mapper-evam/use-configuration-bundle.md)
 
 ## Activation information
 

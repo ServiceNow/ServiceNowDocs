@@ -2,13 +2,14 @@
 title: MITRE ATT&amp;CK Technique Extraction Rules
 description: Extract MITRE techniques automatically from observables or objects ingested from various data sources and also extract MITRE techniques from threat lookup results on observable record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/mitre-extraction-rules.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-10-16"
 reading_time_minutes: 5
-breadcrumb: [About Rules Engine in TISC, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # MITRE ATT&amp;CK Technique Extraction Rules
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d453857e100">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d431704e100">
 
 Field
 
-</th><th align="left" id="d453857e103">
+</th><th align="left" id="d431704e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d453857e109">
+</th></tr></thead><tbody><tr><td id="d431704e109">
 
 **Name**
 
@@ -47,7 +48,7 @@ Description
 
 Enter a name for the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d453857e118">
+</td></tr><tr><td id="d431704e118">
 
 **Description**
 
@@ -55,7 +56,7 @@ Enter a name for the MITRE ATT&amp;CK Technique Extraction rule.
 
 Enter a description for the MITRE ATT&amp;CK Technique Extraction rule.
 
-</td></tr><tr><td id="d453857e127">
+</td></tr><tr><td id="d431704e127">
 
 **Integration Type**
 
@@ -74,7 +75,7 @@ Indicates the MITRE ATT&amp;CK Technique Extraction rule for the Data Sources or
     -   For the threat intelligence data sources, the extraction rules are only supported for STIX, MISP, and Custom Feed types.
 
 
-</td></tr><tr><td id="d453857e174">
+</td></tr><tr><td id="d431704e174">
 
 **Threat Feed Type**
 
@@ -85,7 +86,7 @@ Following are the options available for Threat Feed Type:-   **STIX\(TAXII/HTTPS
 -   **Custom feed**: Option to filter the threat feeds of the custom feed type and select the associated feeds by searching using the lookup icon.
 
 
-</td></tr><tr><td id="d453857e201">
+</td></tr><tr><td id="d431704e201">
 
 **Feeds**
 
@@ -93,7 +94,7 @@ Following are the options available for Threat Feed Type:-   **STIX\(TAXII/HTTPS
 
 Select one or more threat feed integrations for the selected feed type.**Note:** If this field is left blank then all the threat feed integrations for the selected feed type will be automatically considered for the extraction.
 
-</td></tr><tr><td id="d453857e212">
+</td></tr><tr><td id="d431704e212">
 
 **Method to extract MITRE ATT&amp;CK tactics and techniques**
 
@@ -103,7 +104,7 @@ Option to select the extract MITRE ATT&amp;CK tactics and techniques method. The
 2.  Use Script
 
 
-</td></tr><tr><td id="d453857e229">
+</td></tr><tr><td id="d431704e229">
 
 **Extraction Method - Use Regex**
 
@@ -111,7 +112,7 @@ Option to select the extract MITRE ATT&amp;CK tactics and techniques method. The
 
 This method uses a regular expression that allows the threat analysts to define a pattern with a sequence of characters to perform extraction method.
 
-</td></tr><tr><td id="d453857e238">
+</td></tr><tr><td id="d431704e238">
 
 **Tactic Regex**
 
@@ -119,7 +120,7 @@ This method uses a regular expression that allows the threat analysts to define 
 
 Option to provide regular expression for the extraction of MITRE ATT&amp;CK tactic ID\(s\).
 
-</td></tr><tr><td id="d453857e247">
+</td></tr><tr><td id="d431704e247">
 
 **Technique Regex**
 
@@ -127,7 +128,7 @@ Option to provide regular expression for the extraction of MITRE ATT&amp;CK tact
 
 Option to provide regular expression for the extraction of MITRE ATT&amp;CK technique ID\(s\).
 
-</td></tr><tr><td id="d453857e256">
+</td></tr><tr><td id="d431704e256">
 
 **Extraction Method - Use script**
 

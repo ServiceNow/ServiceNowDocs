@@ -2,6 +2,7 @@
 title: Service Owner Workspace
 description: ServiceNow Service Owner Workspace provides an integrated Service Portfolio Management experience. If you're a portfolio manager or service owner, you can manage and monitor portfolios and services in an integrated user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-premium.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 ServiceNow® Service Owner Workspace provides an integrated Service Portfolio Management experience. If you're a portfolio manager or service owner, you can manage and monitor portfolios and services in an integrated user interface.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace but customers who opt in for the new standard portfolio structure must implement Digital Portfolio Management \(DPM\). See [Digital Portfolio Management](../../digital-portfolio-management/reference/dpm-landing.md). For information on the deprecation process, see [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace but customers who opt in for the new standard portfolio structure must implement Digital Portfolio Management \(DPM\). See [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-landing.md). For information on the deprecation process, see [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184).
 
 Service Owner Workspace is available as a separate subscription and is part of the Service Portfolio Management Premium experience.
 
@@ -29,7 +30,7 @@ Track and analyze how your services are performing and which services need atten
 
  Manage the performance of your services. Evaluate performance against value to ensure your services merit the investment.
 
- ![Data in unified location](../image/SOW_icon01_unifiedlocation.png)
+ \[Omitted image "SOW\_icon01\_unifiedlocation.png"\] Alt text: Data in unified location
 
 </td><td>
 
@@ -37,7 +38,7 @@ Track and analyze how your services are performing and which services need atten
 
  Analyze service performance metrics using a comprehensive layout of all information that is related to a service and its offerings.
 
- ![Comprehensive service performance layout](../image/SOW_icon02_performancelayout.png)
+ \[Omitted image "SOW\_icon02\_performancelayout.png"\] Alt text: Comprehensive service performance layout
 
 </td><td>
 
@@ -45,7 +46,7 @@ Track and analyze how your services are performing and which services need atten
 
  Use aggregated data from multiple applications and measure service performance using qualitative and quantitative metrics.
 
- ![Integrated application data](../image/SOW_icon03_integrateddata.png)
+ \[Omitted image "SOW\_icon03\_integrateddata.png"\] Alt text: Integrated application data
 
 </td></tr></tbody>
 </table>## Get started
@@ -54,15 +55,15 @@ Select a tile to get started.
 
 <table id="table_oc2_3tg_mjb"><tbody><tr><td>
 
-[![Learn Service Owner Workspace](../../../reuse/images/tile-explore.png)](explore-service-owner-workspace.md)
+[\[Omitted image "tile-explore.png"\] Alt text: Learn Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/explore-service-owner-workspace.md)
 
 </td><td>
 
-[![Set up Service Owner Workspace](../../../reuse/images/tile-set-up.png)](setup-service-owner-workspace.md)
+[\[Omitted image "tile-set-up.png"\] Alt text: Set up Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/setup-service-owner-workspace.md)
 
 </td><td>
 
-[![Use Service Owner Workspace](../../../reuse/images/tile-use.png)](use-service-owner-workspace.md)
+[\[Omitted image "tile-use.png"\] Alt text: Use Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/use-service-owner-workspace.md)
 
 </td></tr></tbody>
 </table>

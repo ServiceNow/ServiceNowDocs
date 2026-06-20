@@ -2,6 +2,7 @@
 title: Cloud Cost Management
 description: ServiceNow Cloud Cost Management application \(formerly known as Cloud Insights\) gives you visibility and control of your cloud usage and costs and helps you to discover all of your cloud resources, breaks down cloud spend by cost center, business service, and other entity, provides recommendations on how to reduce cloud spend, and automates repetitive cost optimization tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/cloud-cost-management/cloud-insights-landing-page.html
 release: xanadu
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -17,25 +18,23 @@ ServiceNow® Cloud Cost Management application \(formerly known as Cloud Insight
 
 ## Overview
 
-Watch this short video for an introduction to the Cloud Cost Management application.
-
 ## Get started
 
 <table id="ci-flow" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the key features and business value that the Cloud Cost Management application offers.](../concept/exploring-cloud-insights.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Cloud Cost Management application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/exploring-cloud-insights.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Cloud Cost Management supporting plugins, features, and assign roles to enable additional setup activities.](../concept/configuring-cloud-insights.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Cloud Cost Management supporting plugins, features, and assign roles to enable additional setup activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/configuring-cloud-insights.md)
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-manage.svg)Automate and streamline manual processes by automating cloud tasks.](../concept/using-cloud-insights.md)
+[Using\[Omitted image "bus-manage.svg"\] Alt text:Automate and streamline manual processes by automating cloud tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about the roles, domain separation, and service categories in Cloud Cost Management.](../concept/reference-cloudinsights.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the roles, domain separation, and service categories in Cloud Cost Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

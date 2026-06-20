@@ -2,6 +2,7 @@
 title: Configure message content
 description: Create a message in the Message Contents \[messaging\_content\] table that you can use in multiple notifications. Messages can be informative, or they can request action from an individual Slack or Teams user. For example, the Approval Request message includes Approve and Reject buttons to take the associated action in ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-message-content.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -85,7 +86,7 @@ Message
 
 </td><td>
 
-Enter the content of the message. Use notification variables to include dynamic information in your message. For example, use `Incident ${number}` to include the incident number in the message. For available variables, see [Notification variables](../concept/notification-variables.md).
+Enter the content of the message. Use notification variables to include dynamic information in your message. For example, use `Incident ${number}` to include the incident number in the message. For available variables, see [Notification variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/notification-variables.md).
 
 </td></tr><tr><td>
 
@@ -142,11 +143,11 @@ Select the application scope for this notification.
 
 This example shows the output of a message in Microsoft Teams. This message is of the buttons type, which shows buttons and performs scripted actions based on the user selection. In this case, the script uses the `sn_notification.Messaging.send`method to display the change in state for the record.
 
-![Buttons type message](../../virtual-agent/images/va-response-example.png)
+\[Omitted image "va-response-example.png"\] Alt text: Buttons type message
 
 ## What to do next
 
-Use the message in a notification. For more information about creating notifications, see [Create a messaging notification](create-messaging-notification.md).
+Use the message in a notification. For more information about creating notifications, see [Create a messaging notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-messaging-notification.md).
 
-**Parent Topic:**[Notifications in messaging applications](../concept/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/messaging-integration.md)
 

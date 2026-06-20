@@ -2,6 +2,7 @@
 title: Jumpstart Your Platform Analytics
 description: The Jumpstart Your Platform Analytics Accelerator provides a demonstration of the possibilities and capabilities of Platform Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/jumpstart-platform-analytics.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The Jumpstart Your Platform Analytics Accelerator provides a demonstration of th
 
 ## Overview
 
-Jumpstart Your Platform Analytics provides Impact customers with an overview of Platform Analytics and the ability to greatly improve service delivery quality, efficiency, and cost. An applied demonstration of reporting and Performance Analytics configuration, capabilities, and analytics via a temporary instance as well as leading practices on getting started is included. For more information on Platform Analytics, see [Available Platform Analytics Solutions](https://www.servicenow.com/docs/access?context=r_AvailableContentPacks&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+Jumpstart Your Platform Analytics provides Impact customers with an overview of Platform Analytics and the ability to greatly improve service delivery quality, efficiency, and cost. An applied demonstration of reporting and Performance Analytics configuration, capabilities, and analytics via a temporary instance as well as leading practices on getting started is included. For more information on Platform Analytics, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

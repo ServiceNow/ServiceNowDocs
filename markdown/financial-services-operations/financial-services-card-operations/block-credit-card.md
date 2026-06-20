@@ -2,6 +2,7 @@
 title: Block a credit card for a customer
 description: Block a credit card for a customer as per the credit card service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-card-operations/block-credit-card.html
 release: xanadu
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -19,7 +20,7 @@ Block a credit card for a customer as per the credit card service request.
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,19 +30,19 @@ This credit card task is automatically created with a credit card service case f
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(![lists icon.](../image/list-icon.png)\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d35665e105">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d43545e105">
 
 Option
 
-</th><th align="left" id="d35665e108">
+</th><th align="left" id="d43545e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d35665e114">
+</th></tr></thead><tbody><tr><td id="d43545e114">
 
 **From a credit card service case**
 
@@ -52,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d35665e147">
+</td></tr><tr><td id="d43545e147">
 
 **From the Credit Card Task list**
 
@@ -84,5 +85,5 @@ Steps
 
 ## What to do next
 
-If the associated case is for temporarily blocking the credit card, work on the new credit service case to [unblock the card](unblock-credit-card.md) on the end date.
+If the associated case is for temporarily blocking the credit card, work on the new credit service case to [unblock the card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-card-operations/unblock-credit-card.md) on the end date.
 

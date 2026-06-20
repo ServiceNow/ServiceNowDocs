@@ -2,6 +2,7 @@
 title: Abort a database action
 description: You can use a before business rule script to cancel or abort the current database action using the current.setAbortAction\(true\) method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/c\_AbortDatabaseActionBusRule.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -17,5 +18,5 @@ You can use a before business rule script to cancel or abort the current databas
 
 If the before business rule is executed during an insert action, and a condition in the script calls current.setAbortAction\(true\), the new record stored in current is not created in the database.
 
-**Parent Topic:**[Business rule use cases](useful-business-rules.md)
+**Parent Topic:**[Business rule use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/useful-business-rules.md)
 

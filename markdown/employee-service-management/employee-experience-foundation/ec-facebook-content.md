@@ -2,6 +2,7 @@
 title: Facebook Workplace content
 description: Create content for your company's Facebook page as another avenue to reach your employees.Create content for your company's Facebook page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-facebook-content.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -85,7 +86,7 @@ URL
 
 </td><td>
 
-Link to the content you want to post to your company's Facebook page.**Note:** Select the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) to view a list of link content.
+Link to the content you want to post to your company's Facebook page.**Note:** Select the Lookup using list icon \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) to view a list of link content.
 
 </td></tr><tr><td>
 
@@ -98,7 +99,7 @@ The image the URL is embedded in. Select the **Click to add...** link to add an 
 </td></tr></tbody>
 </table>7.  Right-click the form header and select Save.
 
-    The **Schedule Content** related list displays. For information on publishing your content, see [Create a publish plan for your content](../task/ec-content-library-publish2.md).
+    The **Schedule Content** related list displays. For information on publishing your content, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
 8.  Or select **Submit** to save the record and return to the list of content.
 

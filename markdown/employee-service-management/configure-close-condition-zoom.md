@@ -2,7 +2,10 @@
 title: Define how a Zoom chat is closed
 description: Define the way a Zoom chat is closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/configure-close-condition-zoom.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -89,5 +92,5 @@ Defines the condition that determines that the record is closed.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](../concept/additional-configuration-sn-cs-zoom.md)
+**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/additional-configuration-sn-cs-zoom.md)
 

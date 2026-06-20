@@ -2,6 +2,7 @@
 title: Capture actual monetary benefits
 description: Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-workspace/fin-manage-actual-monetary-benefit-pws.html
 release: xanadu
 product: Project Workspace
 classification: project-workspace
@@ -17,7 +18,7 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 ## Before you begin
 
--   [Create monetary benefit plans for your projects in Project Workspace](fin-manage-monetary-benefit-plans-pws.md)
+-   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -35,5 +36,5 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 6.  Enter the actuals benefits resulted from the work execution in the **Actual benefit** field and select **Save**.
 
 
-**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](fin-manage-monetary-benefit-plans-pws.md)
+**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 

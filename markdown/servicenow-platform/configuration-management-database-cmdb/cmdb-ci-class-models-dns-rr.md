@@ -2,13 +2,14 @@
 title: DNS resource record classes
 description: A DNS record, also known as a DNS resource record \(RR\), is an entry in the domain name system \(DNS\) database that provides information about a specific aspect of a domain name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-class-models-dns-rr.html
 release: xanadu
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2024-10-29"
 reading_time_minutes: 3
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI Class Models, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # DNS resource record classes
@@ -17,7 +18,7 @@ A DNS record, also known as a DNS resource record \(RR\), is an entry in the dom
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## DNS zone resource records
 
@@ -40,7 +41,7 @@ The supported record types enable actions like the following:
 -   Connect the data to the certificate on the DNS.
 -   Connect the data to the CDN provider.
 
-![DNS resource record class model.](../image/cmdb-ci-class-models-dns.png "DNS resource record classes integrated with the CMDB class hierarchy")
+\[Omitted image "cmdb-ci-class-models-dns.png"\] Alt text: DNS resource record class model.
 
 ## Table: cmdb\_ci\_dns\_resource\_record
 

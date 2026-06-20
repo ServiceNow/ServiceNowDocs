@@ -2,6 +2,7 @@
 title: View records for a route
 description: From the Variation Analysis panel, view the list of records which followed one or more selected routes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/view-records.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -31,7 +32,7 @@ Role required: none
 
 3.  Select **Show Records**.
 
-    ![Show records for a route - Show Records button](../image/show-records2.png)
+    \[Omitted image "show-records2.png"\] Alt text: Show records for a route - Show Records button
 
     **Note:** After applying one of more routes, the breakdowns listed in the **Breakdown Filters** tab display only those breakdowns applicable to those routes.
 
@@ -48,5 +49,5 @@ From the records list, you can:
 -   Self-assign incident records
 -   Create a new incident
 
-**Parent Topic:**[Exploring and comparing workflow routes](explore-routes.md)
+**Parent Topic:**[Exploring and comparing workflow routes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/explore-routes.md)
 

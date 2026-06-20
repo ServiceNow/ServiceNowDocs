@@ -2,7 +2,10 @@
 title: Integrating with Computer Telephony Integration \(CTI\)
 description: Integrate Customer Service Management with Computer Telephony Integration \(CTI\). This integration enables the Customer Service application to support inbound and outbound telephone calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/cti-csm-integration.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-08"
 reading_time_minutes: 1
@@ -25,6 +28,6 @@ CTI does not require any specific user role except the OpenFrame user \(sn\_open
 
 For more information, see the following topics:
 
--   [Computer Telephony Integration](https://www.servicenow.com/docs/access?context=r_ComputerTelephonyIntegration&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
--   [Computer Telephony Integration workflows](../../../product/customer-service-management/concept/cti-workflows.md)
+-   Computer Telephony Integration
+-   [Computer Telephony Integration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/cti-workflows.md)
 

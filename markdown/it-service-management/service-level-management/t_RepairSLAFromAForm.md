@@ -2,6 +2,7 @@
 title: Repair SLA from a form
 description: You can repair task SLA records from the Task form, or from the task SLA form for an SLA associated to a Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-level-management/t\_RepairSLAFromAForm.html
 release: xanadu
 product: Service Level Management
 classification: service-level-management
@@ -27,7 +28,7 @@ You can also repair multiple task SLA records from a list.
 
 1.  To repair all SLAs associated to a specific task, open that form and select the **Repair SLAs** related link.
 
-    ![Repair SLAs related link](../image/repair-SLA-related-link.png)
+    \[Omitted image "repair-SLA-related-link.png"\] Alt text: Repair SLAs related link
 
 2.  Alternatively, to repair a specific SLA on a specific Incident record, open the Incident record, open the SLA record associated with that incident, then select the **Repair** button on that SLA form.
 
@@ -36,5 +37,5 @@ You can also repair multiple task SLA records from a list.
     **Note:** Closing the progress dialog box does not stop the repair process. You can go to **Active repairs** or **My repairs** and click **Show progress** to view the progress dialog again.
 
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](../concept/c_RepairSLAs.md)
+**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-level-management/c_RepairSLAs.md)
 

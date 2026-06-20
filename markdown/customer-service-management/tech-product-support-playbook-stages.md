@@ -2,7 +2,10 @@
 title: Technology Product Support Case playbook stages and activities
 description: The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/tech-product-support-playbook-stages.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -169,7 +172,7 @@ The agent updates the following fields:
 
  The agent can also enable the **Add resolution notes to comments** check box to add the resolution information to the case activity stream.
 
-**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](tech-product-support-playbook.md#section_nsx_b4n_3bc).
+**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/tech-product-support-playbook.md).
 
  -   **Propose resolution**: Completes the activity and moves to the Close stage. The case state changes to Solution Proposed.
 -   **Save**: Saves the information in the activity.
@@ -235,5 +238,5 @@ The Technology Product Case Troubleshoot recommended actions rule:
     -   **Start discussion**: starts a Sidebar discussion.
     -   **Dismiss**: dismisses the recommendation card.
 
-For more information, see [Recommended Actions](configure-nba.md).
+For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-nba.md).
 

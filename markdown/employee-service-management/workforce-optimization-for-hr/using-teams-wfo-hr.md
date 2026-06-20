@@ -2,6 +2,7 @@
 title: Teams in Workforce Optimization for HR
 description: Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.Analyze trends to monitor your team's performance and adherence within a KPI group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/using-teams-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -42,7 +43,7 @@ Analyze the data by drilling down into the data for a team, a specific team memb
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Teams ![Teams icon](../../workforce-optimization-for-customer-service-configurable/image/teams-new.png) icon.
+2.  Click the Teams \[Omitted image "teams-new.png"\] Alt text: Teams icon icon.
 
 3.  Select a date range to view your teams' performance for that time period.
 

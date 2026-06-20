@@ -2,6 +2,7 @@
 title: Create a retail case
 description: Create a retail case to request support for issues in your retail organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-create-retail-case.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

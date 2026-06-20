@@ -2,6 +2,7 @@
 title: Create a configurable pricing plan
 description: Create a configurable pricing plan by copying the default pricing plan provided in Pricing Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-custom-pricing-plan.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Plans**.
 
@@ -46,5 +47,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## What to do next
 
-[Add or change a pricing plan step](add-pricing-step.md).
+[Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/add-pricing-step.md).
 

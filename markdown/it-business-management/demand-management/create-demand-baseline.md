@@ -2,6 +2,7 @@
 title: Create baseline of a demand
 description: Create financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/demand-management/create-demand-baseline.html
 release: xanadu
 product: Demand Management
 classification: demand-management
@@ -29,15 +30,15 @@ You can create as many financial baselines as necessary and review the financial
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d288767e83">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d44634e83">
 
 Option
 
-</th><th align="left" id="d288767e86">
+</th><th align="left" id="d44634e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d288767e92">
+</th></tr></thead><tbody><tr><td id="d44634e92">
 
 **From a related link**
 
@@ -48,7 +49,7 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d288767e119">
+</td></tr><tr><td id="d44634e119">
 
 **From a related list**
 
@@ -62,8 +63,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Compare financial baselines of a demand](compare-baselines-of-demand.md)**  
+-   **[Compare financial baselines of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/compare-baselines-of-demand.md)**  
 You can compare baselines to review the variances in the financial data of a demand and see what changed.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/demand-management/t_CreatingDemands.md)
 

@@ -2,6 +2,7 @@
 title: Database Encryption with Customer-Controlled Switch
 description: Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.html
 release: xanadu
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -44,5 +45,5 @@ Refer to these references for additional information about DBE with CCS:
 
 **Note:** To access KB articles, you must first authenticate into Now Support.
 
-**Parent Topic:**[Database Encryption](db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

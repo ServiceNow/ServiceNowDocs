@@ -2,6 +2,7 @@
 title: Setting up HR Service Delivery Agent Workspace
 description: Set up HR Service Delivery Agent Workspace so that your agents can engage with your employees, answer questions, create cases, and resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/configure-agent-ws-hr.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -56,7 +57,7 @@ HR manager \[sn\_hr\_core.manager\]
 
 Grants access to all HR cases, profiles, and secure information.With this role, you can manage HR Service Delivery Agent Workspace lists and categories.
 
- This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+ This role contains the Workspace List Admin, which is an elevated role. For more information on elevated roles, see Elevated privilege roles.
 
  The Workspace user \[workspace\_user\] role allows you to access HR Service Delivery Agent Workspace and create and access interactions.
 
@@ -89,7 +90,7 @@ Grants access to basic HR agents to HR Service Delivery Agent Workspace modules.
 </td><td>
 
 -   Advanced Work Assignment Agent \[awa\_agent\]
--   To see all the roles contained within the HR agent \[sn\_hr\_core.basic\] role, see [Components installed with Case and Knowledge Management](../reference/components-installed-with-case-and-knowledge-management.md).
+-   To see all the roles contained within the HR agent \[sn\_hr\_core.basic\] role, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
 
 </td></tr><tr><td>
 
@@ -152,13 +153,13 @@ Workspace administrator \[workspace\_admin\]-   Chat admin \[chat\_admin\]
 
 Rich text allows you to format your comments or work notes to emphasize your message and is readable across many programs and platforms.
 
-You can enable rich text for HR Service Delivery Agent Workspace by using the **glide.ui.journal.use\_html** system property \(**sys\_properties.list**\). By default, this property is set to **false** \(off\).![HR Agent WS - Rich text](../image/agent-ws-hr-rich-text.png)
+You can enable rich text for HR Service Delivery Agent Workspace by using the **glide.ui.journal.use\_html** system property \(**sys\_properties.list**\). By default, this property is set to **false** \(off\).\[Omitted image "agent-ws-hr-rich-text.png"\] Alt text: HR Agent WS - Rich text
 
 |Number|Description|
 |------|-----------|
-|![Toggle compose settings icon](../image/agent-ws-hr-toggle.png)|Toggle compose settings icon that you select to show the rich text editor and stacked view icons.|
-|![HR Agent Workspace Case form callout 1](../reference/images/1.png)|Rich text editor slider that you can toggle on to turn on the rich text.|
-|![HR Agent Workspace Case form callout 2](../reference/images/2.png)|Stacked view slider that places Comments and Work notes side-by-side or stacked above one another.|
+|\[Omitted image "agent-ws-hr-toggle.png"\] Alt text: Toggle compose settings icon|Toggle compose settings icon that you select to show the rich text editor and stacked view icons.|
+|\[Omitted image "1.png"\] Alt text: HR Agent Workspace Case form callout 1|Rich text editor slider that you can toggle on to turn on the rich text.|
+|\[Omitted image "2.png"\] Alt text: HR Agent Workspace Case form callout 2|Stacked view slider that places Comments and Work notes side-by-side or stacked above one another.|
 
 **Warning:** If your company is using other Agent Workspace applications, turning this property to **true** \(on\), might impact your system performance.
 

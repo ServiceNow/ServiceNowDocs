@@ -2,6 +2,7 @@
 title: Publishing, activation, and deployment workflow for forms, automation, and apps
 description: When you build an app in Creator Studio, you must create forms and automation. You can also customize the form submission workspace before everything is deployed to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-workflow-publishing-deploying.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio

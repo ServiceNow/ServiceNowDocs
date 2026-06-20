@@ -2,6 +2,7 @@
 title: Glide Syslog data input configuration fields
 description: Description of the fields on the Glide Syslog data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -80,5 +81,5 @@ Syslog table filter
 The criteria used to filter log data from the System Log table before streaming it to the AI engine.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure data inputs \(Glide Syslog\)](../task/hla-data-input-glide-syslog.md)
+</table>**Parent Topic:**[Configure data inputs \(Glide Syslog\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.md)
 

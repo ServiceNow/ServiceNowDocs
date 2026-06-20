@@ -2,6 +2,7 @@
 title: Configure a JWT provider
 description: Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-jwt-provider.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,9 +16,9 @@ Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth app
 
 ## Before you begin
 
-Upload a Java Key Store certificate. Attach a JKS certificate containing the certificate uploaded on Microsoft Azure to your instance to use when enabling the JWT client authentication. For more information, see [Upload Java Key Store certificate](https://www.servicenow.com/docs/access?context=JWT-Bearer-token-support&version=xanadu&pubname=xanadu-platform-security&section=upload-jks-certificate&ft:locale=en-US).
+Upload a Java Key Store certificate. Attach a JKS certificate containing the certificate uploaded on Microsoft Azure to your instance to use when enabling the JWT client authentication. For more information, see Upload Java Key Store certificate.
 
-Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate. For more information, see [Configure a JWT signing key](https://www.servicenow.com/docs/access?context=JWT-Bearer-token-support&version=xanadu&pubname=xanadu-platform-security&section=configure-JWT-signing-key&ft:locale=en-US).
+Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate. For more information, see Configure a JWT signing key.
 
 Role required: admin
 
@@ -58,14 +59,14 @@ sub
 Client ID copied from Microsoft Azure
 
 </td></tr></tbody>
-</table>    For more information, see [Create a JWT provider with a JWT signing key](https://www.servicenow.com/docs/access?context=JWT-Bearer-token-support&version=xanadu&pubname=xanadu-platform-security&section=associate-jwt-provider-key&ft:locale=en-US).
+</table>    For more information, see Create a JWT provider with a JWT signing key.
 
 2.  From the JWT Provider record menu, select **Copy sys\_id** and copy the JWT provider sys\_id.
 
 
 ## What to do next
 
-[Generate a SHA-1 thumbprint](generate-thumbprint.md)
+[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/generate-thumbprint.md)
 
-**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](configure-oauth-profile-using-certificates.md)
+**Parent Topic:**[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-oauth-profile-using-certificates.md)
 

@@ -2,6 +2,7 @@
 title: Record Producer Configuration form
 description: The Record Producer Configuration form contains information about your AI Search Assist widget settings for Service Portal. Use this form when creating or modifying an AI Search Assist record producer configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/record-producer-config-form-ais.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -23,5 +24,5 @@ The Record Producer Configuration form contains information about your AI Search
 |Active|Option to make this record producer configuration active for your instance.|
 |Application|Application scope for this record producer configuration.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/reference-ais.md)
 

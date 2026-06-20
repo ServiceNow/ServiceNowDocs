@@ -2,6 +2,7 @@
 title: Application Insights roles
 description: Application Insights is installed with these roles.Visualize and monitor system health using Application Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/application-insights-roles.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -15,9 +16,9 @@ breadcrumb: [Application Insights, Monitoring platform performance, Platform per
 
 Application Insights is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Application Insights](../concept/application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 
 ## Application Insights administrator \[sn\_app\_insights.admin\]
 

@@ -2,6 +2,7 @@
 title: Create aliases
 description: Aliases are the variants of a field value in the instance that will be replaced by the normal value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateAliases.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -35,7 +36,7 @@ The list of potential aliases is the contents of the **Pending Values** related 
 
 6.  Select aliases for this normal value from the available \(pending\) values that appear in the slushbucket, and then click **OK**.
 
-    ![Normalization alias slush](../image/NormalizationAliasSlush.png)
+    \[Omitted image "NormalizationAliasSlush.png"\] Alt text: Normalization alias slush
 
     The aliases for this normal value now appear in the **Aliases** related list.
 
@@ -44,5 +45,5 @@ The list of potential aliases is the contents of the **Pending Values** related 
 
 Apply the aliases by running the associated data jobs.
 
-**Parent Topic:**[Normal values](../concept/c_WhatFieldNormalizationDoes.md)
+**Parent Topic:**[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)
 

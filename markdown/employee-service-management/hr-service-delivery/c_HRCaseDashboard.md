@@ -2,6 +2,7 @@
 title: View HR Case Dashboard
 description: The HR Case Dashboard is a central place for HR users to monitor ongoing HR operations. The dashboard contains reports that query the database and display the results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/c\_HRCaseDashboard.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,5 +30,5 @@ The HR Case Dashboard shows:
 -   The details of all cases assigned to you.
 -   All cases assigned to you by Topic Category.
 
-**Parent Topic:**[HR Dashboards &amp; Reports](c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

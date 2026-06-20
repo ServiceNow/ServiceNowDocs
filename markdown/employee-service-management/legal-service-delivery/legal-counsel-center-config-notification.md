@@ -2,6 +2,7 @@
 title: Legal Counsel Center notifications
 description: Legal Counsel Center notifications enable users to subscribe to items that interest them and unsubscribe from messages that do not interest them and are not mandatory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/legal-counsel-center-config-notification.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -17,7 +18,7 @@ Legal Counsel Center notifications enable users to subscribe to items that inter
 
 Legal Counsel Center provides notifications for legal matters and for legal requests.
 
-For information about how to enable or disable notifications, see [Enable or disable notifications](../task/enable-disable-notification.md).
+For information about how to enable or disable notifications, see [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/enable-disable-notification.md).
 
 ## Legal Requests notifications
 

@@ -2,6 +2,7 @@
 title: User Experience Analytics roles
 description: Designate people in your organization to use and configure User Experience Analytics for Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/sp-analytics-roles.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -137,5 +138,5 @@ Users with this role can view the **Analytics Dashboard** link and settings with
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[User Experience Analytics for Service Portal](../concept/sp-analytics.md)
+</table>**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/sp-analytics.md)
 

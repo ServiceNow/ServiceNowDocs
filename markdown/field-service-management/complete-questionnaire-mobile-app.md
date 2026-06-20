@@ -2,7 +2,10 @@
 title: Complete a questionnaire for work order task
 description: Complete the answers to questions associated with a work order task and store the responses for future reference. For example, you can create questionnaires for verifying the condition of an equipment before it is repaired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/complete-questionnaire-mobile-app.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Agents can’t view each others completed questionnaire, even if the agent imper
 
 ## Before you begin
 
-You can view a questionnaire in a work order task if it is made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](../concept/work-order-questionnaire.md).
+You can view a questionnaire in a work order task if it is made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/work-order-questionnaire.md).
 
 Role required: wm\_agent or wm\_dispatcher
 
@@ -51,5 +54,5 @@ Role required: wm\_agent or wm\_dispatcher
     The submitted questionnaire appears in the **Completed** tab.
 
 
-**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](../concept/manage-field-service-tasks-mobile.md)
+**Parent Topic:**[Prioritize your work using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-field-service-tasks-mobile.md)
 

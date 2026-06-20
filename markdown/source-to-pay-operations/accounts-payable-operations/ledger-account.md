@@ -2,6 +2,7 @@
 title: Ledger account
 description: A reference field for the account used to generate the  invoice.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/ledger-account.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,5 +26,5 @@ You can view records in any of the general ledger tables and make changes if nec
 |Currency|Reference|Currency that the expense is valued in.|
 |Ledger account|String|Ledger account code fetched from ERP. Example: 160020.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

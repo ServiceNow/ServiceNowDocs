@@ -2,7 +2,10 @@
 title: Import messages from a universal request
 description: As an agent, import a conversation with a requester from Microsoft Teams. Append the conversation in the activity stream of the record to store all the important messages in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-ms-teams-use-import-msgs.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -77,5 +80,5 @@ Option to import messages into the record. Choices are as follows:-   **Addition
 7.  Click **Import messages**.
 
 
-**Parent Topic:**[Manage chat messages from a record](../concept/ur-mst-use-start-import-chat.md)
+**Parent Topic:**[Manage chat messages from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-mst-use-start-import-chat.md)
 

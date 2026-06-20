@@ -2,6 +2,7 @@
 title: View your cluster setup in 360 degrees
 description: Get a 360-degree perspective of your cluster setup to manage license consumption across the cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-360-sam-cluster.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -37,14 +38,14 @@ Role required: sam\_admin
 
     The cluster setup appears.
 
-    ![View your cluster setup](../image/view-cluster360.png)
+    \[Omitted image "view-cluster360.png"\] Alt text: View your cluster setup
 
 7.  View the following details on the cluster.
 
     -   Infrastructure: View entities such as hosts, virtual machines \(VMs\), host affinity rules, and software installations in the cluster. Select an entity to view the complete list. For example, select **Software Installs** to view all software installations. You can group the software installations by normalized publisher, normalized product, or by software model results. You can also select any software installation from the list such as SQL Server to view all SQL Server software installations in that cluster. Additionally, you can select **VMs** to view the potential list of all the hosts that a VM can move across in a cluster.
     -   Licensing details: View the software models consuming licenses, allocations, device license consumption analysis, and ignored installations on the cluster. Select an entity to view the complete list.
     -   Health issues: View all health issues across products in the cluster. Additionally, view installations that require your attention to be considered for reconciliation.
-    -   Optimization: View cost saving optimization recommendations for Microsoft via the Microsoft Core License Optimization Report. View license optimizations performed by ServiceNow and determine if it results in cost reductions. Additionally, view recommendations for further savings. For details on Microsoft optimizations, see [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md).
+    -   Optimization: View cost saving optimization recommendations for Microsoft via the Microsoft Core License Optimization Report. View license optimizations performed by ServiceNow and determine if it results in cost reductions. Additionally, view recommendations for further savings. For details on Microsoft optimizations, see [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md).
     The 360-degree view lets you drill down from the top view of an entity to the lowest level to better understand license composition and remediation actions across the cluster. As an example, you can select a software model to drill down to view its metric attributes, override license costs, downgrade rights, software entitlements, and software model results. You can further select any of these entities, such as software model results, to get to its lowest denominator.
 
 

@@ -2,6 +2,7 @@
 title: Run a Quick Discovery
 description: Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/t\_DiscoverNow.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -47,12 +48,12 @@ You can run DiscoverNow from a Discovery schedule form or from a script.
 
 3.  If no MID Server is defined for that network, select one from the list of available MID Servers.
 
-    ![Quick discovery](../image/QuickDiscoveryDialog.png "Quick Discovery Dialog")
+    \[Omitted image "QuickDiscoveryDialog.png"\] Alt text: Quick discovery
 
 4.  Click **OK** to run discovery.
 
     The status record for that discovery appears. The **Schedule** column is empty because no schedule is associated with this discovery.
 
-    ![Quick discovery status list](../image/QuickDiscoveryStatusList.png "Quick Discovery Status List")
+    \[Omitted image "QuickDiscoveryStatusList.png"\] Alt text: Quick discovery status list
 
 

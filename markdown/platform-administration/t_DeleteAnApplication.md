@@ -2,6 +2,7 @@
 title: Delete an application
 description: As an administrator, you can delete custom applications that are no longer needed. Generally, you only delete applications that have never been shared with other instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DeleteAnApplication.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ As an administrator, you can delete custom applications that are no longer neede
 
 ## Before you begin
 
--   To ensure that you can reinstall the application later, first publish a backup of your application to the ServiceNow application repository, ServiceNow Store, or an update set. See [Application sharing](https://www.servicenow.com/docs/access?context=c_SharingApplications&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+-   To ensure that you can reinstall the application later, first publish a backup of your application to the ServiceNow application repository, ServiceNow Store, or an update set. See .
 
 Role required: admin
 
@@ -54,5 +55,5 @@ Unless the application extends other applications, or files are still associated
 
 **Note:** If an application is linked to Source Control \(that is, the Git repository\), you must also delete the Git configuration record for an application in the Repository Configurations \(sys\_repo\_config\) table. Without deleting this record, the application can't be reimported from Source Control on this instance.
 
-**Parent Topic:**[Rolling back and removing applications](../concept/c_RemovingApplications.md)
+**Parent Topic:**[Rolling back and removing applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_RemovingApplications.md)
 

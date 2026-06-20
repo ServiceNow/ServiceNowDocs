@@ -2,6 +2,7 @@
 title: Install the Dispute Content Pack for US Regulations
 description: If you have the admin role, you can install the Dispute Content Pack for US Regulations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application.
 
@@ -40,5 +41,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Dispute Content Pack for US Regulations](configuring-the-dispute-content-pack-for-us-regulation.md)
+**Parent Topic:**[Configuring the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/configuring-the-dispute-content-pack-for-us-regulation.md)
 

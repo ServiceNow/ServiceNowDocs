@@ -2,6 +2,7 @@
 title: Install Now Assist for Workplace Service Delivery \(WSD\)
 description: install and activate Now Assist for Workplace Service Delivery \(WSD\) from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery/now-assist-wsd-install.html
 release: xanadu
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -33,8 +34,8 @@ Role required: admin
 
 1.  Navigate to **System Definition** &gt; **Plugins**.
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](../../legal-request-management/concept/now-assist-lsd-support-info.md#lsd-application-info).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.md).
+    -   For information about the installation process, see .
 2.  Select **Sync now** to synchronize the plugins page with your freshly entitled store application.
 
 3.  Search in the search bar for a Now Assist product.

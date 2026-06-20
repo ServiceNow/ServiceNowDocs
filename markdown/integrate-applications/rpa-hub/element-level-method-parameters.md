@@ -2,6 +2,7 @@
 title: Element level method parameters
 description: These parameters pass custom specifications to the elements in various applications such as Java, Google Chrome , Windows , and Mainframe. Based on the specifications, the applications return an output. The process is a part of a Robotic Process Automation .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/element-level-method-parameters.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -27,5 +28,5 @@ These parameters pass custom specifications to the elements in various applicati
 |Keys \(String\)|Accepts keys, combination of keys, or special keys to trigger their specific actions. For example, **CTRL+A** selects all text.|No|
 |Return \(Boolean\)|Boolean response to whether the Click method was successful.|Not applicable|
 
-**Parent Topic:**[Connectors](../concept/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/connectors.md)
 

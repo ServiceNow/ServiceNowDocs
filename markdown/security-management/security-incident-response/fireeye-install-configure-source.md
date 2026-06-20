@@ -2,6 +2,7 @@
 title: Install the application and configure a source for the integration
 description: Install and configure the application from ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/fireeye-install-configure-source.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ After you have successfully installed the application, follow the below steps to
 
 2.  Select the **Integration Configurations** module to display the available integrations, and locate the **FireEye** tile.
 
-    ![FireEye HX Integration tile highlighted](../image/fireeye-tile.png)
+    \[Omitted image "fireeye-tile.png"\] Alt text: FireEye HX Integration tile highlighted
 
 3.  Click **Configure** on the FireEye tile.
 
@@ -46,12 +47,12 @@ After you have successfully installed the application, follow the below steps to
     |Mid Application|MID Application that is set up in your environment. Mid server is required to process zip files for some of the enrichment capabilities. By default, it will be ALL. Users should provide valid application name manually.|
     |On Premises Deployment|Default is disabled. If you are using the cloud-based version of FireEye, verify that the check box is cleared.|
 
-    ![FireEye HX Integration Configuration](../image/fireeye-configuration.png)
+    \[Omitted image "fireeye-configuration.png"\] Alt text: FireEye HX Integration Configuration
 
 5.  Click **Submit**.
 
     The FireEye Configurations list is displayed with your new configuration record. You have completed the configuration for a FireEye server. If you cannot connect to the FireEye, or your credentials are incorrect, a validation error message is displayed as shown in the following figure. Verify that your credentials are correct and try again.
 
-    ![FireEye configuration validation resulted in an error](../image/fireeye-validation.png)
+    \[Omitted image "fireeye-validation.png"\] Alt text: FireEye configuration validation resulted in an error
 
 

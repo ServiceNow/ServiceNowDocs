@@ -2,6 +2,7 @@
 title: Google Cloud Platform \(GCP\) Memorystore discovery using patterns
 description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - Memorystore DB pattern to discover Memorystore for Memcached and Memorystore for Redis during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-memorystore-patterns.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - 
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -215,9 +216,9 @@ Hostname or IP address of the exposed endpoint used by clients to connect to the
 </td></tr></tbody>
 </table>On the Dependency Views map, you can view all discovered Memorystore for Memcached or Memorystore for Redis resources in your organization and the relationships between them.
 
-![Memorystore for Memcached or Memorystore for Redis instance CIs and connections on a Dependency View map](../image/gcp-memorystore-instance-dependency-view.png "Memorystore for Memcached or Memorystore for Redis instance dependency view")
+\[Omitted image "gcp-memorystore-instance-dependency-view.png"\] Alt text: Memorystore for Memcached or Memorystore for Redis instance CIs and connections on a Dependency View map
 
-![Memorystore for Redis Cluster CIs and connections on a Dependency View map](../image/gcp-memorystore-redis-cluster-dependency-view.png "Memorystore for Redis Cluster dependency view")
+\[Omitted image "gcp-memorystore-redis-cluster-dependency-view.png"\] Alt text: Memorystore for Redis Cluster CIs and connections on a Dependency View map
 
 ## CI relationships
 
@@ -243,5 +244,5 @@ The Google Cloud Platform \(GCP\) - Memorystore DB pattern collects tags and pop
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.|
 
-**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

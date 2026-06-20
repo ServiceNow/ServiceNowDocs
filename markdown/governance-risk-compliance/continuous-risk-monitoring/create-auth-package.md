@@ -2,6 +2,7 @@
 title: Create an authorization package
 description: After you have defined the authorization boundaries for the assets or systems to send through the Authorization to Operate process, you must create an authorization package for that purpose. The package is processed through the seven steps mandated by the RMF.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,23 +26,23 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 1.  Navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **All Authorization Packages**.
 
-    ![Authorization packages](../image/cam-auth-packages.png)
+    \[Omitted image "cam-auth-packages.png"\] Alt text: Authorization packages
 
 2.  Select **New** and then fill in the form.
 
-    The settings are described in [Fields on the Authorization Package form](../reference/cam-form-authorization-package.md).
+    The settings are described in [Fields on the Authorization Package form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-package.md).
 
-    ![Authorization package - new](../image/cam-auth-packages-new.png)
+    \[Omitted image "cam-auth-packages-new.png"\] Alt text: Authorization package - new
 
 3.  Select the **Roles and Responsibilities** tab and specify the responsibilities of various stakeholders during the review and approval process.
 
-    The settings are described in [Fields on the Roles and Responsibilities tab](../reference/cam-form-roles-responsibility-tab.md).
+    The settings are described in [Fields on the Roles and Responsibilities tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-form-roles-responsibility-tab.md).
 
 4.  Select the **PTA/PIA** tab and perform the Privacy Threshold Analysis by answering the questions.
 
     The PTA identifies whether various types of the Personal Identifiable Information \(PII\) exist in the systems being authorized.
 
-    ![Privacy Threshold Analysis/Privacy Impact Assessment](../image/pta-pia.png)
+    \[Omitted image "pta-pia.png"\] Alt text: Privacy Threshold Analysis/Privacy Impact Assessment
 
 5.  If you answered **No** to all of the questions, you are not required to take a Privacy Impact Analysis and can select **Submit**.
 
@@ -62,5 +63,5 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 8.  Select **Categorize** to transition the package to the next step
 
 
-**Parent Topic:**[RMF step 0 - Prepare the authorization package](../concept/prepare-auth-pkg.md)
+**Parent Topic:**[RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)
 

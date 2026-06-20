@@ -2,7 +2,10 @@
 title: Configure Walk-up Experience locations for guest users
 description: Configure walk-up locations for guest-users so they can select a location while making appointments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/walk-up-guest-locations.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  Select a location that the guest user needs access to.
 
-3.  Click the Preview this record icon \( ![Preview this record icon.](../image/preview-record.png)\) next to the **Catalog item** field.
+3.  Click the Preview this record icon \( \[Omitted image "preview-record.png"\] Alt text: Preview this record icon.\) next to the **Catalog item** field.
 
 4.  In the Record Producer window, click **Open Record**.
 

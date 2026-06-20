@@ -2,7 +2,10 @@
 title: Register new assets
 description: Register new assets that are supported for customers and have not been registered previously using the Now Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/register-new-assets.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -37,7 +40,7 @@ Role required: asset
 
 8.  Tap **Scan next item** each time to scan the barcodes of the next parts.
 
-    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://www.servicenow.com/docs/access?context=sg-configure-multiscan&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US).
+    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see Configure a grouped input for multiple scans.
 
 9.  After scanning all the parts, tap **Review**.
 
@@ -48,5 +51,5 @@ Role required: asset
     The Register Assets form is updated with the latest count and other related information.
 
 
-**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](../concept/easily-track-parts.md)
+**Parent Topic:**[Manage your inventory using the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/easily-track-parts.md)
 

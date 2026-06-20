@@ -2,6 +2,7 @@
 title: Integrating with Adobe Workfront
 description: Integrating your Software Asset Management application with the Adobe Workfront application enables you to track your software subscriptions and to reclaim unused licenses.Generate an API key for authenticating Workfront API requests.Create a connection between your Workfront applications and your ServiceNow instance so that your instance can retrieve user data from your applications.Create a Workfront integration profile to track software subscriptions and optimize licensing for your Workfront applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-workfront.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -39,7 +40,7 @@ Workfront Role required: administrator
 
     Your Adobe Workfront instance opens.
 
-3.  On the page header of your Adobe Workfront instance, select the Main Menu icon \(![Main Menu icon.](../image/main-menu-icon.png)\) and then select **Setup**.
+3.  On the page header of your Adobe Workfront instance, select the Main Menu icon \(\[Omitted image "main-menu-icon.png"\] Alt text: Main Menu icon.\) and then select **Setup**.
 
 4.  From the left navigation menu of the Setup page, navigate to **System** &gt; **Customer Info**.
 
@@ -116,7 +117,7 @@ API Key
 
 </td><td>
 
-API key for your Workfront applications. Enter the same API key that you generated in [Generate a Workfront API key](integrate-with-workfront.md#).
+API key for your Workfront applications. Enter the same API key that you generated in [Generate a Workfront API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-workfront.md).
 
 </td></tr></tbody>
 </table>5.  Select **Create Connection**.
@@ -140,15 +141,15 @@ If you’re using Software Asset Workspace, the option to create the Workfront i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d205814e566">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113887e566">
 
 Interface
 
-</th><th align="left" id="d205814e569">
+</th><th align="left" id="d113887e569">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d205814e575">
+</th></tr></thead><tbody><tr><td id="d113887e575">
 
 **Core UI**
 
@@ -159,7 +160,7 @@ Action
 3.  Select **Workfront Integration Profile**.
 
 
-</td></tr><tr><td id="d205814e617">
+</td></tr><tr><td id="d113887e617">
 
 **Software Asset Workspace**
 
@@ -240,18 +241,18 @@ Type of integration profile. This field is automatically set to **Workfront Subs
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

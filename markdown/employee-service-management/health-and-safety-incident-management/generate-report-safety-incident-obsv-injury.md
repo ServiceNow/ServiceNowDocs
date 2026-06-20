@@ -2,6 +2,7 @@
 title: Generate a report for a safety incident, observation, or injury
 description: Generate a report for a safety incident, observation, or an injury that you want to export for your regional or industry-specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.html
 release: xanadu
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -21,13 +22,13 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 ## About this task
 
-The report generation uses a report field mapping for your reporting PDF template. A report field mapping includes mappings of fields from the safety record \(such as incident or observation\) to the fields in the reporting PDF template. When generating a report, the exported PDF fills in information from the selected safety record through mapped fields. This field mapping, therefore, speeds up the report filling for incidents, observations, or injury and illness records. For more information on report field mapping, see [Create a safety report field mapping](create-safety-report-field-mapping.md).
+The report generation uses a report field mapping for your reporting PDF template. A report field mapping includes mappings of fields from the safety record \(such as incident or observation\) to the fields in the reporting PDF template. When generating a report, the exported PDF fills in information from the selected safety record through mapped fields. This field mapping, therefore, speeds up the report filling for incidents, observations, or injury and illness records. For more information on report field mapping, see [Create a safety report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the Incident Management icon \(![Incident Management icon.](../image/list-icon-hs.png)\).
+2.  Select the Incident Management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\).
 
 3.  In the **Lists** tab, open the safety incident, observation, or injury and illness list.
 
@@ -51,5 +52,5 @@ The report generation uses a report field mapping for your reporting PDF templat
 -   The PDF template is automatically filled with the values from the selected safety record.
 -   The generated report is available in the **Attachments** section of the safety record, for example, safety incident.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](../concept/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

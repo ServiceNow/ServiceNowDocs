@@ -2,6 +2,7 @@
 title: Create a client state parameter for Work scheduler
 description: Add custom client state parameter values to add properties to the card components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/work-sched-create-client-state-params-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -21,7 +22,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## Procedure
 
-1.  Select the Client state icon \(![Client state icon](../image/client-state-icon.png)\).
+1.  Select the Client state icon \(\[Omitted image "client-state-icon.png"\] Alt text: Client state icon\).
 
 2.  In the Client state parameters section, click **+Add**.
 
@@ -44,17 +45,17 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
         ```
 
     5.  Select **Apply**.
-    Here's a demo on how to create client state parameters.Create client state parameters
+    Here's a demo on how to create client state parameters.
 
 
 ## What to do next
 
-[Create page scripts for Work scheduler](https://www.servicenow.com/docs/access?context=work-sched-create-page-scripts&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+Create page scripts for Work scheduler
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Create and bind a client state parameter to a component](https://www.servicenow.com/docs/access?context=state-parameters&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.state-parameters]
 

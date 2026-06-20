@@ -2,6 +2,7 @@
 title: Create New Excel download/upload request form
 description: Use the Create New Excel download/upload request form to capture all the information that you need to create a download/upload request for Digital resilience third-party registers using the Third-party Risk Management application. As a third-party risk manager or third-party risk assessor you can create an Excel download/upload request record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.html
 release: xanadu
 product: Third-party Risk Management
 classification: third-party-risk-management

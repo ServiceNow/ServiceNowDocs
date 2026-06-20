@@ -2,6 +2,7 @@
 title: Update a project using a Microsoft Project file
 description: Import project data, from a Microsoft Project file, into an existing project in your ServiceNow instance using the Project form or Planning Console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/import-prj-pc-pf.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -17,7 +18,7 @@ Import project data, from a Microsoft Project file, into an existing project in 
 
 ## Before you begin
 
-Create a [project](t_CreateAProject.md).
+Create a [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateAProject.md).
 
 Role required: it\_project\_manager
 
@@ -30,7 +31,7 @@ Role required: it\_project\_manager
 3.  Import the Microsoft Project file to update the selected project from any of the following screens:
 
     -   In the Project form, select **Import from MS Project** from the context menu.
-    -   In the Planning Console, click the more actions icon \(![More actions icon](../image/elipsis_icon.png)\) and select the **Import from MS Project** option.
+    -   In the Planning Console, click the more actions icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: More actions icon\) and select the **Import from MS Project** option.
 4.  In the Microsoft Project Import dialog box, select the Microsoft Project file and calculation type:
 
     1.  Click **Choose File** to select a Microsoft Project \(mpp\) file.
@@ -39,7 +40,7 @@ Role required: it\_project\_manager
 
         -   **Automatic**: Select this option to apply the scheduling engine while importing the project tasks. The supported constraint types are imported with the same constraints applied to them while other constraint types are converted to **Start on specific date**.
         -   **Manual**: Select this option to import all project tasks with the **Start on specific date** constraint type irrespective of their constraint type in Microsoft Project.
-        For more information about the supported constraint types, see [Project import from Microsoft Project](../concept/project-import-msp.md#ul_gsp_tlz_bq).
+        For more information about the supported constraint types, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/project-import-msp.md).
 
 5.  Click **Import**.
 
@@ -54,5 +55,5 @@ Role required: it\_project\_manager
     -   The **State** of the parent project and tasks are rolled up.
     -   The **% Complete** on the top task is rolled up.
 
-**Parent Topic:**[Project import from Microsoft Project](../concept/project-import-msp.md)
+**Parent Topic:**[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/project-import-msp.md)
 

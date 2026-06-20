@@ -2,6 +2,7 @@
 title: Exploring Sales Customer Relationship Management
 description: Whether you're starting or expanding a Sales Customer Relationship Management \(Sales CRM\) implementation, learn more about its available applications and workflows for pre-sales engagement, order capture and fulfillment, and post-sales activities in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-exploring.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ The Sales Customer Relationship Management applications enable you to manage the
 
 To support the product sales life cycle, Sales Customer Relationship Management provides the following features and applications.
 
-![Features and applications in Sales and Order Management: Product Catalog Management, Pricing Management, Lead Management, Opportunity Management, Quote Management, Order Management, Customer Life Cycle Workflows, and Customer Contracts and Entitlements.](../image/som-solution-apps-q3-2024.png "Sales Customer Relationship Management applications and key features")
+\[Omitted image "som-solution-apps-q3-2024.png"\] Alt text: Features and applications in Sales and Order Management: Product Catalog Management, Pricing Management, Lead Management, Opportunity Management, Quote Management, Order Management, Customer Life Cycle Workflows, and Customer Contracts and Entitlements.
 
 ## Benefits
 
@@ -45,7 +46,7 @@ Create and manage product catalogs for commercial and technical product offering
 
 </td><td>
 
-[Product Catalog Management](product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/product-catalog-managment.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Set the pricing for your products through price lists, contextual price controls
 
 </td><td>
 
-[Pricing Management](pricing-management.md)
+[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/pricing-management.md)
 
 </td><td>
 
@@ -69,7 +70,7 @@ Create and manage leads for potential customers and product sales.
 
 </td><td>
 
-[Lead Management](lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/lead-management.md)
 
 </td><td>
 
@@ -81,7 +82,7 @@ Create pre-sales opportunities that identify and track potential sales based on 
 
 </td><td>
 
-[Opportunity Management](opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/opportunity-management.md)
 
 </td><td>
 
@@ -93,7 +94,7 @@ Create and manage sales quotes, which are formal offers for products or services
 
 </td><td>
 
-[Quote Management](quote-management.md)
+[Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/quote-management.md)
 
 </td><td>
 
@@ -105,7 +106,7 @@ Quickly configure and price opportunities, quotes, and complex product offers.
 
 </td><td>
 
-[Product configurator user interface](product-configurator.md)
+[Product configurator user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/product-configurator.md)
 
 </td><td>
 
@@ -117,7 +118,7 @@ Create and manage binding agreements between your sales organization and buyers,
 
 </td><td>
 
-[Sales Agreement Management](sales-agreement-mgmt.md)
+[Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/sales-agreement-mgmt.md)
 
 </td><td>
 
@@ -129,7 +130,7 @@ Capture and fulfill product and service orders to create a seamless ordering exp
 
 </td><td>
 
-[Order Management](order-mgt-exploring.md)
+[Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-mgt-exploring.md)
 
 </td><td>
 
@@ -141,7 +142,7 @@ Create and manage contracts and entitlements as part of post-sales support.
 
 </td><td>
 
-[Post Sales Support](https://www.servicenow.com/docs/access?context=exploring-post-sales-support&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+Post Sales Support
 
 </td><td>
 
@@ -153,7 +154,7 @@ Empower sales teams by providing a consolidated view of all critical sales data 
 
 </td><td>
 
-[Lead-to-Cash Process Management](explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/explore-lead-cash-process-management.md)
 
 </td><td>
 
@@ -165,7 +166,7 @@ Create a series of automated and manual activities that can be set up to engage 
 
 </td><td>
 
-[Customer Engagement Sequences](explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/explore-customer-engagement-sequences.md)
 
 </td><td>
 
@@ -177,7 +178,7 @@ Provide self-service capabilities to your B2B customers such as the ability to b
 
 </td><td>
 
-[Customer self-service for Sales Customer Relationship Management](som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-self-service-business-portal.md)
 
 </td><td>
 
@@ -189,7 +190,7 @@ Create the workflows for your organization and configure the metadata for your v
 
 </td><td>
 
-[Sales and Order Management workflows \(lead-to-cash core\)](https://www.servicenow.com/docs/access?context=lead-to-cash-workflows&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+Sales and Order Management workflows \(lead-to-cash core\)
 
 </td><td>
 
@@ -201,7 +202,7 @@ Support change management and commercial workflows \(move, add, change, and disc
 
 </td><td>
 
-[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US)
+
 
 </td><td>
 
@@ -210,5 +211,5 @@ Agent
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

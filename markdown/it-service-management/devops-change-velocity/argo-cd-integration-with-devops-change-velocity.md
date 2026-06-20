@@ -2,6 +2,7 @@
 title: Argo CD integration with DevOps Change Velocity
 description: Connect to your Argo CD instance to automate the deployment of applications from GitHub repositories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/argo-cd-integration-with-devops-change-velocity.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,7 +20,7 @@ Connect to your Argo CD instance to automate the deployment of applications from
 
 This integration enables the ServiceNow platform to manage the change request closure process based on the sync status received from Argo CD for continuous deployment of applications.
 
-You must activate the DevOps Integration with Argo CD plugin \(sn\_devops\_argocd\) before connecting your Argo CD instance in ServiceNow. For more information on activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+You must activate the DevOps Integration with Argo CD plugin \(sn\_devops\_argocd\) before connecting your Argo CD instance in ServiceNow. For more information on activating a plugin, see .
 
 ## Workflow
 
@@ -40,16 +41,16 @@ Here is the workflow of how the continuous deployment process works through Argo
 
 The following examples specify how changes made in Argo CD are notified to ServiceNow DevOps through the webhook.
 
--   The Config file is updated in GitHub with the following commit tag format:![Commit tag format in GitHub](../image/argocd-1.png)
--   Inbound events are created in ServiceNow when an app is synced in Argo CD:![Inbound event on sync in Argo CD](../image/argocd-2.png)
--   If sync is successful, the change request is closed and the close code, worknotes, and close notes fields are updated in the change request:![Change request updated with close state on successful sync in Argo CD](../image/argocd-3.png)![Change request work notes updated on successful sync in Argo CD](../image/argocd-4.png)
+-   The Config file is updated in GitHub with the following commit tag format:\[Omitted image "argocd-1.png"\] Alt text: Commit tag format in GitHub
+-   Inbound events are created in ServiceNow when an app is synced in Argo CD:\[Omitted image "argocd-2.png"\] Alt text: Inbound event on sync in Argo CD
+-   If sync is successful, the change request is closed and the close code, worknotes, and close notes fields are updated in the change request:\[Omitted image "argocd-3.png"\] Alt text: Change request updated with close state on successful sync in Argo CD\[Omitted image "argocd-4.png"\] Alt text: Change request work notes updated on successful sync in Argo CD
 
--   **[Onboard Argo CD to DevOps Change Velocity – Workspace](../task/onboard-argo-cd-to-devops-change-velocity-workspace.md)**  
+-   **[Onboard Argo CD to DevOps Change Velocity – Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-workspace.md)**  
 Connect to your Argo CD instance using the DevOps Change Workspace playbook to automate the deployment of applications from GitHub repositories.
--   **[Onboard Argo CD to DevOps Change Velocity — Service Catalog](../task/sc-argo-cd.md)**  
+-   **[Onboard Argo CD to DevOps Change Velocity — Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/sc-argo-cd.md)**  
 Connect your Sonar instance using the ServiceNow Service Catalog.
--   **[Onboard Argo CD to DevOps Change Velocity — Classic](../task/onboard-argo-cd-to-devops-change-velocity-classic.md)**  
+-   **[Onboard Argo CD to DevOps Change Velocity — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-classic.md)**  
 Connect your Argo CD instance using the Classic UI in DevOps Change Velocity.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

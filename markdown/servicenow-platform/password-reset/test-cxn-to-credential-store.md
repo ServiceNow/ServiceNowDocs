@@ -2,6 +2,7 @@
 title: Test the connection to a credential store
 description: You should test the connection to a credential store after you configure a new credential store or when users experience problems that might involve the connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/password-reset/test-cxn-to-credential-store.html
 release: xanadu
 product: Password Reset
 classification: password-reset
@@ -28,5 +29,5 @@ Role required: admin
     A progress page displays the result of the test.
 
 
-**Parent Topic:**[Credential stores for Password Reset](../concept/c_CredentialStores.md)
+**Parent Topic:**[Credential stores for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/password-reset/c_CredentialStores.md)
 

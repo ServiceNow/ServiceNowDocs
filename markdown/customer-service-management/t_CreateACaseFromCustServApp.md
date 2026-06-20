@@ -2,7 +2,10 @@
 title: Create a customer service case
 description: Customer service agents and agent managers can create cases using the Customer Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateACaseFromCustServApp.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -21,15 +24,15 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, or admi
 
 1.  Create a case.
 
-<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d185252e64">
+<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d65643e64">
 
 Option
 
-</th><th align="left" id="d185252e67">
+</th><th align="left" id="d65643e67">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185252e73">
+</th></tr></thead><tbody><tr><td id="d65643e73">
 
 **CSM Configurable Workspace**
 
@@ -37,7 +40,7 @@ Description
 
 From the Interaction form, click **Create Case**.
 
-</td></tr><tr><td id="d185252e86">
+</td></tr><tr><td id="d65643e86">
 
 **Platform interface**
 
@@ -129,7 +132,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer for this case. **Note:** This field is active only when the Customer Data Models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\) is [installed](activate-customer-data-models-b2b2c.md). Once Account is selected, only consumers belonging to the account are displayed.
+The name of the consumer for this case. **Note:** This field is active only when the Customer Data Models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\) is [installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-customer-data-models-b2b2c.md). Once Account is selected, only consumers belonging to the account are displayed.
 
 </td></tr><tr><td>
 

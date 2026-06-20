@@ -2,6 +2,7 @@
 title: Updating applications
 description: Update your installed applications when new versions are available to get the latest features. You can update most applications to more recent versions directly from the Application Manager, without returning to the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/updating-apps-app-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -26,7 +27,7 @@ There are some exceptions that might require you to procure the new application 
 -   A new version of a previously installed dependency has updated terms and conditions that must be signed. The dependency is eligible for update after procuring the updated version of the dependency from the ServiceNow Store.
 -   The provider of an application or product requires that each new version is procured from the ServiceNow Store. The application or product dependencies are available for update after procuring an updated version of the application or product from the ServiceNow Store.
 
-For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](../../servicenow-store/concept/getting-apps-trials.md).
+For more information about procuring applications and products from the ServiceNow Store, see [Getting apps and trials from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/getting-apps-trials.md).
 
 ## Notifications about available updates
 

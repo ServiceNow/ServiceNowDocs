@@ -2,6 +2,7 @@
 title: Create an operational schedule for hardware assets
 description: Define the scheduled operational time, which is the duration during which the asset will be in use, by creating an operational schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/create-operational-schedule-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -59,7 +60,7 @@ Parent
 
 </td><td>
 
-Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://www.servicenow.com/docs/access?context=c_ParentAndChildSchedules&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Parent schedule that constraints the new schedule.For more details, see .
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Description of the operational schedule.
 
     3.  On the Schedule Entry New record, fill in the fields.
 
-        For details on Schedule Entry New record fields, see [Schedule entry fields](https://www.servicenow.com/docs/access?context=r_ScheduleEntryFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+        For details on Schedule Entry New record fields, see .
 
     4.  Select **Submit**.
 
@@ -105,7 +106,7 @@ Description of the operational schedule.
 
 ## What to do next
 
-[Map hardware assets to an operational schedule](create-asset-schedule-ham.md).
+[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
 
-**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](../concept/configure-kpi-settings-ham.md)
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/configure-kpi-settings-ham.md)
 

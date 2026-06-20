@@ -2,6 +2,7 @@
 title: Configure the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability
 description: Configure the copied version of the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-disable-di.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

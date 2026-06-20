@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection analyze risks and recommend solutions agentic workflow
 description: Use the Analyze risk and recommend solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-resolve-risk.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -23,14 +24,14 @@ Use the Analyze risks and recommend solutions agentic workflow to:
 -   Provide real-time risk analysis and generate detailed reports.
 -   Identify common solutions and provide proactive recommendations.
 
-Customer success managers can collaborate with customer success squad members to monitor risks, perform real-time risk analysis, generate detailed reports with proactive recommendations. This helps prevent escalations, improve customer retention, and enhance service quality. The Analyze risks and recommend solutions agentic workflow can be used to assess and offer solutions for both individual and multiple risks. It is triggered daily based on a predefined schedule and the results are displayed in the [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Customer success managers can collaborate with customer success squad members to monitor risks, perform real-time risk analysis, generate detailed reports with proactive recommendations. This helps prevent escalations, improve customer retention, and enhance service quality. The Analyze risks and recommend solutions agentic workflow can be used to assess and offer solutions for both individual and multiple risks. It is triggered daily based on a predefined schedule and the results are displayed in the .
 
 ## Configure the Analyze risks and recommend solutions agentic workflow
 
 Before you use the agentic workflow, do the following:
 
--   Activate the Analyze risks and recommend solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US) for details.
--   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See [Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+-   Activate the Analyze risks and recommend solutions subflow to trigger the agentic workflow to run as a daily scheduled job. See  for details.
+-   Configure the risk category and other conditions as required in the Engagement risk solutions decision table. See .
 -   Ensure that the solution subflows contain the following mandatory inputs:
     -   Risk system ID: Type is string and default name is risk\_system\_id.
     -   Solution table: Type is table.

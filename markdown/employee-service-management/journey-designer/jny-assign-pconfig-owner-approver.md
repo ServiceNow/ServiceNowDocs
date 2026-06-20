@@ -2,6 +2,7 @@
 title: Assign owners and approvers to a journey configuration
 description: In Journey designer version 2, administrators assign the initial owners and approvers to a plan configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -54,5 +55,5 @@ Co-owners have the same capabilities as owners.
 10. Select **Submit**.
 
 
-**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](../concept/jny-dsgnr-plan-config-admin.md)
+**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 

@@ -2,6 +2,7 @@
 title: Deactivate an integration
 description: If you want to temporarily deactivate an integration, move it to an inactive state. When you deactivate integrations, the alerts received via this integration are no longer processed. You might consider disabling an integration if you plan to take a system in maintenance mode and don’t want to receive unnecessary alerts during that time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-deactivate-integration.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,29 +32,29 @@ Responders and managers can disable any integration they’ve created or was cre
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  On the **Services** page \(![Services module icon](../image/icon-sr-services.png)\), select a service.
+2.  On the **Services** page \(\[Omitted image "icon-sr-services.png"\] Alt text: Services module icon\), select a service.
 
 3.  Select the **Integrations** tab.
 
-<table id="choicetable_p5q_5wj_1zb"><thead><tr><th align="left" id="d324217e97">
+<table id="choicetable_p5q_5wj_1zb"><thead><tr><th align="left" id="d60971e97">
 
 Option
 
-</th><th align="left" id="d324217e100">
+</th><th align="left" id="d60971e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d324217e106">
+</th></tr></thead><tbody><tr><td id="d60971e106">
 
 **From the Integrations tab**
 
 </td><td>
 
-1.  For each active integration you want to deactivate, select the More actions icon ![more actions icon](../image/icon-sr-more-actions-vertical.png).
+1.  For each active integration you want to deactivate, select the More actions icon \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: more actions icon.
 2.  Select **Deactivate**.
 
 
-</td></tr><tr><td id="d324217e133">
+</td></tr><tr><td id="d60971e133">
 
 **In the Integration record**
 
@@ -64,8 +65,8 @@ Steps
 
 
 </td></tr></tbody>
-</table>    **Note:** You can enable an inactive integration and make it available again by Selecting **Activate** from the More actions icon ![more actions icon](../image/icon-sr-more-actions-vertical.png). But, if the service associated with the deactivated integration has been deactivated, you won’t be able to reactivate the integration.
+</table>    **Note:** You can enable an inactive integration and make it available again by Selecting **Activate** from the More actions icon \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: more actions icon. But, if the service associated with the deactivated integration has been deactivated, you won’t be able to reactivate the integration.
 
 
-**Parent Topic:**[Available SRM integrations](../concept/sr-builtin-integrations.md)
+**Parent Topic:**[Available SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-builtin-integrations.md)
 

@@ -2,6 +2,7 @@
 title: Configure crawl settings for the predefined web sources external content connector
 description: Specify the pages and subdomains you want your predefined web sources external content connector to crawl.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/configure-crawl-settings-websources-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -50,5 +51,5 @@ If one of your connectors reaches the indexing limit, you can update its crawl s
 
 The predefined web sources external content connector is updated with your chosen crawl scope.
 
-**Parent Topic:**[Configuring crawl settings for external content connectors](../concept/cfg-crawl-settings-ext-cont-connector.md)
+**Parent Topic:**[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/cfg-crawl-settings-ext-cont-connector.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Financial Services Business Deposit Operations
 description: Several types of components are installed with installation of the Financial Services Business Deposit Operations application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-deposit-operations/installed-with-business-deposit-ops.html
 release: xanadu
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -15,7 +16,7 @@ breadcrumb: [Financial Services Deposit Operations reference, Financial Services
 
 Several types of components are installed with installation of the Financial Services Business Deposit Operations application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they aren’t already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Plugins installed
 
@@ -41,9 +42,9 @@ Enables the extension of tables from the Customer Service Management application
 |Store application|Description|
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make deposit service requests. For more information, see .|
-|Document Processor|Enables management of document services tasks that are used in Financial Services Business Deposit Operations workflows. For more information, see [Integrate with Financial Services Document Processor](../../fso-common/concept/fso-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=customer-service-case-playbooks&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
-|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://www.servicenow.com/docs/access?context=config-contributor-user&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US) [Configure Contributor Users](https://www.servicenow.com/docs/access?context=config-contributor-user&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).|
+|Document Processor|Enables management of document services tasks that are used in Financial Services Business Deposit Operations workflows. For more information, see [Integrate with Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-document-processor.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see CSM Contributor User Configure Contributor Users.|
 
 ## Roles installed
 
@@ -104,7 +105,7 @@ Deposit contributor\[sn\_bom\_deposit\_b2b.contributor\]
 -   View the overall status of cases
 -   Work on deposit service cases and tasks until the Initiate and review stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -126,7 +127,7 @@ Deposit agent connector\[sn\_bom\_deposit\_b2b.agent\_connector\]
 -   View the overall status of cases
 -   Work on deposit service cases and tasks to fulfill requests for accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -209,5 +210,5 @@ Business Deposit Task\[sn\_bom\_deposit\_b2b\_task\]
 Stores all deposit tasks for all business deposit cases. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Deposit Operations reference](../concept/fso-deposit-ops-reference.md)
+</table>**Parent Topic:**[Financial Services Deposit Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-deposit-operations/fso-deposit-ops-reference.md)
 

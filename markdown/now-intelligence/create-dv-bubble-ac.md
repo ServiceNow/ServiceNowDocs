@@ -2,6 +2,7 @@
 title: Create a bubble visualization in the Visualization Designer
 description: Use a bubble visualization to show multiple separate metrics on a single chart. Use bubble charts to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/create-dv-bubble-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -16,7 +17,7 @@ Use a bubble visualization to show multiple separate metrics on a single chart. 
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -30,7 +31,7 @@ Bubble visualizations aggregate information over three different metrics, using 
 
 2.  Select **New**.
 
-3.  Select the Bubble \(![bubble chart icon](../image/inline-data-vis-bubble.png)\) visualization type.
+3.  Select the Bubble \(\[Omitted image "inline-data-vis-bubble.png"\] Alt text: bubble chart icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -46,7 +47,7 @@ Bubble visualizations aggregate information over three different metrics, using 
 
 5.  Choose a data source.
 
-    For general descriptions of the data sources, see [Data sources for data visualizations](../../par-for-workspace/reference/data-sources-visualizations.md).
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/data-sources-visualizations.md).
 
     You can choose one or more tables \(available in the base system\). When you select a table, you can filter it by conditions.
 
@@ -54,7 +55,7 @@ Bubble visualizations aggregate information over three different metrics, using 
 
 6.  Select the options for your data source.
 
-    Go to [Table data options for bubble visualizations](../reference/config-dv-bubble-table-data.md).
+    Go to [Table data options for bubble visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-dv-bubble-table-data.md).
 
 7.  Under **Presentation**, provide display and color information. In the **Colors** section, configure the colors and color rules.
 
@@ -96,7 +97,7 @@ Set color type
 
 </td><td>
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
 -   Single color/Colors per metric: Select a single color in the **Set value color** field. Interacting with that field opens a selector where you can choose the color from either a set of icons or from a list. You can also search for a color. Entering a search value has the selector show you a list of colors filtered by that search value.
 
 
@@ -125,7 +126,7 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/dv-chart-interactions.md).
 
 -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
@@ -144,6 +145,6 @@ Not supported for User Experience Analytics data sources.
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   Select the More actions menu icon \(![More actions menu icon](../../dashboards/image/icon-vert-3dot-p.png)\) to duplicate, share, export, schedule, or bookmark the visualization.
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-dv-new-db.md)
+-   Select the More actions menu icon \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\) to duplicate, share, export, schedule, or bookmark the visualization.
 

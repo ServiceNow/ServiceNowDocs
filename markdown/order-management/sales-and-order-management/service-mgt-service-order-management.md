@@ -2,6 +2,7 @@
 title: Managing service orders
 description: Use service orders for the activation of new services or for the post-sales requests for the services that were activated for and delivered to customers at earlier dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/service-mgt-service-order-management.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

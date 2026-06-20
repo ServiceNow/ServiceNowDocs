@@ -2,7 +2,10 @@
 title: Viewing agent location and assign tasks to agents
 description: View the location of agents in your assignment group so you can assign agents to nearby tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-agent-location.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,5 +31,5 @@ Role required: wm\_manager
 4.  To assign or reassign a work order task, open a task and add the agent you want to work on the task to the **Assigned to** field.
 
 
-**Parent Topic:**[Using the map](../concept/using-manager-map.md)
+**Parent Topic:**[Using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-manager-map.md)
 

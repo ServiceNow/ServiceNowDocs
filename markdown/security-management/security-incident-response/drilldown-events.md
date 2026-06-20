@@ -2,6 +2,7 @@
 title: View LogRhythm drilldown events
 description: View the related raw or base events for a LogRhythm alarm in the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/drilldown-events.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,8 +30,8 @@ As a security analyst you can view the related raw or base events for a LogRhyth
 
     The following illustration shows how to navigate to the **LogRhythm Drilldown Events** module, sort the list of events by **Group By Alarm ID**, and click the associated security incident. In the security incident, you can find the **LogRhythm Drilldown Events** tab in the related links.
 
-    ![Illustrates how to navigate to the drill down events.](../image/logrhythm-drilldown.gif)
+    \[Omitted image "logrhythm-drilldown.gif"\] Alt text: Illustrates how to navigate to the drill down events.
 
 
-**Parent Topic:**[Additional configurations for the LogRhythm integration](configure-system-and-troubleshooting-properties.md)
+**Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)
 

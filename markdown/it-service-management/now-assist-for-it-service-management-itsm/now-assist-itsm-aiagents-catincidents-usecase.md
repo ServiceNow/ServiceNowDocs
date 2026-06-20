@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow
 description: Use the Triage and categorize ITSM incidents AI agent team to assign incident categories, subcategories, configuration items \(CI\), major incidents, and known problems autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -20,13 +21,13 @@ Use the Triage and categorize ITSM incidents AI agent team to assign incident ca
 
 Using the Triage and categorize ITSM incidents agentic workflow, autonomously assign incident categories by assigning a category, subcategory, and a configuration item \(CI\) to incidents based on the incident short description. After categorizing the incident, automatically link incidents to major incidents or known problems.
 
-To modify the Triage and categorize ITSM incidents agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Triage and categorize ITSM incidents agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
-**Note:** You must enable the semantic indexing for the Problem table when you duplicate the agentic workflow. For more information, see [Semantic Index Field form](https://www.servicenow.com/docs/access?context=semantic-index-field-form&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** You must enable the semantic indexing for the Problem table when you duplicate the agentic workflow. For more information, see .
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
-**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](../../incident-management/task/activate-major-incident-management-plugin.md).
+**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 ## Triage and categorize ITSM incidents agentic workflow
 
@@ -109,7 +110,7 @@ Link major incident AI agent
 
 </td><td>
 
-**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](../../incident-management/task/activate-major-incident-management-plugin.md).
+**Important:** To search for related major incidents, you must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\). For more information, see [Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 If this AI agent identifies a related, most similar major incident, it automatically links it to the current incident and ends the workflow.
 
@@ -138,9 +139,9 @@ In the agentic workflow record:
         The agent executes the request for the agentic workflow.
 
 
-**Example of Triage and categorize ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**![Triage and categorize ITSM incidents agentic workflow output .](../image/now-assist-itsm-aiagents-incident-triager-nap.png)
+**Example of Triage and categorize ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-aiagents-incident-triager-nap.png"\] Alt text: Triage and categorize ITSM incidents agentic workflow output .
 
-In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](now-assist-itsm-ai-agents-use-cases.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 

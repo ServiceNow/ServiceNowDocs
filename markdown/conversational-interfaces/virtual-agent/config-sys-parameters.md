@@ -2,6 +2,7 @@
 title: Legacy - System parameter configuration
 description: Use system parameters to configure the functionality of the Conversational Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/config-sys-parameters.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use system parameters to configure the functionality of the Conversational Analy
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -31,5 +32,5 @@ Use the following system parameters to configure the functionality of the Conver
 |Reasons|sn\_ci\_analytics.ca.reason\_max|Sets the maximum length of reason strings. The default is 1000 characters.|
 |Hash|sn\_ci\_analytics.show\_hashed\_user\_id|Set this parameter to true to display hashed User Ids on the Conversations and Users pages in the dashboard. The default is false.|
 
-**Parent Topic:**[Legacy - Conversational Analytics dashboard reference](conversational-analytics-dashboard-reference.md)
+**Parent Topic:**[Legacy - Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference.md)
 

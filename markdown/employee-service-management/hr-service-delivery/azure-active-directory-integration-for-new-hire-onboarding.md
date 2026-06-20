@@ -2,6 +2,7 @@
 title: Microsoft Azure AD integration for new hire onboarding
 description: Automatically provision relevant applications for new hires as part of the onboarding process with the Microsoft Azure AD integration. This integration requires the Microsoft Azure AD spoke in IntegrationHub, and is configured to work with the lifecycle event for new hire onboarding that is included as demo data with the Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/azure-active-directory-integration-for-new-hire-onboarding.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Automatically provision relevant applications for new hires as part of the onboa
 
 ## Setting up the Microsoft Azure AD integration
 
-To set up the Microsoft Azure AD integration for new hire onboarding, you must first set up the Microsoft Azure AD spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Microsoft Azure AD integration for new hire onboarding](../task/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md).
+To set up the Microsoft Azure AD integration for new hire onboarding, you must first set up the Microsoft Azure AD spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Microsoft Azure AD integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md).
 
 ## Using the Microsoft Azure AD integration with new hire onboarding
 
@@ -37,10 +38,10 @@ The application provisioning process works as follows. When an onboarding case i
 
 **Important:** New hires must have a user record in the Microsoft Azure AD system in order for their applications to be provisioned to them.
 
-![Application provisioning process for the Microsoft Azure AD integration for new hire onboarding.](../image/microsoft-azure-ad-integration-for-new-hire-onboarding.png)
+\[Omitted image "microsoft-azure-ad-integration-for-new-hire-onboarding.png"\] Alt text: Application provisioning process for the Microsoft Azure AD integration for new hire onboarding.
 
--   **[Set up the Microsoft Azure AD integration for new hire onboarding](../task/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md)**  
+-   **[Set up the Microsoft Azure AD integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md)**  
 To set up the Microsoft Azure AD integration for new hire onboarding, you must first set up the Microsoft Azure AD spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the required business roles.
 
-**Parent Topic:**[Lifecyle events for enterprise integrations](onbrd-trans-integrations.md)
+**Parent Topic:**[Lifecyle events for enterprise integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/onbrd-trans-integrations.md)
 

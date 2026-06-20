@@ -2,6 +2,7 @@
 title: Back out a push
 description: Application developers can back out a push to remove unwanted changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/t\_BackOutAPush.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -26,5 +27,5 @@ Application developers can back out a push to remove unwanted changes.
 4.  Click **OK** when the confirmation message appears.
 
 
-**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

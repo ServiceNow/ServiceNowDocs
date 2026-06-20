@@ -2,6 +2,7 @@
 title: Properties
 description: On the properties form, you can set parameters that control how the system executes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-properties.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center

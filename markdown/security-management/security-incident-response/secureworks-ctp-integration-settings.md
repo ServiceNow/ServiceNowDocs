@@ -2,6 +2,7 @@
 title: Secureworks CTP integration configuration settings
 description: Use this option to modify the Secureworks CTP ticket ingestion integration default system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/secureworks-ctp-integration-settings.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ To modify the system properties, log in as a user with the `sn_si.admin` role an
 
 The default configuration settings are displayed. You can modify these settings if required.
 
-![Secureworks CTP: Integration Settings](../image/secureworks-integration-settings.gif)
+\[Omitted image "secureworks-integration-settings.gif"\] Alt text: Secureworks CTP: Integration Settings
 
 Any modified integration settings will be applied during the next polling interval as defined in the profile.
 

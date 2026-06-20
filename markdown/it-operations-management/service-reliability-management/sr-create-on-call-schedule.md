@@ -2,6 +2,7 @@
 title: Create your SRM On-call schedule
 description: Set up an on-call schedule for your team so that a team member is available to respond quickly to incidents and critical alerts. On-call schedules determine who is on call or available at a given time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-on-call-schedule.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -33,8 +34,8 @@ Shifts in SRM let you define variable time periods for your shift-based workforc
 
 2.  Use one of the following methods to select a team:
 
-    -   On the Teams page \(![teams icon](../image/icon-sr-teams.png)\), select a team card.
-    -   On the **Schedules** page \(![schedules icon](../image/icon-sr-schedules.png)\), select the **On-call schedules** tab. This view shows your selected team. To search for another team, enter the team name in the search bar.
+    -   On the Teams page \(\[Omitted image "icon-sr-teams.png"\] Alt text: teams icon\), select a team card.
+    -   On the **Schedules** page \(\[Omitted image "icon-sr-schedules.png"\] Alt text: schedules icon\), select the **On-call schedules** tab. This view shows your selected team. To search for another team, enter the team name in the search bar.
 3.  View the team calendar.
 
 4.  Set up your shift schedule by selecting **Create shift**.
@@ -45,13 +46,13 @@ Shifts in SRM let you define variable time periods for your shift-based workforc
 
 6.  On the Create a shift form, fill in the fields.
 
-    For more information on the field descriptions, see [Create a shift form in Service Reliability Management](../reference/sr-create-shift-form.md).
+    For more information on the field descriptions, see [Create a shift form in Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-shift-form.md).
 
 7.  Select **Create shift**.
 
 
--   **[Set On-call team preferences in SRM](sr-set-on-call-prefs.md)**  
+-   **[Set On-call team preferences in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-set-on-call-prefs.md)**  
 Set on-call preferences for team members to increase the efficiency of your business operations.
 
-**Parent Topic:**[Working with SRM teams](../concept/sr-work-teams.md)
+**Parent Topic:**[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-teams.md)
 

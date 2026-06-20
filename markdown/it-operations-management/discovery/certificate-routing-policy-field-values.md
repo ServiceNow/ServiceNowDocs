@@ -2,6 +2,7 @@
 title: Certificate Routing Policy form
 description: Fill in the Certificate Routing Policy form to set up the routing policy for ACME.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/certificate-routing-policy-field-values.html
 release: xanadu
 product: Discovery
 classification: discovery

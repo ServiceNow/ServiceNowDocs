@@ -2,6 +2,7 @@
 title: Application Manager
 description: Application Manager provides admins the ability to install, update, and manage licensed applications and plugins for their instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/application-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -15,29 +16,27 @@ breadcrumb: [Administering applications, Get started, Administer the ServiceNow 
 
 Application Manager provides admins the ability to install, update, and manage licensed applications and plugins for their instance.
 
-Application Manager Overview
-
 ## Get started
 
 <table id="table_wz4_wn5_5zb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore how Application Manager can help you manage your licensed applications in one convenient location.](exploring-application-manager.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore how Application Manager can help you manage your licensed applications in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/exploring-application-manager.md)
 
 </td><td>
 
-[Install![](../../../use/par-for-workspace/image/BUS_64px_Agent-Workspace-1_YG.png)Use Application Manager to install applications, plugins, and products to your instance.](installing-apps-app-manager.md)
+[Install\[Omitted image "BUS\_64px\_Agent-Workspace-1\_YG.png"\] Alt text:Use Application Manager to install applications, plugins, and products to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/installing-apps-app-manager.md)
 
 </td><td>
 
-[Update![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Application Manager to update one or more applications or plugins in your instance.](updating-apps-app-manager.md)
+[Update\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Application Manager to update one or more applications or plugins in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/updating-apps-app-manager.md)
 
 </td></tr><tr><td>
 
-[Uninstall![](../../../reuse/icons/brand-icons/bus-back.svg)Use Application Manager to uninstall applications that you don't need anymore.](uninstalling-apps-app-manager.md)
+[Uninstall\[Omitted image "bus-back.svg"\] Alt text:Use Application Manager to uninstall applications that you don't need anymore.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/uninstalling-apps-app-manager.md)
 
 </td><td>
 
-[Repair![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Repair applications and plugins to revert accidental changes and repair file corruption that's occurred since installation.](repairing-apps-app-manager.md)
+[Repair\[Omitted image "bus-optimize-manage.svg"\] Alt text:Repair applications and plugins to revert accidental changes and repair file corruption that's occurred since installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/application-manager/repairing-apps-app-manager.md)
 
 </td><td>
 

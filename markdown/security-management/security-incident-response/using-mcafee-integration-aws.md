@@ -2,6 +2,7 @@
 title: Using McAfee ePO integration in Analyst Workspace
 description: Use the McAfee ePO integration to leverage the McAfee ePO capabilities on the SIR Analyst workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/using-mcafee-integration-aws.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ Use the McAfee ePO integration to leverage the McAfee ePO capabilities on the SI
 
 Role required: sn\_si.admin
 
-Before you use McAfee ePO integration on the Security Incident Response workspace, you must download it from the ServiceNow Store and configure it. For more information, see [Set up your ServiceNow AI Platform instance for the McAfee ePO integration](../reference/mcaffee-epo-setup-now.md).
+Before you use McAfee ePO integration on the Security Incident Response workspace, you must download it from the ServiceNow Store and configure it. For more information, see [Set up your ServiceNow AI Platform instance for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mcaffee-epo-setup-now.md).
 
 ## About this task
 
@@ -42,11 +43,11 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 
     For example, Get Host Details.
 
-    ![McAfee ePO capability to trigger from the related list](../image/mcafee-workspace-1.png)
+    \[Omitted image "mcafee-workspace-1.png"\] Alt text: McAfee ePO capability to trigger from the related list
 
 4.  In the Get Host Details pop-up, select the **McAfee ePO** implementation.
 
-    ![Get Host Details](../image/mcafee-workspace-2.png)
+    \[Omitted image "mcafee-workspace-2.png"\] Alt text: Get Host Details
 
 5.  Click **Submit**.
 
@@ -56,7 +57,7 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 
 7.  Select the **Configuration Item**, and click the **View Associated Info** action.
 
-    The Associated information of the Configuration Item is displayed. For example, Host Details.![The Associated information of the Configuration Item](../image/mcafee-workspace-results.png)
+    The Associated information of the Configuration Item is displayed. For example, Host Details.\[Omitted image "mcafee-workspace-results.png"\] Alt text: The Associated information of the Configuration Item
 
 8.  Click the **Configuration Item** to view the host details.
 
@@ -71,9 +72,9 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 11. Select the **McAfee ePO** implementation, and click **Submit**.
 
 
-**Parent Topic:**[McAfee ePO integration](../concept/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Trigger additional actions in McAfee ePO integration](configure-additional-actions-mcafee.md)
+**Previous topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/configure-additional-actions-mcafee.md)
 
-**Next topic:**[McAfee ESM - Email Parser integration](../../secops-integration-sir/secops-integration-intel-mcafee-esm-emailparser/concept/mcafee-esm-emailparser-integration.md)
+**Next topic:**[McAfee ESM - Email Parser integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/mcafee-esm-emailparser-integration.md)
 

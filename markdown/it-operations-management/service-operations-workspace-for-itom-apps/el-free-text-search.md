@@ -2,6 +2,7 @@
 title: Find alert records in Express List using free-text search
 description: Perform a free-text search for alert records in a filtered list of alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -29,12 +30,12 @@ The results match both the filters that you have applied and the string you have
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  From the navigation bar, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  In the Search field, enter the free text to search by.
 
     The free-text string must be from 3 through 50 characters long. The search isn’t case-sensitive.
 
-4.  Select the check icon ![Check icon](../../agent-client-collector/image/check-icon.png) or press **Enter** to perform the search.
+4.  Select the check icon \[Omitted image "check-icon.png"\] Alt text: Check icon or press **Enter** to perform the search.
 
 

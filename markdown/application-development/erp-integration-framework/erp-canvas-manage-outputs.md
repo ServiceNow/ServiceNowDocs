@@ -2,6 +2,7 @@
 title: Choose output parameters for an ERP model
 description: Specify output parameters for an ERP \(Enterprise Resource Planning\) system read or update operation in ERP Data Hub to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-manage-outputs.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,7 +28,7 @@ If you're already in the process of managing a model and ready to specify output
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model that you want to add a read operation to.
 
@@ -37,7 +38,7 @@ If you're already in the process of managing a model and ready to specify output
 
 6.  Review the existing outputs to see if you must add any additional parameters.
 
-    ![Specify operation outputs](../image/erpc-output-parameters-manager.png "Choose outputs")
+    \[Omitted image "erpc-output-parameters-manager.png"\] Alt text: Specify operation outputs
 
 7.  Add a new output field or parameter.
 
@@ -59,7 +60,7 @@ If you're already in the process of managing a model and ready to specify output
 
     1.  Specify the parent output field or parameter.
 
-    2.  Select the settings \(![ERP settings icon](../image/erpc-output-indent-icon.png)\) or add icon \(+\) for the parent row.
+    2.  Select the settings \(\[Omitted image "erpc-output-indent-icon.png"\] Alt text: ERP settings icon\) or add icon \(+\) for the parent row.
 
     3.  In the modal that appears, select any additional, related fields or parameters to include.
 
@@ -72,8 +73,8 @@ If you're already in the process of managing a model and ready to specify output
 
 When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field that you can then add to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
 
--   [Customize fields for an ERP remote table in ERP Data Hub](erp-canvas-build-remote-table.md)
--   [Select fields for an extraction table in ERP Data Hub](erpc-select-extraction-table-fields.md)
+-   [Customize fields for an ERP remote table in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

@@ -2,6 +2,7 @@
 title: Install Skills Foundation
 description: You can install the Skills Foundation application \(com.sn\_skills\_int\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/install-skills-intelligence.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -29,7 +30,7 @@ The following items are installed with Skills Foundation:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Skills Foundation](../reference/skills-intelligence-users-and-roles.md).
+For more information, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/skills-intelligence-users-and-roles.md).
 
 ## Procedure
 

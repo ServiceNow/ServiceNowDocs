@@ -2,6 +2,7 @@
 title: Instance Scan roles
 description: Instance Scan is installed with these roles.The scan\_user role can run different types of scans and view the findings and results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/instance-scan-roles.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Instance Scan, Instance Scan, Maintain and monitor, Adm
 
 Instance Scan is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## Instance Scan user \[scan\_user\]
 

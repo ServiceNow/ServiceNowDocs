@@ -2,6 +2,7 @@
 title: Team details page
 description: The Team details page provides your organizational leaders with visibility into the skills and talent composition of a team that exists within the leader's organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/td-lh-team-details.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -63,7 +64,7 @@ Range of years spent at the company
 Widget reflects a distribution of team members by tenure at the company. Administrators can configure the following components for the data that appears in this widget:-   Up to six segments
 -   The time range for each segment
 
-**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](../task/td-lh-configure-tenure-widgets.md).
+**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/td-lh-configure-tenure-widgets.md).
 
 The following time ranges are provided by default:
 
@@ -83,7 +84,7 @@ Time spent in current positions
 Widget reflects a distribution of team members by tenure in their current position. Administrators can configure the following components for the data that appears in this widget:-   Up to six segments
 -   The time range for each segment
 
-**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](../task/td-lh-configure-tenure-widgets.md).
+**Tip:** For more information about the configuration process, see [Configure time range data in tenure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/td-lh-configure-tenure-widgets.md).
 
 The following time ranges are provided by default:
 
@@ -105,5 +106,5 @@ Widget reflects a distribution of team members by experience levels. The bar cha
 Leader Hub uses the Job level field in the Job profile record from the Employee Job Profiles \[sn\_employee\_position\] table to retrieve the data that appears in this widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Org talent page](td-lh-org-talent.md)
+</table>**Parent Topic:**[Org talent page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/td-lh-org-talent.md)
 

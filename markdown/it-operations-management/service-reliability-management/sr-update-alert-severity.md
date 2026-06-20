@@ -2,6 +2,7 @@
 title: Update the severity of one or more SRM alerts
 description: If the severity of an alert should be changed, you can manually update it to reflect its new criticality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-update-alert-severity.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,21 +28,21 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Alerts** tab.
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d486115e101">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d373486e101">
 
 Option
 
-</th><th align="left" id="d486115e104">
+</th><th align="left" id="d373486e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d486115e110">
+</th></tr></thead><tbody><tr><td id="d373486e110">
 
 **In the alert list view**
 
@@ -59,7 +60,7 @@ Description
     5.  Select **Update**.
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d486115e167">
+</td></tr><tr><td id="d373486e167">
 
 **In the alert form**
 
@@ -72,10 +73,10 @@ Description
 
 
 </td></tr></tbody>
-</table>    For value choices, see [SRM alert workspace](../reference/sr-alerts-workspace.md).
+</table>    For value choices, see [SRM alert workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-alerts-workspace.md).
 
     The updated severity is displayed in the alert and the alert list view.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

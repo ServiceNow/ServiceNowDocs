@@ -2,6 +2,7 @@
 title: Managing the Archive Dispute Service Cases rule
 description: Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/dispute-service-case-archival.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -29,10 +30,10 @@ Role required: admin
 
     **Note:** The Archive Dispute Service Cases rule is that a case that is inactive and more than two years old is automatically archived. This is the default base system archiving rule for dispute service cases in the Card Disputes Service Case table \[sn\_bom\_credit\_card\_disputes\_service\]. You can modify the archiving rule if necessary.
 
-    For more information on archive rules and archiving records, see [Archiving records](https://www.servicenow.com/docs/access?context=archiving-older-records&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    For more information on archive rules and archiving records, see .
 
 3.  Update the rule and its parameters, if necessary.
 
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

@@ -2,6 +2,7 @@
 title: Create a product offering catalog
 description: Catalogs are top level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-create-product-catalog.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Catalogs**.
 

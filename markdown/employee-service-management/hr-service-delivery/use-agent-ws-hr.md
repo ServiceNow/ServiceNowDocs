@@ -2,6 +2,7 @@
 title: Using the HR Service Delivery Agent Workspace
 description: As an HR agent, use HR Service Delivery Agent Workspace or the Agent Workspace for HR Case Management to interact with employees, respond to inquiries, and resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/use-agent-ws-hr.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,8 +24,8 @@ As an HR agent, use HR Service Delivery Agent Workspace or the Agent Workspace f
 **Note:** The COEs available to you may differ depending on the HR package you have.
 
 -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
--   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
--   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](../task/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+-   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+-   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
 -   The Agent Workspace for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic HR Service Delivery Agent Workspace.
 
 You can start work in HR Service Delivery Agent Workspace or the Agent Workspace for HR Case Management from one of these areas:
@@ -36,7 +37,7 @@ You can start work in HR Service Delivery Agent Workspace or the Agent Workspace
 -   Phone
 -   Global search
 
-For additional information on working within Agent Workspace, see [Using workspace](https://www.servicenow.com/docs/access?context=using-workspace&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For additional information on working within Agent Workspace, see Using workspace.
 
 Along the left side and top of the Home page are a series of icons you can select.
 
@@ -50,7 +51,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![HR Agent WS - Home icon](../image/agent-ws-hr-home-icon.png)Home
+\[Omitted image "agent-ws-hr-home-icon.png"\] Alt text: HR Agent WS - Home iconHome
 
 </td><td>
 
@@ -58,7 +59,7 @@ Select to take you back to the Home page.
 
 </td></tr><tr><td>
 
-![List icon](../image/agent-ws-hr-list-icon.png) HR case list
+\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: List icon HR case list
 
 </td><td>
 
@@ -66,7 +67,7 @@ Select to view a list of HR cases, interactions, HR tasks, and more. You can acc
 
 </td></tr><tr><td>
 
-![Inbox icon](../image/agent-ws-hr-inbox-icon.png)Inbox
+\[Omitted image "agent-ws-hr-inbox-icon.png"\] Alt text: Inbox iconInbox
 
 </td><td>
 
@@ -80,7 +81,7 @@ Shows any work items assigned to you.You can also indicate if you are:
 
 </td></tr><tr><td>
 
-![Add New](../image/agent-ws-hr-add-icon.png) Add New
+\[Omitted image "agent-ws-hr-add-icon.png"\] Alt text: Add New Add New
 
 </td><td>
 
@@ -92,7 +93,7 @@ Select to create one of the following:-   Interaction
 </td></tr></tbody>
 </table>## Create a new case
 
-From the HR Agent Workspace home page, select the ![create case icon](../image/IconCreateRecordMenu.png) create case icon.
+From the HR Agent Workspace home page, select the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: create case icon create case icon.
 
 ## New case or interaction
 
@@ -100,11 +101,11 @@ You can create a new HR case or an interaction. An interaction is when an employ
 
 ## Searching for an existing case or employee or skip
 
-You can search for an existing case or create a case from any screen. Select the ![create case icon](../image/IconCreateRecordMenu.png) create case icon.
+You can search for an existing case or create a case from any screen. Select the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: create case icon create case icon.
 
 Searching for an employee also helps to verify that you are creating a case for the correct person.
 
-If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an HR Service Delivery Employee Relations case using the legacy UI](../task/create-hr-employee-relations.md).
+If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an HR Service Delivery Employee Relations case using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/create-hr-employee-relations.md).
 
 <table id="table_gft_knx_gjb"><thead><tr><th>
 
@@ -125,13 +126,13 @@ Field where you enter a name, partial name, or case number.**Note:** Unlike the 
 </td></tr></tbody>
 </table>## Starting from the List queue
 
-You can select a case or an interaction from the ![List icon](../image/agent-ws-hr-list-icon.png) list icon.
+You can select a case or an interaction from the \[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: List icon list icon.
 
 For additional information, see Setting up list view in a workspace.
 
 ## Working from the agent inbox
 
-You can also start work by going to the ![HR Agent Workspace Agent inbox icon](../image/agent-ws-hr-inbox-icon.png) agent inbox, which is on the left side of the navigation bar.
+You can also start work by going to the \[Omitted image "agent-ws-hr-inbox-icon.png"\] Alt text: HR Agent Workspace Agent inbox icon agent inbox, which is on the left side of the navigation bar.
 
 <table id="table_t44_dfd_hjb"><thead><tr><th>
 
@@ -147,8 +148,8 @@ Select an HR case from agent inbox.
 
 </td><td>
 
-Inbox that contains the HR cases that are assigned to you.Chats and interactions also appear in agent inbox. For more information on using chat, see [Using chat in HR Service Delivery Agent Workspace](agent-ws-hr-chat.md#).
+Inbox that contains the HR cases that are assigned to you.Chats and interactions also appear in agent inbox. For more information on using chat, see [Using chat in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-chat.md).
 
 </td></tr></tbody>
-</table>For additional information, see [Working from the agent inbox](https://www.servicenow.com/docs/access?context=live-agent-overview&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+</table>For additional information, see Working from the agent inbox.
 

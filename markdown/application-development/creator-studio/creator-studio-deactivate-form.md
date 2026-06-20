@@ -2,6 +2,7 @@
 title: Hide a form from use in the ServiceNow AI Platform in Creator Studio
 description: Hiding a catalog item for your app's form effectively makes the form inactive. Hidden forms are unavailable in both the app and the catalog it belongs to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-deactivate-form.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -23,7 +24,7 @@ To hide a form, you must be given permission to work on the app.
 
 Creator Studio doesn't let you delete forms. Instead, hide forms to ensure that workflows stay intact.
 
-You can hide only forms that have already been published. For more information, see [Deploying your Creator Studio app](../concept/creator-studio-publishing-apps.md).
+You can hide only forms that have already been published. For more information, see [Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-publishing-apps.md).
 
 ## Procedure
 
@@ -39,27 +40,27 @@ You can hide only forms that have already been published. For more information, 
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 4.  Select the form for the catalog item you want to hide in the **Request forms** header tab.
 
-    ![Request forms tab](../image/cs-request-forms-tab.png)
+    \[Omitted image "cs-request-forms-tab.png"\] Alt text: Request forms tab
 
-5.  Select the more actions icon \(![More options](../image/cs-more-actions-icon.png)\).
+5.  Select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: More options\).
 
 6.  Select **Form settings**.
 
-    ![Menu option to edit form settings](../image/cs-form-settings-menu.png "Form settings menu option")
+    \[Omitted image "cs-form-settings-menu.png"\] Alt text: Menu option to edit form settings
 
 7.  De-select the **Make form visible to others** option.
 
-    ![Option to hide a form](../image/cs-form-settings-hide.png "Form settings modal")
+    \[Omitted image "cs-form-settings-hide.png"\] Alt text: Option to hide a form
 
 8.  Select **Save**.
 
@@ -68,5 +69,5 @@ You can hide only forms that have already been published. For more information, 
 
 You must re-deploy the app to hide the inactive form \(catalog item\) on the production instance.
 
-**Parent Topic:**[Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md)
 

@@ -2,6 +2,7 @@
 title: Manage your time cards
 description: View, edit, or delete your time cards from your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/time-card-management/manage-timecard.html
 release: xanadu
 product: Time Card Management
 classification: time-card-management
@@ -33,15 +34,15 @@ Manage your time cards by performing actions such as submitting the time card, v
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d191265e82">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d154526e82">
 
 Action
 
-</th><th align="left" id="d191265e85">
+</th><th align="left" id="d154526e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191265e91">
+</th></tr></thead><tbody><tr><td id="d154526e91">
 
 **Submit time card**
 
@@ -49,7 +50,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d191265e106">
+</td></tr><tr><td id="d154526e106">
 
 **View your time card**
 
@@ -57,7 +58,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view the time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d191265e118">
+</td></tr><tr><td id="d154526e118">
 
 **View notes associated with your time cards**
 
@@ -67,7 +68,7 @@ To view notes associated with the time card:-   Tap **Time card notes**.
 -   Tap back icon to go back to the time sheet.
 
 
-</td></tr><tr><td id="d191265e139">
+</td></tr><tr><td id="d154526e139">
 
 **Add notes to your time cards**
 
@@ -78,7 +79,7 @@ To add notes to the time card:-   Tap **Time card notes**.
 -   Enter the information in the text box and click **Submit**.
 
 
-</td></tr><tr><td id="d191265e170">
+</td></tr><tr><td id="d154526e170">
 
 **Delete a time card**
 
@@ -90,5 +91,5 @@ To delete a time card:-   Tap **Delete time card**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/time-card-management/timesheet-mobile.md)
 

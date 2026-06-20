@@ -2,6 +2,7 @@
 title: Required fields for creating an invoice
 description: The Accounts Payable Operations integration with Document Intelligence application checks whether the required fields are populated on the invoice and invoice lines for creating the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -22,5 +23,5 @@ The Accounts Payable Operations integration with Document Intelligence applicati
 |Invoice amount|Line unit price|
 |Supplier|Invoiced quantity|
 
-**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](../concept/apm-docintel-how-it-works.md)
+**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

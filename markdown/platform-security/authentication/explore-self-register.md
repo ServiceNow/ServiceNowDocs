@@ -2,6 +2,7 @@
 title: Exploring Self-register
 description: Use external user self-registration to on-board a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/explore-self-register.html
 release: xanadu
 product: Authentication
 classification: authentication

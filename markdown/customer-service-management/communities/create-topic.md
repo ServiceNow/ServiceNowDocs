@@ -2,6 +2,7 @@
 title: Create a topic
 description: Create a topic for users to create and share content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/create-topic.html
 release: xanadu
 product: Communities
 classification: communities
@@ -44,5 +45,5 @@ Role required: sn\_communities.admin
 
 Add a topic to a forum.
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/configure-forums-topics.md)
 

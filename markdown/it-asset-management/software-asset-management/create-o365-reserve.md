@@ -2,6 +2,7 @@
 title: Create a reserve entitlement for Microsoft online services in Software Asset Management classic
 description: Create a reserve entitlement for all Microsoft online services in the Software Asset Management classic application so that you can add licenses to an existing Microsoft 365 subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-o365-reserve.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -43,7 +44,7 @@ Role required: sam\_user or sam\_admin
 
 ## What to do next
 
-Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. Navigate to **Software Asset** &gt; **Office 365 &amp; Adobe Cloud** to view the [Office 365 &amp; Adobe Cloud dashboard](../reference/dashboard-microsoft.md). The cost of the reserve entitlement is included in True-up Cost and is not included in Current Subscription Spend.
+Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. Navigate to **Software Asset** &gt; **Office 365 &amp; Adobe Cloud** to view the [Office 365 &amp; Adobe Cloud dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/dashboard-microsoft.md). The cost of the reserve entitlement is included in True-up Cost and is not included in Current Subscription Spend.
 
 When you pass the end date of the reserve entitlement, the SAM - Subscription Maintenance scheduled job creates a new entitlement to replace it.
 
@@ -62,5 +63,5 @@ When you pass the end date of the reserve entitlement, the SAM - Subscription Ma
 
 The state of the reserve entitlement updates to **Retired**. On the Office 365 &amp; Adobe Cloud dashboard, the cost of the retired reserve entitlement is removed from the True-up Cost. The cost of the new entitlement is included in Current Subscription Spend.
 
-**Parent Topic:**[Creating reserve entitlements for Microsoft online services](../concept/creating-0365-reserve-entitlements.md)
+**Parent Topic:**[Creating reserve entitlements for Microsoft online services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/creating-0365-reserve-entitlements.md)
 

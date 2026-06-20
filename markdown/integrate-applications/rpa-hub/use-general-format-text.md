@@ -2,6 +2,7 @@
 title: Use the Format Text component
 description: Format the text by using variable placeholders and line and tab variables with the Format Text component in RPA Desktop Design Studio. You can update the text and their positions easily by just updating the variable placeholders and the line and tab variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-general-format-text.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Format Text component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the Format Text component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/Properties-general-components.md).
 
 ## Procedure
 
@@ -31,15 +32,15 @@ You can configure the properties for the Format Text component. For more informa
 
 3.  To set the text placeholder variable, do the following steps.
 
-    1.  Click the add variable icon \(![Add variable icon.](../image/add-image-icon.png)\).
+    1.  Click the add variable icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add variable icon.\).
 
         A Data In port is added for each variable you add.
 
-    2.  To configure the variable value, see [Configure port properties](configure-input-port-properties.md).
+    2.  To configure the variable value, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
     3.  Repeat the steps to add more variables and values.
 
-4.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+4.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
 5.  Insert the text in the TEXT FORMAT EDITOR.
 
@@ -117,5 +118,5 @@ No. Connecting the port is optional.
 </table>10. To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/general-component.md)
 

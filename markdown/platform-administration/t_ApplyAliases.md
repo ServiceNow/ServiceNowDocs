@@ -2,6 +2,7 @@
 title: Apply aliases
 description: After testing, aliases can be normalized in all new records or in existing records when they are updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ApplyAliases.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -37,5 +38,5 @@ Each time an alias is created for a normal value, a data job is created. The ali
     2.  To run all data jobs at once, select all the check boxes, and then select the **Start** action.
     3.  Refresh the list to check the progress of the data jobs to ensure that they complete normally.
 
-**Parent Topic:**[Normal values](../concept/c_WhatFieldNormalizationDoes.md)
+**Parent Topic:**[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)
 

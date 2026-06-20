@@ -2,6 +2,7 @@
 title: Gating approvals
 description: A gating approval acts as a gate through which a request must pass before it can start.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/c\_GatingApprovals.html
 release: xanadu
 product: Approvals
 classification: approvals

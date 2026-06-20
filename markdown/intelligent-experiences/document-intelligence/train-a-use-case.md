@@ -2,6 +2,7 @@
 title: Train a use case
 description: Train the document classification use case with user input from completed document tasks to improve Document Intelligence recommendations over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/train-a-use-case.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -19,7 +20,7 @@ Train the document classification use case with user input from completed docume
 
 -   There must be at least one reviewed document task associated with the use case to train it. Across all reviewed tasks, there must be at least two attachments for each type you defined in your use case.
 
-    Begin by [creating a document task](upload-documents-for-extraction.md) and [completing it](extract-data-from-documents.md) using the Document Intelligence workspace.
+    Begin by [creating a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md) and [completing it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/extract-data-from-documents.md) using the Document Intelligence workspace.
 
     **Note:** You won’t be able to process the task until the use case is trained, but you can complete it by completing all the fields and submitting it.
 
@@ -41,7 +42,7 @@ Document classification use cases don’t begin with pre-trained AI models, so i
 
     DocIntel uses the extracted values from the document tasks in a Done status to train the model.
 
-    ![Completed document tasks used to train the use case](../image/docintel-train-dc-use-case.png)
+    \[Omitted image "docintel-train-dc-use-case.png"\] Alt text: Completed document tasks used to train the use case
 
 
 ## Result

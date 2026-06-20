@@ -2,6 +2,7 @@
 title: Activate or deactivate an EVAM view configuration
 description: Activate or deactivate the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application as needed. By activating or deactivating an EVAM view configuration, you can control which view configurations are in use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/enable-evam-config-ais-admin-console.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -35,14 +36,14 @@ When you configure a new EVAM view configuration for your AI Search application,
 
     The list of view configurations that are associated with the selected bundle are displayed.
 
-5.  Hover over the view configuration that you want to activate or deactivate, select the More Actions icon \(![](../../localization-framework/image/more-actions-icon.png)\), and then select **Activate or deactivate**.
+5.  Hover over the view configuration that you want to activate or deactivate, select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\), and then select **Activate or deactivate**.
 
 
 ## Result
 
 The selected view configuration is activated or deactivated.
 
-![Result-card interface of the search application in the AI Search Admin console where you can activate or deactivate a view configuration.](../image/activate-evam-ais.png)
+\[Omitted image "activate-evam-ais.png"\] Alt text: Result-card interface of the search application in the AI Search Admin console where you can activate or deactivate a view configuration.
 
-**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](../concept/ais-admin-console-managing-evam.md)
+**Parent Topic:**[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-managing-evam.md)
 

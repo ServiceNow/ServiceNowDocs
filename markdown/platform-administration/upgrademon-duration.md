@@ -2,6 +2,7 @@
 title: Factors affecting upgrade duration
 description: Various factors affect how long the system takes to perform an upgrade. The Upgrade Monitor can help you understand those factors and estimate how long the upgrade to your production instance takes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrademon-duration.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -27,7 +28,7 @@ Upgrading a non-production instance can help you estimate how long the upgrade t
 -   The production instance may have more memory and processing power.
 -   The production instance may have more nodes than the non-production instance.
 
-After upgrading the first non-production instance, examine the [Upgrade Summary Report](../reference/upgrademon-upgrade-summary-rpt.md) for data to help estimate the impact of these factors.
+After upgrading the first non-production instance, examine the [Upgrade Summary Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrademon-upgrade-summary-rpt.md) for data to help estimate the impact of these factors.
 
 **Note:** The performance of the upgrade engine is significantly enhanced and optimized for all types of upgrades \(in-family, and family-to-family\) in Madrid and later releases.
 

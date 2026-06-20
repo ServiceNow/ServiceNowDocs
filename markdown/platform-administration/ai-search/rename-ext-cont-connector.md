@@ -2,6 +2,7 @@
 title: Rename an external content connector
 description: Change the name of an existing external content connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/rename-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -30,18 +31,18 @@ Role required: ais\_admin
 
 3.  In the Connectors pane, find the record for the connector you want to deactivate or delete, and open its context menu in one of the following ways:
 
-    -   Select the connector record's Overflow icon ![](../image/icon-action-menu-ext-cont-conn.png).
+    -   Select the connector record's Overflow icon \[Omitted image "icon-action-menu-ext-cont-conn.png"\] Alt text:.
     -   Right-select the connector record.
 4.  In the context menu, select **Manage**.
 
     The connector's Configuration tab opens.
 
-5.  Select the pencil icon ![](../image/icon-pencil.png).
+5.  Select the pencil icon \[Omitted image "icon-pencil.png"\] Alt text:.
 
     The Rename connector dialog box appears.
 
 6.  Enter a new name for the connector, then select **Save**.
 
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ext-cont-connectors.md)
 

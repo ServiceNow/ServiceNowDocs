@@ -2,6 +2,7 @@
 title: Modify Qualys PC Results start date
 description: If data is missing for the start date in the Qualys PC Results import, it can be modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/modify-test-results-startdate.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -36,5 +37,5 @@ Role required: sn\_vul\_qualys.admin
 6.  Click **Execute Now** to run immediately.
 
 
-**Parent Topic:**[Resolving Configuration Compliance import issues](../concept/vuln-config-compl-troubleshooting.md)
+**Parent Topic:**[Resolving Configuration Compliance import issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl-troubleshooting.md)
 

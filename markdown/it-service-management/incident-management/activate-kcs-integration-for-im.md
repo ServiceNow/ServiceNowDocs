@@ -2,6 +2,7 @@
 title: Activate KCS Integration for Incident Management
 description: Activate the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\) if you have the admin role. This plugin provides integration of Incident Management with the Advanced Knowledge Management features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/activate-kcs-integration-for-im.html
 release: xanadu
 product: Incident Management
 classification: incident-management
@@ -52,16 +53,16 @@ Use this plugin to install the Knowledge Management Advanced plugin. Activating 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Component installed with KCS Integration for Incident Management plugin](../reference/installed-with-incident-mgmt.md)**  
+-   **[Component installed with KCS Integration for Incident Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/installed-with-incident-mgmt.md)**  
 The Incident KCS Article table is installed with the activation of the KCS Integration for Incident Management plugin \(com.snc.incident.knowledge\).
 
-**Parent Topic:**[Incident Management plugins](../concept/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Xanadu plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

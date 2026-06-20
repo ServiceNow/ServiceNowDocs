@@ -2,6 +2,7 @@
 title: Approval - Group workflow activity
 description: The Approval - Group activity creates approval records for each member of a specified group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_ApprovalGroup.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities

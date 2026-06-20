@@ -2,6 +2,7 @@
 title: Task template fields
 description: To make a task template, fill in the task template fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-task-template.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -143,5 +144,5 @@ Condition that is used to trigger when a task is assigned. This condition is eva
 For example: If the `Relative Due Date Trigger = Start On`, `Date Offset type = After`, and `Number of offset days = 5 days`, the task is configured to trigger 5 days after the publish date of the plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recommended learning in journey configurations](../concept/jny-dsgnr-ml-learning-recom.md)
+</table>**Parent Topic:**[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)
 

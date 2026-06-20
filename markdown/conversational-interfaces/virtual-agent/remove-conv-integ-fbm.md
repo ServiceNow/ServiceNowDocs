@@ -2,6 +2,7 @@
 title: Remove Conversational Integration with Facebook Messenger
 description: Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

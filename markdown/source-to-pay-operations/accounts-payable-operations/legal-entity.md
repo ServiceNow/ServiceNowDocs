@@ -2,6 +2,7 @@
 title: Legal entity
 description: View the legal entity corresponding to a purchase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/legal-entity.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -95,5 +96,5 @@ Reference
 Reporting currency of the entity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Master data table for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

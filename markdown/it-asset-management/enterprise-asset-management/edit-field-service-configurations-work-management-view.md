@@ -2,6 +2,7 @@
 title: Edit Field Service Management configurations for the Work management view
 description: Edit your Field Service Management configurations as needed so that you can access and use the Work management view in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/edit-field-service-configurations-work-management-view.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-See [Global domain configurations](https://www.servicenow.com/docs/access?context=t_ConfigureFieldService&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US) for more information on Field Service Management configurations.
+See Global domain configurations for more information on Field Service Management configurations.
 
 ## Procedure
 
@@ -86,5 +87,5 @@ See [Global domain configurations](https://www.servicenow.com/docs/access?contex
 5.  Select **Save**.
 
 
-**Parent Topic:**[Managing work orders for your enterprise assets](../concept/create-manage-wo-enterprise-assets.md)
+**Parent Topic:**[Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 

@@ -2,11 +2,12 @@
 title: Create a provider notification
 description: Execute the following steps to create a provider notification for Virtual Agent and Workspace providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-provider-notification.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Using Conversational Integration with WhatsApp \(powered by Twilio\), Conversational Integration with WhatsApp \(powered by Twilio\), Integrating Virtual Agent with consumer messaging apps, Virtual Agent integration with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---

@@ -2,7 +2,10 @@
 title: Create a rule from the Case context record
 description: Create a rule to show recommendations for active cases that meet the condition specified in this rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/ex-create-rule.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ New rules can only be created from context records.
 
 4.  In the **Name** field, enter `Active rule`.
 
-5.  In the **Roles** field, select the Edit User Roles ![Edit User Roles icon](../image/icon-pencil-ac.png) icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
+5.  In the **Roles** field, select the Edit User Roles \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit User Roles icon icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
 
     The selected user roles can see recommendations for this rule.
 

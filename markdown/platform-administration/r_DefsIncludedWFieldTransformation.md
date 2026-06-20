@@ -2,6 +2,7 @@
 title: Default Transform Definitions
 description: The system offers default transform definitions for fields containing text, text numeric, and numeric values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_DefsIncludedWFieldTransformation.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -243,14 +244,14 @@ Removes blank spaces from the field value.
 No parameters
 
 </td></tr></tbody>
-</table>-   **[Create a transform definition](../task/t_CreateATransformDefinition.md)**  
+</table>-   **[Create a transform definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateATransformDefinition.md)**  
 The following example describes the procedure for creating a new transform definition. In this example, we create a definition that transforms a number field to an odd or even integer. The transform category is **Numeric** and the normalization field type is **Integer**.
--   **[Create a transform variable for a transform definition](../task/t_CreateATransformVarForATrDef.md)**  
+-   **[Create a transform variable for a transform definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateATransformVarForATrDef.md)**  
 Transform variables enable an administrator to apply the same definition to different fields in different ways.
--   **[Create a script for a transform definition](../task/t_CreateAScriptForATransformDef.md)**  
+-   **[Create a script for a transform definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAScriptForATransformDef.md)**  
 Create the script at any time during the configuration of a definition.
--   **[Create a transform category](../task/t_CreateATransformCategory.md)**  
+-   **[Create a transform category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateATransformCategory.md)**  
 Create a transform category to group the transform definitions together.
 
-**Parent Topic:**[Field normalization and transformation](../concept/c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 

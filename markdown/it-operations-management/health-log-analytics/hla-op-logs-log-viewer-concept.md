@@ -2,6 +2,7 @@
 title: Viewing the logs for an alert on the Log viewer
 description: The Log viewer tab enables you to browse the logs by timestamp or time range, to search for particular log text, and to visualize the frequency of anomaly occurrences in a particular time period. If you discover an important metric in the log data, you can use it to define a Log Analytics alert rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -89,29 +90,29 @@ Log message
 The raw log message without the header.
 
 </td></tr></tbody>
-</table>**Note:** By default, the Raw message column does not appear in the Log viewer table. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log viewer table](../task/hla-op-log-viewer-table-sow.md).
+</table>**Note:** By default, the Raw message column does not appear in the Log viewer table. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log viewer table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.md).
 
 You can personalize the displayed data on the Log viewer:
 
--   [Filter search results on the Log viewer](../task/hla-op-log-viewer-filter-sow.md) to show only the data you want to view.
--   [Customize the Log viewer table](../task/hla-op-log-viewer-table-sow.md) by adding or removing columns.
+-   [Filter search results on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-filter-sow.md) to show only the data you want to view.
+-   [Customize the Log viewer table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.md) by adding or removing columns.
 
 **Note:** These features are supported in the Health Log Analytics application, Version 20.0.11 - July 2021, and the Health Log Analytics Viewer application, Version 20.0.4 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-As you analyze the logs for an alert, you can modify the search query to fine-tune the search, and save useful searches. For more information, see [Define, save, and share a search of log data](../task/hla-op-search-queries-manage-sow.md).
+As you analyze the logs for an alert, you can modify the search query to fine-tune the search, and save useful searches. For more information, see [Define, save, and share a search of log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-search-queries-manage-sow.md).
 
-If you discover important relationships in the log data, you can define the type of alert that the data should trigger. For more information, see [Add a Log Analytics alert rule](../task/hla-op-alert-rule-add-sow.md).
+If you discover important relationships in the log data, you can define the type of alert that the data should trigger. For more information, see [Add a Log Analytics alert rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-rule-add-sow.md).
 
--   **[View log data for an alert](../task/hla-op-logs-log-viewer.md)**  
+-   **[View log data for an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-logs-log-viewer.md)**  
 View a chart of the frequency of anomalous log lines and the associated log data on the Log viewer.
--   **[Define, save, and share a search of log data](../task/hla-op-search-queries-manage.md)**  
+-   **[Define, save, and share a search of log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-search-queries-manage.md)**  
 Define, save, and share searches of log data to help determine the causes of Log Analytics alerts.
--   **[Use or modify a saved search](../task/hla-op-search-queries-saved.md)**  
+-   **[Use or modify a saved search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-search-queries-saved.md)**  
 Use a saved search of log data to better understand the causes of an alert. As the owner of a saved search, you can modify the search values and save your changes.
--   **[Filter search results on the Log viewer](../task/hla-op-log-viewer-filter.md)**  
+-   **[Filter search results on the Log viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-log-viewer-filter.md)**  
 Apply filters on the **Log viewer** to show only your desired data.
--   **[Customize the Log viewer table](../task/hla-op-log-viewer-table.md)**  
+-   **[Customize the Log viewer table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-log-viewer-table.md)**  
 Add or remove columns in the **Log viewer** table to show only the data you want to view.
 
-**Parent Topic:**[Using Health Log Analytics](../reference/hla-op-guide-binder.md)
+**Parent Topic:**[Using Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-op-guide-binder.md)
 

@@ -2,6 +2,7 @@
 title: Specify the virtual machine \(VM\) managers for which you are tracking IBM licenses
 description: Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -65,5 +66,5 @@ Type of VM manager. Select one of the following options:-   **vCenter**
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](../concept/ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

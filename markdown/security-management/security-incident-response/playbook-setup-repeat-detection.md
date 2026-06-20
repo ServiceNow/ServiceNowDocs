@@ -2,6 +2,7 @@
 title: Set up the Repeat Detection playbook
 description: Use the following steps to set up the Repeat Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/playbook-setup-repeat-detection.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -37,9 +38,9 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\). You h
 
 3.  You can create a copy of the Repeat Detection playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
+    To create a copy of the playbook's flow, click the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Overview of the Repeat Detection playbook](../image/playbook-repeat-detection.png "Repeat Detection playbook")
+    \[Omitted image "playbook-repeat-detection.png"\] Alt text: Overview of the Repeat Detection playbook
 
 4.  Activate the playbooks.
 
@@ -49,8 +50,8 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\). You h
 
     This playbook is triggered when the **Security Incident** **is not empty**.
 
-    ![Trigger condition for Repeat Detection playbook.](../image/playbook-repeat-detection-trigger.png)
+    \[Omitted image "playbook-repeat-detection-trigger.png"\] Alt text: Trigger condition for Repeat Detection playbook.
 
 
-**Parent Topic:**[Playbook for Repeat Detection](../concept/playbook-repeat-detection.md)
+**Parent Topic:**[Playbook for Repeat Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/playbook-repeat-detection.md)
 

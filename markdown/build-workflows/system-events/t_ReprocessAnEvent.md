@@ -2,6 +2,7 @@
 title: Reprocess an event
 description: You can fire the event again for testing or diagnostic purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/system-events/t\_ReprocessAnEvent.html
 release: xanadu
 product: System Events
 classification: system-events

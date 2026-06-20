@@ -2,6 +2,7 @@
 title: Managing the indexed sources from the AI Search Admin console
 description: If you have the admin or ais\_admin role, you can create, view, or edit the indexed sources directly from the AI Search Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/ais-managing-indexed-source.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -17,11 +18,11 @@ If you have the admin or ais\_admin role, you can create, view, or edit the inde
 
 ## Indexed sources overview
 
-The indexed sources are the ServiceNow AI Platform® tables and external documents that you want to make searchable. AI Search then adds the content from these sources to its search index. The configuration for the indexed sources is shared by AI Search and other applications. For more information, see [Indexed sources in AI Search](indexed-sources-ais.md).
+The indexed sources are the ServiceNow AI Platform® tables and external documents that you want to make searchable. AI Search then adds the content from these sources to its search index. The configuration for the indexed sources is shared by AI Search and other applications. For more information, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/indexed-sources-ais.md).
 
 The following example shows the indexed sources configuration table on the **Shared Configuration** tab of the AI Search Admin console where you can view or edit the existing indexed sources or create indexed sources.
 
-![AI Search Admin console Shared Configurations Indexed Sources view where you can view, edit, or create indexed sources for your AI Search enabled applications.](../image/indexed-source-adminconsole.png "Indexed sources table")
+\[Omitted image "indexed-source-adminconsole.png"\] Alt text: AI Search Admin console Shared Configurations Indexed Sources view where you can view, edit, or create indexed sources for your AI Search enabled applications.
 
 ## Indexed sources table
 
@@ -110,16 +111,16 @@ Semantic fields
 Name of the fields that are configured to index for a semantic vector search.
 
 </td></tr></tbody>
-</table>-   **[Create an indexed source from the AI Search Admin console](../task/ais-admin-console-create-indexed-source.md)**  
+</table>-   **[Create an indexed source from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-create-indexed-source.md)**  
 Create an indexed source to make the content and metadata from the ServiceNow AI Platform table records that are searchable by using AI Search.
--   **[Define the semantic indexing configuration for an indexed source](../task/ais-admin-console-config-semantic-index.md)**  
+-   **[Define the semantic indexing configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-config-semantic-index.md)**  
 Define the semantic indexing configuration for your indexed sources so that AI Search can analyze and understand your content accurately. By doing this process, you can help to ensure that you get more relevant search results.
--   **[Index the content from an indexed source for searchability](../task/ais-admin-console-start-content-indexing.md)**  
+-   **[Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-start-content-indexing.md)**  
 Enable AI Search to index the records from your source tables to make the content searchable.
--   **[Set up a field configuration for an indexed source](../task/ais-admin-console-setup-field-config-indexed-source.md)**  
+-   **[Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-setup-field-config-indexed-source.md)**  
 Set up indexed source field configurations to control how AI Search indexes content for a specific field in your source table records.
--   **[Set up an indexed source attribute for indexing the search content](../task/ais-admin-console-setup-indexed-source-attributes.md)**  
+-   **[Set up an indexed source attribute for indexing the search content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/ais-admin-console-setup-indexed-source-attributes.md)**  
 Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 
-**Parent Topic:**[Using the AI Search Admin console](using-ais-admin-console.md)
+**Parent Topic:**[Using the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ais-admin-console.md)
 

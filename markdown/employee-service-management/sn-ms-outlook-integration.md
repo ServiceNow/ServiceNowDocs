@@ -2,7 +2,10 @@
 title: ServiceNow for Microsoft Outlook
 description: The ServiceNow integrations with Microsoft Outlook help you create a better, more connected experience for users. Employees get seamless self-service without having to leave the Outlook client, and agents can resolve cases faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sn-ms-outlook-integration.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ The ServiceNow integrations with Microsoft Outlook help you create a better, mor
 
 ## ServiceNow for Microsoft Outlook overview
 
-ServiceNow for Microsoft Outlook leverages the [Outlook Actionable Messages](https://www.servicenow.com/docs/access?context=outlook-actionable-messages&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) plugin to provide the following features:
+ServiceNow for Microsoft Outlook leverages the  plugin to provide the following features:
 
 -   Employees and agents receive notifications about request submissions, updates, and completion, making it easier to track, plan, and collaborate on issues.
 -   Managers and approvers receive summaries and detailed reports for approval requests with actionable messages to approve or reject requests.
@@ -26,15 +29,15 @@ ServiceNow for Microsoft Outlook leverages the [Outlook Actionable Messages](htt
 
 <table id="table_yb5_zm4_1bc" class="nav-card"><tbody><tr><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Provide employees with seamless self-service without leaving the Outlook client.](configuring-sn-ms-outlook.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Provide employees with seamless self-service without leaving the Outlook client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configuring-sn-ms-outlook.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-email.svg)View reports, approve requests, and provide feedback from within email messages.](using-sn-ms-outlook.md)
+[Use\[Omitted image "bus-email.svg"\] Alt text:View reports, approve requests, and provide feedback from within email messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/using-sn-ms-outlook.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Information about lists and forms used to configure Outlook Actionable Messages.](../reference/sn-ms-outlook-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Information about lists and forms used to configure Outlook Actionable Messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-outlook-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

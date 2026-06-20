@@ -2,6 +2,7 @@
 title: Vaccine Administration Management dashboard
 description: Use the Vaccine Administration Management dashboard to view vaccine appointments by day, week, and month. You can view scheduled, completed, and no-show appointments, as well as filter appointments by the vaccine center, date, method, and clinician.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/vaccine-administration-management/VAM-dashboard.html
 release: xanadu
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -15,7 +16,7 @@ breadcrumb: [Using Vaccine Administration Management, Vaccine Administration Man
 
 Use the Vaccine Administration Management dashboard to view vaccine appointments by day, week, and month. You can view scheduled, completed, and no-show appointments, as well as filter appointments by the vaccine center, date, method, and clinician.
 
-![Vaccine Administration Management dashboard displaying appointment metrics in single score and bar chart form. For more information on these reports, refer to the Reports section.](../image/vaccine-appointment-dashboard.png "Vaccine Administration Management dashboard")
+\[Omitted image "vaccine-appointment-dashboard.png"\] Alt text: Vaccine Administration Management dashboard displaying appointment metrics in single score and bar chart form. For more information on these reports, refer to the Reports section.
 
 ## Required ServiceNow AI Platform roles
 
@@ -79,7 +80,7 @@ Scheduled Appointments
 
 </td><td>
 
-Single Score ![Single score icon.](../image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Completed Appointments
 
 </td><td>
 
-Single Score ![Single score icon.](../image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -111,7 +112,7 @@ No-Show Appointments
 
 </td><td>
 
-Single Score ![Single score icon.](../image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.
 
 </td><td>
 
@@ -127,7 +128,7 @@ Appointments Trending
 
 </td><td>
 
-Column ![Column report icon.](../image/icon-column-report.png)
+Column \[Omitted image "icon-column-report.png"\] Alt text: Column report icon.
 
 </td><td>
 
@@ -221,5 +222,5 @@ Select Multiple Input
 Filter the report results based on the selected clinician.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Vaccine Administration Management](using-vaccine-administration-management.md)
+</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
 

@@ -2,6 +2,7 @@
 title: Provide a reason for your purchase
 description: You must provide a reason for making your purchase. This is mandatory and allows you to complete your checkout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/provide-reason-for-purchase.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -36,8 +37,8 @@ Role required: sn\_shop.shopper
 
 When you are done providing your purchase reason, you can provide any additional information in the next screen, if applicable, or proceed to complete your checkout.
 
--   **[Add users to the watchlist of the purchase](add-users-watchlist-purchase.md)**  
+-   **[Add users to the watchlist of the purchase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/add-users-watchlist-purchase.md)**  
 You can add one or more users to the watchlist of the purchase request. The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated.
 
-**Parent Topic:**[Complete your checkout](complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

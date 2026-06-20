@@ -2,6 +2,7 @@
 title: Configuring Workforce Optimization for HR
 description: Enable Workforce Optimization for HR and configure settings to use Scheduling, Teams, and Coaching applications.Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.After you install or upgrade to the latest Workforce Optimization for HR from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages.If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Workforce Optimization for HR. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Manage events the team calendar. Create schedule plans, shift plans, event categories, and event types.Add event categories and create or update field configurations for events in the Manager workspace.Create multiple events and add them to the team calendar.Configure schedule adherence properties to calculate the adherence to improve the operational efficiency of your organization.Configure and tweak the schedule adherence and conformance formulas using scripted extension points to customize them for your organization.Use extension points to call scripts for event categories such as meeting, time off, or work time.Organize your teams into assignment groups and create reports for those groups to can gain visibility into the team's performance.Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate your KPI groups with assignment groups, you can monitor your team's performance.Add managers to a KPI assignment group.Manage agent skills and assess the quality of completed tasks. Use predictive intelligence to recommend skills for agents. Train your agents with internal and external learning content.Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.Collect skill data based on skills agents have used for case resolution. Use supervised learning to recommend these skills for agents to resolve similar open case. You can also find patterns in how skills are used for case resolution and use unsupervised learning to recommend skills for agents.Use scripted extension points to customize skill prediction for tasks.Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for HR.Configure the data you want to collect, modify forecast parameters and calibrate manual adjustments using Demand Forecast.Define the data you want to collect for cases, interactions, or any table to forecast the number of agents that you require for your staffing needs.Add parameters to be defined in the formula to calculate agent count per hour in a day.Configure the resource conversion formula.Associate an assignment group with a Resource Conversion Formula. You can assign a forecast configuration to multiple assignment groups, but an assignment group can have only one forecast configuration.Configure and tweak forecast parameters to see how the forecast behaves when you vary the period length, periods to forecast, or algorithm. You can view the modified forecast on the time-series visualization.Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -73,7 +74,7 @@ Domain separation is supported for Workforce Optimization for HR. Domain separat
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ### Workforce Optimization for Customer Service overview
 
@@ -86,7 +87,7 @@ Domain separation is supported.
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 
 ## Setting up Scheduling for Workforce Optimization for HR
 
@@ -263,7 +264,7 @@ Use the `sn_shift_planning.ScheduleAdherenceExtPt` extension point and create an
 
 5.  Modify the formulas for calculating the schedule adherence and conformance in the `getAdherencePercentage` and `getConformancePercentage` methods.
 
-    ![Extension Script for Schedule Adherence.](../image/extension-script-adherence-wfo-hr.jpg)
+    \[Omitted image "extension-script-adherence-wfo-hr.jpg"\] Alt text: Extension Script for Schedule Adherence.
 
 6.  Click **Update**.
 
@@ -349,7 +350,7 @@ Role required: sn\_hr\_wfo.admin
 
 #### About this task
 
-You can associate a user with a primary assignment group by selecting the group in the [user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+You can associate a user with a primary assignment group by selecting the group in the user
 
 #### Procedure
 
@@ -374,9 +375,9 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 #### Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](configure-wfo-hr.md#).
+**Important:** This feature is available with the Workforce Optimization for HR from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md).
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
 
 Role required: sn\_hr\_wfo.admin
 
@@ -430,7 +431,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)Example:
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifierExample:
 
 -   Name: % of P1 incidents resolved on first call.
 -   Sys ID: 0423e59387401010ca99e12397cb0bbb
@@ -456,9 +457,9 @@ Collect skill data based on skills agents have used for case resolution. Use sup
 
 #### Before you begin
 
-Set up skills. For more information, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Set up skills. For more information, see Skills Management.
 
-Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see Predictive Intelligence.
 
 Activate the Skill Recommendation application plugin \(com.snc.sre\) to use predictive intelligence for recommending skills.
 
@@ -470,7 +471,7 @@ Role required: sn\_hr\_wfo.admin
 
 2.  Run the solution definition models such as **Recommend similar skills for cases** or **Recommend skills from similar cases** to train the supervised and unsupervised solutions.
 
-    For more information on training a solution, refer to [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For more information on training a solution, refer to Create and train a similarity solution.
 
 3.  Run the **Start skill prediction** scheduled job everyday to start predicting skills for cases or agents.
 
@@ -514,9 +515,9 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 #### Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](configure-wfo-hr.md#).
+**Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
 
 Role required: sn\_hr\_wfo.admin
 
@@ -565,7 +566,7 @@ Define the data you want to collect for cases, interactions, or any table to for
 
 #### Before you begin
 
-You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for HR. For more information, see Requesting the MetricBase product.
 
 Role required: sn\_hr\_wfo.admin
 
@@ -577,7 +578,7 @@ Role required: sn\_hr\_wfo.admin
 
     1.  Click **Data Collection Definitions**.
 
-        See the [Components installed with Workforce Optimization for HR](../reference/wfo-hr-reference.md#) for the list of configurations that are available by default.
+        See the [Components installed with Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md) for the list of configurations that are available by default.
 
     2.  Click **New**.
     3.  On the form, fill in the fields:
@@ -591,7 +592,7 @@ Role required: sn\_hr\_wfo.admin
         |Conditions|Conditions that you can set so that you can capture the data that you need.|
 
     4.  Click **Submit**.
-    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see [Create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    5.  Create an index for the table you have created using the date field and the conditions you have added to the table. For information on creating a table index, see Create a table index.
 
 #### Add parameters to be defined in the formula
 
@@ -611,7 +612,7 @@ Role required: admin
 
     -   If you need to add a value to be calculated for the formula, in the **Value** field, enter a value.
     -   If you want to use the performance analytics score card API or a custom API, select **Advanced**, and add a script.
-    The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Components installed with Workforce Optimization for HR](../reference/wfo-hr-reference.md#).
+    The Average Case Work Time and Average Chat Work Time forecast parameters provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see [Components installed with Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md).
 
 4.  Click **Submit**.
 
@@ -712,7 +713,7 @@ The default start date is set to 3 days ago starting from the day before the cur
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click **Forecasts**.
 
@@ -720,7 +721,7 @@ The default start date is set to 3 days ago starting from the day before the cur
 
     You can visualize each of the forecast parameters that were created for the forecast model.
 
-5.  Click the gear \(![Forecast Parameters icon](../../workforce-optimization-for-customer-service-configurable/image/gear-new.png)\)icon.
+5.  Click the gear \(\[Omitted image "gear-new.png"\] Alt text: Forecast Parameters icon\)icon.
 
 6.  Click the plus \(+\) sign.
 
@@ -735,7 +736,7 @@ The default start date is set to 3 days ago starting from the day before the cur
 
 8.  To preview a forecast before publishing it, click **Preview**.
 
-    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](configure-wfo-hr.md#) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
+    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
 
     |When you|Then the forecast|
     |--------|-----------------|
@@ -769,7 +770,7 @@ The user with these roles must also be a manager of the assignment group that is
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click **Forecasts**.
 

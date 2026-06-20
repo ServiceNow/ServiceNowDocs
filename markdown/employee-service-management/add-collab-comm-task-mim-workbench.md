@@ -2,7 +2,10 @@
 title: Add collaborative communication task from MIM workbench
 description: You can create a communication plan or add a new communication task to an existing communication plan from the workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/add-collab-comm-task-mim-workbench.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -39,7 +42,7 @@ Role required: major\_incident\_manager
     |Frequency|Frequency at which a specific task must be executed. A task can be executed only once or on specific durations.|
     |Due in \(Minutes\)|Time span when the task must be executed after the task initiates. For recurring tasks, it also indicates the time span after which the task must repeat.|
 
-    ![Add collaboration communication task.](../images/add-collab-task-plan.png)
+    \[Omitted image "add-collab-task-plan.png"\] Alt text: Add collaboration communication task.
 
 7.  Click **Next**.
 
@@ -50,8 +53,8 @@ Role required: major\_incident\_manager
     The task appears in the **Collaborate** tab.
 
 
--   **[Initiate Microsoft Teams group chat from MIM workbench](initiate-ms-teams-group-chat-mim-workbench.md)**  
+-   **[Initiate Microsoft Teams group chat from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-ms-teams-group-chat-mim-workbench.md)**  
 You can initiate a Microsoft Teams group chat from the MIM workbench to work towards the resolution of the task.
 
-**Parent Topic:**[Agent actions](../concept/agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-sn-ms-teams.md)
 

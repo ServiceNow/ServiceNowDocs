@@ -2,6 +2,7 @@
 title: Stockrooms
 description: Stockrooms are places to which assets are assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/c\_Stockrooms.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -19,8 +20,8 @@ When stock is low on a particular asset, stock rules can either notify an asset 
 
 Stockrooms are separate, standalone entities in the Asset Management application.
 
--   **[Stock rules](c_StockRules.md)**  
+-   **[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/c_StockRules.md)**  
 Stock rules are defined criteria stating that when the inventory of a particular asset in a particular stockroom reaches a specified threshold, a certain number should either be transferred from another stockroom or ordered from a vendor.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/it-asset-management.md)
 

@@ -2,6 +2,7 @@
 title: Carousel user input control
 description: Use the Carousel user input control in a Virtual Agent topic to present a prompt and a horizontal series of labeled images. The user can select a single item from the carousel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-carousel-input.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -58,9 +59,9 @@ Detail description
 
 </td><td>
 
-Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon ![Data pill picker icon](../images/variable-reference-picker.png) to define conditions, or select the Open Editor icon ![Script icon](../images/icon-script.png) to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
+Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon \[Omitted image "variable-reference-picker.png"\] Alt text: Data pill picker icon to define conditions, or select the Open Editor icon \[Omitted image "icon-script.png"\] Alt text: Script icon to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
 
- ![When the Allow automatic slot-filling toggle is inactive, the detail description includes Data Pill Picker and script dynamic options. When the toggle is active, the Detail description field becomes static.](../images/LLM-input-discoverable-toggle.png)
+ \[Omitted image "LLM-input-discoverable-toggle.png"\] Alt text: When the Allow automatic slot-filling toggle is inactive, the detail description includes Data Pill Picker and script dynamic options. When the toggle is active, the Detail description field becomes static.
 
 </td></tr><tr><td>
 
@@ -135,11 +136,11 @@ Carousel prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include node name, detail description, and the define carousel items fields. Advanced options include Enforce user prompt, Additional instructions for LLM, and Hide or skip this node.](../images/va-carousel-llm-2.png)
+\[Omitted image "va-carousel-llm-2.png"\] Alt text: Basic properties include node name, detail description, and the define carousel items fields. Advanced options include Enforce user prompt, Additional instructions for LLM, and Hide or skip this node.
 
 </td><td>
 
-![An example chat in which the prompt asks, "Please select the image that matches your modem lights." The current selection shows a modem with all lights green.](../images/va-carousel-native.png "Web UI carousel prompt")
+\[Omitted image "va-carousel-native.png"\] Alt text: An example chat in which the prompt asks, "Please select the image that matches your modem lights." The current selection shows a modem with all lights green.
 
 </td></tr></tbody>
 </table>## Carousel input control properties for NLU topic discovery
@@ -299,15 +300,15 @@ Carousel prompt
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Basic properties include the node name, prompt, NLU entity, script definition for carousel items, and a "no records" response message.](../images/va-carousel-properties.png)
+\[Omitted image "va-carousel-properties.png"\] Alt text: Basic properties include the node name, prompt, NLU entity, script definition for carousel items, and a "no records" response message.
 
 </td><td>
 
-![Example chat in which the prompt asks, "Please select the image that matches your modem lights." The current selection shows a modem with all lights green.](../images/va-carousel-native.png "Web UI carousel prompt")
+\[Omitted image "va-carousel-native.png"\] Alt text: Example chat in which the prompt asks, "Please select the image that matches your modem lights." The current selection shows a modem with all lights green.
 
 </td></tr><tr><td>
 
-![Example chat in which the prompt asks, "Please select one of the catalog items." The current selection shows an iMac computer.](../images/va-carousel-mobile.png "ServiceNow mobile carousel prompt")
+\[Omitted image "va-carousel-mobile.png"\] Alt text: Example chat in which the prompt asks, "Please select one of the catalog items." The current selection shows an iMac computer.
 
 </td></tr></tbody>
 </table>## Example carousel item expression
@@ -562,5 +563,5 @@ Supported
 For screen devices, use touch scroll. For nonscreen devices, use voice pagination.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer user input controls](va-user-inputs.md)
+</table>**Parent Topic:**[Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

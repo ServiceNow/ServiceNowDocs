@@ -2,7 +2,10 @@
 title: Cloud Configuration Governance policies
 description: Cloud Configuration Governance policy defines the non-compliant configurations for a given cloud resource type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-policies.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -24,11 +27,11 @@ Each Cloud Configuration Governance policy contains the following information:
 
 Cloud Configuration Governance provides several base system policies. You can either use these policies or create custom policies as per the needs of your organization. Depending on the need and your familiarity with the ServiceNow AI Platform, you can use any one of the following methods to create the policy:
 
--   [Create a policy with the condition builder](../task/ccg-create-policy-condition-builder.md)
--   [Create a policy with Integration Hub flow](../task/ccg-create-policy-ih-subflow.md)
--   [Create a policy through script](../task/ccg-create-policy-through-script.md)
+-   [Create a policy with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-create-policy-condition-builder.md)
+-   [Create a policy with Integration Hub flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-create-policy-ih-subflow.md)
+-   [Create a policy through script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-create-policy-through-script.md)
 
-To use the policy, add the policy to a policy set. Each policy set can contain one or more policies. For more information on creating policy sets, see [Create policy set](../task/create-ccg-policy-set.md).
+To use the policy, add the policy to a policy set. Each policy set can contain one or more policies. For more information on creating policy sets, see [Create policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/create-ccg-policy-set.md).
 
 <table id="table_gdl_j2v_3sb"><thead><tr><th>
 

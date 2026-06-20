@@ -2,6 +2,7 @@
 title: Invoice Processing use case
 description: Accounts Payable Operations integration with Document Intelligence provides the DO NOT USE - Invoice Processing use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/docintel-invoice-process-usecase.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -39,7 +40,7 @@ Fields
 
 </td><td>
 
-Contains the list of invoice and invoice line fields to extract information from an invoice document. A field is a single piece of information to extract from an invoice document. For example, the invoice date on a document.For the list of invoice and invoice line fields included in the **DO NOT USE - Invoice Processing** use case, see [List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence](../reference/use-case-field-list.md).
+Contains the list of invoice and invoice line fields to extract information from an invoice document. A field is a single piece of information to extract from an invoice document. For example, the invoice date on a document.For the list of invoice and invoice line fields included in the **DO NOT USE - Invoice Processing** use case, see [List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md).
 
 </td></tr><tr><td>
 
@@ -66,8 +67,8 @@ Integration
 Maps to the **DO NOT USE - Invoice processing** use case that contains the **DocIntel Extract Values Flow - Invoice processing v1.2 - Invoice Processing v1.2** extraction flow, which populates the extracted invoice data into the invoice stage and invoice line stage records. It also updates the Invoice stage status to Processing completed.
 
 </td></tr></tbody>
-</table>-   **[List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence](../reference/use-case-field-list.md)**  
+</table>-   **[List of invoice and invoice line fields included in the use case for Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/use-case-field-list.md)**  
 The **DO NOT USE - Invoice Processing** use case includes the following set of invoice and invoice line fields from which to extract information from your invoice documents.
 
-**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](apm-integration-docintel.md)
+**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

@@ -2,6 +2,7 @@
 title: Convert metric data to a different unit
 description: Convert any metric data into a preferred reporting unit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/convert-md-irm.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

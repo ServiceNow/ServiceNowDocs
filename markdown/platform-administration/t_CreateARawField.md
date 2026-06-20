@@ -2,6 +2,7 @@
 title: Create a raw field
 description: A raw field is a custom field created by an administrator to show the original \(raw\) input in a field on a form after it has been normalized or transformed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateARawField.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -19,7 +20,7 @@ An administrator might add a custom field to a form to show the original, or raw
 
 This is a read-only field that might be called something like **Raw CPU type** or **Original Name**. In the following example, the **CPU type** field was normalized to **Xeon** from an original, raw value of **Xeon L3350**.
 
-![Normalized and raw fields](../image/NormalizedAndRawFields.png)
+\[Omitted image "NormalizedAndRawFields.png"\] Alt text: Normalized and raw fields
 
 ## Procedure
 
@@ -36,8 +37,8 @@ This is a read-only field that might be called something like **Raw CPU type** o
 
 5.  Click **Save**.
 
-    ![Normalize raw field](../image/NormalizeRawField1.png)
+    \[Omitted image "NormalizeRawField1.png"\] Alt text: Normalize raw field
 
 
-**Parent Topic:**[Field normalization and transformation](../concept/c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 

@@ -2,6 +2,7 @@
 title: Provide source credentials for the Accurate service
 description: Provide the source and REST credentials for the Accurate service so that it can be accessed for integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-integrations-sources-accurate.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Provide the source and REST credentials for the Accurate service so that it can 
 
 ## Before you begin
 
-**Important:** Integrating with the Accurate Background service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a [plugin activation request](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/plugins/task/t_RequestAPlugin.html). For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Integrating with the Accurate Background service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a plugin activation request. For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_hr\_integrations.admin
 
@@ -39,11 +40,11 @@ So the Accurate service can be accessed for integration, you must provide:
 
     2.  Select the **Accurate BG Check Credentials** profile, and then click **Preview** and open the record.
 
-        ![Open the Accurate BG Check Credentials record.](../image/accurate-rest.png)
+        \[Omitted image "accurate-rest.png"\] Alt text: Open the Accurate BG Check Credentials record.
 
     3.  In the **Basic Auth Configuration** form, provide the user name and password.
 
-        ![Provide the user name and password for the Basic auth profile for Accurate.](../image/accurate-basic-auth.png)
+        \[Omitted image "accurate-basic-auth.png"\] Alt text: Provide the user name and password for the Basic auth profile for Accurate.
 
     4.  Click **Update**.
 
@@ -72,9 +73,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the Accurate Background service](../concept/integrate-with-accurate-service.md)
+**Parent Topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Previous topic:**[Integrating with the Accurate Background service](../concept/integrate-with-accurate-service.md)
+**Previous topic:**[Integrating with the Accurate Background service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/integrate-with-accurate-service.md)
 
-**Next topic:**[Verify integration for the Accurate service](verify-base-integration-for-accurate.md)
+**Next topic:**[Verify integration for the Accurate service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/verify-base-integration-for-accurate.md)
 

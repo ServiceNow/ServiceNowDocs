@@ -2,7 +2,10 @@
 title: Similarity solution definitions
 description: The similar case recommendation feature uses several Predictive Intelligence solution definitions for similarity models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/similar-cases-solution-definitions.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,5 +28,5 @@ Several of the additional contextual search resources used by the similar case/r
 **Related topics**  
 
 
-[Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.create-similarity-solution]
 

@@ -2,6 +2,7 @@
 title: System and custom notification and delivery channel preferences in Next Experience
 description: You can manage and set your own notification preferences, including customized notifications and channels for receiving them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/advanced-notification-prefrences.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -29,7 +30,7 @@ With system notifications, you can:
 -   Add or modify a notification schedule for individual delivery channels for each system notification.
 -   Set a schedule for all notifications, individual system notifications, or delivery channels.
 
-    For more information, see [Apply notification conditions](../task/apply-notification-conditions.md)
+    For more information, see [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/apply-notification-conditions.md)
 
 
 ## Custom notifications
@@ -46,12 +47,12 @@ With custom notifications, you can:
 -   Add or modify a notification schedule for individual delivery channels for each system notification.
 -   Set a schedule for all notifications, individual system notifications, or delivery channels.
 
-    For more information, see [Apply notification conditions](../task/apply-notification-conditions.md)
+    For more information, see [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/apply-notification-conditions.md)
 
 
 **Note:**
 
-Custom notifications for Next Experience do not support notifications that require a related affected record. For these notifications, you have to set the preference in the Core UI. For more information, see [Setting notification preferences in Core UI](user-notification-preferences.md).
+Custom notifications for Next Experience do not support notifications that require a related affected record. For these notifications, you have to set the preference in the Core UI. For more information, see [Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-notification-preferences.md).
 
 **Note:** Subscription-based notifications are not domain aware and cannot support domain-specific settings.
 
@@ -69,18 +70,18 @@ With Delivery Channels, you can:
 -   Choose how notifications are delivered.
 -   Set a schedule for the record in the channel and apply to the notifications you want to receive.
 
--   **[Set notification preferences](../task/set-notification-preferences.md)**  
+-   **[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/set-notification-preferences.md)**  
 View, enable, and disable general settings for notification preferences, and delivery channels.
--   **[Customize system notifications](../task/create-custom-notifications.md)**  
+-   **[Customize system notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-custom-notifications.md)**  
 Create custom notifications, which are subscriptions to notifications of importance to you, and apply conditions that control specific content included in your custom notification. You can also enable or disable the channels for delivery.
--   **[Modify a notification](../task/modify-notification-schedule.md)**  
+-   **[Modify a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/modify-notification-schedule.md)**  
 Modify a notification by establishing a schedule or setting conditions to control the notifications you receive.
--   **[Delete a custom notification](../task/delete-custom-notifications.md)**  
+-   **[Delete a custom notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/delete-custom-notifications.md)**  
 Delete custom notifications that you don't need any more.
--   **[Add a new notification delivery channel](../task/add-email-device.md)**  
+-   **[Add a new notification delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/add-email-device.md)**  
 Add new channels for email, instant message, SMS, and voice to receive notifications and set a schedule for the channel for the notifications you want to receive.
--   **[Edit a delivery channel](../task/edit-or-delete-a-channel.md)**  
+-   **[Edit a delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/edit-or-delete-a-channel.md)**  
 Edit an email, instant message, SMS, or voice channel for receiving notifications, and schedule when the channel can receive notifications.
 
-**Parent Topic:**[Notification Preferences](preferences-landing.md)
+**Parent Topic:**[Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/preferences-landing.md)
 

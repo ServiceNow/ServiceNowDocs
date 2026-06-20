@@ -2,6 +2,7 @@
 title: Workflow for risk identification in the Risk Workspace
 description: Workflows provide step-by-step guidance for completing the risk identification process in the GRC Risk Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/risk-identification-playbook.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,15 +45,15 @@ It is important to remember the following points:
 -   If you finish relating the controls and then again move to risk mapping, the control-mapping stage moves to pending state.
 -   When you reinitiate a workflow, a new workflow instance is created.
 
-For more information, see [Application risk assessment using advanced risk assessment](../../grc-risk/concept/risk-and-apm-better-together.md)
+For more information, see [Application risk assessment using advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 
 The following figures show the workflow stages and actions:
 
-![Stages of risk identification workflow.](../image/playbook-stages.jpg "Workflow stages")
+\[Omitted image "playbook-stages.jpg"\] Alt text: Stages of risk identification workflow.
 
-![Moving back to a stage.](../image/moving-back-in-stages.jpg "Moving back to a stage")
+\[Omitted image "moving-back-in-stages.jpg"\] Alt text: Moving back to a stage.
 
-![Restarting an activity.](../image/restarting-an-activity.jpg "Restarting an activity")
+\[Omitted image "restarting-an-activity.jpg"\] Alt text: Restarting an activity.
 
-**Parent Topic:**[Using the Risk Workspace](using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

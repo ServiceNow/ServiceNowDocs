@@ -2,7 +2,10 @@
 title: Create a Microsoft Teams application registry entry to connect the created app to ServiceNow instance
 description: Register your Microsoft Teams application with your ServiceNow instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-app-registry-entry.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2023-03-08"
 reading_time_minutes: 2
@@ -32,16 +35,16 @@ Role required: admin
     -   Name: Name to uniquely identify the record, for example, Microsoft Teams for Notify Self-configured app.
     -   Client ID: Application \(client\) ID or Bot ID created and copied during the app creation in Microsoft Teams.
 
-        Copy the Application \(client\) ID from the Microsoft Azure portal. Bot ID created in the Microsoft Teams Developer portal and Application \(client\) ID in the Microsoft Azure portal are the same. For the Application \(client\) ID or Bot ID information, see [Create an app in Microsoft Teams to enable making calls](create-app-ms-teams.md).
+        Copy the Application \(client\) ID from the Microsoft Azure portal. Bot ID created in the Microsoft Teams Developer portal and Application \(client\) ID in the Microsoft Azure portal are the same. For the Application \(client\) ID or Bot ID information, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
 
         Do not copy the App ID of the Microsoft Teams app created on the Microsoft Teams Developer Portal.
 
     -   Client Secret: The password you generated when creating the bot in the Microsoft Teams Developer Portal \(step 3h\).
 
-        For the Client Secret information on the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](create-app-ms-teams.md).
+        For the Client Secret information on the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
 
     -   Default Grant Type: `Client Credentials`.
-    -   Token URL: Token endpoint URL that includes the Directory ID of your app with the structure `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`, where `<Directory ID>` is the tenant ID created during the app/bot creation in Microsoft Teams Developer Portal. For the tenant ID information in the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](create-app-ms-teams.md).
+    -   Token URL: Token endpoint URL that includes the Directory ID of your app with the structure `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`, where `<Directory ID>` is the tenant ID created during the app/bot creation in Microsoft Teams Developer Portal. For the tenant ID information in the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
 
         Or follow this procedure.
 
@@ -69,7 +72,7 @@ The Microsoft Teams app is now registered with an OAuth profile authorization.
 
 ## What to do next
 
-[Create a Connection &amp; Credentials alias for Microsoft Teams](create-connection-credential-aliases.md)
+[Create a Connection &amp; Credentials alias for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-connection-credential-aliases.md)
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-notify-ms-teams-single-tenant.md)
 

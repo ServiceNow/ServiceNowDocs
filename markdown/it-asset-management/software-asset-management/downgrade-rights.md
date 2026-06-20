@@ -2,6 +2,7 @@
 title: Downgrade Rights
 description: The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrade rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/downgrade-rights.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -50,7 +51,7 @@ If you try to create a duplicate downgrade right for an inactive downgrade right
 
 Downgrade support is available for all license metrics.
 
-![Downgrade rights](../image/dmap-downgrade-rights.png)
+\[Omitted image "dmap-downgrade-rights.png"\] Alt text: Downgrade rights
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Create a custom named user type in workspace
 description: Create a custom named user type that can be used with your SAP software entitlement in the Software Asset Workspace. Creating a custom named user type allows users to track licenses that are specific to their SAP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/sap-named-usertypes-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

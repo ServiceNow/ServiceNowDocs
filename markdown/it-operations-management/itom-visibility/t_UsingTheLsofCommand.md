@@ -2,6 +2,7 @@
 title: Using the lsof Command
 description: Use the ls of command to return active TCP connections and can be installed on Solaris and AIX target machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/t\_UsingTheLsofCommand.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -33,12 +34,12 @@ Role required: admin
 
     This probe is configured to use `lsof`.
 
-    ![Solaris Active Connections lsof](../image/SolarisActiveConnectionsLsof.png "Solaris Active Connections lsof")
+    \[Omitted image "SolarisActiveConnectionsLsof.png"\] Alt text: Solaris Active Connections lsof
 
 6.  Click **Save**.
 
 7.  Repeat this procedure for the AIX classification probe.
 
 
-**Parent Topic:**[Application Mapping for UNIX discovery](../concept/c_DiscoveryAppMapForUNIX.md)
+**Parent Topic:**[Application Mapping for UNIX discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_DiscoveryAppMapForUNIX.md)
 

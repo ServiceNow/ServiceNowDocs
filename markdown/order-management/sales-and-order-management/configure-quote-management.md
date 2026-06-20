@@ -2,6 +2,7 @@
 title: Install and configure Quote Management
 description: Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/configure-quote-management.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -31,7 +32,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Quote Management](../task/installing-quote-management.md)
+[Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/installing-quote-management.md)
 
 </td><td>
 
@@ -46,7 +47,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Assign user roles in Sales and Order Management applications](configure-SOM-roles.md)
+[Assign user roles in Sales and Order Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/configure-SOM-roles.md)
 
 </td><td>
 
@@ -58,7 +59,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Configuring product offerings and catalogs](som-managing-product-catalogs.md)
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -70,12 +71,12 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configuring product pricing](../task/som-create-price-list-line.md)
+[Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-price-list-line.md)
 
 </td><td>
 
-Define the price lists, pricing strategies, and other pricing features that you want to use, unless they've been previously defined.-   Set the [price lists](../task/som-create-price-list.md) and pricing strategies that control how pricing is applied to quotes.
--   If you're using cost books, create the [cost books](../task/create-cost-books.md) that define the unit costs for product offerings.
+Define the price lists, pricing strategies, and other pricing features that you want to use, unless they've been previously defined.-   Set the [price lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-create-price-list.md) and pricing strategies that control how pricing is applied to quotes.
+-   If you're using cost books, create the [cost books](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-cost-books.md) that define the unit costs for product offerings.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Quote Management admin
 
 </td></tr><tr><td>
 
-[Activate location-based transactions](../task/som-activate-location-filter.md)
+[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-activate-location-filter.md)
 
 </td><td>
 

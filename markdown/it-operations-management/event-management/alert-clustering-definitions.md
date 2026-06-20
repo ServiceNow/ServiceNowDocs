@@ -2,6 +2,7 @@
 title: Create an alert clustering definition
 description: An alert clustering definition determines the conditions that must be met for invoking one or more alert clustering tags. Alert clustering tags enable you to create an alert group from fewer alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/alert-clustering-definitions.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -32,7 +33,7 @@ Determine the alerts to be compared with existing alerts by creating a filter fo
 
 2.  Select **New**.
 
-3.  Configure the fields on the [Event Management tag based alert clustering definition form](../reference/tag-based-alert-clustering-definition-form.md).
+3.  Configure the fields on the [Event Management tag based alert clustering definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/tag-based-alert-clustering-definition-form.md).
 
 4.  Select **Save**.
 

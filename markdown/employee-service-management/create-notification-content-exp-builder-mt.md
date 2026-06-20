@@ -2,7 +2,10 @@
 title: Create Microsoft Teams notification content with Content Experience Builder
 description: Create or place notification content into a bundle or stage for a Microsoft Teams campaign using Content Experience Builder.Campaign form to create Microsoft Teams notification content using the Content Experience Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-notification-content-exp-builder-mt.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin
 
 3.  On the Campaign form, fill in the fields.
 
-    For a description of the field values, see [Campaign form in the Content Experience Builder](create-notification-content-exp-builder-mt.md#).
+    For a description of the field values, see [Campaign form in the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-notification-content-exp-builder-mt.md).
 
 4.  Click **Save** to remain on the campaign page.
 
@@ -34,9 +37,9 @@ Role required: sn\_ca.campaign\_manager or sn\_cd.content\_admin
 
 ## What to do next
 
-Click **Next** or the **Schedule of Content** tab to add stages and content to the campaign: [Create Microsoft Teams campaign stages using the Campaign Builder Experience](create-campaign-stage-content-exp-mt.md)
+Click **Next** or the **Schedule of Content** tab to add stages and content to the campaign: [Create Microsoft Teams campaign stages using the Campaign Builder Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-campaign-stage-content-exp-mt.md)
 
-**Parent Topic:**[Create Microsoft Teams campaigns with the Content Experience Builder](../concept/create-campaign-content-exp-builder-mt.md)
+**Parent Topic:**[Create Microsoft Teams campaigns with the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-campaign-content-exp-builder-mt.md)
 
 ## Campaign form in the Content Experience Builder
 
@@ -126,7 +129,7 @@ Frequency, in days, that you want to re-evaluate the audience. Audiences are re-
 
  This field appears only if the **Re-evaluate campaign** check box is selected.
 
- This field value overrides the default \(7 days\) value set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](../../employee-center/reference/properties-installed-with-content-auto.md).
+ This field value overrides the default \(7 days\) value set in the **Campaign Re-evaluation** field in the Content Experiences system property. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 </td></tr><tr><td>
 

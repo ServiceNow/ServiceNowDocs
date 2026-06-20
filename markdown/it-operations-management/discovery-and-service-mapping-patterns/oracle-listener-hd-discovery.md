@@ -2,6 +2,7 @@
 title: Oracle Listener HD discovery
 description: ServiceNow Discovery uses the Oracle Listener HD pattern to find and map Oracle real application cluster components. To discover these resources, install the CMDB CI Class Models and the Discovery and Service Mapping Patterns from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/oracle-listener-hd-discovery.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +20,7 @@ Oracle RAC enables you to cluster an Oracle database. Oracle RAC uses Oracle Clu
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -57,11 +58,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The Oracle Clusterware setup is only supported for the UNIX Operating Systems. The base system **SSH Command-Oracle - Listener Details classifier probe** is inactive \(Active is set to False\), when installing the CMDB CI Class Models version 1.29.0 or higher.
 
-![Classifier Probes.](../image/classifierprobenew.png "Classifier Probes- Oracle Listener Details")
+\[Omitted image "classifierprobenew.png"\] Alt text: Classifier Probes.
 
 The **Oracle Listener process classification** triggers the Oracle Listener HD pattern.
 
-![Classifier Probes.](../image/classifier_probes_horizontal.png "Classifier Probes- Horizontal Pattern")
+\[Omitted image "classifier\_probes\_horizontal.png"\] Alt text: Classifier Probes.
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -76,9 +77,9 @@ The Oracle Listener HD pattern populates the following CIs:
 |version|The version of the Oracle product.|
 |tcp\_port|The listening port for Oracle client connections.|
 
-![Oracle Database Listener Form​.](../image/oracledatabaselistenerform.png "Oracle Database Listener Form​")
+\[Omitted image "oracledatabaselistenerform.png"\] Alt text: Oracle Database Listener Form​.
 
-![Oracle Database Listener view map​.](../image/oracledatabaseviewmap.png "Oracle Database Listener View Map​")
+\[Omitted image "oracledatabaseviewmap.png"\] Alt text: Oracle Database Listener view map​.
 
 <table id="table_hc5_jsp_nqb"><thead><tr><th>
 
@@ -105,9 +106,9 @@ name
 The name of the Oracle instance combination of SID@HOST\_NAME​
 
 </td></tr></tbody>
-</table>![Oracle Instance Form.](../image/oracleinstanceform.png "Oracle Instance Form")
+</table>\[Omitted image "oracleinstanceform.png"\] Alt text: Oracle Instance Form.
 
-![Oracle Instance View Map.](../image/oracleinstanceviewmap.png "Oracle Instance View Map")
+\[Omitted image "oracleinstanceviewmap.png"\] Alt text: Oracle Instance View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -116,9 +117,9 @@ The name of the Oracle instance combination of SID@HOST\_NAME​
 |operational\_status|The active status of the Oracle database.|
 |node|The host name of the node hosting the Oracle database.|
 
-![Oracle Database Form.](../image/oracledatabaseform.png "Oracle Database Form")
+\[Omitted image "oracledatabaseform.png"\] Alt text: Oracle Database Form.
 
-![Oracle Database View Map.](../image/oracledatabaseviewmap.png "Oracle Database View Map")
+\[Omitted image "oracledatabaseviewmap.png"\] Alt text: Oracle Database View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -129,9 +130,9 @@ The name of the Oracle instance combination of SID@HOST\_NAME​
 
 ​
 
-![Oracle Cluster Form.](../image/oracleclusterform.png "Oracle Cluster Form")
+\[Omitted image "oracleclusterform.png"\] Alt text: Oracle Cluster Form.
 
-![Oracle Cluster View Map.](../image/oracledatabaseviewmap.png "Oracle Cluster View Map")
+\[Omitted image "oracledatabaseviewmap.png"\] Alt text: Oracle Cluster View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -140,17 +141,17 @@ The name of the Oracle instance combination of SID@HOST\_NAME​
 |server|The hostname of the host hosting the cluster node.​|
 |cluster|The name of the cluster to which the cluster node is associated.|
 
-![Oracle Cluster Node Form​.](../image/oracleclusterform.png "Oracle Cluster Node Form​")
+\[Omitted image "oracleclusterform.png"\] Alt text: Oracle Cluster Node Form​.
 
-![Oracle Cluster Node View Map​.](../image/oracleclusternodeviewmap.png "Oracle Cluster Node View Map​")
+\[Omitted image "oracleclusternodeviewmap.png"\] Alt text: Oracle Cluster Node View Map​.
 
 |Field|Description|
 |-----|-----------|
 |name|The hostname of the Linux server that is hosting the Oracle Listener process.|
 
-![Linux Server Form.](../image/linuxserverform.png "Linux Server Form")
+\[Omitted image "linuxserverform.png"\] Alt text: Linux Server Form.
 
-![Linux Server View Map​.](../image/linkviewmap.png "Linux Server View Map​")
+\[Omitted image "linkviewmap.png"\] Alt text: Linux Server View Map​.
 
 |Field|Description|
 |-----|-----------|
@@ -356,5 +357,5 @@ Uses::Used by
 cmdb\_ci\_db\_ora\_service
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available discovery patterns](../concept/available-patterns.md)
+</table>**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

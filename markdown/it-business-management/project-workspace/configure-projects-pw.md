@@ -2,6 +2,7 @@
 title: Configuring projects with Project Workspace
 description: Set up the Project Workspace application and start planning on your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-workspace/configure-projects-pw.html
 release: xanadu
 product: Project Workspace
 classification: project-workspace
@@ -17,10 +18,10 @@ Set up the Project Workspace application and start planning on your project.
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Project Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/47e2b69f533f201016f6ddeeff7b12fa) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   [Install Project Workspace](../../project-workspace/task/install-project-workspace.md).
+-   [Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/install-project-workspace.md).
 
--   **[Install Project Workspace](../../project-workspace/task/install-project-workspace.md)**  
+-   **[Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/install-project-workspace.md)**  
 You can install the Project Workspace application \(sn\_pw\) if you have the admin role.
 
-**Parent Topic:**[Configuring Project Workspace](configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/configure-pw.md)
 

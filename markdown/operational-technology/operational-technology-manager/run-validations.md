@@ -2,6 +2,7 @@
 title: Run Validations
 description: Run validations on records to find missing, duplicate, and invalid data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/run-validations.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -54,5 +55,5 @@ Role required: ot\_staging\_user, cmdb\_ot\_admin, or admin
     If any record is manually set as valid, it may cause reconciliation issues and a CI might not get created.
 
 
-**Parent Topic:**[Managing Validations](../concept/managing-validations.md)
+**Parent Topic:**[Managing Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/managing-validations.md)
 

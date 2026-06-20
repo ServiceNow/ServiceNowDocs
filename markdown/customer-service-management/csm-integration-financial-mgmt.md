@@ -2,7 +2,10 @@
 title: Integrating with Financial Management
 description: Customer Service Management and Field Service Management provide an integration with the ServiceNow Financial Management application as well as dashboards and reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-integration-financial-mgmt.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 4
@@ -109,7 +112,7 @@ Navigate to **Performance Analytics** &gt; **Dashboards** and select the desired
 **Related topics**  
 
 
-[Financial Management](https://www.servicenow.com/docs/access?context=c_ITFinance&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US)
+[bundle-itbm.c_ITFinance]
 
-[Financial Management Workbench](https://www.servicenow.com/docs/access?context=c_TheITFinanceWorkbench&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US)
+[bundle-itbm.c_TheITFinanceWorkbench]
 

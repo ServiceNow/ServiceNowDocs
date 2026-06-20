@@ -2,6 +2,7 @@
 title: Add a read, update, or create entity to a model in ERP Data Hub
 description: Specify the operation entity, which is the table or BAPI \(Business Application Programming Interface\) that ERP Data Hub uses for read, update, or create operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erpc-add-entity-to-model-op.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,7 +18,7 @@ Specify the operation entity, which is the table or BAPI \(Business Application 
 
 ## Before you begin
 
-You must have already added the read, write, or create operation before you can add an entity to it. For more information, see [Add an operation to a model in ERP Data Hub](erpc-manage-models-read-op.md).
+You must have already added the read, write, or create operation before you can add an entity to it. For more information, see [Add an operation to a model in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-manage-models-read-op.md).
 
 Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
@@ -31,7 +32,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **ERP Data Hub** &gt; **ERP Data Hub Home**.
 
-2.  Open the ERP model page by selecting the ERP model icon \(![ERP model icon](../image/erpc-data-model-icon.png)\) in the side panel.
+2.  Open the ERP model page by selecting the ERP model icon \(\[Omitted image "erpc-data-model-icon.png"\] Alt text: ERP model icon\) in the side panel.
 
 3.  Select the model that you want to add an operation entity to.
 
@@ -41,7 +42,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
 
 
-    ![Add operation entities on the Manage entities tab](../image/erpc-manage-entities-manager.png)
+    \[Omitted image "erpc-manage-entities-manager.png"\] Alt text: Add operation entities on the Manage entities tab
 
 6.  For read operations, specify the type of read operation in **Select type**.
 
@@ -51,13 +52,13 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
     -   **OData** enables you to work with various business objects \(for example, read, create, update, and delete\) defined in the ERP system.
     **Note:** Update operation entities must use a BAPI Function call, so this field is read only for update operations.
 
-    ![Select the type of entity you're adding](../image/erpc-add-entity-manager.png "Add an entity")
+    \[Omitted image "erpc-add-entity-manager.png"\] Alt text: Select the type of entity you're adding
 
 7.  Define the entity by specifying the name of the table to read or BAPI to use in **Select entity**.
 
     The AI Search for this field can help you find what you're looking for faster, for example by entering `Countries` instead of `T005`. AI Search also suggests tables and BAPIs that are in the connected ERP system.
 
-    For table read operations, you may need to check the **Model entities** tab of the current or another, related model to get the table name, or ask your SAP admin. For more information, see [View and edit the foundation of ERP models](view-and-work-with-erp-data-models.md).
+    For table read operations, you may need to check the **Model entities** tab of the current or another, related model to get the table name, or ask your SAP admin. For more information, see [View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 8.  When you're finished, select **Add entity**.
 
@@ -69,7 +70,7 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_integration.erp\_user
 
     2.  Drag the tables to the order that you want.
 
-    3.  Select the delete icon \(![Delete icon](../../../reuse/icons/product-icons/trash-outline-24.svg)\) on the card for a table to remove any tables you don't need.
+    3.  Select the delete icon \(\[Omitted image "trash-outline-24.svg"\] Alt text: Delete icon\) on the card for a table to remove any tables you don't need.
 
         Deleting an entity removes all of its related field mappings and table joins.
 
@@ -86,13 +87,13 @@ If you added a **Read table** operation, you can repeat this process to add as m
 
 **Note:** If you have more than one table for an operation, you must join the tables.
 
-For more information, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+For more information, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
-The **Entity fields** tab for the ERP model automatically populates for the new table when the table is connected to an ERP system. View their details as needed. For more information, see [ERP Data Hub ERP model table field descriptions](../reference/erp-canvas-erp-data-model-table-fields.md).
+The **Entity fields** tab for the ERP model automatically populates for the new table when the table is connected to an ERP system. View their details as needed. For more information, see [ERP Data Hub ERP model table field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-erp-data-model-table-fields.md).
 
 ## What to do next
 
-Next, you must specify the input parameters for the operation. For details, see [Manage input parameters for an ERP Data Hub model operation](erpc-manage-model-inputs.md).
+Next, you must specify the input parameters for the operation. For details, see [Manage input parameters for an ERP Data Hub model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erpc-manage-model-inputs.md).
 
-**Parent Topic:**[Building and managing ERP models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md)
 

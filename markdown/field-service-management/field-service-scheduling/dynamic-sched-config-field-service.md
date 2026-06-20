@@ -2,6 +2,7 @@
 title: Set up Field Service Management to use dynamic scheduling
 description: Select dynamic scheduling to automatically schedule and dispatch work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -36,6 +37,6 @@ Field Service Management will consider dynamic scheduling as the task assignment
 
 ## What to do next
 
--   Review system properties and components installed with Dynamic Scheduling. For more information, see [Dynamic scheduling system properties](../reference/dynamic-sched-system-properties.md).
--   Configure dynamic scheduling for task assignment. For more information, see [Configure dynamic scheduling](create-dynamic-scheduling-config.md).
+-   Review system properties and components installed with Dynamic Scheduling. For more information, see [Dynamic scheduling system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dynamic-sched-system-properties.md).
+-   Configure dynamic scheduling for task assignment. For more information, see [Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
 

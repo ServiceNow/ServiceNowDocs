@@ -2,13 +2,14 @@
 title: Duplicate threat intelligence feeds
 description: Duplicating a threat feed allows you to create an exact copy of an existing feed, including all associated observables, indicators, actors, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-04-29"
 reading_time_minutes: 1
-breadcrumb: [Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Duplicate threat intelligence feeds
@@ -36,5 +37,5 @@ Role required: sn\_sec\_tisc.admin
     A confirmation is displayed indicating that the duplicated the current feed configuration and created a new feed with name \[integrationname Feed-copy\] with a link to the new duplicated feed. For example, CrowdStrike Feed-copy.
 
 
-**Parent Topic:**[Threat Intelligence Feeds](../concept/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

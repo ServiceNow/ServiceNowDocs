@@ -2,6 +2,7 @@
 title: Create a script definition for a remote table
 description: Define and associate a script with a remote table so that you can retrieve data from an external source with it. The ServiceNow AI Platform retrieves and caches the data for the remote table by running the script against an external data source so you can view or modify it. You can also designate how this external data is cached and how long the data is cached in memory until the script must run again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/remote-tables/create-remote-table-script.html
 release: xanadu
 product: Remote Tables
 classification: remote-tables
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You create script definitions for remote tables like you do for other scripts. To learn more about entering, modifying, and debugging scripts, see [JavaScript syntax editor](https://www.servicenow.com/docs/access?context=c_SyntaxEditor&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+You create script definitions for remote tables like you do for other scripts. To learn more about entering, modifying, and debugging scripts, see JavaScript syntax editor.
 
 ## Procedure
 
@@ -88,9 +89,9 @@ Option to access the Caching section to designate how the memory caching should 
 
     **Note:** The Script section shows up only when the Flow field is empty.
 
-    ![Remote table script editor template](../images/remote_tables_script_editor.png)
+    \[Omitted image "remote\_tables\_script\_editor.png"\] Alt text: Remote table script editor template
 
-    **Note:** To learn more about entering, modifying, and debugging scripts, see [JavaScript syntax editor](https://www.servicenow.com/docs/access?context=c_SyntaxEditor&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+    **Note:** To learn more about entering, modifying, and debugging scripts, see JavaScript syntax editor.
 
 5.  In the Caching section, designate how this data is cached and how long the data is cached in the memory of the ServiceNow AI Platform:
 
@@ -128,17 +129,17 @@ Option to select the enhanced capacity to support more than 1000 rows in a remot
 
 When you activate a script definition, you associate it with the remote table so that you can retrieve and cache the external data.
 
--   **[Example 1: Retrieving all incident records from an external source](../reference/remote-table-script-def-example1.md)**  
+-   **[Example 1: Retrieving all incident records from an external source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/remote-table-script-def-example1.md)**  
 These are examples of script definitions you might create for retrieval and caching of data from sources external to your current instance. In this first example, we create a script to load all incident records from an external source.
--   **[Example 2: Retrieving specific records from a third-party source](../reference/remote-table-script-def-example2.md)**  
+-   **[Example 2: Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/remote-table-script-def-example2.md)**  
 In this example, we create a script to retrieve specific types of incident records from a third-party source.
 
-**Parent Topic:**[Remote tables](../concept/remote-tables.md)
+**Parent Topic:**[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/remote-tables/remote-tables.md)
 
 **Related topics**  
 
 
-[v\_query – Scoped, Global](https://www.servicenow.com/docs/access?context=v_queryAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.v_queryAPI]
 
-[v\_table – Scoped, Global](https://www.servicenow.com/docs/access?context=v_tableAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.v_tableAPI]
 

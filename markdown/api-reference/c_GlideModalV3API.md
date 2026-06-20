@@ -2,6 +2,7 @@
 title: GlideModal - Client
 description: The GlideModal API provides methods for displaying a content overlay.Creates an instance of the GlideModalV3 class.Get a GlideModal object by ID.Returns the value of the specified preference \(property\).Renders the UI page in the modal.Display a modal with the specified HTML content.Sets the specified field on the current form to the specified value.Set the properties and reload the modal.Sets the title of the modal.Sets the width of the modal in pixels.Change the view and reload the modal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/c\_GlideModalV3API.html
 release: xanadu
 product: API Reference
 classification: api-reference
@@ -19,9 +20,9 @@ Use these methods in scripts anywhere that you can use client-side JavaScript. T
 
 This is a fully-featured replacement for the GlideWindow and GlideDialogWindow APIs.
 
-![Example overlay](../../Images/GlideModalV3-Client-example-overlay-dialog.png "Example overlay")
+\[Omitted image "GlideModalV3-Client-example-overlay-dialog.png"\] Alt text: Example overlay
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/api-client.md)
 
 ## GlideModal - GlideModal\(String id, Boolean readOnly, Number width\)
 
@@ -82,7 +83,7 @@ Width of modal in pixels. Default:
 
 Maximum width: 900 pixels
 
-**Note:** You can also set the modal width using the [GlideModal - setWidth\(Number width\)](c_GlideModalV3API.md#) method.
+**Note:** You can also set the modal width using the [GlideModal - setWidth\(Number width\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideModalV3API.md) method.
 
 </td></tr></tbody>
 </table>## GlideModal - get\(String id\)
@@ -101,11 +102,11 @@ Get a GlideModal object by ID.
 
 Returns the value of the specified preference \(property\).
 
-Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](c_GlideModalV3API.md#) method. The UI page client script then consumes these preferences using this method.
+Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideModalV3API.md) method. The UI page client script then consumes these preferences using this method.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the preference value to retrieve. This value must have previously been set on the modal using the [GlideModal - setPreference\(String name, String value\)](c_GlideModalV3API.md#) method.|
+|name|String|Name of the preference value to retrieve. This value must have previously been set on the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideModalV3API.md) method.|
 
 |Type|Description|
 |----|-----------|
@@ -257,7 +258,7 @@ dialog.setPreference('name', 'value');
 
 Sets the width of the modal in pixels.
 
-You can also set the width of a modal when you first instantiate it using the [GlideModal - GlideModal\(String id, Boolean readOnly, Number width\)](c_GlideModalV3API.md#) method.
+You can also set the width of a modal when you first instantiate it using the [GlideModal - GlideModal\(String id, Boolean readOnly, Number width\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/c_GlideModalV3API.md) method.
 
 <table id="table_msx_wts_3v" class="parameters"><thead><tr><th>
 

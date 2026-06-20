@@ -2,6 +2,7 @@
 title: Add a poll to a message
 description: When you are posting a message, you have the option of creating a poll in order to record your viewers' opinions. As users take the poll, their feedback statistics are displayed within the feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_AddAPollToAMessage.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -25,9 +26,9 @@ Role required: admin
 
 2.  Enter the message with an invitation to take the poll in the **Share your thoughts** box.
 
-3.  Click the poll \(![Poll icon](../image/PollIcon.png)\) icon.
+3.  Click the poll \(\[Omitted image "PollIcon.png"\] Alt text: Poll icon\) icon.
 
-    ![Poll](../image/Poll.png "Poll")
+    \[Omitted image "Poll.png"\] Alt text: Poll
 
 4.  In the **Question** field, enter the question on which you are soliciting opinions.
 
@@ -42,5 +43,5 @@ Role required: admin
     An email notification with the poll result is sent to all participants of the poll informing them that the poll is closed.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

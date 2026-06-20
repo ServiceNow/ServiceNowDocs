@@ -2,9 +2,12 @@
 title: Modify a sold product to create a quote
 description: Modify a sold product and its complete hierarchy on the CSM Configurable Workspace to generate a quote for any updated characteristics or configurations. For example, a customer may want to find the price to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/modify\_a\_sold\_product\_to\_create\_a\_quote.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Modify a sold product and hierarchy, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
@@ -35,11 +38,11 @@ Role required: Sales Agent \(sn\_sales\_common.sales\_agent\) and Sales Manager 
 
     **Note:** You can do a **Modify** action on either the root or the child sold products only if the sold product is in the **Active** state.
 
-    **Note:** If you have both the Order Management \(com.sn\_ind\_tmt\_orm\) and Quote Management \(app-l2c-quote-mgmt\)\) plugins the order agent, order admin, sales agent, and sales manager can perform the **Modify** action that results in an order. To specifically create a quote, customers need to configure the decision table to modify existing sold product as per their business needs. Users performing the modify flow must have both the sales agent and the order agent roles. To learn more about the decision table, see [Modify decision table rules in Workflow Studio](https://www.servicenow.com/docs/access?context=modify-decision-table-rules&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+    **Note:** If you have both the Order Management \(com.sn\_ind\_tmt\_orm\) and Quote Management \(app-l2c-quote-mgmt\)\) plugins the order agent, order admin, sales agent, and sales manager can perform the **Modify** action that results in an order. To specifically create a quote, customers need to configure the decision table to modify existing sold product as per their business needs. Users performing the modify flow must have both the sales agent and the order agent roles. To learn more about the decision table, see .
 
 6.  On the Configurator UI, modify the existing configurations for the sold product.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=xanadu&pubname=xanadu-order-management&ft:locale=en-US).
+    To learn more about the Configurator UI, see .
 
 7.  Select **Update**.
 

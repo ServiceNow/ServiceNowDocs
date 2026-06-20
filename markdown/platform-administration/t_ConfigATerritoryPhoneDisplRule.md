@@ -2,6 +2,7 @@
 title: Configure a territory phone display rule
 description: The string of numbers that make up a phone number is automatically validated and formatted for a specific territory by applying a series of regular expressions.Phone validations are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.Phone formats are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfigATerritoryPhoneDisplRule.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -35,7 +36,7 @@ The Sys Phone Territory screen allows administrators to edit the display rules f
 
 4.  Click **Update**.
 
-    ![Phone sys phone territory](../image/PhoneSysPhoneTerritory.png)
+    \[Omitted image "PhoneSysPhoneTerritory.png"\] Alt text: Phone sys phone territory
 
     |Field|Description|
     |-----|-----------|
@@ -52,17 +53,17 @@ The Sys Phone Territory screen allows administrators to edit the display rules f
     |Order|The order in which a territory appears in a choice list. Territories are sorted numerically by the number assigned here. If more than one territory is assigned the same number, they are subsorted alphabetically. All territories are assigned a default value of 100. To display a territory at the top of the list, assign a value that is less than 100. To display a territory at the end of the list, assign a value that is greater than 100. For example, if a territory is assigned an order of 500, it is displayed at the end of the list, and if more than one territory is assigned an order of 500, they are listed alphabetically at the end of the list.|
 
 
-**Parent Topic:**[Phone number field type](../concept/c_UsePhoneNumberFields.md)
+**Parent Topic:**[Phone number field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UsePhoneNumberFields.md)
 
 ## Phone validations
 
 Phone validations are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.
 
-![](../image/E164PhoneValidations.png "E164 phone validations")
+\[Omitted image "E164PhoneValidations.png"\] Alt text:
 
 ## Phone formats
 
 Phone formats are already configured for all territories and are automatically applied to the phone number to ensure that the number is valid for the territory.
 
-![](../image/E164PhoneFormats.png "E164 phone formats")
+\[Omitted image "E164PhoneFormats.png"\] Alt text:
 

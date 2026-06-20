@@ -2,6 +2,7 @@
 title: Create a custom PowerShell probe
 description: You can create your own PowerShell probe and configure probe parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/t\_CreateACustomPowershellProbe.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -39,5 +40,5 @@ Role required: admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[PowerShell probe](../../discovery/concept/c_PowershellProbe.md)
+**Parent Topic:**[PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_PowershellProbe.md)
 

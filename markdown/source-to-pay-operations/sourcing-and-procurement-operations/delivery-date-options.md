@@ -2,6 +2,7 @@
 title: Delivery date options
 description: As a shopper, you have the option to select either a single delivery date or multiple delivery dates for the various products in your cart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/delivery-date-options.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,5 +29,5 @@ While you can always go with the default delivery date for the products for fast
 -   **Add another delivery date**: Allows you to add a new delivery date for a product in your cart. If you have just one quantity of a product in your cart, adding new delivery dates automatically adds corresponding quantities of the same product to your cart. The quantity is recalculated in real time and reflected accordingly in the product header card as well as in the Summary section.
 -   **Request single delivery date**: Allows you to revert to a single delivery date after you have specified multiple delivery dates for the products in your cart. A warning message is displayed stating that this update shall undo all the delivery date selections that you’ve done so far.
 
-**Parent Topic:**[Select a delivery date](../task/select-delivery-date.md)
+**Parent Topic:**[Select a delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-date.md)
 

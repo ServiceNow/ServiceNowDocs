@@ -2,6 +2,7 @@
 title: Platform Analytics tables
 description: The following tables relate to Platform Analytics data visualizations and dashboards and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/platform-analytics-tables.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-06-16"
@@ -224,5 +225,5 @@ par\_recommendation\_user\_action
 Stores whether users accepted or dismissed a Process Mining insight recommendation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+</table>**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

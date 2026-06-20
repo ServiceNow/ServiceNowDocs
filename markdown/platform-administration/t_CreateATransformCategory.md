@@ -2,6 +2,7 @@
 title: Create a transform category
 description: Create a transform category to group the transform definitions together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_CreateATransformCategory.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -36,5 +37,5 @@ Create a transform category to group the transform definitions together.
     -   **Transform Definitions**: Click **Edit** to select the transform definitions that are included in this category.
 
 
-**Parent Topic:**[Default Transform Definitions](../reference/r_DefsIncludedWFieldTransformation.md)
+**Parent Topic:**[Default Transform Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DefsIncludedWFieldTransformation.md)
 

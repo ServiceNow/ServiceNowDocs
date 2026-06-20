@@ -2,6 +2,7 @@
 title: Configuration Compliance dashboard
 description: This Platform Analytics Solution contains prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. Finish the following sentence with a short statement on the business use case for this Solution. For example: This Analytics and Reporting Solution helps you track trends in incidents and plan your incident management strategy going forward.This Platform Analytics Solution provides visibility into non-compliant host level and cloud control plane configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-content-pack.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,10 +22,10 @@ The Performance Analytics for Configuration Compliance dashboard contains multip
 
 **Note:** The Performance Analytics for Configuration Compliance plugin must be installed to view the Configuration Compliance \[PA\] dashboard in the Next Experience framework. If not installed, you can view the existing dashboard, which is built using the reporting framework.
 
--   **[Activate Performance Analytics for Configuration Compliance](configuration-compliance-install.md)**  
+-   **[Activate Performance Analytics for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/configuration-compliance-install.md)**  
 Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
--   **[Viewing the Performance Analytics for Configuration Compliance dashboard](../../dashboards/application-content-packs/configuration-compliance-dashboard.md)**  
+-   **[Viewing the Performance Analytics for Configuration Compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/configuration-compliance-dashboard.md)**  
 You can manage your most important configuration issues and remediate them quickly by viewing the reports on the Configuration Compliance Performance Analytics \(PA\) dashboard.
 
-**Parent Topic:**[Analytics and reporting for Configuration Compliance](../../../product/vulnerability-config-compliance/concept/cc-pa-cc.md)
+**Parent Topic:**[Analytics and reporting for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-pa-cc.md)
 

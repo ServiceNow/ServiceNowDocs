@@ -2,6 +2,7 @@
 title: Configure Amazon Data Firehose integrations
 description: Configure an integration to stream log data from Amazon Data Firehose directly to the ServiceNow data center, where it’s queued for Health Log Analytics processing. There’s no need to store AWS keys on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-firehose.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -28,7 +29,7 @@ This integration doesn't run on a MID Server.
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left pane, select the Integrations Launchpad icon \(![Integration Launchpad icon](../../service-operations-workspace-itom/image/integrations-launchpad.png)\)
+2.  From the left pane, select the Integrations Launchpad icon \(\[Omitted image "integrations-launchpad.png"\] Alt text: Integration Launchpad icon\)
 
 3.  In the **Browse integrations** tab, enter `Firehose` in the search field.
 
@@ -38,7 +39,7 @@ This integration doesn't run on a MID Server.
 
 5.  On the **Provide details** form, fill in the fields.
 
-    For a description of the fields, see [AWS Firehose integration configuration fields](../reference/il-connector-hla-firehose-fields.md).
+    For a description of the fields, see [AWS Firehose integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-firehose-fields.md).
 
 6.  Select **Next**.
 
@@ -61,18 +62,18 @@ The integration is activated and the **Overview** tab is displayed. The tile for
 
 ## What to do next
 
-Leverage the information on the **Overview** tab to refine how HLA reads the log data. For more information, see [Review log data streaming status and sources of an integration](il-connector-overview-tab.md).
+Leverage the information on the **Overview** tab to refine how HLA reads the log data. For more information, see [Review log data streaming status and sources of an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-overview-tab.md).
 
-**Tip:** Use the More options menu \(![](../image/more-options.png)\) to open the **Data Input Mapping**, **Source Type Structures**, or **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More options menu also provides direct access to the **Log Viewer**, where you can review raw log messages ingested by the integration.
+**Tip:** Use the More options menu \(\[Omitted image "more-options.png"\] Alt text:\) to open the **Data Input Mapping**, **Source Type Structures**, or **Log Sources** pages with context from the integration. If your log data is not properly mapped, structured, or sourced, go back and adjust the configuration. If the Service Operations Workspace Log Analytics application is installed, the More options menu also provides direct access to the **Log Viewer**, where you can review raw log messages ingested by the integration.
 
 For more information, see:
 
--   [Log data auto-mapping and mapping](../concept/hla-data-input-automapping.md)
--   [Source type structure adjustment](../concept/hla-source-type-structure-adjustment.md)
--   [Review logs on the Log Viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept-sow.md)
+-   [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
+-   [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
+-   [Review logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-logs-log-viewer-concept-sow.md)
 
--   **[AWS Firehose integration configuration fields](../reference/il-connector-hla-firehose-fields.md)**  
+-   **[AWS Firehose integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/il-connector-hla-firehose-fields.md)**  
 Description of the fields on the AWS Firehose integration configuration forms for Health Log Analytics.
 
-**Parent Topic:**[Set up integrations from Integrations Launchpad](../concept/hla-data-input-setup-integrations.md)
+**Parent Topic:**[Set up integrations from Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)
 

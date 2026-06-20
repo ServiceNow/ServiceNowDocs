@@ -2,7 +2,10 @@
 title: Scheduling Health dashboard
 description: Use this dashboard to view technician metrics, task metrics and Schedule Optimization configuration details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/scheduling-health-dashboard.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Analytics and reporting for Field Service Management, Field Service
 
 Use this dashboard to view technician metrics, task metrics and Schedule Optimization configuration details.
 
-![Scheduling health dashboard overview](../../../product/field-service-management/image/Sch-Health-Dash.png)
+\[Omitted image "Sch-Health-Dash.png"\] Alt text: Scheduling health dashboard overview
 
 ## Required ServiceNow AI Platform roles
 
@@ -171,7 +174,7 @@ wm\_task
 The number of tasks that don't have latitude and longitude.
 
 </td></tr></tbody>
-</table>![Schedule optimization scheduling health metrics](../../../product/field-service-management/image/SO-scheduling-health.png)
+</table>\[Omitted image "SO-scheduling-health.png"\] Alt text: Schedule optimization scheduling health metrics
 
 ## Schedule Optimization Data Visualizations
 
@@ -249,5 +252,5 @@ The **Type** filter contains two choices, batch and intraday. Your selection wil
 |Batch|Single select|Generate a report based on the selected batch configuration.|
 |Intraday configuration|Single select|Generate a report based on the selected intraday configuration.|
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](../../../product/field-service-management/concept/analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/analytics-reporting-fsm.md)
 

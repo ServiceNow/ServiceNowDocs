@@ -2,6 +2,7 @@
 title: Code review notifications
 description: You must enable email notifications on the instance requiring code review for that instance to send code review notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/c\_CodeReviewNotifications.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -64,5 +65,5 @@ Push or Pull \[sys\_sync\_history\]
 -   The push that was canceled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Team Development](c_TeamDevelopment.md)
+</table>**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_TeamDevelopment.md)
 

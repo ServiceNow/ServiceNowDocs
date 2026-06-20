@@ -2,6 +2,7 @@
 title: Clause Management
 description: Clause management enables you to effectively manage a library of clauses, clause variations, and word document templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-expl-clause-mgmt.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

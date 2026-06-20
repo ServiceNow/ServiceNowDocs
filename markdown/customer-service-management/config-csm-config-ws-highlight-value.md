@@ -2,7 +2,10 @@
 title: Set up a highlighted value in a form header in CSM Configurable Workspace
 description: You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-config-ws-highlight-value.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

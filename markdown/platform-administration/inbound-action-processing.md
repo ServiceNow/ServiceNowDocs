@@ -2,6 +2,7 @@
 title: Inbound email action processing
 description: The system determines which inbound actions to run by comparing the inbound email type and inbound action conditions to the incoming email message. Certain properties are available to set the reply and forwarding prefixes in the email subject lines that your instance recognizes when processing inbound emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/inbound-action-processing.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ The system determines which inbound actions to run by comparing the inbound emai
 
 The system follows this processing flow to determine whether to run an inbound action.
 
-![](../image/inbound-action-processing.png "Inbound action processing work flow")
+\[Omitted image "inbound-action-processing.png"\] Alt text:
 
 The system only runs an inbound action when:
 
@@ -28,8 +29,6 @@ The system only runs an inbound action when:
 If any of these criteria are not met, the system skips the current inbound action and evaluates the next active inbound action. The system processes inbound actions from the lowest to highest **Order** value. If the inbound action has **Stop processing** enabled, the system updates the **State** of the email record to **Processed** after running the inbound action **Script**.
 
 The following video shows how an inbound action condition prevents an incident from being created.
-
-Troubleshooting when inbound email isn't processed
 
 ## Prefixes recognized in email subject lines
 
@@ -182,5 +181,5 @@ Example INC0005574
 The instance recognizes this subject as a new email because it does not contain a matching reply or forward prefix. It uses the inbound action for new emails to create an incident and associates the new incident with the email.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound email actions](actions-inbound-email.md)
+</table>**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/actions-inbound-email.md)
 

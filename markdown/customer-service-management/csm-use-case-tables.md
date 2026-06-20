@@ -2,7 +2,10 @@
 title: Customer Service Management and CSDM tables
 description: Customer Service Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Customer Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-use-case-tables.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Customer Service Management manages and uses CSDM tables. Several ServiceNow pro
 
 ## CSDM tables managed by CSM
 
-![CSDM tables managed by CSM.](../image/csdm-tables-managed-by-csm.png "CSM tables managed by CSDM")
+\[Omitted image "csdm-tables-managed-by-csm.png"\] Alt text: CSDM tables managed by CSM.
 
 CSM references the following CSDM tables:
 
@@ -47,7 +50,7 @@ CSM references the following CSDM tables:
 
 ## CSDM tables used by CSM
 
-![CSDM tables used by CSM.](../image/csdm-tables-used-by-csm.png "CSDM tables used by CSM")
+\[Omitted image "csdm-tables-used-by-csm.png"\] Alt text: CSDM tables used by CSM.
 
 1.  Company \[core\_company\], Business Unit \[business\_unit\], Department \[cmn\_department\], Location \[cmn\_location\], Groups \[sys\_user\_group\], Users \[sys\_user\]
 2.  Product Model tables \[cmdb\_model\], and \[cmdb\_service\_product\_model\]

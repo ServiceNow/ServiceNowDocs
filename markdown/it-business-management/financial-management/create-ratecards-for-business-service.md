@@ -2,11 +2,12 @@
 title: Create ratecards to fix price for your business service
 description: Create a ratecard that lists prices for your business service or business service components. As a service owner, you can create a ratecard for a statement item, which represents the business service that you own. The ratecard is based on the pricing policy method attached to the statement item for a fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/create-ratecards-for-business-service.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Service charging, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -124,7 +125,7 @@ Meaningful short description for the rate card.
 
 ## What to do next
 
-As a service charging analyst, you can [view all the showback statements](view-all-showback-statements.md) that are generated. The showback users can view the showback statements only when you publish the showback statements that you have generated.
+As a service charging analyst, you can [view all the showback statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/view-all-showback-statements.md) that are generated. The showback users can view the showback statements only when you publish the showback statements that you have generated.
 
-**Parent Topic:**[Service charging](../concept/service-charging.md)
+**Parent Topic:**[Service charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/service-charging.md)
 

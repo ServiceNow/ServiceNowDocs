@@ -2,7 +2,10 @@
 title: Cloud Configuration Governance Service Account Assume Role Config form
 description: The Cloud Configuration Governance Service Account Assume Role Config form displays detailed information about the assume role configuration used to access the trusting account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/ccg-service-account-assume-role-config-form.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -56,5 +59,5 @@ Credential Alias
 Optional: Credential alias for the AWS credential.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-reference.md)
 

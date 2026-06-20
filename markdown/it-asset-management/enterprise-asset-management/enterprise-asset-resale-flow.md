@@ -2,6 +2,7 @@
 title: Create an asset resale flow
 description: Create an asset resale flow for an asset to be resold in order to reduce waste and save cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -70,5 +71,5 @@ Only assets that are in a non-terminal state, which is any state in which the as
     The stage changes to documentation and a Resale Documentation task is created.
 
 
-**Parent Topic:**[Using Service Catalog for Enterprise Asset Management requests and flows](../concept/using-service-catalog-eam-requests-flows.md)
+**Parent Topic:**[Using Service Catalog for Enterprise Asset Management requests and flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/using-service-catalog-eam-requests-flows.md)
 

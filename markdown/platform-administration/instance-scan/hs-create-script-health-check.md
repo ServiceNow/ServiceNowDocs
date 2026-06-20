@@ -2,6 +2,7 @@
 title: Create a script only check
 description: Create a check without specifying a table or a column type by selecting Create a new Script Only Check. You can verify meta data, configurations, and execute complex checks by writing your own script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-create-script-health-check.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -20,7 +21,7 @@ Create a check without specifying a table or a column type by selecting **Create
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## About this task

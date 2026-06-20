@@ -2,6 +2,7 @@
 title: Omit an email notification watermark
 description: You can omit watermarks on email notifications if you do not want the instance to match the notification to an existing record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_OmitWatermarksIndEmailNotif.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -32,5 +33,5 @@ Role required: admin
 
 When incoming email does not contain a watermark, the system searches the subject line and message body for a record number. The system attempts to match any record number that it finds to an existing record. If there is a matching record number, the system updates the record with the values in the incoming email. To ensure that response email messages don't update records, remove the record number variable `${number}` from the **Subject** and **Message HTML** fields.
 
-**Parent Topic:**[Watermarks on notification emails](../concept/c_WorkingWithWatermarks.md)
+**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WorkingWithWatermarks.md)
 

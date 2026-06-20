@@ -2,6 +2,7 @@
 title: Viewing the Performance Analytics for Configuration Compliance dashboard
 description: You can manage your most important configuration issues and remediate them quickly by viewing the reports on the Configuration Compliance Performance Analytics \(PA\) dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/configuration-compliance-dashboard.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -37,7 +38,7 @@ The following roles are required for the Configuration Compliance Performance An
 
 To open the dashboard, navigate to **All** &gt; **Configuration Compliance** &gt; **Overview**.
 
-Starting with version 14.9 of Configuration Compliance, this dashboard can also be viewed in the New Experience UI. To view the dashboard in the new UI, navigate to **Workspaces** &gt; **Vulnerability Manager Workspace** and click the **Dashboards** icon. Depending on your role, the default dashboard is displayed. To view other dashboards, click the drop-down next to the dashboard name. For more information, see the [Dashboards in the Vulnerability Manager Workspace](../../../product/vulnerability-response/task/vr-ws-dashboards.md) and [Dashboards in the IT Remediation Workspace](../../../product/vulnerability-response/task/itr-ws-dashboards.md).
+Starting with version 14.9 of Configuration Compliance, this dashboard can also be viewed in the New Experience UI. To view the dashboard in the new UI, navigate to **Workspaces** &gt; **Vulnerability Manager Workspace** and click the **Dashboards** icon. Depending on your role, the default dashboard is displayed. To view other dashboards, click the drop-down next to the dashboard name. For more information, see the [Dashboards in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-manager-workspace/vr-ws-dashboards.md) and [Dashboards in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/itr-ws-dashboards.md).
 
 **Note:** If you are on Tokyo, you can view the dashboards in the Next Experience UI but with some functional loss.
 
@@ -54,25 +55,21 @@ The **Overview** tab provides five filters. These filters are the Asset category
 
 The following example shows how you can apply the filters in the **Overview** tab and perform the actions in the **KPI Details** tab.
 
-Overview tab in Configuration Compliance dashboard
-
 The **Compliance** tab displays the compliance percentage for the various authoritative sources, such as the Health Insurance Portability and Accountability Act \(HIPAA\) and the Data Interchange Standards Association \(DISA\). You can refine this list by using the column header filters and selecting a category.
 
 The following example shows how you can filter the data in the **Compliance** tab.
-
-Compliance tab in Configuration Compliance dashboard
 
 The **Remediation** tab displays the information about the progress of how remediation is going. You can use this tab to see into the misconfiguration remediation hygiene.
 
 The following example shows the **Remediation** tab.
 
-![Remediation tab](../image/cc-remediation-tab.png "Remediation tab")
+\[Omitted image "cc-remediation-tab.png"\] Alt text: Remediation tab
 
 The reports on the **Approvals** tab display the information about the exception requests and their approval status.
 
 The following example shows the **Approvals** tab.
 
-![Approvals tab](../image/cc-approvals-tab.png "Approvals tab")
+\[Omitted image "cc-approvals-tab.png"\] Alt text: Approvals tab
 
 ## Breakdowns
 
@@ -210,7 +207,7 @@ Compliance Trend
 
 </td><td>
 
-Line chart![Line chart that shows the compliance trend.](../../../reuse/reporting/image/line-multiple.svg)
+Line chart\[Omitted image "line-multiple.svg"\] Alt text: Line chart that shows the compliance trend.
 
 </td><td>
 
@@ -232,7 +229,7 @@ Remediation Task
 
 Single score
 
- ![Single score that shows the test result group.](../../performance-analytics/image/single-score.png)
+ \[Omitted image "single-score.png"\] Alt text: Single score that shows the test result group.
 
 </td><td>
 
@@ -250,7 +247,7 @@ Critical remediation tasks near due
 
 Single score
 
- ![Single score that shows the critical remediation tasks that are approaching the target.](../../performance-analytics/image/single-score.png)
+ \[Omitted image "single-score.png"\] Alt text: Single score that shows the critical remediation tasks that are approaching the target.
 
 </td><td>
 
@@ -268,7 +265,7 @@ Test results by risk rating
 
 Bar
 
- ![Bar that shows the test results by the risk rating.](../../../reuse/reporting/image/bar-stacked.svg)
+ \[Omitted image "bar-stacked.svg"\] Alt text: Bar that shows the test results by the risk rating.
 
 </td><td>
 
@@ -286,7 +283,7 @@ Test results by age
 
 Bar
 
- ![Bar that shows the test results by age.](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar that shows the test results by age.
 
 </td><td>
 
@@ -304,7 +301,7 @@ Closed test results by remediation target adherence
 
 Bar
 
- ![Bar that shows the closed test results by the remediation target adherence.](../../../reuse/reporting/image/bar-stacked.svg)
+ \[Omitted image "bar-stacked.svg"\] Alt text: Bar that shows the closed test results by the remediation target adherence.
 
 </td><td>
 
@@ -322,7 +319,7 @@ Overdue critical test results by assignment group
 
 List and Score
 
- ![List and score that show the overdue critical test results by the assignment group.](../../../reuse/reporting/image/score-list-tile.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the overdue critical test results by the assignment group.
 
 </td><td>
 
@@ -340,7 +337,7 @@ Overdue test results- services
 
 List, Score, and Trend
 
- ![List and score that show the overdue test results-services.](../../../reuse/reporting/image/score-list-tile.svg) ![Trend of the overdue test results-services.](../../../reuse/reporting/image/line-trend.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the overdue test results-services. \[Omitted image "line-trend.svg"\] Alt text: Trend of the overdue test results-services.
 
 </td><td>
 
@@ -358,7 +355,7 @@ Overdue test results- service owners
 
 List, Score, and Trend
 
- ![List and score that show the Overdue test results-service owners.](../../../reuse/reporting/image/score-list-tile.svg) ![Trend of the overdue test results-service owners.](../../../reuse/reporting/image/line-trend.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the Overdue test results-service owners. \[Omitted image "line-trend.svg"\] Alt text: Trend of the overdue test results-service owners.
 
 </td><td>
 
@@ -391,7 +388,7 @@ Remediation task by risk rating
 
 </td><td>
 
-Bar![Bar chart that shows the remediation task by the risk rating.](../../../reuse/reporting/image/trend.svg)
+Bar\[Omitted image "trend.svg"\] Alt text: Bar chart that shows the remediation task by the risk rating.
 
 </td><td>
 
@@ -409,7 +406,7 @@ Remediation task by remediation target status
 
 Bar
 
- ![Bar chart that shows the remediation task by the remediation target status.](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar chart that shows the remediation task by the remediation target status.
 
 </td><td>
 
@@ -427,7 +424,7 @@ Remediation task by assignment group
 
 List, Score, and Trend
 
- ![List and score that show the remediation task by the assignment group.](../../../reuse/reporting/image/score-list-tile.svg) ![Trend of the remediation task by the assignment group.](../../../reuse/reporting/image/line-trend.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the remediation task by the assignment group. \[Omitted image "line-trend.svg"\] Alt text: Trend of the remediation task by the assignment group.
 
 </td><td>
 
@@ -445,7 +442,7 @@ Overdue critical remediation task by assignment group
 
 List, Score, and Trend
 
- ![List and score that show the overdue critical remediation task by the assignment group.](../../../reuse/reporting/image/score-list-tile.svg) ![Trend of the overdue critical test result group by the assignment group.](../../../reuse/reporting/image/line-trend.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the overdue critical remediation task by the assignment group. \[Omitted image "line-trend.svg"\] Alt text: Trend of the overdue critical test result group by the assignment group.
 
 </td><td>
 
@@ -463,7 +460,7 @@ Expiring remediation task by age
 
 Bar
 
- ![Bar chart that shows the expiring remediation task by age.](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar chart that shows the expiring remediation task by age.
 
 </td><td>
 
@@ -481,7 +478,7 @@ All pending exception requests grouped by reason
 
 Bar
 
- ![Bar chart that shows all pending exception requests that are grouped by reason](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar chart that shows all pending exception requests that are grouped by reason
 
 </td><td>
 
@@ -499,7 +496,7 @@ Critical exceptions on test results by assignment group
 
 List, Score, and Trend
 
- ![List and score that show the critical exceptions on the test results by the assignment group.](../../../reuse/reporting/image/score-list-tile.svg) ![Trend of the critical exceptions on the test results by the assignment group.](../../../reuse/reporting/image/line-trend.svg)
+ \[Omitted image "score-list-tile.svg"\] Alt text: List and score that show the critical exceptions on the test results by the assignment group. \[Omitted image "line-trend.svg"\] Alt text: Trend of the critical exceptions on the test results by the assignment group.
 
 </td><td>
 
@@ -532,7 +529,7 @@ Exception requests by age pending my approval
 
 </td><td>
 
-Bar![Bar chart that shows the exception requests by age pending my approval.](../../../reuse/reporting/image/trend.svg)
+Bar\[Omitted image "trend.svg"\] Alt text: Bar chart that shows the exception requests by age pending my approval.
 
 </td><td>
 
@@ -550,7 +547,7 @@ Approval requests by reason
 
 Bar
 
- ![Bar chart that shows the approval requests by reason.](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar chart that shows the approval requests by reason.
 
 </td><td>
 
@@ -568,7 +565,7 @@ Remediation tasks having approval request by risk rating
 
 Bar
 
- ![Bar chart that shows the remediation tasks that have an approval request by risk rating.](../../../reuse/reporting/image/trend.svg)
+ \[Omitted image "trend.svg"\] Alt text: Bar chart that shows the remediation tasks that have an approval request by risk rating.
 
 </td><td>
 
@@ -586,7 +583,7 @@ My approval requests by approved and rejected status
 
 Bar
 
- ![Bar chart that shows my approval requests by the approved and rejected status.](../../../reuse/reporting/image/bar-stacked.svg)
+ \[Omitted image "bar-stacked.svg"\] Alt text: Bar chart that shows my approval requests by the approved and rejected status.
 
 </td><td>
 
@@ -604,7 +601,7 @@ Expiring exception requests by me by age
 
 Bar
 
- ![Bar chart that shows the expiring exception requests by me by age.](../../../reuse/reporting/image/bar-stacked.svg)
+ \[Omitted image "bar-stacked.svg"\] Alt text: Bar chart that shows the expiring exception requests by me by age.
 
 </td><td>
 
@@ -622,7 +619,7 @@ Status of exception requests requested by me
 
 Bar
 
- ![Bar chart that shows the status of the exception requests requested by me.](../../../reuse/reporting/image/bar-stacked.svg)
+ \[Omitted image "bar-stacked.svg"\] Alt text: Bar chart that shows the status of the exception requests requested by me.
 
 </td><td>
 
@@ -635,5 +632,5 @@ Exception requests that are created by you and that are grouped according to the
 -   Rejected
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration Compliance dashboard](../../application-content-packs/concept/cc-content-pack.md)
+</table>**Parent Topic:**[Configuration Compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-content-pack.md)
 

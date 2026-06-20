@@ -2,6 +2,7 @@
 title: Explore Contract Management Pro for Legal Service Delivery
 description: Learn more about Contract Management Pro for Legal Service Delivery through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-expl-sn-legal-contracts.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -35,7 +36,7 @@ Submit, review, finalize, and manage legal contract requests. The legal departme
 
 </td><td>
 
-[Contract Management Pro for Legal Service Delivery](snlc-expl-legal-contracts.md)
+[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)
 
 </td><td>
 
@@ -48,7 +49,7 @@ Contracts Core installed with Contract Management Pro for Legal Service Delivery
 
 </td><td>
 
-[Contracts Core](../../contract-mgmt-pro/concept/cncore-expl-ccore.md)
+[Contracts Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-ccore.md)
 
 </td><td>
 
@@ -60,7 +61,7 @@ Use Now Assist in Contract Management to analyze contracts for non-standard and 
 
 </td><td>
 
-[Now Assist in Contract Management](../../contract-mgmt-pro/concept/cncore-now-assit-landing.md)
+[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 
@@ -71,7 +72,7 @@ Now Assist contract fulfiller
 
 A sample workflow for a non-disclosure agreement \(NDA\) contract request might progress as follows:
 
-1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](snlc-config-sn-legal-contracts.md).
+1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md).
 2.  Legal requester fills out the NDA intake request form.
 3.  A contract request is initiated.
 4.  Contract document is generated from a contract template and content is added dynamically per predefined conditions.
@@ -135,8 +136,8 @@ As a legal fulfiller on the legal team, you work on assigned third-party review 
     -   If any changes are required, signature is declined, the user who is working on the contract request generates a new document and resends it for signature.
 12. The signed contract is stored on the ServiceNow instance or an external storage system and referenced in the contract repository. The requester and department members can access the signed contract document from the contracts repository.
 
--   **[Contract Management Pro for Legal Service Delivery](snlc-expl-legal-contracts.md)**  
+-   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)**  
 Contract Management Pro for Legal Service Delivery enables you to submit, review, finalize, and manage legal contract requests. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 
-**Parent Topic:**[Contract Management Pro for Legal Service Delivery](snlc-mgmt-pro-landing-page.md)
+**Parent Topic:**[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.md)
 

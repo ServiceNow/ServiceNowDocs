@@ -2,6 +2,7 @@
 title: Create a strict mode Connection and credential alias for Microsoft Exchange On-Premises
 description: Establish a strict mode connection and credential alias for Microsoft Exchange On-Premises so that you can synchronize reservations. Ensure that the values for the connection and credentials alias are set as specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-calendar-synchronization/create-connection-credential-alias-for-exchange-on-prem-in-strict-mode.html
 release: xanadu
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -17,7 +18,7 @@ Establish a strict mode connection and credential alias for Microsoft Exchange O
 
 ## Before you begin
 
-[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-onprem-mid-server-with-servicenow-strict-mode.md)
+[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/connect-onprem-mid-server-with-servicenow-strict-mode.md)
 
 Role required: admin
 
@@ -58,11 +59,11 @@ The Connection and Credentials alias is created.
 
 ## What to do next
 
-[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](configure-exchange-onprem-calendarprovider-strict-mode.md)
+[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-exchange-onprem-calendarprovider-strict-mode.md)
 
-**Parent Topic:**[Create a strict mode connection for Microsoft Exchange On-Premises](../concept/create-a-strict-mode-connection-for-onprem.md)
+**Parent Topic:**[Create a strict mode connection for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/create-a-strict-mode-connection-for-onprem.md)
 
-**Previous topic:**[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-onprem-mid-server-with-servicenow-strict-mode.md)
+**Previous topic:**[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/connect-onprem-mid-server-with-servicenow-strict-mode.md)
 
-**Next topic:**[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](configure-exchange-onprem-calendarprovider-strict-mode.md)
+**Next topic:**[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-calendar-synchronization/configure-exchange-onprem-calendarprovider-strict-mode.md)
 

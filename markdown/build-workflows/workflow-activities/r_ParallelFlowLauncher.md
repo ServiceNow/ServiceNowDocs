@@ -2,6 +2,7 @@
 title: Parallel Flow Launcher workflow activity
 description: The Parallel Flow Launcher activity launches multiple subflows in parallel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_ParallelFlowLauncher.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities
@@ -59,7 +60,7 @@ Inputs
 
 </td><td>
 
-Inputs to the subflows to run. Specify an array of name: value pairs for each input defined in the workflow being launched. The name and data type of each input variable entered must match those used by the subflow that this activity launches. For a detailed example, see [Parallel Flow Launcher Example](r_ParallelFlowLauncherExample.md).
+Inputs to the subflows to run. Specify an array of name: value pairs for each input defined in the workflow being launched. The name and data type of each input variable entered must match those used by the subflow that this activity launches. For a detailed example, see [Parallel Flow Launcher Example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-activities/r_ParallelFlowLauncherExample.md).
 
 </td></tr><tr><td class="subhead" colspan="2">
 
@@ -79,7 +80,7 @@ Advanced
 
 </td><td>
 
-Check **Advanced**, to enter a script that uses a WorkflowCoordinator object to manage the subflows. When you check Advanced, a text box appears where you can enter a script that specifies a unique workflow for each set of input variables. See [WorkflowCoordinator object](../concept/c_WorkflowCoordinatorObject.md) for more information.
+Check **Advanced**, to enter a script that uses a WorkflowCoordinator object to manage the subflows. When you check Advanced, a text box appears where you can enter a script that specifies a unique workflow for each set of input variables. See [WorkflowCoordinator object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-activities/c_WorkflowCoordinatorObject.md) for more information.
 
 </td></tr><tr><td class="subhead" colspan="2">
 
@@ -127,7 +128,7 @@ Flow complete
 
 </td><td>
 
-The script that runs each time a subflow finishes. This field is available when the **Process flow complete** option is selected. The same script functions and variables available in other workflow scripts, such as those in the Run Script activity, are available here. For more information, see [Completed subflow values in scripts](../concept/c_CompletedSubflowValuesInScripts.md).
+The script that runs each time a subflow finishes. This field is available when the **Process flow complete** option is selected. The same script functions and variables available in other workflow scripts, such as those in the Run Script activity, are available here. For more information, see [Completed subflow values in scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-activities/c_CompletedSubflowValuesInScripts.md).
 
  The variable "flow" is available to this script. It is an object that contains the following information about the flow that is finishing:
 

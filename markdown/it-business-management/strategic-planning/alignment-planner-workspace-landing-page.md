@@ -2,6 +2,7 @@
 title: Strategic Planning
 description: Strategic Planning Workspace \(SPW\) enables you to manage product feedback, portfolio planning, and enterprise agile planning for your organization. Evaluate product performance, align work with strategy, and scale your Agile framework from a single workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.html
 release: xanadu
 product: Strategic Planning
 classification: strategic-planning
@@ -25,19 +26,19 @@ Installing Strategic Planning also installs Product Feedback, Portfolio Planning
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[![](../../../reuse/icons/brand-icons/bus-innovation.svg) Feedback](../../spw-product-feedback/concept/product-feedback-landing.md)
+[\[Omitted image "bus-innovation.svg"\] Alt text: Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/product-feedback/product-feedback-landing.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-alignment.svg) Portfolio Planning](planning-in-spw.md)
+[\[Omitted image "bus-alignment.svg"\] Alt text: Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg) Enterprise Agile Planning](../../spw-eap/concept/eap-landing.md)
+[\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/enterprise-agile-planning/eap-landing.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-management-console.svg) Dashboards](../../spw-dashboards/concept/dashboards-in-spw.md)
+[\[Omitted image "bus-management-console.svg"\] Alt text: Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/strategic-planning/dashboards-in-spw.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

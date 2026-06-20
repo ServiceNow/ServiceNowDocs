@@ -2,6 +2,7 @@
 title: Generic Prompt action
 description: Use the Generic Prompt action for Workflow Studio to respond to a general prompt with an AI model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/generic-prompt-action.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller

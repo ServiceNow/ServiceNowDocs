@@ -2,6 +2,7 @@
 title: Domain separation and guided tours
 description: With the ServiceNow Platform, service providers \(SPs\) can provide their customers with faster onboarding, meet compliance, and protect their data using domain separation. You can separate client data, processes, and reports into logical groupings called domains. SPs control who sees and accesses what content. You can create and modify guided tours that apply to specific domains in your instance as well as tours that are available to users globally.Once you create a guided tour, you can specify a domain to which it applies. You can also copy the tour so that you can modify it for a specific domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-tours-domain-separation.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -21,9 +22,9 @@ Once you create a guided tour, you can specify a domain to which it applies. You
 
 ### Before you begin
 
-Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must [request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Role required: guided\_tour\_admin or admin. To use domain separation in guided tours, you must request domain separation.
 
-**Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](../../../administer/navigation-and-ui/task/t_ActivateUI16.md).
+**Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/t_ActivateUI16.md).
 
 ### Procedure
 
@@ -33,13 +34,13 @@ Role required: guided\_tour\_admin or admin. To use domain separation in guided 
 
     The **Domain** column indicates the domain to which a tour belongs, either Global, or the domain specified for the tour.
 
-3.  Click the gear icon next to the user name to open System Settings.![System settings gear icon](../image/system-settings-cog.png)
+3.  Click the gear icon next to the user name to open System Settings.\[Omitted image "system-settings-cog.png"\] Alt text: System settings gear icon
 
-4.  Enable the **Show domain picker in header** option.![Enable Domain Picker option in System Settings](../image/show-domain-picker.png)
+4.  Enable the **Show domain picker in header** option.\[Omitted image "show-domain-picker.png"\] Alt text: Enable Domain Picker option in System Settings
 
     This option is enabled when the switch appears green and is toggled to the right.
 
-5.  Use the domain picker to select the domain to add the modified tour to.![Domain picker choice list](../image/domain-picker.png)
+5.  Use the domain picker to select the domain to add the modified tour to.\[Omitted image "domain-picker.png"\] Alt text: Domain picker choice list
 
 6.  Select the guided tour.
 
@@ -50,5 +51,5 @@ Role required: guided\_tour\_admin or admin. To use domain separation in guided 
 
 ### Result
 
-In the specified domain, the saved version of the tour overrides the original for users in that domain. You can edit this tour to be specific for that domain. For more information, see [Edit a guided tour](../task/edit-guided-tour.md).
+In the specified domain, the saved version of the tour overrides the original for users in that domain. You can edit this tour to be specific for that domain. For more information, see [Edit a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/edit-guided-tour.md).
 

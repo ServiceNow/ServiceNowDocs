@@ -2,6 +2,7 @@
 title: Now Assist for Creator
 description: Now Assist for Creator includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.html
 release: xanadu
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -19,47 +20,47 @@ Now Assist for Creator includes generative AI skills that can make developing on
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Now Assist for Creator.](../task/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Now Assist for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
-[App generation![](../../../reuse/icons/brand-icons/bus-application-development.svg)Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://www.servicenow.com/docs/access?context=sns-now-assist-app-gen-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.
 
 </td><td>
 
-[Catalog item generation![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Generate catalog items using generative AI.](https://www.servicenow.com/docs/access?context=now-assist-for-catalog-generation&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.
 
 </td></tr><tr><td>
 
-[Code generation![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://www.servicenow.com/docs/access?context=now-assist-code-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.
 
 </td><td>
 
-[Data visualization generation![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)Generate Platform Analytics artifacts from conversational interactions.](https://www.servicenow.com/docs/access?context=analytics-assist-landing-page&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+Data visualization generation\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Generate Platform Analytics artifacts from conversational interactions.
 
 </td><td>
 
-[Flow generation![](../../../reuse/icons/brand-icons/bus-workflow.svg)Generate flow outlines from text directions.](flow-generation.md)
+[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Generate flow outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-generation.md)
 
 </td></tr><tr><td>
 
-[Flow recommendations![](../../../reuse/icons/brand-icons/bus-workflow.svg)Generate recommendations for the next step of a flow.](flow-recommendations.md)
+[Flow recommendations\[Omitted image "bus-workflow.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/flow-recommendations.md)
 
 </td><td>
 
-[Playbook generation![](../../../reuse/icons/brand-icons/bus-service-aware.svg)Generate playbook outlines from text directions.](../../process-automation-designer/concept/playbook-assist-landing.md)
+[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate playbook outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-landing.md)
 
 </td><td>
 
-[RPA bot generation ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Create automations, activities, and add automation logic from text instructions and preview options.](https://www.servicenow.com/docs/access?context=rpa-bot-generation&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.
 
 </td></tr><tr><td>
 
-[Spoke generation![](../../../reuse/icons/brand-icons/bus-workflow.svg)Create spoke from third-party API documentation snippets.](now-assist-in-spk-gen.md)
+[Spoke generation\[Omitted image "bus-workflow.svg"\] Alt text:Create spoke from third-party API documentation snippets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 
 </td><td>
 
-[UI generation![](../../../reuse/icons/brand-icons/bus-app-creator.svg)Create experiences by describing what you want using natural language.](https://www.servicenow.com/docs/access?context=ui-generation-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.
 
 </td><td>
 
@@ -89,7 +90,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

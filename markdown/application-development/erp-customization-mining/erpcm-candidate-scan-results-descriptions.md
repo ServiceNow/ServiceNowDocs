@@ -2,6 +2,7 @@
 title: ERP-CM candidate scan results field descriptions
 description: The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the latest scan of the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-candidate-scan-results-descriptions.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -80,5 +81,5 @@ Updated
 Date and time the table was most recently scanned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

@@ -2,11 +2,12 @@
 title: Use Multi-Provider SSO to set up an SSO approval for an OIDC authentication
 description: An SSO approval with e-signature requires configuration on the SAML IdP and the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/sso-esignature-approval-oidc.html
 release: xanadu
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -25,13 +26,13 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 ## Procedure
 
-1.  Activate the [Approval with E-Signature plugin](activate-approval-esignature.md).
+1.  Activate the [Approval with E-Signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/activate-approval-esignature.md).
 
 2.  Navigate to **Multi-Provider SSO** &gt; **Identity Providers** and verify your OIDC provider configurations
 
 3.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d156554e73">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d154467e73">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -39,7 +40,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d156554e82">
+</td></tr><tr><td id="d154467e82">
 
 **Authentication pop-up Dialog Width**
 
@@ -47,7 +48,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 800.
 
-</td></tr><tr><td id="d156554e91">
+</td></tr><tr><td id="d154467e91">
 
 **Authentication pop-up Dialog Height**
 
@@ -56,7 +57,7 @@ When a user approves a request using eSignature, a dialog opens and a user can e
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the height of that dialog box. The default is 900.
 
 </td></tr></tbody>
-</table>    ![OIDC eSignature Approval](../image/sso-esignature-approval-oidc.png)
+</table>    \[Omitted image "sso-esignature-approval-oidc.png"\] Alt text: OIDC eSignature Approval
 
 4.  Select **Submit** if you are configuring the E-signature during the initial OIDC setup or **Update** if you want to update the details in the E-signature.
 

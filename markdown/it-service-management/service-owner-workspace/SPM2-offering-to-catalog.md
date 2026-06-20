@@ -2,6 +2,7 @@
 title: Service offering to catalog item relationships
 description: Manage the relationships between your service offerings and catalog items by associating your pre-existing catalog items to your service offerings and vice versa. View relationships in both ServiceNow AI Platform form related lists and Service Owner Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-offering-to-catalog.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Using Service Owner Workspace, Service Owner Workspace, IT Service 
 
 Manage the relationships between your service offerings and catalog items by associating your pre-existing catalog items to your service offerings and vice versa. View relationships in both ServiceNow AI Platform form related lists and Service Owner Workspace.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md). For information about this topic, see [Subscribe users to a service offering in Service Portfolio Management](../../service-portfolio-management2/task/SPM2-subscribe-to-service-offering.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md). For information about this topic, see [Subscribe users to a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-portfolio-management/SPM2-subscribe-to-service-offering.md).
 
 ## Required roles and actions
 
@@ -29,7 +30,7 @@ With the catalog\_admin role, you can add, change, and remove service offerings 
 
 Click the **Link** button in the related list to make a change. You can remove the association if needed with the related list **Delete** button.
 
-**Note:** If a service offering is already associated to a catalog item, the **Link** button does not appear in the related list. For details about viewing and editing Catalog Items, refer to [Create or edit a catalog item](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** If a service offering is already associated to a catalog item, the **Link** button does not appear in the related list. For details about viewing and editing Catalog Items, refer to Create or edit a catalog item.
 
 ## Catalog items in Service Owner Workspace
 

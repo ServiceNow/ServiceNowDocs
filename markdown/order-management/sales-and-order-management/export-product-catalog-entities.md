@@ -2,6 +2,7 @@
 title: Export product catalog entities
 description: Export product catalog entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/export-product-catalog-entities.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,7 +18,7 @@ Export product catalog entities as a JSON file and save the file to your local d
 
 ## Before you begin
 
-After upgrading to the Xanadu release, check with your administrator that the **Code** field values are available for the main product catalog entities in your source and target instances. For more information, see [Add Code field values to catalog entities after upgrading](run-fix-script-sched-job-export.md).
+After upgrading to the Xanadu release, check with your administrator that the **Code** field values are available for the main product catalog entities in your source and target instances. For more information, see [Add Code field values to catalog entities after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/run-fix-script-sched-job-export.md).
 
 Role required: product\_catalog\_admin
 
@@ -27,7 +28,7 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -51,7 +52,7 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
     The exported file appears in the **Attachments** pane.
 
-    ![The Catalog Export Request page with an exported JSON file in the Attachments pane.](../image/e-i-attachment-screen.png)
+    \[Omitted image "e-i-attachment-screen.png"\] Alt text: The Catalog Export Request page with an exported JSON file in the Attachments pane.
 
 8.  Select the attachment to download the exported file.
 
@@ -60,6 +61,6 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 ## What to do next
 
--   [Import product catalog entities](import-product-catalog-entities.md)
--   [View export job status](view-export-job-status.md)
+-   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/import-product-catalog-entities.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/view-export-job-status.md)
 

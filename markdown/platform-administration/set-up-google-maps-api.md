@@ -2,6 +2,7 @@
 title: Set up Google Maps API
 description: You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/set-up-google-maps-api.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: admin
 
 You can generate maps using basic JavaScript, and they are flexible enough to display even the most complicated of queries. These maps use standard Google Maps API for Business or Google Maps JavaScript API Key mapping features, including various link types to records in your instance. Use of this feature requires installation of the Google Maps plugin.
 
-![Map page](../image/MapPage.jpg "Map page")
+\[Omitted image "MapPage.jpg"\] Alt text: Map page
 
 **Important:** Starting May 2026, Google is deprecating the use of Client ID for authenticating requests to Google Maps. From this date onward, API keys will be the only supported authentication method. If your application continues to use client-id \(for example, via the **google.maps.method property**\), Google Maps requests will fail. For more information, see [Client ID Migration Guide](https://developers.google.com/maps/premium/migrate-client-id).
 
@@ -33,15 +34,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d88762e127">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d79067e127">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d88762e133">
+</th><th align="left" id="d79067e133">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d88762e139">
+</th></tr></thead><tbody><tr><td id="d79067e139">
 
 **Existing license available**
 
@@ -56,7 +57,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d88762e213">
+</td></tr><tr><td id="d79067e213">
 
 **No license available**
 
@@ -281,5 +282,5 @@ Maximum number of records in a table that can be processed using the scheduled j
     5.  Click **Save**.
 
 
-**Parent Topic:**[ServiceNow provided integrations](../../../integrate/vendor-specific-integrations/reference/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ServiceNowProvidedintegrations.md)
 

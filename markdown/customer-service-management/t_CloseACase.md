@@ -2,7 +2,10 @@
 title: Close a customer service case
 description: Close a case at any time, except when it is in the Resolved state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CloseACase.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,15 +32,15 @@ An agent or agent manager can close a case at any time, except when it is in the
 
 2.  Depending on the user interface, navigate to the correct form section.
 
-<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d91029e88">
+<table id="choicetable_i1v_bxl_l4b"><thead><tr><th align="left" id="d65718e88">
 
 Interface
 
-</th><th align="left" id="d91029e91">
+</th><th align="left" id="d65718e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91029e97">
+</th></tr></thead><tbody><tr><td id="d65718e97">
 
 **CSM Configurable Workspace
 
@@ -46,11 +49,11 @@ Steps
 </td><td>
 
 1.  Click the **Details** tab.
-2.  Click the menu icon \(![Customer service case form menu icon](../../../common/image/icon-menu.png)\) at the top of the Details section.
+2.  Click the menu icon \(\[Omitted image "icon-menu.png"\] Alt text: Customer service case form menu icon\) at the top of the Details section.
 3.  Select **Closure Information**.
 
 
-</td></tr><tr><td id="d91029e134">
+</td></tr><tr><td id="d65718e134">
 
 **Platform interface**
 

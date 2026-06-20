@@ -2,7 +2,10 @@
 title: Customer service email properties
 description: If you have the administrator role, you can set several properties for the Customer Service Management email communication channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r\_CustomerServiceEmailProperties.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -77,7 +80,7 @@ Email history notifications
 
 </td><td>
 
-By default, the email history shows the last three comments in the case record. To customize the number of notifications \(emails and comments\) on a case record in email replies and email notifications, add this script `${mail_script:get_emails_comments_activity_history}` to the template. Two examples of templates you can use the script to update are email reply template \(reply-received\) and the case commented template \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](../concept/config-email-notifications.md).
+By default, the email history shows the last three comments in the case record. To customize the number of notifications \(emails and comments\) on a case record in email replies and email notifications, add this script `${mail_script:get_emails_comments_activity_history}` to the template. Two examples of templates you can use the script to update are email reply template \(reply-received\) and the case commented template \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-email-notifications.md).
 
 </td></tr></tbody>
 </table>

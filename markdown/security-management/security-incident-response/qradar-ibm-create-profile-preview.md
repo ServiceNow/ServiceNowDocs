@@ -2,6 +2,7 @@
 title: Preview the security incident for the IBM QRadar integration
 description: After you complete the mapping step, preview the values that you mapped in a SIR security incident. This preview step permits you to verify that you have mapped all the offense fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/qradar-ibm-create-profile-preview.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 3.  Review the field mapping of the offense values on the security incident.
 
-    ![IBM QRadar: Create Profile: Preview](../image/ibm-qradar-profile-preview-1.png)
+    \[Omitted image "ibm-qradar-profile-preview-1.png"\] Alt text: IBM QRadar: Create Profile: Preview
 
     The preceding image is an example of a preview with a mapping error of the samples that were ingested.
 

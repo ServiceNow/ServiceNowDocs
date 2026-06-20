@@ -2,6 +2,7 @@
 title: System-managed developer and deployment roles
 description: Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/delegated-development-and-deployment/delegated-dev-deploy-user-roles.html
 release: xanadu
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -15,7 +16,7 @@ breadcrumb: [Instance-specific deployment user roles, Configuring Delegated Deve
 
 Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 <table id="table_wp4_wjx_hv"><thead><tr><th>
 

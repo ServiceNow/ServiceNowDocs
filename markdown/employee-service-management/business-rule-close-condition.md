@@ -2,7 +2,10 @@
 title: Configure business rule for close condition
 description: Configure the business rule for close condition to auto-import the chats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/business-rule-close-condition.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,17 +24,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
 
-    ![Business rules](../images/business-rules.png)
+    \[Omitted image "business-rules.png"\] Alt text: Business rules
 
 2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
-    ![Close condition](../images/itsm-business-rule-close-condition.png)
+    \[Omitted image "itsm-business-rule-close-condition.png"\] Alt text: Close condition
 
     In the Advanced tab, update the **Condition** and the **Script** fields.
 
-    ![Condition and script values](../images/condition-script-itsm-business-rules.png)
+    \[Omitted image "condition-script-itsm-business-rules.png"\] Alt text: Condition and script values
 
 <table id="table_j3d_hxy_vqb"><thead><tr><th>
 
@@ -106,5 +109,5 @@ new sn_tcm_collab_hook.MSTeamsImportChatUtils().closeChatStorageRecords(current)
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](../concept/customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/customize-sn-ms-teams.md)
 

@@ -2,6 +2,7 @@
 title: Create a discovery schedule in Cloud Discovery Workspace
 description: Create schedules for discovering cloud resources based on the discovery method that you choose: service accounts or IP ranges. The discovery schedule defines the various settings for the cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cloud-operations-disco-create-schedule.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -17,10 +18,10 @@ Create schedules for discovering cloud resources based on the discovery method t
 
 ## Before you begin
 
--   Ensure that the Cloud Discovery Workspace application is installed on the ServiceNow AI Platform. For more information, see [Install Cloud Discovery Workspace](../../cloud-operations-workspace/task/install-cloud-ops-wrksp.md).
--   Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and [Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US). Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
+-   Ensure that the Cloud Discovery Workspace application is installed on the ServiceNow AI Platform. For more information, see [Install Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-discovery-workspace/install-cloud-ops-wrksp.md).
+-   Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows. Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
 -   Ensure that suitable credentials are available in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery.
--   Pattern-based discovery runs by default. In scenarios where the latest patterns application is not installed, discovery fails and you are prompted to install or migrate from CAPI-based discovery. For more information, see [Migrate from CAPI to Patterns](migrate-from-capi-to-pattern.md).
+-   Pattern-based discovery runs by default. In scenarios where the latest patterns application is not installed, discovery fails and you are prompted to install or migrate from CAPI-based discovery. For more information, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
 
 Role required: discovery\_admin
 
@@ -34,7 +35,7 @@ The ServiceNow® Cloud Discovery wizard begins with the account selection and te
 
 The default timeout value is 300000 milliseconds or 5 minutes.
 
-You can configure Cloud Discovery to auto-refresh the list of subaccounts and datacenters before each scheduled discovery. For more information, see [Create discovery schedules for cloud resources](../concept/discovery-manager.md#).
+You can configure Cloud Discovery to auto-refresh the list of subaccounts and datacenters before each scheduled discovery. For more information, see [Create discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-manager.md).
 
 ## Procedure
 
@@ -46,13 +47,13 @@ You can configure Cloud Discovery to auto-refresh the list of subaccounts and da
 
     1.  Fill the values on the Choose the provider form.
 
-        For description of the form fields, see [Create a new discovery schedule form reference](../reference/create-a-new-discovery-schedule-form.md).
+        For description of the form fields, see [Create a new discovery schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/create-a-new-discovery-schedule-form.md).
 
     2.  Select **Next**.
 
 4.  Select service account for the Cloud Discovery scheduleor create a service account.
 
-    For description of the service account form fields, see [Cloud Discovery service account form reference](../reference/cloud-operations-disco-service-account-form.md). If you select an existing account, the system auto-completes the form with the available information.
+    For description of the service account form fields, see [Cloud Discovery service account form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/cloud-operations-disco-service-account-form.md). If you select an existing account, the system auto-completes the form with the available information.
 
     **Note:** VMware discovery can run without a service account. To discover VMware resources, configure the schedule to run on the IP address of the vCenter server.
 

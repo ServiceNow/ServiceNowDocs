@@ -2,6 +2,7 @@
 title: Create a provider integration profile
 description: Create a provider integration profile to convert any format of Scratchpad update sent by your provider to a format required for the Zero Touch request flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/create-int-profile-ztr-ham.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,7 +18,7 @@ Create a provider integration profile to convert any format of Scratchpad update
 
 ## Before you begin
 
-You must have the Script Include with the method **transformScratchPadToHAMZTRFormat**. For details, see [Create a Script Include to transform Scratchpad updates from the provider](../concept/creating-script-include-for-provide-ztr.md).
+You must have the Script Include with the method **transformScratchPadToHAMZTRFormat**. For details, see [Create a Script Include to transform Scratchpad updates from the provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/creating-script-include-for-provide-ztr.md).
 
 Role required: admin
 

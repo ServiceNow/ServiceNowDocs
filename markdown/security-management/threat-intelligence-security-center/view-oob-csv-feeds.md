@@ -2,13 +2,14 @@
 title: View CSV Feeds
 description: View the CSV Feeds that are configured in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/view-oob-csv-feeds.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View CSV Feeds
@@ -39,5 +40,5 @@ Role required: sn\_sec\_tisc.admin
 4.  Click **Edit** to edit the feed.
 
 
-**Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)
+**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
 

@@ -2,6 +2,7 @@
 title: Creating content through Content Governance
 description: When a content request item is assigned to you, create and schedule the content, then send it for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/creating-content-governance.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ Role required: sn\_cd.content\_manager
 
 6.  Click **Create Content**.
 
-    Create and schedule the content in the [Content Library](../concept/ec-streamline-content.md).
+    Create and schedule the content in the [Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
     **Note:** When you are creating the publish plan, the **Inactive** option is selected by default. When the content is approved, the system activates the publish plan. Alternatively, you can set a publishing duration. However, if you select **Always active**, the content will publish without approval.
 
@@ -44,5 +45,5 @@ Role required: sn\_cd.content\_manager
     The system updates the content request status to `In Review`. To edit the content, you must revert the status to `In Progress`.
 
 
-**Parent Topic:**[Managing content requests with Content Governance](../concept/ec-content-governance.md)
+**Parent Topic:**[Managing content requests with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

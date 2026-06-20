@@ -2,6 +2,7 @@
 title: Opt in to the enhanced Enhanced Requests Experience
 description: Opt in to the Enhanced Requests Experience, as an existing customer, to get the benefits of the updated features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/opt-in-emre.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation

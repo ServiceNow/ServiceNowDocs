@@ -2,11 +2,12 @@
 title: Regulatory Change Management Core UI
 description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. The application ensures overall regulatory compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm-classic-ui.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---

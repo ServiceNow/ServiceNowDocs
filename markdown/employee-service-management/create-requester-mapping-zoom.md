@@ -2,7 +2,10 @@
 title: Create requester mapping
 description: Create a requester mapping to extend the Zoom chat functionality to other tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-requester-mapping-zoom.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -87,5 +90,5 @@ Order of the configuration.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](../concept/additional-configuration-sn-cs-zoom.md)
+**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/additional-configuration-sn-cs-zoom.md)
 

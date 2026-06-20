@@ -2,7 +2,10 @@
 title: Edit or delete a non-work order event
 description: Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/edit-delete-event.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d63105e81">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d53257e81">
 
 Option
 
-</th><th align="left" id="d63105e84">
+</th><th align="left" id="d53257e84">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d63105e90">
+</th></tr></thead><tbody><tr><td id="d53257e90">
 
 **Edit the event**
 
@@ -45,7 +48,7 @@ Actions
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d63105e120">
+</td></tr><tr><td id="d53257e120">
 
 **Delete the event**
 

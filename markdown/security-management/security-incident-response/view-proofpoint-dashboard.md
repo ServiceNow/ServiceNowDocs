@@ -2,6 +2,7 @@
 title: View Proofpoint Analytics Dashboard
 description: This Proofpoint analytics dashboard provides details of VAP Users and Top Clickers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/view-proofpoint-dashboard.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_si\_admin
 
 3.  Select **Proofpoint Analytics Dashboard** from the drop-down list.
 
-    The Proofpoint Analytics Dashboard appears.![Proofpoint Analytics Dashboard](../image/proofpoint-analyst-dashboard-sir.png)
+    The Proofpoint Analytics Dashboard appears.\[Omitted image "proofpoint-analyst-dashboard-sir.png"\] Alt text: Proofpoint Analytics Dashboard
 
 4.  Select **VAP Users** tab to view the list of VAP users.
 

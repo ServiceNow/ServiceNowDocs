@@ -2,6 +2,7 @@
 title: Configure a Lifecycle Events trigger for activity sets
 description: Create triggers for activity sets in Lifecycle Events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/lifecycle-events/le-config-event-trigger.html
 release: xanadu
 product: Lifecycle Events
 classification: lifecycle-events
@@ -31,13 +32,13 @@ Role required: admin
 
 5.  Select a **Trigger type**.
 
-    For information about the trigger types, see [Lifecycle Events activity set trigger types](../reference/le-activity-set-trigger-types.md).
+    For information about the trigger types, see [Lifecycle Events activity set trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/le-activity-set-trigger-types.md).
 
 6.  Select **Update**.
 
 
--   **[Lifecycle Events activity set trigger types](../reference/le-activity-set-trigger-types.md)**  
+-   **[Lifecycle Events activity set trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/le-activity-set-trigger-types.md)**  
 Administrators can configure activity set triggers to make activities in an activity set available.
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

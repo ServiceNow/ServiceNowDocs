@@ -2,6 +2,7 @@
 title: Create a catalog request to reclaim assets
 description: Create a catalog request to efficiently reclaim software assets when an employee leaves an organization or moves to a different role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-catalog-req-offboardingsam.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -42,11 +43,11 @@ Role required: sam\_admin or sam\_user
 
 5.  Select **Submit**.
 
-    The asset reclamation request is created. Once the request is created, the sam\_user needs to close all the tasks mentioned in the request. For more details, see [Close an asset reclamation request](close-an-asset-reclamation-request.md).
+    The asset reclamation request is created. Once the request is created, the sam\_user needs to close all the tasks mentioned in the request. For more details, see [Close an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/close-an-asset-reclamation-request.md).
 
 
--   **[Close an asset reclamation request](close-an-asset-reclamation-request.md)**  
+-   **[Close an asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/close-an-asset-reclamation-request.md)**  
 Close an asset reclamation request to efficiently reclaim software assets when an employee leaves an organization or moves to a different role.
 
-**Parent Topic:**[Setting up Software Asset Management](../concept/setup-sam.md)
+**Parent Topic:**[Setting up Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/setup-sam.md)
 

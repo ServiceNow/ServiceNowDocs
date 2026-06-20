@@ -2,6 +2,7 @@
 title: Initiate metadata extraction from a contract
 description: Extract metadata from a signed contract attached in a contract repository record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-extract-metadata.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ Extract metadata from a signed contract attached in a contract repository record
 
 ## About this task
 
-**Note:** You can also configure the system properties to automatically initiate the metadata extraction process once the contract repository record is created. For more information, see [Configure system properties for metadata extraction](cncore-conf-sys-prop-na.md).
+**Note:** You can also configure the system properties to automatically initiate the metadata extraction process once the contract repository record is created. For more information, see [Configure system properties for metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-conf-sys-prop-na.md).
 
 ## Before you begin
 
@@ -27,28 +28,28 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d177784e73">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d169262e73">
 
 Method
 
-</th><th align="left" id="d177784e76">
+</th><th align="left" id="d169262e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d177784e82">
+</th></tr></thead><tbody><tr><td id="d169262e82">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(![List icon.](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 3.  Select **Executed contracts**.
 4.  Select **All**.
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d177784e130">
+</td></tr><tr><td id="d169262e130">
 
 **Workspace used by your application**
 
@@ -68,5 +69,5 @@ Steps
     The **Review extracted metadata** button appears on initiating the metadata extraction. You can select the button after the metadata extraction is completed.
 
 
-**Parent Topic:**[Metadata extraction using Now Assist in Contract Management](../concept/cncore-metadata-extract-land.md)
+**Parent Topic:**[Metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

@@ -2,6 +2,7 @@
 title: View achievement credential templates
 description: View achievement credential templates in Achievements and Credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/talent-development-core/view-ach-credential-templates.html
 release: xanadu
 product: Talent Development Core
 classification: talent-development-core
@@ -37,8 +38,8 @@ Role required: admin
     |Achievement template skills|Skills attached to the template. To attach a new skill to the template, see .|
 
 
--   **[Add skill to an achievement template](add-skill-achievement.md)**  
+-   **[Add skill to an achievement template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/add-skill-achievement.md)**  
 Associate a skill to an achievement credential template in Achievements and Credentials.
 
-**Parent Topic:**[Achievements and Credentials in Talent Development Core](../concept/achievements-and-credentials-in-td.md)
+**Parent Topic:**[Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md)
 

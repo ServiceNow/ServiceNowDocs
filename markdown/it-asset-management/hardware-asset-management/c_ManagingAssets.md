@@ -2,6 +2,7 @@
 title: Asset and CI management
 description: Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/c\_ManagingAssets.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -34,7 +35,7 @@ The State field of asset record and Status field of CI record are synchronized s
 
 The following diagram illustrates the concept of Asset-CI mapping and synchronization.
 
-![Overview of Asset-CI mapping and synchronization process](../image/AssetCImapsync.png "Overview of Asset-CI mapping and synchronization")
+\[Omitted image "AssetCImapsync.png"\] Alt text: Overview of Asset-CI mapping and synchronization process
 
 This synchronization and mapping is based on the following factors:
 
@@ -97,9 +98,9 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 -   When the system property is set to **false**, synchronization of the CSDM Lifecycle fields is through the legacy State and Substate fields.
 -   When the system property is set to **true**, the CSDM Life Cycle Stage and Status fields are directly synchronized.
 
-**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see [Enabling CSDM life-cycle sync between legacy fields and related assets](https://www.servicenow.com/docs/access?context=csdm-life-cycle-standard-values&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see .
 
-![Synchronization of status fields](../../hardware-asset-management/image/asset-ci-ibi-sync.png "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to false")
+\[Omitted image "asset-ci-ibi-sync.png"\] Alt text: Synchronization of status fields
 
 -   **Synchronization of updates from asset to IBI and CI**
 
@@ -118,7 +119,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     Updates made to the Status and Substatus fields of a CI are synchronized with the corresponding fields of the asset. The legacy fields of the asset are then synchronized with the Life Cycle Stage and Life Cycle Stage Status fields of the IBI asset through the CSDM fields. For example, when the Status and Substatus fields of a CI are updated to Retired and Donated, the corresponding fields of the asset change. The changes from the asset are synchronized with the IBI asset and the Life Cycle Stage and Life Cycle Stage Status fields change to End of Life and Retired.
 
 
-![Synchronization through CSDM fields](../../hardware-asset-management/image/asset-ci-ibi-sync-new-prop.png "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to true")
+\[Omitted image "asset-ci-ibi-sync-new-prop.png"\] Alt text: Synchronization through CSDM fields
 
 -   **Synchronization of updates from asset to CI and IBI**
 

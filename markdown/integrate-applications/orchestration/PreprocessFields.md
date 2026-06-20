@@ -2,6 +2,7 @@
 title: Activity designer template pre-processing fields
 description: Use the Pre Processing form of the activity designer to define a script to run before the activity executes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/orchestration/PreprocessFields.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -36,7 +37,7 @@ The supported messages are:
 -   `ActivityLogger.warn ("Pre Processing Log Message");`
 -   `ActivityLogger.error("Pre Processing Log Message");`
 
-![ActivityLogger API](../image/Pre-ProcessLoggingAPI.png "ActivityLogger API")
+\[Omitted image "Pre-ProcessLoggingAPI.png"\] Alt text: ActivityLogger API
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](../task/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/create-custom-activities.md)
 

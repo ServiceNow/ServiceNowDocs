@@ -2,7 +2,10 @@
 title: Managing part requirements in Dispatcher Workspace
 description: As a dispatcher, you can create, source part requirements and requests from Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/managing-part-requirements-dw.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Working in Dispatcher Workspace, Scheduling and dispatching work or
 
 As a dispatcher, you can create, source part requirements and requests from Dispatcher Workspace.
 
-You can create part requirements and source parts for the qualified work order tasks from Dispatcher Workspace. If a work order is created from a [work order template](../../it-services/concept/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task.
+You can create part requirements and source parts for the qualified work order tasks from Dispatcher Workspace. If a work order is created from a [work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task.
 
 Enabling the Apply Work Order template in draft status option, allows you to create or edit work order tasks and part requirements even when the work order and work order task is in the draft state.
 

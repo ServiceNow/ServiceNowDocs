@@ -2,6 +2,7 @@
 title: Components installed with Retail Core
 description: Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-operations-components-installed.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Retail Core reference, Retail Core, Retail]
 
 Several types of components such as tables, user roles, and business rule are installed when you activate the Retail Core plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see .
 
 ## Tables installed with Retail Core
 
@@ -44,7 +45,7 @@ Stores information about your retail case types and provides the basis for retai
 </td></tr></tbody>
 </table>## Base roles installed with Retail Core
 
-For information on configuring these roles for retail, see [Assign roles to Retail Core users](../task/rahi-retail-assign-roles-users.md).
+For information on configuring these roles for retail, see [Assign roles to Retail Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-assign-roles-users.md).
 
 <table id="table_d5t_ttp_bdc"><thead><tr><th>
 
@@ -161,7 +162,7 @@ Business Location
 
 This plugin supports the Service Model Foundation, where the corporation does business with customers through physical channels such as stores and branches.
 
- For more information, see [Configure Service Model Foundation](https://www.servicenow.com/docs/access?context=configure-industry-data-model&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -173,7 +174,7 @@ Customer Service
 
 The Customer Service Management application enables you to provide service and support for your external customers using several communication channels, such as email, web, and telephone. A case is created to track the issue reported or service requested and assigned to groups or agents. Customer service agents in your organization work on the cases and resolve issues.
 
- For more information, see [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+ For more information, see .
 
 </td></tr></tbody>
 </table>## Business rules installed with Retail Core
@@ -183,5 +184,5 @@ The Customer Service Management application enables you to provide service and s
 |Add manager member for retail org|sn\_customer\_service\_organization|After update or insert|Assigns the sn\_retail.manager role to the user added as a manager in a retail organization.|
 |Restrict SO update|sn\_retail\_organization|Before update|Restricts the user from updating the Service Organization field in the Retail Organization \[sn\_retail\_organization\] table.|
 
-**Parent Topic:**[Retail Core reference](rahi-retail-operations-reference.md)
+**Parent Topic:**[Retail Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-reference.md)
 

@@ -2,6 +2,7 @@
 title: Mobile app for Hardware Asset Management
 description: Use the ServiceNow Mobile and ServiceNow Agent apps to manage your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/mobile-my-asset.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -15,10 +16,10 @@ breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT 
 
 Use the ServiceNow Mobile and ServiceNow Agent apps to manage your assets.
 
--   **[ServiceNow Agent app](../../../product/asset-management/concept/agent-mobile-asset.md#)**  
+-   **[ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/agent-mobile-asset.md)**  
 Use the ServiceNow Agent app to create assets, look up assets, and receive assets from a purchase order.
--   **[Now Mobile app](../../../product/asset-management/concept/now-mobile-asset.md)**  
+-   **[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/now-mobile-asset.md)**  
 Use the Now Mobile app to view the assets that are assigned to you, to report any issues with your assets, and to remotely receive new assets. Create incidents to report any issues with your assets to your IT department.
 
-**Parent Topic:**[IT Asset Management](../../../product/software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/it-asset-management.md)
 

@@ -2,6 +2,7 @@
 title: Set up the SAP ECC RFC spoke
 description: Integrate the ServiceNow instance and SAP ECC RFC account by using the Basic Auth credentials to authenticate ServiceNow requests.Configure MID Server using the SAP proprietary JAR files to integrate SAP ECC RFC account with your ServiceNow instance.Create a credential record for the SAP ECC RFC account. The SAP ECC RFC spoke connection and credential alias uses these credentials to authorize actions.Create a connection record for your SAP ECC RFC account. The SAP ECC RFC spoke connection and credential aliases use these connections to perform actions in SAP ECC RFC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-sap-ecc-rfc.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -37,7 +38,7 @@ Role required: admin.
 
 2.  Disable the MIME type validation for file attachments.
 
-    ![Option to disable the MIME type validation](../image/mime-type-sap-ecc-rfc.png)
+    \[Omitted image "mime-type-sap-ecc-rfc.png"\] Alt text: Option to disable the MIME type validation
 
     **Note:** This is applicable only if your MID Server is installed on a Linux machine
 
@@ -45,7 +46,7 @@ Role required: admin.
 
 4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP ECC RFC admin.
 
-    For more information, see [Synchronize a JAR file to MID Servers](https://www.servicenow.com/docs/access?context=t_SynchronizeAJARFiletoMIDServers&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    For more information, see Synchronize a JAR file to MID Servers.
 
 
 ### What to do next
@@ -178,7 +179,7 @@ Capabilities
 
 </td><td>
 
-Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr><tr><td>
 
@@ -186,7 +187,7 @@ MID Application
 
 </td><td>
 
-Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr></tbody>
 </table>6.  In the **Connection Attributes** tab, provide these details.

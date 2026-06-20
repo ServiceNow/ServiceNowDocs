@@ -2,6 +2,7 @@
 title: Configure service offering costing cost model
 description: Configure the service offering costing cost model to allocate expenses and generate bucket cost lines for services offered at each level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/customize-service-offering-costing-cost-model.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -120,8 +121,8 @@ Option to show sub-bucket information. If selected, the generated cost lines and
 
     Calculate spend per service offering based on the consumption data stored in the service offering allocation maps table.
 
-    To configure the service offering allocation map table and allocate expenses using weighted method, see [Allocate expenses using service offering allocation map](use-service-offering-allocation-maps.md).
+    To configure the service offering allocation map table and allocate expenses using weighted method, see [Allocate expenses using service offering allocation map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/use-service-offering-allocation-maps.md).
 
 
-**Parent Topic:**[Financial Management for licensed SPM users](../concept/financial-management-spm.md)
+**Parent Topic:**[Financial Management for licensed SPM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-management-spm.md)
 

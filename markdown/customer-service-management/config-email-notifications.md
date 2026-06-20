@@ -2,7 +2,10 @@
 title: Configure email and comment notifications
 description: As an admin, you can add a script to notification and reply templates so that the activity shown in the thread matches the value set in \[number\_of\_activities\_in\_notification\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-email-notifications.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-08"
 reading_time_minutes: 1

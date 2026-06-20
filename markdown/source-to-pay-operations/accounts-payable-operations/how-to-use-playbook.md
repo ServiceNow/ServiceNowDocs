@@ -2,6 +2,7 @@
 title: Using Playbook in Accounts Payable Operations
 description: Configure a playbook and visualize the step-by-step actions performed by an Accounts Payable specialist while processing an invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/how-to-use-playbook.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: Accounts Payable specialist
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](../concept/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View Invoice processing case**.
 
@@ -61,7 +62,7 @@ Role required: Accounts Payable specialist
 
     8.  Select **Add tax**.
 
-        The **Add tax lines to the invoice** pop-up box displays. You can choose to add tax lines associated with invoice line. For more information on the fields of tax lines, see [Invoice Tax lines fields](../reference/tax-lines.md).
+        The **Add tax lines to the invoice** pop-up box displays. You can choose to add tax lines associated with invoice line. For more information on the fields of tax lines, see [Invoice Tax lines fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/tax-lines.md).
 
     9.  Select an **Invoice line** in which you would like to add the tax lines.
 
@@ -101,7 +102,7 @@ Role required: Accounts Payable specialist
 
         A pop-up box displays prompting the user to enter the reason for the non-duplicate invoice.
 
-    5.  To reset the invoice to the received state after setting, it as confirmed duplicate follow the steps from [Reset an invoice to the Received status](reset-invoice-to-received.md).
+    5.  To reset the invoice to the received state after setting, it as confirmed duplicate follow the steps from [Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md).
 
 7.  Select the **Match lines** card.
 
@@ -123,7 +124,7 @@ Role required: Accounts Payable specialist
 
 8.  Select **Review exceptions**.
 
-    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md). This stage is set to auto-complete if the invoice doesn't run into exceptions.
+    The list of exceptions raised for the invoice is listed. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md). This stage is set to auto-complete if the invoice doesn't run into exceptions.
 
     1.  Review the exceptions generated for the invoice using the **Resolve exceptions** card, and resolve exceptions if any.
 
@@ -133,7 +134,7 @@ Role required: Accounts Payable specialist
 
     4.  Select **Create new task** to create an exception task.
 
-        For more information on exception tasks, [Work on an invoice exception](work-invoice-exception-case.md).
+        For more information on exception tasks, [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
 
 9.  Select the **Await approval** card.
 
@@ -145,14 +146,14 @@ Role required: Accounts Payable specialist
 
     1.  In the **Review Integration errors** activity, review the integration errors generated for the invoice.
 
-        For more information on integration errors, see [Integration errors](../concept/integration-errors-during-erp-posting.md).
+        For more information on integration errors, see [Integration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/integration-errors-during-erp-posting.md).
 
     2.  The playbook auto-selects a **Review payments** activity.
 
-        You can view the payment details of the invoice. For more information on the payment form, see [Payment terms](../reference/payment-terms.md)
+        You can view the payment details of the invoice. For more information on the payment form, see [Payment terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/payment-terms.md)
 
     The invoice processing case is completed with status set to **Paid**.
 
 
-**Parent Topic:**[Playbook for updating the invoice primary data](../concept/playbooks.md)
+**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

@@ -2,6 +2,7 @@
 title: Financial Management Application TCO dashboard
 description: The Application total cost of ownership \(TCO\) dashboard provides a view into a business application and enables you to know the total amount spent on the application in the last fiscal period. You can also compare its current cost of ownership with its cost incurred in the past fiscal period, thereby forecast its future expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/financial-mgmt-application-TCO-dashboard.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -15,7 +16,7 @@ breadcrumb: [Financial Management Platform Analytics Solutions, Financial Manage
 
 The Application total cost of ownership \(TCO\) dashboard provides a view into a business application and enables you to know the total amount spent on the application in the last fiscal period. You can also compare its current cost of ownership with its cost incurred in the past fiscal period, thereby forecast its future expenses.
 
-![Application TCO dashboard with its total cost in the last period, application cost, average cost per user, application cost trend, top consumers, IT shared services, IT shared services – buckets.](../image/ApplicationTCODashboard.png "Application TCO dashboard")
+\[Omitted image "ApplicationTCODashboard.png"\] Alt text: Application TCO dashboard with its total cost in the last period, application cost, average cost per user, application cost trend, top consumers, IT shared services, IT shared services – buckets.
 
 ## End user and roles
 
@@ -61,8 +62,8 @@ The Application TCO dashboard includes the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Application Cost Trend|Line![Line chart](../../../reuse/reporting/image/line-multiple.svg)|Displays the trend of cost allocation breakdown aggregate and average cost per user by quarterly fiscal period, with the amount and percentage calculation.|
-|IT Shared Services – Buckets|Pivot![Pivot report](../../../reuse/reporting/image/pivot.svg)|Gives a tabular view of the bucket amounts allocated to all the accounts within the IT shared services segment in the last four quarters.|
+|Application Cost Trend|Line\[Omitted image "line-multiple.svg"\] Alt text: Line chart|Displays the trend of cost allocation breakdown aggregate and average cost per user by quarterly fiscal period, with the amount and percentage calculation.|
+|IT Shared Services – Buckets|Pivot\[Omitted image "pivot.svg"\] Alt text: Pivot report|Gives a tabular view of the bucket amounts allocated to all the accounts within the IT shared services segment in the last four quarters.|
 
-**Parent Topic:**[Financial Management Platform Analytics Solutions](financial-content-pack.md)
+**Parent Topic:**[Financial Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/financial-content-pack.md)
 

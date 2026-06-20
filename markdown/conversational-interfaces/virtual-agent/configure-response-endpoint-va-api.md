@@ -2,6 +2,7 @@
 title: Configure the output response REST endpoint and outbound authentication for the Virtual Agent API
 description: Specify the outbound endpoint URL to which the Virtual Agent responses are posted. Configure outbound authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/configure-response-endpoint-va-api.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -37,15 +38,15 @@ Role required: admin
 
     -   **Basic:** In the **Basic auth profile** field, select or create a Basic auth profile. It will contain a username and password.
 
-        ![In the Basic auth profile field, the BotAdmin profile is selected. The profile information shows the name, username, and password.](../images/va-api-basic-auth-config.png)
+        \[Omitted image "va-api-basic-auth-config.png"\] Alt text: In the Basic auth profile field, the BotAdmin profile is selected. The profile information shows the name, username, and password.
 
     -   **OAuth:** In the **OAuth profile** field, select or create an OAuth profile. After saving your changes, click **Get OAuth Token** in the related links list.
-    For details about configuring basic authentication, see [Configure a REST message with basic auth](https://www.servicenow.com/docs/access?context=t_ConfigureRESTMsgBasicAuth&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US). For information about configuring OAuth 2.0, see [Configure a REST message with OAuth](https://www.servicenow.com/docs/access?context=t_ConfigureARESTMessageWithOAuth&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+    For details about configuring basic authentication, see Configure a REST message with basic auth. For information about configuring OAuth 2.0, see Configure a REST message with OAuth.
 
 5.  Review the JSON response returned from the endpoint call.
 
-    For a description of the Virtual Agent API response parameters and an example of a successful response, see [Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+    For a description of the Virtual Agent API response parameters and an example of a successful response, see Virtual Agent Bot Integration API.
 
 
-**Parent Topic:**[Using Virtual Agent API](../concept/virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/virtual-agent-api.md)
 

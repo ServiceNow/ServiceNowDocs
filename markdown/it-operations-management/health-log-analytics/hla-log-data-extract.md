@@ -2,6 +2,7 @@
 title: Ensure extraction of specific log data
 description: Set Health Log Analytics to extract specified terms from fields and map them to specific components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-log-data-extract.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -41,5 +42,5 @@ Role required: evt\_mgmt\_admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Log data auto-mapping and mapping](../concept/hla-data-input-automapping.md)
+**Parent Topic:**[Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

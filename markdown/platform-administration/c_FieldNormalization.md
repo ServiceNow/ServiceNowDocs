@@ -2,6 +2,7 @@
 title: Field normalization and transformation
 description: Field Normalization includes normalization and transformation, which are two different ways to alter field values for increased data integrity and reduced duplication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_FieldNormalization.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -50,26 +51,26 @@ A field type entry applies to all fields whose dictionary entry data type matche
 
 ## Identifying normalized fields
 
-The system displays the normalization icon ![Normalization icon](../image/IconNormalization.png) on fields with an associated normalization or transformation record. Users with the normalizer role can click the icon to access the associated normalization or transformation record. Users without the normalizer role instead see a help page. Administrators can configure who sees the normalization icon with a preference called **Restrict to roles**.
+The system displays the normalization icon \[Omitted image "IconNormalization.png"\] Alt text: Normalization icon on fields with an associated normalization or transformation record. Users with the normalizer role can click the icon to access the associated normalization or transformation record. Users without the normalizer role instead see a help page. Administrators can configure who sees the normalization icon with a preference called **Restrict to roles**.
 
--   **[Activate Field Normalization](../task/activate-field-normalization.md)**  
+-   **[Activate Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-field-normalization.md)**  
 Activate the Field Normalization \[com.snc.field\_normalization\] plugin to install demo data and activate related plugins if they are not already active.
--   **[Enable a field type for normalization or transformation](../task/t_CreateAFieldType.md)**  
+-   **[Enable a field type for normalization or transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAFieldType.md)**  
 Create or modify a normalization field type record to enable a specific field data type for use with normalization or transformation.
--   **[Create a raw field](../task/t_CreateARawField.md)**  
+-   **[Create a raw field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateARawField.md)**  
 A raw field is a custom field created by an administrator to show the original \(raw\) input in a field on a form after it has been normalized or transformed.
--   **[Normalization and transformation data jobs](normalization-data-jobs.md)**  
+-   **[Normalization and transformation data jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/normalization-data-jobs.md)**  
 The system uses data jobs to change field values during normalization and transformation.
--   **[Normal values](c_WhatFieldNormalizationDoes.md)**  
+-   **[Normal values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_WhatFieldNormalizationDoes.md)**  
 A normal value replaces similar but ambiguous field values with one standard value.
--   **[Transforms](c_FieldTransformations.md)**  
+-   **[Transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldTransformations.md)**  
 Transforms update field values by applying a transformation definition to the field contents such as replace text, change case, or round value.
--   **[Default Transform Definitions](../reference/r_DefsIncludedWFieldTransformation.md)**  
+-   **[Default Transform Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_DefsIncludedWFieldTransformation.md)**  
 The system offers default transform definitions for fields containing text, text numeric, and numeric values.
--   **[Regular expressions and patterns in field normalization rules](c_RegExpsAndPattFldNormalizeRls.md)**  
+-   **[Regular expressions and patterns in field normalization rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_RegExpsAndPattFldNormalizeRls.md)**  
 Field Transformation definitions support the use of regular expressions \(referred to in the platform as **regex**\) and pattern matching for determining the position of characters in a string.
--   **[Domain separation and Field Normalization](domain-separation-field-normalization.md)**  
+-   **[Domain separation and Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/domain-separation-field-normalization.md)**  
 Domain separation is unsupported in Field Normalization. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
+**Parent Topic:**[Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntroductionToFields.md)
 

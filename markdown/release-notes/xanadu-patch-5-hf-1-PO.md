@@ -2,6 +2,7 @@
 title: Xanadu Patch 5 Hotfix 1
 description: The Xanadu Patch 5 Hotfix 1 release contains fixes to these problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-5-hf-1-PO.html
 release: xanadu
 topic_type: reference
 last_updated: "2025-01-29"
@@ -91,13 +92,13 @@ When a 'null' message error is observed from the source, the Kafka stream no lon
 </td></tr></tbody>
 </table>## Fixes included
 
--   [Xanadu Patch 5](xanadu-patch-5.md)
--   [Xanadu Patch 4](xanadu-patch-4.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-5.md)
+-   [Xanadu Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-4.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

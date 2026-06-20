@@ -2,6 +2,7 @@
 title: Activate a scheduled job to generate labor costs
 description: Activate and trigger a scheduled job to generate attribute-based labor costs for all the projects and demands at a required cadence.Use the Scheduled Script Execution form to define a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -27,12 +28,12 @@ Role required: admin
 
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution Form](gen-labor-costs-scheduled-job-ppm.md#).
+    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+**Parent Topic:**[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
 
 ## Scheduled Script Execution Form
 
@@ -84,7 +85,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://www.servicenow.com/docs/access?context=business-calendars&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and [Define business calendar entries](https://www.servicenow.com/docs/access?context=define-business-calendar-entries&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+To learn more about creating and using business calendars and defining business calendar entries, see  and .
 
 
 </td></tr><tr><td>

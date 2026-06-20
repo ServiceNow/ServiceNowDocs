@@ -2,6 +2,7 @@
 title: Workplace case details
 description: You can view the full details of a workplace, maintenance, relocation or room configuration case and the tasks associated with the case. The case details view is similar to the view you get when you open the case in a native view on a desktop or laptop.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-agent-for-mobile/workplace-case-details.html
 release: xanadu
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -31,8 +32,8 @@ The case details screen for all types of cases displays the complete details of 
 
 The default view of the case details provides the following options:
 
--   **Location pin**: Select the Location pin \(![Location icon](../images/wsdagentmob-locationicon.png)\) to view the location pin of the workplace location on the floor map above the related lists.
--   **Save**: The **Save** option \(![Save icon](../images/wsdagentmob-saveicon.png)\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
+-   **Location pin**: Select the Location pin \(\[Omitted image "wsdagentmob-locationicon.png"\] Alt text: Location icon\) to view the location pin of the workplace location on the floor map above the related lists.
+-   **Save**: The **Save** option \(\[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Save icon\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
 -   **Related lists**: The following related lists are displayed:
     -   **Details**
 
@@ -100,7 +101,7 @@ The case details page provides you with the following action options:
     The **Assign to me** option enables you to assign the case to yourself if the case is unassigned and if the case belongs to the assignment group to which you belong. The option is displayed only if the case is unassigned.
 
 
-Select the action menu \(![Menu icon](../images/wsdagentmob-actions.png)\) on the top-right header of the case details page to view further actions listed below:
+Select the action menu \(\[Omitted image "wsdagentmob-actions.png"\] Alt text: Menu icon\) on the top-right header of the case details page to view further actions listed below:
 
 -   **Add comments**
 

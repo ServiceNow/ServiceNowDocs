@@ -2,6 +2,7 @@
 title: Utility Actions Spoke
 description: Create file attachments and zip attachments in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/utilityact-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Create file attachments and zip attachments in your ServiceNow instance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -248,20 +249,20 @@ Auto Flush data retention policies are available for the File and File Set table
 -   When the file records in the File table are deleted, the corresponding file line records in the File Line table are also deleted.
 -   When the file set records in the File Set table are deleted, the corresponding file mapping records in the File Mapping table are also deleted.
 
-To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see [Autoflush form](https://www.servicenow.com/docs/access?context=atf-auto-flush&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see Autoflush form.
 
 ## Connection and credential alias requirements
 
-This spoke doesn't require configuration of connection and credential alias. For information about setting up the spoke, see [Create schema](../task/create-schema.md).
+This spoke doesn't require configuration of connection and credential alias. For information about setting up the spoke, see [Create schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/create-schema.md).
 
 ## MID Server requirements
 
-These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see [MID server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see MID server.
 
 **Note:**
 
 -   The Build Zip action in the spoke requires at least one MID Server with the capability IntegrationHub Utilities or ALL. To set up and configure the MID Server, user must have the role sn\_utility\_spoke.utility\_actions\_admin role.
--   [Create a MID Server property](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=xanadu&pubname=xanadu-servicenow-platform&section=t_SetMIDServerProperties&ft:locale=en-US) with **Value** as `*.service-now.com`.
+-   Create a MID Server property with **Value** as `*.service-now.com`.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

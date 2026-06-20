@@ -2,6 +2,7 @@
 title: Migrating Performance Analytics scores
 description: The Performance Analytics Scores \[pa\_scores\] table was split into two tables. This structure helps with processing large numbers of scores. You can migrate your scores from the old table structure to the new, using the score migration tool.Schedule the automated migration process to move existing scores to the new table structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/pa-scores-migration.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -37,7 +38,7 @@ If any of the following processes are running, score migration remains in the Wa
 -   Collection cleaner jobs
 -   Scoresheet editing
 
-**Parent Topic:**[Configure Performance Analytics advanced features](c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 ## Schedule the Performance Analytics scores migration
 

@@ -2,6 +2,7 @@
 title: Mapping alerts to security incident response fields
 description: Map individual alert fields from triggered alerts to fields on a ServiceNow AI Platform security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/ms-graph-create-profile-map.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -24,7 +25,7 @@ As a user with the sn\_si.admin role, use the fields from the Sample Alerts sect
 
     The field value is displayed in the Input Expression column. In the following image, `category` is mapped to the `Category` field on the security incident.
 
-    ![Microsoft Azure Security API: mapping fields](../image/ms-graph-create-profile-3.png)
+    \[Omitted image "ms-graph-create-profile-3.png"\] Alt text: Microsoft Azure Security API: mapping fields
 
     However, you can match any value from the left side to a field on the right. Verify that the value is mapped correctly on the security incident during the preview step.
 
@@ -35,14 +36,14 @@ As a user with the sn\_si.admin role, use the fields from the Sample Alerts sect
     **Note:**
 
     1.  To manually enter a value in the Input Expression field, enter it in the format $\{fieldname\}$. The alert field will be mapped to the security incident field.
-    2.  You cannot map ingested alerts to the MITRE-ATT&amp;CK Framework fields in the security incident mapping section. If you still map the fields, the information will not be available as part of the MITRE-ATT&amp;CK card in the MITRE-ATT&amp;CK framework section in the security incident form. To associate the MITRE-ATT&amp;CK Techniques, use the [Auto Extraction Feature](../../../threat-intelligence/concept/auto-extract-technique-rules.md#) available as part of the MITRE-ATT&amp;CK Framework in the Threat Intelligence Module.
+    2.  You cannot map ingested alerts to the MITRE-ATT&amp;CK Framework fields in the security incident mapping section. If you still map the fields, the information will not be available as part of the MITRE-ATT&amp;CK card in the MITRE-ATT&amp;CK framework section in the security incident form. To associate the MITRE-ATT&amp;CK Techniques, use the [Auto Extraction Feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/auto-extract-technique-rules.md) available as part of the MITRE-ATT&amp;CK Framework in the Threat Intelligence Module.
 3.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps.
     1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, click the plus \(+\) icon. A new field is displayed.
     2.  In the Security Incident column, expand the choice list that is displayed, and select a field.
 
         In the expanded choice list for the new field, some fields are shaded. In the following figure, Category has a gray background, because it has been mapped in the security incident. Similar to the color-coding for the alert fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the already mapped SIR incident fields.
 
-        ![Microsoft Graph Security API: mapping and color coding](../image/ms-graph-create-profile-4.png)
+        \[Omitted image "ms-graph-create-profile-4.png"\] Alt text: Microsoft Graph Security API: mapping and color coding
 
         **Note:** As multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a choice list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the choice list, the field is not populated on the security incident.
 
@@ -57,7 +58,7 @@ In certain cases, alert field values in Microsoft Graph Security API may not tra
 
 To use the script editor, click the \{\} icon. The script editor is displayed.
 
-![Microsoft Graph Security API Field Translation](../image/ms-graph-create-profile-3b.png)
+\[Omitted image "ms-graph-create-profile-3b.png"\] Alt text: Microsoft Graph Security API Field Translation
 
 ## Incident generation conditions
 
@@ -75,7 +76,7 @@ Once the mapping section is complete, you can set filter conditions so that you 
 
     The following image is an example with two conditions that must be matched before security incidents are created.
 
-    ![Microsoft Graph Security API: incident generation conditions](../image/ms-graph-create-profile-3c.png)
+    \[Omitted image "ms-graph-create-profile-3c.png"\] Alt text: Microsoft Graph Security API: incident generation conditions
 
     You have set the triggering conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -89,7 +90,7 @@ Define additional alert aggregation criteria that aggregates an incoming alert t
 1.  Scroll to the Alert Aggregation Criteria section on the form and select the Aggregation Conditions option. The Incident Field Matching Values columns are displayed. These field names are the fields on the security incident that include any custom fields that are configured on the SIR security incident.
 2.  From the Available list, select the field values that you want to match on existing security incidents in your ServiceNow AI Platform and move them to the Selected list. All the field values that you select must be matched to append this incoming alert to an existing security incident. This includes fields, such as Observables and Configuration Items, that may have multiple alert field values mapped to them. All values must match. If only a subset of the values are matched, the alert aggregation conditions will not be met and a new security incident will be created. See screen shot below for multi-value field mapping.
 
-    ![Microsoft Graph Security API: Alert Aggregation Criteria](../image/ms-graph-create-profile-3d.png)
+    \[Omitted image "ms-graph-create-profile-3d.png"\] Alt text: Microsoft Graph Security API: Alert Aggregation Criteria
 
     If a new alert matches all the values that are selected in the aggregation field conditions in the mapping step, the alert is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate alerts on a related list on a security incident. All of the aggregated alerts on a security incident are displayed on the Aggregated Microsoft Graph Alerts related list. This list details associated time stamps and aggregated field values. This information helps you understand why alerts are added to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
 

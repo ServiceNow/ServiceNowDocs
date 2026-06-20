@@ -2,6 +2,7 @@
 title: Exception management workflow versus flow designer in Configuration Compliance
 description: Starting with Configuration Compliance \(CC\) v13.0, if you are deploying CC for the first time, the flow designer for approving exception requests in exception management is enabled by default. If you are an existing CC user, the default option is workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ex-mgt-flow-designer-vs-workflow.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -112,5 +113,5 @@ Provides the option to set only two levels of approvers.
 Provides multiple options such as setting any number of configurations, approver levels, and dynamically adding approvers for each rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure approval rules for Exception Management in Configuration Compliance](../task/cc-exception-mgt-approval-rules.md)
+</table>**Parent Topic:**[Configure approval rules for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-exception-mgt-approval-rules.md)
 

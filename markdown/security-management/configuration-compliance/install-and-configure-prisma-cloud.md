@@ -2,6 +2,7 @@
 title: Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application
 description: Install the Vulnerability Response Integration with Palo Alto Prisma Cloud application to use the imported data from Prisma Cloud. Use this data to prioritize and remediate misconfigurations on your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/install-and-configure-prisma-cloud.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -81,5 +82,5 @@ Private key to authenticate the access request to the Prisma Cloud.**Note:** You
 
 After you complete the installation, navigate to **Prisma Cloud Integration** &gt; **Configuration** to continue with the configuration.
 
-**Parent Topic:**[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](prisma-cloud-overview.md)
+**Parent Topic:**[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/prisma-cloud-overview.md)
 

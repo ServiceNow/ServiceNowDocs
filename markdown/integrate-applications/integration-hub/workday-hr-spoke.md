@@ -2,6 +2,7 @@
 title: Workday HR Spoke
 description: The Workday HR spoke is built by Bristlecone, Inc. Manage staffing, resources, payroll, benefits, and so on in the system from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/workday-hr-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Workday HR spoke is built by Bristlecone, Inc. Manage staffing, resources, p
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store website](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -1005,7 +1006,7 @@ The Workday HR spoke provides sample subflows to demonstrate automating Workday 
 |-------|-----------|
 |Verify User Subflow|Verifies if the user who raised request is a valid user in Workday system.|
 |Get WID For Worker|Retrieves WID details of the employee using the Look up Worker Profile action.|
-|Create User|Creates a user in the ServiceNow when the user is onboarded in the Workday system. To use this subflow, you should [Set up webhooks for your Workday HR spoke](../task/setup-webhook-wd-hr-spoke.md#).|
+|Create User|Creates a user in the ServiceNow when the user is onboarded in the Workday system. To use this subflow, you should [Set up webhooks for your Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).|
 |Leave of absence|Retrieves the leave of absence details of an employee from Workday using the LeaveofAbsence Webhook.|
 |Deactivate User|Deactivates an user in Workday using the Workday Deactivate User webhook.|
 |Look up job Requisition|Retrieves all the existing job requisition information from Workday application into Job Requisition table.|
@@ -1018,7 +1019,7 @@ Workday itself organizes its APIs into two major categories: SOAP Public API and
 
 The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
 
-**Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](../task/soap-wd-hr-spoke.md#).
+**Note:** The SOAP-based actions use the Workday SOAP web services and require you to perform the configurations mentioned in [Configurations to use Workday SOAP Basic Auth with WS-Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/soap-wd-hr-spoke.md).
 
 |Actions that use the Workday SOAP APIs|
 |Category|Action|Description|
@@ -1116,7 +1117,7 @@ Workday itself organizes its APIs into two major categories: SOAP Public API and
 
 The Workday HR spoke provides actions to automate Workday tasks when events occur in your ServiceNow instance. Available actions include:
 
-**Note:** The REST-based actions use the Workday REST API and requires you to perform the configurations mentioned in [Configurations to use Workday REST API](../task/rest-wd-hr-spoke.md#).
+**Note:** The REST-based actions use the Workday REST API and requires you to perform the configurations mentioned in [Configurations to use Workday REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/rest-wd-hr-spoke.md).
 
 <table id="table_hxw_3rc_gxb"><thead><tr><th colspan="3">
 
@@ -1248,7 +1249,7 @@ Look up Employee Latest Performance Review
 
 </td><td>
 
-Pulls the latest performance review of the employee from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Employee Latest Performance Review report](../task/configure-employee-latest-performance-review-report.md).
+Pulls the latest performance review of the employee from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Employee Latest Performance Review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-employee-latest-performance-review-report.md).
 
 </td></tr><tr><td>
 
@@ -1256,7 +1257,7 @@ Look up Employee Performance Review Historical Data
 
 </td><td>
 
-Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Worker's Historical Performance Review report](../task/configure-the-workers-historical-performance-review-report.md).
+Pulls the historical data on the employee performance review Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure the Worker's Historical Performance Review report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-the-workers-historical-performance-review-report.md).
 
 </td></tr><tr><td>
 
@@ -1264,7 +1265,7 @@ Look up Succession Planning
 
 </td><td>
 
-Pulls the succession planning from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Planning Report](../task/configure-succession-planning-report.md).
+Pulls the succession planning from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Planning Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-succession-planning-report.md).
 
 </td></tr><tr><td>
 
@@ -1272,7 +1273,7 @@ Look up Succession Pool
 
 </td><td>
 
-Pulls the succession pool from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Pool report](../task/configure-succession-pool-report.md).
+Pulls the succession pool from Workday.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Configure Succession Pool report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/configure-succession-pool-report.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -1286,8 +1287,8 @@ Look up Employee Skills
 
 Retrieves employee skills from Workday for specified date range.**Important:** You must create report in Workday instance to use this action.
 
--   For more information about extracting workers skill with skill cloud, see [Extract workers skill \(with the skill cloud\)](../task/wd-worker-skill-with-cloud.md).
--   For more information about extracting workers skill without skill cloud, see [Extract workers skill \(without the skill cloud\)](../task/wd-worker-skill-without-cloud.md).
+-   For more information about extracting workers skill with skill cloud, see [Extract workers skill \(with the skill cloud\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/wd-worker-skill-with-cloud.md).
+-   For more information about extracting workers skill without skill cloud, see [Extract workers skill \(without the skill cloud\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/wd-worker-skill-without-cloud.md).
 
 </td></tr><tr><td>
 
@@ -1295,7 +1296,7 @@ Look up Skills
 
 </td><td>
 
-Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](../task/wd-hr-lookup-skills.md).
+Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/wd-hr-lookup-skills.md).
 
 </td></tr><tr><td rowspan="9">
 
@@ -1376,16 +1377,16 @@ Retrieves termination details for a specified employee from Workday.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information about creating a clone.
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 |AI Agent|Description|
 |--------|-----------|
@@ -1399,9 +1400,9 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see .
 
 <table id="table_emr_pyw_c3c"><thead><tr><th>
 
@@ -1434,7 +1435,7 @@ Retrieves an employee’s profile information, rewards details, and latest perfo
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see .
 
 </td></tr><tr><td>
 
@@ -1451,7 +1452,7 @@ Retrieves employee‑specific time‑off information along with the applicable h
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see .
 
 </td></tr></tbody>
 </table>## Spoke modules
@@ -1556,10 +1557,10 @@ Webhook Registry
 
 </td><td>
 
-Contains records of webhooks registries. Admin should create record here to [Set up webhooks for your Workday HR spoke](../task/setup-webhook-wd-hr-spoke.md#) for the required Workday HR event.
+Contains records of webhooks registries. Admin should create record here to [Set up webhooks for your Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md) for the required Workday HR event.
 
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 

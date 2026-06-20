@@ -2,6 +2,7 @@
 title: Restore the greeting banner on the landing page
 description: If the greeting banner is closed, restore it to view the agent's shift information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/restore-greeting-banner.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,6 +2,7 @@
 title: Create success activities for Software Asset Management
 description: Create success activities to track the success of your goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/create-success-activity.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ Role required: sam\_admin and sam\_user
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [SAM Success Activity](../reference/sam-success-activity.md).
+    For a description of the field values, see [SAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-success-activity.md).
 
 4.  Select **Save**.
 

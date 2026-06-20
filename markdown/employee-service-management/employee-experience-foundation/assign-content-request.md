@@ -2,6 +2,7 @@
 title: Assign content request to content creator
 description: Assign a new content request to a content manager so they can create the content and a publish plan, then send it for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/assign-content-request.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ Role required: sn\_cd.content\_admin
 
 You can assign a content request to a user with the sn\_cd.content\_manager or an assignment group.
 
-An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://www.servicenow.com/docs/access?context=c_ConfigGroupTypesForAssignGroups&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see 
 
 ## Procedure
 
@@ -42,5 +43,5 @@ An assignment group is a group of users that receive the content request. Conten
 
 The content request appears in the user's **Content Governance** &gt; **Assigned to me** list.
 
-**Parent Topic:**[Managing content requests with Content Governance](../concept/ec-content-governance.md)
+**Parent Topic:**[Managing content requests with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

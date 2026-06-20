@@ -2,6 +2,7 @@
 title: Legal Conflict of Interest
 description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.html
 release: xanadu
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -17,32 +18,32 @@ Legal Conflict of Interest enables you to manage the disclosure, approval, and r
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore icon.](../../../common/image/icon-explore.png) Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](../concept/conflict-of-interest-overview.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md)
 
 </td><td>
 
-[Set up ![Setup icon.](../../../common/image/icon-configure.png) Set up approver groups, flows, and notifications.](../concept/legal-coi-administration.md)
+[Set up \[Omitted image "icon-configure.png"\] Alt text: Setup icon. Set up approver groups, flows, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 
 </td><td>
 
-[Request ![Request icon.](../../../reuse/images/request.png) Request legal clearance for conflict of interests.](../concept/submitting-legal-coi-request.md)
+[Request \[Omitted image "request.png"\] Alt text: Request icon. Request legal clearance for conflict of interests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage icon.](../../../common/image/icon-workspace.png) Manage conflict of interest disclosure requests.](../concept/managing-legal-coi-request.md)
+[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage conflict of interest disclosure requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
 
 </td><td>
 
-[Analytics and Reporting ![Analytics and Reporting icon.](../../human-resources/image/icon-report.png) Coordinate work and improve processes with preconfigured dashboards.](../../../use/application-content-packs/concept/legalsd-content-pack.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting icon. Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Reference ![Reference icon.](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and store applications that are installed.](legal-coi-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference icon. Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

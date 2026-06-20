@@ -2,6 +2,7 @@
 title: Define access to each application in the Admin Console in Workforce Optimization for ITSM
 description: Configure assignment group access to each application in Workforce Optimization for ITSM based on your organizational needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/define-application-access-admin-console-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -50,5 +51,5 @@ Role required: admin
         The selected managers are granted access to the application.
 
 
-**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](../concept/admin-console-wfo-itsm.md)
+**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/admin-console-wfo-itsm.md)
 

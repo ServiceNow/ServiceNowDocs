@@ -2,6 +2,7 @@
 title: Unsupported Virtual Agent features in Slack
 description: Refer to the unsupported features of Virtual Agent in Conversational Integration with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/limited-slack-features.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

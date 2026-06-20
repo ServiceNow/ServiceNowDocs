@@ -2,6 +2,7 @@
 title: Using extension point for planned work management
 description: Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/work-order-management/extention-point-template-management.html
 release: xanadu
 product: Work Order Management
 classification: work-order-management
@@ -29,5 +30,5 @@ The default extension points that are provided with an application cannot be mod
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 

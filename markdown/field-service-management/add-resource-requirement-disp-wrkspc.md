@@ -2,7 +2,10 @@
 title: Add resource requirement for a work order task in Dispatcher Workspace
 description: Add or update the resource requirements for a work order task that requires crew, such as number of agents with specific skills or types of equipment required to work on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-resource-requirement-disp-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Role required: wm\_admin, wm\_dispatcher
 
 3.  Open a work order task that is in the Draft or Pending Dispatch state for which you want to configure the resource requirement.
 
-    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](search-crew-task.md).
+    For more information, see [Search for tasks that need a crew on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/search-crew-task.md).
 
 4.  Select the **Resource requirement** option if not already selected, and then click **Save**.
 
@@ -119,5 +122,5 @@ Option to identify if the skills are mandatory to complete a task.
 
 The resource requirement is added to the work order task that requires crew.
 
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](../concept/using-disp-wrkspc-crew-operations.md)
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-disp-wrkspc-crew-operations.md)
 

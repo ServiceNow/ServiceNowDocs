@@ -2,6 +2,7 @@
 title: Install Flow Assist
 description: Install the Now Assist for Creator application to add the Flow Assist generative AI capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/install-flow-assist.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -19,8 +20,8 @@ Install the Now Assist for Creator application to add the Flow Assist generative
 
 -   Role required: admin
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Upgrade to Washington DC Patch 1 or later. For more information about this release, see [Available patches and hotfixes](https://www.servicenow.com/docs/access?context=available-versions&version=xanadu&pubname=xanadu-release-notes&ft:locale=en-US).
--   Enable Next Experience. For information about activating Next Experience, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Upgrade to Washington DC Patch 1 or later. For more information about this release, see .
+-   Enable Next Experience. For information about activating Next Experience, see Considerations for activating Next Experience.
 
 ## Procedure
 
@@ -41,5 +42,5 @@ Install the Now Assist for Creator application to add the Flow Assist generative
 
 Configure Now Assist for Creator to turn on the Flow Assist skills. Grant the now.assist.creator role to each user you want to use Flow Assist skills.
 
-**Parent Topic:**[Configuring Flow Assist](../concept/configuring-flow-assist.md)
+**Parent Topic:**[Configuring Flow Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-flow-assist.md)
 

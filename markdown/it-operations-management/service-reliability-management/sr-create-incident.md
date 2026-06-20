@@ -2,6 +2,7 @@
 title: Manually create an SRM incident
 description: Create an incident if you think an issue poses a serious risk and should be taken care of as soon as possible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-create-incident.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -29,7 +30,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the Incidents tab.
 
@@ -175,7 +176,7 @@ Choose a state for the incident. Choices are:-   New \(default\)
 -   On Hold
 -   Resolved
 -   Canceled
-See [SRM incident states](../concept/sr-incident-states.md) for more information.
+See [SRM incident states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incident-states.md) for more information.
 
 </td></tr><tr><td>
 
@@ -229,18 +230,18 @@ Enter any relevant resolution information.
 
     The incident is created and the new incident form displayed.
 
-7.  Add an attachment related to the incident in the **Actions** panel using the **Attachments** icon ![Attachments icon](../image/icon-sr-attachment.png).
+7.  Add an attachment related to the incident in the **Actions** panel using the **Attachments** icon \[Omitted image "icon-sr-attachment.png"\] Alt text: Attachments icon.
 
-8.  Create an incident template using the Template icon ![Template icon](../image/icon-sr-template.png).
+8.  Create an incident template using the Template icon \[Omitted image "icon-sr-template.png"\] Alt text: Template icon.
 
-    See [Manually create an SRM template](sr-create-template.md) for more information.
+    See [Manually create an SRM template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-create-template.md) for more information.
 
 9.  Start or join a Zoom meeting, Microsoft Teams, or Slack channel in the **Collaboration** panel..
 
 10. Select **Save**.
 
-    The incident appears with comments, work notes, and incident activity captured in the **Activity** stream. For more information on incident fields, see [SRM incident workspace](../reference/sr-incidents-workspace.md).
+    The incident appears with comments, work notes, and incident activity captured in the **Activity** stream. For more information on incident fields, see [SRM incident workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
 
-**Parent Topic:**[Working with Incidents in SRM](../concept/sr-work-incidents.md)
+**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

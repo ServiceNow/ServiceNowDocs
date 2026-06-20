@@ -2,6 +2,7 @@
 title: HTML field editors
 description: An HTML field enables you to insert HTML content directly, which is useful for rich text or custom HTML content within forms. An HTML editor provides simple functionality and HTML source mode editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_UseHTMLFields.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-01-30"
@@ -28,5 +29,5 @@ While HTML fields can be added to split pane forms, they can behave unexpectedly
 
 If accessibility is enabled, a help icon appears with the HTML field. The help icon indicates how to use keys to access and escape the HTML field toolbar.
 
-**Parent Topic:**[Field types](../../../administer/reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

@@ -2,6 +2,7 @@
 title: Activate Now Assist AI agents for IT Operations Management \(ITOM\)
 description: Activate Now Assist AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-ai-agents-itom.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,7 +19,7 @@ Activate Now Assist AI agents associated with the Triage and analyze alerts agen
 
 ## Before you begin
 
-Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 To get started with AI agents, you must have:
 
@@ -52,12 +53,12 @@ Role required: admin
 
     6.  Search for **Triage and analyze alerts**.
 
-    7.  Select the row Actions icon \(![Actions icon.](../../event-management/image/more-actions-icon.png)\), and select **Promoted**.
+    7.  Select the row Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: Actions icon.\), and select **Promoted**.
 
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+To access AI agents in the Now Assist panel, you must enable the panel. For more information, see .
 
-**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom-configure.md)
+**Parent Topic:**[Configuring Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

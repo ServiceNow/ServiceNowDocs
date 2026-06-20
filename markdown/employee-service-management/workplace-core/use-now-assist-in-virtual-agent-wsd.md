@@ -2,6 +2,7 @@
 title: Using Now Assist in Virtual Agent topics for Workplace Service Delivery
 description: The Now Assist in Virtual Agent assists Workplace Service Delivery hybrid employees to book meeting spaces more conveniently and quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-core/use-now-assist-in-virtual-agent-wsd.html
 release: xanadu
 product: Workplace Core
 classification: workplace-core
@@ -27,5 +28,5 @@ The Now Assist in Virtual Agent retrieves details from Workplace Reservation Man
 -   Adding a Zoom meeting link for remote joining
 -   Ordering and adding catering services
 
-**Parent Topic:**[Workplace Core](workplace-service-delivery-feat.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-core/workplace-service-delivery-feat.md)
 

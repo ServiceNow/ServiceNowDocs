@@ -2,6 +2,7 @@
 title: Schedule or execute a job to update records
 description: Schedule a date and time to execute an update job or execute the job immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/schedule-execute-job-update-records.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -29,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d211103e82">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d52296e82">
 
 Option
 
-</th><th align="left" id="d211103e85">
+</th><th align="left" id="d52296e85">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d211103e91">
+</th></tr></thead><tbody><tr><td id="d52296e91">
 
 **Schedule the update job**
 
@@ -48,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d211103e121">
+</td></tr><tr><td id="d52296e121">
 
 **Run the update job now**
 
@@ -64,7 +65,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](rollback-update-job.md).
+The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/rollback-update-job.md).
 
-**Parent Topic:**[Updating records safely](../concept/updating-records-safely.md)
+**Parent Topic:**[Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/updating-records-safely.md)
 

@@ -2,6 +2,7 @@
 title: Close a retail case
 description: Once a retail case has been resolved within your retail organization, close the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-close-retail-case.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

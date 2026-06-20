@@ -2,6 +2,7 @@
 title: Create the foundation of an app in Creator Studio
 description: Before you can build out an app for people to use, you must create its foundation. Eventually, you'll have to customize the default values, but in the following procedure you'll select a catalog template for your first form and specify basic info for the app you're building in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/create-app-creator-studio.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Before you can build out an app for people to use, you must create its foundatio
 
 ## Before you begin
 
-If you don't have permission to create an app, you can request that a teammate create one for you. For more information, see [Ask an admin to create an app for you in Creator Studio](creator-studio-request-app-added.md).
+If you don't have permission to create an app, you can request that a teammate create one for you. For more information, see [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md).
 
 Your administrator must add you to the Creator Studio Users group.
 
@@ -25,7 +26,7 @@ Your administrator must add you to the Creator Studio Users group.
 
 1.  Let's open Creator Studio. On your instance, select the **All** tab.
 
-    ![The All menu lets you see all the apps on your instance](../image/cs-all-menu.png "All tab")
+    \[Omitted image "cs-all-menu.png"\] Alt text: The All menu lets you see all the apps on your instance
 
     This tab lets you see all the apps installed on your instance.
 
@@ -39,11 +40,11 @@ Your administrator must add you to the Creator Studio Users group.
 
 4.  Select **Create app** to begin your journey.
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](../../applications/concept/application-collaboration.md).
-    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](creator-studio-request-app-added.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
+    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md).
 5.  Fill in the fields on the modal that pops up.
 
-    ![Enter details to create the app](../image/cs-create-app-modal.png "Create an app")
+    \[Omitted image "cs-create-app-modal.png"\] Alt text: Enter details to create the app
 
     1.  Give your app a **Name**, which should be descriptive and intuitive.
 
@@ -53,7 +54,7 @@ Your administrator must add you to the Creator Studio Users group.
 
     3.  Select **Advanced settings** and confirm that your app's name and tables are unique by specifying the **Scope**.
 
-        For more advanced information about scopes, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+        For more advanced information about scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/c_ApplicationScope.md).
 
     4.  Select **Create app**.
 
@@ -75,27 +76,27 @@ Your administrator must add you to the Creator Studio Users group.
 
     The available catalogs are configured by your admin, contact them if you don't see the one you want.
 
-    1.  Select the **Edit button** \(![](../image/cs-edit-form-location.png)\) for the Catalogs and categories card.
+    1.  Select the **Edit button** \(\[Omitted image "cs-edit-form-location.png"\]\) for the Catalogs and categories card.
 
     2.  Select the catalog that represents the business area the app will use.
 
         For example, choose a service catalog that contains software and laptop cables. Expand the carat for each catalog to see its sub-catalogs.
 
-        ![Select the catalogs your app will use](../image/crs-add-form-to-cat.png "Select the catalog")
+        \[Omitted image "crs-add-form-to-cat.png"\] Alt text: Select the catalogs your app will use
 
     3.  Select as many items in the catalogs as you need.
 
     4.  Select **Apply**.
 
-    You can edit any of the app's basic settings any time after you finish creating the app. For more information, see [Creator Studio form settings](../reference/creator-studio-form-settings.md).
+    You can edit any of the app's basic settings any time after you finish creating the app. For more information, see [Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-form-settings.md).
 
 9.  Next, choose one or more topics to specify where the form will appear.
 
-    Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+    Find out more about topics in , and more about taxonomy, which is a categorization method, in .
 
     **Note:** You can skip this step for now and revisit it later when you have a better idea of where it fits.
 
-    1.  Select the **Edit button** \(![](../image/cs-edit-form-location.png)\) for the Topics card.
+    1.  Select the **Edit button** \(\[Omitted image "cs-edit-form-location.png"\]\) for the Topics card.
 
     2.  Choose the **Taxonomy** page where you want the form to appear, such as **Employee**.
 
@@ -105,7 +106,7 @@ Your administrator must add you to the Creator Studio Users group.
 
         For example, choose a topic that contains technology services, and expand its carat to see each of its sub-topics.
 
-        ![Select one or more topics for your form](../image/crs-topic-taxo.png "Select the topics where your form will appear")
+        \[Omitted image "crs-topic-taxo.png"\] Alt text: Select one or more topics for your form
 
     4.  Select the topics where you want the form to appear, as many as you need.
 
@@ -121,22 +122,22 @@ Your administrator must add you to the Creator Studio Users group.
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/cs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "cs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 
 ## Result
 
-**Congrats:** Hooray! You've named your app and selected a catalog template that provides the basics for how your app's first form will look and work. Next, we will customize the forms people will use to fill out requests in your app in the section [Working with forms in Creator Studio](../concept/creator-studio-work-with-forms.md).
+**Congrats:** Hooray! You've named your app and selected a catalog template that provides the basics for how your app's first form will look and work. Next, we will customize the forms people will use to fill out requests in your app in the section [Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-work-with-forms.md).
 
-To learn all the things you can do as the app owner when building the app, see [Application collaboration](../../applications/concept/application-collaboration.md).
+To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/building-applications/application-collaboration.md).
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 
-**Parent Topic:**[App creation in Creator Studio](../concept/creator-studio-creating-apps.md)
+**Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-creating-apps.md)
 

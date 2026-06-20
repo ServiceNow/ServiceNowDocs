@@ -2,6 +2,7 @@
 title: Application Manager application details
 description: The details page in the Application Manager displays key information about applications, plugins, or products that are installed or available to install.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/app-details-app-mgr.html
 release: xanadu
 product: Application Manager
 classification: application-manager
@@ -28,5 +29,5 @@ For an application, this page includes the following information:
 
 For a plugin or product, this page shows a summary of the plugin or product's function and its dependencies.
 
-![Application Manager details page.](../../../build/applications/image/app-manager-details.png)
+\[Omitted image "app-manager-details.png"\] Alt text: Application Manager details page.
 

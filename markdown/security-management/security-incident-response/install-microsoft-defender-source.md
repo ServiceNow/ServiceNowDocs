@@ -2,6 +2,7 @@
 title: Install the application and configure a source for the integration
 description: Install and configure the Microsoft Defender for Endpoint integration from the ServiceNow Store on your ServiceNow AI Platform instance. Start creating capability profiles using the configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/install-microsoft-defender-source.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -39,7 +40,7 @@ Role required: sn\_si.admin
 
 5.  Click **Submit**.
 
-    ![Install the application and configure a source for the integration](../image/ms_defender_tile.png "Install and configure the application")
+    \[Omitted image "ms\_defender\_tile.png"\] Alt text: Install the application and configure a source for the integration
 
 
 ## Result

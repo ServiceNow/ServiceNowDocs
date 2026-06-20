@@ -2,6 +2,7 @@
 title: TuneUp Your Platform Analytics
 description: The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/tuneup-platform-analytics.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,7 @@ The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining 
 
 ## Overview
 
-TuneUp Your Platform Analytics provides Impact customers with an assessment of their current Platform Analytics implementation. This offering includes an applied demonstration of the capabilities of advanced Platform Analytics configuration, including Performance Analytics, Workspaces, and User Experience Analytics. We aim to assist you in obtaining better insight into your Platform Analytics investment and provide leading practices on how to best increase adoption and utilization. For more information on Platform Analytics, see [Available Platform Analytics Solutions](https://www.servicenow.com/docs/access?context=r_AvailableContentPacks&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+TuneUp Your Platform Analytics provides Impact customers with an assessment of their current Platform Analytics implementation. This offering includes an applied demonstration of the capabilities of advanced Platform Analytics configuration, including Performance Analytics, Workspaces, and User Experience Analytics. We aim to assist you in obtaining better insight into your Platform Analytics investment and provide leading practices on how to best increase adoption and utilization. For more information on Platform Analytics, see .
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 

@@ -2,6 +2,7 @@
 title: Create custom record views
 description: Create a UX custom form view to show any record for a given table in Digital Portfolio Management \(DPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-portfolio-management/dpm-configure-record-views.html
 release: xanadu
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -87,5 +88,5 @@ The order in which your view displays.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Getting started with Digital Portfolio Management](../concept/dpm-using-cfx.md)
+**Parent Topic:**[Getting started with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
 

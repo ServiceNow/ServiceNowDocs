@@ -2,6 +2,7 @@
 title: Set up the Tableau spoke
 description: Integrate your ServiceNow instance and Tableau Cloud to automate flows and perform actions on the Tableau Cloud application.Create a connection and credential record for the Tableau Cloud application. The Tableau connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -59,7 +60,7 @@ Integrate your ServiceNow instance and Tableau Cloud to automate flows and perfo
 
             The Connected App that you created gets displayed on the Connected Apps page. By default, the Connected App is inactive.
 
-        8.  To enable the Connected App, select the ellipsis icon \(![Ellipsis icon.](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg)\) in the Actions column and select **Enable**.
+        8.  To enable the Connected App, select the ellipsis icon \(\[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: Ellipsis icon.\) in the Actions column and select **Enable**.
 
             The status of the Connected App shows as enabled.
 
@@ -74,7 +75,7 @@ Integrate your ServiceNow instance and Tableau Cloud to automate flows and perfo
 
 ## What to do next
 
-[Create a connection and credential for the Tableau spoke](set-up-tableau-spoke.md#)
+[Create a connection and credential for the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md)
 
 ## Create a connection and credential for the Tableau spoke
 
@@ -151,7 +152,7 @@ Token Name
 
 </td><td>
 
-The Token name that you provided while setting up the Tableau spoke by using the PAT authentication type.For more information, see [Set up the Tableau spoke](set-up-tableau-spoke.md#)
+The Token name that you provided while setting up the Tableau spoke by using the PAT authentication type.For more information, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md)
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ Token Secret
 
 </td><td>
 
-The Token secret that you copied while setting up the Tableau spoke by using the PAT authentication type.For more information, see [Set up the Tableau spoke](set-up-tableau-spoke.md#).
+The Token secret that you copied while setting up the Tableau spoke by using the PAT authentication type.For more information, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md).
 
 .
 
@@ -183,7 +184,7 @@ Secret ID
 
 </td><td>
 
-The Secret ID that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](set-up-tableau-spoke.md#).
+The Secret ID that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +192,7 @@ Secret Value
 
 </td><td>
 
-The Secret Value that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](set-up-tableau-spoke.md#).
+The Secret Value that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md).
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ Client ID
 
 </td><td>
 
-The Client ID that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](set-up-tableau-spoke.md#).
+The Client ID that you copied while setting up the Tableau spoke by using the JWT authentication type.For more information, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/set-up-tableau-spoke.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Configure an appointment booking record producer
 description: Configure an appointment booking record producer and enable the appointment booking variable set to display the correct fields in that record producer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appt-booking-config-record-producer.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -38,5 +39,5 @@ Appointment booking supports both work order and task extended tables. You can u
 5.  Click **Save**.
 
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

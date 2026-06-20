@@ -2,6 +2,7 @@
 title: Sample field value duration script
 description: Review the existing Incident Open metric definition to see how you can create your own custom metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_SampleFieldValueDurationScript.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

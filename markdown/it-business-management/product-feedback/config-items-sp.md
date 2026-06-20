@@ -2,6 +2,7 @@
 title: Configure non-planning items for feedback or product ideas records
 description: Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/product-feedback/config-items-sp.html
 release: xanadu
 product: Product Feedback
 classification: product-feedback
@@ -39,7 +40,7 @@ Role required: admin
 
     3.  Open the feedback record that has the **sn\_align\_core\_feedback** table name and select the **Show List** related link.
 
-    4.  Open any feedback record, select the additional actions \( ![additional-action-icon](../image/additional-actions-icon-feedback.png)\).
+    4.  Open any feedback record, select the additional actions \( \[Omitted image "additional-actions-icon-feedback.png"\] Alt text: additional-action-icon\).
 
     5.  Select **Configure** &gt; **Related Lists**.
 
@@ -54,7 +55,7 @@ Role required: admin
 
 ## What to do next
 
-[Associate a feedback or a product idea record with a non-planning item](associate-feedback-with-non-planning-item.md)
+[Associate a feedback or a product idea record with a non-planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md)
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](../concept/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

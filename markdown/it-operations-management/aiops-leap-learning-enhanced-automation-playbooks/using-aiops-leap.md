@@ -2,6 +2,7 @@
 title: Using AIOps LEAP
 description: AIOps LEAP gathers incidents or issues and groups them into items called automation opportunities \(AOs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.html
 release: xanadu
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -26,11 +27,11 @@ AOs are categorized depending on how critical the services are, number of hand o
 
 Prioritizing AOs helps IT Operations Management personas address the most critical issues or the issues that are hindering performance. AIOps LEAP provides tasks that help perform research on the incidents to analyze the root cause and derive resolutions. Playbooks help IT operators access resolution steps to improve the overall performance of IT operations.
 
-1.  [Create AIOps LEAP problem records](create-problem-records.md)
+1.  [Create AIOps LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
 
     Create a problem record using the resolution steps of an AO. The problem record helps you perform an in-depth analysis to find the root cause of the incident.
 
-2.  [Generate AIOps LEAP playbooks](generate-playbooks.md)
+2.  [Generate AIOps LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)
 
     Generate automated playbooks that use the resolution steps to efficiently solve similar incidents in the future.
 

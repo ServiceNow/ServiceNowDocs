@@ -2,6 +2,7 @@
 title: Import bulk entitlements in workspace
 description: You can import multiple entitlements at one go in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/import-entitlements-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -29,7 +30,7 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
 
 2.  Select **Create entitlement**.
 
-    ![Bulk import of entitlements](../image/create-bulkimport.png)
+    \[Omitted image "create-bulkimport.png"\] Alt text: Bulk import of entitlements
 
 3.  In the Create new entitlement dialog box, select **Import multiple entitlements from an Excel file** and select **Next**.
 
@@ -69,12 +70,12 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
     -   **Relate entitlements**: lists entitlements, such as maintenance entitlements, that are in the build state and can be linked to the base entitlements.
 11. Select the import error record to view the errors.
 
-    For a detailed description of the entitlement import error fields, see [Entitlement import error fields](../reference/entitlement-import-error-fields.md)
+    For a detailed description of the entitlement import error fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/entitlement-import-error-fields.md)
 
 12. Correct the errors and select **Import**.
 
-    The entitlement is successfully created. Further processing of the entitlement continues such as validation of downgrade models for the entitlement. For more information on resolving errors, see [Entitlement import error actions](../reference/import-software-rights-form.md).
+    The entitlement is successfully created. Further processing of the entitlement continues such as validation of downgrade models for the entitlement. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/import-software-rights-form.md).
 
 
-**Parent Topic:**[Configuring Software Asset Workspace](../concept/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/Config-sam-workspace.md)
 

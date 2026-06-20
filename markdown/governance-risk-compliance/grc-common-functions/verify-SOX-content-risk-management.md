@@ -2,6 +2,7 @@
 title: Verify the SOX Content Pack in Risk Management
 description: After importing the SOX Content Pack, verify and edit the entity types, entities, risk statements, risks, and assessments within the Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-common-functions/verify-SOX-content-risk-management.html
 release: xanadu
 product: GRC Common Functions
 classification: grc-common-functions
@@ -45,26 +46,26 @@ Role required: Risk Admin \(sn\_risk.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-    ![Profile type record is pictured with the Profiles related list](../image/SOX-profile-type.png)
+    \[Omitted image "SOX-profile-type.png"\] Alt text: Profile type record is pictured with the Profiles related list
 
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.![Profile type record is pictured with the Profile Filters Related List](../image/SOX-profile-filter.png)
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.\[Omitted image "SOX-profile-filter.png"\] Alt text: Profile type record is pictured with the Profile Filters Related List
 
 3.  Navigate to **Risk** &gt; **Risk Library** &gt; **Risk Statements**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
 
-    ![Risk statements](../image/SOX-risk-statements.png)
+    \[Omitted image "SOX-risk-statements.png"\] Alt text: Risk statements
 
 4.  Navigate to **Risk** &gt; **Risk Register** &gt; **Risks**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
 
-    ![Risks](../image/SOX-risks.png)
+    \[Omitted image "SOX-risks.png"\] Alt text: Risks
 
 
 ## Result
 
-For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](../concept/grc-SOX-compliance-content-pack.md).
+For information about the SOX Risk Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

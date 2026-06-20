@@ -2,11 +2,12 @@
 title: Tables excluded from rollback after running an automated test
 description: The Automated Test Framework tracks data created by running tests and rolls back changes after testing. The system excludes certain tables from being tracked during testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/atf-excluded-from-rollback.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework reference, Test your apps with the ATF, Testing and debugging applications, Building applications]
 ---
@@ -17,10 +18,10 @@ The Automated Test Framework tracks data created by running tests and rolls back
 
 The system excludes certain tables from being tracked or rolled back:
 
--   The [History \[sys\_history\_line\] table](https://www.servicenow.com/docs/access?context=c_HistorySets&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US)
--   The [ECC Queue table \[ecc\_queue\]](https://www.servicenow.com/docs/access?context=r_DiscoveryStatusECCQueue&version=xanadu&pubname=xanadu-it-operations-management&ft:locale=en-US).
--   The Email [\[sys\_email\]](https://www.servicenow.com/docs/access?context=c_SystemMailboxes&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) [Email Log \[sys\_email\_log\]](https://www.servicenow.com/docs/access?context=r_EmailLogs&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US) tables
--   The [Report Executions \[report\_executions\] and ReportStats \[report\_stats\]](https://www.servicenow.com/docs/access?context=report-statistics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US) tables.
+-   The History \[sys\_history\_line\] table
+-   The ECC Queue table \[ecc\_queue\].
+-   The Email \[sys\_email\] Email Log \[sys\_email\_log\] tables
+-   The Report Executions \[report\_executions\] and ReportStats \[report\_stats\] tables.
 -   The Execution Tracker \[sys\_execution\_tracker\] tables
 -   The Progress Worker \[sys\_progress\_worker\] table
 -   The Schema Change \[sys\_schema\_change\]
@@ -42,5 +43,5 @@ The system excludes certain tables from being tracked or rolled back:
 
 If your test run changes \(inserts/updates/deletes\) any record on these excluded tables, the system does not roll back the change after testing.
 
-**Parent Topic:**[Automated Test Framework reference](../concept/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

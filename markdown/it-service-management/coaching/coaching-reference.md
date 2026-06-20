@@ -2,6 +2,7 @@
 title: Coaching reference
 description: Coaching reference content includes business rules and field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/coaching/coaching-reference.html
 release: xanadu
 product: Coaching
 classification: coaching
@@ -21,11 +22,11 @@ To provide coaching on a table source that does not extend the Task table, you m
 
 The business rule **Evaluate coaching opportunity on tasks** initiates coaching for tables that extend Task. You can copy this business rule and modify it for tables that do not extend the Task table.
 
-![CoachingNonTaskTable](../image/coaching-non-task-table.png "Evaluate coaching opportunity on a non-task table")
+\[Omitted image "coaching-non-task-table.png"\] Alt text: CoachingNonTaskTable
 
 ## Coaching assessment flow states
 
-![CoachingAssessmentFlow](../image/coaching-assessment-flow.png "Coaching Assessment Flow")
+\[Omitted image "coaching-assessment-flow.png"\] Alt text: CoachingAssessmentFlow
 
 |State|Description|
 |-----|-----------|
@@ -163,10 +164,10 @@ Data array properties for the now-list-menu component on the Learning Tasks tab,
 -   **Default value:** script for data array
 
 </td></tr></tbody>
-</table>-   **[Coaching field descriptions](coaching-field-descriptions.md)**  
+</table>-   **[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/coaching-field-descriptions.md)**  
 Coaching field descriptions also include form related lists and actions.
--   **[Coaching troubleshooting](coaching-troubleshooting.md)**  
+-   **[Coaching troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/coaching-troubleshooting.md)**  
 Troubleshooting actions can help resolve common issues when setting up or running Coaching.
 
-**Parent Topic:**[Coaching](../concept/coaching-landing.md)
+**Parent Topic:**[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/coaching/coaching-landing.md)
 

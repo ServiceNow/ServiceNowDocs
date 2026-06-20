@@ -2,6 +2,7 @@
 title: Invoice data transformation logic
 description: Accounts Payable Operations integration with Document Intelligence converts the invoice and invoice line field values from the invoice document to a format supported by the system that processes the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -89,7 +90,7 @@ Currency groupings on invoice and invoice lines are determined based on the user
 
 **Note:** During conversion, for numbers such as 100,251 and 100.251, the system checks for other decimal separators mentioned in the invoice, and converts it to the appropriate decimal format. If the invoice contains fields with single decimal separator, then conversion does not apply for the invoice, and the value is set to empty as shown in the table below.
 
-For more information on currency conversion, see [Currency administration](https://www.servicenow.com/docs/access?context=currency&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on currency conversion, see .
 
 |Decimal format mentioned in the incoming invoice|Converted decimal format|
 |------------------------------------------------|------------------------|
@@ -167,5 +168,5 @@ The system does the following:-   If the invoice contains XX.XXX,XXX the applica
 -   If the invoice contains a combination of decimal and thousand separators in a form, the application defaults to the numeric value to the decimal separator.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](apm-docintel-how-it-works.md)
+</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

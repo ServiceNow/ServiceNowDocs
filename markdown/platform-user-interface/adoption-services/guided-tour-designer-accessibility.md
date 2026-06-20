@@ -2,6 +2,7 @@
 title: Guided Tour Designer accessibility
 description: The Guided Tour Designer has accessibility features so that users can design tours using screen readers and keyboard navigation.The Guided Tour Designer has extended the accessibility features of the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/guided-tour-designer-accessibility.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -15,7 +16,7 @@ breadcrumb: [Guided tours, Adoption services, Configure user experiences]
 
 The Guided Tour Designer has accessibility features so that users can design tours using screen readers and keyboard navigation.
 
-For the most part, accessibility functionality is the same for the Guided Tour Designer accessibility is the same as platform accessibility. See [Accessibility features](../../../administer/accessibility-508-compliance/concept/c_SetUpSect508ComplianceFeature.md#).
+For the most part, accessibility functionality is the same for the Guided Tour Designer accessibility is the same as platform accessibility. See [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md).
 
 ## Use the Guided Tour Designer with accessibility enabled
 

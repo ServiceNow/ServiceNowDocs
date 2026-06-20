@@ -2,6 +2,7 @@
 title: Agentic conversations in Virtual Agent
 description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -31,17 +32,17 @@ To enable AI agents in Virtual Agent:
 
     The configuration consists of the following:
 
-    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create an assistant](../../now-assist-in-va/task/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal or channel](../../now-assist-in-va/task/display-assistant-portal-channel.md).
-    ![Assistants in CI.](../images/assistants.png)
+    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
+    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
 2.  Ensure that the **AI agents** skill is added to the assistant.
 
-    ![AI agents skill.](../images/assistant-skill.png)
+    \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
-3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see .
 
-    ![Adding VA assistants to AI agent.](../images/va-card-ai-agent.png)
+    \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
 
 
 During execution, only the configured AI agents are considered for the current assistant and dynamically makes them available to the Orchestrator for planning.
@@ -93,11 +94,11 @@ Utterance: `How do I avoid spam? How do I detect it?`
 
 -   Non-agentic response: Produces a single mixed answer.
 
-    ![Non-agentic response.](../images/utterance-qna.png)
+    \[Omitted image "utterance-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into two questions and provides a better answer for each one of them.
 
-    ![Agentic response part1.](../images/utterance-agentic1.png)![Agentic response part2.](../images/utterance-agentic2.png)
+    \[Omitted image "utterance-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance-agentic2.png"\] Alt text: Agentic response part2.
 
 
 **Scenario 2: Multiple skills with slot filling**
@@ -106,11 +107,11 @@ Utterance: `Hey, order a coffee for me, preferably dark roast and something to e
 
 -   Non-agentic response: Produces a single answer. Mostly listing all matching available skills. No auto-execution since it matched multiple skills.
 
-    ![Non-agentic response.](../images/utterance2-qna.png)
+    \[Omitted image "utterance2-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into two distinct tasks, order coffee and order food/pizza. Executes one after another, completing the entire user request.
 
-    ![Agentic response part1.](../images/utterance2-agentic1.png)![Agentic response part2.](../images/utterance2-agentic2.png)![Agentic response part3.](../images/utterance2-agentic3.png)
+    \[Omitted image "utterance2-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance2-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance2-agentic3.png"\] Alt text: Agentic response part3.
 
 
 **Scenario 3: Complex utterance with a combination of skills, agents, and QnA**
@@ -119,11 +120,11 @@ Utterance: `I am going on PTO tomorrow. Get my expense report and my IT ticket s
 
 -   Non-agentic response: Produces a single answer. It lists all matching available skills. No auto-execution will take place since it matched multiple skills.
 
-    ![Non-agentic response.](../images/utterance3-qna.png)
+    \[Omitted image "utterance3-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into multiple distinct tasks, reasons and plans, understands the dependencies, and executes one after another, completing the entire user request using output from prior actions as context as needed.
 
-    ![Agentic response part1.](../images/utterance3-agentic1.png)![Agentic response part2.](../images/utterance3-agentic2.png)![Agentic response part3.](../images/utterance3-agentic3.png)![Agentic response part4.](../images/utterance3-agentic4.png)![Agentic response part5.](../images/utterance3-agentic5.png)![Agentic response part6.](../images/utterance3-agentic6.png)
+    \[Omitted image "utterance3-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance3-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance3-agentic3.png"\] Alt text: Agentic response part3.\[Omitted image "utterance3-agentic4.png"\] Alt text: Agentic response part4.\[Omitted image "utterance3-agentic5.png"\] Alt text: Agentic response part5.\[Omitted image "utterance3-agentic6.png"\] Alt text: Agentic response part6.
 
 
 **Scenario 4: Complex utterance with a combination of QnA \(KB\) and agent**
@@ -132,10 +133,10 @@ Utterance: `What is the maximum contribution amount for espp? Send an email to R
 
 -   Non-agentic response: Produces a single answer and doesn’t complete or even suggest the second action since there’s no corresponding skill.
 
-    ![Non-agentic response.](../images/utterance4-qna.png)
+    \[Omitted image "utterance4-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Understands the two separate intents and executes them in sequence while using the output from the first intent to fulfill the second intent.
 
-    ![Agentic response part1.](../images/utterance4-agentic1.png)![Agentic response part2.](../images/utterance4-agentic2.png)
+    \[Omitted image "utterance4-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance4-agentic2.png"\] Alt text: Agentic response part2.
 
 

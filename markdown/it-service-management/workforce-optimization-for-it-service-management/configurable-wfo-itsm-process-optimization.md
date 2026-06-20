@@ -2,6 +2,7 @@
 title: Workforce Optimization for ITSM integration with Process Mining components
 description: Workforce Optimization for ITSM installs roles and properties to configure the Workforce Optimization for ITSM integration with Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-process-optimization.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -58,5 +59,5 @@ Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
 |----|-----------|
 |Process Mining - WFO Remine Projects|Automatically runs once a day. You can run this job on demand when additional data is added to a project so that you get the up-to-date process insights into your projects. The job will remine data based on the frequency set in the **promin.wfo.run\_frequency** property.|
 
-**Parent Topic:**[Setting up the integration of Process Mining with Workforce Optimization for ITSM](../concept/setting-up-process-optimization-wfo-itsm.md)
+**Parent Topic:**[Setting up the integration of Process Mining with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/setting-up-process-optimization-wfo-itsm.md)
 

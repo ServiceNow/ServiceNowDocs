@@ -2,6 +2,7 @@
 title: Create an action input from a step input
 description: Create an action input based on the data type of a step input. Map the step input value to the new action input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/create-action-input-from-step-input.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -37,14 +38,14 @@ You can use a step input as a template for an action input. Workflow Studio can 
 
 6.  Select the plus icon next to the **Inputs** option.
 
-    ![](../images/create-action-input-from-step-input.png)
+    \[Omitted image "create-action-input-from-step-input.png"\] Alt text:
 
 
 ## Result
 
 Workflow Studio creates an input named after the step and input type. For example create\_record\_table\_name, which is an input created for the Create Record step and the Table input. The action input is of the same data type as the step input, for example Table Name. The step input is mapped to the new action input, and the action input is available from the Data pane.
 
-![](../images/create-action-input-from-step-input-mapping.png)
+\[Omitted image "create-action-input-from-step-input-mapping.png"\] Alt text:
 
-**Parent Topic:**[Create an action in Workflow Studio](create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-action.md)
 

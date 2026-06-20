@@ -2,6 +2,7 @@
 title: Playbooks in Workflow Studio
 description: Playbooks are ServiceNow AI Platform representations of cross-enterprise processes for your organization. Create and activate a playbook to run your digitized business process on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/process-definitions.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Playbooks are ServiceNow AI Platform® representations of cross-enterprise proce
 
 Each playbook that you design in Workflow Studio has a trigger, a sequence of stages, and a sequence of activities.
 
-You can view your list of Playbooks by navigating **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**. Opening a playbook allows you to edit it. If there are no playbooks in the list, you can create a new one by clicking **New** and selecting **Playbook**. For more information on creating a playbook, see [create a process definition](../task/create-process-definition.md).
+You can view your list of Playbooks by navigating **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**. Opening a playbook allows you to edit it. If there are no playbooks in the list, you can create a new one by clicking **New** and selecting **Playbook**. For more information on creating a playbook, see [create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-process-definition.md).
 
 ## Properties
 
@@ -62,7 +63,7 @@ Run my trigger
 </td><td>
 
 Option that defines how many times your trigger can run for your playbook. Choices include:-   **Once**: Triggers the playbook once for the life of the triggering input record.
--   **For each unique change**: Triggers the playbook for every unique update to a non-[system field](https://www.servicenow.com/docs/access?context=r_GlobalDefaultFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.
+-   **For each unique change**: Triggers the playbook for every unique update to a non-system field even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.
 
 **Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
 
@@ -75,10 +76,10 @@ Run on extended
 
 </td><td>
 
-Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see .
 
 </td></tr></tbody>
-</table>**Note:** After you create a playbook, you can't change the trigger's input table or trigger type. For more information, see [Triggers](process-automation-designer-triggers.md).
+</table>**Note:** After you create a playbook, you can't change the trigger's input table or trigger type. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/process-automation-designer-triggers.md).
 
 ## Design considerations
 
@@ -93,16 +94,16 @@ Refer to these design considerations when working with playbooks:
     Record triggers ignore records added or updated by applying an update set or importing an XML file. These operations apply to the entire application or table rather than an individual record.
 
 
--   **[Create a playbook](../task/create-process-definition.md)**  
+-   **[Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-process-definition.md)**  
 Enable playbook owners to configure and organize multiple instances of Workflow Studio content into an automated business process on the ServiceNow AI Platform®.
--   **[Playbook variants](playbook-variants.md)**  
+-   **[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-variants.md)**  
 Use one playbook for multiple scenarios.
--   **[Test a playbook](../task/test-process.md)**  
+-   **[Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/test-process.md)**  
 Verify that your playbook works as expected by running the playbook with test trigger data. Identify and resolve all errors before activating your playbook.
--   **[Restart](restart.md)**  
+-   **[Restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/restart.md)**  
 Give agents and fulfillers the ability to restart a playbook, stage, or activity.
--   **[Duplicate Playbooks](../task/duplicate-process.md)**  
+-   **[Duplicate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/duplicate-process.md)**  
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 
-**Parent Topic:**[Building playbooks](building-a-process.md)
+**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/building-a-process.md)
 

@@ -2,6 +2,7 @@
 title: Manage ServiceNow CLI extensions
 description: Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/servicenow-cli/find-extensions.html
 release: xanadu
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -58,5 +59,5 @@ Add extensions to the ServiceNow CLI to load additional functionality and comman
         ```
 
 
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/servicenow-cli/servicenow-cli.md)
 

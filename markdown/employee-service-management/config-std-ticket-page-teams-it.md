@@ -2,7 +2,10 @@
 title: Microsoft Teams Chat widget in Employee Center
 description: The Teams Chat widget enables employees to view or continue chats with agents and view and access the content of attached files in the Employee Center. This widget is available through the IT Service Management integration with the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/config-std-ticket-page-teams-it.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,8 +31,8 @@ Employees can take the following actions associated with their tickets:
 -   Continue a chat conversation with the agent handling the ticket using the Microsoft Teams application without having to exit the Employee Center.
 -   View the list of people involved in their chat conversation.
 
--   **[Add Microsoft Teams Chat widget](../task/add-teams-chat-widget-it.md)**  
+-   **[Add Microsoft Teams Chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/add-teams-chat-widget-it.md)**  
 Add the Teams Chat widget to enable employees to view or continue chats with agents and view and access the content of attached files in the Employee Center.
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-it.md)
 

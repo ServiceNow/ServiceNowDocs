@@ -2,7 +2,10 @@
 title: Close a work order task as complete
 description: Only agents can close work order tasks assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CloseAWorkOrderTaskAsComplete.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -46,5 +49,5 @@ If the caller's problem was fixed or resolved, use the **Close Complete** option
 
 The customer receives SMS and email notification that the work order task is completed.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ExecuteWorkOrderTasks.md)
 

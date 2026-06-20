@@ -2,6 +2,7 @@
 title: Consumable model fields
 description: Consumable Models form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/consumable-model-fields.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -136,5 +137,5 @@ Active
 Option that indicates the lifecycle of the model is active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

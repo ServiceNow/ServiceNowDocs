@@ -2,6 +2,7 @@
 title: Configure AI Search for Legal Counsel Center
 description: Configure your AI Search implementation for Legal Counsel Center Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/configure-ai-search-for-legal-counsel-center.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery

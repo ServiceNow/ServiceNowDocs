@@ -2,6 +2,7 @@
 title: Hardware model details
 description: Find the hardware model details and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/hardware-model-fields.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -499,7 +500,7 @@ Description of the catalog item.
 
 ## Assets
 
-For information about the fields on the Assets tab, see [Create assets](../../asset-management/task/t_CreatingAssets.md).
+For information about the fields on the Assets tab, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/t_CreatingAssets.md).
 
 ## Configuration Items
 
@@ -701,5 +702,5 @@ Description
 Description of the hardware model.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

@@ -2,6 +2,7 @@
 title: Java Apache Axis2 web services client examples update
 description: An example of an Axis Client program that calls the getKeys function to query all incidents where the category is Hardware.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/web-services/c\_JAAWbSrvcsClntExUpdt.html
 release: xanadu
 product: Web Services
 classification: web-services
@@ -77,5 +78,5 @@ package com.service_now.www ;
  }
 ```
 
-**Parent Topic:**[Java Apache Axis2 web services client examples](c_JAAWbSrvcsClntEx.md)
+**Parent Topic:**[Java Apache Axis2 web services client examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/web-services/c_JAAWbSrvcsClntEx.md)
 

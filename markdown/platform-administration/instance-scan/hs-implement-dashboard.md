@@ -2,6 +2,7 @@
 title: Implement the Instance Scan dashboard
 description: Compare and analyze the results of the scans in your instance by representing it on the premium Performance Analytics \(PA\) dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-implement-dashboard.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -17,7 +18,7 @@ Compare and analyze the results of the scans in your instance by representing it
 
 ## Before you begin
 
-You've created some checks to execute the full scan. See [Create a check](hs-create-health-check.md) and [Execute a full scan](hs-execute-full-scan.md) for more information.
+You've created some checks to execute the full scan. See [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-create-health-check.md) and [Execute a full scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-execute-full-scan.md) for more information.
 
 Role required: admin.
 
@@ -33,13 +34,13 @@ Role required: admin.
 
     A related list of findings related to only that scan is expanded.
 
-    ![Image showing the scan that generated unexpected results and its related list of findings](../image/hs-implement-dashboard.png)
+    \[Omitted image "hs-implement-dashboard.png"\] Alt text: Image showing the scan that generated unexpected results and its related list of findings
 
 4.  Select the scan column directly from the dashboard to display the related list of checks.
 
-    ![Image showing how to select a particular scan result column](../image/hs-click.png)
+    \[Omitted image "hs-click.png"\] Alt text: Image showing how to select a particular scan result column
 
-    The related list of checks appears. The list also indicates the source that the finding has been retrieved from. ![Image showing checks for the selected health scan and the source of the problem](../image/hs-dashboard-related-list.png)
+    The related list of checks appears. The list also indicates the source that the finding has been retrieved from. \[Omitted image "hs-dashboard-related-list.png"\] Alt text: Image showing checks for the selected health scan and the source of the problem
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Business stakeholder role for Test Management 2.0
 description: Use the business stakeholder role to read and retrieve data from any table of the Test Management 2.0 applications to generate reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/test-management/business-stakeholder-role-test-mgmt2.html
 release: xanadu
 product: Test Management
 classification: test-management

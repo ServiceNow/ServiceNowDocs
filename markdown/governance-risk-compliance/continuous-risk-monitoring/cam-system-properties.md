@@ -2,6 +2,7 @@
 title: Continuous Authorization and Monitoring system properties
 description: Default properties are set with activation of CAM plug-in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-system-properties.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -17,7 +18,7 @@ Default properties are set with activation of CAM plug-in.
 
 To configure the CAM report properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **Report Properties**.
 
-Enter the days in the **Auto generate engagement** field to automatically create the next engagement in the authorization package. The days entered in the **Auto Generate Engagement** field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package. For more information, see [View package details in CAM Workspace](../../grc-cam-workspace/task/auth-package-overview-ws.md). ![ATO Artifacts System Properties.](../../grc-cam-workspace/image/cam-ato-artifacts-system-properties.png)
+Enter the days in the **Auto generate engagement** field to automatically create the next engagement in the authorization package. The days entered in the **Auto Generate Engagement** field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package. For more information, see [View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md). \[Omitted image "cam-ato-artifacts-system-properties.png"\] Alt text: ATO Artifacts System Properties.
 
 <table id="table_wxn_rh3_ydc"><thead><tr><th>
 
@@ -144,5 +145,5 @@ Specifies the type of template to be used for Executive Summary report. By defau
 -   Word: a533486e47711250ce3ab9b4416d4303
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Continuous Authorization and Monitoring](cam-components-installed.md)
+</table>**Parent Topic:**[Components installed with Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md)
 

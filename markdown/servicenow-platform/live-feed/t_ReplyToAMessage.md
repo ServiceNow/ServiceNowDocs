@@ -2,6 +2,7 @@
 title: Reply to a Live Feed message
 description: To participate in an existing thread of a feed, you can compose and submit a reply message. By default, the message is visible to all members of the feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_ReplyToAMessage.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -39,8 +40,8 @@ Role required: none
 
 7.  Click **Threads** to view all of the replies within the selected reply in reverse chronological order within the **Message Thread** pop-up window, similar to an email thread.
 
-    ![Message thread](../image/MessageThread.png "Message thread")
+    \[Omitted image "MessageThread.png"\] Alt text: Message thread
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

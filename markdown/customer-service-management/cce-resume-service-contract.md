@@ -2,7 +2,10 @@
 title: Resume a service contract
 description: Resume a service contract and its child service contract lines by creating an order on the CSM Configurable Workspace. By resuming a service contract, you are restarting the services specified in that service contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/cce-resume-service-contract.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

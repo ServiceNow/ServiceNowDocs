@@ -2,6 +2,7 @@
 title: Database rotation
 description: Database rotation involves managing table size growth and archiving old data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_DatabaseRotation.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -56,7 +57,7 @@ Table Extension
 
 The Table Rotations module allows you to define a new table rotation, a new table extension, a new table shard, or modify an existing one. You can access a list of table rotations on your instance by navigating to **All** &gt; **System Definition** &gt; **Table Rotations** &gt; **.**
 
-![Table rotation groups](../image/DatabaseRotation.png "Table rotation groups")
+\[Omitted image "DatabaseRotation.png"\] Alt text: Table rotation groups
 
 -   **Name**: auto-generated from table name
 -   **Duration**: overall time parameter for function
@@ -66,12 +67,12 @@ The Table Rotations module allows you to define a new table rotation, a new tabl
 
 When you define a new rotation, a schedule is created and new data is subsequently written to one of the tables in the rotation group. You will notice the that the group includes the original table plus a number of additional tables. Be aware that deleting a rotation will delete the additional tables and all the data, therefore the rotation should not be deleted if the data is needed.
 
--   **[Activate database rotation](../task/t_ActivateDatabaseRotation.md)**  
+-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ActivateDatabaseRotation.md)**  
 Learn how to activate database rotation.
--   **[Table rotation](../../platform-performance/concept/c_TableRotation.md)**  
+-   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_TableRotation.md)**  
 Optimize performance and manage data lifecycle by rotating tables, allowing older data to be systematically archived while maintaining system efficiency.
--   **[Table extension](../../managing-data/concept/table-extension.md)**  
+-   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Data Management](../../managing-data/concept/c_DataManagement.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataManagement.md)
 

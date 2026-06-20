@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Configure the Now Assist for Telecommunications, Media and Technology \(TMT\) application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for TMT. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Now Assist Admin console](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for TMT. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see .
 
 <table id="table_vy3_nbk_5bc"><thead><tr><th>
 
@@ -48,8 +49,8 @@ Service Problem Case
 
 1.  Install the Now Assist for Telecommunications, Media and Technology \(TMT\) plugin \(sn\_tmt\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](../concept/now-assist-tmt-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** and access the **Features** tab of the Now Assist Admin console.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Features** tab on the screen.
@@ -60,7 +61,7 @@ Service Problem Case
 
 4.  In the **Select product** field, select **TMT**.
 
-    ![Service Problem Case skills](../image/configure-now-assist-tmt.png)
+    \[Omitted image "configure-now-assist-tmt.png"\] Alt text: Service Problem Case skills
 
 5.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 

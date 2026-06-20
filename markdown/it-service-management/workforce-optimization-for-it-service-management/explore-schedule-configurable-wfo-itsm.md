@@ -2,6 +2,7 @@
 title: Scheduling in Workforce Optimization for ITSM
 description: Learn how you can plan shifts with automatically staggered break times for your agents to manage their schedule effectively in Workforce Optimization for ITSM. Publish schedules for the next scheduling period to get a snapshot of which agent is lined up to solve issues for that time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.html
 release: xanadu
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,11 +22,11 @@ Manage the scheduling for your organization from a central location. Use On-Call
 
 The image provides a high-level overview of the Scheduling application.
 
-![Scheduling overview](../image/scheduling-overview.png)
+\[Omitted image "scheduling-overview.png"\] Alt text: Scheduling overview
 
 The image provides a high-level overview of the tasks schedulers and agents can perform on the calendar.
 
-![Schedule calendar](../image/scheduling-calendar.png)
+\[Omitted image "scheduling-calendar.png"\] Alt text: Schedule calendar
 
 As a shift planning administrator, you can:
 
@@ -45,11 +46,11 @@ Easily find the tasks that you must complete in the Scheduling module.
 
 |Benefit|User|Finding tasks to complete in Scheduling|
 |-------|----|---------------------------------------|
-|Activate Scheduling in Workforce Optimization for ITSM.|admin|[Activate Scheduling](../task/activate-configurable-workforce-optimization-itsm.md)|
-|Refer to the roles, system properties, and more used in Scheduling and Schedule adherence.|[Any scheduling role](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Understand components used in Scheduling in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-scheduling-reference.md)|
-|Configure event categories, access for event types and more.|[Scheduling admin](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Set up Scheduling in Workforce Optimization for ITSM](setup-scheduling-configurable-workforce-optimization-itsm.md)|
-|Manage your workforce efficiently by planning your teams' shifts and schedule plans. You can also plan and manage schedules and staffing needs across your teams from one location.|[Scheduling manager](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Schedule your teams' work in Workforce Optimization for ITSM](scheduling-configurable-workforce-optimization-itsm.md)|
-|Understand how Schedule adherence works.|[Any role](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Understand Schedule adherence in Workforce Optimization for ITSM](schedule-adherence-configurable-itsm.md)|
-|Evaluate if your agents are adhering to their schedules and fine-tune your staffing requirements based on their adherence.|[Scheduling manager](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Monitor schedule adherence of your agents](../task/configurable-workspace-view-schedule-adherence-itsm.md)|
-|Predict resources based on historical data.|[Scheduling admin](../reference/configurable-wfo-itsm-scheduling-reference.md)|[Demand Forecast in Workforce Optimization for ITSM](explore-demand-forecast-configurable-wfo-itsm.md)|
+|Activate Scheduling in Workforce Optimization for ITSM.|admin|[Activate Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md)|
+|Refer to the roles, system properties, and more used in Scheduling and Schedule adherence.|[Any scheduling role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Understand components used in Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|
+|Configure event categories, access for event types and more.|[Scheduling admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Set up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)|
+|Manage your workforce efficiently by planning your teams' shifts and schedule plans. You can also plan and manage schedules and staffing needs across your teams from one location.|[Scheduling manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Schedule your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)|
+|Understand how Schedule adherence works.|[Any role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Understand Schedule adherence in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.md)|
+|Evaluate if your agents are adhering to their schedules and fine-tune your staffing requirements based on their adherence.|[Scheduling manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.md)|
+|Predict resources based on historical data.|[Scheduling admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)|[Demand Forecast in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/workforce-optimization-for-it-service-management/explore-demand-forecast-configurable-wfo-itsm.md)|
 

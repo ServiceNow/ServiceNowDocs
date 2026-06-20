@@ -2,6 +2,7 @@
 title: Update a cache in Product Catalog Management
 description: Regenerate the cache associated with product offerings or product offering catalogs after changing the Unit of Measure in a product offering or category-related hierarchies in a product offering catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-update-cache-catalog-mgmt.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,15 +24,15 @@ Role required: sn\_prd\_pm.product-catalog\_admin, sn\_prd\_pm.product-catalog\_
 
 1.  Navigate to the record that you updated.
 
-<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d26667e59">
+<table id="choicetable_tty_nql_p1c"><thead><tr><th align="left" id="d26858e59">
 
 Feature change
 
-</th><th align="left" id="d26667e62">
+</th><th align="left" id="d26858e62">
 
 Navigate to
 
-</th></tr></thead><tbody><tr><td id="d26667e68">
+</th></tr></thead><tbody><tr><td id="d26858e68">
 
 **Unit of Measure \(UOM\) for a product offering**
 
@@ -41,7 +42,7 @@ Navigate to
 2.  Select the product offering record that you just updated.
 
 
-</td></tr><tr><td id="d26667e98">
+</td></tr><tr><td id="d26858e98">
 
 **Product offering catalog changes-   Catalog to category
 -   Category to sub-category

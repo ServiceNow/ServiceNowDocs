@@ -2,7 +2,10 @@
 title: Create a schedule to use with the agent calendar
 description: Users with the agent calendar administrator role can create a schedule to use with the agent calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-schedule-agent-calendar.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -19,14 +22,14 @@ Role required: agent\_schedule\_admin
 
 ## About this task
 
-Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Creating a schedule for the agent calendar uses the schedule feature. For more information, see Schedules.
 
 Schedules are configured with two types of records.
 
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[cmn\_schedule\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table.
 
-For more information on schedule fields, see [Schedule fields](https://www.servicenow.com/docs/access?context=r_ScheduleFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information on schedule fields, see .
 
 ## Procedure
 
@@ -99,5 +102,5 @@ Description
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../../field-service-management/concept/scheduling-and-dispatching-agents.md)
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-and-dispatching-agents.md)
 

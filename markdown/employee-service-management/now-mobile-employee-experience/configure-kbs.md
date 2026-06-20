@@ -2,6 +2,7 @@
 title: Configure knowledge bases
 description: Enable users to view knowledge articles from the mobile app. If no knowledge bases are selected, users can view articles from all knowledge bases in the system. By default, the app uses the IT knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/configure-kbs.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -20,8 +21,6 @@ Enable users to view knowledge articles from the mobile app. If no knowledge bas
 Role required: admin
 
 ## About this task
-
-Demonstrates configuring service catalogs, knowledge bases, and My Requests in the Now Mobile App.
 
 ## Procedure
 
@@ -51,7 +50,7 @@ Demonstrates configuring service catalogs, knowledge bases, and My Requests in t
 
 ## Result
 
-Users can select the ![Plus icon](../image/more-items.png) icon on the applet launcher page to open the quick action.
+Users can select the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page to open the quick action.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

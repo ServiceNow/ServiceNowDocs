@@ -2,6 +2,7 @@
 title: My Learning
 description: My Learning is a new and modern user portal that enables you to pursue courses that help you grow in all aspects of your career.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/learning-core/overview-lxp.html
 release: xanadu
 product: Learning Core
 classification: learning-core
@@ -31,18 +32,18 @@ Use the Activity tab to view your entire content activity and history. You can l
 
 ## Achievements
 
-Use the Achievements tab to review the achievement badges that you've earned. You can view detailed achievement information. All achievement rules and criteria are created and managed in the back-end using Learning. For more information, see [Create an achievement definition](create-achievement.md).
+Use the Achievements tab to review the achievement badges that you've earned. You can view detailed achievement information. All achievement rules and criteria are created and managed in the back-end using Learning. For more information, see [Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/create-achievement.md).
 
--   **[Discover](discover-lxp.md)**  
+-   **[Discover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/discover-lxp.md)**  
 The **Discover** tab on My Learning provides a variety of widgets that help you browse through courses, paths, and collections.
--   **[Activity](activity-lxp.md)**  
+-   **[Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/activity-lxp.md)**  
 The **Activity** tab on My Learning provides a variety of widgets that help you see your assigned, saved, shared, and completed courses.
--   **[My Learning overview tab](overview-lxp-widgets.md)**  
+-   **[My Learning overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/overview-lxp-widgets.md)**  
 The **Overview** tab on My Learning provides a variety of widgets that help you track courses, view your progress, view achievements among other things.
--   **[Achievements](achievements-lxp.md)**  
+-   **[Achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/achievements-lxp.md)**  
 The **Achievements** tab on My Learning shows you all your learning achievements.
--   **[Assigned to your team](manager-view-lxp.md)**  
+-   **[Assigned to your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/manager-view-lxp.md)**  
 Track your team learning tasks to streamline their career growth.
 
-**Parent Topic:**[Exploring Learning](exploring-learning.md)
+**Parent Topic:**[Exploring Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/learning-core/exploring-learning.md)
 

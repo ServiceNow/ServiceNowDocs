@@ -2,6 +2,7 @@
 title: Creator Studio glossary
 description: Learn about the terms and concepts used in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-glossary.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -15,7 +16,7 @@ breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applicat
 
 Learn about the terms and concepts used in Creator Studio.
 
-**Parent Topic:**[Creator Studio reference](../reference/creator-studio-reference.md)
+**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-reference.md)
 
 ## activity
 

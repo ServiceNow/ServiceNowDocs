@@ -2,6 +2,7 @@
 title: Define aggregation conditions
 description: Define additional incident aggregation criteria that aggregates an incoming detection to an existing SIR security incident instead of creating similar, potentially duplicate detections. When you use field matching value criteria for each profile, this additional aggregation can reduce the number of active, overlapping security incidents by placing all related detections data on a single security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/define-aggregation-conditions-cs-ng-siem.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Tree picker lookup
 description: The reference lookup can be rendered in the tree picker format by modifying the dictionary and adding the attribute tree\_picker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_TreePickerLookup.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,10 +18,10 @@ You cannot customize the label names used in the tree picker. The label names ar
 
 **Note:** The tree display hierarchy does not appear in reference fields when using mobile applications.
 
-**Parent Topic:**[Reference lookup](c_ReferenceLookup.md)
+**Parent Topic:**[Reference lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ReferenceLookup.md)
 
 **Related topics**  
 
 
-[Tree picker](https://www.servicenow.com/docs/access?context=c_TreePicker&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_TreePicker]
 

@@ -2,6 +2,7 @@
 title: Forum and user permissions management
 description: Community and forum administrators can give users and groups of users different levels of access to forums and forum content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/communities-permissions.html
 release: xanadu
 product: Communities
 classification: communities
@@ -17,7 +18,7 @@ Community and forum administrators can give users and groups of users different 
 
 There are three components that make up the security settings for forums: forum users, permissions, and forums.
 
-![Forum and user permissions. Refer to the Default Permissions table for a full description of permissions.](../images/forum-user-permissions.png)
+\[Omitted image "forum-user-permissions.png"\] Alt text: Forum and user permissions. Refer to the Default Permissions table for a full description of permissions.
 
 -   **Forum users**
 
@@ -61,7 +62,7 @@ You can create your own permission or use one of the default permissions that th
 
 To assign permissions to users and user groups, create associations between forum users and permissions for a specific forum.
 
-![Steps to assign permissions to users and groups within a forum. Refer to the following list for details on different permission options.](../images/forum-permission-step2.png)
+\[Omitted image "forum-permission-step2.png"\] Alt text: Steps to assign permissions to users and groups within a forum. Refer to the following list for details on different permission options.
 
 **Note:** Forum permissions are not inherited in the forum hierarchy. Each subforum must be configured with its own set of permissions and content types.
 
@@ -70,14 +71,14 @@ To assign permissions to users and user groups, create associations between foru
 -   You can copy permissions from a parent forum to a child forum or from another forum altogether.
 -   You can also define user-specific permission exceptions and debug user permissions.
 
--   **[Create a forum user](../task/add-user.md)**  
+-   **[Create a forum user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/add-user.md)**  
 You can create forum users, which you then use to define memberships to a forum.
--   **[Create a permission](../task/create-permission.md)**  
+-   **[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/create-permission.md)**  
 Create a permission to use to define a user's access to a forum and the content in the forum.
--   **[Clone a permission](../task/clone-permission.md)**  
+-   **[Clone a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/clone-permission.md)**  
 Clone a permission if an existing permission record cannot be modified and you require a permission record with similar settings.
--   **[Create a forum permission](../task/create-forum-permission.md)**  
+-   **[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/create-forum-permission.md)**  
 Add a forum user and a permission to a forum to create a forum permission.
 
-**Parent Topic:**[Configure a community](../task/configure-communities.md)
+**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/configure-communities.md)
 

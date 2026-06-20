@@ -2,6 +2,7 @@
 title: Activate Service Portfolio Management Sample Content Pack
 description: Activate the Service Portfolio Management Taxonomy Content Pack plugin \(com.snc.spm.content\) to access a sample portfolio structure and service taxonomy. This sample data offers a demonstration users can adopt to accelerate the creation and management of a service portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.html
 release: xanadu
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -21,7 +22,7 @@ Role required: admin or portfolio\_admin
 
 ## About this task
 
-**Note:** The Service Portfolio Management Taxonomy Content Pack data is best viewed in Service Owner Workspace. For details about accessing this workspace through a Service Owner Workspace subscription, refer to [Service Owner Workspace](../../service-owner-workspace/concept/SPM2-premium.md).
+**Note:** The Service Portfolio Management Taxonomy Content Pack data is best viewed in Service Owner Workspace. For details about accessing this workspace through a Service Owner Workspace subscription, refer to [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 The Service Portfolio Management Taxonomy Content Pack plugin \(com.snc.spm.content\), contains demo data and provides sample taxonomy structure metadata. Users can quickly and efficiently implement portfolios and associated taxonomies.
 
@@ -41,11 +42,11 @@ After sample data loads, use it as a starting point to create and manage your se
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[View Service Portfolio Management sample IT services portfolio content](use-SPM2-sample-service-portfolio.md)**  
+-   **[View Service Portfolio Management sample IT services portfolio content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-portfolio-management/use-SPM2-sample-service-portfolio.md)**  
 Access, view, and analyze the Service Portfolio Management sample IT services portfolio content to plan and create your service portfolio. Consider the sample structure as a starting point. You can add to it or modify it to suit the specific needs of your organization.
 
-**Parent Topic:**[Configuring Service Portfolio Management](../concept/SPM2-configuring.md)
+**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-portfolio-management/SPM2-configuring.md)
 

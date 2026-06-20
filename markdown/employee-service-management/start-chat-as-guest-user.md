@@ -2,7 +2,10 @@
 title: Start a Microsoft Teams chat as a guest user
 description: Start a Microsoft Teams chat as a guest user with an external organization user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/start-chat-as-guest-user.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: agent
 
 ## About this task
 
-This procedure is accomplished through the classic ServiceNow UI. For information about the same procedure accomplished through the workspace, see [Request-based chat - Start and import chat from Start Microsoft Teams chat action](initiate-chat-agent-ws.md).
+This procedure is accomplished through the classic ServiceNow UI. For information about the same procedure accomplished through the workspace, see [Request-based chat - Start and import chat from Start Microsoft Teams chat action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/initiate-chat-agent-ws.md).
 
 ## Procedure
 
@@ -48,5 +51,5 @@ This procedure is accomplished through the classic ServiceNow UI. For informatio
 
 The chat opens in the Microsoft Teams application.
 
-**Parent Topic:**[Request-based chat - Start and import chat as guest user from classic view](../concept/start-import-req-based-chat-as-guest.md)
+**Parent Topic:**[Request-based chat - Start and import chat as guest user from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/start-import-req-based-chat-as-guest.md)
 

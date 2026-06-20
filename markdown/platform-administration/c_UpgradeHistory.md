@@ -2,6 +2,7 @@
 title: Upgrade History module: Track every upgrade
 description: The Upgrade History module tracks every upgrade made to an instance. Administrators can use the module to resolve upgrade conflicts and optionally to revert customizations to base system versions to take advantage of new features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_UpgradeHistory.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ The Upgrade History module tracks every upgrade made to an instance. Administrat
 
 An upgrade history record is created for each upgrade that is run. To view an upgrade history record, navigate to **System Diagnostics** &gt; **Upgrade History** and click the upgrade.
 
-**Note:** Debug Upgrade provides detailed debugging output for transactions containing artifacts affected by the most recent upgrade, and is designed to assist in upgrade error resolution. See [Debug upgrade](../../administer/platform-upgrades/reference/debug-upgrade.md).
+**Note:** Debug Upgrade provides detailed debugging output for transactions containing artifacts affected by the most recent upgrade, and is designed to assist in upgrade error resolution. See [Debug upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/debug-upgrade.md).
 
 **Note:** The **Payload** and **Payload Hash** fields have been removed from the Upgrade History record in a previous release.
 
@@ -133,20 +134,20 @@ Number of Upgrade Detail records for which the value of the disposition is skipp
 </td></tr></tbody>
 </table>## Review Skipped Records form section
 
-The [Skipped Changes to Review related list](skipped-changes-to-review-related-list.md) displays each record that was skipped during the upgrade process. Use the list to review the reason for each skipped record in the list and then either merge your customization or revert your customization to the base system.
+The [Skipped Changes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/skipped-changes-to-review-related-list.md) displays each record that was skipped during the upgrade process. Use the list to review the reason for each skipped record in the list and then either merge your customization or revert your customization to the base system.
 
--   **[Skipped Changes to Review related list](skipped-changes-to-review-related-list.md)**  
+-   **[Skipped Changes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/skipped-changes-to-review-related-list.md)**  
 To prevent your customizations from being overwritten during system upgrades, the upgrade process skips \(does not apply the update to\) objects that have been customized. To assist you in tracking and resolving skipped update records that need review, Skipped Changes to Review lists all updates skipped during the upgrade process.
--   **[Skipped Changes Reviewed related list](skipped-changes-reviewed-related-list.md)**  
+-   **[Skipped Changes Reviewed related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/skipped-changes-reviewed-related-list.md)**  
 Skipped Changes Reviewed lists update records that previously appeared on the **Skipped Changes to Review** related list and have been reviewed. When you select a skipped record to review and set a **Resolution Status** to a value other than Not Reviewed, the update record moves to the Skipped Changes Reviewed related list.
--   **[Customizations Unchanged related list](customizations-unchanged-related-list.md)**  
+-   **[Customizations Unchanged related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/customizations-unchanged-related-list.md)**  
 Customizations Unchanged lists all records that were skipped \(due to a customization\), but the changes that were going to be applied in this upgrade have not changed from the last upgrade.
--   **[Changes Applied related list](changes-applied-related-list.md)**  
+-   **[Changes Applied related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/changes-applied-related-list.md)**  
 Changes Applied lists all changes that were applied in this upgrade.
--   **[Claim Outcomes to Review related list](claim-outcomes-to-review-related-list.md)**  
+-   **[Claim Outcomes to Review related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/claim-outcomes-to-review-related-list.md)**  
 During system upgrades, the Claim Status tab displays outcomes to review and resolve. See the Claim Status field in the table below.
--   **[Upgrade Details related list](c_UpgradeDetails.md)**  
+-   **[Upgrade Details related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_UpgradeDetails.md)**  
 Upgrade Details lists all Upgrade Details records for this upgrade.
 
-**Parent Topic:**[Upgrades and conversions](upgrades-conversions.md)
+**Parent Topic:**[Upgrades and conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/upgrades-conversions.md)
 

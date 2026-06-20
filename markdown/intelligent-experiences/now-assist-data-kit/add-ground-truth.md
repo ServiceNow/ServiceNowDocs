@@ -2,6 +2,7 @@
 title: Add a ground truth to each dataset record
 description: Add a ground truth, which is the real-world data that is used to train and test AI models to each dataset record. You can do this task by using the Now Assist Data Kit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-data-kit/add-ground-truth.html
 release: xanadu
 product: Now Assist Data Kit
 classification: now-assist-data-kit

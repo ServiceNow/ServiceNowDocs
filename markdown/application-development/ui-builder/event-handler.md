@@ -2,6 +2,7 @@
 title: Configure an event handler
 description: Add an event handler to a page, component, data resource, or declarative action within UI Builder so that your user can trigger an action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/ui-builder/event-handler.html
 release: xanadu
 product: UI Builder
 classification: ui-builder
@@ -21,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-An event handler lets you configure an action, components, data resource, or declarative action on your page. For example, you can map an event to your page to add an alert notification when the page successfully loads or you can add an event handler for a button component to perform an action when a user clicks it. The event handler could also be a modal on your page that asks a user to verify that the user wants to delete the record. For more information, see [Manage actions in UI Builder pages](../concept/work-events.md).
+An event handler lets you configure an action, components, data resource, or declarative action on your page. For example, you can map an event to your page to add an alert notification when the page successfully loads or you can add an event handler for a button component to perform an action when a user clicks it. The event handler could also be a modal on your page that asks a user to verify that the user wants to delete the record. For more information, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-events.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ An event handler lets you configure an action, components, data resource, or dec
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/create-page.md).
 
 4.  Add a component to your page, such as a button.
 
-    For more information about adding components to a page, see [Add and configure components](add-components.md#).
+    For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/add-components.md).
 
 5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
 
@@ -47,27 +48,27 @@ An event handler lets you configure an action, components, data resource, or dec
 
     Some components, such as the button component, only have one event mapping. Other components can have many events.
 
-    ![Arrow pointing to add event mapping option.](../image/event-handler-mapping-button.png)
+    \[Omitted image "event-handler-mapping-button.png"\] Alt text: Arrow pointing to add event mapping option.
 
 7.  Select an event mapping that you want to configure from the list.
 
-    ![List of available event mappings.](../image/event-handler-list.png)
+    \[Omitted image "event-handler-list.png"\] Alt text: List of available event mappings.
 
 8.  From the Event handler preview screen, select an action that you want assigned to the component.
 
-    !["View All" click event selected from the event list.](../image/event-handler-select-list.png)
+    \[Omitted image "event-handler-select-list.png"\] Alt text: "View All" click event selected from the event list.
 
 9.  Select **Continue**.
 
 10. Select the handler you want to trigger from the event selected in the earlier step.
 
-    ![Link to destination selected from the handler list.](../image/event-handler-select-list-link-dest.png)
+    \[Omitted image "event-handler-select-list-link-dest.png"\] Alt text: Link to destination selected from the handler list.
 
 11. Select **Continue**.
 
 12. Configure the payload for the event.
 
-    ![Event handler configured to open the list page.](../image/event-handler-configured.png)
+    \[Omitted image "event-handler-configured.png"\] Alt text: Event handler configured to open the list page.
 
 13. Select **Add**.
 
@@ -80,7 +81,7 @@ An event handler lets you configure an action, components, data resource, or dec
 
 The configured event handler displays in the events tab of the configuration panel.
 
-![Configured event mapping for clear alert notifications.](../image/event-handler-result.png)
+\[Omitted image "event-handler-result.png"\] Alt text: Configured event mapping for clear alert notifications.
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/ui-builder/work-events.md)
 

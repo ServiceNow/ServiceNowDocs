@@ -2,6 +2,7 @@
 title: Approve a change request for SRM team approval
 description: Approve a change request when the change is reviewed and approved by someone in the Approver role.REVISE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-approve-change-req.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -29,7 +30,7 @@ Role required: admin or SRM approval team
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  Select the **Changes** tab.
 
@@ -48,9 +49,9 @@ Role required: admin or SRM approval team
     On approval, the new service or team is created and added to the SRM team. Owner is set to the person shown in the Assigned to field. Managed by group is set to the SRM team belonging to the assignee.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Configure error budget actions when an SRM SLO is breached](sr-configure-error-budget.md)
+**Previous topic:**[Configure error budget actions when an SRM SLO is breached](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-configure-error-budget.md)
 
-**Next topic:**[Configure Twilio to send notifications in SRM](sr-add-twilio-key.md)
+**Next topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
 

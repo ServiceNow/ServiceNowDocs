@@ -2,11 +2,12 @@
 title: Sensitivity detection human resource value types
 description: Many types of values are considered when sensitivity detection is activated, including workplace solutions based on the value and queue types that HR service manages and resolves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.html
 release: xanadu
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Reference for Now Assist for HR Service Delivery \(HRSD\), Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---

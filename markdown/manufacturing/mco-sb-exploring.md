@@ -2,6 +2,7 @@
 title: Manufacturing Commercial Operations with Service Bridge
 description: Securely build business workflows across the ServiceNow ecosystem using Service Bridge for Manufacturing Commercial Operations.Use the Service Exchange application with Manufacturing Commercial Operations for providers to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.Use the Service Exchange application with Manufacturing Commercial Operations so your consumers can make any requests they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/mco-sb-exploring.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-10-10"
@@ -33,7 +34,7 @@ A provider in the manufacturing industry can use Service Exchange for Manufactur
 -   Claims Management​
 -   Routing to AR team​
 -   Dispute resolution
--   Field Technician Dispatch \(requires an [integration with FSM](integrating-manufacturing.md)\)
+-   Field Technician Dispatch \(requires an [integration with FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/manufacturing/integrating-manufacturing.md)\)
 
 | | | |
 |---|---|---|
@@ -47,7 +48,7 @@ A provider in the manufacturing industry can use Service Exchange for Manufactur
 |Mismatch Version Support​|Providers and consumers can run different versions of the Service Bridge applications \(within N-2\) without impacting their ability to exchange data.​|This feature eliminates the need for providers to coordinate Service Bridge applications updates with their consumers and allows providers to adopt new features while supporting consumers who have yet to upgrade. Service Bridge supportability and scalability are improved, and the Provider is able to deliver an improved customer experience.​|
 |Order Management Support​|When a Product Offering is defined in Sales and Order Management \(SOM\), the administrator can specify a Remote Catalog Item, and the offering will be published as a Remote Record Producer in entitled Service Bridge connected customers’ service catalogs.​|A customer can order a Sales and Order Management \(SOM\) product offering from a connected Service Bridge provider using a Service Bridge Remote Record Producer, enabling faster order fulfillment, improved accuracy, and improved customer satisfaction.​|
 
-For information on setting up Service Exchange for Providers with Manufacturing Commercial Operations, see [Install Service Bridge for Providers in Manufacturing Commercial Operations](../task/mco-install-sb-providers.md).
+For information on setting up Service Exchange for Providers with Manufacturing Commercial Operations, see [Install Service Bridge for Providers in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/manufacturing/mco-install-sb-providers.md).
 
 ## Manufacturing Commercial Operations for Consumers with Service Exchange
 
@@ -77,5 +78,5 @@ A consumer instance is one that contains a B2B customer, channel, supplier or 3P
 |Consumer Pre-Flows​|Consumers can control if and when data should be synced between the provider tasks on the consumer and provider. A flow can be associated with a Service Bridge Remote Record Producer \(RRP\) and run consumer-defined processes, such as approvals, before the request/task is synchronized to their provider.​|Consumer Pre-Flows will enable Service Bridge providers to improve their service for current consumers and expand to additional customers for whom this feature is a requirement.​|
 |Order Management Support​|When a Product Offering is defined in Sales and Order Management \(SOM\), the administrator can specify a Remote Catalog Item, and the offering will be published as a Remote Record Producer in entitled Service Bridge connected customers’ service catalogs.​|A customer can order a Sales and Order Management \(SOM\) product offering from a connected Service Bridge provider using a Service Bridge Remote Record Producer, enabling faster order fulfillment, improved accuracy, and improved customer satisfaction.​|
 
-For information on setting up Service Exchange for Providers with Manufacturing Commercial Operations, see [Install Service Exchange for Consumers in Manufacturing Commercial Operations](../task/mco-install-sb-consumers.md).
+For information on setting up Service Exchange for Providers with Manufacturing Commercial Operations, see [Install Service Exchange for Consumers in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/manufacturing/mco-install-sb-consumers.md).
 

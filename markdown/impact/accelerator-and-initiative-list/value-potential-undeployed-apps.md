@@ -2,6 +2,7 @@
 title: Value Potential
 description: The Value Potential Accelerator provides comprehensive guidance on identifying business value for further adoption of ServiceNow products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/value-potential-undeployed-apps.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,7 @@ Value Potential of undeployed Apps provides Impact customers with support on bui
 
 **Note:** This Accelerator is available for Impact Advanced and Total packages.
 
-In addition, this Accelerator is also available with the Strategic Value Add-on SKU. See [Impact packages](impact-packages.md) for additional information.
+In addition, this Accelerator is also available with the Strategic Value Add-on SKU. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/impact-packages.md) for additional information.
 
 ## What you get
 

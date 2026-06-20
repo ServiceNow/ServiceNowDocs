@@ -2,6 +2,7 @@
 title: Create tasks to fulfill an incident
 description: Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-incident-management/create-ot-incident-task.html
 release: xanadu
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -25,11 +26,11 @@ Role required: sn\_ot\_incident\_write
 
 2.  Open the OT incident record that you want to create a task for.
 
-3.  In the Incident Tasks related list, select **New**.![Create new incident task new button.](../image/incident-task-new-button.png)
+3.  In the Incident Tasks related list, select **New**.\[Omitted image "incident-task-new-button.png"\] Alt text: Create new incident task new button.
 
     If you don’t see the Incident Tasks related list, you must add it.
 
-4.  On the form, fill in the fields.![Operatioonal Technology incident task form.](../image/ot-incident-task-form-new.png)
+4.  On the form, fill in the fields.\[Omitted image "ot-incident-task-form-new.png"\] Alt text: Operatioonal Technology incident task form.
 
 <table id="table_jdm_2hn_23b"><thead><tr><th>
 
@@ -137,7 +138,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon ![Add me icon.](../../incident-management/image/add-me.png) to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon. to add yourself to the work notes list.
 
 </td></tr><tr><td>
 
@@ -161,5 +162,5 @@ You can also view incident tasks in the Industrial Workspace list view in the fo
 -   Incident tasks assigned to your group: **OT Tasks** &gt; **Assigned to My Groups**
 -   Unassigned incident tasks: **OT Tasks** &gt; **Unassigned**
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

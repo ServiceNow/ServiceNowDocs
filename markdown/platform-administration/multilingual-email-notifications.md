@@ -2,6 +2,7 @@
 title: Multilingual email notifications
 description: Using multilingual email notifications, you can send email notifications in the recipient’s preferred language and can easily manage notification content in different languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/multilingual-email-notifications.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,11 +20,11 @@ You can customize email notifications for users across multiple regions based on
 
 Two types of translations are available for email notifications:
 
--   [Static translation](static-translation.md)
+-   [Static translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/static-translation.md)
 
     Customize email notifications for recipients across multiple regions based on their preferred language. With static translations, the translation request goes to a translator.
 
--   [Dynamic translation](dynamic-translation.md)
+-   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/dynamic-translation.md)
 
     Customize email notifications automatically for users across multiple regions based on their preferred language.
 
@@ -45,7 +46,7 @@ If there is a group email ID, an email is sent in a single language to all the r
 
 ## Email notification translation plugins
 
-Activate the [glide notification translation plugin](../task/activate-translation-plugin.md) to send multi-lingual emails based on the recipient’s preferred language. The localization framework plugin is activated by default along with the Glide notification translation plugin.
+Activate the [glide notification translation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-translation-plugin.md) to send multi-lingual emails based on the recipient’s preferred language. The localization framework plugin is activated by default along with the Glide notification translation plugin.
 
-Activate the [translated email retention plugin](../task/activate-email-retention-plugin.md) to archive emails.
+Activate the [translated email retention plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-email-retention-plugin.md) to archive emails.
 

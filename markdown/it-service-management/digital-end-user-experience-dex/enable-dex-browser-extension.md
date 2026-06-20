@@ -2,11 +2,12 @@
 title: Enable DEX browser extension
 description: Activate the DEX Chrome or Edge Extension on your system to collect different operational or performance-based metrics for the web applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configuring Digital End-User Experience, Digital End-User Experience, IT Service Management]
 ---
@@ -27,15 +28,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d148234e74">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d56197e74">
 
 Browser
 
-</th><th align="left" id="d148234e77">
+</th><th align="left" id="d56197e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d148234e83">
+</th></tr></thead><tbody><tr><td id="d56197e83">
 
 **Google Chrome**
 
@@ -46,7 +47,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d148234e117">
+</td></tr><tr><td id="d56197e117">
 
 **Microsoft Edge**
 
@@ -65,5 +66,5 @@ The Google Chrome or Microsoft Edge extension is enabled by default, and when mo
 
 ## What to do next
 
-[Onboard for DEX Application and Device Health](dex-onboarding.md).
+[Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-onboarding.md).
 

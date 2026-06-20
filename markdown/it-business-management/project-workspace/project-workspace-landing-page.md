@@ -2,6 +2,7 @@
 title: Project Workspace
 description: ServiceNow Project Workspace helps project managers to plan and manage projects from a central location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-workspace/project-workspace-landing-page.html
 release: xanadu
 product: Project Workspace
 classification: project-workspace
@@ -17,8 +18,6 @@ ServiceNow® Project Workspace helps project managers to plan and manage project
 
 The new Project Workspace comes with a Planning, Details, Financials, RIDAC, Analytics, and Doc page. See the following video for an overview of the app. A detailed explanation of the features follows the video.
 
-Quick overview of the new Project Workspace UI.
-
 ## Project Workspace Overview
 
 The Project Workspace enables you to collaborate, plan, organize, and execute tasks in a single workspace. This application provides the ability to create and monitor projects, tasks, sub projects, dependencies, and timelines. Project managers can allocate and optimize resources within the Project Workspace and make sure that the right individuals are assigned to the right tasks. With Project Workspace, you can plan and track your project finances, budgets, and cost plans. This project management application helps in making informed and timely decisions by providing relevant project information in one place.
@@ -29,19 +28,19 @@ Create status report for your projects and run analytics for your projects. Expe
 
 <table id="table_ygv_153_rzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the features and business value of Project Workspace](exploring-project-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the features and business value of Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/exploring-project-workspace.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the core configuration](../../pw-resource-management/concept/configure-resource-mgmt-prj-wksp.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/configure-resource-mgmt-prj-wksp.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-alignment.svg)Manage projects with Project Workspace](use-projects-pw.md)
+[Use\[Omitted image "bus-alignment.svg"\] Alt text:Manage projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/use-projects-pw.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about forms and fields of Project Workspace](../reference/project-workspace-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/project-workspace-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -49,18 +48,18 @@ Create status report for your projects and run analytics for your projects. Expe
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring Project Workspace](exploring-project-workspace.md)**  
+-   **[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/exploring-project-workspace.md)**  
 The ServiceNow® Project Workspace application helps you to manage projects, resources, and financials in a single workspace.
--   **[Configuring Project Workspace](../../pw-resource-management/concept/configure-pw.md)**  
+-   **[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/configure-pw.md)**  
 Set up and configure the Project Workspace application to initiate and plan your projects, financials, and resources.
--   **[Managing projects with Project Workspace](use-projects-pw.md)**  
+-   **[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/use-projects-pw.md)**  
 Use the features of Project Workspace to plan and manage your project.
--   **[Managing financials for your projects](../../pw-financials/concept/using-financials-prj-wrkspc.md)**  
+-   **[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/using-financials-prj-wrkspc.md)**  
 Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
--   **[Resource planning with Project Workspace](../../pw-resource-management/concept/use-resource-mgmt-prj-wksp.md)**  
+-   **[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)**  
 Use the Resource Management application to allocate and manage your resources in the Project Workspace.
--   **[Project Workspace reference](../reference/project-workspace-reference.md)**  
+-   **[Project Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-workspace/project-workspace-reference.md)**  
 Reference information to provide additional details about Project Workspace, such as the fields, user roles, tables, scheduled jobs, system properties, and custom scripts.
 
-**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

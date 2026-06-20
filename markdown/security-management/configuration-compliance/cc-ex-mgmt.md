@@ -2,6 +2,7 @@
 title: Configuration Compliance Exception Management overview
 description: When your organization can't comply with a published vulnerability management or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions for a remediation task that cannot be remediated according to the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ex-mgmt.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Configuration Compliance, Configuration Compliance, Unifi
 
 When your organization can't comply with a published vulnerability management or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions for a remediation task that cannot be remediated according to the policy.
 
-**Important:** Exception management is supported in the [Vulnerability Manager Workspace](../../vulnerability-response/concept/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](../../vulnerability-response/task/vr-ws-request-exception.md).
+**Important:** Exception management is supported in the [Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md) and [IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/vr-ws-request-exception.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -42,13 +43,13 @@ The life cycle of an exception is as follows:
 
 As the remediation owner, you can ask for an exemption for a remediation task using the exception management process. During the approval process, the remediation task remains in **In review** state. After the exception approver approves this request, the remediation task moves to a **Deferred** state.
 
-**Important:** You can request an exception from the IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](../../vulnerability-response/task/vr-ws-request-exception.md).
+**Important:** You can request an exception from the IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/vr-ws-request-exception.md).
 
 **Approving an exception request**
 
-Remediation tasks that can't be remediated immediately are reviewed, assessed for risk, and approved for deferral until they can be remediated. Approving an exception request can be a two-level workflow. If only the first-level approver is present, the exception can be requested and approved. However, if there's no first-level approver, an exception can't be requested. See [Add an exception approver for Configuration Compliance](../task/cc-ex-request-add-approver.md) for more information.
+Remediation tasks that can't be remediated immediately are reviewed, assessed for risk, and approved for deferral until they can be remediated. Approving an exception request can be a two-level workflow. If only the first-level approver is present, the exception can be requested and approved. However, if there's no first-level approver, an exception can't be requested. See [Add an exception approver for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-request-add-approver.md) for more information.
 
-**Important:** You can approve or reject an exception request from the Vulnerability Manager Workspace. For more information, see [Request exceptions for remediation tasks and records from the Vulnerability Manager Workspace](../../vulnerability-response/concept/vr-ws-exceptions-split-VMGR-ws.md).
+**Important:** You can approve or reject an exception request from the Vulnerability Manager Workspace. For more information, see [Request exceptions for remediation tasks and records from the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/vulnerability-manager-workspace/vr-ws-exceptions-split-VMGR-ws.md).
 
 **Note:**
 
@@ -69,7 +70,7 @@ After raising the exception, you can track its status by using the **State Chang
 
 When an exception request for a remediation task expires, the remediation task reverts to its **Open** state.
 
-![Exception management life cycle for CC](../image/cc-exception-management-lifecycle.png "Exception management approval process prior to CC v13.0")
+\[Omitted image "cc-exception-management-lifecycle.png"\] Alt text: Exception management life cycle for CC
 
-**Parent Topic:**[Exploring Configuration Compliance](vuln-config-compl.md)
+**Parent Topic:**[Exploring Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/vuln-config-compl.md)
 

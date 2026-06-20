@@ -2,7 +2,10 @@
 title: Now Assist for Employee Experience
 description: Use the Now Assist for Employee Experience application so that your employees can have a seamless conversational interaction with Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assisit-employee-exp.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2025-03-25"
 reading_time_minutes: 3
@@ -17,19 +20,19 @@ Use the Now Assist for Employee Experience application so that your employees ca
 
 <table id="table_ybb_p1c_52c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for Employee Experience](explore-now-assist-for-emp-exp.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/explore-now-assist-for-emp-exp.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Now Assist for Employee Experience](../task/configure-nowassist-emp-exp.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-nowassist-emp-exp.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Now Assist for Employee Experience](use-now-assist-for-emp-exp.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/use-now-assist-for-emp-exp.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Know more about Now Assist for Employee Experience references](reference-now-assist-for-emp-exp.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Know more about Now Assist for Employee Experience references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/reference-now-assist-for-emp-exp.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -55,7 +58,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+For more information, see the Now Assist documentation
 

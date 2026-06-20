@@ -2,6 +2,7 @@
 title: List of Search Result EVAM card properties
 description: You can customize the appearance of standard search results in your AI Search application by changing these properties in the application's Search Result EVAM \(Entity View Action Mapping\) cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/search-result-evam-card-opts.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Configure EVAM display settings for search results, Configure, AI S
 
 You can customize the appearance of standard search results in your AI Search application by changing these properties in the application's Search Result EVAM \(Entity View Action Mapping\) cards.
 
-To learn about configuring properties for Search Result EVAM cards, see [Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md).
+To learn about configuring properties for Search Result EVAM cards, see [Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-search-result-card-opts.md).
 
 **Note:** The following properties are only supported for EVAM cards with `component` property value `sn-search-result-evam-card`. Don't set these properties for EVAM cards with any other `component` value.
 
@@ -38,7 +39,7 @@ Defines the URL for the image you want to show on the Search Result card when **
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Defines label content for the Search Result card's detail label-value pairs. You
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
  To define value content for these label-value pairs, see **detailValueOne** through **detailValueTen**. **detailValueOne** sets the value for **detailLabelOne**, **detailValueTwo** sets the value for **detailLabelTwo**, and so on up through **detailValueTen** and **detailLabelTen**
 
@@ -68,7 +69,7 @@ Defines the character used to separate inline label-value pairs. Only applies wh
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Defines value content for the Search Result card's detail label-value pairs. You
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
  To define label content for these label-value pairs, see **detailLabelOne** through **detailLabelTen**. **detailLabelOne** sets the label for **detailValueOne**, **detailLabelTwo** sets the label for **detailValueTwo**, and so on up through **detailLabelTen** and **detailValueTen**
 
@@ -140,7 +141,7 @@ Defines the icon you want to show on the Search Result card when **imageType** i
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
  For the set of available icon names, see the [Icon Gallery](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-icon/gallery) in the Next Experience reference section on the ServiceNow® Developer Site.
 
@@ -185,7 +186,7 @@ Defines the URL for the image you want to show on the Search Result card when **
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -198,7 +199,7 @@ Defines the content of the Search Result card's summary field.
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -227,7 +228,7 @@ Defines the content of the Search Result card's text header labels. If you speci
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -256,8 +257,8 @@ Defines the content of the Search Result card's title field.
  -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md)
+</table>**Parent Topic:**[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-search-result-card-opts.md)
 

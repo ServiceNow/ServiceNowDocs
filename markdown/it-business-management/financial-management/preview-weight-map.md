@@ -2,6 +2,7 @@
 title: Preview weight map
 description: You can preview a weight map to give you visibility of the generated metric weight map because it displays the accounts for the selected metric and the selected fiscal period with the percentage split for each account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/preview-weight-map.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -45,5 +46,5 @@ The Allocation workbench displays the expense summary for all months, quarters, 
     -   The **Generate All** button is enabled if you select a metric that defines rolling up of all the accounts individually in a segment using the **Enforce Relationships** option in the metric definition to one or more accounts of a segment above in the hierarchy.
 
 
-**Parent Topic:**[Allocation metrics](../concept/c_AllocationMetrics.md)
+**Parent Topic:**[Allocation metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/c_AllocationMetrics.md)
 

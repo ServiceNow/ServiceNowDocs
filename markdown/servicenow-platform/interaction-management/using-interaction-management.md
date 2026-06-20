@@ -2,6 +2,7 @@
 title: Using Interaction Management
 description: Other applications use Interaction Management to control channels, but you can work manually with interactions as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/interaction-management/using-interaction-management.html
 release: xanadu
 product: Interaction Management
 classification: interaction-management
@@ -15,10 +16,10 @@ breadcrumb: [Interaction Management, Manage people and work capabilities, Extend
 
 Other applications use Interaction Management to control channels, but you can work manually with interactions as well.
 
--   **[Create an interaction](../task/create-interactions.md)**  
+-   **[Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/interaction-management/create-interactions.md)**  
 Most interaction creation takes place in other applications as interactions are merely a method of controlling channels. However, if needed you can create an interaction from the Interaction application.
--   **[Associate a record with an interaction](../task/associate-record.md)**  
+-   **[Associate a record with an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/interaction-management/associate-record.md)**  
 As an agent, you might need to create a record on another table to work on an interaction. You can associate the record with the interaction.
 
-**Parent Topic:**[Interaction Management](interaction-management.md)
+**Parent Topic:**[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/interaction-management/interaction-management.md)
 

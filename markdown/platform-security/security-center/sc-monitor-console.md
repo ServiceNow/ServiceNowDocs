@@ -2,6 +2,7 @@
 title: Security monitoring console
 description: Supervise security notifications and metrics to stay informed about potential security risks on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/sc-monitor-console.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -15,9 +16,9 @@ breadcrumb: [Security Center, Platform Security]
 
 Supervise security notifications and metrics to stay informed about potential security risks on your instance.
 
-![Security monitoring console](../images/sc-mon-con.png)
+\[Omitted image "sc-mon-con.png"\] Alt text: Security monitoring console
 
-The Security monitoring console is organized into sections, each with cards containing information on a specific aspect of security monitoring. Select the info \(![info icon](../images/info-icon.png)\) icon on any card for details on what each represents.
+The Security monitoring console is organized into sections, each with cards containing information on a specific aspect of security monitoring. Select the info \(\[Omitted image "info-icon.png"\] Alt text: info icon\) icon on any card for details on what each represents.
 
 ## Navigation bar
 
@@ -43,10 +44,10 @@ This section displays a count of available security metrics on your instance. Re
 
 Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
 
--   **[Security Event Notifications](security-policies.md)**  
+-   **[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/security-policies.md)**  
 View, manage, and analyze the default security event notification policies on your ServiceNow instance, as well as access the functionality to create custom policies.
--   **[Security metrics](sc-metrics.md)**  
+-   **[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)**  
 Monitor over 50 different security metrics to identify potential security threats or insecure behaviors. Set thresholds for email notifications, visualize, and analyze the data in multiple ways. Export the data, or create dashboards with the metrics that are most important to your organization.
 
-**Parent Topic:**[Security Center](sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sec-center-v2.md)
 

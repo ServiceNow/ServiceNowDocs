@@ -2,11 +2,12 @@
 title: Add members to an assignment group in Agile Development 2.0
 description: Add members who would work on the scrum stories and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/agile-development/add-group-members-to-group.html
 release: xanadu
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Assignment groups in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
 ---
@@ -36,5 +37,5 @@ Any user that you want to add to the assignment group must have the scrum\_user 
 
 The selected scrum user is listed in the Group Members related list.
 
-**Parent Topic:**[Assignment groups in Agile Development 2.0](../concept/manage-groups-agile-dev.md)
+**Parent Topic:**[Assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/agile-development/manage-groups-agile-dev.md)
 

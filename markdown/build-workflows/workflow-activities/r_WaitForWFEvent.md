@@ -2,6 +2,7 @@
 title: Wait for WF Event workflow activity
 description: The Wait for WF Event activity causes the workflow to wait at this activity until the specified event is fired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-activities/r\_WaitForWFEvent.html
 release: xanadu
 product: Workflow Activities
 classification: workflow-activities

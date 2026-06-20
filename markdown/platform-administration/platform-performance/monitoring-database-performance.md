@@ -2,6 +2,7 @@
 title: Monitoring database performance through Application Insights
 description: Maintain the health and performance of your database by monitoring the volume of database transactions and average response time through Application Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/monitoring-database-performance.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -28,5 +29,5 @@ You access the graphs by navigating to **All** &gt; **Application Insights** &gt
 -   Look for spikes or periods of heavy usage for each type of database operation \(deletes, inserts, updates, and selects\) in the **Database Throughput** graph. View a list of database transactions by selecting a data point in the spike, and then look for outliers in SQL count and response time. Review the source record to see whether you can optimize the transaction.
 
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

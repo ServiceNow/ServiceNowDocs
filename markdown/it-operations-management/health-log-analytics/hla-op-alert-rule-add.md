@@ -2,6 +2,7 @@
 title: Add a Log Analytics alert rule
 description: Define a Log Analytics alert rule when you encounter log data that should generate an alert. The alert rule generates an alert for a specified metric with a threshold that you specify and sets the properties of the generated alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-alert-rule-add.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +20,7 @@ Define a Log Analytics alert rule when you encounter log data that should genera
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Add a Log Analytics alert rule](hla-op-alert-rule-add-sow.md).
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Add a Log Analytics alert rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-rule-add-sow.md).
 
-**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](../../health-log-analytics-admin/concept/hla-alert-rules-manage.md)
+**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-alert-rules-manage.md)
 

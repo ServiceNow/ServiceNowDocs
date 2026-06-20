@@ -2,6 +2,7 @@
 title: Edit a purchase line from a purchase requisition or order
 description: You can edit and revise the quantity of a product or delivery location of a purchase line directly from a purchase requisition or order. You can also view the existing or current quantity or delivery date of the purchase requisition or order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-line.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Role required: sn\_spend\_psd.requestor or shopper
 
 1.  Navigate to **ShoppingHub Home** &gt; **My purchases**.
 
-    Alternatively, you can edit a purchase from **Employee Center** &gt; **Purchase and Expense** &gt; **Purchase Requests** &gt; **Edit a purchase**. For more information, see [Edit a purchase line from a purchase requisition or order using Employee Central \(EC\)](edit-pur-req-emp-central.md).
+    Alternatively, you can edit a purchase from **Employee Center** &gt; **Purchase and Expense** &gt; **Purchase Requests** &gt; **Edit a purchase**. For more information, see [Edit a purchase line from a purchase requisition or order using Employee Central \(EC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.md).
 
 2.  Select a purchase requisition or order and select **Edit**.
 
@@ -43,15 +44,15 @@ Role required: sn\_spend\_psd.requestor or shopper
 
     For goods, we will show the fields related to delivery dates, for service lines, we show the fields related to service dates.
 
-<table id="choicetable_xc4_3x3_fdc"><thead><tr><th align="left" id="d66103e153">
+<table id="choicetable_xc4_3x3_fdc"><thead><tr><th align="left" id="d64737e153">
 
 Field
 
-</th><th align="left" id="d66103e156">
+</th><th align="left" id="d64737e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66103e162">
+</th></tr></thead><tbody><tr><td id="d64737e162">
 
 **Current Quantity**
 
@@ -59,7 +60,7 @@ Description
 
 Displays the existing or current numerical quantity of the product to purchase.The current quantity can be viewed but not edited.
 
-</td></tr><tr><td id="d66103e174">
+</td></tr><tr><td id="d64737e174">
 
 **New Quantity**
 
@@ -67,7 +68,7 @@ Displays the existing or current numerical quantity of the product to purchase.T
 
 Update the new numerical quantity of the product to purchase.You can view existing quantity by referring to the Current Quantity field.
 
-</td></tr><tr><td id="d66103e185">
+</td></tr><tr><td id="d64737e185">
 
 **Current delivery date**
 
@@ -77,7 +78,7 @@ Update the new numerical quantity of the product to purchase.You can view existi
 
 Displays the existing or current delivery date of the product.The current delivery date can be viewed but not edited.
 
-</td></tr><tr><td id="d66103e202">
+</td></tr><tr><td id="d64737e202">
 
 **New delivery date**
 
@@ -87,7 +88,7 @@ Displays the existing or current delivery date of the product.The current delive
 
 Update the delivery date of the product according to your preference.
 
-</td></tr><tr><td id="d66103e217">
+</td></tr><tr><td id="d64737e217">
 
 **Current start date**
 
@@ -97,7 +98,7 @@ Update the delivery date of the product according to your preference.
 
 Displays the current start date of the service.The current start date can be viewed but not edited.
 
-</td></tr><tr><td id="d66103e233">
+</td></tr><tr><td id="d64737e233">
 
 **New start date**
 
@@ -107,7 +108,7 @@ Displays the current start date of the service.The current start date can be vie
 
 Update the new start date of the service.
 
-</td></tr><tr><td id="d66103e247">
+</td></tr><tr><td id="d64737e247">
 
 **Current end date**
 
@@ -117,7 +118,7 @@ Update the new start date of the service.
 
 Displays the current start date of the service.The current start date can be viewed but not edited.
 
-</td></tr><tr><td id="d66103e263">
+</td></tr><tr><td id="d64737e263">
 
 **New end date**
 
@@ -127,7 +128,7 @@ Displays the current start date of the service.The current start date can be vie
 
 Update the new end date of the service.
 
-</td></tr><tr><td id="d66103e277">
+</td></tr><tr><td id="d64737e277">
 
 **Would you like to edit something else?**
 
@@ -137,7 +138,7 @@ Update the new end date of the service.
 -   Select **No** if you don't have anything to update on the purchase order.
 
 
-</td></tr><tr><td id="d66103e301">
+</td></tr><tr><td id="d64737e301">
 
 **Why are you editing this purchase?**
 
@@ -145,7 +146,7 @@ Update the new end date of the service.
 
 Enter the reason for editing the purchase requisition or order.
 
-</td></tr><tr><td id="d66103e311">
+</td></tr><tr><td id="d64737e311">
 
 **Add attachments**
 
@@ -159,5 +160,5 @@ Browse and select the related attachments for updating the purchase requisition 
     The purchase line is updated with the changes.
 
 
-**Parent Topic:**[Purchase revision flows](../concept/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

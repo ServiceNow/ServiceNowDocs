@@ -2,13 +2,14 @@
 title: Configure custom CrowdStrike feed
 description: The CrowdStrike feed enables users to ingest indicators, actors, reports, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure custom CrowdStrike feed
@@ -29,7 +30,7 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** By default, the CrowdStrike feed is disabled, you must edit the configurations to enable the feed.
 
-    ![CrowdStrike-Premium feed](../image/tisc-crowdstrike-premium-feed.png)
+    \[Omitted image "tisc-crowdstrike-premium-feed.png"\] Alt text: CrowdStrike-Premium feed
 
 4.  Drill down to the **Configuration Details** section.
 
@@ -44,11 +45,11 @@ Role required: sn\_sec\_tisc.admin
         -   Reports \(Falcon Intelligence\)
 6.  Navigate to **Additional Settings** to configure the filters that will be applied while ingesting indicators from CrowdStrike.
 
-    ![CrowdStrike additional settings tab](../image/tisc-crowdstrike-additional-settings.png)
+    \[Omitted image "tisc-crowdstrike-additional-settings.png"\] Alt text: CrowdStrike additional settings tab
 
 7.  Click **Edit Settings**.
 
-    ![CrowdStrike additional settings tab - Edit](../image/tisc-crowdstrike-additional-settings-edit.png)
+    \[Omitted image "tisc-crowdstrike-additional-settings-edit.png"\] Alt text: CrowdStrike additional settings tab - Edit
 
 8.  Select the required filters.
 
@@ -223,11 +224,11 @@ Enter a confidence value \(0–100\) for indicators with unverified malicious co
 
 12. Click **Duplicate** to duplicate the feed.
 
-    For more information, see [Duplicate threat intelligence feeds](tisc-duplicate-feeds.md).
+    For more information, see [Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md).
 
 
--   **[System Properties for CrowdStrike](../concept/premium-threat-feed-system-properties.md)**  
+-   **[System Properties for CrowdStrike](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/premium-threat-feed-system-properties.md)**  
 The following details the system properties for CrowdStrike.
 
-**Parent Topic:**[View Custom Feed](view-oob-custom-feeds.md)
+**Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
 

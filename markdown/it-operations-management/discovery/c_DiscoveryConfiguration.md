@@ -2,6 +2,7 @@
 title: Configuring Discovery
 description: Configure the elements that Discovery requires to investigate your network, such as credentials, schedules, and IP addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/c\_DiscoveryConfiguration.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -25,35 +26,35 @@ Use the following links to configure Discovery for your environment. You do not 
 
 <table id="table_c4r_ztp_2cb"><tbody><tr><td>
 
-[Discovery IP address configuration](../reference/discovery-ip-address-configuration.md#)
+[Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-ip-address-configuration.md)
 
 </td><td>
 
-[Discovery classifiers](discovery-classifiers.md)
+[Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-classifiers.md)
 
 </td><td>
 
-[Discovery status](c_DiscoveryStatus.md)
+[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryStatus.md)
 
 </td></tr><tr><td>
 
-[Domain Separation and Discovery](c_DiscoveryDomainSeparation.md)
+[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 
 </td><td>
 
-[Discovery classification parameters](../reference/classification-parameters.md)
+[Discovery classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/classification-parameters.md)
 
 </td><td>
 
-[Discovery Configuration Console](c_DiscoveryConfigurationConsole.md#)
+[Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md)
 
 </td></tr><tr><td>
 
-[SNMP support for Discovery](c_SNMPSupportForDiscovery.md#)
+[SNMP support for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_SNMPSupportForDiscovery.md)
 
 </td><td>
 
-[Discovery identifiers](c_DiscoveryIdentifiers.md)
+[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 
 </td><td>
 
@@ -61,15 +62,15 @@ Use the following links to configure Discovery for your environment. You do not 
 
 </td></tr><tr><td>
 
-[Discovery and SCCM together](c_DiscoveryAndSCCMTogether.md#)
+[Discovery and SCCM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryAndSCCMTogether.md)
 
 </td><td>
 
-[Discovery properties](../reference/r_DiscoveryProperties.md)
+[Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/r_DiscoveryProperties.md)
 
 </td><td>
 
-[Discovery Home page](discovery-home-page.md#)
+[Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/discovery-home-page.md)
 
 </td></tr></tbody>
 </table>

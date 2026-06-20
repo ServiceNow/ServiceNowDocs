@@ -2,6 +2,7 @@
 title: Reading email using Microsoft Graph
 description: Use Microsoft Graph endpoints to read emails from Microsoft Exchange Online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/read-email-using-ms-graph.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -23,14 +24,14 @@ Email account administrators, which are users who have the email\_account\_admin
 
 In the **Email Account** form, select, **Microsoft Graph \(Receive\)** in the **Type** field.
 
--   **[Activate Email - Support for Email Processing by Microsoft Graph API](../task/ms-graph-plugin.md)**  
+-   **[Activate Email - Support for Email Processing by Microsoft Graph API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ms-graph-plugin.md)**  
 You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(glide.email.graph\) for Notifications if you have the admin role.
--   **[Configure an OAuth profile to use a client ID and secret for token generation](../task/microsoft-graph.md#)**  
+-   **[Configure an OAuth profile to use a client ID and secret for token generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/microsoft-graph.md)**  
 Configure an OAuth profile using a client ID and client secret to create an email account for using Microsoft Graph \(receive\) in your email account type.
--   **[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](../task/configure-oauth-profile-using-certificates.md)**  
+-   **[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-oauth-profile-using-certificates.md)**  
 Configure an OAuth application profile to authenticate using certificates.
--   **[Create an email account for Microsoft Graph \(receive\)](../task/create-email-account-ms-graph.md)**  
+-   **[Create an email account for Microsoft Graph \(receive\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/create-email-account-ms-graph.md)**  
 Create an email account for reading emails from Microsoft Exchange Online using Microsoft Graph Endpoints.
 
-**Parent Topic:**[Advanced email setup](../../reference-pages/concept/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AlternateEmailConfigurations.md)
 

@@ -2,6 +2,7 @@
 title: Properties of the Image Utilities components
 description: Learn about the properties of the Image Utilities components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/util-imageutil-prop.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -22,5 +23,5 @@ Learn about the properties of the Image Utilities components in RPA Desktop Desi
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Image Utilities](../concept/image-utilities.md)
+**Parent Topic:**[Image Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/image-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Use the Clear component
 description: Clear the contents of the clipboard as part of an automation Workflow using the Clear component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-clipboard-clear.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -23,7 +24,7 @@ Role required: none
 
 The Clear component can work with other components or methods to execute an automation Workflow.
 
-You can configure the properties for the Clear component. For more information about these properties, see [Properties of the Clipboard components](../reference/util-clipboard-prop.md).
+You can configure the properties for the Clear component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-clipboard-prop.md).
 
 ## Procedure
 
@@ -41,5 +42,5 @@ You can configure the properties for the Clear component. For more information a
 4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Clipboard](../concept/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/clipboard.md)
 

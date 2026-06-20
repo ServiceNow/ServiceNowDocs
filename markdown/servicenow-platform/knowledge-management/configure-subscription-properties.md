@@ -2,6 +2,7 @@
 title: Configure knowledge subscriptions
 description: Configure knowledge subscriptions by activating the Knowledge Management Advanced plugin and setting the subscription properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/configure-subscription-properties.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -65,5 +66,5 @@ A comma-separated list of the article states for which the knowledge subscriptio
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](../../../configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

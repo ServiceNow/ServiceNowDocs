@@ -2,6 +2,7 @@
 title: Now Assist in Document Intelligence reference
 description: The following topics provide additional information about Now Assist in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.html
 release: xanadu
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -16,10 +17,10 @@ breadcrumb: [Now Assist in Document Intelligence, Enable AI experiences]
 
 The following topics provide additional information about Now Assist in Document Intelligence.
 
--   **[Data extraction modes in Now Assist in Document Intelligence](data-extraction-modes-now-assist-document-intelligence.md)**  
+-   **[Data extraction modes in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-in-document-intelligence/data-extraction-modes-now-assist-document-intelligence.md)**  
 The extraction mode determines how Now Assist in Document Intelligence processes a document task. Extraction modes only apply to use cases for the document extraction skill.
--   **[Document and visual insights AI agent](document-and-visual-insights-ai-agent.md)**  
+-   **[Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-in-document-intelligence/document-and-visual-insights-ai-agent.md)**  
 The document and visual insights AI agent gathers context from user input and image attachments, generates the requested information based on the image content, and provides the information along with any relevant task details.
 
-**Parent Topic:**[Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

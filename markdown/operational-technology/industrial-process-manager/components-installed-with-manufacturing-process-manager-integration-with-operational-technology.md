@@ -2,6 +2,7 @@
 title: Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed
 description: Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-process-manager/components-installed-with-manufacturing-process-manager-integration-with-operational-technology.html
 release: xanadu
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -79,5 +80,5 @@ Override location of an OT device with subnet's location. If checked, the locati
 |-----------|----|
 |Industrial Process Manager integration with Operational Technology Manager|OT device mapping flow|
 
-**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](../task/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

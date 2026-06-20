@@ -2,6 +2,7 @@
 title: Edit the default onboarding modal
 description: Edit the default onboarding modal to personalize content for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/configure-next-experience-onboarding.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services

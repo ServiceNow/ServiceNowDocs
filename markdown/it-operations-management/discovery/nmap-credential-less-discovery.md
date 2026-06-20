@@ -2,6 +2,7 @@
 title: Credential-less Discovery with Nmap
 description: If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/nmap-credential-less-discovery.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -15,9 +16,9 @@ breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Op
 
 If the instance fails to identify a configuration item \(CI\) because of authentication failure, Discovery or Service Mapping can run selected Network Mapper \(Nmap\) commands with a MID Server to collect some basic information about the CI without using credentials.
 
-A MID Server administrator can [install Nmap](https://www.servicenow.com/docs/access?context=install-nmap-on-mid-server&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) on individual MID Servers running on a Windows host. Those MID Servers can then discover some basic information about CIs in your network when normal authentication fails.
+A MID Server administrator can install Nmap on individual MID Servers running on a Windows host. Those MID Servers can then discover some basic information about CIs in your network when normal authentication fails.
 
-**Important:** Self-hosted customers whose network security does not permit downloads from `install.service-now.com` must install and configure Nmap manually on their system. Refer to [Install Nmap on a self-hosted system](https://www.servicenow.com/docs/access?context=install-nmap-on-mid-server&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for instructions.
+**Important:** Self-hosted customers whose network security does not permit downloads from `install.service-now.com` must install and configure Nmap manually on their system. Refer to Install Nmap on a self-hosted system for instructions.
 
 Credential-less Discovery can create or modify host and application CIs when credentials are missing or misconfigured. If a credential-based Discovery is performed successfully after Nmap creates a CI, the system reconciles the information gathered from each type of discovery.
 
@@ -85,7 +86,7 @@ Nmap MID Server capability
 
 </td><td>
 
-The **Nmap** [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=xanadu&pubname=xanadu-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US) is added to the MID Server when Nmap is installed and removed automatically when Nmap in uninstalled. Only MID Servers with this capability can perform credential-less Discovery. A system administrator cannot add or remove this capability manually. Self-hosted customers who have the maint role can modify or delete the Nmap capability, but should not do so.Service Mapping doesn’t check for the presence of the **Nmap** capability and selects the MID Server based on the IP address only. To ensure that Service Mapping doesn’t select a MID Server without the **Nmap** capability, install Nmap on all MID Servers assigned to the IP address ranges for which you want credential-less Discovery to be available. If Service Mapping selects a MID Server for credential-less Discovery that doesn’t have Nmap capabilities, this error message appears in the map, at the site of the CI being discovered: `Nmap is not installed on MID Server. Verify all MIDs configured to handle selected IP Address have Nmap Capability. Nmap root directory path does not exist: <path>`
+The **Nmap** MID Server capabilities is added to the MID Server when Nmap is installed and removed automatically when Nmap in uninstalled. Only MID Servers with this capability can perform credential-less Discovery. A system administrator cannot add or remove this capability manually. Self-hosted customers who have the maint role can modify or delete the Nmap capability, but should not do so.Service Mapping doesn’t check for the presence of the **Nmap** capability and selects the MID Server based on the IP address only. To ensure that Service Mapping doesn’t select a MID Server without the **Nmap** capability, install Nmap on all MID Servers assigned to the IP address ranges for which you want credential-less Discovery to be available. If Service Mapping selects a MID Server for credential-less Discovery that doesn’t have Nmap capabilities, this error message appears in the map, at the site of the CI being discovered: `Nmap is not installed on MID Server. Verify all MIDs configured to handle selected IP Address have Nmap Capability. Nmap root directory path does not exist: <path>`
 
  **Note:** The **ALL** MID Server capability does not include the **Nmap** capability.
 
@@ -125,12 +126,12 @@ System script include
 The CredentiallessDiscoveryAjax script include runs on the instance and handles the installation and uninstallation of Nmap on Windows MID Servers, executed from UI actions on the form. Do not modify this script.
 
 </td></tr></tbody>
-</table>-   **[Credential-less host Discovery](../reference/credential-less-host-discovery.md)**  
+</table>-   **[Credential-less host Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/credential-less-host-discovery.md)**  
 Credential-less host discovery occurs when a scanned host is found to be alive, but not active, or when all configured credential-based classification probes have failed.
--   **[Credential-less Application Discovery](../reference/credential-less-app-discovery.md)**  
+-   **[Credential-less Application Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/credential-less-app-discovery.md)**  
 Credential-less Application Discovery attempts to identify an application service actively listening on a specific port at a given IP address.
--   **[Nmap commands and data collected with credential-less Discovery](../reference/data-collected-nmap.md)**  
+-   **[Nmap commands and data collected with credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/data-collected-nmap.md)**  
 Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 
-**Parent Topic:**[Advanced Discovery configuration](c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

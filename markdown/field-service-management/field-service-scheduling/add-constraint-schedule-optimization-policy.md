@@ -2,6 +2,7 @@
 title: Add constraints to a policy
 description: Constraints are requirements for the tasks that Schedule Optimization are assigned to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -21,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Constraints are added to policies and determine the criteria that need to be met for an assignment group to be assigned a task. For a list of the constraints, see [Optimization features used with Schedule Optimization](../reference/hard-soft-constraints.md).
+Constraints are added to policies and determine the criteria that need to be met for an assignment group to be assigned a task. For a list of the constraints, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/hard-soft-constraints.md).
 
 Constraints are mandatory and tasks won't be assigned if the assignment group doesn't fit the constraint. They define the 'must-haves' for agents to even be considered for a task. Constraints are mandatory conditions embedded in policies. If an assignment group fails to meet a constraint, they're out of the running for that task. For example, if "Enable Mandatory Skills" is activated, only assignment groups with agents possessing the required skills will be considered for task assignments.
 
@@ -35,7 +36,7 @@ Constraints are mandatory and tasks won't be assigned if the assignment group do
 
 4.  Select **New**.
 
-5.  In the **Optimization Features** field, select the Lookup icon \(![Lookup icon.](../../../common/image/List_SearchIcon.png)\) and select the constraint to add.
+5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and select the constraint to add.
 
 6.  Select **Submit**.
 

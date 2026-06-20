@@ -2,6 +2,7 @@
 title: Merge update sets
 description: You can merge multiple update sets into a single update set. This capability is supported for backward compatibility with earlier releases of the ServiceNow platform. The newer batch update sets feature accomplishes the same outcome with a more predictable and robust solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/system-update-sets/t\_MergeUpdateSets.html
 release: xanadu
 product: System Update Sets
 classification: system-update-sets
@@ -17,7 +18,7 @@ You can merge multiple update sets into a single update set. This capability is 
 
 ## Before you begin
 
-**Note:** You cannot "unmerge" update sets once they have been merged. To learn more, see [Update set batching](../hier-update-sets/concept/us-hier-overview.md#).
+**Note:** You cannot "unmerge" update sets once they have been merged. To learn more, see [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/system-update-sets/us-hier-overview.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ You can merge multiple update sets into a single update set. This capability is 
 
     You can only merge update sets that belong to the same application.
 
-    ![Merge update sets](../image/MergeUpdateSets.png "Merge update sets")
+    \[Omitted image "MergeUpdateSets.png"\] Alt text: Merge update sets
 
 3.  Enter a **Name** for the new update set.
 

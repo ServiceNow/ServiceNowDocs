@@ -2,6 +2,7 @@
 title: Legacy - Install Conversational Analytics Dashboard
 description: Get updates to the Conversational Analytics dashboard from the ServiceNow Store. Use this dashboard to gain insights on Virtual Agent \(VA\) chats with customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/get-va-dashboard.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Get updates to the Conversational Analytics dashboard from the ServiceNow Store.
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](../concept/VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -48,12 +49,12 @@ Role required: Chat Analytics Admin
     |Table|Description|
     |-----|-----------|
     |sn\_ci\_analytics\_conversation|The main table for conversations. It lists Virtual Agent conversations.|
-    |sn\_ci\_analytics\_event|List of events. An event is something that happens, for example, an actionable notification. The dashboard can display analytics about default events or ones you create. For more information, see [Set up custom events](set-up-custom-events.md).|
+    |sn\_ci\_analytics\_event|List of events. An event is something that happens, for example, an actionable notification. The dashboard can display analytics about default events or ones you create. For more information, see [Set up custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/set-up-custom-events.md).|
     |sn\_ci\_analytics\_event\_prop|List of values used in events.|
-    |sn\_ci\_analytics\_formula\_override|Lists formula overrides for properties used by the dashboard. For more information, see [Set up custom definitions](set-up-custom-definitions.md).|
+    |sn\_ci\_analytics\_formula\_override|Lists formula overrides for properties used by the dashboard. For more information, see [Set up custom definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/set-up-custom-definitions.md).|
 
     **Note:** You do not need a license or a plugin for Performance Analytics.
 
 
-**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](../concept/setting-up-va-dashboard-overview1.md)
+**Parent Topic:**[Legacy - Setting up the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1.md)
 

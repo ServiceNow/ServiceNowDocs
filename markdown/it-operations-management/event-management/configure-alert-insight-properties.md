@@ -2,6 +2,7 @@
 title: Alert insight properties
 description: Use these properties to configure alert insight.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/configure-alert-insight-properties.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -165,5 +166,5 @@ To see affiliation type relationships, navigate to **All** &gt; **Configuration*
 
 The parent-child relationship between configuration items is considered.
 
-**Parent Topic:**[Manage and monitor alerts](../concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/c_EMAlert.md)
 

@@ -2,6 +2,7 @@
 title: Enable Virtual Agent or chat
 description: Enable Virtual Agent so that you can find solutions to your inquiries quickly and seamlessly, without having to wait on hold or speak to a representative over the phone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/enable-va-chat.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,26 +26,26 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **Desktop Assistant** &gt; **Configuration** &gt; **Application**.
 
-    ![The Desktop Assistant page that provides options to modify your home page title or brief description, as well as activate notifications and the chat icon.](../image/dex-da-home-page-form.png)
+    \[Omitted image "dex-da-home-page-form.png"\] Alt text: The Desktop Assistant page that provides options to modify your home page title or brief description, as well as activate notifications and the chat icon.
 
 2.  On the Desktop Assistant page, select **Use Virtual Agent \(must be configured\)**.
 
-    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://www.servicenow.com/docs/access?context=configure-virtual-agent&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    For information on how to configure Virtual Agent, see .
 
 3.  Select **Update**.
 
 
 ## Result
 
-The virtual agent or chat icon \(![Virtual agent or chat icon on the Desktop Assistant home page header. Use the chat to get answers to your queries.](../image/icon-virtual-agent.png)\) appears on the Desktop Assistant header.
+The virtual agent or chat icon \(\[Omitted image "icon-virtual-agent.png"\] Alt text: Virtual agent or chat icon on the Desktop Assistant home page header. Use the chat to get answers to your queries.\) appears on the Desktop Assistant header.
 
-![Desktop Assistant with va chat enabled.](../image/DA_Home.png "Desktop Assistant with Virtual Agent icon")
+\[Omitted image "DA\_Home.png"\] Alt text: Desktop Assistant with va chat enabled.
 
-To open the chat window, select the virtual agent or chat icon \(![The virtual agent chat icon](../image/icon-virtual-agent.png)\).
+To open the chat window, select the virtual agent or chat icon \(\[Omitted image "icon-virtual-agent.png"\] Alt text: The virtual agent chat icon\).
 
 The chat window opens.
 
-![Virtual agent chat window](../image/dex-da-va-chat-window.png)
+\[Omitted image "dex-da-va-chat-window.png"\] Alt text: Virtual agent chat window
 
-**Note:** To configure the chat branding, see [Set up your Virtual Agent bot's branding](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+**Note:** To configure the chat branding, see .
 

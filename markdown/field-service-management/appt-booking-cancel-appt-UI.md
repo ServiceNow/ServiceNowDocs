@@ -2,7 +2,10 @@
 title: Cancel an appointment from the portal
 description: Cancel a service appointment from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appt-booking-cancel-appt-UI.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -44,5 +47,5 @@ An appointment cannot be canceled if the current time is within the cancellation
     Information about the canceled appointment is noted in the **Activities** field on the work order. This information includes the original appointment window, an appointment cancellation message, and the user who made the change.
 
 
-**Parent Topic:**[Manage an appointment from the portal](../concept/manage-an-appointment-from-the-portal.md)
+**Parent Topic:**[Manage an appointment from the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-from-the-portal.md)
 

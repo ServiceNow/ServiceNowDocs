@@ -2,6 +2,7 @@
 title: Matching criteria for task filters
 description: The Dynamic Scheduling uses matching criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/task-assignment-matching-criteria.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -237,7 +238,7 @@ Matching Mandatory Skills For Dynamic Scheduling
 
 </td><td>
 
-Ranks agents based on the availability of mandatory skills and optional skills defined in Task Skills that are required for the task. The more skills that match, the higher the contribution to the agent's overall rank.**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](../../customer-service-management/concept/configure-mandatory-skills-feature.md) identified for a case.
+Ranks agents based on the availability of mandatory skills and optional skills defined in Task Skills that are required for the task. The more skills that match, the higher the contribution to the agent's overall rank.**Note:** If using the mandatory skills feature, use the **Matching Skills - Mandatory Skills Support** criterion to match agents with the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.md) identified for a case.
 
 </td><td>
 

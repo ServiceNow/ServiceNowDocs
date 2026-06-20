@@ -2,6 +2,7 @@
 title: Asset Management
 description: The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/asset-management/am-landing-page.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -19,7 +20,7 @@ The Asset Management application integrates the physical, technological, contrac
 
 <table id="table_jc3_sms_1xb" class="nav-card"><tbody><tr><td>
 
-[Explore![Exploring Asset Management](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the key features and business values that the Asset Management application offers.](../concept/exploring-asset-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Exploring Asset ManagementLearn the key features and business values that the Asset Management application offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/asset-management/exploring-asset-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

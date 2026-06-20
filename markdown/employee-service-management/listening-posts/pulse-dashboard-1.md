@@ -2,6 +2,7 @@
 title: Reporting capabilities for Listening Posts
 description: Visualize survey metrics to understand overall employee experience. Identify problem areas by drilling down to survey questions with lower scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/listening-posts/pulse-dashboard-1.html
 release: xanadu
 product: Listening Posts
 classification: listening-posts

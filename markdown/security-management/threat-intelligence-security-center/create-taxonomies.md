@@ -2,13 +2,14 @@
 title: Creating Taxonomies
 description: Create taxonomies for the data source records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/create-taxonomies.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Creating Taxonomies

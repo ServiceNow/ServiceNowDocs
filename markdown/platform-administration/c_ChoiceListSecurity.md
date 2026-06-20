@@ -2,6 +2,7 @@
 title: Choice list security
 description: You can use the personalize\_choices security role to enable non-administrators modify Choice elements options on all tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_ChoiceListSecurity.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -19,5 +20,5 @@ To be able to create new choices for a particular field, an ACL that grants pers
 
 There are predefined ACLs granting both types of access to the personalize\_choices security role, for all fields on all tables. The personalize\_choices security role also has read, write, and delete access to the sys\_choices table. However, this additional access is not required when making just the Personalize Choices functionality available on a granular basis.
 
-**Parent Topic:**[Choice list field type](c_ChoiceLists.md)
+**Parent Topic:**[Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_ChoiceLists.md)
 

@@ -2,6 +2,7 @@
 title: Configure non-persistent VDIs monitoring
 description: Learn how to start non-persistent Virtual Desktop infrastructure \(VDI\) monitoring by creating a golden image on the base instance. This process enables DEX Service Desk agents to collect and view non-persistent data from VDIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/configure-np-vdis.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

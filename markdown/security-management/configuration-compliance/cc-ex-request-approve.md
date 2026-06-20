@@ -2,6 +2,7 @@
 title: Approve an exception request in Configuration Compliance
 description: Approve exception requests for remediation tasks that can't be remediated immediately. You must assess these requests for risk and then approve them for deferral until they can be remediated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-ex-request-approve.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -34,5 +35,5 @@ Role required: sn\_vulc.exception\_approver
     After the request is approved, the remediation task moves to a Deferred state. In case of rejection, the remediation task reverts to its earlier state.
 
 
-**Parent Topic:**[Requesting and approving an exception for a remediation task](../concept/cc-ex-mgmt-request-approve.md)
+**Parent Topic:**[Requesting and approving an exception for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-ex-mgmt-request-approve.md)
 

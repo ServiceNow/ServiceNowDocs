@@ -2,6 +2,7 @@
 title: Domain separation in Now Assist for Customer Service Management \(CSM\)
 description: Domain separation allows users to separate data, processes, and administrative tasks into logical groupings known as domains. Domain separation enables users to independently manage skill configurations, data visibility, and other settings within each domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/domain-separation-in-now-assist-for-csm.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -23,13 +24,13 @@ Global domain is the default domain, and all new domains are created under it. N
 
 Do the following task to set up domain separation:
 
-1.  Request domain separation. For more information, see [Request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+1.  Request domain separation. For more information, see Request domain separation.
 2.  Create a domain by creating an account for CSM
 3.  Configure skills in the domain for Now Assist for CSM.
 
 ## More information
 
--   Domain separation setup and administration. See [Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
--   Benefits of domain separation. See [Benefits of domain separation](https://www.servicenow.com/docs/access?context=bp-advantages-dom-sep&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
--   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](domain-separation-customer-service.md).
+-   Domain separation setup and administration. See .
+-   Benefits of domain separation. See .
+-   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/domain-separation-customer-service.md).
 

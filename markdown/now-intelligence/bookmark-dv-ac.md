@@ -2,6 +2,7 @@
 title: Bookmark a visualization in the Visualization Designer
 description: Bookmark a visualization so that you can find it easily in the Data Visualizations library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/bookmark-dv-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -24,7 +25,7 @@ Role required: None. Anyone who can access a data visualization can bookmark it 
 
 2.  Select the visualization that you want to bookmark.
 
-3.  From the More actions menu \(![More actions icon](../image/icon-vert-3dot-p.png)\), select **Add to bookmarks**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\), select **Add to bookmarks**.
 
 
 ## Result
@@ -33,7 +34,7 @@ On the **Data Visualizations** tab, the selected visualization appears in the Bo
 
 ## What to do next
 
-To remove a bookmark, choose the bookmarked visualization and select **Remove bookmark** from the More actions menu \(![More actions icon](../image/icon-vert-3dot-p.png)\).
+To remove a bookmark, choose the bookmarked visualization and select **Remove bookmark** from the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\).
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

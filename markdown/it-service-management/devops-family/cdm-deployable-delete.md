@@ -2,13 +2,14 @@
 title: Delete a deployable
 description: Delete a deployable to delete its config data and all associated snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-family/cdm-deployable-delete.html
 release: xanadu
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Create and update a deployable, Configure, DevOps Config, IT Service Management]
+breadcrumb: [Create and update a deployable, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # Delete a deployable

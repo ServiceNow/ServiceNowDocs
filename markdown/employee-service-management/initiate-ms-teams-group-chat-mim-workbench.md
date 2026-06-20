@@ -2,7 +2,10 @@
 title: Initiate Microsoft Teams group chat from MIM workbench
 description: You can initiate a Microsoft Teams group chat from the MIM workbench to work towards the resolution of the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/initiate-ms-teams-group-chat-mim-workbench.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,11 +32,11 @@ Role required: major\_incident\_manager
 
 5.  Click **Initiate** button.
 
-    ![Initiate Microsoft Teams group chat.](../images/initiate-ms-teams-group-chat.png)
+    \[Omitted image "initiate-ms-teams-group-chat.png"\] Alt text: Initiate Microsoft Teams group chat.
 
 6.  Within the dialog box that appears, select the participants for the chat.
 
-    ![Participants for the group chat modal screen.](../images/initiate-ms-teams-group-chat-02.png)
+    \[Omitted image "initiate-ms-teams-group-chat-02.png"\] Alt text: Participants for the group chat modal screen.
 
     The dialog box displays the **Recommended** and **Selected** participants for the chat.
 
@@ -58,5 +61,5 @@ Role required: major\_incident\_manager
 
 The Microsoft Teams application opens the tab where the agent can chat with all the selected participants.
 
-**Parent Topic:**[Add collaborative communication task from MIM workbench](add-collab-comm-task-mim-workbench.md)
+**Parent Topic:**[Add collaborative communication task from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/add-collab-comm-task-mim-workbench.md)
 

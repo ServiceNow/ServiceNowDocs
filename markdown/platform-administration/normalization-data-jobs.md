@@ -2,6 +2,7 @@
 title: Normalization and transformation data jobs
 description: The system uses data jobs to change field values during normalization and transformation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/normalization-data-jobs.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ Administrators must manually start data jobs that apply field changes. All trans
 
 **Note:**
 
-If the Field Normalization plugin is active, the normalization engine executes on insert of records into a table according to normalization rules. To learn more about this plugin, see [Activate Field Normalization](../task/activate-field-normalization.md).
+If the Field Normalization plugin is active, the normalization engine executes on insert of records into a table according to normalization rules. To learn more about this plugin, see [Activate Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/activate-field-normalization.md).
 
 If the Field Normalization plugin is not active, a data job runs to normalize the values. The data job saves the previous values in the rolled back fields to revert them if necessary.
 
@@ -30,12 +31,12 @@ If the Field Normalization plugin is not active, a data job runs to normalize th
 |Coalesce too normal|Normalization|Run this job to normalize the reference field values by replacing references to multiple duplicate records with one reference to a normalized record. The system creates this job whenever you change a normal value that applies to a reference field. Roll back the data job to restore the duplicate records as valid options. The rollback does not restore references to the previous records.|
 |Transform application|Transformation|Run this job to transform all field values that match the transformation conditions. You cannot start this job while the Transformation record is in **Test** mode. The system creates this job whenever you create or update a transformation record. Roll back the data job to revert transformed fields to their previous values.|
 
--   **[Run a single data job](../task/t_RunASingleDataJob.md)**  
+-   **[Run a single data job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_RunASingleDataJob.md)**  
 Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run a single data job.
--   **[Run multiple data jobs](../task/t_RunMultipleDataJobs.md)**  
+-   **[Run multiple data jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_RunMultipleDataJobs.md)**  
 Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run data jobs for multiple field transformations.
--   **[Rollback a data job](../task/rollback-data-job.md)**  
+-   **[Rollback a data job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/rollback-data-job.md)**  
 Use rollback to revert changes made by a normalization or transformation data job.
 
-**Parent Topic:**[Field normalization and transformation](c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 

@@ -2,6 +2,7 @@
 title: Create or update an allocation board
 description: Create a personalized allocation board to manage your filtered resources in terms of their capacity, availability, and utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/create-allocation-board.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ Create a personalized allocation board to manage your filtered resources in term
 
 **Important:** Allocation workbench is being deprecated starting Xanadu release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Resource Managers are encouraged to use the [Resource Management Workspace](../../resource-management-workspace/concept/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
+Resource Managers are encouraged to use the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/rsrc-mgmt-wrkspc.md) to allocate, approve, and manage resource assignments. Resource Management Workspace is a dedicated workspace view for Resource Managers where you get the insights about unassigned tasks, heatmap view of resource bandwidth, custom view to handle priority resource assignment requests, and so on.
 
 Define filter criteria to create your board. You can modify the details of an existing board or delete an unused board.
 
@@ -41,7 +42,7 @@ Role required: resource\_manager
 
     2.  In the **Create new** window, fill the fields.
 
-        For a description of the field values, see [Create New form](../reference/create-new-rsrc-wrkbnch-form.md).
+        For a description of the field values, see [Create New form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/create-new-rsrc-wrkbnch-form.md).
 
     3.  Select **Create**.
 
@@ -49,7 +50,7 @@ Role required: resource\_manager
 
     1.  Select an existing allocation board to open it.
 
-    2.  Select the Allocation workbench menu \(![allocation workbench menu.](../image/allocation-workbench-actions.png)\) and select **Edit**.
+    2.  Select the Allocation workbench menu \(\[Omitted image "allocation-workbench-actions.png"\] Alt text: allocation workbench menu.\) and select **Edit**.
 
     3.  Update the fields and select **Update**.
 
@@ -57,7 +58,7 @@ Role required: resource\_manager
 
     1.  Select an existing allocation board to open it.
 
-    2.  Select the Allocation workbench menu \(![allocation workbench menu.](../image/allocation-workbench-actions.png)\) and select **Delete**.
+    2.  Select the Allocation workbench menu \(\[Omitted image "allocation-workbench-actions.png"\] Alt text: allocation workbench menu.\) and select **Delete**.
 
     3.  Select **Delete** to confirm.
 
@@ -67,5 +68,5 @@ Role required: resource\_manager
 -   Allocation board is created and you’re navigated to the allocation workbench. The allocation workbench shows the resources based on the filter criteria defined by the allocation board.
 -   In the Allocation Boards page, the board is added and has a color band based on the applied **Type** filter.
 
-**Parent Topic:**[Allocation workbench](../concept/allocation-workbench.md)
+**Parent Topic:**[Allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/allocation-workbench.md)
 

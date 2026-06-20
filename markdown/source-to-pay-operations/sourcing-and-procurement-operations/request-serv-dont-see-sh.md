@@ -2,6 +2,7 @@
 title: Request for services that you don't see on Shopping Hub
 description: Place a request for one or more services that are currently not listed on the Shopping Hub portal. You can do this from Shopping Hub Home or directly from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/request-serv-dont-see-sh.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -55,7 +56,7 @@ What project is this request for?
 
 </td><td>
 
-Project for which this request is being raised.**Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md).
+Project for which this request is being raised.**Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 </td></tr><tr><td>
 
@@ -86,9 +87,9 @@ Details of the suppliers you want to request from. The options are:-   Existing 
 -   I don't have any suppliers in mind
 For more information on adding suppliers, see:
 
--   From Platform: [Add a supplier](create-supplier.md).
--   From the supplier catalog: [Add a supplier contact using the supplier catalog](../../supplier-lifecycle-operations/task/enroll-contact-catalog.md).
--   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](../../supplier-lifecycle-operations/task/add-supplier-contact.md).
+-   From Platform: [Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md).
+-   From the supplier catalog: [Add a supplier contact using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/enroll-contact-catalog.md).
+-   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
 
 
 </td></tr><tr><td>
@@ -150,5 +151,5 @@ View your sourcing request details from the **Requested items** tab, where a com
 
 In case of errors, check your system logs to detect any issues with the record producer submission. ​However, if you were able to submit successfully, check your event logs to verify whether the asynchronous event sn\_shop.process\_non\_catalog\_sourcing was triggered to initiate creation of the sourcing requests.
 
-**Parent Topic:**[Requesting for products or services that you don't see on ShoppingHub](../concept/request-prod-serv-dont-see-sh.md)
+**Parent Topic:**[Requesting for products or services that you don't see on ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/request-prod-serv-dont-see-sh.md)
 

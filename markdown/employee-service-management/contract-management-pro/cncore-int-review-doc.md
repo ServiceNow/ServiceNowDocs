@@ -2,6 +2,7 @@
 title: Work on internal review task
 description: As a contract reviewer, review and provide feedback on contract documents
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-int-review-doc.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,28 +24,28 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d68592e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d70749e55">
 
 Method
 
-</th><th align="left" id="d68592e58">
+</th><th align="left" id="d70749e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68592e64">
+</th></tr></thead><tbody><tr><td id="d70749e64">
 
 **Contract Workspace Review tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Review tasks**
 4.  Select **All** or **Unassigned**.
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d68592e114">
+</td></tr><tr><td id="d70749e114">
 
 **Contract Workspace landing page**
 
@@ -55,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d68592e147">
+</td></tr><tr><td id="d70749e147">
 
 **Workspace used by your application**
 
@@ -66,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d68592e168">
+</td></tr><tr><td id="d70749e168">
 
 **Contract Request Reviews tab**
 
@@ -89,7 +90,7 @@ Steps
     -   External storage: Select the document link to open it.
 5.  If you need additional context to review the document, request more information.
 
-    1.  Select the More Actions icon \(![More Actions icon](../../human-resources/reference/images/more-icon.png)\).
+    1.  Select the More Actions icon \(\[Omitted image "more-icon.png"\] Alt text: More Actions icon\).
 
     2.  Select **Request information**.
 
@@ -103,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d68592e289">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d70749e289">
 
 Type of storage
 
-</th><th align="left" id="d68592e292">
+</th><th align="left" id="d70749e292">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d68592e298">
+</th></tr></thead><tbody><tr><td id="d70749e298">
 
 **Internal storage**
 
@@ -127,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d68592e342">
+</td></tr><tr><td id="d70749e342">
 
 **External storage**
 
@@ -147,5 +148,5 @@ The attach file option is not available as the contract document is directly edi
 </table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete.
 
 
-**Parent Topic:**[Internal review overview](cncore-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

@@ -2,6 +2,7 @@
 title: Service Owner Workspace Service Offering survey
 description: Subscribers can rate their experience with service offerings via the Service Portfolio Management Premium Service Offering survey. This feedback provides portfolio managers and service owners with valuable information to improve service offering performance and subscriber satisfaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-service-offering-survey.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,11 +16,11 @@ breadcrumb: [Using Service Owner Workspace, Service Owner Workspace, IT Service 
 
 Subscribers can rate their experience with service offerings via the Service Portfolio Management Premium Service Offering survey. This feedback provides portfolio managers and service owners with valuable information to improve service offering performance and subscriber satisfaction.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 <table id="table_e2x_rbr_nkb"><tbody><tr><td>
 
-![Navigate](../image/SOWUseBanner2.png "Navigate")
+\[Omitted image "SOWUseBanner2.png"\] Alt text: Navigate
 
 </td></tr></tbody>
 </table>In the base system, a predefined SPM Service Offering Survey is available. Surveys are sent for operational and retiring service offerings only. Portfolio admins \[portfolio\_admin\] can edit the survey and service editors \[service\_editor\] can configure the associated trigger conditions.
@@ -46,5 +47,5 @@ Service owners can view the last time a survey was sent for an offering in the *
 
 Portfolio managers and service owners can review responses and view vendor CSAT weight in Service Owner Workspace.
 
-For more detailed information about working with surveys, trigger conditions, and survey questions, see [Surveys](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more detailed information about working with surveys, trigger conditions, and survey questions, see .
 

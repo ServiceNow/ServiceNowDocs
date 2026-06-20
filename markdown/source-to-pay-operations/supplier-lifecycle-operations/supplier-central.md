@@ -2,6 +2,7 @@
 title: Supplier Collaboration Portal
 description: The ServiceNow Supplier Collaboration Portal application provides a seamless unified employee portal experience for supplier contacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supplier-central.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -21,13 +22,13 @@ Supplier Collaboration Portal enables you to do the following:
 -   Improve supplier data quality by enabling suppliers to manage their own data
 -   Accelerate case resolution by enabling suppliers to complete tasks and upload required prerequisite documents
 
-As a supplier contact, you must first self-register to access the Supplier Collaboration Portal. For more information, see [Self-register to the Supplier Collaboration Portal](../task/self-reg-to-supp-central.md).
+As a supplier contact, you must first self-register to access the Supplier Collaboration Portal. For more information, see [Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md).
 
 In the Supplier Collaboration Portal, you can view the requests assigned to you, open to-dos, and Knowledge articles.
 
 **Note:** The Supplier Collaboration Portal is supported on mobile devices. To access the Supplier Collaboration Portal on a mobile device, open a mobile browser, and then navigate to your instance URL and append the /supplier suffix to the end of the URL. For example, `https://example.com/supplier`.
 
-For more information about installing the Supplier Collaboration Portal, see [Install Supplier Collaboration Portal](../task/install-supp-central.md).
+For more information about installing the Supplier Collaboration Portal, see [Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md).
 
 ## Supplier Collaboration Portal header
 
@@ -47,7 +48,7 @@ My Company
 
 </td><td>
 
-Opens the Supplier Profile page, which shows the supplier details. You can submit a request to update the details by selecting **Request Change**.For more information, see [Update company profile using the supplier catalog](../task/update-supp-profile.md).
+Opens the Supplier Profile page, which shows the supplier details. You can submit a request to update the details by selecting **Request Change**.For more information, see [Update company profile using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/update-supp-profile.md).
 
 **Important:** From Xanadu December 2024 release onwards, after enabling M2M mapping between supplier contact and suppliers, the list of suppliers linked with the contact are displayed on clicking **My Company**. You can select a supplier from the list which opens the company-specific Supplier Profile page.
 
@@ -65,7 +66,7 @@ Contains the following submenus.**Note:** Only the primary contact can see the T
 
 -   All Tasks: Opens the Supplier Task List page, which lists all the tasks that are assigned to the supplier.
 
-For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](my-to-dos.md).
+For more information, see [Viewing supplier contact tasks from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.md).
 
 
 </td></tr><tr><td>
@@ -74,7 +75,7 @@ My Requests
 
 </td><td>
 
-Opens the My Requests page, which lists all the requests assigned to you. For more information, see [View all your requests from the Supplier Collaboration Portal](../task/view-supp-case-sc.md).
+Opens the My Requests page, which lists all the requests assigned to you. For more information, see [View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +83,7 @@ Raise a request
 
 </td><td>
 
-Option that enables you to raise a request by navigating to the General category in the Supplier catalog.For more information, see [Raising requests from the Supplier Collaboration Portal](supp-catalog-req.md).
+Option that enables you to raise a request by navigating to the General category in the Supplier catalog.For more information, see [Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md).
 
 </td></tr></tbody>
 </table>## Supplier Collaboration Portal widgets
@@ -178,7 +179,7 @@ My contacts
 
 </td><td>
 
-Displays a list of members on your team. You can call a member directly or send an email to a member by selecting the phone icon \(![Phone icon.](../image/phone-icon.png)\) or the email icon \(![Email icon.](../image/email-icon.png)\) respectively, next to that team member's name. You can also invite new members to register to by selecting **Invite**.**Note:** The **Invite** option is available only to the primary supplier contact and the supplier administrator. Only the primary supplier contact and the supplier administrator can invite new members to access the Supplier Collaboration Portal. For more information, see [Invite a member to access the Supplier Collaboration Portal](../task/invite-member-supp-portal.md).
+Displays a list of members on your team. You can call a member directly or send an email to a member by selecting the phone icon \(\[Omitted image "phone-icon.png"\] Alt text: Phone icon.\) or the email icon \(\[Omitted image "email-icon.png"\] Alt text: Email icon.\) respectively, next to that team member's name. You can also invite new members to register to by selecting **Invite**.**Note:** The **Invite** option is available only to the primary supplier contact and the supplier administrator. Only the primary supplier contact and the supplier administrator can invite new members to access the Supplier Collaboration Portal. For more information, see [Invite a member to access the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/invite-member-supp-portal.md).
 
 </td></tr><tr><td>
 
@@ -189,5 +190,5 @@ Most viewed articles
 Displays a list of the most viewed articles.
 
 </td></tr></tbody>
-</table>For more information about using the Supplier Collaboration Portal, see [Using Supplier Collaboration Portal](use-supp-central.md).
+</table>For more information about using the Supplier Collaboration Portal, see [Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md).
 

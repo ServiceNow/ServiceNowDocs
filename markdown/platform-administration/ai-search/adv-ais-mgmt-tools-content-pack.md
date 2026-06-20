@@ -2,6 +2,7 @@
 title: Platform Analytics Solution for Advanced AI Search Management Tools
 description: ServiceNow Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution helps AI Search administrators analyze search query traffic trends, review indexed record and configuration settings, and preview search query results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/adv-ais-mgmt-tools-content-pack.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -27,5 +28,5 @@ The following roles are associated with this solution:
 **Related topics**  
 
 
-[Analytics and Reporting Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics]
 

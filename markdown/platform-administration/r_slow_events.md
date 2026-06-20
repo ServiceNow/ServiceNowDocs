@@ -2,6 +2,7 @@
 title: Slow events log record detail
 description: As an administrator, you can use Slow Events logs to gain insight into how events are affecting platform performance. To aid in debugging, you can filter slow event log detail by application scope, limiting events to only those events originating in specific scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_slow\_events.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"

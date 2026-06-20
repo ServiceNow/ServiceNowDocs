@@ -2,7 +2,10 @@
 title: Run a scheduled job to execute a planned work schedule
 description: Planned work schedules are executed whenever the meter, duration, script, or condition criteria meets. You can also use the Schedule ad-hoc feature to run a maintenance schedule manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/run-schedule-job-planned-work.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ You must configure the nightly planned maintenance schedule job to run the plann
 
 4.  To specify a different schedule for running the job, change the **Run** and **Time** fields.
 
-    A scheduled job does not run based on the value set in the Next run time field in the maintenance plan record for this job. For more information, see [Configure a work schedule](configure-work-plan.md).
+    A scheduled job does not run based on the value set in the Next run time field in the maintenance plan record for this job. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/work-order-management/configure-work-plan.md).
 
 5.  Click **Update**.
 
@@ -46,5 +49,5 @@ You must configure the nightly planned maintenance schedule job to run the plann
     If one or more records in the table associated with the work plan are deleted after the matching records were associated with the work plan, the next nightly run removes all the records associated with those removed assets.
 
 
-**Parent Topic:**[Managing work orders for the planned work](../concept/creating-work-orders-from-planned-work.md)
+**Parent Topic:**[Managing work orders for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/creating-work-orders-from-planned-work.md)
 

@@ -2,6 +2,7 @@
 title: Delete a defined Log Analytics alert rule
 description: Delete a Log Analytics alert rule that you have defined if it is no longer necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/hla-op-defined-alert-delete.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -19,7 +20,7 @@ Delete a Log Analytics alert rule that you have defined if it is no longer neces
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Delete a defined Log Analytics alert rule](hla-op-defined-alert-delete-sow.md).
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Delete a defined Log Analytics alert rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-defined-alert-delete-sow.md).
 
-**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](../../health-log-analytics-admin/concept/hla-alert-rules-manage.md)
+**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/health-log-analytics/hla-alert-rules-manage.md)
 

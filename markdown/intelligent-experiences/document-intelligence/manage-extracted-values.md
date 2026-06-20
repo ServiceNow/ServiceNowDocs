@@ -2,6 +2,7 @@
 title: Manage field values
 description: View the field values gathered from your processed document tasks. Review the values and add any additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/manage-extracted-values.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -163,7 +164,7 @@ Domain
 
 Domain linked to this field value.
 
- See [Domain separation and Document Intelligence](../reference/domain-separation-and-doc-intel.md).
+ See [Domain separation and Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/domain-separation-and-doc-intel.md).
 
 </td></tr></tbody>
 </table>4.  Select **Update**.

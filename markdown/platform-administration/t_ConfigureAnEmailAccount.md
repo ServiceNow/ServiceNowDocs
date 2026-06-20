@@ -2,6 +2,7 @@
 title: Create an email account
 description: You can create email accounts in addition to the accounts provisioned for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfigureAnEmailAccount.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -180,7 +181,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](../concept/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-address-filters.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -189,7 +190,7 @@ System address filter to apply to the email account. If left blank, the system u
 
     The system displays a pop-up window with the results of the connection test.
 
-    ![Connection Test pop-up window displaying the results connection successful.](../image/connection-successful.png)
+    \[Omitted image "connection-successful.png"\] Alt text: Connection Test pop-up window displaying the results connection successful.
 
     If the test succeeds, select **Close** to return to the email account record. If the test fails, select **View Logs** to display more information about the test results.
 
@@ -202,5 +203,5 @@ The system uses the email account to send or receive email.
 
 Enable the system to send or receive email.
 
-**Parent Topic:**[Email accounts](../concept/c_EmailAccounts.md)
+**Parent Topic:**[Email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EmailAccounts.md)
 

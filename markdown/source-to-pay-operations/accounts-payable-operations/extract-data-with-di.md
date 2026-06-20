@@ -2,6 +2,7 @@
 title: Extract data with Document Intelligence
 description: You can manually extract data from the document when Document Intelligence completes the processing but fails to auto-extract data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/extract-data-with-di.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,13 +24,13 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
 3.  Select **Invoices &gt;****All invoices.**
 
-    You can create an invoice manually. For more information on invoices, see [Work with invoices](../concept/work-with-invoices.md).
+    You can create an invoice manually. For more information on invoices, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 4.  Select **View invoice processing case**.
 
@@ -47,10 +48,10 @@ Role required: Accounts Payable admin, Accounts Payable specialist
 
     -   When the document extraction is completed either automatically or manually and all the required invoice details are populated, then the invoice is submitted automatically. The **Review header details** and **Review invoice lines** cards are set to auto-complete.
     -   When the document extraction is completed either automatically or manually, but the required fields are missing, then manually populate the invoice line fields or add invoice lines using **Review invoice lines**.
-    For more information on manual creation of invoice, see [Using Invoice Case Management](../concept/use-invoice-case-mgmt.md).
+    For more information on manual creation of invoice, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
 
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Document Intelligence processing with playbook](../concept/use-di-with-playbook.md)
+**Parent Topic:**[Document Intelligence processing with playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/use-di-with-playbook.md)
 

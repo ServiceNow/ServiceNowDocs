@@ -2,6 +2,7 @@
 title: Provider Connector Configuration for Wi-Fi data
 description: Configure the Provider Connector Configurations table for setting up Wi-Fi data in workplace locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/wsd-provider-connectorconfig-wifi-data.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -97,5 +98,5 @@ Day and time frequency to import data from the workplace system. For example: 5 
     When records are updated in the Provider Connector Configuration table, the selected spaces or location records are updated in the Provider Space Mapping table. The location records are updated with the location hierarchy \(Region, Campus, Building, floor, and space records\).
 
 
-**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](../concept/setup-wifi-data-connectors.md)
+**Parent Topic:**[Set up Workplace Connectors for Wi-Fi data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/setup-wifi-data-connectors.md)
 

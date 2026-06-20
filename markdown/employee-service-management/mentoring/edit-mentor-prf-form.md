@@ -2,6 +2,7 @@
 title: Mentor preferences form
 description: Use this form to record your preferences as a mentor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/edit-mentor-prf-form.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -121,5 +122,5 @@ How many mentees are you willing to take on at a time?
 Option to select either 1 or 2 mentees.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mentoring reference](mentoring-egd-reference.md)
+</table>**Parent Topic:**[Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/mentoring-egd-reference.md)
 

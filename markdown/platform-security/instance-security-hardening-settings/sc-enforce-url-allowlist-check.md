@@ -2,6 +2,7 @@
 title: Enforce URL allowlist check \[Updated in Security Center 1.3, 1.5, and 2.0\]
 description: Use the glide.security.url.whitelist property to add extra layer of validation to ensure whether any external URL introduced should be a part of inclusion listed URLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -63,7 +64,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -135,10 +136,10 @@ References
 
 </td><td>
 
-[Multi-SSO \(SAML 2.0\) errors and fixes](../../../integrate/saml/reference/saml-errors.md)
+[Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/saml-errors.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

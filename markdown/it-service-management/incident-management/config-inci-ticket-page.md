@@ -2,6 +2,7 @@
 title: Configure incident ticket page
 description: Configure the Incident ticket page from where users can view the details of an Incident in Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-management/config-inci-ticket-page.html
 release: xanadu
 product: Incident Management
 classification: incident-management

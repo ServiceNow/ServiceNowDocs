@@ -2,6 +2,7 @@
 title: Configure CIM integration property
 description: Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/continual-improvement-management/configure-cim-int-property.html
 release: xanadu
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -40,5 +41,5 @@ Role required: admin
     -   Type \(type\)
     -   Service offering \(service\_offering\)
 
-**Parent Topic:**[Improvement integration with other applications](../reference/cim-integration.md)
+**Parent Topic:**[Improvement integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/continual-improvement-management/cim-integration.md)
 

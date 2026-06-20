@@ -2,11 +2,12 @@
 title: Monitor service charges in the service pricing console
 description: As a service owner use the service pricing console to generate service charge lines, view the service charge lines, and set pricing policy. Setting the pricing policy generates the rate card, which captures the set price, surcharge or discount details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/view-service-pricing-console.html
 release: xanadu
 product: Financial Management
 classification: financial-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 4
 breadcrumb: [Service charging, Financial Charging, Financial Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -147,7 +148,7 @@ Total amount of money charged for each business service, which is the adjusted p
 
 ## What to do next
 
-The charges that you define are attached as a rate card to a statement item. As a service charging analyst and service charging owner, you can also [define service charge price rate cards.](create-ratecards-for-business-service.md)
+The charges that you define are attached as a rate card to a statement item. As a service charging analyst and service charging owner, you can also [define service charge price rate cards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/create-ratecards-for-business-service.md)
 
-**Parent Topic:**[Service charging](../concept/service-charging.md)
+**Parent Topic:**[Service charging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/service-charging.md)
 

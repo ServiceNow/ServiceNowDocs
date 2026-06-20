@@ -2,7 +2,10 @@
 title: Onboarding case type
 description: Agents can use the onboarding case type to capture the details when onboarding customers for a product or service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/onboarding-case-type-overview.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3

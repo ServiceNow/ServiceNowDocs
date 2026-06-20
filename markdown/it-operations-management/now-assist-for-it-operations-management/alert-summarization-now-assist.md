@@ -2,6 +2,7 @@
 title: View an alert analysis by Now Assist in Service Operations Workspace
 description: View an alert analysis by Now Assist for an alert on the alert's Overview tab in the Service Operations Workspace. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/now-assist-for-it-operations-management/alert-summarization-now-assist.html
 release: xanadu
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,8 +19,8 @@ View an alert analysis by Now Assist for an alert on the alert's Overview tab in
 
 ## Before you begin
 
--   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom.md).
+-   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
 **Note:** Currently, Now Assist for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -29,7 +30,7 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator
 
 1.  Navigate to **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(![List icon.](../../service-operations-workspace-itom/image/list-icon-sow-itom.png)\).
+2.  Select the List icon \(\[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.\).
 
 3.  Select **All Alerts** in the Alerts list.
 
@@ -44,5 +45,5 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator
     **Note:** Alert analyses are provided in English, irrespective of the language used in the alert description.
 
 
-**Parent Topic:**[Using Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom-use.md)
+**Parent Topic:**[Using Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use.md)
 

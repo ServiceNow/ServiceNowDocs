@@ -2,6 +2,7 @@
 title: Copy locations for quote line items
 description: Agents can use the copy location function to change the location of multiple quote line items in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/quote-mgt-copy-quote-item-location.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  From the **Quote List**, select the quote you want to work with and select the **Line Items** tab.
 
@@ -31,15 +32,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** window, choose any one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d27075e104">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d29509e104">
 
  
 
-</th><th align="left" id="d27075e106">
+</th><th align="left" id="d29509e106">
 
  
 
-</th></tr></thead><tbody><tr><td id="d27075e111">
+</th></tr></thead><tbody><tr><td id="d29509e111">
 
 **Keep original location**
 
@@ -47,7 +48,7 @@ Role required: sales\_agent
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d27075e120">
+</td></tr><tr><td id="d29509e120">
 
 **Choose new location**
 

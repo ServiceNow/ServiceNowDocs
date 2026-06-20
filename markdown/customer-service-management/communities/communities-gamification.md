@@ -2,6 +2,7 @@
 title: Gamification
 description: Encourage users to participate and contribute content in the community by providing incentives in the form of points, achievement levels, and badges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/communities/communities-gamification.html
 release: xanadu
 product: Communities
 classification: communities
@@ -23,10 +24,10 @@ Use the gamification framework to:
 
 Community administrators can:
 
--   Create [rules](../reference/gamification-components-rules.md) and configure [points](../reference/gamification-components-points.md) that users receive for activities on the community.
--   Create [tracks](../reference/gamification-components-tracks.md) to logically separate points assigned in the communities into different areas.
--   Create [levels](../reference/gamification-components-levels.md) in the community where users can achieve expertise or a reputation and then configure level ranges within each level definition.
--   Create [badges](../reference/gamification-components-badges.md) to award to users for different achievements.
+-   Create [rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components-rules.md) and configure [points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components-points.md) that users receive for activities on the community.
+-   Create [tracks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components-tracks.md) to logically separate points assigned in the communities into different areas.
+-   Create [levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components-levels.md) in the community where users can achieve expertise or a reputation and then configure level ranges within each level definition.
+-   Create [badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components-badges.md) to award to users for different achievements.
 
 Community users can:
 
@@ -36,14 +37,14 @@ Community users can:
 -   See their own standing within the community.
 -   See gamification achievements on their user profiles.
 
--   **[Gamification components](../reference/gamification-components.md)**  
+-   **[Gamification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/gamification-components.md)**  
 The gamification feature includes several components, such as rules, levels, and tracks, that enable users to earn points and badges for community activities.
--   **[Gamification user interface components](communities-gamification-UI.md)**  
+-   **[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/communities-gamification-UI.md)**  
 Gamification information appears on leaderboards, the user profile page, and content pages.
--   **[Administer gamification](communities-gamification-administer.md)**  
+-   **[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/communities-gamification-administer.md)**  
 Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
--   **[Moderate gamification](communities-gamification-moderate.md)**  
+-   **[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/communities-gamification-moderate.md)**  
 Monitor points earned by users and award points and badges to users based on their participation within the community.
 
-**Parent Topic:**[Communities](../reference/servicenow-communities.md)
+**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/communities/servicenow-communities.md)
 

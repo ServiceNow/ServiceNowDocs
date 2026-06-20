@@ -2,6 +2,7 @@
 title: Define the skill taxonomy
 description: Organize related skills into categories and subcategories so that you can manage skills and create reports quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/skills-management/create-skill-categories.html
 release: xanadu
 product: Skills Management
 classification: skills-management
@@ -25,7 +26,7 @@ A skill category can contain parent and child categories that together create a 
 
 You can build your skill taxonomy from scratch or use the sample data provided with your application.
 
-![Skill Taxonomy](../images/skill-taxonomy.png "Skill Taxonomy")
+\[Omitted image "skill-taxonomy.png"\] Alt text: Skill Taxonomy
 
 ## Procedure
 
@@ -43,15 +44,15 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d437479e132">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d454282e132">
 
 To add
 
-</th><th align="left" id="d437479e135">
+</th><th align="left" id="d454282e135">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d437479e141">
+</th></tr></thead><tbody><tr><td id="d454282e141">
 
 **Sub-categories**
 
@@ -61,7 +62,7 @@ Do this
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d437479e168">
+</td></tr><tr><td id="d454282e168">
 
 **Skills**
 

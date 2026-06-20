@@ -2,13 +2,14 @@
 title: Configure Crowdstrike Falcon EDR integration
 description: Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/config-cs-edr-integration.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2024-10-14"
 reading_time_minutes: 2
-breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrating Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure Crowdstrike Falcon EDR integration
@@ -27,7 +28,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Using your instance, access **Threat Intelligence Security Center**.
 
-2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/download-app-first-time.md).
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
@@ -155,5 +156,5 @@ The expiry period in days that are applied for the Hash type of observable when 
     **Note:** Multiple configurations are allowed for CrowdStrike Falcon EDR integration.
 
 
-**Parent Topic:**[CrowdStrike Falcon EDR integration](../concept/crowdstrike-edr-integration.md)
+**Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
 

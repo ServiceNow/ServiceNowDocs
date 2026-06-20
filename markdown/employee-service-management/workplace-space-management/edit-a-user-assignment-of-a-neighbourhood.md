@@ -2,6 +2,7 @@
 title: Edit a user assignment of a neighborhood
 description: Edit an existing user's workplace profile assigned to the neighborhood.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-space-management/edit-a-user-assignment-of-a-neighbourhood.html
 release: xanadu
 product: Workplace Space Management
 classification: workplace-space-management
@@ -17,7 +18,7 @@ Edit an existing user's workplace profile assigned to the neighborhood.
 
 ## Before you begin
 
-If you’re using Workplace Space Management version 1.11.1 or later, you can also edit or remove a user from a neighborhood from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
+If you’re using Workplace Space Management version 1.11.1 or later, you can also edit or remove a user from a neighborhood from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-space-management/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
 
 **Important:** From Workplace Space Management version 1.11.1, the **Neighbourhood User Assignments** table is no longer available. Instead, the user assignment can be performed on a workplace profile directly using the **Workplace Profile Location Assignment** table \(displayed a related list on the form\) in the Workplace Core application. The **Workplace Profile Location Assignment** in the Workplace Core is now configured with additional fields such as **Profile type**, **Neighborhood**, and **Source** where all the data is saved. This table helps a space manager to perform scenario planning and save any user assignment-related changes performed on a neighborhood directly on the workplace profile.
 
@@ -53,7 +54,7 @@ You can add only users with workplace profiles to a neighborhood. Perform the fo
 
     1.  On the form, select the Workplace Profile Location Assignment related list.
 
-    2.  Edit the details of the user directly from the list view or select the Preview icon \(![Preview icon.](../../safe-workplace-dashboard/image/icon-preview.png)\).
+    2.  Edit the details of the user directly from the list view or select the Preview icon \(\[Omitted image "icon-preview.png"\] Alt text: Preview icon.\).
 
         Select **Open Record**.
 

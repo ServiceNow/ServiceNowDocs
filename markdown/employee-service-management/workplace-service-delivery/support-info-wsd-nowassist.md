@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for WSD
 description: Get a quick overview for supported patch versions and application information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery/support-info-wsd-nowassist.html
 release: xanadu
 product: Workplace Service Delivery
 classification: workplace-service-delivery

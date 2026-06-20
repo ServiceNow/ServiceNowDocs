@@ -2,6 +2,7 @@
 title: ActivitySubscriptions API
 description: The ActivitySubscriptions API provides endpoints to retrieve Activity entities from the Subscriptions and Activity Feed Framework.The Aggregate API provides endpoints that allow you to compute aggregate statistics about existing table and column data.Retrieves records for the specified table and performs aggregate functions on the returned values.Retrieves activity records from the Subscriptions and Activity Feed Framework.Retrieves facets configured for an activity context from the Subscriptions and Activity Feed Framework. Displays activity counts and data for each facet as determined by activity type, group, and context settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/actsub-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The ActivitySubscriptions API provides endpoints to retrieve Activity entities from the Subscriptions and Activity Feed Framework.
 
-This API requires activation of the Subscriptions and Activity Feed Framework \(com.snc.activity\_subscriptions\) plugin. Activate the Customer Central \(com.sn\_csm\_customer\_central\) plugin to seed configuration in all required tables. For more information on customer central configuration settings, see [Configure customer central](https://www.servicenow.com/docs/access?context=configure-customer-central&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+This API requires activation of the Subscriptions and Activity Feed Framework \(com.snc.activity\_subscriptions\) plugin. Activate the Customer Central \(com.sn\_csm\_customer\_central\) plugin to seed configuration in all required tables. For more information on customer central configuration settings, see Configure customer central.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Aggregate API
 
@@ -162,7 +163,7 @@ Data type: String
 
 #### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -187,7 +188,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 #### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -387,7 +388,7 @@ facets
 
 </td><td>
 
-Comma-separated list of sys\_ids of activity facet types to retrieve for the specified activity context. These sys\_ids are located in the Activity Facet \[sn\_actsub\_facet\] table.For more details on activity facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+Comma-separated list of sys\_ids of activity facet types to retrieve for the specified activity context. These sys\_ids are located in the Activity Facet \[sn\_actsub\_facet\] table.For more details on activity facets, see Create facets for activity contexts.
 
 Data type: String
 
@@ -413,7 +414,7 @@ record\_id
 
 Sys\_id of a record to use when rendering dynamic facets. Located in the appropriate table for the activity type you want to retrieve.For example, if you want to fetch activities for a Case record, set this parameter to the sys\_id of the Case record in question.
 
-For more details on dynamic facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more details on dynamic facets, see Create facets for activity contexts.
 
 Data type: String
 
@@ -446,7 +447,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -471,7 +472,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -986,7 +987,7 @@ Retrieves facets configured for an activity context from the Subscriptions and A
 
 Users must have the actsub\_user or admin role to access this endpoint. Data returned is limited by user access settings.
 
-For more details on activity context facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more details on activity context facets, see Create facets for activity contexts.
 
 ### URL format
 
@@ -1110,7 +1111,7 @@ Date/time value. The request returns only records created during the time period
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1135,7 +1136,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

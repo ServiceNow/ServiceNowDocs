@@ -2,6 +2,7 @@
 title: Exploring SLO Management
 description: Service Level Objective Management \(SLO Management\) is a crucial aspect of IT service management that ensures IT services meet customer expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management

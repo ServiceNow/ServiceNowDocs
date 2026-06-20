@@ -2,6 +2,7 @@
 title: ERP-CM candidate list field descriptions
 description: The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the basic details for each candidate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-candidate-list-details.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -74,7 +75,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the candidates belongs to.ERP models are configured in ERP Data Hub. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](../../erp-integration/concept/work-with-erp-data-models.md).
+Number of ERP models the candidates belongs to.ERP models are configured in ERP Data Hub. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/work-with-erp-data-models.md).
 
 **Note:** This column is available only on the candidates list on the Candidates page, not on the home page.
 
@@ -87,5 +88,5 @@ Similar candidates
 Number of similar candidates. Similarity is based on the remote tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

@@ -2,6 +2,7 @@
 title: Authenticator Applications
 description: Use third party authenticator applications to generate temporary MFA pass codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/mfa-auth-app.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ An authenticator application is third-party software that generates temporary pa
 
 If your administrator has enabled MFA on your instance, you see a prompt for a pass-code after entering your user and password during login.
 
-![MFA Authenticator App set up screen](../images/mfa-authenticator-app.png)
+\[Omitted image "mfa-authenticator-app.png"\] Alt text: MFA Authenticator App set up screen
 
 ServiceNow requires authenticator applications that support Time-based One-time Passwords \(TOTP\).
 

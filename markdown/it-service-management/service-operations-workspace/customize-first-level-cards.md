@@ -2,6 +2,7 @@
 title: Configure the donuts in the tier 1 landing page
 description: Configure the data displayed in donuts in the Overview section of the tier 1 landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/customize-first-level-cards.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -33,7 +34,7 @@ You can customize header label, data source, metric, group by field, and viewAll
 
 4.  If the PAR dashboard is active on the landing page, do the following:
 
-    1.  [Configure the tier 1 dashboard configuration](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US).
+    1.  Configure the tier 1 dashboard configuration.
 
         **Note:** If you’re creating a dashboard, you can use the saved visualizations to create a card for the dashboard. The data visualization is visible only to the users based on the respective roles.
 

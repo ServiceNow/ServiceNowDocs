@@ -2,6 +2,7 @@
 title: Restrict the CODE tag in journal fields
 description: You can prevent journal fields from rendering HTML code by disabling support for the \[code\] tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_RestrictTheCODETagInJrnalFlds.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -28,5 +29,5 @@ Role required: admin
 3.  Click **Save**.
 
 
-**Parent Topic:**[Render journal field entries as HTML](render-journal-field-entries-as-html.md)
+**Parent Topic:**[Render journal field entries as HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/render-journal-field-entries-as-html.md)
 

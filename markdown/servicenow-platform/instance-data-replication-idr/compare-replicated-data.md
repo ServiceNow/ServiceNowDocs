@@ -2,6 +2,7 @@
 title: Find missing or mismatched records in Instance Data Replication
 description: Find records missing from the consumer instance or mismatched records after data has been replicated by creating a data comparison request in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/instance-data-replication-idr/compare-replicated-data.html
 release: xanadu
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -31,7 +32,7 @@ Note the following:
 
 -   Data comparison requests are purged after three months.
 -   A data comparison request can have a maximum of 500,000 records.
--   There are limitations when comparing transformed data. See [Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md).
+-   There are limitations when comparing transformed data. See [Comparing replicated data between instances in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.md).
 
 ## Procedure
 
@@ -87,7 +88,7 @@ Note the following:
 
 ## What to do next
 
-[Reseed missing or mismatched records in Instance Data Replication](fix-replicated-data.md).
+[Reseed missing or mismatched records in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/fix-replicated-data.md).
 
-**Parent Topic:**[Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md)
+**Parent Topic:**[Comparing replicated data between instances in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.md)
 

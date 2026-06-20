@@ -2,11 +2,12 @@
 title: Configure alert correlation logic order
 description: Improve alert management by enabling users to customize correlation logic order. This feature empowers you to fine-tune correlation methods to their specific needs, enhancing alert prioritization and response efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/configure-alert-correlation-logic-order.html
 release: xanadu
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---

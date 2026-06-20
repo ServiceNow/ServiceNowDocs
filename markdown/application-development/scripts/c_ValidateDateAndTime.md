@@ -2,6 +2,7 @@
 title: Validation script use case - Date and time
 description: To validate the input of all date/time fields, you can use the following in a validation script \( System Definition Validation Scripts \).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/c\_ValidateDateAndTime.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -29,7 +30,7 @@ function validate (value){
 }
 ```
 
-For a comprehensive use case, see [Restricting record access](c_ExScptDftBfrQryBsnRu.md).
+For a comprehensive use case, see [Restricting record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_ExScptDftBfrQryBsnRu.md).
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/usefulScripts.md)
 

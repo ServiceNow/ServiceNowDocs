@@ -2,6 +2,7 @@
 title: Calculated metric definition form
 description: The fields of the calculated metric definition form are explained in this topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/calculated-metric-definition-reuse.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

@@ -2,6 +2,7 @@
 title: Configuring Guided Tours
 description: Guided tours configurations let you enable tours, configure tours to automatically launch, and customize the tour experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/configuring-guided-tours.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services

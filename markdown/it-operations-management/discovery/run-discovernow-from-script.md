@@ -2,6 +2,7 @@
 title: Run DiscoverNow from a script
 description: You can run DiscoverNow from a script, such as a background job, a business rule, or web services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/run-discovernow-from-script.html
 release: xanadu
 product: Discovery
 classification: discovery

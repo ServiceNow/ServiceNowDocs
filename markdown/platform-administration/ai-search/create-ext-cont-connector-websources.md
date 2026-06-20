@@ -2,6 +2,7 @@
 title: Create a predefined web sources external content connector
 description: Create an external content connector to retrieve searchable content from pages and subdomains in a predefined public web source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/create-ext-cont-connector-websources.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -44,11 +45,11 @@ Your new predefined web sources external content connector appears in the Connec
 
 ## What to do next
 
-You can optionally define crawl settings for your new predefined web sources external content connector. Using these settings, you can limit the set of pages and subdomains you want the connector to crawl. To learn how to configure the connector's crawl settings, see [Configure crawl settings for the predefined web sources external content connector](configure-crawl-settings-websources-ext-cont-connector.md).
+You can optionally define crawl settings for your new predefined web sources external content connector. Using these settings, you can limit the set of pages and subdomains you want the connector to crawl. To learn how to configure the connector's crawl settings, see [Configure crawl settings for the predefined web sources external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/configure-crawl-settings-websources-ext-cont-connector.md).
 
-If you want the connector to crawl everything in the source system, and don't want to apply file-extension inclusion or exclusion filters, you can skip definition of crawl settings and go straight on to run one-time crawls for your new connector. To learn about running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](run-doc-crawl-ext-cont-connector.md). The connector automatically runs document crawls on a monthly schedule.
+If you want the connector to crawl everything in the source system, and don't want to apply file-extension inclusion or exclusion filters, you can skip definition of crawl settings and go straight on to run one-time crawls for your new connector. To learn about running one-time crawls, see [Run a one-time full or partial document crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md). The connector automatically runs document crawls on a monthly schedule.
 
-You can create search sources for the connector's indexed source and link them to your search profiles. To view the connector's indexed source, navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**. For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](../concept/search-sources-ais.md).
+You can create search sources for the connector's indexed source and link them to your search profiles. To view the connector's indexed source, navigate to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources**. For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/search-sources-ais.md).
 
-**Parent Topic:**[Creating external content connectors](creating-ext-cont-connectors.md)
+**Parent Topic:**[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/creating-ext-cont-connectors.md)
 

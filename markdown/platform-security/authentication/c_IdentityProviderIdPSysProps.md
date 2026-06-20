@@ -2,6 +2,7 @@
 title: Identity Provider \(IdP\) system properties
 description: An IdP generally offers an XML document containing their authentication and logout metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_IdentityProviderIdPSysProps.html
 release: xanadu
 product: Authentication
 classification: authentication

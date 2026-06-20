@@ -2,6 +2,7 @@
 title: Configure the websocket server on the MID Server
 description: Configure the websocket server on MID Servers to enable connections from agents to the MID Server. You can configure only one websocket server per MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-configure-web-server.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -30,7 +31,7 @@ Configure the websocket server on MID Servers to enable connections from agents 
 
     The **Agent Client Collector Setup** dialog box appears.
 
-    ![Agent Client Collector Setup dialog box](../image/acc-setup.png)
+    \[Omitted image "acc-setup.png"\] Alt text: Agent Client Collector Setup dialog box
 
 4.  Enter the MID web server port \(**8800**\) in the displayed field.
 
@@ -53,6 +54,6 @@ Configure the websocket server on MID Servers to enable connections from agents 
 
     2.  Verify that you receive a valid JSON response \(and not an error message\), such as the following:
 
-        ![Successful installation JSON script](../image/ACC-websocket-JSON.png "Successful installation JSON script")
+        \[Omitted image "ACC-websocket-JSON.png"\] Alt text: Successful installation JSON script
 
 

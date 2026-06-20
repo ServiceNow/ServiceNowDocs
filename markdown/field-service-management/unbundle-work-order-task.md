@@ -2,7 +2,10 @@
 title: Unbundle a work order task bundle
 description: Unbundle work order bundles if you want to group the subtasks differently or divide the work in another way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/unbundle-work-order-task.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -29,15 +32,15 @@ When you unbundle a work order task bundle, the work order task bundle enters a 
 
 3.  Select the bundle.
 
-<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d72386e88">
+<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d70572e88">
 
 Bundle
 
-</th><th align="left" id="d72386e91">
+</th><th align="left" id="d70572e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72386e97">
+</th></tr></thead><tbody><tr><td id="d70572e97">
 
 **Single bundle**
 
@@ -45,7 +48,7 @@ Action
 
 Select the bundle.
 
-</td></tr><tr><td id="d72386e106">
+</td></tr><tr><td id="d70572e106">
 
 **Multiple bundles**
 

@@ -2,6 +2,7 @@
 title: Subscribe to a feed
 description: Direct members of a feed can subscribe and unsubscribe to the feed in order to receive email notifications whenever any activity in the feed occurs, such as new messages being posted, replies, likes, polls, and @mentions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_SubscribeToAFeed.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -31,12 +32,12 @@ All notifications related to a top-level message, such as replies, mentions, and
 
 2.  Click either **Group Feeds** or **Record Feeds**, and then select the feed name.
 
-3.  Click the subscribe icon \(![Subscribe](../image/Subscribe.png)\).
+3.  Click the subscribe icon \(\[Omitted image "Subscribe.png"\] Alt text: Subscribe\).
 
-    You can click the unsubscribe icon \(![Unsubscribe](../image/Unsubscribe2.png)\) to stop receiving email notifications.
+    You can click the unsubscribe icon \(\[Omitted image "Unsubscribe2.png"\] Alt text: Unsubscribe\) to stop receiving email notifications.
 
     **Note:** If a team is subscribed to receive email notifications for a feed, but a member of the team did not subscribe to the team, that member does not receive the email notifications.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

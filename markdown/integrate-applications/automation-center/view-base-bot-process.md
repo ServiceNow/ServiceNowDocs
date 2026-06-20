@@ -2,6 +2,7 @@
 title: Review the bot processes
 description: Review a list of available bot processes in Automation Center, so that you can make sure that they are on track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/automation-center/view-base-bot-process.html
 release: xanadu
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ You can't create a bot process.
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Monitor**, select **All Bot Processes**.
 
@@ -38,5 +39,5 @@ You can't create a bot process.
 5.  Review the information on the bot process page.
 
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/automation-center/automations.md)
 

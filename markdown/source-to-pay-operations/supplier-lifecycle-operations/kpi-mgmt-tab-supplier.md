@@ -2,6 +2,7 @@
 title: Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace
 description: You can view the latest KPI data that is collected for a particular supplier from the supplier page of the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,10 +34,10 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
     All the KPIs that are listed on this tab are grouped by the KPI performance domain set in the KPI template they were created from.
 
-    ![KPI management tab](../image/kpi-mgmt-tab.png "KPI management tab")
+    \[Omitted image "kpi-mgmt-tab.png"\] Alt text: KPI management tab
 
     **Note:** You can add new KPIs or remove existing KPIs for the selected supplier from the **KPI management** view.
 
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

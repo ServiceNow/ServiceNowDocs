@@ -2,6 +2,7 @@
 title: Define people search as inactive
 description: Configure whether users can search for other users in the system. By default, people search is enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-mobile-employee-experience/enable-people-search.html
 release: xanadu
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
@@ -34,5 +35,5 @@ Role required: admin
 
 Your users can no longer see search results for other users in the system.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

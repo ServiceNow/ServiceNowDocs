@@ -2,6 +2,7 @@
 title: Workforce Optimization for HR Manager workspace
 description: Monitor your teams' work and organizational performance using Workforce Optimization for HR. Stay on top of the status of cases your teams are working on at a given time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/hr-manager-workspace-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

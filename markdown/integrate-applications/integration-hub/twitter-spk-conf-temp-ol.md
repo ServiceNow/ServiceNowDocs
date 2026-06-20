@@ -2,6 +2,7 @@
 title: Configure a connection for the X spoke \(formerly Twitter spoke\)
 description: Add and configure the X connections to authenticate ServiceNow requests in the X spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/twitter-spk-conf-temp-ol.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -40,7 +41,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
 
 5.  On the Twitter tile, select **View Details**.
 
-    ![](../image/twitter-alias-view-details.png)
+    \[Omitted image "twitter-alias-view-details.png"\] Alt text:
 
 6.  Select **Configure**.
 
@@ -55,7 +56,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
     |Access Token|Access token of your X developer app.|
     |Access Token Secret|Access token secret of your X developer app.|
 
-    ![Twitter alias connection form.](../image/twitter-conn-form.png)
+    \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
 
 8.  Select **Create Connection**.
 
@@ -71,7 +72,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
 
     5.  On the Twitter\_Media tile, select **View Details**.
 
-        ![Twitter_media alias View Details.](../image/twitter-media-alias-view-details.png)
+        \[Omitted image "twitter-media-alias-view-details.png"\] Alt text: Twitter\_media alias View Details.
 
     6.  Select **Configure**.
 
@@ -86,7 +87,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
         |Access Token|Access token of your X developer app.|
         |Access Token Secret|Access token secret of your X developer app.|
 
-        ![Twitter alias connection form.](../image/twitter-conn-form.png)
+        \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
 
     8.  Select **Create Connection**.
 

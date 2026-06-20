@@ -2,7 +2,10 @@
 title: Create an assume role configuration
 description: Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/create-assume-role-config.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,10 +34,10 @@ If permanent credentials aren't defined for the member account, Cloud Configurat
 
 3.  Fill the values on the Service Account Assume Role Config form.
 
-    For a description of the form fields, see [Cloud Configuration Governance Service Account Assume Role Config form](../../itom-governance/reference/ccg-service-account-assume-role-config-form.md).
+    For a description of the form fields, see [Cloud Configuration Governance Service Account Assume Role Config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/ccg-service-account-assume-role-config-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up Cloud Configuration Governance for AWS](../../itom-governance/task/set-up-ccg-for-aws.md)
+**Parent Topic:**[Set up Cloud Configuration Governance for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/set-up-ccg-for-aws.md)
 

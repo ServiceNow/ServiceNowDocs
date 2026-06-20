@@ -2,6 +2,7 @@
 title: Create a custom validation definition
 description: Provide a script that validates a context rule input or output in the decision table for a pricing or product eligibility matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-validation-definition.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Validation Definitions**.
 

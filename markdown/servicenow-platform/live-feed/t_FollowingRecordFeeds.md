@@ -2,6 +2,7 @@
 title: Follow a record feed from a form
 description: You can follow records that have a record feed associated with them from within the record form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/live-feed/t\_FollowingRecordFeeds.html
 release: xanadu
 product: Live Feed
 classification: live-feed
@@ -25,8 +26,8 @@ Role required: none
 
 2.  Click the **Show on Live Feed** icon in the header.
 
-    ![Follow Task](../image/FollowTaskFuji.png "Follow Task")
+    \[Omitted image "FollowTaskFuji.png"\] Alt text: Follow Task
 
 
-**Parent Topic:**[Working with record feeds](../concept/c_WorkingWithRecordFeeds.md)
+**Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)
 

@@ -2,6 +2,7 @@
 title: Monitoring MID server performance through Application Insights
 description: You can monitor the performance of a MID Server by tracking the status of entries in the ECC queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/monitoring-mid-server.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -15,7 +16,7 @@ breadcrumb: [Application Insights, Monitoring platform performance, Platform per
 
 You can monitor the performance of a MID Server by tracking the status of entries in the ECC queue.
 
-Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see [MID Server ECC Queue](https://www.servicenow.com/docs/access?context=ecc-queue-mid-server&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Application Insights enables you to monitor the performance of the ECC queue, which is a communication log between your instance and an MID Server. For details, see MID Server ECC Queue.
 
 You can monitor the relationship between the number of ready, processing, and processed records by viewing the ECC queue graphs. Use the ECC queue graphs to monitor the following:
 
@@ -32,5 +33,5 @@ Dig deeper into potential performance issues by drilling down to analyze issues 
 -   Make the detail graphs easier to read by grouping agents with similar performance metrics by selecting the **Group by Performance** check box. Look for groups with higher counts or spikes in the selected time range. View and compare trend lines for a group of agents in a separate graph by selecting a data point. Look for anomalies by comparing the individual agents to the **1-Day Moving Average** number.
 -   Analyze ECC queue efficiency by tracking the number of entries in the ready, processing, and processed states over time. Output metrics measure the number of jobs leaving the instance. Input metrics measure the number of jobs sent to the instance from the MID Server or another system.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

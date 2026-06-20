@@ -2,7 +2,10 @@
 title: Pause a work order task
 description: Record a break from a work order task in the Field Service application if you are unable to continue the work for any reason. You can resume the work order task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though you worked at different intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/automate-time-recording-field-service.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Record a break from a work order task in the Field Service application if you ar
 
 ## Before you begin
 
-The system administrator can choose to enable the **work.management.allow.auto.timecard** property so that time cards are automatically created when you start working on a task. The data of the time cards is stored in \[metric\_instance\] table and is controlled by **work.management.allow.auto.metric\_cleanup** [system property](../../planning-and-policy/reference/r_InstalledWithFSM.md).
+The system administrator can choose to enable the **work.management.allow.auto.timecard** property so that time cards are automatically created when you start working on a task. The data of the time cards is stored in \[metric\_instance\] table and is controlled by **work.management.allow.auto.metric\_cleanup** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_InstalledWithFSM.md).
 
 Role required: wm\_agent
 
@@ -38,5 +41,5 @@ The work order task must be in the Work in Progress state to pause the timer.
 
 Each time you pause or resume work on the task, a timestamp is captured in the activity stream and the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the **Time Worked** related list.
 
-**Parent Topic:**[Record the time worked on a work order task](../concept/Recording-time-spent-on-work-order-tasks.md)
+**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Recording-time-spent-on-work-order-tasks.md)
 

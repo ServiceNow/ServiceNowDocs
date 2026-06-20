@@ -2,6 +2,7 @@
 title: Create a breakdown relation between breakdowns
 description: To set up navigation in a visualization between the elements of two breakdowns at the same level, create a breakdown relation between the breakdowns. A table must exist with fields that reference the records for both breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/performance-analytics/t\_CreateABreakdownRelation.html
 release: xanadu
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ To set up navigation in a visualization between the elements of two breakdowns a
 
 ## Before you begin
 
-Review the use cases for breakdown relations in [Navigating breakdown elements with breakdown relations](../concept/breakdown-relations.md).
+Review the use cases for breakdown relations in [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/breakdown-relations.md).
 
 **Important:** Platform Analytics features, such as KPI Details and data visualizations, do not support breakdown relations.
 
@@ -27,7 +28,7 @@ Role required: pa\_data\_collector, pa\_power\_user, admin
 
 ## About this task
 
-You want to be able to navigate quickly between two breakdowns at the same level that are logically related. The example used in this topic involves the breakdowns Assignment Group and Assigned To for the indicator Number of open incidents. In the following animation, you switch from seeing the number of incidents assigned to the Oracle Support group and seeing the number of incidents assigned to Candace Bruckman. Both breakdowns are first level, which means that you see the total number of incidents assigned to Oracle Support and the total assigned to Candace Bruckman. If you had selected Candice as a second-level breakdown instead of through a breakdown relation, you would have seen only the Oracle Support issues that they were working on. ![Navigating from an assignment group to its members](../image/breakdown-relation-member.gif)
+You want to be able to navigate quickly between two breakdowns at the same level that are logically related. The example used in this topic involves the breakdowns Assignment Group and Assigned To for the indicator Number of open incidents. In the following animation, you switch from seeing the number of incidents assigned to the Oracle Support group and seeing the number of incidents assigned to Candace Bruckman. Both breakdowns are first level, which means that you see the total number of incidents assigned to Oracle Support and the total assigned to Candace Bruckman. If you had selected Candice as a second-level breakdown instead of through a breakdown relation, you would have seen only the Oracle Support issues that they were working on. \[Omitted image "breakdown-relation-member.gif"\] Alt text: Navigating from an assignment group to its members
 
 **Note:** Breakdown relations are one-way relationships. To create a bi-directional relationship, define multiple breakdown relations.
 
@@ -50,11 +51,11 @@ You want to be able to navigate quickly between two breakdowns at the same level
 
 ## Result
 
-After you submit the Breakdown Relation form, the navigation options are available in the Analytics Hub for the relevant indicator. You do not need to run a [data collection job](../concept/performance-analytics-glossary.md#) first.
+After you submit the Breakdown Relation form, the navigation options are available in the Analytics Hub for the relevant indicator. You do not need to run a [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md) first.
 
 ## What to do next
 
 View examples of breakdown relations that are shipped by default in every instance. The example shown here is the **Members** breakdown relation. The **Member of** breakdown relation provides navigation in the reverse direction, starting with an element in Assigned To and navigating to an Assignment Group. Lastly, the **Manager** breakdown relation is similar to **Members**, but because each assignment group has only one manager, it shows a many-to-one relationship. It thus uses a facts table instead of a many-to-many table.
 
-**Parent Topic:**[Navigating breakdown elements with breakdown relations](../concept/breakdown-relations.md)
+**Parent Topic:**[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/breakdown-relations.md)
 

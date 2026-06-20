@@ -2,6 +2,7 @@
 title: Set up your language preferences for the Virtual Agent integration with Microsoft Teams
 description: Set language preferences so that Virtual Agent is in the same language as the user's preferred Microsoft Teams language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-integration-msteams-localization.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

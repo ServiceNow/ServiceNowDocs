@@ -2,6 +2,7 @@
 title: Entitle an application
 description: Entitle an application from your ServiceNow AI Platform instance if the application has been purchased but not yet linked to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/application-manager/entitle-applications-in-application-manager.html
 release: xanadu
 product: Application Manager
 classification: application-manager

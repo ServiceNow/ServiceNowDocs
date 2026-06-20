@@ -2,6 +2,7 @@
 title: Create a manual adjustment for a forecast
 description: Adjust forecasts manually to fine-tune them for greater accuracy. Create the adjustment for a specified time period and analyze how it impacts your forecast.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/create-manual-adjustment-forecast-configurable-wfo.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -31,13 +32,13 @@ Managers can make manual adjustments to the forecasts for 15-, 30-, and 60-minut
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon.](../image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\) icon.
 
 3.  Click **Forecasts**.
 
 4.  Select the forecast model for which you want to make a manual adjustment.
 
-5.  Click the Manual Adjustments \(![Manual Adjustments icon.](../image/manual-adjustment-new.png)\) icon.
+5.  Click the Manual Adjustments \(\[Omitted image "manual-adjustment-new.png"\] Alt text: Manual Adjustments icon.\) icon.
 
 6.  Make a manual adjustment.
 
@@ -128,5 +129,5 @@ The total is 34.
     -   The adjusted values will be used in the resource conversion formula and the demand forecast displayed on the calendar.
     -   Any other manual adjustment configurations that were created would be unpublished and moved to **Draft** state.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](../concept/configuring-demand-forecast-configurable-wfo-cs.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/configuring-demand-forecast-configurable-wfo-cs.md)
 

@@ -2,6 +2,7 @@
 title: Create a user segment group
 description: User segment groups allow you to specify values for a group of users, or with multiple segments specify different values for different groups of users. Segments allows you to ensure that your bulk case creation is correct before executing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/bulk-case-segment.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -77,7 +78,7 @@ Depending on the HR service selected when creating a bulk case request, addition
 -   Course start date
 -   Course end date
 -   Course cost
-For more information on what fields appear, see [Configure the HR case creation form for an HR service](configure-case-creation-form-for-hr-service.md). The base system only provides additional fields for the Tuition Reimbursement Inquiry and Tuition Reimbursement Request HR services.
+For more information on what fields appear, see [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md). The base system only provides additional fields for the Tuition Reimbursement Inquiry and Tuition Reimbursement Request HR services.
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 
--   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) .
+-   User criteria: Criteria based on role, department, group, location, or company. User criteria is a platform feature. See User criteria for Service Portal .
 
 **Note:** Only available to users with the sn\_hr\_core.content\_reader, sn\_hr\_core.content\_writer, or sn\_hr\_core.admin roles.
 
@@ -109,14 +110,14 @@ Determines who to create the bulk HR case for:-   Upload file:
 
  For the **HR Profile** and **Users** filter, you can refine the selection. Right-click on a column, select **Filter Out** or **Show Matching**.
 
-**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see APIGlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
     The **Bulk Case Request** form returns with the user segment group you created. If your user group segment has many cases, the status for the segment is **Processing**.
 
-    **Note:** You can still review and edit your user segment group. For more information, see [Manage a user group segment](bulk-case-segment-manage.md).
+    **Note:** You can still review and edit your user segment group. For more information, see [Manage a user group segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/bulk-case-segment-manage.md).
 
 4.  When the status is **Processed**, the **Create cases** button appears at the top right and above the related list tabs.
 
@@ -129,5 +130,5 @@ Determines who to create the bulk HR case for:-   Upload file:
 6.  Select the **Cases created** tab to view a list of cases created.
 
 
-**Parent Topic:**[Creating bulk cases](../concept/bulk-case.md)
+**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/bulk-case.md)
 

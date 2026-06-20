@@ -2,6 +2,7 @@
 title: Link to related records
 description: A notification can link to a related record by specifying a reference field in front of the $\{URI\} or $\{URI\_REF\} parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_LinkToRelatedRecords.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -78,7 +79,7 @@ Click here to view Incident: ${URI_REF}
 Click here to view Related Problem: ${problem_id.URI_REF}
 ```
 
-![](../image/RelatedRecordLink.png "Related record link")
+\[Omitted image "RelatedRecordLink.png"\] Alt text:
 
-**Parent Topic:**[Links to records in email notifications](c_EnablingLinksToServiceNowRecords.md)
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnablingLinksToServiceNowRecords.md)
 

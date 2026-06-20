@@ -2,6 +2,7 @@
 title: Verify the Trigger Condition Filters
 description: Validate the profile, and verify that the trigger condition filters that you have configured are working as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/verify-the-trigger-condition-filters.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ After you activate the profile, based on the configured trigger conditions you c
 
 5.  To validate the work notes and activities section, view and check the records that are tagged with the profile initiated, profile completed, or profile failed tags.
 
-    ![Validate the work notes and activities](../image/review_activities.png "Work notes and activities")
+    \[Omitted image "review\_activities.png"\] Alt text: Validate the work notes and activities
 
 6.  To validate all the data in the related lists, click **Show All Related Lists**.
 

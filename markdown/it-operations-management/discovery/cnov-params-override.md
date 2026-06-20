@@ -2,6 +2,7 @@
 title: Override Informer parameters from the Instance
 description: Control Agent Client Collector for Kubernetes – Visibility Informer execution parameters from the ServiceNow Instance to avoid dependence on your Kubernetes admin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/cnov-params-override.html
 release: xanadu
 product: Discovery
 classification: discovery

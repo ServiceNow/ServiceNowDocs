@@ -2,6 +2,7 @@
 title: Contract Management Pro
 description: The ServiceNow Contract Management Pro is a contract management solution that's easy to use and adopt. You can use it to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,27 +24,27 @@ With Contracts Dashboard, you can analyze the various contract request trends an
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the features and benefits of Contract Management Pro](cncore-expl-cmpro.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the features and benefits of Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-expl-cmpro.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and configure Contract Management Pro](cncore-config-cmpro.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](cncore-use-cmpro.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Contract Management Pro to submit contract requests, manage document templates and clauses, request signatures, and use external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 
 </td></tr><tr><td>
 
-[Manage ![](../../../reuse/icons/brand-icons/bus-management-console.svg) Manage contract templates and contracts](cncore-manage-cmpro.md)
+[Manage \[Omitted image "bus-management-console.svg"\] Alt text: Manage contract templates and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components, such as roles, tables, plugins, and store applications, that are installed](cncore-ref.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as roles, tables, plugins, and store applications, that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-ref.md)
 
 </td><td>
 
-[Analytics and Reporting ![](../../human-resources/image/icon-report.png) Coordinate work and improve processes with preconfigured dashboards](../../../use/application-content-packs/concept/cncore-analytics-pa.md)
+[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-analytics-pa.md)
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ With Contracts Dashboard, you can analyze the various contract request trends an
 
 </td><td>
 
-[Now Assist in Contract Management![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use Now Assist in Contract Management to enhance user productivity using generative AI](cncore-now-assit-landing.md)
+[Now Assist in Contract Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist in Contract Management to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 

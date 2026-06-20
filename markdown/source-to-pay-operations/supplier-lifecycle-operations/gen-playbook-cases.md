@@ -2,6 +2,7 @@
 title: Case playbook for specific supplier case types
 description: Source-to-Pay Workspace includes a generic case playbook to complete supplier cases of specific case types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Source-to-Pay Workspace includes a generic case playbook to complete supplier ca
 
 ## Case playbook for supplier cases
 
-The case playbook provides step-by-step guidance for completing specific types of supplier cases. The case playbook includes a generic supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+The case playbook provides step-by-step guidance for completing specific types of supplier cases. The case playbook includes a generic supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see Interact with Playbook.
 
 When a supplier contact submits a request using the supplier catalog item from the Supplier Collaboration Portal or when a supplier manager or fulfiller creates a case from the Source-to-Pay Workspace, the application opens the case on the **Playbook** tab on the Details page.
 
@@ -27,13 +28,13 @@ The case playbook is displayed only for these case types:
 -   Supplier support request
 -   General inquiry
 
-![Case playbook.](../image/gen-playbook.png "Case playbook on the Playbook tab")
+\[Omitted image "gen-playbook.png"\] Alt text: Case playbook.
 
 ## Case playbook flow
 
 The following diagram illustrates the flow of the activities in each stage of the Case playbook.
 
-![Case playbook for supplier cases.](../image/case-playbook-flow.png "Case playbook flow")
+\[Omitted image "case-playbook-flow.png"\] Alt text: Case playbook for supplier cases.
 
 ## Case playbook stages and activities
 
@@ -104,5 +105,5 @@ You can do the following:
 Updates the case to Closed Completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+</table>**Parent Topic:**[Managing supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 

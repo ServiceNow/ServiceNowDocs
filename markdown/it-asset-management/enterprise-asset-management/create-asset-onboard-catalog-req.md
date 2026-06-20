@@ -2,6 +2,7 @@
 title: Create a catalog request for onboarding multiple assets
 description: Create a catalog request for onboarding multiple assets on a single model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-asset-onboard-catalog-req.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -35,15 +36,15 @@ A minimum of one asset is required to submit a catalog request. Each catalog req
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d284036e96">
+<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d132532e96">
 
 Field
 
-</th><th align="left" id="d284036e99">
+</th><th align="left" id="d132532e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d284036e105">
+</th></tr></thead><tbody><tr><td id="d132532e105">
 
 **Due by**
 
@@ -51,7 +52,7 @@ Description
 
 Date by when the asset onboarding must be complete.This field is optional.
 
-</td></tr><tr><td id="d284036e116">
+</td></tr><tr><td id="d132532e116">
 
 **Requested for**
 
@@ -59,7 +60,7 @@ Date by when the asset onboarding must be complete.This field is optional.
 
 Person for whom the asset is requested.This field is optional.
 
-</td></tr><tr><td id="d284036e127">
+</td></tr><tr><td id="d132532e127">
 
 **Stockroom**
 
@@ -67,7 +68,7 @@ Person for whom the asset is requested.This field is optional.
 
 Select a stockroom for the assets.
 
-</td></tr><tr><td id="d284036e136">
+</td></tr><tr><td id="d132532e136">
 
 **Is new model?**
 
@@ -79,7 +80,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 -   Short description
 **Note:** The above information is collected for creating a model record. The model record gets created in the Enterprise Asset Workspace.
 
-</td></tr><tr><td id="d284036e165">
+</td></tr><tr><td id="d132532e165">
 
 **Model**
 
@@ -87,7 +88,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 
 Select an existing model record for the assets.
 
-</td></tr><tr><td id="d284036e174">
+</td></tr><tr><td id="d132532e174">
 
 **Add**
 
@@ -113,5 +114,5 @@ Select to enter information for creating new assets. In the Add Row dialog box, 
 
 The enterprise\_asset\_manager role can launch the multi-asset playbook from the Enterprise Asset Workspace.
 
-**Parent Topic:**[Using Service Catalog for Enterprise Asset Management requests and flows](../concept/using-service-catalog-eam-requests-flows.md)
+**Parent Topic:**[Using Service Catalog for Enterprise Asset Management requests and flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/using-service-catalog-eam-requests-flows.md)
 

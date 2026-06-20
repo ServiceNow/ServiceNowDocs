@@ -2,6 +2,7 @@
 title: Request a clone in the Clone Admin Console
 description: Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/clone-ui-request-clone.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"

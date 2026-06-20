@@ -2,7 +2,10 @@
 title: Microsoft SharePoint crawl types
 description: Crawling gathers the content for search. To retrieve information, the crawl operation connects to the content sources by using connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/sp-crawl-types.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

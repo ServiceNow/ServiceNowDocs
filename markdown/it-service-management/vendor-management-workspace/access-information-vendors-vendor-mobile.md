@@ -2,6 +2,7 @@
 title: Access information related to your vendors using the Vendor Management Mobile application
 description: Look up information related to your vendors such as incidents or outages created for your vendors or breached SLAs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/vendor-management-workspace/access-information-vendors-vendor-mobile.html
 release: xanadu
 product: Vendor Management Workspace
 classification: vendor-management-workspace
@@ -25,15 +26,15 @@ Role required: sn\_vlm.vendor\_manager
 
 2.  Do any of the following.
 
-<table id="choicetable_xlp_xvh_vrb"><thead><tr><th align="left" id="d132100e64">
+<table id="choicetable_xlp_xvh_vrb"><thead><tr><th align="left" id="d130648e64">
 
 To access
 
-</th><th align="left" id="d132100e67">
+</th><th align="left" id="d130648e67">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d132100e73">
+</th></tr></thead><tbody><tr><td id="d130648e73">
 
 **Information about your vendors**
 
@@ -41,7 +42,7 @@ Do this
 
 Tap **My Vendors**.To contact a vendor, tap the vendor record and then tap **Primary Contact Details**. The vendor's contact appears.
 
-</td></tr><tr><td id="d132100e91">
+</td></tr><tr><td id="d130648e91">
 
 **Incidents created for your vendors**
 
@@ -49,7 +50,7 @@ Tap **My Vendors**.To contact a vendor, tap the vendor record and then tap **Pri
 
 Tap **My Vendor Incidents**.You can see the vendor details and activity streams for each incident.
 
-</td></tr><tr><td id="d132100e106">
+</td></tr><tr><td id="d130648e106">
 
 **Outages created for your vendors**
 
@@ -57,7 +58,7 @@ Tap **My Vendor Incidents**.You can see the vendor details and activity streams 
 
 Tap **My Vendor Outages**. You can view the list of outages. Click on an outage to view outage details and the affected CIs for services and offerings.
 
-</td></tr><tr><td id="d132100e121">
+</td></tr><tr><td id="d130648e121">
 
 **SLAs breached by the vendor**
 
@@ -67,5 +68,5 @@ Tap **My Vendors Breached SLA**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](../concept/vendor-mobile-vendor-management-workspace.md)
+**Parent Topic:**[ITSM Vendor Management Mobile for Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/vendor-management-workspace/vendor-mobile-vendor-management-workspace.md)
 

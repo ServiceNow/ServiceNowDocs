@@ -2,6 +2,7 @@
 title: Using Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Using the Now Assist for Sourcing and Procurement Operations \(SPO\) application, fulfillers can generate procurement-related record summaries to get a quick overview of the records, completed actions, and pending tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -16,10 +17,10 @@ breadcrumb: [Now Assist for Sourcing and Procurement Operations \(SPO\), Sourcin
 
 Using the Now Assist for Sourcing and Procurement Operations \(SPO\) application, fulfillers can generate procurement-related record summaries to get a quick overview of the records, completed actions, and pending tasks.
 
--   **[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace](../task/now-assist-spo-summarize-record.md)**  
+-   **[Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md)**  
 As a fulfiller, summarize procurement-related records to know about their status, progress, and action items by using the record summarization skills in the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
--   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](now-assist-spo-va-using.md)**  
+-   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-va-using.md)**  
 Request the contextual generative AI capabilities by using the conversational interface in Now Assist for SPO Virtual Agent.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo.md)
+**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

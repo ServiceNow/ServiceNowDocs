@@ -2,6 +2,7 @@
 title: Enable the claim workspace for Individual Life Claims
 description: Enable the claim workspace page on the claim case so that a claims manager or adjuster can view the page in Individual Life Claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -27,21 +28,21 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+    For more information, see .
 
 4.  From the CSM default record page, set the page order.
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d35542e117">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d43420e116">
 
 Claims page variant
 
-</th><th align="left" id="d35542e120">
+</th><th align="left" id="d43420e119">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d35542e126">
+</th></tr></thead><tbody><tr><td id="d43420e125">
 
 **Claim workspace page**
 
@@ -53,5 +54,5 @@ Navigation to page records
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Individual Life Claims](../concept/setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

@@ -2,6 +2,7 @@
 title: ERP-CM candidate recommendations field descriptions
 description: The candidate Recommendations list in ERP Customization Mining \(ERP-CM\) displays information on suggested next actions for replatforming ERP \(Enterprise Resource Planning\) candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-candidate-recommendations-field-descriptions.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -88,5 +89,5 @@ Updated
 Date and time the recommended action was most recently updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP-CM field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP-CM field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

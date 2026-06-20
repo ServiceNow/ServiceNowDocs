@@ -2,6 +2,7 @@
 title: Microsoft Azure Virtual Machine Spoke
 description: Manage the Microsoft Azure Virtual Machine \(VM\) from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/azure-vir-mach-spoke.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage the Microsoft Azure Virtual Machine \(VM\) from your ServiceNow instance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -272,5 +273,5 @@ Gets a virtual machine image.
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-The Microsoft Azure Virtual Machine Spoke depends on the configured Microsoft Azure Resource Management Spoke connection alias to execute its actions. For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](../task/setup-res-mngmt.md#).
+The Microsoft Azure Virtual Machine Spoke depends on the configured Microsoft Azure Resource Management Spoke connection alias to execute its actions. For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-res-mngmt.md).
 

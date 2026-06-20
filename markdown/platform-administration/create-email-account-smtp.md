@@ -2,6 +2,7 @@
 title: Create an email account with SMTP OAuth2.0
 description: Create an email account from Microsoft Exchange Online with SMTP OAuth2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/create-email-account-smtp.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -145,5 +146,5 @@ Option to create node logs for the raw data that is exchanged with the email ser
 5.  Test the connection by selecting the **Test Connection** link.
 
 
-**Parent Topic:**[Send email using client credential flow](../concept/send-email-client-credential-flow.md)
+**Parent Topic:**[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/send-email-client-credential-flow.md)
 

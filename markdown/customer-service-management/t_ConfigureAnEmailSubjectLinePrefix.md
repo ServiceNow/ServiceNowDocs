@@ -2,7 +2,10 @@
 title: Configure an email subject line prefix
 description: Users with the system administrator role can configure a prefix to include in an email subject line that creates a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_ConfigureAnEmailSubjectLinePrefix.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

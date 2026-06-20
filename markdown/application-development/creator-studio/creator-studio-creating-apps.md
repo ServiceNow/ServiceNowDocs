@@ -2,6 +2,7 @@
 title: App creation in Creator Studio
 description: Have you ever dreamed of creating your own app? With Creator Studio, you might be closer than you think! The following links will send you to the sections in this guide that will walk you through the steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-creating-apps.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -27,12 +28,12 @@ Creating an application from scratch takes a lot of work. That's why Creator Stu
 
 Want your app to stand out? By editing the settings, you can give it a unique name, a head-turning image, and other great features.
 
--   **[Create the foundation of an app in Creator Studio](../task/create-app-creator-studio.md)**  
+-   **[Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/create-app-creator-studio.md)**  
 Before you can build out an app for people to use, you must create its foundation. Eventually, you'll have to customize the default values, but in the following procedure you'll select a catalog template for your first form and specify basic info for the app you're building in Creator Studio.
--   **[Ask an admin to create an app for you in Creator Studio](../task/creator-studio-request-app-added.md)**  
+-   **[Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-request-app-added.md)**  
 Don't have permission to build an app? Ask your admin to get you started by creating a basic app for you. Just give them a name and tell them what you want the app to do. Once they start it, you’ll take over and modify it.
--   **[Edit an app's settings in Creator Studio](../task/creator-studio-edit-app-settings.md)**  
+-   **[Edit an app's settings in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-edit-app-settings.md)**  
 Maybe you want to jazz up your app a bit, for example by giving it a new name, tweaking the description, or swapping in a new image. All it takes is just a few clicks in the settings! Let's dive into how you can do it, even if you're not a tech whiz.
 
-**Parent Topic:**[Building apps with Creator Studio](building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/building-apps-with-creator-studio.md)
 

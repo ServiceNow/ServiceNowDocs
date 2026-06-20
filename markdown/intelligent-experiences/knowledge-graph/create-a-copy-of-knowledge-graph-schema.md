@@ -2,6 +2,7 @@
 title: Create a copy of a Knowledge Graph schema
 description: Create a copy of a Knowledge Graph schema and duplicate it for further customization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/create-a-copy-of-knowledge-graph-schema.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -31,7 +32,7 @@ Role required: kg\_admin
 
 2.  Select a Knowledge Graph schema.
 
-3.  Select the more icon \(![More icon.](../../now-assist-admin/image/naa-more-options-icon.png)\).
+3.  Select the more icon \(\[Omitted image "naa-more-options-icon.png"\] Alt text: More icon.\).
 
 4.  Select **Copy Graph**.
 
@@ -47,7 +48,7 @@ Role required: kg\_admin
     |Description|Knowledge Graph schema overview for users.|
     |Mark as default|Check box to select the cloned Knowledge Graph schema as a fallback schema. The default schema is used if the system fails to reach the assigned schema.|
 
-    ![Copy Knowledge Graph schema.](../Images/create-copy-of-kg-schema.png)
+    \[Omitted image "create-copy-of-kg-schema.png"\] Alt text: Copy Knowledge Graph schema.
 
 6.  Assign the new schema as a fallback schema by selecting the **Mark as Default** option.
 

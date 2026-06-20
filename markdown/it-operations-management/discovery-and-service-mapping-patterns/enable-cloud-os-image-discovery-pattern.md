@@ -2,6 +2,7 @@
 title: Enable Cloud OS Image discovery
 description: Enable the Cloud OS Image \[cmdb\_ci\_cloud\_os\_image\] table to store the cloud OS image records for Amazon AWS Cloud, Microsoft Azure Cloud, Google Cloud Platform \(GCP\), Oracle Cloud Infrastructure \(OCI\), and IBM Cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.html
 release: xanadu
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -51,9 +52,9 @@ Each cloud service provider offers OS images to launch a Compute/VM instance. Cl
 1.  Clean up the Image records. For more information, see the Knowledge Base article [KB1537376](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1537376).
 2.  Rerun the Cloud Discovery.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](../../service-mapping/concept/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Activate a disabled pattern](../../service-mapping/task/activate-disabled-pattern.md)
+**Previous topic:**[Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)
 
-**Next topic:**[ITOM Content Service](../concept/discovery-content-services.md)
+**Next topic:**[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/discovery-content-services.md)
 

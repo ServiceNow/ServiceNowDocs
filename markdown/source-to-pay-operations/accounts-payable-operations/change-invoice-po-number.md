@@ -2,6 +2,7 @@
 title: Update the purchase order on an invoice
 description: If you find that the purchase order that is currently associated with an invoice is incorrect, you can associate the correct purchase order to the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/change-invoice-po-number.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -23,7 +24,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 1.  Navigate to **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **Invoices** &gt; **All open invoices**.
 
@@ -40,5 +41,5 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
     The confirmation message is displayed if you update the purchase order on a PO invoice either before or after PO matching is completed. If you select **OK** after you change the purchase order in the **Purchase order** field, the invoice lines are mapped with the purchase order lines of the newly associated purchase order. Subsequently, the automated PO matching process is run and the invoice status moves to PO matching error or PO matching completed.
 
 
-**Parent Topic:**[Work with invoices](../concept/work-with-invoices.md)
+**Parent Topic:**[Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)
 

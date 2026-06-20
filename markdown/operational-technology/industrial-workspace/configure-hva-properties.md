@@ -2,6 +2,7 @@
 title: Configure property for Hardware Vulnerability Assessment to create VIT automatically
 description: Configure this property to automatically create vulnerable items \(VIT\) based on the hardware vulnerability assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/industrial-workspace/configure-hva-properties.html
 release: xanadu
 product: Industrial Workspace
 classification: industrial-workspace
@@ -36,5 +37,5 @@ Configuring this property determines if new vulnerable item records are created 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Hardware Vulnerability Assessment of OT devices using guided setup](configure-hva-using-guided-setup.md)
+**Parent Topic:**[Setting up Hardware Vulnerability Assessment of OT devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

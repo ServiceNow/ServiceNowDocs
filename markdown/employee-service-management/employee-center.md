@@ -2,7 +2,10 @@
 title: Employee Center dashboard
 description: Use the Employee Center dashboard from Microsoft Teams to view the widgets that show pending tasks, requests, and the internal company announcements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-center.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ For customers with Employee Center, Content managers and Communications Speciali
 
 Launch Microsoft Teams. Navigate to **ServiceNow for Microsoft Teams** &gt; **Employee Center**.
 
-![Employee Center](../images/employee_center_tab_ms_teams.png)
+\[Omitted image "employee\_center\_tab\_ms\_teams.png"\] Alt text: Employee Center
 
-**Parent Topic:**[Employee actions](employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-sn-ms-teams.md)
 

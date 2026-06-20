@@ -2,6 +2,7 @@
 title: Xanadu General Availability release highlights
 description: High-level overview of products and features in the ServiceNow AI Platform Xanadu General Availability \(GA\) release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/release-highlights.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-09-24"

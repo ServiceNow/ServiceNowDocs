@@ -2,6 +2,7 @@
 title: Organization chart
 description: View your organization chart on both the org chart page and my team widget, search for employees, and more in the Employee Center. Configure what details to display on the org chart card for all employees.Use Org Chart Card Configuration to define what to show in the org chart cards.Create or modify a user display configuration record to define when members of a targeted audience display on the Organization chart page and my team widget in the Employee Center or Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ec-org-chart-configuration.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,7 +19,7 @@ View your organization chart on both the org chart page and my team widget, sear
 
 **Note:**
 
-You can offer a better org chart experience with the new org chart functionality available in the Employee Center Pro application. The newer org chart provides a more modern UI experience and configuration capabilities than the old org chart available in Content Publishing application. Opt in to the Employee Profile for new org chart enhancements. For more information, see [Organization chart in Employee Center Pro](employee-profile-org-chart.md).
+You can offer a better org chart experience with the new org chart functionality available in the Employee Center Pro application. The newer org chart provides a more modern UI experience and configuration capabilities than the old org chart available in Content Publishing application. Opt in to the Employee Profile for new org chart enhancements. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md).
 
 The Organization chart page displays the employees organization chart, the relationships to other employees, and more.
 
@@ -70,15 +71,15 @@ Information is dot-walked from the HR Profile \[sn\_hr\_core\_profile\] or User 
 
 2.  Change the scope to the application you are using.
 
-<table id="choicetable_o2w_fss_bbb"><thead><tr><th align="left" id="d261657e255">
+<table id="choicetable_o2w_fss_bbb"><thead><tr><th align="left" id="d245555e255">
 
 Field
 
-</th><th align="left" id="d261657e258">
+</th><th align="left" id="d245555e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d261657e264">
+</th></tr></thead><tbody><tr><td id="d245555e264">
 
 **Profile table**
 
@@ -91,7 +92,7 @@ The table you want to pull details from.-   HR profile \[sn\_hr\_core\_profile\]
 -   User \[sys\_user\]
  **Note:** Any tables that extend the HR profile or User tables also appear.
 
-</td></tr><tr><td id="d261657e290">
+</td></tr><tr><td id="d245555e290">
 
 **Show detail**
 
@@ -99,7 +100,7 @@ The table you want to pull details from.-   HR profile \[sn\_hr\_core\_profile\]
 
 Check to show the detail information on the org chart card.
 
-</td></tr><tr><td id="d261657e299">
+</td></tr><tr><td id="d245555e299">
 
 **Detail**
 
@@ -151,7 +152,7 @@ Audience
 
 </td><td>
 
-Audience record to apply to the user display configuration record.**Note:** Audiences define the conditions or criteria that a user must meet for the user display configuration to apply to them. See [Audiences](ecpro-audience.md) for more information.
+Audience record to apply to the user display configuration record.**Note:** Audiences define the conditions or criteria that a user must meet for the user display configuration to apply to them. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-audience.md) for more information.
 
 </td></tr><tr><td>
 

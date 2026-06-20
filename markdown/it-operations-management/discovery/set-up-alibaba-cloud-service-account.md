@@ -2,11 +2,12 @@
 title: Set up Alibaba Cloud service accounts
 description: Create Alibaba Cloud infrastructure service accounts on the ServiceNow AI Platform to access your Alibaba Cloud account during Alibaba Cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/set-up-alibaba-cloud-service-account.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Create Alibaba Cloud infrastructure service accounts on the ServiceNow AI Platfo
 
 ## Before you begin
 
-Verify that Alibaba Cloud API credentials have been created. For more information, see [Create Alibaba Cloud API Credentials](create-alibaba-cloud-api-credentials.md).
+Verify that Alibaba Cloud API credentials have been created. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 
 Retrieve the **Account ID**, which can be found under **Root Account** or **RAM User** in the Alibaba Cloud Console. For more information, see the [Alibaba Cloud documentation](https://www.alibabacloud.com/help/en).
 
@@ -45,5 +46,5 @@ Role required: discovery\_admin
 
 ## What to do next
 
-[Create a Discovery Schedule for Alibaba Cloud](create-alibaba-cloud-discovery-schedule.md).
+[Create a Discovery Schedule for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.md).
 

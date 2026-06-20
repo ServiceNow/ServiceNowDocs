@@ -2,6 +2,7 @@
 title: GRC Model State Transition Condition form
 description: Use the GRC Model State Transition Condition form to define the transition conditions to control how a compliance case or request traverses through the different workflow states by using the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/grc-model-state-transition-condition-form.html
 release: xanadu
 product: Compliance Case Management
 classification: compliance-case-management
@@ -102,5 +103,5 @@ Script
 Script to be defined for this state transition. This field appears only when **Transition Script** is selected from **Requires**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Define the model state transitions for a compliance case or request](../task/create-a-model-state-transition-for-compliance-case.md)
+</table>**Parent Topic:**[Define the model state transitions for a compliance case or request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/compliance-case-management/create-a-model-state-transition-for-compliance-case.md)
 

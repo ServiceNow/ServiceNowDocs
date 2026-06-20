@@ -2,6 +2,7 @@
 title: Fulfill a provider task
 description: As a provider, ship the asset requested through the Zero touch request flow to the requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/fulfill-provider-task-ztr.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -17,8 +18,8 @@ As a provider, ship the asset requested through the Zero touch request flow to t
 
 ## Before you begin
 
-1.  The Service Exchange configuration necessary for the Zero Touch Refresh flow must have been set up. For more details, see [Configure Service Exchange for the Zero Touch request flow](../concept/service-bridge-for-ztreq.md).
-2.  The Scratchpad must have been configured for the confirmation and shipment tasks involved in your request fulfillment flow. For more information, see [Use the Scratchpad to complete your request fulfillment tasks](../concept/using-scratchpad-for-provider-updates.md).
+1.  The Service Exchange configuration necessary for the Zero Touch Refresh flow must have been set up. For more details, see [Configure Service Exchange for the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/service-bridge-for-ztreq.md).
+2.  The Scratchpad must have been configured for the confirmation and shipment tasks involved in your request fulfillment flow. For more information, see [Use the Scratchpad to complete your request fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/using-scratchpad-for-provider-updates.md).
 
 Role required: Roles are provider-specific
 

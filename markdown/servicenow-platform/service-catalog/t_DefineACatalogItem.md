@@ -2,6 +2,7 @@
 title: Create or edit a catalog item
 description: Define individual catalog items using Service Catalog. You can create, edit, and copy catalog items.Catalog administrators can edit an item from the service catalog listing. Catalog managers and catalog editors can also edit an item if they are assigned to the item.Copy an item to create a full duplicate of the item, including the item details, attachments, variables, client scripts, and approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/t\_DefineACatalogItem.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the Catalog Item form, fill in the fields.
 
-    For more information about the fields and their descriptions on the Catalog Item form, see [Catalog Item form](../reference/catalog-item-form.md).
+    For more information about the fields and their descriptions on the Catalog Item form, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-item-form.md).
 
 4.  Click **Submit**.
 
@@ -35,16 +36,16 @@ Role required: admin
 ## What to do next
 
 -   Assign the item to additional catalogs and categories, if required.
--   Define [variables](../concept/c_ServiceCatalogVariables.md) for the item, if applicable.
--   To add attachments such as information and instruction documentation to the catalog item, see [Add an attachment](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+-   Define [variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md) for the item, if applicable.
+-   To add attachments such as information and instruction documentation to the catalog item, see Add an attachment.
 
 Read related topics:
 
--   [Create a service catalog variable](t_CreateAVariableForACatalogItem.md)
--   [Apply user criteria to items](t_AppUserCritItemsCat.md#)
--   [Set a recurring price](../concept/c_SetARecurringPrice.md)
+-   [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
+-   [Apply user criteria to items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/t_AppUserCritItemsCat.md)
+-   [Set a recurring price](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/c_SetARecurringPrice.md)
 
-**Parent Topic:**[Types of catalog items](../reference/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 
 ## Edit a catalog item
 

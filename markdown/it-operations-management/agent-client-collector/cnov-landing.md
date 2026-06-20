@@ -2,6 +2,7 @@
 title: Cloud Native Operations for Visibility
 description: Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed Agent Client Collector for Kubernetes – Visibility. The term Cloud Native Operations for Visibility has been deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/cnov-landing.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -15,7 +16,7 @@ breadcrumb: [Using Agent Client Collector for Visibility, Agent Client Collector
 
 Cloud Native Operations for Visibility \(CNO for Visibility\) has been renamed Agent Client Collector for Kubernetes – Visibility. The term Cloud Native Operations for Visibility has been deprecated.
 
-For the Agent Client Collector for Kubernetes – Visibility documentation, see [Agent Client Collector for Kubernetes – Visibility](../../agent-client-collector/concept/acc-kubernetes-visibility-landing-page.md).
+For the Agent Client Collector for Kubernetes – Visibility documentation, see [Agent Client Collector for Kubernetes – Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/acc-kubernetes-visibility-landing-page.md).
 
-**Parent Topic:**[Using Agent Client Collector for Visibility](../../agent-client-collector/concept/acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 

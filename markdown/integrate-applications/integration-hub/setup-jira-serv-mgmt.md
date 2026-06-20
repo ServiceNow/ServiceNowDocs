@@ -2,6 +2,7 @@
 title: Set up the Jira Service Management spoke
 description: Integrate the ServiceNow instance and Jira Service Management by using the Basic Auth credentials to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/setup-jira-serv-mgmt.html
 release: xanadu
 product: Integration Hub
 classification: integration-hub
@@ -43,7 +44,7 @@ Complete these steps from your Atlassian account. See the [Atlassian Developer](
 
 2.  Go to your account profile photo and select **Account Settings**.
 
-    ![Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.](../image/jira-basic-settings.png)
+    \[Omitted image "jira-basic-settings.png"\] Alt text: Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.
 
 3.  Go to **Security**.
 
@@ -55,13 +56,13 @@ Complete these steps from your Atlassian account. See the [Atlassian Developer](
 
 7.  Select **Create**.
 
-    ![The Create an API token modal with the Create button emphasized.](../image/jira-token.png)
+    \[Omitted image "jira-token.png"\] Alt text: The Create an API token modal with the Create button emphasized.
 
     The API token is generated.
 
 8.  Select **Copy** and record the value of the API token for later use.
 
-    ![Confirmation modal of Your new API token with the Copy button emphasized.](../image/jira-api-token.png)
+    \[Omitted image "jira-api-token.png"\] Alt text: Confirmation modal of Your new API token with the Copy button emphasized.
 
 
 ### What to do next
@@ -88,7 +89,7 @@ Role required: admin
 
 5.  Select **View Details**.
 
-    ![Jira Service Management alias.](../image/jira-sm-alias.png)
+    \[Omitted image "jira-sm-alias.png"\] Alt text: Jira Service Management alias.
 
 6.  Configure a cloud connection.
 
@@ -96,11 +97,11 @@ Role required: admin
 
         -   To set up an existing connection, select **Configure** or **Edit**.
 
-            ![Jira Service Management connection button.](../image/jira-sm-alias-configure.png)
+            \[Omitted image "jira-sm-alias-configure.png"\] Alt text: Jira Service Management connection button.
 
         -   To create and configure a new connection, select **Add Connection**.
 
-        **Note:** To support multiple connections through a spoke, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        **Note:** To support multiple connections through a spoke, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/support-multiple-connections.md).
 
     2.  On the configuration form, fill in the fields for a cloud connection.
 
@@ -142,10 +143,10 @@ Password
 
 </td><td>
 
-The API token generated in [Generate an Atlassian account API token](setup-jira-spk-opt2.md#).
+The API token generated in [Generate an Atlassian account API token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
 
 </td></tr></tbody>
-</table>        ![Jira Service Management connection form.](../image/jira-sm-connection-form.png)
+</table>        \[Omitted image "jira-sm-connection-form.png"\] Alt text: Jira Service Management connection form.
 
     3.  Confirm your configuration.
 

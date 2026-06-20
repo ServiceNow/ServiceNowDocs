@@ -2,7 +2,10 @@
 title: Use Emergency Exposure Management for Field Service agent monitoring and assignments
 description: Monitor the spread of infectious diseases by using Emergency Exposure Management to identify affected agents. You can also find agents and customers who might have been potentially exposed. You can view the compliance reports of agents and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/use-exposure-management-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,10 +16,10 @@ breadcrumb: [Using Field Service Management, Field Service Management]
 
 Monitor the spread of infectious diseases by using Emergency Exposure Management to identify affected agents. You can also find agents and customers who might have been potentially exposed. You can view the compliance reports of agents and tasks.
 
--   **[View an Emergency Exposure Management diagnostic report for an affected agent](../task/view-diagnostic-report.md)**  
+-   **[View an Emergency Exposure Management diagnostic report for an affected agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/view-diagnostic-report.md)**  
 View the diagnostic report to identify affected agents and potentially affected customers and agents.
--   **[Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report](../task/block-agent-calendar.md)**  
+-   **[Block the calendar of a field agent based on an Emergency Exposure Management diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/block-agent-calendar.md)**  
 Block the calendar of affected and potentially affected agents based on an Emergency Exposure Management diagnostic report.
 
-**Parent Topic:**[Using Field Service Management](use-fsm.md)
+**Parent Topic:**[Using Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/use-fsm.md)
 

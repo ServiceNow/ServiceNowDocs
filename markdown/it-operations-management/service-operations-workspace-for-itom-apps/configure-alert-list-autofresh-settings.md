@@ -2,11 +2,12 @@
 title: Configure auto-refresh settings for alert lists
 description: Set up auto-refresh settings for alert lists to ensure real-time updates and seamless monitoring. This enhances the accuracy and timeliness of the information displayed, enabling quicker response times and improving overall system reliability and performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-list-autofresh-settings.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---

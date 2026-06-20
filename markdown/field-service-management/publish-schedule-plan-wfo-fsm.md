@@ -2,7 +2,10 @@
 title: Publish a schedule plan for visibility into team coverage
 description: Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/publish-schedule-plan-wfo-fsm.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -38,12 +41,12 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon.](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon.\).
 
 3.  Generate a schedule preview.
 
     1.  Click the **Team Calendar** tab.
-    2.  Click the Show Schedules icon \(![Show Schedules icon.](../image/show-schedule-new.png)\) in the contextual side panel.
+    2.  Click the Show Schedules icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon.\) in the contextual side panel.
     The team calendar refreshes and generates the preview when you save a work shift.
 
 4.  Publish a schedule.
@@ -57,5 +60,5 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 All the schedules that are in Draft state move to the Published state. You can view the published schedule in the team calendar.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](../concept/scheduling-wfo-fsm.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/scheduling-wfo-fsm.md)
 

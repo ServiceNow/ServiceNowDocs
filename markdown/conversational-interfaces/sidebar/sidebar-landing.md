@@ -2,6 +2,7 @@
 title: Sidebar
 description: Sidebar enables agents to collaborate with others while working on a Workspace record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/sidebar/sidebar-landing.html
 release: xanadu
 product: Sidebar
 classification: sidebar
@@ -21,19 +22,19 @@ Getting started with Sidebar
 
 <table id="table_h2y_wyt_nwb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Sidebar concepts and features.](exploring-sidebar.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Sidebar concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/sidebar/exploring-sidebar.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure Sidebar and activate relevant plugins.](configure-sidebar.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure Sidebar and activate relevant plugins.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/sidebar/configure-sidebar.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-person.svg)Use Sidebar to help agents have discussions with others to solve issues faster.](../task/using-sidebar.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Use Sidebar to help agents have discussions with others to solve issues faster.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/sidebar/using-sidebar.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get Sidebar details for domain separation.](../reference/sidebar-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Sidebar details for domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/sidebar/sidebar-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

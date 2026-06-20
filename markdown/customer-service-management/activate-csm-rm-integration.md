@@ -2,7 +2,10 @@
 title: Activate Customer Service Management with Request Management
 description: Activate the CSM with Request Management plugin to use the integration with Request Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/activate-csm-rm-integration.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Activate the CSM with Request Management plugin to use the integration with Requ
 
 ## Before you begin
 
-Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with IT Service Management using Guided Setup](configure-csm-sm-integration.md).
+Instead of doing the configuration through this procedure, consider using guided setup. For more information, see [Integrate with IT Service Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/configure-csm-sm-integration.md).
 
 Role required: admin
 

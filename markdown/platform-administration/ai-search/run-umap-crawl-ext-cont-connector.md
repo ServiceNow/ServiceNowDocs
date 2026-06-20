@@ -2,6 +2,7 @@
 title: Run a one-time user mapping crawl for an external content connector
 description: Retrieve users and group access permissions from your external content connector's data source on demand. A user mapping crawl maps retrieved user and group permissions to your ServiceNow AI Platform users to facilitate content security in your AI Search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/run-umap-crawl-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -50,7 +51,7 @@ The one-time user mapping crawl task is added to the crawl queue and runs when t
 
 **Note:** To prevent excessive load on your instance, the External Content Connectors application only allows a maximum of five crawls to run simultaneously, no matter how many connectors you have created. Both content crawls and user permission crawls count against this limit. For best performance, run and schedule your external content connector crawls so that they don't overlap.
 
-You can monitor the one-time crawl's state and results from the Connector list, or examine the external content connector's crawl history or its user mappings to see more details. For instructions for viewing an external content connector's crawl history, see [Review crawl history and analytics for an external content connector](review-crawl-ext-cont-connector.md). To learn how to view an external content connector's user mappings, see [Review user mappings for an external content connector](review-usr-maps-ext-cont-connector.md).
+You can monitor the one-time crawl's state and results from the Connector list, or examine the external content connector's crawl history or its user mappings to see more details. For instructions for viewing an external content connector's crawl history, see [Review crawl history and analytics for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/review-crawl-ext-cont-connector.md). To learn how to view an external content connector's user mappings, see [Review user mappings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/review-usr-maps-ext-cont-connector.md).
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ext-cont-connectors.md)
 

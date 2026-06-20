@@ -2,6 +2,7 @@
 title: Submit new Invoice
 description: Supplier creates and submits an invoice requesting for payment from Accounts Payable Operations team. The invoices are of type PO-invoice or Non-PO invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/submit-new-invoice.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -25,15 +26,15 @@ Role required: Supplier
 
 2.  On the **Submit new invoice** form, enter the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d58490e77">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d58279e77">
 
 Question
 
-</th><th align="left" id="d58490e80">
+</th><th align="left" id="d58279e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58490e86">
+</th></tr></thead><tbody><tr><td id="d58279e86">
 
 **What type of invoice are you submitting?**
 
@@ -45,7 +46,7 @@ Invoice type- Choose the invoice type for processing from the drop-down list. Th
 
 -   If you select Invoice type as Non-PO, and upload an invoice copy with purchase order, DocIntel processes the invoice as a valid PO invoice.
 -   If you select Invoice type as PO invoice and enter purchase order number but Doc Intel is unable to extract the purchase order details, then the purchase order that you selected from the **Purchase order** drop-down list will be considered and processed.
-For more information on invoice case, see[Create New Invoice form](../reference/create-new-invoice-form.md).
+For more information on invoice case, see[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
@@ -55,5 +56,5 @@ For more information on invoice case, see[Create New Invoice form](../reference/
     Invoice is created.
 
 
-**Parent Topic:**[Working with Supplier Catalog](../concept/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

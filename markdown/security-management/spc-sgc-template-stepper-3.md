@@ -2,6 +2,7 @@
 title: Select a connector template
 description: Select a template to support your API's structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/spc-sgc-template-stepper-3.html
 release: xanadu
 topic_type: task
 last_updated: "2025-12-05"
@@ -31,9 +32,9 @@ Role required: sn\_sec\_spc\_core.developer
 
         HTTP method - Select **GET** or **POST**.
 
-        Pagination type - Select one. Select the information icon \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) to the right of the Pagination type list above the template cards for more information. Pagination strategies and sample requests and responses are also provided.
+        Pagination type - Select one. Select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) to the right of the Pagination type list above the template cards for more information. Pagination strategies and sample requests and responses are also provided.
 
-    2.  Select the information icon \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) on a card for more information about the template.
+    2.  Select the information icon \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) on a card for more information about the template.
 
     3.  To choose a template from the available results, select **Select**.
 
@@ -45,7 +46,7 @@ Role required: sn\_sec\_spc\_core.developer
     |---------------|-----------|
     |Response type|JSON is supported.|
     |HTTP method|**GET** or **POST** is displayed.|
-    |Pagination type|View the information \(![lower case letter i for more information](../../../reuse/icons/product-icons/circle-info-outline-24.svg)\) icon for more information on pagination strategies you select.|
+    |Pagination type|View the information \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: lower case letter i for more information\) icon for more information on pagination strategies you select.|
 
 3.  Select **Save and continue** to save your template.
 

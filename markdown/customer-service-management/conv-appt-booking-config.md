@@ -2,7 +2,10 @@
 title: Configure Conversational Appointment Booking
 description: Install and set up the Conversational Appointment Booking application to enable customers to book, reschedule, or cancel an appointment with a Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/conv-appt-booking-config.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 1.  Install the Conversational Appointment Booking application.
 
-    For more information, see [Install Conversational Appointment Booking](conv_appt_booking_install.md).
+    For more information, see [Install Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/conv_appt_booking_install.md).
 
 2.  Navigate to **Virtual Agent** &gt; **Designer**.
 
@@ -34,13 +37,13 @@ This procedure provides general steps to set up the Conversational Appointment B
     -   Schedule a Walk-up Appointment
     -   Reschedule a Walk-up Appointment
     -   Cancel a Walk-up Appointment
-    For more information, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    For more information, see Publish a Virtual Agent topic.
 
     These topics are read-only by default. To add custom controls.
 
-    [duplicate the topics](https://www.servicenow.com/docs/access?context=duplicate-virtual-agent-topic&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    duplicate the topics.
 
-    **Note:** Translation for custom controls is currently unavailable. You can manually add the translation in the ServiceNow® Walk-up Experience appointment booking application. See [Walk-up Experience appointment booking configuration](../concept/csm-walkup-appt-booking-config.md) for more information.
+    **Note:** Translation for custom controls is currently unavailable. You can manually add the translation in the ServiceNow® Walk-up Experience appointment booking application. See [Walk-up Experience appointment booking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/csm-walkup-appt-booking-config.md) for more information.
 
 4.  Confirm that the **Appointment Booking** custom control is published.
 
@@ -48,6 +51,6 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 6.  Test the topics.
 
-    See [Test Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-designer-testing&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US) for more information.
+    See Test Virtual Agent topics for more information.
 
 

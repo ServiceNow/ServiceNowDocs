@@ -2,6 +2,7 @@
 title: Enable the Business Portal
 description: Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/order-management-enable-business-portal.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: admin
 
 To set up the Business Portal and Sales Customer Relationship Management self-service enhancements, first install the Business Portal plugins, which are available in the app store.
 
-See [Configuring the Business Portal](../concept/order-management-configure-business-portal.md) for more information.
+See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/order-management-configure-business-portal.md) for more information.
 
 ## Procedure
 

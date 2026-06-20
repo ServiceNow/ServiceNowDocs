@@ -2,6 +2,7 @@
 title: Manage app requests from Creator Studio
 description: View and manage new app requests in App Engine Management Center \(AEMC\) that users with the Creator Studio Restricted role \(sn\_creator\_studio\_restricted\_user\) submit for apps they want to create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/app-engine-studio/manage-app-requests-creator-studio.html
 release: xanadu
 product: App Engine Studio
 classification: app-engine-studio
@@ -32,5 +33,5 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
     -   If the app is useful to your organization, approve the request.
     -   If you see issues with the app request, reject the request. If an app request is rejected, the original requestor must put in a new request for the app with changes for reconsideration.
 
-**Parent Topic:**[Managing requests using AEMC](../concept/manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-aemc-requests.md)
 

@@ -2,6 +2,7 @@
 title: Export a visualization from the Visualization Designer
 description: Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/export-visualization-vd.html
 release: xanadu
 topic_type: task
 last_updated: "2024-02-01"
@@ -32,9 +33,9 @@ Role required: You can export any visualization that you created or that was sha
 
 3.  Select the visualization that you want to export.
 
-4.  From the More actions menu \(![](../../dashboards/image/icon-vert-3dot-p.png)\), select **Export**.
+4.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Export**.
 
-    ![Export option in More actions menu](../image/paw-vd-export.png)
+    \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 
     The Export Visualization dialog opens.
 
@@ -81,8 +82,8 @@ Choose Portrait or Landscape. You cannot select the orientation for Pivot tables
         **Note:** To send email to persons who are not on your instance, you need to have outbound email configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration) in the Developer Site.
 
 
--   **[Schedule data visualization export](schedule-visn-export-vd.md)**  
+-   **[Schedule data visualization export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/schedule-visn-export-vd.md)**  
 Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

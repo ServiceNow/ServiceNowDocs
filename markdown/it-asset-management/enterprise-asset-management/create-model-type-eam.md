@@ -2,6 +2,7 @@
 title: Create custom enterprise model type
 description: If you have an enterprise model type that isn't represented in the Enterprise Asset Management Content Service yet, you can create a custom model type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/enterprise-asset-management/create-model-type-eam.html
 release: xanadu
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -41,5 +42,5 @@ Role required: sn\_eam.enterprise\_admin
     After the model type is created, normalize the model type.
 
 
-**Parent Topic:**[Normalizing enterprise models](../concept/normalizing-enterprise-models.md)
+**Parent Topic:**[Normalizing enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/enterprise-asset-management/normalizing-enterprise-models.md)
 

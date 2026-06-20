@@ -2,6 +2,7 @@
 title: Edit and publish a team request form for SRM
 description: Edit a team request form to customize team requests to your organization's preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-edit-team-request-form.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,14 +32,14 @@ Role required: admin
 
 4.  Edit the form as appropriate and follow the catalog instructions to publish.
 
-    For detailed information to edit a catalog item, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and follow the procedures there.
+    For detailed information to edit a catalog item, see  and follow the procedures there.
 
     **Note:** Make sure to **Submit**. Until you submit the item, it is in the **Draft** state and is not available in the catalog.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Import teams to Service Reliability Management](sr-import-teams.md)
+**Previous topic:**[Import teams to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-import-teams.md)
 
-**Next topic:**[Configure error budget actions when an SRM SLO is breached](sr-configure-error-budget.md)
+**Next topic:**[Configure error budget actions when an SRM SLO is breached](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-configure-error-budget.md)
 

@@ -2,6 +2,7 @@
 title: Quick start tests for Service Portfolio Management Premium
 description: Validate that Service Portfolio Management Premium still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/quick-start-tests-SPM-Premium.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -313,5 +314,5 @@ Paris
 </table>**Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 

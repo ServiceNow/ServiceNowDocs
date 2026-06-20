@@ -2,7 +2,10 @@
 title: View sold product information in CSM Configurable Workspace
 description: Enable customer service agents or managers to view the sold products and the service offerings associated to the sold product for an account or consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/view-sold-product-info-workspace.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

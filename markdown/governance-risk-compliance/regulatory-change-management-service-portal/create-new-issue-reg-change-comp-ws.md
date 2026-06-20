@@ -2,6 +2,7 @@
 title: Create New Issue form
 description: Use the Create New Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/regulatory-change-management-service-portal/create-new-issue-reg-change-comp-ws.html
 release: xanadu
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

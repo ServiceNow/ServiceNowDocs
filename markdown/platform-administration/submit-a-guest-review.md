@@ -2,6 +2,7 @@
 title: Submit a guest review
 description: Submit a guest review to leave feedback on an app or integration if you don't have a ServiceNow Store account or want to leave an anonymous review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/submit-a-guest-review.html
 release: xanadu
 topic_type: task
 last_updated: "2025-07-31"
@@ -38,7 +39,7 @@ The ability to review apps is not currently available to federal customers.
 
 5.  On the guest review form, fill in the fields.
 
-    For a description of the field values, see [Guest review form fields](../reference/guest-review-form-fields.md).
+    For a description of the field values, see [Guest review form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/guest-review-form-fields.md).
 
 6.  Select **Submit**.
 
@@ -51,5 +52,5 @@ The ability to review apps is not currently available to federal customers.
 
 The name, company, comment, and rating that you entered into the Guest review form are visible in the review posted to the app listing details.
 
-**Parent Topic:**[Reviewing apps](../concept/reviewing-apps.md)
+**Parent Topic:**[Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/reviewing-apps.md)
 

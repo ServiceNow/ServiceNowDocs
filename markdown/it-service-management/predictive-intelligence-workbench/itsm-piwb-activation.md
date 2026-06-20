@@ -2,6 +2,7 @@
 title: Activate ITSM Predictive Intelligence Workbench
 description: ITSM Predictive Intelligence Workbench is available with activation of the core Predictive Intelligence Workbench \(com.sn\_piwb\_ml\) plugin and the Predictive Intelligence Workbench ITSM content \(com.sn\_piwb\_itsm\_content\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-activation.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -23,11 +24,11 @@ Role required: admin
 
 **Important:**
 
-Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+Starting with the Xanadu release, ITSM Predictive Intelligence Workbench is being prepared for future deprecation. It will be completed deprecated and will no longer be supported from the **Yokohama** release. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\) plugin. For more information, see [Task Intelligence for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/task-intelligence-for-itsm/c-itsm-task-intelligence.md)
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-The ITSM Predictive Intelligence Workbench -related plugins require activation of the Predictive Intelligence application. Predictive Intelligence is available with activation of the Predictive Intelligence \(com.glide.platform\_ml\) plugin and the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin, which require an ITSM Pro package subscription. For more details, refer to [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+The ITSM Predictive Intelligence Workbench -related plugins require activation of the Predictive Intelligence application. Predictive Intelligence is available with activation of the Predictive Intelligence \(com.glide.platform\_ml\) plugin and the Predictive Intelligence Reports \(com.glide.platform\_ml\_pa\) plugin, which require an ITSM Pro package subscription. For more details, refer to .
 
 ## Procedure
 
@@ -41,6 +42,6 @@ The ITSM Predictive Intelligence Workbench -related plugins require activation o
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

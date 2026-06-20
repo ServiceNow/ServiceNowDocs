@@ -2,6 +2,7 @@
 title: Run an Agent Client Collector Security Incident Response OSQuery
 description: Run an OSQuery on a machine referenced by an incident to retrieve information on each incident's CI. For example, if you run a select \* from system\_info query on an incident, the query gathers all information from the OSQuery system\_info table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-run-os-query.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -33,12 +34,12 @@ Role required: sn\_si.admin or sn\_si.basic
 
 5.  Select the name of the query you want to run.
 
-    The available queries are those configured on the ACC Integration OSQuery page, as described in [Create an Agent Client Collector Security Incident Response OSQuery](acc-create-os-query.md). Options are selectable according to their Name value.
+    The available queries are those configured on the ACC Integration OSQuery page, as described in [Create an Agent Client Collector Security Incident Response OSQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-create-os-query.md). Options are selectable according to their Name value.
 
 6.  Select **Submit**.
 
     The query runs on each of the selected security incident's CIs.
 
 
-**Parent Topic:**[Agent Client Collector Security Incident Response](../concept/acc-security-incident-response.md)
+**Parent Topic:**[Agent Client Collector Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/agent-client-collector/acc-security-incident-response.md)
 

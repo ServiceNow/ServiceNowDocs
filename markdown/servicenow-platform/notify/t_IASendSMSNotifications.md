@@ -2,6 +2,7 @@
 title: Send communication updates for an incident communications plan
 description: Update users on the latest communication on an incident through selected communication channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/notify/t\_IASendSMSNotifications.html
 release: xanadu
 product: Notify
 classification: notify
@@ -38,10 +39,10 @@ Update users on the latest communication on an incident through selected communi
 6.  Click **Send**.
 
 
-**Parent Topic:**[Using Notify with Incident Communications Management](../concept/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 
 **Related topics**  
 
 
-[Incident Communications Management](https://www.servicenow.com/docs/access?context=c_IncidentAlertManagement&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_IncidentAlertManagement]
 

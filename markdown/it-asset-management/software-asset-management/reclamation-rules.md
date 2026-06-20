@@ -2,11 +2,12 @@
 title: Reclamation rules
 description: Reclamation rules define the minimum amount of time for which a subscription must be used. If the subscription doesn't have any activity within a specified time limit, it's added to the list of reclamation candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/reclamation-rules.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 7
 breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
 ---
@@ -27,7 +28,7 @@ Activity
 
 </th></tr></thead><tbody><tr><td>
 
-[Adobe Cloud](../concept/adobe-cloud-integration.md)
+[Adobe Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/adobe-cloud-integration.md)
 
 </td><td>
 
@@ -35,7 +36,7 @@ Any user activity
 
 </td></tr><tr><td>
 
-[Aha!](../concept/integrate-with-aha.md#)
+[Aha!](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-aha.md)
 
 </td><td>
 
@@ -43,7 +44,7 @@ User login**Note:** The analysis period is 60 days.
 
 </td></tr><tr><td>
 
-[Asana](../concept/integrate-with-asana.md#)
+[Asana](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-asana.md)
 
 </td><td>
 
@@ -58,7 +59,7 @@ User login**Note:** The analysis period is 60 days.
 
 </td></tr><tr><td>
 
-[Box](../concept/integrate-with-box.md#)
+[Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-box.md)
 
 </td><td>
 
@@ -67,7 +68,7 @@ User login**Note:** The analysis period is 60 days.
 
 </td></tr><tr><td>
 
-[Calendly](../concept/integrate-with-calendly.md#)
+[Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-calendly.md)
 
 </td><td>
 
@@ -75,7 +76,7 @@ Schedule an event
 
 </td></tr><tr><td>
 
-[Confluence Cloud](../concept/integrate-with-confluence-cloud.md#)
+[Confluence Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md)
 
 </td><td>
 
@@ -91,7 +92,7 @@ Subscription assigned date
 
 </td></tr><tr><td>
 
-[Dropbox](../concept/integrate-with-dropbox.md#)
+[Dropbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-dropbox.md)
 
 </td><td>
 
@@ -100,7 +101,7 @@ Subscription assigned date
 
 </td></tr><tr><td>
 
-[Google Workspace](../concept/integrate-with-gsuite.md#)
+[Google Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-gsuite.md)
 
 </td><td>
 
@@ -115,7 +116,7 @@ Any email activity, such as read, create, edit, send, or delete
 
 </td></tr><tr><td>
 
-[GitHub](../concept/integrate-with-github.md)
+[GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-github.md)
 
 </td><td>
 
@@ -137,7 +138,7 @@ Any email activity, such as read, create, edit, send, or delete
 
 </td></tr><tr><td>
 
-[GoTo](../concept/integrate-with-goto.md#)
+[GoTo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-goto.md)
 
 </td><td>
 
@@ -156,7 +157,7 @@ Make a call using a GoToConnect line
 
 </td></tr><tr><td>
 
-[Jira Software](../concept/integrate-with-jira.md#)
+[Jira Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md)
 
 </td><td>
 
@@ -174,7 +175,7 @@ Make a call using a GoToConnect line
 
 </td></tr><tr><td>
 
-[Looker](../concept/integrate-with-looker.md#)
+[Looker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-looker.md)
 
 </td><td>
 
@@ -182,7 +183,7 @@ User's last login
 
 </td></tr><tr><td>
 
-[Microsoft 365](../concept/integrate-with-microsoft.md#)
+[Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-with-microsoft.md)
 
 </td><td>
 
@@ -190,7 +191,7 @@ Any user activity
 
 </td></tr><tr><td>
 
-[Microsoft Dynamics 365 and Power Apps](../concept/integrating-with-microsoft365.md#)
+[Microsoft Dynamics 365 and Power Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrating-with-microsoft365.md)
 
 </td><td>
 
@@ -226,7 +227,7 @@ Create or update the following records in Dynamics 365:-   Common entities
 
 </td></tr><tr><td>
 
-[Miro](../concept/integrate-with-miro-enterprise.md#)
+[Miro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md)
 
 </td><td>
 
@@ -234,7 +235,7 @@ Access or update a board
 
 </td></tr><tr><td>
 
-[monday.com](../concept/integrate-with-monday.md#)
+[monday.com](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-monday.md)
 
 </td><td>
 
@@ -244,7 +245,7 @@ Access or update a board
 
 </td></tr><tr><td>
 
-[PagerDuty](../concept/integrate-with-pagerduty.md#)
+[PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-pagerduty.md)
 
 </td><td>
 
@@ -252,7 +253,7 @@ Be on an on-call schedule
 
 </td></tr><tr><td>
 
-[Rally](../concept/integrate-with-rally.md#)
+[Rally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-rally.md)
 
 </td><td>
 
@@ -261,7 +262,7 @@ Be on an on-call schedule
 
 </td></tr><tr><td>
 
-[Roadmunk](../concept/integrate-with-roadmunk.md#)
+[Roadmunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-roadmunk.md)
 
 </td><td>
 
@@ -272,8 +273,8 @@ Be on an on-call schedule
 
 </td></tr><tr><td>
 
--   [Salesforce CRM](../concept/integrate-with-salesforce-crm.md#)
--   [Salesforce Marketing Cloud](../concept/integrate-with-salesforce-marketing-cloud.md)
+-   [Salesforce CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md)
+-   [Salesforce Marketing Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-salesforce-marketing-cloud.md)
 
 </td><td>
 
@@ -281,7 +282,7 @@ Last activity
 
 </td></tr><tr><td>
 
-[SAP SuccessFactors](../concept/integrate-with-successfactors.md#)
+[SAP SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-successfactors.md)
 
 </td><td>
 
@@ -289,7 +290,7 @@ User login
 
 </td></tr><tr><td>
 
-[Slack Enterprise](../concept/integrate-with-slack.md#)
+[Slack Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-slack.md)
 
 </td><td>
 
@@ -297,7 +298,7 @@ User login
 
 </td></tr><tr><td>
 
-[SmartRecruiters](../concept/integrate-with-smartrecruiters.md#)
+[SmartRecruiters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-smartrecruiters.md)
 
 </td><td>
 
@@ -305,7 +306,7 @@ Any user activity, such as create a job or a job ad.
 
 </td></tr><tr><td>
 
-[Smartsheet](../concept/integrate-with-smartsheet.md#)
+[Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-smartsheet.md)
 
 </td><td>
 
@@ -313,7 +314,7 @@ User's last activityFor the list of activities, see [Event Reporting Reference](
 
 </td></tr><tr><td>
 
-[SurveyMonkey](../concept/integrate-with-surveymonkey.md#)
+[SurveyMonkey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-surveymonkey.md)
 
 </td><td>
 
@@ -332,7 +333,7 @@ User's last activityFor the list of activities, see [Event Reporting Reference](
 
 </td></tr><tr><td>
 
-[Tableau Cloud](../concept/integrate-with-tableau-cloud.md#)
+[Tableau Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md)
 
 </td><td>
 
@@ -340,7 +341,7 @@ User login
 
 </td></tr><tr><td>
 
-[Trello](../concept/integrate-with-trello.md#)
+[Trello](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-trello.md)
 
 </td><td>
 
@@ -348,7 +349,7 @@ User login**Note:** The analysis period is 60 days.
 
 </td></tr><tr><td>
 
-[Webex](../concept/integrate-with-webex-apps.md#)
+[Webex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-webex-apps.md)
 
 </td><td>
 
@@ -375,7 +376,7 @@ Host a meeting
 
 </td></tr><tr><td>
 
-[Workfront](../concept/integrate-with-workfront.md#)
+[Workfront](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-workfront.md)
 
 </td><td>
 
@@ -405,7 +406,7 @@ Workplace from Facebook
 
 </td></tr><tr><td>
 
-[Zendesk](../concept/integrate-with-zendesk.md#)
+[Zendesk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-zendesk.md)
 
 </td><td>
 
@@ -413,7 +414,7 @@ User login
 
 </td></tr><tr><td>
 
-[Zoom](../concept/integrate-with-zoom.md#)
+[Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-zoom.md)
 
 </td><td>
 
@@ -422,5 +423,5 @@ User login
 -   Last activity
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/references.md)
 

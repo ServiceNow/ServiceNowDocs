@@ -2,6 +2,7 @@
 title: Create a table index
 description: Build indexes to access the data held in your tables more easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/table-administration-and-data-management/t\_CreateCustomIndex.html
 release: xanadu
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d227593e60">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d155096e60">
 
 Option
 
-</th><th align="left" id="d227593e63">
+</th><th align="left" id="d155096e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d227593e69">
+</th></tr></thead><tbody><tr><td id="d155096e69">
 
 **Tables &amp; Columns module**
 
@@ -48,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d227593e102">
+</td></tr><tr><td id="d155096e102">
 
 **Database Indexes related list**
 
@@ -72,5 +73,5 @@ Steps
     The **Table Name** field is there for your reference only. Overriding the default has no effect.
 
 
-**Parent Topic:**[Managing tables and indexes](../concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

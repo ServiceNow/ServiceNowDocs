@@ -2,6 +2,7 @@
 title: Installed with Asset Management
 description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/r\_InstalledWithAssetManagement.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -233,7 +234,7 @@ sam
 </td><td>
 
 -   Create, edit, change, and manage software licenses.
--   Edit the Software model field on a [Discovery models and software installations](https://www.servicenow.com/docs/access?context=c_DiscoveryModels&version=xanadu&pubname=xanadu-it-asset-management&ft:locale=en-US).
+-   Edit the Software model field on a Discovery models and software installations.
 -   Approve a model. Has full control of the Software Asset Management application.
 -   Controls the Software Asset Management IBM PVU Process Pack, if activated.
 
@@ -1164,5 +1165,5 @@ Default Stockroom \[alm\_user\_stockroom\]
 Verifies that the selected default stockroom isn’t of the Field Agent type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Asset Management](../concept/c_AssetManagement.md)
+</table>**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 

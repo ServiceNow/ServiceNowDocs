@@ -2,6 +2,7 @@
 title: Example Asset Management process
 description: The best method for managing assets depends on business needs and how your business is organized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/t\_AssetManagementProcess.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -48,5 +49,5 @@ These steps are one possible process for getting started with Asset Management.
 6.  Manage assets by counting software licenses, viewing assets that are in stock, setting asset states and substates, and analyzing unallocated software.
 
 
-**Parent Topic:**[Hardware Asset Management reference](../../hardware-asset-management/concept/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

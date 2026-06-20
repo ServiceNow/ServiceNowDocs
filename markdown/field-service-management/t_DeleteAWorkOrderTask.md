@@ -2,7 +2,10 @@
 title: Delete a work order task
 description: Work order tasks can be deleted by users with the wm\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_DeleteAWorkOrderTask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -30,5 +33,5 @@ A task cannot be deleted if it has a part requirement with a transfer order. To 
 3.  Select **Delete** from the **Actions** choice list.
 
 
-**Parent Topic:**[Managing work order tasks](../concept/c_WorkOrderTasks.md)
+**Parent Topic:**[Managing work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_WorkOrderTasks.md)
 

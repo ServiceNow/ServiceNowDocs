@@ -2,6 +2,7 @@
 title: Configure list editor properties
 description: Configure list editor properties that control whether lists can be edited and, in List v2, which field types cannot be edited.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_ConfigureListEditorProperties.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -53,5 +54,5 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[List editor administration](../reference/r_AdministeringTheListEditor.md)
+**Parent Topic:**[List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_AdministeringTheListEditor.md)
 

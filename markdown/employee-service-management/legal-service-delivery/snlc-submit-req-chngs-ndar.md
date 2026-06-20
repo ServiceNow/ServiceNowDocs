@@ -2,6 +2,7 @@
 title: Review a contract document in Employee Center
 description: As a contract user, review a contract document and submit a change request to the contract fulfiller if changes are required in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/snlc-submit-req-chngs-ndar.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -29,15 +30,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d139249e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d95249e71">
 
 Method
 
-</th><th align="left" id="d139249e74">
+</th><th align="left" id="d95249e74">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d139249e80">
+</th></tr></thead><tbody><tr><td id="d95249e80">
 
 **__Employee Center__**
 
@@ -48,14 +49,14 @@ Actions
 3.  Open your non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d139249e113">
+</td></tr><tr><td id="d95249e113">
 
 **__Legal Service Portal__**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **View all requests**.
 4.  Open your non-disclosure agreement request.
 
@@ -65,15 +66,15 @@ Actions
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d139249e176">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d95249e176">
 
 Location
 
-</th><th align="left" id="d139249e179">
+</th><th align="left" id="d95249e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d139249e185">
+</th></tr></thead><tbody><tr><td id="d95249e185">
 
 **From internal storage**
 
@@ -84,7 +85,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d139249e212">
+</td></tr><tr><td id="d95249e212">
 
 **From external storage**
 
@@ -95,23 +96,23 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d139249e235">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d95249e235">
 
 Review result
 
-</th><th align="left" id="d139249e238">
+</th><th align="left" id="d95249e238">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d139249e244">
+</th></tr></thead><tbody><tr><td id="d95249e244">
 
 **No change is required**
 
 </td><td>
 
-Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](snlc-send-doc-sign-nda.md).
+Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d139249e262">
+</td></tr><tr><td id="d95249e262">
 
 **Changes are required**
 
@@ -132,5 +133,5 @@ The change request is submitted for the contract document. The change request de
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing and finalizing a self-serve contract document](snlc-review-finalize-contract.md)
+**Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-service-delivery/snlc-review-finalize-contract.md)
 

@@ -2,7 +2,10 @@
 title: Cancel a work order task
 description: The Cancel Task option is appropriate if a work order task is no longer necessary or is a duplicate of another work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CancelAWorkOrderTask.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -52,12 +55,12 @@ Work order tasks can be canceled by users with these roles:
 
     An error message appears if text is not entered into the **Work Notes** field.
 
-    For traceability, auditing, and possible [deletion](t_DeleteAWorkOrder.md), field service administrators need to know the reason why a work order or work order task was canceled.
+    For traceability, auditing, and possible [deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/t_DeleteAWorkOrder.md), field service administrators need to know the reason why a work order or work order task was canceled.
 
 
 ## Result
 
 The customer receives an SMS and email notification that the work order task is canceled.
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ExecuteWorkOrderTasks.md)
 

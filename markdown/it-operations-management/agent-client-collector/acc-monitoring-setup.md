@@ -2,6 +2,7 @@
 title: Enable Agent Client Collector monitoring on the MID Server
 description: Enable Agent Client Collector monitoring on the MID Server by configuring the Agent Client Collector framework \(ACC-F\) and Metric Intelligence extensions in a single action. Enabling Agent Client Collector monitoring also enables monitoring on agents connected to the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-monitoring-setup.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector

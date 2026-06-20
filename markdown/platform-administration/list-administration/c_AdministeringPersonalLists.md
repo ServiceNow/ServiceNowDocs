@@ -2,6 +2,7 @@
 title: Personal list administration
 description: Users can customize the layout for any list view by personalizing a list. Administrators can configure options related to list personalization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/c\_AdministeringPersonalLists.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -17,12 +18,12 @@ Users can customize the layout for any list view by personalizing a list. Admini
 
 In List v2, administrators can also disable or restrict access to list personalization. This functionality is not supported in List v3.
 
--   **[Enable or disable personal lists](../task/t_ActivatingTheListMechanic.md)**  
+-   **[Enable or disable personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_ActivatingTheListMechanic.md)**  
 You can enable or disable personal lists through the UI Macros module.
--   **[Control which roles can personalize lists](../task/t_ControlAccessToTheListMechanic.md)**  
+-   **[Control which roles can personalize lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_ControlAccessToTheListMechanic.md)**  
 You can control who can create personal lists.
--   **[Manage personal lists](../task/t_ManagingPersonalLists.md)**  
+-   **[Manage personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_ManagingPersonalLists.md)**  
 Administrators can manage personal lists.
 
-**Parent Topic:**[List administration](../../core-configuration/concept/p_ListAdministration.md)
+**Parent Topic:**[List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/p_ListAdministration.md)
 

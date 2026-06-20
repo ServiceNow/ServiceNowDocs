@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Financial Services Operations \(FSO\)
 description: Get a quick overview of the important information that is related to the Now Assist for Financial Services Operations \(FSO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.html
 release: xanadu
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -48,7 +49,7 @@ Activate the applications in the following order:
 2.  Financial Services Operations Core \(sn\_bom\)
 3.  Now Assist for FSO \(sn\_fso\_gen\_ai\)
 
-For more information, see [Configuring Now Assist for Financial Services Operations \(FSO\)](../task/configure-now-assist-for-fso.md).
+For more information, see [Configuring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-now-assist-for-fso.md).
 
-**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](now-assist-for-fso-reference.md)
+**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-fso-reference.md)
 

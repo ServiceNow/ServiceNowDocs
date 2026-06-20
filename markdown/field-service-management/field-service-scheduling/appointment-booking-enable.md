@@ -2,6 +2,7 @@
 title: Enable or disable appointment booking
 description: Enable or disable the appointment booking feature for an application as well as for services within the application that are provided to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/appointment-booking-enable.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -40,5 +41,5 @@ Role required: admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

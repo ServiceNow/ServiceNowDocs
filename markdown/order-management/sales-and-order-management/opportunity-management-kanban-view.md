@@ -2,6 +2,7 @@
 title: Track opportunities using the Kanban view
 description: Personalize and manage the opportunities information that is most relevant to you and your stakeholders using the Kanban view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/opportunity-management-kanban-view.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -28,15 +29,15 @@ A Kanban view is a visual representation of your data that enables users to drag
 
 The Kanban view as part of Opportunity Management in Sales Customer Relationship Management.
 
-![The image shows the Kanban view in Opportunity Management](../image/l2c-opportunity-kanban-view.png)
+\[Omitted image "l2c-opportunity-kanban-view.png"\] Alt text: The image shows the Kanban view in Opportunity Management
 
 ## Procedure
 
-1.  Navigate to the **List** view ![](../image/Lists.png) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: and select **Opportunity - All**.
 
 2.  Select the **View Kanban** button.
 
     -   To change an opportunity state, drag the opportunity card from one state and drop it into another state.
     -   To view the opportunities of different sales type, use the Filter by option on the page.
-    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](create-new-opportunity.md).
+    -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-new-opportunity.md).
 

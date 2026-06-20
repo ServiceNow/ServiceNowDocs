@@ -2,12 +2,13 @@
 title: Enhanced chat in Employee Center
 description: Learn more about the theme updates and how to get started with Now Assist enhanced chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Understanding Employee Center plugins, Configure, Employee Center, Employee Service Management]
 ---
 
@@ -25,7 +26,7 @@ You can see a new theme that is visually-engaging, effective, and user-friendly 
 
 This theme provides a more functional and clean design that is visually appealing to users. This theme aligns with the new sets components, a new color scheme, logo update, and CSS variable adjustments.
 
-![EC Home page and nava enhanced chat](../images/nass-owassist-ec-homepage.png "Employee Center theme")
+\[Omitted image "nass-owassist-ec-homepage.png"\] Alt text: EC Home page and nava enhanced chat
 
 ## Enhanced header
 
@@ -39,7 +40,7 @@ To get started with the Now Assist in Virtual Agent enhanced chat:
 -   Ensure that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin.
 -   Select Employee Center from the Portals tab and select the enhanced chat.
 
-    For more information, see [Display your assistant on a portal or channel](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+    For more information, see .
 
 
 **Important:** Pinning chat windows can create responsiveness issues on the following screen resolutions and pixel range.
@@ -53,14 +54,14 @@ Ensure you avoid pinning the chat window and resizing on these screen resolution
 
 Want to learn more? Visit these resources about Now Assist in Virtual Agent enhanced chat.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see .
 
--   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Portal prerequisites for enhanced chat](https://www.servicenow.com/docs/access?context=prerequisites-enhanced-chat&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Configuring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
--   [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)
+-   
+-   
+-   
+-   
+-   
+-   
 
-**Parent Topic:**[Understanding Employee Center plugins](install-plugins.md)
+**Parent Topic:**[Understanding Employee Center plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/install-plugins.md)
 

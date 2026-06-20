@@ -2,13 +2,14 @@
 title: About Security Control Lists in TISC
 description: Security Control Lists \(SCLs\) are predefined classification list that helps the Threat Intelligence Analysts determine how observables should be treated within the application and across security tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/tisc-admin-security-lists.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2025-10-29"
 reading_time_minutes: 1
-breadcrumb: [Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # About Security Control Lists in TISC

@@ -2,6 +2,7 @@
 title: Cost Management Demo Data
 description: The demo data available with Cost Management provides samples of the data types to illustrate its use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/cost-management/c\_CostManagementDemoData.html
 release: xanadu
 product: Cost Management
 classification: cost-management
@@ -21,7 +22,7 @@ Demo data should be loaded only in a development or test instance to prevent con
 
 The Cost Overview module has a number of commonly requested reports.
 
-![Business Service Overview](../image/FMBsOverview.jpg.png "Business Service Overview")
+\[Omitted image "FMBsOverview.jpg.png"\] Alt text: Business Service Overview
 
 ## Business Service Overview
 
@@ -29,7 +30,7 @@ The business service owner would like to know how much it costs to maintain the 
 
 The demo data contains a number of services that have costs from their dependent CIs. In the **Cost Overview** homepage, the **Business Service Cost 12 Month** report shows an overview of this information:
 
-![Cost Report](../image/FmBsCostGauge.jpg "Cost Report")
+\[Omitted image "FmBsCostGauge.jpg"\] Alt text: Cost Report
 
 ## Allocation Overview
 
@@ -37,13 +38,13 @@ Expense allocation rules costs allow you to allocate costs to one or more busine
 
 The following diagram shows the distribution of expenses to cost centers.
 
-![Report example](../image/FmExpAllocGauge.jpg "Report example")
+\[Omitted image "FmExpAllocGauge.jpg"\] Alt text: Report example
 
 ## Budget Overview
 
 The amount of money allocated to cost centers can be tracked against a planned budget. A budget represents a collection of cost centers, a duration, and the amount of money that is expected to be allocated to the cost centers during that period. The administration budget contains three cost centers and has incurred $173,610.83 so far during this period.
 
-![Budget Demo](../image/FmBudgetDemo.jpg "Budget Demo")
+\[Omitted image "FmBudgetDemo.jpg"\] Alt text: Budget Demo
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/cost-management/r_CostManagement.md)
 

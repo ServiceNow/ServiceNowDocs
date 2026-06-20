@@ -2,6 +2,7 @@
 title: Credential Management in RPA Hub
 description: Streamline the credentials that robots use to perform the automation that you defined in the bot process. Instead of creating the same set of credentials for each bot process, you can create a credential group that includes a robot credential, application credentials, and external credentials. You can then associate the credential group to multiple bot processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/credential-management-rpa-hub.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -30,7 +31,7 @@ With credential management, you can do the following tasks:
 
 ## Robot credentials
 
-By creating robot credentials, you can enable robots to log in to a Windows machine and perform the automation. For more information, see [Create a robot credential in RPA Hub](../task/create-credential-set-botprocess.md).
+By creating robot credentials, you can enable robots to log in to a Windows machine and perform the automation. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-set-botprocess.md).
 
 In the following table, learn what users with different roles can do or can't do.
 
@@ -99,7 +100,7 @@ Can't create, update, or delete the robot credentials.
 </td></tr></tbody>
 </table>## Application credentials
 
-By creating application credentials, you can add the user name and password that the robot can use to log in to a specific application at the time of the automation execution. For more information, see [Create an application credential in RPA Hub](../task/create-application-credential.md).
+By creating application credentials, you can add the user name and password that the robot can use to log in to a specific application at the time of the automation execution. For more information, see [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-application-credential.md).
 
 In the following table, learn what users with different roles can do or can't do.
 
@@ -183,7 +184,7 @@ Can't create, update, or delete the robot credentials.
 
 By setting up Time-based One-time Password \(TOTP\) seeds, you can enable the unattended robots to authenticate seamlessly against multi-factor authentication \(MFA\)-enabled applications. MFA-enabled applications provide additional security for users and their accounts.
 
-You can't edit a TOTP authenticator record. If changes are required to an existing TOTP authenticator record, you must retire an existing record and then create a TOTP authenticator record. For more information, see [TOTP authentication in RPA Hub](totp-authentication-rpa.md) and [Create a TOTP authenticator in RPA Hub](../task/map-totp-credential-set-rpa.md).
+You can't edit a TOTP authenticator record. If changes are required to an existing TOTP authenticator record, you must retire an existing record and then create a TOTP authenticator record. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/totp-authentication-rpa.md) and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/map-totp-credential-set-rpa.md).
 
 In the following table, learn what users with different roles can do or can't do.
 
@@ -239,7 +240,7 @@ Can't create, update, or delete the TOTP authenticators.
 </td></tr></tbody>
 </table>## Credential groups
 
-By configuring the credential groups, you can map the application credentials and a robot credential to one or more bot processes. For more information, see [Create a credential group in RPA Hub](../task/create-credential-group.md#).
+By configuring the credential groups, you can map the application credentials and a robot credential to one or more bot processes. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-credential-group.md).
 
 In the following table, learn what users with different roles can do or can't do.
 
@@ -308,7 +309,7 @@ Can't create, update, or delete the credential groups.
 </td></tr></tbody>
 </table>## External credential vault
 
-By configuring an external credential vault, you can retrieve a robot credential, application credentials, or Time-based One-time Password \(TOTP\) seed from an external source instead of a ServiceNow credentials record. For more information, see [External credential vault in RPA Hub](external-credentials-rpa.md) and [Create an external credential vault record in RPA Hub](../task/create-ext-cred-rpa.md).
+By configuring an external credential vault, you can retrieve a robot credential, application credentials, or Time-based One-time Password \(TOTP\) seed from an external source instead of a ServiceNow credentials record. For more information, see [External credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/external-credentials-rpa.md) and [Create an external credential vault record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/create-ext-cred-rpa.md).
 
 In the following table, learn what users with different roles can do or can't do.
 

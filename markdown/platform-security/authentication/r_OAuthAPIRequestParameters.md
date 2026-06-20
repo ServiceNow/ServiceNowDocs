@@ -2,6 +2,7 @@
 title: OAuth API request parameters
 description: Learn about the OAuth API request parameters that access token requests use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/r\_OAuthAPIRequestParameters.html
 release: xanadu
 product: Authentication
 classification: authentication

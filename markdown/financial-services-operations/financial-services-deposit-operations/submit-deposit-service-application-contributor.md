@@ -2,6 +2,7 @@
 title: Create a deposit service case as a contributor or agent connector
 description: Begin the deposit service application process by creating a deposit case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/financial-services-deposit-operations/submit-deposit-service-application-contributor.html
 release: xanadu
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -24,7 +25,7 @@ Role required:
 
 **Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see .
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ As a deposit contributor or agent connector, fill in the customer data, collect 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../fso-card-operations/image/list-icon.png)\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
 
 3.  In the **Lists** tab, under **Customer Cases**, click **My cases**.
 
@@ -69,5 +70,5 @@ Collect all the required customer information and submit the application.
 1.  In the **Playbook** tab, fill the data in the Initiate stage.​
 2.  Submit the application to back-office agents for fulfillment.
 
-**Parent Topic:**[Submitting a deposit service request](../concept/submit-deposit-request.md)
+**Parent Topic:**[Submitting a deposit service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services-deposit-operations/submit-deposit-request.md)
 

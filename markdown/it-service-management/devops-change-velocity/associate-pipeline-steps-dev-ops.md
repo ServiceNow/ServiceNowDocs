@@ -2,6 +2,7 @@
 title: Associate Azure pipeline steps in DevOps
 description: For manually created DevOps steps, associate each orchestration task in the Orchestration Tasks related list with a DevOps pipeline step to track the activity of each stage in your Azure pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-change-velocity/associate-pipeline-steps-dev-ops.html
 release: xanadu
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -32,7 +33,7 @@ Role required: sn\_devops.admin
 
 ## Example
 
-![AssociateSteps](../image/dev-ops-azure-associate-steps.png "DevOps associate steps")
+\[Omitted image "dev-ops-azure-associate-steps.png"\] Alt text: AssociateSteps
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

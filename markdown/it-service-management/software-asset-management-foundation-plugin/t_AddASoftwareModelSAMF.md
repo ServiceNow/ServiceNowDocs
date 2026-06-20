@@ -2,11 +2,12 @@
 title: Create a Software Asset Management Foundation plugin software model in classic
 description: Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/software-asset-management-foundation-plugin/t\_AddASoftwareModelSAMF.html
 release: xanadu
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 5
 breadcrumb: [Configuring Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -27,7 +28,7 @@ Manage software available and tie software installations \(software being used\)
 
 Predefined suites are used so suite components are automatically created for known suite parent software models. Discovery maps indicate whether a suite is defined for the product.
 
-You can also track a software model lifecycle phase for use with the [Technology Portfolio Management](https://www.servicenow.com/docs/access?context=technology-portfolio-management&version=xanadu&pubname=xanadu-application-portfolio-management&ft:locale=en-US).
+You can also track a software model lifecycle phase for use with the .
 
 ## Procedure
 
@@ -57,7 +58,7 @@ Publisher
 
 Publisher of the software. You can use the lookup list provided.**Note:** Publisher is a reference to the company \[core\_company\]. Only companies you are using internally are shown.
 
- If the publisher and product do not exist, you can [Add a Software Asset Management Foundation plugin custom license metric](add-custom-license-metric-samf.md).
+ If the publisher and product do not exist, you can [Add a Software Asset Management Foundation plugin custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
 
 </td></tr><tr><td>
 
@@ -345,15 +346,15 @@ Risk
 
 
 </td></tr></tbody>
-</table>    2.  [Create a Software Asset Management Foundation plugin entitlement in classic](t_AddASoftwareEntitlementSAMF.md).
+</table>    2.  [Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
-    3.  [View Software Asset Management Foundation plugin software model results in classic](t_ViewSWModelResultsSAMF.md).
+    3.  [View Software Asset Management Foundation plugin software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
 
         The latest software model results are shown in the Software Model Results related list.
 
     4.  In the Metric Attributes related list, click a metric attribute to set the attribute value field \(see table for field descriptions\).
 
-        The Metric Attributes related list contains metric values set in [software entitlements](t_AddASoftwareEntitlementSAMF.md) and is used for reconciliation \(metric group, license metric, and software model combination\).
+        The Metric Attributes related list contains metric values set in [software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md) and is used for reconciliation \(metric group, license metric, and software model combination\).
 
 <table id="table_zql_nkm_11b"><thead><tr><th>
 
@@ -427,8 +428,8 @@ Attribute value is unlimited
 Check box for setting the attribute as unlimited.
 
 </td></tr></tbody>
-</table>    5.  [Create a vendor catalog item](../../product-catalog/task/t_CreateAVendorCatalogItem.md).
+</table>    5.  [Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin classic](../concept/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

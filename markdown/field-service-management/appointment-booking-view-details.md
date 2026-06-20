@@ -2,7 +2,10 @@
 title: View work order and appointment details on the portal
 description: View a list of appointments for the current user on the Customer or the Consumer Service Portal and select an appointment to view the work order details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appointment-booking-view-details.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,5 +31,5 @@ Role required: appointment\_booking\_user
     If necessary, use the **Appointment** field to reschedule or cancel the appointment.
 
 
-**Parent Topic:**[Manage an appointment from the portal](../concept/manage-an-appointment-from-the-portal.md)
+**Parent Topic:**[Manage an appointment from the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-from-the-portal.md)
 

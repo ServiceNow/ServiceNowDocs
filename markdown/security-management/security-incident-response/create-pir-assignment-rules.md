@@ -2,6 +2,7 @@
 title: Create PIR assignment rules
 description: In addition to manually adding users post incident review assessment list for a security incident, you can define assignment rules for automatically adding users to the list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-pir-assignment-rules.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Role required: sn\_si.admin, sn\_si.manager, sn\_si.analyst
 
 4.  Click **New**.
 
-    ![Post incident review assignment rule](../image/pir-assignment-rule.png)
+    \[Omitted image "pir-assignment-rule.png"\] Alt text: Post incident review assignment rule
 
 5.  Fill in the fields, as needed.
 
@@ -71,7 +72,7 @@ Condition
 
 </td><td>
 
-Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
+Use the condition builder to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
 
 </td></tr><tr><td>
 
@@ -89,5 +90,5 @@ Click the lock icon to add users to the review list. After the field is unlocked
 
 In the post incident review assignment rule shown here, when a security incident with the **Category** field set to **Malicious code activity** transitions to the **Review** state, the three users identified \(who happen to be experts in dealing with malicious code activity\) are added to the list of users who will receive the post incident review questionnaire for this security incident.
 
-![PIR assignment rule](../image/malicious-code-activity.png "Malicious code activity")
+\[Omitted image "malicious-code-activity.png"\] Alt text: PIR assignment rule
 

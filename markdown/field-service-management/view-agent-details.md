@@ -2,7 +2,10 @@
 title: View an agent profile on the Field Service Contractor Portal
 description: As a manager of a contractor company, you can view the profile information of all the agents in your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-agent-details.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Agents can view and edit only their own profile information.
 4.  Review the agent profile information.
 
 
-**Parent Topic:**[Field Service Contractor Portal](../concept/field-service-contractor-portal.md)
+**Parent Topic:**[Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-contractor-portal.md)
 

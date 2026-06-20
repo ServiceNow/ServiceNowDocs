@@ -2,6 +2,7 @@
 title: Create a batch for Schedule Optimization
 description: Create an optimization batch to determine the interval at which optimization should run for the related scopes.Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-an-optimization-batch.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,6 +2,7 @@
 title: Request evidence for audit
 description: Request evidence at any stage during an audit. The details about the items for which evidence is requested are also provided to the person responsible for providing the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/audit-management/request-evidence.html
 release: xanadu
 product: Audit Management
 classification: audit-management
@@ -191,7 +192,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>4.  Save the form.

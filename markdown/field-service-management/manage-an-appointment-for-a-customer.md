@@ -2,7 +2,10 @@
 title: Manage an appointment for a customer
 description: Dispatchers and agents can book, reschedule, or cancel an appointment for a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/manage-an-appointment-for-a-customer.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-09-16"
 reading_time_minutes: 1
@@ -17,12 +20,12 @@ Dispatchers and agents can book, reschedule, and cancel an appointment for a cus
 
 An appointment cannot be rescheduled if the current time is within the reschedule/cancel window specified in the service configuration.
 
--   **[Book an appointment for a customer](../task/appointment-booking-book-appt.md)**  
+-   **[Book an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appointment-booking-book-appt.md)**  
 Dispatchers and agents can book appointments for customers.
--   **[Reschedule an appointment for a customer](../task/appointment-booking-resched-appt.md)**  
+-   **[Reschedule an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appointment-booking-resched-appt.md)**  
 Dispatchers and agents can reschedule appointments for customers to dispatch agent to address the customer issue based on rescheduled time slot.
--   **[Cancel an appointment for a customer](../task/appointment-booking-cancel-appt.md)**  
+-   **[Cancel an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/appointment-booking-cancel-appt.md)**  
 Dispatchers and agents can cancel appointments for customers.
 
-**Parent Topic:**[Managing appointments in Field Service Management](managing-appointments-fsm.md)
+**Parent Topic:**[Managing appointments in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/managing-appointments-fsm.md)
 

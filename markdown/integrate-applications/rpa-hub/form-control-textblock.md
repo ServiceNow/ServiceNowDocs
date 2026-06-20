@@ -2,6 +2,7 @@
 title: Methods and events of the TextBlock element
 description: The TextBlock element in RPA Desktop Design Studio enables you to add a label on the form so that your user can view that label as read-only information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/form-control-textblock.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -87,5 +88,5 @@ The methods and events of the TextBlock element are displayed in the Object Expl
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/form-control-methods-events.md)
 

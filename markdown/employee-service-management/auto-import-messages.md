@@ -2,7 +2,10 @@
 title: Configure Request-based chats to import messages from Microsoft Teams to ServiceNow
 description: Configure request-based chats for IT Service Management integration with Microsoft Teams and HR Service Delivery integration with Microsoft Teams applications enable the system to auto import the chat conversations between the agents and the employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/auto-import-messages.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -24,7 +27,7 @@ If you are installing the ServiceNow for Microsoft Teams in your environment, th
 -   Request \(sc\_request\)
 -   Change request \(change\_request\)
 
-The admin can extend the auto import feature to the other tables as required. For more information see, [Create requester mapping](../task/create-requester-mapping.md).
+The admin can extend the auto import feature to the other tables as required. For more information see, [Create requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-requester-mapping.md).
 
 If you are upgrading your ServiceNow instance to IT Service Management integration with Microsoft Teams 2.2.0 or HR Service Delivery integration with Microsoft Teams 2.2.0, you must manually enable the auto import feature.
 
@@ -46,7 +49,7 @@ The system executes a maximum of 10,000 sub-flows to import the chats for an int
 
 If the system reaches the limit, a message is displayed to the agent that the system level is reached and the chat can’t be auto imported on the **Start Microsoft Teams Chat** modal.
 
-![System limit reached.](../images/system-limit-reached.png)
+\[Omitted image "system-limit-reached.png"\] Alt text: System limit reached.
 
 When the ticket is closed, the system will trigger auto import for one last time posts the new messages in the Work notes \(Chat history\).
 
@@ -54,12 +57,12 @@ If there is an interaction record associated with the parent record then interac
 
 If you want to continue using the default configuration, you can skip the following procedures to extend the auto-import functionality. However, if you want to extend the auto-import functionality to other tables, perform the steps mentioned in the topics below.
 
--   **[Configure the chat to enable auto-import](../task/configure-auto-import-chats.md)**  
+-   **[Configure the chat to enable auto-import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-auto-import-chats.md)**  
 Create a chat configuration to automatically import the chats between the agents and the requesters for additional tables to extend the auto import functionality.
--   **[Create requester mapping](../task/create-requester-mapping.md)**  
+-   **[Create requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-requester-mapping.md)**  
 Create a requester mapping to extend the auto-import functionality to other tables.
--   **[Configure close condition](../task/configure-close-condition.md)**  
+-   **[Configure close condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-close-condition.md)**  
 Configure the condition to exclude the chat conversation from auto importing.
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-ms-teams-config-hr.md)
 

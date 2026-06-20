@@ -2,6 +2,7 @@
 title: Configure the Info tab in the DPM Admin Center
 description: Configure the general information fields for your solutions in the DPM Admin Center. Your configuration determines how the fields are displayed in the General info section of the Info tab in the DPM Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-portfolio-management/dpm-configure-info-tab.html
 release: xanadu
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -69,5 +70,5 @@ Each solution has an **Info** tab that displays general information about the so
 7.  Select **Update**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](../concept/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

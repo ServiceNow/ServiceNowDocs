@@ -2,6 +2,7 @@
 title: Unlink your ServiceNow user account from a messaging application for Virtual Agent conversations
 description: If needed, you can unlink your ServiceNow user account from a messaging app used for the Now Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/unlink-va-messaging.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

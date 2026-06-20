@@ -2,6 +2,7 @@
 title: Assign a learning path to agents
 description: Assign a learning path to one or more agents and add a due date for them to complete the path.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/assign-learning-path-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -25,7 +26,7 @@ Role required: sn\_hr\_wfo.admin
 
 1.  Navigate to **All** &gt; **Workforce Optimization for HR** &gt; **Manager Workspace**.
 
-2.  Select the coaching icon \(![Coaching icon](../../configurable-workforce-optimization-itsm/image/coaching-icon-uib.png)\).
+2.  Select the coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Select the **Learning** tab.
 
@@ -39,15 +40,15 @@ Role required: sn\_hr\_wfo.admin
 
 6.  In the **Assign learning path** window, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d538543e147">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d500241e147">
 
 To
 
-</th><th align="left" id="d538543e150">
+</th><th align="left" id="d500241e150">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d538543e156">
+</th></tr></thead><tbody><tr><td id="d500241e156">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -55,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d538543e168">
+</td></tr><tr><td id="d500241e168">
 
 **Assign the path to specific groups or team members**
 

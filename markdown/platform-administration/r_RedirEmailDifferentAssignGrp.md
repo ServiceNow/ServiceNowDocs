@@ -2,6 +2,7 @@
 title: Redirecting email to the instance POP3 account
 description: Configure other mailboxes to forward email to the instance's POP3 account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_RedirEmailDifferentAssignGrp.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -26,5 +27,5 @@ if(email.direct.indexOf('facilities@anycorp.com')>-1)
 current.assignment_group.setDisplayValue('Facilities Management');
 ```
 
-**Parent Topic:**[References for Inbound email](../concept/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 

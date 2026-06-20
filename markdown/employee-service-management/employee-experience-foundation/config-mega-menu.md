@@ -2,6 +2,7 @@
 title: Configure Mega menu
 description: The mega menu enables you to easily navigate to a topic and its child topic. The taxonomy you associate with the employee center portal record determines the mega menu and its menu items. By default, the topics and child topics you create in the taxonomy are displayed as mega menu items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-mega-menu.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,9 +29,9 @@ To modify the default taxonomy, clone the taxonomy first, and then create new pa
 
 **Note:** Only the active topics that have connected content are shown in the mega menu.
 
-For more information on the EC information architecture and configuring the portal navigation, see [Advanced Portal Navigation](../concept/adv-portal-navigation-overview.md).
+For more information on the EC information architecture and configuring the portal navigation, see [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md).
 
-![Mega menu with its options and the Browse all button at the bottom.](../images/mega-menu-browse-all.jpg "Mega menu on the Employee Center home page")
+\[Omitted image "mega-menu-browse-all.jpg"\] Alt text: Mega menu with its options and the Browse all button at the bottom.
 
 **Note:** You can customise the primary and background color from CSS variables.
 
@@ -47,28 +48,28 @@ In Employee Center, the default Employee taxonomy includes IT, HR, Workplace, Le
 
 1.  Do one of the following:
 
-    -   Clone the taxonomy for employee content. For more information, see [Clone taxonomy for employee content](clone-taxonomy-content.md).
-    -   Manually create a taxonomy. For more information, see [Create taxonomy](create-taxonomy-content.md).
+    -   Clone the taxonomy for employee content. For more information, see [Clone taxonomy for employee content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/clone-taxonomy-content.md).
+    -   Manually create a taxonomy. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/create-taxonomy-content.md).
 2.  Create a root topic and associate it with the cloned or new taxonomy.
 
-    For more information, see [Create and associate topics](create-topics-for-taxonomy.md).
+    For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
 
 3.  Create a child topic and associate it with the parent topic.
 
-    For more information, see [Create a child topic](create-child-topics-for-parent.md). Repeat this step to create as many child topics as needed.
+    For more information, see [Create a child topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/create-child-topics-for-parent.md). Repeat this step to create as many child topics as needed.
 
 4.  Associate connected content to the topics.
 
-    For more information, see [Associate connected content to a topic](associate-content-to-topics.md).
+    For more information, see [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/associate-content-to-topics.md).
 
     **Note:** You can view topics on the mega menu only if you have access to at least one connected content.
 
-5.  [Enable user criteria for topics](enable-user-criteria-topics.md) to set up topic-level visibility settings.
+5.  [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md) to set up topic-level visibility settings.
 
 
 ## What to do next
 
-You can also add non-taxonomy menu items to the primary navigation bar. For more information, see [Add menu items to primary navigation](add-menu-items.md).
+You can also add non-taxonomy menu items to the primary navigation bar. For more information, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/add-menu-items.md).
 
 **Note:** When the mega menu is empty, check if the demo data for the Employee Experience taxonomy app is installed. Select the Load demo data check-box to include the demo data along with your install or repair.
 

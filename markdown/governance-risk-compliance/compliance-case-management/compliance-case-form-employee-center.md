@@ -2,6 +2,7 @@
 title: Report a Compliance Case form
 description: Use the Report a Compliance Case form in the Employee Center to report a compliance case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/compliance-case-management/compliance-case-form-employee-center.html
 release: xanadu
 product: Compliance Case Management
 classification: compliance-case-management
@@ -33,5 +34,5 @@ See the following table for a description of the field values.
 |Add attachments|
 |Add attachments|Choose a reference file or copy and paste clipboard files|
 
-**Parent Topic:**[Report a compliance case from the Employee Center](../task/report-compliance-case-employee-center.md)
+**Parent Topic:**[Report a compliance case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/compliance-case-management/report-compliance-case-employee-center.md)
 

@@ -2,6 +2,7 @@
 title: Create a Free Form Type Element
 description: Create a free form element type to define the free form text more declaratively with filter options such as assignment groups and labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-free-form-type-element.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](create-report-subsection-element-template.md).
+7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/create-report-subsection-element-template.md).
 
 8.  Navigate to the Report Subsection element Type field, and select the **Free Form field** option.
 
@@ -43,15 +44,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Free Form tab, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d398192e146">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d376710e146">
 
 Field
 
-</th><th align="left" id="d398192e149">
+</th><th align="left" id="d376710e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d398192e155">
+</th></tr></thead><tbody><tr><td id="d376710e155">
 
 **Field title**
 
@@ -59,7 +60,7 @@ Description
 
 Name of the field title. For example, Overview.
 
-</td></tr><tr><td id="d398192e164">
+</td></tr><tr><td id="d376710e164">
 
 **Field value \(Placeholder\)**
 
@@ -69,5 +70,5 @@ Enter the description of the field value. For example, Here’s a sample Overvie
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
+**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/create-report-subsection-element-template.md)
 

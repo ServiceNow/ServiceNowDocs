@@ -2,6 +2,7 @@
 title: Add a resource operation step to invoke a workflow
 description: You can invoke a workflow by adding an operations step to a resource and then associating the resource to a workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/add-resource-op-step-invoke-wrkflw.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -28,7 +29,7 @@ You can invoke a workflow by adding an operations step to a resource and then as
 
 3.  Set the resource block to **Draft** state and then click **Operations** &gt; **Steps** &gt; **Add Step**.
 
-    To enable the workflow to be exported as part of the update sets, you must create an extension interface and add the new operation. See [Extend Cloud Provisioning and Governance resource blocks with an override operation](extend-cloud-management-entities.md) for details.
+    To enable the workflow to be exported as part of the update sets, you must create an extension interface and add the new operation. See [Extend Cloud Provisioning and Governance resource blocks with an override operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/extend-cloud-management-entities.md) for details.
 
 4.  On the Add Operation Steps popup, select **Invoke Workflow**for **Operation Type**.
 
@@ -69,5 +70,5 @@ You can invoke a workflow by adding an operations step to a resource and then as
 8.  Set the resource block to the **Published** state to make the workflow available in the Cloud User Portal.
 
 
-**Parent Topic:**[Add operation steps to a resource block](add-operation-steps.md)
+**Parent Topic:**[Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/add-operation-steps.md)
 

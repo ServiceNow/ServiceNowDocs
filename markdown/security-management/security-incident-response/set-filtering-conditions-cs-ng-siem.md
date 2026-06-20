@@ -2,6 +2,7 @@
 title: Set the filtering conditions for security incidents
 description: Set the filtering conditions so that security incidents are created only when the filtering conditions match.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/set-filtering-conditions-cs-ng-siem.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response

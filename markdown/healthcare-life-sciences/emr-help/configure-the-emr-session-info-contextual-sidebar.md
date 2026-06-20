@@ -2,6 +2,7 @@
 title: Configure the EMR session info contextual sidebar
 description: Configure the EMR session info contextual sidebar in Workspace to manage the fields that display there.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/healthcare-life-sciences/emr-help/configure-the-emr-session-info-contextual-sidebar.html
 release: xanadu
 product: EMR Help
 classification: emr-help

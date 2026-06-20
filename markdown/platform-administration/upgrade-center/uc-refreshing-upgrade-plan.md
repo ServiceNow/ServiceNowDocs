@@ -2,6 +2,7 @@
 title: Refreshing your Upgrade Plan
 description: Refresh your upgrade plan to package all the recently installed plugins and applications into your upgrade plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-refreshing-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -27,7 +28,7 @@ Role required: admin
 
     The plugin activation starts and installs successfully.
 
-2.  Go to the upgrade plan and refresh it by selecting **Refresh**.![](../image/uc-plan-refresh.png)
+2.  Go to the upgrade plan and refresh it by selecting **Refresh**.\[Omitted image "uc-plan-refresh.png"\]
 
     The Refresh Upgrade Plan confirmation message shows up.
 

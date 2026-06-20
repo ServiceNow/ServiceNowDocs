@@ -2,7 +2,10 @@
 title: Show and optimize the agent task route in Dispatcher Workspace
 description: View agent records, agent schedules, and view or optimize the scheduled task route of an agent for that day. You can help them manage their schedules and tasks more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/show-hide-agent-route-dispatcher-wrkspc.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ View agent records, agent schedules, and view or optimize the scheduled task rou
 
 You must enable the sn\_fsm\_disp\_wrkspc.sn\_fsm.dispatch\_ws\_map.route\_enabled system property to display the Route icon in your dispatcher workspace.
 
-You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md).
+You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
 Role required: wm\_dispatcher and wm\_manager
 
@@ -30,7 +33,7 @@ You can also optimize the task route for an agent to reorder the tasks as effici
 -   Respects the agent personal time-off and reroutes the tasks before or after the break.
 -   Doesn’t reorder the work order tasks that are scheduled lock.
 -   Controls the scheduling of overflow tasks to avoid conflicts by selecting any one of the behavioral methods, such as stop route optimization, unassign overflow tasks, or adjust the overflow task by assigning it toward the end of the agent's schedule.
--   Considers the agent's start of the day and end of the day locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md).
+-   Considers the agent's start of the day and end of the day locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 
@@ -40,7 +43,7 @@ You can also optimize the task route for an agent to reorder the tasks as effici
 
 3.  Search for a field service agent whose route you want to view.
 
-    For more information, see [Search for appropriate field service agents](search-agents-tasks.md).
+    For more information, see [Search for appropriate field service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/search-agents-tasks.md).
 
 4.  Select **Map** or **Hybrid** from the **Schedule** drop-down list.
 

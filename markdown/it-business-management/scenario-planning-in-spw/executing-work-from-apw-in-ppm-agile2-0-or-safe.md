@@ -2,6 +2,7 @@
 title: Strategic Planning with PPM, Agile 2.0, and SAFe
 description: Facilitate execution of the work planned in Strategic Planning in ServiceNow applications such as Project Portfolio Management \(PPM\), Agile Development 2.0, or Scaled Agile Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/scenario-planning-in-spw/executing-work-from-apw-in-ppm-agile2-0-or-safe.html
 release: xanadu
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,7 +22,7 @@ Teams can choose the methodology that would be the most effective for them, and 
 
 With this flexible approach of delivering work, empower your teams to deliver more value, while being able to fund, manage, and monitor all work from a single workspace.
 
-![The real-time bi-directional sync of information between Strategic Planning and PPM, Agile Development 2.0, and SAFe.](../images/spw-integration.png "Strategic Planning integration with ServiceNow applications")
+\[Omitted image "spw-integration.png"\] Alt text: The real-time bi-directional sync of information between Strategic Planning and PPM, Agile Development 2.0, and SAFe.
 
 ## Key benefits of Strategic Planning with PPM, Agile 2.0, and SAFe
 
@@ -32,7 +33,7 @@ With this flexible approach of delivering work, empower your teams to deliver mo
 -   Track the progress of the linked planning items in Strategic Planning.
 -   Track the flow of ideas from Idea portal to Feedback by integrating the Idea portal with Feedback.
 
-To get started on integrating Strategic Planning with PPM, Agile 2.0, and SAFe, see [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](configuring-apw-with-agile-safe-and-ppm.md).
+To get started on integrating Strategic Planning with PPM, Agile 2.0, and SAFe, see [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](../../alignment-planner-workspace/concept/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

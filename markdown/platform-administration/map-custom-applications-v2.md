@@ -2,6 +2,7 @@
 title: Map a custom application to a product subscription in Subscription Management
 description: Maintain accurate entitlement for custom tables in a scoped application by mapping the application to a product subscription in Subscription Management. To stay in compliance, you must map custom tables to a product subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/map-custom-applications-v2.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -33,15 +34,15 @@ As your developers create and deploy new custom applications and tables on your 
 
     Subscription Management recommends product subscriptions with available custom table entitlements in the **Recommended Product** column.
 
-<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d173069e135">
+<table id="choicetable_nbw_q4g_cyb"><thead><tr><th align="left" id="d40657e135">
 
 Option
 
-</th><th align="left" id="d173069e138">
+</th><th align="left" id="d40657e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173069e144">
+</th></tr></thead><tbody><tr><td id="d40657e144">
 
 **Map to a recommended product**
 
@@ -52,7 +53,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d173069e171">
+</td></tr><tr><td id="d40657e171">
 
 **Map to a product of your choice**
 
@@ -72,5 +73,5 @@ Description
 
 One or more custom applications are mapped to a product subscription and your custom table entitlement count is updated.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

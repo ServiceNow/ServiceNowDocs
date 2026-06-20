@@ -2,6 +2,7 @@
 title: Banners in Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-banners.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -27,5 +28,5 @@ Messages also include links to the fields that are generated or predicted by Now
 
 Generative AI banner in CSM/FSM Configurable Workspace.
 
-![Banner for resolution notes summary.](../image/resolution-banner.png)
+\[Omitted image "resolution-banner.png"\] Alt text: Banner for resolution notes summary.
 

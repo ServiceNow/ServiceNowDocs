@@ -2,7 +2,10 @@
 title: VMs on undiscovered servers list in Cloud Migration Assessment
 description: Cloud Migration Assessment presents information on virtual machines hosted by undiscovered servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-migration-vm-undiscovered-list.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -140,7 +143,7 @@ Action
 
 </th></tr></thead><tbody><tr id="refresh-list-button"><td>
 
-Refresh list ![Refresh list button](../image/list-refresh-button.png)
+Refresh list \[Omitted image "list-refresh-button.png"\] Alt text: Refresh list button
 
 </td><td>
 
@@ -148,7 +151,7 @@ Refreshes the list to display the most updated information.
 
 </td></tr><tr id="list-actions-butons"><td>
 
-List actions ![List actions button](../image/list-actions-button.png)
+List actions \[Omitted image "list-actions-button.png"\] Alt text: List actions button
 
 </td><td>
 
@@ -158,7 +161,7 @@ Selects actions supported for this list:-   **Edit columns** - Adjusts the list 
 
 </td></tr><tr id="copy-url-button"><td>
 
-Copy Url ![Copy URL button](../image/list-copy-url-button.png)
+Copy Url \[Omitted image "list-copy-url-button.png"\] Alt text: Copy URL button
 
 </td><td>
 
@@ -166,7 +169,7 @@ Copies the URL for this list.
 
 </td></tr><tr id="show-filter-button"><td>
 
-Show filter panel ![Show filter panel button](../image/show-filter-panel-button.png)
+Show filter panel \[Omitted image "show-filter-panel-button.png"\] Alt text: Show filter panel button
 
 </td><td>
 
@@ -181,5 +184,5 @@ Export
 Saves the list in one of the supported formats: Excel, CSV, JSON, PDF.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Migration Assessment reference](cloud-migration-reference.md)
+</table>**Parent Topic:**[Cloud Migration Assessment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-reference.md)
 

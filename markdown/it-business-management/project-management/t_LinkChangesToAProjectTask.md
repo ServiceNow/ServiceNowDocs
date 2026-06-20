@@ -2,6 +2,7 @@
 title: Link change requests to a project task
 description: Link change requests to tasks on the Project Task form. You can link change requests only to project tasks that have no child tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/t\_LinkChangesToAProjectTask.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -49,7 +50,7 @@ You can link any change request record to a project task, regardless of the chan
 
 On the Project Task form, a notification appears at the top specifying that the task is linked to one or more change requests.
 
-![screenshot for task with Linked Change](../image/TaskWithLinkedChange "Example for Task designated for linked change requests in the related list")
+\[Omitted image "TaskWithLinkedChange"\] Alt text: screenshot for task with Linked Change
 
-**Parent Topic:**[Change requests and project tasks](../concept/c_ChangeRequestsAndProjectTasks.md)
+**Parent Topic:**[Change requests and project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ChangeRequestsAndProjectTasks.md)
 

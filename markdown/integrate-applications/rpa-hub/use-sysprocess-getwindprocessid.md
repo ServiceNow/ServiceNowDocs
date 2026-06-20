@@ -2,6 +2,7 @@
 title: Use the GetWindowProcessID component
 description: Retrieve the window handle of a main window of an active process as an integer by using the GetWindowProcessID component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/use-sysprocess-getwindprocessid.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -21,7 +22,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetWindowProcessID component. For more information about these properties, see [Properties of the System Process components](../reference/util-sysprocess-prop.md).
+You can configure the properties for the GetWindowProcessID component. For more information about these properties, see [Properties of the System Process components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/util-sysprocess-prop.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ You can configure the properties for the GetWindowProcessID component. For more 
 
 2.  Drag the GetWindowProcessID component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the GetWindowProcessID component to the corresponding ports of the other component as described in the following table.
 
@@ -43,5 +44,5 @@ You can configure the properties for the GetWindowProcessID component. For more 
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[System process](../concept/system-process-utilities.md)
+**Parent Topic:**[System process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/system-process-utilities.md)
 

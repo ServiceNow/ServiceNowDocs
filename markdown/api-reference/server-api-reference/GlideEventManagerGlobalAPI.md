@@ -2,6 +2,7 @@
 title: GlideEventManager - Global
 description: The GlideEventManager API provides methods to process events.Instantiates a GlideEventManager object.Processes the eligible events in a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/GlideEventManagerGlobalAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideEventManager API provides methods to process events.
 
-For information on creating an event queue, see [Creating custom queues to process events](https://www.servicenow.com/docs/access?context=useful-server-side-scripts&version=xanadu&pubname=xanadu-application-development&section=queues-create&ft:locale=en-US).
+For information on creating an event queue, see Creating custom queues to process events.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## GlideEventManager - GlideEventManager\(String queueName\)
 

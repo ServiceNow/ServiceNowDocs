@@ -2,6 +2,7 @@
 title: Configure client credential flow for SMTP OAuth2 using a client id and secret
 description: Configure outbound email accounts in a ServiceNow instance using a client id and secret.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-client-id-secret-email-auth.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -88,12 +89,12 @@ Role required: Microsoft Azure portal administrator and admin
 
 9.  Navigate to **Overview** &gt; **Endpoints** and copy the **OAuth 2.0 token endpoint \(v2\)** to a text file.
 
-    You use the **OAuth 2.0 token endpoint \(v2\)** when registering an OAuth provider. For more information, see [Register an OAuth Provider](register-oauth-cred-flow.md).
+    You use the **OAuth 2.0 token endpoint \(v2\)** when registering an OAuth provider. For more information, see [Register an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/register-oauth-cred-flow.md).
 
 
 ## What to do next
 
-[Register an OAuth Provider](register-oauth-cred-flow.md)
+[Register an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/register-oauth-cred-flow.md)
 
-**Parent Topic:**[Send email using client credential flow](../concept/send-email-client-credential-flow.md)
+**Parent Topic:**[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/send-email-client-credential-flow.md)
 

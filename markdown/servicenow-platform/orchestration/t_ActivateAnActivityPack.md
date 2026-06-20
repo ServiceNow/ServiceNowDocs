@@ -2,6 +2,7 @@
 title: Available activity packs
 description: Activity packs are available with your subscription to Orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/orchestration/t\_ActivateAnActivityPack.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -23,15 +24,15 @@ Role required: admin
 
 The following activity packs are available and active with your Orchestration subscription:
 
--   [Orchestration - Active Directory](../concept/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
--   [Orchestration - Azure Active Directory](../concept/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
--   [Orchestration - Exchange](../concept/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
--   [Orchestration - SFTP](../concept/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
--   [Orchestration - Infoblox DDI Activity Pack](../concept/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
--   [F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
--   [Orchestration - SSH](../concept/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
--   [Orchestration - PowerShell](../concept/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
--   [Orchestration - System Center Configuration Manager](../../../product/orchestration/task/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
+-   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
+-   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
+-   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
+-   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
+-   [Orchestration - Infoblox DDI Activity Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_InfobloxDDIActivityPack.md) \(com.snc.orchestration.infoblox\)
+-   [F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md) \(com.snc.orchestration.f5\)
+-   [Orchestration - SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrationSSHCustomActivities.md) \(com.snc.orchestration.ssh\)
+-   [Orchestration - PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md) \(com.snc.orchestration.powershell\)
+-   [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/t_ActivateSysCentrConfigMgrActiv.md) \(com.snc.orchestration.sccm\_mgnt\)
 
 ## Procedure
 
@@ -39,11 +40,11 @@ The following activity packs are available and active with your Orchestration su
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -90,12 +91,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[Activate Orchestration](../../../product/orchestration/task/t_ActivateOrchestration.md)
+**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/orchestration/t_ActivateOrchestration.md)
 

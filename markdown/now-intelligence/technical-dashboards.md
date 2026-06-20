@@ -2,6 +2,7 @@
 title: Technical dashboards
 description: If you need more advanced or customized features in a dashboard than you can get through the inline editor, you can create a UI Builder page that is exposed as a dashboard. Such pages are called technical dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/technical-dashboards.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-01-30"
@@ -19,7 +20,7 @@ You create a technical dashboard in the dashboard editor. However, you cannot ed
 
 Only someone with the ui\_builder\_admin role can create a technical dashboard, edit its contents, or configure its UI Builder page options.
 
-You can open a technical dashboard in the dashboard editor from the dashboard library, as you would for any dashboard. In the editor, you can share the dashboard, create a printable version, or edit its [dashboard details](../../dashboards/task/config-db-in-ac.md). You can also expose technical dashboards in multiple workspaces as described in [Add a dashboard to a Dashboards page](../task/add-dashboard-to-workspace.md).
+You can open a technical dashboard in the dashboard editor from the dashboard library, as you would for any dashboard. In the editor, you can share the dashboard, create a printable version, or edit its [dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/config-db-in-ac.md). You can also expose technical dashboards in multiple workspaces as described in [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-dashboard-to-workspace.md).
 
 Technical dashboards are kept in a dedicated UI Experience named Advanced Dashboards. However, it is better to open technical dashboards in the dashboard editor and use the **Open in UI Builder** button than to open them directly in UI Builder through the Advanced Dashboards experience.
 
@@ -29,16 +30,16 @@ Do not try to create a technical dashboard directly in the Advanced Dashboards e
 
 ## Other technical dashboard topics
 
--   **[Technical dashboards compared to inline dashboards](../reference/technical-vs-in-line-dashboards.md)**  
+-   **[Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/technical-vs-in-line-dashboards.md)**  
 The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more backend configuration.
--   **[Create a technical dashboard in UI Builder](../../dashboards/task/create-tech-db-in-ac.md)**  
+-   **[Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-tech-db-in-ac.md)**  
 Follow the Technical Editor option to create a dashboard using UI Builder. In UI Builder, you can use a wider range of features than the inline editor, including scripting and data binding.
--   **[Add a drilldown event to a data visualization in a technical dashboard](../../dashboards/task/add-custom-drilldown-event.md)**  
+-   **[Add a drilldown event to a data visualization in a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/add-custom-drilldown-event.md)**  
 Technical dashboards do not support preconfigured destinations for drilling down from a data visualization. If you want a viewer to open a more detailed view of the data when they interact with a visualization, configure a custom drilldown event.
--   **[Configure an event handler for a Filter component](../../dashboards/task/configure-event-handler-filter-lists-data-vis.md)**  
+-   **[Configure an event handler for a Filter component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/configure-event-handler-filter-lists-data-vis.md)**  
 On a technical dashboard, configure a special client script-based event handler for a Filter component so it can be followed by any Lists or Data Visualizations. It is not necessary to configure an event handler for filters on inline dashboards.
--   **[Use a local data instance with a data visualization](../../dashboards/task/dv-local-data-instance.md#)**  
+-   **[Use a local data instance with a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/dv-local-data-instance.md)**  
 For finer grained control of the data source than you have with preconfigured data sources, create a local data instance. Then bind the local data instance to the **dataPassthrough** property of the data visualization.
 
-**Parent Topic:**[Dashboards in Platform Analytics](analytics-center-dashboards.md)
+**Parent Topic:**[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-center-dashboards.md)
 

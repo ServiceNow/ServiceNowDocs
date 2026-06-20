@@ -2,6 +2,7 @@
 title: Exploring Now Assist Skill Kit
 description: The Now Assist Skill Kit plugin for Now Assist enables you to create and activate custom prompts and skills for Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.html
 release: xanadu
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -21,7 +22,7 @@ If the base system Now Assist skills don't fit your needs, you can use Now Assis
 
 ## Get Now Assist Skill Kit
 
-To use Now Assist Skill Kit, you must update your Now Assist plugins in the [Application Manager](https://www.servicenow.com/docs/access?context=exploring-application-manager&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US). For example, update your Now Assist for ITSM plugin to the Xanadu release.
+To use Now Assist Skill Kit, you must update your Now Assist plugins in the Application Manager. For example, update your Now Assist for ITSM plugin to the Xanadu release.
 
 You must also assign the sn\_skill\_builder.admin role to anyone who uses Now Assist Skill Kit.
 
@@ -36,7 +37,7 @@ You must also assign the sn\_skill\_builder.admin role to anyone who uses Now As
 
 The following diagram shows the user journey for Now Assist Skill Kit.
 
-![Journey for users to define, build, test, and deploy skills.](../image/nask-user-journey.png "User journey for Now Assist Skill Kit")
+\[Omitted image "nask-user-journey.png"\] Alt text: Journey for users to define, build, test, and deploy skills.
 
 1.  Define the provider
 
@@ -59,14 +60,14 @@ The following diagram shows the user journey for Now Assist Skill Kit.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create custom solutions by building a custom skill or workflow.|[Create a skill](../task/create-new-skill.md)|AI developer|
-|Create and edit prompts for skills and configure where you want to bring in data from to augment your prompt.|[Create a prompt](../task/create-prompt-template.md)|AI developer|
-|Test and iterate on your skill before activating it.|[Test a prompt](../task/test-prompt-template.md)|AI developer|
+|Create custom solutions by building a custom skill or workflow.|[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)|AI developer|
+|Create and edit prompts for skills and configure where you want to bring in data from to augment your prompt.|[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)|AI developer|
+|Test and iterate on your skill before activating it.|[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)|AI developer|
 
 ## What to explore next
 
 To learn more about configuring and using Now Assist Skill Kit, see:
 
--   [Configuring Now Assist Skill Kit](configuring-now-assist-skill-kit.md)
--   [Using Now Assist Skill Kit](using-now-assist-skill-kit.md)
+-   [Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
+-   [Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

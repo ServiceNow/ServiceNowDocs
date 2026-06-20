@@ -2,6 +2,7 @@
 title: View the Playbook activities
 description: Playbooks in Accounts Payable Operations displays step by step process involved in processing an invoice processing case through activity views.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/how-playbook-works.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,9 +18,9 @@ Playbooks in Accounts Payable Operations displays step by step process involved 
 
 The playbook life cycle provides the context as to where an Accounts Payable specialist is within the playbook, including information for each stage and activity and any dependencies between stages. For stages with multiple activities, the playbook life cycle provides step-by-step guidance for completing the stage.
 
-The figure below displays the playbook workflow.![Playbook workflow](../image/playbook.png)
+The figure below displays the playbook workflow.\[Omitted image "playbook.png"\] Alt text: Playbook workflow
 
-The stages and activities in a playbook life cycle are configured using [Process Automation Designer](https://servicenow.com/docs/csh?topicname=process-automation-designer&version=washingtondc&pubname=washingtondc-build-workflows) \(PAD\). Refer to the table below for the Playbook activity.
+The stages and activities in a playbook life cycle are configured using [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=washingtondc) \(PAD\). Refer to the table below for the Playbook activity.
 
 |Indicator|Field|Description|
 |---------|-----|-----------|
@@ -31,5 +32,5 @@ The stages and activities in a playbook life cycle are configured using [Process
 
 The playbook work area appears in the center part of the playbook section. It displays the action taken for the current activity, depending on the configured activity view.
 
-**Parent Topic:**[Playbook for updating the invoice primary data](playbooks.md)
+**Parent Topic:**[Playbook for updating the invoice primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/playbooks.md)
 

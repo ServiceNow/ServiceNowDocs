@@ -2,6 +2,7 @@
 title: Notifications for project updates in your collaboration tool
 description: Receive updates related to your project on your Slack channel or Microsoft team. Analyze the delayed and overdue tasks, follow closure of milestones, and monitor changes to risk, issue, decision, action, and change request \(RIDAC\) items of your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/status-updates-from-collab-channel.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -133,5 +134,5 @@ Key milestone/ milestone
 Whenever a key milestone or milestone task is Closed Complete, Closed Incomplete, and Closed Skipped, you are notified about the closure and the user who closed it, with a direct URL to the milestone task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Management](../../project-management/concept/c_ProjectApplicationOverview.md)
+</table>**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 

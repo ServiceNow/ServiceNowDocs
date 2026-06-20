@@ -2,6 +2,7 @@
 title: Configure the SCCM integration and schedule an import
 description: Importing data from Microsoft SCCM requires a connection to the SCCM database via a JDBC data source and a schedule that tells the MID Server when to fetch the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/configure-sccm-data-import.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -37,7 +38,7 @@ The system uses the details of the database connection you create in this proced
 
 2.  Complete the required fields to configure connection to the SCCM SQL database. Make sure to include a valid MID Server that has access to the SQL database server.
 
-    ![SCCM data import setup](../image/SCCMIntegrationSetup.png "SCCM data import setup")
+    \[Omitted image "SCCMIntegrationSetup.png"\] Alt text: SCCM data import setup
 
 3.  Under Related Links, click **Test data source connections** to test the connection to the SCCM database.
 
@@ -45,7 +46,7 @@ The system uses the details of the database connection you create in this proced
 
     The Scheduled Data Import form appears for your version of the SCCM integration. The Computer Identity data source runs first. The other data sources listed on the form run in sequence, based on their default order.
 
-    ![](../image/SCCM_Import_Schedule.png)
+    \[Omitted image "SCCM\_Import\_Schedule.png"\] Alt text:
 
 5.  Select a calendar interval \(Day, Week, etc.\) in the **Run** field and specify the time of day the import should run.
 
@@ -56,5 +57,5 @@ The system uses the details of the database connection you create in this proced
     After the instance imports data using the **SCCM &lt;version&gt; Computer Identity** data source, the other data sources run in the order configured to retrieve the remainder of the SCCM data.
 
 
-**Parent Topic:**[Microsoft SCCM integration](../concept/c_MicrosoftSCCMIntegration.md)
+**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_MicrosoftSCCMIntegration.md)
 

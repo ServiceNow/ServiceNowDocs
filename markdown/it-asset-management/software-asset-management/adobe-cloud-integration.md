@@ -2,6 +2,7 @@
 title: Integrating with Adobe Cloud
 description: Integrate your Software Asset Management application with Adobe Cloud services to track your software subscriptions and to determine your license compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/adobe-cloud-integration.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -27,8 +28,8 @@ Integrate your Adobe subscriptions with Software Asset Management for compliance
 
 You can integrate your ServiceNow® instance with Adobe Cloud services using either of the following authentication methods:
 
--   [Service Account \(JWT\) credential](integrate-adobe-cloud-jwt.md#)
--   [OAuth Server to Server credential](integrate-adobe-cloud-oauth.md#)
+-   [Service Account \(JWT\) credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-adobe-cloud-jwt.md)
+-   [OAuth Server to Server credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/integrate-adobe-cloud-oauth.md)
 
 **Note:** All new Adobe Cloud integrations must be created using the OAuth authentication type. Adobe is migrating from Service Account \(JWT\) credential to OAuth Server-to-Server credential. For more details, see [Adobe Migration Guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 

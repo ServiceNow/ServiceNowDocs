@@ -2,6 +2,7 @@
 title: Hyperautomation and low-code
 description: Use ServiceNow no-code, low-code, and platform developer tools to create and modify apps that run on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -16,15 +17,15 @@ Hyperautomation incorporates multiple automation tools and solutions to create c
 
 <table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
 
-[Build applications ![](../../../reuse/icons/brand-icons/bus-application-development.svg) Build and modify applications with the no-code, low-code, and pro-code development tools that suit your needs.](https://www.servicenow.com/docs/access?context=build-applications&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+Build applications \[Omitted image "bus-application-development.svg"\] Alt text: Build and modify applications with the no-code, low-code, and pro-code development tools that suit your needs.
 
 </td><td>
 
-[Build workflows ![](../../../reuse/icons/brand-icons/bus-workflow.svg) Modernize legacy processes and extend workflow automation across the enterprise.](https://www.servicenow.com/docs/access?context=build-workflows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)
+Build workflows \[Omitted image "bus-workflow.svg"\] Alt text: Modernize legacy processes and extend workflow automation across the enterprise.
 
 </td><td>
 
-[Create integrations with applications ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Quickly connect your systems and applications with virtually any service or third-party application.](https://www.servicenow.com/docs/access?context=create-integrations-applications&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+Create integrations with applications \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Quickly connect your systems and applications with virtually any service or third-party application.
 
 </td></tr></tbody>
 </table>The following tables list the products and features that are available in Workflow Data Fabric and App Engine.
@@ -43,7 +44,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+App Engine Studio
 
 </td><td>
 
@@ -51,7 +52,7 @@ App Engine Studio \(AES\) is a guided, low-code tool for developing rich web app
 
 </td></tr><tr><td>
 
-[Automation Center](https://www.servicenow.com/docs/access?context=automation-center-landing-page&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
 
 </td><td>
 
@@ -67,7 +68,7 @@ Boomi supports full lifecycle API management, including governance, analytics, a
 
 </td></tr><tr><td>
 
-[Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+Conversational Spokes
 
 </td><td>
 
@@ -75,7 +76,7 @@ Now Assist in Conversational Spokes application to utilize the conversational ab
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+
 
 </td><td>
 
@@ -83,7 +84,7 @@ Document Intelligence \(DocIntel\) is an AI solution that enables any organizati
 
 </td></tr><tr><td>
 
-[Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
 
 </td><td>
 
@@ -91,7 +92,7 @@ Automate integration tasks using ServiceNow components for ServiceNow® Workflow
 
 </td></tr><tr><td>
 
-[Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+
 
 </td><td>
 
@@ -99,7 +100,7 @@ Process Mining helps analysts and process owners quickly analyze and optimize th
 
 </td></tr><tr><td>
 
-[External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+
 
 </td><td>
 
@@ -107,7 +108,7 @@ The External Content Connectors ServiceNow® Store application enables AI Search
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-main-landing-page&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
 
 </td><td>
 
@@ -115,7 +116,7 @@ Robotic Process Automation \(RPA\) Hub enables end-to-end automation for your or
 
 </td></tr><tr><td>
 
-[Stream Connect](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+Stream Connect
 
 </td><td>
 
@@ -128,24 +129,24 @@ The following table lists the products and features that are available in App En
 
 |Product name|Description|
 |------------|-----------|
-|[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Build apps at scale with a low-code development environment and prebuilt templates.|
-|[App Engine Management Center](https://www.servicenow.com/docs/access?context=monitor-requests-using-aemc&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Empower business and IT to collaborate, manage, and govern low-code app development.|
-|[Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Complete upgrades and innovate faster. Reduce risk and quickly remediate customization issues by automating slow manual testing.|
-|[Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Empower citizen developers to create natively compliant request-based applications with a guided no-code end-to-end development, streamlining app dev stages from days to minutes.|
-|[Delegated Development](https://www.servicenow.com/docs/access?context=delegated-development-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Enable developers of any skill level to build apps for specific projects.|
-|[Guided Application Creator](https://www.servicenow.com/docs/access?context=guided-app-creator&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Get guidance to rapidly create applications, define data, and configure user experiences.|
-|[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=xanadu&pubname=xanadu-mobile&ft:locale=en-US)|Create and deploy native mobile experiences using an intuitive designer.|
-|[Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
-|[Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)|Anticipate and continuously improve with real-time analytics.|
-|[Prebuilt Templates](https://www.servicenow.com/docs/access?context=use-app-template&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Accelerate development with templates that satisfy a variety of use cases|
-|[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)|Simplify and accelerate everyday work with built-in machine learning.|
-|[Playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)|Build and manage multiple complex workflows with no-code playbooks.|
-|[Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)|Improve outcomes by optimizing process flows to streamline work.|
-|[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)|Deliver mobile-friendly, self-service experiences to your customers and employees with an easy-to-use portal framework.|
-|[ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Access all the tools you need in one unified, intuitive development environment. Empower your developers to innovate, build, and deploy apps faster using AI-powered technology.|
-|[ServiceNow Studio IDE](https://www.servicenow.com/docs/access?context=servicenow-ide-landing&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Use a web-based integrated development environment to build, deploy, and manage your apps.|
-|[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Create and customize workspace pages with a single builder. Deliver engaging, personalized employee experiences.|
-|[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US)|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
-|[Workflow Studio](https://www.servicenow.com/docs/access?context=flows&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)|Build flow to automate business processes as digital workflows across departments, apps, and systems.|
-|[Workspace Builder](https://www.servicenow.com/docs/access?context=add-workspace&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)|Deliver personalized experiences that engage teams and supercharge productivity with the configurable workspaces.|
+|App Engine Studio|Build apps at scale with a low-code development environment and prebuilt templates.|
+|App Engine Management Center|Empower business and IT to collaborate, manage, and govern low-code app development.|
+|Automated Test Framework|Complete upgrades and innovate faster. Reduce risk and quickly remediate customization issues by automating slow manual testing.|
+|Creator Studio|Empower citizen developers to create natively compliant request-based applications with a guided no-code end-to-end development, streamlining app dev stages from days to minutes.|
+|Delegated Development|Enable developers of any skill level to build apps for specific projects.|
+|Guided Application Creator|Get guidance to rapidly create applications, define data, and configure user experiences.|
+|Mobile App Builder|Create and deploy native mobile experiences using an intuitive designer.|
+|Now Assist for Creator|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
+|Performance Analytics|Anticipate and continuously improve with real-time analytics.|
+|Prebuilt Templates|Accelerate development with templates that satisfy a variety of use cases|
+|Predictive Intelligence|Simplify and accelerate everyday work with built-in machine learning.|
+|Playbooks|Build and manage multiple complex workflows with no-code playbooks.|
+|Process Mining|Improve outcomes by optimizing process flows to streamline work.|
+|Service Portal|Deliver mobile-friendly, self-service experiences to your customers and employees with an easy-to-use portal framework.|
+|ServiceNow Studio|Access all the tools you need in one unified, intuitive development environment. Empower your developers to innovate, build, and deploy apps faster using AI-powered technology.|
+|ServiceNow Studio IDE|Use a web-based integrated development environment to build, deploy, and manage your apps.|
+|UI Builder|Create and customize workspace pages with a single builder. Deliver engaging, personalized employee experiences.|
+|Virtual Agent|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
+|Workflow Studio|Build flow to automate business processes as digital workflows across departments, apps, and systems.|
+|Workspace Builder|Deliver personalized experiences that engage teams and supercharge productivity with the configurable workspaces.|
 

@@ -2,6 +2,7 @@
 title: Now Assist Skill Kit reference
 description: Reference topics for Now Assist Skill Kit
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.html
 release: xanadu
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -15,10 +16,10 @@ breadcrumb: [Now Assist Skill Kit, Enable AI experiences]
 
 Reference topics for Now Assist Skill Kit
 
--   **[Now Assist Skill Kit roles](na-skill-kit-roles.md#)**  
+-   **[Now Assist Skill Kit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.md)**  
 Certain roles are required to use Now Assist Skill Kit functionality.
--   **[Field of use for Now Assist Skill Kit](nask-field-of-use.md)**  
+-   **[Field of use for Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/nask-field-of-use.md)**  
 Now Assist Skill Kit is included in various Now Assist packages that cover a given customers’ ability to build Now Assist skills.
 
-**Parent Topic:**[Now Assist Skill Kit](../concept/now-assist-skill-kit-landing.md)
+**Parent Topic:**[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

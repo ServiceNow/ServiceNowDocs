@@ -2,6 +2,7 @@
 title: Assign users and groups to predefined Express List views
 description: Assign individual users and user groups to preconfigured Express List views to make sure that they focus on specific services, priorities, or alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/assign-operator-view-in-express-list.html
 release: xanadu
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Assign individual users and user groups to preconfigured Express List views to m
 
 ## Before you begin
 
-For more information about predefined Express List views, see [Express List Configuring Express List views for users and user groups](../../service-operations-workspace-itom/concept/manage-views-express-list.md).
+For more information about predefined Express List views, see [Express List Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/manage-views-express-list.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -29,39 +30,39 @@ Role required: evt\_mgmt\_admin
 
 3.  Assign users or groups to the selected Express List view.
 
-<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d178172e107">
+<table id="choicetable_jg5_jrj_k1c"><thead><tr><th align="left" id="d166791e107">
 
 Task
 
-</th><th align="left" id="d178172e110">
+</th><th align="left" id="d166791e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d178172e116">
+</th></tr></thead><tbody><tr><td id="d166791e116">
 
 **Assign a user to the selected Express List view**
 
 </td><td>
 
 1.  In the **Users** tab, select **Insert a new row...**.
-2.  Select the search icon \(![Search icon.](../image/search-icon.png)\) and search for the relevant user in the **Users** table.
-3.  Select the user and then select the save icon \(![Save icon.](../../itom-governance/image/save-icon.png)\).
+2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\) and search for the relevant user in the **Users** table.
+3.  Select the user and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
 
 
-</td></tr><tr><td id="d178172e161">
+</td></tr><tr><td id="d166791e161">
 
 **Assign a user group to the selected Express List view**
 
 </td><td>
 
 1.  In the **Groups** tab, select **Insert a new row...**.
-2.  Select the search icon \(![Search icon.](../image/search-icon.png)\) and search for the relevant group in the **Groups** table.
-3.  Select the group and then select the save icon \(![Save icon.](../../itom-governance/image/save-icon.png)\).
+2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\) and search for the relevant group in the **Groups** table.
+3.  Select the group and then select the save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
  **Note:** Users belonging to a group can only see the predefined views you assigned to that group and their own saved views. If users belong to multiple groups, they can see the views you assigned to all of these groups.
 
 </td></tr></tbody>
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Express List Configuring Express List views for users and user groups](../../service-operations-workspace-itom/concept/manage-views-express-list.md)
+**Parent Topic:**[Express List Configuring Express List views for users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/event-management/manage-views-express-list.md)
 

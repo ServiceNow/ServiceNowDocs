@@ -2,6 +2,7 @@
 title: Exploring Legal Service Portal
 description: The Legal Service Portal is a self-service portal for employees to submit legal requests, monitor their progress, read legal knowledge base articles, and get help using virtual agent chat support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-service-delivery/legal-service-portal.html
 release: xanadu
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,7 +20,7 @@ The Legal Service Portal is installed with the installation of the Legal Request
 
 Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal** to access Legal Service Portal.
 
-![Legal Service Portal homepage.](../image/legal-service-portal.png "Legal Service Portal")
+\[Omitted image "legal-service-portal.png"\] Alt text: Legal Service Portal homepage.
 
 Use the Legal Service Portal to do the following tasks:
 
@@ -28,5 +29,5 @@ Use the Legal Service Portal to do the following tasks:
 -   Find and read through the top-rated legal knowledge base articles to find information.
 -   Chat with a virtual agent to submit and track legal requests and read legal knowledge base articles.
 
-With ServiceNow® AI Search enabled, you get better search results through predictions and Natural Language Processing \(NLP\). For more information, see [Enable and configure AI Search in Legal Service Portal](../task/configure-ai-search-lsd.md).
+With ServiceNow® AI Search enabled, you get better search results through predictions and Natural Language Processing \(NLP\). For more information, see [Enable and configure AI Search in Legal Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-request-management/configure-ai-search-lsd.md).
 

@@ -2,7 +2,10 @@
 title: Create a time sheet
 description: Create a time sheet to group all your time cards for the given week from the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/create-timesheet-fsm-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ Role required: wm\_agent
 
 Add time cards to the time sheet.
 
-**Parent Topic:**[Use Time Sheets in the Now Mobile Agent application](../concept/timesheet-fsm-mobile.md)
+**Parent Topic:**[Use Time Sheets in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/timesheet-fsm-mobile.md)
 

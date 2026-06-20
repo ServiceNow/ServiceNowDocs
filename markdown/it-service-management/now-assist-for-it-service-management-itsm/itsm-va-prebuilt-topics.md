@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent pre-built LLM topics
 description: ITSM Virtual Agent includes pre-built Large Language Model \(LLM\) topic conversations designed to help your users complete the common IT-related tasks such as checking and resetting a password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -19,7 +20,7 @@ LLMs are used to identify and trigger the action that a user wants to perform.
 
 ITSM Virtual Agent pre-built LLM topics are read only and have **\(Template\)** as the suffix in their name. To use them, duplicate the topic in the ITSM Virtual Agent conversation scope and rename it according to your company naming conventions.
 
-For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](../../itsm-virtual-agent/concept/using-itsm-va.md).
+For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-virtual-agent/using-itsm-va.md).
 
 <table id="table_an3_5t2_4bc"><tbody><tr><td>
 
@@ -39,7 +40,7 @@ Check the status of your IT tickets and support cases.
 -   status = Allowed
 -   source = Script Include: ITSMTopicsHelper
 
-See [Requested restricted caller access \(RCA\)](https://www.servicenow.com/docs/access?context=requested-rca&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Requirements:
 
 **Note:** In order for the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see [Password Reset for Virtual Agent](https://www.servicenow.com/docs/access?context=password-reset-for-virtual-agent&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more information about the password reset process, see Password Reset for Virtual Agent.
 
 <table id="table_zc2_s23_nbc"><tbody><tr><td>
 
@@ -149,13 +150,13 @@ Request to verify your locked user account.
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+For more information, see Configure your Password Reset process.
 
 ## Actionable notification topics
 
 ITSM Virtual Agent includes pre-built actionable notifications used to send interactive messages to a user based on pending tasks or alerts, such as RITM and request notifications, task approval notifications, and incident notifications.
 
-**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](../../itsm-virtual-agent/task/setup-actionable-notifications.md).
+**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 <table id="table_x5c_n1w_bdc"><thead><tr><th>
 

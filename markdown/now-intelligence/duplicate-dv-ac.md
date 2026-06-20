@@ -2,6 +2,7 @@
 title: Duplicate a visualization in the Visualization Designer
 description: Duplicate a visualization so that you can use aspects of the source in a copy of the visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/duplicate-dv-ac.html
 release: xanadu
 topic_type: task
 last_updated: "2023-08-03"
@@ -26,7 +27,7 @@ Role required: viz\_creator
 
 3.  Select the visualization that you want to duplicate.
 
-4.  From the More actions menu \(![](../../dashboards/image/icon-vert-3dot-p.png)\), select **Duplicate**.
+4.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Duplicate**.
 
 5.  Give the duplicate a unique name and select **Duplicate**.
 
@@ -37,5 +38,5 @@ The visualization is copied with the new name. All other aspects of the visualiz
 
 **Important:** The new copy of the visualization is automatically saved.
 
-**Parent Topic:**[Platform Analytics](../../performance-analytics/concept/c_performanceAnalyticsAndReporting.md)
+**Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

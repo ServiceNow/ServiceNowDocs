@@ -2,6 +2,7 @@
 title: Create page scripts for Work scheduler
 description: Add custom page scripts for the Work scheduler so that you can update the client state through events or update transform workItem object to properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/workforce-optimization-for-customer-service/work-sched-create-page-scripts-wfo-cs.html
 release: xanadu
 product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
@@ -25,11 +26,11 @@ Add the **Handle card clicked** and the **Handle card action clicked** page scri
 
 Add the **Transform workItem to cardProps** page script to transform the **workItem** object in the Work queue to properties for the card components.
 
-**Note:** If you have [customized a Work scheduler card](https://www.servicenow.com/docs/access?context=customize-workscheduler-card-wfo-itsm&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US), you can follow the steps below to add client scripts.
+**Note:** If you have customized a Work scheduler card, you can follow the steps below to add client scripts.
 
 ## Procedure
 
-1.  Select the Client Scripts icon \(![Client scripts icon](../image/client-scripts-icon.png)\).
+1.  Select the Client Scripts icon \(\[Omitted image "client-scripts-icon.png"\] Alt text: Client scripts icon\).
 
 2.  Create the **Handle card clicked** page script.
 
@@ -134,17 +135,17 @@ Add the **Transform workItem to cardProps** page script to transform the **workI
 
 5.  Click **Save**.
 
-    Here's a demo on how to create page scripts for Work scheduler.Create page scripts
+    Here's a demo on how to create page scripts for Work scheduler.
 
 
 ## What to do next
 
-[Define the workItem property in the Work scheduler page configuration](https://www.servicenow.com/docs/access?context=work-sched-create-page-properties&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US)
+Define the workItem property in the Work scheduler page configuration
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/workforce-optimization-for-customer-service/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Define and bind client scripts to components](https://www.servicenow.com/docs/access?context=define-client-scripts&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US)
+[bundle-cadev.define-client-scripts]
 

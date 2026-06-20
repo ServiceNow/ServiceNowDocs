@@ -2,6 +2,7 @@
 title: Conversational Integration with Workplace from Facebook
 description: Enable requesters to chat with Virtual Agent or live agents using the Workplace from Facebook application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/mssg-workplace.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

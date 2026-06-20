@@ -2,6 +2,7 @@
 title: Configure Data Discovery patterns
 description: Configure a Data Discovery pattern and review current patterns. A Data Discovery pattern defines the regular expression used to match data against a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/data-discovery/configure-data-discovery-patterns.html
 release: xanadu
 product: Data Discovery
 classification: data-discovery

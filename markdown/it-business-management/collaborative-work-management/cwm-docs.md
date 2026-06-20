@@ -2,6 +2,7 @@
 title: Collaborative documentation using CWM
 description: Manage all kinds of documentation for work such as meeting notes, project requirements, or technical specifications using rich text Docs with real-time collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/collaborative-work-management/cwm-docs.html
 release: xanadu
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -42,7 +43,7 @@ The following are the key features of Docs:
 
 With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.
 
-![Doc real-time collaboration.](../images/cwm-docs-rtc.png)
+\[Omitted image "cwm-docs-rtc.png"\] Alt text: Doc real-time collaboration.
 
 **Note:** Application performance may degrade with a large number of concurrent editors.
 
@@ -53,12 +54,12 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 -   Summarize, elaborate, or shorten selected text.
 -   Summarize the entire content on the page.
 
-    ![Summarize page content with Now Assist for CWM.](../../now-assist-cwm/images/cwm-na-doc-summarization.png)
+    \[Omitted image "cwm-na-doc-summarization.png"\] Alt text: Summarize page content with Now Assist for CWM.
 
 
 **Note:**
 
--   Docs summarization in Collaborative Work Management is a Now Assist for CWM skill. For more information, see [Configure Now Assist for Collaborative Work Management \(CWM\)](../../now-assist-cwm/task/configure-now-assist-for-collaborative-work-management.md)
+-   Docs summarization in Collaborative Work Management is a Now Assist for CWM skill. For more information, see [Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 -   If there is more content to summarize, you can exclude some content and retry.
 -   The summary is AI generated. So, it's recommended to review the text to ensure its accuracy.
 
@@ -66,18 +67,18 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 Use the generative AI capabilities of Now Assist to create tasks from the context of your Docs and help you add them to the required Board in CWM workspace.
 
-**Note:** Tasks generation is a is a Now Assist for CWM skill. For more information, see [Configure Now Assist for Collaborative Work Management \(CWM\)](../../now-assist-cwm/task/configure-now-assist-for-collaborative-work-management.md)
+**Note:** Tasks generation is a is a Now Assist for CWM skill. For more information, see [Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 
-![Automatic task generation from CWM Docs using Now Assist for CWM.](../../now-assist-cwm/images/cwm-task-generation-now-assist.png)
+\[Omitted image "cwm-task-generation-now-assist.png"\] Alt text: Automatic task generation from CWM Docs using Now Assist for CWM.
 
--   **[Create a Doc in CWM](../task/create-a-doc-in-cwm.md)**  
+-   **[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)**  
 Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
--   **[Manage pages and subpages in CWM Docs](../task/manage-pages-and-subpages-in-cwm-docs.md)**  
+-   **[Manage pages and subpages in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/manage-pages-and-subpages-in-cwm-docs.md)**  
 Flexibly organize information for your teams and work items by creating, duplicating, and deleting pages and subpages within a Doc in Collaborative Work Management \(CWM\) workspace.
--   **[Duplicate a Doc in CWM](../task/duplicate-doc-in-cwm.md)**  
+-   **[Duplicate a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/duplicate-doc-in-cwm.md)**  
 Save time by duplicate an existing Doc to copy all its pages and content without having to copy the information manually in the Collaborative Work Management workspace.
--   **[Export a Doc in CWM to a PDF file](../task/export-a-doc-in-cwm-to-a-pdf-file.md)**  
+-   **[Export a Doc in CWM to a PDF file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/export-a-doc-in-cwm-to-a-pdf-file.md)**  
 Use the Docs offline, and share with teams or stakeholders outside Collaborative Work Management \(CWM\) by exporting Docs as PDF.
 
-**Parent Topic:**[Using Collaborative Work Management](using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

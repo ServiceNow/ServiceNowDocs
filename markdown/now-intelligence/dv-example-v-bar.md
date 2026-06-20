@@ -2,6 +2,7 @@
 title: Vertical bar visualization example
 description: Vertical bar visualizations enable you to show the comparative size or frequency of different categories or groups, for example, sales in different regions or over different periods of time. The X axis of a vertical usually shows a numerical value such years or date ranges, age ranges, or salary ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/dv-example-v-bar.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Vertical bar visualizations enable you to show the comparative size or frequency
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,15 +24,15 @@ Use the vertical bar visualization type to compare different categories or group
 
 ## Procedure
 
-1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](../../reporting/task/create-dv-bar-ac.md):
+1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-bar-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the Vertical bar \(![Vertical bar icon](../../reporting/image/inline-data-vis-96px-bar-vertical.png)\) visualization type.
+    3.  Select the Vertical bar \(\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text: Vertical bar icon\) visualization type.
 
-        ![Animation showing workspace and visualization designer selection, and choosing to create a vertical bar visualization](../../reporting/image/dv-ex-v-bar-select.gif)
+        \[Omitted image "dv-ex-v-bar-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a vertical bar visualization
 
 2.  For the moment, we can skip the header and border section and move to the data source.
 
@@ -47,7 +48,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     A vertical bar data visualization with the current value of the selected data appears in the Visualization Designer. The visualization is grouped by the first field \(alphabetically\) in the table, Begin. This is useful because it shows the outages distributed by a time measurement.
 
-    ![Animation showing selection of data source for vertical bar visualization](../../reporting/image/dv-ex-v-bar-data-source.gif)
+    \[Omitted image "dv-ex-v-bar-data-source.gif"\] Alt text: Animation showing selection of data source for vertical bar visualization
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -69,7 +70,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     Select **Type** and choose **Apply**. The columns now show different colours to distinguish the different types of outages.
 
-    ![Vertical bar additional group by selection with the Type field highlighted](../../reporting/image/dv-ex-v-bar-addl-groupby.png)
+    \[Omitted image "dv-ex-v-bar-addl-groupby.png"\] Alt text: Vertical bar additional group by selection with the Type field highlighted
 
 6.  Under Sorting, maintain the Sort by `Value` and Sort by order `Descending`.
 
@@ -107,7 +108,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     |Stacked|Side-by-side|Normalized|
     |-------|------------|----------|
-    |![Stacked chart variation](../../reporting/image/dv-ex-v-bar-char-var-stacked.png)|![Side by side chart variation](../../reporting/image/dv-ex-v-bar-char-var-sbs.png)|![Normalized chart variation](../../reporting/image/dv-ex-v-bar-char-var-norm.png)|
+    |\[Omitted image "dv-ex-v-bar-char-var-stacked.png"\] Alt text: Stacked chart variation|\[Omitted image "dv-ex-v-bar-char-var-sbs.png"\] Alt text: Side by side chart variation|\[Omitted image "dv-ex-v-bar-char-var-norm.png"\] Alt text: Normalized chart variation|
 
 9.  Configure the Y axis.
 
@@ -123,7 +124,7 @@ Use the vertical bar visualization type to compare different categories or group
 
         In this example, select **Clean** because it's a little bit neater.
 
-        ![Vertical bar visualization with Y axis options](../../reporting/image/dv-ex-v-bar-y-axis.png)
+        \[Omitted image "dv-ex-v-bar-y-axis.png"\] Alt text: Vertical bar visualization with Y axis options
 
     4.  Change the Max label size to `50`.
 
@@ -168,7 +169,7 @@ Use the vertical bar visualization type to compare different categories or group
     -   **Default** applies the colors associated with your UX theme.
     -   **Color palette** uses hues of the same color, for example Sequential - Blues Light to Dark.
 
-        ![CMDB outages by type with blue palette applied](../../reporting/image/dv-ex-v-bar-color-palette-blues.png)
+        \[Omitted image "dv-ex-v-bar-color-palette-blues.png"\] Alt text: CMDB outages by type with blue palette applied
 
     -   **Fixed element color** specifies the same color for each element, such as hardware incidents. All data visualizations that use fixed element colors show the same element in the same color.
 

@@ -2,7 +2,10 @@
 title: Portal Browse Taxonomy widget
 description: The Portal Browse Taxonomy widget displays hierarchical taxonomy topics that enable your users to navigate to knowledge articles and catalog items through the widget's navigation pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/browse-taxo-widget.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configurin
 
 The Portal Browse Taxonomy widget displays hierarchical taxonomy topics that enable your users to navigate to knowledge articles and catalog items through the widget's navigation pane.
 
-![Portal Browse Taxonomy widget displaying knowledge articles and catalog items related to network issues.](../image/browse-taxonomy-widget.jpg "Portal Browse Taxonomy widget")
+\[Omitted image "browse-taxonomy-widget.jpg"\] Alt text: Portal Browse Taxonomy widget displaying knowledge articles and catalog items related to network issues.
 
-For more information about how to configure the Portal Browse Taxonomy widget using the instance options, see [Add and configure the Portal Browse Taxonomy widget](../task/config-portal-browse-taxo-widget.md).
+For more information about how to configure the Portal Browse Taxonomy widget using the instance options, see [Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/config-portal-browse-taxo-widget.md).
 

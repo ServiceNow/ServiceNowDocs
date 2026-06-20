@@ -2,6 +2,7 @@
 title: All other Xanadu fixes
 description: The Xanadu release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-all-other-fixes.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17512,5 +17513,5 @@ PRB1731509
 Add the capability to turn off the zing binary operator 'AND/OR/NOT'
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+</table>**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

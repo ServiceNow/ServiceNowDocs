@@ -2,6 +2,7 @@
 title: Add map to Security Incident Response overview
 description: You can add the map to the Security Incident Response overview to view security incident data by geographical location. A map allows you to drill down to security incident information by location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/t\_AddGeoHeatmapToSIROverview.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -31,12 +32,12 @@ Role required: sn\_si.admin
 
 5.  In the third selection box, click **Security Incident map**.
 
-    ![Security Incident Response map.](../image/SecurityIncidentGeoHeatmap.png)
+    \[Omitted image "SecurityIncidentGeoHeatmap.png"\] Alt text: Security Incident Response map.
 
 6.  At the bottom of the screen, click the location on the screen you want to add to the report.
 
 7.  Close the **Add content** box.
 
 
-**Parent Topic:**[Security incident map](../concept/c_SecurityIncidentGeoHeatmap.md)
+**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
 

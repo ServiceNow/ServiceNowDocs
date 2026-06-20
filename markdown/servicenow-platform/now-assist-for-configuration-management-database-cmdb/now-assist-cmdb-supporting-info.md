@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for CMDB
 description: Get a quick overview of the important information that is related to the Now Assist for CMDB application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-supporting-info.html
 release: xanadu
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,7 +20,7 @@ Get a quick overview of the important information that is related to the Now Ass
 
 Now Assist for CMDB is supported starting with Xanadu patch 3.
 
-For more information, see [Configuring Now Assist for Configuration Management Database \(CMDB\)](now-assist-cmdb-configuring.md).
+For more information, see [Configuring Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md).
 
 ## Languages supported
 
@@ -34,5 +35,5 @@ Now Assist for CMDB supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Enable translation for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US)
+For more info, see 
 

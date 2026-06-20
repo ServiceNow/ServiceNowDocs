@@ -2,6 +2,7 @@
 title: Create a Knowledge Graph schema
 description: Use the Knowledge Graph to create Knowledge Graph schemas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/knowledge-graph/creating-a-new-knowledge-graph-schema.html
 release: xanadu
 product: Knowledge Graph
 classification: knowledge-graph
@@ -49,26 +50,26 @@ Role required: kg\_admin
 
 6.  Enter or search for the nodes that you want to add to the Knowledge Graph schema and select **Add**.
 
-    ![Add nodes.](../Images/add-nodes.png)
+    \[Omitted image "add-nodes.png"\] Alt text: Add nodes.
 
     The Knowledge Graph schema​ is created and displayed on the Knowledge Graph canvas.
 
 7.  In the navigation pane, add the following details:
 
-    ![Knowledge Graph canvas.](../Images/kg-canvas.png)
+    \[Omitted image "kg-canvas.png"\] Alt text: Knowledge Graph canvas.
 
 8.  In the Node details section, you can edit the following fields.
 
     -   Node type
     -   Node Description
-    ![Node details.](../Images/edit-node-details.png)
+    \[Omitted image "edit-node-details.png"\] Alt text: Node details.
 
 9.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
 
-    ![Columns that can be queried.](../Images/columns-that-can-be-queried.png)
+    \[Omitted image "columns-that-can-be-queried.png"\] Alt text: Columns that can be queried.
 
 10. Add, delete, or edit edges in the Related nodes section and select **Save**.
 
-    ![Related nodes.](../Images/related-nodes.png)
+    \[Omitted image "related-nodes.png"\] Alt text: Related nodes.
 
 

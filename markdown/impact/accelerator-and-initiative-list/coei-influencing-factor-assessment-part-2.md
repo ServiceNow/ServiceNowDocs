@@ -2,6 +2,7 @@
 title: CoEI Influencing Funding Strategy
 description: The Center of Excellence &amp; Innovation \(CoEI\) Funding Strategy Accelerator advises Impact customers on how to identify and develop a strategic CoEI Funding approach.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

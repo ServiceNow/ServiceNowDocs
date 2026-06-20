@@ -2,6 +2,7 @@
 title: Create campaign success goals
 description: Create your own success goals to see how your campaign is progressing and learn how to use baselines to compare against your target goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ecpro-create-campaign-success-criteria.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -308,5 +309,5 @@ Percentage of cases deflected or created that you target for your campaign.
     After the Content Experiences: Evaluate Campaign Success Goals scheduled job runs \(daily by default\), the base count and evaluation period count populates.
 
 
-**Parent Topic:**[Analyzing your campaign for effectiveness](../concept/ecpro-content-automation-reevaluate-audience.md)
+**Parent Topic:**[Analyzing your campaign for effectiveness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.md)
 

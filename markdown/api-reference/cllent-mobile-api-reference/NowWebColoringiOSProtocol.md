@@ -2,6 +2,7 @@
 title: NowWebColoring protocol - iOS
 description: The NowWebColoring protocol provides default values for the colors used within web pages hosted on your ServiceNow instance in a native web view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/cllent-mobile-api-reference/NowWebColoringiOSProtocol.html
 release: xanadu
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -203,5 +204,5 @@ public extension NowWebColoring {
 }
 ```
 
-**Parent Topic:**[Mobile SDK API reference - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

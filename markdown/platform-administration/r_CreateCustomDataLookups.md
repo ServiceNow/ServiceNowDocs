@@ -2,6 +2,7 @@
 title: Create custom data lookups
 description: Creating custom data lookups involves adding a lookup value, creating the definition, and activating data lookup.Create a custom table to store lookup data.The columns of a data lookup table contain both matcher and setter field data.Data lookup requires a definition record that specifies how to set one or more field values when specified conditions are met.You can create a module for data lookup so it appears in the instance application navigator.If the custom data lookup definition rules are not behaving as expected, check for certain conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_CreateCustomDataLookups.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -13,7 +14,7 @@ breadcrumb: [Data lookup and record matching support, Field administration, Form
 
 Creating custom data lookups involves adding a lookup value, creating the definition, and activating data lookup.
 
-**Parent Topic:**[Data lookup and record matching support](../concept/c_DataLookRecMatchSupport.md)
+**Parent Topic:**[Data lookup and record matching support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_DataLookRecMatchSupport.md)
 
 ## Create a custom data lookup table
 
@@ -66,7 +67,7 @@ Each data lookup is a query that searches for a row containing values that match
     |Priority|Integer| |
     |Assignment Group|Reference|Group \[sys\_user\_group\]|
 
-    For more information, see [List configuration](../../list-administration/concept/c_ListConfiguration.md).
+    For more information, see [List configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_ListConfiguration.md).
 
 3.  From the table list, click **New** and enter appropriate matcher and setter field values.
 
@@ -78,7 +79,7 @@ Each data lookup is a query that searches for a row containing values that match
     |Beth Anglin|2|VIP Issues|
     |Fred Luddy|1|VIP Issues|
 
-    ![Custom lookup values](../image/CustomLookupValues.png)
+    \[Omitted image "CustomLookupValues.png"\] Alt text: Custom lookup values
 
     **Note:** Each row in a data lookup table must be unique.
 
@@ -238,7 +239,7 @@ Select this check box to require the matcher table to contain a matching row for
 
     For example, the following data lookup definition assigns incidents to the VIP Issues group based on the **Caller** field. In addition, the incidents are set to critical or high priority based on the caller.
 
-    ![Data lookup definition](../image/DataLookupDefinition.png)
+    \[Omitted image "DataLookupDefinition.png"\] Alt text: Data lookup definition
 
 
 ## Create a data lookup module

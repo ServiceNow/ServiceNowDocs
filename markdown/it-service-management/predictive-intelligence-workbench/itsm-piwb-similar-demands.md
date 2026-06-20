@@ -2,6 +2,7 @@
 title: Similar Demands
 description: Use this template to include the demand name and description as inputs to list similar demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-similar-demands.html
 release: xanadu
 product: Predictive Intelligence Workbench
 classification: predictive-intelligence-workbench
@@ -43,13 +44,13 @@ When the use case template shows the label **Pretrained**, you can go directly t
 
     Creating a model involves the following: creating a word corpus, defining a similarity prediction rule, defining the initial training frequency, and defining the refresh frequency.
 
-    1.  [Create a word corpus](https://www.servicenow.com/docs/access?context=create-word-corpus&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    1.  Create a word corpus.
 
         When creating a word corpus on the Word Corpus Content form, select an incidents-related table, such as Incident \[incidents\] in the **Table** field and define the time frame that best describes the current usage of words in the **Filter** field. For example, if your IT system experienced a major infrastructure change six months back, use data from the last six months only. In the **Field List** field, define only the fields that best capture the words: **Description**, **Short description**, and **Resolution notes**. Defining these alone is typically enough, since the prediction rule is expected to find incidents based on the short description.
 
         Creating the word corpus prepares you for the next step, creating the similarity prediction rule.
 
-    2.  [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    2.  Create and train a similarity solution.
 
     3.  For this initial model creation, provide the similarity solution definition label `Similar Incidents` in the **Label** field.
 
@@ -69,25 +70,25 @@ When the use case template shows the label **Pretrained**, you can go directly t
 
         Alternatively, you can click **Submit** to save your similarity solution record and return to train it later.
 
-4.  [Evaluation and tune your model](https://www.servicenow.com/docs/access?context=review-similarity-examples&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+4.  Evaluation and tune your model.
 
     If you have a similarity score above 60, but the two incidents do not look similar, you may want to create another model, word corpus, or both by changing inputs and filters. Keep in mind that modifying the solution definition will help you create a new solution, but it will invalidate the previous solution.
 
     If you want to revert back to the previous solution definition, you will have to reset the parameters and retrain the solution. Therefore, first try creating a new similarity model before creating a new word corpus.
 
-    If you want to adjust the score for your similarity solution, refer to [Update your similarity score threshold](https://www.servicenow.com/docs/access?context=update-similarity-threshold&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    If you want to adjust the score for your similarity solution, refer to Update your similarity score threshold.
 
-5.  Once you have a satisfactory model, [test the similarity solution prediction](https://www.servicenow.com/docs/access?context=test-similarity-solution-prediction&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+5.  Once you have a satisfactory model, test the similarity solution prediction.
 
     You can manually provide inputs and select the top similar results outcome values.
 
-6.  Once you have tested the behavior, [configure the user experience](https://www.servicenow.com/docs/access?context=configuring-advanced-settings-ml-solutions&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) layout to show attributed results and actions performed on the results.
+6.  Once you have tested the behavior, configure the user experience layout to show attributed results and actions performed on the results.
 
     You can configure these results and actions via Workspace UI for Agent assist or via the ServiceNow AI Platform for Contextual Search. Configure actions and search context though **Tables** configuration and user experience and card layout through **Contextual Search** &gt; **Search Result Display Configuration**.
 
-7.  [Integrate trained models by exporting them to production](https://www.servicenow.com/docs/access?context=implement-iterative-solution-updates&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+7.  Integrate trained models by exporting them to production.
 
-    **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](../concept/itsm-piwb-integ-implem-custom.md).
+    **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-integ-implem-custom.md).
 
 8.  Monitor similarity results and ensure IT agents are providing useful feedback.
 
@@ -97,6 +98,6 @@ When the use case template shows the label **Pretrained**, you can go directly t
 
     Select one or more KPIs that you think is most beneficial to your IT agents. Create a Performance Analytics dashboard showing the trend of these KPIs. The “likes” you get from your IT agents via the feedback mechanism helps you communicate the value of Predictive Intelligence.
 
-    For information regarding the Predictive Intelligence for Incidents dashboard, refer to [ITSM Predictive Intelligence Workbench dashboard](../../../use/dashboards/application-content-packs/itsm-piwb-incidents-dashboard.md).
+    For information regarding the Predictive Intelligence for Incidents dashboard, refer to [ITSM Predictive Intelligence Workbench dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/predictive-intelligence-workbench/itsm-piwb-incidents-dashboard.md).
 
 

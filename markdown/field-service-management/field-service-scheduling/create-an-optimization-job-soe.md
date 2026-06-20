@@ -2,6 +2,7 @@
 title: Create a scope for Schedule Optimization
 description: A scope defines the scheduling attribute configuration, horizon offset, horizon range, and qualifiers for an optimization run. Scopes are required for batch optimization to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-an-optimization-job-soe.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling

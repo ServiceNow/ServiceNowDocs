@@ -2,6 +2,7 @@
 title: Control data source availability by role
 description: Limit by role the data sources for which users can create data visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/dv-use-data-source-acl.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -33,7 +34,7 @@ By default, all roles can create data visualizations for all data sources. You c
 
     Your choices include any custom data sources that you have created in the Viz Framework Data Sources \[sys\_viz\_data\_source\] table.
 
-3.  Select the **Edit user roles** icon \(![pencil icon](../../dashboards/image/icon-pencil-ac.png)\) next to Roles.
+3.  Select the **Edit user roles** icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) next to Roles.
 
 4.  In the **Available** field, highlight those roles that should be able to create data visualizations for this data source.
 
@@ -48,21 +49,21 @@ By default, all roles can create data visualizations for all data sources. You c
 
 ## Impact of limiting data source by role
 
-Abel Tuter is a top business analyst. Abel has the pa\_power\_user role and can create indicators. Alissa Mountjoy is a technical expert who schedules [data collection jobs](../../performance-analytics/concept/performance-analytics-glossary.md#) for indicators, but is not a business analyst and does not create indicators. Alissa has the pa\_data\_collector role. By default, both Abel and Alissa can create data visualizations based on an indicator.
+Abel Tuter is a top business analyst. Abel has the pa\_power\_user role and can create indicators. Alissa Mountjoy is a technical expert who schedules [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/performance-analytics/performance-analytics-glossary.md) for indicators, but is not a business analyst and does not create indicators. Alissa has the pa\_data\_collector role. By default, both Abel and Alissa can create data visualizations based on an indicator.
 
 Abel creates a time series data visualization on the Number of Open Incidents indicator. Abel shares this visualization with Alissa, also granting editing rights.
 
-![Share Visualization dialog with Alissa Mountjoy being given editing permission.](../image/dv-acl-add-alissa-editor.png)
+\[Omitted image "dv-acl-add-alissa-editor.png"\] Alt text: Share Visualization dialog with Alissa Mountjoy being given editing permission.
 
 Alissa can open this visualization in edit mode, accessing the configuration panel. She can edit the data source. She can also create a visualization herself using an incident data source.
 
-![The Number of open incidents data visualization in edit mode, with Alissa Mountjoy the logged-in user and able to edit the data source.](../image/dv-alissa-editing.png)
+\[Omitted image "dv-alissa-editing.png"\] Alt text: The Number of open incidents data visualization in edit mode, with Alissa Mountjoy the logged-in user and able to edit the data source.
 
 As a system administrator, you decide that only business experts with the pa\_power\_user role should be able to create data visualizations based on indicators.
 
-![Visual Data Sources Visibility record limiting indicator data sources to pa_power_user role.](../image/dv-data-source-role-record.png)
+\[Omitted image "dv-data-source-role-record.png"\] Alt text: Visual Data Sources Visibility record limiting indicator data sources to pa\_power\_user role.
 
 Alissa still has editing rights to the data visualization, but can no longer edit the data source. Neither can Alissa create a data visualization with an incident data source.
 
-![The Number of open incidents data visualization in edit mode, with Alissa Mountjoy the logged-in user and unable to edit the data source.](../image/dv-alissa-cant-edit.png)
+\[Omitted image "dv-alissa-cant-edit.png"\] Alt text: The Number of open incidents data visualization in edit mode, with Alissa Mountjoy the logged-in user and unable to edit the data source.
 

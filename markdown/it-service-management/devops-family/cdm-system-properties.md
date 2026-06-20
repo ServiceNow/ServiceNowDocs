@@ -2,13 +2,14 @@
 title: CDM system properties
 description: CDM system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/devops-family/cdm-system-properties.html
 release: xanadu
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
-breadcrumb: [Configure, DevOps Config, IT Service Management]
+breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
 # CDM system properties

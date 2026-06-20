@@ -2,6 +2,7 @@
 title: Exploring Mentoring
 description: Mentoring is a new and modern platform that provides an opportunity for employees to find and build meaningful mentoring relationships to drive employee growth and engagement.Learn how to set up and start using Mentoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/mentoring/exploring-mentoring-egd.html
 release: xanadu
 product: Mentoring
 classification: mentoring
@@ -15,10 +16,10 @@ breadcrumb: [Mentoring, Talent Development, Employee Service Management]
 
 Mentoring is a new and modern platform that provides an opportunity for employees to find and build meaningful mentoring relationships to drive employee growth and engagement.
 
--   **[Mentoring home page](mentoring-home-egd.md)**  
+-   **[Mentoring home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/mentoring-home-egd.md)**  
 Mentoring home page provides you with a bird's eye view of all your mentorship relationships, requests, and programs.
 
-**Parent Topic:**[Mentoring](mentoring-egd-overview.md)
+**Parent Topic:**[Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/mentoring-egd-overview.md)
 
 ## Exploring Mentoring
 
@@ -32,7 +33,7 @@ You can activate the Mentoring from the ServiceNow store. This application inclu
 
 ### Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ### Licensing
 
@@ -42,13 +43,13 @@ Mentoring leverages the new Talent Development licensing module. This licensing 
 
 Mentoring comes with optional demo data.
 
-For more information, see [Configuring mentoring](configuring-mentoring-egd.md) and [Mentoring reference](../reference/mentoring-egd-reference.md).
+For more information, see [Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/configuring-mentoring-egd.md) and [Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/mentoring-egd-reference.md).
 
 ### Using Mentoring
 
 Use Mentoring to get a better understanding of your learnings. Act on items that need immediate attention, keep yourself up to date on upcoming content items, courses, and so on.
 
-For more information, see [Using Mentoring](using-mentoring-egd.md).
+For more information, see [Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mentoring/using-mentoring-egd.md).
 
 ### Skills Foundation integration with Mentoring
 

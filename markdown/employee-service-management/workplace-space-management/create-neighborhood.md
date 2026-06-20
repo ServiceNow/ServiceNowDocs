@@ -2,6 +2,7 @@
 title: Create a neighborhood for workplace users
 description: Create a neighborhood and assign users to available spaces in a neighborhood. Add or remove users in bulk and allocate available neighborhood spaces to users in a department, cost center, or group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-space-management/create-neighborhood.html
 release: xanadu
 product: Workplace Space Management
 classification: workplace-space-management
@@ -19,7 +20,7 @@ Create a neighborhood and assign users to available spaces in a neighborhood. Ad
 
 **Note:** Verify that Workplace Core is installed to set up and manage neighborhoods.
 
-**Important:** If you’re using Workplace Space Management version1.11.1 or later, to add a user to the neighborhood, refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
+**Important:** If you’re using Workplace Space Management version1.11.1 or later, to add a user to the neighborhood, refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-space-management/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
 
 **Important:** From Workplace Space Management version 1.11.1, the **Neighbourhood User Assignments** table is no longer available. Instead, the user assignment can be performed on a workplace profile directly using the **Workplace Profile Location Assignment** table \(displayed a related list on the form\) in the Workplace Core application. The **Workplace Profile Location Assignment** in the Workplace Core is now configured with additional fields such as **Profile type**, **Neighborhood**, and **Source** where all the data is saved. This table helps a space manager to perform scenario planning and save any user assignment-related changes performed on a neighborhood directly on the workplace profile.
 
@@ -61,7 +62,7 @@ Active
 
 </td><td>
 
-Status of the neighborhood workplace location.The availability of a workplace location for any workplace-related activities is determined based on the status that is set. For more information, see [Change the status of a workplace location](change-active-status-of-workplace-location.md).
+Status of the neighborhood workplace location.The availability of a workplace location for any workplace-related activities is determined based on the status that is set. For more information, see [Change the status of a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-space-management/change-active-status-of-workplace-location.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Restricted
 
 </td><td>
 
-A private or restricted neighborhood.If an employee is assigned to the neighborhood by user assignment rule or is added manually \(on-demand basis\), the employee can reserve a space in the neighborhood. Otherwise, employees won’t see the neighborhoods. see [Location privacy settings and impact](../../wsd-reservation-management/reference/location-privacy-settings-and-impact.md).
+A private or restricted neighborhood.If an employee is assigned to the neighborhood by user assignment rule or is added manually \(on-demand basis\), the employee can reserve a space in the neighborhood. Otherwise, employees won’t see the neighborhoods. see [Location privacy settings and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/location-privacy-settings-and-impact.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -117,7 +118,7 @@ Filter
 
 Filter to show the number of matching records that match the conditions in the condition builder.The space planner can assign spaces in a neighborhood based on department, business unit, cost center, or group.
 
-For more information about filters, see [Filter condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+For more information about filters, see Filter condition builder.
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ Neighborhood
 
 </td><td>
 
-Neighborhood field. Select a neighborhood using the lookup list icon \(![Lookup list icon](../../workplace-case-mgmt/image/search-icon.png)\) to search for available neighborhoods.
+Neighborhood field. Select a neighborhood using the lookup list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup list icon\) to search for available neighborhoods.
 
 </td></tr><tr><td>
 
@@ -225,7 +226,7 @@ Option to make users active in a neighborhood.
 
 13. Select the **Execute User Assignments** tab to trigger all assignment rules \(users to added or removed space allocation\) to this neighborhood directly.
 
-    ![Neighborhood with assigned users and spaces](../images/neighborhood-auto-assigned.png "Neighborhood showing allocated spaces and users")
+    \[Omitted image "neighborhood-auto-assigned.png"\] Alt text: Neighborhood with assigned users and spaces
 
     **Note:** Neighborhood assignments are applicable if Neighborhood is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
@@ -240,10 +241,10 @@ Option to make users active in a neighborhood.
 
         Workplace Profile records are updated, added, or removed. A move task is initiated for employees who have a new space allocation and who are moved from one floor to another.
 
-14. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](../../workplace-central/task/create-a-scenario.md).
+14. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown).
 
-15. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](../../wsd-reservation-management/task/create-neighborhood-reservations.md).
+15. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
 
-16. To add a user to the neighborhood, refer to [Add a user to the neighborhood](add-a-user-to-neighbourhood.md).
+16. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-space-management/add-a-user-to-neighbourhood.md).
 
 

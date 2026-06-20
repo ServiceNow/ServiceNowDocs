@@ -2,6 +2,7 @@
 title: Redirect a reference to a page ID
 description: Redirect all references from Service Portal widgets to a certain page to point to a new page with a single record to avoid manually replacing the hard-coded page ID in widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/reroute-page.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -53,5 +54,5 @@ Creating a record in the Page Route Maps table only redirects references to a pa
 
 All references to the page listed in the **Route from** field redirect to the page in the **Route to** field.
 
-**Parent Topic:**[Creating portal pages](../concept/c_Pages.md)
+**Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/c_Pages.md)
 

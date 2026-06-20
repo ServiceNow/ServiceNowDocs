@@ -2,6 +2,7 @@
 title: Excluding passwords through password policies on your instance
 description: Add passwords to the Excluded Password table to prohibit specific passwords from being used by users on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/blacklist-passwords.html
 release: xanadu
 product: Authentication
 classification: authentication

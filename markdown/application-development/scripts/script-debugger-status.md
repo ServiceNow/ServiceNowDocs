@@ -2,6 +2,7 @@
 title: Script Debugger status
 description: The Script Debugger status determines what debugging actions are available and what information it can display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/script-debugger-status.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ The Script Debugger status determines what debugging actions are available and w
 
 The Script Debugger displays its status at the bottom left of the user interface.
 
-![The Script Debugger Status field showing the sample status EXECUTION_PAUSED](../image/script-debugger-status.png "Sample Script Debugger status")
+\[Omitted image "script-debugger-status.png"\] Alt text: The Script Debugger Status field showing the sample status EXECUTION\_PAUSED
 
 <table id="table_dty_1dm_zw"><thead><tr><th>
 
@@ -124,5 +125,5 @@ chars: 20,731, SQL time: 50 (count: 34), business rule: 0 (count: 0), phase 1
 form length 56,464, largest chunk written: 10,428, request parms size: 40, largest input read: 0
 ```
 
-**Parent Topic:**[Script Debugger and Session Log](script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/script-debugger.md)
 

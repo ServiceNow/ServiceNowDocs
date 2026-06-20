@@ -2,7 +2,10 @@
 title: System properties for configuring Walk-up Experience for guest users
 description: System properties enable you to configure the Walk-up Experience for guest users to access the Walk-up Check-in widget from the Service Portal home page and schedule appointments online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-guest-configure.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1

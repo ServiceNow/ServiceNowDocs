@@ -2,6 +2,7 @@
 title: Enable links to records
 description: Adding the special $\{URI\} parameter to an outbound email body or template creates a link to a specific record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_EnableLinksToServiceNowRecords.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Adding the special **$\{URI\}** parameter to an outbound email body or template 
 
 When a user clicks the word **LINK**, the instance prompts the user to log in if not already logged in, and then redirects the user to the record specified in the URI.
 
-![](../../../administer/notification/image/EmailURI.png "URI email notification")
+\[Omitted image "EmailURI.png"\] Alt text:
 
 The **$\{URI\}** parameter has an extension called the **$\{URI+\}** format to specify additional arguments in the email link, such as sysparm terms, in addition to the automatically created URI. For example \(whitespace added for improved readability\):
 
@@ -39,5 +40,5 @@ current.assigned_to.nil()
 
 Additionally, the script sets the view to incident\_active.
 
-**Parent Topic:**[Links to records in email notifications](../../../administer/notification/concept/c_EnablingLinksToServiceNowRecords.md)
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnablingLinksToServiceNowRecords.md)
 

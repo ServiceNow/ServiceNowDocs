@@ -2,6 +2,7 @@
 title: Integrate Legal Matter Management with the Legal Tracker application
 description: Learn more about the integration through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/explore-legal-tracker.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -48,8 +49,8 @@ The benefits of integration are:
 
 To integrate Legal Matter Management with Legal Tracker, complete the following actions:
 
--   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US) Spoke.
--   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](configurations-for-legal-tracker-integration.md).
+-   Install the Legal Tracker spoke. For more information, see Legal Tracker Spoke.
+-   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md).
 
-**Parent Topic:**[Exploring Legal Matter Management](../../legal-matter-management/concept/legal-matter-management-overview.md)
+**Parent Topic:**[Exploring Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-matter-management/legal-matter-management-overview.md)
 

@@ -2,6 +2,7 @@
 title: Remove UR administrator role from system administrator
 description: To secure your information from undue access, after system configuration, ensure that only the Universal Request \(UR\) administrator \[sn\_uni\_req.ur\_admin\] role has access to sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/universal-request-for-hr-service-delivery/remove-admin-role-ur.html
 release: xanadu
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -48,5 +49,5 @@ Also, ensure that the same users have the System Administrator \[admin\] role to
 7.  Log out.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

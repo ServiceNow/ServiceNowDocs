@@ -2,6 +2,7 @@
 title: Virtual Machine \(VM\) discovery
 description: Discovery and Service Mapping Patterns identify and classify information about virtual machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/r\_DataCollDiscoVirtualMachines.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,7 +18,7 @@ Discovery and Service Mapping Patterns identify and classify information about v
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
@@ -36,5 +37,5 @@ After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\)
 |vCenter Reference|cmdb\_ci\_vmware\_instance|vcenter\_ref|
 |vCenter Reference UUID|cmdb\_ci\_vmware\_instance|vcenter\_uuid|
 
-**Parent Topic:**[Operating systems discovery](../concept/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/c_Computers.md)
 

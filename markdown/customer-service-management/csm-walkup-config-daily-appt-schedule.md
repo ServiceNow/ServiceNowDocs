@@ -2,7 +2,10 @@
 title: Configure daily schedules for Walk-up Experience service appointment booking
 description: Specify different daily hours of operation for your Walk-up Experience location appointment booking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-walkup-config-daily-appt-schedule.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -42,7 +45,7 @@ Create a unique appointment booking schedule for each day of the week or for spe
     |Repeats|Indicate the recurrence for this availability schedule. For example, **Weekly on Tue and Thu**.|
     |Repeat until|Specify how long you want this availability schedule to run by selecting an end date.|
 
-    ![Schedule Entry record displaying different configuration fields to create a schedule entry that occurs weekly on Tuesdays and Thursdays.](../image/TuesdayThursdayExcluded.png)
+    \[Omitted image "TuesdayThursdayExcluded.png"\] Alt text: Schedule Entry record displaying different configuration fields to create a schedule entry that occurs weekly on Tuesdays and Thursdays.
 
 5.  Click **Submit**.
 
@@ -60,6 +63,6 @@ Create a unique appointment booking schedule for each day of the week or for spe
 
 10. Determine that appointments are only available on Tuesdays and Thursdays from 9:00am to 12:00pm.
 
-    ![Appointment page displaying a calendar with available slots to schedule a service appointment.](../image/SelectAnAppointment.png)
+    \[Omitted image "SelectAnAppointment.png"\] Alt text: Appointment page displaying a calendar with available slots to schedule a service appointment.
 
 

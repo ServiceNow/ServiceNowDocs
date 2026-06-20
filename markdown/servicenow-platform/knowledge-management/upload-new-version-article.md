@@ -2,6 +2,7 @@
 title: Create an article version by importing a Word document
 description: Import a Word document to a knowledge article to create a new version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/knowledge-management/upload-new-version-article.html
 release: xanadu
 product: Knowledge Management
 classification: knowledge-management
@@ -44,5 +45,5 @@ Role required: admin
     A draft version is created and sent to approvers to approve or reject. Once the article is approved, it is displayed in the **Article Versions** related list.
 
 
-**Parent Topic:**[Creating and maintaining articles](../../../creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

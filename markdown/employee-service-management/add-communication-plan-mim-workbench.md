@@ -2,7 +2,10 @@
 title: Add communication plan from MIM workbench
 description: You can create a new communication plan or add a new communication task to an existing communication plan from the workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/add-communication-plan-mim-workbench.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ You can create a new communication plan or add a new communication task to an ex
 
 ## Before you begin
 
-Ensure you have installed the required plugins to be able to use Major Incident Management \(MIM\) workbench. For more information, see [ServiceNow for Microsoft Teams and Microsoft 365](../concept/c_ServiceNowForMSTeams.md).
+Ensure you have installed the required plugins to be able to use Major Incident Management \(MIM\) workbench. For more information, see [ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/c_ServiceNowForMSTeams.md).
 
 Role required: major\_incident\_manager
 
@@ -47,10 +50,10 @@ Role required: major\_incident\_manager
 8.  Click **Save**.
 
 
--   **[Send a notification from Major incident management workbench](send-mim-notification.md)**  
+-   **[Send a notification from Major incident management workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/send-mim-notification.md)**  
 Send a Microsoft Teams notification to the stakeholders associated with a major incident.
--   **[View notifications for a major incident](notifications-major-incident.md)**  
+-   **[View notifications for a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)**  
 View the notifications that are sent during specific events in a major incident. These notifications are sent to all the stakeholders associated with the major incident.
 
-**Parent Topic:**[Agent actions](../concept/agent-sn-ms-teams.md)
+**Parent Topic:**[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/agent-sn-ms-teams.md)
 

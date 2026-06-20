@@ -2,6 +2,7 @@
 title: Using Document Intelligence
 description: Use document tasks to process documents for classification and data extraction in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/doc-intel-using.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -21,10 +22,10 @@ For document tasks that aren’t yet fully automated, training the DocIntel AI i
 
 Process document tasks in the following steps:
 
-1.  [Create a document task](../task/upload-documents-for-extraction.md).
+1.  [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/upload-documents-for-extraction.md).
     1.  Create the task record.
     2.  Process the document task.
-2.  [Complete a document task](../task/extract-data-from-documents.md).
+2.  [Complete a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/extract-data-from-documents.md).
     1.  Use the Document Intelligence workspace to train the AI.
     2.  Submit the document task.
 

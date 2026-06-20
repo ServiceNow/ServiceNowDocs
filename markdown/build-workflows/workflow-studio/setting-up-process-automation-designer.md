@@ -2,6 +2,7 @@
 title: Configuring playbooks
 description: Set up and monitor playbooks and Playbook Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/setting-up-process-automation-designer.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -23,10 +24,10 @@ Set up and monitor playbooks and Playbook Experience.
 
 2.  Configure Playbooks user access and properties.
 
--   **[Activate playbooks](activate-process-automation-designer.md#)**  
+-   **[Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/activate-process-automation-designer.md)**  
 Activate the application to create playbooks for any of your use cases.
--   **[Administering playbooks](administering-process-automation-designer.md)**  
+-   **[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
 Monitor and troubleshoot issues by reviewing playbook executions.
 
-**Parent Topic:**[Configuring Workflow Studio](../../workflow-studio/concept/configuring-workflow-studio.md)
+**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/configuring-workflow-studio.md)
 

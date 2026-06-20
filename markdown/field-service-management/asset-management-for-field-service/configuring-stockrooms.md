@@ -2,6 +2,7 @@
 title: Configuring stockrooms
 description: Configure stockrooms to strategically arrange and organize physical or virtual spaces to store and manage inventory items, such as assets or parts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/asset-management-for-field-service/configuring-stockrooms.html
 release: xanadu
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
@@ -21,7 +22,7 @@ Stockrooms are used to store and manage the inventory items required for field s
 
 The steps for setting up stockrooms are:
 
-1.  [Create stockroom for Field Service Management assets](../task/create-stockroom-fsm.md)
+1.  [Create stockroom for Field Service Management assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/asset-management-for-field-service/create-stockroom-fsm.md)
 
     Establish a stockroom to store assets, enabling effective tracking and management of your inventory.
 

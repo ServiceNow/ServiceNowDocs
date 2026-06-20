@@ -2,6 +2,7 @@
 title: View the domain or URL for a web/SaaS application
 description: View the domain or web address of a web/SaaS application to access the application and use it effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/view-app-url.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,7 +24,7 @@ Role required: sn\_dex.user or ITIL
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and from the left pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 2.  Select the **Manage applications** card.
 

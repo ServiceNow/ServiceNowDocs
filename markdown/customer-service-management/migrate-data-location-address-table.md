@@ -2,7 +2,10 @@
 title: Data migration from Location to Account Address table
 description: Users can migrate their data from the Location table to the Account Address table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/migrate-data-location-address-table.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

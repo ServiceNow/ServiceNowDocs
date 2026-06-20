@@ -2,6 +2,7 @@
 title: GlideEncrypter - Global \(deprecated\)
 description: The GlideEncrypter API provides methods to encrypt and decrypt strings using the Triple DES algorithm.Creates an instance of the GlideEncrypter class using a default \(static\) encryption key.Creates an instance of the GlideEncrypter class using a given encryption key.Decrypts a clear string using the Triple DES algorithm.Encrypts a clear string using the Triple DES algorithm.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/GlideEncrypterAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -18,17 +19,17 @@ The GlideEncrypter API provides methods to encrypt and decrypt strings using the
 **Note:** The GlideEncrypter API uses the three-key Triple DES encryption standard which [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) has recommended against using to encrypt data after 2023. Please take a moment to review the information below.
 
 -   Starting with the Xanadu family release, the GlideEncrypter API is not recommended for use, as this API is deprecated according to NIST guidelines. With the Zurich release, the GlideEncrypter API will be upgraded to automatically use Key Management Framework.
--   New instance installations and re-installations using the GlideEncrypter API in the ServiceNow AI Platform will not be permitted in the Zurich release planned for September 2025. Use the [Instance Scan](https://www.servicenow.com/docs/access?context=hs-landing-page&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) to identify where GlideEncrypter is used on your instance. Find this tool on your instance by navigating to **Instance Scan** &gt; **Suites** &gt; **GlideEncrypter**.
+-   New instance installations and re-installations using the GlideEncrypter API in the ServiceNow AI Platform will not be permitted in the Zurich release planned for September 2025. Use the  to identify where GlideEncrypter is used on your instance. Find this tool on your instance by navigating to **Instance Scan** &gt; **Suites** &gt; **GlideEncrypter**.
 -   Review the following Knowledge Base article for migration guidance to the applicable replacement solution based on your current use case: [Alternatives to deprecated GlideEncrypter APIs](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986).
 
-If the GlideEncrypter API is no longer used on your instance, you may deprecate 3DES. For details, see [Prepare your instance for GlideEncrypter deprecation](https://www.servicenow.com/docs/access?context=check-3des&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+If the GlideEncrypter API is no longer used on your instance, you may deprecate 3DES. For details, see .
 
 You can use this API in server scripts in the global scope. The GlideEncrypter class has two constructors:
 
 -   GlideEncrypter\(\)
 -   GlideEncrypter\(String key\)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## GlideEncrypter - GlideEncrypter\(\)
 

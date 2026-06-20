@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Accounts Payable Operations \(APO\) skill
 description: If you have the admin role, you can customize a Now Assist for Accounts Payable Operations \(APO\) skill so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,7 +34,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     1.  On the Invoice case summarization for the APO specialists feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../../sourcing-procurement-operations/image/more_vertical_icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make copy**.
 

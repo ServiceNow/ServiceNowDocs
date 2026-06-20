@@ -2,11 +2,12 @@
 title: Create a rate type
 description: You can create rate types using the Rate Types feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/table-administration-and-data-management/CreateRateType.html
 release: xanadu
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Working with the Task table, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d91509e98">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d58569e98">
 
 Field
 
-</th><th align="left" id="d91509e101">
+</th><th align="left" id="d58569e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91509e107">
+</th></tr></thead><tbody><tr><td id="d58569e107">
 
 **Name**
 
@@ -52,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d91509e116">
+</td></tr><tr><td id="d58569e116">
 
 **Description**
 
@@ -60,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d91509e125">
+</td></tr><tr><td id="d58569e125">
 
 **Active**
 
@@ -77,5 +78,5 @@ Deselect the check box to mark the rate type as inactive.**Note:** Inactivating 
 -   The rate type is displayed in the **Rate Types** list.
 -   The rate type if active is also displayed in the **Rate Type** field in the Labor Rate Cards form, Time Worked form, Time Card form, and Time Sheet Portal.
 
-**Parent Topic:**[Time Card Management](../../../administer/task-table/concept/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/table-administration-and-data-management/time-card-management.md)
 

@@ -2,6 +2,7 @@
 title: Normalization suggestions for discovery models
 description: Normalization suggestions are created for discovery models with field values that differ from those in the package or pattern rules. You can accept or reject these suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/normalization-suggestions.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -38,7 +39,7 @@ If you **Reject** the suggestion:
 |Field|Description|
 |-----|-----------|
 |Discovery model|Software discovery model that represents the installed software.|
-|Suggestion status|Suggested [status](c_SAMDiscovery.md) of the normalization process.|
+|Suggestion status|Suggested [status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMDiscovery.md) of the normalization process.|
 |Discovered publisher|Discovered publisher of the software.|
 |Discovered product|Discovered name of the software.|
 |Discovered version|Discovered version of the software.|
@@ -56,5 +57,5 @@ If you **Reject** the suggestion:
 |Platform|Normalized platform of the software product.|
 |Language|Normalized language of the software product.|
 
-**Parent Topic:**[Software discovery and normalization](c_SAMDiscovery.md)
+**Parent Topic:**[Software discovery and normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/c_SAMDiscovery.md)
 

@@ -2,6 +2,7 @@
 title: Create a request change
 description: As a project manager, you might create a request change as the outcome of the action taken to resolve an issue or mitigate a risk. The request change might result in changing the project's scope, resource requirement, cost, or schedule to minimize the impact of a risk or issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/create-project-change-request.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -163,8 +164,8 @@ Additional information to indicate progress on the project request change.
 
 ## What to do next
 
--   Associate the request change with your existing risk, issue, decision, and action records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
--   Create tasks for working on the change request. For more information see, [Create a task from an incident, problem, or change request](t_CreateTaskIntPrblmChange.md).
+-   Associate the request change with your existing risk, issue, decision, and action records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/reassociate-ridac-project.md).
+-   Create tasks for working on the change request. For more information see, [Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/t_CreateTaskIntPrblmChange.md).
 
-**Parent Topic:**[RIDAC records for a project in Project Workspace](../concept/ridac-entries-for-project.md)
+**Parent Topic:**[RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/ridac-entries-for-project.md)
 

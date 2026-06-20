@@ -2,6 +2,7 @@
 title: Add covered products to a quote
 description: Agents can add a covered product to line items in a quote in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/som-quote-add-covered-products.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -25,7 +26,7 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select a quote that you want to add covered product too.
 
@@ -39,15 +40,15 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d40050e138">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d41918e138">
 
 Covered product type
 
-</th><th align="left" id="d40050e141">
+</th><th align="left" id="d41918e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40050e147">
+</th></tr></thead><tbody><tr><td id="d41918e147">
 
 **Covered quote line item**
 
@@ -55,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d40050e156">
+</td></tr><tr><td id="d41918e156">
 
 **Covered sold product**
 
@@ -63,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d40050e168">
+</td></tr><tr><td id="d41918e168">
 
 **Covered install base item**
 

@@ -2,6 +2,7 @@
 title: Access Control List Rules
 description: Rules for access control lists \(ACLs\) restrict access to data by requiring users to pass a set of requirements before they can interact with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/access-control/access-control-rules.html
 release: xanadu
 product: Access Control
 classification: access-control
@@ -17,25 +18,25 @@ Rules for access control lists \(ACLs\) restrict access to data by requiring use
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Exploring](../../../common/image/icon-explore.png) Learn about ACL.](access-control-rules.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Exploring Learn about ACL.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/access-control-rules.md)
 
 </td><td>
 
-[Configure![Configuring](../../../common/image/icon-set-up.png)](../task/t_CreateAnACLRule.md)
+[Configure\[Omitted image "icon-set-up.png"\] Alt text: Configuring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/t_CreateAnACLRule.md)
 
- [Configure ACL.](../task/t_CreateAnACLRule.md)
+ [Configure ACL.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/t_CreateAnACLRule.md)
 
 </td></tr><tr><td>
 
-[Reference![Reference](../../../common/image/icon-reference.png)](../../roles/reference/r_ContextualSecurity.md)
+[Reference\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/r_ContextualSecurity.md)
 
- [Get details about Contextual Security Manager.](../../roles/reference/r_ContextualSecurity.md)
+ [Get details about Contextual Security Manager.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/r_ContextualSecurity.md)
 
 </td><td>
 
-[Advanced![Advanced](../../../common/image/icon-workspace.png)](acl-advanced-config.md)
+[Advanced\[Omitted image "icon-workspace.png"\] Alt text: Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/acl-advanced-config.md)
 
- [Learn more about Advanced ACL.](acl-advanced-config.md)
+ [Learn more about Advanced ACL.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/access-control/acl-advanced-config.md)
 
 </td></tr></tbody>
 </table>

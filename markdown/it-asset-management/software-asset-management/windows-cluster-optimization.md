@@ -2,6 +2,7 @@
 title: Windows Server cluster license optimization
 description: Optimize rights used for Windows Server clustering based on costs and compliance criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/windows-cluster-optimization.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -31,5 +32,5 @@ The Windows Standard rights are used first for the Standard list by using them f
 
 A new table, Potential savings by optimizing licenses, \[samp\_license\_optimization\_summary\] is created to store information about licensing Windows Server software installed on each device.
 
-**Parent Topic:**[Setting up Software Asset Management](setup-sam.md)
+**Parent Topic:**[Setting up Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/setup-sam.md)
 

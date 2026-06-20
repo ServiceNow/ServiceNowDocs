@@ -2,6 +2,7 @@
 title: Now Assist Data Kit roles \(sn\_data\_kit.admin\)
 description: This user can create, update, and publish datasets in Now Assist Data Kit. This role is mandatory to use Now Assist Data Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/now-assist-data-kit/data-kit-admin-role.html
 release: xanadu
 product: Now Assist Data Kit
 classification: now-assist-data-kit

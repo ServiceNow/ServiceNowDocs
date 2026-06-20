@@ -2,6 +2,7 @@
 title: Using Customer Engagement Sequences
 description: Sales representatives view and work on sequence tasks assigned to them using the Customer Engagement Sequences application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/using-customer-engagement-sequences.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -19,10 +20,10 @@ Sales representatives view and work on sequence tasks assigned to them using the
 
 Access the Customer Engagement Sequences app from the CSM Configurable Workspace to view your sequence tasks and complete predefined activities listed within it.
 
--   **[View sequence tasks](../task/view-sequence-tasks.md)**  
+-   **[View sequence tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/view-sequence-tasks.md)**  
 View sequence tasks assigned to you from the CSM Configurable Workspace.
--   **[Complete predefined customer engagement tasks](../task/execute-sequence-steps.md)**  
+-   **[Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/execute-sequence-steps.md)**  
 Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/som-using.md)
 

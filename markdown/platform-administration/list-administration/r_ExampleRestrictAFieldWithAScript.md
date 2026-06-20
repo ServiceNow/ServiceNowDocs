@@ -2,6 +2,7 @@
 title: Example - Restrict a field with a script
 description: This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_ExampleRestrictAFieldWithAScript.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -15,7 +16,7 @@ breadcrumb: [Configuring contextual security for the list editor, List editor ad
 
 This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 
-![](../image/RestrictSoftwareIncidents.png "Restrict Software Incidents")
+\[Omitted image "RestrictSoftwareIncidents.png"\] Alt text:
 
 -   **Type:** record
 -   **Operation:** list\_edit
@@ -31,9 +32,9 @@ This access control prevents everyone from editing an incident with a category o
     ```
 
 
-**Parent Topic:**[Configuring contextual security for the list editor](r_ConfigListEditorContextSecurity.md)
+**Parent Topic:**[Configuring contextual security for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ConfigListEditorContextSecurity.md)
 
-**Previous topic:**[Example - Restrict a field](r_ExampleRestrictAField.md)
+**Previous topic:**[Example - Restrict a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictAField.md)
 
-**Next topic:**[Example - Restrict a field with a condition](r_ExRestrictAFieldWithACondition.md)
+**Next topic:**[Example - Restrict a field with a condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExRestrictAFieldWithACondition.md)
 

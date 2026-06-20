@@ -2,6 +2,7 @@
 title: Provide feedback to ServiceNow
 description: The Help Center menu includes an option you can use to provide your feedback to ServiceNow about your experience with the current product. All feedback is reviewed and may be used to improve the product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/adoption-services/provide-customer-feedback.html
 release: xanadu
 product: Adoption Services
 classification: adoption-services
@@ -21,11 +22,11 @@ Role required: none
 
 ## Procedure
 
-1.  Open the Help Center by selecting the Help Center icon \(![help center icon indicator.](../image/help-center-icon.png)\).
+1.  Open the Help Center by selecting the Help Center icon \(\[Omitted image "help-center-icon.png"\] Alt text: help center icon indicator.\).
 
 2.  Scroll to the bottom of the Help Center menu and select **Provide feedback**.
 
-    ![Provide customer feedback to ServiceNow](../image/provide-feedback-modal.png)
+    \[Omitted image "provide-feedback-modal.png"\] Alt text: Provide customer feedback to ServiceNow
 
 3.  Rate your experience and provide as much or as little detail in the entry boxes as you want.
 
@@ -33,6 +34,6 @@ Role required: none
 
 4.  When you have completed your feedback, select **Submit**.
 
-    **Note:** If you do not want the Provide feedback button to appear in the Help Center, you can [disable it](disable-feedbak.md).
+    **Note:** If you do not want the Provide feedback button to appear in the Help Center, you can [disable it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/adoption-services/disable-feedbak.md).
 
 

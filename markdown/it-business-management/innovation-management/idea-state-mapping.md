@@ -2,6 +2,7 @@
 title: Idea state mapping
 description: Map your idea states to the Universal Request states to provide a better user experience during the idea state transition and to track the progress of the idea.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/innovation-management/idea-state-mapping.html
 release: xanadu
 product: Innovation Management
 classification: innovation-management
@@ -25,7 +26,7 @@ Mapping the states of the idea to the universal request state ensures that the s
 
 For example, consider a universal request that has an idea attached to it as a primary ticket. When the state of idea changes from **Submitted** to **Need more information**, the state of the universal ticket state is also updated to **Awaiting Response**.
 
-The following image is an example of a default state mapping. The **Submitted**, **Under Review**, **In Backlog**, **Planned** and **In Development** states of an idea are mapped to **In Progress** state of a Universal Request.![Default idea states mapping with Universal Request state.](../image/idea_ur_state_map.png)
+The following image is an example of a default state mapping. The **Submitted**, **Under Review**, **In Backlog**, **Planned** and **In Development** states of an idea are mapped to **In Progress** state of a Universal Request.\[Omitted image "idea\_ur\_state\_map.png"\] Alt text: Default idea states mapping with Universal Request state.
 
 The following table lists the default mapping of different idea states with the universal request states.
 
@@ -50,8 +51,8 @@ The following table lists the default mapping of different idea states with the 
 
 3.  On the form, fill in the fields.
 
-    For more information, see [State mapping form](https://www.servicenow.com/docs/access?context=ur-state-mapping-form&version=xanadu&pubname=xanadu-employee-service-management&ft:locale=en-US).
+    For more information, see State mapping form.
 
 
-**Parent Topic:**[Integrating Innovation Management with Universal Request](../concept/universal-req-idea-mgmt.md)
+**Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/innovation-management/universal-req-idea-mgmt.md)
 

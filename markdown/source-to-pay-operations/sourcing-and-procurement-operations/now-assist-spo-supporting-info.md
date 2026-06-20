@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -76,5 +77,5 @@ Activate the applications in the following order:
 2.  Sourcing and Purchasing Automation \(com.snc.sn\_pr\)
 3.  Now Assist for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
-For more information, see [Configuring Now Assist for Sourcing and Procurement Operations \(SPO\)](../task/configure-now-assist-for-spo.md).
+For more information, see [Configuring Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 

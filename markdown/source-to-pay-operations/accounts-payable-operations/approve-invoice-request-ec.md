@@ -2,6 +2,7 @@
 title: Approve an invoice approval task from Employee Center
 description: Review the invoice approval tasks that are assigned to you and approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/approve-invoice-request-ec.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -37,5 +38,5 @@ Role required: sn\_shop.invoice\_owner
     **Note:** When rejecting a request, you must provide your justification for rejection on the Reject request window.
 
 
-**Parent Topic:**[Invoice approvals](../concept/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

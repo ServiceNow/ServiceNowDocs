@@ -2,6 +2,7 @@
 title: View customizations and compare with current version
 description: View the customizations that make up an update set and compare the update to the current version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/system-update-sets/view-customer-update-records.html
 release: xanadu
 product: System Update Sets
 classification: system-update-sets
@@ -47,13 +48,13 @@ The customer update record specifies:
 
     You can compare any update to the current version. Right-click the update record and select **Compare to Current**.
 
-    ![Update set with addition of the 'Incident Table' table](../image/UpdateSetRecord.png)
+    \[Omitted image "UpdateSetRecord.png"\] Alt text: Update set with addition of the 'Incident Table' table
 
 
 **Related topics**  
 
 
-[Compare two versions of an article](https://www.servicenow.com/docs/access?context=compare-two-article-versions&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.compare-two-article-versions]
 
-[Resolve conflicts for an individual record](https://www.servicenow.com/docs/access?context=upgrademon-resolve_conflicts&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.upgrademon-resolve_conflicts]
 

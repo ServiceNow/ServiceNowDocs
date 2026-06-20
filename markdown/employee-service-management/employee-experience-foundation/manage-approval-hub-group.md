@@ -2,6 +2,7 @@
 title: Update approvals action group
 description: Approvals action group provides quick access to approve or reject the requests directly from the approvals page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/manage-approval-hub-group.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,7 +38,7 @@ You can use the default set of actions or customize the actions to suit your bus
 
 5.  On the **Action group M2Ms** related list, click New or update an existing record.
 
-    1.  Select the **Action** item from the available options such as **Approve** or **Reject** or [Configure actions](config-approval-hub-actions.md).
+    1.  Select the **Action** item from the available options such as **Approve** or **Reject** or [Configure actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-approval-hub-actions.md).
 
     2.  Edit the **Order** of the action item.
 
@@ -60,5 +61,5 @@ You can use the default set of actions or customize the actions to suit your bus
 
 Approvals action group is configured to perform quick actions such as **Approve** and **Reject** from the approval page.
 
-**Parent Topic:**[Action framework](../concept/action-framework.md)
+**Parent Topic:**[Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/action-framework.md)
 

@@ -2,6 +2,7 @@
 title: Auto-map SOAP activity output variables
 description: The ServiceNow activity designer allows you to map parameter values in a SOAP test payload to variables in the Outputs stage automatically.If the SOAP WSDL you are requesting in a test payload requires authentication, you must provide basic auth credentials in either the SOAP message or the SOAP activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/orchestration/t\_AutoMapSOAPActivOutputVarble.html
 release: xanadu
 product: Orchestration
 classification: orchestration
@@ -39,14 +40,14 @@ Role required: web\_service\_admin, activity\_admin, activity\_creator
 
     The entire payload appears in the **Raw Output** tab of the Response form.
 
-    ![Auto-mapping controls](../image/AutoMappingButtons.png)
+    \[Omitted image "AutoMappingButtons.png"\] Alt text: Auto-mapping controls
 
 5.  Select one of these auto-mapping options.
 
     -   **Auto-Map to Local**: Directly maps values to a local variable for use within the activity.
     -   **Auto-Map to Output**: Directly maps values to the output variable to pass to other activities in the workflow. Auto-mapping to an output variable creates an array of objects, each of which contains the column names from the query result.
 
-**Parent Topic:**[Create a SOAP web service activity](t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/t_CreateASOAPWebServiceActivity.md)
 
 ## Provide credentials to access a SOAP message WSDL
 
@@ -76,9 +77,9 @@ The ServiceNow instance only supports basic auth credentials for accessing a WSD
 
 5.  Select the basic auth profile to use with this SOAP message.
 
-    ![Basic authentication for a SOAP message](../image/SOAPMessageBasicAuth.png "Basic authentication for a SOAP message")
+    \[Omitted image "SOAPMessageBasicAuth.png"\] Alt text: Basic authentication for a SOAP message
 
-6.  Alternately, you can configure basic authentication credentials in [Configure the SOAP execution command](t_MapSOAPVariablesToExecutionComm.md).
+6.  Alternately, you can configure basic authentication credentials in [Configure the SOAP execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/orchestration/t_MapSOAPVariablesToExecutionComm.md).
 
     1.  In the **Authentication** field, select **Override with Basic Authentication credentials**.
 
@@ -88,6 +89,6 @@ The ServiceNow instance only supports basic auth credentials for accessing a WSD
 
         This setting overrides any credentials configured in the SOAP message.
 
-        ![Override basic auth credentials](../image/SOAPBasicAuthOverride.png "Override basic auth credentials")
+        \[Omitted image "SOAPBasicAuthOverride.png"\] Alt text: Override basic auth credentials
 
 

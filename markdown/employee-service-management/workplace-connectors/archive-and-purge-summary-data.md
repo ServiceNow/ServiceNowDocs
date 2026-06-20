@@ -2,6 +2,7 @@
 title: Archive and purge summary data tables
 description: Use the archive rules and destroy rules to archive and purge the summary data. Archive and purge the Space Occupancy Daily Summary Data \(sn\_wsd\_wc\_space\_occupancy\_daily\_summary\_data\), Environmental Daily Summary Data \(sn\_wsd\_wc\_environmental\_daily\_summary\_data\), Environmental Hourly Summary Data \(sn\_wsd\_wc\_environmental\_hourly\_summary\_data\), Wi-Fi Daily Summary Data \(sn\_wsd\_wc\_wifi\_daily\_summary\_data\) table records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-connectors/archive-and-purge-summary-data.html
 release: xanadu
 product: Workplace Connectors
 classification: workplace-connectors
@@ -56,5 +57,5 @@ Role required: admin
 9.  Select the **Run Archive Destroy Now** related link to run the job.
 
 
-**Parent Topic:**[Workplace Connectors Data Summarization](../concept/data-summarization.md)
+**Parent Topic:**[Workplace Connectors Data Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-connectors/data-summarization.md)
 

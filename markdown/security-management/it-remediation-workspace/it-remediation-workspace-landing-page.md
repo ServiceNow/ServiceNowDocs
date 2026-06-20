@@ -2,6 +2,7 @@
 title: IT Remediation Workspace
 description: IT teams view IT-centric tasks and information such as solutions and affected configuration items. IT teams can save time resolving vulnerabilities by easily creating change requests, rescanning vulnerable items, and submitting exception requests from the IT Remediation workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/it-remediation-workspace/it-remediation-workspace-landing-page.html
 release: xanadu
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -17,21 +18,19 @@ IT teams view IT-centric tasks and information such as solutions and affected co
 
 ## Overview
 
-v18.0 IT Remediation Workspace demo
-
 ## Get started
 
 <table id="table_ocs_2gm_qzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the IT Remediation Workspace](../../vulnerability-response/task/vr-ws-itro-wkspce.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/vr-ws-itro-wkspce.md)
 
 </td><td>
 
-[Remediate![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to remediate vulnerabilities and misconfigurations from the IT Remediation Workspace](../concept/using-it-remediation-workspace.md)
+[Remediate\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to remediate vulnerabilities and misconfigurations from the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/using-it-remediation-workspace.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn more about additional information required to use IT Remediation Workspace](../concept/it-remediation-workspace-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn more about additional information required to use IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/it-remediation-workspace/it-remediation-workspace-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

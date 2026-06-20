@@ -2,6 +2,7 @@
 title: Set up checklist for the Security Incident Response Mobile app
 description: The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance and on your mobile device prior to using the Security Incident Response Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Checkbox.](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox.
 
 </td><td>
 
@@ -42,13 +43,13 @@ As a user with the admin role, verify that you have the Security Incident Respon
  1.  To verify the core application is installed on your instance, navigate to **Plugins** and search for Security Incident Response.
 2.  If the Security Incident Response core application is not already installed, click **Install** to install it.
 
- For more information about installing the Security Incident Response core application, see [Install and configure Security Incident Response](install-and-configure-sir.md).
+ For more information about installing the Security Incident Response core application, see [Install and configure Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/install-and-configure-sir.md).
 
- If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](../../planning-and-policy/concept/secops-and-store.md).
+ If the Security Incident Response core application is not visible in Plugins, for more information about installing core applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-and-store.md).
 
 </td></tr><tr><td>
 
-![Checkbox.](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox.
 
 </td><td>
 
@@ -64,11 +65,11 @@ As a user with the admin role, verify that you have the Security Incident Respon
 2.  Search for the plugin IDs \(com.glide.sg and com.glide.sg.agent\_native\_client\).
 3.  If they are not activated, activate these plugins. These plugins are required for the Security Incident Response Mobile app.
 
- For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](../../planning-and-policy/concept/secops-and-store.md).
+ For more information about installing applications and entitlements to applications, see [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-operations/secops-and-store.md).
 
 </td></tr><tr><td>
 
-![Checkbox.](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox.
 
 </td><td>
 
@@ -80,23 +81,23 @@ As a user with the ServiceNow AI Platform admin role, verify that you have assig
 
  **Note:** If you have a large number of users for the mobile application, you alternatively can assign the sn\_si.analyst role to a group. Each user you add to the group inherits this role.
 
- For more information about security analysts, see [Assigning security analysts](../reference/r_AgentAssignment.md#).
+ For more information about security analysts, see [Assigning security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/r_AgentAssignment.md).
 
- For more information on users and assigning roles to users and groups, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+ For more information on users and assigning roles to users and groups, see User administration.
 
 </td></tr><tr><td>
 
-![Checkbox.](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox.
 
 </td><td>
 
 As a user with the sn\_si.analyst role, download the most current ServiceNow® Agent app on your mobile device.The most current version of the Agent app is available on the Apple iOS App Store and the Google Play Store.
 
- ![ServiceNow Agent app.](../../../common/image/mobile-vr-agent_app-8182.png)
+ \[Omitted image "mobile-vr-agent\_app-8182.png"\] Alt text: ServiceNow Agent app.
 
 </td></tr><tr><td>
 
-![Checkbox.](../../vulnerability-response/image/checkbox.png)
+\[Omitted image "checkbox.png"\] Alt text: Checkbox.
 
 </td><td>
 
@@ -107,7 +108,7 @@ As a user with the sn\_si.analyst role, verify notifications are enabled on your
 1.  Verify you have downloaded and installed the Security Incident Response Mobile app on your ServiceNow AI Platform instance.
 2.  In System Settings in your ServiceNow AI Platform instance, under Notifications, verify you have enabled the **ServiceNow Mobile Application**.
 
-For more information about setting notifications, see [Setting user notification preferences in Core UI](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+For more information about setting notifications, see Setting user notification preferences in Core UI.
 
 
  ServiceNow AI Platform notifications are also displayed on the messages screen on your mobile device. Verify that notifications are also enabled in the settings of your mobile device.

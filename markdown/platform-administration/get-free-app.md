@@ -2,6 +2,7 @@
 title: Get a free application
 description: Get a free application from your ServiceNow instance, without navigating to the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/get-free-app.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -40,5 +41,5 @@ Role required: admin
 5.  Click **Go to install**.
 
 
-**Parent Topic:**[Request a free or paid application](request-app.md)
+**Parent Topic:**[Request a free or paid application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/request-app.md)
 

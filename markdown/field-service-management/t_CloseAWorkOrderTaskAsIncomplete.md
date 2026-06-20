@@ -2,7 +2,10 @@
 title: Close a work order task as incomplete
 description: Close a work order task as incomplete if there is work pending on the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/t\_CloseAWorkOrderTaskAsIncomplete.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -96,5 +99,5 @@ All follow-on tasks generated from any of the work order tasks are in **Closed C
     Condition = current.sys\_class\_name != 'wm\_task' &amp;&amp; current.sys\_class\_name != 'wm\_order'.
 
 
-**Parent Topic:**[Execute work order tasks](../concept/c_ExecuteWorkOrderTasks.md)
+**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/c_ExecuteWorkOrderTasks.md)
 

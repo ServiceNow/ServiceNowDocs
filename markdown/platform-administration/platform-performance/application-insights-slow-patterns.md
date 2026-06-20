@@ -2,6 +2,7 @@
 title: Solving slow patterns
 description: You can identify, prioritize, and troubleshoot performance issues related to slow patterns in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/platform-performance/application-insights-slow-patterns.html
 release: xanadu
 product: Platform Performance
 classification: platform-performance
@@ -24,8 +25,8 @@ Identify performance issues related to slow patterns, for example, poorly perfor
 
 For example, the Slow Queries table shows which queries have high average execution times within the selected time range compared to the overall average execution time. A high average execution time indicates that an entry is performing poorly. Once you identify a slow query that needs investigating, select the query to view a graph of the performance over time, and then access the slow query record for details.
 
--   **[Troubleshoot a slow pattern](../task/troubleshoot-slow-pattern.md)**  
+-   **[Troubleshoot a slow pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/troubleshoot-slow-pattern.md)**  
 Identify the source of a slow pattern and prioritize potential performance improvements.
 
-**Parent Topic:**[Application Insights](application-insights.md)
+**Parent Topic:**[Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/platform-performance/application-insights.md)
 

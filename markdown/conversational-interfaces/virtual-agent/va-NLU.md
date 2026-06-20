@@ -2,6 +2,7 @@
 title: Natural Language Understanding \(NLU\) topic discovery in Virtual Agent
 description: Apply Natural Language Understanding \(NLU\) models that enable Virtual Agent to process user statements in automated conversations. An NLU model provides information that your virtual agent uses to determine what users want to do and to extract relevant values from their input. With NLU, Virtual Agent can offer a more natural and engaging conversational experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-NLU.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ The following elements work together to identify what the user wants to do so th
 
     A model group supports a given application, user roles, and languages. For example, you may have a model that supports the Search feature and another model that supports Virtual Agent. Typically, a model group contains multiple intents.
 
-    For more information, see [Model management](https://www.servicenow.com/docs/access?context=model-management-phases&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For more information, see Model management.
 
 -   **Intents**
 
@@ -36,7 +37,7 @@ The following elements work together to identify what the user wants to do so th
     -   Customers, such as the US Army, Wells Fargo, or Boeing.
     In Virtual Agent, a single intent is mapped to one conversation topic.
 
-    For more information, see [NLU intents](https://www.servicenow.com/docs/access?context=intents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+    For more information, see NLU intents.
 
 -   **Utterances**
 
@@ -55,9 +56,9 @@ The following elements work together to identify what the user wants to do so th
     -   Entities based on ServiceNow records, such as a case number.
     -   Company- or domain-specific entities, such as meeting rooms, company policies, and so forth.
 
-For more information, see [NLU entities](https://www.servicenow.com/docs/access?context=entities&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+For more information, see NLU entities.
 
-![The Check IT Ticket Status intent contains utterances that include the many ways a user asks a question. The terms "ticket," "issue," and "request" refer to the same thing.](../images/nlu-intent-example.png "Example intent definition in an NLU model group")
+\[Omitted image "nlu-intent-example.png"\] Alt text: The Check IT Ticket Status intent contains utterances that include the many ways a user asks a question. The terms "ticket," "issue," and "request" refer to the same thing.
 
 ## How NLU models work in Virtual Agent
 
@@ -92,26 +93,26 @@ During the topic discovery process, intents are matched to topics. Virtual Agent
 
 -   Single match: When a user utterance directly matches an intent \(topic\), the topic runs automatically.
 
-    ![In Virtual Agent, the user asks, "What is the status of my request?" This matches the utterances entered in the Check IT Ticket Status topic.](../images/nlu-model-topic.png "A user request matches an utterance in an intent")
+    \[Omitted image "nlu-model-topic.png"\] Alt text: In Virtual Agent, the user asks, "What is the status of my request?" This matches the utterances entered in the Check IT Ticket Status topic.
 
 -   Multiple matches: When a user utterance matches more than one intent, Virtual Agent returns a choice list of the relevant matches so that the user can choose the appropriate topic.
 
-    ![If multiple possible intents are matched, Virtual Agent returns a list of choices. For a ticket request, options might include IT Ticket Status, CSM Ticket Status, or Create IT Ticket.](../images/nlu-multiple-matches.png "A user request matches utterances in multiple intents")
+    \[Omitted image "nlu-multiple-matches.png"\] Alt text: If multiple possible intents are matched, Virtual Agent returns a list of choices. For a ticket request, options might include IT Ticket Status, CSM Ticket Status, or Create IT Ticket.
 
     **Note:** If there are multiple matches, Virtual Agent returns three intents by default. You can change the number of topics returned by using the **com.glide.cs.max\_number\_display\_topics** system property.
 
 -   No matches: When Virtual Agent can't find a matching intent, it uses AI Search to generate search results that display relevant links to Q&amp;A knowledge articles, Service Catalog items, or person \(user\) records.
 
-    This feature is controlled by the AI Search Fallback setup topic and the Virtual Agent search configurations, which are enabled by default in [chat experiences](va-conversation-settings.md). To learn more about the AI Search results generated, see [Virtual Agent integration with AI Search](va-ai-search.md).
+    This feature is controlled by the AI Search Fallback setup topic and the Virtual Agent search configurations, which are enabled by default in [chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-conversation-settings.md). To learn more about the AI Search results generated, see [Virtual Agent integration with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-ai-search.md).
 
     If you disable the AI Search Fallback setup topic, Virtual Agent automatically displays a fallback error message that enables the user to select a topic or enter a different request.
 
-    ![Virtual Agent responds with, "I am sorry, but I didn't understand your request." The user can type a new utterance or select Show Me Everything.](../images/setup-va-fallback-no-ustand.png "Example fallback message")
+    \[Omitted image "setup-va-fallback-no-ustand.png"\] Alt text: Virtual Agent responds with, "I am sorry, but I didn't understand your request." The user can type a new utterance or select Show Me Everything.
 
-    For details about how the AI Search Fallback setup topic and the fallback response \(the fallback setup topic\) work, see [Setting up chat experiences for Virtual Agent users](va-conversation-settings.md).
+    For details about how the AI Search Fallback setup topic and the fallback response \(the fallback setup topic\) work, see [Setting up chat experiences for Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
 
-For detailed information about NLU topic discovery, see [Natural Language Understanding topic discovery logic in Virtual Agent](how-topic-discovery-works.md).
+For detailed information about NLU topic discovery, see [Natural Language Understanding topic discovery logic in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/how-topic-discovery-works.md).
 
 ## Topic discovery with backup keywords
 
@@ -129,8 +130,8 @@ With NLU models, Virtual Agent can determine when user statements in a conversat
 
 When designing your topic, you can use entities as follows:
 
--   [Associate an entity with a user input node](../reference/va-user-inputs.md) on the **Flow** tab. You can specify whether Virtual Agent asks the user to confirm the slot-filled entity value or to skip the node.
--   [Add nodeless NLU entities as input variables to a topic](../task/add-nodeless-entities-input-vars.md). These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
+-   [Associate an entity with a user input node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-user-inputs.md) on the **Flow** tab. You can specify whether Virtual Agent asks the user to confirm the slot-filled entity value or to skip the node.
+-   [Add nodeless NLU entities as input variables to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.md). These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
 
 ## Conversation switching
 
@@ -142,7 +143,7 @@ Another example is when a user might ask a casual question or engage in small ta
 
 If you're using ServiceNow NLU, you can map an NLU model group and an associated intent to a topic. You can also update, train, and test the associated NLU model from within Virtual Agent Designer. As you work on a topic, you can also improve or modify the utterances and the associated entities for an intent without leaving the interface.
 
-ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see Multilingual model management.
 
-As you work on your topics, Virtual Agent Designer provides language-mapping views for previewing and testing topics with their associated language-specific models. For more information, see [Localizing Virtual Agent conversations](localize-va-topic.md).
+As you work on your topics, Virtual Agent Designer provides language-mapping views for previewing and testing topics with their associated language-specific models. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/localize-va-topic.md).
 

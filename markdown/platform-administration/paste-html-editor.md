@@ -2,9 +2,10 @@
 title: Paste content into an HTML editor
 description: Paste content from a desktop application to the HTML editor. Content might not paste the same from every application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/paste-html-editor.html
 release: xanadu
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Editing functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Field types, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +38,5 @@ The HTML editor has the following pasting limitations:
 -   Pasting images: Pasting images and text from OneNote works in Microsoft browsers. Pasting from OneNote into Google Chrome or Firefox works, but styles and images aren't included. You can still select images individually and paste them into the HTML field. Pasting images and text from Microsoft Word into any browser works as expected.
 -   Pasting tables: Pasting tables into Safari doesn't always work correctly. Pasting tables into Internet Explorer only works from Microsoft Excel.
 
-**Parent Topic:**[Editing functions in HTML field editor](../reference/r_EditingFunctions.md)
+**Parent Topic:**[Editing functions in HTML field editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_EditingFunctions.md)
 

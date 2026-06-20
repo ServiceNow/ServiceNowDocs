@@ -2,6 +2,7 @@
 title: UI actions
 description: UI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_UIActions.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -28,16 +29,16 @@ You can create a UI action to provide any of these controls:
 -   A menu item for the action choice list at the bottom of a list.
 -   A related link at the bottom of a list.
 
-**Note:** To hide or restrict the **New** or **Edit** UI action on the related list, use [list control](../task/t_ConfigureListControls.md#).
+**Note:** To hide or restrict the **New** or **Edit** UI action on the related list, use [list control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_ConfigureListControls.md).
 
-![Form UI elements controlled by UI actions.](../image/UIAction1.png "Form UI actions")
+\[Omitted image "UIAction1.png"\] Alt text: Form UI elements controlled by UI actions.
 
-![List UI elements controlled by UI actions.](../image/UIActionButton.png "List UI actions")
+\[Omitted image "UIActionButton.png"\] Alt text: List UI elements controlled by UI actions.
 
--   **[Create a UI action](../task/t_EditingAUIAction.md)**  
+-   **[Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EditingAUIAction.md)**  
 You can create a new UI action or edit an existing one.
--   **[Override a UI action for an extended table](../task/t_OverrideOrRmvAUIActionForExtTbl.md)**  
+-   **[Override a UI action for an extended table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_OverrideOrRmvAUIActionForExtTbl.md)**  
 You can override or remove a UI action for a table that is extended from another table.
 
-**Parent Topic:**[Form administration](../../form-administration/concept/form-administration.md)
+**Parent Topic:**[Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/form-administration.md)
 

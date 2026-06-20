@@ -2,6 +2,7 @@
 title: Using the supplier onboarding playbook to onboard suppliers
 description: Supplier owners and supplier managers can use the supplier onboarding playbook to complete the tasks and activities that are needed to onboard new suppliers.The following table lists the activities in the Registration stage of the Supplier onboarding playbook.The following table lists the activities in the Qualification stage of the Supplier onboarding playbook.The following table lists the activities in the Activation stage of the Supplier onboarding playbook.The following table lists the activities in the Rejection stage of the Supplier onboarding playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,9 +18,9 @@ Supplier owners and supplier managers can use the supplier onboarding playbook t
 
 ## Playbooks overview
 
-Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using Process Automation Designer.
 
-A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see Interact with Playbook.
 
 When using a playbook, a supplier owner or supplier manager can:
 
@@ -38,11 +39,11 @@ You can use the Supplier onboarding playbook with cases that are created using t
 
 The Supplier onboarding playbook appears in the **Playbook** tab on the Case Details page in the Source-to-Pay Workspace.
 
-After you submit a supplier onboarding request, the application creates a new case of type Onboard a Supplier and opens the Case Details page. You can select the **Playbook** tab and start the supplier onboarding process using playbook. For more information on creating a supplier, see [Add a supplier](../../sourcing-procurement-operations/task/create-supplier.md).
+After you submit a supplier onboarding request, the application creates a new case of type Onboard a Supplier and opens the Case Details page. You can select the **Playbook** tab and start the supplier onboarding process using playbook. For more information on creating a supplier, see [Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md).
 
-**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see .
 
-![Playbook tab on the Case Details page.](../image/playbook-tab.png "Playbook tab on the Case Details page")
+\[Omitted image "playbook-tab.png"\] Alt text: Playbook tab on the Case Details page.
 
 The Supplier onboarding playbook includes the following stages:
 
@@ -51,7 +52,7 @@ The Supplier onboarding playbook includes the following stages:
 -   Activation: Includes activities to activate the supplier.
 -   Rejection: Includes activities to reject the supplier.
 
-**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](../task/new-supplier.md)
+**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.md)
 
 ## Registration stage
 
@@ -244,8 +245,8 @@ Waiting for risk assessment to be completed
 
 The playbook waits for the risk assessment to be completed. A new due diligence case is created. You can see this case on the **Related Cases** tab of the Onboard a supplier case. Select the link for the due diligence case, which opens the Perform risk assessment playbook.One of the following occurs:
 
--   If you have installed only the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin, the Perform risk assessment playbook triggers the flow that includes activities to verify the eligibility of the supplier by creating risk assessments. For more information, see [Playbook stages and activities when only Vendor Risk Management is installed](risk-flow-vrm-stages.md).
--   If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement. For more information, see [Playbook stages and activities when Third-party Risk Due Diligence is installed](risk-flow-tprmdd-stages.md).
+-   If you have installed only the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin, the Perform risk assessment playbook triggers the flow that includes activities to verify the eligibility of the supplier by creating risk assessments. For more information, see [Playbook stages and activities when only Vendor Risk Management is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-vrm-stages.md).
+-   If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement. For more information, see [Playbook stages and activities when Third-party Risk Due Diligence is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/risk-flow-tprmdd-stages.md).
 
 </td></tr><tr><td>
 
@@ -266,7 +267,7 @@ Verify that this supplier is not on any corporate or governmental restricted lis
 -   **Confirm not restricted**
 -   **Reject**
 
-If you select **Reject**, the playbook opens the [Rejection stage](use-playbooks-onboard-supp.md#).
+If you select **Reject**, the playbook opens the [Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 
 </td></tr><tr><td>
@@ -280,7 +281,7 @@ Confirm if you would like to continue onboarding or reject the supplier.Availabl
 -   **Continue Onboarding**
 -   **Reject**
 
-If you select **Reject**, the playbook opens the [Rejection stage](use-playbooks-onboard-supp.md#).
+If you select **Reject**, the playbook opens the [Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 
 After this activity is completed, the playbook moves to the Activation stage.
@@ -341,7 +342,7 @@ Confirm if you would like to continue onboarding or reject the supplier.Availabl
 -   **Continue Onboarding**
 -   **Reject**
 
-If you select **Reject**, the playbook opens the [Rejection stage](use-playbooks-onboard-supp.md#).
+If you select **Reject**, the playbook opens the [Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md).
 
 
 </td></tr><tr><td>

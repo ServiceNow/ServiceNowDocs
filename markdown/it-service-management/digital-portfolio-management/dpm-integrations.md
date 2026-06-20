@@ -2,6 +2,7 @@
 title: Integrate Digital Portfolio Management with other ServiceNow applications
 description: Bring in data from other ServiceNow applications to see a comprehensive view of your solutions in the Digital Portfolio Management \(DPM\) Workspace. You can see data for services and service offerings, for business applications, and for application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-portfolio-management/dpm-integrations.html
 release: xanadu
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -15,12 +16,12 @@ breadcrumb: [Configuring Digital Portfolio Management, Digital Portfolio Managem
 
 Bring in data from other ServiceNow applications to see a comprehensive view of your solutions in the Digital Portfolio Management \(DPM\) Workspace. You can see data for services and service offerings, for business applications, and for application services.
 
--   **[View service and service offering data in Digital Portfolio Management](dpm-integrations-services.md)**  
+-   **[View service and service offering data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-integrations-services.md)**  
 See service and service offering data in the context of your solutions in the Digital Portfolio Management \(DPM\) Workspace.
--   **[View business application data in Digital Portfolio Management](dpm-integrations-biz-apps.md)**  
+-   **[View business application data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-integrations-biz-apps.md)**  
 See business application data in the context of your solutions in the Digital Portfolio Management \(DPM\) Workspace.
--   **[View application service data in Digital Portfolio Management](dpm-integrations-app-services.md)**  
+-   **[View application service data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-integrations-app-services.md)**  
 See application service data in the context of your solutions in the Digital Portfolio Management \(DPM\) Workspace.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

@@ -2,6 +2,7 @@
 title: Task form
 description: Use the Details tab of the task form to provide details about the supplier or employee task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/slo-task-form.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -197,5 +198,5 @@ Duration
 Duration to complete the case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create new task form](create-new-supplier-task-form.md)
+</table>**Parent Topic:**[Create new task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.md)
 

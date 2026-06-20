@@ -2,11 +2,12 @@
 title: Create a Discovery Schedule for Alibaba Cloud
 description: Create a Discovery Schedule to run Alibaba Cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.html
 release: xanadu
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -36,15 +37,15 @@ Role required: discovery\_admin
     -   **Specific MID Cluster**: A MID Server cluster that you choose from the **MID Cluster** drop-down list.
 6.  Either create a new account or select an existing one.
 
-<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d81302e127">
+<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d82480e127">
 
 Existing or new account
 
-</th><th align="left" id="d81302e130">
+</th><th align="left" id="d82480e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d81302e136">
+</th></tr></thead><tbody><tr><td id="d82480e136">
 
 **Add account**
 
@@ -57,12 +58,12 @@ Actions
     -   To use existing credentials, select the credential from the drop-down list.
     -   To create new credentials, select the plus button and fill in the fields.
 
-For more information, see [Create Alibaba Cloud API Credentials](create-alibaba-cloud-api-credentials.md).
+For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 
 5.  Enter the URL of a datacenter in the**Datacenter URL** field.
 
 
-</td></tr><tr><td id="d81302e207">
+</td></tr><tr><td id="d82480e207">
 
 **Select Account**
 

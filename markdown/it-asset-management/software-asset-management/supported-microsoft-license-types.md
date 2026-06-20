@@ -2,6 +2,7 @@
 title: Supported Microsoft license types
 description: The Software Asset Management publisher pack for Microsoft adds license metrics that are specific to Microsoft.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/supported-microsoft-license-types.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -49,7 +50,7 @@ System hardware runs in an operating system environment \(OSE\) and they act as 
 
 Regardless of whether your processor is in a physical or virtual OSE, Microsoft requires that every processor core running SQL Server, Windows Server, or any of their components must be licensed. However, the number of core licenses you need will depend on whether you are licensing a physical server or an individual virtual OSE. The number of licenses you need is based on the core factor table provided by Microsoft.
 
-**Note:** If you are licensing a Microsoft cluster that contains both physical servers and virtual OSEs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, virtual OSEs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
+**Note:** If you are licensing a Microsoft cluster that contains both physical servers and virtual OSEs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, virtual OSEs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
 
 Use the per core license metric for any of your physical or virtual core-based licenses. If you are licensing a virtual OSE, you must use either an active Microsoft Software Assurance \(SA\) or Microsoft software subscription license.
 
@@ -65,7 +66,7 @@ You can manage device allocations for this license metric. Devices are assigned 
 
 For the Per core \(with CAL\) license metric, device allocations can be created against a physical server or virtual machine \(VM\). Device allocations that are created against a VM must be licensed using either an active Microsoft Software Assurance \(SA\) or Microsoft software subscription license. If the core count is less than the specified value in either the **Minimum cores per processor** or **Minimum cores per server** metric attributes of the software model, the minimum number of rights will be consumed.
 
-**Note:** If you are licensing device allocations on a Microsoft cluster that contains both physical servers and VMs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, VMs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
+**Note:** If you are licensing device allocations on a Microsoft cluster that contains both physical servers and VMs, you can use cost-based licensing optimizations to determine if it is more cost-effective to license the physical servers only, VMs only, or a combination of both. See [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md) for more information on these optimizations.
 
 This license metric should be used with device or user CAL license metrics. You need to create software entitlements using those license metrics separately.
 
@@ -119,7 +120,7 @@ During reconciliation, for a software model that has one or more software entitl
 
 ## Software Assurance licenses
 
-Microsoft Software Assurance \(SA\) is the maintenance program used by Microsoft to provide active maintenance to its users. For more information, see [Software license maintenance](../concept/software-license-maintenance.md).
+Microsoft Software Assurance \(SA\) is the maintenance program used by Microsoft to provide active maintenance to its users. For more information, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/software-license-maintenance.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](../concept/microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

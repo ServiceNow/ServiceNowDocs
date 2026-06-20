@@ -2,6 +2,7 @@
 title: Working with ERP systems in ERP Data Hub
 description: An ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system of record. For example, sales orders or vendor invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-work-with-systems.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -19,7 +20,7 @@ An ERP \(Enterprise Resource Planning\) system represents a connection to a sect
 
 The system plays a crucial role in data synchronization, sharing, and collaboration, enabling seamless integration and operation between the ERP model and the connected ERP system.
 
-ERP Data Hub provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for ERP Data Hub](../reference/erp-canvas-standard-extraction-tables.md).
+ERP Data Hub provides a standard set of ERP models, such as SAP Material Stock and SAP Purchase Document. You can also build new models. For a list of standard ERP models, which you must clone to modify, see [Standard ERP models and extraction tables for ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
 
 ## Configuring ERP systems and checking connections
 
@@ -27,12 +28,12 @@ ERP systems are configured by ServiceNow admins. The ERP system is set on the ex
 
 ERP Data Hub regularly scans all connected ERP systems for the latest heartbeat, which indicates whether a ping to the ERP system connection is currently successful.
 
--   **[Create an ERP system in ERP Data Hub](../task/create-an-erp-system.md)**  
+-   **[Create an ERP system in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-erp-system.md)**  
 Configure an ERP \(Enterprise Resource Planning\) system in ERP Data Hub to organize your connections to the system of record.
--   **[View a list of ERP Data Hub systems](../task/view-and-monitor-erp-systems-health.md)**  
+-   **[View a list of ERP Data Hub systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-and-monitor-erp-systems-health.md)**  
 Check the ERP \(Enterprise Resource Planning\) systems list in ERP Data Hub to view the heartbeats and retrieval status of your ERP systems.
--   **[View ERP Data Hub system heartbeat information](../task/view-erp-system-heartbeat-information.md)**  
+-   **[View ERP Data Hub system heartbeat information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/view-erp-system-heartbeat-information.md)**  
 In ERP Data Hub, the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
 
-**Parent Topic:**[Configuring ERP Data Hub](erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-integration-configuration-overview.md)
 

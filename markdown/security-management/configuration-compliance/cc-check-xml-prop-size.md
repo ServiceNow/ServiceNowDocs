@@ -2,6 +2,7 @@
 title: Check XML attachment property size
 description: Verifies that the XML attachment property is sufficient for large files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-check-xml-prop-size.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,15 +26,15 @@ Role required: admin
 
 2.  Scroll down to **Import Properties** &gt; **XML Format** at the bottom of the page.
 
-    ![Maximum file size for import](../../../secops-integration-vr/qualys/image/XMLFileSize.jpg)
+    \[Omitted image "XMLFileSize.jpg"\] Alt text: Maximum file size for import
 
 3.  If necessary, change the value to 250 and click **Save**.
 
 
-**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](../concept/cc-qualys-troubleshooting.md)
+**Parent Topic:**[Resolving Qualys Vulnerability Integration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-qualys-troubleshooting.md)
 
 **Related topics**  
 
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_AvailableSystemProperties]
 

@@ -2,6 +2,7 @@
 title: Case API
 description: The Case API provides endpoints that enable you to retrieve and update Customer Service Management \(CSM\) case records.Retrieves the activity stream for a specified Customer Service Management \(CSM\) case.Retrieves the list of possible field values for a choice or reference field in the Case \[sn\_customerservice\_case\] table.Retrieves the list of possible field values for a choice or reference field for a specified record in the Case \[sn\_customerservice\_case\] table.Retrieves the specified Customer Service Management \(CSM\) case.Retrieves a specified set of Customer Service Management \(CSM\) cases.Creates a new Customer Service Management \(CSM\) case.Updates the specified existing Customer Service Management \(CSM\) case with the passed-in parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/case-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -21,7 +22,7 @@ The Case API requires the Customer Service plugin \(com.sn\_customerservice\) an
 
 Users must have the csm\_ws\_integration role for full API access. External users with the sn\_customerservice.customer or sn\_customerservice.consumer roles can also access the endpoints.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Case - GET /sn\_customerservice/case/\{id\}/activities
 
@@ -118,7 +119,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -172,7 +173,7 @@ Response header showing the total number of records matching the request when th
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -702,11 +703,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case creation forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied. For more information on reference qualifiers, see Reference qualifiers.
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to specify field values to use when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, you can use the **sysparm\_dependent\_value** query parameter to specify a value for the dependency parent field and restrict the returned field values accordingly. For more details on dependent fields, see Make a field dependent.
 
 **Note:** You can reference all sysparm query parameters using either their full name or their shortened name \(without the **sysparm\_** prefix\). For example, for **sysparm\_limit** you can also use **limit**.
 
@@ -830,7 +831,7 @@ Syntax: `{field1}={value1}^{field2}={value2}[…]`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -876,7 +877,7 @@ REST response data can be split into multiple result sets. Where applicable, the
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -981,11 +982,11 @@ To use this endpoint, users must have the csm\_ws\_integration, sn\_customerserv
 
 Use this endpoint to populate field value lists in case update forms.
 
-When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see [Reference qualifiers](https://www.servicenow.com/docs/access?context=c_ReferenceQualifiers&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+When you request values for a reference field, any reference qualifiers defined for the requested field in the Dictionary Entry \[sys\_dictionary\] table are applied, using values from the specified case record. For more information on reference qualifiers, see Reference qualifiers.
 
 You can use the **sysparm\_ref\_qual\_input** query parameter to override values from the specified case when evaluating JavaScript reference qualifiers. For an example, see the query parameter listing below.
 
-When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+When you request values for a choice field that is dependent on another field, this endpoint limits returned field values based on the dependency parent field value selected in the specified case record. For more details on dependent fields, see Make a field dependent.
 
 You can use the **sysparm\_dependent\_value** query parameter to override the selection from the dependency parent field. For an example, see the query parameter listing below.
 
@@ -1119,7 +1120,7 @@ Syntax: `{field1}={value1}^{field2}={value2}[…]`
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1165,7 +1166,7 @@ REST response data can be split into multiple result sets. Where applicable, the
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1323,7 +1324,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1348,7 +1349,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -5825,7 +5826,7 @@ Whether or not to retrieve fields from reference tables such as account, contact
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -5879,7 +5880,7 @@ Response header showing the total number of records matching the request when th
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -11531,7 +11532,7 @@ Date and time that work started on the case.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -11544,7 +11545,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -11671,7 +11672,7 @@ Updates the specified existing Customer Service Management \(CSM\) case with the
 
 **Warning:** This endpoint does not perform parameter validation as doing so can create excessive overhead. If a request parameter is misspelled, is not valid for the type of case, or is not supported by the endpoint, it is either ignored without warning or can cause unexpected results. For example, if you create a consumer or contact for the wrong type of case or mismatch a contact with an account.
 
-**Warning:** By default, external users who have the sn\_customerservice.customer or sn\_customerservice.consumer role can only set the comments and state fields using this endpoint. Admins can enable external users to set additional fields by specifying the field names in the UPDATE\_ALLOWED\_FIELDS array defined in the CaseRESTAPIValidatorForExternalUser script include. Exercise caution when adding new fields to this array, as there may not be existing validators for input into those fields. For more information on script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=xanadu&pubname=xanadu-application-development&ft:locale=en-US).
+**Warning:** By default, external users who have the sn\_customerservice.customer or sn\_customerservice.consumer role can only set the comments and state fields using this endpoint. Admins can enable external users to set additional fields by specifying the field names in the UPDATE\_ALLOWED\_FIELDS array defined in the CaseRESTAPIValidatorForExternalUser script include. Exercise caution when adding new fields to this array, as there may not be existing validators for input into those fields. For more information on script includes, see Script includes.
 
 **Note:** You can reference all sysparm query parameters using either their full name or their shortened name \(without the **sysparm\_** prefix\). For example, for **sysparm\_limit** you can also use **limit**.
 
@@ -12684,7 +12685,7 @@ Date and time that work started on the case.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -12697,7 +12698,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -13303,7 +13304,7 @@ Maximum length: 40
 
 active
 
-</td><td id="d3253e78">
+</td><td id="d3853e78">
 
 Flag that indicates whether the case is open and active.Possible values:
 
@@ -13318,7 +13319,7 @@ Default: true
 
 active\_account\_escalation
 
-</td><td id="d3253e101">
+</td><td id="d3853e101">
 
 Sys\_id of the active account escalation record associated with the case. Located in the Escalation \[sn\_customerservice\_escalation\] table.Data type: String
 
@@ -13326,7 +13327,7 @@ Sys\_id of the active account escalation record associated with the case. Locate
 
 active\_escalation
 
-</td><td id="d3253e112">
+</td><td id="d3853e112">
 
 Sys\_id of the active escalation record associated with the case. Located in the Escalation \[sn\_customerservice\_escalation\] table.Data type: String
 
@@ -13334,7 +13335,7 @@ Sys\_id of the active escalation record associated with the case. Located in the
 
 activity\_due
 
-</td><td id="d3253e123">
+</td><td id="d3853e123">
 
 Date for which the associated case is expected to be completed.Data type: String
 
@@ -13342,7 +13343,7 @@ Date for which the associated case is expected to be completed.Data type: String
 
 additional\_assignee\_list
 
-</td><td id="d3253e135">
+</td><td id="d3853e135">
 
 List of the sys\_ids of the additional persons \(other than the primary assignee\) that have been assigned to the account. Located in the User \[sys\_user\] table. Data type: Array
 
@@ -13352,7 +13353,7 @@ Maximum: 4,000
 
 approval
 
-</td><td id="d3253e148">
+</td><td id="d3853e148">
 
 String that describes the type of approval required.Possible values:
 
@@ -13400,7 +13401,7 @@ Sys\_id of the asset record associated with the case. Located in the Asset \[alm
 
 assigned\_to
 
-</td><td id="d3253e241">
+</td><td id="d3853e241">
 
 Sys\_id of the person assigned to the case. Located in the User \[sys\_user\] table. Data type: String
 
@@ -13408,7 +13409,7 @@ Sys\_id of the person assigned to the case. Located in the User \[sys\_user\] ta
 
 assignment\_group
 
-</td><td id="d3253e254">
+</td><td id="d3853e254">
 
 Sys\_id of the customer service agent group assigned to the case. Located in the Group \[sys\_user\_group\] table.Data type: String
 
@@ -13416,7 +13417,7 @@ Sys\_id of the customer service agent group assigned to the case. Located in the
 
 business\_duration
 
-</td><td id="d3253e288">
+</td><td id="d3853e288">
 
 Length in calendar work hours, work days, and work weeks that it took to complete the case.Data type: String
 
@@ -13424,7 +13425,7 @@ Length in calendar work hours, work days, and work weeks that it took to complet
 
 business\_impact
 
-</td><td id="d3253e299">
+</td><td id="d3853e299">
 
 Impact of the issue on the associated customer.Data type: String
 
@@ -13434,7 +13435,7 @@ Maximum characters: 4,000
 
 business\_service
 
-</td><td id="d3253e312">
+</td><td id="d3853e312">
 
 Sys\_id of the service record associated with the case. Located in the Service \[cmdb\_ci\_service\] table. Data type: String
 
@@ -13460,7 +13461,7 @@ Sys\_id of the associated case report. Located in the Case Report \[sn\_customer
 
 category
 
-</td><td id="d3253e361">
+</td><td id="d3853e361">
 
 Case category.Possible values:
 
@@ -13476,7 +13477,7 @@ Default: 1
 
 cause
 
-</td><td id="d3253e387">
+</td><td id="d3853e387">
 
 Details about the cause of the problem.Data type: String
 
@@ -13486,7 +13487,7 @@ Maximum length: 4,000
 
 caused\_by
 
-</td><td id="d3253e400">
+</td><td id="d3853e400">
 
 Sys\_id of the change request that caused the case to be created. Located in the Change Request \[change\_request\] table.Data type: String
 
@@ -13494,7 +13495,7 @@ Sys\_id of the change request that caused the case to be created. Located in the
 
 change
 
-</td><td id="d3253e412">
+</td><td id="d3853e412">
 
 Sys\_id of the change request that caused the case to be created. Located in the Change Request \[change\_request\] table.Data type: String
 
@@ -13502,7 +13503,7 @@ Sys\_id of the change request that caused the case to be created. Located in the
 
 child\_case\_creation\_progress
 
-</td><td id="d3253e423">
+</td><td id="d3853e423">
 
 Flag that indicates whether the case is a child case that was created from a major case.Possible values:
 
@@ -13515,7 +13516,7 @@ Data type: Boolean
 
 closed\_at
 
-</td><td id="d3253e444">
+</td><td id="d3853e444">
 
 Date and time that the case was closed.Data type: String
 
@@ -13523,7 +13524,7 @@ Date and time that the case was closed.Data type: String
 
 closed\_by
 
-</td><td id="d3253e455">
+</td><td id="d3853e455">
 
 Sys\_id of the user that closed the case. Located in the User \[sys\_user\] table.Data type: String
 
@@ -13531,7 +13532,7 @@ Sys\_id of the user that closed the case. Located in the User \[sys\_user\] tabl
 
 close\_notes
 
-</td><td id="d3253e466">
+</td><td id="d3853e466">
 
 Notes made when the case was closed.Data type: String
 
@@ -13541,7 +13542,7 @@ Maximum length: 4,000
 
 cmdb\_ci
 
-</td><td id="d3253e479">
+</td><td id="d3853e479">
 
 Sys\_id of the configuration item associated with the case. Located in the Configuration Item \[cmdb\_ci\] table.Data type: String
 
@@ -13549,7 +13550,7 @@ Sys\_id of the configuration item associated with the case. Located in the Confi
 
 comments
 
-</td><td id="d3253e491">
+</td><td id="d3853e491">
 
 Additional comments about the case.Data type: String
 
@@ -13569,7 +13570,7 @@ Maximum length: 4,000
 
 company
 
-</td><td id="d3253e517">
+</td><td id="d3853e517">
 
 Sys\_id of the company associated with the case. Located in the Company \[core\_company\] table. Data type: String
 
@@ -13577,7 +13578,7 @@ Sys\_id of the company associated with the case. Located in the Company \[core\_
 
 consumer
 
-</td><td id="d3253e528">
+</td><td id="d3853e528">
 
 Business-to-consumer cases only. Sys\_id of the person to contact with regard to this case. Located in the Consumer \[csm\_consumer\] table.Data type: String
 
@@ -13981,7 +13982,7 @@ Consumer zip code. Data type: String
 
 contact
 
-</td><td id="d3253e539">
+</td><td id="d3853e539">
 
 Business-to-business based cases only. Sys\_id of the person to contact regarding this case. Located in the Contact \[customer\_contact\] table.Data type: String
 
@@ -14689,7 +14690,7 @@ Maximum length: 70
 
 contact\_time\_zone
 
-</td><td id="d3253e564">
+</td><td id="d3853e564">
 
 Time zone of the contact associated with the case.Data type: String
 
@@ -14699,7 +14700,7 @@ Maximum length: 40
 
 contact\_type
 
-</td><td id="d3253e577">
+</td><td id="d3853e577">
 
 Method in which the case was initially reported.Possible values:
 
@@ -14717,7 +14718,7 @@ Maximum length: 40
 
 contract
 
-</td><td id="d3253e609">
+</td><td id="d3853e609">
 
 Sys\_id of the contract associated with the case. Located in the Contract \[ast\_contract\] table. This contract contains information about the type of support that is provided to the company associated to the case. A contract can include a company and contact and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs.Data type: String
 
@@ -14725,7 +14726,7 @@ Sys\_id of the contract associated with the case. Located in the Contract \[ast\
 
 correlation\_display
 
-</td><td id="d3253e642">
+</td><td id="d3853e642">
 
 Correlation display.Data type: String
 
@@ -14735,7 +14736,7 @@ Maximum length: 100
 
 correlation\_id
 
-</td><td id="d3253e656">
+</td><td id="d3853e656">
 
 Correlation identifier.Data type: String
 
@@ -14745,7 +14746,7 @@ Maximum length: 100
 
 delivery\_plan
 
-</td><td id="d3253e669">
+</td><td id="d3853e669">
 
 Sys\_id of the parent execution plan for this case. Located in the Execution Plan \[sc\_cat\_item\_delivery\_plan\] table.Data type: String
 
@@ -14753,7 +14754,7 @@ Sys\_id of the parent execution plan for this case. Located in the Execution Pla
 
 delivery\_task
 
-</td><td id="d3253e680">
+</td><td id="d3853e680">
 
 Sys\_id of the execution plan task. Located in the Execution Plan Task \[sc\_cat\_item\_delivery\_task\] table.Data type: String
 
@@ -14761,7 +14762,7 @@ Sys\_id of the execution plan task. Located in the Execution Plan Task \[sc\_cat
 
 description
 
-</td><td id="d3253e691">
+</td><td id="d3853e691">
 
 Detailed description of the problem associated with the case. Data type: String
 
@@ -14771,7 +14772,7 @@ Maximum length: 4,000
 
 due\_date
 
-</td><td id="d3253e706">
+</td><td id="d3853e706">
 
 Date that the case is due to be closed.Data type: String
 
@@ -14779,7 +14780,7 @@ Date that the case is due to be closed.Data type: String
 
 entitlement
 
-</td><td id="d3253e717">
+</td><td id="d3853e717">
 
 Sys\_id of the entitlement record associated with the case. Located in the Entitlement \[service\_entitlement\] table. Entitlements define the type of support that a customer receives as well as the supported communication channels. An entitlement can be associated with a product, an asset, an account, or a contract.Data type: String
 
@@ -14787,7 +14788,7 @@ Sys\_id of the entitlement record associated with the case. Located in the Entit
 
 escalation
 
-</td><td id="d3253e729">
+</td><td id="d3853e729">
 
 Current escalation level.Possible values:
 
@@ -14804,7 +14805,7 @@ Default: 0
 
 expected\_start
 
-</td><td id="d3253e758">
+</td><td id="d3853e758">
 
 Date and time when work is scheduled to begin on the case.Data type: String
 
@@ -14812,7 +14813,7 @@ Date and time when work is scheduled to begin on the case.Data type: String
 
 first\_response\_time
 
-</td><td id="d3253e769">
+</td><td id="d3853e769">
 
 Date and time when the first action was taken on the case.Data type: String
 
@@ -14820,7 +14821,7 @@ Date and time when the first action was taken on the case.Data type: String
 
 follow\_the\_sun
 
-</td><td id="d3253e780">
+</td><td id="d3853e780">
 
 Flag that indicates whether the case should be handed-off for global follow-up.If a customer enters additional comments on a Priority 1 - Critical or a Priority 2 - High case, or if the case is escalated, the flag is automatically set to true.
 
@@ -14845,7 +14846,7 @@ Date and time of the next follow-up action.Data type: String
 
 group\_list
 
-</td><td id="d3253e816">
+</td><td id="d3853e816">
 
 List of sys\_ids of the group records associated with the case. Located in the Group \[sys\_user\_group\] table.Data type: Array
 
@@ -14853,7 +14854,7 @@ List of sys\_ids of the group records associated with the case. Located in the G
 
 impact
 
-</td><td id="d3253e828">
+</td><td id="d3853e828">
 
 Impact on customer.Possible values:
 
@@ -14869,7 +14870,7 @@ Default: 3
 
 knowledge
 
-</td><td id="d3253e888">
+</td><td id="d3853e888">
 
 Flag that indicates if there is a knowledge base article available for the specified issue.Possible values:
 
@@ -14884,7 +14885,7 @@ Default: false
 
 location
 
-</td><td id="d3253e911">
+</td><td id="d3853e911">
 
 Sys\_id of the record describing the company location. Located in the Location \[cmn\_location\] table.Data type: String
 
@@ -14892,7 +14893,7 @@ Sys\_id of the record describing the company location. Located in the Location \
 
 made\_sla
 
-</td><td id="d3253e922">
+</td><td id="d3853e922">
 
 Flag that indicates whether the case was resolved in alignment with the associated service level agreement.Possible values:
 
@@ -14907,7 +14908,7 @@ Default: true
 
 major\_case\_state
 
-</td><td id="d3253e946">
+</td><td id="d3853e946">
 
 Current state of the major case.Possible values:
 
@@ -14939,7 +14940,7 @@ Default: false
 
 notes\_to\_comments
 
-</td><td id="d3253e998">
+</td><td id="d3853e998">
 
 Flag that indicates whether to add the resolution notes to the comments.Possible values:
 
@@ -14952,7 +14953,7 @@ Data type: Boolean
 
 notify
 
-</td><td id="d3253e1019">
+</td><td id="d3853e1019">
 
 Method to use to notify contact/consumer.Possible values:
 
@@ -14968,7 +14969,7 @@ Default: 1
 
 number
 
-</td><td id="d3253e1045">
+</td><td id="d3853e1045">
 
 Case number.Data type: String
 
@@ -14978,7 +14979,7 @@ Maximum length: 40
 
 opened\_at
 
-</td><td id="d3253e1058">
+</td><td id="d3853e1058">
 
 Date and time that the case was opened.Data type: String
 
@@ -14986,7 +14987,7 @@ Date and time that the case was opened.Data type: String
 
 opened\_by
 
-</td><td id="d3253e1070">
+</td><td id="d3853e1070">
 
 Sys\_id of the person that initially opened the case. Located in the User \[sys\_user\] table.Data type: String
 
@@ -14994,7 +14995,7 @@ Sys\_id of the person that initially opened the case. Located in the User \[sys\
 
 order
 
-</td><td id="d3253e1081">
+</td><td id="d3853e1081">
 
 Order of the case.Data type: Number \(Integer\)
 
@@ -15002,7 +15003,7 @@ Order of the case.Data type: Number \(Integer\)
 
 parent
 
-</td><td id="d3253e1092">
+</td><td id="d3853e1092">
 
 Sys\_id of the parent case to which this case \(child\) is associated. Located in the Task \[task\] table.Data type: String
 
@@ -15010,7 +15011,7 @@ Sys\_id of the parent case to which this case \(child\) is associated. Located i
 
 partner
 
-</td><td id="d3253e1103">
+</td><td id="d3853e1103">
 
 Sys\_id of the partner associated with the case. Located in the Account \[customer\_account\] table.Data type: String
 
@@ -15018,7 +15019,7 @@ Sys\_id of the partner associated with the case. Located in the Account \[custom
 
 partner\_contact
 
-</td><td id="d3253e1114">
+</td><td id="d3853e1114">
 
 Sys\_id of the partner contact associated with the case. Located in the Contact \[customer\_contact\] table.Data type: String
 
@@ -15026,7 +15027,7 @@ Sys\_id of the partner contact associated with the case. Located in the Contact 
 
 priority
 
-</td><td id="d3253e1125">
+</td><td id="d3853e1125">
 
 Priority of the case. Possible values:
 
@@ -15043,7 +15044,7 @@ Default: 4
 
 probable\_cause
 
-</td><td id="d3253e1180">
+</td><td id="d3853e1180">
 
 Possible cause of the issue associated with the case.Data type: String
 
@@ -15053,7 +15054,7 @@ Maximum length: 4,000
 
 problem
 
-</td><td id="d3253e1193">
+</td><td id="d3853e1193">
 
 Sys\_id of the issue that the customer is encountering. Located in the Problem \[problem\] table.Data type: String
 
@@ -15061,7 +15062,7 @@ Sys\_id of the issue that the customer is encountering. Located in the Problem \
 
 product
 
-</td><td id="d3253e1204">
+</td><td id="d3853e1204">
 
 Sys\_id of the product model of the asset associated to the case. Located in the Product Model \[cmdb\_model\] table. A model is a specific version or configuration of an asset \(for example, Apple Mac Book Pro\).Data type: String
 
@@ -15069,7 +15070,7 @@ Sys\_id of the product model of the asset associated to the case. Located in the
 
 reassignment\_count
 
-</td><td id="d3253e1215">
+</td><td id="d3853e1215">
 
 Number of times that the case was reassigned to a person that is responsible for moving the case forward.Data type: Number \(Integer\)
 
@@ -15079,7 +15080,7 @@ Default: 0
 
 recipient\_list
 
-</td><td id="d3253e1228">
+</td><td id="d3853e1228">
 
 Sys\_id of the record that contains the list of recipients for communications about this case. Located in the Recipients List \[sn\_publications\_recipients\_list\] table.Data type: String
 
@@ -15087,7 +15088,7 @@ Sys\_id of the record that contains the list of recipients for communications ab
 
 rejection\_goto
 
-</td><td id="d3253e1240">
+</td><td id="d3853e1240">
 
 Sys\_id of the task to execute if the case is rejected. Located in the Task \[task\] table.Data type: String
 
@@ -15095,7 +15096,7 @@ Sys\_id of the task to execute if the case is rejected. Located in the Task \[ta
 
 resolution\_code
 
-</td><td id="d3253e1251">
+</td><td id="d3853e1251">
 
 Resolution state for the case, such as "Solved - Fixed by Support/Guidance provided". Data type: String
 
@@ -15105,7 +15106,7 @@ Maximum length: 40
 
 resolved\_at
 
-</td><td id="d3253e1264">
+</td><td id="d3853e1264">
 
 Date and time that the case was resolved.Data type: String
 
@@ -15113,7 +15114,7 @@ Date and time that the case was resolved.Data type: String
 
 resolved\_by
 
-</td><td id="d3253e1275">
+</td><td id="d3853e1275">
 
 Sys\_id of the person that resolved the case. Located in the User \[sys\_user\] table.Data type: String
 
@@ -15154,7 +15155,7 @@ Field value.Data type: String
 
 short\_description
 
-</td><td id="d3253e1305">
+</td><td id="d3853e1305">
 
 Concise description of the case. Data type: String
 
@@ -15164,7 +15165,7 @@ Maximum length: 160
 
 skills
 
-</td><td id="d3253e1320">
+</td><td id="d3853e1320">
 
 List of the unique identifiers \(sys\_id\) of the skills needed to complete the case. Located in the Skill \[cmn\_skill\] table.Data type: String
 
@@ -15172,7 +15173,7 @@ List of the unique identifiers \(sys\_id\) of the skills needed to complete the 
 
 sla\_due
 
-</td><td id="d3253e1331">
+</td><td id="d3853e1331">
 
 Date/time at which the case must be closed based on the associated service level agreement.Data type: String
 
@@ -16626,7 +16627,7 @@ User that initially created the social media profile.Data type: String
 
 state
 
-</td><td id="d3253e1378">
+</td><td id="d3853e1378">
 
 Current state of the case.Possible values:
 
@@ -16644,7 +16645,7 @@ Default: 1
 
 subcategory
 
-</td><td id="d3253e1410">
+</td><td id="d3853e1410">
 
 Case subcategory.Possible values:
 
@@ -16656,7 +16657,7 @@ Default: 0
 
 support\_manager
 
-</td><td id="d3253e1426">
+</td><td id="d3853e1426">
 
 Sys\_id of the CSM manager assigned to the case. Located in the User \[sys\_user\] table.Data type: String
 
@@ -16664,7 +16665,7 @@ Sys\_id of the CSM manager assigned to the case. Located in the User \[sys\_user
 
 sync\_driver
 
-</td><td id="d3253e1437">
+</td><td id="d3853e1437">
 
 Flag that indicates whether there's driver synchronization.Possible values:
 
@@ -16717,7 +16718,7 @@ Default: global
 
 sys\_domain\_path
 
-</td><td id="d3253e1512">
+</td><td id="d3853e1512">
 
 Domain path.Data type: String
 
@@ -16773,7 +16774,7 @@ Date and time when the case was last updated.Data type: String
 
 time\_worked
 
-</td><td id="d3253e1581">
+</td><td id="d3853e1581">
 
 Total amount of time worked on the case.Data type: String
 
@@ -16781,7 +16782,7 @@ Total amount of time worked on the case.Data type: String
 
 upon\_approval
 
-</td><td id="d3253e1597">
+</td><td id="d3853e1597">
 
 Action to take if the case is approved.Possible values:
 
@@ -16798,7 +16799,7 @@ Default: proceed
 
 upon\_reject
 
-</td><td id="d3253e1622">
+</td><td id="d3853e1622">
 
 Action to take if the case is rejected.Possible values:
 
@@ -16815,7 +16816,7 @@ Default: cancel
 
 urgency
 
-</td><td id="d3253e1648">
+</td><td id="d3853e1648">
 
 Urgency of the case.Possible values:
 
@@ -16831,7 +16832,7 @@ Default: 3
 
 user\_input
 
-</td><td id="d3253e1674">
+</td><td id="d3853e1674">
 
 Additional user input.Data type: String
 
@@ -16849,7 +16850,7 @@ Grouping of variables.
 
 variables
 
-</td><td id="d3253e1687">
+</td><td id="d3853e1687">
 
 Name-value pairs of variables associated with the case.Data type: String
 
@@ -16859,7 +16860,7 @@ Maximum length: 40
 
 watch\_list
 
-</td><td id="d3253e1700">
+</td><td id="d3853e1700">
 
 List of sys\_ids of the users who receive notifications about this case when additional comments are added or if the state of a case is changed to Resolved or Closed. Located in the User \[sys\_user\] table. Data type: Array
 
@@ -16867,7 +16868,7 @@ List of sys\_ids of the users who receive notifications about this case when add
 
 wf\_activity
 
-</td><td id="d3253e1711">
+</td><td id="d3853e1711">
 
 Sys\_id of the workflow activity record associated with the case. Located in the Workflow Activity \[wf\_activity\] table.Data type: String
 
@@ -16875,7 +16876,7 @@ Sys\_id of the workflow activity record associated with the case. Located in the
 
 work\_end
 
-</td><td id="d3253e1722">
+</td><td id="d3853e1722">
 
 Date and time work ended on the case.Data type: String
 
@@ -16893,7 +16894,7 @@ Maximum length: 4,000
 
 work\_notes\_list
 
-</td><td id="d3253e1747">
+</td><td id="d3853e1747">
 
 List of sys\_ids of the internal users who receive notifications about this case when work notes are added. Located in the User \[sys\_user\] table. Data type: Array
 
@@ -16901,7 +16902,7 @@ List of sys\_ids of the internal users who receive notifications about this case
 
 work\_start
 
-</td><td id="d3253e1758">
+</td><td id="d3853e1758">
 
 Date and time that work started on the case.Data type: String
 

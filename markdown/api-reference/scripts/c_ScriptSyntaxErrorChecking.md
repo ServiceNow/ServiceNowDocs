@@ -2,6 +2,7 @@
 title: Script syntax error checking
 description: All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs. The script editor places the cursor at the site of a syntax error and lets you search for errors in scripts by line number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/scripts/c\_ScriptSyntaxErrorChecking.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,18 +16,18 @@ breadcrumb: [JavaScript syntax editor, Scripting, API implementation, API implem
 
 All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs. The script editor places the cursor at the site of a syntax error and lets you search for errors in scripts by line number.
 
-![](../image/ScriptSyntaxCheck.png "Script syntax check")
+\[Omitted image "ScriptSyntaxCheck.png"\] Alt text:
 
 The script editor notifies you of syntax errors in your scripts in the following situations.
 
 -   Save a new record or update an existing record. A banner appears at the bottom of the editor showing the location of the first error \(line number and column number\), and the cursor appears at the site of the error. Warnings presented at **Save** or **Update** show only one error at a time.
 
-    ![](../image/ScriptSyntaxErrorShort.png "Script syntax error (short)")
+    \[Omitted image "ScriptSyntaxErrorShort.png"\] Alt text:
 
 -   Click the syntax checking icon before saving or updating a record. A banner appears at the bottom of the editor showing the location of all errors in the script, and the cursor appears at the site of the first error.
 
-    ![](../image/ScriptSyntaxError.png "Script syntax error")
+    \[Omitted image "ScriptSyntaxError.png"\] Alt text:
 
 
-**Parent Topic:**[JavaScript syntax editor](../../general-scripting/concept/c_SyntaxEditor.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/scripts/c_SyntaxEditor.md)
 

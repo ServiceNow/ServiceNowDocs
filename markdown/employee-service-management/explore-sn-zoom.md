@@ -2,7 +2,10 @@
 title: Exploring Collaboration services for Zoom
 description: Collaboration services for Zoom provides employees with seamless self-service without leaving the Zoom client and enables agents to resolve their task records faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/explore-sn-zoom.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -24,8 +27,8 @@ Collaboration services for Zoom offers the following capabilities:
 -   Enables agents to import the Zoom Team Chat transcript back to the task record as a comment.
 -   Enables employees with specific permissions to view Zoom Team Chat from a task record.
 
--   **[Collaboration services for Zoom Team Chat](sn-cs-zoom-team-chat.md)**  
+-   **[Collaboration services for Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn-cs-zoom-team-chat.md)**  
 Collaboration services for Zoom helps employees to interact with agents and resolve their IT-related issues from within  the Zoom application.
 
-**Parent Topic:**[ServiceNow for Zoom](sn_zoomIntegration.md)
+**Parent Topic:**[ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/sn_zoomIntegration.md)
 

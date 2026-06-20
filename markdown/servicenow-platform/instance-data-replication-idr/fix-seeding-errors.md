@@ -2,6 +2,7 @@
 title: Fix seeding errors in Instance Data Replication
 description: Retry Instance Data Replication \(IDR\) seeding on tables with seeding errors, which occur from network problems and failed inserts, so that you don't have to do a full seeding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.html
 release: xanadu
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -21,7 +22,7 @@ Role required: idr\_admin or admin
 
 ## About this task
 
-The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](seed-consumer-instance.md).
+The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md).
 
 **Note:** Seeding is not a replacement for cloning. Do not use IDR to clone instances.
 
@@ -39,7 +40,7 @@ Do not retry full seeding if you exceed any of the following limitations:
 
 2.  On the **Seeding Requests** tab of the Consumer Replication Set pane, click a seeding request that failed.
 
-    ![Seeding failure notification.](../image/failed-seeding-request.png)
+    \[Omitted image "failed-seeding-request.png"\] Alt text: Seeding failure notification.
 
 3.  On the Seeding Request pane, click the **Payload Errors** tab and examine the values in the Message column.
 
@@ -47,8 +48,8 @@ Do not retry full seeding if you exceed any of the following limitations:
 
     The image shows areas where you can retry errors.
 
-    ![Retry some or all errors.](../image/partial-seeding.png)
+    \[Omitted image "partial-seeding.png"\] Alt text: Retry some or all errors.
 
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -2,6 +2,7 @@
 title: Install Journey designer version 2
 description: Install the Journey designer version 2 \[sn\_jny\] application to enable administrators and managers to create and manage various professional and personal events and journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-designer/jny-install-version-2.html
 release: xanadu
 product: Journey Designer
 classification: journey-designer
@@ -59,5 +60,5 @@ Journey designer version 2 \(JD\) must be installed as a store application on th
 
 When Journey designer is installed, outstanding Lifecycle Events cases aren’t affected. You can migrate existing HR services to use journeys instead of Lifecycle Events. See, [Journeys Migration Guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1124255).
 
-**Parent Topic:**[Installation and configuration overview](../concept/jny-inst-config-overview.md)
+**Parent Topic:**[Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/journey-designer/jny-inst-config-overview.md)
 

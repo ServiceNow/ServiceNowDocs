@@ -2,6 +2,7 @@
 title: Managing existing Journey Accelerator plans created by managers
 description: Plan owners make updates to Journey Accelerator plans only from the Employee Center portal. Administrators should not change existing individual plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/journey-accelerator/manage-ja-plans.html
 release: xanadu
 product: Journey Accelerator
 classification: journey-accelerator

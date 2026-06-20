@@ -2,7 +2,10 @@
 title: Supporting information for Now Assist for Employee Experience
 description: Get a quick overview of the key information related to the Now Assist for Employee Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/supporting-info-for-now-assist-for-emp-expe.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ This store app has the following dependencies:
 -   Now Assist for platform \(sn\_genai\_platform\)
 -   Employee Center \(sn\_ex\_sp\)
 
-For more information, see [Configure Now Assist for Employee Experience](../task/configure-nowassist-emp-exp.md).
+For more information, see [Configure Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/configure-nowassist-emp-exp.md).
 
-**Parent Topic:**[Exploring Now Assist for Employee Experience](explore-now-assist-for-emp-exp.md)
+**Parent Topic:**[Exploring Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/explore-now-assist-for-emp-exp.md)
 

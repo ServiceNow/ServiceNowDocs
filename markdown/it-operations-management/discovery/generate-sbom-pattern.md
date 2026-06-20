@@ -2,6 +2,7 @@
 title: Download a software bill of materials \(SBOM\)
 description: Download a software Bill of Materials \(SBOM\) to gain visibility to the components of the container image such as the operating system packages that are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/generate-sbom-pattern.html
 release: xanadu
 product: Discovery
 classification: discovery
@@ -18,7 +19,7 @@ Download a software Bill of Materials \(SBOM\) to gain visibility to the compone
 
 ## Before you begin
 
-The SBOM must have been configured. For more information, see [Configure the SBOM generation](../task/enable-sbom.md).
+The SBOM must have been configured. For more information, see [Configure the SBOM generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/discovery/enable-sbom.md).
 
 Role required: discovery\_admin
 

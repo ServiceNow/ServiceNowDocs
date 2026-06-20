@@ -2,6 +2,7 @@
 title: Complete a legal matter task through Mobile Agent
 description: When you finish working on an assigned matter task, you can mark the task as complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-mobile/complete-matter-task-mobile.html
 release: xanadu
 product: Legal Mobile
 classification: legal-mobile

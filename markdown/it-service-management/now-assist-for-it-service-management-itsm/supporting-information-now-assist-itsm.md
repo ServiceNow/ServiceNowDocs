@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for IT Service Management \(ITSM\)
 description: Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.html
 release: xanadu
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -24,7 +25,7 @@ Get a quick overview of the important information that is related to the Now Ass
 
 The Now Assist for ITSM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
 
 <table id="table_rnv_mfg_qyb"><thead><tr><th>
 
@@ -70,5 +71,5 @@ Core UI
 -   Email reply recommendation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Now Assist for IT Service Management \(ITSM\)](exploring-now-assist-itsm.md)
+</table>**Parent Topic:**[Exploring Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
 

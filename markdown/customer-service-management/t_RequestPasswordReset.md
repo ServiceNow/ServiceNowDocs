@@ -2,7 +2,10 @@
 title: Request a password reset
 description: If you forget your password, you can request a new password from the customer portal login screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_RequestPasswordReset.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

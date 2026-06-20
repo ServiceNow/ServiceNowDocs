@@ -2,6 +2,7 @@
 title: Remove a supplier contact from the Source-to-Pay Workspace
 description: Remove a supplier contact that you no longer require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact-ws.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -34,7 +35,7 @@ Role required: sn\_slm.owner
 4.  Under Supplier Contacts, do one of the following:
 
     -   Select a contact to open the contact's profile page, and then select **Remove Contact**.
-    -   Select the cross icon \(![](../image/cross-icon.png)\) next to the name of the contact you want to remove.
+    -   Select the cross icon \(\[Omitted image "cross-icon.png"\] Alt text:\) next to the name of the contact you want to remove.
     The Request to remove a supplier contact dialog box is displayed.
 
 5.  In the **Delegate tasks to** field, search for and select a contact to whom you want to reassign the tasks that are currently assigned to the contact being removed.
@@ -46,5 +47,5 @@ Role required: sn\_slm.owner
     The application creates a case, which is automatically approved. The contact is removed and all the tasks that were assigned to that contact are reassigned to the alternate contact.
 
 
-**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md)
 

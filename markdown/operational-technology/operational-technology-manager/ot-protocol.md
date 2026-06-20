@@ -2,6 +2,7 @@
 title: Create the OT Protocol
 description: OT protocols table helps users to capture the information related to protocols such as name, version, it is a vendor-specific protocol or not. The protocols are the medium of communication between the different devices connected to the Industrial network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/ot-protocol.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -32,5 +33,5 @@ Role required: OT\_admin and admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

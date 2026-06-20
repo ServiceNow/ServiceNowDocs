@@ -2,6 +2,7 @@
 title: Delete a notification channel
 description: Delete a notification channel so that you no longer receive notifications through the channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/delete-notif-channel.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ Role required: admin
 
 The system deletes the channel from the list of notification channels and no longer delivers notifications to that channel.
 
-**Parent Topic:**[Setting notification preferences in Core UI](../concept/user-notification-preferences.md)
+**Parent Topic:**[Setting notification preferences in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/user-notification-preferences.md)
 

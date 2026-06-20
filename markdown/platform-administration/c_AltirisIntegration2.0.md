@@ -2,6 +2,7 @@
 title: Legacy: Altiris integration 2.0
 description: The Altiris integration is deprecated in the Istanbul release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_AltirisIntegration2.0.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,9 +18,9 @@ The Altiris integration a one direction import of the Altiris data into ServiceN
 
 ## Data Import
 
-Relevant data is imported from the Altiris database to the CMDB. The Altiris database is not written to, it is considered an authoritative source. The import is achieved using a JDBC connection via the [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+Relevant data is imported from the Altiris database to the CMDB. The Altiris database is not written to, it is considered an authoritative source. The import is achieved using a JDBC connection via the MID Server.
 
-![](../image/AltirisIntegrationApplication.png "Altiris integration application")
+\[Omitted image "AltirisIntegrationApplication.png"\] Alt text:
 
 Information pulled from Altiris includes:
 
@@ -100,10 +101,10 @@ A historical list of transformations performed during scheduled imports
 
 The Altiris integration only supports Altiris version 6.5. The integration does not currently Altiris version 7.0.
 
--   **[Legacy Import set data for Altiris](../reference/r_ImportSetData.md)**  
+-   **[Legacy Import set data for Altiris](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ImportSetData.md)**  
 Learn the module names displayed by the Altiris import set data.
--   **[Legacy: Web services import set tables for Altiris](../reference/r_WebServiceImportSetTables.md)**  
+-   **[Legacy: Web services import set tables for Altiris](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_WebServiceImportSetTables.md)**  
 This topic will list the modules that define the web service import set tables - the schema for the import set tables that are receiving the JDBC import.
 
-**Parent Topic:**[ServiceNow provided integrations](../../vendor-specific-integrations/reference/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ServiceNowProvidedintegrations.md)
 

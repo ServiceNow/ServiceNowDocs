@@ -2,6 +2,7 @@
 title: Install AI Search Admin Console
 description: The AI Search Admin Console application \(com.sn\_ai\_search\_admin\) is available by invitation from the ServiceNow Store. You can install the application if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/install-ais-admin-console.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -20,7 +21,7 @@ The AI Search Admin Console application \(com.sn\_ai\_search\_admin\) is availab
 The following ServiceNow® Store applications must be installed on your instance:
 
 -   Admin Experience Framework \(sn\_ace\) version 1.4.1 or later
--   [Advanced AI Search Management Tools](../../../use/dashboards/application-content-packs/adv-ais-mgmt-tools-content-pack.md)
+-   [Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/adv-ais-mgmt-tools-content-pack.md)
 
 **Note:** The Admin Experience Framework application is available by invitation only.
 
@@ -28,7 +29,7 @@ Role required: admin
 
 ## About this task
 
-Installing the AI Search Admin Console makes the application available to users with the ais\_admin or admin roles. For information on the tasks that users can perform in the application, see [Using the AI Search Admin console](../concept/using-ais-admin-console.md).
+Installing the AI Search Admin Console makes the application available to users with the ais\_admin or admin roles. For information on the tasks that users can perform in the application, see [Using the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ais-admin-console.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Limitations in GCC-H or DoD for Microsoft Teams integration with Virtual Agent
 description: Learn about the limitations for Microsoft Teams Government Community Cloud - High \(GCC-H\) or the US Department of Defense \(DoD\) Microsoft Teams integration with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/msteams-gcch-limitations.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

@@ -2,6 +2,7 @@
 title: Purchase highlights
 description: Your purchases, which include purchase requisitions, purchase requisition lines, purchase orders, purchase order lines, and sourcing requests, are highlighted with color coding to help you quickly understand their state and due date. The progress bar on these purchases follows a similar color coding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/purchase-highlights.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -31,5 +32,5 @@ A procurement administrator can use the sn\_shop.spend.sla.due.days purchasing p
 
 Your purchases are also highlighted with colored information banners when approvers request for clarification, or reject your purchase requisitions, purchase orders, or sourcing requests, in whole or in part. The reason for rejection is also displayed.
 
-**Parent Topic:**[My purchases on Shopping Hub](my-purchases.md)
+**Parent Topic:**[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases.md)
 

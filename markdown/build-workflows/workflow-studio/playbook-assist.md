@@ -2,6 +2,7 @@
 title: Exploring Playbook Assist
 description: Use Playbook Assist to generate a playbook from text, an image or both. For example, you can upload an image of a business process you've outlined on a whiteboard or in diagramming software, describe more details of the process, and generate a playbook from those combined inputs. Playbook Assist is part of the Now Assist for Creator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/playbook-assist.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -21,15 +22,15 @@ Activate the playbook skills in the Now Assist for Creator app. Playbook skills 
 -   Playbook generation with images
 -   Playbook recommendations
 
-**Note:** Playbook authors must be assigned the **now.assist.creator** role to use playbook generation. See [Playbook Assist roles](../reference/playbook-assist-roles.md) for more information about this skill.
+**Note:** Playbook authors must be assigned the **now.assist.creator** role to use playbook generation. See [Playbook Assist roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-roles.md) for more information about this skill.
 
 Playbook authors can provide an image of a business process from a whiteboard or diagramming software and add details with a text description to create multi-stage playbooks. As of version 26.2 for Now Assist for Creator, Now Assist inserts the activities that align most closely with your inputs. For activities that Now Assist isn't able to guess, placeholder activities are inserted.
 
 **Note:** For placeholder activities, you can use the recommendations skill to find activities that might best replace placeholder activities, or manually find and configure activities before activating your playbook.
 
-![Choose an activity definition for the placeholder activity.](../images/configure-placeholder-activity.png)
+\[Omitted image "configure-placeholder-activity.png"\] Alt text: Choose an activity definition for the placeholder activity.
 
-To learn more about recommendations, see [Playbook recommendations](playbook-recommendations.md#).
+To learn more about recommendations, see [Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-recommendations.md).
 
 ## Activation
 
@@ -45,11 +46,11 @@ Access the playbook generation skill when you’re:
 
 -   Creating a playbook in Workflow Studio from image, text, or both.
 
-    ![Build a new playbook with Now Assist.](../images/example-img2playbook.png)
+    \[Omitted image "example-img2playbook.png"\] Alt text: Build a new playbook with Now Assist.
 
 -   Replacing placeholder activities.
 
-    ![Use the Playbook Recommendations skill to find common activities you can use instead of placeholders](../images/playbook-recommendations.png)
+    \[Omitted image "playbook-recommendations.png"\] Alt text: Use the Playbook Recommendations skill to find common activities you can use instead of placeholders
 
 
 ## Providing inputs and reviewing playbooks
@@ -83,7 +84,7 @@ Provide inputs:
     **Note:** Inputs used only to generate a preview are not saved, but inputs used for a saved playbook are in the playbook's **Properties** setting.
 
 
-**Tip:** To learn more about playbook generation inputs, see [General Guidelines for Building Playbooks with Now Assist](../reference/general-guidelines-playbook-assist.md).
+**Tip:** To learn more about playbook generation inputs, see [General Guidelines for Building Playbooks with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/general-guidelines-playbook-assist.md).
 
 Review playbooks:
 
@@ -95,8 +96,8 @@ Review playbooks:
 
     Configure placeholder activities before you activate your playbook. Use playbook recommendations to help choose activity definitions.
 
-    ![Choose an activity definition for the placeholder activity.](../images/configure-placeholder-activity.png "Configure the activity definition in the activity side panel")
+    \[Omitted image "configure-placeholder-activity.png"\] Alt text: Choose an activity definition for the placeholder activity.
 
 
-**Parent Topic:**[Playbook Assist](playbook-assist-landing.md)
+**Parent Topic:**[Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/playbook-assist-landing.md)
 

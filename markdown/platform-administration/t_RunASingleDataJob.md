@@ -2,6 +2,7 @@
 title: Run a single data job
 description: Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run a single data job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_RunASingleDataJob.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -30,5 +31,5 @@ Running the data job/jobs is the fourth step in transforming a field. This topic
     The **State** of the jobs turns to **Queued** as it runs and to **Completed** when it finishes successfully.
 
 
-**Parent Topic:**[Normalization and transformation data jobs](../concept/normalization-data-jobs.md)
+**Parent Topic:**[Normalization and transformation data jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/normalization-data-jobs.md)
 

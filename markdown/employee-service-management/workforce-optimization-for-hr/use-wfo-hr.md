@@ -2,6 +2,7 @@
 title: Using Workforce Optimization for HR
 description: Enhance the quality and efficiency of your teams using smart scheduling, team structure, and real-time refreshing single scores. Monitor chat conversations and help agents on cases. Assess the quality of tasks completed, recommend skills for agents, and train them to address skill gaps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

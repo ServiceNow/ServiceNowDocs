@@ -2,6 +2,7 @@
 title: Use SSH to shut down a VM using workflow type operation
 description: Use SSH to remotely shut down a VM using a workflow type operation. Follow this use case to step through all of the tasks required to accomplish this type of shutdown.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-configuration-governance/use-ssh-shut-down-vm-w-wkflw-op.html
 release: xanadu
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -29,7 +30,7 @@ Role required: workflow designer or sn\_cmp.cloud\_admin
 
     3.  From the list of types of activities, choose **SSH**.
 
-        ![Choose SSH as the custom activity type](../image/custom-tab-choose-ssh.png)
+        \[Omitted image "custom-tab-choose-ssh.png"\] Alt text: Choose SSH as the custom activity type
 
     4.  The Activity Designer opens with the General tab displayed
 
@@ -72,7 +73,7 @@ Role required: workflow designer or sn\_cmp.cloud\_admin
 
     14. Repeat for the output variable, selecting executionResult.output as the Parsing source, then click **Submit**.
 
-        ![Outputs display in Parsing rules](../image/outputs-display-in-parsing-rules.png)
+        \[Omitted image "outputs-display-in-parsing-rules.png"\] Alt text: Outputs display in Parsing rules
 
     15. Click **Continue**.
 
@@ -209,7 +210,7 @@ For the user to see the operation at the Resources level during provisioning, se
 
     9.  To add a resource operation step to invoke the workflow, still in the Operations tab, click **Steps** &gt; **Add Step**.
 
-        To enable the workflow to be exported as part of the update sets, you must create an extension interface and add the new operation. See [Extend Cloud Provisioning and Governance resource blocks with an override operation](extend-cloud-management-entities.md) for details.
+        To enable the workflow to be exported as part of the update sets, you must create an extension interface and add the new operation. See [Extend Cloud Provisioning and Governance resource blocks with an override operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-configuration-governance/extend-cloud-management-entities.md) for details.
 
     10. In the Add Operation Steps popup, select **Invoke Workflow**for **Operation Type**.
 

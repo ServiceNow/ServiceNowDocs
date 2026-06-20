@@ -2,6 +2,7 @@
 title: Integration with third-party applications and data sources
 description: ServiceNow integrates with many third party applications and data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_IntegrateWThirdPartyAppsDataSrces.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ The ServiceNow platform is based on service-oriented architecture \(SOA\), in wh
 
 Additionally the platform offers a rich interface for loading external data using import sets. Using this feature, you can load from various data sources such as HTTPS, FTPS, and SCP using file formats such as XML, CSV, and Microsoft Excel XLS files. Information can also be pulled from a data source using a direct JDBC connection, provided the network connectivity allows.
 
-Information can be pulled from the platform to an external platform using an [ODBC driver](https://www.servicenow.com/docs/access?context=c_ODBCDriver&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Information can be pulled from the platform to an external platform using an ODBC driver.
 
 Forms, lists, and reports on the platform can be accessed directly using a URL, which facilitates integration on the UI level between two or more web applications.
 
@@ -31,12 +32,12 @@ A handful of single sign-on technologies is identified and implemented out of th
 
 There are times when you find you need to perform a specific integration between your instance and another ServiceNow instance. Instance-to-Instance integrations are a snap because all of the integration points exist between the two instances.
 
--   **[Integration options](c_IntegrationOptions.md)**  
+-   **[Integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_IntegrationOptions.md)**  
 Nearly all ServiceNow customers obtain additional value by integrating with third-party applications.
--   **[Managing integration sessions](managing-integration-sessions.md#)**  
+-   **[Managing integration sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-integration-sessions.md)**  
 Manage access to an instance by configuring how long integration sessions last before expiring.
--   **[Domain separation in third-party application and data source integration](domain-separation-app-data-source-integration.md)**  
+-   **[Domain separation in third-party application and data source integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/domain-separation-app-data-source-integration.md)**  
 This is an overview of domain separation and integration of third-party applications and data sources. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[ServiceNow AI Platform integrations](../../administer/managing-data/concept/integrations.md)
+**Parent Topic:**[ServiceNow AI Platform integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/integrations.md)
 

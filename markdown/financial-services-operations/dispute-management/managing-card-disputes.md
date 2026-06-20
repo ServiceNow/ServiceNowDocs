@@ -2,6 +2,7 @@
 title: Managing dispute service requests
 description: Dispute management enables agents to create dispute cases for both personal and business debit and credit card accounts, and automate the process of dispute routing and fraud-related activities. Learn how agents initiate, investigate, and resolve dispute cases for personal and commercial customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/dispute-management/managing-card-disputes.html
 release: xanadu
 product: Dispute Management
 classification: dispute-management
@@ -35,20 +36,20 @@ The tasks assigned to a dispute case are determined by the information or decisi
 
 To resolve cases, agents perform various activities such as performing investigations, and initiating chargebacks for the tasks assigned to them. Both the case and its tasks are assigned to the assignment groups or agents by using assignment rules.
 
-For more information, see [Dispute workflows](dispute-management-workflows.md).
+For more information, see [Dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management-workflows.md).
 
 ## Dashboards
 
 ServiceNow® Performance Analytics give service owners insight into how the team and business are performing. A dashboard with customizable views is available for Card Operations Dispute Management.
 
--   **[Create a card dispute service case](../task/create-dispute-service-case.md)**  
+-   **[Create a card dispute service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/create-dispute-service-case.md)**  
 An agent can begin the card dispute or report a dispute by creating a dispute case on behalf of a customer.
--   **[Work on a dispute case](../task/work-dispute-case.md)**  
+-   **[Work on a dispute case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/work-dispute-case.md)**  
 Work on a card dispute case to review case information, ensure that any outstanding tasks are completed, and resolve the service request.
--   **[Preconfigured email templates in a card dispute flow](pre-cofigured-email-template.md)**  
+-   **[Preconfigured email templates in a card dispute flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/pre-cofigured-email-template.md)**  
 Email templates are pre-formatted files that you can use to start creating email notifications.
--   **[Implementing the 4-eyes policy for approval tasks](implementing-4-eyes-principle.md)**  
+-   **[Implementing the 4-eyes policy for approval tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/implementing-4-eyes-principle.md)**  
 The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 
-**Parent Topic:**[Dispute Management](../../fso-deposit-operations/concept/dispute-management.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/dispute-management/dispute-management.md)
 

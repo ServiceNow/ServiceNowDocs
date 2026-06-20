@@ -2,6 +2,7 @@
 title: Working with SRM services
 description: A service represents a functional outcome like networking, payments, or HR services, that is owned by a team. To deliver that outcome, a service can contain one or more technical components like a user authentication service, or a piece of shared infrastructure like a database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-work-services.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -19,9 +20,9 @@ SRM works with integrations to prioritize and route alerts to the right responde
 
 **Note:**
 
-You might want multiple tool integrations to monitor each technical service and receive events from those tools. Add an integration to SRM using the Services ![Services icon](../image/icon-sr-services.png) module. See [Working with SRM integrations](sr-work-integrations.md).
+You might want multiple tool integrations to monitor each technical service and receive events from those tools. Add an integration to SRM using the Services \[Omitted image "icon-sr-services.png"\] Alt text: Services icon module. See [Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-integrations.md).
 
-In addition, you can create reliability metrics for the service. See [Working with Reliability metrics](../../slo-management/concept/sr-work-SLI-SLO.md)
+In addition, you can create reliability metrics for the service. See [Working with Reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)
 
 Tying a team and policies to that service makes it easier to divide responsibilities and track technical outcomes. It also makes it easier to automate response routines and focus on who you notify and when.
 
@@ -29,7 +30,7 @@ The state of an exiting service is inherited. The state of a created service in 
 
 ## Services
 
-![Services page showing the list of your services](../image/sr-services-landing-page.png "Services landing page")
+\[Omitted image "sr-services-landing-page.png"\] Alt text: Services page showing the list of your services
 
 The services cards display metrics for:
 
@@ -42,7 +43,7 @@ The services cards display metrics for:
     The error budget metric is represented as the amount of SLO that you can spend over a specified time. It can be used to manage release velocity.
 
 
-**Note:** To refresh the card values, as well as the lists they represent, use the browser Refresh ![Refresh icon](../image/icon-sr-browser-refresh.png) button.
+**Note:** To refresh the card values, as well as the lists they represent, use the browser Refresh \[Omitted image "icon-sr-browser-refresh.png"\] Alt text: Refresh icon button.
 
 The list view varies depending on the Services card selected.
 
@@ -50,9 +51,9 @@ The list view varies depending on the Services card selected.
 
 Each column in the list can be grouped or filtered.
 
-Each list can be edited, sorted or [exported](../task/sr-export-to-file.md).
+Each list can be edited, sorted or [exported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-export-to-file.md).
 
-For more detailed information on individual service details, see [Edit service details form](../reference/sr-edit-service-form.md).
+For more detailed information on individual service details, see [Edit service details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-edit-service-form.md).
 
 ## Services list view metric definitions
 
@@ -72,14 +73,14 @@ For more detailed information on individual service details, see [Edit service d
 -   **Open incidents**: Number of open incidents assigned to the service.
 -   **Error budget remaining**: Percentage of error budget remaining for the service.
 
--   **[Add a service to SRM](../task/sr-add-service.md)**  
+-   **[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-service.md)**  
 Create or add an existing service to your instance so that alerts and incidents on that service are available to your teams within SRM.
--   **[Edit SRM service details](../task/sr-edit-service.md)**  
+-   **[Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-edit-service.md)**  
 Edit an existing service owned by your team. For each service that you support in SRM provide general information about the service and the SRM team that supports it.
 
-**Parent Topic:**[Using Service Reliability Management](using-service-reliability-management.md)
+**Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Previous topic:**[Using Service Reliability Management](using-service-reliability-management.md)
+**Previous topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Next topic:**[Add a service to SRM](../task/sr-add-service.md)
+**Next topic:**[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-service.md)
 

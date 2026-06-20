@@ -2,6 +2,7 @@
 title: Enable using your own POP3 server
 description: You can use your own POP3 server to store and receive email for the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_ConfAltEmailConfPOP3Server.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ You can use your own POP3 server to store and receive email for the instance.
 
 -   Role required: admin
 -   Email server required: POP3
--   [Basic email properties:](t_ConfiguringStandardEmail.md) enabled
+-   [Basic email properties:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ConfiguringStandardEmail.md) enabled
 
 ## Procedure
 
@@ -135,7 +136,7 @@ System Address Filter
 
 System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
- For more information, see [System address filters](../../notification/concept/system-address-filters.md).
+ For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/system-address-filters.md).
 
 </td></tr><tr><td>
 
@@ -168,12 +169,12 @@ Option to create node logs for the raw data that is exchanged with the email ser
 
     If the email account is valid, the system returns a success message.
 
-    ![Example successful Completion code status for testing POP3 connection](../../notification/image/test-pop3-connection.png)
+    \[Omitted image "test-pop3-connection.png"\] Alt text: Example successful Completion code status for testing POP3 connection
 
 
 ## Example
 
-![Flow diagram that shows the steps that show how email is received on your POP3 server](../image/AlternateEmailConfigurationUsingYourOwnPOP3Server.png "Receiving email using your own POP3 server")
+\[Omitted image "AlternateEmailConfigurationUsingYourOwnPOP3Server.png"\] Alt text: Flow diagram that shows the steps that show how email is received on your POP3 server
 
-**Parent Topic:**[Advanced email setup](../concept/c_AlternateEmailConfigurations.md)
+**Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_AlternateEmailConfigurations.md)
 

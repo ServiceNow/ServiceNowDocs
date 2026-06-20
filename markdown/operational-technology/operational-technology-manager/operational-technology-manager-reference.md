@@ -2,6 +2,7 @@
 title: Operational Technology Manager reference
 description: Reference topics provide additional information about the Operational Technology Manager application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/operational-technology-manager-reference.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -15,16 +16,16 @@ breadcrumb: [Operational Technology Manager, Operational Technology]
 
 Reference topics provide additional information about the Operational Technology Manager application.
 
--   **[Components installed with Operational Technology Manager](components-installed-with-operational-technology-manager.md)**  
+-   **[Components installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/components-installed-with-operational-technology-manager.md)**  
 Several types of components may be installed with activation of the Operational Technology Manager application, including user roles.
--   **[Installed software for Operational Technology Management](installed-software-otm.md)**  
+-   **[Installed software for Operational Technology Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/installed-software-otm.md)**  
 The installed software for the Operational Technology Management solution comes from Discovery for Operational Technology \(OT\) or from the OT-certified Service Graph Connectors that support installed software.
--   **[Model categories for Operational Technology](model-categories-for-ot.md)**  
+-   **[Model categories for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/model-categories-for-ot.md)**  
 When configuration items \(CIs\) are created in the CMDB, asset records are created. The asset record contains the model category for the CI.
--   **[APIs for IT to OT and OT to IT conversion](api-for-it-to-ot-and-ot-to-it-conversion.md)**  
+-   **[APIs for IT to OT and OT to IT conversion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.md)**  
 There are 2 APIs used for handling refresh workflow scenarios for converting IT to Operational Technology \(OT\) and vice versa with the OT Asset Management application.
--   **[Related information](otm-related-information.md)**  
+-   **[Related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/otm-related-information.md)**  
 Find more information about the Network Intrusion Detection System \(NIDS\) extension class, OT extension classes, and related applications.
 
-**Parent Topic:**[Operational Technology Manager](../concept/operational-technology-manager.md)
+**Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

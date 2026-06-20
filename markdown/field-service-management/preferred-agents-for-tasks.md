@@ -2,7 +2,10 @@
 title: Assigning preferred agents to work on tasks
 description: Preferred agents are agents who are most familiar with the context of tasks they've been assigned and are preferred by customers. For example, they could be agents who work on-site at a customer premise or are associated with the customer contracts or entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/preferred-agents-for-tasks.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -85,7 +88,7 @@ This example shows how when a customer books an appointment, it’s automaticall
     Navigate to **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace** and see that the task has been assigned to the preferred agent Mona Lisa.
 
 
-For more information on adding a preferred agent to a work order task see, [Assign preferred agents to tasks](../task/assign-preferred-agents-tasks.md).
+For more information on adding a preferred agent to a work order task see, [Assign preferred agents to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/assign-preferred-agents-tasks.md).
 
-**Parent Topic:**[Using dynamic scheduling](using-dynamic-scheduling.md)
+**Parent Topic:**[Using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-dynamic-scheduling.md)
 

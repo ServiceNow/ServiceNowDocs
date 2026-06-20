@@ -2,6 +2,7 @@
 title: Take a survey in Service Operations Workspace
 description: Get notified when a survey is assigned to you. Complete the survey to provide feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/take-survey-sow-wfo-itsm.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -29,7 +30,7 @@ You can respond to surveys or your assessments. You can access surveys available
 
 2.  Access your profile.
 
-    For more information accessing your profile, see [Access your profile in Service Operations Workspace](access-agent-profile-sow-wfo-itsm.md).
+    For more information accessing your profile, see [Access your profile in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/access-agent-profile-sow-wfo-itsm.md).
 
 3.  Select the **Assessments** tab.
 
@@ -46,5 +47,5 @@ You can respond to surveys or your assessments. You can access surveys available
 7.  Complete the survey.
 
 
-**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](../concept/wfo-itsm-service-operations-workspace.md)
+**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
 

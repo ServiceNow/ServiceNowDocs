@@ -2,6 +2,7 @@
 title: Approve with a process guide
 description: Process guides work similarly to approval rules in that their execution is controlled via a condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/approvals/t\_ProcessGuideApprovals.html
 release: xanadu
 product: Approvals
 classification: approvals
@@ -45,11 +46,11 @@ You can link a process guide to a execution task.
 
     Example \#1: Apply to all "Capacity Review" tasks.
 
-    ![Capacity](../image/Capacity.png)
+    \[Omitted image "Capacity.png"\] Alt text: Capacity
 
     Example \#2: Apply to all "Capacity Review" tasks where there requester is in Atlanta.
 
-    ![Capacity Atlanta](../image/CapacityAtlanta.png)
+    \[Omitted image "CapacityAtlanta.png"\] Alt text: Capacity Atlanta
 
     Process guide tips and tricks:
 

@@ -2,6 +2,7 @@
 title: Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
 description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: xanadu
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -39,7 +40,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon ![](../image/csm-ws-dashboards-more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -49,7 +50,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/now-assist-for-csm/now-assist-csm-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -69,7 +70,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.](../image/now-assist-csm-view-input.png "View input step")
+        \[Omitted image "now-assist-csm-view-input.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -185,7 +186,7 @@ Resolved
 
     3.  Select a case record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        ![Selection of new sections that can be included in the summary for each input template.](../image/now-assist-csm-customize-prompt.png "Customize prompt step")
+        \[Omitted image "now-assist-csm-customize-prompt.png"\] Alt text: Selection of new sections that can be included in the summary for each input template.
 
     4.  Select **Save and continue** to go to the next step.
 
@@ -207,7 +208,7 @@ Resolved
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Turn on the Now Assist panel](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

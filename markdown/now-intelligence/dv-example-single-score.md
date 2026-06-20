@@ -2,6 +2,7 @@
 title: Single score visualization example
 description: Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/time stamp.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/dv-example-single-score.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -15,7 +16,7 @@ Use a single score visualization when you want to show a single value or metric,
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -25,15 +26,15 @@ In this example, you create a single score visualization that shows the number o
 
 ## Procedure
 
-1.  Follow the first steps to [Create a single score data visualization in the Visualization Designer or on a dashboard](../../reporting/task/create-dv-sing-sc-ac.md):
+1.  Follow the first steps to [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/create-dv-sing-sc-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
     2.  Select **New**.
 
-    3.  Select the Single score \(![Data visualization single score icon](../../reporting/image/inline-data-vis-single-score.png)\) visualization type.
+    3.  Select the Single score \(\[Omitted image "inline-data-vis-single-score.png"\] Alt text: Data visualization single score icon\) visualization type.
 
-        ![Animation showing workspace and visualization designer selection, and choosing to create a single score visualization](../../reporting/image/dv-ex-single-score-select.gif)
+        \[Omitted image "dv-ex-single-score-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a single score visualization
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -51,7 +52,7 @@ In this example, you create a single score visualization that shows the number o
 
     A single score data visualization with the current value of the selected data appears in the Visualization Designer.
 
-    ![Animation showing selection of data source, application of filter and result](../../reporting/image/dv-ex-single-score-data-source.gif)
+    \[Omitted image "dv-ex-single-score-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -79,7 +80,7 @@ In this example, you create a single score visualization that shows the number o
 
         Alone, this option shows the time of day the score was last updated. You can also select Use relative score time to show the elapsed time since the last update, for example just now, five minutes ago, and so on.
 
-        ![Animation showing selection of update time and filter options](../../reporting/image/dv-ex-single-score-show-update.gif)
+        \[Omitted image "dv-ex-single-score-show-update.gif"\] Alt text: Animation showing selection of update time and filter options
 
     3.  Select **Show zero**.
 
@@ -111,7 +112,7 @@ In this example, you create a single score visualization that shows the number o
 
     3.  Select the color type `Single color`.
 
-        ![Animation showing selection of score size, score icon, icon style, and color](../../reporting/image/dv-ex-single-score-show-display.gif)
+        \[Omitted image "dv-ex-single-score-show-display.gif"\] Alt text: Animation showing selection of score size, score icon, icon style, and color
 
 8.  Configure a color rule for the score.
 
@@ -127,7 +128,7 @@ In this example, you create a single score visualization that shows the number o
 
         Retain the order 100.
 
-        ![Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green](../../reporting/image/dv-ex-single-score-color-rule-1.png)
+        \[Omitted image "dv-ex-single-score-color-rule-1.png"\] Alt text: Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green
 
     4.  To indicate a value that requires more attention, create a second rule with the **Operator** `between`, the values `5` and `25`, the color and icon color `Warning Orange`, and the order `50`.
 
@@ -135,7 +136,7 @@ In this example, you create a single score visualization that shows the number o
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
-    ![Single score in red with XL size, update time, a color that reflects defined coloring rules.](../../reporting/image/dv-ex-single-score-complete.png)
+    \[Omitted image "dv-ex-single-score-complete.png"\] Alt text: Single score in red with XL size, update time, a color that reflects defined coloring rules.
 
 9.  Select **Save**.
 

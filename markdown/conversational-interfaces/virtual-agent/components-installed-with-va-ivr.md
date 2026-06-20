@@ -2,6 +2,7 @@
 title: Components installed with Conversational IVR with Amazon Connect
 description: After installing the Conversational IVR with Amazon Connect application from the ServiceNow Store, the additional dependant plugins and spokes get auto-installed to enable other features for interactive voice response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/components-installed-with-va-ivr.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

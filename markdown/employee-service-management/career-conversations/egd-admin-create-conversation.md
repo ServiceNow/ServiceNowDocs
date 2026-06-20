@@ -2,6 +2,7 @@
 title: Add Conversations
 description: As an Career Conversations admin you can add or manage conversations that are assigned to employees on behalf of managers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/career-conversations/egd-admin-create-conversation.html
 release: xanadu
 product: Career Conversations
 classification: career-conversations
@@ -30,5 +31,5 @@ Role required: sn\_egd\_act.admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Administer and maintain Career Conversations](../concept/egd-activities-administration.md)
+**Parent Topic:**[Administer and maintain Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/career-conversations/egd-activities-administration.md)
 

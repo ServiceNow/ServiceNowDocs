@@ -2,6 +2,7 @@
 title: Configure Conversational Integration with Facebook Messenger
 description: Install and set up the Conversational Integration with Facebook Messenger application to enable your users to interact with virtual and live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/messg-fbm-configure.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -25,14 +26,14 @@ This task provides the general steps to integrate the Facebook Messenger messagi
 
 ## Procedure
 
-1.  [Install Conversational Integration with Facebook Messenger](messg-fbm-install.md).
+1.  [Install Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-install.md).
 
-2.  [Set up Conversational Integration with Facebook Messenger](messg-fbm-setup.md).
+2.  [Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-setup.md).
 
-3.  [Design virtual agent topics to capture information from a Facebook Messenger chat conversation](../concept/messg-fbm-capture-info.md).
+3.  [Design virtual agent topics to capture information from a Facebook Messenger chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-capture-info.md).
 
-4.  [Close idle Facebook Messenger chat conversations](../concept/messg-fbm-open-conv.md).
+4.  [Close idle Facebook Messenger chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-open-conv.md).
 
-5.  [Transfer Facebook Messenger chat conversations to live agents](messg-fbm-live-agent-conv.md).
+5.  [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md).
 
 

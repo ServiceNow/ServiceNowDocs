@@ -2,6 +2,7 @@
 title: Editing a published campaign
 description: If you need to make changes to a published campaign, review this information to understand your options. Editing a campaign pauses the campaign; any content that is not yet available is suspended until the campaign is published again. The campaign, campaign bundles, and campaign content are editable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/ecpro-edit-campaign.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -74,5 +75,5 @@ Cancel a campaign
 Cancelling a campaign deactivates undelivered content. Click **Cancel Campaign** from the Campaign page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creating campaigns with Content Experiences](../concept/ecpro-campaigns.md)
+</table>**Parent Topic:**[Creating campaigns with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 

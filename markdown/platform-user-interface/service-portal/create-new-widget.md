@@ -2,6 +2,7 @@
 title: Create a new widget
 description: Create a new widget to build a custom widget from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-user-interface/service-portal/create-new-widget.html
 release: xanadu
 product: Service Portal
 classification: service-portal
@@ -31,7 +32,7 @@ Role required: admin or sp\_admin
 
     The widget ID is created automatically based on the widget name. You can then select **Create test page** to automatically create a page containing the widget.
 
-    ![Create a new widget](../image/add-widget.png)
+    \[Omitted image "add-widget.png"\] Alt text: Create a new widget
 
     **Note:** After completing development of a widget with a test page, delete the test page. Maintaining test pages can create clutter when managing pages.
 
@@ -39,8 +40,8 @@ Role required: admin or sp\_admin
 
     The widget HTML template, client script, and server script display in the widget editor. Basic script templates are included as a guide.
 
-    ![Widget editor IDE](../image/basic-widget.png)
+    \[Omitted image "basic-widget.png"\] Alt text: Widget editor IDE
 
 
-**Parent Topic:**[Developing custom widgets](../concept/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-user-interface/service-portal/widget-dev-guide.md)
 

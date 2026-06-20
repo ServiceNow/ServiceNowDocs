@@ -2,6 +2,7 @@
 title: Subscribe to incident communication notifications
 description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/incident-communications-management/t\_SubscribeToANotification.html
 release: xanadu
 product: Incident Communications Management
 classification: incident-communications-management
@@ -37,12 +38,12 @@ Role required: itil, ia\_admin, or admin
 
     **Note:** Apply filter to your notification channel to avoid receiving every notification for the subscription.
 
-    ![Apply conditions for a notification](../image/NewNotification.png)
+    \[Omitted image "NewNotification.png"\] Alt text: Apply conditions for a notification
 
 7.  Click **Save**.
 
     You are subscribed to incident communication notification.
 
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

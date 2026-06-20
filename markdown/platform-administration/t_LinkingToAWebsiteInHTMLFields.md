@@ -2,6 +2,7 @@
 title: Link a website in HTML editor
 description: You can insert a link to a website in an HTML field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_LinkingToAWebsiteInHTMLFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 1.  Move the cursor to the position where the link is to appear.
 
-2.  Click the insert/edit link icon \(![Insert or edit link icon](../image/TinyMCEV4Link.png)\) in the HTML toolbar.
+2.  Click the insert/edit link icon \(\[Omitted image "TinyMCEV4Link.png"\] Alt text: Insert or edit link icon\) in the HTML toolbar.
 
 3.  Enter information in each field.
 
@@ -61,5 +62,5 @@ Select the target window for the URL.For files, the **None \(use implicit\)** se
 </table>4.  Click **OK** to insert the link into the field.
 
 
-**Parent Topic:**[Extended functions in HTML field editor](../reference/r_ExtendedFunctions.md)
+**Parent Topic:**[Extended functions in HTML field editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ExtendedFunctions.md)
 

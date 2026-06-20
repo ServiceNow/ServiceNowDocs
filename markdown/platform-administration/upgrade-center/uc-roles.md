@@ -2,6 +2,7 @@
 title: Upgrade Center roles
 description: Upgrade Center is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-roles.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -15,7 +16,7 @@ breadcrumb: [Administration, Upgrade Center, Upgrade, Administer the ServiceNow 
 
 Upgrade Center is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
@@ -38,7 +39,7 @@ Access all tables and information within Upgrade Center on your instance.
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=xanadu&pubname=xanadu-platform-security&ft:locale=en-US).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 

@@ -2,6 +2,7 @@
 title: Benchmark KPIs
 description: You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/benchmarks/c\_BenchKPIConfig.html
 release: xanadu
 product: Benchmarks
 classification: benchmarks
@@ -35,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-**Note:** In some environments, KPIs involving resolved incidents may require further [configuration](../task/t_ConfigResIncBenchKPIs.md) to retrieve resolved incident data.
+**Note:** In some environments, KPIs involving resolved incidents may require further [configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/t_ConfigResIncBenchKPIs.md) to retrieve resolved incident data.
 
 </td></tr><tr><td>
 
@@ -271,7 +272,7 @@ Description
 
 \[The number of incidents and requests created using Virtual Agent \] / \[Total numbers of incidents and requests created\]
 
- The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the [deflection](https://www.servicenow.com/docs/access?context=deflections-virtual-agent&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US) pattern added in the Virtual Agent topic.
+ The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the deflection pattern added in the Virtual Agent topic.
 
 </td></tr><tr><td>
 
@@ -281,7 +282,7 @@ Description
 
 \[The number of incidents auto-resolved by Virtual Agent \] / \[Total number of incidents resolved\]
 
- The number of times, in percentage, incidents were automatically resolved using automated workflows or by [Issue Auto Resolution](https://www.servicenow.com/docs/access?context=auto-resolution-va&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+ The number of times, in percentage, incidents were automatically resolved using automated workflows or by Issue Auto Resolution.
 
 </td></tr></tbody>
 </table><table id="table_yws_1qy_fbb"><thead><tr><th>
@@ -308,7 +309,7 @@ Average customer satisfaction
 
 **Note:** This KPI uses the base system Customer Satisfaction Survey.
 
-If you're using a different survey to collect user feedback, you can [customize the KPI definition](../task/t_CustomBenchKPIConditions.md).
+If you're using a different survey to collect user feedback, you can [customize the KPI definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/t_CustomBenchKPIConditions.md).
 
 </td></tr><tr><td>
 
@@ -667,18 +668,18 @@ Instances where ServiceNow capabilities like NLU, LLM, Knowledge Article, Walk-u
 -   Productivity in fulfilment per user
 
 </td></tr></tbody>
-</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](../../itsm-success-dashboard/concept/sd-kpi-formulae.md)
+</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 
 ## Strategic Portfolio Management KPIs
 
-Benchmarks supports Strategic Portfolio Management KPIs. For more information, see [SPM Benchmarking KPIs](https://www.servicenow.com/docs/access?context=spm-benchmarking-kpis&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US).
+Benchmarks supports Strategic Portfolio Management KPIs. For more information, see SPM Benchmarking KPIs.
 
--   **[Configure KPI participation](../task/t_EnableABenchKPI.md)**  
+-   **[Configure KPI participation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/t_EnableABenchKPI.md)**  
 Review and configure Benchmarks KPI participation by opting in or out of categorized KPIs.
--   **[Link or customize a benchmark KPI](../task/t_CustomBenchKPIConditions.md)**  
+-   **[Link or customize a benchmark KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/t_CustomBenchKPIConditions.md)**  
 You can customize KPI conditions to fit the needs of your organization better.
--   **[Use Benchmarks data for value management analysis](../task/analyze-business-value-historical-data-benchmarks.md)**  
+-   **[Use Benchmarks data for value management analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/analyze-business-value-historical-data-benchmarks.md)**  
 Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth when you use the ServiceNow Benchmarks application.
 
-**Parent Topic:**[Benchmarks](../reference/r_Benchmarks.md)
+**Parent Topic:**[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/benchmarks/r_Benchmarks.md)
 

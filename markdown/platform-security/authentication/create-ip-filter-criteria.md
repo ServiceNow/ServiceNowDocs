@@ -2,6 +2,7 @@
 title: Create IP filter criteria
 description: IP filter criteria allows you to filter users based on the user's IP addresses. You can configure an authentication policy to allow or deny access to a specific address or range of addresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/create-ip-filter-criteria.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ Role required: admin
     |Description|Short description of the IP network.|
     |Application|Scope of the application.|
 
-    ![IP filter criteria form](../images/ip-filter-criteria.png "Example IP filter criteria record")
+    \[Omitted image "ip-filter-criteria.png"\] Alt text: IP filter criteria form
 
 4.  Right-click the form header and click **Save**.
 
@@ -45,6 +46,6 @@ Role required: admin
 
 6.  From the **Subnet \(CIDR\)** tab, double-click **Insert a new row**.
 
-    Enter the Network IP address and Netmask in the Classless Inter-Domain Routing \(CIDR\) format. For example, enter `255.255.255.0` as Network IP and `25` as Netmask.![Sample Subnet in IP filter criteria](../images/subnet-ip-filter-sample.png)
+    Enter the Network IP address and Netmask in the Classless Inter-Domain Routing \(CIDR\) format. For example, enter `255.255.255.0` as Network IP and `25` as Netmask.\[Omitted image "subnet-ip-filter-sample.png"\] Alt text: Sample Subnet in IP filter criteria
 
 

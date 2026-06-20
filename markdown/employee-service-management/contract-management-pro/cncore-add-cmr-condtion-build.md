@@ -2,6 +2,7 @@
 title: Provide access to contract request fields in condition builders
 description: As an administrator, provide access to contract request fields so they can be selected in condition builders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +30,7 @@ Role required: admin
 
     1.  Select the **Columns** tab and select **New**.
 
-    2.  In the **Type** field, select the Lookup using list icon \(![Lookup using list icon](../../workplace-lease-administration/images/look-up-icon.png)\) and search for `Reference` and select it.
+    2.  In the **Type** field, select the Lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon\) and search for `Reference` and select it.
 
     3.  Select **Reference Specification** tab.
 
@@ -37,12 +38,12 @@ Role required: admin
 
     5.  On the Dictionary entry form, fill in the fields.
 
-        For more information, see [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+        For more information, see .
 
     6.  Select **Submit**.
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

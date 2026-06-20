@@ -2,6 +2,7 @@
 title: Define a datasource
 description: The datasource is an entity that has associated data that you intend to display. For example, a community post or a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.html
 release: xanadu
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam

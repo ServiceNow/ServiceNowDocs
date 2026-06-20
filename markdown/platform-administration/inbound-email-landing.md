@@ -2,6 +2,7 @@
 title: Inbound email
 description: Save time from responding to emails manually when you configure your instance to send replies, create incidents, or update records automatically in response to inbound emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/inbound-email-landing.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,23 +18,23 @@ Save time from responding to emails manually when you configure your instance to
 
 <table id="table_mk5_pfr_bzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore automated system responses to inbound email](../reference/explore-inbound-email.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore automated system responses to inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/explore-inbound-email.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure a processing order for inbound email actions](configure-inbound-email.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure a processing order for inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configure-inbound-email.md)
 
 </td><td>
 
-[Actions![](../../../reuse/icons/brand-icons/bus-manage.svg)Run Inbound actions by comparing the inbound email type and inbound action conditions](actions-inbound-email.md)
+[Actions\[Omitted image "bus-manage.svg"\] Alt text:Run Inbound actions by comparing the inbound email type and inbound action conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/actions-inbound-email.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-workflow.svg)Process inbound email actions](use-inbound-email-action.md)
+[Use\[Omitted image "bus-workflow.svg"\] Alt text:Process inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/use-inbound-email-action.md)
 
 </td><td>
 
-[References and Examples![](../../../reuse/icons/brand-icons/bus-learn.svg)See examples for inbound email actions, inbound events integration and details about email objects, email matching, user impersonation and redirecting emails](references-inbound-email.md)
+[References and Examples\[Omitted image "bus-learn.svg"\] Alt text:See examples for inbound email actions, inbound events integration and details about email objects, email matching, user impersonation and redirecting emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/references-inbound-email.md)
 
 </td><td>
 
@@ -42,7 +43,7 @@ Save time from responding to emails manually when you configure your instance to
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Troubleshooting Notification emails](troubleshooting-notification-emails.md)
+-   [Troubleshooting Notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/troubleshooting-notification-emails.md)
 -   Ask or answer questions in the [Platform](https://community.servicenow.com/community/service-automation-platform) community
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

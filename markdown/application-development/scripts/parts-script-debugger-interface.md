@@ -2,6 +2,7 @@
 title: Parts of the user interface
 description: The Script Debugger interface displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/scripts/parts-script-debugger-interface.html
 release: xanadu
 product: Scripts
 classification: scripts
@@ -15,9 +16,9 @@ breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, Buil
 
 The Script Debugger interface displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
 
-![Script debugger not paused](../image/script_debugger_not_paused.png "Script Debugger Not Paused")
+\[Omitted image "script\_debugger\_not\_paused.png"\] Alt text: Script debugger not paused
 
-![Script debugger paused](../image/script_debugger_paused.png "Script Debugger Paused")
+\[Omitted image "script\_debugger\_paused.png"\] Alt text: Script debugger paused
 
 |User interface element|Description|
 |----------------------|-----------|
@@ -40,7 +41,7 @@ The Script Debugger interface displays information about breakpoints set, the ca
 
 ## Session Log
 
-![Session log user interface elements](../image/session-log.png "Session log")
+\[Omitted image "session-log.png"\] Alt text: Session log user interface elements
 
 |User interface element|Description|
 |----------------------|-----------|
@@ -51,7 +52,7 @@ The Script Debugger interface displays information about breakpoints set, the ca
 |Message Type|Option to filter logs based on the dynamically log levels. For example, **Info**.|
 |Clear log|Clears all logs.|
 |Download log|Download the logs in HTML file format.|
-|Settings|Session debug options. For information about the debug options, see [Session debug](../concept/c_SessionDebug.md#).|
+|Settings|Session debug options. For information about the debug options, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/c_SessionDebug.md).|
 
-**Parent Topic:**[Script Debugger and Session Log](../concept/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/scripts/script-debugger.md)
 

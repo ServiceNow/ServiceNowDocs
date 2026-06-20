@@ -2,6 +2,7 @@
 title: Configure output port properties
 description: Configure the ways the output ports or fields of components or methods return output in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/integrate-applications/rpa-hub/configure-output-port-properties.html
 release: xanadu
 product: RPA Hub
 classification: rpa-hub
@@ -50,10 +51,10 @@ Write Data To
 </td><td>
 
 Field that appears for Data Out ports only. There are two options:-   **Connection**: Pass the data to another component.
--   **Variable**: Map a global or a local variable from where the data must be written. If you select this option, the Data Out port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md).
+-   **Variable**: Map a global or a local variable from where the data must be written. If you select this option, the Data Out port on the component disappears and the variable name appears on the port. For more information, see [Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/configure-variables-rpa-studio.md).
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/integrate-applications/rpa-hub/rpa-studio-use.md)
 

@@ -2,6 +2,7 @@
 title: Populate Jira project identifier reference fields for Agile Development 2.0 custom table
 description: Enable Jira identifier reference fields for your Agile Development 2.0 custom table that you added to the map configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/atlassian-jira-integrations-common/jira-populate-external-identifier-reference-fields-on-a-custom-table.html
 release: xanadu
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -49,12 +50,12 @@ Configure the form layout or personalize the list layout of your custom table to
 -   External Project
 -   External URL
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](../reference/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 
 **Related topics**  
 
 
-[Personalise a v2 list](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=xanadu&pubname=xanadu-platform-user-interface&section=t_PersonalizeAList&ft:locale=en-US)
+[bundle-platux.t_PersonalizeAList]
 
-[Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.configure-form-layout]
 

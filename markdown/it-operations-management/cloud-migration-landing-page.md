@@ -2,7 +2,10 @@
 title: Cloud Migration Assessment
 description: Use the ServiceNow Cloud Migration Assessment application to plan, organize, and track the process of relocating your enterprise IT resources and workloads to cloud platforms. Analyze the IT resources using dashboards that visualize and summarize information on resources by different categories. You can also dive in and check detailed information for individual resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/cloud-migration-landing-page.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -19,19 +22,19 @@ Group servers, create migration assessment tasks, educate and entice stakeholder
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about Cloud Migration Assessment.](../concept/exploring-cloud-migration.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about Cloud Migration Assessment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/exploring-cloud-migration.md)
 
 </td><td>
 
-[Configure ![](../../../common/image/icon-set-up.png) Install or update Cloud Migration Assessment.](../concept/cloud-migration-configuration.md#)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Install or update Cloud Migration Assessment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-configuration.md)
 
 </td><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](cloud-migration-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/cloud-migration-reference.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../common/image/icon-workspace.png) Plan the migration process, create migration tasks, assign resources to tasks, and monitor the migration progress.](../concept/using-cloud-migration.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Plan the migration process, create migration tasks, assign resources to tasks, and monitor the migration progress.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/using-cloud-migration.md)
 
 </td><td>
 

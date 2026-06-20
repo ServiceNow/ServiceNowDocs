@@ -2,7 +2,10 @@
 title: Create record with Azure GCC details
 description: Create and update a new record in the sys\_properties.list table with the details of the Azure account of GCC customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-record-azure-gcch.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-request-based-chat-integration-gcch.md)
+**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ec-teams-request-based-chat-integration-gcch.md)
 

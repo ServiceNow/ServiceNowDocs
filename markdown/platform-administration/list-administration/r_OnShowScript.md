@@ -2,6 +2,7 @@
 title: onShow script for list context menus
 description: The onShow script field defines a script that runs before the context menu is displayed to determine which options appear in the context menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_OnShowScript.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -38,5 +39,5 @@ if (g_list.getGroupBy()) {
 }
 ```
 
-**Parent Topic:**[Customize list context menus](../task/t_CreateAContextMenu.md)
+**Parent Topic:**[Customize list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_CreateAContextMenu.md)
 

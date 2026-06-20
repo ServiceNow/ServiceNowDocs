@@ -2,6 +2,7 @@
 title: Guidelines and example questions
 description: This section shows guidelines and some typical questions you could ask in the Now Assist panel to generate data visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/example-questions-generating-dv.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -26,7 +27,7 @@ Follow these guidelines when asking Now Assist to generate a data visualization:
 
 When you generate a data visualization, look it over carefully. Check whether it really shows you what you want to know. Keep refining your questions until you are satisfied.
 
-**Note:** Data visualization generation uses the same engine as Analytics Q&amp;A. Therefore, for more information, see the question guidelines in [Analytics Q&amp;A](../../performance-analytics/concept/analytics-q-and-a.md).
+**Note:** Data visualization generation uses the same engine as Analytics Q&amp;A. Therefore, for more information, see the question guidelines in [Analytics Q&amp;A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/analytics-q-and-a.md).
 
 ## Examples
 
@@ -51,5 +52,5 @@ When you generate a data visualization, look it over carefully. Check whether it
     Gives you a bar chart of records on the Task table that were created this month, grouped by the value of the Priority field.
 
 
-**Parent Topic:**[Use Analytics Generation](../task/use-dv-generation.md)
+**Parent Topic:**[Use Analytics Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/use-dv-generation.md)
 

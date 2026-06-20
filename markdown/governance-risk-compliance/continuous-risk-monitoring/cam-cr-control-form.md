@@ -2,6 +2,7 @@
 title: Control requirement details in the CAM view of Control objective and Control forms
 description: The CAM view of the Control form has fields that have been added to capture the control requirement details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/continuous-risk-monitoring/cam-cr-control-form.html
 release: xanadu
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

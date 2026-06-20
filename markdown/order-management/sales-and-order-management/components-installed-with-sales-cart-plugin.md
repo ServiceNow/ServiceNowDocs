@@ -2,6 +2,7 @@
 title: Components installed with Sales Cart
 description: Several types of components are installed with activation of Sales Cart including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/components-installed-with-sales-cart-plugin.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management

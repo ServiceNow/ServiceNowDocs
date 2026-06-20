@@ -2,6 +2,7 @@
 title: Create resource assignments and operation resource assignments in Resource Management Workspace
 description: Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/resource-management/create-ra-rmw.html
 release: xanadu
 product: Resource Management
 classification: resource-management
@@ -25,15 +26,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 2.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d203719e77">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d51015e77">
 
 Option
 
-</th><th align="left" id="d203719e80">
+</th><th align="left" id="d51015e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d203719e86">
+</th></tr></thead><tbody><tr><td id="d51015e86">
 
 **Create a resource assignment**
 
@@ -42,9 +43,9 @@ Procedure
 1.  Select **New** or select **New Resource Assignment** from the more actions list.
 2.  On the New Resource Assignment form, fill in the fields.
 
-For a description of the field names, see [New Resource Assignment form](../concept/create-ra-form-rmw.md).
+For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d203719e122">
+</td></tr><tr><td id="d51015e122">
 
 **Create operational resource assignment**
 
@@ -53,7 +54,7 @@ For a description of the field names, see [New Resource Assignment form](../conc
 1.  Select **New operational Assignment** from the more actions list.
 2.  On the New Operational Assignment form, fill in the fields.
 
-For a description of the field names, see [New Operational Assignment form](../concept/create-op-ra-form-rmw.md).
+For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/create-op-ra-form-rmw.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -65,5 +66,5 @@ Resource assignment is created. You can filter and view this assignment in the l
 
 If an assignment is made for a resource from the resource board and if it's within the selected date range, the assignment shows up nested under the selected resource in real-time.
 
-**Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/resource-management/using-rmw.md)
 

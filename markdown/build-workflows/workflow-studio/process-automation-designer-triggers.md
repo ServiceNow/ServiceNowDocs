@@ -2,6 +2,7 @@
 title: Triggers
 description: Triggers specify when to start running your playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/process-automation-designer-triggers.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -17,11 +18,11 @@ Triggers specify when to start running your playbook.
 
 In Playbooks, triggers indicate when your playbook should start running. Each trigger has a type and conditions that, when met, start running your activated playbook.
 
-You can choose a trigger when you create a playbook in Workflow Studio. Start by adding a trigger, which defines the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. For more information, see [Create a process definition](../task/create-process-definition.md).
+You can choose a trigger when you create a playbook in Workflow Studio. Start by adding a trigger, which defines the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-process-definition.md).
 
-If there are no triggers that fit your use case, you can create your own trigger definition instead. For more information, see [Create a trigger definition](../task/create-trigger-definition.md).
+If there are no triggers that fit your use case, you can create your own trigger definition instead. For more information, see [Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-trigger-definition.md).
 
-![When the conditions specified in your trigger are met anywhere in the ServiceNow AI Platform, your automated playbook starts running.](../images/process-automation-designer-trigger-flow.png "How triggers work")
+\[Omitted image "process-automation-designer-trigger-flow.png"\] Alt text: When the conditions specified in your trigger are met anywhere in the ServiceNow AI Platform, your automated playbook starts running.
 
 ## Trigger types
 
@@ -40,7 +41,7 @@ In your Trigger Definition \[sys\_pd\_trigger\_definition\] record, you can choo
     The playbook runs when a user creates a record or updates an existing record anywhere in the ServiceNow AI Platform.
 
 
-**Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see [Non-interactive sessions](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+**Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see Non-interactive sessions.
 
 ## Conditions to run
 
@@ -60,7 +61,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to create field conditions for when your playbook runs. See [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Use the condition builder to create field conditions for when your playbook runs. See Condition builder.
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Run my process
 </td><td>
 
 Choose an option for when your playbook runs. Options include:-   **Once**: Triggers the playbook once for the life of the triggering input record.
--   **For each unique change**: Triggers the playbook for every unique update to a non-[system field](https://www.servicenow.com/docs/access?context=r_GlobalDefaultFields&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.
+-   **For each unique change**: Triggers the playbook for every unique update to a non-system field even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.
 
 **Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
 
@@ -82,7 +83,7 @@ Run on extended
 
 </td><td>
 
-Select this option to trigger the playbook on tables that extend from your selected table. For example, if you enable this option and select the Configuration Item \[cmdb\_ci\] table, your playbook runs when record operations occur on the Server \[cmdb\_ci\_server\], Computer \[cmdb\_ci\_computer\], and other extended tables. For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Select this option to trigger the playbook on tables that extend from your selected table. For example, if you enable this option and select the Configuration Item \[cmdb\_ci\] table, your playbook runs when record operations occur on the Server \[cmdb\_ci\_server\], Computer \[cmdb\_ci\_computer\], and other extended tables. For more information, see .
 
 </td></tr></tbody>
 </table>## Design considerations
@@ -102,10 +103,10 @@ Refer to these design considerations when working with triggers:
     Record triggers ignore records that were added or updated by applying an update set or importing an XML file. These operations apply to the entire application or table instead of an individual record.
 
 
--   **[Create a trigger definition](../task/create-trigger-definition.md)**  
+-   **[Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/create-trigger-definition.md)**  
 Define the type of trigger that determines when to start running your playbook.
--   **[Add and configure a trigger in a playbook](../task/add-configure-trigger.md)**  
+-   **[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/add-configure-trigger.md)**  
 Begin building your playbook by adding and configuring the trigger.
 
-**Parent Topic:**[Building playbooks](building-a-process.md)
+**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/building-a-process.md)
 

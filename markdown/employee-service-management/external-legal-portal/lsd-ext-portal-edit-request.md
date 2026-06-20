@@ -2,6 +2,7 @@
 title: Edit requests in External Legal Service Center
 description: Edit requests that are saved as draft in External Legal Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/external-legal-portal/lsd-ext-portal-edit-request.html
 release: xanadu
 product: External Legal Portal
 classification: external-legal-portal
@@ -41,41 +42,41 @@ Role required: sn\_lg\_ext\_portal.ext\_user
 
 8.  Work on the attachments.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d423712e114">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d395062e114">
 
 Action
 
-</th><th align="left" id="d423712e117">
+</th><th align="left" id="d395062e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d423712e123">
+</th></tr></thead><tbody><tr><td id="d395062e123">
 
 **Add attachments**
 
 </td><td>
 
-1.  Select Add icon \(![Add icon](../image/lsd-ext-portal-add-attachment.png)\).
+1.  Select Add icon \(\[Omitted image "lsd-ext-portal-add-attachment.png"\] Alt text: Add icon\).
 2.  You can add attachments by selecting, dragging, or pasting a file.
 
 
-</td></tr><tr><td id="d423712e147">
+</td></tr><tr><td id="d395062e147">
 
 **Rename attachments**
 
 </td><td>
 
-1.  Select Edit file name icon \(![Edit file name icon](../image/lsd-ext-portal-edit-filename.png)\).
+1.  Select Edit file name icon \(\[Omitted image "lsd-ext-portal-edit-filename.png"\] Alt text: Edit file name icon\).
 2.  Edit the file name.
 
 
-</td></tr><tr><td id="d423712e171">
+</td></tr><tr><td id="d395062e171">
 
 **Delete attachments**
 
 </td><td>
 
-1.  Select Delete icon \(![Delete icon](../image/lsd-ext-portal-delete-attachment.png)\).
+1.  Select Delete icon \(\[Omitted image "lsd-ext-portal-delete-attachment.png"\] Alt text: Delete icon\).
 2.  Select **OK** on the delete attachment confirmation.
 
 

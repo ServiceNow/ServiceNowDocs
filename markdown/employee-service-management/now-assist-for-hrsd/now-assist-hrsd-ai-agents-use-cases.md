@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for HR Service Delivery \(HRSD\)
 description: Use the Now Assist for HR Service Delivery \(HRSD\) agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.html
 release: xanadu
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -135,6 +136,6 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 

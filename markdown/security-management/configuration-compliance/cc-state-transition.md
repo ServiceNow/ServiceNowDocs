@@ -2,6 +2,7 @@
 title: Test result and remediation task state transitions in the Configuration Compliance application
 description: The states of configuration test records and their associated remediation tasks \(RTs\) are impacted if test result records are deferred, resolved, reopened, and transferred to other remediation efforts \(REs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/cc-state-transition.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -275,5 +276,5 @@ Test results remain Open
 -   Starting with v14.12 of Configuration Compliance, the **Result invalid** option is removed in the **Resolution** filed in the Close modal.
 -   Starting with v14.12 of Configuration Compliance, the **Remediation Task State Approval** workflow is deprecated and replaced by the flow Remediation Task State Approval in the flow designer.
 
-**Parent Topic:**[Configuration Compliance reference information](../reference/cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

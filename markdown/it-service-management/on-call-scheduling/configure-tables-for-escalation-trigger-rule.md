@@ -2,6 +2,7 @@
 title: Configure a table for escalation trigger rules
 description: Configure escalation trigger rules for the tables that do not extend tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.html
 release: xanadu
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -43,5 +44,5 @@ Tables that are configured in the Trigger Rule Table Configuration \[trigger\_ru
     The Trigger Rules related list shows the escalation trigger rules that are configured for the table.
 
 
-**Parent Topic:**[Designing an escalation process](../concept/designing-escalation-process-oncall.md)
+**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 

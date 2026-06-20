@@ -2,6 +2,7 @@
 title: ERP Data Hub remote table form field descriptions
 description: The Remote table form in ERP Data Hub enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-integration-framework/erp-canvas-remote-table-descriptions.html
 release: xanadu
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -55,7 +56,7 @@ ERP system
 
 </td><td>
 
-ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Data Hub](../task/create-an-erp-system.md).
+ERP system that the remote table is linked to. The connected system represents the ERP instance that is linked to the model, enabling data flow and interaction between the model and the connected ERP system. For more information, see [Create an ERP system in ERP Data Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/create-an-erp-system.md).
 
 </td></tr><tr><td>
 
@@ -123,8 +124,8 @@ Scheduled encoded query
 
 </td><td>
 
-Details on any scheduled extraction queries for the remote table.Create an encoded query string using a filter on the remote table list and paste the string into the **Encoded query** field. For more information on creating encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+Details on any scheduled extraction queries for the remote table.Create an encoded query string using a filter on the remote table list and paste the string into the **Encoded query** field. For more information on creating encoded queries, see .
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Data Hub field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[ERP Data Hub field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-integration-framework/erp-canvas-field-descriptions.md)
 

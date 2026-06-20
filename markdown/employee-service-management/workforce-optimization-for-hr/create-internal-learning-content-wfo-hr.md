@@ -2,6 +2,7 @@
 title: Create internal learning in Workforce Optimization for HR
 description: Add internal courses so that agents can learn new content and enhance their skill set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/create-internal-learning-content-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

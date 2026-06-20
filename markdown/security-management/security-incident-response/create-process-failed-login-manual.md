@@ -2,6 +2,7 @@
 title: Create processes for Failed Login Manual in PAD
 description: Use these steps to create processes for Failed Login Manual in the Process Automation Designer \(PAD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-process-failed-login-manual.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +38,7 @@ Role required: sn\_si.admin or sn\_si.manager
 
     For example, the trigger condition is when a security incident of category Phishing is created.
 
-    ![Failed Login Manual playbook overview](../image/failed-login.gif "Failed Login Manual playbook")
+    \[Omitted image "failed-login.gif"\] Alt text: Failed Login Manual playbook overview
 
 7.  Click **Go to Designer**.
 
@@ -69,7 +70,7 @@ Role required: sn\_si.admin or sn\_si.manager
 
     After an activity definition is added, it can be further configured similar to stages. Similarly, you can create other process activities under each stage.
 
-    ![Failed Login Manual Activity](../image/failed-login-activity.gif "Failed Login Manual Activity")
+    \[Omitted image "failed-login-activity.gif"\] Alt text: Failed Login Manual Activity
 
 14. In the Activity properties pane, add a run condition and indicate when to start the process activity.
 
@@ -80,5 +81,5 @@ Role required: sn\_si.admin or sn\_si.manager
 16. Click **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
 
 
-**Parent Topic:**[Playbook for Failed Login Manual](../concept/playbook-failed-login.md)
+**Parent Topic:**[Playbook for Failed Login Manual](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/playbook-failed-login.md)
 

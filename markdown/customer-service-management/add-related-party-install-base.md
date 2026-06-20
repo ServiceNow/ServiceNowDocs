@@ -2,7 +2,10 @@
 title: Add a related party to an install base item
 description: Add related parties to an install base item in the Customer Service Management application so that you can enable another party to have access to an install base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/add-related-party-install-base.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin and sn\_customerservice\_manager
 
 An install base related party is a list of contacts, consumers, contributors, service organization members, accounts, or service organizations. You add a related party to enable access to another party that isn't the owner of the install base. The related parties that you associate to an install base can access the install base and related entities, including the installed products, sold products, and cases that are associated to the install base.
 
-**Note:** You can enable additional contacts by using the **Restrict Contact Access** field. For details, see [Restrict contact access](manage-account-access-cam.md).
+**Note:** You can enable additional contacts by using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/manage-account-access-cam.md).
 
 ## Procedure
 
@@ -50,7 +53,7 @@ An install base related party is a list of contacts, consumers, contributors, se
     |Listed Account|Not applicable|
     |Listed Consumer|Not applicable|
 
-    **Note:** The **Responsibility** field on the Install Base Related Parties form is automatically populated based on the type of related party that is selected. For information on the type of related parties, see [Add related party configurations to cases, sold products, install bases, or service organizations](adding-related-party-config-to-case.md).
+    **Note:** The **Responsibility** field on the Install Base Related Parties form is automatically populated based on the type of related party that is selected. For information on the type of related parties, see [Add related party configurations to cases, sold products, install bases, or service organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/adding-related-party-config-to-case.md).
 
 5.  Select **Submit**.
 

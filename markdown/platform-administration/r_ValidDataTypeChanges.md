@@ -2,6 +2,7 @@
 title: Dictionary entry data types
 description: You can only change a dictionary entry's data type when the change does not result in data loss. Use the following guidelines to change a dictionary entry's data type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/r\_ValidDataTypeChanges.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -21,5 +22,5 @@ You can only change a dictionary entry's data type when the change does not resu
 |The field is a string field you are converting to a globally unique ID \(GUID\).|You can only convert a string field to a GUID if all of the exiting data in the field are already **Sys ID** values.|
 |The field is a GUID field you are converting to a string field.|None. You can convert a GUID field to a string field without restriction.|
 
-**Parent Topic:**[Field types](../../reference-pages/reference/r_FieldTypes.md)
+**Parent Topic:**[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_FieldTypes.md)
 

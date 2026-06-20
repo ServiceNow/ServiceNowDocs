@@ -2,6 +2,7 @@
 title: Import your Microsoft Excel spreadsheet using the staging table
 description: Import your Microsoft Excel spreadsheet into the staging table using easy import to create the required data in the staging table from the spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/import-excel-spreadsheet-service-graph-connector.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,7 +20,7 @@ Import your Microsoft Excel spreadsheet into the staging table using easy import
 
 This process requires the IntegrationHub ETL \(com. sn\_int\_studio\) plugin.
 
-Before you perform this process, you must properly prepare a Microsoft Excel spreadsheet for import. To learn more, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+Before you perform this process, you must properly prepare a Microsoft Excel spreadsheet for import. To learn more, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
 When the data is ready to be imported, you can schedule the import into the Configuration Management Database \(CMDB\). This process creates unique records in the Configuration Management Database \(CMDB\) for the OT devices that are included in your spreadsheet.
 
@@ -47,7 +48,7 @@ To access the Industrial Guided Setup, navigate to **Industrial Workspace Admin*
 
     **Note:** The remaining steps for creating an ETL transform map are automatically completed. However, you can select a specific step to review it before performing the actual import. For example, select **Prepare and Preview Data** to view the nested data structure and raw source data.
 
-    **Note:** For more details, see [Create an ETL Transform Map](https://www.servicenow.com/docs/access?context=create-etl-transform-map&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+    **Note:** For more details, see Create an ETL Transform Map.
 
 6.  To perform the actual Excel spreadsheet import, select **Test and Rollback Integration Results**.
 
@@ -67,7 +68,7 @@ To access the Industrial Guided Setup, navigate to **Industrial Workspace Admin*
 
     The Rollback Options dialog box is displayed.
 
-    ![Rollback Options dialog box.](../image/rollback-options.png)
+    \[Omitted image "rollback-options.png"\] Alt text: Rollback Options dialog box.
 
 9.  Select **Retain Data** to retain the imported data, or select **Perform Rollback** to roll back the imported data and reattempt the Microsoft Excel import.
 
@@ -82,5 +83,5 @@ To access the Industrial Guided Setup, navigate to **Industrial Workspace Admin*
 
 After all steps are completed, from the SG-OT Device Import ETL Guided setup homepage, select **Activate** to activate the ETL.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](../concept/service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

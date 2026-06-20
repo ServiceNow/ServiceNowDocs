@@ -2,6 +2,7 @@
 title: Add a task to a retail case
 description: Add tasks directly to your retail case using the Tasks related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/add-task-retail-case.html
 release: xanadu
 topic_type: task
 last_updated: "2024-10-17"

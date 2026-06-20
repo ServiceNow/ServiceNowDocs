@@ -2,6 +2,7 @@
 title: Specify and manage pattern identifier attributes for alert aggregation
 description: Alert aggregation learns the alerts and then forms patterns based on a set of alert and CI attributes. You can specify the set of CI and alert attributes that are used as the pattern identifier attributes for learning patterns that result in alert groups that are meaningful in your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
 release: xanadu
 product: Event Management
 classification: event-management

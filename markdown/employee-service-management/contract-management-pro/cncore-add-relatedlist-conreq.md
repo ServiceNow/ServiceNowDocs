@@ -2,6 +2,7 @@
 title: Add access to contract request details to a form
 description: As an administrator, add the ability to access contract request details to your form by adding the Contract Request tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-add-relatedlist-conreq.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select the table with which the form is associated.
 
-3.  Right-click the context menu icon ![Context menu icon](../../universal-task/images/context-menu.png) and select **Configure** &gt; **Related Lists**.
+3.  Right-click the context menu icon \[Omitted image "context-menu.png"\] Alt text: Context menu icon and select **Configure** &gt; **Related Lists**.
 
 4.  Determine the view that should include the Contract Request tab.
 
@@ -40,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-Display the contract documents in the contract request form by adding the contract documents tab to it. For more information, see [Display contract documents in the contract request form](cncore-add-con-doc-relatedl.md).
+Display the contract documents in the contract request form by adding the contract documents tab to it. For more information, see [Display contract documents in the contract request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-con-doc-relatedl.md).
 
-**Parent Topic:**[Add and configure contract request functionality](../concept/cncore-uptake-steps.md)
+**Parent Topic:**[Add and configure contract request functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 

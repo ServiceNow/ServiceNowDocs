@@ -2,6 +2,7 @@
 title: Escalate a retail case
 description: Escalate a retail case when needed using the Escalations related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-escalate-case.html
 release: xanadu
 topic_type: task
 last_updated: "2024-10-16"

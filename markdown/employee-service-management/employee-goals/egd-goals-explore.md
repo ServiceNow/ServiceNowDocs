@@ -2,6 +2,7 @@
 title: Exploring Employee Goals
 description: The Employee Goals application provides employees and managers with visibility into business goals set by your organization and personal goals that are specific to an employee. This application helps employees cultivate their goals into growth plans to bolster the talent in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-goals/egd-goals-explore.html
 release: xanadu
 product: Employee Goals
 classification: employee-goals
@@ -30,8 +31,8 @@ It also provides an integration with the following HCM systems that are widely u
 
 These integrations create a seamless process for employees and managers to view and track their goals from the Employee Center.
 
--   **[Employee Goals overview](egd-goals-ovrvw.md)**  
+-   **[Employee Goals overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-goals/egd-goals-ovrvw.md)**  
 The Employee Goals application integrates with the Talent Development suite of applications to enhance the professional growth of employees in your organization. This application enables employees to access and monitor their career goals via specific applications in the Talent Development suite.
 
-**Parent Topic:**[Employee Goals](egd-goals-landing.md)
+**Parent Topic:**[Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-goals/egd-goals-landing.md)
 

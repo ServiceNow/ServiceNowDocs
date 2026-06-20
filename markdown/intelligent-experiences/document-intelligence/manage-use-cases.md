@@ -2,6 +2,7 @@
 title: Manage document extraction use cases
 description: Manage your Document Intelligence use cases to efficiently support your document extraction requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/manage-use-cases.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -21,14 +22,14 @@ The following topics describe features that you can use to manage your document 
 -   Export and import trained use cases to share them across your ServiceNow® instances.
 -   Delete a use case if you no longer need to process documents with it.
 
--   **[Duplicate a document extraction use case](../task/duplicate-a-use-case.md)**  
+-   **[Duplicate a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/duplicate-a-use-case.md)**  
 Make a copy of a use case to save time when you want to create a new use case that shares a similar structure to another.
--   **[Export a document extraction use case](../task/export-a-use-case.md)**  
+-   **[Export a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/export-a-use-case.md)**  
 Export a document extraction use case for use in another ServiceNow instance by adding it to an update set.
--   **[Import a document extraction use case](../task/import-a-use-case.md)**  
+-   **[Import a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/import-a-use-case.md)**  
 Import a document extraction use case for use in your ServiceNow instance.
--   **[Delete a document extraction use case](../task/delete-a-use-case.md)**  
+-   **[Delete a document extraction use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/delete-a-use-case.md)**  
 Delete a use case when it’s no longer needed for your documents.
 
-**Parent Topic:**[Configuring Document Intelligence](doc-intel-administration.md)
+**Parent Topic:**[Configuring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/doc-intel-administration.md)
 

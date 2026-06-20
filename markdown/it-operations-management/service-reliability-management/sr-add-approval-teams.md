@@ -2,6 +2,7 @@
 title: Customize team approval settings in SRM
 description: Add an approval process to your Service Reliability Management teams for governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-approval-teams.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -33,7 +34,7 @@ Role required: admin
 
 5.  In the new window, select the link to edit the record.
 
-    ![Select the link to edit the record and set the approving team sys ID in the property.](../image/sr-team-approval-sys-prop.png)
+    \[Omitted image "sr-team-approval-sys-prop.png"\] Alt text: Select the link to edit the record and set the approving team sys ID in the property.
 
 6.  Replace the system property **Value** with the `sys_id` of the assignment team.
 
@@ -43,7 +44,7 @@ Role required: admin
 
     3.  Right-click in the header \(or use the keyboard shortcut\) and select **Copy sys\_id**.
 
-        ![Add the appropriate flow to the fulfillment of the item.](../image/sr-team-copy-sys-id.png)
+        \[Omitted image "sr-team-copy-sys-id.png"\] Alt text: Add the appropriate flow to the fulfillment of the item.
 
     4.  Return to the System Property record and paste the **sys\_id** in the Value field.
 
@@ -56,9 +57,9 @@ Role required: admin
         **Note:** Approvals take two steps. First the request is approved, which shows up in the request record in the **Stage** field, then the request remains **Pending** until the request item is approved in the **Request** record.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Customize service approval settings in SRM](sr-add-approval-services.md)
+**Previous topic:**[Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-approval-services.md)
 
-**Next topic:**[Import teams to Service Reliability Management](sr-import-teams.md)
+**Next topic:**[Import teams to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-import-teams.md)
 

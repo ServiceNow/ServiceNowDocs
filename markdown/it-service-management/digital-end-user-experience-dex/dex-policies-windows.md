@@ -2,6 +2,7 @@
 title: DEX policies for Windows
 description: Use policies for Windows are guidelines and rules to confirm that the application is used consistently, securely, and in compliance. DEX policies help organizations to reduce the risk of data breaches, improve data quality and accuracy, and optimize application performance and availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/dex-policies-windows.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -15,7 +16,7 @@ breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experie
 
 Use policies for Windows are guidelines and rules to confirm that the application is used consistently, securely, and in compliance. DEX policies help organizations to reduce the risk of data breaches, improve data quality and accuracy, and optimize application performance and availability.
 
-To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more details on how to set up the ACC service as a local system account, see [Run ACC as a local system account user](../task/run-acc-local-sys-account.md).
+To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more details on how to set up the ACC service as a local system account, see [Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
 
 **Note:** The historical data for an application or device is the information that is kept in the MetricBase database for the past 7 days, while the latest data pertains to the most recent information available.
 
@@ -326,5 +327,5 @@ N/A
 </td></tr></tbody>
 </table>**Note:** If you upgrade the DEX Content Playbook plugin on an instance and encounter unexpected policy update issues, see the [Troubleshooting: Policy update issues post DEX plugin upgrade \[KB1586917\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1586917) article in the Now Support knowledge base.
 
-**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

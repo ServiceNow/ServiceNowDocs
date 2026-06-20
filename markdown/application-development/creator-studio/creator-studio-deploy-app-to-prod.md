@@ -2,6 +2,7 @@
 title: Request deployment for your app from Creator Studio to production
 description: After you've tested your app's forms, playbooks, and workspace category on a non-production instance, for example a development instance, deploy it to a production instance so users can access it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/creator-studio/creator-studio-deploy-app-to-prod.html
 release: xanadu
 product: Creator Studio
 classification: creator-studio
@@ -39,29 +40,29 @@ You can't cancel the review cycle after you submit an app for deployment review,
     -   **Now Mobile** \(see a preview of how it'll appear on a mobile phone or device\)
     -   **Virtual agent** \(see a representation of how it'll appear on a chatbot interface\)
 
-        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see [Catalog builder preview topic conversation](https://www.servicenow.com/docs/access?context=catalog-builder-preview-topic&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) for more information on previewing forms and their catalog items in Virtual Agent.
+        **Note:** Your organization should have the correct plugins installed to see how the form will appear in Virtual Agent. If you're interested, ask your admin and see  for more information on previewing forms and their catalog items in Virtual Agent.
 
     The **View** button displays forms that have been published and doesn't explicitly create a new draft form for development. The **Edit** button takes you to a development form, for example, a new draft version of a form that's already been published.
 
-    ![Preview how your app will look](../image/crs-portal-preview.png "Preview the app's experience")
+    \[Omitted image "crs-portal-preview.png"\] Alt text: Preview how your app will look
 
     You can also check out a representation of how the form submissions workspace will appear by selecting the **Submissions** preview, as well as the records your app generates for it \(by selecting the **Record** preview\).
 
 4.  In the application header, select **Submit for review**.
 
-    ![Select Submit for review to request deployment](../image/cs-submit-review-button.png "Submit for review")
+    \[Omitted image "cs-submit-review-button.png"\] Alt text: Select Submit for review to request deployment
 
 5.  Select **Continue** on the Submit app for review modal.
 
 6.  Now you need to choose which published forms are visible to users in the catalog. In the Ready for review section of the Review request forms modal, select which of the app's published forms that you want to be available after the app is deployed selecting the **Visible to others** option.
 
-    ![Select which forms to deploy](../image/cs-submit-request-forms.png "Review request forms for deployment")
+    \[Omitted image "cs-submit-request-forms.png"\] Alt text: Select which forms to deploy
 
 7.  Select **Continue** when you're happy with the forms being deployed to production.
 
 8.  Next, you must decide which of the app's activated playbooks will run on production after the app is deployed. In the Review playbooks modal, select the **Run on production** option for each playbook that you want to run on records that the app generates.
 
-    **Note:** If you can't select a playbook, you need to go back to the **Automations** tab of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](creator-studio-activate-automation.md).
+    **Note:** If you can't select a playbook, you need to go back to the **Automations** tab of Creator Studio and activate it. If you need a refresher on that, check out [Activate a playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-activate-automation.md).
 
     Unactivated playbooks still get deployed to production with the app, they just won't run on the records unless your admin activates them on production or redeploys the app with the playbook activated.
 
@@ -83,20 +84,20 @@ New version
 
 </td><td>
 
-[Version number](../concept/creator-studio-glossary.md#) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
+[Version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md) of the app you're requesting for deployment. Creator Studio automatically generates an updated version number, but you can change it.Follow your organization's versioning guidelines, or use the x.y.z format, where x = major update, y = minor update, and z = patch.
 
 </td></tr><tr><td>
 
-[Release notes](../concept/creator-studio-glossary.md#)
+[Release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-glossary.md)
 
 </td><td>
 
 Details on what's changed in this new version of the app, or a general description of what the app does if this is its first version.
 
 </td></tr></tbody>
-</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](../concept/creator-studio-app-release-versioning.md).
+</table>    Read more about this step of requesting deployment in [App versioning and release notes for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-app-release-versioning.md).
 
-    ![Versioning info on deployment request](../image/cs-deploy-versioning.png "App versioning info")
+    \[Omitted image "cs-deploy-versioning.png"\] Alt text: Versioning info on deployment request
 
 11. Select **Submit for review** when everything is correct and ready for your admin to review and deploy.
 
@@ -109,7 +110,7 @@ Woohoo! Your app is ready to be reviewed for deployment.
 
 Your admin uses Pipelines and Deployments to deploy the app to production. You can still make changes to the app after it's been deployed, you'll just need to request re-deployment when it's ready.
 
-If you're an admin, check out [Managing deployments using pipelines in AEMC](../../app-engine-studio/concept/manage-deployments-using-aemc.md#) for the scoop on deploying apps.
+If you're an admin, check out [Managing deployments using pipelines in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/app-engine-studio/manage-deployments-using-aemc.md) for the scoop on deploying apps.
 
-**Parent Topic:**[Deploying your Creator Studio app](../concept/creator-studio-publishing-apps.md)
+**Parent Topic:**[Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/creator-studio/creator-studio-publishing-apps.md)
 

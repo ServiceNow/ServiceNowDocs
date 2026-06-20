@@ -2,7 +2,10 @@
 title: Impact packages
 description: ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-packages.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -35,7 +38,7 @@ If you have purchased an Impact offering, the applicable Impact Package descript
 
 ## Accelerator consumption per Impact package
 
-Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-category that can be consumed consecutively. See [Accelerator catalog](../concept/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
+Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-category that can be consumed consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
 <table id="table_qld_2xg_sxb"><thead><tr><th>
 

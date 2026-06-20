@@ -2,7 +2,10 @@
 title: View account or consumer assets
 description: An OSP agent can view the assets owned by an account or consumer which helps in creating or fulfilling a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/osp-view-asset-acct-consumer.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

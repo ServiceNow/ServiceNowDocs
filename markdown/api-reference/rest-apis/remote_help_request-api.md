@@ -2,6 +2,7 @@
 title: Remote help request API
 description: The Remote help request API provides endpoints to create, view, and fetch lists of IT service requests and their details from an electronic medical record \(EMR\) system. An IT service request is associated with a task type such as an incident in the ServiceNow instance.Inserts electronic medical record \(EMR\) system data into the corresponding ServiceNow tables.Updates a record in the specified remote request data table for the task.Fetches a list of tasks that match the specified ID and query filter.Fetches a single task as specified in the task\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/rest-apis/remote\_help\_request-api.html
 release: xanadu
 product: REST APIs
 classification: rest-apis
@@ -15,17 +16,17 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Remote help request API provides endpoints to create, view, and fetch lists of IT service requests and their details from an electronic medical record \(EMR\) system. An IT service request is associated with a task type such as an incident in the ServiceNow instance.
 
-You can only use this API when the [EMR Help](https://www.servicenow.com/docs/access?context=emr-help&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US) application \(sn\_ind\_rmt\_help\) is installed from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can only use this API when the EMR Help application \(sn\_ind\_rmt\_help\) is installed from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Role required to access the endpoints of this API: sn\_ind\_rmt\_help.requester.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-apis/api-rest.md)
 
 ## Remote help request - POST /remote\_help\_request/\{req\_defn\_id\}
 
 Inserts electronic medical record \(EMR\) system data into the corresponding ServiceNow tables.
 
-You need to specify a [request definition ID](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US) in addition to the parameters for the task and additional data from the EMR system persisted in the request data table associated with the task. You pass two types of data into this endpoint. The first is the request data, which the endpoint inserts into the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table and its associated child tables. The second is the task parameters of the IT service request, which the endpoint inserts into the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. Only data or fields that are defined in the [request definitions](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US) are processed by the endpoint. For additional information on this data model, see [EMR Help data model](https://www.servicenow.com/docs/access?context=emr-data-model&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US).
+You need to specify a request definition ID in addition to the parameters for the task and additional data from the EMR system persisted in the request data table associated with the task. You pass two types of data into this endpoint. The first is the request data, which the endpoint inserts into the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table and its associated child tables. The second is the task parameters of the IT service request, which the endpoint inserts into the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. Only data or fields that are defined in the request definitions are processed by the endpoint. For additional information on this data model, see EMR Help data model.
 
 Records are identified using the request definition ID.
 
@@ -97,7 +98,7 @@ Required. Name-value pairs of the request data from the EMR system to add in the
 } 
 ```
 
- **Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US).
+ **Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
  Data type: Object
 
@@ -132,14 +133,14 @@ Required. Name-value pairs that describe the task parameters of the IT service r
 }
 ```
 
- **Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US).
+ **Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
  Data type: Object
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -152,7 +153,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -397,7 +398,7 @@ Required. Name-value pairs of the request data from the EMR system to update the
 
 ```
 
- **Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US).
+ **Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
  Data type: Object
 
@@ -430,14 +431,14 @@ Required. Name-value pairs that describe the task parameters of the IT service r
 }
 ```
 
- **Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=xanadu&pubname=xanadu-healthcare-life-sciences&ft:locale=en-US).
+ **Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
  Data type: Object
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -450,7 +451,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -647,7 +648,7 @@ query
 
 </td><td>
 
-Required. [Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) used to filter the result set.Data type: String
+Required. Encoded query used to filter the result set.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -656,7 +657,7 @@ Required. [Encoded query](https://www.servicenow.com/docs/access?context=c_Encod
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -668,7 +669,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -913,7 +914,7 @@ Sys\_id of the task to return. This field is provided by the EMR system.Data typ
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -925,7 +926,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

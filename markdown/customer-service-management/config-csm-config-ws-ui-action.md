@@ -2,7 +2,10 @@
 title: Enable the Create Case UI action for case type selection
 description: Enable the Create Case UI action for case type selection for one or more selected tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-csm-config-ws-ui-action.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1

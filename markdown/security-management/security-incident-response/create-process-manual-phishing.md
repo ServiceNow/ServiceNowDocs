@@ -2,6 +2,7 @@
 title: Create playbooks for Manual Phishing in Workflow Studio
 description: Use these steps to create playbooks for Manual Phishing in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/create-process-manual-phishing.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -37,7 +38,7 @@ Role required: sn\_si.admin or sn\_si.manager
 
     For example, the trigger condition is when a security incident of category Phishing is created.
 
-    ![Manual phishing playbook](../image/manual-phishing-playbook.gif "Manual Phishing")
+    \[Omitted image "manual-phishing-playbook.gif"\] Alt text: Manual phishing playbook
 
 7.  Click **Go to Designer**.
 
@@ -67,7 +68,7 @@ Role required: sn\_si.admin or sn\_si.manager
 
     After an activity definition is added, it can be further configured similar to stages. Similarly, you can create other process activities under each stage.
 
-    ![Manual Phishing Activity](../image/automated-phishing.gif "Manual Phishing Activity")
+    \[Omitted image "automated-phishing.gif"\] Alt text: Manual Phishing Activity
 
 14. In the Activity properties pane, add a run condition and indicate when to start the activity.
 
@@ -78,8 +79,8 @@ Role required: sn\_si.admin or sn\_si.manager
 16. Click **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
 
 
--   **[Add parallel activities](../concept/parallel-activities.md)**  
+-   **[Add parallel activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/parallel-activities.md)**  
 If the **When to Start** field is set to **With Previous**, then parallel activities can be initiated.
 
-**Parent Topic:**[Playbook for Manual Phishing](../concept/playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/playbook-manual-phishing.md)
 

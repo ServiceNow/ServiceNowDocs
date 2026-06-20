@@ -2,6 +2,7 @@
 title: Export a report to PDF
 description: Export a report to PDF to use it outside of your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/reporting/export-report-pdf.html
 release: xanadu
 product: Reporting
 classification: reporting
@@ -23,9 +24,9 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to export.
 
-2.  Select the **Sharing** icon \(![](../../../reuse/icons/product-icons/square-share-fill-24.svg)\) and select **Export to PDF**.
+2.  Select the **Sharing** icon \(\[Omitted image "square-share-fill-24.svg"\]\) and select **Export to PDF**.
 
-    ![Export visualization to pdf menu](../image/export-vis-pdf.png)
+    \[Omitted image "export-vis-pdf.png"\] Alt text: Export visualization to pdf menu
 
     1.  Choose the orientation of the PDF, **Portrait** or **Landscape**.
 
@@ -35,7 +36,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
     Select **Generate now** to create the PDF and receive a download.
 
-    Select Send as an email, to send the PDF to one recipient. To schedule delivery of an exported report to multiple addresses, see [Schedule emails of reports](t_ScheduleAReport.md#).
+    Select Send as an email, to send the PDF to one recipient. To schedule delivery of an exported report to multiple addresses, see [Schedule emails of reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/t_ScheduleAReport.md).
 
 4.  Select **Export**.
 
@@ -44,5 +45,5 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](../concept/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/reporting/c_DistributeReports.md)
 

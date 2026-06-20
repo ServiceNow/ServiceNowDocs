@@ -2,6 +2,7 @@
 title: SRM home page
 description: The SRM home page provides relevant information about your work, services, schedules and maintenance reminders, and teams. View this home page by navigating to Service Reliability Management .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-home-page.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,9 +18,9 @@ The SRM home page provides relevant information about your work, services, sched
 
 ## Service Reliability Management home page sections
 
-In the workspace, click the home page icon \(![Home icon](../image/icon-sr-homepage.png)\) to view this home page.
+In the workspace, click the home page icon \(\[Omitted image "icon-sr-homepage.png"\] Alt text: Home icon\) to view this home page.
 
-![Service Reliability Management Home](../image/sr-homepage.png)
+\[Omitted image "sr-homepage.png"\] Alt text: Service Reliability Management Home
 
 When you are on-call, your schedule is listed.
 
@@ -29,7 +30,7 @@ Get started
 
 </td><td>
 
-Contains setup tasks and their progress for teams and services. For more information on completing setup see [Add a service to SRM](../task/sr-add-service.md) and [Edit SRM service details](../task/sr-edit-service.md).**Note:** You can skip any section and come back to it later. Progress is marked in percentages by the actions you take. As long as a step remains incomplete, the tiles are available. You can minimize them, at any point, by selecting the Up icon ![Up icon](../image/icon-sr-caret.png).
+Contains setup tasks and their progress for teams and services. For more information on completing setup see [Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-add-service.md) and [Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-edit-service.md).**Note:** You can skip any section and come back to it later. Progress is marked in percentages by the actions you take. As long as a step remains incomplete, the tiles are available. You can minimize them, at any point, by selecting the Up icon \[Omitted image "icon-sr-caret.png"\] Alt text: Up icon.
 
 Use **Dismiss** to remove it from your page.
 
@@ -64,5 +65,5 @@ Your teams work
 Contains incidents and alerts assigned to your team. Select a card to see the list view for that area.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Get started with Service Reliability Management](../concept/sr-get-started.md)
+</table>**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-get-started.md)
 

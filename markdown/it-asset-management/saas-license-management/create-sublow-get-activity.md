@@ -2,6 +2,7 @@
 title: Create a subflow to get user activity
 description: Create a subflow to update the Software Subscription table with each user's most recent activity in the SaaS application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/create-sublow-get-activity.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -17,7 +18,7 @@ Create a subflow to update the Software Subscription table with each user's most
 
 ## Before you begin
 
-This subflow requires a data stream action to get user activity. For more information, see [Create a data stream action to get user activity](create-data-stream-get-activity.md).
+This subflow requires a data stream action to get user activity. For more information, see [Create a data stream action to get user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-data-stream-get-activity.md).
 
 Role required: flow\_designer or admin
 
@@ -119,7 +120,7 @@ Run As
 
 7.  Select the spoke for the SaaS application that you want to integrate with from the list of installed spokes.
 
-    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see [IntegrationHub available spokes](https://www.servicenow.com/docs/access?context=spokes-list&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US). If there’s no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](create-saas-spoke.md).
+    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see IntegrationHub available spokes. If there’s no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-saas-spoke.md).
 
 8.  Select a data stream action to get user activity.
 
@@ -151,9 +152,9 @@ Run As
     **Tip:** You can still edit the subflow after it's published.
 
 
-**Parent Topic:**[SaaS License Connections](../concept/saas-license-connections.md)
+**Parent Topic:**[SaaS License Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/saas-license-connections.md)
 
-**Previous topic:**[Create a data stream action to get user activity](create-data-stream-get-activity.md)
+**Previous topic:**[Create a data stream action to get user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-data-stream-get-activity.md)
 
-**Next topic:**[Create an action to remove a user](create-data-stream-remove-user.md)
+**Next topic:**[Create an action to remove a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-data-stream-remove-user.md)
 

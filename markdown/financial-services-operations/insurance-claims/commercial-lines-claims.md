@@ -2,6 +2,7 @@
 title: Commercial Lines Claims dashboard
 description: With the Commercial Lines Claims dashboard, you can get an insight into how your team and business are performing for the personal policy service requests that were received for your insurance services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/financial-services-operations/insurance-claims/commercial-lines-claims.html
 release: xanadu
 product: Insurance Claims
 classification: insurance-claims
@@ -111,5 +112,5 @@ Needs to be able to customize views.
 -   Commercial Claim.Service
 -   Commercial Claim.Stage
 
-**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/financial-services-operations/financial-services/fso-content-pack.md)
 

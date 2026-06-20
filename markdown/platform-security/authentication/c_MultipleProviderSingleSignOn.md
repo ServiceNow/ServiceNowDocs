@@ -2,6 +2,7 @@
 title: Multi-Provider Single sign-on \(SSO\)
 description: External SSO allows organizations to use several SSO identity providers \(IdPs\) to manage authentication as well as retain local database \(basic\) authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/c\_MultipleProviderSingleSignOn.html
 release: xanadu
 product: Authentication
 classification: authentication

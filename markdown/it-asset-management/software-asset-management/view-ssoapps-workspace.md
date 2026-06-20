@@ -2,6 +2,7 @@
 title: View SSO applications in workspace
 description: View details related to applications that you can connect through a SSO provider in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-ssoapps-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management

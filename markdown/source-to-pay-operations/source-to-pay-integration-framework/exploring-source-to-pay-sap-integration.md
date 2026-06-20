@@ -2,6 +2,7 @@
 title: Exploring Source-to-Pay integration with SAP ECC and S4HANA
 description: Learn more about the Source-to-Pay integration with SAP ECC and S4HANA
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/source-to-pay-integration-framework/exploring-source-to-pay-sap-integration.html
 release: xanadu
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

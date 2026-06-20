@@ -2,6 +2,7 @@
 title: Define a crawl schedule for an external content connector
 description: Keep your search index up to date by scheduling regular document and user mapping crawls for your external content connector. Scheduled crawls can run daily or on selected days of the week, starting at a time that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/ai-search/define-schedule-ext-cont-connector.html
 release: xanadu
 product: AI Search
 classification: ai-search
@@ -53,13 +54,13 @@ To ensure that all relevant updates from the data source are sent to the AI Sear
         -   Slack external content connector
         The Atlassian Confluence Cloud external content connector only maps permissions for Confluence Cloud users who have made their email addresses visible to all users. To allow user mapping, each Confluence Cloud user must set their own email visibility to **Anyone** as explained in the [https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/](https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/) Atlassian support resource.
 
-5.  If you selected **Partial document crawl** in step [4](run-doc-crawl-ext-cont-connector.md#select-ext-cont-doc-crawl-type), select **Refresh start points**, wait for the **Select start points** list to populate, then select the point where you want the partial crawl to start.
+5.  If you selected **Partial document crawl** in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/run-doc-crawl-ext-cont-connector.md), select **Refresh start points**, wait for the **Select start points** list to populate, then select the point where you want the partial crawl to start.
 
     **Note:** Refreshing the start point list requires the connector to retrieve data from the external data source and may take a minute or two.
 
 6.  In the Create crawl schedule dialog box's Schedule section, select **Daily** or **Weekly** as the frequency for the scheduled crawl.
 
-7.  If you selected **Weekly** in step [6](define-schedule-ext-cont-connector.md#select-schedule-crawl-frequency), select the days of the week that you want the scheduled crawl to run on.
+7.  If you selected **Weekly** in step [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/define-schedule-ext-cont-connector.md), select the days of the week that you want the scheduled crawl to run on.
 
 8.  Specify when you want the system to run the scheduled crawl by entering its start time and time zone.
 
@@ -71,5 +72,5 @@ To ensure that all relevant updates from the data source are sent to the AI Sear
 9.  Select **Create**.
 
 
-**Parent Topic:**[Crawling content with External Content Connectors](../concept/using-ext-cont-connectors.md)
+**Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/ai-search/using-ext-cont-connectors.md)
 

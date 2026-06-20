@@ -2,7 +2,10 @@
 title: Refresh Dispatcher Workspace
 description: Refreshing Dispatcher Workspace reloads resources, work shifts, personal events and work order tasks that are shown on calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/refresh-dispatcher.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2025-11-14"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Reloading Dispatcher Workspace is important if you want to get latest data witho
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Select the Refresh icon \(![refresh](../image/refresh-icon.png)\).
+3.  Select the Refresh icon \(\[Omitted image "refresh-icon.png"\] Alt text: refresh\).
 
     Dispatcher Workspace reloads.
 

@@ -2,6 +2,7 @@
 title: Configuring the Access Simulator \(Take actions\)
 description: Configure the take actions options to complete the role and group assignments that you wish to add after the simulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/configure-access-simulator.html
 release: xanadu
 product: Identity
 classification: identity
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Settings**.
 
-    ![Settings page](../images/simulator-settings.png)
+    \[Omitted image "simulator-settings.png"\] Alt text: Settings page
 
 2.  Select the toggle switch to enable.
 

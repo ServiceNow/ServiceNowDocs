@@ -2,6 +2,7 @@
 title: Getting products
 description: Procure products from the ServiceNow Store based on the terms of your license. A product is a collection of functionalities, typically including multiple applications, that aims to fulfill a category of business need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/getting-products.html
 release: xanadu
 topic_type: concept
 last_updated: "2025-07-31"
@@ -22,9 +23,9 @@ You can browse all products available from the ServiceNow Store by navigating to
 
 From the product details page, you can see all applications included in the product and whether each one is ready to install. Applications that aren't part of your license yet display "License not found."
 
-![Some apps in the product Integrated Risk Management are labeled "Ready to install." Others are labeled "License not found" and require purchase.](../image/store-products-page.png "Product details")
+\[Omitted image "store-products-page.png"\] Alt text: Some apps in the product Integrated Risk Management are labeled "Ready to install." Others are labeled "License not found" and require purchase.
 
-Each unlicensed application in a product must be procured individually. Select each unlicensed application and request procurement from the application details page. For more information, see [Buy a ServiceNow application](../task/buy-servicenow-app.md).
+Each unlicensed application in a product must be procured individually. Select each unlicensed application and request procurement from the application details page. For more information, see [Buy a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/buy-servicenow-app.md).
 
-**Parent Topic:**[Administering applications](../../../build/applications/reference/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/administering-applications.md)
 

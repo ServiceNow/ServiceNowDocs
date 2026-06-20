@@ -2,6 +2,7 @@
 title: Create SLO, SLI, and Error budget policies
 description: Create SLO, SLI, and Error budget policies to help you and your team track your service health and take the necessary actions when required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli.html
 release: xanadu
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -31,7 +32,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the services icon \(![Services icon](../../service-reliability/image/icon-sr-services.png)\).
+2.  From the left navigation pane, select the services icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
 3.  On the **Services** page, open the service for which you want to create SLO and SLI.
 
@@ -45,19 +46,19 @@ Role required: Responder, Manager, or Administrator
 
 6.  In the Service-level objective \(SLO\) form, fill in the appropriate fields.
 
-    For more information, see [Create SLO form](../../service-reliability/reference/sr-create-slo-sli-form.md).
+    For more information, see [Create SLO form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.md).
 
     **Note:** You’re defining a time period for compliance and a goal for reliable service.
 
 7.  In the Service-level indicators \(SLI\) form, select **Add SLI** and fill in the appropriate fields.
 
-    For more information, see [Create SLI form](../../service-reliability/reference/sr-create-sli-form.md).
+    For more information, see [Create SLI form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-sli-form.md).
 
     **Note:** An SLI is a quantitative measure of some aspect of the level of service that is provided. These metrics are used to define SLO targets. At least one SLI is required.
 
 8.  In the Error budget policies form, select **Add threshold** and fill in the appropriate fields.
 
-    For more information, see [Create Error budget policies form](../reference/sr-create-error-budget-form.md).
+    For more information, see [Create Error budget policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-create-error-budget-form.md).
 
     An error budget is the amount of SLO that you can spend over a specified time. SRM aims to minimize error budget consumption to maximize reliability.
 
@@ -71,8 +72,8 @@ Role required: Responder, Manager, or Administrator
 
 10. Select **Activate**.
 
-    See [Edit a reliability indicator](sr-edit-sli-slo.md) for more detailed information on the final SLO page.
+    See [Edit a reliability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md) for more detailed information on the final SLO page.
 
 
-**Parent Topic:**[Working with Reliability metrics](../concept/sr-work-SLI-SLO.md)
+**Parent Topic:**[Working with Reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)
 

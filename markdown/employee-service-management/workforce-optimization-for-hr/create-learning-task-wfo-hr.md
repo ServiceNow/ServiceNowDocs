@@ -2,6 +2,7 @@
 title: Create a learning task
 description: Create learning tasks for agents to keep track of their learning activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workforce-optimization-for-hr/create-learning-task-wfo-hr.html
 release: xanadu
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr

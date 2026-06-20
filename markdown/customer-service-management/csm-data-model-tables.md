@@ -2,7 +2,10 @@
 title: Service Model Foundation tables
 description: Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/csm-data-model-tables.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3

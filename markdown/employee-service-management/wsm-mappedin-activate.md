@@ -2,6 +2,7 @@
 title: Install the Mappedin integration
 description: Activate the Mappedin integration if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/wsm-mappedin-activate.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -42,8 +43,8 @@ Mappedin is integrated with Workplace Service Delivery depending on the release 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configure Mappedin](../concept/mappedin-integration-topics.md)
+**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mappedin-integration-topics.md)
 

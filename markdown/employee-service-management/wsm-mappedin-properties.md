@@ -2,6 +2,7 @@
 title: Maintain import properties
 description: Use Import Properties when you create your own credential records, scheduled imports, or data sources. Currently, the properties are configured for the records used when importing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/wsm-mappedin-properties.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -31,15 +32,15 @@ Role required: sn\_wsd\_mappedin.admin
 
 4.  Enter `sys_properties.list` in the navigation filter and open the following properties
 
-<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d234610e99">
+<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d221486e99">
 
 System property
 
-</th><th align="left" id="d234610e102">
+</th><th align="left" id="d221486e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234610e108">
+</th></tr></thead><tbody><tr><td id="d221486e108">
 
 **sn\_wsd\_core.external\_id\_generator.field​**
 
@@ -47,7 +48,7 @@ Description
 
 Defines the external ID.
 
-</td></tr><tr><td id="d234610e117">
+</td></tr><tr><td id="d221486e117">
 
 **sn\_wsd\_core.external\_id\_generator.max\_buildings**
 
@@ -55,7 +56,7 @@ Defines the external ID.
 
 The maximum number of buildings to generate IDs for with a single selection.50 is the default.
 
-</td></tr><tr><td id="d234610e129">
+</td></tr><tr><td id="d221486e129">
 
 **sn\_wsd\_core.external\_id\_generator.max\_spaces**
 
@@ -63,7 +64,7 @@ The maximum number of buildings to generate IDs for with a single selection.50 i
 
 The maximum number of spaces to generate IDs for at a given time.The default is 5000.
 
-</td></tr><tr><td id="d234610e141">
+</td></tr><tr><td id="d221486e141">
 
 **sn\_wsd\_core.external\_id\_generator.stagger​**
 
@@ -73,5 +74,5 @@ The amount of time \(in seconds\) to stagger processing external ID generations.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Mappedin](../concept/mappedin-integration-topics.md)
+**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/mappedin-integration-topics.md)
 

@@ -2,6 +2,7 @@
 title: Sample Glide query for ERP data in ERP Customization Mining
 description: Access data from the ERP \(Enterprise Resource Planning\) system of record through the Glide API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/using-glide-to-query-erp-data.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -25,5 +26,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[ERP Customization Mining reference](erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

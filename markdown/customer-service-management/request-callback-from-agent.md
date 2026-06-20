@@ -2,7 +2,10 @@
 title: Working with callback requests from an agent
 description: Customers can request a callback from an agent when the wait time to reach an agent is too long or agents are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/request-callback-from-agent.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

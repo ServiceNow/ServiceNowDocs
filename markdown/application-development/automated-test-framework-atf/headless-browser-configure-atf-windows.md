@@ -2,6 +2,7 @@
 title: Configure Automated Test Framework \(ATF\) for Headless Browser in Microsoft Windows
 description: Step 7 in the Microsoft Windows setup for the ServiceNow Headless Browser for ATF: Configure ATF with properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/automated-test-framework-atf/headless-browser-configure-atf-windows.html
 release: xanadu
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Step 7 in the Microsoft Windows setup for the ServiceNow® Headless Browser for 
 
 ## Before you begin
 
-Complete Step 6: [Set up instance for Headless Browser in Microsoft Windows](headless-browser-instance-setup-windows.md)
+Complete Step 6: [Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
 
 Role required: admin on your ServiceNow instance and local administrator on the host machine.
 
@@ -29,13 +30,13 @@ Now that your connection and authentication are set up, you will configure ATF w
 
 2.  Enable the top two properties: **Enable test/test suite execution** and **Enable scheduled test suite execution**.
 
-    ![Top two properties enabled in ATF Administration section](../image/properties-enabled-two.png)
+    \[Omitted image "properties-enabled-two.png"\] Alt text: Top two properties enabled in ATF Administration section
 
 3.  Scroll down to the **Headless Runner Properties** section.
 
 4.  Enable the top check box.
 
-    ![Top check box enabled in Headless Runner Properties section](../image/enable-test-runner-box.png)
+    \[Omitted image "enable-test-runner-box.png"\] Alt text: Top check box enabled in Headless Runner Properties section
 
 5.  Enter the following values in the Headless Runner Properties form:
 
@@ -61,7 +62,7 @@ sn\_atf.headless.username
 
 </td><td>
 
-Username of the integration user that you created in [Add secrets to Docker for Headless Browser setup in Microsoft Windows](headless-browser-add-secrets-docker-windows.md)
+Username of the integration user that you created in [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ sn\_atf.headless.secret\_id
 
 </td><td>
 
-Docker “secret ID” that you obtained earlier, as well as the Docker secret name that you created in Step 2 of the [Add secrets to Docker for Headless Browser setup in Microsoft Windows](headless-browser-add-secrets-docker-windows.md) procedure.
+Docker “secret ID” that you obtained earlier, as well as the Docker secret name that you created in Step 2 of the [Add secrets to Docker for Headless Browser setup in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-add-secrets-docker-windows.md) procedure.
 
 </td></tr><tr><td>
 
@@ -97,9 +98,9 @@ Image name with tag that you downloaded: `ghcr.io/servicenow/atf-headless-runner
 8.  Select **Save**.
 
 
-**Parent Topic:**[Headless Browser setup for Microsoft Windows](../concept/headless-browser-procedure-windows.md)
+**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Previous topic:**[Set up instance for Headless Browser in Microsoft Windows](headless-browser-instance-setup-windows.md)
+**Previous topic:**[Set up instance for Headless Browser in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-instance-setup-windows.md)
 
-**Next topic:**[Verify Headless Browser procedures for ATF in Microsoft Windows](headless-browser-verify-tests-windows.md)
+**Next topic:**[Verify Headless Browser procedures for ATF in Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/automated-test-framework-atf/headless-browser-verify-tests-windows.md)
 

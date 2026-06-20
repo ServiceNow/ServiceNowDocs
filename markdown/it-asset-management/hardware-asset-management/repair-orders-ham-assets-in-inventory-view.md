@@ -2,6 +2,7 @@
 title: Create repair orders for hardware assets in the Inventory view
 description: Request repair of hardware assets that are defective or pending repair by creating a repair order in the Inventory view of the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/hardware-asset-management/repair-orders-ham-assets-in-inventory-view.html
 release: xanadu
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -109,5 +110,5 @@ Notes about the repair order.
 5.  Select **Save**.
 
 
-**Parent Topic:**[Request repair of defective hardware assets in your stockroom](../concept/request-repair-defective-ham-assets.md)
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
 

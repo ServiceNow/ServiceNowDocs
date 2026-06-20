@@ -2,6 +2,7 @@
 title: Create a contract configuration
 description: Define the contract repository where the contracts will be stored and map the data to be added to the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-contract-config.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,9 +18,9 @@ Define the contract repository where the contracts will be stored and map the da
 
 ## Before you begin
 
-A contract template and a template rule that will pick the template when the user submits a contract request must exist. For more information, see [Configure contract templates for a contract request](../concept/cncore-document-templates.md) and [Configure contract template rules](cncore-config-template-rules.md).
+A contract template and a template rule that will pick the template when the user submits a contract request must exist. For more information, see [Configure contract templates for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
-If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Provide access to contract request fields in condition builders](cncore-add-cmr-condtion-build.md)
+If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Provide access to contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 Role required: sn\_cm\_core.contract\_config
 
@@ -39,7 +40,7 @@ Third party contracts already have a default contract configuration in the base 
 
 3.  On the Contract Configuration form, fill in the fields.
 
-    For more information, see [Contract Configuration form](../reference/cncore-contract-config-form.md).
+    For more information, see [Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-contract-config-form.md).
 
 4.  Select **Save**.
 
@@ -49,15 +50,15 @@ Third party contracts already have a default contract configuration in the base 
 
     The fields on the form change depending on the selection.
 
-<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d74403e193">
+<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d72607e193">
 
 Mapping type
 
-</th><th align="left" id="d74403e196">
+</th><th align="left" id="d72607e196">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d74403e202">
+</th></tr></thead><tbody><tr><td id="d72607e202">
 
 **Field mapping - Map fields from the request table to the fields in the contract repository table.**
 
@@ -69,7 +70,7 @@ Fields available
 -   **Contract repository** - This field is automatically set to the configuration repository set in the **Contract repository** field.
 
 
-</td></tr><tr><td id="d74403e247">
+</td></tr><tr><td id="d72607e247">
 
 **Template mapping- Map the template mappings of a contract template to the fields in the contract repository.**
 
@@ -80,7 +81,7 @@ Fields available
 -   **Active** - Option to indicate that the contract repository mapping is active.
 
 
-</td></tr><tr><td id="d74403e280">
+</td></tr><tr><td id="d72607e280">
 
 **Template mapping- Map fields of record producer to the fields in the contract repository table.**
 

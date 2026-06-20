@@ -2,6 +2,7 @@
 title: Legacy - Set the date range of the data
 description: Set the Start and End dates at the top of the Overview tab to specify the date range of the data summarized on a page. The date range set on this tab applies to all the other tabs on the Virtual Agent Analytics dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/use-the-dashboad.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Set the **Start** and **End** dates at the top of the Overview tab to specify th
 
 **Important:**
 
-Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](../concept/VA-dashboard-landing-page-pae.md).
+Conversational Analytics dashboard is being prepared for future deprecation. It will be supported until deprecation but will no longer be available for installation. A new Conversational Analytics dashboard in Platform Analytics experience, which meets the compliance requirements of Government Community Cloud \(GCC\), and thus FedRAMP authorized, is available. See [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md).
 
 For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
@@ -30,7 +31,7 @@ Role required: Chat Analytics Viewer \(chat\_analytics\_viewer\)
 
 ## About this task
 
-![Virtual Agent chat data ranges shown by start and end dates in year-month-day format.](../images/dashboard-top-dates.png)
+\[Omitted image "dashboard-top-dates.png"\] Alt text: Virtual Agent chat data ranges shown by start and end dates in year-month-day format.
 
 All dates and times on the dashboard are UTC. Even though the conversation table lists conversation dates and times in different time zones, Virtual Agent \(VA\) converts them to UTC when displaying them on the dashboard. Additionally, if you select a preset date range, such as last week, the dates might be different from what you expect.
 
@@ -42,13 +43,13 @@ You can set the date range in two ways.
 
 2.  Use the **Start** and **End** dates to set the date range.
 
-    1.  Select the **Start** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    1.  Select the **Start** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     2.  Double-select the start date on the calendar.
 
     3.  Select **OK**.
 
-    4.  Select the **End** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    4.  Select the **End** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     5.  Double-select the end date on the calendar.
 
@@ -58,7 +59,7 @@ You can set the date range in two ways.
 
 3.  Use the **Start** date calendar to set the date range.
 
-    1.  Select the **Start** calendar icon ![Calendar icon](../images/dashboard-calendar-icon.png).
+    1.  Select the **Start** calendar icon \[Omitted image "dashboard-calendar-icon.png"\] Alt text: Calendar icon.
 
     2.  Double-select the start date of the date range.
 
@@ -66,12 +67,12 @@ You can set the date range in two ways.
 
         The dashboard highlights the range of dates.
 
-        ![Calendar showing highlighted start-to-end dates.](../images/dashboard-calendar-start-drag.png)
+        \[Omitted image "dashboard-calendar-start-drag.png"\] Alt text: Calendar showing highlighted start-to-end dates.
 
     4.  Select **OK**.
 
     The data displayed on the dashboard adjusts according to the new date range.
 
 
-**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](../concept/use-the-dashboard-overview.md)
+**Parent Topic:**[Legacy - Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/use-the-dashboard-overview.md)
 

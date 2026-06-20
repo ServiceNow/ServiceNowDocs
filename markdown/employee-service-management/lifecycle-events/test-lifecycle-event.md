@@ -2,6 +2,7 @@
 title: Preview and test a Lifecycle Events case
 description: Preview and test a Lifecycle Events case for different audience types. You can preview a Lifecycle Events case to validate the activities that trigger for a particular audience. You can then create a test Lifecycle Events case for different users and select which activities to include or exclude in your test.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/lifecycle-events/test-lifecycle-event.html
 release: xanadu
 product: Lifecycle Events
 classification: lifecycle-events
@@ -27,7 +28,7 @@ Role required: sn\_hr\_le.admin
 
 3.  Select the **Test Activity Sets** icon.
 
-    ![Open the Test side panel in the Manage Lifecycle Event page.](../image/test-lifecycle-event-icon.png)
+    \[Omitted image "test-lifecycle-event-icon.png"\] Alt text: Open the Test side panel in the Manage Lifecycle Event page.
 
     The Test side panel appears.
 
@@ -35,7 +36,7 @@ Role required: sn\_hr\_le.admin
 
     **Note:** To select a subject person based on audience criteria, select **Advanced Search** to find and select a user based on the criteria you specify.
 
-    ![In the Test side panel, select a subject person for the test and whether to include the inapplicable or indeterminate activities in the test.](../image/test-lifecycle-event-side-panel.png)
+    \[Omitted image "test-lifecycle-event-side-panel.png"\] Alt text: In the Test side panel, select a subject person for the test and whether to include the inapplicable or indeterminate activities in the test.
 
 5.  Select the **Show inapplicable activities and sets** button to show all activities and activity sets that are not applicable for the subject person.
 
@@ -48,5 +49,5 @@ Role required: sn\_hr\_le.admin
     A Lifecycle Events case for the subject person you selected is created.
 
 
-**Parent Topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](../concept/hr-lifecycle-event-test-tool.md)
+**Parent Topic:**[Using the Test Activity Sets tool for a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.md)
 

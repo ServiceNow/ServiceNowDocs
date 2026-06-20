@@ -2,6 +2,7 @@
 title: Approve certificate tasks
 description: Sometimes you need to manually approve a certificate task to ensure the validity and security of TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/discovery/approve-cert-task.html
 release: xanadu
 product: Discovery
 classification: discovery

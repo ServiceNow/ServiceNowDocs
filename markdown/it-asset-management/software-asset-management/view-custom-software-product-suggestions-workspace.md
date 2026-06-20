@@ -2,6 +2,7 @@
 title: View custom software product suggestions in workspace
 description: View the product suggestions that enable you to consolidate your custom software products with corresponding software products in the Software Asset Management Content Library. By consolidating these software products, you can update all references to your custom software products with references to the software products in the Content Library. You can choose to accept or reject these suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/software-asset-management/view-custom-software-product-suggestions-workspace.html
 release: xanadu
 product: Software Asset Management
 classification: software-asset-management
@@ -24,7 +25,7 @@ Role required:
 
 ## About this task
 
-You can add custom software products for any publicly available software products that don’t exist in the Software Asset Management Content Library. For more information on custom software products, see [Add custom software products in workspace](add-custom-software-products-workspace.md).
+You can add custom software products for any publicly available software products that don’t exist in the Software Asset Management Content Library. For more information on custom software products, see [Add custom software products in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/add-custom-software-products-workspace.md).
 
 ## Procedure
 

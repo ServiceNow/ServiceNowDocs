@@ -2,6 +2,7 @@
 title: Antivirus
 description: Displays the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/antivirus.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -20,5 +21,5 @@ Displays the trend of when events occur on potentially infected files. See when 
 -   Restored files: The number of files that have been restored.
 -   Deleted files: The number of deleted files.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

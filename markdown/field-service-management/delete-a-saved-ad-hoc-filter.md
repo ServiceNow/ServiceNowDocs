@@ -2,7 +2,10 @@
 title: Delete a saved ad hoc filter
 description: Delete ad hoc filters saved in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/delete-a-saved-ad-hoc-filter.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: wm\_dispatcher
 
 4.  Select a filter.
 
-5.  Click the **More Actions** \(![More actions icon.](../image/more_actions1.png)\) icon.
+5.  Click the **More Actions** \(\[Omitted image "more\_actions1.png"\] Alt text: More actions icon.\) icon.
 
 6.  Click **Delete**.
 

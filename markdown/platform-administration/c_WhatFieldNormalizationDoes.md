@@ -2,6 +2,7 @@
 title: Normal values
 description: A normal value replaces similar but ambiguous field values with one standard value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_WhatFieldNormalizationDoes.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -69,35 +70,35 @@ Each Normal value record specifies how to identify variations of a normal value 
 
 ## Normalized queries
 
-An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://www.servicenow.com/docs/access?context=c_UsingFiltersAndBreadcrumbs&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) using the original \(raw\) value for the normalized field in the query condition.
+An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, Filters and breadcrumbs using the original \(raw\) value for the normalized field in the query condition.
 
-![](../image/NormalizationFilter1.png "Normalized query example")
+\[Omitted image "NormalizationFilter1.png"\] Alt text:
 
 The filtered list returns records with the normal value substituted for the raw value. However, the breadcrumbs for the filter display the original query conditions.
 
-![](../image/NormalizationFilter2.png "Normalized query results")
+\[Omitted image "NormalizationFilter2.png"\] Alt text:
 
 ## Scripting and normalization
 
 Scripts that update or insert records into the database \(GlideRecord\) are normalized automatically when field normalization is applied. For example, if a script to insert a CI record contains a CPU type of **Xeon L3350**, the script is normalized to insert the CI with a CPU type of **Xeon** instead. Scripts that query the database for normalized field values \(using the conditions of equals or not equals\) can be configured to return the normal value \(such as **Xeon**\) rather than the original \(raw\) value.
 
--   **[Create the normalization record](../task/t_CreateTheNormalizationRecord.md)**  
+-   **[Create the normalization record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateTheNormalizationRecord.md)**  
 Regardless of the normalization method selected, all field normalization requires a list of existing variants and a normal value that is configured to replace these variants in forms and in queries.
--   **[Create a normal value](../task/t_CreateNormalValues.md)**  
+-   **[Create a normal value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateNormalValues.md)**  
 A normal value is a simplified, generic value for a field that replaces all the possible variants of that value that exist in the database.
--   **[Create aliases](../task/t_CreateAliases.md)**  
+-   **[Create aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateAliases.md)**  
 Aliases are the variants of a field value in the instance that will be replaced by the normal value.
--   **[Apply aliases](../task/t_ApplyAliases.md)**  
+-   **[Apply aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_ApplyAliases.md)**  
 After testing, aliases can be normalized in all new records or in existing records when they are updated.
--   **[Create rules](../task/t_CreateRules.md)**  
+-   **[Create rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CreateRules.md)**  
 The use of rules to normalize a field is intended for large lists of variant field values.
--   **[Coalesce records on a normal value](../task/t_CoalesceNormalValues.md)**  
+-   **[Coalesce records on a normal value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_CoalesceNormalValues.md)**  
 Coalescence enables an administrator to redirect references to multiple records containing variants of the same field value to point to a single record, based on a normal value.
 
-**Parent Topic:**[Field normalization and transformation](c_FieldNormalization.md)
+**Parent Topic:**[Field normalization and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_FieldNormalization.md)
 
 **Related topics**  
 
 
-[GlideRecord](https://www.servicenow.com/docs/access?context=p_GlideServerAPIs&version=xanadu&pubname=xanadu-application-development&section=c_GlideRecord&ft:locale=en-US)
+[bundle-cadev.c_GlideRecord]
 

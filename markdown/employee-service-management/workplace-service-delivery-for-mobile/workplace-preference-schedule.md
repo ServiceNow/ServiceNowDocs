@@ -2,6 +2,7 @@
 title: Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile
 description: Employees can plan their hybrid workplace schedule using the Workplace Service Delivery for Mobile. They can reserve a space for a day or make bulk reservations using Workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.html
 release: xanadu
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -31,37 +32,37 @@ Administrators can configure the following to provide better workspace suggestio
 
 -   Space Suggestions table configuration based on Suggestion types \(location, proximity, past and future reservation data, standard services, and collaborators\). Each of these Suggestion type is a given a weight value \(integer value\). While proposing a space to an employee, application takes into account these weight values and accordingly ranks it in the search results based on the priority or weightage given to a Suggestion type. If any of the spaces doesn't fulfill the criteria, the employee is shown the next available preferred space. If a preferred workspace is not available for an employee they are also given the option to manually search for available spaces using the advanced reservation option.
 
-    For more information, see [Space suggestion Configuration](../../workplace-concierge/task/space-suggestion-configuration.md)
+    For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-concierge/space-suggestion-configuration.md)
 
 -   Employee presence configuration in Workplace Concierge
 
-    For more information, see [Set Employee Presence](../../workplace-concierge/concept/use-workplace-concierge.md).
+    For more information, see [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-concierge/use-workplace-concierge.md).
 
 -   Properties enabled for Workplace suggestions and preferences.
 
-    For more information, see [Properties installed with Workplace Concierge](../../workplace-concierge/reference/properties-installed-with-workplace-concierge.md).
+    For more information, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
 
 
 Application also considers the following configurations when fetching your preferred workplace locations:
 
 -   Filter and fetch locations from the Available Reservable Modules:
-    -   Fetch locations from all Reservable Modules that are marked for workplace experience in the Space types property \[ sn\_wsd\_concierge.suggestions\_space\_types\]. For more information see [Properties installed with Workplace Concierge](../../workplace-concierge/reference/properties-installed-with-workplace-concierge.md)
+    -   Fetch locations from all Reservable Modules that are marked for workplace experience in the Space types property \[ sn\_wsd\_concierge.suggestions\_space\_types\]. For more information see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
     -   Verifies if it matches one of the allowed space types in the sn\_wsd\_concierge.suggestions\_space\_types property.
 -   Filter locations by Building: For each Reservable Module, application checks if employee's preferred location exists in the specified building. It retains Reservable Modules that are available in a building.
 -   Selects the Best Reservable Module:Looks at all matching Reservable modules and picks the best one based on the following:
     -   If a module has no **Max days in future** Reservable Module property restriction, it is selected.
     -   Then, it considers and selects the Reservable Module with the highest value in the **Max days in future** property configuration.
 
-For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
--   **[Manage your in-office presence preferences](../task/workplace-preferences-emp-center.md)**  
+-   **[Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md)**  
 Employees can customize and manage their in-office or workday presence preferences.
--   **[Create a reservation for a day in Workplace](../task/manage-schedule-emp-center.md)**  
+-   **[Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md)**  
 Reserve your preferred workspace in Workplace using the Workplace Service Delivery for Mobile app.
--   **[Create bulk reservations in Workplace](../task/mobile-workplace-bulk-reservations.md)**  
+-   **[Create bulk reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-bulk-reservations.md)**  
 Create bulk reservations in Workplace using the Workplace Service Delivery for Mobile. Employee can manage multiple planned reservations from the Workplace page.
--   **[Review and edit your reservations in Workplace](../task/mobile-workplace-edit-rsv.md)**  
+-   **[Review and edit your reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.md)**  
 Update or edit reservations in Workplace using the Workplace Service Delivery for Mobile application. Update your location, date, and time of your existing reservations.
 
-**Parent Topic:**[Workplace Service Delivery for Mobile](wsd-mobile-overview.md)
+**Parent Topic:**[Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-overview.md)
 

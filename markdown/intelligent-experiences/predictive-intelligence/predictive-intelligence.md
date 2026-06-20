@@ -2,6 +2,7 @@
 title: Explore Predictive Intelligence
 description: ServiceNow Predictive Intelligence is a platform function that provides a layer of artificial intelligence that empowers features and capabilities across ServiceNow applications to provide better work experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/predictive-intelligence/predictive-intelligence.html
 release: xanadu
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,11 +18,11 @@ ServiceNow® Predictive Intelligence is a platform function that provides a laye
 
 ## Overview of Predictive Intelligence
 
-Predictive Intelligence is a powerful set of tools to use artificial intelligence and machine learning to improve the work experience. You can create and train models on the platform and integrate with other ServiceNow products and applications.![The benefits of using Predictive Intelligence.](../images/predictive-intelligence-resolves-faster.png)
+Predictive Intelligence is a powerful set of tools to use artificial intelligence and machine learning to improve the work experience. You can create and train models on the platform and integrate with other ServiceNow products and applications.\[Omitted image "predictive-intelligence-resolves-faster.png"\] Alt text: The benefits of using Predictive Intelligence.
 
 The following introduces the underlying concepts behind Predictive Intelligence and the different frameworks available.
 
-To learn more about ways to use existing models, see [Using Predictive Intelligence](using-predictive-intelligence.md).
+To learn more about ways to use existing models, see [Using Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.md).
 
 ## Predictive Intelligence for on-premise customers
 
@@ -87,5 +88,5 @@ A predictive model includes these components, some of which you must provide.
 
 ## Predictive Intelligence frameworks
 
-Predictive Intelligence provides three frameworks in the Xanadu release. Each framework has different solution types to train the system to predict, recommend, and organize data outcomes. A trained solution can be invoked by any application through an API to make a prediction. More information can be found in [Predictive Intelligence frameworks](predictive-intelligence-frameworks.md).
+Predictive Intelligence provides three frameworks in the Xanadu release. Each framework has different solution types to train the system to predict, recommend, and organize data outcomes. A trained solution can be invoked by any application through an API to make a prediction. More information can be found in [Predictive Intelligence frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/predictive-intelligence/predictive-intelligence-frameworks.md).
 

@@ -2,7 +2,10 @@
 title: Initiate chat with an employee from Agent Workspace
 description: Chat with an employee from Agent Workspace through Microsoft Teams so that you can collaborate and resolve universal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/ur-mst-use-initiate-chat-wrkspc.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -43,5 +46,5 @@ Role required: agent
 
 The Microsoft Teams application opens the tab where you can chat with the selected employee.
 
-**Parent Topic:**[Manage chat messages from the Agent Workspace](../concept/ur-mst-use-start-import-chat-aws.md)
+**Parent Topic:**[Manage chat messages from the Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/ur-mst-use-start-import-chat-aws.md)
 

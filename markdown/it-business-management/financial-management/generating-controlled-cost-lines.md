@@ -2,6 +2,7 @@
 title: Generating controlled cost lines
 description: Generating controlled cost lines helps you to control the allocation lines that are required for your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/financial-management/generating-controlled-cost-lines.html
 release: xanadu
 product: Financial Management
 classification: financial-management
@@ -29,10 +30,10 @@ To view the sub-bucket information and view reports on the relationship between 
 
     The generated controlled cost lines are sufficient to plot single-dimension charts with the buckets.
 
--   [Define a breakdown relationship](../task/t_CreateBreakdownRelationship.md) explicitly to view reports on the relationship between the two segments.
+-   [Define a breakdown relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateBreakdownRelationship.md) explicitly to view reports on the relationship between the two segments.
 
     The engine then generates the additional breakdown allocation lines in the Cost Allocation Breakdown Aggregate \[itfm\_allocation\_breakdown\] table, which help to plot a two-dimension chart between segments. For example, IT Shared Service contribution to Business Unit.
 
 
-**Parent Topic:**[Create a cost model from Cost Model form](../task/t_CreateACostModel.md)
+**Parent Topic:**[Create a cost model from Cost Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/financial-management/t_CreateACostModel.md)
 

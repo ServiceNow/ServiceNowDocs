@@ -2,7 +2,10 @@
 title: Enable authentication of guest users
 description: Verify and update application registry values to authenticate guest users in the Microsoft Teams application to start and import chats for a self-configured app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/update-verify-app-registry-guest.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -93,5 +96,5 @@ Redirect the URL that includes your ServiceNow for Microsoft Teams instance URL 
 8.  Repeat this procedure for the Microsoft Teams Chat App Permission ST application registry.
 
 
-**Parent Topic:**[Request-based chat access for a guest user](../concept/guest-user-chat-access-st.md)
+**Parent Topic:**[Request-based chat access for a guest user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/guest-user-chat-access-st.md)
 

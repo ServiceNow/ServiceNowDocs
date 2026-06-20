@@ -2,6 +2,7 @@
 title: Email client
 description: Send email directly from any record, such as an incident, change request, or problem record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/email-client-landing.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-08-01"
@@ -17,24 +18,24 @@ Send email directly from any record, such as an incident, change request, or pro
 
 <table id="table_ymq_cfr_bzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore and learn about sending an email directly from any record](c_EnableTheEmailClient.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore and learn about sending an email directly from any record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/c_EnableTheEmailClient.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure and manage the behavior of your email client](configuring-email-client.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure and manage the behavior of your email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/configuring-email-client.md)
 
 </td></tr><tr><td>
 
-[Components Installed![](../../../reuse/icons/brand-icons/bus-learn.svg)View components installed with email client](../reference/installed-with-email-client.md)
+[Components Installed\[Omitted image "bus-learn.svg"\] Alt text:View components installed with email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/installed-with-email-client.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)References for email client](../reference/reference-email-client.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:References for email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/reference-email-client.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Troubleshooting Notification emails](troubleshooting-notification-emails.md)
+-   [Troubleshooting Notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/troubleshooting-notification-emails.md)
 -   Ask or answer questions in the [Platform](https://community.servicenow.com/community/service-automation-platform) community
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

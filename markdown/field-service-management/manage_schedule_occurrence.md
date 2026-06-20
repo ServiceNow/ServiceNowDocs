@@ -2,9 +2,12 @@
 title: Create and view events using the planning calendar
 description: Create and view the schedule occurrences and work orders of associated work plans through the planning calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/manage\_schedule\_occurrence.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-06-20"
 reading_time_minutes: 1
 breadcrumb: [Planning calendar, Managing work orders for the planned work, Using Field Service Management, Field Service Management]
 ---
@@ -25,7 +28,7 @@ The calendar displays either single events or stacked events when multiple event
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Planned Work Management** &gt; **Workspace**
 
-2.  Select the **Planning calendar** icon \(![Planning calendar icon](../image/show-schedule-new.png)\).
+2.  Select the **Planning calendar** icon \(\[Omitted image "show-schedule-new.png"\] Alt text: Planning calendar icon\).
 
 3.  Generate work orders for the schedule occurrence by right-clicking the event and selecting **Generate work orders**.
 
@@ -41,7 +44,7 @@ The calendar displays either single events or stacked events when multiple event
 
 6.  Determine the information that you want to display on the calendar.
 
-    1.  Select the Filter icon \(![filter icon](../image/filter-right-side.png)\).
+    1.  Select the Filter icon \(\[Omitted image "filter-right-side.png"\] Alt text: filter icon\).
 
         -   To view records of a specific plan, select **Plans** and select a plan.
         -   To view records based on the plan type, select **Plan types** and select a plan type.
@@ -55,5 +58,5 @@ The calendar displays either single events or stacked events when multiple event
     3.  Select **Apply**.
 
 
-**Parent Topic:**[Planning calendar](../concept/planning_calendar_pwm.md)
+**Parent Topic:**[Planning calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/planning_calendar_pwm.md)
 

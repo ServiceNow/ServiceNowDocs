@@ -2,6 +2,7 @@
 title: All security metrics
 description: Navigate to All security metrics to view a table with the data related to the security metrics of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/security-center/all-security-metrics.html
 release: xanadu
 product: Security Center
 classification: security-center
@@ -17,9 +18,9 @@ Navigate to **All security metrics** to view a table with the data related to th
 
 Access the list of all security metrics on a filterable list by accessing the Security Metrics Dashboard, and selecting the **All security metrics** option on from the list on the left.
 
-![All Security Metrics list](../images/all-sec-metrics.dita.png)
+\[Omitted image "all-sec-metrics.dita.png"\] Alt text: All Security Metrics list
 
 Select any item on the list to view details on each metric.
 
-**Parent Topic:**[Security metrics](sc-metrics.md)
+**Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/security-center/sc-metrics.md)
 

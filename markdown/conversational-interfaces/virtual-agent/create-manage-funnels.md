@@ -2,6 +2,7 @@
 title: Legacy - Create and manage funnels
 description: Use funnels to review the performance of your conversation flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/create-manage-funnels.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -40,13 +41,13 @@ You can create, edit, and delete funnels.
 
 5.  To create steps for filtering the conversation flow, select **Add new step**.
 
-    A funnel can contain up to 10 filtering steps. Each subsequent step further refines the results from the previous step. This type of cumulative filtering helps you easily narrow down on the data of interest in the conversation flow. For more information about the filtering options, see [Legacy - Filter options in funnels](../reference/filter-options-funnels.md).
+    A funnel can contain up to 10 filtering steps. Each subsequent step further refines the results from the previous step. This type of cumulative filtering helps you easily narrow down on the data of interest in the conversation flow. For more information about the filtering options, see [Legacy - Filter options in funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/filter-options-funnels.md).
 
 6.  To define a step, select **or** and add an OR condition.
 
     If needed, you can do any of the following with your steps:
 
-    -   To remove an OR condition, select the delete icon ![Delete icon](../images/delete-icon.png) next to it.
+    -   To remove an OR condition, select the delete icon \[Omitted image "delete-icon.png"\] Alt text: Delete icon next to it.
     -   To reset a step, select the delete icon next to it.
     -   To remove the step, select the delete icon again.
 7.  Select **Create funnel**.
@@ -58,5 +59,5 @@ You can create, edit, and delete funnels.
 9.  To remove a funnel, select the funnel name on the Funnels page, and then select **Delete**.
 
 
-**Parent Topic:**[Funnels tab](../concept/funnels-tab.md)
+**Parent Topic:**[Funnels tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/funnels-tab.md)
 

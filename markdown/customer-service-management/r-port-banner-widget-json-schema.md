@@ -2,7 +2,10 @@
 title: Portal Banner widget JSON parameters
 description: JSON parameters define aspects of the Portal Quick Links widget on the Portal Banner widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/r-port-banner-widget-json-schema.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1

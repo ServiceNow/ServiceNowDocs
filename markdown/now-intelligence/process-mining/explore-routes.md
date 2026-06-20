@@ -2,6 +2,7 @@
 title: Exploring and comparing workflow routes
 description: Compare key indicators and analyze differences between the optimal route and exception or alternate routes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/explore-routes.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -30,7 +31,7 @@ For example, explore routes to investigate or identify the following issues:
 
 The Variation Analysis panel shows the cumulative number of records represented in a route, the number of steps in each route, and the duration in days that it took to complete a route. When you hover over a variation, a pop-up appears that shows the variation of the route.
 
-![Variation Analysis panel](../image/routes-panel2.png)
+\[Omitted image "routes-panel2.png"\] Alt text: Variation Analysis panel
 
 You can use **Sort by** to sort the order of routes displayed in the list.
 
@@ -132,12 +133,12 @@ Based on calculation of standard deviation of duration for each route, sorts rou
     -   Select a route from the list to highlight it on the process map.
     -   Point to a second route in the list to simultaneously highlight it.
     -   Selected route appears as a pop-up at the bottom of the page.
--   Perform a [Cluster analysis](cluster-analysis.md).
+-   Perform a [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/cluster-analysis.md).
 
--   **[Show a route](../task/show-variant-route.md)**  
+-   **[Show a route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/show-variant-route.md)**  
 Show one or more routes that followed different sequences of steps in your process.
--   **[View records for a route](view-records.md)**  
+-   **[View records for a route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/view-records.md)**  
 From the Variation Analysis panel, view the list of records which followed one or more selected routes.
 
-**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/analyze-get-process-insights.md)
 

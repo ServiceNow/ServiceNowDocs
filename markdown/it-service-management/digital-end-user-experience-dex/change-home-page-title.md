@@ -2,6 +2,7 @@
 title: Change Home page title and description
 description: Change the title and description of the Home page, as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/change-home-page-title.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Change the title and description of the Home page, as required.
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -25,7 +26,7 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **Desktop Assistant** &gt; **Configuration** &gt; **Application**.
 
-    ![The Desktop Assistant page that provides options to modify your home page title or brief description, as well as activate notifications and the chat icon.](../image/dex-da-home-page-form.png)
+    \[Omitted image "dex-da-home-page-form.png"\] Alt text: The Desktop Assistant page that provides options to modify your home page title or brief description, as well as activate notifications and the chat icon.
 
 2.  On the form, edit the required fields.
 

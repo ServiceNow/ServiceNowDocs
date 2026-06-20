@@ -2,6 +2,7 @@
 title: Conversational actions
 description: Run a Workflow Studio action from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/build-workflows/workflow-studio/conversational-actions.html
 release: xanadu
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Currently, you can't make an action conversational. You can only modify the conv
 
 ## Activating the subflows and actions skill
 
-To activate the subflows and actions skill, see [Turn on the subflows and actions skill](https://www.servicenow.com/docs/access?context=turn-on-the-subflows-and-actions-skill&version=xanadu&pubname=xanadu-conversational-interfaces&ft:locale=en-US).
+To activate the subflows and actions skill, see .
 
 ## User role access
 
@@ -54,7 +55,7 @@ You can use the conversational settings menu to manage conversational subflows a
 -   Set the advanced option to make the action or subflow skill discoverable.
 -   Set the advanced option to include the action or subflow skill in the list of topics.
 
-![Conversational settings for the preconfigured action called Create Checklist from Template](../images/example-conversational-settings.png "Example conversational settings")
+\[Omitted image "example-conversational-settings.png"\] Alt text: Conversational settings for the preconfigured action called Create Checklist from Template
 
 When you set these options in Workflow Studio, the system also sets the corresponding options in Virtual Agent Designer.
 
@@ -88,8 +89,8 @@ Conversational subflows and actions support a limited number of input data types
 |string\_full\_utf8|String \(Full UTF-8\)|
 |table\_name|Table Name|
 
--   **[Available conversational actions](../reference/available-conversational-actions.md)**  
+-   **[Available conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/available-conversational-actions.md)**  
 Workflow Studio provides a set of actions that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
 
-**Parent Topic:**[Exploring actions](../../workflow-studio/concept/exploring-actions.md)
+**Parent Topic:**[Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/build-workflows/workflow-studio/exploring-actions.md)
 

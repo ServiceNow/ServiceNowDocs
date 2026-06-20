@@ -2,6 +2,7 @@
 title: SCIM Troubleshooting
 description: Common error scenarios integrating with SCIM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/identity/scim-troubleshooting.html
 release: xanadu
 product: Identity
 classification: identity

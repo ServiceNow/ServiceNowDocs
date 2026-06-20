@@ -2,6 +2,7 @@
 title: Integrate with Customer Service Management
 description: Document Intelligence provides document extraction capabilities to Customer Service Management \(CSM\). Extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/document-intelligence/integrate-docintel-csm.html
 release: xanadu
 product: Document Intelligence
 classification: document-intelligence
@@ -19,7 +20,7 @@ Agents can review values for extracted fields and make corrections as needed by 
 
 Create use cases that identify the information to extract from attachments, such as invoices, and automatically add that information to case fields, depending on the configuration. Labels identify the extracted fields on the case form.
 
-For more information, see [Document Intelligence for CSM](https://www.servicenow.com/docs/access?context=csm-document-intelligence&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+For more information, see Document Intelligence for CSM.
 
 ## How Document Intelligence works with CSM
 
@@ -42,7 +43,7 @@ If the case meets those requirements, the feature:
 
 Set the system properties and activate the required flows to enable Document Intelligence for CSM.
 
-See [Document Intelligence for Customer Service](https://www.servicenow.com/docs/access?context=csm-document-intelligence&version=xanadu&pubname=xanadu-customer-service-management&ft:locale=en-US).
+See .
 
-**Parent Topic:**[Integrating Document Intelligence with other applications](integrating-docintel.md)
+**Parent Topic:**[Integrating Document Intelligence with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/document-intelligence/integrating-docintel.md)
 

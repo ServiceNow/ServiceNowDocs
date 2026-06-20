@@ -2,6 +2,7 @@
 title: DEX Insights reports
 description: The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time, which enables efficient monitoring and issue identification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/insights-reports.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -207,5 +208,5 @@ This field appears only for installed applications.
 |Operating system|OS that manages and controls the device hardware, as well as enables the execution of applications, such as Windows or macOS.|
 |Last refresh time|Last time the device record was updated.|
 
-**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

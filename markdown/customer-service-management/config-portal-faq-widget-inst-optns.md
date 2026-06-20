@@ -2,7 +2,10 @@
 title: Add and configure the Portal FAQ widget
 description: Add the Portal FAQ widget to your portal and modify its data, presentation, and behavior. You can use the Portal FAQ widget to display a frequently asked questions list \(FAQ\) from a knowledge table on the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config-portal-faq-widget-inst-optns.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -15,9 +18,9 @@ Add the Portal FAQ widget to your portal and modify its data, presentation, and 
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/activate-config-portal-widget.md).
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin or admin
 
@@ -33,7 +36,7 @@ Role required: sp\_admin or admin
 
 5.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-6.  On the container, add a set of columns by selecting the plus button \(![Plus button](../image/portal-plus-icon.png)\)
+6.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\)
 
 7.  On the Widgets pane, in the **Filter Widget** field, enter `Portal FAQ`.
 
@@ -41,11 +44,11 @@ Role required: sp\_admin or admin
 
 9.  In the Edit page, select the Portal FAQ widget.
 
-10. Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+10. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 11. On the Instance form, fill in the fields.
 
-    For a description of the fields values, see [Portal FAQ widget instance options form](r-port-faq-inst-options.md)
+    For a description of the fields values, see [Portal FAQ widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/customer-service-management/r-port-faq-inst-options.md)
 
 12. Select **Save**.
 

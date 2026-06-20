@@ -2,7 +2,10 @@
 title: Create a user
 description: You can add a user to your instance to enable them to log in and use designated application features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/t\_CreateAUser.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 3
@@ -114,7 +117,7 @@ Web service access only
 
 </td><td>
 
-It designates a user as a non-interactive user. This field is available with [Non-Interactive Sessions](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
+It designates a user as a non-interactive user. This field is available with Non-Interactive Sessions.**Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
 
 </td></tr><tr><td>
 
@@ -122,7 +125,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to [Mark service accounts as internal integration users](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+Select this check box to Mark service accounts as internal integration users.
 
 </td></tr><tr><td>
 
@@ -149,7 +152,7 @@ Select the user identity type based on the user:-   Human - Select this for a re
 -   Machine - Select this for a non-human system or device, such as a server, application, or service account that makes automated requests.
 -   AI Agent - Select this for an autonomous AI-driven system. AI Agent users should be used when an AI agent or agentic workflow needs permissions greater than that of the invoking user.
 
-See [Security for AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) for more information on using AI Agent type users.
+See Security for AI agents for more information on using AI Agent type users.
 
 **Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
 
@@ -216,7 +219,7 @@ Attach a photo of the user, if appropriate.
 
 4.  Add **Roles**, **Groups**, **Delegates**, **Skills**, and **Subscriptions** to the user.
 
-    For more information, see [Creating groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US), [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US), and [Delegating roles](https://www.servicenow.com/docs/access?context=c_DelegateRoles&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    For more information, see , , and .
 
 5.  Select **Submit**.
 

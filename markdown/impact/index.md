@@ -8,205 +8,205 @@ doc_type: toc
 
 # Xanadu Impact
 
-- [Impact]()
-  - [Impact packages]()
-  - [Impact operating model]()
-    - [Impact Foundations](foundations.md)
-    - [Impact Steady State]()
-    - [Group Views](group-views.md)
-  - [Impact Squad]()
-  - [Impact Digital Experience]()
-    - [Activity Center]()
-      - [Activity Center Conversations]()
-        - [Create and manage conversations]()
-      - [Activity Center All Recommendations]()
-    - [Initiatives & Accelerators](accelerator-and-initiative-list/impact-initiatives.md)
-      - [Manage Initiative and Accelerator permissions](accelerator-and-initiative-list/grant-ide-permissions.md)
-      - [Initiatives catalog](accelerator-and-initiative-list/initiatives-catalog.md)
-        - [Access to Expertise](accelerator-and-initiative-list/access-expertise-initiative.md)
-          - [Request Access to Expertise](accelerator-and-initiative-list/access-expertise.md)
-        - [Get started with Developer Support](accelerator-and-initiative-list/getting-started-developer-support.md)
-        - [Preventive Care](accelerator-and-initiative-list/preventive-care.md)
-      - [Accelerator catalog](accelerator-and-initiative-list/accelerator-catalog.md)
-        - [Architecture Accelerators](accelerator-and-initiative-list/architecture-accelerators.md)
-          - [Artificial Intelligence Readiness Assessment](accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.md)
-          - [Architecture Blueprint](accelerator-and-initiative-list/architecture-blueprint.md)
-            - [Architecture Blueprint – Advanced](accelerator-and-initiative-list/architecture-blueprint.md)
-            - [Architecture Blueprint – Total](accelerator-and-initiative-list/architecture-blueprint.md)
-          - [Common Service Data Model (CSDM) Assessment Accelerators](accelerator-and-initiative-list/CSDM-assessment.md)
-            - [Common Service Data Model (CSDM) Assessment - Foundation Data - Advanced](accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md)
-            - [Common Service Data Model (CSDM) Assessment-Application Services (Crawl) - Advanced](accelerator-and-initiative-list/csdm-assessment-application-services-crawl-adv.md)
-            - [Common Service Data Model (CSDM) Assessment Technical Services (Walk) - Advanced](accelerator-and-initiative-list/csdm_assessment_technical_services.md)
-            - [Common Service Data Model (CSDM) Assessment - Business Services (Run) - Advanced](accelerator-and-initiative-list/csdm_assessment_business_services.md)
-            - [Common Service Data Model (CSDM) Assessment– Total](accelerator-and-initiative-list/CSDM-assessment-total.md)
-          - [Data Management and Governance](accelerator-and-initiative-list/data-mgt-governance.md)
-          - [Design Review](accelerator-and-initiative-list/design-review.md)
-            - [Design Review- Advanced](accelerator-and-initiative-list/design-review.md)
-            - [Design Review- Total](accelerator-and-initiative-list/design-review.md)
-          - [Generative AI - Virtual Agent Conversational Catalog](accelerator-and-initiative-list/generative-ai-conversational-catalog.md)
-          - [Health Assessment](accelerator-and-initiative-list/health-assessment.md)
-            - [Health Assessment – Guided](accelerator-and-initiative-list/health-assessment-guided.md)
-            - [Health Assessment – Advanced](accelerator-and-initiative-list/health-assesment-advanced-total.md)
-            - [Health Assessment - Total](accelerator-and-initiative-list/health-assessment-total.md)
-          - [Integration Strategy](accelerator-and-initiative-list/integration-strategy.md)
-            - [Integration Strategy- Advanced](accelerator-and-initiative-list/integration-strategy.md)
-            - [Integration Strategy- Total](accelerator-and-initiative-list/integration-strategy.md)
-          - [Multi-instance Topologies](accelerator-and-initiative-list/multi-instance-topologies.md)
-          - [Technical Governance](accelerator-and-initiative-list/technical-governance.md)
-          - [UX: Catalog Request Experience Review](accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md)
-          - [UX: Design for Employee Center](accelerator-and-initiative-list/ux-design-employee-center.md)
-          - [UX: Portal Experience Review](accelerator-and-initiative-list/ux-review-employee-center.md)
-          - [UX: Taxonomy Review and Design](accelerator-and-initiative-list/ux_review_unified_taxonomy.md)
-        - [Strategy Accelerators](accelerator-and-initiative-list/strategy-accelerators.md)
-          - [Center of Excellence & Innovation Design](accelerator-and-initiative-list/CoEI-design.md)
-          - [Center of Excellence and Innovation Maturity Assessment Accelerator](accelerator-and-initiative-list/coei-maturity-assessment-accelerator.md)
-          - [Champion Engagement](accelerator-and-initiative-list/champion-engagement.md)
-            - [Champion Engagement – Advanced](accelerator-and-initiative-list/champion-engagement.md)
-            - [Champion Engagement – Total](accelerator-and-initiative-list/champion-engagement.md)
-          - [Citizen Development Program Design](accelerator-and-initiative-list/citizen-development-accelerator.md)
-          - [CoEI Influencing Funding Strategy](accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.md)
-          - [Customer Service Management Product Maturity Assessment](accelerator-and-initiative-list/csm-product-maturity-assessment.md)
-          - [Develop Partner Strategy](accelerator-and-initiative-list/develop-partner-strategy.md)
-            - [Develop Partner Strategy – Advanced](accelerator-and-initiative-list/develop-partner-strategy.md)
-            - [Develop Partner Strategy – Total](accelerator-and-initiative-list/develop-partner-strategy.md)
-          - [HRSD Maturity Assessment](accelerator-and-initiative-list/hrsd-maturity-assessment.md)
-          - [Integrated Risk Management Maturity Assessment](accelerator-and-initiative-list/IRM-maturity-assessment.md)
-          - [ITSM Maturity Assessment](accelerator-and-initiative-list/itsm-maturity-assessment.md)
-          - [On-Demand Value Report](accelerator-and-initiative-list/on-demand-value-report.md)
-            - [On-Demand Value Report- Guided](accelerator-and-initiative-list/on-demand-value-report.md)
-            - [On-Demand Value Report- Advanced](accelerator-and-initiative-list/on-demand-value-report.md)
-            - [On-Demand Value Report- Total](accelerator-and-initiative-list/on-demand-value-report.md)
-          - [Portfolio Governance](accelerator-and-initiative-list/portfolio-governance.md)
-          - [Project Portfolio Management Maturity Assessment](accelerator-and-initiative-list/ppm-maturity-assessment.md)
-          - [ServiceNow Governance](accelerator-and-initiative-list/servicenow-governance.md)
-          - [Software Asset Management Maturity Assessment](accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md)
-          - [Staffing and Roles Review](accelerator-and-initiative-list/staffing-and-roles-review.md)
-            - [Staffing and Roles Review – Advanced](accelerator-and-initiative-list/staffing-and-roles-review.md)
-            - [Staffing and Roles Review – Total](accelerator-and-initiative-list/staffing-and-roles-review.md)
-          - [Strategy Governance](accelerator-and-initiative-list/strategy-governance.md)
-          - [Success Readiness Assessment (SRA)](accelerator-and-initiative-list/success-readiness-assessment.md)
-          - [Value Potential](accelerator-and-initiative-list/value-potential-undeployed-apps.md)
-          - [Vision and Strategy](accelerator-and-initiative-list/vision-and-strategy.md)
-            - [Vision and Strategy – Advanced](accelerator-and-initiative-list/vision-and-strategy.md)
-            - [Vision and Strategy – Total](accelerator-and-initiative-list/vision-and-strategy.md)
-        - [Technical Accelerators](accelerator-and-initiative-list/technical-accelerators.md)
-          - [Access to Experts](accelerator-and-initiative-list/access-experts-acc.md)
-          - [Expert Connect](accelerator-and-initiative-list/expert-connect.md)
-          - [Extend Your Employee Center to Pro](accelerator-and-initiative-list/extend-employee-center-pro.md)
-          - [Introduction to Instance Observer-Guided](accelerator-and-initiative-list/intro-instance-observer.md)
-          - [Introduction to Instance Readiness Assessment](accelerator-and-initiative-list/introduction-instance-readiness-assessment.md)
-          - [Jumpstart Your AI Search](accelerator-and-initiative-list/jumpstart-your-ai-search.md)
-            - [Jumpstart Your AI Search- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-ai-search.md)
-          - [Jumpstart Your App Engine](accelerator-and-initiative-list/jumpstart-your-app-engine.md)
-            - [Jumpstart Your App Engine- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-app-engine.md)
-          - [Jumpstart Your Automated Testing](accelerator-and-initiative-list/jumpstart-your-automated-testing.md)
-            - [Jumpstart Your Automated Testing- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-automated-testing.md)
-          - [Jumpstart Your CMDB](accelerator-and-initiative-list/jumpstart-cmdb.md)
-          - [Jumpstart Your CSDM: Foundation](accelerator-and-initiative-list/jumpstart-csdm.md)
-          - [Jumpstart Your CSM Configurable Workspace](accelerator-and-initiative-list/csm-configurable-workspace.md)
-          - [Jumpstart Your Database Management](accelerator-and-initiative-list/data-management.md)
-          - [Jumpstart Your Document Intelligence](accelerator-and-initiative-list/jumpstart-document-intelligence.md)
-          - [Jumpstart Your Employee Center](accelerator-and-initiative-list/jumpstart-employee-center.md)
-            - [Jumpstart Your Employee Center US Public Sector](accelerator-and-initiative-list/jumpstart-employee-center-usps.md)
-          - [Jumpstart Your Event Management](accelerator-and-initiative-list/jumpstart-event-mgmt.md)
-          - [Jumpstart Your Issue Auto Resolution](accelerator-and-initiative-list/jumpstart-issue-auto-resolution.md)
-          - [Jumpstart Your Generative AI](accelerator-and-initiative-list/jumpstart-generative-ai.md)
-          - [Jumpstart Your Migration of Platform Analytics](accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md)
-          - [Jumpstart Your Multi-lingual Virtual Agent](accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.md)
-            - [Jumpstart Your Multi-lingual Virtual Agent - US Public Sector](accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent-usps.md)
-          - [Jumpstart Your Natural Language Understanding](accelerator-and-initiative-list/jumpstart-NLU.md)
-          - [Jumpstart Your Now Assist for Creator](accelerator-and-initiative-list/jumpstart-now-assist-creator.md)
-          - [Jumpstart Your Now Assist for IT Service Management (ITSM)](accelerator-and-initiative-list/jumpstart-now-assist-itsm.md)
-          - [Jumpstart Your Platform Analytics](accelerator-and-initiative-list/jumpstart-platform-analytics.md)
-          - [Jumpstart Your Predictive Intelligence](accelerator-and-initiative-list/jumpstart-predictive-intelligence.md)
-          - [Jumpstart Your Process Mining](accelerator-and-initiative-list/jumpstart-process-mining.md)
-          - [Jumpstart Your Service Mapping](accelerator-and-initiative-list/jumpstart-service-mapping.md)
-          - [Jumpstart Your ServiceNow AI Journey](accelerator-and-initiative-list/jumpstart-snow-ai-journey.md)
-          - [Jumpstart your Service Operations Workspace](accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.md)
-            - [Jumpstart Your Service Operations Workspace - US Public Sector](accelerator-and-initiative-list/jumpstart-service-operations-usps.md)
-          - [Jumpstart Your Strategic Portfolio Management – Planning Workspace](accelerator-and-initiative-list/jumpstart-spm-planning-workspace.md)
-          - [Jumpstart Your Success Dashboard](accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)
-            - [Jumpstart Your Success Dashboard- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-success-dashboard.md)
-          - [Jumpstart Your Task Intelligence](accelerator-and-initiative-list/jumpstart-task-intelligence.md)
-          - [Jumpstart Your Upgrade](accelerator-and-initiative-list/jumpstart-your-upgrade.md)
-            - [Jumpstart Your Upgrade- US Public Sector](accelerator-and-initiative-list/usps-jumpstart-your-upgrade.md)
-          - [Jumpstart Your Virtual Agent](accelerator-and-initiative-list/jumpstart-your-virtual-agent.md)
-            - [Jumpstart Your Virtual Agent- US Public Accelerator](accelerator-and-initiative-list/usps-jumpstart-your-virtual-agent.md)
-          - [TuneUp Your AI Search](accelerator-and-initiative-list/tuneup-ai-search.md)
-          - [TuneUp Your Configuration Management Database](accelerator-and-initiative-list/tuneup-your-cmdb.md)
-          - [TuneUp Your Employee Center](accelerator-and-initiative-list/tuneup-employee-center.md)
-          - [TuneUp Your Hardware Asset Management](accelerator-and-initiative-list/tuneup-hw-asset-management.md)
-          - [TuneUp Your IT Asset Management](accelerator-and-initiative-list/tuneup-your-it-asset-management.md)
-          - [TuneUp Your ITOM Discovery](accelerator-and-initiative-list/tuneup-itom-discovery.md)
-          - [TuneUp Your Platform Analytics](accelerator-and-initiative-list/tuneup-platform-analytics.md)
-          - [TuneUp Your Security](accelerator-and-initiative-list/tuneup-your-security.md)
-          - [TuneUp Your Software Asset Management](accelerator-and-initiative-list/tuneup-sw-asset-mgmt.md)
-          - [TuneUp Your Virtual Agent](accelerator-and-initiative-list/tuneup-your-virtual-agent.md)
-            - [TuneUp Your Virtual Agent - Assessment](accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md)
-            - [TuneUp Your Virtual Agent – NLU (Natural Language Understanding)](accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md)
-            - [TuneUp Your Virtual Agent – Performance Monitoring](accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md)
-            - [TuneUp Your Virtual Agent – UX (User Experience)](accelerator-and-initiative-list/tuneup-virtual-agent-ux.md)
-        - [Request an Accelerator](accelerator-and-initiative-list/request-accelerator.md)
-    - [Platform Health]()
-      - [Impact Developer Support](developer-support.md)
-        - [Using Developer Support](developer-support-usage.md)
-        - [Create a Developer Support case](create-developer-support-case.md)
-        - [Manage Developer Support user access](manage-developer-support-user-access.md)
-      - [Impact Instance Observer](io-overview.md)
-        - [Home](instance-observer-home-page.md)
-        - [Performance](instance-observer-performance.md)
-          - [Getting started with Performance charts](io-getting-started-perf-charts.md)
-          - [Anomalies detection](anomalies-detection.md)
-            - [Configure anomaly alerts](configure-anomaly-alerts.md)
-            - [Anomaly detection algorithm](anomaly-detection-algorithm.md)
-        - [Availability](io-availability.md)
-          - [Cloud availability](cloud-availability.md)
-        - [Key Alerts Activation and Notifications](io-alerts.md)
-          - [Configure Key Alerts](configuring-io-alerts.md)
-          - [Generate thresholds for Key Alerts](generate-thresholds-io-alerts.md)
-          - [Manage Instance Observer alerts](manage-io-alerts.md)
-          - [Instance Observer Notifications](i-o-notifications.md)
-        - [Analytics](io-analytics.md)
-        - [Triaged instance data](io-triage.md)
-        - [Reports](instance-observer-reporting.md)
-        - [Help](io-help.md)
-      - [HealthScan]()
-        - [Health Assessment Dashboard]()
-          - [Manage Health Assessment Dashboard]()
-        - [Monthly Health Assessment]()
-          - [Schedule Monthly Health Assessment scans]()
-        - [HealthScan definitions]()
-          - [HealthScan definitions updates: November release]()
-          - [HealthScan definitions updates: October hotfix]()
-          - [HealthScan definitions updates: August release]()
-    - [Value Journey]()
-      - [Objectives and outcomes](value-blueprint.md)
-      - [Business value reports](value-library/business-value-reports.md)
-    - [Product Adoption]()
-      - [Capabilities maps]()
-        - [Manage capabilities maps]()
-      - [Product Adoption Roadmaps]()
-      - [Subscriptions]()
-      - [Training Insights]()
-    - [Benefits & Usage]()
-      - [Consumption Report](ide-consumption-report.md)
-      - [Additional Resources]()
-      - [Impact Digest]()
-      - [Admin Center integration](admin-center-integration.md)
-    - [Impact User Management](ide-user-management.md)
-      - [Edit a role for an Impact user](edit-impact-user.md)
-      - [Remove Impact user permissions](remove-impact-user-permissions.md)
-      - [User roles in Impact]()
-    - [Mobile Executive Experience]()
-- [Impact releases]()
-  - [2024 Impact release notes]()
-    - [November 2024 quarterly Impact release notes]()
-    - [August 2024 quarterly Impact release notes - Xanadu]()
-    - [May 2024 quarterly Impact release notes]()
-    - [February 2024 quarterly Impact release notes - Washington DC]()
-  - [2023 Impact release notes]()
-    - [September 2023 quarterly Impact release notes - Vancouver]()
-    - [May 2023 quarterly Impact release notes]()
-    - [February 2023 quarterly Impact release notes - Utah]()
-      - [2023 Q1 Impact Accelerators release notes]()
-      - [2023 Q1 Impact Digital Experience release notes]()
+- [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-landing-page.md) -- ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to help you realize the full potential of your instance. Receive tailored recommendations and guidance from our dedicated teams and experts on demand.
+  - [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-packages.md) -- ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
+  - [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-operating-model.md) -- The Impact operating model is a research-backed system of key activities, personalized to your organization, to help drive faster time to value with the ServiceNow platform.
+    - [Impact Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/foundations.md) -- Impact Foundations is a fit-for-purpose set of account level initiatives to start you on the fast track to value and to maintain momentum via a streamlined quarterly motion.​
+    - [Impact Steady State](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-steady-state.md) -- Impact Steady State is the cadence that keeps you on track with your Impact Plan and associated business goals that follows the Foundations phase, generally beyond 90–120 days of engagement.
+    - [Group Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/group-views.md) -- Impact enables multiple stakeholder groups within your organization to lead their own digital transformation.
+  - [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-squad.md) -- Your Impact Squad is a team of on-demand experts who work with you to take on your teams unique transformation challenges.
+  - [Impact Digital Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-digital-experience.md) -- The Impact Digital Experience (IDE) is a centralized, interactive portal where you can access your Impact tools and benefits.
+    - [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-activity-center/impact-activity-center.md) -- The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
+      - [Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-activity-center/conversations.md) -- Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
+        - [Create and manage conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-activity-center/create-manage-conversations.md) -- Create new Impact conversations or manage existing conversations.
+      - [Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-activity-center/recommendations-value-journey.md) -- View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
+    - [Initiatives & Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md) -- Initiatives are the actionable engagements and workstreams that support your digital transformation. Impact Accelerators are fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it.
+      - [Manage Initiative and Accelerator permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/grant-ide-permissions.md) -- Review and approve Initiative and Accelerator activities access using Manage Permissions.
+      - [Initiatives catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/initiatives-catalog.md) -- Initiatives are the actionable engagements and workstreams that support your digital transformation.
+        - [Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/access-expertise-initiative.md) -- The Access to Expertise Initiative connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
+          - [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/access-expertise.md) -- Use the Access to Expertise Initiative to connect to ServiceNow subject matter experts via personalized virtual coaching sessions.
+        - [Get started with Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/getting-started-developer-support.md) -- Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
+        - [Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/preventive-care.md) -- Preventive Care is a premium, engineer-led diagnostic of instance performance executed quarterly.
+      - [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/accelerator-catalog.md) -- This is a complete Impact Accelerator catalog that combines the Architecture, Strategy, and Technical sub-catalogs.
+        - [Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/architecture-accelerators.md) -- Architecture Accelerators provide a foundational understanding of business outcome maturity with targeted recommendations on what to tackle next to unlock further value from the platform.
+          - [Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.md) -- The Artificial Intelligence (AI) Readiness Assessment Accelerator provides an assessment and guidance related to your readiness to start adopting ServiceNow AI capabilities.
+          - [Architecture Blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+            - [Architecture Blueprint – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+            - [Architecture Blueprint – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/architecture-blueprint.md) -- 
+          - [Common Service Data Model (CSDM) Assessment Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/CSDM-assessment.md) -- These Accelerators provide insights into Common Service Data Model (CSDM) assessment.
+            - [Common Service Data Model (CSDM) Assessment - Foundation Data - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csdm-assessment-foundation-data-advanced.md) -- This Accelerator provides guidance to assess and improve the Foundation Data that is part of your CSDM framework.
+            - [Common Service Data Model (CSDM) Assessment-Application Services (Crawl) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csdm-assessment-application-services-crawl-adv.md) -- This Accelerator provides an assessment and guidance for Common Service Data Model (CSDM) Crawl maturity, including Application Services and Business Applications.
+            - [Common Service Data Model (CSDM) Assessment Technical Services (Walk) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csdm_assessment_technical_services.md) -- This Accelerator provides an assessment and guidance for CSDM Walk maturity, including Technical Services and Technical Service Offerings.
+            - [Common Service Data Model (CSDM) Assessment - Business Services (Run) - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csdm_assessment_business_services.md) -- This Accelerator provides an assessment and guidance for CSDM Run maturity, including Business Services, Business Service Offerings, Request Catalog Items, and (Business) Service Portfolio.
+            - [Common Service Data Model (CSDM) Assessment– Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/CSDM-assessment-total.md) -- Guidance to assess and improve the CSDM framework
+          - [Data Management and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md) -- This Accelerator provides insights and guidance to assess and improve your data management and data governance practices.
+          - [Design Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/design-review.md) -- Evaluation of current or proposed solution design
+            - [Design Review- Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/design-review.md) -- Evaluation of current or proposed solution design
+            - [Design Review- Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/design-review.md) -- Evaluation of current or proposed solution design
+          - [Generative AI - Virtual Agent Conversational Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/generative-ai-conversational-catalog.md) -- The Generative AI -Virtual Agent Conversational Catalog Accelerator provides guidance on conversational compatibility of a select set of your catalog request items.
+          - [Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/health-assessment.md) -- The Health Assessment Accelerators provide insights into your instance health.
+            - [Health Assessment – Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/health-assessment-guided.md) -- The Health Assessment - Guided Accelerator provides an insight into your ServiceNow instance health.
+            - [Health Assessment – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/health-assesment-advanced-total.md) -- The Health Assessment – Advanced Accelerator provides guidance to measure and improve your ServiceNow instance health.
+            - [Health Assessment - Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/health-assessment-total.md) -- The Health Assessment - Total Accelerator provides guidance to measure and improve your ServiceNow instance health.
+          - [Integration Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+            - [Integration Strategy- Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+            - [Integration Strategy- Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/integration-strategy.md) -- Guidance on the integration process
+          - [Multi-instance Topologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/multi-instance-topologies.md) -- This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
+          - [Technical Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/technical-governance.md) -- Guidance on technical governance management of the ServiceNow Platform
+          - [UX: Catalog Request Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md) --  The User Experience (UX): Catalog Request Experience Review Accelerator reviews your Service Catalog,  forms  and form  design and identifies areas  of improvement.
+          - [UX: Design for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/ux-design-employee-center.md) -- The UX (User Experience): Design for Employee Center Accelerator provides UX Design support and expert guidance to help customers get started with Employee Center design.
+          - [UX: Portal Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/ux-review-employee-center.md) -- The UX (User Experience) Portal Experience Review Accelerator provides a comprehensive evaluation of your Employee Center, focusing on usability, design, and ServiceNow leading practices to enhance overall user experience engagement.
+          - [UX: Taxonomy Review and Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/ux_review_unified_taxonomy.md) -- The User Experience (UX) Taxonomy Review and Design Accelerator optimizes content structure and navigation in your portal, with a focus on Knowledge and Catalog to improve usability and help users easily find the correct information.
+        - [Strategy Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/strategy-accelerators.md) -- Use Strategy Accelerators to go deeper on organizational and governance best practices with the ServiceNow platform and upskill your team to maintain business performance and drive success.
+          - [Center of Excellence & Innovation Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/CoEI-design.md) -- The Center of Excellence and Innovation Design (CoEI) Accelerator provides guidance on building your ServiceNow CoEI.
+          - [Center of Excellence and Innovation Maturity Assessment Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.md) -- This Center of Excellence and Innovation (CoEI) Maturity Assessment Accelerator provides insight into your current  ServiceNow  CoEI maturity level and targeted recommendations based on the current maturity level.
+          - [Champion Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+            - [Champion Engagement – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+            - [Champion Engagement – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/champion-engagement.md) -- The Champion Engagement Accelerators provide insights into champion engagement.
+          - [Citizen Development Program Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/citizen-development-accelerator.md) -- Provides prescriptive guidance on enabling Citizen Development for your ServiceNow platform.
+          - [CoEI Influencing Funding Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.md) -- The Center of Excellence & Innovation (CoEI) Funding Strategy Accelerator advises Impact customers on how to identify and develop a strategic CoEI Funding approach.​
+          - [Customer Service Management Product Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.md) -- The Customer Service Management (CSM) Product Maturity Assessment Accelerator provides insight into your current ServiceNow CSM maturity level and targeted recommendations based on the current maturity level.
+          - [Develop Partner Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+            - [Develop Partner Strategy – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+            - [Develop Partner Strategy – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/develop-partner-strategy.md) -- The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.
+          - [HRSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.md) -- This accelerator provides guidance on your current HR Service Delivery (HRSD) process and function maturity in your ServiceNow instance.
+          - [Integrated Risk Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/IRM-maturity-assessment.md) -- The Integrated Risk Management (IRM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with IRM.
+          - [ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md) -- Guidance on current ITSM process and function maturity, with targeted recommendations on what to tackle next to unlock further value in the platform.
+          - [On-Demand Value Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/on-demand-value-report.md) -- Customers can use this accelerator to request a business value report on-demand.
+            - [On-Demand Value Report- Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/on-demand-value-report.md) -- Customers can use this accelerator to request a business value report on-demand.
+            - [On-Demand Value Report- Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/on-demand-value-report.md) -- Customers can use this accelerator to request a business value report on-demand.
+            - [On-Demand Value Report- Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/on-demand-value-report.md) -- Customers can use this accelerator to request a business value report on-demand.
+          - [Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md) -- Guidance on building a strategic portfolio management process
+          - [Project Portfolio Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/ppm-maturity-assessment.md) -- The Project Portfolio Management (PPM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with PPM.
+          - [ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md) -- Guidance on building ServiceNow Governance boards and policies.
+          - [Software Asset Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md) -- The ServiceNow Software Asset Management (SAM) Maturity Assessment Accelerator provides guidance on maximizing the resources available with SAM.
+          - [Staffing and Roles Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+            - [Staffing and Roles Review – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+            - [Staffing and Roles Review – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review.md) -- Insights into staffing and roles.
+          - [Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/strategy-governance.md) -- Guidance on aligning ServiceNow strategic roadmap to business outcomes
+          - [Success Readiness Assessment (SRA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/success-readiness-assessment.md) -- This accelerator measures readiness and platform maturity of your ServiceNow platform.
+          - [Value Potential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/value-potential-undeployed-apps.md) -- The Value Potential Accelerator provides comprehensive guidance on identifying business value for further adoption of ServiceNow products.
+          - [Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+            - [Vision and Strategy – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+            - [Vision and Strategy – Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md) -- Insights into vision and strategy.
+        - [Technical Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/technical-accelerators.md) -- Accelerate usage and adoption of specific platform and product capabilities via applied demonstrations, personalized coaching, and best practices with Technical Accelerators.
+          - [Access to Experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/access-experts-acc.md) -- The Access to Experts Accelerator connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
+          - [Expert Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/expert-connect.md) -- This accelerator provides guidance on ServiceNow platform technical how-to questions.
+          - [Extend Your Employee Center to Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/extend-employee-center-pro.md) -- The Extend Your Employee Center to Pro Accelerator provides prescriptive guidance on extending the Employee Center capabilities to include Pro features.
+          - [Introduction to Instance Observer-Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/intro-instance-observer.md) -- The Introduction to Instance Observer Accelerator provides guidance on understanding and monitoring performance using Instance Observer.
+          - [Introduction to Instance Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/introduction-instance-readiness-assessment.md) -- The Introduction to Instance Readiness Assessment Accelerator provides guidance on understanding and interpreting instance readiness using the Instance Readiness Assessment (IRA).
+          - [Jumpstart Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.md) -- The Jumpstart Your AI (Artificial Intelligence) Search Accelerator provides guidance on enabling and configuring AI Search.
+            - [Jumpstart Your AI Search- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-ai-search.md) -- Guidance on enabling and configuring AI Search
+          - [Jumpstart Your App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.md) -- Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
+            - [Jumpstart Your App Engine- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-app-engine.md) -- Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
+          - [Jumpstart Your Automated Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.md) -- Prescriptive guidance on enabling and utilizing Automated Test Framework
+            - [Jumpstart Your Automated Testing- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-automated-testing.md) -- Prescriptive guidance on enabling and utilizing Automated Test Framework
+          - [Jumpstart Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-cmdb.md) -- The Jumpstart Your Configuration Management Database (CMDB) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+          - [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) -- The Jumpstart Your Common Service Data Model (CSDM): Foundation Accelerator provides an overview and breakdown of the CSDM with a focus on Foundation data.
+          - [Jumpstart Your CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/csm-configurable-workspace.md) -- The Jumpstart Your Customer Service Management (CSM) Configurable Workspace Accelerator provides a demonstration of the possibilities and capabilities of the CSM Configurable Workspace.
+          - [Jumpstart Your Database Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/data-management.md) -- The Jumpstart Your Database Management Accelerator provides a demonstration of the possibilities and capabilities of Database Management.
+          - [Jumpstart Your Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-document-intelligence.md) -- The Jumpstart Your Document Intelligence (DocIntel) Accelerator provides a demonstration of the possibilities and capabilities of Document Intelligence.
+          - [Jumpstart Your Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-employee-center.md) -- This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+            - [Jumpstart Your Employee Center US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-employee-center-usps.md) -- This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
+          - [Jumpstart Your Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.md) -- The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
+          - [Jumpstart Your Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-issue-auto-resolution.md) -- The Jumpstart Your Issue Auto Resolution (IAR) Accelerator provides a demonstration of the possibilities and capabilities of Issue Auto Resolution within your ServiceNow platform.
+          - [Jumpstart Your Generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-generative-ai.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow Generative AI (Artificial Intelligence).
+          - [Jumpstart Your Migration of Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md) -- The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
+          - [Jumpstart Your Multi-lingual Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
+            - [Jumpstart Your Multi-lingual Virtual Agent - US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent-usps.md) -- This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
+          - [Jumpstart Your Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-NLU.md) -- The Jumpstart Your Natural Language Understanding (NLU) Accelerator provides a demonstration of the possibilities and capabilities of Natural Language Understanding.
+          - [Jumpstart Your Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.md) -- The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
+          - [Jumpstart Your Now Assist for IT Service Management (ITSM)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-now-assist-itsm.md) -- The Jumpstart Your Now Assist for ITSM Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for ITSM.
+          - [Jumpstart Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-platform-analytics.md) -- The Jumpstart Your Platform Analytics Accelerator provides a demonstration of the possibilities and capabilities of Platform Analytics.
+          - [Jumpstart Your Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.md) -- The Jumpstart Your Predictive Intelligence (PI) Accelerator provides a demonstration of the possibilities and capabilities of Predictive Intelligence and the clustering framework.
+          - [Jumpstart Your Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-process-mining.md) -- Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
+          - [Jumpstart Your Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md) -- The Jumpstart Your Service Mapping Accelerator provides a demonstration of the possibilities and capabilities of Service Mapping.
+          - [Jumpstart Your ServiceNow AI Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.md) -- The Jumpstart Your AI (Artificial Intelligence) Journey Accelerator provides guidance to kickstart your hyper-automation journey with ServiceNow platform AI capabilities.
+          - [Jumpstart your Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.md) -- This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
+            - [Jumpstart Your Service Operations Workspace - US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-service-operations-usps.md) -- This Accelerator illustrates a demonstration of the possibilities and capabilities of Service Operations Workspace.
+          - [Jumpstart Your Strategic Portfolio Management – Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.md) -- The Jumpstart Your Strategic Portfolio Management – Planning Workspace Accelerator provides a demonstration of the possibilities and capabilities of Planning Workspaces within Strategic Portfolio Management (SPM).
+          - [Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md) -- Demonstration of what is possible with the Success Dashboard using your data via a temporary instance.
+            - [Jumpstart Your Success Dashboard- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-success-dashboard.md) -- Demonstration of what is possible with the Success Dashboard via a demonstration instance.
+          - [Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md) -- The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the possibilities and capabilities of Task Intelligence.
+          - [Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md) -- Guidance on upgrade planning and preparation
+            - [Jumpstart Your Upgrade- US Public Sector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-upgrade.md) -- Guidance on upgrade planning and preparation
+          - [Jumpstart Your Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/jumpstart-your-virtual-agent.md) -- This accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
+            - [Jumpstart Your Virtual Agent- US Public Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/usps-jumpstart-your-virtual-agent.md) -- Guidance on realizing the benefits from ITSM Virtual Agent
+          - [TuneUp Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-ai-search.md) -- This accelerator provides guidance on fine-tuning artificial intelligent (AI) Search to optimize performance and value.
+          - [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) -- The TuneUp Your Configuration Management Database (CMDB) Accelerator provides insight and guidance to improve CMDB health.
+          - [TuneUp Your Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-employee-center.md) -- The TuneUp Your Employee Center Accelerator provides guidance on maintaining and governing your ServiceNow Employee Center health to optimize value.
+          - [TuneUp Your Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.md) -- The TuneUp Your Hardware Asset Management (HAM) Accelerator provides guidance on maintaining and governing Hardware Asset Management health to optimize value.
+          - [TuneUp Your IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.md) -- Provides prescriptive guidance to improve IT Asset Management (ITAM) health.
+          - [TuneUp Your ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-itom-discovery.md) -- Provides insight and guidance to improve the health of your Configuration Management Database (CMDB) through IT Operations Management (ITOM) Discovery.
+          - [TuneUp Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-platform-analytics.md) -- The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
+          - [TuneUp Your Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-your-security.md) -- Guidance on platform security
+          - [TuneUp Your Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.md) -- The TuneUp Your Software Asset Management (SAM) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
+          - [TuneUp Your Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-your-virtual-agent.md) -- The TuneUp Your Virtual Agent Accelerators provide guidance for various aspects of Virtual Agent on your ServiceNow platform.
+            - [TuneUp Your Virtual Agent - Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md) -- The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine-tuning Virtual Agent setup to optimize value.
+            - [TuneUp Your Virtual Agent – NLU (Natural Language Understanding)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md) -- TuneUp Your Virtual Agent – NLU (Natural Language Understanding) Accelerator provides guidance on fine-tuning NLU models to optimize value.
+            - [TuneUp Your Virtual Agent – Performance Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md) -- The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides guidance on fine-tuning Virtual Agent performance to optimize value.
+            - [TuneUp Your Virtual Agent – UX (User Experience)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/tuneup-virtual-agent-ux.md) -- The TuneUp Your Virtual Agent – UX (User Experience) Accelerator provides guidance on fine-tuning Virtual Agent conversations to optimize value.
+        - [Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/accelerator-and-initiative-list/request-accelerator.md) -- Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators.
+    - [Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-tech-kpis.md) -- Tech Key Performance Indicators(KPIs) show how closely you're aligned to ServiceNow technical best practices, offer recommendations for improvement, and help you monitor your instance health.
+      - [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/developer-support.md) -- Developer Support is an offering to Advanced and Total Impact packages, and Guided customers who purchase managed support, that provides administrators and authorized users access to a ServiceNow Support Engineer who can assist in troubleshooting technical issues around existing platform customizations.
+        - [Using Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/developer-support-usage.md) -- Learn more about using Developer Support and helpful information when submitting a developer request with Impact.
+        - [Create a Developer Support case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/create-developer-support-case.md) -- Enter a support case to engage Developer Support assistance, if you are a named contact on the Impact plan.
+        - [Manage Developer Support user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/manage-developer-support-user-access.md) -- Add designated users to enter a support case for Developer Support. The named contacts are responsible for entering details about a specific issue.
+      - [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-overview.md) -- Instance Observer (IO) is an observability and performance monitoring tool that empowers you to keep track of your instance health and performance in near real-time, while also providing historical insights.
+        - [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/instance-observer-home-page.md) -- The Home page provides a snapshot of the overall health of your instance.
+        - [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/instance-observer-performance.md) -- Monitor all your instances 24x7 in one place with near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
+          - [Getting started with Performance charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-getting-started-perf-charts.md) -- Follow these steps to generate Performance charts using Instance Observer.
+          - [Anomalies detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/anomalies-detection.md) -- Instance Observer proactively detects the anomalies for cyclical or non-cyclical metrics under the performance chart for the Impact Total package on production instances. Anomalies represent metrics outliers based on historical patterns. Every anomaly may not represent an issue, but, notifies you and you decide the criticality and configure alerts, accordingly.
+            - [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/configure-anomaly-alerts.md) -- Configure anomaly alerts based on metrics outliers on historical patterns in Instance Observer.
+            - [Anomaly detection algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/anomaly-detection-algorithm.md) -- Instance Observer is performing anomalies detection through the Z-score Statistical model, otherwise referred to as a univariate method.
+        - [Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-availability.md) -- The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts (limited alert types) since the past 7 days.
+          - [Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/cloud-availability.md) -- Check specific ServiceNow data center availability, service degradation, or for interruption.
+        - [Key Alerts Activation and Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-alerts.md) -- Use the Instance Observer Key Alerts Activation functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
+          - [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/configuring-io-alerts.md) -- Follow these steps to configure Key Alerts on an instance where critical alerts have not yet been configured.
+          - [Generate thresholds for Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/generate-thresholds-io-alerts.md) -- For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
+          - [Manage Instance Observer alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/manage-io-alerts.md) -- Act on Instance Observer (IO) threshold alerts directly from the notification.
+          - [Instance Observer Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/i-o-notifications.md) -- Notifications for alerts and other system activity are displayed on the Instance Observer banner.
+        - [Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-analytics.md) -- View comparisons for performance of key metrics over time with the Impact Total package.
+        - [Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-triage.md) -- You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
+        - [Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/instance-observer-reporting.md) -- Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
+        - [Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/io-help.md) -- Access release notes, how to videos, and more from the Instance Observer Help Center page.
+      - [HealthScan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan.md) -- ServiceNow HealthScan is a diagnostic tool that helps you understand the current health of your instance, identify potential issues and setbacks, and take quick corrective action.​
+        - [Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/health-assessment-dashboard.md) -- View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
+          - [Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/manage-health-assessment-dashboard.md) -- Address platform health findings from the Health Assessment Dashboard.
+        - [Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/monthly-health-assessment.md) -- The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
+          - [Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/schedule-monthly-health-assessment-scans.md) -- Automate monthly Health Assessment scans and reports to help improve the health of your ServiceNow platform implementation.
+        - [HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan-definitions.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: November release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan-definitions-nov-store.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: October hotfix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan-definitions-oct-hotfix.md) -- Some HealthScan definitions are deprecated or updated between releases.
+          - [HealthScan definitions updates: August release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/healthscan-definitions-aug-store.md) -- Some HealthScan definitions are deprecated or updated between releases.
+    - [Value Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-value-journey.md) -- Use Value Journey to get a closer look at your Value blueprint, and Business Value Reports.
+      - [Objectives and outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/value-blueprint.md) -- The value journey lifecycle starts with the creation of the value blueprint, which captures your business objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
+      - [Business value reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/value-library/business-value-reports.md) -- At the end of the year, or your alternative reporting period, your Impact squad performs a Value Realization Assessment and capture the data in a Value Report.
+    - [Product Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/product-adoption.md) -- View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
+      - [Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md) -- See the applications, or capabilities, at your disposal for achieving your business objectives.
+        - [Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/manage-capabilities.md) -- Manage the usage status for capabilities and how they’re being used in your instance. The information in the capabilities status fields feeds the capabilities maps summary bar.
+      - [Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/impact-par.md) -- Access the Product Adoption Roadmaps (PARs) feature to view a recommended implementation sequence for your capabilities. The sequence is organized into specific phases for optimal implementation.
+      - [Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/subscriptions.md) -- See a list of your subscriptions for all of your instances and the list of applications that you’re entitled to, as part of those subscriptions, in one comprehensive view.
+      - [Training Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-product-adoption-roadmap/training-insights.md) -- Impact Training Insights provide a comprehensive view of organizational learning activities, with real-time data available whenever and wherever it's needed.
+    - [Benefits & Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-features.md) -- Impact Benefits & Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
+      - [Consumption Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/ide-consumption-report.md) -- The Consumption Report provides an overview of your Impact tier features and their usage.
+      - [Additional Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-resources.md) -- Access the ServiceNow resources available to you, including case studies, learning opportunities, developer support, Now Community, and more.
+      - [Impact Digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-digest.md) -- Get personalized monthly updates in the form of Impact Digest.
+      - [Admin Center integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/admin-center-integration.md) -- Access Admin Center from Impact that enables admins and instance owners with self-service adoption guidance and recommendations to simplify application installation.
+    - [Impact User Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/ide-user-management.md) -- Impact admins can create, view, and manage their users with Impact User Management.
+      - [Edit a role for an Impact user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/edit-impact-user.md) -- Update a role for an Impact user role after the initial assignment.
+      - [Remove Impact user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/remove-impact-user-permissions.md) -- Remove permissions that you've assigned to an Impact user if that user should no longer have access to Impact.
+      - [User roles in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-roles.md) -- The Impact Digital Experience offers many roles to assign to fit your business needs.
+    - [Mobile Executive Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-mobile.md) -- The mobile Impact Executive Experience allows customer executives to access Impact from anywhere on their mobile browser.
+- [Impact releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases.md) -- ServiceNow Impact releases may include enhancements, as well as additional features. Read the release notes to learn about the release content. Releases occur throughout the year on a quarterly basis, starting in February. Future release dates are subject to change.
+  - [2024 Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2024.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [November 2024 quarterly Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2024.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [August 2024 quarterly Impact release notes - Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2024.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [May 2024 quarterly Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2024.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [February 2024 quarterly Impact release notes - Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2024.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+  - [2023 Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [September 2023 quarterly Impact release notes - Vancouver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [May 2023 quarterly Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+    - [February 2023 quarterly Impact release notes - Utah](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+      - [2023 Q1 Impact Accelerators release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.
+      - [2023 Q1 Impact Digital Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/impact/impact-releases-2023.md) -- Releases occur throughout the year on a quarterly basis, starting in February.

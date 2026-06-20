@@ -2,6 +2,7 @@
 title: Action utility
 description: Use the Action utility in a Virtual Agent topic to select the flow action properties that the node should create. The Action utility integrates Virtual Agent with the ServiceNow Workflow Studio product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/va-action.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent
@@ -54,7 +55,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US).
+ For a list of default spokes, see Spokes.
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Action utility
 
-![Action utility properties.](../images/flow-designer-action-properties.png)
+\[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties.
 
-**Parent Topic:**[Virtual Agent Designer utilities](va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/conversational-interfaces/virtual-agent/va-utilities.md)
 

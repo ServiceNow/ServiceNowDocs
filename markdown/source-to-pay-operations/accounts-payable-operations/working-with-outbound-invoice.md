@@ -2,6 +2,7 @@
 title: Working with outbound invoice
 description: ERP integrator validates the invoice with ERP number, processes the integration, and the moves the invoice for payment extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/accounts-payable-operations/working-with-outbound-invoice.html
 release: xanadu
 product: Accounts Payable Operations
 classification: accounts-payable-operations

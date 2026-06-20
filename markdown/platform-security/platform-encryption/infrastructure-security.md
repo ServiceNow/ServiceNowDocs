@@ -2,6 +2,7 @@
 title: Infrastructure Security
 description: Use Infrastructure security tools to create, upload, and manage certificates your instance uses to encrypt traffic from client to server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/platform-encryption/infrastructure-security.html
 release: xanadu
 product: Platform Encryption
 classification: platform-encryption
@@ -32,14 +33,14 @@ The Infrastructure Security plugin provides the tools that you can use to manage
 
 ## Install the Infrastructure Security plugin
 
-Install the ServiceNow Infrastructure Security Settings \(com.glide.infrastructure\_security\) plugin to get started using these features. For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+Install the ServiceNow Infrastructure Security Settings \(com.glide.infrastructure\_security\) plugin to get started using these features. For details on plugin activation, see Activate a plugin.
 
 After installing the plugin, enable Sign Your Own Security \(SYOC\) functionality by setting the **sn\_infra\_sec.syoc.enabled** system property to `true`.
 
-**Note:** If the **sn\_infra\_sec.syoc.enabled** property isn’t available on your instance, you must create it. For details on this process see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** If the **sn\_infra\_sec.syoc.enabled** property isn’t available on your instance, you must create it. For details on this process see .
 
--   **[Generate a Certificate Signing Request](../task/inf-sec-generate-csr.md)**  
+-   **[Generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/platform-encryption/inf-sec-generate-csr.md)**  
 Use the Generate Certificate Signing \(CSR\) page to create a certificate signing request to support customer-signed certificates for your instance load balancer.
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/servicenow-ai-platform-security/encryption.md)
 

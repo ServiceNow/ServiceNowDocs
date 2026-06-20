@@ -2,6 +2,7 @@
 title: Configure favorite content type
 description: Configure the favorites option to help employees personalize the content and easily access the content they frequently use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/web-configure-favorites-admin-content.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation

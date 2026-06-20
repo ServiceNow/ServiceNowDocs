@@ -2,7 +2,10 @@
 title: Flag a work order task
 description: Flag tasks that you want to work on at a later time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/flag-a-task.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: wm\_dispatcher
 
 2.  Click **Dispatcher Workspace**.
 
-3.  Click the Flag icon \(![Flag icon.](../image/flag_tasks.png)\) on the task.
+3.  Click the Flag icon \(\[Omitted image "flag\_tasks.png"\] Alt text: Flag icon.\) on the task.
 
 
 ## Result

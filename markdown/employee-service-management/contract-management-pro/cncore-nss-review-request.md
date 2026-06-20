@@ -2,6 +2,7 @@
 title: Work on a non-self-served contract review request
 description: Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from within the contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-nss-review-request.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, open a contract request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d562372e75">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d522300e75">
 
 Option
 
-</th><th align="left" id="d562372e78">
+</th><th align="left" id="d522300e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d562372e84">
+</th></tr></thead><tbody><tr><td id="d522300e84">
 
 **As an assignee**
 
@@ -49,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d562372e113">
+</td></tr><tr><td id="d522300e113">
 
 **As a collaborator**
 
@@ -70,8 +71,8 @@ The state and the Contract status of the contract request is Work in progress.
 
     Examples of reclassifying the contract or supporting documents are:
 
-    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents in third-party contract request](cncore-nss-reclassify-doc.md).
-    -   You can change the supporting document to a contract document. For more information, see [Reclassify supporting documents in the contract request](cncore-nss-reclassify-supdoc.md).
+    -   You can change the contract document type from a Non-disclosure Agreement to a Partnership Agreement. For more information, see [Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md).
+    -   You can change the supporting document to a contract document. For more information, see [Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md).
 5.  Open an existing revision of a contract document.
 
     -   For internal storage: Open the document revision record by navigating to the **Contract documents** tab and then selecting the name of the document.
@@ -80,31 +81,31 @@ The state and the Contract status of the contract request is Work in progress.
 
 7.  Create document revisions.
 
-    For more information, see [Create a document revision](cncore-create-doc-rev.md).
+    For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
 8.  Analyze the contract documents to identify non-standard and missing clauses by using Now Assist in Contract Management.
 
-    For more information, see [Contract analysis using Now Assist in Contract Management](../concept/cncore-NA-review-land.md).
+    For more information, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
 9.  If an approval is required from other stakeholders, send the document for ad-hoc approval.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
 10. Set up an email to stakeholders to have the completed contract document reviewed and the changes confirmed.
 
-    For more information, see [Send email to stakeholders](cncore-send-email.md).
+    For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-send-email.md).
 
 11. Add the internal or external signatories needed for e-signatures on the contract by navigating to the **Signatories** tab and then selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d562372e315">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d522300e315">
 
 Option
 
-</th><th align="left" id="d562372e318">
+</th><th align="left" id="d522300e318">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d562372e324">
+</th></tr></thead><tbody><tr><td id="d522300e324">
 
 **Internal**
 
@@ -114,7 +115,7 @@ Steps
 2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique. For example: Enter the order numbers as 10, 20, 30, and so on, increasing by 10 each time. The system starts sending the contract to the internal signer with the lowest number.
 
 
-</td></tr><tr><td id="d562372e357">
+</td></tr><tr><td id="d522300e357">
 
 **External**
 
@@ -160,7 +161,7 @@ Steps
 
 -   Signatories can sign or decline to sign the contract.
 
-    For more information, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md).
+    For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
 -   Check the contract request state and the contract document status in the request:
     -   If all signatories sign the contract document, the contract document status updates to Contract signed. On the **Signatories** tab, the status of all signatories updates to Signed. You can access the contract repository record from the **Contracts Repository** tab.
@@ -168,5 +169,5 @@ Steps
     -   After all the signatories have signed the document, an email is sent to the signatories with the finalized contract document attached.
 -   If the contract is signed by all signatories, you can close the request by selecting **Close Complete**.
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown)
 

@@ -2,7 +2,10 @@
 title: Add the Meeting Extensions tab in Microsoft Teams
 description: Map the ServiceNow Meeting Extensions app ID in your ServiceNow instance to automatically add the meeting extensions tab in Microsoft Teams for a conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/map-meeting-extensibility-app-id.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -30,5 +33,5 @@ Role required: admin
     Meeting Extensions app is set up.
 
 
-**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](../concept/setup-meeting-extensibility-single-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-meeting-extensibility-single-tenant.md)
 

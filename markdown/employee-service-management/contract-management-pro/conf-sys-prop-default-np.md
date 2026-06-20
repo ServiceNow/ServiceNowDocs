@@ -2,6 +2,7 @@
 title: Set the default notice period for the Manage contract repository agentic workflow
 description: Configure system properties to set the default notice period for the Manage contract repository agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/conf-sys-prop-default-np.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro

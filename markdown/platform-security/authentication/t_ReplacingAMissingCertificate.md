@@ -2,6 +2,7 @@
 title: Replacing a missing certificate for SAML
 description: If the Certificate module displays a blank page, the SAML 2.0 certificate record has been deleted. You can replace the missing certificate by manually creating a certificate record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_ReplacingAMissingCertificate.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Create a new record called `SAML 2.0`.
 
-    **Important:** You MUST use this name. This requirement is only true if you are not using [Multi-Provider Single sign-on \(SSO\)](../../single-sign-on/concept/c_MultipleProviderSingleSignOn.md).
+    **Important:** You MUST use this name. This requirement is only true if you are not using [Multi-Provider Single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 3.  Click **SAML 2 Single Sign-on** &gt; **Certificate**.
 

@@ -2,6 +2,7 @@
 title: ERP-CM field descriptions
 description: Some tables of field descriptions in ERP Customization Mining \(ERP-CM\) are too large to maintain in task topics. Find information on those large tables in this section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/erp-customization-mining/erpcm-field-description-reference-landing.html
 release: xanadu
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -15,18 +16,18 @@ breadcrumb: [ERP Customization Mining reference, ERP Customization Mining \(ERP-
 
 Some tables of field descriptions in ERP Customization Mining \(ERP-CM\) are too large to maintain in task topics. Find information on those large tables in this section.
 
--   **[ERP-CM task list field descriptions](../reference/erpcm-task-list-details.md)**  
+-   **[ERP-CM task list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-task-list-details.md)**  
 The task list in ERP Customization Mining \(ERP-CM\) displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
--   **[ERP-CM candidate list field descriptions](../reference/erpcm-candidate-list-details.md)**  
+-   **[ERP-CM candidate list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-candidate-list-details.md)**  
 The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the basic details for each candidate.
--   **[ERP-CM candidate scan results field descriptions](../reference/erpcm-candidate-scan-results-descriptions.md)**  
+-   **[ERP-CM candidate scan results field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-candidate-scan-results-descriptions.md)**  
 The candidate list in ERP Customization Mining \(ERP-CM\) displays information on the latest scan of the ERP \(Enterprise Resource Planning\) system.
--   **[ERP-CM candidate recommendations field descriptions](../reference/erpcm-candidate-recommendations-field-descriptions.md)**  
+-   **[ERP-CM candidate recommendations field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-candidate-recommendations-field-descriptions.md)**  
 The candidate Recommendations list in ERP Customization Mining \(ERP-CM\) displays information on suggested next actions for replatforming ERP \(Enterprise Resource Planning\) candidates.
--   **[ERP-CM similar candidates field descriptions](../reference/erpcm-similar-candidates-field-descriptions.md)**  
+-   **[ERP-CM similar candidates field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-similar-candidates-field-descriptions.md)**  
 The Similar candidates tab in ERP Customization Mining \(ERP-CM\) displays information on similar candidates for replatforming ERP \(Enterprise Resource Planning\) apps.
--   **[ERP Customization Mining snapshot field descriptions](../reference/erpcm-snapshot-field-descriptions.md)**  
+-   **[ERP Customization Mining snapshot field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erpcm-snapshot-field-descriptions.md)**  
 The snapshot list in ERP Customization Mining \(ERP-CM\) displays information about import and export snapshots.
 
-**Parent Topic:**[ERP Customization Mining reference](../reference/erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Customization Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/erp-customization-mining/erp-customization-mining-ref.md)
 

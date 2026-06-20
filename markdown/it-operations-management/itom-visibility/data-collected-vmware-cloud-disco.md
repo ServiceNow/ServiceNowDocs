@@ -2,6 +2,7 @@
 title: Data collected for VMware Cloud Discovery
 description: Discovery collects information about VMware resources in your cloud service accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -40,5 +41,5 @@ VMware Cloud Discovery finds VMware tags from vCenter and saves them to the Key 
 |Tag \[tag\]|Source in vCenter from which tags are fetched. In this case, the value is always **Tags**.|
 |Value \[value\]|Tag name that is applied to the resource in vCenter.|
 
-**Parent Topic:**[Cloud resource discovery](cloud-discovery-collected-data.md)
+**Parent Topic:**[Cloud resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
 

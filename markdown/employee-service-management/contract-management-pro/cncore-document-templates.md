@@ -2,6 +2,7 @@
 title: Configure contract templates for a contract request
 description: Create contract templates to easily generate Microsoft Word contract documents based on request types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/contract-management-pro/cncore-document-templates.html
 release: xanadu
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,6 +26,6 @@ By using Microsoft Word add-in, you can add content controls on macOS as well as
 
 For more information, see the following topics:
 
--   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-setup-ct-add-in.md).
--   [Create contract template by manually adding content controls](cncore-setup-ct-manual.md).
+-   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+-   [Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md).
 

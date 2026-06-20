@@ -2,6 +2,7 @@
 title: Configure branding for your Self-configured bot
 description: Configure your self-configured Slack app's branding. You have the flexibility to customize the default ServiceNow branding for the Slack self-configured bot name and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/slack-brand-self-configured.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

@@ -2,6 +2,7 @@
 title: Create business rules to automatically create an appointment record for the catalog item variable
 description: Create a before insert business rule on the service table to automatically add a variable for service catalog in the appointment booking table. This ensures that the variable record is visible on the appointment calendar for users when booking an appointment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/field-service-scheduling/create-business-rules-to-automatically-create-appointment-record.html
 release: xanadu
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -54,5 +55,5 @@ Role required: admin
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Appointment Booking](../concept/appointment-booking-administer.md)
+**Parent Topic:**[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md)
 

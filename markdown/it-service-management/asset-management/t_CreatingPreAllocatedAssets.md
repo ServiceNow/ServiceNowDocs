@@ -2,6 +2,7 @@
 title: Create pre-allocated assets
 description: Create a pre-allocated asset that physically exists, but isn’t yet a financial liability.Assets can be allocated from pre-allocated asset records, which creates new asset records and reduces the Quantity in the original pre-allocated asset record.You can split a pre-allocated asset to create a group that can be moved to a different stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/asset-management/t\_CreatingPreAllocatedAssets.html
 release: xanadu
 product: Asset Management
 classification: asset-management
@@ -161,7 +162,7 @@ Work notes related to the asset.
 </table>2.  Select **Submit**.
 
 
-**Parent Topic:**[Asset Management](../concept/c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/asset-management/c_AssetManagement.md)
 
 ## Allocate a pre-allocated asset
 

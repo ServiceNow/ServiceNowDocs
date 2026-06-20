@@ -2,6 +2,7 @@
 title: Integrating with Jira Software Cloud
 description: Integrating your Software Asset Management application with Atlassian Jira Software Cloud enables you to track your software subscriptions and to reclaim unused licenses.Integrate the Software Asset Management application and Jira using an API key to authenticate ServiceNow requests.Create an API token in Jira to authenticate requests.Configure the default connection and credential alias record to authenticate the requests from ServiceNow.Integrate the Software Asset Management application with your Jira account using OAuth to authenticate ServiceNow requests.Create an OAuth 2.0 integration in the Atlassian Developer console to authenticate the requests.Obtain the value of the Cloud ID of the Jira cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Use the generated information while creating the OAuth 2.0 integration to create an application registry record in your ServiceNow instance.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Create an integration profile to track software subscriptions and optimize licensing for Atlassian Jira Software Cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-jira.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -18,11 +19,11 @@ Integrating your Software Asset Management application with Atlassian Jira Softw
 **Note:** Currently this integration supports only one site integration per profile.
 
 -   If your installed Jira spoke version is 4.1.0 or higher, you can integrate Jira with your ServiceNow instance by using one of the following methods:
-    -   [Using basic authentication](integrate-with-jira.md#)
+    -   [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md)
 
-    -   [Using OAuth authentication](integrate-with-jira.md#)
+    -   [Using OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md)
 
--   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Using basic authentication](integrate-with-jira.md#) method.
+-   If your installed Jira spoke version is lower than 4.1.0, integrate Jira with your ServiceNow instance by [Using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md) method.
 
 **Important:** Minimize security risks and protect information by granting access only to the necessary user or API permissions.
 
@@ -100,7 +101,7 @@ Create an API token in Jira to authenticate requests.
 
 #### Before you begin
 
-Jira Role required: Refer the [Minimal user permissions](integrate-with-jira.md#) table.
+Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 #### Procedure
 
@@ -152,7 +153,7 @@ Create an OAuth 2.0 integration in the Atlassian Developer console to authentica
 
 #### Before you begin
 
-Jira Role required: Refer the [Minimal user permissions](integrate-with-jira.md#) table.
+Jira Role required: Refer the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 #### Procedure
 
@@ -420,7 +421,7 @@ Connection URL
 
 </td><td>
 
-Enter the URL of your Jira instance in the `https://api.atlassian.com/ex/jira/<Cloud-ID>` format.For information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Jira instance](integrate-with-jira.md#).
+Enter the URL of your Jira instance in the `https://api.atlassian.com/ex/jira/<Cloud-ID>` format.For information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Jira instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md).
 
 </td></tr></tbody>
 </table>5.  In the Attributes related list, provide these values.
@@ -439,7 +440,7 @@ Enter the URL of your Jira instance in the `https://api.atlassian.com/ex/jira/<C
 
     In a new window, the system asks access to your Atlassian account.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](integrate-with-jira.md#) table.
+    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-jira.md) table.
 
 10. Select **Accept**.
 
@@ -475,15 +476,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d157901e1991">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d113987e1991">
 
 Interface
 
-</th><th align="left" id="d157901e1994">
+</th><th align="left" id="d113987e1994">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d157901e2000">
+</th></tr></thead><tbody><tr><td id="d113987e2000">
 
 **Core UI**
 
@@ -494,7 +495,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d157901e2042">
+</td></tr><tr><td id="d113987e2042">
 
 **Software Asset Workspace**
 
@@ -522,7 +523,7 @@ Action
 
     **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
-    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+    You can modify this value in the Last activity threshold field of your software reclamation rules. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     **Note:** After you save the integration profile, the **Analyze user activity from** field becomes read only.
 
@@ -575,18 +576,18 @@ Action
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

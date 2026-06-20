@@ -2,6 +2,7 @@
 title: Workplace Space Mapping
 description: ServiceNow Workplace Space Mapping provides indoor maps for interactive locations and wayfinding with Indoor Mapping and Mappedin. Indoor Mapping is part of the Workplace Service Delivery suite while Mappedin a third-party map provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/wsm-mappedin-admin.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,19 +18,19 @@ ServiceNow® Workplace Space Mapping provides indoor maps for interactive locati
 
 <table id="table_s3z_wrb_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](wsm-space-mapping-explore.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-space-mapping-explore.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](wsm-config_space_mapping.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-config_space_mapping.md)
 
 </td></tr><tr><td>
 
-[Using ![Using](../../../common/image/icon-managing.png) Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](wsm-using-workplace-space-mapping.md)
+[Using \[Omitted image "icon-managing.png"\] Alt text: Using Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-using-workplace-space-mapping.md)
 
 </td><td>
 
-[References ![References](../../../common/image/icon-reference.png) Work with Workplace Space Mapping tables, properties, and components.](wsm-reference.md)
+[References \[Omitted image "icon-reference.png"\] Alt text: References Work with Workplace Space Mapping tables, properties, and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/wsm-reference.md)
 
 </td></tr></tbody>
 </table>

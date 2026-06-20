@@ -2,6 +2,7 @@
 title: Delete a control from a processing activity
 description: Delete the controls that are no longer required in the processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/delete-controls.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -42,5 +43,5 @@ You can delete controls if the control objectives associated with those controls
 
 The selected controls are deleted from the processing activity.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

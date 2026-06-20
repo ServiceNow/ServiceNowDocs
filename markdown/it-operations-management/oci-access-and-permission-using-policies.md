@@ -2,7 +2,10 @@
 title: OCI access and permission using policies
 description: Oracle Cloud Infrastructure \(OCI\) access and permission using policies provide privileges for secure cloud resource utilization and management in OCI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/oci-access-and-permission-using-policies.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
@@ -17,5 +20,5 @@ For information on OCI permissions, go to the [Oracle Help Center](https://docs.
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
-**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
+**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
 

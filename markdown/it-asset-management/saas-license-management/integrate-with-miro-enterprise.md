@@ -2,6 +2,7 @@
 title: Integrating with Miro Enterprise
 description: Integrating your Software Asset Management application with the Miro Enterprise application enables you to track your software subscriptions and to reclaim unused licenses.Create a Miro Enterprise OAuth 2.0 application to enable access to the Miro API.Enable SCIM \(System for Cross-domain Identity Management\) on your Miro Enterprise account so that you can generate an API access token for authenticating your Miro API requests.Create a connection between your Miro Enterprise applications and your ServiceNow instance.Create a connection between the Miro Enterprise SCIM and your ServiceNow instance.Create a Miro Enterprise integration profile to track software subscriptions and optimize licensing for your Miro Enterprise applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.html
 release: xanadu
 product: SaaS License Management
 classification: saas-license-management
@@ -29,7 +30,7 @@ Create a Miro Enterprise OAuth 2.0 application to enable access to the Miro API.
 
 ### Before you begin
 
-Miro Role required: Refer to the [Minimal user permissions](integrate-with-miro-enterprise.md#) table.
+Miro Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md) table.
 
 ### Procedure
 
@@ -68,7 +69,7 @@ Miro Role required: Refer to the [Minimal user permissions](integrate-with-miro-
 
 ### What to do next
 
-Keep your organization profile open so that you can enable SCIM \(System for Cross-domain Identity Management\) on your Miro Enterprise account. For more information, see [Enable SCIM on your Miro Enterprise account](integrate-with-miro-enterprise.md#).
+Keep your organization profile open so that you can enable SCIM \(System for Cross-domain Identity Management\) on your Miro Enterprise account. For more information, see [Enable SCIM on your Miro Enterprise account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md).
 
 ## Enable SCIM on your Miro Enterprise account
 
@@ -76,7 +77,7 @@ Enable SCIM \(System for Cross-domain Identity Management\) on your Miro Enterpr
 
 ### Before you begin
 
-Miro Role required: Refer to the [Minimal user permissions](integrate-with-miro-enterprise.md#) table.
+Miro Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md) table.
 
 ### Procedure
 
@@ -163,7 +164,7 @@ OAuth Redirect URL
 
 </td><td>
 
-URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a Miro Enterprise OAuth 2.0 application](integrate-with-miro-enterprise.md#).
+URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a Miro Enterprise OAuth 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md).
 
 </td></tr></tbody>
 </table>6.  Select **Create and Get OAuth Token**.
@@ -231,7 +232,7 @@ API Token
 
 </td><td>
 
-API access token for authenticating Miro API requests. Enter the same API access token that you generated and copied in [Enable SCIM on your Miro Enterprise account](integrate-with-miro-enterprise.md#).
+API access token for authenticating Miro API requests. Enter the same API access token that you generated and copied in [Enable SCIM on your Miro Enterprise account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md).
 
 </td></tr></tbody>
 </table>6.  Select **Create Connection**.
@@ -255,15 +256,15 @@ If you’re using Software Asset Workspace, the option to create the Miro Enterp
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d151646e1051">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114016e1051">
 
 Interface
 
-</th><th align="left" id="d151646e1054">
+</th><th align="left" id="d114016e1054">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d151646e1060">
+</th></tr></thead><tbody><tr><td id="d114016e1060">
 
 **Core UI**
 
@@ -274,7 +275,7 @@ Action
 3.  Select **Miro Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d151646e1102">
+</td></tr><tr><td id="d114016e1102">
 
 **Software Asset Workspace**
 
@@ -326,7 +327,7 @@ Type of integration profile. This field is automatically set to **Miro Enterpris
 </td></tr></tbody>
 </table>3.  On the **Download Subscription Subflow** tab, verify that the **Connection &amp; Credential** field is set to `sn_miro_spoke.Miro_Enterprise` and the **Subflow** field is set to **Miro Download Subscriptions**.
 
-    You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+    You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
     **Note:** Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
@@ -347,18 +348,18 @@ Type of integration profile. This field is automatically set to **Miro Enterpris
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](../task/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](../task/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](../task/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](../task/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](../task/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](../task/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-asset-management/software-asset-management/run-recon-workspace.md).
 

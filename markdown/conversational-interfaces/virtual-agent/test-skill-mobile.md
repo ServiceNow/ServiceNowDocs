@@ -2,6 +2,7 @@
 title: Test a skill on the Alexa mobile app
 description: Test your Alexa skill using the Alexa mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/test-skill-mobile.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

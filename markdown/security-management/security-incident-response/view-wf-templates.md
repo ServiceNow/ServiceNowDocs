@@ -2,6 +2,7 @@
 title: Understand Security Incident Response Orchestration workflows and workflow templates
 description: The Security Incident Response base system includes a series of workflows and workflow templates designed to work with security incident records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/view-wf-templates.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -42,8 +43,8 @@ So Security Incident Response workflows and workflow templates are essentially t
     **Note:** Workflows can be triggered in several different ways. Be aware that associating a workflow with a workflow trigger does not necessarily mean the workflow is active.
 
 
--   **[Security Incident Response Orchestration flows and actions](../../../product/security-incident-response-orchestration/concept/sec-inc-resp-orchestration-workflows.md)**  
+-   **[Security Incident Response Orchestration flows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)**  
 Several flows and actions are included with Security Incident Response Orchestration.
 
-**Parent Topic:**[Security Incident Response Orchestration](../../../product/security-incident-response-orchestration/concept/c_SecIncRespOrchestration.md)
+**Parent Topic:**[Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 

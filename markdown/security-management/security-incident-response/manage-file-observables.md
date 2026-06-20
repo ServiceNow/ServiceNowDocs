@@ -2,6 +2,7 @@
 title: Manage file observables
 description: Manage file observables provides stringent security measures to store the suspicious files and enables the files type observables for sandbox integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/manage-file-observables.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -43,7 +44,7 @@ You can create and view file type observables for a security incident. The suspi
     -   Click **Upload Secure Attachment**.
     -   On the Upload Secure Attachments, Click **Choose file** to upload one or more files. Each file is considered as a single observable record.
     -   Click **Create File Observables** to create the file type observables such as one is the file type and other one is the file hash which is a unique identifier.
-    ![This image describes the file contents of the observables.](../image/file-observable.png "File type observables")
+    \[Omitted image "file-observable.png"\] Alt text: This image describes the file contents of the observables.
 
     Select the file type observable to process for further integrations such as sandbox, threat lookup. In addition, you can also download the attachments from the file type observable.
 

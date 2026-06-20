@@ -2,6 +2,7 @@
 title: Activate default values for CMD calculations
 description: Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/grc-risk-management-workspace/activate-default-values-for-cmd-calculations.html
 release: xanadu
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,7 +33,7 @@ Role required: sn\_esg.program\_manager
     -   Select **New**.
 3.  On the form, fill in the fields.
 
-    For information on the fields of the form, see [Metric definition setting record fields](../reference/metric-definition-setting-record-fields.md).
+    For information on the fields of the form, see [Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/grc-risk-management-workspace/metric-definition-setting-record-fields.md).
 
 4.  Select **Submit**.
 

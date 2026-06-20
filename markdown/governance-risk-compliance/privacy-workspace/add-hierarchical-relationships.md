@@ -2,6 +2,7 @@
 title: Add hierarchical relationships between entities
 description: Define hierarchical relationships between entities \(Global → Regional → Country-level\) using Upstream and Downstream options. Adding an hierarchy creates a clear organizational structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/governance-risk-compliance/privacy-workspace/add-hierarchical-relationships.html
 release: xanadu
 product: Privacy Workspace
 classification: privacy-workspace
@@ -40,5 +41,5 @@ Role required: sn\_privacy.admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure access control](../configure-access-control-by-legal-entity.md)
+**Parent Topic:**[Configure access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

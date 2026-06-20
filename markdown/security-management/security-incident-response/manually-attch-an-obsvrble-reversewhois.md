@@ -2,6 +2,7 @@
 title: Initiate the lookup for Reverse Whois
 description: Initiate domain lookups using search terms in observables that you manually attach to a security incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_si.analyst
 
     **Note:** The figures in the following steps are shown with the **Tabbed forms** setting active in the System Settings. If you do not see tabs on the security incident, in the upper-right corner of the banner frame, click the **Settings** gear icon. In the **System Settings** dialog box that is displayed, click **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
 
-    ![The Observables tab on the Security Incident Form.](../images/reverse-whois-new-observable.png)
+    \[Omitted image "reverse-whois-new-observable.png"\] Alt text: The Observables tab on the Security Incident Form.
 
 3.  On the Observables tab, click **New**.
 
@@ -39,7 +40,7 @@ Role required: sn\_si.analyst
     |Observable type|This field is automatically cleared.|
     |Finding|This field is automatically set to **Unknown**.|
 
-    ![Required fields on the new observable record.](../images/reverse-observable-mitchell-new.png)
+    \[Omitted image "reverse-observable-mitchell-new.png"\] Alt text: Required fields on the new observable record.
 
 5.  Click **Submit**.
 
@@ -48,11 +49,11 @@ Role required: sn\_si.analyst
 
 ## What to do next
 
-Verify the lookup results on the security incident. See [Verify expected results for Reverse Whois](verify-expected-rslts-rvrsewhois.md).
+Verify the lookup results on the security incident. See [Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md).
 
-**Parent Topic:**[Reverse Whois integration](../concept/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[\(Optional\) Install and configure Whois](whois-install-and-config.md)
+**Previous topic:**[\(Optional\) Install and configure Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/whois-install-and-config.md)
 
-**Next topic:**[Verify expected results for Reverse Whois](verify-expected-rslts-rvrsewhois.md)
+**Next topic:**[Verify expected results for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.md)
 

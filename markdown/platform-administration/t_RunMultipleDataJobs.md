@@ -2,6 +2,7 @@
 title: Run multiple data jobs
 description: Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run data jobs for multiple field transformations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_RunMultipleDataJobs.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -28,5 +29,5 @@ Running the data job/jobs is the fourth step in transforming a field. This topic
     **Note:** The platform only runs data jobs from Active transformations. The Action menu indicates the number of Active data jobs that can run. For example, the menu might display Start \(3 of 4\).
 
 
-**Parent Topic:**[Normalization and transformation data jobs](../concept/normalization-data-jobs.md)
+**Parent Topic:**[Normalization and transformation data jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/normalization-data-jobs.md)
 

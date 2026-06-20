@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Use the TMT AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
 release: xanadu
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -77,16 +78,16 @@ Monitors the health score trends for all active engagements and triggers risk si
 </td></tr></tbody>
 </table>Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see Find AI agents.
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Important:** By default, all use case and AI agent records are read only.
 
 To run the use case autonomously, activate the trigger. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-To configure AI Agent Studio, see [AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) and [Configuring Now Assist AI agents](https://www.servicenow.com/docs/access?context=configuring-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+To configure AI Agent Studio, see  and .
 
-To install AI Agent Studio, see [AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US) and [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+To install AI Agent Studio, see  and .
 
-To view all the available AI agents, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+To view all the available AI agents, see .
 

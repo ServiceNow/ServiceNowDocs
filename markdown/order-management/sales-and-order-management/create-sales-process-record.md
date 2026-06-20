@@ -2,6 +2,7 @@
 title: Create a sales process record
 description: Monitor and track sales activities for a customer account by creating a sales process record in Lead-to-Cash Process Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/create-sales-process-record.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -23,7 +24,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![](../../../reuse/icons/product-icons/list-outline-24.svg)\).
+2.  Select the List icon \(\[Omitted image "list-outline-24.svg"\]\).
 
 3.  Navigate to **Lead to Cash Process Management** &gt; **Sales Process Records**.
 
@@ -50,5 +51,5 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 ## What to do next
 
-Track and manage sales process using the sales process dashboard. For more information, see [Navigating the sales process dashboard](../concept/navigating-sales-process-dashboard.md) and [Monitoring and tracking sales activities](../concept/monitor-track-sales-activities.md).
+Track and manage sales process using the sales process dashboard. For more information, see [Navigating the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/navigating-sales-process-dashboard.md) and [Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/monitor-track-sales-activities.md).
 

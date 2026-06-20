@@ -2,6 +2,7 @@
 title: Reassign an SRM alert
 description: Reassign an alert to a responder when the alert task should be addressed by a particular user.REVISE FOR SRM
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-reassign-alert-user.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -29,11 +30,11 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you have other SOW applications, and depending on your assigned roles, that homepage may not be the SRM homepage. It is the SOW homepage instead, with SRM alerts and incidents included in your metrics. In that case, to view SRM specific areas, select SRM modules from the left navigation pane.
 
-2.  From the left navigation pane, select the reliability tasks icon \(![Reliability tasks icon](../image/icon-sr-reliability-tasks.png)\).
+2.  From the left navigation pane, select the reliability tasks icon \(\[Omitted image "icon-sr-reliability-tasks.png"\] Alt text: Reliability tasks icon\).
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d470328e100">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d373492e100">
 
 **Option**
 
@@ -41,7 +42,7 @@ Role required: Responder, Manager, or Administrator
 
 Description
 
-</td></tr><tr><td id="d470328e109">
+</td></tr><tr><td id="d373492e109">
 
 **In the alert list view**
 
@@ -55,7 +56,7 @@ Select **Update**.
 
 **Note:** If you bulk select alerts, the change applies to all the alerts selected. For assignments, team members are notified according to their notification preferences.
 
-</td></tr><tr><td id="d470328e132">
+</td></tr><tr><td id="d373492e132">
 
 **In the alert form**
 
@@ -67,5 +68,5 @@ If the alert has not been acknowledged, acknowledge it first, and then delete th
 </table>    The alert is now assigned to the new responder and an email notification sent. The assignee is displayed in the list view and on the form.
 
 
-**Parent Topic:**[Working with alerts in SRM](../concept/sr-work-alerts.md)
+**Parent Topic:**[Working with alerts in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-work-alerts.md)
 

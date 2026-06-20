@@ -2,7 +2,10 @@
 title: Withdraw from a request on Field Service Marketplace
 description: Withdraw from a request you responded to on Field Service Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/withdraw-fsm-marketplace.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ If there aren't enough agents available, or there are other obstacles, you can w
 
 You're response is withdrawn from the request. The request is removed from your responses.
 
-**Parent Topic:**[Using Field Service Marketplace](../concept/using-fsm-marketplace.md)
+**Parent Topic:**[Using Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/using-fsm-marketplace.md)
 

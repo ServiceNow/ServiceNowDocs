@@ -2,6 +2,7 @@
 title: Configuring contextual security for the list editor
 description: The list editor enforces existing access control rules \(ACLs\) and additional security controls to restrict editing from a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/r\_ConfigListEditorContextSecurity.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -23,14 +24,14 @@ The list\_edit security operation specifically controls the ability to edit info
 
 To configure access controls, navigate to **System Security** &gt; **Access Controls**. The following examples use the list\_edit security operation to restrict list editing in certain contexts.
 
-1.  [Example - Restrict a table](r_ExampleRestrictATable.md)  
+1.  [Example - Restrict a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictATable.md)  
 This access control prevents everyone from editing all fields in the Incident table in a list.
-2.  [Example - Restrict a field](r_ExampleRestrictAField.md)  
+2.  [Example - Restrict a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictAField.md)  
 This access control prevents everyone except an administrator from editing the Short Description field of an incident record in a list.
-3.  [Example - Restrict a field with a script](r_ExampleRestrictAFieldWithAScript.md)  
+3.  [Example - Restrict a field with a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExampleRestrictAFieldWithAScript.md)  
 This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
-4.  [Example - Restrict a field with a condition](r_ExRestrictAFieldWithACondition.md)  
+4.  [Example - Restrict a field with a condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_ExRestrictAFieldWithACondition.md)  
 This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
 
-**Parent Topic:**[List editor administration](r_AdministeringTheListEditor.md)
+**Parent Topic:**[List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/r_AdministeringTheListEditor.md)
 

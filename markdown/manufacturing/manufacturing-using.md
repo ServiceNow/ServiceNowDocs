@@ -2,6 +2,7 @@
 title: Using Manufacturing Commercial Operations
 description: Learn how Manufacturing Commercial Operations enables you to manage the end-to-end lifecycle of your products, subscriptions, and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/manufacturing/manufacturing-using.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"

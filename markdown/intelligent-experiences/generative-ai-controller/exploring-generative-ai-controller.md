@@ -2,6 +2,7 @@
 title: Exploring Generative AI Controller
 description: Learn more about generative AI concepts and how to integrate third-party generative AI into the ServiceNow AI Platform to create content, summarize task records, and analyze user sentiment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/intelligent-experiences/generative-ai-controller/exploring-generative-ai-controller.html
 release: xanadu
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -25,15 +26,15 @@ Generative AI Controller integrates with external LLMs, including ones by OpenAI
 
 |Benefit|Feature|
 |-------|-------|
-|Generate text to summarize complex information.|Workflow Studio Actions to [Generate Content](../reference/generate-content-action.md) and [Summarize](../reference/summarize-action.md)|
-|Analyze user sentiment to identify and alleviate end-user concerns.|[Sentiment Analysis Workflow Studio Action](../reference/sentiment-analysis-action.md)|
-|Query a large language model \(LLM\) directly.|[Generic Prompt Workflow Studio Action](../reference/generic-prompt-action.md)|
-|Write scripts for AI model capabilities that are designed to increase the accuracy and scalability of your custom content.|[Script with generative AI](../task/script-with-generative-ai.md)|
+|Generate text to summarize complex information.|Workflow Studio Actions to [Generate Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/generate-content-action.md) and [Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/summarize-action.md)|
+|Analyze user sentiment to identify and alleviate end-user concerns.|[Sentiment Analysis Workflow Studio Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/sentiment-analysis-action.md)|
+|Query a large language model \(LLM\) directly.|[Generic Prompt Workflow Studio Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/generic-prompt-action.md)|
+|Write scripts for AI model capabilities that are designed to increase the accuracy and scalability of your custom content.|[Script with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/script-with-generative-ai.md)|
 |Integrate with third-party AI service providers to customize your AI experience|OpenAI, Azure OpenAI, Google AI, Aleph Alpha, IBM watsonx|
 
 ## Get started with Generative AI Controller
 
--   The Generative AI Controller application is installed with any [Now Assist application](../../now-assist-platform/concept/platform-now-assist-landing.md).
+-   The Generative AI Controller application is installed with any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/enable-ai-experiences/platform-now-assist-landing.md).
 -   Sign up and create an account with a generative AI provider.
     -   To sign up with OpenAI, go to their [official platform website](https://platform.openai.com/).
     -   To get started with Azure OpenAI, go to their [documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart).
@@ -41,8 +42,8 @@ Generative AI Controller integrates with external LLMs, including ones by OpenAI
     -   To use Vertex AI on the Google Cloud, go to the [Vertex AI homepage](https://cloud.google.com/vertex-ai).
     -   To get started with Aleph Alpha, go to [their website](https://app.aleph-alpha.com) and create an Aleph Alpha API account.
     -   To get started with IBM watsonx, go to [Getting started with IBM watsonx as a Service](https://www.ibm.com/docs/en/watsonx/saas?topic=getting-started).
--   [Configure credentials for your preferred AI service provider](configuring-api-credentials-for-generative-ai-capabilities.md) for the Generative AI Controller capabilities.
--   [Add Generative AI Controller capabilities to Virtual Agent Designer](../task/enable-generative-ai-controller-for-virtual-agent.md) to start creating Virtual Agent topics with generative AI with your AI service provider.
--   Add and configure [sensitive data handling](../task/configure-sensitive-data-handling-for-generative-ai.md) and semantic filtering to tailor security needs to your use cases.
--   [Use Generative AI Controller](../task/use-generative-ai-controller.md) with Virtual Agent Designer, Flow Designer, and scripts.
+-   [Configure credentials for your preferred AI service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md) for the Generative AI Controller capabilities.
+-   [Add Generative AI Controller capabilities to Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/enable-generative-ai-controller-for-virtual-agent.md) to start creating Virtual Agent topics with generative AI with your AI service provider.
+-   Add and configure [sensitive data handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/configure-sensitive-data-handling-for-generative-ai.md) and semantic filtering to tailor security needs to your use cases.
+-   [Use Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/intelligent-experiences/generative-ai-controller/use-generative-ai-controller.md) with Virtual Agent Designer, Flow Designer, and scripts.
 

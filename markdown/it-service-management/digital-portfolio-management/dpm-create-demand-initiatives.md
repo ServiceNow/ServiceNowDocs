@@ -2,6 +2,7 @@
 title: Create demand from Digital Portfolio Management
 description: Create demand from the Digital Portfolio Management \(DPM\) Workspace. DPM enables you to create demand for any business or technical services that you own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.html
 release: xanadu
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,7 +18,7 @@ Create demand from the Digital Portfolio Management \(DPM\) Workspace. DPM enabl
 
 ## Before you begin
 
-For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md).
+For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 Role required: sn\_dpm.dpm\_manager
 
@@ -35,7 +36,7 @@ You can manage and create demands for services or service offerings that you own
 
 4.  On the form, fill in the fields.
 
-    For more details on demand entries, see [Create a demand](https://www.servicenow.com/docs/access?context=t_CreatingDemands&version=xanadu&pubname=xanadu-it-business-management&ft:locale=en-US).
+    For more details on demand entries, see Create a demand.
 
     |Field Set|Description|
     |---------|-----------|
@@ -51,5 +52,5 @@ You can manage and create demands for services or service offerings that you own
     The service **Plan** tab shows the new demand.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](../concept/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

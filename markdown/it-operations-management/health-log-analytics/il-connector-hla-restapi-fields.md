@@ -2,6 +2,7 @@
 title: REST API integration configuration fields
 description: Description of the fields on the REST API integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/health-log-analytics/il-connector-hla-restapi-fields.html
 release: xanadu
 product: Health Log Analytics
 classification: health-log-analytics
@@ -48,7 +49,7 @@ Service instance
 
 </td><td>
 
-The service instance \(formerly the application service\) to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create a service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US) and add CIs \(Configuration Items\) to it. Set the status of the new service instance to Operational.
+The service instance \(formerly the application service\) to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create a service instance and add CIs \(Configuration Items\) to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 
@@ -83,5 +84,5 @@ Port
 The port for the MID Server.This field is read-only. It is auto-populated when the MID Web Server is chosen.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[../task/il-connector-hla-rest-api.md](../task/il-connector-hla-rest-api.md)
+</table>**Parent Topic:**[]()
 

@@ -2,7 +2,10 @@
 title: ITOM Health considerations for CSDM framework
 description: ITOM Health aligns with CSDM framework to ensure standardized data management and optimize IT operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-health-use-case-trouble.html
 release: xanadu
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

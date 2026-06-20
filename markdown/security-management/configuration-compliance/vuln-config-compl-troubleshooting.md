@@ -2,6 +2,7 @@
 title: Resolving Configuration Compliance import issues
 description: Resolve issues with third-party integration import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/configuration-compliance/vuln-config-compl-troubleshooting.html
 release: xanadu
 product: Configuration Compliance
 classification: configuration-compliance
@@ -29,7 +30,7 @@ Test results are missing
 
 </td><td>
 
-Check the **Start Time** on the **Qualys PC Results** integration. It might not be set back far enough. See [Modify Qualys PC Results start date](../task/modify-test-results-startdate.md).
+Check the **Start Time** on the **Qualys PC Results** integration. It might not be set back far enough. See [Modify Qualys PC Results start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/modify-test-results-startdate.md).
 
 </td></tr><tr><td>
 
@@ -48,8 +49,8 @@ Check the **Vulnerability Integration Run** status. Individual integration proce
 .
 
 </td></tr></tbody>
-</table>-   **[Modify Qualys PC Results start date](../task/modify-test-results-startdate.md)**  
+</table>-   **[Modify Qualys PC Results start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/modify-test-results-startdate.md)**  
 If data is missing for the start date in the Qualys PC Results import, it can be modified.
 
-**Parent Topic:**[Configuration Compliance reference information](../reference/cc-reference-info.md)
+**Parent Topic:**[Configuration Compliance reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/security-management/configuration-compliance/cc-reference-info.md)
 

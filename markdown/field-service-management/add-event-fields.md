@@ -2,7 +2,10 @@
 title: Configure event body fields
 description: Administrators can add fields to event bodies so Dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-event-fields.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-09-25"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Administrators can add fields to event bodies so Dispatchers have more informati
 
 ## About this task
 
-Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/dispatcher-wrkspc-settings.md).
 
 ## Before you begin
 

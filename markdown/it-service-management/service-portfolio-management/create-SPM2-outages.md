@@ -2,6 +2,7 @@
 title: Log outages in Service Portfolio Management
 description: Log outages to adjust your business or technical service commitment availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-portfolio-management/create-SPM2-outages.html
 release: xanadu
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -76,5 +77,5 @@ When an outage is opened against a business or technical service, all child offe
 10. Select **Update**.
 
 
-**Parent Topic:**[Using Service Portfolio Management](../concept/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-portfolio-management/SPM2-using.md)
 

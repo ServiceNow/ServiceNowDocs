@@ -2,6 +2,7 @@
 title: Service Owner Workspace integrations
 description: Align with other product applications to add value to your Service Owner Workspace monitoring experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-owner-workspace/SPM2-sow-integrations.html
 release: xanadu
 product: Service Owner Workspace
 classification: service-owner-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Setting up Service Owner Workspace, Service Owner Workspace, IT Ser
 
 Align with other product applications to add value to your Service Owner Workspace monitoring experience.
 
-**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](SPM2-premium.md).
+**Important:** As of the San Diego release, Service Owner Workspace is in a planned deprecation. New customers can't find or activate Service Owner Workspace. ServiceNow® continues to support existing customers with Service Owner Workspace. For information on the product replacement and the deprecation process, see [Service Owner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-owner-workspace/SPM2-premium.md).
 
 ## Service Owner Workspace and product alignment
 
@@ -63,5 +64,5 @@ Directly reference a service offering as the target of a problem, change, or inc
 
 View and define the service model **Model ID** reference field on the Service and Offering forms to integrate with the CSDM.
 
-When the Service Portfolio Management Premium plugin \(com.snc.spm\) is activated with CSDM is applied, the navigational pane includes the modules **Manage Technical Services** and **Sell and Consume**. Service offerings with associated catalog items are available to view and manage via **Technology Request Catalog** and **Business Request Catalog** within these modules. For complete information about CSDM and how it relates to Service Portfolio Management Premium, refer to [Applying the CSDM guidelines to your product](https://www.servicenow.com/docs/access?context=use-cases&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US).
+When the Service Portfolio Management Premium plugin \(com.snc.spm\) is activated with CSDM is applied, the navigational pane includes the modules **Manage Technical Services** and **Sell and Consume**. Service offerings with associated catalog items are available to view and manage via **Technology Request Catalog** and **Business Request Catalog** within these modules. For complete information about CSDM and how it relates to Service Portfolio Management Premium, refer to .
 

@@ -2,6 +2,7 @@
 title: Run discovery through an HTTP or HTTPS REST call
 description: Discovery can classify devices using the HTTP\(S\) protocol. You can create your own HTTP classifier to find devices and access them with Basic Auth credentials, rather than using SNMP or SSH credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/itom-visibility/run-http-discovery.html
 release: xanadu
 product: ITOM Visibility
 classification: itom-visibility
@@ -39,7 +40,7 @@ Role required: discovery\_admin
 
 8.  Fill out the form fields \(see table\):
 
-    ![HTTP classification](../image/http-classi.png "The F5 HTTP classification")
+    \[Omitted image "http-classi.png"\] Alt text: HTTP classification
 
 <table id="table_cyf_r1c_cdb"><thead><tr><th>
 
@@ -119,7 +120,7 @@ For example, if you want to use port 5000 and the HTTP protocol, add the 5000/HT
 
     2.  On the HTTP Classification Match form, fill in the form fields \(see table\).
 
-        ![HTTP classification match](../image/http-classi-match.png)
+        \[Omitted image "http-classi-match.png"\] Alt text: HTTP classification match
 
 <table id="table_vjr_l3c_cdb"><thead><tr><th>
 
@@ -185,8 +186,8 @@ If you do not have other types of credentials that can find devices, such as Lin
 
     You should see that after the Shazzam probe was launched, and that Unix and SNMP classification probes failed. Both the HTTP - Classify probe and the pattern that you specify in the HTTP classification record should launch.
 
-    ![HTTP classification ECC Queue records](../image/http-classy-ecc-records.png)
+    \[Omitted image "http-classy-ecc-records.png"\] Alt text: HTTP classification ECC Queue records
 
 
-**Parent Topic:**[HTTP device discovery](../concept/http-discovery.md)
+**Parent Topic:**[HTTP device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/itom-visibility/http-discovery.md)
 

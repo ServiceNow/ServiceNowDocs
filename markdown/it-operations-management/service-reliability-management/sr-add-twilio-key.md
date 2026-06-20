@@ -2,6 +2,7 @@
 title: Configure Twilio to send notifications in SRM
 description: Establish a connection between your SRM instance and your Twilio account so your teams can receive notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-reliability-management/sr-add-twilio-key.html
 release: xanadu
 product: Service Reliability Management
 classification: service-reliability-management
@@ -39,7 +40,7 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 
 5.  In the new window, select the **here** link to edit the record.
 
-    ![Select here to edit the record.](../image/sr-twilio-edit.png)
+    \[Omitted image "sr-twilio-edit.png"\] Alt text: Select here to edit the record.
 
 6.  Enter the **Account SID** value.
 
@@ -48,9 +49,9 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 8.  Select **Connect** to activate the key or **Save** to save your changes without activating.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Approve a change request for SRM team approval](sr-approve-change-req.md)
+**Previous topic:**[Approve a change request for SRM team approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-approve-change-req.md)
 
-**Next topic:**[Install the Alert automation rules application](sr-install-aa-store-app.md)
+**Next topic:**[Install the Alert automation rules application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)
 

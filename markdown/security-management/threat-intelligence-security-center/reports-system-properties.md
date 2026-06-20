@@ -2,13 +2,14 @@
 title: System properties for Reports
 description: The system properties for reports are explained below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/threat-intelligence-security-center/reports-system-properties.html
 release: xanadu
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Report Templates, Administration, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Report Templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System properties for Reports

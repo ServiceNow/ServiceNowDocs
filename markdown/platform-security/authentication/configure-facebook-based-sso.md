@@ -2,6 +2,7 @@
 title: Configure a Facebook-based Single Sign-On \(SSO\)
 description: Configure a Facebook-based SSO to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/configure-facebook-based-sso.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -43,13 +44,13 @@ Role required: admin
     |Client Secret|The client secret of the application registered in the third-party OIDC identity provider.|
     |Well known Configuration URL|The URL that contains metadata about the third-party OIDC identity provider.|
 
-    ![Import OpenID Connect Well Known Configuration fields](../images/new-oidc-facebook.png)
+    \[Omitted image "new-oidc-facebook.png"\] Alt text: Import OpenID Connect Well Known Configuration fields
 
 5.  Click **Import**.
 
     The Facebook-based IdP is created.
 
-    ![Facebook-based IdP](../images/facebook-based-idp.png)
+    \[Omitted image "facebook-based-idp.png"\] Alt text: Facebook-based IdP
 
 6.  Select the Facebook IdP.
 
@@ -63,7 +64,7 @@ Role required: admin
 
     Only the mandatory fields are required. You can specify the remaining fields depending on what you need.
 
-    ![User Provisioning](../images/user-provisioning-facebook.png)
+    \[Omitted image "user-provisioning-facebook.png"\] Alt text: User Provisioning
 
 9.  In the **OIDC Entity** tab, do the following:
 
@@ -71,7 +72,7 @@ Role required: admin
 
     2.  Set the **Redirect URL** field to your Facebook redirect URL.
 
-    ![OIDC Entity - Redirect URL](../images/oidc-entity-facebook.png)
+    \[Omitted image "oidc-entity-facebook.png"\] Alt text: OIDC Entity - Redirect URL
 
 10. In the **OAuth Entity Profiles** tab, do the following:
 
@@ -81,11 +82,11 @@ Role required: admin
 
         For example, select **scope-1**
 
-    ![Profile Scope](../images/oidc-profile-scope.png)
+    \[Omitted image "oidc-profile-scope.png"\] Alt text: Profile Scope
 
 11. In the **OAuth Entity Scopes** tab, click the **scope-1** link and add the scope as `email`.
 
-    ![Entity Scopes](../images/oidc-entity-scopes.png)
+    \[Omitted image "oidc-entity-scopes.png"\] Alt text: Entity Scopes
 
 12. To save the configuration, right-click the header and click **Save**.
 
@@ -96,5 +97,5 @@ Role required: admin
 
 Users are displayed with the Facebook SSO option on the login form.
 
-![Login with Facebook](../images/login-with-facebook.png)
+\[Omitted image "login-with-facebook.png"\] Alt text: Login with Facebook
 

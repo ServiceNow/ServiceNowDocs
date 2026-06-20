@@ -2,6 +2,7 @@
 title: Add approval route details
 description: Add approval route details in Legal Matter Management to enable matter creation in Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/legal-matter-management/lmm-lt-setup-approval-route.html
 release: xanadu
 product: Legal Matter Management
 classification: legal-matter-management
@@ -45,5 +46,5 @@ As there is no scheduled job to pull the approval route details, you must manual
 5.  Select **Submit** to save the record.
 
 
-**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](lmm-config-data-mtemplates.md)
+**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.md)
 

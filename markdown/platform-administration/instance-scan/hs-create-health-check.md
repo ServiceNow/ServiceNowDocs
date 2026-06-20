@@ -2,6 +2,7 @@
 title: Create a check
 description: Create your own checks by implementing the following procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/instance-scan/hs-create-health-check.html
 release: xanadu
 product: Instance Scan
 classification: instance-scan
@@ -29,7 +30,7 @@ Role required: scan\_admin
 
 3.  Select one of the available types of checks.
 
-    See [Check types](../concept/hs-intro-health-check.md#hs-health-check-types) for more information.
+    See [Check types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/instance-scan/hs-intro-health-check.md) for more information.
 
     **Note:** If you want to update an existing check, the **Version** field increments itself. The new version provides you a change history. You can also know which particular version of the check ran with a given scan.
 

@@ -2,6 +2,7 @@
 title: Preview Upgrade Plan
 description: Preview your upgrade plan before being implemented in the upgrades. Once the upgrade plan is installed, it auto generates the preview of the upgrade plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/upgrade-center/uc-preview-upgrade-plan.html
 release: xanadu
 product: Upgrade Center
 classification: upgrade-center
@@ -23,9 +24,9 @@ Role required: admin
 
 1.  Go to the Upgrade Preview page to preview the Upgrade Plan.
 
-2.  Check the Upgrade Plan mentioned on the Previewing version card.![Image showing previewing version card](../image/uc-previewing-version-card.png)
+2.  Check the Upgrade Plan mentioned on the Previewing version card.\[Omitted image "uc-previewing-version-card.png"\] Alt text: Image showing previewing version card
 
-3.  Check the Predicted skipped records with upgrade plan card to preview the skipped records.![Image showing predicted skipped records with upgrade plan card](../image/uc-predicted-skipped-records-up.png)
+3.  Check the Predicted skipped records with upgrade plan card to preview the skipped records.\[Omitted image "uc-predicted-skipped-records-up.png"\] Alt text: Image showing predicted skipped records with upgrade plan card
 
     -   Total: total number of skipped records
     -   Resolved: skipped records included in the upgrade plan

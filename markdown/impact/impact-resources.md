@@ -2,7 +2,10 @@
 title: Additional Resources
 description: Access the ServiceNow resources available to you, including case studies, learning opportunities, developer support, Now Community, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/impact-resources.html
 release: xanadu
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1

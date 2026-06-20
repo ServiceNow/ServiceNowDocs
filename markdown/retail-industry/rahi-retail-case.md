@@ -2,6 +2,7 @@
 title: Retail case
 description: Retail case creation enables streamlined support by displaying key retail content for retail organization support use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/retail-industry/rahi-retail-case.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -17,7 +18,7 @@ Cases are the central object within Customer Service Management that is used to 
 
 The retail case type introduced within Retail Core builds on existing Customer Service Management case functionality to provide users with retail-specific fields.
 
-![UI showing a Retail case.](../image/case.png)
+\[Omitted image "case.png"\] Alt text: UI showing a Retail case.
 
 Retail case contains the following related lists:
 
@@ -30,7 +31,7 @@ Retail case contains the following related lists:
 
 Retail case contains a Task related list which displays all tasks associated with this retail case. You can click New to create a new task directly from the selected retail case.
 
-For information on using retail cases to create and fulfill support requests for your retail organization, see [Create support requests for your retail organization](rahi-retail-operations-create-support-requests.md) and [Resolve support requests for your retail organization](rahi-retail-operations-fulfill-support-requests.md).
+For information on using retail cases to create and fulfill support requests for your retail organization, see [Create support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-create-support-requests.md) and [Resolve support requests for your retail organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-fulfill-support-requests.md).
 
-For Retail case table attributes, see [Retail Core data model tables](rahi-retail-operations-data-model-tables.md).
+For Retail case table attributes, see [Retail Core data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/retail-industry/rahi-retail-operations-data-model-tables.md).
 

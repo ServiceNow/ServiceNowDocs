@@ -2,6 +2,7 @@
 title: GlideSysAttachment - Scoped
 description: The GlideSysAttachment API provides methods to handle attachments.Creates an instance of the GlideSysAttachment class.Copies attachments from the source record to the target record.Deletes the specified attachment.Returns a GlideRecord containing the matching attachment metadata such as name, type, or size.Returns the attachment content as a string.Returns the attachment content as a string with base64 encoding.Returns a GlideScriptableInputStream object given the sys\_id of an attachment.Attaches a specified attachment to the specified record.Inserts an attachment for the specified record using base64 encoded content.Inserts an attachment using the input stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/api-reference/server-api-reference/c\_GlideSysAttachmentScopedAPI.html
 release: xanadu
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Content is returned as a string, not as a byte array when getContent\(\) is call
 
 Content is returned as a GlideScriptableInputStream object when getContentStream\(\) is called. The GlideScriptableInputStream contains the actual bytes not converted into a string.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideSysAttachment - GlideSysAttachment\(\)
 
@@ -113,7 +114,7 @@ Output:
 
 Returns the attachment content as a string.
 
-This method is for use in scoped applications only. This method returns `undefined` when used in the global scope. To read attachment content in the global scope, use the getContentStream\(\) method from the [GlideSysAttachment - Global](../../GlideSysAttachmentGlobal/concept/GlideSysAttachmentGlobalAPI.md#) API.
+This method is for use in scoped applications only. This method returns `undefined` when used in the global scope. To read attachment content in the global scope, use the getContentStream\(\) method from the [GlideSysAttachment - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md) API.
 
 This method supports the following file types for attachments.
 
@@ -185,7 +186,7 @@ Attachment content: SSBhbSB0ZXh0IGluIGEgdHh0IGZpbGUgYXR0YWNoZWQgdG8gYSByZWNvcmQu
 
 Returns a GlideScriptableInputStream object given the sys\_id of an attachment.
 
-You can use the [GlideTextReader](../../GlideTextReaderScoped/concept/c_GlideTextReaderScopedAPI.md#) API to read the content stream.
+You can use the [GlideTextReader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/api-reference/server-api-reference/c_GlideTextReaderScopedAPI.md) API to read the content stream.
 
 |Name|Type|Description|
 |----|----|-----------|

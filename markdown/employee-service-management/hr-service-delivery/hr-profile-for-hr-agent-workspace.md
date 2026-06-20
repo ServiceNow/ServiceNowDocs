@@ -2,6 +2,7 @@
 title: At a Glance panel
 description: Enable HR agents to better assist and resolve employee requests with the At a Glance panel in HR Service Delivery Agent Workspace.You can configure the At a Glance panel by adding or removing HR profile fields for the Employee Details and Contacts sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/hr-profile-for-hr-agent-workspace.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,11 +38,11 @@ Role required: sn\_hr\_core.admin
 
 3.  Right click the form header, and navigate to **Configure** &gt; **Form Layout**.
 
-    ![Accessing the At a Glance panel.](../image/hr-agent-workspace-at-a-glance-2.png)
+    \[Omitted image "hr-agent-workspace-at-a-glance-2.png"\] Alt text: Accessing the At a Glance panel.
 
 4.  Under **Form view and section**, click the **View name** dropdown and select the **At a Glance** field.
 
-    ![Configuring At a Glance](../image/hr-agent-workspace-at-a-glance-3.png)
+    \[Omitted image "hr-agent-workspace-at-a-glance-3.png"\] Alt text: Configuring At a Glance
 
 5.  Select the section that you want to configure.
 

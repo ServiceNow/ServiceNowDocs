@@ -2,6 +2,7 @@
 title: Indicator thresholds in KPI Details
 description: Thresholds define a normal range of scores for an indicator and alert you when certain events occurs, like when a score reaches an all-time high.Add, modify, or delete personal thresholds. With the required roles, you can also add, modify, and delete thresholds for all users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/kpi-details-thresholds.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,9 +16,9 @@ Thresholds define a normal range of scores for an indicator and alert you when c
 
 When a threshold is triggered, the instance generates an email notification. This message is associated with the indicator and the message is directly available via KPI Details.
 
-A threshold can be personal or global. A personal threshold is visible only to the user that created it. It appears as a light grey dotted line. A global threshold is visible to all users and appears as a dark grey dotted line. Because you cannot share a personal threshold, it appears only in KPI Details and the Analytics Hub. Global thresholds can also appear in time series data visualizations. Dashboards can alert viewers to events related to thresholds through [proactive analytics insights cards](proactive-analytics.md).
+A threshold can be personal or global. A personal threshold is visible only to the user that created it. It appears as a light grey dotted line. A global threshold is visible to all users and appears as a dark grey dotted line. Because you cannot share a personal threshold, it appears only in KPI Details and the Analytics Hub. Global thresholds can also appear in time series data visualizations. Dashboards can alert viewers to events related to thresholds through [proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/proactive-analytics/proactive-analytics.md).
 
-**Parent Topic:**[KPI Details](kpi-details.md)
+**Parent Topic:**[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/kpi-details.md)
 
 ## Add, modify, or delete a threshold in KPI Details
 
@@ -35,15 +36,15 @@ Role required: Any role for your own personal thresholds. The pa\_threshold\_adm
 
 1.  Navigate to the workspace with the indicator you want to work with.
 
-2.  Click the Analytics Center icon \(![](../image/analytics-center-icon.png)\) and navigate to the KPIs tab.
+2.  Click the Analytics Center icon \(\[Omitted image "analytics-center-icon.png"\] Alt text:\) and navigate to the KPIs tab.
 
-3.  Click the threshold icon \(![](../image/thresh-icon.png)\).
+3.  Click the threshold icon \(\[Omitted image "thresh-icon.png"\] Alt text:\).
 
 4.  Select either Global or Personal thresholds.
 
     You see all the existing Global or Personal thresholds on this indicator.
 
-5.  Click the Create Threshold icon \(![](../image/add-target-thresh-icon.png)\) or select an existing target to edit it.
+5.  Click the Create Threshold icon \(\[Omitted image "add-target-thresh-icon.png"\] Alt text:\) or select an existing target to edit it.
 
 6.  Choose the visibility of the threshold, either **Global** or **Personal**.
 

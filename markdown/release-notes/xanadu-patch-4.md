@@ -2,6 +2,7 @@
 title: Xanadu Patch 4
 description: The Xanadu Patch 4 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/release-notes/xanadu-patch-4.html
 release: xanadu
 topic_type: reference
 last_updated: "2024-12-05"
@@ -29,7 +30,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 Xanadu Patch 4 includes 170 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-xp4.png "Top 10 problem categories")
+\[Omitted image "prb-chart-xp4.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -37,7 +38,7 @@ Xanadu Patch 4 includes fixes for security-related problems that affected certai
 
 ## Changes in Xanadu Patch 4
 
--   **[Upgrade legacy replication sets in Instance Data Replication](https://www.servicenow.com/docs/access?context=upgrade-legacy-replication-sets&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)**
+-   ****
 
     Complete the upgrade by activating the V2 consumer replication set with or without data integrity checks.
 
@@ -2820,14 +2821,14 @@ Open a WO using a template with a defined Dispatch and Assignment group of type 
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Xanadu Patch 3 Hotfix 1](xanadu-patch-3-hf-1.md)
--   [Xanadu Patch 3](xanadu-patch-3.md)
--   [Xanadu Patch 2 Hotfix 2](xanadu-patch-2-hf-2-PO.md)
--   [Xanadu Patch 2](xanadu-patch-2.md)
--   [Xanadu Patch 1 Hotfix 3b](xanadu-patch-1-hf-3b.md)
--   [Xanadu Patch 1](xanadu-patch-1.md)
--   [Xanadu security and notable fixes](xanadu-security-notables.md)
--   [All other Xanadu fixes](xanadu-all-other-fixes.md)
+-   [Xanadu Patch 3 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3-hf-1.md)
+-   [Xanadu Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-3.md)
+-   [Xanadu Patch 2 Hotfix 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2-hf-2-PO.md)
+-   [Xanadu Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-2.md)
+-   [Xanadu Patch 1 Hotfix 3b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1-hf-3b.md)
+-   [Xanadu Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-patch-1.md)
+-   [Xanadu security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-security-notables.md)
+-   [All other Xanadu fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/xanadu-all-other-fixes.md)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/release-notes/available-versions.md)
 

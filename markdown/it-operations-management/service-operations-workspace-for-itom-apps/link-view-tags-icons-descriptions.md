@@ -2,6 +2,7 @@
 title: Tags in Express List Link View
 description: The table lists the node tags that are available in Link View with their icon and description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.html
 release: xanadu
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -33,7 +34,7 @@ Impacted service
 
 </td><td>
 
-![Impacted service tag icon.](../image/tag-icon-impacted-service.png)
+\[Omitted image "tag-icon-impacted-service.png"\] Alt text: Impacted service tag icon.
 
 </td><td>
 
@@ -45,7 +46,7 @@ Resource
 
 </td><td>
 
-![Resource tag icon.](../image/tag-icon-resource.png)
+\[Omitted image "tag-icon-resource.png"\] Alt text: Resource tag icon.
 
 </td><td>
 
@@ -57,7 +58,7 @@ Source
 
 </td><td>
 
-![Source tag icon.](../image/tag-icon-source.png)
+\[Omitted image "tag-icon-source.png"\] Alt text: Source tag icon.
 
 </td><td>
 
@@ -69,7 +70,7 @@ Region
 
 </td><td>
 
-![Region tag icon.](../image/tag-icon-region.png)
+\[Omitted image "tag-icon-region.png"\] Alt text: Region tag icon.
 
 </td><td>
 
@@ -81,7 +82,7 @@ Location
 
 </td><td>
 
-![Location tag icon.](../image/tag-icon-location.png)
+\[Omitted image "tag-icon-location.png"\] Alt text: Location tag icon.
 
 </td><td>
 
@@ -93,7 +94,7 @@ Assignment group
 
 </td><td>
 
-![Assignment group tag icon.](../image/tag-icon-assignment-group.png)
+\[Omitted image "tag-icon-assignment-group.png"\] Alt text: Assignment group tag icon.
 
 </td><td>
 
@@ -105,7 +106,7 @@ Environment
 
 </td><td>
 
-![Environment tag icon](../image/tag-icon-environment.png)
+\[Omitted image "tag-icon-environment.png"\] Alt text: Environment tag icon
 
 </td><td>
 
@@ -117,7 +118,7 @@ Metric
 
 </td><td>
 
-![Metric tag icon.](../image/tag-icon-metric.png)
+\[Omitted image "tag-icon-metric.png"\] Alt text: Metric tag icon.
 
 </td><td>
 
@@ -129,7 +130,7 @@ IP address
 
 </td><td>
 
-![IP address tag icon.](../image/tag-icon-ip-address.png)
+\[Omitted image "tag-icon-ip-address.png"\] Alt text: IP address tag icon.
 
 </td><td>
 
@@ -141,7 +142,7 @@ CI
 
 </td><td>
 
-![CI tag icon.](../image/tag-icon-ci.png)
+\[Omitted image "tag-icon-ci.png"\] Alt text: CI tag icon.
 
 </td><td>
 
@@ -153,7 +154,7 @@ Node
 
 </td><td>
 
-![Node tag icon.](../image/tag-icon-node.png)
+\[Omitted image "tag-icon-node.png"\] Alt text: Node tag icon.
 
 </td><td>
 
@@ -165,7 +166,7 @@ Application
 
 </td><td>
 
-![Application tag icon.](../image/tag-icon-application.png)
+\[Omitted image "tag-icon-application.png"\] Alt text: Application tag icon.
 
 </td><td>
 
@@ -177,7 +178,7 @@ Other**Note:** This tag is user-defined. All the other tags are predefined in th
 
 </td><td>
 
-![Other tag icon.](../image/tag-icon-other.png)
+\[Omitted image "tag-icon-other.png"\] Alt text: Other tag icon.
 
 </td><td>
 
@@ -186,8 +187,8 @@ User-defined tag.**Note:** All the other tags are predefined in the system.
 </td></tr></tbody>
 </table>|Link|Visual representation|Description|
 |----|---------------------|-----------|
-|Solid line|![Solid line linking attributes in Link View.](../image/link-view-solid-line.png)|Solid line linking attributes in Link View, indicating that the attributes share one or more alerts.|
-|Dotted line|![Dotted line linking attributes in Link View.](../image/link-view-dotted-line.png)|Dotted line linking attributes in Link View, indicating that the attributes are correlated by grouping criteria.|
+|Solid line|\[Omitted image "link-view-solid-line.png"\] Alt text: Solid line linking attributes in Link View.|Solid line linking attributes in Link View, indicating that the attributes share one or more alerts.|
+|Dotted line|\[Omitted image "link-view-dotted-line.png"\] Alt text: Dotted line linking attributes in Link View.|Dotted line linking attributes in Link View, indicating that the attributes are correlated by grouping criteria.|
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

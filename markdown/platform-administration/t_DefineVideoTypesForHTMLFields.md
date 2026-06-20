@@ -2,6 +2,7 @@
 title: Define video file types for HTML fields
 description: You can define the types of video files that can be added to HTML fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/t\_DefineVideoTypesForHTMLFields.html
 release: xanadu
 topic_type: task
 last_updated: "2024-08-01"
@@ -21,7 +22,7 @@ Role required: image\_admin
 
 Users can add videos to HTML fields. By default, users can add one of the following types of videos to HTML fields: `.mp4`, `.webm`, and `.swf` video file types. You can inactivate video types that you do not want to allow users to add, or add new video types. `.swf` files are only minimally supported. `.mp4` files might be limited by browser type.
 
-**Note:** By default, the HTML Sanitizer removes videos from HTML fields. To allow video file types, see [Embed videos in the HTML editor](t_EmbeddingVideoInHTMLFields.md)
+**Note:** By default, the HTML Sanitizer removes videos from HTML fields. To allow video file types, see [Embed videos in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/t_EmbeddingVideoInHTMLFields.md)
 
 ## Procedure
 
@@ -34,5 +35,5 @@ Users can add videos to HTML fields. By default, users can add one of the follow
     **Note:** If you specify values for the **Codebase** or **Pluginspage** fields, which instruct the browser where to get the plugin, point to `https` pages to avoid warnings from Internet Explorer about unsecure content on the page.
 
 
-**Parent Topic:**[Extended functions in HTML field editor](../reference/r_ExtendedFunctions.md)
+**Parent Topic:**[Extended functions in HTML field editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/r_ExtendedFunctions.md)
 

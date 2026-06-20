@@ -2,6 +2,7 @@
 title: Using the activity stream in HR Service Delivery Agent Workspace
 description: Use the activity stream section of HR Service Delivery Agent Workspace to document work notes \(private\) or comments, respond to email, or view the state of the HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/agent-ws-hr-activity-stream.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery

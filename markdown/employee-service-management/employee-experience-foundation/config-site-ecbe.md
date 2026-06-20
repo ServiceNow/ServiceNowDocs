@@ -2,6 +2,7 @@
 title: Configure browser extension sites
 description: Configure the Browser Extension for Employee Center in your desired websites for easy access to the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/employee-experience-foundation/config-site-ecbe.html
 release: xanadu
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,7 +37,7 @@ The Browser Extension for Employee Center lets you access your extension-support
 
 3.  In the Configured Website form, fill in the fields, and select **Submit**.
 
-    For a description of the field values, see [Website configuration form](../reference/config-website-form.md).
+    For a description of the field values, see [Website configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/employee-experience-foundation/config-website-form.md).
 
 
 ## Result

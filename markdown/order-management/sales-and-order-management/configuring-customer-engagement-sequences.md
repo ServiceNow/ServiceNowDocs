@@ -2,6 +2,7 @@
 title: Configuring Customer Engagement Sequences
 description: Plan and configure your implementation of Customer Engagement Sequences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/order-management/sales-and-order-management/configuring-customer-engagement-sequences.html
 release: xanadu
 product: Sales and Order Management
 classification: sales-and-order-management
@@ -17,11 +18,11 @@ Plan and configure your implementation of Customer Engagement Sequences.
 
 ## Configuration overview
 
-1.  [Install Customer Engagement Sequences](../task/install-customer-engagement-sequences.md)
+1.  [Install Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/install-customer-engagement-sequences.md)
 
     You can install the Customer Engagement Sequences application \(com.sn\_crm\_sequence\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed. Install Customer Engagement Sequences on the ServiceNow instances in all of your environments:
 
-2.  [Create a customer engagement sequence](../task/create-customer-engagement-sequence.md)
+2.  [Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/order-management/sales-and-order-management/create-customer-engagement-sequence.md)
 
     Create a customer engagement sequence from the CSM Configurable Workspace. Specify trigger and exit conditions, and add activities to create a guided experience for your sales representatives to engage with their prospects and customers.
 

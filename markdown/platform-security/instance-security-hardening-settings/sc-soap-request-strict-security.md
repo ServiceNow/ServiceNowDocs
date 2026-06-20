@@ -2,6 +2,7 @@
 title: Enforce SOAP request strict security \[Updated in Security Center 1.3\]
 description: Use the glide.soap.strict\_security property to enforces web service security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.html
 release: xanadu
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -60,7 +61,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Functional Impact
 
 </td><td>
 
-This remediation enforces the system-level access control while retrieving data from tables/pages in the form of SOAP data on the instance. If there are users currently accessing this data, they are restricted/allowed to access the data based on the ACL rules. For the default roles that have access to the SOAP data, see [SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US).
+This remediation enforces the system-level access control while retrieving data from tables/pages in the form of SOAP data on the instance. If there are users currently accessing this data, they are restricted/allowed to access the data based on the ACL rules. For the default roles that have access to the SOAP data, see .
 
 </td></tr><tr><td>
 
@@ -100,12 +101,12 @@ References
 
 </td><td>
 
-[Enforce strict security for inbound SOAP](https://www.servicenow.com/docs/access?context=t_EnforceStrictSecurityWebSvcConns&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
 
- [SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=xanadu&pubname=xanadu-api-reference&ft:locale=en-US)
+
+ 
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=xanadu&pubname=xanadu-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -2,6 +2,7 @@
 title: Refresh project data
 description: To refresh the data for a project, mine the project from the Analyst Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/now-intelligence/process-mining/extract-project.html
 release: xanadu
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: none
 
 1.  From the application navigator, navigate to **All** &gt; **Process Mining** &gt; **Process Mining Workspace**.
 
-2.  Select the context menu ![](../image/workbench-project-menu-icon.png) on the project you want to refresh the data for.
+2.  Select the context menu \[Omitted image "workbench-project-menu-icon.png"\] Alt text: on the project you want to refresh the data for.
 
 3.  Select **Mine project \(Full\)**.
 
@@ -38,5 +39,5 @@ Role required: none
 5.  After the mine completes successfully, select **View in Workspace** to view the refreshed project data.
 
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/now-intelligence/process-mining/use-process-mining.md)
 

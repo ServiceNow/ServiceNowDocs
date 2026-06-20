@@ -2,7 +2,10 @@
 title: Add resource requirements for a work order task
 description: Add the resources needed to complete a crew work order task, such as necessary agent skills or equipment items, to avoid delays after the task is assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/add-resource-requirement-wot.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -117,5 +120,5 @@ Option to indicate that the resource requirement should be matched with availabl
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Using Field Service Crew Operations](../concept/Using-crew-operations-fsm.md)
+**Parent Topic:**[Using Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/Using-crew-operations-fsm.md)
 

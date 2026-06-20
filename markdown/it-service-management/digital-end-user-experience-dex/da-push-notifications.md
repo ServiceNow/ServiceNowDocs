@@ -2,6 +2,7 @@
 title: Desktop Assistant notifications
 description: Desktop Assistant notifications enable your organization to communicate important updates to end users instantly, regardless of their device activity. This feature enables delivering critical information, supporting Major Incident Management and Proactive Engagement
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/digital-end-user-experience-dex/da-push-notifications.html
 release: xanadu
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -15,13 +16,13 @@ breadcrumb: [Using DEX Desktop Assistant, Digital End-User Experience, IT Servic
 
 Desktop Assistant notifications enable your organization to communicate important updates to end users instantly, regardless of their device activity. This feature enables delivering critical information, supporting Major Incident Management and Proactive Engagement
 
-**Note:** The administrators can now use Desktop Assistant as a channel to send notifications for any update or activity. This can be done by configuring the API \(Application Programming Interfaces\) with required parameters. For more information, see [API parameters to customize Desktop Assistant notifications](../reference/api-parameters-to-customize-desktop-assistant-notifications.md)
+**Note:** The administrators can now use Desktop Assistant as a channel to send notifications for any update or activity. This can be done by configuring the API \(Application Programming Interfaces\) with required parameters. For more information, see [API parameters to customize Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md)
 
 Desktop Assistant notifications provide a reliable way to inform end users of critical updates with minimal effort. These notifications provide updates for awareness but aren’t directly actionable.
 
 Notifications are sent as system push notifications on Windows and macOS devices. You can also access notifications through the Desktop Assistant notification panel.
 
-To learn more about viewing notifications in your Desktop Assistant, see [View notifications](../task/view-notifications.md).
+To learn more about viewing notifications in your Desktop Assistant, see [View notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/view-notifications.md).
 
 Desktop Assistant supports notifications from the following applications in these ways:
 
@@ -38,9 +39,9 @@ Desktop Assistant supports notifications from the following applications in thes
 
         This ensures that only relevant users receive useful updates, avoiding unnecessary notifications.
 
-        To customize this out of box recipient list, **All users based on the application usage in the affected location\(s\)**, see [Update the recipient list for Major Incident Management updates based on application usage](../task/recipient-lists-for-mim.md) .
+        To customize this out of box recipient list, **All users based on the application usage in the affected location\(s\)**, see [Update the recipient list for Major Incident Management updates based on application usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/recipient-lists-for-mim.md) .
 
-        To create a notification for a particular incident using this recipient list, see [Compose communications for incidents and major incidents](../../service-operations-workspace/task/compose-communication-mim-sow.md).
+        To create a notification for a particular incident using this recipient list, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/compose-communication-mim-sow.md).
 
 -   Proactive Engagement alerts users about updates specific to affected devices. A notification from Proactive Engagement alerts users about events like upcoming maintenance on their devices to help them prepare in advance.
 
@@ -48,7 +49,7 @@ You can define how long the system attempts to deliver notifications by configur
 
 **Note:** The Time-to-Live \(TTL\) value can be set to a maximum of seven days.
 
-You can also disable notifications by following the steps in [Enable or disable notifications](../task/enable-notification.md).
+You can also disable notifications by following the steps in [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/digital-end-user-experience-dex/enable-notification.md).
 
 **Note:** Notifications should appear on the end user’s devices within two minutes after generation.
 

@@ -2,6 +2,7 @@
 title: Managing Validations
 description: Validation enables you to review and manage the imported data in the staging table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/operational-technology/operational-technology-manager/managing-validations.html
 release: xanadu
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -47,12 +48,12 @@ Validations to be executed:
     If you have additional mappings, create an extension point implementation for the base system **sn\_otsm\_sgc.SGOTAssetImportExtensionPoint** extension point.
 
 
-For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](../task/adding-custom-implementation-for-asset-classification.md).
+For more information about adding a custom implementation for device classification, see [Add a custom implementation for device classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/adding-custom-implementation-for-asset-classification.md).
 
--   **[Run Validations](../task/run-validations.md)**  
+-   **[Run Validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/run-validations.md)**  
 Run validations on records to find missing, duplicate, and invalid data.
--   **[Use OT staging tasks to remediate invalid records](../task/using-tasks-to-remediate-invalid-records.md)**  
+-   **[Use OT staging tasks to remediate invalid records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/using-tasks-to-remediate-invalid-records.md)**  
 Remediate invalid records in the SG OT Excel Stagings table by using Operational Technology \(OT\) staging tasks. Using OT staging tasks can help you track the invalid records that you need to fix.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Excel](service-graph-connector-for-OT-excel.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)
 

@@ -2,7 +2,10 @@
 title: Configuring the email channel
 description: Set up email addresses that customers can use to submit cases to your team. To help direct cases to specific teams, you can designate email addresses to specific product. As agents work on the cases, they can also email customers with updates and proposed solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/c\_CustomerServiceEmailCommunication.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -26,5 +29,5 @@ The system administrator can also create a channel configuration to associate an
 **Related topics**  
 
 
-[Email accounts](https://www.servicenow.com/docs/access?context=c_EmailAccounts&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_EmailAccounts]
 

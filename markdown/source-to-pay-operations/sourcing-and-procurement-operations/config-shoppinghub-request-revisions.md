@@ -2,6 +2,7 @@
 title: Enable user actions
 description: Configure the edit and cancel options to enable modifications to the purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -58,5 +59,5 @@ Use the same steps to modify the following user action configurations:
 
 You may add additional configurations to suit your business requirements.
 
-**Parent Topic:**[Shopping Hub configuration](../concept/shoppinghub-configurations.md)
+**Parent Topic:**[Shopping Hub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

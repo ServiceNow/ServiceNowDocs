@@ -2,7 +2,10 @@
 title: Create a case digest table map
 description: Create a table map to configure the fields that are copied from the case record to the post case review or the case action summary records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/create-case-review-field-mapping.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2

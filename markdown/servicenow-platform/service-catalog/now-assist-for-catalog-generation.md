@@ -2,6 +2,7 @@
 title: Now Assist in Catalog Builder
 description: Use ServiceNow Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/service-catalog/now-assist-for-catalog-generation.html
 release: xanadu
 product: Service Catalog
 classification: service-catalog
@@ -19,19 +20,19 @@ Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your c
 
 <table id="table_dch_f2f_cbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about catalog generation by Now Assist.](explore-now-assist-for-catalog-generate.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation by Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to configure catalog item generation.](configuring-catalog-item-generation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure catalog item generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Learn how to create a catalog item using Now Assist.](../task/create-catalog-item-using-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about form fields, roles, and more.](../reference/catalog-item-generation-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about form fields, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -58,16 +59,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=xanadu&pubname=xanadu-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring Now Assist in Catalog Builder](explore-now-assist-for-catalog-generate.md)**  
+-   **[Exploring Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
 Learn how the Now Assist in Catalog Builder application helps you to create catalog items by simply describing them. Now Assist generates catalog items with more detailed descriptions and question labels.
--   **[Configuring Now Assist in Catalog Builder](configuring-catalog-item-generation.md)**  
+-   **[Configuring Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
 Install and configure Now Assist in Catalog Builder.
--   **[Creating a catalog item using Now Assist](../task/create-catalog-item-using-now-assist.md)**  
+-   **[Creating a catalog item using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)**  
 Create a catalog item by using Now Assist and make the item available in Service Catalog for catalog item requests. Easily refine the short description and description.
--   **[Catalog item generation reference](../reference/catalog-item-generation-reference.md)**  
+-   **[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Exploring Service Catalog](exploring-service-catalog.md)
+**Parent Topic:**[Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/service-catalog/exploring-service-catalog.md)
 

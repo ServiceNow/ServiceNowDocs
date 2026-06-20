@@ -2,6 +2,7 @@
 title: IP Address Access Control
 description: Apply an IP access control to outbound traffic, inbound traffic, or bidirectional traffic. The system only blocks an IP address if a matching Deny rule exists and no matching Allow rule exists. By default, there are no restrictions on access to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-security/authentication/t\_AccessControl.html
 release: xanadu
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ Apply an IP access control to outbound traffic, inbound traffic, or bidirectiona
 
 ## Before you begin
 
-**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](../../../integrate/authentication/concept/adaptive-authentication.md).
+**Note:** Use the Adaptive Authentication \(AA\) pre-authentication context policy to enforce IP based authentications and restrictions for additional capabilities. For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-security/authentication/adaptive-authentication.md).
 
 Role required: admin
 

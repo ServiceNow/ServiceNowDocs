@@ -2,6 +2,7 @@
 title: Agent Client Collector plugins
 description: An Agent Client Collector plugin is a script or group of scripts which provides additional agent capabilities. For example, collecting more metrics, performing more checks, or generating events when an application queue size is 60% or 80% full.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-operations-management/agent-client-collector/acc-assets.html
 release: xanadu
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ An Agent Client Collector plugin is a script or group of scripts which provides 
 
 You associate a check with a plugin by creating a dependency between the check and the plugin. A plugin can have a dependency with several checks at a time; similarly, checks can depend on several plugins at a time. Plugins run on the same agent as the check.
 
-For details on the plugins installed with Agent Client Collector Framework, see [Plugins or applications installed with ITOM Health](../../it-operations-management/reference/plugin-app-itom-health.md).
+For details on the plugins installed with Agent Client Collector Framework, see [Plugins or applications installed with ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-operations-management/plugin-app-itom-health.md).
 
 You can create Agent Client Collector plugins, as needed. Plugins are formatted as tar.gz files and run together with their associated check.
 

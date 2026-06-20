@@ -2,6 +2,7 @@
 title: Add a supplier contact from the Source-to-Pay Workspace
 description: Add the supplier contacts so that they can access the Supplier Collaboration Portal and start working on the most important tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.html
 release: xanadu
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,8 +20,8 @@ Add the supplier contacts so that they can access the Supplier Collaboration Por
 
 Before performing this task, ensure that you do the following:
 
--   Configure self-registration for external users. For more information, see [Configure self-registration for external users](config-reg-for-external-users-slm.md).
--   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](sys-prop-reg-email.md).
+-   Configure self-registration for external users. For more information, see [Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md).
+-   Configure the sn\_supplier.external\_registration\_profile\_id system property to ensure that registration emails are sent to external users. For more information, see [Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md).
 
 Role required: sn\_slm.owner
 
@@ -34,7 +35,7 @@ Role required: sn\_slm.owner
 
     The supplier details page is displayed.
 
-3.  On the **About** tab, under Supplier Contacts, select the add supplier contact icon \(![Add supplier contact icon](../image/add-key-contacts.png)\) or select **Add a Supplier Contact**.
+3.  On the **About** tab, under Supplier Contacts, select the add supplier contact icon \(\[Omitted image "add-key-contacts.png"\] Alt text: Add supplier contact icon\) or select **Add a Supplier Contact**.
 
     **Note:** The **Add a Supplier Contact** option is displayed only when you add your first contact for a supplier. This option is not displayed when you add subsequent contacts for a supplier.
 
@@ -55,7 +56,7 @@ Role required: sn\_slm.owner
 
 ## What to do next
 
-[Register to the Supplier Collaboration Portal as an invited member](register-invited-member-supp-central.md).
+[Register to the Supplier Collaboration Portal as an invited member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.md).
 
-**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+**Parent Topic:**[Managing supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md)
 

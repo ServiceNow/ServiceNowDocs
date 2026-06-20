@@ -2,7 +2,10 @@
 title: Field Service Crew Operations components
 description: The plugin, roles, tables, script includes, and business rules for the Field Service Crew Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/crew-scheduling-components.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 6
@@ -577,5 +580,5 @@ Crew Requirement\[wm\_crew\_requirement\]
 Validates the minimum and recommended crew size for a work order task​.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/components-inst-additional-plugin.md)
 

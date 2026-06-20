@@ -2,7 +2,10 @@
 title: View knowledge articles related to a work order task on a mobile device
 description: View knowledge articles related to a work order task through the Field Service Contractor for mobile application to get additional information to help you complete the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/view-articles-field-service-contractor-portal-mobile.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ The knowledge article view page provides several details about a displayed artic
 
 4.  On the work order task form, access the related articles in the **Details** screen in one of the following ways:
 
-    -   Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon, and select **View knowledge**.
+    -   Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon, and select **View knowledge**.
 
     -   Tap the **Related** tab and view the related knowledge articles.
 5.  Review the knowledge article.
@@ -47,5 +50,5 @@ The knowledge article view page provides several details about a displayed artic
 
 The selected version of the article opens in a Knowledge Details page displayed in another tab within the Field Service Contractor for mobile application. The tab name includes the knowledge article number and its version number.
 
-**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](../concept/wot-fsc.md)
+**Parent Topic:**[Managing work order tasks using the Field Service Contractor for mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/wot-fsc.md)
 

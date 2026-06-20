@@ -2,6 +2,7 @@
 title: Configure the list layout
 description: You can configure a list to choose which columns appear in a list, create list views, and create fields on the table.Administrators can configure a property that determines whether fields on extended tables can be added to a parent table list. For example, when this feature is enabled, you can view and filter on the Caller field, from the Incident table, on a Task table list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_ConfigureTheListLayout.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -21,13 +22,11 @@ Role required: personalize\_list
 
 ## About this task
 
-Configure the list layout
-
 ## Procedure
 
 1.  Navigate to the list you want to configure.
 
-2.  Open the **List controls** menu and select **View** &gt; **\(view name\)**to select the view you want to configure.![The List controls menu expanded to show the Views menu](../image/list-controls-view.jpg)
+2.  Open the **List controls** menu and select **View** &gt; **\(view name\)**to select the view you want to configure.\[Omitted image "list-controls-view.jpg"\] Alt text: The List controls menu expanded to show the Views menu
 
 3.  Right-click any column heading and select **Configure** &gt; **List Layout**.
 
@@ -39,12 +38,12 @@ Configure the list layout
 
     **Note:**
 
-    -   If you use [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US) and then configure the list view differently, the changes do not appear until you reset your personal list to column defaults.
+    -   If you use Personal lists and then configure the list view differently, the changes do not appear until you reset your personal list to column defaults.
     -   Inactive fields display in admin-configured lists until an admin updates the list layout to remove them.
 
 If a reference field in a list displays as \(empty\) instead of the expected value, it is due to another field in the list containing an incorrect reference to either an orphaned record or a sys\_id that does not exist in the referenced table. The solution is to remove the incorrect reference data from any reference fields in that table.
 
-**Parent Topic:**[List configuration](../concept/c_ListConfiguration.md)
+**Parent Topic:**[List configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/c_ListConfiguration.md)
 
 ## Add an extended field to a base table list
 

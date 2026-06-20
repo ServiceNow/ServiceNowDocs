@@ -2,6 +2,7 @@
 title: System clone
 description: Use the System Clone application to copy everything in a database from one instance to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/c\_SystemClone.html
 release: xanadu
 topic_type: concept
 last_updated: "2024-08-01"
@@ -15,15 +16,15 @@ Use the System Clone application to copy everything in a database from one insta
 
 Cloning is typically used to copy a production instance to a pre-production instance to test changes. Cloning data comes from the most recent nightly backup.
 
-**Note:** A new, unified admin experience based on the existing clone engine is now available in the [Clone Admin Console](Clone-UI.md). The Clone Admin Console provides enhanced visibility for cloning data between instances, one of our most-used automations, as well as a number of other enhancements.
+**Note:** A new, unified admin experience based on the existing clone engine is now available in the [Clone Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/Clone-UI.md). The Clone Admin Console provides enhanced visibility for cloning data between instances, one of our most-used automations, as well as a number of other enhancements.
 
-![Clone process overview](../image/CloneProcess.png "Clone process")
+\[Omitted image "CloneProcess.png"\] Alt text: Clone process overview
 
 In response to a clone request, the ServiceNow platform performs the following tasks:
 
 1.  Generates a file to preserve operational data on the target server.
 
-    **Note:** This file contains the data preserved by [data preservers](data-preservation.md#).
+    **Note:** This file contains the data preserved by [data preservers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/data-preservation.md).
 
 2.  Copies the database schema from the source instance to the target instance.
 3.  Creates tables in the target instance database using the source instance table definitions.
@@ -63,7 +64,7 @@ After cloning from a backup, the target instance is unavailable for several minu
 
 When starting a clone from a backup, the date and time the backup was taken, as well as periodic progress messages, appear in the **Clone Log** related list.
 
-![Clone log backup record](../image/SystemCloneBackupLog2.png "System clone backup log")
+\[Omitted image "SystemCloneBackupLog2.png"\] Alt text: Clone log backup record
 
 ## Clone over production instances
 

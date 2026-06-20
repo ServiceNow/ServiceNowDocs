@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.html
 release: xanadu
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations

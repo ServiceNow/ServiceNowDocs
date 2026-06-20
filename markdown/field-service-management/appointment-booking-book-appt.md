@@ -2,7 +2,10 @@
 title: Book an appointment for a customer
 description: Dispatchers and agents can book appointments for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/field-service-management/appointment-booking-book-appt.html
 release: xanadu
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ Dispatchers and agents can book appointments for customers.
 
 Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
-You must activate and set up the Field Service Order Configuration, Field Service Task Configuration to book an appointment for work order and work order tasks respectively. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+You must activate and set up the Field Service Order Configuration, Field Service Task Configuration to book an appointment for work order and work order tasks respectively. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 
@@ -50,5 +53,5 @@ Dispatchers and agents can click "Book Appointment" on the work order or work or
 
 The **Window start** and **Window end** fields on the work order task are updated with the selected appointment start and end times. The **Estimated work duration** field is updated with the duration of the selected appointment time slot.
 
-**Parent Topic:**[Manage an appointment for a customer](../concept/manage-an-appointment-for-a-customer.md)
+**Parent Topic:**[Manage an appointment for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/field-service-management/manage-an-appointment-for-a-customer.md)
 

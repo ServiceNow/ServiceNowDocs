@@ -2,7 +2,10 @@
 title: Create an application registry entry in your ServiceNow instance
 description: Register the application with the instance to participate in OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/create-app-registry-meeting-extensibility.html
 release: xanadu
+product: Employee Service Management
+classification: employee-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -28,7 +31,7 @@ Role required: admin
 4.  On the form, fill in the fields.
 
     -   Name: Enter a name to uniquely identify the record; for example, Microsoft Teams.
-    -   Client ID: Enter the client ID value in the format `api://<instance-name>.service-now.com/<client-id>` from the section [Create an app in Microsoft Teams to enable making calls](../../notify2/task/create-app-ms-teams.md).
+    -   Client ID: Enter the client ID value in the format `api://<instance-name>.service-now.com/<client-id>` from the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
     -   Client Secret: Enter any random value as client secret and make a note of it.
     -   Add an OAuth OIDC Provider Configuration record.
         1.  Select **OAuth OIDC Provider Configuration** lookup to create a new record and select **New**.
@@ -62,7 +65,7 @@ Enter value in the following format:
 
  `https://login.microsoftonline.com/{tenant_id_from_azure}/v2.0/.well-known/openid-configuration`
 
- To copy tenant ID, see [Create an app in Microsoft Teams to enable making calls](../../notify2/task/create-app-ms-teams.md).
+ To copy tenant ID, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/create-app-ms-teams.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +98,7 @@ Enter any preferred user-name.
 
 ## What to do next
 
-After completing Meeting Extensions integration with Microsoft Teams, see the section [Meeting Extensions for Microsoft Teams](../concept/meeting-extensibility-ms-teams.md).
+After completing Meeting Extensions integration with Microsoft Teams, see the section [Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/meeting-extensibility-ms-teams.md).
 
-**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](../concept/setup-meeting-extensibility-single-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/setup-meeting-extensibility-single-tenant.md)
 

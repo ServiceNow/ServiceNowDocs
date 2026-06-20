@@ -2,6 +2,7 @@
 title: Defining and collecting MetricBase data
 description: Store time-series summaries of much larger data collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/metricbase/collecting-metricbase-data.html
 release: xanadu
 product: MetricBase
 classification: metricbase
@@ -21,7 +22,7 @@ In MetricBase, you specify the metric that you want to store and how often to co
 
 MetricBase collects the metrics of how often you send data and what the aggregation of that data is, for example, maximum, minimum, average, or last. This data is called time-series data. For example, if you collect drone speeds on an instance, you can send the average drone speed for every two minutes to the MetricBase database. You can also collect altitude and battery life. MetricBase stores each metric as a column in its database.
 
-![MetricBase and instance relationship](../image/mb-glide-relationship.png "Sending information from an instance to a MetricBase server")
+\[Omitted image "mb-glide-relationship.png"\] Alt text: MetricBase and instance relationship
 
 ## Retention policy schedules
 

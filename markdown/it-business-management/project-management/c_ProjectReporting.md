@@ -2,6 +2,7 @@
 title: Project reporting
 description: Get an at-a-glance view of projects with reports, the portfolio dashboard, and project views. You can see information such as projects with slipped milestones, graphs of resources by project, and projects listed by percentage complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-business-management/project-management/c\_ProjectReporting.html
 release: xanadu
 product: Project Management
 classification: project-management
@@ -30,10 +31,10 @@ The application provides several global reports, both lists and charts, that sho
 -   Pending projects: list report
 -   Active Projects by Manager: bar chart
 
-**Parent Topic:**[Project Management](c_ProjectApplicationOverview.md)
+**Parent Topic:**[Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-business-management/project-management/c_ProjectApplicationOverview.md)
 
 **Related topics**  
 
 
-[Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+[bundle-par.reporting-landing-page]
 

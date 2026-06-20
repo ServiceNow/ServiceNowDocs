@@ -2,6 +2,7 @@
 title: Preview the security incident for the ArcSight ESM event ingestion Integration
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the correlation fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/arcsight-esm-create-profile-preview.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -33,7 +34,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 3.  Review the field mapping of the correlation event values on the security incident.
 
-    ![ArcSight ESM: Create Profile: Preview](../image/sir-arcsight-esm-profile-preview.png)
+    \[Omitted image "sir-arcsight-esm-profile-preview.png"\] Alt text: ArcSight ESM: Create Profile: Preview
 
     The preceding image is an example of a preview with a mapping error. In this example, a field value from the correlation event does not have an acceptable value for the reference field on the SIR incident form. An error message is displayed that indicates an input value was not found for the `Category` field which is a reference field with a specific set of values. As a result, this mapped field value will not appear on the SIR security incident form without further modification.
 
@@ -45,7 +46,7 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
     The following figure is an example of the Incident Details tab on the bottom half of a security incident after all error messages are resolved. For this example, the Description and Work notes fields were mapped, and these fields are populated with the values from the value pairs pulled from the ArcSight ESM correlation event samples.
 
-    ![ArcSight ESM: Create Profile: preview incident](../image/sir-arcsight-esm-profile-preview1.png)
+    \[Omitted image "sir-arcsight-esm-profile-preview1.png"\] Alt text: ArcSight ESM: Create Profile: preview incident
 
 
 ## What to do next

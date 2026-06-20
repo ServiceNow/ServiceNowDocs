@@ -2,6 +2,7 @@
 title: Resolve multiple collisions
 description: You can resolve multiple collisions without reviewing the differences between the local and pulled versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/application-development/team-development/t\_ResolveMultipleCollisions.html
 release: xanadu
 product: Team Development
 classification: team-development
@@ -27,7 +28,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d303166e87">
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d274050e87">
 
 **To load the version pulled from the parent as the current version for all selected collisions**
 
@@ -35,7 +36,7 @@ You can resolve multiple collisions without reviewing the differences between th
 
 Select **Use Pulled Version**
 
-</td></tr><tr><td id="d303166e99">
+</td></tr><tr><td id="d274050e99">
 
 **To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
 
@@ -47,5 +48,5 @@ Select **Use Local Version**
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Team Development overview](../concept/c_UsingTeamDevelopment.md)
+**Parent Topic:**[Team Development overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/application-development/team-development/c_UsingTeamDevelopment.md)
 

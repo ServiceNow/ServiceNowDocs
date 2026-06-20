@@ -2,6 +2,7 @@
 title: Link your account using the Alexa app
 description: Link your ServiceNow account using your Alexa mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/conversational-interfaces/virtual-agent/link-using-alexa-app.html
 release: xanadu
 product: Virtual Agent
 classification: virtual-agent

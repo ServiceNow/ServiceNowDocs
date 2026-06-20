@@ -2,6 +2,7 @@
 title: Create an interaction wrap up configuration
 description: Create a configuration for each type of interaction that uses the interaction wrap up feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/interaction-management/create-interaction-wrap-up-config.html
 release: xanadu
 product: Interaction Management
 classification: interaction-management
@@ -115,5 +116,5 @@ The order of the configuration, which is used in evaluation processing of wrap u
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Interaction wrap up](../concept/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

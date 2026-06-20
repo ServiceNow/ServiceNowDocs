@@ -2,7 +2,10 @@
 title: Configure AI Search for the Customer and Consumer Service Portals
 description: You must configure the Customer and Consumer Service Portals to use AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/config\_AI\_search\_csm\_csp.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -35,13 +38,13 @@ AI Search is disabled by default and you must enable it by updating the portal r
 
     A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
 
-    **Note:** You may need to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    **Note:** You may need to configure the form layout to add **Search Application** field on the form. For more information about adding fields to a form, see .
 
 5.  In the **Search Results Configuration** field, search and click either **CSM Portal Search** or **CSP Portal Search**.
 
     A search result configuration defines how search results are displayed. A search result configuration is selected by default, but you can select a different configuration if needed.
 
-    **Note:** You may need to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+    **Note:** You may need to configure the form layout to add **Search Results Configuration** field on the form. For more information about adding fields to a form, see .
 
 6.  Click **Update**.
 

@@ -2,6 +2,7 @@
 title: CSDM terms
 description: Most ServiceNow products and ServiceNow AI Platform applications align closely with the Common Service Data Model. This table defines terms as they are used across the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-term-definitions.html
 release: xanadu
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -51,7 +52,7 @@ A service type that is a logical representation of a deployed application stack.
 
 Examples of application services are hosting, data backup, and recovery. **Note:** Applications and application services do not have a one-to-one relationship. An application service can include multiple applications. An application can be included in multiple application services.
 
-See [Monitor the health of application services on the Application Services dashboard](../../configuration-management/task/app-service-dashboard.md).
+See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Business service offerings are the starting point for configuring Service Portfo
 
 </td><td>
 
-See [Sell/Consume domain of the CSDM framework](../concept/sell-consume-domain.md) for details.
+See [Sell/Consume domain of the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md) for details.
 
 </td></tr><tr><td>
 
@@ -250,5 +251,5 @@ The technical service offering comes from the service, based on how the parent s
 **Note:** Not all technical service offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+</table>**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

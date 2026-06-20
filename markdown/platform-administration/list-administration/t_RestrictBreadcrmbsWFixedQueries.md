@@ -2,6 +2,7 @@
 title: Restrict filters and breadcrumbs with fixed queries
 description: The record list view allows users to navigate to different subsets of a table using breadcrumbs and filters. You can limit access to parts of the table by restricting active links in breadcrumbs or by suppressing breadcrumbs and filters for specific roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/platform-administration/list-administration/t\_RestrictBreadcrmbsWFixedQueries.html
 release: xanadu
 product: List Administration
 classification: list-administration
@@ -41,21 +42,21 @@ A breadcrumb option enables an administrator to control the base view of a recor
 
 5.  Add **&amp;sysparm\_fixed\_query=active=true** to the **Arguments** field and update the record.
 
-    ![Add fixed query argument](../image/FixedQuery1.png)
+    \[Omitted image "FixedQuery1.png"\] Alt text: Add fixed query argument
 
 6.  Navigate to **Incidents** &gt; **Open** and examine the breadcrumbs.
 
     The **Active=true** link is the widest view permitted in the list of Open incidents shown. The breadcrumb for **All** is not a link because of the fixed query.
 
-    ![Breadcrumb for All is not linked](../image/FixedQuery2.png)
+    \[Omitted image "FixedQuery2.png"\] Alt text: Breadcrumb for All is not linked
 
 
--   **[Suppress filters and breadcrumbs with list controls](t_SuppressFiltersAndBreadcrumbs.md)**  
+-   **[Suppress filters and breadcrumbs with list controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_SuppressFiltersAndBreadcrumbs.md)**  
 Use list controls to suppress filters and breadcrumbs on defined tables for users with specific roles.
--   **[Use script includes to suppress filters and breadcrumbs](t_SuppressFiltersScriptInclude.md)**  
+-   **[Use script includes to suppress filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/t_SuppressFiltersScriptInclude.md)**  
 You can use a script to restrict filters and breadcrumbs to specific roles, either on a per-table or global basis. Using a script is an advanced option that offers additional flexibility compared to using list control.
--   **[Increase the allowed number of breadcrumb entries](increase-breadcrumb-entries.md)**  
+-   **[Increase the allowed number of breadcrumb entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/increase-breadcrumb-entries.md)**  
 You can add a property to allow for a larger number of breadcrumb entries in the filter.
 
-**Parent Topic:**[List administration](../../core-configuration/concept/p_ListAdministration.md)
+**Parent Topic:**[List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/platform-administration/list-administration/p_ListAdministration.md)
 

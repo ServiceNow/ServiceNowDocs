@@ -2,6 +2,7 @@
 title: Playbook for zero-day vulnerability
 description: A Zero-Day Vulnerability Playbook is a step-by-step guide for addressing and mitigating zero-day threats—vulnerabilities in software that are unknown to the vendor, leaving systems exposed to attacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/security-management/security-incident-response/playbook-for-zero-day.html
 release: xanadu
 product: Security Incident Response
 classification: security-incident-response
@@ -15,5 +16,5 @@ breadcrumb: [Major Security Incident Management Playbooks, Major Security Incide
 
 A Zero-Day Vulnerability Playbook is a step-by-step guide for addressing and mitigating zero-day threats—vulnerabilities in software that are unknown to the vendor, leaving systems exposed to attacks.
 
-![Playbook for zero-day vulnerability](../image/playbook-zero-day.png "Playbook for zero-day vulnerability")
+\[Omitted image "playbook-zero-day.png"\] Alt text: Playbook for zero-day vulnerability
 

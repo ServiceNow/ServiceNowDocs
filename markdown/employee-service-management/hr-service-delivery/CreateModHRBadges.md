@@ -2,6 +2,7 @@
 title: Configure an HR badge
 description: Use Badges to create or modify existing identification badges used to quickly identify the organization of the Assigned to person for the Activity on the HR Ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/employee-service-management/hr-service-delivery/CreateModHRBadges.html
 release: xanadu
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,5 +46,5 @@ Custom badges only appear for specific types of HR activities.
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

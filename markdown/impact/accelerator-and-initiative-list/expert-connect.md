@@ -2,6 +2,7 @@
 title: Expert Connect
 description: This accelerator provides guidance on ServiceNow platform technical how-to questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/impact/accelerator-and-initiative-list/expert-connect.html
 release: xanadu
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

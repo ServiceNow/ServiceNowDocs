@@ -2,6 +2,7 @@
 title: Perform post-migration tasks for related list declarative form actions
 description: Verify that the related list declarative form actions in Service Operations Workspace \(SOW\) are consistent with the related list declarative form actions in ITSM Agent Workspace \(ITSM AW\) and they’re ready for use in SOW. You can update the migrated related list declarative form actions settings in SOW based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/it-service-management/service-operations-workspace/verify-migration-status-related-actions-aw-sow.html
 release: xanadu
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Verify that the related list declarative form actions in Service Operations Work
 
 ## Before you begin
 
-When performing the migration, you must have selected the **Relative list declarative form actions** option for ITSM Agent Workspace features. For example, the **Relative list declarative form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **Relative list declarative form actions** option for ITSM Agent Workspace features. For example, the **Relative list declarative form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
@@ -45,16 +46,16 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(![System logs icon](../../service-builder/image/sb-service-triangle.png)\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: System logs icon\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 
     4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
 
-        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-script-aw-sow.md)
-        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-server-script-aw-sow.md)
-        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-action-aw-sow.md)
-        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-ui-component-aw-sow.md)
+        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/migrate-related-list-client-script-aw-sow.md)
+        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/migrate-related-list-server-script-aw-sow.md)
+        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/migrate-related-list-client-action-aw-sow.md)
+        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/migrate-related-list-ui-component-aw-sow.md)
 
-**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/related-list-declarative-actions-aw-sow.md)
+**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/xanadu/markdown/xanadu/it-service-management/service-operations-workspace/related-list-declarative-actions-aw-sow.md)
 

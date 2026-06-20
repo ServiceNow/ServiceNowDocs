@@ -2,7 +2,10 @@
 title: Track work orders on the Business Location Service Portal
 description: Enable your location staff to track work orders for their business locations using the Business Location Service Portal \(BLSP\). It allows you to view and manage work orders, helping you keep track of tasks and updates directly related to your specific locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/xanadu/customer-service-management/track-work-orders-on-the-blsp.html
 release: xanadu
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin, sn\_customerservice.service\_organization\_contributor, sn
 
 Work orders are requests for off-site work. Users with the appropriate roles create the work orders and provide the necessary information needed for the work order tasks. These orders include information about requested services, including customer names and addresses, the work locations, and any related configuration items. Each work order include one or more tasks that contain specific details about the work to be performed, such as required agent skills or part requirements.
 
-For more information about work orders, see [Managing work orders and work order tasks](https://www.servicenow.com/docs/access?context=managing-work-orders&version=xanadu&pubname=xanadu-field-service-management&ft:locale=en-US).
+For more information about work orders, see .
 
 ## Procedure
 
