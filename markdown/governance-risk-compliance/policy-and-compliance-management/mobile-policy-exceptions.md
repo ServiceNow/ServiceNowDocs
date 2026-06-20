@@ -55,15 +55,15 @@ Time to complete this task: 5-10 minutes.
 
 5.  On the menu that is displayed, choose one from the following table to continue.
 
-<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d144549e181">
+<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d144562e181">
 
 Option
 
-</th><th align="left" id="d144549e184">
+</th><th align="left" id="d144562e184">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144549e190">
+</th></tr></thead><tbody><tr><td id="d144562e190">
 
 **Tap the menu icon \(\[Omitted image "mobile-top-menu-rotated.png"\] Alt text: Swipe menu icon.\)**
 
@@ -84,7 +84,7 @@ Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt t
 -   Cancel the operation and return to the exception record list.
 
 
-</td></tr><tr><td id="d144549e254">
+</td></tr><tr><td id="d144562e254">
 
 **Approve**
 
@@ -92,7 +92,7 @@ Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt t
 
 In the Additional comments field, enter comments. Comments are optional for approvals. Tap the calendar icon to edit the Valid to date. Tap **OK** followed by the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d144549e275">
+</td></tr><tr><td id="d144562e275">
 
 **Reject**
 
@@ -107,15 +107,15 @@ In the Additional comments field, enter comments. Comments are required for reje
 
 7.  On the menu for policy extension that is displayed, choose one to continue.
 
-<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d144549e321">
+<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d144562e321">
 
 Option
 
-</th><th align="left" id="d144549e324">
+</th><th align="left" id="d144562e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144549e330">
+</th></tr></thead><tbody><tr><td id="d144562e330">
 
 **Approve the extension**
 
@@ -123,7 +123,7 @@ Description
 
 In the Additional comments field, enter comments. Comments are optional for approvals.In the Requested extension field, tap the calendar icon to edit the date. Tap **OK** followed by the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d144549e354">
+</td></tr><tr><td id="d144562e354">
 
 **Reject the extension**
 
@@ -138,15 +138,15 @@ In the Additional comments field, enter comments. Comments are required for reje
 
     \[Omitted image "mobile-exception-record.png"\] Alt text: Policy Exception record details.
 
-<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d144549e396">
+<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d144562e396">
 
 Option
 
-</th><th align="left" id="d144549e399">
+</th><th align="left" id="d144562e399">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144549e405">
+</th></tr></thead><tbody><tr><td id="d144562e405">
 
 **Details tab**
 
@@ -161,7 +161,7 @@ Tap the **Control Objective** field to display a list of control objectives. Tap
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit it and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d144549e440">
+</td></tr><tr><td id="d144562e440">
 
 **Activity Stream tab**
 
@@ -171,7 +171,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d144549e470">
+</td></tr><tr><td id="d144562e470">
 
 **Related Lists**
 
@@ -183,7 +183,7 @@ With the Related lists tab selected, follow these steps.
 2.  On the list that is displayed, tap an item to open the record and view more details.
  At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
-</td></tr><tr><td id="d144549e503">
+</td></tr><tr><td id="d144562e503">
 
 **Screen icons at the bottom of the screen.**
 

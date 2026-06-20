@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard SonarQube.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d111612e90">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d111739e90">
 
 Option
 
-</th><th align="left" id="d111612e93">
+</th><th align="left" id="d111739e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d111612e99">
+</th></tr></thead><tbody><tr><td id="d111739e99">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d111612e126">
+</td></tr><tr><td id="d111739e126">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select SonarQube from the **Software quality** category.
 
 
-</td></tr><tr><td id="d111612e175">
+</td></tr><tr><td id="d111739e175">
 
 **Tools module**
 

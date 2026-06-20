@@ -26,15 +26,15 @@ Role required: sn\_si.admin
 
 2.  Follow the instructions below to complete the configuration for updating correlated events when the security incident is created.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d121382e77">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d121445e77">
 
 Option or Field
 
-</th><th align="left" id="d121382e80">
+</th><th align="left" id="d121445e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121382e86">
+</th></tr></thead><tbody><tr><td id="d121445e86">
 
 **Update Correlated Events upon SIR Incident Creation**
 
@@ -42,7 +42,7 @@ Description
 
 Select this option if you want to update the correlation event stage in ArcSight ESM and update the event with additional comments when a security incident is created from the correlation event. This can occur for correlation events that could either create a new security incident, as well as aggregate existing security incidents. **Note:** If this option is not selected, the event stage will not be updated when the security incident is created.
 
-</td></tr><tr><td id="d121382e101">
+</td></tr><tr><td id="d121445e101">
 
 **Correlated Event Stage Update**
 
@@ -79,15 +79,15 @@ Select a stage option from the Correlated Event Stage Update choice list that di
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_ybx_hds_nkb"><thead><tr><th align="left" id="d121382e234">
+<table id="choicetable_ybx_hds_nkb"><thead><tr><th align="left" id="d121445e234">
 
 Option or Field
 
-</th><th align="left" id="d121382e237">
+</th><th align="left" id="d121445e237">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121382e243">
+</th></tr></thead><tbody><tr><td id="d121445e243">
 
 **Update Correlated Events upon SIR Incident Closure**
 
@@ -95,7 +95,7 @@ Description
 
 Select this option if you want to update the correlation event status and add additional comments when a security incident is closed from the correlated event. This will occur for both the initial triggering notable events that create the security incident, as well as aggregated events.**Note:** If this option is not selected, the event stage will not be updated when the security incident is closed.
 
-</td></tr><tr><td id="d121382e255">
+</td></tr><tr><td id="d121445e255">
 
 **Correlated Event Stage Update**
 
@@ -103,7 +103,7 @@ Select this option if you want to update the correlation event status and add ad
 
 Select a stage option from the menu that displays all available stages retrieved from the ArcSight ESM server. Select the stage value to be set for all correlation events when a security incident is to be closed. **Note:** The stages displayed here are based on the stages configured in the Correlation Event Initial Updates section.
 
-</td></tr><tr><td id="d121382e270">
+</td></tr><tr><td id="d121445e270">
 
 **Select Correlated Event Stage**
 
@@ -111,7 +111,7 @@ Select a stage option from the menu that displays all available stages retrieved
 
 Select an appropriate status here.
 
-</td></tr><tr><td id="d121382e279">
+</td></tr><tr><td id="d121445e279">
 
 **Closure Comments Posted back to Correlated Event**
 

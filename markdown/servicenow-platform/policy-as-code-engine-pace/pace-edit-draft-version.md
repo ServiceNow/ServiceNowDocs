@@ -34,15 +34,15 @@ Role required: sn\_pace.code\_editor
 
 5.  Edit the information and inputs in the **Details** and **Policy Builder** tabs.
 
-<table id="choicetable_tvq_3x4_3pb"><thead><tr><th align="left" id="d546835e131">
+<table id="choicetable_tvq_3x4_3pb"><thead><tr><th align="left" id="d545888e131">
 
 Tab
 
-</th><th align="left" id="d546835e134">
+</th><th align="left" id="d545888e134">
 
 Editable options
 
-</th></tr></thead><tbody><tr><td id="d546835e140">
+</th></tr></thead><tbody><tr><td id="d545888e140">
 
 **Details**
 
@@ -50,7 +50,7 @@ Editable options
 
 Update the **Description** field.**Note:** The **Description** field is the only editable field in the Details tab. The version and revision numbering are generated automatically and cannot be modified.
 
-</td></tr><tr><td id="d546835e158">
+</td></tr><tr><td id="d545888e158">
 
 **Policy Builder**
 

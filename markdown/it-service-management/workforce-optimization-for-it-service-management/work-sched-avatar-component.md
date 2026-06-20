@@ -48,15 +48,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d65266e220">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d65212e220">
 
 To
 
-</th><th align="left" id="d65266e223">
+</th><th align="left" id="d65212e223">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65266e229">
+</th></tr></thead><tbody><tr><td id="d65212e229">
 
 **Add the Avatar component**
 
@@ -69,7 +69,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d65266e292">
+</td></tr><tr><td id="d65212e292">
 
 **Add the Label Value Tabbed component**
 

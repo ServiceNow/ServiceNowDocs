@@ -34,15 +34,15 @@ For unplanned expense lines which are not associated to any cost plan, system au
 
 3.  Add an expense line using one of the following options.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d208597e82">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d208407e82">
 
 Choice
 
-</th><th align="left" id="d208597e85">
+</th><th align="left" id="d208407e85">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d208597e91">
+</th></tr></thead><tbody><tr><td id="d208407e91">
 
 **Select a cost plan**
 
@@ -52,7 +52,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d208597e112">
+</td></tr><tr><td id="d208407e112">
 
 **Select options**
 
@@ -62,7 +62,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d208597e139">
+</td></tr><tr><td id="d208407e139">
 
 **Select new expense line option**
 

@@ -40,15 +40,15 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 6.  In the **Assign learning path** screen, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d322109e152">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d322654e152">
 
 To
 
-</th><th align="left" id="d322109e155">
+</th><th align="left" id="d322654e155">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d322109e161">
+</th></tr></thead><tbody><tr><td id="d322654e161">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +56,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d322109e173">
+</td></tr><tr><td id="d322654e173">
 
 **Assign the path to specific groups or team members**
 

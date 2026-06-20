@@ -32,15 +32,15 @@ Role required: user must have contributor access to the knowledge base.
 
 4.  Preview the article as one of the following.
 
-<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d139501e104">
+<table id="choicetable_of1_rfr_4fb"><thead><tr><th align="left" id="d138551e104">
 
 Option
 
-</th><th align="left" id="d139501e107">
+</th><th align="left" id="d138551e107">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d139501e113">
+</th></tr></thead><tbody><tr><td id="d138551e113">
 
 **Unpublished article**
 
@@ -48,7 +48,7 @@ Details
 
 Preview the article by user. In the **View As** field, you can search for and impersonate different users to see how the article appears based on the can and cannot read access of the user.
 
-</td></tr><tr><td id="d139501e125">
+</td></tr><tr><td id="d138551e125">
 
 **Published article**
 

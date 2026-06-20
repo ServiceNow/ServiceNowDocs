@@ -32,7 +32,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d215737e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d214573e96">
 
 **Add attachments**
 
@@ -40,7 +40,7 @@ Role required: requester
 
 To add one or more attachments to the catalog item, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: add attachments icon\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
 
-</td></tr><tr><td id="d215737e113">
+</td></tr><tr><td id="d214573e113">
 
 **Add to Cart**
 
@@ -48,7 +48,7 @@ To add one or more attachments to the catalog item, click the add attachments ic
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d215737e125">
+</td></tr><tr><td id="d214573e125">
 
 **Add to Wish List**
 

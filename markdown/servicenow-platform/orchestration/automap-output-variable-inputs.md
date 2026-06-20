@@ -36,7 +36,7 @@ Role required: admin
 
 4.  Select an auto-mapping option.
 
-<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d155084e110">
+<table id="choicetable_wkc_2t4_sz"><tbody><tr><td id="d154135e110">
 
 **Auto-Map to Local**
 
@@ -48,7 +48,7 @@ Translates the entire payload into a JSON object and places it in the data bus. 
 -   eccSysId
 
 
-</td></tr><tr><td id="d155084e134">
+</td></tr><tr><td id="d154135e134">
 
 **Auto-Map to Output**
 

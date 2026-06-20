@@ -38,15 +38,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  Under the **Review** playbook stage, review the submitted information and make any necessary adjustments.
 
-<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d97817e137">
+<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d97974e137">
 
 Activity
 
-</th><th align="left" id="d97817e140">
+</th><th align="left" id="d97974e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d97817e146">
+</th></tr></thead><tbody><tr><td id="d97974e146">
 
 **Review intake**
 
@@ -58,7 +58,7 @@ Review the disputed transactions and the reason for dispute.
 
  To modify the dispute category, select **Modify reason for dispute**. Answer the questions presented, then select **Update dispute reason**.
 
-</td></tr><tr><td id="d97817e173">
+</td></tr><tr><td id="d97974e173">
 
 **Additional questions**
 
@@ -66,7 +66,7 @@ Review the disputed transactions and the reason for dispute.
 
 Provide answers to any additional questions not answered by the cardholder and address any additional questions as required. If the dispute category changes, the system will produce a questionnaire for the newly selected category, which you must fill out. Select **Continue** when you have finished the questionnaire.
 
-</td></tr><tr><td id="d97817e185">
+</td></tr><tr><td id="d97974e185">
 
 **Submit for investigation**
 

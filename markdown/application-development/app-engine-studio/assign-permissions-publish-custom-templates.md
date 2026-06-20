@@ -40,15 +40,15 @@ Role required: admin
 
 6.  Assign permissions to new or existing collaborators.
 
-<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d98474e192">
+<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d98394e192">
 
 Choice
 
-</th><th align="left" id="d98474e195">
+</th><th align="left" id="d98394e195">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d98474e201">
+</th></tr></thead><tbody><tr><td id="d98394e201">
 
 **Assign permissions to a new user or group**
 
@@ -65,7 +65,7 @@ After the collaboration request is approved, the user or group is added as a col
 6.  Select **Save**.
 
 
-</td></tr><tr><td id="d98474e255">
+</td></tr><tr><td id="d98394e255">
 
 **Assign permissions to an existing user or group**
 
