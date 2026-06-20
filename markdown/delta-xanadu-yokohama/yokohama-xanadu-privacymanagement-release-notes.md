@@ -1,0 +1,434 @@
+---
+title: Combined Privacy Management release notes for upgrades from Xanadu to Yokohama
+description: Consolidated page of all release notes for Privacy Management from Xanadu to Yokohama.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-privacymanagement-release-notes.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-06-20"
+reading_time_minutes: 8
+breadcrumb: [Products combined by family]
+---
+
+# Combined Privacy Management release notes for upgrades from Xanadu to Yokohama
+
+Consolidated page of all release notes for Privacy Management from Xanadu to Yokohama.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Privacy Management release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Yokohama.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Privacy Management to Yokohama
+
+Before you upgrade to Yokohama, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Yokohama, new features were introduced for Privacy Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Personal Data Rights](https://www.servicenow.com/docs/access?context=exploring-personal-data-rights&family=xanadu&ft:locale=en-US)**
+
+Use the Personal Data Rights application that provides configurable workflows to manage and automate personal data rights requests efficiently, reducing the risk of non-compliance. The Personal Data Rights application enables customers to efficiently manage and fulfill Data Subject Access Requests \(DSARs\), consumer rights requests, and so on, ensuring compliance with privacy regulations. The application helps organizations to handle requests related to the personal data rights of their consumers while ensuring that employees can maintain data protection standards globally.
+
+-   **[Create data lineage](https://www.servicenow.com/docs/access?context=processing-activity-hierarchy&family=xanadu&ft:locale=en-US)**
+
+Establish a data lineage to understand how data is being consumed and shared in a given processing activity. Creating a data lineage also helps you to understand and manage the associated risks for the data being shared. This feature provides a visual representation of data lineage or hierarchy.
+
+-   **[Create a regulatory agency](https://www.servicenow.com/docs/access?context=add-a-regulatory-agency&family=xanadu&ft:locale=en-US)**
+
+Create regulatory agencies in the Privacy Workspace to identify the relevant regulatory authorities that are responsible for overseeing the businesses in the public interest. The centralized library consolidates all regulatory communication via emails.
+
+-   **[Collaborate and chat with cross-functional teams for processing activities, privacy cases, privacy assessments, and personal data rights requests](https://www.servicenow.com/docs/access?context=manage-discussions-of-a-pa&family=xanadu&ft:locale=en-US)**
+
+Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated. The chat conversations that take place using the **Discuss** button are stored in the respective record making it simpler for the privacy teams to refer to them when working on a task.
+
+-   **[View smart attestations on the processing activities](https://www.servicenow.com/docs/access?context=ropa-record&family=xanadu&ft:locale=en-US)**
+
+Use the Smart Assessment Engine feature to respond to attestations. View the reports of the new control attestations on the landing pages of the privacy analyst and the privacy manager. Utilize the filter in the Attestations report to select if you want to view the classic attestations or the new attestations.
+
+-   **[Changes in roles with the Privacy Employee user application](https://www.servicenow.com/docs/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
+
+**Note:** Only applicable to the customers with the GRC Privacy Employee User application \(sn\_privacy\_emp\) installed.
+
+When you install the new GRC Privacy Employee User application and assign the sn\_privacy\_emp.privacy\_employee role to your employees, the role enables your employees to perform the following operations from the Employee Center:
+
+    -   Proactively request privacy impact assessments \(PIAs\) for new implementations, applications, and processes from the Employee Center.
+    -   Report privacy cases related to data privacy policy and regulatory violations.
+    -   Read and acknowledge organizational privacy policies.
+    -   Create policy exceptions.
+    -   Create privacy issues.
+-   **[Changes in roles with the GRC: Privacy Lite User application](https://www.servicenow.com/docs/access?context=roles-installed-prm&family=xanadu&ft:locale=en-US)**
+
+If the GRC: Privacy Lite User application \(sn\_privacy\_lite\) is installed, the following roles are considered as lite operators:
+
+    -   sn\_privacy.business\_user
+    -   sn\_privacy.assessment\_responder
+    -   sn\_privacy\_case.privacy\_case\_business\_user
+    -   sn\_grc\_pdr.data\_owner\_admin
+Users with the lite operator role can do the following:
+
+    -   Respond to privacy assessment tasks as business users.
+    -   Respond to the processing activity's criticality risk assessments and object-based assessment.
+    -   View, update, and close assigned issues.
+    -   Respond to the assigned control attestations.
+    -   Respond to the assigned manual indicator tasks.
+    -   Create, update, and close assigned remediation tasks.
+    -   Work on the processing activity as a business user when it’s assigned to you to collect the required details.
+    -   Work on breach assessments and other privacy case tasks.
+    -   Respond to the detailed privacy risk assessments on each risk identified on a processing activity.
+    -   Respond to the assessment and investigation tasks assigned by the privacy team.
+    -   Work on personal data rights action tasks to handle data according to the requester's requests.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[\[Placeholder link text to key bundle-grc.configure-criticality-factors\]](https://www.servicenow.com/docs/access?context=configure-criticality-factors&family=yokohama&ft:locale=en-US)**
+
+Leverage criticality factors to evaluate the initial risks associated with processing activities. Integrate these factors into privacy assessments and automatically generate a criticality score upon assessment approval. These factors are also added to processing activities, enabling you to make updates at any time. Integrating these factors in a privacy assessment eliminates the need for a separate criticality assessment. This consolidation reduces the workload for the privacy teams.
+
+-   **[Smart assessments](https://www.servicenow.com/docs/access?context=smart-assessments-in-privacy-management&family=yokohama&ft:locale=en-US)**
+
+Use the new and improved assessment experience that enables:
+
+    -   capturing the data elements, the information object attributes, hierarchies
+    -   building the assessment questionnaire
+This new experience enables responders to update all the necessary details within the assessments, eliminating the need to update the processing activity separately.
+
+-   **[Configure categories](https://www.servicenow.com/docs/access?context=configure-information-object-categories&family=yokohama&ft:locale=en-US)**
+
+Implement Information object categories to tag and classify information objects effectively. For example, attributes like iris scans and fingerprints are often referred to as biometric data, or email addresses and phone numbers can be tagged as contact information. Information object categories enable you to categorize these information objects under these broader classifications. This approach is useful in the following ways:
+
+    -   Enhances compliance with regulations such as GDPR, CCPA, and so on by accurately capturing and tracking required data categories.
+    -   Improves clarity for business users, ensuring they can easily identify and work with terms they’re familiar with while adhering to regulatory standards.
+    -   Streamlines data governance by creating a structured framework that supports both regulatory needs and business operations.
+-   **[Smart assessment for privacy case management action tasks](https://www.servicenow.com/docs/access?context=accept-a-case-task&family=yokohama&ft:locale=en-US)**
+
+Use the new assessment experience of Smart Assessment Engine for privacy case action tasks. Only when an action task moves from the **Draft** to the **Assigned** state, the assessment can be sent. To use the smart assessment, a new property called enable\_smart\_assessments \(sn\_grc\_case\_mgmt.enable\_smart\_assessments\) is introduced with the default value as **true**.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Yokohama, some changes were made to existing Privacy Management features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Tagging of information object tags](https://www.servicenow.com/docs/access?context=tag-io-with-pi&family=yokohama&ft:locale=en-US)**
+
+Use the **Data classification** field to tag information objects instead of using the tag icon.
+
+-   **[Initiating privacy assessment](https://www.servicenow.com/docs/access?context=send-privacy-asmt-from-pa&family=yokohama&ft:locale=en-US)**
+
+When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Yokohama, some Privacy Management features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Yokohama, some Privacy Management features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Privacy Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Privacy Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Privacy Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Privacy Management, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Privacy Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Privacy Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Use the Personal Data Rights application to manage personal data rights requests from your customers or consumers, and employees in compliance with global privacy regulations.
+-   Establish a data lineage to visualize data consumption, sharing, and the associated risks for a processing activity.
+-   Use the Smart Assessment Engine to respond to and view new control attestations related to your processing activity.
+-   Create a regulatory agency library to store and access regulatory details, including correspondence with the regulators.
+-   Initiate chats from privacy assessments, processing activities, privacy cases, and personal data rights requests to collaborate with various teams to ensure quick responses.
+
+ See [Explore](https://www.servicenow.com/docs/access?context=explore-privacy-management&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Integrate criticality factors into assessments and processing activities thereby simplifying the assessment process, and reducing the workload for privacy teams.
+-   Use the Smart Assessment Engine to capture details regarding information objects and hierarchies, updating all details within the assessments and eliminating the need to separately update processing activities.
+-   Implement information Object \(IO\) categories such as biometric data, to align with regulatory classifications and bridge the gap between requirements and user understanding.
+-   Empower privacy case analysts to perform assessments on privacy cases using the Smart Assessment Engine
+
+ See [Privacy Management](https://www.servicenow.com/docs/access?context=privacy-management&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)
+
