@@ -89,7 +89,7 @@ Select this link to collapse the summary.
 
 </td><td>
 
-Select the helpful icon \[Omitted image "5f428955e6f376377ffcc0a5644d6aee35cad487.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "198afec691032f670beda46bc20906c9bad53baa.png"\] Alt text: if the summary wasn't helpful.
+Select the helpful icon \[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93719.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "632478fc6dbb398af6773211af54c1d606b6607f.png"\] Alt text: if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
@@ -99,7 +99,7 @@ Select the helpful icon \[Omitted image "5f428955e6f376377ffcc0a5644d6aee35cad48
 
 </td><td>
 
-Select the copy icon \[Omitted image "4bb7bb9493d1ca229bd41bfeaf71a7f9b1d93e39.png"\] Alt text: to copy the summary to the clipboard.
+Select the copy icon \[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: to copy the summary to the clipboard.
 
 </td></tr><tr><td id="d163505e296">
 

@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 keywords: [CWM, collaborative work management, docs, comments, notifications, disable, email, preferences]
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]

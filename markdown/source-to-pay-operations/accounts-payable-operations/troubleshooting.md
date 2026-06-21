@@ -7,7 +7,7 @@ release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---

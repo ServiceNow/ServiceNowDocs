@@ -41,7 +41,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 6.  In the form designer header drop-down list, select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d185272e171">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d185436e171">
 
 **Walk-up context \[wu\_context\]**
 
@@ -49,7 +49,7 @@ Role required: sn\_walkup.walkup\_admin or admin
 
 Online check-in channel for requesters to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up requester and the description of the associated interaction.
 
-</td></tr><tr><td id="d185272e180">
+</td></tr><tr><td id="d185436e180">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -57,7 +57,7 @@ Online check-in channel for requesters to join a walk-up queue before physically
 
 Physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d185272e189">
+</td></tr><tr><td id="d185436e189">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -65,7 +65,7 @@ Physical walk-up location interaction queue to manage and administer the service
 
 Reasons why a requester needs walk-up support.
 
-</td></tr><tr><td id="d185272e198">
+</td></tr><tr><td id="d185436e198">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 

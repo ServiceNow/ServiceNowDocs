@@ -64,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d71509e277">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d71729e277">
 
 System
 
-</th><th align="left" id="d71509e280">
+</th><th align="left" id="d71729e280">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71509e286">
+</th></tr></thead><tbody><tr><td id="d71729e286">
 
 **macOS**
 
@@ -86,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d71509e351">
+</td></tr><tr><td id="d71729e351">
 
 **Windows**
 
@@ -103,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d71509e410">
+</td></tr><tr><td id="d71729e410">
 
 **Microsoft Word Online**
 

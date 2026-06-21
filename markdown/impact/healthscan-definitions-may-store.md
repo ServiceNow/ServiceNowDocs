@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/healthscan-definitions-may-store.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 8
 breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Customer Service Management
 classification: customer-service-management
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Configure responsibility access, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

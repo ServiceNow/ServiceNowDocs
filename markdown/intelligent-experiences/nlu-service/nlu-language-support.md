@@ -7,7 +7,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
 ---

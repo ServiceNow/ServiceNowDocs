@@ -100,15 +100,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d60125e450">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d60074e450">
 
 Field
 
-</th><th align="left" id="d60125e453">
+</th><th align="left" id="d60074e453">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d60125e459">
+</th></tr></thead><tbody><tr><td id="d60074e459">
 
 **Active**
 
@@ -116,7 +116,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d60125e471">
+</td></tr><tr><td id="d60074e471">
 
 **Name**
 
@@ -124,7 +124,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d60125e480">
+</td></tr><tr><td id="d60074e480">
 
 **Application**
 
@@ -132,7 +132,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see Application scope.
 
-</td></tr><tr><td id="d60125e496">
+</td></tr><tr><td id="d60074e496">
 
 **Table**
 
@@ -140,7 +140,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d60125e509">
+</td></tr><tr><td id="d60074e509">
 
 **Question template body**
 

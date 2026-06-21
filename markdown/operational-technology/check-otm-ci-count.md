@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology
 classification: operational-technology
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 2
 keywords: [User Experience Analytics, conversion funnels, Employee Slate, analytics navigation, user behavior tracking]
 breadcrumb: [Analytics and reporting, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]

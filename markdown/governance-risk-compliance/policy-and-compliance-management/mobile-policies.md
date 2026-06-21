@@ -59,15 +59,15 @@ Approve or reject a pending Policy and Compliance Management request from the li
 
     \[Omitted image "mobile-policy-compl-policy-rcd.png"\] Alt text: Policy record details.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d155641e242">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d155628e242">
 
 Option
 
-</th><th align="left" id="d155641e245">
+</th><th align="left" id="d155628e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155641e251">
+</th></tr></thead><tbody><tr><td id="d155628e251">
 
 **Details tab**
 
@@ -79,7 +79,7 @@ Choose one to continue.
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d155641e278">
+</td></tr><tr><td id="d155628e278">
 
 **Related List tab**
 
@@ -92,7 +92,7 @@ View the related lists.
 3.  After you review the details, navigate back to the Policy screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d155641e321">
+</td></tr><tr><td id="d155628e321">
 
 **Screen icons at the bottom of the screen.**
 

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

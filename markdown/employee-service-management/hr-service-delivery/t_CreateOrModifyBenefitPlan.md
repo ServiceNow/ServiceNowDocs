@@ -32,15 +32,15 @@ Role required: sn\_hr\_core.basic, or sn\_hr\_core.manager
 
     \(The fields you see depend on how the form is configured and what fields are selected to display.\)
 
-<table id="choicetable_i5y_xkt_hcc"><thead><tr><th align="left" id="d463289e101">
+<table id="choicetable_i5y_xkt_hcc"><thead><tr><th align="left" id="d463149e101">
 
 Field
 
-</th><th align="left" id="d463289e104">
+</th><th align="left" id="d463149e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d463289e110">
+</th></tr></thead><tbody><tr><td id="d463149e110">
 
 **Plan name**
 
@@ -52,7 +52,7 @@ The name of the benefit plan.
 
  After you enter a Provider and Plan type, this field fills in.
 
-</td></tr><tr><td id="d463289e134">
+</td></tr><tr><td id="d463149e134">
 
 **Provider**
 
@@ -62,7 +62,7 @@ Click and select the name of the benefit provider. For new providers, click the 
 
  This field combines with **Plan type** to create the **Plan name**.
 
-</td></tr><tr><td id="d463289e158">
+</td></tr><tr><td id="d463149e158">
 
 **Benefit type**
 
@@ -70,7 +70,7 @@ Click and select the name of the benefit provider. For new providers, click the 
 
 The type of insurance or financial services provided.
 
-</td></tr><tr><td id="d463289e167">
+</td></tr><tr><td id="d463149e167">
 
 **Plan type**
 
@@ -80,7 +80,7 @@ The name of the specific insurance or financial services plans offered by the pr
 
  The **Plan type** combined with the **Provider name** make up the **Plan name**.
 
-</td></tr><tr><td id="d463289e192">
+</td></tr><tr><td id="d463149e192">
 
 **Active**
 
@@ -88,7 +88,7 @@ The name of the specific insurance or financial services plans offered by the pr
 
 Check to make this benefit plan active and available to use.
 
-</td></tr><tr><td id="d463289e201">
+</td></tr><tr><td id="d463149e201">
 
 **Plan administrator**
 
@@ -96,7 +96,7 @@ Check to make this benefit plan active and available to use.
 
 Click and select the company representative responsible for this benefit plan. The plan administrator is the person that communicates directly with the provider, understand the details of the benefit plan, and can be a point-of-contact for questions.
 
-</td></tr><tr><td id="d463289e210">
+</td></tr><tr><td id="d463149e210">
 
 **Plan URL**
 

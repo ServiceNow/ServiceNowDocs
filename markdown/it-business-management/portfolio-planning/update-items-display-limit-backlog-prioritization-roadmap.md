@@ -46,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d53573e143">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d53597e143">
 
 Field
 
-</th><th align="left" id="d53573e146">
+</th><th align="left" id="d53597e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53573e152">
+</th></tr></thead><tbody><tr><td id="d53597e152">
 
 **Name**
 
@@ -65,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d53573e178">
+</td></tr><tr><td id="d53597e178">
 
 **Type**
 
@@ -73,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d53573e187">
+</td></tr><tr><td id="d53597e187">
 
 **Value**
 

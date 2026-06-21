@@ -38,15 +38,15 @@ For information about external inquiries, see [Create a payment inquiry case for
 
 3.  Create a payment inquiry request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d75549e123">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d75487e123">
 
 Option
 
-</th><th align="left" id="d75549e126">
+</th><th align="left" id="d75487e126">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d75549e132">
+</th></tr></thead><tbody><tr><td id="d75487e132">
 
 **Payment inquiry request from a consumer record**
 
@@ -56,7 +56,7 @@ Steps
 2.  Open the required customer record.
 
 
-</td></tr><tr><td id="d75549e159">
+</td></tr><tr><td id="d75487e159">
 
 **Payment inquiry request from a business account record**
 
@@ -66,7 +66,7 @@ Steps
 2.  Click the account that you want to create a payment inquiry for.
 
 
-</td></tr><tr><td id="d75549e186">
+</td></tr><tr><td id="d75487e186">
 
 **Payment inquiry request from an interaction record**
 

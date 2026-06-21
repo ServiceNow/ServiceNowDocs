@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 3
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

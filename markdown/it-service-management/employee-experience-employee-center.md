@@ -7,7 +7,7 @@ release: australia
 product: IT Service Management
 classification: it-service-management
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---

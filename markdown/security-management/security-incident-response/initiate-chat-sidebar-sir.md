@@ -38,15 +38,15 @@ Verify that you have activated the Omni-Experience Standard Feature Set plugin. 
 
 5.  On the Start a Sidebar discussion dialog box, fill in the fields.
 
-<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d196320e116">
+<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d196293e116">
 
 Field
 
-</th><th align="left" id="d196320e119">
+</th><th align="left" id="d196293e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196320e125">
+</th></tr></thead><tbody><tr><td id="d196293e125">
 
 **Record number**
 
@@ -54,7 +54,7 @@ Description
 
 The task or incident number associated with the Sidebar discussion.
 
-</td></tr><tr><td id="d196320e134">
+</td></tr><tr><td id="d196293e134">
 
 **Subject**
 
@@ -62,7 +62,7 @@ The task or incident number associated with the Sidebar discussion.
 
 Provide a title for the sidebar discussion.
 
-</td></tr><tr><td id="d196320e143">
+</td></tr><tr><td id="d196293e143">
 
 **Add participants**
 
@@ -75,7 +75,7 @@ Option to add participants for the sidebar discussion. If you have integrated si
 -   By default, all users who have read access to the SIR records will also have access to sidebar chats, but this can be controlled using member query. For more information, see .
 
 
-</td></tr><tr><td id="d196320e172">
+</td></tr><tr><td id="d196293e172">
 
 **Include a brief message**
 

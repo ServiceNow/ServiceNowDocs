@@ -7,7 +7,7 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [CI lookup rules, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

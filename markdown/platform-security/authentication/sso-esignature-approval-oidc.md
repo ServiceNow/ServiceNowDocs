@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

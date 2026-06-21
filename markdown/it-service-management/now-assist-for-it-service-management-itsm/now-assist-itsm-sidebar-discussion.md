@@ -52,15 +52,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 4.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d427895e250">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d428025e250">
 
 Option
 
-</th><th align="left" id="d427895e253">
+</th><th align="left" id="d428025e253">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d427895e259">
+</th></tr></thead><tbody><tr><td id="d428025e259">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -71,7 +71,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d427895e286">
+</td></tr><tr><td id="d428025e286">
 
 **Provide feedback for the summary**
 

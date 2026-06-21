@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---

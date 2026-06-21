@@ -7,7 +7,7 @@ release: australia
 product: Release Notes
 classification: release-notes
 topic_type: reference
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
@@ -72,15 +72,15 @@ Available
 
 </td></tr><tr><td>
 
-[Australia Patch 2 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3081896)
+[Australia Patch 2 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101088)
 
 </td><td>
 
-Security patch
+Hotfix
 
 </td><td>
 
-2026/06/18
+2026/06/19
 
 </td><td>
 
@@ -100,7 +100,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 5
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---

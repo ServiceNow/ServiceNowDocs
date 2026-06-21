@@ -42,15 +42,15 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     -   Smart Assessment: You can add multiple smart assessment templates for the `Assessment type: Smart assessment` in the **Smart assessment templates** field.
     -   Legacy Assessment: You can add a single assessment template for the `Assessment type: Legacy assessment` in the **Assessment template** field.
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d192411e176">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d192166e176">
 
 Choice
 
-</th><th align="left" id="d192411e179">
+</th><th align="left" id="d192166e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192411e185">
+</th></tr></thead><tbody><tr><td id="d192166e185">
 
 **Select __Smart assessment__.**
 
@@ -80,7 +80,7 @@ Only when these conditions are met, the template is available for selection in t
 
  **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
-</td></tr><tr><td id="d192411e324">
+</td></tr><tr><td id="d192166e324">
 
 **Select __Legacy assessment__.**
 

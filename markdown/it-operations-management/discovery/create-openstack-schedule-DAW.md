@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d337823e313">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d337881e313">
 
 Option
 
-</th><th align="left" id="d337823e316">
+</th><th align="left" id="d337881e316">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d337823e322">
+</th></tr></thead><tbody><tr><td id="d337881e322">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **OpenStack Account ID**, and **Cloud URL** fields auto-populate.
 
-</td></tr><tr><td id="d337823e340">
+</td></tr><tr><td id="d337881e340">
 
 **New cloud account**
 

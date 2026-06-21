@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d415017e110">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d415095e110">
 
 Option
 
-</th><th align="left" id="d415017e113">
+</th><th align="left" id="d415095e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d415017e119">
+</th></tr></thead><tbody><tr><td id="d415095e119">
 
 **Internal**
 
@@ -56,7 +56,7 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d415017e160">
+</td></tr><tr><td id="d415095e160">
 
 **External**
 

@@ -978,7 +978,7 @@ Description
 
 Content-Type
 
-</td><td id="d3098e171">
+</td><td id="d3093e171">
 
 Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 keywords: [configure Microsoft Teams CIM notifications, certificate expiration Teams channel, CIM Teams spoke setup]
 breadcrumb: [Certificate alerts and notifications, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]

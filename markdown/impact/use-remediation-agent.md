@@ -7,7 +7,7 @@ release: australia
 product: Impact
 classification: impact
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 2
 breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---

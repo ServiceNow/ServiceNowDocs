@@ -7,7 +7,7 @@ release: australia
 product: Customer Service Management
 classification: customer-service-management
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 9
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Sales and Order Management
 classification: sales-and-order-management
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Order operations, Explore, Sales Customer Relationship Management]
 ---

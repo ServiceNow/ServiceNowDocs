@@ -7,7 +7,7 @@ release: australia
 product: AI Platform Administration
 classification: ai-platform-administration
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---

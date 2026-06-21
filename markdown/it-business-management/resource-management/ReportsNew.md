@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reports, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---

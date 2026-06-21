@@ -50,15 +50,15 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76871e231">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76655e231">
 
 Option
 
-</th><th align="left" id="d76871e234">
+</th><th align="left" id="d76655e234">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d76871e240">
+</th></tr></thead><tbody><tr><td id="d76655e240">
 
 **Provide feedback for the summary**
 
@@ -66,7 +66,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d76871e255">
+</td></tr><tr><td id="d76655e255">
 
 **Copy the summary**
 
@@ -74,7 +74,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d76871e266">
+</td></tr><tr><td id="d76655e266">
 
 **Refresh the summary**
 

@@ -7,7 +7,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 5
 breadcrumb: [Explore, Digital End-User Experience, IT Service Management]
 ---

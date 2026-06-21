@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 2
 breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---

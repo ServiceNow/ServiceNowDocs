@@ -34,15 +34,15 @@ You can also set up an audit schedule to generate recurring safety audits. For m
 
 4.  Select **New** and then select an audit creation method.
 
-<table id="choicetable_ll2_jw3_l3c"><thead><tr><th align="left" id="d136941e111">
+<table id="choicetable_ll2_jw3_l3c"><thead><tr><th align="left" id="d136813e111">
 
 Option
 
-</th><th align="left" id="d136941e114">
+</th><th align="left" id="d136813e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d136941e120">
+</th></tr></thead><tbody><tr><td id="d136813e120">
 
 **Add to audit schedule**
 
@@ -52,7 +52,7 @@ Select this option to create this audit as part of an existing audit schedule.1.
 2.  Select **Create**.
 
 
-</td></tr><tr><td id="d136941e143">
+</td></tr><tr><td id="d136813e143">
 
 **Standalone audit**
 

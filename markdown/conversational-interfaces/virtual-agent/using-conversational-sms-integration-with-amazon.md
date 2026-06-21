@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---

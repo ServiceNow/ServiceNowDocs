@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Choose tasks to run, Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---

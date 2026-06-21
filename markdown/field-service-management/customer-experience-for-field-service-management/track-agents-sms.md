@@ -7,7 +7,7 @@ release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Customer self service, Use, Field Service Management]
 ---

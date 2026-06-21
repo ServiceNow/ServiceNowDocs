@@ -7,7 +7,7 @@ release: australia
 product: Security Operations
 classification: security-operations
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---

@@ -1898,11 +1898,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d3685e138">
+</th></tr></thead><tbody><tr><td id="d6058e138">
 
 @type
 
-</td><td id="d3685e141">
+</td><td id="d6058e141">
 
 Type of resource.Valid values:
 
@@ -2958,11 +2958,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d3685e138">
+</th></tr></thead><tbody><tr><td id="d6058e138">
 
 @type
 
-</td><td id="d3685e141">
+</td><td id="d6058e141">
 
 Type of resource.Valid values:
 
@@ -3105,7 +3105,7 @@ Data type: String
 
 Table: Network Site \[cmdb\_ci\_ni\_site\]
 
-</td></tr><tr><td id="d3685e405">
+</td></tr><tr><td id="d6058e405">
 
 relatedParty
 

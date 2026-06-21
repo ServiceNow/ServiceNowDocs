@@ -7,7 +7,7 @@ release: australia
 product: Enable AI Experiences
 classification: enable-ai-experiences
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 19
 breadcrumb: [Reference, Now Assist AI agents, Enable AI experiences]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 2
 breadcrumb: [Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---

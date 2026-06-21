@@ -7,7 +7,7 @@ release: australia
 product: Operational Sustainability Management
 classification: operational-sustainability-management
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

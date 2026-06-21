@@ -1,0 +1,40 @@
+---
+title: Sample risk definitions
+description: These are sample risk definitions available with the base system and can configured based on your requirements.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/customer-success-management/account-lifecycle-risk-demo-data.html
+release: australia
+product: Customer Success Management
+classification: customer-success-management
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Define risk criteria, Engagements, Customer success, Configure, Customer Success Management]
+---
+
+# Sample risk definitions
+
+These are sample risk definitions available with the base system and can configured based on your requirements.
+
+## Drop in NPS health
+
+This is a metric based risk definition and generates a risk signal if the NPS score falls below a specified threshold. In this case, if the Daily collection of NPS metric score falls below 30, a risk signal is generated. Additionally, override conditions with different threshold values and ranking that can impact specific engagements are defined.
+
+\[Omitted image "account-lifecycle-risk-defn-nps-health.png"\] Alt text: NPS health risk definition
+
+## SLA achievement in less than 90%
+
+This is a metric based risk definition and generates a risk signal if the SLA achievement score falls below a specified threshold. In this case, if the Daily collection of % achieved incident SLA metric falls below 90, a risk signal is generated. An override condition with a different threshold value that can impact specific engagements has been defined. Additionally, a filter condition has been defined in the Applicable engagements field. This filter condition is applied along with the override condition when the risk signal is generated.
+
+\[Omitted image "account-lifecycle-risk-defn-sla-score.png"\] Alt text: SLA achievement score
+
+**Note:** For metric based definitions, the data source and the context engine mapping must be defined. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-metric-data.md) for details.
+
+## Missing renewal date in contract
+
+This is a table based risk definition and generates a risk signal if the contract renewal date are missing. In this case, the Source table is the Contract table. This table must be mapped to the Engagement table. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-define-context-engine-mapper.md) for details. If the renewal start and end dates are missing in the Contract table, a risk signal is generated.
+
+\[Omitted image "account-lifecycle-risk-defn-renew-date.png"\] Alt text: Missing renewal date
+
+**Parent Topic:**[Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/customer-success-management/account-lifecycle-setup-risk-defn.md)
+

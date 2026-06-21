@@ -7,7 +7,7 @@ release: australia
 product: ServiceNow AI Platform Security
 classification: servicenow-ai-platform-security
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-06-21"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
