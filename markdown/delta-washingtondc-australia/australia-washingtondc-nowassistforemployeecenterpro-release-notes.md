@@ -1,0 +1,617 @@
+---
+title: Combined Now Assist for Employee Center Pro release notes for upgrades from Washington DC to Australia
+description: Consolidated page of all release notes for Now Assist for Employee Center Pro from Washington DC to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-washingtondc-australia/australia-washingtondc-nowassistforemployeecenterpro-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-06-21"
+reading_time_minutes: 4
+breadcrumb: [Products combined by family]
+---
+
+# Combined Now Assist for Employee Center Pro release notes for upgrades from Washington DC to Australia
+
+Consolidated page of all release notes for Now Assist for Employee Center Pro from Washington DC to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Now Assist for Employee Center Pro release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Washington DC to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Now Assist for Employee Center Pro to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+Now Assist for Employee Center Pro only provides employee or requester conversations and might require other Now Assist products to deliver AI agents or other related features.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Now Assist for Employee Center Pro.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Approve your requests with AI Agent](https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&family=australia&ft:locale=en-US)**
+
+Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
+
+-   **[Quick start tests for Employee Center](https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center&family=australia&ft:locale=en-US)**
+
+After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Now Assist for Employee Center Pro features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Now Assist for Employee Center Pro features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Now Assist for Employee Center Pro features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Now Assist for Employee Center Pro.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [\[Placeholder link text to key ecpro-plugins\]](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Now Assist for Employee Center Pro we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Now Assist for Employee Center Pro we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Now Assist for Employee Center Pro, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Now Assist for Employee Center Pro we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Now Assist for Employee Center Pro we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Use AI-powered capabilities, enterprise search, and omnichannel delivery to meet your productivity needs.
+
+
+ See [\[Placeholder link text to key na-ec-pro-landing\]](https://www.servicenow.com/docs/access?context=na-ec-pro-landing&family=australia&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-washingtondc-australia/rn-combined-intro.md)
+

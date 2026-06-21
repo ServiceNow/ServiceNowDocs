@@ -1,0 +1,598 @@
+---
+title: Combined Telecommunications Customer 360 release notes for upgrades from Xanadu to Australia
+description: Consolidated page of all release notes for Telecommunications Customer 360 from Xanadu to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-telecommunicationscustomer360-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-06-21"
+reading_time_minutes: 5
+breadcrumb: [Products combined by family]
+---
+
+# Combined Telecommunications Customer 360 release notes for upgrades from Xanadu to Australia
+
+Consolidated page of all release notes for Telecommunications Customer 360 from Xanadu to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Telecommunications Customer 360 release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Telecommunications Customer 360 to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Telecommunications Customer 360.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+
+-   **[Telecom Customer 360 component](https://www.servicenow.com/docs/access?context=c360-component&family=australia&ft:locale=en-US)**
+
+Embed the 360-degree customer view as a tab on any record page in the CSM/FSM Configurable Workspace by adding the Telecom Customer 360 UI Builder component. The component is shipped on the complaint case record page by default.
+
+-   **[Recommendations](https://www.servicenow.com/docs/access?context=c360-recommendations&family=australia&ft:locale=en-US)**
+
+View Knowledge Base article suggestions and search for KB articles and agentic workflows directly from the Telecommunications Customer 360 page using the contextual Recommendations side panel.
+
+
+[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
+
+-   **[Interaction record](https://www.servicenow.com/docs/access?context=c360-view-inter-record&family=australia&ft:locale=en-US)**
+
+View customer phone interaction records, verify and open records to view details.
+
+
+[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets and create your own
+Depending on your entitlements, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
+
+Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
+
+
+Australia Early Availability
+
+-   **[Customer information](https://www.servicenow.com/docs/access?context=c360-home-page&family=australia&ft:locale=en-US)**
+
+View customer account, contact, or consumer information including contact details, location, and recent interaction summary for efficient service delivery.
+
+-   **[Interaction history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&family=australia&ft:locale=en-US)**
+
+Track customer interactions over time with date range filtering. View the chronological history of customer engagements to understand previous communication context.
+
+-   **[Trend charts](https://www.servicenow.com/docs/access?context=c360-data-visual-card&family=australia&ft:locale=en-US)**
+
+Monitor key customer metrics through visual charts including NPS and CSAT scores with target comparisons and trend lines. View the last updated timestamps for each metric.
+
+-   **[Billing](https://www.servicenow.com/docs/access?context=c360-billing-card&family=australia&ft:locale=en-US)**
+
+Review customer billing information and invoices for the selected billing account. Search and filter billing records to quickly locate specific invoice details.
+
+-   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&family=australia&ft:locale=en-US)**
+
+Identify active products and services associated with the customer account. View counts of related cases, service problem cases, incidents, and test results for each product to understand product-specific issues.
+
+-   **[Cases, tasks, and orders](https://www.servicenow.com/docs/access?context=c360-tasks-card&family=australia&ft:locale=en-US)**
+
+Manage multiple task types including service problem cases, cases, customer orders, work orders, complaint cases, and invoice cases in a unified view. View details such as case numbers, descriptions, state, sold products, and priority levels across all task records.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Telecommunications Customer 360 features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)
+
+-   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&family=australia&ft:locale=en-US)**
+    -   Filter the list of sold products displayed by product characteristic values.
+    -   Modify configurations, suspend, resume, or disconnect one or more sold products and their services.
+-   **[Customer history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&family=australia&ft:locale=en-US)**
+
+The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
+
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Telecommunications Customer 360 features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Telecommunications Customer 360 features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Telecommunications Customer 360.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+Install Telecommunications Customer 360 by requesting it from the ServiceNow Store. 
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Telecommunications Customer 360 we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Telecommunications Customer 360 we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Telecommunications Customer 360, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Telecommunications Customer 360 we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Telecommunications Customer 360 we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+
+-   Add the 360-degree customer view to any record page with the Telecom Customer 360 UI Builder component.
+-   Find KB articles and agentic workflows for the current customer with the Recommendations panel.
+
+ Australia Early Availability
+
+-   Provide agents with customer information, context, and insights for service problem analysis and faster resolution.
+-   Enable agents to create cases for billing and service-related issues, manage orders, and book field service appointments directly from the customer view.
+-   Provides data source configurability to bring call, chat, and billing data from external sources and generate insights.
+-   Receive insights on customer health and top recent issues.
+
+ See [Telecommunications Customer 360](https://www.servicenow.com/docs/access?context=c360-land-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)
+

@@ -1,0 +1,744 @@
+---
+title: Combined Now Assist for Enterprise Architecture \(EA\) release notes for upgrades from Washington DC to Australia
+description: Consolidated page of all release notes for Now Assist for Enterprise Architecture \(EA\) from Washington DC to Australia.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-washingtondc-australia/australia-washingtondc-nowassistforenterprisearchitectureea-release-notes.html
+release: australia
+topic_type: reference
+last_updated: "2026-06-21"
+reading_time_minutes: 11
+breadcrumb: [Products combined by family]
+---
+
+# Combined Now Assist for Enterprise Architecture \(EA\) release notes for upgrades from Washington DC to Australia
+
+Consolidated page of all release notes for Now Assist for Enterprise Architecture \(EA\) from Washington DC to Australia.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Now Assist for Enterprise Architecture \(EA\) release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Washington DC to Australia.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Now Assist for Enterprise Architecture \(EA\) to Australia
+
+Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Australia, new features were introduced for Now Assist for Enterprise Architecture \(EA\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Implement access control lists for security in AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=xanadu&ft:locale=en-US)**
+
+Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
+
+ACLs provide you with the capability to run AI agents and agentic workflow executions either as a dynamic user or an AI user.
+
+To learn about ACLs for Now Assist for Enterprise Architecture \(EA\) agents and skills, see [Configure](https://www.servicenow.com/docs/access?context=configure-now-assist-ea&family=xanadu&ft:locale=en-US) and [Generate enterprise architecture diagram agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-aiagents-ea-diagramming-usecase&family=xanadu&ft:locale=en-US).
+
+-   **Xanadu Patch 7 [Using Enterprise Architecture Diagramming AI agent](https://www.servicenow.com/docs/access?context=using-na-ea-ai-agents&family=xanadu&ft:locale=en-US)**
+
+Use the Enterprise Architecture Diagrammer AI agent to create Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
+
+-   **Xanadu Early Availability [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=xanadu&ft:locale=en-US)**
+    -   Use the ServiceNow® Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace. Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
+    -   Register a business application and a digital integration with an interactive generative AI experience using the Now Assist in Virtual Agent. For more information, see [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Yokohama Patch 1 [Using Enterprise Architecture Diagramming AI agent](https://www.servicenow.com/docs/access?context=using-na-ea-ai-agents&family=yokohama&ft:locale=en-US)**
+
+Use the Enterprise architecture diagrams AI agent to create Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
+
+-   **Yokohama Early Availability [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US)**
+    -   Use the ServiceNow® Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace. Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
+    -   Register a business application and a digital integration with an interactive generative AI experience using Now Assist in Virtual Agent. For more information, see [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Compare Enterprise Modeling and Visualization diagrams](https://www.servicenow.com/docs/access?context=compare-modeling-diagrams&family=zurich&ft:locale=en-US)**
+
+Learn the details of the changes in the Enterprise Modeling and Visualization diagrams by comparing a diagram with its previous version. You can compare business application hierarchy, business capability map, and business process map diagrams.
+
+-   **[Elaborate or shorten content in form fields](https://www.servicenow.com/docs/access?context=elaborate-or-shorten-content-form-fields&family=zurich&ft:locale=en-US)**
+
+Elaborate or shorten text in the **Description** field of the following records using the Refine text Now Assist skill:
+
+    -   Business application
+    -   Business capability
+    -   Business process
+    -   Value stream stages
+    -   Information object
+Also, generate, elaborate, or shorten text in the **Reasoning** field in the **Planned Disposition** section of the business application record.
+
+-   **[Business Application Insights skill configuration changes](https://www.servicenow.com/docs/access?context=configure-now-assist-ea&family=zurich&ft:locale=en-US)**
+
+For the Business application insights Now Assist skill, you can view the business application source fields based on which the business application insights are generated. Also, you can determine the availability of the skill by defining a specific criteria in the **Define access** tab of the Business application insights skill.
+
+-   **[Role restrictions for Now Assist for EA skills](https://www.servicenow.com/docs/access?context=configure-now-assist-ea&family=zurich&ft:locale=en-US)**
+
+Role restriction is added to the default roles associated with the following skills:
+
+    -   Diagram change analysis
+    -   ADR Doc Summarization and Actions
+    -   Business application insights
+    -   Refine text
+-   **[Business Application Insights skill](https://www.servicenow.com/docs/access?context=generate-insights-into-ba&family=zurich&ft:locale=en-US)**
+
+Learn the details of business applications and gather concise and actionable insights on business applications from the summary that is generated by Now Assist for Enterprise Architecture \(EA\). The business application insights help you to make informed decisions without manually reviewing large volumes of data.
+
+-   **[Implement access control lists for security in AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=zurich&ft:locale=en-US)**
+
+Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
+
+ACLs provide you with the capability to run AI agents and agentic workflow executions either as a dynamic user or an AI user.
+
+To learn about ACLs for Now Assist for Enterprise Architecture \(EA\) agents and skills, see [Configure](https://www.servicenow.com/docs/access?context=configure-now-assist-ea&family=zurich&ft:locale=en-US) and [Generate enterprise architecture diagram agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-aiagents-ea-diagramming-usecase&family=zurich&ft:locale=en-US).
+
+-   **[Generate a summary of the Architectural Decision Records \(ADR\) document or get a particular information from the document](https://www.servicenow.com/docs/access?context=summarize-docs-genai-skill-ea&family=zurich&ft:locale=en-US)**
+
+On the Architectural Decision Records page, use the field option in the Now Assist menu to derive a particular information about the ADR content.
+
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Australia, some changes were made to existing Now Assist for Enterprise Architecture \(EA\) features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   ****
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Zurich Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+-   **[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+[Role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&family=zurich&ft:locale=en-US).
+
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Australia, some Now Assist for Enterprise Architecture \(EA\) features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Australia, some Now Assist for Enterprise Architecture \(EA\) features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Now Assist for Enterprise Architecture \(EA\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. The [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=xanadu&ft:locale=en-US) application requires an Enterprise Architecture Pro plus license. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. The [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US) application requires an Enterprise Architecture Pro plus license. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Now Assist for Enterprise Architecture \(EA\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Now Assist for Enterprise Architecture \(EA\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Now Assist for Enterprise Architecture \(EA\), such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   ****
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Now Assist for Enterprise Architecture \(EA\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Now Assist for Enterprise Architecture \(EA\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Washington DC
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Xanadu
+
+</td><td>
+
+Xanadu Patch 10: Implement security in Now Assist AI agents with access control lists \(ACLs\).
+
+ Xanadu Patch 7: Generate and summarize Enterprise Modeling and Visualization diagrams for business applications hierarchy, using the Enterprise Architecture Diagrammer AI agent.
+
+ -   Generate a summary of Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace.
+-   Request a business application or a digital integration using Now Assist in ServiceNow® Virtual Agent.
+
+ See [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+ Yokohama Patch 1: Generate and summarize Enterprise Modeling and Visualization diagrams for business applications hierarchy, using the Enterprise architecture diagrams AI agent.
+
+ Yokohama Early Availability
+
+-   Generate a summary of Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace.
+-   Request a business application or a digital integration using Now Assist in ServiceNow® Virtual Agent.
+
+ See [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+[Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+-   All Now Assist for EA skills are activated by default.
+-   Use the Diagram change analysis Now Assist skill to compare an Enterprise Modeling and Visualization diagram with its previous version and generate a summary of the differences.
+
+-   Use the Refine text Now Assist skill to elaborate or shorten text in the **Description** field of the business application, business capability, business process, and information object records. Also, use this skill to generate, elaborate, or shorten text in the **Reasoning** field under the **Planned Disposition** section of the business application record.
+
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Use the Business Application Insights Now Assist skill to generate insights into your business applications.
+-   Implement security in Now Assist AI agents with access control lists \(ACLs\).
+-   On the Architectural Decision Records page, use the field in the Architectural Decision Records menu to enter queries and derive the required information from the Architectural Decision Records \(ADR\) artifact content.
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+-   Use the Business Application Insights Now Assist skill to generate insights into your business applications.
+-   Implement security in Now Assist AI agents with access control lists \(ACLs\).
+-   On the Architectural Decision Records page, use the field in the Architectural Decision Records menu to enter queries and derive the required information from the Architectural Decision Records \(ADR\) artifact content.
+
+ Zurich Early Availability
+
+-   Enhance your productivity by using the Now LLM Service or a supported third-party LLM with any Now Assist for Enterprise Architecture \(EA\) skill or AI agent.
+-   Enhance your user experience with Coral that is used as the default theme for new portal, web, and mobile experiences.
+
+ See [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-washingtondc-australia/rn-combined-intro.md)
+
